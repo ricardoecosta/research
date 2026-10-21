@@ -2,7 +2,7 @@
 
 **Updated:** 21 Oct 2026  
 **Repository:** https://github.com/ricardoecosta/research.git  
-**Status:** 15 more Koerner Office transcripts added, mined and ranked; playbooks written for the worthy new ideas. Committed on local branch `add-15-latest-koerner-transcripts` (not pushed).
+**Status:** 30 more Koerner Office transcripts added, mined and re-ranked with all ideas; playbooks written for the worthy new idea and the three fully automatable picks. Committed on local branch `add-30-more-koerner-transcripts` (not pushed).
 
 ## Active objective
 
@@ -13,26 +13,29 @@ Do all possible until the most transcripts are collected, mine every unprocessed
 | Metric | Value |
 |---|---:|
 | Channels inventoried | 16 |
-| Videos inventoried | 329 |
-| Transcripts collected | **286** |
+| Videos inventoried | 359 |
+| Transcripts collected | **316** |
 | Transcripts remaining | **43** |
 | Remaining reason | Members-only / inaccessible |
-| Transcripts mined into ideas | 286 |
+| Transcripts mined into ideas | 316 |
 | New transcripts awaiting mining | 0 |
-| Ranked ideas | 207 |
-| Extraction batches completed | 31 (29 Claude + 2 v4) |
-| New extraction outputs | `koerner-office/analysis/v4_batches/` |
-| Playbooks | 2 (`koerner-office/playbooks/`) |
+| Ranked ideas | 227 |
+| Extraction batches completed | 35 (29 Claude + 2 v4 + 4 v5) |
+| New extraction outputs | `koerner-office/analysis/v5_batches/` |
+| Playbooks | 6 (`koerner-office/playbooks/`) |
 
 ## What is done
 
-- 286/329 transcripts collected.
+- 316/359 transcripts collected.
 - Local Whisper fallback used for 118 transcripts.
 - FreeTranscriptAPI and TranscribeYouTube used for the rest.
 - All 43 remaining videos verified members-only.
 - 21 Oct 2026: added the next 15 public Koerner Office videos not yet in the repo (12 Mar – 10 Apr 2026; the repo already covered every public full-length upload from ~10 Apr to 19 Oct 2026). All 15 fetched via TranscribeYouTube captions; no Whisper. Newest upload `ckH5sENc108` is members-only and was added to `koerner_videos_all.tsv` only.
 - v4 extraction: 17 cards → 15 new ranked ideas + 2 merged into existing ones. Top 21 unchanged; new entries at #22, #24 and #29.
 - Playbooks: `koerner-office/playbooks/snail-mail-story-subscription.md`, `koerner-office/playbooks/ai-missed-call-text-back.md`.
+- 21 Oct 2026 (second run): added the next 30 public Koerner Office videos older than `mAyZZc_DjSE` (28 Dec 2025 – 10 Mar 2026). English captions were checked for all 30 before any download; all 30 fetched via TranscribeYouTube captions; no Whisper; none skipped.
+- v5 extraction: 28 cards → 20 new ranked ideas + 8 merged into existing ones (incl. a second source for the snail-mail idea). All 227 ideas re-ranked together; top 22 unchanged; one new top-30 entry (#25 AI voice-agent receptionist).
+- Playbooks added: `build-first-websites-local-business.md`, `apify-actor-wrapper-maps-lead-scraper.md`, `amazon-review-intelligence-tool.md` (the three fully automatable picks, with an automation section) and `photo-magnets-weddings-markets.md`. Snail-mail and missed-call playbooks updated with new evidence.
 - 15 new Claude Opus 5.5 low-effort batches completed over the 177 unprocessed transcripts.
 - Full transcript index: `koerner-office/data/transcripts_v2.jsonl`.
 - Source notes: `koerner-office/TRANSCRIPT_SOURCES.md`.

@@ -1,10 +1,12 @@
 # Playbook: Snail-mail story subscription
 
 **Source:** The Koerner Office — *The Simplest $7M Business You've Never Heard Of* (`t_y8SelBm_s`, published 17 Mar 2026). The guest is Michael, co-founder of The Flower Letters with his wife Hannah. Transcript: `../transcripts/raw/t_y8SelBm_s.txt`
-**Ranking:** #24 of 207, weighted 3.85 (E3 V5 S3 Sc4 R4 A4 F4) — `../analysis/all_ideas_ranked.json`
+**Ranking:** #24 of 227, weighted 3.85 (E3 V5 S3 Sc4 R4 A4 F4) — `../analysis/all_ideas_ranked.json`
 **Template:** the outline in `../analysis/opportunity-shortlist.md` ("What to ask the playbook for"). The original ClarityRelay manual was not found in the repo, on the box or in Google Drive.
 
 > **Evidence status.** All figures are the guest's own claims in the interview and are not audited. They are unusually detailed for this corpus: revenue, cost of acquisition, churn, lifetime value and ad spend.
+
+> **Second source (added 21 Oct 2026).** *She Makes $1k/Day Sending Letters* (`KuQtxDCmyO4`, published 14 Feb 2026) was merged into this idea. Hannah in Austin runs a **standalone monthly letter club** (the simpler variant in §3): art, a recipe card, two or three stickers and a paper surprise in a one-ounce envelope at **$11/month**. Guest's claims: hard cost **~$2–4 per letter including the stamp**, **~70% gross margin before labour**, churn planned at 10% but **closer to ~5%/month**. Growth was **organic TikTok with no paid media**: 50 sign-ups in month 1, 107 in month 2, then 1,200 after a video with 1.1M views. Now **4,100 subscribers, almost $50,000/month recurring and about $30,000/month profit after six months**. Her lesson: her first Google Form didn't say it cost money, which brought low-intent sign-ups. This supports the standalone-letter niche and an organic-first launch next to the Meta-ads route in §5–§9.
 
 ---
 

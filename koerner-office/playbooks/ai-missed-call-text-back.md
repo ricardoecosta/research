@@ -1,10 +1,12 @@
 # Playbook: AI missed-call text-back agent for local trades
 
 **Source:** The Koerner Office — *This Might Be the Easiest Way to Sell AI to Businesses* (`g4-3AxelI_Y`, published 3 Apr 2026). Transcript: `../transcripts/raw/g4-3AxelI_Y.txt`
-**Ranking:** #22 of 207, weighted 3.90 (E4 V4 S4 Sc4 R3 A4 F4) — `../analysis/all_ideas_ranked.json`
+**Ranking:** #22 of 227, weighted 3.90 (E4 V4 S4 Sc4 R3 A4 F4) — `../analysis/all_ideas_ranked.json`
 **Template:** the outline in `../analysis/opportunity-shortlist.md` ("What to ask the playbook for"). The original ClarityRelay manual was not found in the repo, on the box or in Google Drive.
 
 > **Evidence status.** Every money figure below is the presenter's own claim. The video shows the build and one live prospect reply asking about price, but **no closed sale**. GoHighLevel sponsors the video. This idea overlaps ClarityRelay (AI support agents). Treat it as a cheap add-on or a separate SMS channel, not as a new business.
+
+> **Related idea (added 21 Oct 2026).** *AI voice-agent receptionist for local service businesses* (#25 of 227, 3.85; `tKTlzugGgYw`, `AWesz6TJRcA`) is the voice version of this offer and got no separate playbook because it duplicates this one. The claims: "$500 to $2,000 a month" for voice agents (presenter), and barber installs at "$2,500 to $5,000 upfront plus hundreds of dollars a month" (`AWesz6TJRcA`). The first barber agent was built free for a busy barber in a salon-suite building, as a proof case for the other owners there. The prospecting demo is the same as §4–§5: Outscraper (about 1,400 scraped businesses cleaned to about 500 with phones), then a ringless voicemail drop. The same UK PECR caution applies.
 
 ---
 

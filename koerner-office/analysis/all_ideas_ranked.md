@@ -1,6 +1,6 @@
 # All Ideas — Ranked
 
-**Corpus:** 16 channels, 329 videos inventoried, **286 transcripts available**, **207 deduplicated ideas ranked**
+**Corpus:** 16 channels, 359 videos inventoried, **316 transcripts available**, **227 deduplicated ideas ranked**
 
 **Files:** `all_ideas_ranked.csv` (all ideas), `all_ideas_ranked.json` (full cards).
 
@@ -32,20 +32,72 @@
 | 22 | AI missed-call text-back agent for local trades | 3.90 | 4 | 4 | 4 | 4 | 3 | 4 | 4 | AI support/implementation |
 | 23 | Vibe-coded websites for local business owners | 3.85 | 4 | 4 | 5 | 3 | 3 | 3 | 4 | Local websites |
 | 24 | Snail-mail story subscription | 3.85 | 3 | 5 | 3 | 4 | 4 | 4 | 4 | Gifting |
-| 25 | AI audits for small businesses | 3.80 | 4 | 4 | 4 | 3 | 4 | 3 | 4 | AI support/implementation |
-| 26 | AI implementation retainer for SMBs | 3.80 | 3 | 5 | 4 | 3 | 4 | 3 | 4 | AI support/implementation |
-| 27 | Niche single-function utility/calculator sites | 3.80 | 4 | 4 | 2 | 5 | 3 | 5 | 4 | Other |
-| 28 | Subcontracted home service brand (cleaning / holiday lighting) | 3.80 | 3 | 5 | 4 | 4 | 3 | 3 | 3 | Cleaning |
-| 29 | Facebook Marketplace deal-alert feed for flippers | 3.80 | 4 | 3 | 4 | 5 | 3 | 5 | 3 | API arbitrage / scrapers |
-| 30 | Multilingual voice-cloned voicemails for estate agents | 3.75 | 4 | 3 | 4 | 4 | 3 | 5 | 5 | Multilingual voice-cloned voicemails for estate agents |
+| 25 | AI voice-agent receptionist for local service businesses | 3.85 | 4 | 4 | 4 | 4 | 3 | 3 | 4 | AI support/implementation |
+| 26 | AI audits for small businesses | 3.80 | 4 | 4 | 4 | 3 | 4 | 3 | 4 | AI support/implementation |
+| 27 | AI implementation retainer for SMBs | 3.80 | 3 | 5 | 4 | 3 | 4 | 3 | 4 | AI support/implementation |
+| 28 | Niche single-function utility/calculator sites | 3.80 | 4 | 4 | 2 | 5 | 3 | 5 | 4 | Other |
+| 29 | Subcontracted home service brand (cleaning / holiday lighting) | 3.80 | 3 | 5 | 4 | 4 | 3 | 3 | 3 | Cleaning |
+| 30 | Facebook Marketplace deal-alert feed for flippers | 3.80 | 4 | 3 | 4 | 5 | 3 | 5 | 3 | API arbitrage / scrapers |
 
 E = effort ease (5 = least effort), V = value, S = speed to cash, Sc = scalability, R = realism, A = async fit, F = founder fit.
 
-## New in this run (15 Koerner Office videos, Mar–Apr 2026)
+## New in this run (30 Koerner Office videos, Dec 2025 – Mar 2026)
 
-15 older public Koerner Office videos (12 Mar – 10 Apr 2026) were added and mined in `v4_batches/`. 17 cards were extracted: 15 new ideas were added to the ranking and 2 were merged into existing ideas (calculator sites into *Niche calculator website with display ads*; paid locator listings into *Niche directory website*). The top 21 are unchanged.
+30 older public Koerner Office videos (28 Dec 2025 – 10 Mar 2026) were added and mined in `v5_batches/`. 28 cards were extracted (J_zOrHovF9Y is a mindset talk with no business idea; the -kwF1zol2gQ listicle gave one card). 20 new ideas were added and 8 cards were merged into existing ideas. All 227 ideas were re-ranked together with the same rubric.
+
+The top 22 are unchanged. One new idea entered the top 30 (*AI voice-agent receptionist for local service businesses*, #25), and *Snail-mail story subscription* held #24 with a second, stronger source (KuQtxDCmyO4). *Multilingual voice-cloned voicemails for estate agents* dropped out of the top 30 (#30 → #32); *Facebook Marketplace deal-alert feed for flippers* moved from #29 to #30.
 
 | New rank | Idea | Score | Source |
+|---:|---|---:|---|
+| 25 | AI voice-agent receptionist for local service businesses | 3.85 | tKTlzugGgYw, AWesz6TJRcA |
+| 31 | Vibe-coded niche CRM for one trade, sold to scraped custom audiences | 3.80 | r2-1c_T6F34 |
+| 36 | Competitor-content monitoring digest | 3.75 | KtAGjnWViMQ |
+| 37 | Curated-content Facebook page monetisation | 3.75 | IPnafDDgj6o |
+| 85 | Scrape a marketplace and sell leads or a value-add service to one side | 3.50 | SQ-OSmDMsFI |
+| 98 | Custom photo magnets at weddings and markets | 3.45 | N0NceZbY2_4 |
+| 107 | Parking-lot striping and sealcoating won by cold email | 3.40 | iuQ_Y-qSz78 |
+| 119 | Founder newsletter grown with paid subscriber acquisition | 3.30 | 4AWlBGVQ8nA |
+| 120 | Forestry mulching with a skid steer | 3.30 | haUsXY0RQFE |
+| 128 | Custom AI dashboards for professional-services firms | 3.25 | TmbO1tGlz5s |
+| 139 | Seller-financed acquisition of a small business | 3.15 | UeeaWuSOnkI |
+| 140 | High-ticket deck building with one-meeting closes | 3.15 | pwybTbHZU-w |
+| 146 | Snack and jerky rack route to gas stations | 3.10 | YoD0hFqX9W8 |
+| 158 | Buy into an overlooked service franchise | 3.05 | t2m_Dqk4_Dc |
+| 169 | Fractional CFO agency | 3.00 | TmbO1tGlz5s |
+| 181 | Car-seat deep-cleaning service | 2.90 | -kwF1zol2gQ |
+| 186 | RC excavator sandbox at fairs and in a store | 2.85 | BAnpwRCDPjQ |
+| 193 | Turning cheap unwanted land into rentable spots | 2.80 | Cvs_HhGD18o |
+| 200 | Dehydrated colostrum and dried-food products | 2.75 | RaFPcXDFObM |
+| 218 | Park hole-in-one challenge pop-up | 2.50 | FFYu4JQ7dqw |
+
+Merged into existing ideas (scores unchanged; evidence, tools, risks and sources appended):
+
+| Rank | Existing idea | Score | Merged card |
+|---:|---|---:|---|
+| 24 | Snail-mail story subscription | 3.85 | Monthly letter subscription (standalone letters) |
+| 27 | AI implementation retainer for SMBs | 3.80 | Agent-setup service on OpenClaw for small businesses |
+| 45 | AI-built websites for local businesses with no site | 3.65 | Vibe-coded one-prompt websites sold to local businesses |
+| 51 | AI proficiency training and implementation retainer for companies | 3.65 | AI consulting / fractional AI officer for companies |
+| 96 | AI-sourced private-label product on Amazon/Shopify | 3.45 | Scrape Amazon best-sellers to pick an import product |
+| 160 | AI character or influencer accounts | 3.00 | AI influencer accounts paid per view |
+| 219 | Local junk removal | 2.45 | Junk removal with a pickup truck |
+| 221 | Liquidation pallet reselling | 2.40 | Liquidation and overstock reselling |
+
+### Best ideas to prove with full automation
+
+Three ideas were picked as the best candidates whose first validation phase (probe, outreach and delivery of the first sales) can run on software and agents with little manual work. Each has a playbook with an automation section in `../playbooks/`:
+
+1. *Build-first websites for local businesses on a monthly subscription* (#1) – `../playbooks/build-first-websites-local-business.md`
+2. *API arbitrage / Apify actor wrapper* (#2), launched with *Niche Google Maps lead scraper* (#3) as the first actor – `../playbooks/apify-actor-wrapper-maps-lead-scraper.md`
+3. *Amazon review intelligence tool* (#7) – `../playbooks/amazon-review-intelligence-tool.md`
+
+Higher- or equal-ranked ideas passed over: #4 and #5 (cleaning and home-service brokerage need physical crews and phone coordination), #6 (Shopify customer-service bot needs per-store mailbox access and carries a live-email hallucination risk), #8 (referral broker is relationship-driven), #9 (booking widget needs per-trade install and sales calls), #10 (cake gifting is physical logistics), #11 (trailer leasing needs capital and physical assets).
+
+## Previous run (15 Koerner Office videos, Mar–Apr 2026)
+
+15 older public Koerner Office videos (12 Mar – 10 Apr 2026) were added and mined in `v4_batches/`. 17 cards were extracted: 15 new ideas were added to the ranking and 2 were merged into existing ideas (calculator sites into *Niche calculator website with display ads*; paid locator listings into *Niche directory website*). The top 21 were unchanged. Ranks below are as of that run.
+
+| Rank then | Idea | Score | Source |
 |---:|---|---:|---|
 | 22 | AI missed-call text-back agent for local trades | 3.90 | g4-3AxelI_Y |
 | 24 | Snail-mail story subscription | 3.85 | t_y8SelBm_s |
@@ -69,7 +121,7 @@ Playbooks for the worthy new ideas are in `../playbooks/`.
 
 It was **not in the first 60-video selection**. The first pass ranked videos by title keywords and only mined the top 60. Chalkboard/community boards came from `McQucrnkSt0` — *The Simplest $10K+/M Business You’ve Never Heard Of* — which scored low on the title filter.
 
-It is now included as **“Restaurant community boards / chalkboard ad boards”** and ranks **#88 of 207** with a weighted score of **3.45**.
+It is now included as **“Restaurant community boards / chalkboard ad boards”** and ranks **#93 of 227** with a weighted score of **3.45**.
 
 Why it sits mid-table:
 
@@ -138,7 +190,7 @@ Rebrand HighLevel's all-in-one marketing, booking and CRM software as a product 
 
 ## Caveats
 
-- 286 transcripts available; 43 members-only videos remain inaccessible.
+- 316 transcripts available; 43 members-only videos remain inaccessible.
 - Opportunity extraction is LLM-assisted; scores are research judgments, not audited financials.
 - Revenue claims come from YouTube creators and are not independently verified.
 - See `TRANSCRIPT_SOURCES.md` and `state.md` for source/retry status.

@@ -5,22 +5,22 @@
 A reproducible research pack for mining YouTube business-opportunity content.
 
 **Sources**
-- The Koerner Office Podcast — 120 latest videos, plus the next 15 older public videos (Mar–Apr 2026)
+- The Koerner Office Podcast — 120 latest videos, plus the next 15 older public videos (Mar–Apr 2026) and the 30 before those (Dec 2025 – Mar 2026)
 - Adjacent/smaller channels: Harry's Stealth Wealth, David Heacock, Johnny & Sergio, Tim Richard, Casper Capital, Mikey No Code, Dark Horse Entrepreneur, George McConnell, Side Hustle Nation, Starter Story, UpFlip, My First Million, Niche Pursuits, Nick Huber, Codie Sanchez
 
 **Outputs**
 - `data/channels.csv` — channels and requested video counts
-- `data/videos_v2.csv` — 329 videos inventoried across 16 channels
+- `data/videos_v2.csv` — 359 videos inventoried across 16 channels
 - `data/koerner_videos_all.tsv` — full 461-video Koerner channel inventory
 - `data/selected_videos_all.csv` / `analysis/selected_videos_all.csv` — all available transcripts selected
 - `data/transcripts_v2.jsonl` — transcript fetch status, paths, character counts
-- `transcripts/raw/<video_id>.txt` — 286 fetched English transcripts
+- `transcripts/raw/<video_id>.txt` — 316 fetched English transcripts
 - `scripts/fetch_transcripts.py` — reproducible fetcher (youtube-transcript-api)
-- `analysis/batches/`, `analysis/v2_batches/`, `analysis/v3_batches/`, `analysis/v4_batches/` — extraction batches
-- `analysis/all_ideas_ranked.json` — 207 deduplicated opportunities, scored
+- `analysis/batches/`, `analysis/v2_batches/`, `analysis/v3_batches/`, `analysis/v4_batches/`, `analysis/v5_batches/` — extraction batches
+- `analysis/all_ideas_ranked.json` — 227 deduplicated opportunities, scored
 - `analysis/all_ideas_ranked.csv` — spreadsheet-friendly version
 - `analysis/opportunity-shortlist.md` / `analysis/all_ideas_ranked.md` — operator rundown
-- `playbooks/` — operator playbooks for worthy new ideas
+- `playbooks/` — operator playbooks for worthy new ideas and the three fully automatable picks (6 playbooks)
 
 ## Method
 
