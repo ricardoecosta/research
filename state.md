@@ -2,7 +2,7 @@
 
 **Updated:** 21 Oct 2026  
 **Repository:** https://github.com/ricardoecosta/research.git  
-**Status:** Transcript collection complete at practical maximum; idea mining in progress.
+**Status:** Transcript collection complete at practical maximum; all transcripts mined and ranked.
 
 ## Active objective
 
@@ -17,10 +17,10 @@ Do all possible until the most transcripts are collected, mine every unprocessed
 | Transcripts collected | **271** |
 | Transcripts remaining | **43** |
 | Remaining reason | Members-only / inaccessible |
-| Transcripts mined into ideas | 147 |
-| New transcripts awaiting mining | 124 |
-| Ranked ideas (previous pass) | 96 |
-| New Claude extraction batches completed | 15 |
+| Transcripts mined into ideas | 271 |
+| New transcripts awaiting mining | 0 |
+| Ranked ideas | 192 |
+| Claude extraction batches completed | 29 |
 | New extraction outputs | `koerner-office/analysis/v3_batches/` |
 
 ## What is done
@@ -35,11 +35,9 @@ Do all possible until the most transcripts are collected, mine every unprocessed
 
 ## Next steps
 
-1. Parse the 15 new batch outputs.
-2. Deduplicate and merge into `koerner-office/analysis/all_ideas_ranked.csv`.
-3. Regenerate `all_ideas_ranked.md`.
-4. Commit and push the updated ranking.
-5. Continue mining any remaining unprocessed transcripts.
+1. Keep `state.md` updated after each run.
+2. Re-push when new data is added.
+3. No further transcript mining is possible without members-only access.
 
 ## Key files
 
