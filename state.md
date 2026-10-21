@@ -2,7 +2,7 @@
 
 **Updated:** 21 Oct 2026  
 **Repository:** https://github.com/ricardoecosta/research.git  
-**Status:** 30 more Koerner Office transcripts added, mined and re-ranked with all ideas; playbooks written for the worthy new idea and the three fully automatable picks. Committed on local branch `add-30-more-koerner-transcripts` (not pushed).
+**Status:** 316/359 transcripts collected and mined; 227 ideas ranked; 43 remaining videos verified members-only and inaccessible. Pushed to `origin/main`.
 
 ## Active objective
 
@@ -29,7 +29,7 @@ Do all possible until the most transcripts are collected, mine every unprocessed
 - 316/359 transcripts collected.
 - Local Whisper fallback used for 118 transcripts.
 - FreeTranscriptAPI and TranscribeYouTube used for the rest.
-- All 43 remaining videos verified members-only.
+- All 43 remaining videos verified members-only; no public transcripts remain.
 - 21 Oct 2026: added the next 15 public Koerner Office videos not yet in the repo (12 Mar – 10 Apr 2026; the repo already covered every public full-length upload from ~10 Apr to 19 Oct 2026). All 15 fetched via TranscribeYouTube captions; no Whisper. Newest upload `ckH5sENc108` is members-only and was added to `koerner_videos_all.tsv` only.
 - v4 extraction: 17 cards → 15 new ranked ideas + 2 merged into existing ones. Top 21 unchanged; new entries at #22, #24 and #29.
 - Playbooks: `koerner-office/playbooks/snail-mail-story-subscription.md`, `koerner-office/playbooks/ai-missed-call-text-back.md`.
