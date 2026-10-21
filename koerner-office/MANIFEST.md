@@ -5,24 +5,25 @@
 | Deliverable | Path | Status |
 |---|---|---|
 | Channel inventory | `data/channels_v2.csv` | 16 channels |
-| Combined video inventory | `data/videos_v2.csv` | 314 videos |
-| Full Koerner channel inventory | `data/koerner_videos_all.tsv` | 460 videos |
-| Selected videos (analysed) | `analysis/selected_videos_all.csv` | 271 fetched |
-| Transcript fetch index | `data/transcripts_v2.jsonl` | 314 records |
-| Raw transcripts | `transcripts/raw/*.txt` | 271 English transcripts |
-| Extraction batches | `analysis/v2_batches/` | 14 batches |
-| Ranked opportunities | `analysis/all_ideas_ranked.json` | 192 ranked |
-| Spreadsheet view | `analysis/all_ideas_ranked.csv` | 192 rows |
+| Combined video inventory | `data/videos_v2.csv` | 329 videos |
+| Full Koerner channel inventory | `data/koerner_videos_all.tsv` | 461 videos |
+| Selected videos (analysed) | `analysis/selected_videos_all.csv` | 286 fetched |
+| Transcript fetch index | `data/transcripts_v2.jsonl` | 329 records |
+| Raw transcripts | `transcripts/raw/*.txt` | 286 English transcripts |
+| Extraction batches | `analysis/v2_batches/`, `analysis/v3_batches/`, `analysis/v4_batches/` | 14 + 15 + 2 batches |
+| Ranked opportunities | `analysis/all_ideas_ranked.json` | 207 ranked |
+| Spreadsheet view | `analysis/all_ideas_ranked.csv` | 207 rows |
+| Playbooks for worthy new ideas | `playbooks/*.md` | 2 playbooks |
 | Operator rundown | `analysis/all_ideas_ranked.md` | Top 30 + recommendations |
 | Method and caveats | `README.md` | Complete |
 
 ## Verification
 
-- 271 transcripts available; 192 ideas ranked.
-- 271/314 inventoried videos have transcripts; 43 are members-only and inaccessible.
-- 14 Claude Opus 5.5 (low effort) extraction batches completed.
-- 192 ranked opportunity cards from 271 transcripts; 0 unprocessed.
-- Ranked CSV and JSON contain the same 192 opportunity names.
+- 286 transcripts available; 207 ideas ranked.
+- 286/329 inventoried videos have transcripts; 43 are members-only and inaccessible.
+- 14 + 15 Claude Opus 5.5 (low effort) extraction batches completed, plus 2 LLM-assisted v4 batches (15 Koerner Office videos, Mar–Apr 2026) on 21 Oct 2026.
+- 207 ranked opportunity cards from 286 transcripts; 0 unprocessed.
+- Ranked CSV and JSON contain the same 207 opportunity names.
 - All artifacts live under `research/koerner-office/`.
 
 ## Reproduce

@@ -731,24 +731,30 @@
     "tools": [
       "Abacus ChatLLM / RouteLLM agent",
       "AI site builder",
-      "SEO keyword tools"
+      "SEO keyword tools",
+      "directory site",
+      "Stripe"
     ],
     "evidence": [
       "'You can monetize with ads, subscriptions, or you can collect leads organically and sell them to the businesses that are listed' (CKiszDu2aic)",
       "'It used to take a developer months... today we can do that in minutes' (CKiszDu2aic)",
-      "No revenue figures given, so evidence is weak"
+      "No revenue figures given, so evidence is weak",
+      "Drone pilots pay about $500/year to be listed on the pilot locator map \u2013 eD2AMYAR8tA"
     ],
     "risks": [
       "Depends on SEO, and AI search answers are taking traffic away",
       "No revenue proof in the video",
       "Low barrier to entry means copycats",
-      "Listings must be kept up to date"
+      "Listings must be kept up to date",
+      "Needs an audience of buyers first",
+      "Small niche"
     ],
     "source_video_ids": [
       "CKiszDu2aic",
-      "To7rzBBjewk"
+      "To7rzBBjewk",
+      "eD2AMYAR8tA"
     ],
-    "_count": 2,
+    "_count": 3,
     "cluster": "Local websites",
     "weighted": 3.9
   },
@@ -793,6 +799,48 @@
     "weighted": 3.9
   },
   {
+    "name": "AI missed-call text-back agent for local trades",
+    "one_liner": "Install a GoHighLevel workflow that texts back missed calls, holds an AI SMS conversation, and books estimates; sell it monthly to trades and prospect with the same workflow.",
+    "customer": "Local service businesses (tree trimming, plumbing, HVAC) that miss calls",
+    "offer": "Done-for-you AI SMS agent: missed-call trigger, AI conversation, booked/emergency/unqualified branches, owner alerts",
+    "how_it_makes_money": "$500\u20132,000/month per client (presenter's range); demo pitch is $500/month with a 'pays for itself in 90 days or it's free' guarantee",
+    "startup_cost": "low \u2013 GoHighLevel subscription (30-day trial via sponsor link) plus scraping and voicemail-drop tools",
+    "time_to_first_revenue": "days to weeks",
+    "effort_ease": 4,
+    "value_potential": 4,
+    "speed_to_cash": 4,
+    "scalability": 4,
+    "realism": 3,
+    "async_fit": 4,
+    "founder_fit_uk_portugal": 4,
+    "tools": [
+      "GoHighLevel",
+      "Claude/ChatGPT",
+      "Outscraper",
+      "ringless voicemail tool (\"Slack Broadcast\" in the transcript, likely Slybroadcast)"
+    ],
+    "evidence": [
+      "'This is a $500 to $2,000 a month per client service' \u2013 g4-3AxelI_Y",
+      "'57% of sales goes to whoever responds first' \u2013 g4-3AxelI_Y",
+      "Ringless voicemail drop to 173 Dallas tree-trimming numbers produced a live call-back that asked about cost on camera; no sale closed in the video \u2013 g4-3AxelI_Y",
+      "A 16-year-old reportedly found a plumber client with ringless voicemail drops \u2013 g4-3AxelI_Y",
+      "One workflow can be duplicated for each new client and trade \u2013 g4-3AxelI_Y"
+    ],
+    "risks": [
+      "No closed revenue shown; pricing is the presenter's claim",
+      "GoHighLevel sponsors the video",
+      "Ringless voicemail and unsolicited marketing texts are restricted under UK PECR/GDPR",
+      "Overlaps the AI support-agent offer already covered by ClarityRelay",
+      "Crowded offer among GHL resellers"
+    ],
+    "source_video_ids": [
+      "g4-3AxelI_Y"
+    ],
+    "cluster": "AI support/implementation",
+    "weighted": 3.9,
+    "_count": 1
+  },
+  {
     "name": "Vibe-coded websites for local business owners",
     "one_liner": "Build websites for small business owners quickly with AI coding tools and sell them through direct outreach.",
     "customer": "Small and local business owners",
@@ -828,6 +876,47 @@
     "_count": 1,
     "cluster": "Local websites",
     "weighted": 3.85
+  },
+  {
+    "name": "Snail-mail story subscription",
+    "one_liner": "Sell a serialised story told through physical letters (two a month) as a subscription and gift, grown with Meta ads and email.",
+    "customer": "Women buying for themselves or as a gift for mothers (Mother's Day is the peak)",
+    "offer": "Two letters a month telling a story over a year, with stationery, postcards and stickers; prepaid annual option",
+    "how_it_makes_money": "$12/month or ~$100 prepaid per story; LTV about $180; email drives 38\u201350% of revenue",
+    "startup_cost": "low \u2013 early per-shipment cost about $2\u20133 (stamp, envelope, paper, extras)",
+    "time_to_first_revenue": "weeks (33 sign-ups at launch; first letters sent within a month)",
+    "effort_ease": 3,
+    "value_potential": 5,
+    "speed_to_cash": 3,
+    "scalability": 4,
+    "realism": 4,
+    "async_fit": 4,
+    "founder_fit_uk_portugal": 4,
+    "tools": [
+      "Meta ads",
+      "email marketing",
+      "Instagram",
+      "subscription software"
+    ],
+    "evidence": [
+      "$7M revenue last year; ~120,000 letters/month \u2013 t_y8SelBm_s",
+      "$36,000/month recurring within the first 4 months, mostly profit \u2013 t_y8SelBm_s",
+      "Early CPA $15\u201320, now $40\u201350; spent $2.6M on Meta last year \u2013 t_y8SelBm_s",
+      "Churn about 5%; prepaid option is 'the key to our growth' \u2013 t_y8SelBm_s",
+      "Roughly a third of revenue on goods and postage, a third on Meta ads (host's estimate, guest agreed) \u2013 t_y8SelBm_s"
+    ],
+    "risks": [
+      "Needs a strong writer; serialised stories are hard",
+      "Meta ad dependency and rising CPA",
+      "Manual fulfilment (they have had up to 25 staff)",
+      "UK postage costs differ from US"
+    ],
+    "source_video_ids": [
+      "t_y8SelBm_s"
+    ],
+    "cluster": "Gifting",
+    "weighted": 3.85,
+    "_count": 1
   },
   {
     "name": "AI audits for small businesses",
@@ -987,6 +1076,44 @@
     "_count": 1
   },
   {
+    "name": "Facebook Marketplace deal-alert feed for flippers",
+    "one_liner": "Scrape Marketplace for underpriced listings on a schedule and sell niche deal alerts (or the leads) to resellers, flippers and investors.",
+    "customer": "High-volume resellers (appliances, treadmills, sheds), real-estate flippers, local businesses wanting leads",
+    "offer": "Daily/hourly alerts or a spreadsheet of new listings filtered by item, price and location; or one 'radar' micro-tool per category",
+    "how_it_makes_money": "Subscriptions: presenter suggests serious flippers would pay $30\u2013150/month; cites an existing $29.99/month tool and $5/month category 'radar' tools; or sell high-value leads",
+    "startup_cost": "low \u2013 scraping API plus a no-code front end",
+    "time_to_first_revenue": "weeks",
+    "effort_ease": 4,
+    "value_potential": 3,
+    "speed_to_cash": 4,
+    "scalability": 5,
+    "realism": 3,
+    "async_fit": 5,
+    "founder_fit_uk_portugal": 3,
+    "tools": [
+      "Oxylabs scraping",
+      "no-code app builder",
+      "email/spreadsheet delivery"
+    ],
+    "evidence": [
+      "Existing Marketplace deal tool priced at $29.99/month \u2013 CVlZdvDthOM",
+      "Category 'radar' tools (e.g. appliances) at ~$5/month \u2013 CVlZdvDthOM",
+      "Friend in North Carolina reportedly nets $600,000/year flipping sheds found on Marketplace \u2013 CVlZdvDthOM"
+    ],
+    "risks": [
+      "Scraping Facebook may breach its terms",
+      "No revenue shown for the tool itself",
+      "Easy to copy",
+      "Sponsored segments in video"
+    ],
+    "source_video_ids": [
+      "CVlZdvDthOM"
+    ],
+    "cluster": "API arbitrage / scrapers",
+    "weighted": 3.8,
+    "_count": 1
+  },
+  {
     "name": "Multilingual voice-cloned voicemails for estate agents",
     "one_liner": "Clone an agent's voice and produce a library of personalised voicemails in their clients' native languages.",
     "customer": "Estate agents and realtors whose buyer base includes many non-native speakers",
@@ -1121,23 +1248,36 @@
       "Ahrefs",
       "Similarweb",
       "Google AdSense/Mediavine",
-      "Static site/AI coding"
+      "Static site/AI coding",
+      "Hostinger Horizons",
+      "Ahrefs/Semrush",
+      "Google AdSense",
+      "Google Trends"
     ],
     "evidence": [
       "sleepcalculator.com: 1.63M visitors/month, estimated at about $36,696/month - av5mwEWE-_I",
       "About 600K organic visitors a month (Ahrefs) - av5mwEWE-_I",
-      "The snow day calculator gets 2.9M visitors/month, but traffic is seasonal - av5mwEWE-_I"
+      "The snow day calculator gets 2.9M visitors/month, but traffic is seasonal - av5mwEWE-_I",
+      "Paycheck calculator site gets 700,000+ unique visitors/month; presenter values it at ~$1.1M on ads alone \u2013 Wl0NMNbYRDk",
+      "Calculator network with 3,700+ calculators and 17M visitors/month, 70 staff, >$500,000/month revenue \u2013 Wl0NMNbYRDk",
+      "Ahrefs shows ~36,000 keyword clusters containing 'calculator' \u2013 Wl0NMNbYRDk",
+      "Pet cremation cost calculator generates leads sold to vets and cremation facilities \u2013 Wl0NMNbYRDk"
     ],
     "risks": [
       "Revenue figures are third-party estimates, not confirmed",
       "Google AI Overviews can answer simple calculations directly",
       "SEO is slow and uncertain",
-      "Seasonal traffic"
+      "Seasonal traffic",
+      "SEO is slow and AI answers may absorb calculator queries",
+      "Ad revenue per visitor is low",
+      "Email-gating can hurt rankings and UX",
+      "Presenter has a Hostinger affiliate code"
     ],
     "source_video_ids": [
-      "av5mwEWE-_I"
+      "av5mwEWE-_I",
+      "Wl0NMNbYRDk"
     ],
-    "_count": 1,
+    "_count": 2,
     "cluster": "Local websites",
     "weighted": 3.75
   },
@@ -1600,6 +1740,124 @@
     "_count": 1,
     "cluster": "Content/education/community",
     "weighted": 3.65
+  },
+  {
+    "name": "Vibe-coded challenger SaaS to a VC-funded tool, tiered pricing",
+    "one_liner": "A non-coder builds a cheaper competitor to a well-funded SaaS with AI coding agents and sells it on $9/$39/$99 tiers, with AI agents handling support and growth.",
+    "customer": "Creators and small businesses priced out of the funded incumbent",
+    "offer": "A narrower, cheaper version of an existing funded product, on monthly/yearly/quarterly plans",
+    "how_it_makes_money": "Tiered subscriptions ($9, $39, $99); quarterly-plan upsell popup; targets 70\u201380% gross margin on API credits",
+    "startup_cost": "low\u2013medium \u2013 ~$200\u2013600/month on coding-agent subscriptions plus API credits",
+    "time_to_first_revenue": "weeks (claimed $5,000 in the last 30 days, a couple of months after building)",
+    "effort_ease": 3,
+    "value_potential": 4,
+    "speed_to_cash": 3,
+    "scalability": 5,
+    "realism": 3,
+    "async_fit": 5,
+    "founder_fit_uk_portugal": 3,
+    "tools": [
+      "Claude Code",
+      "Codex",
+      "PostHog",
+      "AI agents"
+    ],
+    "evidence": [
+      "18-year-old non-coder says the app made $5,000 in the last 30 days \u2013 JHz6mikOPWw",
+      "App competes with a company that raised $50 million \u2013 JHz6mikOPWw",
+      "Replacing the free plan with a $9/month plan made people start buying \u2013 JHz6mikOPWw",
+      "Agents cost him ~$200\u2013400/month and do work he values at a $50\u201370K/year job \u2013 JHz6mikOPWw"
+    ],
+    "risks": [
+      "Single young-founder claim",
+      "API/credit costs can erase margin",
+      "Incumbent can cut prices",
+      "Support load as users grow"
+    ],
+    "source_video_ids": [
+      "JHz6mikOPWw"
+    ],
+    "cluster": "Micro-SaaS/apps",
+    "weighted": 3.65,
+    "_count": 1
+  },
+  {
+    "name": "AI proficiency training and implementation retainer for companies",
+    "one_liner": "Sell companies a monthly retainer to train staff on AI and build automations that replace costly roles, priced on the savings.",
+    "customer": "Established small and mid-size companies that know they should use AI but have not",
+    "offer": "Monthly packages of training and build hours (e.g. $10K for 12\u201315 hours/month, $25K for 50\u201360 hours/month)",
+    "how_it_makes_money": "High-ticket monthly retainers ($10\u201325K/month) sold on one-call closes",
+    "startup_cost": "very low \u2013 started with about $400",
+    "time_to_first_revenue": "days (first $15,000 customer within a week of starting, per the guest)",
+    "effort_ease": 3,
+    "value_potential": 5,
+    "speed_to_cash": 4,
+    "scalability": 3,
+    "realism": 3,
+    "async_fit": 2,
+    "founder_fit_uk_portugal": 4,
+    "tools": [
+      "ChatGPT/Claude",
+      "vibe-coding tools",
+      "phone outreach"
+    ],
+    "evidence": [
+      "Guest started with ~$400 and did $2.5M revenue and >$1M net profit in year one; on pace for $7M in 2026 \u2013 y_ON1Qbb274",
+      "First customer was $15,000, landed by the following Tuesday after cold-calling businesses \u2013 y_ON1Qbb274",
+      "About $180,000 in six weeks after calling six or seven businesses and closing half \u2013 y_ON1Qbb274",
+      "Pitch: replace an $8,000/month role with an automation that costs $25/month to run \u2013 y_ON1Qbb274"
+    ],
+    "risks": [
+      "Single-founder claims",
+      "Sales-led and call-heavy",
+      "Delivery scales with people",
+      "Hard to stand out as AI consultancies multiply"
+    ],
+    "source_video_ids": [
+      "y_ON1Qbb274"
+    ],
+    "cluster": "AI support/implementation",
+    "weighted": 3.65,
+    "_count": 1
+  },
+  {
+    "name": "Pre-sold hosted AI-agent membership",
+    "one_liner": "Pre-sell a community where each member gets their own hosted AI agent, using $10 deposits to validate before building, then charge a monthly founding-member price.",
+    "customer": "Non-technical people who want a personal AI agent without setting one up",
+    "offer": "Hosted personal AI agent plus Discord community",
+    "how_it_makes_money": "$29/month founding-member subscription after $10 deposits",
+    "startup_cost": "low \u2013 ~$600/month servers and ~$2,000/month inference at current scale",
+    "time_to_first_revenue": "days (600 deposits before building)",
+    "effort_ease": 3,
+    "value_potential": 4,
+    "speed_to_cash": 4,
+    "scalability": 4,
+    "realism": 3,
+    "async_fit": 5,
+    "founder_fit_uk_portugal": 3,
+    "tools": [
+      "OpenClaw",
+      "Claude",
+      "Discord",
+      "TikTok"
+    ],
+    "evidence": [
+      "600 people put down $10 before anything was built \u2013 l0Vqm0ZIySc",
+      "$8,374 MRR after 13 days; ~$6,000/month net profit \u2013 l0Vqm0ZIySc",
+      "Costs: ~$600/month servers plus ~$2,000/month inference \u2013 l0Vqm0ZIySc",
+      "Growth came from his own social posts, no cold outreach \u2013 l0Vqm0ZIySc"
+    ],
+    "risks": [
+      "Early-stage and novelty-driven",
+      "Inference cost can spike",
+      "Depends on fast-moving agent tooling"
+    ],
+    "source_video_ids": [
+      "l0Vqm0ZIySc"
+    ],
+    "cluster": "Micro-SaaS/apps",
+    "weighted": 3.65,
+    "_count": 1
   },
   {
     "name": "AI implementation consultant for founder-led small businesses",
@@ -3187,6 +3445,81 @@
     "_count": 1
   },
   {
+    "name": "AI-sourced private-label product on Amazon/Shopify",
+    "one_liner": "Use an AI sourcing agent to find a trending product (e.g. a parcel box against porch theft) from overseas suppliers at a fraction of retail, then sell it on Amazon or your own store.",
+    "customer": "Consumers buying a trending problem-solving product",
+    "offer": "Imported product sold on Amazon, Shopify or marketplaces",
+    "how_it_makes_money": "Retail margin: example $27 supplier price vs $143 Amazon price (75\u201380% gross); presenter expects 20\u201330% net after shipping and Amazon fees",
+    "startup_cost": "medium \u2013 samples, then ~$2,700 for 100 units in the example",
+    "time_to_first_revenue": "weeks to months",
+    "effort_ease": 3,
+    "value_potential": 4,
+    "speed_to_cash": 3,
+    "scalability": 4,
+    "realism": 3,
+    "async_fit": 4,
+    "founder_fit_uk_portugal": 3,
+    "tools": [
+      "Axio (AI sourcing agent)",
+      "Google Trends",
+      "Amazon",
+      "Shopify"
+    ],
+    "evidence": [
+      "Supplier box at $27 vs near-identical Amazon listing at $143 \u2013 b4_DbNaCeGc",
+      "'Porch pirate' searches rising over the last 9 months \u2013 b4_DbNaCeGc",
+      "Expected 20\u201330% net after shipping and Amazon fees (presenter estimate) \u2013 b4_DbNaCeGc"
+    ],
+    "risks": [
+      "Inventory risk",
+      "Competition and copycats",
+      "Import duties and product compliance",
+      "No realised sales shown"
+    ],
+    "source_video_ids": [
+      "b4_DbNaCeGc"
+    ],
+    "cluster": "Resale/arbitrage",
+    "weighted": 3.45,
+    "_count": 1
+  },
+  {
+    "name": "Newsletter-launched digital program with live price A/B tests",
+    "one_liner": "Use an existing email list to pre-sell a digital program, A/B test prices on list segments, and move buyers into a community platform.",
+    "customer": "Existing newsletter subscribers",
+    "offer": "Pre-sale digital program with recorded AMAs, hosted in a Skool community",
+    "how_it_makes_money": "One-time payments ($47 vs $97 tested; launch-day full price quoted higher)",
+    "startup_cost": "very low if you already have a list",
+    "time_to_first_revenue": "hours (with a list)",
+    "effort_ease": 3,
+    "value_potential": 4,
+    "speed_to_cash": 3,
+    "scalability": 4,
+    "realism": 3,
+    "async_fit": 5,
+    "founder_fit_uk_portugal": 2,
+    "tools": [
+      "Beehiiv",
+      "Stripe payment links",
+      "Skool"
+    ],
+    "evidence": [
+      "Presenter reports ~$23,000 near-pure profit from the launch, $30\u201340K including A/B emails \u2013 Qv-dw57pFNA",
+      "$47 earned 27 cents per subscriber vs 8 cents for $97 in the first test \u2013 Qv-dw57pFNA",
+      "125 sales at $97 in the first 80 minutes of the main send \u2013 Qv-dw57pFNA"
+    ],
+    "risks": [
+      "Depends on an existing large audience",
+      "Results are presenter-reported"
+    ],
+    "source_video_ids": [
+      "Qv-dw57pFNA"
+    ],
+    "cluster": "Content/education/community",
+    "weighted": 3.45,
+    "_count": 1
+  },
+  {
     "name": "3D-printed products e-commerce",
     "one_liner": "Design and print your own products on a small printer farm and sell them online.",
     "customer": "Online shoppers (Etsy, Shopify, marketplaces)",
@@ -3457,6 +3790,44 @@
     "_count": 1,
     "cluster": "Other",
     "weighted": 3.4
+  },
+  {
+    "name": "Government contract finder with email alerts",
+    "one_liner": "An AI-built front end over the public government tender portal that lets small businesses filter contracts by trade and region and get email alerts.",
+    "customer": "Small businesses and would-be contractors who find the official portal hard to use",
+    "offer": "Search by trade and state plus saved-search email alerts for new contracts",
+    "how_it_makes_money": "Not stated in the video; presenter only shows the build (subscription alerts are the implied model)",
+    "startup_cost": "very low \u2013 $12 domain plus Replit credits",
+    "time_to_first_revenue": "unknown",
+    "effort_ease": 4,
+    "value_potential": 3,
+    "speed_to_cash": 3,
+    "scalability": 4,
+    "realism": 2,
+    "async_fit": 5,
+    "founder_fit_uk_portugal": 3,
+    "tools": [
+      "Replit Agent 4",
+      "SAM.gov data",
+      "email alerts"
+    ],
+    "evidence": [
+      "US government spent $834 billion on contracts last year \u2013 HIYiSVvN3RA",
+      "SAM.gov gets 2.2 million visits/month and is hard to use \u2013 HIYiSVvN3RA",
+      "Presenter built the tool in about 4 minutes of agent time and bought a $12 domain \u2013 HIYiSVvN3RA"
+    ],
+    "risks": [
+      "No revenue evidence",
+      "Many existing bid-alert services",
+      "US-specific; the UK equivalents (Contracts Finder/Find a Tender) would need separate work",
+      "Sponsored by Replit"
+    ],
+    "source_video_ids": [
+      "HIYiSVvN3RA"
+    ],
+    "cluster": "Micro-SaaS/apps",
+    "weighted": 3.4,
+    "_count": 1
   },
   {
     "name": "AI product creative studio for e-commerce brands",
@@ -4168,6 +4539,42 @@
     "_count": 1
   },
   {
+    "name": "Moving-tote rental with realtor gifting subscription",
+    "one_liner": "Rent reusable moving totes instead of boxes, and sell realtors a monthly subscription to gift tote rentals to their clients at closing.",
+    "customer": "People moving house; realtors wanting closing gifts",
+    "offer": "Tote rental packages (e.g. $99 for 20 totes) and realtor subscription packages (2 or 5 gifts/month)",
+    "how_it_makes_money": "Rental fees plus recurring realtor subscriptions",
+    "startup_cost": "low \u2013 totes at ~$7\u201312 each; 'only buy when we oversell'",
+    "time_to_first_revenue": "weeks",
+    "effort_ease": 3,
+    "value_potential": 3,
+    "speed_to_cash": 4,
+    "scalability": 3,
+    "realism": 4,
+    "async_fit": 2,
+    "founder_fit_uk_portugal": 3,
+    "tools": [
+      "booking website",
+      "totes",
+      "delivery vehicle"
+    ],
+    "evidence": [
+      "Totes cost ~$7\u201312 each and rent for ~$2 each per rental; first batch of 120 oversold \u2013 mAyZZc_DjSE",
+      "Realtors pay monthly to gift tote rentals to their clients \u2013 mAyZZc_DjSE",
+      "Same guest runs RV rentals with direct bookings to avoid ~25% platform fees \u2013 mAyZZc_DjSE"
+    ],
+    "risks": [
+      "Local delivery and pickup",
+      "Small revenue per rental"
+    ],
+    "source_video_ids": [
+      "mAyZZc_DjSE"
+    ],
+    "cluster": "Rental/vending",
+    "weighted": 3.2,
+    "_count": 1
+  },
+  {
     "name": "Coin-op machine placement in host venues",
     "one_liner": "Buy used coin-operated machines cheaply and place them in high-traffic venues like laundromats, grocery stores and bars on a revenue split.",
     "customer": "Members of the public using the machines; venue owners get a cut",
@@ -4387,6 +4794,82 @@
       "vvtsOOGn6Io"
     ],
     "cluster": "Seasonal porch decorating packages",
+    "weighted": 3.15,
+    "_count": 1
+  },
+  {
+    "name": "Agricultural drone spraying service",
+    "one_liner": "Spray crops by autonomous drone for farmers at a per-acre rate, undercutting planes and ground rigs on overhead.",
+    "customer": "Farmers and landowners needing crop spraying",
+    "offer": "Per-acre drone spraying jobs, sold through in-person demonstrations",
+    "how_it_makes_money": "$10\u201325/acre charged against claimed operating cost of ~$3\u20133.74/acre; claimed 70\u201380% net margins",
+    "startup_cost": "high \u2013 drones, trailers, licensing",
+    "time_to_first_revenue": "weeks (seasonal)",
+    "effort_ease": 2,
+    "value_potential": 5,
+    "speed_to_cash": 3,
+    "scalability": 3,
+    "realism": 4,
+    "async_fit": 1,
+    "founder_fit_uk_portugal": 1,
+    "tools": [
+      "Spray drones",
+      "trailers",
+      "pilot locator directory"
+    ],
+    "evidence": [
+      "Guest claims $132,000 in 24 days and $65,000 profit in 8 days spraying \u2013 eD2AMYAR8tA",
+      "Charges $20\u201325/acre where no alternative exists; planes ~$8/acre \u2013 eD2AMYAR8tA",
+      "His wider drone business reportedly did over $32 million last year \u2013 eD2AMYAR8tA",
+      "Started with drone deer recovery at $550 per found deer; $50,000 in his first 10 weeks \u2013 eD2AMYAR8tA"
+    ],
+    "risks": [
+      "Physical, seasonal, in-person",
+      "Heavy capex and regulation (aviation, pesticide licensing)",
+      "US rural market; UK drone spraying is tightly regulated"
+    ],
+    "source_video_ids": [
+      "eD2AMYAR8tA"
+    ],
+    "cluster": "Other",
+    "weighted": 3.15,
+    "_count": 1
+  },
+  {
+    "name": "Live-selling liquidation stock on Whatnot",
+    "one_liner": "Buy discounted bulk/returns inventory and auction it live on Whatnot starting at $1, with hired hosts.",
+    "customer": "Bargain buyers on live-shopping apps",
+    "offer": "Live auction shows of $10\u201320 impulse items",
+    "how_it_makes_money": "Item margin on stock bought cheaply; guest cites ~30% margin and $400\u2013500/hour profit at peak",
+    "startup_cost": "medium \u2013 inventory orders of $20\u201330K at scale",
+    "time_to_first_revenue": "days (first stream sold out)",
+    "effort_ease": 2,
+    "value_potential": 4,
+    "speed_to_cash": 4,
+    "scalability": 3,
+    "realism": 4,
+    "async_fit": 2,
+    "founder_fit_uk_portugal": 2,
+    "tools": [
+      "Whatnot",
+      "liquidation suppliers",
+      "hired hosts"
+    ],
+    "evidence": [
+      "$450,000 last year after fees; $45,000 revenue and ~$12,000 profit in the last 30 days \u2013 YqCfQ0APU2U",
+      "First stream: $4,500 sales and $2,000 profit in 2 hours, items started at $1 \u2013 YqCfQ0APU2U",
+      "Hosts paid $17/hour plus 1% commission \u2013 YqCfQ0APU2U",
+      "Average sale price across channels $16/unit \u2013 YqCfQ0APU2U"
+    ],
+    "risks": [
+      "Labour- and inventory-heavy",
+      "Platform dependency",
+      "Live presence required"
+    ],
+    "source_video_ids": [
+      "YqCfQ0APU2U"
+    ],
+    "cluster": "Resale/arbitrage",
     "weighted": 3.15,
     "_count": 1
   },
@@ -4949,6 +5432,41 @@
     "_count": 1
   },
   {
+    "name": "Flipping riding mowers bought under value on Marketplace",
+    "one_liner": "Buy riding mowers and equipment priced below market on Facebook Marketplace and resell at market value, then grow into a dealership.",
+    "customer": "Local buyers of used outdoor equipment",
+    "offer": "Used riding mowers, trailers and equipment at fair market prices",
+    "how_it_makes_money": "Resale margin per unit; dealer net of 7\u201312% at scale",
+    "startup_cost": "medium \u2013 vehicle and stock",
+    "time_to_first_revenue": "days",
+    "effort_ease": 2,
+    "value_potential": 4,
+    "speed_to_cash": 4,
+    "scalability": 3,
+    "realism": 4,
+    "async_fit": 1,
+    "founder_fit_uk_portugal": 1,
+    "tools": [
+      "Facebook Marketplace",
+      "truck and trailer"
+    ],
+    "evidence": [
+      "$50,000 profit in one month flipping riding mowers \u2013 lfvyfRGIVHE",
+      "Dealership now does over $1M/month in busy season \u2013 lfvyfRGIVHE",
+      "Example: $300 trailer resold for $3,000 \u2013 lfvyfRGIVHE"
+    ],
+    "risks": [
+      "Physical, local, seasonal",
+      "Low async fit"
+    ],
+    "source_video_ids": [
+      "lfvyfRGIVHE"
+    ],
+    "cluster": "Resale/arbitrage",
+    "weighted": 3.05,
+    "_count": 1
+  },
+  {
     "name": "24-hour custom internal app for a small business",
     "one_liner": "Turn a small business owner's rough idea into a tightly scoped, branded internal app built with AI in a day.",
     "customer": "Small business owners with an app idea but no spec or technical skills",
@@ -5272,6 +5790,39 @@
       "Zq50owQuuIw"
     ],
     "cluster": "Wholesale baked goods route to caf\u00e9s",
+    "weighted": 3.0,
+    "_count": 1
+  },
+  {
+    "name": "Free-pickup shed flipping",
+    "one_liner": "Offer to collect unwanted sheds for free, then resell them delivered at a premium.",
+    "customer": "Homeowners wanting a shed removed; buyers wanting a delivered shed",
+    "offer": "Free removal for sellers; delivered used sheds for buyers",
+    "how_it_makes_money": "Resale margin (example: free pickup vs ~$2,000 delivered)",
+    "startup_cost": "medium \u2013 truck/trailer",
+    "time_to_first_revenue": "days",
+    "effort_ease": 2,
+    "value_potential": 4,
+    "speed_to_cash": 4,
+    "scalability": 3,
+    "realism": 3,
+    "async_fit": 1,
+    "founder_fit_uk_portugal": 2,
+    "tools": [
+      "Facebook Marketplace",
+      "truck and trailer"
+    ],
+    "evidence": [
+      "Friend reportedly makes $600,000/year net flipping mostly used sheds \u2013 CVlZdvDthOM"
+    ],
+    "risks": [
+      "Physical labour and logistics",
+      "Second-hand claim"
+    ],
+    "source_video_ids": [
+      "CVlZdvDthOM"
+    ],
+    "cluster": "Resale/arbitrage",
     "weighted": 3.0,
     "_count": 1
   },
@@ -6219,6 +6770,42 @@
     "_count": 1,
     "cluster": "Rental/vending",
     "weighted": 2.75
+  },
+  {
+    "name": "Turnaround of outdated driving ranges with memberships",
+    "one_liner": "Buy tired driving ranges, upgrade mats and tech, and convert pre-paid buckets to a $20/month membership.",
+    "customer": "Casual golfers and families",
+    "offer": "Range visits, lessons and a monthly membership with exclusive pricing",
+    "how_it_makes_money": "Ball/bucket sales, $20/month memberships, lessons, food and drink",
+    "startup_cost": "very high \u2013 land and facilities",
+    "time_to_first_revenue": "months",
+    "effort_ease": 1,
+    "value_potential": 5,
+    "speed_to_cash": 2,
+    "scalability": 3,
+    "realism": 4,
+    "async_fit": 1,
+    "founder_fit_uk_portugal": 1,
+    "tools": [
+      "ball-tracking tech",
+      "membership software"
+    ],
+    "evidence": [
+      "8,000 members across four locations; goal of 50 ranges \u2013 L15oL4b3LT4",
+      "$20/month membership replaced pre-paid buckets \u2013 L15oL4b3LT4",
+      "Roughly $10 back in year one for each $1 spent acquiring a customer, per the guest \u2013 L15oL4b3LT4"
+    ],
+    "risks": [
+      "Capital-intensive real estate",
+      "Seasonal",
+      "Operationally heavy"
+    ],
+    "source_video_ids": [
+      "L15oL4b3LT4"
+    ],
+    "cluster": "Other",
+    "weighted": 2.75,
+    "_count": 1
   },
   {
     "name": "Modern laundromat",

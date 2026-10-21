@@ -1,6 +1,6 @@
 # All Ideas — Ranked
 
-**Corpus:** 16 channels, 314 videos inventoried, **271 transcripts available**, **192 deduplicated ideas ranked**
+**Corpus:** 16 channels, 329 videos inventoried, **286 transcripts available**, **207 deduplicated ideas ranked**
 
 **Files:** `all_ideas_ranked.csv` (all ideas), `all_ideas_ranked.json` (full cards).
 
@@ -29,23 +29,47 @@
 | 19 | Custom pet portrait print-on-demand store | 3.90 | 4 | 4 | 4 | 4 | 3 | 5 | 3 | POD/3D products |
 | 20 | Niche directory website | 3.90 | 4 | 4 | 2 | 5 | 4 | 5 | 4 | Local websites |
 | 21 | Productized design or marketing subscription | 3.90 | 3 | 5 | 4 | 3 | 4 | 5 | 4 | Other |
-| 22 | Vibe-coded websites for local business owners | 3.85 | 4 | 4 | 5 | 3 | 3 | 3 | 4 | Local websites |
-| 23 | AI audits for small businesses | 3.80 | 4 | 4 | 4 | 3 | 4 | 3 | 4 | AI support/implementation |
-| 24 | AI implementation retainer for SMBs | 3.80 | 3 | 5 | 4 | 3 | 4 | 3 | 4 | AI support/implementation |
-| 25 | Niche single-function utility/calculator sites | 3.80 | 4 | 4 | 2 | 5 | 3 | 5 | 4 | Other |
-| 26 | Subcontracted home service brand (cleaning / holiday lighting) | 3.80 | 3 | 5 | 4 | 4 | 3 | 3 | 3 | Cleaning |
-| 27 | Multilingual voice-cloned voicemails for estate agents | 3.75 | 4 | 3 | 4 | 4 | 3 | 5 | 5 | Multilingual voice-cloned voicemails for estate agents |
-| 28 | Niche AI micro-SaaS (FormulaBot model) | 3.75 | 3 | 5 | 2 | 5 | 3 | 5 | 3 | Micro-SaaS/apps |
-| 29 | Niche Claude skills as digital products | 3.75 | 5 | 3 | 3 | 4 | 3 | 5 | 3 | Niche Claude skills as digital products |
-| 30 | Niche calculator website with display ads | 3.75 | 4 | 4 | 2 | 5 | 3 | 5 | 3 | Local websites |
+| 22 | AI missed-call text-back agent for local trades | 3.90 | 4 | 4 | 4 | 4 | 3 | 4 | 4 | AI support/implementation |
+| 23 | Vibe-coded websites for local business owners | 3.85 | 4 | 4 | 5 | 3 | 3 | 3 | 4 | Local websites |
+| 24 | Snail-mail story subscription | 3.85 | 3 | 5 | 3 | 4 | 4 | 4 | 4 | Gifting |
+| 25 | AI audits for small businesses | 3.80 | 4 | 4 | 4 | 3 | 4 | 3 | 4 | AI support/implementation |
+| 26 | AI implementation retainer for SMBs | 3.80 | 3 | 5 | 4 | 3 | 4 | 3 | 4 | AI support/implementation |
+| 27 | Niche single-function utility/calculator sites | 3.80 | 4 | 4 | 2 | 5 | 3 | 5 | 4 | Other |
+| 28 | Subcontracted home service brand (cleaning / holiday lighting) | 3.80 | 3 | 5 | 4 | 4 | 3 | 3 | 3 | Cleaning |
+| 29 | Facebook Marketplace deal-alert feed for flippers | 3.80 | 4 | 3 | 4 | 5 | 3 | 5 | 3 | API arbitrage / scrapers |
+| 30 | Multilingual voice-cloned voicemails for estate agents | 3.75 | 4 | 3 | 4 | 4 | 3 | 5 | 5 | Multilingual voice-cloned voicemails for estate agents |
 
 E = effort ease (5 = least effort), V = value, S = speed to cash, Sc = scalability, R = realism, A = async fit, F = founder fit.
+
+## New in this run (15 Koerner Office videos, Mar–Apr 2026)
+
+15 older public Koerner Office videos (12 Mar – 10 Apr 2026) were added and mined in `v4_batches/`. 17 cards were extracted: 15 new ideas were added to the ranking and 2 were merged into existing ideas (calculator sites into *Niche calculator website with display ads*; paid locator listings into *Niche directory website*). The top 21 are unchanged.
+
+| New rank | Idea | Score | Source |
+|---:|---|---:|---|
+| 22 | AI missed-call text-back agent for local trades | 3.90 | g4-3AxelI_Y |
+| 24 | Snail-mail story subscription | 3.85 | t_y8SelBm_s |
+| 29 | Facebook Marketplace deal-alert feed for flippers | 3.80 | CVlZdvDthOM |
+| 46 | Vibe-coded challenger SaaS to a VC-funded tool, tiered pricing | 3.65 | JHz6mikOPWw |
+| 47 | AI proficiency training and implementation retainer for companies | 3.65 | y_ON1Qbb274 |
+| 48 | Pre-sold hosted AI-agent membership | 3.65 | l0Vqm0ZIySc |
+| 91 | AI-sourced private-label product on Amazon/Shopify | 3.45 | b4_DbNaCeGc |
+| 92 | Newsletter-launched digital program with live price A/B tests | 3.45 | Qv-dw57pFNA |
+| 100 | Government contract finder with email alerts | 3.40 | HIYiSVvN3RA |
+| 120 | Moving-tote rental with realtor gifting subscription | 3.20 | mAyZZc_DjSE |
+| 127 | Agricultural drone spraying service | 3.15 | eD2AMYAR8tA |
+| 128 | Live-selling liquidation stock on Whatnot | 3.15 | YqCfQ0APU2U |
+| 144 | Flipping riding mowers bought under value on Marketplace | 3.05 | lfvyfRGIVHE |
+| 154 | Free-pickup shed flipping | 3.00 | CVlZdvDthOM |
+| 181 | Turnaround of outdated driving ranges with memberships | 2.75 | L15oL4b3LT4 |
+
+Playbooks for the worthy new ideas are in `../playbooks/`.
 
 ## Why chalkboard ads was missed earlier
 
 It was **not in the first 60-video selection**. The first pass ranked videos by title keywords and only mined the top 60. Chalkboard/community boards came from `McQucrnkSt0` — *The Simplest $10K+/M Business You’ve Never Heard Of* — which scored low on the title filter.
 
-It is now included as **“Restaurant community boards / chalkboard ad boards”** and ranks **#82 of 192** with a weighted score of **3.45**.
+It is now included as **“Restaurant community boards / chalkboard ad boards”** and ranks **#88 of 207** with a weighted score of **3.45**.
 
 Why it sits mid-table:
 
@@ -114,7 +138,7 @@ Rebrand HighLevel's all-in-one marketing, booking and CRM software as a product 
 
 ## Caveats
 
-- 271 transcripts available; 43 members-only videos remain inaccessible.
+- 286 transcripts available; 43 members-only videos remain inaccessible.
 - Opportunity extraction is LLM-assisted; scores are research judgments, not audited financials.
 - Revenue claims come from YouTube creators and are not independently verified.
 - See `TRANSCRIPT_SOURCES.md` and `state.md` for source/retry status.
