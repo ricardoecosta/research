@@ -2,7 +2,7 @@
 
 **Updated:** 21 Oct 2026 (membership retry)  
 **Repository:** https://github.com/ricardoecosta/research.git  
-**Status:** 316/359 transcripts collected and mined; 227 ideas ranked; 43 remaining videos verified members-only and inaccessible. Pushed to `origin/main`.
+**Status:** 435/655 transcripts collected after expanding to the full Koerner inventory; 119 new transcripts await mining; 220 remain blocked/unavailable.
 
 ## Active objective
 
@@ -13,10 +13,10 @@ Do all possible until the most transcripts are collected, mine every unprocessed
 | Metric | Value |
 |---|---:|
 | Channels inventoried | 16 |
-| Videos inventoried | 359 |
-| Transcripts collected | **316** |
-| Transcripts remaining | **43** |
-| Remaining reason | Members-only / inaccessible |
+| Videos inventoried | 655 |
+| Transcripts collected | **435** |
+| Transcripts remaining | **220** |
+| Remaining reason | 44 members-only + 176 blocked/error |
 | Transcripts mined into ideas | 316 |
 | New transcripts awaiting mining | 0 |
 | Ranked ideas | 227 |
@@ -26,7 +26,7 @@ Do all possible until the most transcripts are collected, mine every unprocessed
 
 ## What is done
 
-- 316/359 transcripts collected.
+- 435/655 transcripts collected.
 - Local Whisper fallback used for 118 transcripts.
 - FreeTranscriptAPI and TranscribeYouTube used for the rest.
 - All 43 remaining videos verified members-only; no public transcripts remain.

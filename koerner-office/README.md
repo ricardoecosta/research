@@ -10,11 +10,11 @@ A reproducible research pack for mining YouTube business-opportunity content.
 
 **Outputs**
 - `data/channels.csv` — channels and requested video counts
-- `data/videos_v2.csv` — 359 videos inventoried across 16 channels
+- `data/videos_v2.csv` — 655 videos inventoried across 16 channels
 - `data/koerner_videos_all.tsv` — full 461-video Koerner channel inventory
 - `data/selected_videos_all.csv` / `analysis/selected_videos_all.csv` — all available transcripts selected
 - `data/transcripts_v2.jsonl` — transcript fetch status, paths, character counts
-- `transcripts/raw/<video_id>.txt` — 316 fetched English transcripts
+- `transcripts/raw/<video_id>.txt` — 435 fetched English transcripts
 - `scripts/fetch_transcripts.py` — reproducible fetcher (youtube-transcript-api)
 - `analysis/batches/`, `analysis/v2_batches/`, `analysis/v3_batches/`, `analysis/v4_batches/`, `analysis/v5_batches/` — extraction batches
 - `analysis/all_ideas_ranked.json` — 227 deduplicated opportunities, scored
