@@ -11,19 +11,19 @@
 | Transcript fetch index | `data/transcripts_v2.jsonl` | 655 records |
 | Raw transcripts | `transcripts/raw/*.txt` | 435 English transcripts |
 | Extraction batches | `analysis/v2_batches/`, `analysis/v3_batches/`, `analysis/v4_batches/`, `analysis/v5_batches/` | 14 + 15 + 2 + 4 batches |
-| Ranked opportunities | `analysis/all_ideas_ranked.json` | 227 ranked |
-| Spreadsheet view | `analysis/all_ideas_ranked.csv` | 227 rows |
+| Ranked opportunities | `analysis/all_ideas_ranked.json` | 344 ranked |
+| Spreadsheet view | `analysis/all_ideas_ranked.csv` | 344 rows |
 | Playbooks (worthy ideas + 3 automation picks) | `playbooks/*.md` | 6 playbooks |
 | Operator rundown | `analysis/all_ideas_ranked.md` | Top 30 + recommendations |
 | Method and caveats | `README.md` | Complete |
 
 ## Verification
 
-- 435 transcripts available; 227 ideas ranked.
+- 435 transcripts available; 344 ideas ranked.
 - 435/655 inventoried videos have transcripts; 43 are members-only and inaccessible.
 - 14 + 15 Claude Opus 5.5 (low effort) extraction batches completed, plus 2 LLM-assisted v4 batches (15 Koerner Office videos, Mar–Apr 2026) and 4 LLM-assisted v5 batches (30 Koerner Office videos, Dec 2025 – Mar 2026) on 21 Oct 2026.
-- 227 ranked opportunity cards from 435 transcripts; 0 unprocessed.
-- Ranked CSV and JSON contain the same 227 opportunity names.
+- 344 ranked opportunity cards from 435 transcripts; 0 unprocessed.
+- Ranked CSV and JSON contain the same 344 opportunity names.
 - All artifacts live under `research/koerner-office/`.
 
 ## Reproduce

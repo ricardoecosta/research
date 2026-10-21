@@ -17,7 +17,7 @@ A reproducible research pack for mining YouTube business-opportunity content.
 - `transcripts/raw/<video_id>.txt` — 435 fetched English transcripts
 - `scripts/fetch_transcripts.py` — reproducible fetcher (youtube-transcript-api)
 - `analysis/batches/`, `analysis/v2_batches/`, `analysis/v3_batches/`, `analysis/v4_batches/`, `analysis/v5_batches/` — extraction batches
-- `analysis/all_ideas_ranked.json` — 227 deduplicated opportunities, scored
+- `analysis/all_ideas_ranked.json` — 344 deduplicated opportunities, scored
 - `analysis/all_ideas_ranked.csv` — spreadsheet-friendly version
 - `analysis/opportunity-shortlist.md` / `analysis/all_ideas_ranked.md` — operator rundown
 - `playbooks/` — operator playbooks for worthy new ideas and the three fully automatable picks (6 playbooks)

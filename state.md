@@ -2,7 +2,7 @@
 
 **Updated:** 21 Oct 2026 (membership retry)  
 **Repository:** https://github.com/ricardoecosta/research.git  
-**Status:** 435/655 transcripts collected after expanding to the full Koerner inventory; 119 new transcripts await mining; 220 remain blocked/unavailable.
+**Status:** 435/655 transcripts collected; all 435 mined; 344 ideas ranked; 220 remain blocked/unavailable.
 
 ## Active objective
 
@@ -17,10 +17,10 @@ Do all possible until the most transcripts are collected, mine every unprocessed
 | Transcripts collected | **435** |
 | Transcripts remaining | **220** |
 | Remaining reason | 44 members-only + 176 blocked/error |
-| Transcripts mined into ideas | 316 |
+| Transcripts mined into ideas | 435 |
 | New transcripts awaiting mining | 0 |
-| Ranked ideas | 227 |
-| Extraction batches completed | 35 (29 Claude + 2 v4 + 4 v5) |
+| Ranked ideas | 344 |
+| Extraction batches completed | 52 (35 prior + 17 v6) |
 | New extraction outputs | `koerner-office/analysis/v5_batches/` |
 | Playbooks | 6 (`koerner-office/playbooks/`) |
 
@@ -32,7 +32,8 @@ Do all possible until the most transcripts are collected, mine every unprocessed
 - All 43 remaining videos verified members-only; no public transcripts remain.
 - Membership retry: `3a9wiJXt-5k` still returns “Join this channel to get access to members-only content.” No access change.
 - 21 Oct 2026: added the next 15 public Koerner Office videos not yet in the repo (12 Mar – 10 Apr 2026; the repo already covered every public full-length upload from ~10 Apr to 19 Oct 2026). All 15 fetched via TranscribeYouTube captions; no Whisper. Newest upload `ckH5sENc108` is members-only and was added to `koerner_videos_all.tsv` only.
-- v4 extraction: 17 cards → 15 new ranked ideas + 2 merged into existing ones. Top 21 unchanged; new entries at #22, #24 and #29.
+- v4 extraction: 17 cards → 15 new ranked ideas + 2 merged into existing ones.
+- v6 extraction: 117 new cards from 198 newly available transcripts; 344 total ideas.
 - Playbooks: `koerner-office/playbooks/snail-mail-story-subscription.md`, `koerner-office/playbooks/ai-missed-call-text-back.md`.
 - 21 Oct 2026 (second run): added the next 30 public Koerner Office videos older than `mAyZZc_DjSE` (28 Dec 2025 – 10 Mar 2026). English captions were checked for all 30 before any download; all 30 fetched via TranscribeYouTube captions; no Whisper; none skipped.
 - v5 extraction: 28 cards → 20 new ranked ideas + 8 merged into existing ones (incl. a second source for the snail-mail idea). All 227 ideas re-ranked together; top 22 unchanged; one new top-30 entry (#25 AI voice-agent receptionist).
