@@ -1,6 +1,6 @@
 # The Easiest $3K/Day Business Nobody Is Talking About
 
-- **Video:** [N0NceZbY2_4](https://www.youtube.com/watch?v=N0NceZbY2_4) · **Channel:** The Koerner Office · **Uploaded:** unknown · **Length:** 46 min · **Transcript:** transcribeyoutube
+- **Video:** [N0NceZbY2_4](https://www.youtube.com/watch?v=N0NceZbY2_4) · **Channel:** The Koerner Office · **Uploaded:** 2026-03-08 · **Length:** 46 min · **Transcript:** transcribeyoutube
 - **Speakers:** Chris Koerner (host), Sariah (guest) · **Format:** operator_interview
 - **Evidence quality:** B — First-hand operator with specific numbers (revenue, margins, pricing, timeline), but figures are self-reported and unverified; profit margin claims vary and the host's margin maths are hypothetical. · Promotional conflict: Sariah sells machine kits, supplies and courses; Koerner promotes Go High Level and his Plans of Granger community.
 - **Extraction:** claude-sonnet-5-5 · quotes verified 41/41

@@ -1,6 +1,6 @@
 # He Can't Code but His AI Agents Make Him $5K/Month
 
-- **Video:** [JHz6mikOPWw](https://www.youtube.com/watch?v=JHz6mikOPWw) · **Channel:** The Koerner Office · **Uploaded:** unknown · **Length:** 44 min · **Transcript:** transcribeyoutube
+- **Video:** [JHz6mikOPWw](https://www.youtube.com/watch?v=JHz6mikOPWw) · **Channel:** The Koerner Office · **Uploaded:** 2026-04-08 · **Length:** 44 min · **Transcript:** transcribeyoutube
 - **Speakers:** Chris Koerner (host), Vadim (guest) · **Format:** operator_interview
 - **Evidence quality:** B — First-hand operator with specific figures (revenue, tiers, user count, margin), but all are unverified, only about one month of revenue, a very young product, and margin/cost detail is vague. Conversion and churn data were admittedly missing. · Promotional conflict: Vadim sells Vugola and promotes it; host plugs Beehiiv (sponsor) and TK Owners community.
 - **Extraction:** claude-sonnet-5-5 · quotes verified 28/28
@@ -53,7 +53,7 @@ Chris Koerner interviews Vadim, an 18-year-old non-coder who vibe-coded Vugola, 
 - **UK applicability [E]:** 4/5 — Mostly platform-dependent and works from the UK; check terms about automated accounts and fake-engagement rules.
 - **Risks:** Only at idea/talks stage; Platforms may ban automated or bot-run accounts; Payout rules may require human clippers
 - **Automation [E]:** acquisition 3/5 (B2B partnership outreach is largely human; the agent supply side could come from platforms.); onboarding 3/5 (API keys and docs could be self-serve.); delivery 4/5 (End-to-end agent workflow is plausible, subject to platform rules on automated posting.); billing 4/5 (Platform payouts and subscription billing are automated.); support 2/5 (Disputes and bans on views or campaigns need humans.)
-> "the future of clipping is not going to be like human clippers. It's literally going to be agent clippers clipping for you." — Vadim (~24:42)
+> "the future of clipping is not going to be like human clippers. It's literally going to be agent clippers clipping for you." — Vadim (~24:41)
 
 ## Revenue and metric claims (unverified claims)
 
@@ -62,13 +62,13 @@ Chris Koerner interviews Vadim, an 18-year-old non-coder who vibe-coded Vugola, 
 - **80% profit margin on Vugola** (margin, first-hand, claimant: Vadim)
   > "85 80% profit margins." — Vadim (~16:26)
 - **267 paying users** (customers, first-hand, claimant: Vadim)
-  > "right now we have like 267 paying users right now." — Vadim (~19:04)
+  > "right now we have like 267 paying users right now." — Vadim (~19:03)
 - **About $900 in one day after adding upsells** (revenue, first-hand, claimant: Vadim)
-  > "one day I made a like like 900 bucks just like in one day after I made like the upselling perks and features" — Vadim (~9:22)
+  > "one day I made a like like 900 bucks just like in one day after I made like the upselling perks and features" — Vadim (~9:21)
 - **Agents spend roughly $400-600 per month for coding and agent subscriptions** (cost, first-hand, claimant: Vadim)
   > "all for like 200 bucks a month 400 bucks a month like everything for my own behalf" — Vadim (~29:32)
 - **Agent work equals a $50-70K per year human job for one department** (other, second-hand, hypothetical, claimant: Vadim)
-  > "this is easily like a 50 60k 70k a year job just for like one department of bugola" — Vadim (~29:25)
+  > "this is easily like a 50 60k 70k a year job just for like one department of bugola" — Vadim (~29:24)
 - **Claude Max $200 plan allegedly gives about $15,000 of token value** (other, second-hand, claimant: Vadim)
   > "when you buy the $200 a month plan, they're giving you like $15,000 worth of actual credits and tokens" — Vadim (~30:20)
 - **Over 10,000 clips generated** (customers, first-hand, claimant: Vadim)
@@ -100,7 +100,7 @@ Chris Koerner interviews Vadim, an 18-year-old non-coder who vibe-coded Vugola, 
 3. Have it list usernames and links to the posts
 4. DM those users offering a free trial and collect feedback
 5. Check UK PECR rules before copying this for individuals
-> "look for users complaining about Opus Clip because even Opus Clip back in the day they had like a 48 hour outage" — Vadim (~18:29)
+> "look for users complaining about Opus Clip because even Opus Clip back in the day they had like a 48 hour outage" — Vadim (~18:28)
 
 **Competitor review mining with a browser agent** (product)
 1. Test all competitors yourself
@@ -120,7 +120,7 @@ Chris Koerner interviews Vadim, an 18-year-old non-coder who vibe-coded Vugola, 
 2. Keep notes on designs you like and screenshot them for the AI
 3. Be specific rather than saying 'copy xyz.com'
 4. Treat bad AI output as a context problem
-> "you want it to ask you questions back" — Vadim (~36:27)
+> "you want it to ask you questions back" — Vadim (~36:26)
 
 **Set up PostHog event tracking via agent** (product)
 1. Create a free PostHog account and get an API key

@@ -1,0 +1,1375 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "EEBlDTEYFao",
+  "title": "I Found the Perfect First Business for Introverts",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=EEBlDTEYFao",
+  "upload_date": "2026-08-17",
+  "duration_s": 3704,
+  "view_count": 100240,
+  "transcript_provider": "cached",
+  "transcript_chars": 69999,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner interviews Ryan Schuetter, a 24-26 year old introverted Cincinnati ex-hospital project manager ($52k/yr) who now earns roughly $10-15k/month as an AI implementation consultant and educator. He started by having ~100-150 free, non-salesy video calls with people in his personal network and business groups, converting about 12 into paying clients (~$25k lifetime from the first 12). His offers are private AI coaching ($5-10k/month), month-long cohort groups ($1,000 per seat), and one-off implementation builds ($1k-$20k), organised around his DASA framework (Diagnose, Articulate, Systemize, AI). Key takeaway: relationship-led, value-first outreach plus education and free content can win clients without sales experience, though the model is human-led and network-dependent.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Host of The Koerner Office; runs Playmakers AI community"
+  },
+  {
+   "name": "Ryan Schuetter",
+   "role": "guest",
+   "description": "24-26 year old AI implementation consultant and educator in Cincinnati, Ohio"
+  }
+ ],
+ "format": "operator_interview",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "AI implementation consulting and education for small businesses (Ryan's overall business)",
+   "one_liner": "Introvert-friendly consultancy that helps founders and small businesses adopt AI through coaching, cohorts and custom builds.",
+   "category": "ai_automation",
+   "business_model": "Mix of monthly retainer coaching, one-off cohort fees and project-based build fees.",
+   "customer": "Founders and small/medium business owners (pre-revenue to ~$20M revenue, mostly under $10M) who understand AI's power but whose teams are not using it; also managers and department leaders.",
+   "problem": "Teams are not adopting AI effectively; owners are not tech-savvy and cannot identify which problems AI should solve.",
+   "offer": "Free discovery calls and lead-magnet resources leading to paid private coaching, cohort sprints and implementation builds, guided by the DASA framework.",
+   "pricing": {
+    "model": "Tiered: high-ticket monthly coaching, per-seat cohort, hourly-based project pricing",
+    "price_points": [
+     {
+      "amount": 5000,
+      "amount_max": 10000,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "Private coaching (3-month sprint)"
+     },
+     {
+      "amount": 1000,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per person per cohort",
+      "label": "Month-long cohort group"
+     },
+     {
+      "amount": 1000,
+      "amount_max": 20000,
+      "currency": "USD",
+      "unit": "per project",
+      "label": "Implementation build"
+     },
+     {
+      "amount": 200,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per hour",
+      "label": "Internal hourly rate used to price builds"
+     },
+     {
+      "amount": 500,
+      "amount_max": 1000,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "Early low-end foot-in-the-door projects"
+     }
+    ],
+    "notes": "Builds priced on $200/hour times estimated hours; early projects $500-$1,000."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "referrals_word_of_mouth",
+     "details": "Personal network: phone contacts, LinkedIn connections, friends' parents, ex-colleagues; rekindling messages with several casual texts before mentioning AI; ~100 free calls over ~3 months, 3-4x as many reach-outs as calls booked; still texts/calls 10 people daily.",
+     "quote": {
+      "text": "I would send, you know, a batch of a hundred texts in the morning or emails or however, you know, LinkedIn DMs, wherever.",
+      "speaker": "Ryan Schuetter",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 16505,
+      "approx_timestamp_s": 898
+     }
+    },
+    {
+     "channel": "networking_events",
+     "details": "Two local groups (business group, Cincy AI meetup) and two online masterminds of ~500 members; online groups produced most paying customers via long-standing relationships.",
+     "quote": null
+    },
+    {
+     "channel": "youtube",
+     "details": "Unpolished screen-recorded demos and tutorials (about 100 subscribers, most videos ~30 views) sent to prospects as proof and credibility.",
+     "quote": {
+      "text": "Doesn't matter if the video has 30 views or 30,000. Most have 30.",
+      "speaker": "Ryan Schuetter",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 16070,
+      "approx_timestamp_s": 875
+     }
+    },
+    {
+     "channel": "existing_audience",
+     "details": "Lead magnets (prompt frameworks, SEO guides, how-to-use Claude Code) and workshops sent after calls; newsletter on Substack starting; repeated re-engagement loops.",
+     "quote": null
+    },
+    {
+     "channel": "cold_email",
+     "details": "Mass email outreach was tried and produced nothing.",
+     "quote": {
+      "text": "I did attempt to do the, you know, mass email outreach. Nothing happened with it. Zero.",
+      "speaker": "Ryan Schuetter",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 32170,
+      "approx_timestamp_s": 1751
+     }
+    }
+   ],
+   "delivery": "Ryan personally delivers: ~10 hrs/week for one private coaching client; weekly group lesson plus end-of-week call plus 30-min one-on-ones for cohorts (~10 hrs/week); custom builds (AI tools, marketing/sales tools, CRM/automation setups) done by him using Claude, n8n, GoHighLevel etc.",
+   "unit_economics_claims": [
+    "Cohort of 10 at $1,000 = $10,000 for ~40 hours (~$250/hr)",
+    "First 12 clients ~ $25k lifetime from ~350 hours (~$50-100/hr in his figure)",
+    "~$15k projected best month; startup cost ~ $20",
+    "One advisory client paid ~ $15k over a year"
+   ],
+   "tools": [
+    "Claude",
+    "ChatGPT",
+    "GoHighLevel",
+    "Salesforce",
+    "HubSpot",
+    "n8n",
+    "Google Meet",
+    "YouTube",
+    "LinkedIn",
+    "Substack"
+   ],
+   "startup_cost": "About $20 (a month of an AI tool subscription)",
+   "time_to_first_revenue": "About 3 months of free calls before first ~$500-$1,000 projects; majority of paid deals came from third conversations",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Relationship texting/calls and meetups are human-led; only drafting messages, lead-magnet content and CRM follow-up could be tooled. Cold outreach to individuals is restricted under UK PECR."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Intake forms, scheduling and resource delivery can be automated, but discovery conversations (DASA diagnose/articulate) are human."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Coaching, cohort teaching and bespoke builds are founder-delivered live; agents can assist building but the trust-based advisory is human."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Stripe invoices/subscriptions and payment links are easily automated."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Ongoing relationship and advice is human; routine questions could be handled by agents."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Works in the UK; network-led selling is legal. Mass cold DMs/texts to individuals or sole traders would breach PECR, though personal-contact outreach is fine. Prices and the UK market for AI consultants are different; GDPR applies to client data."
+   },
+   "risks": [
+    "Heavily dependent on founder's time and personal network; income was lumpy (months with no money)",
+    "Many competitors ('AI bros'); skepticism from small business owners",
+    "Security risk of tools like OpenClaw given access to business systems",
+    "Low hourly return in the first months (~$2/hr in early stage)"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "I told myself I would have 100 free calls with people and then look into charging for some of my services.",
+     "speaker": "Ryan Schuetter",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 4809,
+     "approx_timestamp_s": 261
+    },
+    {
+     "text": "The cohort groups are essentially month-long sprints with me where I get groups of the one I'm doing right now, 10 people to build alongside each other a common goal.",
+     "speaker": "Ryan Schuetter",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 37829,
+     "approx_timestamp_s": 2059
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Private AI coaching / fractional AI officer",
+   "one_liner": "3-month deep-dive coaching with founders and leadership to drive AI adoption.",
+   "category": "education_coaching",
+   "business_model": "Monthly retainer for a 3-month sprint.",
+   "customer": "Founders and leadership teams who can afford high-ticket support.",
+   "problem": "Teams do not adopt AI tools; leadership lacks AI direction.",
+   "offer": "3-month engagement embedded in the business focused on implementation, employee engagement and adoption (a quasi AI officer).",
+   "pricing": {
+    "model": "Monthly retainer",
+    "price_points": [
+     {
+      "amount": 5000,
+      "amount_max": 10000,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "Private coaching"
+     }
+    ],
+    "notes": "He wants only one or two such clients at a time."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "referrals_word_of_mouth",
+     "details": "Mostly warm network relationships; he does not actively pitch it since most contacts cannot afford it.",
+     "quote": null
+    }
+   ],
+   "delivery": "Founder personally works with leadership; ~10 hours per week for the one current client.",
+   "unit_economics_claims": [
+    "$5-10k per month; ~10 hrs/week per client"
+   ],
+   "tools": [
+    "Claude"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Relationship-based, high-trust sale."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Kickoff and diagnosis is conversational."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Founder-led advisory."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Monthly invoicing is automatable."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Direct leadership access."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Fractional/advisory model works in the UK with GBP pricing."
+   },
+   "risks": [
+    "Limited capacity (1-2 clients)",
+    "Needs credibility and results to command the price"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "Give or take it's 5 to 10 grand a month.",
+     "speaker": "Ryan Schuetter",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 37190,
+     "approx_timestamp_s": 2025
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Paid AI cohort groups",
+   "one_liner": "Month-long group sprints (about 10 people) where participants build a shared project with Claude for $1,000 each.",
+   "category": "education_coaching",
+   "business_model": "One-off cohort fee per participant.",
+   "customer": "Mixed-background professionals and business owners wanting to learn to build with AI.",
+   "problem": "People want to use AI but do not know how to build useful systems.",
+   "offer": "Four-week sprint: Monday lesson, mid-week 30-min one-on-ones, end-of-week group call; themed cohorts (websites with Claude for SEO/lead funnel, real-estate, business acquisition agents).",
+   "pricing": {
+    "model": "Per-seat cohort fee",
+    "price_points": [
+     {
+      "amount": 1000,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per person per cohort",
+      "label": "Cohort seat"
+     }
+    ],
+    "notes": "First cohort was one friend, second had three people ($3,000); current one has 10 and could double to 20."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "referrals_word_of_mouth",
+     "details": "Texts or calls 10 friends/contacts daily to invite them to the next cohort.",
+     "quote": null
+    },
+    {
+     "channel": "existing_audience",
+     "details": "Past clients and community members, repurposed content.",
+     "quote": null
+    }
+   ],
+   "delivery": "Ryan teaches live: ~2 hrs Monday, ~2 hrs Thursday, ~5 hrs one-on-ones, ~10 hrs/week total (~40 hrs for a $10k cohort).",
+   "unit_economics_claims": [
+    "10 seats x $1,000 = $10,000 for ~40 hours",
+    "Second cohort 3 people = $3,000"
+   ],
+   "tools": [
+    "Claude",
+    "Google Meet"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "First cohort (a friend) during early months",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Personal invitations."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Enrolment, payment and joining instructions are automatable."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Live teaching and one-on-ones; recorded content could partly replace."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Checkout payments."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Community chat could be agent-assisted."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works identically; price in GBP."
+   },
+   "risks": [
+    "Limited by founder's live hours",
+    "Recruitment depends on personal network"
+   ],
+   "is_primary": false,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "The cohort groups are essentially month-long sprints with me where I get groups of the one I'm doing right now, 10 people to build alongside each other a common goal.",
+     "speaker": "Ryan Schuetter",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 37829,
+     "approx_timestamp_s": 2059
+    },
+    {
+     "text": "This is just $1,000.",
+     "speaker": "Ryan Schuetter",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 38978,
+     "approx_timestamp_s": 2122
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "AI implementation builds (custom tools and automations)",
+   "one_liner": "One-off bespoke AI tools, automations, websites and content/sales systems for small businesses.",
+   "category": "ai_automation",
+   "business_model": "Per-project fee.",
+   "customer": "Small business owners, often former cohort members; realtors, startups, home-service firms.",
+   "problem": "Businesses need tools that fit their workflow and that staff will actually use.",
+   "offer": "Scheduled AI tools, marketing content repurposing, sales outreach funnels, newsletters, CRM setup, route optimisation for home services.",
+   "pricing": {
+    "model": "Hourly-rate-derived project price",
+    "price_points": [
+     {
+      "amount": 1000,
+      "amount_max": 20000,
+      "currency": "USD",
+      "unit": "per project",
+      "label": "Build range"
+     },
+     {
+      "amount": 200,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per hour",
+      "label": "Hourly basis"
+     },
+     {
+      "amount": 2000,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per project",
+      "label": "Rough average suggested by host/accepted"
+     }
+    ],
+    "notes": "Price = $200/hr x estimated hours."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "referrals_word_of_mouth",
+     "details": "Cross-sold to cohort alumni and warm network.",
+     "quote": null
+    }
+   ],
+   "delivery": "Ryan builds using Claude, n8n, GoHighLevel and client's existing CRM.",
+   "unit_economics_claims": [
+    "$1k-$20k per project; ~ $2,000 average"
+   ],
+   "tools": [
+    "Claude",
+    "n8n",
+    "GoHighLevel",
+    "Salesforce",
+    "HubSpot"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "First $500-$1,000 projects after second conversations",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Warm referrals."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Discovery is conversational."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "AI coding agents can build much of the tooling with human review."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Invoices/milestone payments."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Maintenance and tickets could be agent-assisted."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Same in the UK; GDPR and data-processing agreements needed."
+   },
+   "risks": [
+    "Scope creep and bespoke work",
+    "Security of AI tools given system access"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "It could be anywhere between $1,000 and I can imagine charging like 15 to $20,000. It just depends on the project.",
+     "speaker": "Ryan Schuetter",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 41570,
+     "approx_timestamp_s": 2263
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "Route optimisation and CRM adoption for home-service businesses",
+   "one_liner": "Automating logistics/routing and choosing CRMs that crews will actually use for plumbers and similar trades.",
+   "category": "ai_automation",
+   "business_model": "Project-based implementation.",
+   "customer": "Home service businesses (e.g. a plumber with five crews).",
+   "problem": "Route/logistics inefficiency; non-tech-savvy staff reject tools.",
+   "offer": "Optimise routes and implement CRM tooling suited to the team's lifestyle after root-cause analysis of non-adoption.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "not stated"
+   },
+   "acquisition_channels": [],
+   "delivery": "Consultant-led implementation.",
+   "unit_economics_claims": [],
+   "tools": [
+    "CRM systems"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Could be inbound or compliant B2B outreach to limited companies."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Needs discovery."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Software setup is tooled, but staff adoption needs humans."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Standard invoicing."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Training of non-technical staff."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "UK trades have the same needs."
+   },
+   "risks": [
+    "Low tech adoption among trades staff"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "A lot of people really struggle with how can we optimize routes?",
+     "speaker": "Ryan Schuetter",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 64782,
+     "approx_timestamp_s": 3527
+    }
+   ]
+  },
+  {
+   "local_id": "I6",
+   "name": "Playmakers AI community (host's own)",
+   "one_liner": "Paid community teaching AI implementation, vibe coding, selling and pricing AI services.",
+   "category": "education_coaching",
+   "business_model": "Community membership.",
+   "customer": "People wanting to start AI implementation businesses.",
+   "problem": "Need to learn how to implement, sell and price AI services.",
+   "offer": "Community with ~300 members; dozens got first paid customers.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "not stated"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "existing_audience",
+     "details": "Promoted on the podcast.",
+     "quote": null
+    }
+   ],
+   "delivery": "Community content and support.",
+   "unit_economics_claims": [
+    "~300 members; dozens got first paying customers (host claim)"
+   ],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Content-driven."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Automated onboarding."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Recorded content plus community."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Subscriptions."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Community moderation."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Online community works anywhere."
+   },
+   "risks": [
+    "Promotional claim by the host"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "There are 400 million small business owners in the world, 33 million in the US, and all of them need AI",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 58949,
+     "approx_timestamp_s": 3209
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Makes about $15,000 per month profit from AI implementation",
+   "metric": "profit",
+   "value": {
+    "amount": 15000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per month",
+    "label": null
+   },
+   "period": "current best month (projected)",
+   "claimant": "Ryan Schuetter",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "$15,000 this month. Profit. Profit. Amazing.",
+    "speaker": "Ryan Schuetter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 61158,
+    "approx_timestamp_s": 3330
+   }
+  },
+  {
+   "claim": "Previously earned $52,000 a year as a hospital clinical research project manager",
+   "metric": "revenue",
+   "value": {
+    "amount": 52000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per year",
+    "label": null
+   },
+   "period": "prior job",
+   "claimant": "Ryan Schuetter",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I was working in clinical research as a project manager at a local hospital and I was making about $52,000 a year.",
+    "speaker": "Ryan Schuetter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21867,
+    "approx_timestamp_s": 1190
+   }
+  },
+  {
+   "claim": "Total startup cost of $20",
+   "metric": "cost",
+   "value": {
+    "amount": 20,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Ryan Schuetter",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "How much did it cost you to start an AI implementation business in total? $20.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 62533,
+    "approx_timestamp_s": 3405
+   }
+  },
+  {
+   "claim": "About 100 free calls (up to ~150) over three months, roughly 3-4x as many reach-outs",
+   "metric": "customers",
+   "value": {
+    "amount": 100,
+    "amount_max": 150,
+    "currency": null,
+    "unit": "calls",
+    "label": null
+   },
+   "period": "3 months",
+   "claimant": "Ryan Schuetter",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "But by the end of three months, I was able to hit 100.",
+    "speaker": "Ryan Schuetter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10402,
+    "approx_timestamp_s": 566
+   }
+  },
+  {
+   "claim": "About 10 closed from the third conversations plus 1-2 early closes, ~12 clients (~8% close rate on 150)",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 8,
+    "amount_max": null,
+    "currency": null,
+    "unit": "percent",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So, eight nine% close rate. Yeah.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 30847,
+    "approx_timestamp_s": 1679
+   }
+  },
+  {
+   "claim": "First 12 clients generated about $25,000 lifetime",
+   "metric": "revenue",
+   "value": {
+    "amount": 25000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "lifetime of first 12 clients",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Ryan Schuetter",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Probably I would say the average person joins a cohort group of mine and then probably works on a project with me. So, about $2,000 maybe on average.",
+    "speaker": "Ryan Schuetter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 42515,
+    "approx_timestamp_s": 2315
+   }
+  },
+  {
+   "claim": "Early low-end projects charged $500-$1,000",
+   "metric": "price",
+   "value": {
+    "amount": 500,
+    "amount_max": 1000,
+    "currency": "USD",
+    "unit": "per project",
+    "label": null
+   },
+   "period": "early",
+   "claimant": "Ryan Schuetter",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I was charging probably between, you know, $500 and $1,000 for those sort of projects.",
+    "speaker": "Ryan Schuetter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 26667,
+    "approx_timestamp_s": 1452
+   }
+  },
+  {
+   "claim": "Private coaching costs $5-10k per month",
+   "metric": "price",
+   "value": {
+    "amount": 5000,
+    "amount_max": 10000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Ryan Schuetter",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "Give or take it's 5 to 10 grand a month.",
+    "speaker": "Ryan Schuetter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 37190,
+    "approx_timestamp_s": 2025
+   }
+  },
+  {
+   "claim": "Cohort priced at $1,000 per person",
+   "metric": "price",
+   "value": {
+    "amount": 1000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per person",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Ryan Schuetter",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "This is just $1,000.",
+    "speaker": "Ryan Schuetter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 38978,
+    "approx_timestamp_s": 2122
+   }
+  },
+  {
+   "claim": "10-person cohort ~ $10,000 for ~40 hours (~$250/hr)",
+   "metric": "revenue",
+   "value": {
+    "amount": 10000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per cohort month",
+    "label": null
+   },
+   "period": "1 month",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "I mean, call it 40 hours for a month, $10,000.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 40083,
+    "approx_timestamp_s": 2182
+   }
+  },
+  {
+   "claim": "Internal hourly rate $200 for builds",
+   "metric": "price",
+   "value": {
+    "amount": 200,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per hour",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Ryan Schuetter",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "What hourly rate? It's $200.",
+    "speaker": "Ryan Schuetter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 41442,
+    "approx_timestamp_s": 2256
+   }
+  },
+  {
+   "claim": "Implementation builds range from $1,000 to $15-20k",
+   "metric": "price",
+   "value": {
+    "amount": 1000,
+    "amount_max": 20000,
+    "currency": "USD",
+    "unit": "per project",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Ryan Schuetter",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "It could be anywhere between $1,000 and I can imagine charging like 15 to $20,000.",
+    "speaker": "Ryan Schuetter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 41570,
+    "approx_timestamp_s": 2263
+   }
+  },
+  {
+   "claim": "About $15k from a single advisory client over a year",
+   "metric": "revenue",
+   "value": {
+    "amount": 15000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "over about a year",
+    "label": null
+   },
+   "period": "~1 year",
+   "claimant": "Ryan Schuetter",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I've made about 15 grand working directly with them.",
+    "speaker": "Ryan Schuetter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 62136,
+    "approx_timestamp_s": 3383
+   }
+  },
+  {
+   "claim": "Private coaching takes ~10 hours per week per client",
+   "metric": "hours",
+   "value": {
+    "amount": 10,
+    "amount_max": null,
+    "currency": null,
+    "unit": "hours per week",
+    "label": null
+   },
+   "period": "weekly",
+   "claimant": "Ryan Schuetter",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "Probably takes 10 hours or so a week for me to focus on that.",
+    "speaker": "Ryan Schuetter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 37683,
+    "approx_timestamp_s": 2051
+   }
+  },
+  {
+   "claim": "Mass cold email produced zero results; host estimates 1-5,000 emails per close",
+   "metric": "response_rate",
+   "value": {
+    "amount": 0,
+    "amount_max": null,
+    "currency": null,
+    "unit": "closes",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Ryan Schuetter",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I did attempt to do the, you know, mass email outreach. Nothing happened with it. Zero.",
+    "speaker": "Ryan Schuetter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 32170,
+    "approx_timestamp_s": 1751
+   }
+  },
+  {
+   "claim": "Dozens of Playmakers AI members got first paid customers; ~300 members",
+   "metric": "customers",
+   "value": {
+    "amount": 300,
+    "amount_max": null,
+    "currency": null,
+    "unit": "members",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "There's almost 300 of us and dozens of us have gotten our first paid customers exclusively from what we learned in my group.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 58517,
+    "approx_timestamp_s": 3186
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "100 free value-first calls with your existing network",
+   "area": "acquisition",
+   "steps": [
+    "List contacts from phone, LinkedIn, ex-colleagues, family friends and business groups",
+    "Research each person's recent news on LinkedIn/Facebook and send a genuine rekindling message with no pitch",
+    "Exchange several casual messages before mentioning AI",
+    "Send batches of ~100 messages in the morning and reply through the day",
+    "Offer a free 1-hour Google Meet to provide value; aim for 100 real conversations (needed 3-4x reach-outs)",
+    "Do not sell on call one; send takeaways and lead magnets",
+    "Keep re-engaging with follow-ups and useful tidbits over months"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I was just trying to get on the phone and provide value in any way I can. I'm not trying to pitch anything.",
+    "speaker": "Ryan Schuetter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4650,
+    "approx_timestamp_s": 253
+   }
+  },
+  {
+   "name": "Let offers emerge from conversations",
+   "area": "product",
+   "steps": [
+    "Use free calls to learn what people value and what you're good at",
+    "Notice that education was valued most",
+    "Package into coaching, cohorts and builds",
+    "Start with a one-person trial cohort, then scale"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "this came from what I learned on the free calls with people.",
+    "speaker": "Ryan Schuetter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 35517,
+    "approx_timestamp_s": 1933
+   }
+  },
+  {
+   "name": "Lead magnet loop with unpolished YouTube content",
+   "area": "acquisition",
+   "steps": [
+    "Record screen demos and tutorials in one take without heavy editing",
+    "Build prompt frameworks, SEO guides and Claude Code guides as reusable resources",
+    "Send the relevant resource after each call",
+    "Share niche-targeted videos to re-engage dormant contacts"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "a lot of these resources and guides, for instance, are like prompt frameworks, their SEO guides, their how to use clawed code.",
+    "speaker": "Ryan Schuetter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 33823,
+    "approx_timestamp_s": 1841
+   }
+  },
+  {
+   "name": "DASA framework",
+   "area": "sales",
+   "steps": [
+    "Diagnose: find the real problem worth solving",
+    "Articulate: describe the dream outcome (time saved or money made)",
+    "Systemize: gather SOPs and design the working process",
+    "AI: only then implement AI",
+    "Calls 1-2 cover Diagnose and Articulate; Systemize and AI happen post-close"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "if you're automating chaos, you're scaling chaos.",
+    "speaker": "Ryan Schuetter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 54879,
+    "approx_timestamp_s": 2988
+   }
+  },
+  {
+   "name": "Elicit real problems with better questions",
+   "area": "sales",
+   "steps": [
+    "Ask 'what is keeping you up at night?'",
+    "Ask follow-up 'why' questions",
+    "Research the business beforehand and ask about specific offerings",
+    "Use unexpected questions to get past polite answers"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I love asking like what is the thing that is haunting you",
+    "speaker": "Ryan Schuetter",
+    "match_score": 86.0,
+    "verified": false,
+    "char_offset": 57865,
+    "approx_timestamp_s": 3150
+   }
+  },
+  {
+   "name": "Daily 10 outreach to build the next cohort",
+   "area": "acquisition",
+   "steps": [
+    "Pick a deliverable to teach",
+    "Text or call 10 contacts per day inviting them to join",
+    "Frame it as building alongside other business owners",
+    "Repeat continuously to avoid sales funnel stalls"
+   ],
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "I reach out to 10 people every day doing the same thing I've been doing for the past year.",
+    "speaker": "Ryan Schuetter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 47944,
+    "approx_timestamp_s": 2610
+   }
+  },
+  {
+   "name": "Give away the playbook to win repeat work",
+   "area": "sales",
+   "steps": [
+    "Teach the exact build process in cohorts",
+    "Show clients results",
+    "They return for further projects and advice"
+   ],
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "I give every old thing away.",
+    "speaker": "Ryan Schuetter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 51308,
+    "approx_timestamp_s": 2793
+   }
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Claude",
+   "purpose": "Main AI tool for building websites, tools and teaching",
+   "cost_stated": null
+  },
+  {
+   "name": "ChatGPT",
+   "purpose": "Initial AI tool used at startup ($20 spend)",
+   "cost_stated": "~$20/month"
+  },
+  {
+   "name": "GoHighLevel",
+   "purpose": "CRM and marketing automation platform",
+   "cost_stated": "from $97/month (sponsor read)"
+  },
+  {
+   "name": "n8n",
+   "purpose": "Workflow automation",
+   "cost_stated": null
+  },
+  {
+   "name": "Salesforce",
+   "purpose": "CRM used in client work",
+   "cost_stated": null
+  },
+  {
+   "name": "HubSpot",
+   "purpose": "CRM used in client work",
+   "cost_stated": null
+  },
+  {
+   "name": "Google Meet",
+   "purpose": "All discovery calls and screen sharing",
+   "cost_stated": null
+  },
+  {
+   "name": "YouTube",
+   "purpose": "Demos and credibility content",
+   "cost_stated": null
+  },
+  {
+   "name": "LinkedIn",
+   "purpose": "Finding and messaging contacts",
+   "cost_stated": null
+  },
+  {
+   "name": "Substack",
+   "purpose": "Newsletter 'Freedom Based Founder'",
+   "cost_stated": null
+  },
+  {
+   "name": "OpenClaw",
+   "purpose": "AI agent tool Ryan advises against deploying in businesses",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Rushing to give AI agent tools like OpenClaw access to business systems is risky.",
+   "quote": {
+    "text": "People just don't understand how big of a risk it is.",
+    "speaker": "Ryan Schuetter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 63327,
+    "approx_timestamp_s": 3448
+   }
+  },
+  {
+   "warning": "Automating a broken process just scales the chaos and makes the technology look bad.",
+   "quote": {
+    "text": "if you're automating chaos, you're scaling chaos.",
+    "speaker": "Ryan Schuetter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 54879,
+    "approx_timestamp_s": 2988
+   }
+  },
+  {
+   "warning": "Mass cold email outreach produced nothing; do not rely on it.",
+   "quote": {
+    "text": "Nothing happened with it. Zero.",
+    "speaker": "Ryan Schuetter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 32223,
+    "approx_timestamp_s": 1754
+   }
+  },
+  {
+   "warning": "Pausing outreach causes income to stall; the introvert tendency to stop the funnel makes revenue spiral down.",
+   "quote": {
+    "text": "the introvert in me stopped my sales funnel and you know, it it spirals really fast.",
+    "speaker": "Ryan Schuetter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 43641,
+    "approx_timestamp_s": 2376
+   }
+  },
+  {
+   "warning": "Don't use over-optimising CRM/tracking as procrastination before reaching out.",
+   "quote": {
+    "text": "These are advanced forms of procrastination that make them feel good that they're move making progress",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17465,
+    "approx_timestamp_s": 951
+   }
+  },
+  {
+   "warning": "Trying to solve non-existent problems with AI is a waste of time.",
+   "quote": {
+    "text": "A lot of people are trying to solve non-existent problems using AI and that's a waste of time.",
+    "speaker": "Ryan Schuetter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 53604,
+    "approx_timestamp_s": 2918
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Your existing network is a large, underused sales channel; warm outreach beats cold at tiny scale (about 8% close from ~150 warm conversations).",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "People underestimate how many people they actually have in their sphere.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10913,
+    "approx_timestamp_s": 594
+   }
+  },
+  {
+   "lesson": "Removing the selling goal ('I just want to help') lowers pressure for introverts and builds trust that converts later, often on the third conversation.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "it's way easier if you're not trying to sell.",
+    "speaker": "Ryan Schuetter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4605,
+    "approx_timestamp_s": 250
+   }
+  },
+  {
+   "lesson": "Early hourly returns can be terrible (~$2/hr); the real payoff is relationships, testimonials and offer discovery.",
+   "theme": "finance_unit_economics",
+   "quote": {
+    "text": "you're building something for yourself and that's the whole point.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 27667,
+    "approx_timestamp_s": 1506
+   }
+  },
+  {
+   "lesson": "Don't over-engineer tooling or CRM before you have traction; send the messages first.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "There's no reason to it because you're going to learn along the way",
+    "speaker": "Ryan Schuetter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17847,
+    "approx_timestamp_s": 971
+   }
+  },
+  {
+   "lesson": "Education and cohort offers let a solo operator sell many seats at once (about $250/hr effective) while building proof and follow-on implementation work.",
+   "theme": "offer_design",
+   "quote": null
+  },
+  {
+   "lesson": "In-person networking is a differentiator versus the many online-only AI sellers and is likely to raise close rates.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "when you're in person, then you're in the 1%.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 49998,
+    "approx_timestamp_s": 2722
+   }
+  },
+  {
+   "lesson": "Publishing low-production proof (demos, videos) gives credibility without needing a degree or audience.",
+   "theme": "offer_design",
+   "quote": {
+    "text": "I don't need a degree to prove that I could do these things.",
+    "speaker": "Ryan Schuetter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 44590,
+    "approx_timestamp_s": 2428
+   }
+  },
+  {
+   "lesson": "Giving away know-how tends to produce more paid work rather than less because clients come back with further problems.",
+   "theme": "offer_design",
+   "quote": null
+  },
+  {
+   "lesson": "Ask sharper, more emotional questions (what keeps you up at night) to surface problems owners can't articulate.",
+   "theme": "validation_testing",
+   "quote": null
+  },
+  {
+   "lesson": "Income from a personal-relationship model is lumpy; consistent daily outreach is needed to smooth it.",
+   "theme": "scaling",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "B",
+  "rationale": "First-hand operator with concrete process and prices, but income figures are self-reported, the best month is projected, much revenue came from a few clients and the model is network-dependent. Host adds hypothetical math.",
+  "promotional_conflict": "Host sells the Playmakers AI community and promotes GoHighLevel and Beehive via sponsor reads; Ryan sells coaching and cohorts."
+ },
+ "extraction": {
+  "model": "claude-sonnet-5-5",
+  "extracted_at": "2026-10-22T02:00:16",
+  "cost_usd": 0.2116942,
+  "quote_verification": {
+   "quotes": 46,
+   "verified": 45,
+   "rate": 0.978
+  },
+  "schema_errors": [],
+  "reviewed_by": null,
+  "review_notes": null
+ }
+}

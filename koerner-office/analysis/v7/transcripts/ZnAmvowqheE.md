@@ -1,6 +1,6 @@
 # 9 BORING Products I’d Sell If I Needed Money
 
-- **Video:** [ZnAmvowqheE](https://www.youtube.com/watch?v=ZnAmvowqheE) · **Channel:** Tim Richard · **Uploaded:** unknown · **Length:** 14 min · **Transcript:** cached
+- **Video:** [ZnAmvowqheE](https://www.youtube.com/watch?v=ZnAmvowqheE) · **Channel:** Tim Richard · **Uploaded:** 2026-06-14 · **Length:** 14 min · **Transcript:** cached
 - **Speakers:** Tim Richard (host) · **Format:** listicle_roundup
 - **Evidence quality:** C — Listicle of the host's own opinions based on keyword tool data. No first-hand results for any listed product, and the revenue claims are generic and unverified. The search data is useful but probably US-based. · Promotional conflict: Host sells an 'idea book' database of 450+ opportunities and promotes it twice in the video.
 - **Extraction:** claude-sonnet-5-5 · quotes verified 25/25

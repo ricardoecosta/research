@@ -1,6 +1,6 @@
 # This Simple AI Setup Makes Me $8K Every Month
 
-- **Video:** [XBAR_cbfjPQ](https://www.youtube.com/watch?v=XBAR_cbfjPQ) · **Channel:** The Koerner Office · **Uploaded:** unknown · **Length:** 14 min · **Transcript:** cached
+- **Video:** [XBAR_cbfjPQ](https://www.youtube.com/watch?v=XBAR_cbfjPQ) · **Channel:** The Koerner Office · **Uploaded:** 2026-10-06 · **Length:** 14 min · **Transcript:** cached
 - **Speakers:** Chris Koerner (host) · **Format:** tutorial_howto
 - **Evidence quality:** C — Mostly hypothetical revenue math for the service business; the only first-hand figures are his own channel's foreign-views revenue, which is unverified. The service has no real client results, and the only DM test got no response. · Promotional conflict: OpenArt is a partner/sponsor of the show and the host uses it; also links a free doc and promotes his cold-outreach content.
 - **Extraction:** claude-sonnet-5-5 · quotes verified 21/21

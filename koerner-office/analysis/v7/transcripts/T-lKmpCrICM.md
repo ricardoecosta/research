@@ -1,6 +1,6 @@
 # I Found the EASIEST Way to Make Money Online
 
-- **Video:** [T-lKmpCrICM](https://www.youtube.com/watch?v=T-lKmpCrICM) · **Channel:** George McConnell · **Uploaded:** unknown · **Length:** 8 min · **Transcript:** cached
+- **Video:** [T-lKmpCrICM](https://www.youtube.com/watch?v=T-lKmpCrICM) · **Channel:** George McConnell · **Uploaded:** 2026-10-11 · **Length:** 8 min · **Transcript:** cached
 - **Speakers:** George McConnell (host) · **Format:** tutorial_howto
 - **Evidence quality:** C — A promotional tutorial showing tool workflow but no earnings, results or follower data from the speaker. Market stats are unsourced and the claim of an 'easiest way' is unsubstantiated. · Promotional conflict: Speaker directs viewers to a Higgsfield link in the description and first comment, likely an affiliate or referral link.
 - **Extraction:** claude-sonnet-5-5 · quotes verified 14/14
@@ -32,7 +32,7 @@ George McConnell pitches a workflow for making money as a TikTok Shop affiliate 
 - **Risks:** Platform may restrict or label AI-generated influencer content; Claimed earnings are not demonstrated; Undisclosed AI use or fake product reviews risk ASA/CMA and FTC issues; Saturated, trend-driven market; Needs 5,000 followers before starting; Reviewing a product the creator has not used is misleading
 - **Automation [E]:** acquisition 3/5 (Posting and content generation can be agent-driven, but growing to 5,000 followers and avoiding platform bans on AI accounts needs oversight; TikTok may need manual account handling.); onboarding 4/5 (No customers to onboard; setup is a one-off TikTok Shop affiliate signup and persona creation.); delivery 3/5 (Image and video generation is largely automatable via tools, but the demo is manual and uses UI-based tools; physical product samples mentioned for some videos cap this.); billing 5/5 (TikTok pays commissions automatically.); support 4/5 (Mostly comment replies; little formal support.)
 > "affiliates, they can drive 42% of every sale made in the US" — George McConnell (~0:07)
-> "they pay you anywhere from 10 to 30% per sale. So, the more popular you are, the more money you will make." — George McConnell (~8:10)
+> "they pay you anywhere from 10 to 30% per sale. So, the more popular you are, the more money you will make." — George McConnell (~8:09)
 
 ## Revenue and metric claims (unverified claims)
 
@@ -41,11 +41,11 @@ George McConnell pitches a workflow for making money as a TikTok Shop affiliate 
 - **Affiliates drive 42% of US TikTok Shop sales** (other, second-hand, claimant: George McConnell)
   > "affiliates, they can drive 42% of every sale made in the US" — George McConnell (~0:07)
 - **Affiliate commissions are 10-30% per sale** (price, second-hand, claimant: George McConnell)
-  > "they pay you anywhere from 10 to 30% per sale" — George McConnell (~8:10)
+  > "they pay you anywhere from 10 to 30% per sale" — George McConnell (~8:09)
 - **Affiliates need 5,000 followers before starting** (customers, second-hand, claimant: George McConnell)
-  > "affiliates, they do need to have 5,000 followers before they start" — George McConnell (~8:16)
+  > "affiliates, they do need to have 5,000 followers before they start" — George McConnell (~8:15)
 - **Voice change costs two credits in Higgsfield** (cost, first-hand, claimant: George McConnell)
-  > "Then just change it, it takes two credits, and you are done." — George McConnell (~7:25)
+  > "Then just change it, it takes two credits, and you are done." — George McConnell (~7:24)
 
 ## Tactics and playbook steps
 
@@ -54,7 +54,7 @@ George McConnell pitches a workflow for making money as a TikTok Shop affiliate 
 2. Download and upload her to ChatGPT, asking it to keep everything the same and make three new outfits
 3. Feed the outfit images back to ChatGPT to create a front/back/side/face reference sheet with realistic features
 4. Reuse the sheet for all later image and video generation for consistency
-> "you're going to ask ChatGPT to keep everything the same, but we're going to give her three new outfits" — George McConnell (~1:53)
+> "you're going to ask ChatGPT to keep everything the same, but we're going to give her three new outfits" — George McConnell (~1:52)
 
 **Pick proven TikTok Shop products and generate videos** (acquisition)
 1. Browse TikTok Shop categories (e.g. women's leggings) and check units sold
@@ -63,7 +63,7 @@ George McConnell pitches a workflow for making money as a TikTok Shop affiliate 
 4. Ask ChatGPT to put the product on your AI influencer
 5. Create video in Higgsfield using Seedance 2.5 with the reference sheet and a prompt describing the action
 6. Optionally record yourself with the physical product and map it to the character with the Higgsfield tool, then change the voice
-> "you take this item right here, and you just add it to your affiliate." — George McConnell (~4:33)
+> "you take this item right here, and you just add it to your affiliate." — George McConnell (~4:32)
 
 ## Lessons
 

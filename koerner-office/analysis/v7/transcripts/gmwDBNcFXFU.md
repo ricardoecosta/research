@@ -1,6 +1,6 @@
 # Make Money With This New AI Agent That Works 24/7
 
-- **Video:** [gmwDBNcFXFU](https://www.youtube.com/watch?v=gmwDBNcFXFU) · **Channel:** The Koerner Office · **Uploaded:** unknown · **Length:** 11 min · **Transcript:** cached
+- **Video:** [gmwDBNcFXFU](https://www.youtube.com/watch?v=gmwDBNcFXFU) · **Channel:** The Koerner Office · **Uploaded:** 2026-09-04 · **Length:** 11 min · **Transcript:** cached
 - **Speakers:** Chris Koerner (host), Billy (other) · **Format:** tutorial_howto
 - **Evidence quality:** C — A first-hand live demo of building a product, but there are no sales, revenue or customer evidence, and the build is a single novelty test. The app is useful as a proof of agent capability only; the commercial case is speculation. · Promotional conflict: Promotes his Playmakers.ai paid community; says the video is not sponsored by Grok Bot.
 - **Extraction:** claude-sonnet-5-5 · quotes verified 18/18

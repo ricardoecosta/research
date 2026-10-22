@@ -1,0 +1,640 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "69eN9vRtWB8",
+  "title": "He Makes $27K/Month Sending Text Messages",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=69eN9vRtWB8",
+  "upload_date": "2026-09-30",
+  "duration_s": 2285,
+  "view_count": 81178,
+  "transcript_provider": "cached",
+  "transcript_chars": 37177,
+  "transcript_is_whisper": false
+ },
+ "summary": "Aaron Fuks of Hyros (Denver) explains how he built a B2B referral-pipeline business for home service trades (siding, painting, electrical, landscaping). He cold calls and mass-texts businesses in adjacent trades, gets a real bid or project first, then uses it as proof to sell partner introductions to a client. Pricing moved from $150 per appointment to $6,000 for 10 intros plus a $250-500/month nurturing fee, with claimed revenue around $27K last month. Key takeaway: bring value first (a real bid), sell relationships rather than leads, and run it on GoHighLevel with minimal cost.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Host of The Koerner Office"
+  },
+  {
+   "name": "Aaron Fuks",
+   "role": "guest",
+   "description": "Founder of Hyros, referral pipelines for home service businesses, Denver"
+  }
+ ],
+ "format": "operator_interview",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Referral pipeline / partner-introduction service for home service trades",
+   "one_liner": "Cold call and text adjacent-trade businesses to find live bids, then sell tradespeople bundles of vetted referral partner introductions plus ongoing relationship nurturing.",
+   "category": "b2b_service",
+   "business_model": "Per-appointment fee, then packaged intros (10 for $6,000) plus monthly nurturing/management subscription",
+   "customer": "Home service business owners (siding, painting, electrical, landscaping, interior design, general contractors) wanting referral partners in adjacent trades",
+   "problem": "Trades want steady high-value jobs from upstream partners (roofers, builders, designers) but lead marketplaces are shared and poor quality, and cold outreach is hard and time-consuming.",
+   "offer": "Introductions to referral partners who have live bids, guarantee of two real bids in the first 20 appointments, replacement partners if no quote is delivered in time, plus CRM-based relationship nurturing and storm/blast text automations.",
+   "pricing": {
+    "model": "Package of intros plus monthly management fee (originally per appointment)",
+    "price_points": [
+     {
+      "amount": 150,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per appointment",
+      "label": "original deal"
+     },
+     {
+      "amount": 6000,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per 10 appointments/partnerships",
+      "label": "package price"
+     },
+     {
+      "amount": 250,
+      "amount_max": 500,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "nurturing and management fee"
+     }
+    ],
+    "notes": "Pricing 4x'd after pivot to packages with guarantees. Close is a menu: 20, 40 or 120 appointments. Commission of ~30% paid to the caller per appointment."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "cold_call",
+     "details": "Early on: Google Maps lists, 20-40 dials a day with a GoHighLevel power dialer, 15 second ring time, no voicemails, custom dispositions; roughly 2 appointments per day. Also calls immediately when someone replies to a text.",
+     "quote": {
+      "text": "we're using go high level. It has a built-in like power dialer thing.",
+      "speaker": "Aaron Fuks",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 10545,
+      "approx_timestamp_s": 671
+     }
+    },
+    {
+     "channel": "cold_sms_dm",
+     "details": "Mass text a few hundred partner businesses (e.g. 200 custom builders and luxury remodelers) asking if they have projects needing a specialist bid; 2-5% reply with a project; then text prospective clients saying a bid is available (10-15% response) and call replies immediately. Texts drip out to keep call volume manageable.",
+     "quote": {
+      "text": "we pulled a huge list of all the roofers in our area and we sent a text to every single one of them",
+      "speaker": "Aaron Fuks",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 13873,
+      "approx_timestamp_s": 882
+     }
+    },
+    {
+     "channel": "partnerships",
+     "details": "Offers it white-label or via partnership to marketing agencies, who sell it to their own clients.",
+     "quote": null
+    },
+    {
+     "channel": "existing_audience",
+     "details": "Website hyros.com with a referral pipeline blueprint PDF used as sales collateral.",
+     "quote": null
+    }
+   ],
+   "delivery": "Aaron's team sources partner businesses with live bids via calls and texts, qualifies them by phone, books appointments with the client, then manages relationships and referral tracking through GoHighLevel automations. One commission-only caller helps with calls.",
+   "unit_economics_claims": [
+    "Software ~$200/month plus texting/calling ~$100-150/month, roughly $500-600 total",
+    "About 90% profit, one commission-only caller taking ~30% per appointment",
+    "Painting client got 4 bids worth $17K-$64K within 48 hours, paid for about 3 years of nurturing fees",
+    "Revenue about $27K last month, up from $14K in June"
+   ],
+   "tools": [
+    "GoHighLevel",
+    "Snapshots/sub-accounts",
+    "Google Maps"
+   ],
+   "startup_cost": "Low: a few hundred dollars a month of software and texting",
+   "time_to_first_revenue": "Immediate; began earning per appointment within the first month of calling",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Texting and CRM drips are automatable, but UK PECR bars unsolicited texts to sole traders and many trades are sole traders; the human phone call to qualify and close is central. Cold email to limited companies and call screening against TPS/CTPS are lawful alternatives."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Client onboarding is a sales call plus PDF blueprint and GoHighLevel sub-account setup; agents could handle the setup but closing relies on a human."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Qualifying partners and verifying bids needs human phone conversations; nurturing sequences and referral tracking are automated."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Packages and monthly fees can be billed through Stripe or GoHighLevel invoicing with little oversight."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Weekly check-in calls and appointment follow-ups; automations and agents can handle most updates."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Works in principle with UK trades (roofers, builders, electricians). Texting sole traders without consent breaches PECR; the speaker relies on lax US business-text rules. Use cold email to limited companies, TPS/CTPS-screened calls, and Companies House data. Insurance-claim siding jobs are US-specific."
+   },
+   "risks": [
+    "TCPA/PECR legal exposure for cold texting",
+    "Depends on the client's close rate and on bids converting",
+    "Gatekeepers and project managers lack the incentive to refer",
+    "Perceived as a scam or lead-gen company",
+    "Needs a continuing supply of fresh partners and bids",
+    "Clients get busy and stop buying more intros"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "We build referral pipelines for home service businesses.",
+     "speaker": "Aaron Fuks",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 1175,
+     "approx_timestamp_s": 74
+    },
+    {
+     "text": "Within 48 hours, we got four bids ranging from 17 to $64,000.",
+     "speaker": "Aaron Fuks",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 31032,
+     "approx_timestamp_s": 1974
+    },
+    {
+     "text": "I'm not selling the job. I'm selling the relationship.",
+     "speaker": "Aaron Fuks",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 27080,
+     "approx_timestamp_s": 1723
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Original price of $150 per appointment",
+   "metric": "price",
+   "value": {
+    "amount": 150,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per appointment",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Aaron Fuks",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "At the beginning, it was a per invite or a per uh appointment.",
+    "speaker": "Aaron Fuks",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6826,
+    "approx_timestamp_s": 434
+   }
+  },
+  {
+   "claim": "Package price of $6,000 for 10 appointments",
+   "metric": "price",
+   "value": {
+    "amount": 6000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per 10 appointments",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Aaron Fuks",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Like 6,000 for 10 appointments.",
+    "speaker": "Aaron Fuks",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 19457,
+    "approx_timestamp_s": 1238
+   }
+  },
+  {
+   "claim": "Total monthly revenue about $27K in September, up from $14K in June",
+   "metric": "revenue",
+   "value": {
+    "amount": 27000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per month",
+    "label": null
+   },
+   "period": "September",
+   "claimant": "Aaron Fuks",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So September 27 I think. Amazing. And then what was it in June? 14.",
+    "speaker": "Aaron Fuks",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22442,
+    "approx_timestamp_s": 1428
+   }
+  },
+  {
+   "claim": "Monthly nurturing fee between $250 and $500",
+   "metric": "price",
+   "value": {
+    "amount": 250,
+    "amount_max": 500,
+    "currency": "USD",
+    "unit": "per month",
+    "label": null
+   },
+   "period": "monthly",
+   "claimant": "Aaron Fuks",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Between 250 and 500 bucks.",
+    "speaker": "Aaron Fuks",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21875,
+    "approx_timestamp_s": 1392
+   }
+  },
+  {
+   "claim": "Recurring revenue about $16K per month",
+   "metric": "mrr",
+   "value": {
+    "amount": 16000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per month",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Aaron Fuks",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Yeah, about 16.",
+    "speaker": "Aaron Fuks",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21972,
+    "approx_timestamp_s": 1398
+   }
+  },
+  {
+   "claim": "Early cold-call funnel: 20-40 dials a day yielded 2 appointments",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 5,
+    "amount_max": 10,
+    "currency": null,
+    "unit": "percent",
+    "label": null
+   },
+   "period": "per day",
+   "claimant": "Aaron Fuks",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Early on we were 20 to 40 a day. Okay. And setting two appointments.",
+    "speaker": "Aaron Fuks",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9904,
+    "approx_timestamp_s": 630
+   }
+  },
+  {
+   "claim": "Partner text campaigns get 2-5% response with a project/bid request",
+   "metric": "response_rate",
+   "value": {
+    "amount": 2,
+    "amount_max": 5,
+    "currency": null,
+    "unit": "percent",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Aaron Fuks",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "usually our response rate to that project request or bid request is between two and 5%.",
+    "speaker": "Aaron Fuks",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22875,
+    "approx_timestamp_s": 1455
+   }
+  },
+  {
+   "claim": "Texts to prospective clients get 10-15% response",
+   "metric": "response_rate",
+   "value": {
+    "amount": 10,
+    "amount_max": 15,
+    "currency": null,
+    "unit": "percent",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Aaron Fuks",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "we'll do about a hundred messages out and our response rate is anywhere from 10 to 15%.",
+    "speaker": "Aaron Fuks",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25505,
+    "approx_timestamp_s": 1623
+   }
+  },
+  {
+   "claim": "Software and texting cost about $500-600 per month, ~90% profit",
+   "metric": "margin",
+   "value": {
+    "amount": 90,
+    "amount_max": null,
+    "currency": null,
+    "unit": "percent",
+    "label": null
+   },
+   "period": "monthly",
+   "claimant": "Aaron Fuks",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "you're looking at maybe five to 600 bucks in software and texting. No employees.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 30301,
+    "approx_timestamp_s": 1928
+   }
+  },
+  {
+   "claim": "Painting client received four bids from $17K to $64K within 48 hours",
+   "metric": "other",
+   "value": {
+    "amount": 64000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "largest bid",
+    "label": null
+   },
+   "period": "48 hours",
+   "claimant": "Aaron Fuks",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "within 48 hours, we got four bids ranging from 17 to $64,000.",
+    "speaker": "Aaron Fuks",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 31032,
+    "approx_timestamp_s": 1974
+   }
+  },
+  {
+   "claim": "A landscaping client found an 80-home subdivision, about a $4M contract",
+   "metric": "other",
+   "value": {
+    "amount": 4000000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "contract bid",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Aaron Fuks",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "80 homes in a subdivision.",
+    "speaker": "Aaron Fuks",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17219,
+    "approx_timestamp_s": 1095
+   }
+  },
+  {
+   "claim": "Paying $300-400 to respond to one Thumbtack lead",
+   "metric": "cost",
+   "value": {
+    "amount": 300,
+    "amount_max": 400,
+    "currency": "USD",
+    "unit": "per lead response",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Aaron Fuks",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "just responding could cost him two, three, 400 bucks.",
+    "speaker": "Aaron Fuks",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 33704,
+    "approx_timestamp_s": 2145
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Bring a real bid first, then sell the relationship",
+   "area": "sales",
+   "steps": [
+    "Text a list of partner businesses (e.g. roofers, builders) asking if they have projects needing your trade",
+    "Call every positive reply immediately to qualify the bid",
+    "Text prospective client businesses saying you have a live bid and want to partner",
+    "Call replies at once and pitch partner introductions as relationships, not leads"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Bring them a project and then they believe in the value.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13385,
+    "approx_timestamp_s": 851
+   }
+  },
+  {
+   "name": "Cold call setup in GoHighLevel",
+   "area": "operations",
+   "steps": [
+    "Use the built-in power dialer",
+    "Set ring time to 15 seconds",
+    "Do not leave voicemails; retry later",
+    "Add custom dispositions (picked up, pitched, angry) to track"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Upgrade from per-appointment to guaranteed package",
+   "area": "pricing",
+   "steps": [
+    "Start low per appointment to learn close rates",
+    "Package 10 intros at $6,000",
+    "Guarantee two real bids in the first 20 appointments",
+    "Replace partners that fail to deliver a quote in time",
+    "Add $250-500/month nurturing",
+    "Offer a menu close (20/40/120 appointments)"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Commission-only caller",
+   "area": "hiring",
+   "steps": [
+    "Pay a caller roughly 30% of each appointment fee",
+    "No base salary"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "GoHighLevel",
+   "purpose": "CRM, power dialer, SMS automation, snapshots and sub-accounts",
+   "cost_stated": "a couple hundred dollars a month"
+  },
+  {
+   "name": "Google Maps",
+   "purpose": "Source of business phone numbers",
+   "cost_stated": null
+  },
+  {
+   "name": "Thumbtack / Angi / HomeAdvisor",
+   "purpose": "Competing shared lead marketplaces",
+   "cost_stated": "$200-400 per lead response"
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Gatekeepers and project managers are not incentivised, so follow-up calls to them close poorly; target owners.",
+   "quote": {
+    "text": "With project manager, he's probably going to make the same whether you make this connection or not",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12711,
+    "approx_timestamp_s": 808
+   }
+  },
+  {
+   "warning": "Prospects often think it is a scam or lead gen company; frame as relationship partnership.",
+   "quote": null
+  },
+  {
+   "warning": "Cold text laws (TCPA in the US) are looser for B2B but still a risk; UK PECR is stricter for sole traders.",
+   "quote": null
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Prove value before asking for money: bringing a live bid first earns trust and attention.",
+   "theme": "offer_design",
+   "quote": null
+  },
+  {
+   "lesson": "Start with a low price to learn close rates, then raise sharply once you see client demand for volume.",
+   "theme": "pricing",
+   "quote": {
+    "text": "I think it is smart to price it low to start because his close rate could be 2%, it could be 20%",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7383,
+    "approx_timestamp_s": 469
+   }
+  },
+  {
+   "lesson": "Aim for 10x-1000x ROI for the customer, not 2-3x.",
+   "theme": "pricing",
+   "quote": null
+  },
+  {
+   "lesson": "Cold outreach is only as hard as your offer.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "cold calling is hard, but it's only as hard as your offer.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14870,
+    "approx_timestamp_s": 946
+   }
+  },
+  {
+   "lesson": "Sell the relationship, not the lead; this differentiates from shared-lead marketplaces.",
+   "theme": "offer_design",
+   "quote": null
+  },
+  {
+   "lesson": "Add recurring revenue (nurturing) to a one-off service so success doesn't put you out of business.",
+   "theme": "scaling",
+   "quote": null
+  },
+  {
+   "lesson": "Pick a niche you are excited about rather than the shiniest object on the platform.",
+   "theme": "niche_selection",
+   "quote": null
+  },
+  {
+   "lesson": "Work with an existing client, observe the value chain and spot the upstream/downstream opportunity.",
+   "theme": "niche_selection",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "B",
+  "rationale": "First-hand operator with consistent process detail and numbers, but revenue is unverified and figures are somewhat vague (recurring vs one-off confusion); small sample of client stories.",
+  "promotional_conflict": "Host receives affiliate kickback from GoHighLevel; guest sells services and a blueprint via Hyros and seeks agency partners."
+ },
+ "extraction": {
+  "model": "claude-sonnet-5-5",
+  "extracted_at": "2026-10-22T02:02:44",
+  "cost_usd": 0.10936019999999999,
+  "quote_verification": {
+   "quotes": 21,
+   "verified": 21,
+   "rate": 1.0
+  },
+  "schema_errors": [],
+  "reviewed_by": null,
+  "review_notes": null
+ }
+}

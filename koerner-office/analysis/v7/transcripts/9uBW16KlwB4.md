@@ -1,6 +1,6 @@
 # You Can Now Build Apps for Free With Google AI Studio (w/ Google Insider)
 
-- **Video:** [9uBW16KlwB4](https://www.youtube.com/watch?v=9uBW16KlwB4) · **Channel:** The Koerner Office · **Uploaded:** unknown · **Length:** 50 min · **Transcript:** ok
+- **Video:** [9uBW16KlwB4](https://www.youtube.com/watch?v=9uBW16KlwB4) · **Channel:** The Koerner Office · **Uploaded:** 2025-10-24 · **Length:** 50 min · **Transcript:** ok
 - **Speakers:** Chris Koerner (host), Logan Kilpatrick (guest) · **Format:** operator_interview
 - **Evidence quality:** C — Mostly speculative discussion and live demos from a Google product lead; few concrete business numbers, and the only revenue claims are second-hand (John Rush, levels.io). Chris has a brief first-hand voice-agent anecdote without numbers. · Promotional conflict: Logan promotes Google AI Studio (his employer's product) and Chris is a Google shareholder; the episode also includes ads for Go High Level and Chris's TK Owners community.
 - **Extraction:** claude-sonnet-5-5 · quotes verified 23/23
@@ -38,8 +38,8 @@ Chris Koerner interviews Logan Kilpatrick, who leads the developer product team 
 - **UK applicability [E]:** 4/5 — Works the same in the UK. Cold email only to limited companies under PECR; sole traders need consent.
 - **Risks:** Market size unverified; Logan admits he doesn't know the numbers; Clients may not pay for easily built tools; Low barrier means many competitors
 - **Automation [E]:** acquisition 2/5 (Agents can generate demo redesigns, but UK PECR bars unsolicited outreach to sole traders, so outreach is limited to limited companies by email.); onboarding 2/5 (Discovery calls and scoping with owners are mostly human, with AI tooling support.); delivery 3/5 (Vibe coding tools build most of each app, but iteration and client fit need human checks.); billing 4/5 (Invoices and subscriptions can be automated.); support 2/5 (Non-technical owners need hand-holding and change requests.)
-> "I redesigned your website using AI. Here it is. If this seems interesting to you, let me know. If not, like your marginal cost was basically nothing." — Logan Kilpatrick (~42:06)
-> "there will always be business owners that just want someone to do it for them" — Chris Koerner (~39:01)
+> "I redesigned your website using AI. Here it is. If this seems interesting to you, let me know. If not, like your marginal cost was basically nothing." — Logan Kilpatrick (~42:05)
+> "there will always be business owners that just want someone to do it for them" — Chris Koerner (~39:00)
 
 ### I2. Voice AI agent lead-gen landing page
 
@@ -75,7 +75,7 @@ Chris Koerner interviews Logan Kilpatrick, who leads the developer product team 
 - **UK applicability [E]:** 5/5 — No location dependence.
 - **Risks:** Gemini does the heavy lifting so the product is easy to copy; Needs a distinct product experience
 - **Automation [E]:** acquisition 3/5 (Would be SEO or content driven; not discussed.); onboarding 4/5 (Self-serve upload.); delivery 5/5 (Model processes video unattended.); billing 4/5 (Standard SaaS billing.); support 3/5 (Agents can handle routine support.)
-> "The question then is like what is the product experience that you sort of build around that model and I think that's where the magic is." — Logan Kilpatrick (~20:20)
+> "The question then is like what is the product experience that you sort of build around that model and I think that's where the magic is." — Logan Kilpatrick (~20:19)
 
 ### I4. Niche single-purpose AI apps (haircut, curtains, furniture)
 
@@ -93,22 +93,22 @@ Chris Koerner interviews Logan Kilpatrick, who leads the developer product team 
 - **UK applicability [E]:** 5/5 — Works the same.
 - **Risks:** Crowded; many copy the same idea on day one; Thin search volume per niche
 - **Automation [E]:** acquisition 3/5 (Social posting can be agent-run; SEO volume for tiny niches is thin.); onboarding 5/5 (Self-serve.); delivery 5/5 (Model generates outputs unattended.); billing 4/5 (Stripe-style billing.); support 4/5 (Low support needs.)
-> "I just wish people had more of a bias towards like that's not niche enough as opposed to that's too niche." — Chris Koerner (~17:16)
+> "I just wish people had more of a bias towards like that's not niche enough as opposed to that's too niche." — Chris Koerner (~17:15)
 
 ## Revenue and metric claims (unverified claims)
 
 - **Building in AI Studio costs nothing; paid only when deploying and serving users** (cost, second-hand, claimant: Logan Kilpatrick)
-  > "to actually build the thing is doesn't cost anything" — Logan Kilpatrick (~6:14)
+  > "to actually build the thing is doesn't cost anything" — Logan Kilpatrick (~6:13)
 - **Voice agent app built in 66 seconds** (hours, first-hand, claimant: Chris Koerner)
   > "All right, it looks like it's done. 66 seconds." — Chris Koerner (~0:04)
 - **John Rush makes $3M a year from a dozen AI tools** (revenue, second-hand, claimant: Chris Koerner)
-  > "he makes 3 million bucks a year from a dozen AI tools" — Chris Koerner (~14:10)
+  > "he makes 3 million bucks a year from a dozen AI tools" — Chris Koerner (~14:09)
 - **Levels.io style: three of 20 ideas worked and became $100,000/month businesses** (revenue, second-hand, claimant: Logan Kilpatrick)
   > "they had like 20 ideas and only three of them worked and the three that worked are now like, you know, $100,000 a month businesses" — Logan Kilpatrick (~11:35)
 - **400 million small businesses worldwide that need AI** (customers, second-hand, claimant: Chris Koerner)
-  > "there's 400 million small businesses around the world" — Chris Koerner (~42:38)
+  > "there's 400 million small businesses around the world" — Chris Koerner (~42:37)
 - **Tens of thousands of apps built on Nano Banana launch day** (customers, second-hand, claimant: Logan Kilpatrick)
-  > "users inside of AI Studio were vibe coding literally tens of thousands of AI-powered apps using that new model" — Logan Kilpatrick (~5:38)
+  > "users inside of AI Studio were vibe coding literally tens of thousands of AI-powered apps using that new model" — Logan Kilpatrick (~5:37)
 
 ## Tactics and playbook steps
 
@@ -118,7 +118,7 @@ Chris Koerner interviews Logan Kilpatrick, who leads the developer product team 
 3. Send the redesign to the owner as outreach
 4. Frame it as zero marginal cost to them
 5. Optionally vibe code live on a sales call
-> "you can go find this com- the company website that you want to work with, you can take their products or their website, reimagine it with AI" — Logan Kilpatrick (~41:48)
+> "you can go find this com- the company website that you want to work with, you can take their products or their website, reimagine it with AI" — Logan Kilpatrick (~41:47)
 
 **High-volume shots on goal** (product)
 1. Build one AI app a day with about 30 minutes of work

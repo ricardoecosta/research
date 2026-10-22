@@ -44,7 +44,10 @@ def review_one(vid, model):
     ext = {k: raw.get(k) for k in CORE}
     prompt = (f"<transcript>\n{tx_body(tx_text(vid))}\n</transcript>\n\n<extraction>\n"
               f"{json.dumps(strip_q(ext), ensure_ascii=False)}\n</extraction>\n\nReturn the audit JSON now.")
-    res = run_claude(prompt, SYSTEM, model=model)
+    try:
+        res = run_claude(prompt, SYSTEM, model=model)
+    except LimitHit:
+        return vid, "limit", 0
     try:
         if res.get("is_error"):
             raise ValueError(str(res.get("result"))[:300])
@@ -93,4 +96,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    guarded(main)

@@ -1,0 +1,1548 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "xc2IjVqVdQY",
+  "title": "From Nothing to $20k/month with Email Newsletters: Full Tutorial",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=xc2IjVqVdQY",
+  "upload_date": null,
+  "duration_s": 3358,
+  "view_count": null,
+  "transcript_provider": "ok",
+  "transcript_chars": 61650,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner interviews Jazz, who runs Winnipeg Digest, a local events/community newsletter (about 35,000 email subscribers plus about 73,000 social followers) started in April 2024. Jazz explains audience growth via Facebook ads, annual exclusive sponsorships priced at about $12,000 per year, survey-based audience data, and a VA plus Claude/ChatGPT content workflow. He is now vertically integrating by selling Christmas light installation to newsletter readers, with plans for permanent lights and a fractional-CMO-for-equity model. The key takeaway is that a local newsletter is a cheap audience asset to build, sponsor sales are the hard part, and the audience can be monetised further through owned businesses.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Host of The Koerner Office podcast"
+  },
+  {
+   "name": "Jazz",
+   "role": "guest",
+   "description": "Founder of Winnipeg Digest local newsletter, based in Winnipeg, Canada; Twitter handle creating jazz"
+  }
+ ],
+ "format": "operator_interview",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Local city newsletter with annual exclusive sponsorships (Winnipeg Digest)",
+   "one_liner": "A casual, events-focused local email newsletter plus Instagram account monetised by selling annual exclusive sponsor slots to local businesses.",
+   "category": "content_media",
+   "business_model": "Sponsorship/advertising: annual exclusive sponsor packages (one ad per newsletter), one-off ads, and Instagram posts",
+   "customer": "Readers: mainly women aged 35-65 and homeowners in Winnipeg; payers: local businesses such as event venues, dentists, HVAC, plumbing and roofing",
+   "problem": "Local businesses lack an engaged local advertising channel; residents lack a single positive source of local events and city updates",
+   "offer": "Newsletter three times a week (events, community updates, bylaws, no crime or politics) plus Instagram, with one exclusive sponsor per category per year",
+   "pricing": {
+    "model": "Annual exclusive sponsorship, with higher one-off rates",
+    "price_points": [
+     {
+      "amount": 12000,
+      "currency": "USD",
+      "unit": "per year (12 newsletter ads, one per month)",
+      "label": "Annual sponsorship (currency not clearly stated)"
+     },
+     {
+      "amount": 1400,
+      "currency": "USD",
+      "unit": "per one-off newsletter ad",
+      "label": "One-time advertiser"
+     },
+     {
+      "amount": 2800,
+      "currency": "USD",
+      "unit": "per Instagram post",
+      "label": "Instagram post"
+     },
+     {
+      "amount": 75,
+      "currency": "USD",
+      "unit": "per thousand opens (CPM)",
+      "label": "Newsletter CPM"
+     }
+    ],
+    "notes": "Sell annual exclusivity rather than one-off sponsorships. Currency is not stated explicitly and the host speaks in USD. Jazz is in Canada, so CAD is possible."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "paid_social",
+     "details": "About 90% of ad budget on Facebook ads; best ad is a 15-second video with local monument or drone footage and the text 'struggling to find things to do in [city]' plus '50+ events every week'. Spend about $3,000 a month for roughly 2,000 subs a month now, down from 4-5k a month early on.",
+     "quote": {
+      "text": "Usually have some sort of a local monument as the background. Video or image. Test both. I would say video has done better for me.",
+      "speaker": "Jazz",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 56232,
+      "approx_timestamp_s": 3200
+     }
+    },
+    {
+     "channel": "organic_social_content",
+     "details": "Instagram grown to about 73k followers with reels (restaurant reviews), now carousels; Instagram doubles as a sponsor lead source and a cold-outreach credibility tool.",
+     "quote": null
+    },
+    {
+     "channel": "referrals_word_of_mouth",
+     "details": "Seasonal referral guides (top 50 things to do this winter, restaurant and hiking guides) drive shares and signups; giveaways and lead magnets being tested.",
+     "quote": null
+    },
+    {
+     "channel": "existing_audience",
+     "details": "Sponsor leads come from inbound Instagram feature requests by young marketing coordinators, who then get sold on newsletter ads on a call; also relationships and outreach from the Instagram account.",
+     "quote": null
+    }
+   ],
+   "delivery": "Two VAs (one on events, one on writing) draft with Claude/ChatGPT; Jazz does a final review at night (about 1 hour). Sent via Beehiiv three times a week, 400-2600 words, fifth-grade reading level.",
+   "unit_economics_claims": [
+    "Subscriber acquisition cost about 15 cents CAD early on, about $1.30 now",
+    "Subscriber worth about $8-9 a year if every ad slot sells",
+    "Newsletter revenue about $144k a year from annual sponsors",
+    "Monthly revenue $12-15k",
+    "Time about 20 hrs/week now, about 7 hrs without sponsor chasing, up to 15 hrs/week once delegated",
+    "Open rate 56-60%, click rate 8-12%"
+   ],
+   "tools": [
+    "Beehiiv",
+    "Claude",
+    "ChatGPT",
+    "Notion",
+    "Canva",
+    "Instagram",
+    "Facebook Ads"
+   ],
+   "startup_cost": "Not stated beyond ad spend of about $3,000 a month",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Facebook ads and Instagram carousels are largely automatable. Sponsor sales still need calls and relationships, which drag this down."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "A subscriber survey in Beehiiv is automated. Sponsor onboarding and ad drafts are manual but template-able."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Agents can draft the content. Events research, editing and final review currently need VAs and a human, though full automation is being explored."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Annual invoices could be automated with standard tools. Jazz tracks sponsors in a semi-custom Notion CRM."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Little support is needed. Sponsor relationship management is mostly human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Local newsletters work in UK towns and cities. The Beehiiv survey is fine under GDPR with consent. Use opt-in signups only. Pick a market without an existing local newsletter. The population of 100-150k+ rule of thumb transfers to UK towns and boroughs."
+   },
+   "risks": [
+    "Selling local businesses on newsletter advertising is hard",
+    "Sponsors can run out; revenue caps around $500k per year",
+    "Subscriber acquisition cost rises as the market saturates",
+    "Open rates can drop; aggressive list cleaning can remove real readers",
+    "Founder face association makes the asset harder to sell"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "We sell annual spots. Like that's kind of our business model is we sell exclusivity.",
+     "speaker": "Jazz",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 25920,
+     "approx_timestamp_s": 1475
+    },
+    {
+     "text": "So right now we're charging about $12,000 for 12 newsletter ads. So one per month.",
+     "speaker": "Jazz",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 27025,
+     "approx_timestamp_s": 1538
+    },
+    {
+     "text": "I think the biggest problem that local newsletters run into is not is not building the audience. Anyone can build the audience.",
+     "speaker": "Jazz",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 6596,
+     "approx_timestamp_s": 375
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Christmas lights leasing business marketed through the newsletter",
+   "one_liner": "A seasonal, owner-operated Christmas light installation and leasing service sold to newsletter readers, with an upsell to permanent lights.",
+   "category": "home_service",
+   "business_model": "Per-job installation with annual lease/renewal; later upsell to permanent lights",
+   "customer": "Winnipeg homeowners, mostly women who decide on home decor, reached via the newsletter",
+   "problem": "Homeowners want Christmas lights installed without doing it themselves",
+   "offer": "Design consult, installation and leasing of Christmas lights, with an early-booking discount",
+   "pricing": {
+    "model": "Per-job quote with price anchoring",
+    "price_points": [
+     {
+      "amount": 1400,
+      "currency": "USD",
+      "unit": "per job",
+      "label": "Average job"
+     },
+     {
+      "amount": 3000,
+      "currency": "USD",
+      "unit": "per quote",
+      "label": "Initial anchor quote before items are removed"
+     },
+     {
+      "amount": 150,
+      "currency": "USD",
+      "unit": "discount",
+      "label": "Booking before October 7th"
+     }
+    ],
+    "notes": "Currency not stated explicitly. Permanent lights are about 4-5x the average order value of Christmas lights."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "existing_audience",
+     "details": "Ads and a giveaway in Winnipeg Digest to produce about 300 entries, then calls offering $150 off. Branded 'Lights' in the same colours as the newsletter. Five or six jobs sold before the season started.",
+     "quote": null
+    },
+    {
+     "channel": "paid_social",
+     "details": "Plan to add Facebook ads, with an expected lower conversion on colder leads.",
+     "quote": null
+    },
+    {
+     "channel": "referrals_word_of_mouth",
+     "details": "Plan to offer a $100 steakhouse gift card for referrals.",
+     "quote": null
+    }
+   ],
+   "delivery": "Owner currently installs himself (3-4 hours per job) and plans to hire labour at about $15/hr, about three people for 3 hours, and later bring in an operator with equity.",
+   "unit_economics_claims": [
+    "Average job about $1,400",
+    "Cost per job about $200-300, lights only, excluding own labour",
+    "Year-two labour about $150 a job",
+    "About 85% customer retention year over year",
+    "Initial capital about $10,000",
+    "Targeting $100k revenue in year one, ideally $150-200k"
+   ],
+   "tools": [
+    "Winnipeg Digest",
+    "Facebook Ads"
+   ],
+   "startup_cost": "About $10,000 of initial capital",
+   "time_to_first_revenue": "Five or six jobs sold before the main season started",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Newsletter promotion and Facebook ads can be automated. The design consult sales visit is in-person, which caps this."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "In-home design consults and mockups are done by a human."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical installation on ladders by people."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Standard invoicing and payment tools can handle it."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Mid-season repairs and customer service are physical or human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Christmas light installation is a real UK market. Needs public liability insurance, working at height safety and fitting UK electrical standards. Regional demand and pricing differ."
+   },
+   "risks": [
+    "Seasonal, only about 10 weeks",
+    "Physical labour and safety at height",
+    "Quoting and close rate was poor early on",
+    "Cold leads from Facebook ads will convert worse than newsletter leads",
+    "Permanent lights are disliked by an experienced operator because of one-time sales and maintenance"
+   ],
+   "is_primary": false,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "So we started running some ads in the Winnipeg Digest have already sold like five, six jobs before the season has even started",
+     "speaker": "Jazz",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 35687,
+     "approx_timestamp_s": 2031
+    },
+    {
+     "text": "We've booked five job the last week. About $1,400 is our average job right now.",
+     "speaker": "Jazz",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 40096,
+     "approx_timestamp_s": 2281
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Permanent lights upsell",
+   "one_liner": "Pre-sell Christmas light customers on permanent gutter lights with a discount next year.",
+   "category": "home_service",
+   "business_model": "One-time installation sale",
+   "customer": "Existing Christmas light customers",
+   "problem": "Customers on the fence about Christmas lights may want a permanent solution",
+   "offer": "Permanent lighting installed under gutters, with $500 off for existing Christmas light customers",
+   "pricing": {
+    "model": "One-off installation",
+    "price_points": [
+     {
+      "amount": 500,
+      "currency": "USD",
+      "unit": "discount",
+      "label": "Following-year discount"
+     }
+    ],
+    "notes": "Order value about 4-5x Christmas lights."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "existing_audience",
+     "details": "Upsell to Christmas light customers during the season and from the newsletter.",
+     "quote": null
+    }
+   ],
+   "delivery": "Physical installation by crews.",
+   "unit_economics_claims": [
+    "Average order value 4-5x Christmas lights"
+   ],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "Planned for next spring",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Upsell from existing customers and the newsletter."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "Home consult needed."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical installation."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Standard invoicing."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Maintenance visits are manual."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Feasible in the UK with electrical and insurance compliance."
+   },
+   "risks": [
+    "A friend running home service businesses warns to avoid permanent lights because they are a one-time sale with maintenance headaches"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "stay away from permanent lighting. Stay away from jellyfish.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 36051,
+     "approx_timestamp_s": 2051
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "Fractional CMO for equity using the newsletter audience",
+   "one_liner": "Winnipeg Digest acts as a marketing arm for local home service businesses in exchange for 15-20% equity.",
+   "category": "agency",
+   "business_model": "Equity share for marketing services",
+   "customer": "Local home service business owners",
+   "problem": "Local businesses struggle with marketing and customer acquisition",
+   "offer": "Access to the newsletter, social channels and marketing handling in return for equity",
+   "pricing": {
+    "model": "Equity",
+    "price_points": [
+     {
+      "amount": null,
+      "currency": null,
+      "unit": "15-20% equity",
+      "label": "Target equity stake"
+     }
+    ],
+    "notes": "Considered unrealistic until the Christmas lights business proves the model."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "existing_audience",
+     "details": "Prove the model with Christmas lights, then approach other home service businesses.",
+     "quote": null
+    }
+   ],
+   "delivery": "Marketing run by Jazz and his team.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Equity deals need personal trust and negotiation."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "Human deal-making."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Ads and content can be tooled, but strategy is manual."
+    },
+    "billing": {
+     "score_e": 1,
+     "how": "Equity is not billed."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Relationship-based."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Equity-for-services deals are possible in the UK but need proper legal agreements."
+   },
+   "risks": [
+    "Local owners are unlikely to trust an equity offer without a proof case"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "we end up becoming like a fully fractional CMO type of situation where we they get access to Winnipeg Digest",
+     "speaker": "Jazz",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 38252,
+     "approx_timestamp_s": 2177
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "Negative-CAC discount card or offers for newsletter signups",
+   "one_liner": "Sell a local discount card or partner offers to new subscribers so the signup cost is recovered immediately.",
+   "category": "digital_products",
+   "business_model": "Product sales to new subscribers (e.g. a $20 discount card) offsetting ad spend",
+   "customer": "New newsletter subscribers",
+   "problem": "Subscriber acquisition costs money",
+   "offer": "Discount card with 10% off at around 20 restaurants, sold in the signup flow",
+   "pricing": {
+    "model": "One-off card sale",
+    "price_points": [
+     {
+      "amount": 20,
+      "currency": "USD",
+      "unit": "per card",
+      "label": "Example discount card"
+     }
+    ],
+    "notes": "Hypothetical; not yet tested."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "paid_social",
+     "details": "Facebook ads to the signup flow.",
+     "quote": null
+    }
+   ],
+   "delivery": "Digital card.",
+   "unit_economics_claims": [
+    "If a subscriber costs $1 and one in ten buy a $20 card, ad spend is recovered"
+   ],
+   "tools": [
+    "Beehiiv",
+    "Facebook Ads"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Ad and signup flow automation."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Automated welcome flow."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Digital card."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Payment processor."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Light support."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Works in the UK with opt-in consent."
+   },
+   "risks": [
+    "Needs local partnerships",
+    "Untested"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "buy this discount card for $20 and get 10% off these 20 restaurants or something, right?",
+     "speaker": "Jazz",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 17289,
+     "approx_timestamp_s": 983
+    }
+   ]
+  },
+  {
+   "local_id": "I6",
+   "name": "Spark Loop-style referral network for local newsletters",
+   "one_liner": "A referral engine where subscribers see local business offers that pay per signup.",
+   "category": "marketplace_directory",
+   "business_model": "Selling leads to local businesses for each checked box",
+   "customer": "Local businesses such as restaurants and auto repair shops",
+   "problem": "Local newsletters cannot monetise through national referral networks",
+   "offer": "Aggregate local business offers shown after newsletter signup",
+   "pricing": {
+    "model": "Per lead",
+    "price_points": [
+     {
+      "amount": null,
+      "currency": null,
+      "unit": "per lead",
+      "label": "Not stated"
+     }
+    ],
+    "notes": "Idea floated by the host."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "partnerships",
+     "details": "Partnerships with local businesses and newsletters.",
+     "quote": null
+    }
+   ],
+   "delivery": "Software referral flow.",
+   "unit_economics_claims": [],
+   "tools": [
+    "SparkLoop"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Needs local business sales."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Self-serve setup."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "Software."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Automated."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Light support."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Works with PECR consent."
+   },
+   "risks": [
+    "Two-sided market",
+    "Local scale"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "I feel like someone needs to build a Spark Loop for local newsletters.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 18395,
+     "approx_timestamp_s": 1046
+    }
+   ]
+  },
+  {
+   "local_id": "I7",
+   "name": "Buying or sharing local business email lists to grow a newsletter",
+   "one_liner": "Offer local businesses free ads or cash in exchange for sending their email list to your newsletter.",
+   "category": "data_leads",
+   "business_model": "Audience growth via ad-for-list swaps",
+   "customer": "Local businesses with unused email lists",
+   "problem": "Businesses have dormant lists; newsletters need subscribers",
+   "offer": "About $2,000 of ads for a 20,000 person list, or 10 cents per email",
+   "pricing": {
+    "model": "Ad credit or per-email payment",
+    "price_points": [
+     {
+      "amount": 0.1,
+      "currency": "USD",
+      "unit": "per email",
+      "label": "Cash option"
+     },
+     {
+      "amount": 2000,
+      "currency": "USD",
+      "unit": "ad credit for 20,000 list",
+      "label": "Ad swap"
+     }
+    ],
+    "notes": "Host suggestion, untested."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "partnerships",
+     "details": "Partner with local businesses and segment the list into test groups.",
+     "quote": null
+    }
+   ],
+   "delivery": "Verified lists added or emailed.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Partnership outreach is mostly manual."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "List verification and segmentation can be automated."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Email sends."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Ad credit swap."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Light."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 1,
+    "notes": "Adding people to a list without their consent breaches UK GDPR and PECR. Only usable as a partner-introduction email with a compliant opt-in."
+   },
+   "risks": [
+    "Legal consent issues",
+    "Dead or low-quality lists"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "I'll give you $2,000 worth of ads for your 20,000 person list.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 52541,
+     "approx_timestamp_s": 2990
+    }
+   ]
+  },
+  {
+   "local_id": "I8",
+   "name": "Niche or neighbourhood newsletters in large cities",
+   "one_liner": "In big cities, niche down by demographic or neighbourhood, e.g. young dads in Austin or Williamsburg moms.",
+   "category": "content_media",
+   "business_model": "Sponsorship",
+   "customer": "Niche demographic audiences in large cities",
+   "problem": "City-wide newsletters in huge cities are too broad",
+   "offer": "Targeted local niche newsletter",
+   "pricing": {
+    "model": "Sponsorship",
+    "price_points": [],
+    "notes": "Not stated."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "paid_social",
+     "details": "Facebook ads targeted at the niche.",
+     "quote": null
+    }
+   ],
+   "delivery": "Same as a standard newsletter.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Paid ads."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Automated signup."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "AI drafts with editing."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Standard."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Sponsor handling."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Works for London boroughs and neighbourhoods."
+   },
+   "risks": [
+    "Smaller audience reduces sponsor prices"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "Young Dads in Austin or something like that alone is probably like,000 people.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 57601,
+     "approx_timestamp_s": 3278
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Winnipeg Digest reaches over 100,000 people across social and newsletter",
+   "metric": "customers",
+   "value": {
+    "amount": 100000,
+    "currency": null,
+    "unit": "people reached"
+   },
+   "period": null,
+   "claimant": "Jazz",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "since then, we now reach over 100,000 Winnipeggers. That's uh a combination of social media and newsletter.",
+    "speaker": "Jazz",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2837,
+    "approx_timestamp_s": 161
+   }
+  },
+  {
+   "claim": "Newsletter has about 35,000 subscribers",
+   "metric": "customers",
+   "value": {
+    "amount": 35000,
+    "currency": null,
+    "unit": "subscribers"
+   },
+   "period": null,
+   "claimant": "Jazz",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "And then our newsletter is at about 35,000 people now.",
+    "speaker": "Jazz",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3059,
+    "approx_timestamp_s": 174
+   }
+  },
+  {
+   "claim": "Subscribers acquired for 15 cents Canadian early on",
+   "metric": "cost",
+   "value": {
+    "amount": 0.15,
+    "currency": "CAD",
+    "unit": "per subscriber"
+   },
+   "period": "early",
+   "claimant": "Jazz",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Like my I was acquiring subscribers for 15 cents Canadian, right?",
+    "speaker": "Jazz",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5547,
+    "approx_timestamp_s": 315
+   }
+  },
+  {
+   "claim": "Revenue ranges from 12 to 15 thousand per month",
+   "metric": "revenue",
+   "value": {
+    "amount": 12000,
+    "amount_max": 15000,
+    "currency": null,
+    "unit": "per month"
+   },
+   "period": "monthly",
+   "claimant": "Jazz",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "today it's about it can range from 12 to 15,000 currently.",
+    "speaker": "Jazz",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15824,
+    "approx_timestamp_s": 900
+   }
+  },
+  {
+   "claim": "Annual sponsors pay about $12,000 for 12 newsletter ads",
+   "metric": "price",
+   "value": {
+    "amount": 12000,
+    "currency": "USD",
+    "unit": "per year"
+   },
+   "period": "annual",
+   "claimant": "Jazz",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "right now we're charging about $12,000 for 12 newsletter ads. So one per month.",
+    "speaker": "Jazz",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 27028,
+    "approx_timestamp_s": 1538
+   }
+  },
+  {
+   "claim": "Newsletter CPM about $75 for local advertisers",
+   "metric": "price",
+   "value": {
+    "amount": 75,
+    "currency": "USD",
+    "unit": "per thousand opens"
+   },
+   "period": null,
+   "claimant": "Jazz",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "We're about $70 something dollars, like probably $75 CPM.",
+    "speaker": "Jazz",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25801,
+    "approx_timestamp_s": 1468
+   }
+  },
+  {
+   "claim": "Instagram post costs $2,800",
+   "metric": "price",
+   "value": {
+    "amount": 2800,
+    "currency": "USD",
+    "unit": "per post"
+   },
+   "period": null,
+   "claimant": "Jazz",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "our u Instagram it's double. So it's $2800 for one for one post.",
+    "speaker": "Jazz",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 26801,
+    "approx_timestamp_s": 1525
+   }
+  },
+  {
+   "claim": "Newsletter ads bring in about $144,000 a year",
+   "metric": "revenue",
+   "value": {
+    "amount": 144000,
+    "currency": "USD",
+    "unit": "per year"
+   },
+   "period": "annual",
+   "claimant": "Jazz",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So that's I think $144,000 a year in revenue just on our newsletter ads.",
+    "speaker": "Jazz",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 27347,
+    "approx_timestamp_s": 1556
+   }
+  },
+  {
+   "claim": "Total business revenue about $200k including other sources",
+   "metric": "revenue",
+   "value": {
+    "amount": 200000,
+    "currency": "USD",
+    "unit": "per year"
+   },
+   "period": "annual",
+   "claimant": "Jazz",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "we're kind of looking at in the ballpark of about 200k when when you kind of combine everything together",
+    "speaker": "Jazz",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 28183,
+    "approx_timestamp_s": 1603
+   }
+  },
+  {
+   "claim": "An event venue sponsor will spend $40,000 this year",
+   "metric": "revenue",
+   "value": {
+    "amount": 40000,
+    "currency": "USD",
+    "unit": "per year"
+   },
+   "period": "annual",
+   "claimant": "Jazz",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "this year they're going to be spending $40,000 a year with us, right?",
+    "speaker": "Jazz",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 29126,
+    "approx_timestamp_s": 1657
+   }
+  },
+  {
+   "claim": "Subscriber survey completion rate is 87%",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 87,
+    "currency": null,
+    "unit": "percent"
+   },
+   "period": null,
+   "claimant": "Jazz",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "About a 87% uh like completion rate.",
+    "speaker": "Jazz",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 30633,
+    "approx_timestamp_s": 1743
+   }
+  },
+  {
+   "claim": "Open rate about 56-60%, click-through 8-12%",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 56,
+    "amount_max": 60,
+    "currency": null,
+    "unit": "percent open rate"
+   },
+   "period": null,
+   "claimant": "Jazz",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So open today is about 56 to 60%.",
+    "speaker": "Jazz",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12206,
+    "approx_timestamp_s": 694
+   }
+  },
+  {
+   "claim": "Ad spend about $3,000 a month for about 2,000 subs a month now",
+   "metric": "cost",
+   "value": {
+    "amount": 3000,
+    "currency": null,
+    "unit": "per month"
+   },
+   "period": "monthly",
+   "claimant": "Jazz",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Now it's decreased to like 2ishk give or take where, you know, we're still spending the same amount of money. So it's about $3,000.",
+    "speaker": "Jazz",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 49117,
+    "approx_timestamp_s": 2795
+   }
+  },
+  {
+   "claim": "Time involvement about 20 hours a week",
+   "metric": "hours",
+   "value": {
+    "amount": 20,
+    "currency": null,
+    "unit": "hours per week"
+   },
+   "period": "weekly",
+   "claimant": "Jazz",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "it ends up being probably close to 20 hours a week.",
+    "speaker": "Jazz",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15381,
+    "approx_timestamp_s": 875
+   }
+  },
+  {
+   "claim": "Christmas lights average job about $1,400",
+   "metric": "price",
+   "value": {
+    "amount": 1400,
+    "currency": "USD",
+    "unit": "per job"
+   },
+   "period": null,
+   "claimant": "Jazz",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "About $1,400 is our average job right now.",
+    "speaker": "Jazz",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 40132,
+    "approx_timestamp_s": 2284
+   }
+  },
+  {
+   "claim": "Cost per Christmas lights job about $300 for lights",
+   "metric": "cost",
+   "value": {
+    "amount": 300,
+    "currency": "USD",
+    "unit": "per job"
+   },
+   "period": null,
+   "claimant": "Jazz",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "$300 is it just includes the lights.",
+    "speaker": "Jazz",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 40683,
+    "approx_timestamp_s": 2315
+   }
+  },
+  {
+   "claim": "Expects $100,000 revenue in year one of Christmas lights",
+   "metric": "revenue",
+   "value": {
+    "amount": 100000,
+    "currency": "USD",
+    "unit": "first year"
+   },
+   "period": "first season",
+   "claimant": "Jazz",
+   "first_hand": true,
+   "hypothetical": true,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "I think I am very safely saying that we'll hit $100,000 in revenue in the first year.",
+    "speaker": "Jazz",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 43506,
+    "approx_timestamp_s": 2476
+   }
+  },
+  {
+   "claim": "About 85% of Christmas light customers stay year over year",
+   "metric": "customers",
+   "value": {
+    "amount": 85,
+    "currency": null,
+    "unit": "percent retention"
+   },
+   "period": "annual",
+   "claimant": "Jazz",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "the average is about 85% for the amount of uh customers that stay on year-over-year.",
+    "speaker": "Jazz",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 40510,
+    "approx_timestamp_s": 2305
+   }
+  },
+  {
+   "claim": "Christmas lights took $10,000 of initial capital",
+   "metric": "cost",
+   "value": {
+    "amount": 10000,
+    "currency": "USD",
+    "unit": "one-off"
+   },
+   "period": null,
+   "claimant": "Jazz",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "Christmas lights took $10,000 of initial capital to start.",
+    "speaker": "Jazz",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 50307,
+    "approx_timestamp_s": 2863
+   }
+  },
+  {
+   "claim": "Newsletter revenue cap about $500,000 a year with perfect execution",
+   "metric": "revenue",
+   "value": {
+    "amount": 500000,
+    "currency": "USD",
+    "unit": "per year"
+   },
+   "period": "annual",
+   "claimant": "Jazz",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "you will cap out at lacks $500,000 a year.",
+    "speaker": "Jazz",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8701,
+    "approx_timestamp_s": 495
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Sell annual exclusive sponsorships",
+   "area": "pricing",
+   "steps": [
+    "Do not sell one-off sponsorships",
+    "Offer exclusivity by category (one HVAC company per year)",
+    "Price at about $12,000 for 12 monthly ads",
+    "Pitch it as a monopoly over the local audience"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "you want to sell annual sponsorships on a exclusivity basis.",
+    "speaker": "Jazz",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 26112,
+    "approx_timestamp_s": 1486
+   }
+  },
+  {
+   "name": "Sell sponsors on lifetime value",
+   "area": "sales",
+   "steps": [
+    "Ask the business what a customer is worth",
+    "Compare to the ad spend, e.g. $5,000 customer vs $10,000 spend",
+    "Say you only need to find them four customers out of 35,000 readers",
+    "Target high-ticket or recurring categories like dentists, HVAC, plumbing, roofing"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I just need to get you four customers for you to double your um return on ad spend with us",
+    "speaker": "Jazz",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 29566,
+    "approx_timestamp_s": 1682
+   }
+  },
+  {
+   "name": "Signup survey for audience data",
+   "area": "product",
+   "steps": [
+    "Send new subscribers straight to a short Beehiiv survey (8 questions)",
+    "Ask neighbourhood, home ownership, buying or selling plans, income",
+    "Use results like '75% homeowners' in sponsor pitches"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Use Instagram inbound leads to sell newsletter ads",
+   "area": "acquisition",
+   "steps": [
+    "Wait for marketing coordinators to ask for an Instagram feature",
+    "Jump on a call and sell the newsletter",
+    "Convert to annual ad dollars"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Ramp publishing frequency",
+   "area": "operations",
+   "steps": [
+    "Start weekly",
+    "Move to twice weekly then three times a week within a month when content overflows",
+    "Stop where content quality stays consistent"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Short urgency-based subject lines",
+   "area": "acquisition",
+   "steps": [
+    "Keep under five words and 40 characters",
+    "Include urgency such as 'this weekend'",
+    "Example: new Winnipeg Costco location"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Facebook ad creative for newsletter signups",
+   "area": "acquisition",
+   "steps": [
+    "15-second video with local monument or drone footage",
+    "Headline: struggling to find things to do in [city]",
+    "Subline: [Newsletter] sends you 50+ events every week",
+    "Test video against image"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Exclusive giveaway to build a leads list",
+   "area": "acquisition",
+   "steps": [
+    "Run a giveaway of the product through the newsletter",
+    "Collect entries (about 300)",
+    "Call entrants offering $150 off for entering",
+    "Add a deadline discount"
+   ],
+   "idea_local_id": "I2",
+   "quote": null
+  },
+  {
+   "name": "In-home design consult sales process",
+   "area": "sales",
+   "steps": [
+    "Book a design consult",
+    "Sit with the customer, show before and after mockup",
+    "Walk through a booklet and anchor on a high price (e.g. $3,000)",
+    "Remove items down to about $1,500",
+    "Offer a time-limited discount if booked today"
+   ],
+   "idea_local_id": "I2",
+   "quote": null
+  },
+  {
+   "name": "Pre-sell permanent lights during the Christmas season",
+   "area": "pricing",
+   "steps": [
+    "Offer $500 off permanent lights next year to Christmas light customers",
+    "Pull revenue forward from three years to two"
+   ],
+   "idea_local_id": "I3",
+   "quote": null
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Beehiiv",
+   "purpose": "Newsletter sending, analytics, surveys",
+   "cost_stated": null
+  },
+  {
+   "name": "Claude",
+   "purpose": "First-draft content writing",
+   "cost_stated": null
+  },
+  {
+   "name": "ChatGPT",
+   "purpose": "First-draft content writing",
+   "cost_stated": null
+  },
+  {
+   "name": "Notion",
+   "purpose": "Semi-custom sponsor CRM",
+   "cost_stated": null
+  },
+  {
+   "name": "Canva",
+   "purpose": "Instagram carousel design",
+   "cost_stated": null
+  },
+  {
+   "name": "Facebook Ads",
+   "purpose": "Main subscriber acquisition channel",
+   "cost_stated": "About $3,000 a month"
+  },
+  {
+   "name": "ManyChat",
+   "purpose": "Instagram DM automation (explored)",
+   "cost_stated": null
+  },
+  {
+   "name": "SparkLoop",
+   "purpose": "Referral engine for newsletters",
+   "cost_stated": null
+  },
+  {
+   "name": "Facebook Ad Library",
+   "purpose": "Research competitor newsletter ads",
+   "cost_stated": null
+  },
+  {
+   "name": "GoHighLevel",
+   "purpose": "Sponsor ad for the host's CRM/marketing platform",
+   "cost_stated": "30-day free trial"
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Don't clean your newsletter list automatically; tracking can show real readers as unopened and cleaning removes them.",
+   "quote": {
+    "text": "if you start cleaning your list you might start cleaning people that are actually reading your email.",
+    "speaker": "Jazz",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13010,
+    "approx_timestamp_s": 740
+   }
+  },
+  {
+   "warning": "Don't try to close the sale at the first consult without a structured presentation; early quotes converted poorly.",
+   "quote": {
+    "text": "we sucked at sales for the first like seven, eight quotes that we gave out",
+    "speaker": "Jazz",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 43258,
+    "approx_timestamp_s": 2461
+   }
+  },
+  {
+   "warning": "Avoid accepting casinos or clubs as advertisers if it conflicts with the audience vibe.",
+   "quote": {
+    "text": "Don't bring on casinos or clubs if that's not the vibe you're trying to set",
+    "speaker": "Jazz",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 31214,
+    "approx_timestamp_s": 1776
+   }
+  },
+  {
+   "warning": "Markets under 100-150k are too small and over a million are too spread out for one newsletter.",
+   "quote": {
+    "text": "Anything under 100K is uh too small.",
+    "speaker": "Jazz",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22533,
+    "approx_timestamp_s": 1282
+   }
+  },
+  {
+   "warning": "Horizontal expansion lowers CPMs because national brands pay far less than local advertisers.",
+   "quote": {
+    "text": "your CPMs drop really drop a lot just because then you start having national brands",
+    "speaker": "Jazz",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24695,
+    "approx_timestamp_s": 1405
+   }
+  },
+  {
+   "warning": "Don't use ad networks like Beehiiv boosts for local newsletters; it harms reader experience and trust.",
+   "quote": null
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "The audience is easy to build; the hard part is selling advertisers on a new advertising concept. Plan the sponsor sales process early.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "anyone can get to 10 to 15,000 subs. Anybody. It's just that acquiring sponsors for 10 to 15,000 subs.",
+    "speaker": "Jazz",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7013,
+    "approx_timestamp_s": 399
+   }
+  },
+  {
+   "lesson": "First-mover advantage in an underserved local market lowers acquisition costs and creates a monopoly position.",
+   "theme": "niche_selection",
+   "quote": null
+  },
+  {
+   "lesson": "Exclusivity and annual terms are the product; sell the monopoly over a local audience rather than impressions.",
+   "theme": "pricing",
+   "quote": null
+  },
+  {
+   "lesson": "Own audience lets you vertically integrate and capture far more value than third-party ad networks; ad-only monetisation caps out.",
+   "theme": "scaling",
+   "quote": {
+    "text": "if you're going to just go sell ads on top of your local newsletter, it's going to be really hard to monetize.",
+    "speaker": "Jazz",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8587,
+    "approx_timestamp_s": 488
+   }
+  },
+  {
+   "lesson": "Test a new vertical in a short, low-commitment window (10 weeks) so it can be dropped if it fails.",
+   "theme": "validation_testing",
+   "quote": null
+  },
+  {
+   "lesson": "Learn the work by doing it yourself before outsourcing so you can manage labour properly.",
+   "theme": "hiring_outsourcing",
+   "quote": {
+    "text": "it's important that people get to know the weeds before they outsource",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 42259,
+    "approx_timestamp_s": 2405
+   }
+  },
+  {
+   "lesson": "AI plus VAs can cut daily writing from about 8 hours to a small review step, letting the founder focus on sponsors.",
+   "theme": "automation_ai",
+   "quote": null
+  },
+  {
+   "lesson": "Detach the founder's face from the brand if you want the business to be a sellable asset.",
+   "theme": "exit_acquisition",
+   "quote": null
+  },
+  {
+   "lesson": "A time-compounding business where audience grows with the years is attractive because it is hard to lose.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "As long the longer I'm in the business, the more money I'm going to make.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 53684,
+    "approx_timestamp_s": 3055
+   }
+  },
+  {
+   "lesson": "Choose adjacent businesses that use your existing strength (marketing) and your audience's demographics (women making home decisions).",
+   "theme": "offer_design",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "B",
+  "rationale": "First-hand operator with specific figures on sponsorship pricing, subscriber growth and costs, but the numbers are unverified and the Christmas lights projections are early and hypothetical. Sponsor revenue figures are internally inconsistent in places and currency is ambiguous (CAD vs USD).",
+  "promotional_conflict": "Host promotes GoHighLevel (sponsor read) and his paid TK Owners community; guest is active on Twitter and positions himself as a local newsletter advisor."
+ },
+ "extraction": {
+  "model": "claude-sonnet-5-5",
+  "extracted_at": "2026-10-22T02:01:36",
+  "cost_usd": 0.2163642,
+  "quote_verification": {
+   "quotes": 43,
+   "verified": 43,
+   "rate": 1.0
+  },
+  "schema_errors": [],
+  "reviewed_by": null,
+  "review_notes": null
+ }
+}

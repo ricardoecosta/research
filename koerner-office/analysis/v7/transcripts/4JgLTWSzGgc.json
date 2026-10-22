@@ -1,0 +1,1429 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "4JgLTWSzGgc",
+  "title": "If People Pay for This, Your Idea Will Work Too",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=4JgLTWSzGgc",
+  "upload_date": "2025-05-26",
+  "duration_s": 1412,
+  "view_count": 15970,
+  "transcript_provider": "ok",
+  "transcript_chars": 24630,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner and a co-host brainstorm business ideas built around the theme that people will pay for almost anything, and that ego stops people from doing weird, attention-getting things. Ideas include novelty competition events (horse haircut show, Excel esports, vibe-coding competitions, survival challenges), a plaque-selling service triggered by magazine features, a YouTube-to-print-magazine service, and quirky marketing stunts such as a realtor 'ghost free guarantee'. Evidence is mostly brainstorming and second-hand anecdotes, with few verified numbers. Key takeaway: memorable, talk-worthy content or events can create demand and customers in otherwise boring niches.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Host of The Koerner Office"
+  },
+  {
+   "name": "Brandon",
+   "role": "co-host",
+   "description": "Co-host, addressed by name at the end"
+  }
+ ],
+ "format": "host_solo_ideas",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Novelty competition events (horse hair show)",
+   "one_liner": "Ticketed niche competition event with entry fees, spectator tickets and sponsor booths, based on a viral horse-haircut show.",
+   "category": "events_experiences",
+   "business_model": "Ticket sales, competitor entry fees, sponsor booths",
+   "customer": "Horse owners, spectators, sponsors, and the barbers who organise it",
+   "problem": "Niche communities lack a fun gathering and organisers lack customer attention",
+   "offer": "Live competition event where horses with intricate shaved patterns are judged",
+   "pricing": {
+    "model": "Tiered event fees",
+    "price_points": [
+     {
+      "amount": 30,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per ticket",
+      "label": "general admission"
+     },
+     {
+      "amount": 110,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per entry",
+      "label": "horse entry judged and graded"
+     },
+     {
+      "amount": 320,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per booth",
+      "label": "sponsored booth"
+     }
+    ],
+    "notes": "Reported from a viral Instagram video, second-hand."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "organic_social_content",
+     "details": "Viral Instagram video of the shaved horse promoted the event",
+     "quote": null
+    }
+   ],
+   "delivery": "Physical in-person event run by organiser (reportedly a barber) in Clovis, California.",
+   "unit_economics_claims": [
+    "Thousands of signups reportedly",
+    "$30 GA, $110 horse entry, $320 booth"
+   ],
+   "tools": [
+    "Instagram"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Short-form video content can be produced and posted largely by agents."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Ticketing and registration platforms handle sign-ups."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical event needing venue, staff and judging."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Online ticketing handles payments."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Day-of logistics need humans; pre-event queries can be automated."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Works in the UK with event licensing, insurance and animal welfare considerations."
+   },
+   "risks": [
+    "Event liability and insurance",
+    "Hard to replicate virality",
+    "Animal welfare rules"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "They're selling general admission tickets for $30. They're selling, you know, you could admit your horse to be judged and graded for $110.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 1096,
+     "approx_timestamp_s": 64
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Free marketing-stunt events for local service businesses",
+   "one_liner": "Local businesses run fun free competitions (dirty car speed clean, accountant tax race) to generate attention and customers.",
+   "category": "local_service",
+   "business_model": "Free event as marketing, customers acquired from content and attention",
+   "customer": "Local service businesses such as window cleaners and accountants",
+   "problem": "Boring businesses struggle to get attention",
+   "offer": "Creative public events and content that get eyeballs",
+   "pricing": {
+    "model": "Free events",
+    "price_points": [],
+    "notes": "Not stated."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "organic_social_content",
+     "details": "Event footage as content to attract customers",
+     "quote": null
+    }
+   ],
+   "delivery": "Business owner performs the stunt in person and films it.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Content editing and posting can be automated but the stunt needs humans."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "Handled manually."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical service."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Normal invoicing tools."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Some automation possible."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works the same in the UK."
+   },
+   "risks": [
+    "Stunt may not go viral"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "there's no such thing as a boring business. There's only boring content.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 2596,
+     "approx_timestamp_s": 153
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Excel esports / financial modeling competitions",
+   "one_liner": "Livestreamed spreadsheet competitions with entry fees, spectators and software-company sponsors.",
+   "category": "events_experiences",
+   "business_model": "Entry fees, sponsorship, ticketing",
+   "customer": "Finance and Excel enthusiasts, sponsors such as Microsoft, Notion and Airtable",
+   "problem": "Not stated",
+   "offer": "Competitive livestreamed Excel/financial-modeling events",
+   "pricing": {
+    "model": "Entry fee",
+    "price_points": [
+     {
+      "amount": 100,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per entry",
+      "label": "up to, to compete"
+     }
+    ],
+    "notes": "Second-hand claim."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "existing_audience",
+     "details": "Livestreams; one championship reportedly aired on ESPN2",
+     "quote": null
+    }
+   ],
+   "delivery": "Online livestreamed competition.",
+   "unit_economics_claims": [
+    "Entry up to $100",
+    "Sponsors include Microsoft, Notion, Airtable"
+   ],
+   "tools": [
+    "Financial Modeling World Cup",
+    "Excel Esports"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Content and community marketing can be agent-assisted."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Online registration."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Needs hosts, judging and streaming."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Online payments."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Mostly FAQ-style."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Online, location-agnostic."
+   },
+   "risks": [
+    "Needs a community and sponsors"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "There's the financial modeling world cup, which is a real thing. People live stream their screens.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 2822,
+     "approx_timestamp_s": 166
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "Vibe-coding live competition",
+   "one_liner": "Livestreamed competition where non-coders build an app (e.g. golf score tracker) with AI tools in 60 minutes, graded on set categories.",
+   "category": "events_experiences",
+   "business_model": "Competitor entry fees and spectator tickets, optional platform sponsorship",
+   "customer": "Non-coder vibe coders/marketers as competitors; spectators; AI app-builder platforms as sponsors",
+   "problem": "Not stated; entertainment and exposure",
+   "offer": "Nine-person grid screen-share contest with live commentator, judged on UI, design, database, ease of use; prize e.g. $5,000 or half the door pot",
+   "pricing": {
+    "model": "Entry fee plus spectator fee",
+    "price_points": [
+     {
+      "amount": 20,
+      "amount_max": 40,
+      "currency": "USD",
+      "unit": "per competitor",
+      "label": "entry fee"
+     },
+     {
+      "amount": 5,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per spectator",
+      "label": "spectate"
+     }
+    ],
+    "notes": "Hypothetical; winner gets half of door fees."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "organic_social_content",
+     "details": "Crowdsource competitors from Twitter",
+     "quote": null
+    },
+    {
+     "channel": "partnerships",
+     "details": "Ask Lovable, Bolt, FlutterFlow, Replit to each send one competitor",
+     "quote": null
+    }
+   ],
+   "delivery": "Google Meet/stream with screen-sharing and a live commentator.",
+   "unit_economics_claims": [
+    "$20 entry x 9 competitors, $5 per spectator, winner takes half of door"
+   ],
+   "tools": [
+    "Google Meet",
+    "Replit",
+    "Lovable",
+    "Bolt",
+    "FlutterFlow",
+    "Windsurf",
+    "Twitch"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Social posting and outreach to platforms (limited companies) is automatable."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Registration and payment forms."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Needs commentator and judges."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Online payments."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Mostly FAQ."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Fully online."
+   },
+   "risks": [
+    "Small revenue per event",
+    "Needs audience",
+    "Prize pot legality/gambling-like structures to check"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "It's like $5 to spectate and the coders, the five marketers, they pay $20 as an entry fee.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 8155,
+     "approx_timestamp_s": 480
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "Most Dangerous Game paintball race",
+   "one_liner": "Pay-to-enter paintball race where racers try to reach a hidden-start finish line without being hit; organiser keeps the difference.",
+   "category": "events_experiences",
+   "business_model": "Entry fees into pot, organiser takes margin",
+   "customer": "Teens and friends obsessed with the story",
+   "problem": "Not stated",
+   "offer": "Evening paintball race game",
+   "pricing": {
+    "model": "Entry fee",
+    "price_points": [
+     {
+      "amount": 20,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per participant",
+      "label": "racers and shooters"
+     }
+    ],
+    "notes": "First racer to finish unhit gets half the pot; shooters get pot per hit; organiser takes the difference."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "referrals_word_of_mouth",
+     "details": "Not stated, small high-school business",
+     "quote": null
+    }
+   ],
+   "delivery": "In-person physical event run by organiser.",
+   "unit_economics_claims": [
+    "$20 per player"
+   ],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Local word of mouth."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Online signup possible."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical event."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Online payments."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Human on the day."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Needs venue, insurance and waivers; safety regulation."
+   },
+   "risks": [
+    "Injury liability",
+    "Safety and insurance"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "whoever the first racer is to get to the end without getting hit gets half the pot. The shooters get the pot of each person they hit and then I would just take the difference.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 9858,
+     "approx_timestamp_s": 581
+    }
+   ]
+  },
+  {
+   "local_id": "I6",
+   "name": "Survival challenge (survivalbet.com concept)",
+   "one_liner": "Premium wilderness survival competition for everyday men after a crash course, priced around $3,000.",
+   "category": "events_experiences",
+   "business_model": "High-ticket participation fee",
+   "customer": "Adventure-seeking men wanting a do-hard-things experience",
+   "problem": "Desire to test self-reliance without phones",
+   "offer": "Multi-day wilderness survival experience with a 24-hour training crash course and predetermined judging",
+   "pricing": {
+    "model": "High-ticket experience",
+    "price_points": [
+     {
+      "amount": 3000,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per participant",
+      "label": "estimated"
+     }
+    ],
+    "notes": "Idea only; needs 50-500 acres and waivers."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "organic_social_content",
+     "details": "Implied via content; not detailed",
+     "quote": null
+    }
+   ],
+   "delivery": "In-person on rented/borrowed land with training and waivers.",
+   "unit_economics_claims": [
+    "About $3,000 per person"
+   ],
+   "tools": [
+    "DietBet (reference)"
+   ],
+   "startup_cost": "Land access; not otherwise stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Content and ads."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Online waivers and forms."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical, safety-critical."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Online payments."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Safety needs humans."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Works with changes; UK land is limited and needs insurance and safety compliance."
+   },
+   "risks": [
+    "Injury and lawsuits",
+    "Waivers and insurance",
+    "Land access"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "it's going to cost like $3,000 to do it. Yeah. And you just need someone that can rent or borrow or steal or own 50 to 500 acres of land",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 10824,
+     "approx_timestamp_s": 638
+    }
+   ]
+  },
+  {
+   "local_id": "I7",
+   "name": "Behind-the-scenes content for professional services",
+   "one_liner": "Lawyers, accountants and home service firms post behind-the-scenes stories and insights instead of only before/after content.",
+   "category": "content_media",
+   "business_model": "Content marketing to drive client acquisition",
+   "customer": "Small businesses, lawyers, accountants, home service companies",
+   "problem": "Samey content that doesn't get attention",
+   "offer": "Behind-the-curtain content, screen-recorded insights and stories",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "Not stated."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "organic_social_content",
+     "details": "Behind-the-scenes video",
+     "quote": null
+    }
+   ],
+   "delivery": "Business owner films content.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Editing and posting automatable; raw material needs owner."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Manual."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Owner supplies stories."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Standard."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Manual."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works the same; mind client confidentiality."
+   },
+   "risks": [
+    "Client confidentiality"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "Show behind the scenes content. If you're a lawyer and you have a tough case, you know, bleep out the names of the case",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 12842,
+     "approx_timestamp_s": 757
+    }
+   ]
+  },
+  {
+   "local_id": "I8",
+   "name": "That's Great News plaque service",
+   "one_liner": "Company emails people featured in alumni magazines offering to sell a plaque of the article; competitor idea to replicate for online articles.",
+   "category": "digital_products",
+   "business_model": "One-off physical product sales via personalised outreach",
+   "customer": "People featured in alumni magazines or online articles",
+   "problem": "Pride in being featured with no way to commemorate it",
+   "offer": "Plaque with the article page under plexiglass",
+   "pricing": {
+    "model": "one-off product",
+    "price_points": [
+     {
+      "amount": 40,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per plaque",
+      "label": "guess"
+     }
+    ],
+    "notes": "Price is Chris's guess."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "cold_email",
+     "details": "Subscribe to alumni magazines, find featured people, Google their email, send personalised-looking email with disclaimer of no affiliation",
+     "quote": null
+    }
+   ],
+   "delivery": "Plaque printed and mailed.",
+   "unit_economics_claims": [
+    "Chris guesses close rate around 50%",
+    "Website since 2003"
+   ],
+   "tools": [
+    "thatsgreatnews.com"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Cold email to individuals is restricted under UK PECR; scraping and finding emails raises GDPR issues."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Order forms."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Print-on-demand and fulfilment can be outsourced."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Online checkout."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Mostly order queries."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 2,
+    "notes": "Unsolicited emails to individuals breach PECR; would need an inbound or consent route."
+   },
+   "risks": [
+    "Deceptive impression of official gift",
+    "PECR/GDPR",
+    "Trademark of publications"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "we are not associated with the University of Alabama in any way.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 15216,
+     "approx_timestamp_s": 897
+    }
+   ]
+  },
+  {
+   "local_id": "I9",
+   "name": "YouTube-to-print-magazine service",
+   "one_liner": "Turn a creator's YouTube tutorials into a physical magazine, automated by an app that takes a video URL and outputs a magazine.",
+   "category": "digital_products",
+   "business_model": "Subscription magazine, revenue share with creator",
+   "customer": "YouTube creators with large audiences, and their fans",
+   "problem": "Audiences want physical content in an increasingly online world; creators want another revenue stream",
+   "offer": "Quarterly magazine from creator content; creator promotes it and platform keeps 20%",
+   "pricing": {
+    "model": "Subscription",
+    "price_points": [
+     {
+      "amount": 7,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "every two months",
+      "label": "guest's magazine"
+     },
+     {
+      "amount": 12,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per quarter",
+      "label": "proposed"
+     }
+    ],
+    "notes": "Cost about $2 per issue proposed; 20% off the top."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "partnerships",
+     "details": "Pitch large creators such as Epic Gardening, which has 4 million YouTube subscribers on one channel",
+     "quote": null
+    },
+    {
+     "channel": "existing_audience",
+     "details": "Creator promotes via weekly email and midroll ad",
+     "quote": null
+    }
+   ],
+   "delivery": "Auto-generated layout from video URL, printed and mailed by print partner.",
+   "unit_economics_claims": [
+    "Guest reportedly makes $7M/yr",
+    "Magazine cost 80 cents",
+    "$12/quarter, $2 cost, 20% fee"
+   ],
+   "tools": [
+    "Replit"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Outreach to creators is B2B and partly automatable, but deals need humans."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Creator connects channel."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "AI layout plus print-on-demand fulfilment."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Subscription billing."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Shipping queries."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works in the UK using UK print partners."
+   },
+   "risks": [
+    "Rights to creator content",
+    "Print and shipping costs",
+    "Creator dependency"
+   ],
+   "is_primary": true,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "he has a $7 million a year business repurposing their YouTube tutorials into physical magazine.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 490,
+     "approx_timestamp_s": 28
+    },
+    {
+     "text": "you'll send 12 bucks a quarter and your cost is only going to be two bucks to me.",
+     "speaker": "Brandon",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 18361,
+     "approx_timestamp_s": 1082
+    }
+   ]
+  },
+  {
+   "local_id": "I10",
+   "name": "Ghost free guarantee for realtors",
+   "one_liner": "Realtor or certifying body brands a tongue-in-cheek 'ghost free guarantee' badge for viral local PR.",
+   "category": "other",
+   "business_model": "Marketing stunt; possible certification seal fee",
+   "customer": "Home shoppers and realtors",
+   "problem": "Realtors all look the same",
+   "offer": "Ghost-free badge/seal, possibly sold for $10-20",
+   "pricing": {
+    "model": "Seal fee",
+    "price_points": [
+     {
+      "amount": 10,
+      "amount_max": 20,
+      "currency": "USD",
+      "unit": "per seal",
+      "label": "digital stamp"
+     }
+    ],
+    "notes": "Hypothetical."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "paid_social",
+     "details": "Facebook ads to home shoppers in one city with high spend",
+     "quote": null
+    },
+    {
+     "channel": "organic_social_content",
+     "details": "Badge in Instagram, TikTok, YouTube videos",
+     "quote": null
+    }
+   ],
+   "delivery": "Digital badge and content.",
+   "unit_economics_claims": [
+    "45% of people believe in ghosts"
+   ],
+   "tools": [
+    "Facebook Ads"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Paid ads and content are automatable."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Online."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "Digital seal."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Online payments."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "Minimal."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Works; avoid misleading claims under UK advertising rules, though clearly humorous."
+   },
+   "risks": [
+    "Gimmick may not convert"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "Make sure everyone knows that you certified there are zero ghosts in that home.",
+     "speaker": "Brandon",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 20486,
+     "approx_timestamp_s": 1208
+    }
+   ]
+  },
+  {
+   "local_id": "I11",
+   "name": "Weird flavour frozen yogurt stunt",
+   "one_liner": "Odd product to bring people in and get them talking, inspired by Nathan For You.",
+   "category": "other",
+   "business_model": "Attention stunt",
+   "customer": "Local shoppers",
+   "problem": "Not stated",
+   "offer": "Crazy frozen yogurt flavour",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "Not stated."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "referrals_word_of_mouth",
+     "details": "Talk-worthy product",
+     "quote": null
+    }
+   ],
+   "delivery": "In-store.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Local stunt."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "Not applicable."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical retail."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "POS."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "In person."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Same."
+   },
+   "risks": [
+    "Food safety and reputation"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": []
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "General admission $30 for horse hair event",
+   "metric": "price",
+   "value": {
+    "amount": 30,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per ticket",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "They're selling general admission tickets for $30.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1096,
+    "approx_timestamp_s": 64
+   }
+  },
+  {
+   "claim": "Horse entry $110 and booth $320",
+   "metric": "price",
+   "value": {
+    "amount": 110,
+    "amount_max": 320,
+    "currency": "USD",
+    "unit": "per entry/booth",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "you could admit your horse to be judged and graded for $110. You can have a booth, like a sponsored booth for $320.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1170,
+    "approx_timestamp_s": 69
+   }
+  },
+  {
+   "claim": "Excel competitions cost up to $100 to enter",
+   "metric": "price",
+   "value": {
+    "amount": 100,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per entry",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "It costs up to $100 to compete in these events.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3416,
+    "approx_timestamp_s": 201
+   }
+  },
+  {
+   "claim": "Guest's YouTube-to-magazine business makes $7M a year",
+   "metric": "revenue",
+   "value": {
+    "amount": 7000000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per year",
+    "label": null
+   },
+   "period": "year",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I9",
+   "quote": {
+    "text": "he has a $7 million a year business repurposing their YouTube tutorials into physical magazine.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 490,
+    "approx_timestamp_s": 28
+   }
+  },
+  {
+   "claim": "Magazine costs 80 cents and sells for $7 every two months",
+   "metric": "price",
+   "value": {
+    "amount": 7,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "every two months",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I9",
+   "quote": {
+    "text": "The magazine cost them 80ent. Yeah. And they charge like $7 every two months for it.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16697,
+    "approx_timestamp_s": 984
+   }
+  },
+  {
+   "claim": "Survival challenge would cost about $3,000",
+   "metric": "price",
+   "value": {
+    "amount": 3000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per participant",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "it's going to cost like $3,000 to do it.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10824,
+    "approx_timestamp_s": 638
+   }
+  },
+  {
+   "claim": "Plaque company close rate guessed at 50%",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 50,
+    "amount_max": null,
+    "currency": null,
+    "unit": "percent",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Brandon",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I8",
+   "quote": {
+    "text": "I would bet that their close rates like 50%.",
+    "speaker": "Brandon",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15696,
+    "approx_timestamp_s": 925
+   }
+  },
+  {
+   "claim": "Proposed magazine: $12 per quarter, $2 cost, 20% fee",
+   "metric": "price",
+   "value": {
+    "amount": 12,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per quarter",
+    "label": null
+   },
+   "period": "quarter",
+   "claimant": "Brandon",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I9",
+   "quote": {
+    "text": "all we take is 20% off the topline.",
+    "speaker": "Brandon",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18552,
+    "approx_timestamp_s": 1094
+   }
+  },
+  {
+   "claim": "45% of people believe in ghosts",
+   "metric": "other",
+   "value": {
+    "amount": 45,
+    "amount_max": null,
+    "currency": null,
+    "unit": "percent",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I10",
+   "quote": {
+    "text": "45% of people believe in ghosts. 45%. There's your market.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21478,
+    "approx_timestamp_s": 1266
+   }
+  },
+  {
+   "claim": "DietBet website gets about 5,000 visitors a month",
+   "metric": "traffic",
+   "value": {
+    "amount": 5000,
+    "amount_max": null,
+    "currency": null,
+    "unit": "visitors per month",
+    "label": null
+   },
+   "period": "month",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "This website gets 5,000 visitors a month.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10201,
+    "approx_timestamp_s": 601
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Pay-to-play competition pot structure",
+   "area": "pricing",
+   "steps": [
+    "Charge competitors an entry fee ($20-40) so they take it seriously",
+    "Charge spectators about $5",
+    "Give winner half of the door fees to incentivise inviting friends and family",
+    "Limit to nine competitors in a 3x3 screen grid",
+    "Use a 60-minute clock graded on predetermined categories"
+   ],
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "the winner gets like half of the pot, like half of the door fees.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8290,
+    "approx_timestamp_s": 488
+   }
+  },
+  {
+   "name": "Creator magazine revenue share",
+   "area": "acquisition",
+   "steps": [
+    "Approach a creator with a large audience",
+    "Offer to produce and fulfil the magazine at about $2 per issue",
+    "Creator sells at $12 per quarter and promotes via weekly email and midroll",
+    "Take 20% of topline"
+   ],
+   "idea_local_id": "I9",
+   "quote": {
+    "text": "I'll do a mag. It'll be a magazine.",
+    "speaker": "Brandon",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18132,
+    "approx_timestamp_s": 1069
+   }
+  },
+  {
+   "name": "Bottom-up demand creation",
+   "area": "acquisition",
+   "steps": [
+    "Get friends and family to repeatedly ask retailers or realtors for the product",
+    "Pitch the retailer once enquiries build",
+    "Or target home shoppers on Facebook within one city with heavy ad spend"
+   ],
+   "idea_local_id": "I10",
+   "quote": {
+    "text": "They just asked all their friends and family to call up all the J C Penney every day",
+    "speaker": "Brandon",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22397,
+    "approx_timestamp_s": 1320
+   }
+  },
+  {
+   "name": "Trigger-based personalised outreach",
+   "area": "sales",
+   "steps": [
+    "Monitor publications for features of individuals",
+    "Find their email",
+    "Send a personalised-looking offer shortly after publication"
+   ],
+   "idea_local_id": "I8",
+   "quote": null
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Replit",
+   "purpose": "Build apps such as a YouTube-to-magazine generator; competition platform",
+   "cost_stated": null
+  },
+  {
+   "name": "Lovable",
+   "purpose": "AI app builder for competition",
+   "cost_stated": null
+  },
+  {
+   "name": "Bolt",
+   "purpose": "AI app builder; reportedly runs in-person hackathons",
+   "cost_stated": null
+  },
+  {
+   "name": "FlutterFlow",
+   "purpose": "App builder for competition",
+   "cost_stated": null
+  },
+  {
+   "name": "Windsurf",
+   "purpose": "AI coding tool",
+   "cost_stated": null
+  },
+  {
+   "name": "Google Meet",
+   "purpose": "Host screen-share competition",
+   "cost_stated": null
+  },
+  {
+   "name": "Twitch",
+   "purpose": "Possible livestream platform",
+   "cost_stated": null
+  },
+  {
+   "name": "Facebook Ads",
+   "purpose": "Target home shoppers",
+   "cost_stated": null
+  },
+  {
+   "name": "DietBet",
+   "purpose": "Example weight-loss challenge site",
+   "cost_stated": null
+  },
+  {
+   "name": "Financial Modeling World Cup",
+   "purpose": "Excel competition example",
+   "cost_stated": "up to $100 entry"
+  },
+  {
+   "name": "Excel Esports",
+   "purpose": "Competitor Excel competition",
+   "cost_stated": null
+  },
+  {
+   "name": "thatsgreatnews.com",
+   "purpose": "Plaque company example",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Survival competitions need waivers to avoid lawsuits if someone is hurt.",
+   "quote": {
+    "text": "you've got to sign waiverss at the yin-yang. You don't want people to sue you if someone gets sick.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10600,
+    "approx_timestamp_s": 625
+   }
+  },
+  {
+   "warning": "Finding sponsors adds friction that stops people launching events.",
+   "quote": {
+    "text": "that's just another level of friction to prevent anyone from launching it, myself included",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7892,
+    "approx_timestamp_s": 465
+   }
+  },
+  {
+   "warning": "The plaque company's outreach can look like an official gift, which is misleading, and it relies on a disclaimer in fine print.",
+   "quote": null
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Ego and fear of looking stupid stop people from doing attention-getting marketing that could make money.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "how much pride and ego prevents us from making more money.",
+    "speaker": "Brandon",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21077,
+    "approx_timestamp_s": 1243
+   }
+  },
+  {
+   "lesson": "There are no boring businesses, only boring content; creative events and stories get attention in dull niches.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "there's no such thing as a boring business. There's only boring content.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2596,
+    "approx_timestamp_s": 153
+   }
+  },
+  {
+   "lesson": "Marketing stunts do not need to be good ideas, just talk-worthy.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "It doesn't need to be a good idea. It just needs to get people talking.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23669,
+    "approx_timestamp_s": 1395
+   }
+  },
+  {
+   "lesson": "If a strange niche has paying customers, it is evidence that almost any passion niche can monetise; find analogues in your own area.",
+   "theme": "niche_selection",
+   "quote": null
+  },
+  {
+   "lesson": "Plug into existing audiences with a revenue-share product instead of building your own audience.",
+   "theme": "scaling",
+   "quote": null
+  },
+  {
+   "lesson": "As the world gets more digital, physical products like print magazines gain value.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "the more AI takes over, the more we're online, the more we want a physical magazine.",
+    "speaker": "Brandon",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17575,
+    "approx_timestamp_s": 1036
+   }
+  },
+  {
+   "lesson": "Personalised, trigger-based outreach tied to a moment of pride converts well.",
+   "theme": "customer_acquisition",
+   "quote": null
+  },
+  {
+   "lesson": "Entry fees, even nominal, increase participant commitment.",
+   "theme": "pricing",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "C",
+  "rationale": "Brainstorm-style conversation; figures are second-hand, hypothetical or guesses, and most ideas are untested. Only the host's high-school paintball events are first-hand and unquantified.",
+  "promotional_conflict": "Host promotes his newsletter and podcast (tkopod.com); no product sold."
+ },
+ "extraction": {
+  "model": "claude-sonnet-5-5",
+  "extracted_at": "2026-10-22T02:01:25",
+  "cost_usd": 0.1494502,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 30,
+   "verified": 30,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

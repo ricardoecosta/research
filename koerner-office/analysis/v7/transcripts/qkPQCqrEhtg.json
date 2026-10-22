@@ -1,0 +1,755 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "qkPQCqrEhtg",
+  "title": "Forget Snack Machines. This One Refills Itself",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=qkPQCqrEhtg",
+  "upload_date": "2026-09-14",
+  "duration_s": 978,
+  "view_count": 117205,
+  "transcript_provider": "cached",
+  "transcript_chars": 20541,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner interviews CJ, a Fort Worth operator of four outdoor ice and water vending machines (Everest, Cooler Ice, Twice the Ice, and a large Ice House America-style unit) with no employees beyond one part-time maintenance tech. CJ explains how he got in via his pool-service business's ice spend, why buying distressed existing machines and locations beats building from scratch, how revenue-share vs flat-rent leases work, and the claimed ~90% gross margins. He also covers sale multiples of 2-3x annual profit, avoiding financing, and low-cost entry from $500-$1,000 for a used small machine. Key takeaway: location and buying out stressed single-machine owners are the main levers, but the business needs physical servicing.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Host of The Koerner Office"
+  },
+  {
+   "name": "CJ",
+   "role": "guest",
+   "description": "Fort Worth ice/water vending operator and real estate investor (Lovest Realty DFW); ex-owner of DFW Pool Services"
+  }
+ ],
+ "format": "operator_interview",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Outdoor ice and water vending machine network",
+   "one_liner": "Own several self-serve ice and water vending machines on leased lots, bought used from distressed owners, serviced by one part-time tech.",
+   "category": "vending_machines_kiosks",
+   "business_model": "Per-sale coin/cash/card vending of bagged ice and water; revenue share or flat lease with landlord.",
+   "customer": "Tradespeople (pool, yard, electrical crews), contractors, boaters/weekenders, and general public needing cheap ice and water.",
+   "problem": "Gas stations and grocers charge high prices for ice (about $4 for 7 lb at CVS/Walgreens); trades buy ice daily.",
+   "offer": "10 lb ice for $2 and 20 lb for $3.50, plus purified water, available 24/7 from street-front machines.",
+   "pricing": {
+    "model": "Per-bag/per-gallon vending prices",
+    "price_points": [
+     {
+      "amount": 2,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per 10 lb bag",
+      "label": "10 lb ice"
+     },
+     {
+      "amount": 3.5,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per 20 lb bag",
+      "label": "20 lb ice"
+     }
+    ],
+    "notes": "Competitors CVS/Walgreens about $4 for 7 lb."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Drive-by traffic at high-count locations (30-50k cars/day); parking and trailer access matter. Existing machines bring established clientele (this one since ~2008).",
+     "quote": null
+    },
+    {
+     "channel": "referrals_word_of_mouth",
+     "details": "Repeat daily trade customers (pool, yard, electrical crews) who find it cheaper than the gas station.",
+     "quote": null
+    },
+    {
+     "channel": "facebook_groups_communities",
+     "details": "Sourcing machines and deals (not customers) by networking with other owners on Facebook and calling numbers printed on machines.",
+     "quote": null
+    }
+   ],
+   "delivery": "Machines make and dispense ice automatically. Operator or a roughly $600-$1,000/month tech visits to clear jams, clean, fix parts, collect coins and cash, and test. Remote reset and free-dispense via phone app.",
+   "unit_economics_claims": [
+    "Bag costs 7-10 cents; ice/water ~10-15 cents; ~90% margin per bag",
+    "Best location 2-3k/month typical, up to 4-5k busy season; 30% revenue share",
+    "New flat-lease location at $550/month, utilities $500-700/month",
+    "Four locations hoped to total 15-20k/month revenue, ~5k/month cost",
+    "Payback of 100% of money in 1-3 years"
+   ],
+   "tools": [
+    "Machine app for remote control and counters",
+    "Data.gov traffic counts",
+    "Facebook"
+   ],
+   "startup_cost": "$500-$1,000 for a used small machine, up to ~$2,500; large Ice House style units $150k-$500k; delivery of machines a couple hundred dollars; may need $10-30k of repair work.",
+   "time_to_first_revenue": "Buying an existing location: immediate (first Saturday $1,000-1,500). Building new: 60-90 days best case, possibly 6-9 months due to permitting.",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Customers are walk-up traffic driven by location; sourcing locations and deals is manual networking, calling and driving around. Software could help find sites but not close them."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "No customer onboarding; the machines are self-serve."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Physical servicing, cleaning, jam clearing, coin and cash collection and repairs need a human on site; remote resets cover only software faults."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Coin, cash and card are collected at the machine; the only manual steps are coin and cash collection and paying the landlord."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Jams and faults are reported by phone call or text and can often be reset remotely via the app; physical faults need a tech."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 2,
+    "notes": "The model depends on US ice-vending culture, hot Texas climate, car-centric lots and cheap parking; UK demand for bagged ice is lower and seasonal, and councils may require planning or permits. Cheap-ice price gaps against UK supermarkets are likely smaller."
+   },
+   "risks": [
+    "Break-ins and vandalism (one location down for months after being drilled through)",
+    "Seasonality; winter months drop to $300-400/month",
+    "Financed owners get squeezed by slow months",
+    "Used machines may need $10-30k of repair",
+    "City permitting and code delays for new builds",
+    "Location dependence; big machines are hard to move",
+    "Landlord rent increases"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "right here we're 10 lb for $2 and and 20 lb for 350. So you're getting almost three times the amount of ice.",
+     "speaker": "CJ",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 4650,
+     "approx_timestamp_s": 228
+    },
+    {
+     "text": "You're looking for owners with one ice machine or one one vending water station still. They're they're max stressed out.",
+     "speaker": "CJ",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 3014,
+     "approx_timestamp_s": 148
+    },
+    {
+     "text": "if you're buying a brand new machine ... first off, we bought the machine before we had a location.",
+     "speaker": "CJ",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 17438,
+     "approx_timestamp_s": 857
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Buy distressed existing ice machines and locations",
+   "one_liner": "Acquire stressed single-machine owners' ice stations cheaply rather than building from scratch.",
+   "category": "acquisition_buy_business",
+   "business_model": "Buy machines/locations at a discount, repair, and operate or resell.",
+   "customer": "Older or overwhelmed single-machine owners looking to exit.",
+   "problem": "Single-machine owners are stressed by breakdowns and want out; new builds face permits and unknown locations.",
+   "offer": "Take over a machine with established clientele, often for a fraction of its value; a friend got one for $500 worth about 10-15k.",
+   "pricing": {
+    "model": "Negotiated purchase; typical multiple 2-3x annual profit",
+    "price_points": [
+     {
+      "amount": 500,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "Friend's distressed machine"
+     },
+     {
+      "amount": 300000,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "Example sale at ~100k/year profit"
+     }
+    ],
+    "notes": "One seller asking $400-500k for a ~15k/month location (about 3.25x)."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "facebook_groups_communities",
+     "details": "Network with local owners on Facebook; call or text numbers printed on machines.",
+     "quote": null
+    },
+    {
+     "channel": "other",
+     "details": "Manufacturers (Everest, Cooler Ice, Twice the Ice) help find locations or sales.",
+     "quote": null
+    }
+   ],
+   "delivery": "Operator takes over the machine and fixes it.",
+   "unit_economics_claims": [
+    "Sale multiples 2-3x annual profit",
+    "Machine bought for $500 worth 10-15k, being resold for 15-20k"
+   ],
+   "tools": [
+    "Facebook",
+    "Phone calls and texts"
+   ],
+   "startup_cost": "Low as $500-$1,000; potentially $10-30k of repair work.",
+   "time_to_first_revenue": "Immediate on takeover",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Deal sourcing relies on calling and relationships; cold texting individuals is restricted in the UK under PECR."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "Negotiation and transfer are human-led."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Physical repair and operation."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Machine sales are automatic."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Remote app resets with human on-site backup."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 2,
+    "notes": "Same constraints as the base ice business; UK market for ice machines is much smaller."
+   },
+   "risks": [
+    "Hidden repair costs",
+    "Unknown seller claims",
+    "Financing squeeze"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "a lot of the owners are selling in two to three multiple two to three times multiples",
+     "speaker": "CJ",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 15719,
+     "approx_timestamp_s": 773
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Food truck space rental at ice location",
+   "one_liner": "Sublet extra lot space at an ice location to a food truck for about $500/month.",
+   "category": "rental_asset",
+   "business_model": "Sublease of leased land for a flat fee.",
+   "customer": "Food truck operators.",
+   "problem": "Food trucks need places to park.",
+   "offer": "Space on the leased lot.",
+   "pricing": {
+    "model": "Monthly rent",
+    "price_points": [
+     {
+      "amount": 500,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "Food truck rent"
+     }
+    ],
+    "notes": "Planned, not yet done."
+   },
+   "acquisition_channels": [],
+   "delivery": "Provide space.",
+   "unit_economics_claims": [
+    "Roughly 100% profit besides utilities against a $550 lease"
+   ],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Local listing or outreach."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Needs agreement."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Just space."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Recurring payment."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Occasional landlord issues."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Possible but the lease must permit subletting and food trading needs permits."
+   },
+   "risks": [
+    "Lease may prohibit subletting"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "we might even have a food truck come and rent this space",
+     "speaker": "CJ",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 7242,
+     "approx_timestamp_s": 356
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Margin of about 90% on ice bags",
+   "metric": "margin",
+   "value": {
+    "amount": 90,
+    "amount_max": null,
+    "currency": null,
+    "unit": "percent",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So it's like 90% margins. Yeah. Huge margin.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5261,
+    "approx_timestamp_s": 258
+   }
+  },
+  {
+   "claim": "Bag costs 7 to 10 cents",
+   "metric": "cost",
+   "value": {
+    "amount": 7,
+    "amount_max": 10,
+    "currency": "USD",
+    "unit": "cents per bag",
+    "label": null
+   },
+   "period": null,
+   "claimant": "CJ",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "You're talking about like 7 to 10 cents for the bag",
+    "speaker": "CJ",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4885,
+    "approx_timestamp_s": 240
+   }
+  },
+  {
+   "claim": "Busiest location revenue 2-3k typical, up to 4-5k per month",
+   "metric": "revenue",
+   "value": {
+    "amount": 2000,
+    "amount_max": 5000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": null
+   },
+   "period": "month",
+   "claimant": "CJ",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "between two and three on a really busy time, we can get up to four or 5K a month",
+    "speaker": "CJ",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6675,
+    "approx_timestamp_s": 328
+   }
+  },
+  {
+   "claim": "Revenue share with landlord about 30% (range 20-32%)",
+   "metric": "other",
+   "value": {
+    "amount": 30,
+    "amount_max": null,
+    "currency": null,
+    "unit": "percent",
+    "label": "revenue share"
+   },
+   "period": null,
+   "claimant": "CJ",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "you can normally revenue share from about 20 to 32%",
+    "speaker": "CJ",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5938,
+    "approx_timestamp_s": 292
+   }
+  },
+  {
+   "claim": "New location leased for $550 per month",
+   "metric": "cost",
+   "value": {
+    "amount": 550,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per month",
+    "label": null
+   },
+   "period": "month",
+   "claimant": "CJ",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "We're leasing this for 550 a month.",
+    "speaker": "CJ",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 195,
+    "approx_timestamp_s": 9
+   }
+  },
+  {
+   "claim": "Expected total revenue 15-20k per month across four locations",
+   "metric": "revenue",
+   "value": {
+    "amount": 15000,
+    "amount_max": 20000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": null
+   },
+   "period": "month",
+   "claimant": "CJ",
+   "first_hand": true,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "we're going to be looking probably hopefully 15 20k. Wow. A month.",
+    "speaker": "CJ",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8475,
+    "approx_timestamp_s": 416
+   }
+  },
+  {
+   "claim": "Tech costs about $600 per month, up to $1,000",
+   "metric": "cost",
+   "value": {
+    "amount": 600,
+    "amount_max": 1000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": null
+   },
+   "period": "month",
+   "claimant": "CJ",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "it's about 600 a month, depending on how busy he is, maybe up to a,000",
+    "speaker": "CJ",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8984,
+    "approx_timestamp_s": 441
+   }
+  },
+  {
+   "claim": "First Saturday at new location earned $1,000-1,500",
+   "metric": "revenue",
+   "value": {
+    "amount": 1000,
+    "amount_max": 1500,
+    "currency": "USD",
+    "unit": "per day",
+    "label": null
+   },
+   "period": "first Saturday",
+   "claimant": "CJ",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "the first week. Wow. The first week.",
+    "speaker": "Chris Koerner",
+    "match_score": 69.7,
+    "verified": false,
+    "char_offset": 17024,
+    "approx_timestamp_s": 837
+   }
+  },
+  {
+   "claim": "Used small ice machine for $500-$1,000",
+   "metric": "cost",
+   "value": {
+    "amount": 500,
+    "amount_max": 1000,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": null
+   },
+   "period": null,
+   "claimant": "CJ",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "Maybe $500 to $1,000. I think you can get a small ice machine.",
+    "speaker": "CJ",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 19340,
+    "approx_timestamp_s": 951
+   }
+  },
+  {
+   "claim": "Typical sale multiple 2-3x annual profit",
+   "metric": "valuation",
+   "value": {
+    "amount": 2,
+    "amount_max": 3,
+    "currency": null,
+    "unit": "x annual profit",
+    "label": null
+   },
+   "period": null,
+   "claimant": "CJ",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "I would say two to three times is pretty normal. Annual profits.",
+    "speaker": "CJ",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16120,
+    "approx_timestamp_s": 792
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Find and buy from stressed single-machine owners",
+   "area": "acquisition",
+   "steps": [
+    "Drive around looking for machines in your area",
+    "Call or text the owner numbers printed on the machine",
+    "Look for owners with a single machine who are exhausted by breakdowns",
+    "Offer to take it over; consider sellers who have let machines go",
+    "Network with owners on Facebook and ask how they started"
+   ],
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "if you could go to the machines in your area and just call the owners and finally catch one",
+    "speaker": "CJ",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11339,
+    "approx_timestamp_s": 557
+   }
+  },
+  {
+   "name": "Pick locations by traffic and access",
+   "area": "operations",
+   "steps": [
+    "Check traffic counts on a .gov site",
+    "Target 30-50k cars per day",
+    "Ensure parking and trailer access",
+    "Use revenue share at very busy sites to share downside"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Hire one roaming tech",
+   "area": "hiring",
+   "steps": [
+    "Pay one person about $600-1,000/month",
+    "Visit all machines to clear jams and clean",
+    "Operator remotely resets and dispenses free water from the app"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Everest Ice and Water",
+   "purpose": "Small ice/water vending machine maker",
+   "cost_stated": "Delivered for a couple hundred dollars"
+  },
+  {
+   "name": "Cooler Ice",
+   "purpose": "Ice/water machine manufacturer; easier to move (~$1,000)",
+   "cost_stated": null
+  },
+  {
+   "name": "Twice the Ice",
+   "purpose": "Machine brand that helps with locations and enforces spacing of 1-2 miles",
+   "cost_stated": null
+  },
+  {
+   "name": "Ice House America",
+   "purpose": "Large building-style ice machines",
+   "cost_stated": "$150k-$500k"
+  },
+  {
+   "name": "data.gov traffic counts",
+   "purpose": "Check cars per day",
+   "cost_stated": null
+  },
+  {
+   "name": "Facebook",
+   "purpose": "Networking with owners",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Avoid financing machines; slow seasons and repairs squeeze financed owners into selling.",
+   "quote": {
+    "text": "I would highly recommend not most of the machines that we've picked up",
+    "speaker": "CJ",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12275,
+    "approx_timestamp_s": 603
+   }
+  },
+  {
+   "warning": "Buying a machine before securing a location is a gamble; permitting can delay launch up to 6-9 months.",
+   "quote": {
+    "text": "you could not be up and running for maybe 6 7 8 9 months",
+    "speaker": "CJ",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17838,
+    "approx_timestamp_s": 877
+   }
+  },
+  {
+   "warning": "Machines can be broken into; one location was down for a couple of months.",
+   "quote": {
+    "text": "We got broken into one time and it happened to be that location. So we were down for a couple months.",
+    "speaker": "CJ",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6290,
+    "approx_timestamp_s": 309
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Turn a cost centre you know well into a business; the operator started because his pool company spent thousands a month on ice.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "how do we turn this cost center into a profit center?",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1427,
+    "approx_timestamp_s": 70
+   }
+  },
+  {
+   "lesson": "Buying a running asset from a tired owner usually beats building from scratch on price, speed and risk.",
+   "theme": "exit_acquisition",
+   "quote": {
+    "text": "they're going to pay a ton more if they started from scratch",
+    "speaker": "CJ",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17205,
+    "approx_timestamp_s": 846
+   }
+  },
+  {
+   "lesson": "Revenue-share leases align landlord incentives and share downside during outages, at the cost of a lower margin.",
+   "theme": "finance_unit_economics",
+   "quote": null
+  },
+  {
+   "lesson": "Start small with one unit and grow from cash flow rather than debt.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "I recommend starting small getting one and building it up",
+    "speaker": "CJ",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12994,
+    "approx_timestamp_s": 639
+   }
+  },
+  {
+   "lesson": "Seasonality matters; winter revenue can fall to a tenth of peak.",
+   "theme": "finance_unit_economics",
+   "quote": null
+  },
+  {
+   "lesson": "Physical servicing is the bottleneck for scaling unattended assets; a single roaming tech lets one owner handle several machines.",
+   "theme": "operations",
+   "quote": null
+  },
+  {
+   "lesson": "Unglamorous niches with fragmented, ageing local owners offer roll-up opportunities.",
+   "theme": "scaling",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "B",
+  "rationale": "First-hand operator with several specific figures, but numbers are rough and partly hopeful (new location projections, an unknown fraction of total revenue). The profit figures are not reconciled and the host leads with hype.",
+  "promotional_conflict": "Guest promotes his real estate team and YouTube channel (Lovest Realty DFW); host asks for subscribes."
+ },
+ "extraction": {
+  "model": "claude-sonnet-5-5",
+  "extracted_at": "2026-10-22T02:01:53",
+  "cost_usd": 0.0962202,
+  "quote_verification": {
+   "quotes": 22,
+   "verified": 21,
+   "rate": 0.955
+  },
+  "schema_errors": [],
+  "reviewed_by": null,
+  "review_notes": null
+ }
+}

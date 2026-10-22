@@ -1,6 +1,6 @@
 # The Phone Habit That Was Ruining My Life
 
-- **Video:** [UApJWuKFtH4](https://www.youtube.com/watch?v=UApJWuKFtH4) · **Channel:** Nick Huber - Sweaty Startup · **Uploaded:** unknown · **Length:** 4 min · **Transcript:** local_whisper_tiny
+- **Video:** [UApJWuKFtH4](https://www.youtube.com/watch?v=UApJWuKFtH4) · **Channel:** Nick Huber - Sweaty Startup · **Uploaded:** 2026-10-20 · **Length:** 4 min · **Transcript:** local_whisper_tiny
 - **Speakers:** Nick Huber (host), Corey (guest) · **Format:** other
 - **Evidence quality:** C — Personal anecdote about phone habits with no business idea or verifiable metrics; the only figures are self-reported screen time. The transcript is Whisper tiny with some mis-heard words.
 - **Extraction:** claude-sonnet-5-5 · quotes verified 8/8
@@ -21,18 +21,18 @@ Nick Huber and a guest (Corey) discuss breaking a phone addiction. Nick turned h
 1. Block 4:30 to 5pm on the calendar to clear all inboxes and texts
 2. Don't reply outside that window; let people wait until the next day
 3. Accept that people close to you will understand
-> "I have on my calendar from 4 30 to 5 to clear all my inboxes." — Nick Huber (~1:55)
+> "I have on my calendar from 4 30 to 5 to clear all my inboxes." — Nick Huber (~1:54)
 
 **Notepad and pencil instead of phone** (mindset)
 1. Carry a notepad and pencil at all times
 2. Write down anything that makes you want to reach for the phone, such as Amazon orders or messages to send
 3. Copy the notes into the phone later, e.g. after a walk
-> "keep a note pad and a pencil with you at all times." — Nick Huber (~2:12)
+> "keep a note pad and a pencil with you at all times." — Nick Huber (~2:11)
 
 **Swap phones with spouse** (mindset)
 1. Trade phones with your partner so you can't run your usual check routine
 2. Move app-only tasks such as ordering food or the daycare swipe to a shared arrangement first
-> "Me and my wife can trade phones now." — Nick Huber (~3:44)
+> "Me and my wife can trade phones now." — Nick Huber (~3:43)
 
 **Phone-free morning walk** (mindset)
 1. Walk about 30 minutes each morning without the phone

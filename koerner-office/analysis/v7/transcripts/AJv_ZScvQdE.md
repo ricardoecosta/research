@@ -1,6 +1,6 @@
 # 7 Side Hustles For Beginners
 
-- **Video:** [AJv_ZScvQdE](https://www.youtube.com/watch?v=AJv_ZScvQdE) · **Channel:** Tim Richard · **Uploaded:** unknown · **Length:** 11 min · **Transcript:** cached
+- **Video:** [AJv_ZScvQdE](https://www.youtube.com/watch?v=AJv_ZScvQdE) · **Channel:** Tim Richard · **Uploaded:** 2026-05-31 · **Length:** 11 min · **Transcript:** cached
 - **Speakers:** Tim Richard (host) · **Format:** listicle_roundup
 - **Evidence quality:** C — Listicle with mostly second-hand earnings clips and testimonials; only the home services claims are first-hand and they are unverified and lack process detail. · Promotional conflict: Sells an 'idea book' of side hustle ideas, linked in the description.
 - **Extraction:** claude-sonnet-5-5 · quotes verified 18/18

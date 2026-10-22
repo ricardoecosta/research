@@ -1,0 +1,636 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "1u6vDyf-TCY",
+  "title": "The Wealthiest People I Know All Did This",
+  "channel": "Nick Huber - Sweaty Startup",
+  "url": "https://www.youtube.com/watch?v=1u6vDyf-TCY",
+  "upload_date": "2026-10-01",
+  "duration_s": 314,
+  "view_count": 588,
+  "transcript_provider": "local_whisper_tiny",
+  "transcript_chars": 6057,
+  "transcript_is_whisper": true
+ },
+ "summary": "Nick Huber (Sweaty Startup) answers two questions in a short excerpt: how to find and manage business partners, and whether to focus on one business or branch out. He says partners are hard to find and fail for moral reasons or because the value equation is off, and that splitting equity too many ways in small businesses leaves nobody making money. He notes that only 3 of his 11 companies matter financially (power law), four are unprofitable, and that 8 of 10 wealthy people he knows focused on one business. He pivoted out of a brutal student moving and storage business into self-storage. Key takeaway: focus on a good business, pick partners carefully, and stay open to better opportunities as momentum builds.",
+ "speakers": [
+  {
+   "name": "Nick Huber",
+   "role": "guest",
+   "description": "Founder of Sweaty Startup; owner of multiple businesses including Storage Squad, self-storage and others; author of a book"
+  },
+  {
+   "name": "Unnamed interviewer",
+   "role": "host",
+   "description": "Asks questions about partners and focus vs branching out; name not stated in excerpt"
+  }
+ ],
+ "format": "operator_interview",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Student pickup-and-delivery moving and storage (Storage Squad)",
+   "one_liner": "Part-time-staffed moving and storage business serving students, which Huber says was brutal and he moved on from.",
+   "category": "local_service",
+   "business_model": "Per-job moving and storage fees (details not stated)",
+   "customer": "Students needing pickup, storage and delivery (implied by 'student moving and storage')",
+   "problem": "not stated",
+   "offer": "Pickup and delivery student moving and storage using box trucks",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "not stated"
+   },
+   "acquisition_channels": [],
+   "delivery": "About 250 part-time employees driving box trucks around cities; six full-time employees; over 200 people working on a single day during finals week.",
+   "unit_economics_claims": [
+    "Six full-time employees and 250 part-time employees",
+    "Over 200 people working on a single day in finals week"
+   ],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Student customer demand is likely seasonal and inbound; not described in the transcript."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Booking and scheduling could be software-driven but the transcript does not say."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical moving and driving by a large human workforce."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Standard online payments could be automated."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Customer queries and day-of logistics need humans."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Student moves and storage exist in the UK (university term ends), though van regulation, insurance and cost differ."
+   },
+   "risks": [
+    "Highly labour-intensive and seasonal, with a spike in finals week",
+    "Huber describes it as totally brutal and a business to get out of",
+    "Managing 250 part-time staff"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "a pickup and delivery student moving and storage business that was totally brutal, 250 part time employees, driving box trucks around cities",
+     "speaker": "Nick Huber",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 4495,
+     "approx_timestamp_s": 237
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Self-storage business",
+   "one_liner": "Huber pivoted from moving and storage into self-storage and credits it as a very good business.",
+   "category": "real_estate",
+   "business_model": "not stated",
+   "customer": "not stated",
+   "problem": "not stated",
+   "offer": "Self-storage",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "not stated"
+   },
+   "acquisition_channels": [],
+   "delivery": "not stated",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Inbound search and listings generally drive demand, but the transcript does not say."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Online rental can be automated, though not described here."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Physical property needs maintenance and ownership."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Recurring rent collection is automatable."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Mostly routine queries, with occasional physical issues."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Self-storage exists in the UK; planning, property costs and market saturation differ."
+   },
+   "risks": [
+    "not stated"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "I pivoted away from moving and storage into the self-storage business",
+     "speaker": "Nick Huber",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 5159,
+     "approx_timestamp_s": 273
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Ari Cossig (as heard)",
+   "one_liner": "A company Huber started and is glad about; the name is mis-transcribed and the business is not described.",
+   "category": "other",
+   "business_model": "not stated",
+   "customer": "not stated",
+   "problem": "not stated",
+   "offer": "not stated",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "not stated"
+   },
+   "acquisition_channels": [],
+   "delivery": "not stated",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 0,
+     "how": "Not enough information."
+    },
+    "onboarding": {
+     "score_e": 0,
+     "how": "Not enough information."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Not enough information."
+    },
+    "billing": {
+     "score_e": 0,
+     "how": "Not enough information."
+    },
+    "support": {
+     "score_e": 0,
+     "how": "Not enough information."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Cannot assess; business not described and the name is garbled by Whisper."
+   },
+   "risks": [
+    "not stated"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "I'm very glad that I started Ari Cossig and that I'm involved in somewhere.com",
+     "speaker": "Nick Huber",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 5233,
+     "approx_timestamp_s": 276
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "Somewhere.com",
+   "one_liner": "A company Huber is involved in; not described in this excerpt.",
+   "category": "other",
+   "business_model": "not stated",
+   "customer": "not stated",
+   "problem": "not stated",
+   "offer": "not stated",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "not stated"
+   },
+   "acquisition_channels": [],
+   "delivery": "not stated",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 0,
+     "how": "Not enough information."
+    },
+    "onboarding": {
+     "score_e": 0,
+     "how": "Not enough information."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Not enough information."
+    },
+    "billing": {
+     "score_e": 0,
+     "how": "Not enough information."
+    },
+    "support": {
+     "score_e": 0,
+     "how": "Not enough information."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Cannot assess; business not described."
+   },
+   "risks": [
+    "not stated"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": []
+  },
+  {
+   "local_id": "I5",
+   "name": "Car detailing business (example)",
+   "one_liner": "Used as an example of young entrepreneurs splitting equity three ways in a small local business.",
+   "category": "local_service",
+   "business_model": "not stated",
+   "customer": "not stated",
+   "problem": "not stated",
+   "offer": "Car detailing",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "not stated"
+   },
+   "acquisition_channels": [],
+   "delivery": "Physical detailing by the founders.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Local search and social could help, but not discussed."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Online booking is possible."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical work by a person each time."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Online payments."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Routine queries could be automated."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works the same in the UK."
+   },
+   "risks": [
+    "Splitting equity three ways means nobody makes money even at the town's max potential"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "they're doing a car detailing business and they're going to split the equity with three guys",
+     "speaker": "Nick Huber",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 849,
+     "approx_timestamp_s": 44
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Four of Huber's 11 businesses are not profitable and likely to be shut down.",
+   "metric": "customers",
+   "value": {
+    "amount": 4,
+    "amount_max": null,
+    "currency": null,
+    "unit": "businesses",
+    "label": "unprofitable of 11"
+   },
+   "period": null,
+   "claimant": "Nick Huber",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "four of the 11 businesses are not profitable and likely to be shut down",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2893,
+    "approx_timestamp_s": 153
+   }
+  },
+  {
+   "claim": "Two of Huber's three big companies are on their way to over $1M a month of revenue, with a third very soon.",
+   "metric": "revenue",
+   "value": {
+    "amount": 1000000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "two companies on the way to over this"
+   },
+   "period": "monthly",
+   "claimant": "Nick Huber",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "three of my 11 companies are massive, like on their way to two of them over a million dollars a month of revenue",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3044,
+    "approx_timestamp_s": 161
+   }
+  },
+  {
+   "claim": "Three businesses make up 99.999 percent of Huber's net worth.",
+   "metric": "other",
+   "value": {
+    "amount": 99.999,
+    "amount_max": null,
+    "currency": null,
+    "unit": "percent of net worth",
+    "label": "from three businesses"
+   },
+   "period": null,
+   "claimant": "Nick Huber",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "Those three businesses are like 99.999 percent of my net worth.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3267,
+    "approx_timestamp_s": 172
+   }
+  },
+  {
+   "claim": "Eight out of 10 of the wealthiest people Huber knows focused on one business.",
+   "metric": "other",
+   "value": {
+    "amount": 80,
+    "amount_max": null,
+    "currency": null,
+    "unit": "percent",
+    "label": "of wealthy people focused on one business"
+   },
+   "period": null,
+   "claimant": "Nick Huber",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "the wealthiest people that I know eight out of 10 of them focused on one business and build that business very large",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4125,
+    "approx_timestamp_s": 218
+   }
+  },
+  {
+   "claim": "The moving business had 250 part-time employees and six full-time employees, with over 200 working on a single day in finals week.",
+   "metric": "customers",
+   "value": {
+    "amount": 250,
+    "amount_max": null,
+    "currency": null,
+    "unit": "part-time employees",
+    "label": "plus six full-time"
+   },
+   "period": null,
+   "claimant": "Nick Huber",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "250 part time employees, driving box trucks around cities, you know, six full-time employees, but then finals week we had over 200 people working on a single day",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4577,
+    "approx_timestamp_s": 242
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Evaluate partners on trust and value",
+   "area": "hiring",
+   "steps": [
+    "Check for moral/trust issues: would they steal or ignore your interests?",
+    "Check the value equation: do they add more value than they take from the business?",
+    "Reassess as the business grows, because a high performer may outgrow others' equity stakes.",
+    "Avoid splitting equity many ways in small businesses with a capped market."
+   ],
+   "idea_local_id": null,
+   "quote": {
+    "text": "there's two reasons why partnerships fail. It's like a moral issue. Somebody is literally untrustworthy.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1607,
+    "approx_timestamp_s": 85
+   }
+  },
+  {
+   "name": "Run a portfolio but cut losers",
+   "area": "finance",
+   "steps": [
+    "Expect a power law: a few businesses produce nearly all the value.",
+    "Shut down businesses that are unprofitable and have no potential.",
+    "Leave a bad business when its structure is brutal, rather than pushing on with blinders on."
+   ],
+   "idea_local_id": null,
+   "quote": {
+    "text": "if I would have had blinders on trying to take storage squad to 200 million dollars of revenue, I would still be banging my head against the wall",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4824,
+    "approx_timestamp_s": 255
+   }
+  }
+ ],
+ "tools_mentioned": [],
+ "warnings": [
+  {
+   "warning": "Splitting equity three ways in a small local business like car detailing can leave nobody making money even at max potential.",
+   "quote": {
+    "text": "the next thing you know that nobody is making any money, even if the business reaches its max potential in a town",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 946,
+    "approx_timestamp_s": 50
+   }
+  },
+  {
+   "warning": "Partnerships fail from untrustworthiness or from an unbalanced value equation where someone takes more than they add.",
+   "quote": {
+    "text": "somebody is taking more from the business than they're adding to the company",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1884,
+    "approx_timestamp_s": 99
+   }
+  },
+  {
+   "warning": "Staying in a structurally bad business (agency, labour-heavy moving and storage) can trap you; focus only pays if the business is good.",
+   "quote": {
+    "text": "if you're in a shitty business, an agency business, a moving and storage company like I was in",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4402,
+    "approx_timestamp_s": 232
+   }
+  },
+  {
+   "warning": "Trying to do 10 things at once can lead to a lot of nothing.",
+   "quote": {
+    "text": "many other people get distracted and end up doing a whole lot of nothing because they're trying to do 10 things at once",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5787,
+    "approx_timestamp_s": 306
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Good partners are hard to find and finding one can be partly luck; Huber's 50/50 deal with Dan Haggberg worked but he has also had bad partners.",
+   "theme": "hiring_outsourcing",
+   "quote": {
+    "text": "it's kind of a crap shoot",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1222,
+    "approx_timestamp_s": 64
+   }
+  },
+  {
+   "lesson": "Partnerships fail for two reasons: moral failure (untrustworthiness) and an unbalanced value equation.",
+   "theme": "hiring_outsourcing",
+   "quote": null
+  },
+  {
+   "lesson": "Business outcomes follow a power law: even with strong advantages, about three of 11 companies drive almost all the wealth.",
+   "theme": "finance_unit_economics",
+   "quote": {
+    "text": "there's a power law",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2970,
+    "approx_timestamp_s": 157
+   }
+  },
+  {
+   "lesson": "Focusing on one business raises the odds of success statistically, but only if it is a good business.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "the odds of success are higher if you focus on one business",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4332,
+    "approx_timestamp_s": 229
+   }
+  },
+  {
+   "lesson": "Business choice matters: labour-heavy, seasonal, low-margin models like student moving can be worth leaving for better models like self-storage.",
+   "theme": "niche_selection",
+   "quote": null
+  },
+  {
+   "lesson": "Business is about momentum: as you earn, build a network and gain skill, better opportunities arrive, so stay open-minded without scattering focus.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "businesses about momentum",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5401,
+    "approx_timestamp_s": 285
+   }
+  },
+  {
+   "lesson": "Huber no longer thinks everyone should be an entrepreneur, since business is hard even with big advantages.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "I thought five years ago that everybody should be an entrepreneur. I disagree with that today.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3503,
+    "approx_timestamp_s": 185
+   }
+  }
+ ],
+ "evidence_quality": {
+  "rating": "B",
+  "rationale": "First-hand operator with credible claims about his own portfolio, but the excerpt is short, the numbers are vague, no business is deeply explained, and the transcript is from Whisper tiny with mis-heard names.",
+  "promotional_conflict": "Huber refers to his book and is involved in Sweaty Startup content and several businesses; promotional interest is possible."
+ },
+ "extraction": {
+  "model": "claude-sonnet-5-5",
+  "extracted_at": "2026-10-22T02:03:26",
+  "cost_usd": 0.06370619999999999,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 20,
+   "verified": 20,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

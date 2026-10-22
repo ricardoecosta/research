@@ -31,7 +31,10 @@ def extract_one(vid, meta, model, effort):
         if total_cost() >= BUDGET_USD:
             return vid, "budget_stop", 0.0
         t0 = time.time()
-        res = run_claude(build_prompt(vid, meta, text), SYSTEM, model=model, effort=effort)
+        try:
+            res = run_claude(build_prompt(vid, meta, text), SYSTEM, model=model, effort=effort)
+        except LimitHit:
+            return vid, "limit", 0.0
         try:
             if res.get("is_error"):
                 raise ValueError("claude error: " + str(res.get("result"))[:300])
@@ -55,6 +58,7 @@ def main():
     ap.add_argument("--model", default="sonnet")
     ap.add_argument("--effort", default=None)
     ap.add_argument("--ids", default="")
+    ap.add_argument("--reverse", action="store_true")
     ap.add_argument("--order", default="size", help="size | name | shuffle")
     args = ap.parse_args()
     idx, dates = load_index()
@@ -64,6 +68,8 @@ def main():
     todo = [i for i in ids if not (WORK / "raw" / f"{i}.json").exists()]
     if args.order == "shuffle":
         import random; random.Random(7).shuffle(todo)
+    if args.reverse:
+        todo = todo[::-1]
     if args.limit:
         todo = todo[: args.limit]
     print(f"{len(todo)} to extract; spent so far ${total_cost():.2f} of ${BUDGET_USD}", flush=True)
@@ -80,4 +86,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    guarded(main)

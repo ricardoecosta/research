@@ -1,6 +1,6 @@
 # From Her Last $1 to $3.6M/Year...
 
-- **Video:** [gWlgXpomS_Q](https://www.youtube.com/watch?v=gWlgXpomS_Q) · **Channel:** UpFlip · **Uploaded:** unknown · **Length:** 31 min · **Transcript:** local_whisper_tiny
+- **Video:** [gWlgXpomS_Q](https://www.youtube.com/watch?v=gWlgXpomS_Q) · **Channel:** UpFlip · **Uploaded:** 2026-08-18 · **Length:** 31 min · **Transcript:** local_whisper_tiny
 - **Speakers:** Paul (host), Emily (guest), Jeff (guest) · **Format:** case_study_profile
 - **Evidence quality:** B — First-hand operators give a detailed P&L, but the figures are unaudited, the transcript is Whisper-tiny with some garbled numbers, the intro claims ($300k/month, $3.6M) differ from the stated $3.5M, and the business is capital-heavy and physical. · Promotional conflict: Host's UpFlip platform and business matching tool; Busy (LLC formation) sponsor read.
 - **Extraction:** claude-sonnet-5-5 · quotes verified 26/26
@@ -52,36 +52,36 @@ UpFlip host Paul visits Emily and Jeff of Lancaster Cupcake in Pennsylvania, a 1
 - **UK applicability [E]:** 4/5 — Street food trucks work in the UK but need council trading licences, pitch permits and food hygiene rating.
 - **Risks:** Truck breakdowns; Seasonal and weather dependence; Permits
 - **Automation [E]:** acquisition 1/5 (Event bookings and presence are mostly human.); onboarding 2/5 (Booking can be online.); delivery 0/5 (Driving, serving and baking are physical.); billing 4/5 (Card payments.); support 2/5 (Event liaison is mostly human.)
-> "profit margins are a lot higher. There's no overhead on the expense of the building" — Emily (~21:10)
+> "profit margins are a lot higher. There's no overhead on the expense of the building" — Emily (~21:09)
 
 ## Revenue and metric claims (unverified claims)
 
 - **Total company revenue 2025 about $3.5M** (revenue, first-hand, claimant: Jeff)
-  > "So total revenue for the entire company. - Yes. We were at 3.5 million." — Jeff (~23:23)
+  > "So total revenue for the entire company. - Yes. We were at 3.5 million." — Jeff (~23:22)
 - **Net profit margin about 40%** (margin, first-hand, claimant: Emily)
-  > "the advisor who does your financials is basically saying you're at about 40%, margin." — Paul (~25:04)
+  > "the advisor who does your financials is basically saying you're at about 40%, margin." — Paul (~25:03)
 - **Cost per cupcake about $1 all in** (cost, first-hand, claimant: Emily)
   > "our cost per cupcake is about a dollar all in. All in labor, ingredients, everything." — Emily (~4:59)
 - **Payroll $1.3M** (cost, first-hand, claimant: Jeff)
-  > "What is that? - 1.3 million." — Jeff (~23:43)
+  > "What is that? - 1.3 million." — Jeff (~23:42)
 - **Labour about 40% of revenue with about 60 employees** (cost, first-hand, claimant: Emily)
-  > "Whoa, our labor costs are about 40% of our revenue." — Emily (~18:31)
+  > "Whoa, our labor costs are about 40% of our revenue." — Emily (~18:30)
 - **Retail-only location does about $800k vs $1M target** (revenue, first-hand, claimant: Emily)
   > "Yeah, this location we would love for to be at a million dollars." — Emily (~23:03)
 - **Large location build-out near $700,000 and rent about $12,000 a month** (cost, first-hand, claimant: Emily)
   > "as far as the build out, it was close to $700,000." — Emily (~22:18)
 - **Walk-in oven costs $60,000** (cost, first-hand, claimant: Emily)
-  > "This thing is $60,000." — Emily (~13:28)
+  > "This thing is $60,000." — Emily (~13:27)
 - **Average sale about $24** (price, first-hand, claimant: Jeff)
-  > "Our average sale last year was about $24." — Jeff (~25:47)
+  > "Our average sale last year was about $24." — Jeff (~25:46)
 - **Started with $1,400** (cost, first-hand, claimant: Emily)
   > "We started with $1,400, bought some ingredients and we kept moving forward" — Emily (~8:54)
 - **Email list of about 50,000** (customers, first-hand, claimant: Emily)
   > "We have about 50,000 on our email list." — Emily (~14:18)
 - **Marketing about 1% of sales (about $35k)** (cost, first-hand, claimant: Jeff)
-  > "about 1% of our sales into marketing." — Jeff (~24:46)
+  > "about 1% of our sales into marketing." — Jeff (~24:45)
 - **Truck purchase $1,200** (cost, first-hand, claimant: Emily)
-  > "So $1,200 on the purchase of this truck" — Emily (~20:07)
+  > "So $1,200 on the purchase of this truck" — Emily (~20:06)
 
 ## Tactics and playbook steps
 
@@ -96,7 +96,7 @@ UpFlip host Paul visits Emily and Jeff of Lancaster Cupcake in Pennsylvania, a 1
 1. Take 10% of revenue off the top into a profit account
 2. Set aside 10-12% of sales for tax
 3. Pay expenses from remaining pools
-> "We take out 10% off the top." — Jeff (~23:37)
+> "We take out 10% off the top." — Jeff (~23:36)
 
 **Staff upsell scripts** (sales)
 1. Recommend monthly special

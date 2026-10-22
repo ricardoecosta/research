@@ -1,6 +1,6 @@
 # The Beginner-Friendly Claude AI Side Hustle Nobody Talks About
 
-- **Video:** [quYKZushRPo](https://www.youtube.com/watch?v=quYKZushRPo) · **Channel:** The Koerner Office · **Uploaded:** unknown · **Length:** 31 min · **Transcript:** ok_freetranscriptapi
+- **Video:** [quYKZushRPo](https://www.youtube.com/watch?v=quYKZushRPo) · **Channel:** The Koerner Office · **Uploaded:** 2026-05-13 · **Length:** 31 min · **Transcript:** ok_freetranscriptapi
 - **Speakers:** Chris Koerner (host), Ryan Dozer (guest) · **Format:** operator_interview
 - **Evidence quality:** B — First-hand operator with a Stripe dashboard shown on screen, but $3,000 is a modest, self-reported total, partly a $1,000 consulting sale, and traffic and conversion data are vague. Sales lean on his existing audience; claims of 'passive' income are unverified. · Promotional conflict: Dozer sells the $99 skill stack and promotes his community and site; the video includes a Go High Level sponsor read.
 - **Extraction:** claude-sonnet-5-5 · quotes verified 23/23

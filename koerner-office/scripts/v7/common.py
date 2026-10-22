@@ -1,5 +1,5 @@
 """Shared helpers for the v7 transcript-learnings pipeline."""
-import csv, datetime as dt, json, os, re, subprocess, threading, time
+import csv, datetime as dt, json, os, re, subprocess, sys, threading, time
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[3]
@@ -41,6 +41,21 @@ def log_cost(stage, item, model, res, status):
             w.writerow(row)
 
 
+class LimitHit(Exception):
+    pass
+
+
+STOP = threading.Event()
+
+
+def check_limit(res):
+    txt = str((res or {}).get("result", ""))
+    if (res or {}).get("is_error") and "limit" in txt.lower() and ("reset" in txt.lower() or "hit your" in txt.lower()):
+        (WORK / "limit.txt").write_text(txt[:500])
+        STOP.set()
+        raise LimitHit(txt[:200])
+
+
 def run_claude(prompt, system, model="sonnet", effort=None, tools="", timeout=1800, extra=None):
     """Run claude -p and return the parsed --output-format json result dict."""
     cmd = [CLAUDE, "-p", prompt, "--model", model, "--output-format", "json",
@@ -52,11 +67,25 @@ def run_claude(prompt, system, model="sonnet", effort=None, tools="", timeout=18
         cmd += extra
     cwd = WORK / "cwd"
     cwd.mkdir(parents=True, exist_ok=True)
+    if STOP.is_set():
+        raise LimitHit("stopped: limit hit earlier in this run")
     p = subprocess.run(cmd, stdin=subprocess.DEVNULL, capture_output=True, text=True, cwd=cwd, timeout=timeout)
     try:
-        return json.loads(p.stdout)
+        res = json.loads(p.stdout)
     except Exception:
-        return {"is_error": True, "result": (p.stdout or "")[-2000:] + (p.stderr or "")[-2000:], "total_cost_usd": 0}
+        res = {"is_error": True, "result": (p.stdout or "")[-2000:] + (p.stderr or "")[-2000:], "total_cost_usd": 0}
+    check_limit(res)
+    return res
+
+
+def guarded(main):
+    """Run main(); exit 75 if the Claude usage limit was hit (driver waits for reset)."""
+    try:
+        main()
+    except LimitHit as e:
+        print("LIMIT_HIT", e, flush=True); sys.exit(75)
+    if STOP.is_set():
+        print("LIMIT_HIT (some jobs skipped)", flush=True); sys.exit(75)
 
 
 def parse_json_text(txt):

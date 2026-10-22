@@ -1,6 +1,6 @@
 # The Most Overlooked $10K/M Business Anyone Can Start
 
-- **Video:** [UCdWRg1KQLY](https://www.youtube.com/watch?v=UCdWRg1KQLY) · **Channel:** The Koerner Office · **Uploaded:** unknown · **Length:** 34 min · **Transcript:** ok
+- **Video:** [UCdWRg1KQLY](https://www.youtube.com/watch?v=UCdWRg1KQLY) · **Channel:** The Koerner Office · **Uploaded:** 2025-08-03 · **Length:** 34 min · **Transcript:** ok
 - **Speakers:** Chris Koerner (host), Kyler (guest) · **Format:** operator_interview
 - **Evidence quality:** B — First-hand operator with specific process details and numbers, but revenue and churn are unverified verbal claims and the interview is friendly and promotional; the headline $10K/month is stated by the host, not independently shown. · Promotional conflict: Kyler sells a paid school community; Chris Koerner promotes TK Owners community.
 - **Extraction:** claude-sonnet-5-5 · quotes verified 27/28 · reviewed by claude-opus-5-5

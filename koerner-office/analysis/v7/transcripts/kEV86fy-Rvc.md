@@ -1,6 +1,6 @@
 # I Tried to Make $10K in 10 Days With Costco Returns
 
-- **Video:** [kEV86fy-Rvc](https://www.youtube.com/watch?v=kEV86fy-Rvc) · **Channel:** The Koerner Office · **Uploaded:** unknown · **Length:** 35 min · **Transcript:** cached
+- **Video:** [kEV86fy-Rvc](https://www.youtube.com/watch?v=kEV86fy-Rvc) · **Channel:** The Koerner Office · **Uploaded:** 2026-08-12 · **Length:** 35 min · **Transcript:** cached
 - **Speakers:** Chris Koerner (host), Shannon (guest) · **Format:** case_study_profile
 - **Evidence quality:** C — Chris is the novice in this experiment and Shannon's income claims are unverified. Final revenue and profit figures were removed from the transcript ('that much'), so the headline outcome cannot be checked. Per-unit costs and listing prices are specific and first-hand. · Promotional conflict: Shannon sells a mastermind (2,200 members) and the 'flip system'; Chris promotes TK Owners community and TKOS podcast submissions.
 - **Extraction:** claude-sonnet-5-5 · quotes verified 19/19
@@ -33,7 +33,7 @@ Chris Koerner flies in Shannon, an experienced liquidation reseller, to teach hi
 - **Automation [E]:** acquisition 2/5 (Listing creation can be AI-assisted (ChatGPT titles and copy), but Facebook Marketplace has no sanctioned API for posting, and photos and video must be taken physically.); onboarding 1/5 (Messenger chats can use templates, but buyers ghost and haggle, and pickup times need human coordination.); delivery 0/5 (Physical pallets must be received, unwrapped, tested, cleaned, photographed, stored and handed over or delivered by a person.); billing 1/5 (Cash and Venmo at handover, taken in person.); support 1/5 (Occasional post-sale problems handled by the owner personally as goodwill; low volume but needs a human.)
 > "I think the sweet spot is the used good stuff. The customer returns, I think there's more profit in it." — Shannon (~17:38)
 > "it's a simple business, but it's not easy." — Shannon (~8:40)
-> "Actually listing the things, responding lightning fast, and being willing to cut prices if you're not getting enough hits on them." — Chris Koerner (~34:21)
+> "Actually listing the things, responding lightning fast, and being willing to cut prices if you're not getting enough hits on them." — Chris Koerner (~34:20)
 
 ## Revenue and metric claims (unverified claims)
 
@@ -42,17 +42,17 @@ Chris Koerner flies in Shannon, an experienced liquidation reseller, to teach hi
 - **Appliance lot cost about $243 per unit including freight** (cost, first-hand, claimant: Chris Koerner)
   > "It looks like we're at going to be at like 243 per unit including freight." — Shannon (~5:30)
 - **Patio and shed lot was 12 units for $2,600 in total** (cost, first-hand, claimant: Chris Koerner)
-  > "the whole deal was $2,600 for how many units? 12 units." — Chris Koerner (~16:11)
+  > "the whole deal was $2,600 for how many units? 12 units." — Chris Koerner (~16:10)
 - **Total invested across the two lots is about $5,600 and Chris wants it back by end of next week** (cost, first-hand, claimant: Chris Koerner)
   > "we've got 5,600 bucks. I want to get that money back by the end of next week." — Chris Koerner (~19:30)
 - **Shannon says he has 2,200 people in his mastermind** (customers, first-hand, claimant: Shannon)
-  > "we got 2,200 people on mastermind. Most people do it out of the garage." — Shannon (~9:20)
+  > "we got 2,200 people on mastermind. Most people do it out of the garage." — Shannon (~9:19)
 - **Project took 12.5 days to reach the money goal; final totals not stated in the transcript** (hours, first-hand, claimant: Chris Koerner)
-  > "it took 12 and a half days to make a total of that much money with that much of it being profit." — Chris Koerner (~34:03)
+  > "it took 12 and a half days to make a total of that much money with that much of it being profit." — Chris Koerner (~34:02)
 - **Storage unit costs about $130 a month** (cost, second-hand, claimant: Chris Koerner)
-  > "130 bucks a month, storage unit, Facebook account, internet connection." — Chris Koerner (~35:10)
+  > "130 bucks a month, storage unit, Facebook account, internet connection." — Chris Koerner (~35:09)
 - **Four 15-minute listings: LG washer retail 1,300 listed at 879** (price, first-hand, claimant: Chris Koerner)
-  > "the stackable LG black brand new washer that retails for 1300. Terrific. And we listed it for uh $879." — Chris Koerner (~28:26)
+  > "the stackable LG black brand new washer that retails for 1300. Terrific. And we listed it for uh $879." — Chris Koerner (~28:25)
 
 ## Tactics and playbook steps
 
@@ -72,7 +72,7 @@ Chris Koerner flies in Shannon, an experienced liquidation reseller, to teach hi
 1. Test and list the best items on arrival day
 2. Defer fixes like broken doors and cleaning
 3. Get an early sale to reinforce motivation and recover capital
-> "I like to say focus is overrated. momentum is underrated." — Chris Koerner (~19:38)
+> "I like to say focus is overrated. momentum is underrated." — Chris Koerner (~19:37)
 
 **High-converting Facebook Marketplace listing** (acquisition)
 1. Put a 60-second walk-around video first
@@ -89,7 +89,7 @@ Chris Koerner flies in Shannon, an experienced liquidation reseller, to teach hi
 3. Say you have other inquiries and will follow up Monday
 4. Offer a small discount for same-day pickup or delivery
 5. If no hits after correct keywords and category, boost then cut price
-> "Always end the templated thing or the message with, "Okay, I'm available Saturday from 10:00 to 1." — Shannon (~29:34)
+> "Always end the templated thing or the message with, "Okay, I'm available Saturday from 10:00 to 1." — Shannon (~29:33)
 
 **Frame flawed items honestly** (pricing)
 1. Disclose scratches, dents and missing parts clearly

@@ -1,0 +1,874 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "i4z0kCcByY8",
+  "title": "How to Start an AI Automation Agency in 2026 (Step by Step)",
+  "channel": "Mikey No Code",
+  "url": "https://www.youtube.com/watch?v=i4z0kCcByY8",
+  "upload_date": "2026-10-09",
+  "duration_s": 3108,
+  "view_count": 36489,
+  "transcript_provider": "cached",
+  "transcript_chars": 49285,
+  "transcript_is_whisper": false
+ },
+ "summary": "A tutorial from Mikey No Code on starting an AI automation agency in 2026 using real estate as the niche. He builds three Base44 Super Agents (speed-to-lead follow-up, inquiry triage/scoring, weekly executive reporting), then packages them as a 'Real Estate Growth Suite' with a setup fee plus monthly retainer. He covers cold outreach with a Loom demo and a free 15-minute audit, discovery calls, contracts, a 48-hour onboarding, case studies, raising prices, and hiring an operator after $5-10k MRR. The video is promotional for his Base44 master class and contains no first-hand revenue evidence; prices are recommendations.",
+ "speakers": [
+  {
+   "name": "Mikey (Mikey No Code)",
+   "role": "host",
+   "description": "YouTube creator teaching AI agent/app building with Base44; sells a Base44 master class"
+  }
+ ],
+ "format": "tutorial_howto",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Niche AI automation agency for real estate brokerages (Real Estate Growth Suite)",
+   "one_liner": "Sell brokerages a package of three AI agents (instant lead follow-up, inquiry triage, weekly reporting) built on Base44 for a setup fee plus monthly retainer.",
+   "category": "ai_automation",
+   "business_model": "One-off setup fee plus monthly retainer per office/team",
+   "customer": "Real estate brokerages, property groups and teams; owner, managing broker or operations lead",
+   "problem": "Slow lead response, poor inquiry qualification, and manual weekly reporting cause lost commissions and wasted staff time.",
+   "offer": "Real Estate Growth Suite: speed-to-lead follow-up agent (personalised reply within ~120 seconds, 48h and 96h follow-ups), property inquiry triage agent (1-10 urgency score, alerts for hot leads, Google Sheet log for the rest), and weekly executive reporting agent (Sunday 8pm). Ready in 7-10 business days.",
+   "pricing": {
+    "model": "Setup fee plus monthly retainer; no hourly billing",
+    "price_points": [
+     {
+      "amount": 2500,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "Example setup and integration fee in the one-page offer"
+     },
+     {
+      "amount": 750,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "Example operations retainer"
+     },
+     {
+      "amount": 1000,
+      "amount_max": 3000,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "Setup fee range for first few clients"
+     },
+     {
+      "amount": 3500,
+      "amount_max": 5000,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "Setup fee once proof/case study exists"
+     },
+     {
+      "amount": 500,
+      "amount_max": 1500,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "Typical real estate retainer per office/team"
+     },
+     {
+      "amount": 1000,
+      "amount_max": 1500,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "Reasonable minimum for first setup"
+     }
+    ],
+    "notes": "Requires full setup fee before account configuration begins. Retainer covers monitoring, prompt updates, model updates, API/connection fixes and small additions. Advises against charging ~$100 or working free."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "cold_email",
+     "details": "Direct email to the owner/managing broker/operations lead (not info@ addresses) with a problem-solution-result message and a 2-3 minute Loom demo video; CTA is a free 15-minute lead flow and operations audit.",
+     "quote": {
+      "text": "you don't need a large ad budget or say a complicated funnel to land your first few clients. For an early stage agency, direct outreach is usually the better route.",
+      "speaker": "Mikey",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 29051,
+      "approx_timestamp_s": 1871
+     }
+    },
+    {
+     "channel": "outbound_linkedin",
+     "details": "LinkedIn outreach to managing brokers, agency owners and other decision makers using the same specific message.",
+     "quote": null
+    },
+    {
+     "channel": "referrals_word_of_mouth",
+     "details": "After ~30 days, turn results into a case study with real numbers (response time, hours saved, extra showings) to use in later outreach and shorten the sales cycle.",
+     "quote": null
+    }
+   ],
+   "delivery": "Operator clones three production-tested Base44 Super Agent templates per client, updates system prompts (company name, service area, hours, tone, rules), connects the client's Gmail/Google Workspace/CRM via OAuth through a secure credentials link, runs end-to-end validation tests with simulated leads, then goes live. Standard 48-hour onboarding; later deployments take hours. Ongoing monitoring and prompt/connection maintenance under the retainer. Later a junior operator is hired using documented SOPs.",
+   "unit_economics_claims": [
+    "Setup fee $1,000-$3,000 early, $3,500-$5,000+ later",
+    "Retainer $500-$1,500 per month per office/team",
+    "Agency target of 5-10 retainer clients in one niche before expanding",
+    "MRR of $5,000-$10,000 is the trigger to hire an operator",
+    "Illustrative case study: response time 4 hours to 85 seconds, 18 hours saved weekly, 3 extra showings in month one"
+   ],
+   "tools": [
+    "Base44 Super Agents",
+    "Gmail",
+    "Google Sheets",
+    "Google Calendar",
+    "CRM platforms",
+    "Zillow (lead source)",
+    "Loom",
+    "Opus 4.8 (model setting in Base44)"
+   ],
+   "startup_cost": "not stated (Base44 subscription cost not given; mostly the operator's time)",
+   "time_to_first_revenue": "Plan: first month to choose niche, build demos and start outreach and close the first client; deployment and case study in month two.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Cold email to limited-company brokerages is legal in the UK and can be agent-assisted for list building and drafting, but the pitch, Loom demo, audit call and closing need a human. LinkedIn DMs and sole-trader emails run into PECR."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Template cloning, credential collection links and validation tests are routine; a human checks scope, contract and client-specific rules."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Once live the Base44 agents run unattended (follow-ups, scoring, weekly report); setup per client needs occasional human approval and testing."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Setup fee plus monthly retainer can be invoiced and collected automatically via Stripe or similar; the video does not detail billing."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Retainer work such as expired connections, model changes and prompt tweaks needs monitoring and human judgement, though agents can triage tickets."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "The model works in the UK with UK estate agents using Rightmove/Zoopla enquiries instead of Zillow/MLS. Outreach must respect PECR (cold email to limited companies OK, sole traders need care), GDPR for lead data processing, and prices in GBP. Commission per sale is lower in the UK, so ROI framing differs. Dependence on Base44 is a platform risk."
+   },
+   "risks": [
+    "Heavy dependence on Base44 platform and model behaviour",
+    "Scope creep and unclear expectations if the offer is vague",
+    "Connections can expire and models change, creating ongoing maintenance",
+    "Pricing and results are unverified; the video is a promo for a course",
+    "Fierce competition from other AI agency pitches",
+    "GDPR/PECR exposure when processing lead data and doing outreach in the UK"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "the one-time setup and integration fee is $2,500. And that includes the account connections, the prompt customization based on the client's brand voice",
+     "speaker": "Mikey",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 27790,
+     "approx_timestamp_s": 1790
+    },
+    {
+     "text": "the monthly retainer will usually fall between, say, $500 and $1,500 per office or team.",
+     "speaker": "Mikey",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 25595,
+     "approx_timestamp_s": 1648
+    },
+    {
+     "text": "a much easier entry point is really a free 15-minute lead flow and operations audit.",
+     "speaker": "Mikey",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 31165,
+     "approx_timestamp_s": 2007
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "AI automation agency for e-commerce stores",
+   "one_liner": "Agents that recover abandoned carts, recommend products, answer common questions and reduce support tickets.",
+   "category": "ai_automation",
+   "business_model": "Setup fee plus retainer (implied)",
+   "customer": "E-commerce store owners",
+   "problem": "Abandoned carts and manual support load.",
+   "offer": "Agents for abandoned cart recovery, product recommendations and FAQ answering.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "not stated",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Outbound to stores is largely cold outreach needing human sales."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Storefront integrations are routine."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Agents run unattended after setup."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Recurring billing is automatable."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Mostly routine monitoring."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "E-commerce works the same in the UK."
+   },
+   "risks": [
+    "Results easy to measure but niche is crowded"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "Agents can say recover abandoned cards, recommend products, answer common questions, and reduce the number of support tickets handled all manually.",
+     "speaker": "Mikey",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 4400,
+     "approx_timestamp_s": 283
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "AI automation agency for healthcare and dental practices",
+   "one_liner": "Automate scheduling, patient intake, reminders and follow-ups for clinics.",
+   "category": "ai_automation",
+   "business_model": "Setup fee plus larger monthly retainers",
+   "customer": "Healthcare and dental practices",
+   "problem": "Daily scheduling, intake, reminders and follow-up burden.",
+   "offer": "Appointment scheduling, intake, reminder and follow-up agents.",
+   "pricing": {
+    "model": "Larger retainers justified by high customer lifetime value (no figures)",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "not stated",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Needs outbound sales to practices."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Patient-data systems need careful setup."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Agents run, but health data needs checks."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Recurring billing."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Higher stakes require human oversight."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "UK health data is special-category under GDPR; NHS/CQC context differs."
+   },
+   "risks": [
+    "Patient data compliance"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "these businesses often deal with appointment scheduling, patient intake, reminders, and follow-ups every day.",
+     "speaker": "Mikey",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 4639,
+     "approx_timestamp_s": 298
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "AI automation agency for legal firms",
+   "one_liner": "Automate intake, document review and routine client updates for law firms.",
+   "category": "ai_automation",
+   "business_model": "Setup fee plus retainer (implied)",
+   "customer": "Legal firms",
+   "problem": "Billable hours lost to document review, inquiry evaluation and client updates.",
+   "offer": "Automation of intake, document processing and routine communication.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "not stated",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Outbound sales needed."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Confidential data setup."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Agents with human review."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Recurring billing."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Needs human oversight."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "SRA rules and confidentiality apply."
+   },
+   "risks": [
+    "Confidentiality and professional liability"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "Legal firms spend a huge amount of time reviewing documents, evaluating new inquiries, and updating clients.",
+     "speaker": "Mikey",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 4858,
+     "approx_timestamp_s": 312
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "AI automation agency for financial services",
+   "one_liner": "High-retainer automation for financial firms with fewer specialist agencies, but longer sales cycles and strict compliance.",
+   "category": "ai_automation",
+   "business_model": "Setup fee plus high retainer",
+   "customer": "Financial services firms",
+   "problem": "not stated",
+   "offer": "Automation services for financial firms.",
+   "pricing": {
+    "model": "Described as supporting some of the highest retainers; no figures",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "not stated",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "Longer sales cycles",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Long, relationship-driven sales."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Compliance heavy."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Agents with compliance checks."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Recurring billing."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Human oversight required."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "FCA regulation applies."
+   },
+   "risks": [
+    "Strict compliance",
+    "Long sales cycles"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "financial services can [music] support some of the highest retainers possible because their transactions are so large and fewer agencies specialize in the space.",
+     "speaker": "Mikey",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 5081,
+     "approx_timestamp_s": 327
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Base44 master class normally costs $499 but is offered free via the video",
+   "metric": "price",
+   "value": {
+    "amount": 499,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": "Master class"
+   },
+   "period": null,
+   "claimant": "Mikey",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "my master class normally costs $499 to join, but since you are watching this video, thank you so much for your time.",
+    "speaker": "Mikey",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2216,
+    "approx_timestamp_s": 142
+   }
+  },
+  {
+   "claim": "Setup fee of $1,000-$3,000 for the first few clients",
+   "metric": "price",
+   "value": {
+    "amount": 1000,
+    "amount_max": 3000,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": "Early setup fee"
+   },
+   "period": null,
+   "claimant": "Mikey",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "for your first few clients, a realistic set of fee sits somewhere between $1,000 and $3,000.",
+    "speaker": "Mikey",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25165,
+    "approx_timestamp_s": 1620
+   }
+  },
+  {
+   "claim": "Setup fee can move to $3,500-$5,000+ with proof",
+   "metric": "price",
+   "value": {
+    "amount": 3500,
+    "amount_max": 5000,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": "Later setup fee"
+   },
+   "period": null,
+   "claimant": "Mikey",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "the setup fee can move towards the $3,500 to say $5,000 or more mark.",
+    "speaker": "Mikey",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25502,
+    "approx_timestamp_s": 1642
+   }
+  },
+  {
+   "claim": "Real estate monthly retainer typically $500-$1,500 per office or team",
+   "metric": "price",
+   "value": {
+    "amount": 500,
+    "amount_max": 1500,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "Retainer"
+   },
+   "period": "monthly",
+   "claimant": "Mikey",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "the monthly retainer will usually fall between, say, $500 and $1,500 per office or team.",
+    "speaker": "Mikey",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25595,
+    "approx_timestamp_s": 1648
+   }
+  },
+  {
+   "claim": "Example offer: $750 per month operations retainer",
+   "metric": "price",
+   "value": {
+    "amount": 750,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "Example retainer"
+   },
+   "period": "monthly",
+   "claimant": "Mikey",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "the ongoing operations retainer is $750 per month.",
+    "speaker": "Mikey",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 28026,
+    "approx_timestamp_s": 1805
+   }
+  },
+  {
+   "claim": "Illustrative case study: lead response dropped from 4 hours to 85 seconds, 18 hours saved weekly, three extra showings",
+   "metric": "other",
+   "value": {
+    "amount": 85,
+    "amount_max": null,
+    "currency": null,
+    "unit": "seconds response time",
+    "label": "Example result"
+   },
+   "period": "first month",
+   "claimant": "Mikey",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "the lead response time dropped from 4 hours to 85 seconds. The team saved 18 hours of manual intake sorting each week",
+    "speaker": "Mikey",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 39217,
+    "approx_timestamp_s": 2526
+   }
+  },
+  {
+   "claim": "Hire an operator when MRR reaches roughly $5,000-$10,000",
+   "metric": "mrr",
+   "value": {
+    "amount": 5000,
+    "amount_max": 10000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "Hiring threshold"
+   },
+   "period": "monthly",
+   "claimant": "Mikey",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Once monthly recurring revenue reaches, say roughly $5,000 to $10,000",
+    "speaker": "Mikey",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 42022,
+    "approx_timestamp_s": 2706
+   }
+  },
+  {
+   "claim": "A single closed deal may cover an entire year of agency fees",
+   "metric": "other",
+   "value": {
+    "amount": null,
+    "amount_max": null,
+    "currency": null,
+    "unit": null,
+    "label": "Commission vs agency fees"
+   },
+   "period": "year",
+   "claimant": "Mikey",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "A single closed deal may cover an entire year of agency fees",
+    "speaker": "Mikey",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4155,
+    "approx_timestamp_s": 267
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Niche-specific agency positioning",
+   "area": "acquisition",
+   "steps": [
+    "Pick one industry you understand (here real estate)",
+    "Use industry language in outreach (speed to lead, MLS, pre-approval, commissions)",
+    "Reuse templates and case studies across clients",
+    "Stay in the niche until 5-10 retainer clients before expanding"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "positioning yourself as the AI person for every type of business, well, that forces you to create a different offer for every prospect.",
+    "speaker": "Mikey",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2995,
+    "approx_timestamp_s": 192
+   }
+  },
+  {
+   "name": "Demo-led cold outreach with free audit",
+   "area": "sales",
+   "steps": [
+    "Build three working demo agents first",
+    "Record a 2-3 minute Loom of lead arriving, fast reply, scoring and report",
+    "Email owner/managing broker directly: problem, system, measurable result",
+    "Offer a free 15-minute lead flow and operations audit rather than asking for $2,500",
+    "Avoid jargon like LLM orchestration or vector databases",
+    "Avoid generic info@ addresses"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "the strongest asset that you can bring into this outreach is a short recorded walkthrough of the demo agent.",
+    "speaker": "Mikey",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 31635,
+    "approx_timestamp_s": 2037
+   }
+  },
+  {
+   "name": "Discovery call then single bundled package",
+   "area": "sales",
+   "steps": [
+    "Ask them to walk through what happens the minute a lead comes in at 8pm",
+    "Ask hours per week spent sorting unqualified inquiries",
+    "Ask how weekly follow-up performance is tracked",
+    "Present all three agents as one package, not a menu",
+    "Document scope in a contract with max three active agents and full setup fee before configuration"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Standardised 48-hour onboarding",
+   "area": "operations",
+   "steps": [
+    "Send secure OAuth credentials collection link, never passwords by email",
+    "Clone the three production-tested templates in Base44",
+    "Update prompts with company name, service area, hours, tone, rules",
+    "Replace demo connections with client's live accounts",
+    "Run end-to-end validation with simulated leads",
+    "Review with client then go live"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Case study to raise prices",
+   "area": "pricing",
+   "steps": [
+    "Run the system 30 days",
+    "Capture response time, hours saved, extra showings",
+    "Use the case study in outreach",
+    "Raise setup fee from ~$1,500 to $3,500+"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Test agents with simulated leads before going live",
+   "area": "product",
+   "steps": [
+    "Run a sample inquiry (name, property, budget) through the agent",
+    "Test two opposite leads to check scoring separation",
+    "Run a sample week of numbers for the report",
+    "Fix wording and criteria before touching a live inbox"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Base44 Super Agents",
+   "purpose": "Build and host the AI agents",
+   "cost_stated": "not stated"
+  },
+  {
+   "name": "Gmail",
+   "purpose": "Read inquiries and send follow-ups",
+   "cost_stated": null
+  },
+  {
+   "name": "Google Sheets",
+   "purpose": "Log low-priority leads and reports",
+   "cost_stated": null
+  },
+  {
+   "name": "Google Calendar",
+   "purpose": "Scheduling integration",
+   "cost_stated": null
+  },
+  {
+   "name": "Loom",
+   "purpose": "Record demo walkthrough video for outreach",
+   "cost_stated": null
+  },
+  {
+   "name": "Zillow",
+   "purpose": "Lead source for inquiries",
+   "cost_stated": null
+  },
+  {
+   "name": "Opus 4.8",
+   "purpose": "Model selected for chat and automated tasks in Base44",
+   "cost_stated": null
+  },
+  {
+   "name": "LinkedIn",
+   "purpose": "Outbound to brokers",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Do not undercharge for the first deal; very low prices attract clients expecting unlimited revisions.",
+   "quote": {
+    "text": "avoid offering the entire setup for a hundred bucks or working for free out of desperation",
+    "speaker": "Mikey",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 36605,
+    "approx_timestamp_s": 2357
+   }
+  },
+  {
+   "warning": "Do not start client-specific work on a verbal agreement; document scope and payment terms first.",
+   "quote": null
+  },
+  {
+   "warning": "Promising ten automations creates scope creep and more things that can break; start with two or three.",
+   "quote": null
+  },
+  {
+   "warning": "Do not expand to a new niche too early.",
+   "quote": null
+  },
+  {
+   "warning": "Never ask clients to send passwords via email or chat; use OAuth.",
+   "quote": null
+  },
+  {
+   "warning": "Do not ask for a $2,500 setup fee in the first cold message.",
+   "quote": null
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Sell a specific expensive problem (slow lead response) with measurable ROI, not AI technology.",
+   "theme": "offer_design",
+   "quote": {
+    "text": "what you do need is one expensive, repetitive problem inside a business and a system that fixes it automatically.",
+    "speaker": "Mikey",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 992,
+    "approx_timestamp_s": 63
+   }
+  },
+  {
+   "lesson": "Specialising in one niche makes outreach more credible and lets templates, case studies and processes be reused.",
+   "theme": "niche_selection",
+   "quote": null
+  },
+  {
+   "lesson": "Setup fee plus retainer beats hourly billing because efficiency raises rather than lowers your earnings.",
+   "theme": "pricing",
+   "quote": null
+  },
+  {
+   "lesson": "Lead with the strongest-ROI demo (speed to lead) in sales conversations.",
+   "theme": "customer_acquisition",
+   "quote": null
+  },
+  {
+   "lesson": "Weekly reporting makes the retainer's value visible and reduces churn risk.",
+   "theme": "offer_design",
+   "quote": null
+  },
+  {
+   "lesson": "Document every procedure so delivery can be handed to a junior operator and the founder can focus on sales.",
+   "theme": "hiring_outsourcing",
+   "quote": null
+  },
+  {
+   "lesson": "Productised, cloned templates make marginal delivery cost per client drop dramatically.",
+   "theme": "scaling",
+   "quote": null
+  },
+  {
+   "lesson": "Test with simulated inputs before connecting to live client systems.",
+   "theme": "validation_testing",
+   "quote": null
+  },
+  {
+   "lesson": "Treat low-code AI agent platforms as a dependency; the defensible value is niche knowledge, sales and process rather than the tool.",
+   "theme": "automation_ai",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "C",
+  "rationale": "Tutorial with no first-hand client revenue or results; prices and case-study figures are recommendations or hypotheticals. The build walkthrough is concrete, but the business claims are unverified and the video is promotional.",
+  "promotional_conflict": "Promotes his Base44 master class (normally $499, offered free via link) and the Base44 platform."
+ },
+ "extraction": {
+  "model": "claude-sonnet-5-5",
+  "extracted_at": "2026-10-22T01:59:23",
+  "cost_usd": 0.1423882,
+  "quote_verification": {
+   "quotes": 20,
+   "verified": 20,
+   "rate": 1.0
+  },
+  "schema_errors": [],
+  "reviewed_by": null,
+  "review_notes": null
+ }
+}

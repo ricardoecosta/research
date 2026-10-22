@@ -1,0 +1,1580 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "KjTHJ740fCY",
+  "title": "The Best Side Hustle for Beginners (Any Age)",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=KjTHJ740fCY",
+  "upload_date": "2026-05-24",
+  "duration_s": 3420,
+  "view_count": 93261,
+  "transcript_provider": "transcribeyoutube",
+  "transcript_chars": 71457,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner interviews two college-age resellers, Lucas and John, from rural North Carolina/Virginia, who started on eBay selling childhood Legos and thrift-store finds, then moved into bulk consumer electronics. They describe buying 500-unit lots from a European supplier, a bad batch that lost about $4-5k, and diversifying into US suppliers via about 1,000 cold calls and 12,000 emails. They claim six figures of revenue last year and say anyone can make $1,000-5,000 a month with 2-5 hours a week. Key takeaway: reselling starts with low risk (sell your own stuff, thrift, Facebook Marketplace to eBay), but sourcing is the bottleneck and supplier concentration is dangerous.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Host of The Koerner Office; ex iPhone repair business founder, experienced eBay seller"
+  },
+  {
+   "name": "Lucas",
+   "role": "guest",
+   "description": "Reseller since age 15, started with Legos, handles supplier communication"
+  },
+  {
+   "name": "John",
+   "role": "guest",
+   "description": "Reseller friend of Lucas, student at NC State, buys on Facebook Marketplace"
+  }
+ ],
+ "format": "operator_interview",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Bulk vintage consumer electronics reselling on eBay",
+   "one_liner": "Buy untested bulk lots of used cameras, office gear and electronics from e-waste/liquidators, test, list on eBay and sell some in bulk to a flea-market buyer.",
+   "category": "arbitrage_reselling",
+   "business_model": "Buy low in bulk, resell individually on eBay (and some wholesale to a bulk buyer) at a markup",
+   "customer": "eBay consumers buying used electronics and cameras; a New York flea-market vendor who bought cameras in bulk",
+   "problem": "Used electronics are cheap at source but sell for much more to buyers who value them; sellers can't test or list them",
+   "offer": "Tested/working used consumer electronics and cameras at around half the price of new",
+   "pricing": {
+    "model": "Market price per unit on eBay; bulk buyer paid roughly eBay prices",
+    "price_points": [
+     {
+      "amount": 100,
+      "amount_max": 190,
+      "currency": "USD",
+      "unit": "per unit (current average sale)",
+      "label": "average sale price now"
+     },
+     {
+      "amount": 50,
+      "amount_max": 200,
+      "currency": "USD",
+      "unit": "per working unit",
+      "label": "first lot working range"
+     },
+     {
+      "amount": 25,
+      "amount_max": 30,
+      "currency": "USD",
+      "unit": "per unit",
+      "label": "Kodak cameras"
+     },
+     {
+      "amount": 100,
+      "amount_max": 200,
+      "currency": "USD",
+      "unit": "per unit",
+      "label": "Canon cameras"
+     },
+     {
+      "amount": 10,
+      "amount_max": 10,
+      "currency": "USD",
+      "unit": "per unit",
+      "label": "first European lot cost"
+     },
+     {
+      "amount": 15,
+      "amount_max": 40,
+      "currency": "USD",
+      "unit": "per unit",
+      "label": "current US supplier cost"
+     }
+    ],
+    "notes": "Sold-listing checks on eBay determine price; eBay fees about 12% mentioned"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "marketplace_platform",
+     "details": "Sell on eBay via app listings; listing takes about a minute per item. Buyers come inbound.",
+     "quote": null
+    },
+    {
+     "channel": "partnerships",
+     "details": "Sell about 60% of cameras directly to a New York flea-market vendor who found them via their eBay store, paid via PayPal/Stripe avoiding eBay fees.",
+     "quote": {
+      "text": "he saw I had a bunch of cameras and he was like, \"Hey, like do you want to um strike up a deal?\"",
+      "speaker": "John",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 23477,
+      "approx_timestamp_s": 1159
+     }
+    }
+   ],
+   "delivery": "Founders receive lots, test items (using YouTube guides), photograph, list and ship themselves; bulk camera buyer gets packaged lots with batteries added",
+   "unit_economics_claims": [
+    "First 500-unit lot cost about $5k, returned $8-10k",
+    "About 15 hours combined work for roughly $5k profit",
+    "Margins about 50% early, about 30% now with US suppliers",
+    "Bad lot lost about $4-5k"
+   ],
+   "tools": [
+    "eBay",
+    "Google Lens",
+    "WhatsApp",
+    "PayPal",
+    "Stripe",
+    "YouTube",
+    "AI for finding emails"
+   ],
+   "startup_cost": "Scaled from selling household items; first bulk lot about $5,000",
+   "time_to_first_revenue": "About 2 years from first resale to first bulk lot; items sell within days",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "eBay listings are inbound marketplace demand; agents could generate listings and handle bulk-buyer messages"
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Supplier onboarding is by phone/WhatsApp relationships; no customer onboarding on eBay"
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical receiving, testing, photographing, packaging and shipping require a human every time"
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "eBay and PayPal/Stripe handle payment automatically"
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Returns and buyer messages can be agent-drafted but returns need physical handling"
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "UK has eBay UK, car boot sales, charity shops and WEEE/liquidation suppliers. Tax/VAT and import duty differ, and trading income is reportable to HMRC."
+   },
+   "risks": [
+    "Single supplier dependence",
+    "Untested lots can be mostly broken (lost $4-5k)",
+    "Suppliers realising eBay value and raising prices",
+    "High return/defect rate in electronics",
+    "Tariffs and slow overseas shipping",
+    "Wire transfers to unknown overseas supplier",
+    "Cash flow is tight so can't match bigger buyers"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "So we paid him like 5k USD. He gets it probably the wires took a while back then.",
+     "speaker": "John",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 19610,
+     "approx_timestamp_s": 968
+    },
+    {
+     "text": "we at least doubled our money at least over I think eight grand maybe 8 to 10 grand which is like insane for your first lot",
+     "speaker": "Lucas",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 26792,
+     "approx_timestamp_s": 1322
+    },
+    {
+     "text": "I'd say we probably made a thousand cold calls and we've gotten five or six suppliers, maybe.",
+     "speaker": "John",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 46939,
+     "approx_timestamp_s": 2317
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Thrift, yard sale and flea market flipping on eBay",
+   "one_liner": "Buy underpriced electronics, VCRs and cameras at thrift stores and yard sales for a few dollars and resell on eBay for $100+.",
+   "category": "arbitrage_reselling",
+   "business_model": "Per-item arbitrage",
+   "customer": "eBay buyers seeking vintage electronics",
+   "problem": "Sellers don't know value of old electronics and discard them cheaply",
+   "offer": "Working vintage electronics (VCRs, camcorders, Game Boys, docking stations, cameras)",
+   "pricing": {
+    "model": "Market price on eBay from sold listings",
+    "price_points": [
+     {
+      "amount": 100,
+      "amount_max": 200,
+      "currency": "USD",
+      "unit": "per VCR",
+      "label": "VCR sale price"
+     },
+     {
+      "amount": 60,
+      "amount_max": 60,
+      "currency": "USD",
+      "unit": "per unit",
+      "label": "Dell docking station"
+     },
+     {
+      "amount": 300,
+      "amount_max": 300,
+      "currency": "USD",
+      "unit": "per unit",
+      "label": "flip-screen camera sold to flea market guy"
+     },
+     {
+      "amount": 100,
+      "amount_max": 100,
+      "currency": "USD",
+      "unit": "per unit",
+      "label": "Game Boy"
+     }
+    ],
+    "notes": "Sources cost $1-5"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "marketplace_platform",
+     "details": "eBay listings; check sold listings to price",
+     "quote": null
+    }
+   ],
+   "delivery": "Founder sources, tests, lists and ships personally",
+   "unit_economics_claims": [
+    "VCR bought for $2-5 sells for $100-200",
+    "Dock stations $1 to about $60",
+    "Extra $1,000-5,000 a month with 2-5 hours a week"
+   ],
+   "tools": [
+    "eBay app sold listings"
+   ],
+   "startup_cost": "Near zero; start with household items",
+   "time_to_first_revenue": "Days",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "eBay inbound demand; listings can be agent-drafted"
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "No onboarding"
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical sourcing in person, testing, shipping"
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "eBay payments"
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Buyer messages and returns largely templated"
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Car boot sales, charity shops and eBay UK work similarly; UK VCR demand likely similar but unverified."
+   },
+   "risks": [
+    "Items may not work",
+    "Time spent sourcing",
+    "Returns"
+   ],
+   "is_primary": false,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "$100 for a VCR. That's low end. Sometimes $200. And you're paying two bucks for them.",
+     "speaker": "Lucas",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 52365,
+     "approx_timestamp_s": 2585
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Facebook Marketplace to eBay arbitrage",
+   "one_liner": "Search Facebook Marketplace with max-price filters for underpriced electronics and resell on eBay at eBay prices.",
+   "category": "arbitrage_reselling",
+   "business_model": "Per-item arbitrage",
+   "customer": "eBay buyers",
+   "problem": "Marketplace sellers rarely cross-check eBay prices",
+   "offer": "Underpriced items re-listed at eBay market price",
+   "pricing": {
+    "model": "Market price on eBay",
+    "price_points": [
+     {
+      "amount": 150,
+      "amount_max": 150,
+      "currency": "USD",
+      "unit": "per unit",
+      "label": "digital camera bought for $15"
+     },
+     {
+      "amount": 75,
+      "amount_max": 75,
+      "currency": "USD",
+      "unit": "per unit",
+      "label": "TI-84 calculator"
+     }
+    ],
+    "notes": "Test before buying; lowball sellers"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "marketplace_platform",
+     "details": "Buy on Facebook Marketplace, sell on eBay; also post a 'I will buy your cameras' wanted listing that gets about 20 messages a day",
+     "quote": {
+      "text": "I put up a listing on Marketplace saying, \"I will buy your cameras. I will buy your old electronics.\" I get messages like 20 messages a day.",
+      "speaker": "John",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 62958,
+      "approx_timestamp_s": 3108
+     }
+    }
+   ],
+   "delivery": "Collect locally, test, list and ship",
+   "unit_economics_claims": [
+    "$15 camera worth about $150",
+    "Free TI calculator sells about $75"
+   ],
+   "tools": [
+    "Facebook Marketplace",
+    "eBay"
+   ],
+   "startup_cost": "Little; start once demand known",
+   "time_to_first_revenue": "Days",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Agent could monitor Marketplace and haggle, though platform ToS may restrict"
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "None"
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical pick-up and shipping"
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Venmo/eBay payments"
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Messages"
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Facebook Marketplace and eBay UK exist; pickup distances and density differ."
+   },
+   "risks": [
+    "Platform ToS on automation",
+    "Untested items",
+    "Scams"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "someone could turn like if they lived in a bigger market, they could turn just buying on Facebook Marketplace and selling on eBay into a legitimate business",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 62740,
+     "approx_timestamp_s": 3097
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "Reselling kid's Legos on eBay",
+   "one_liner": "Sell childhood Lego collection on eBay by listing at proper sold prices.",
+   "category": "arbitrage_reselling",
+   "business_model": "One-off sales",
+   "customer": "eBay Lego buyers",
+   "problem": "Unused items gathering dust",
+   "offer": "Lego sets sold on eBay",
+   "pricing": {
+    "model": "market price",
+    "price_points": [],
+    "notes": "not stated"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "marketplace_platform",
+     "details": "eBay via mother's account",
+     "quote": null
+    }
+   ],
+   "delivery": "Self-shipped",
+   "unit_economics_claims": [
+    "$5-10k of Legos in a summer",
+    "About 2 returns per 100 sales"
+   ],
+   "tools": [
+    "eBay"
+   ],
+   "startup_cost": "Zero",
+   "time_to_first_revenue": "Within a summer",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "eBay inbound"
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "None"
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical shipping"
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "eBay"
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Messages"
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works via eBay UK."
+   },
+   "risks": [
+    "Supply runs out"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "I ended up selling I think like five to 10K worth in Legos that summer",
+     "speaker": "Lucas",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 6042,
+     "approx_timestamp_s": 298
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "Untested lot flip to a school-supply tester (Texas Instruments calculators)",
+   "one_liner": "Buy untested calculators on eBay for ~$5 and sell on to a Tennessee school supplier who tests them and pays $20 working / $10 broken, without handling.",
+   "category": "arbitrage_reselling",
+   "business_model": "Pass-through arbitrage",
+   "customer": "Tennessee supplier of calculators to schools",
+   "problem": "Untested calculators are cheap but testing takes time",
+   "offer": "Untested bulk calculators shipped direct",
+   "pricing": {
+    "model": "per unit",
+    "price_points": [
+     {
+      "amount": 20,
+      "amount_max": 20,
+      "currency": "USD",
+      "unit": "per working unit",
+      "label": "working"
+     },
+     {
+      "amount": 10,
+      "amount_max": 10,
+      "currency": "USD",
+      "unit": "per broken unit",
+      "label": "broken"
+     },
+     {
+      "amount": 5,
+      "amount_max": 5,
+      "currency": "USD",
+      "unit": "per unit",
+      "label": "cost"
+     }
+    ],
+    "notes": "Drop-ship, never took delivery"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "partnerships",
+     "details": "Found a school-supplier buyer in Tennessee",
+     "quote": null
+    }
+   ],
+   "delivery": "Buy on eBay, direct ship to buyer; no handling",
+   "unit_economics_claims": [
+    "Buy at $5, sell $10-20"
+   ],
+   "tools": [
+    "eBay"
+   ],
+   "startup_cost": "Low; hundreds of units at $5",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Requires finding buyer relationship"
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Texts"
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Dropshipped, no handling; agent can place orders"
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Payment via buyer"
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Minimal"
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Concept transferable; need UK buyer and eBay seller supply."
+   },
+   "risks": [
+    "Buyer relationship dependence"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "We hit buy and then we send him our zel and he sells us money.",
+     "speaker": "Lucas",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 66830,
+     "approx_timestamp_s": 3299
+    }
+   ]
+  },
+  {
+   "local_id": "I6",
+   "name": "Door-to-door electronics buying",
+   "one_liner": "Go door to door in wealthy suburbs offering to buy old electronics on the spot via Venmo.",
+   "category": "arbitrage_reselling",
+   "business_model": "Buy and resell",
+   "customer": "Suburban households with unused electronics",
+   "problem": "Old devices in drawers",
+   "offer": "Instant cash for old electronics",
+   "pricing": {
+    "model": "Offer cash per item",
+    "price_points": [],
+    "notes": "not stated"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "door_to_door_in_person",
+     "details": "Knock on doors, leave card, return next day or next week, pay by Venmo",
+     "quote": null
+    }
+   ],
+   "delivery": "In-person collection",
+   "unit_economics_claims": [
+    "Domain sold for $750"
+   ],
+   "tools": [
+    "Venmo"
+   ],
+   "startup_cost": "Minimal",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 0,
+     "how": "In person"
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "On the spot"
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical"
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Venmo"
+    },
+    "support": {
+     "score_e": 2,
+     "how": "n/a"
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Door-to-door buying is legal but doorstep rules and scrap/second-hand dealer regs apply."
+   },
+   "risks": [
+    "Rejection",
+    "Stolen goods risk"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "it's not a hard pitch. It's not like hey do you want to buy pest control? It's like hey I want to give you money right now.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 55196,
+     "approx_timestamp_s": 2725
+    }
+   ]
+  },
+  {
+   "local_id": "I7",
+   "name": "Neighbourhood electronics drop bins / e-waste drives",
+   "one_liner": "Place bins in neighbourhoods or run e-waste drives to collect donated electronics for free and resell.",
+   "category": "arbitrage_reselling",
+   "business_model": "Free-sourced inventory resold",
+   "customer": "Donors; eBay buyers",
+   "problem": "People have old electronics",
+   "offer": "Free collection",
+   "pricing": {
+    "model": "free sourcing",
+    "price_points": [],
+    "notes": "not stated"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Bins in neighbourhoods; email to parent groups for a drive",
+     "quote": null
+    }
+   ],
+   "delivery": "Collect, test and sell",
+   "unit_economics_claims": [],
+   "tools": [
+    "eBay"
+   ],
+   "startup_cost": "Minimal",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Physical bins"
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "n/a"
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical"
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "eBay"
+    },
+    "support": {
+     "score_e": 3,
+     "how": "n/a"
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "WEEE regulations apply to collecting electrical waste in UK."
+   },
+   "risks": [
+    "WEEE compliance"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "he puts bins out in neighborhoods. He's like, \"Hey, like if you have old electronics, just put them in here.\"",
+     "speaker": "Lucas",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 55592,
+     "approx_timestamp_s": 2744
+    }
+   ]
+  },
+  {
+   "local_id": "I8",
+   "name": "E-waste clearance business",
+   "one_liner": "Get paid by businesses to clear out old electronics and keep profitable inventory.",
+   "category": "local_service",
+   "business_model": "Paid clearance plus resale",
+   "customer": "Businesses and schools",
+   "problem": "Disposing of old equipment",
+   "offer": "Clearance service",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "not stated"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "not stated",
+     "quote": null
+    }
+   ],
+   "delivery": "Physical pickup",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "B2B outreach"
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "n/a"
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical"
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Invoices"
+    },
+    "support": {
+     "score_e": 2,
+     "how": "n/a"
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "UK WEEE licensing required."
+   },
+   "risks": [
+    "Regulation"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "you get paid to get profitable inventory, which is kind of cool",
+     "speaker": "Lucas",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 44403,
+     "approx_timestamp_s": 2192
+    }
+   ]
+  },
+  {
+   "local_id": "I9",
+   "name": "AI agent for sourcing and haggling resale items",
+   "one_liner": "Host speculates an AI agent could handle hundreds of daily conversations and negotiations so humans just pack and ship.",
+   "category": "ai_automation",
+   "business_model": "Reselling with agent-run sourcing",
+   "customer": "Resellers",
+   "problem": "Manual sourcing messaging",
+   "offer": "Agent negotiating purchases",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "not stated"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "not stated",
+     "quote": null
+    }
+   ],
+   "delivery": "Agent negotiates; human packs and ships",
+   "unit_economics_claims": [],
+   "tools": [
+    "Claude Co-work",
+    "OpenClaw"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Agent messages sellers"
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "n/a"
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Human packs and ships"
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Venmo"
+    },
+    "support": {
+     "score_e": 3,
+     "how": "n/a"
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Works but platform ToS limits bots."
+   },
+   "risks": [
+    "Platform ToS",
+    "Speculative"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "you could have an AI agent run 90% of this business for you, and then you just pack up the orders and ship them",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 65742,
+     "approx_timestamp_s": 3245
+    }
+   ]
+  },
+  {
+   "local_id": "I10",
+   "name": "Reseller University social content brand",
+   "one_liner": "Daily Instagram/short-video content about reselling, with a course planned later.",
+   "category": "content_media",
+   "business_model": "Audience, future course",
+   "customer": "Aspiring resellers",
+   "problem": "Learning to resell",
+   "offer": "Free content, course later",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "not stated"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "organic_social_content",
+     "details": "A reel every day for six months",
+     "quote": null
+    }
+   ],
+   "delivery": "Content",
+   "unit_economics_claims": [],
+   "tools": [
+    "Instagram"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Content can be tooled"
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "n/a"
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Videos with faces"
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "n/a"
+    },
+    "support": {
+     "score_e": 3,
+     "how": "n/a"
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Same."
+   },
+   "risks": [
+    "Consistency"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "We will be coming out with a course at some point probably",
+     "speaker": "Lucas",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 68557,
+     "approx_timestamp_s": 3384
+    }
+   ]
+  },
+  {
+   "local_id": "I11",
+   "name": "DoorDash delivery driving",
+   "one_liner": "John drove for DoorDash at about $30 an hour.",
+   "category": "local_service",
+   "business_model": "Per delivery",
+   "customer": "Food delivery customers",
+   "problem": "Delivery",
+   "offer": "Driving",
+   "pricing": {
+    "model": "per hour earnings",
+    "price_points": [
+     {
+      "amount": 30,
+      "amount_max": 30,
+      "currency": "USD",
+      "unit": "per hour",
+      "label": "claimed earnings"
+     }
+    ],
+    "notes": "claim"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "marketplace_platform",
+     "details": "DoorDash app",
+     "quote": null
+    }
+   ],
+   "delivery": "Driving",
+   "unit_economics_claims": [
+    "$30/hour"
+   ],
+   "tools": [
+    "DoorDash"
+   ],
+   "startup_cost": "Vehicle",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 5,
+     "how": "Platform"
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Platform"
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Driving"
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Platform"
+    },
+    "support": {
+     "score_e": 4,
+     "how": "Platform"
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Deliveroo/Uber Eats equivalent; earnings differ."
+   },
+   "risks": [
+    "Vehicle costs"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "I was making 30 bucks an hour. 30 bucks an hour and I was having a blast.",
+     "speaker": "Lucas",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 67567,
+     "approx_timestamp_s": 3335
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Business revenue 10-20k monthly now",
+   "metric": "revenue",
+   "value": {
+    "amount": 10000,
+    "amount_max": 20000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": null
+   },
+   "period": "monthly",
+   "claimant": "John",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "with the suppliers that we have now probably 10 20ishk maybe maybe a little bit lower than that",
+    "speaker": "John",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 56597,
+    "approx_timestamp_s": 2794
+   }
+  },
+  {
+   "claim": "Crossed six figures last year",
+   "metric": "revenue",
+   "value": {
+    "amount": 100000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per year",
+    "label": null
+   },
+   "period": "last year",
+   "claimant": "Lucas",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "we actually crossed like six figures last year which was pretty cool especially as like college",
+    "speaker": "Lucas",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 56765,
+    "approx_timestamp_s": 2802
+   }
+  },
+  {
+   "claim": "First lot cost about $5k",
+   "metric": "cost",
+   "value": {
+    "amount": 5000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": null
+   },
+   "period": null,
+   "claimant": "John",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So we paid him like 5k USD.",
+    "speaker": "John",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 19610,
+    "approx_timestamp_s": 968
+   }
+  },
+  {
+   "claim": "First lot returned 8-10k",
+   "metric": "revenue",
+   "value": {
+    "amount": 8000,
+    "amount_max": 10000,
+    "currency": "USD",
+    "unit": "per lot",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Lucas",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I think eight grand maybe 8 to 10 grand which is like insane for your first lot",
+    "speaker": "Lucas",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 26836,
+    "approx_timestamp_s": 1324
+   }
+  },
+  {
+   "claim": "About 15 hours combined work for first deal",
+   "metric": "hours",
+   "value": {
+    "amount": 15,
+    "amount_max": null,
+    "currency": null,
+    "unit": "hours",
+    "label": null
+   },
+   "period": null,
+   "claimant": "John",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Let's just say 15 hours combined.",
+    "speaker": "John",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 27452,
+    "approx_timestamp_s": 1355
+   }
+  },
+  {
+   "claim": "Bad lot lost about $4-5k",
+   "metric": "profit",
+   "value": {
+    "amount": -4000,
+    "amount_max": -5000,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Lucas",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Probably four or fiveish. Yeah. Good bit.",
+    "speaker": "Lucas",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 37182,
+    "approx_timestamp_s": 1835
+   }
+  },
+  {
+   "claim": "Current margins about 30%",
+   "metric": "margin",
+   "value": {
+    "amount": 30,
+    "amount_max": null,
+    "currency": null,
+    "unit": "percent",
+    "label": null
+   },
+   "period": null,
+   "claimant": "John",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "it's probably closer to 30 30-ish% maybe but I mean that's still pretty good",
+    "speaker": "John",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 57130,
+    "approx_timestamp_s": 2820
+   }
+  },
+  {
+   "claim": "About 1,000 cold calls yielded 5-6 suppliers",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 6,
+    "amount_max": null,
+    "currency": null,
+    "unit": "suppliers",
+    "label": null
+   },
+   "period": null,
+   "claimant": "John",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I'd say we probably made a thousand cold calls and we've gotten five or six suppliers, maybe.",
+    "speaker": "John",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 46939,
+    "approx_timestamp_s": 2317
+   }
+  },
+  {
+   "claim": "12,000 emails sent",
+   "metric": "other",
+   "value": {
+    "amount": 12000,
+    "amount_max": null,
+    "currency": null,
+    "unit": "emails",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Lucas",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "we sent out like 12,000 emails",
+    "speaker": "Lucas",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 47063,
+    "approx_timestamp_s": 2323
+   }
+  },
+  {
+   "claim": "VCR bought for $2 sells $100-200",
+   "metric": "price",
+   "value": {
+    "amount": 100,
+    "amount_max": 200,
+    "currency": "USD",
+    "unit": "per unit",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Lucas",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "$100 for a VCR. That's low end. Sometimes $200. And you're paying two bucks for them.",
+    "speaker": "Lucas",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 52365,
+    "approx_timestamp_s": 2585
+   }
+  },
+  {
+   "claim": "Anyone can make $1-5k a month with 2-5 hours a week",
+   "metric": "profit",
+   "value": {
+    "amount": 1000,
+    "amount_max": 5000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": null
+   },
+   "period": "monthly",
+   "claimant": "Lucas",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "I think anyone can make an extra th,000 to $5,000 a month no matter what stage of life you're in and only putting in maybe two to five hours a week.",
+    "speaker": "Lucas",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3076,
+    "approx_timestamp_s": 151
+   }
+  },
+  {
+   "claim": "Sold $5-10k of Legos in a summer",
+   "metric": "revenue",
+   "value": {
+    "amount": 5000,
+    "amount_max": 10000,
+    "currency": "USD",
+    "unit": "one summer",
+    "label": null
+   },
+   "period": "summer",
+   "claimant": "Lucas",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "I ended up selling I think like five to 10K worth in Legos that summer",
+    "speaker": "Lucas",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6042,
+    "approx_timestamp_s": 298
+   }
+  },
+  {
+   "claim": "Early high-school revenue $2-5k/month",
+   "metric": "revenue",
+   "value": {
+    "amount": 2000,
+    "amount_max": 5000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": null
+   },
+   "period": "monthly",
+   "claimant": "John",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "revenue probably like two to 5,000 a month.",
+    "speaker": "John",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12886,
+    "approx_timestamp_s": 636
+   }
+  },
+  {
+   "claim": "Door-to-more domain sold for $750",
+   "metric": "sale_price",
+   "value": {
+    "amount": 750,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "I ended up selling that domain to like some kids resale shop for 750 bucks.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 55036,
+    "approx_timestamp_s": 2717
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Staged reselling progression",
+   "area": "operations",
+   "steps": [
+    "Sell items from around the house first",
+    "Use proceeds at thrift stores, yard sales and flea markets",
+    "Sell 100+ items in a category to learn it",
+    "Then buy bulk lots from eBay, Marketplace, Mercari or Poshmark"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "you need to sell 100 plus items in a category to really know it then you can start looking in bulk",
+    "speaker": "Lucas",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16505,
+    "approx_timestamp_s": 814
+   }
+  },
+  {
+   "name": "Cold call and email suppliers",
+   "area": "acquisition",
+   "steps": [
+    "Find liquidators, junk removal firms and eBay sellers with large untested inventory",
+    "Look up phone/email from company names",
+    "Pitch 'can I buy in bulk off eBay'",
+    "Expect about 0.5-1% conversion; used AI to scrape emails"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Cross-check sold listings for floor price",
+   "area": "pricing",
+   "steps": [
+    "Check eBay sold listings",
+    "Subtract about 12% fee",
+    "Buy only if worst-case piecemeal sale is profitable"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Sell in bulk to flea-market buyer off-platform",
+   "area": "sales",
+   "steps": [
+    "Wait for buyer to approach via eBay store",
+    "Text photos of lots",
+    "Accept PayPal/Stripe and avoid eBay fees"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Wanted listing on Marketplace",
+   "area": "acquisition",
+   "steps": [
+    "Post 'I will buy your cameras / old electronics'",
+    "Respond to inbound offers (about 20 messages a day)"
+   ],
+   "idea_local_id": "I3",
+   "quote": null
+  },
+  {
+   "name": "Build standing relationships with sellers",
+   "area": "sales",
+   "steps": [
+    "Give your number to anyone you buy from",
+    "Ask them to message you when they get more",
+    "Do the same with eBay sellers"
+   ],
+   "idea_local_id": "I2",
+   "quote": null
+  },
+  {
+   "name": "Split AirPods for sale",
+   "area": "pricing",
+   "steps": [
+    "Sell left and right individually for premium"
+   ],
+   "idea_local_id": "I2",
+   "quote": null
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "eBay",
+   "purpose": "Primary selling platform; sold listings for pricing",
+   "cost_stated": "about 12% fees"
+  },
+  {
+   "name": "Facebook Marketplace",
+   "purpose": "Sourcing and wanted listings",
+   "cost_stated": null
+  },
+  {
+   "name": "Google Lens",
+   "purpose": "Identify model numbers from photos",
+   "cost_stated": null
+  },
+  {
+   "name": "WhatsApp",
+   "purpose": "Supplier communication",
+   "cost_stated": null
+  },
+  {
+   "name": "PayPal / Stripe / Venmo",
+   "purpose": "Off-platform payments",
+   "cost_stated": null
+  },
+  {
+   "name": "Mercari / Poshmark",
+   "purpose": "Bulk lot sourcing",
+   "cost_stated": null
+  },
+  {
+   "name": "DoorDash",
+   "purpose": "Delivery driving",
+   "cost_stated": null
+  },
+  {
+   "name": "Gamma",
+   "purpose": "Sponsor: ChatGPT connector for presentations",
+   "cost_stated": null
+  },
+  {
+   "name": "Go High Level",
+   "purpose": "Sponsor: CRM/marketing platform",
+   "cost_stated": "from $97/month"
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Relying on a single supplier is dangerous; tariffs, licensing and quality shifts can break the business",
+   "quote": {
+    "text": "you can't just rely on one person or else you don't really have a business.",
+    "speaker": "John",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 38184,
+    "approx_timestamp_s": 1885
+   }
+  },
+  {
+   "warning": "Untested lots from unknown or newer sellers can be mostly broken; one lot of 500 had nothing working",
+   "quote": {
+    "text": "we bought like what was it 500 pieces and they like literally none of them worked.",
+    "speaker": "John",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 34395,
+    "approx_timestamp_s": 1698
+   }
+  },
+  {
+   "warning": "Don't confuse e-waste sources with resellers selling their leftover junk; two middlemen increases fraud risk",
+   "quote": null
+  },
+  {
+   "warning": "Medical devices and supplements sell well but require care on what you can legally sell",
+   "quote": null
+  },
+  {
+   "warning": "As vintage electronics gain attention, suppliers realise eBay value and stop selling cheaply",
+   "quote": null
+  },
+  {
+   "warning": "VHS movies are hit or miss, not reliably valuable",
+   "quote": null
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Sourcing, not selling, is the bottleneck in reselling; demand on eBay is effectively assured for electronics.",
+   "theme": "operations",
+   "quote": null
+  },
+  {
+   "lesson": "Start with zero-cost inventory and reinvest proceeds before taking on bulk lot risk.",
+   "theme": "validation_testing",
+   "quote": null
+  },
+  {
+   "lesson": "Diversify suppliers early; relying on one source nearly broke the business.",
+   "theme": "scaling",
+   "quote": null
+  },
+  {
+   "lesson": "A cold call that offers to give someone money is an easier ask than one selling a product.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "it's an easier ask of can I give you money as opposed to um can I sell you something.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 48053,
+    "approx_timestamp_s": 2372
+   }
+  },
+  {
+   "lesson": "Scarcity of discontinued products (VCRs, camcorders) pushes prices up.",
+   "theme": "niche_selection",
+   "quote": null
+  },
+  {
+   "lesson": "Margins shrink as you operationalise; early flips return much higher percentages than bulk.",
+   "theme": "finance_unit_economics",
+   "quote": null
+  },
+  {
+   "lesson": "Hot categories rotate; stay tapped into the eBay culture.",
+   "theme": "niche_selection",
+   "quote": null
+  },
+  {
+   "lesson": "Cash flow constrains scale; lacking cash cost them bigger lots.",
+   "theme": "finance_unit_economics",
+   "quote": null
+  },
+  {
+   "lesson": "Reselling is a people business; relationships bring inbound supply offers daily.",
+   "theme": "customer_acquisition",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "B",
+  "rationale": "First-hand operators with specific anecdotes (first lot figures, bad lot loss, cold-call counts), but numbers are approximate recollections, unverified, and some claims are generalised or hypothetical.",
+  "promotional_conflict": "Guests promote Reseller University social accounts and a possible future course; host reads sponsor spots for Gamma and Go High Level."
+ },
+ "extraction": {
+  "model": "claude-sonnet-5-5",
+  "extracted_at": "2026-10-22T02:04:41",
+  "cost_usd": 0.2193562,
+  "quote_verification": {
+   "quotes": 33,
+   "verified": 33,
+   "rate": 1.0
+  },
+  "schema_errors": [],
+  "reviewed_by": null,
+  "review_notes": null
+ }
+}

@@ -1,0 +1,834 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "cFr-bNBsPb8",
+  "title": "He Spends 1 Hour a Week on This Business",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=cFr-bNBsPb8",
+  "upload_date": "2026-05-03",
+  "duration_s": 1512,
+  "view_count": 54544,
+  "transcript_provider": "local_whisper_tiny",
+  "transcript_chars": 27879,
+  "transcript_is_whisper": true
+ },
+ "summary": "Chris Koerner interviews Jay Meldrum, who left corporate professional services to open Swing Cave Golf, a single-bay members-only golf simulator in a Texas strip mall (Allen area). Six months in he has about 28 members on three tiers (USD 175/275/325 per month), roughly USD 7,000 monthly revenue, break-even at about 15 members after three months, and claimed 50-55% net margins. The business is run with 24/7 app-based door access, scheduling software and cameras, with about an hour a week of owner time. Upfront cost is about USD 100K, and he plans a second location and eventual scaling. Takeaway: a low-opex, membership-based, physical-space business can be near-passive once built, but it needs significant capital and a physical site.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Host of The Koerner Office"
+  },
+  {
+   "name": "Jay Meldrum",
+   "role": "guest",
+   "description": "Founder of Swing Cave Golf, ex-corporate professional services, retired early"
+  }
+ ],
+ "format": "operator_interview",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Swing Cave Golf - private membership golf simulator bay",
+   "one_liner": "Single-bay indoor golf simulator in a retail unit rented on monthly memberships with 24/7 app door access.",
+   "category": "local_service",
+   "business_model": "Monthly membership tiers plus punch cards; members book tee times for private use of the bay",
+   "customer": "Golf enthusiasts who want to practise privately: country club members, beginners intimidated by ranges, families wanting a private space; neighbourhood residents within a few miles",
+   "problem": "Golfers want a place to practise in bad weather or privately, and home simulators take up space and sit unused about 23 hours a day",
+   "offer": "Private single-bay simulator with accurate swing data and games, 24/7 access, up to 2-hour tee times, unlimited guests per session",
+   "pricing": {
+    "model": "Tiered monthly membership plus punch cards",
+    "price_points": [
+     {
+      "amount": 175,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "Par - 4 times a month"
+     },
+     {
+      "amount": 275,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "Birdie - 8 times a month"
+     },
+     {
+      "amount": 325,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "Eagle - unlimited"
+     },
+     {
+      "amount": 250,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "Weighted average per member"
+     }
+    ],
+    "notes": "Priced at market, not undercutting. Punch cards of 5 and 10 added later, valid 6 months, up to 1 hour per session. Members get up to 2 hours per session. Transcript is ambiguous on tier session counts (said 40/80 then 4/8)."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "referrals_word_of_mouth",
+     "details": "Pre-sold to about 5 committed friends before opening, who gave feedback; about 15 of 28 members are people he knew from church, work, sports and neighbourhood; no grand opening or marketing yet",
+     "quote": {
+      "text": "We haven't really done a lot of marketing.",
+      "speaker": "Jay Meldrum",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 13530,
+      "approx_timestamp_s": 760
+     }
+    },
+    {
+     "channel": "other",
+     "details": "Passing road frontage visibility; neighbours walked in after seeing the unit; the other 13-14 members came from friends or seeing the unit while driving past",
+     "quote": null
+    }
+   ],
+   "delivery": "Customers self-serve: they get an email with tee time, and 10 minutes before the phone app unlocks the door. Owner spends about an hour a week cleaning and taking out trash with his son, and watches via cameras. Scheduling runs on a software platform.",
+   "unit_economics_claims": [
+    "About USD 7,000 monthly revenue at 28 members",
+    "Break-even around 15 members, reached in about 3 months",
+    "50-55% net margin claimed",
+    "Upfront cost about USD 100K",
+    "Max capacity about 40 members per bay, about USD 100K revenue per year claimed",
+    "Rent about USD 31 per sq ft"
+   ],
+   "tools": [
+    "Scheduling/booking software (USD 40 per month)",
+    "Simulator software subscription (about USD 100 per year)",
+    "Full Swing simulator",
+    "24/7 phone-app door access",
+    "Video surveillance cameras"
+   ],
+   "startup_cost": "About USD 100K upfront for equipment and fit-out; lease clause meant no rent until opening; landlord improvement allowance negotiated",
+   "time_to_first_revenue": "Opened September; pre-opening friends committed; break-even in about 3 months",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Currently word of mouth and location visibility; could add SEO, Google Business Profile and paid local ads, but still depends on a physical site and neighbours"
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Online sign-up and automated access; occasional manual walkthrough via camera ping for new members"
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Door access and booking are automated, but the physical space needs cleaning, trash removal and equipment upkeep by a human"
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Recurring membership billing through the software platform"
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Cameras and remote ping; chatbot or agent could handle FAQs, but equipment faults and issues need an on-site human"
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Model works in the UK, but needs commercial lease, planning/change-of-use, insurance, higher rent and cold-weather demand in the UK is arguably strong. A 100K-equivalent capital outlay is large for a part-time solo founder; UK golf simulator demand exists but pricing in GBP would differ."
+   },
+   "risks": [
+    "High upfront capital of about USD 100K",
+    "Lease commitment and landlord risk",
+    "Capacity cap of about 40 members per bay",
+    "Churn if members stop using it",
+    "Competition from franchises and Topgolf",
+    "Margin claims are unaudited and based on early months",
+    "Physical maintenance and equipment failure"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "This business right here is six months old. It was at break even within three months. It makes 50% net profit margin and they've never lost a customer.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 681,
+     "approx_timestamp_s": 38
+    },
+    {
+     "text": "It's a 24/7 door access. So you'll get an email saying what your tea time is. And then 10 minutes before that tea time, your phone will light up.",
+     "speaker": "Jay Meldrum",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 25518,
+     "approx_timestamp_s": 1435
+    },
+    {
+     "text": "So we have three membership models. One is for 40 times a month. One is for 80 times a month, and another one is unlimited.",
+     "speaker": "Jay Meldrum",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 6719,
+     "approx_timestamp_s": 377
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Multi-location rollout and franchising of golf simulator clubs",
+   "one_liner": "Scale from one to five to 20 single-bay or multi-bay locations, then decide on franchising, with reciprocal membership.",
+   "category": "franchise",
+   "business_model": "Owned locations, possibly franchise fees later",
+   "customer": "Same golf members across multiple neighbourhoods",
+   "problem": "Single location is capacity-capped at about 40 members",
+   "offer": "Network of locations with reciprocal membership",
+   "pricing": {
+    "model": "Not stated",
+    "price_points": [],
+    "notes": "not stated"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Second location to test heavy marketing and a grand opening to see how fast it can reach 40 members",
+     "quote": null
+    }
+   ],
+   "delivery": "Replicate the same self-serve location model",
+   "unit_economics_claims": [
+    "Three potential locations identified, right of first refusal on one"
+   ],
+   "tools": [],
+   "startup_cost": "not stated, roughly USD 100K per site implied",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Would need local marketing per site"
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Same automated onboarding"
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Each site needs physical upkeep"
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Recurring billing"
+    },
+    "support": {
+     "score_e": 2,
+     "how": "More sites mean more on-site issues"
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "UK franchising and multi-site expansion possible, but capital intensive."
+   },
+   "risks": [
+    "Franchisees may not hit 40 members quickly",
+    "Capital and management load rises with sites"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "So in my mind, scaling looks like going one to two and then two to five.",
+     "speaker": "Jay Meldrum",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 16275,
+     "approx_timestamp_s": 915
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Golf simulator business plan template",
+   "one_liner": "A USD 19 30-page business plan for starting a golf simulator business, sold by the host.",
+   "category": "digital_products",
+   "business_model": "One-off digital product sales",
+   "customer": "Aspiring golf simulator founders",
+   "problem": "Need a plan and marketing ideas",
+   "offer": "30-page plan with charts, over 5,000 words",
+   "pricing": {
+    "model": "One-off",
+    "price_points": [
+     {
+      "amount": 19,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "Business plan"
+     }
+    ],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "existing_audience",
+     "details": "Promoted to the YouTube audience in the video",
+     "quote": null
+    }
+   ],
+   "delivery": "Digital download",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Sold to existing audience"
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Instant download"
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "Digital file"
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Checkout"
+    },
+    "support": {
+     "score_e": 4,
+     "how": "Little support needed"
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Digital product, no geographic limits."
+   },
+   "risks": [
+    "Host promotional conflict"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "we actually made a 30-page business plan. Charts, graphs, 5,000 plus words about everything you'd ever need to know to start a golf simulator business.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 23173,
+     "approx_timestamp_s": 1303
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Business six months old, broke even in 3 months, 50% net margin, no lost customers",
+   "metric": "margin",
+   "value": {
+    "amount": 50,
+    "amount_max": null,
+    "currency": null,
+    "unit": "percent net margin",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "It was at break even within three months. It makes 50% net profit margin and they've never lost a customer.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 724,
+    "approx_timestamp_s": 40
+   }
+  },
+  {
+   "claim": "About 28 members currently, max about 40",
+   "metric": "customers",
+   "value": {
+    "amount": 28,
+    "amount_max": 40,
+    "currency": null,
+    "unit": "members",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Jay Meldrum",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "currently another three months later, we're at about 28.",
+    "speaker": "Jay Meldrum",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4691,
+    "approx_timestamp_s": 263
+   }
+  },
+  {
+   "claim": "15 members was break even, reached in about 3 months",
+   "metric": "customers",
+   "value": {
+    "amount": 15,
+    "amount_max": null,
+    "currency": null,
+    "unit": "members",
+    "label": "break-even"
+   },
+   "period": "mid-Sept to mid-Dec",
+   "claimant": "Jay Meldrum",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So 15 was break even, it took us about three months from the middle of September to the middle of December.",
+    "speaker": "Jay Meldrum",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4571,
+    "approx_timestamp_s": 257
+   }
+  },
+  {
+   "claim": "Weighted average membership about USD 250 per member",
+   "metric": "price",
+   "value": {
+    "amount": 250,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per member per month",
+    "label": null
+   },
+   "period": "per month",
+   "claimant": "Jay Meldrum",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "our average is about $250 per member.",
+    "speaker": "Jay Meldrum",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24666,
+    "approx_timestamp_s": 1387
+   }
+  },
+  {
+   "claim": "Roughly USD 7,000 monthly revenue; break-even about half",
+   "metric": "revenue",
+   "value": {
+    "amount": 7000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per month",
+    "label": null
+   },
+   "period": "per month",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So $7,000 a month in revenue, that's awesome.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24914,
+    "approx_timestamp_s": 1401
+   }
+  },
+  {
+   "claim": "Margins about 50-55% net at 40 members and USD 100K",
+   "metric": "margin",
+   "value": {
+    "amount": 55,
+    "amount_max": null,
+    "currency": null,
+    "unit": "percent net",
+    "label": "50 to 55%"
+   },
+   "period": null,
+   "claimant": "Jay Meldrum",
+   "first_hand": true,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "If we maxed out at 100K at 40 people, it's about, we have about 50 to 55% margins.",
+    "speaker": "Jay Meldrum",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13312,
+    "approx_timestamp_s": 748
+   }
+  },
+  {
+   "claim": "Upfront cost about USD 100K",
+   "metric": "cost",
+   "value": {
+    "amount": 100000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": "equipment and fit-out"
+   },
+   "period": null,
+   "claimant": "Jay Meldrum",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "There is upfront cost that's about 100K upfront to get everything situated and ready to go",
+    "speaker": "Jay Meldrum",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18794,
+    "approx_timestamp_s": 1057
+   }
+  },
+  {
+   "claim": "Scheduling software costs USD 40 per month",
+   "metric": "cost",
+   "value": {
+    "amount": 40,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "scheduling software"
+   },
+   "period": "per month",
+   "claimant": "Jay Meldrum",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "On a per month basis, 40 bucks a month.",
+    "speaker": "Jay Meldrum",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24393,
+    "approx_timestamp_s": 1371
+   }
+  },
+  {
+   "claim": "Rent about USD 31 per square foot",
+   "metric": "cost",
+   "value": {
+    "amount": 31,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per sq ft",
+    "label": "rent"
+   },
+   "period": null,
+   "claimant": "Jay Meldrum",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "We pay about $31 per square foot.",
+    "speaker": "Jay Meldrum",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24535,
+    "approx_timestamp_s": 1379
+   }
+  },
+  {
+   "claim": "Profit currently USD 3-4K per month, USD 6-8K at full capacity",
+   "metric": "profit",
+   "value": {
+    "amount": 3000,
+    "amount_max": 4000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "current"
+   },
+   "period": "per month",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So you're profiting three to four grand a month. And at full capacity, you'll be profiting six to eight a month.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25031,
+    "approx_timestamp_s": 1407
+   }
+  },
+  {
+   "claim": "Soft pre-commitments: 5 of about 5 committed friends became members",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 5,
+    "amount_max": null,
+    "currency": null,
+    "unit": "members from 5 committed friends",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Jay Meldrum",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So there were about five friends that I talked to and three of them were right there. Two of them were, it took 'em a little longer, but they are now members.",
+    "speaker": "Jay Meldrum",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3208,
+    "approx_timestamp_s": 180
+   }
+  },
+  {
+   "claim": "Golf simulator business plan priced at USD 19",
+   "metric": "price",
+   "value": {
+    "amount": 19,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "It's $19 at the link below.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23360,
+    "approx_timestamp_s": 1313
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Pre-sell to friends before opening",
+   "area": "acquisition",
+   "steps": [
+    "Talk to 10+ friends and acquaintances before opening",
+    "Get verbal commitments from about 5 who are all in",
+    "Use the first early member for product feedback",
+    "Use feedback to adjust amenities (e.g., club straps, storage)"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I just need these 10 friends and my costs are at least covered and I'm breaking even.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 344,
+    "approx_timestamp_s": 19
+   }
+  },
+  {
+   "name": "Tiered membership with caps",
+   "area": "pricing",
+   "steps": [
+    "Offer three tiers by visit count (Par/Birdie/Eagle) at 175/275/325",
+    "Add punch cards (5 and 10, 6-month expiry) for occasional users",
+    "Target a mix of enthusiasts rather than daily users",
+    "Cap members at about 35-40 per bay to keep tee times available"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Take over a failing tenant's lease",
+   "area": "operations",
+   "steps": [
+    "Find a unit whose tenant is in trouble",
+    "Offer the landlord to step into the lease at 15% off the current rent",
+    "Negotiate no rent until opening",
+    "Use a real estate attorney friend to get tenant improvement allowance"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "If you give me 15% off of their current rent, I will step into their lease",
+    "speaker": "Jay Meldrum",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21835,
+    "approx_timestamp_s": 1228
+   }
+  },
+  {
+   "name": "Location choice near homes",
+   "area": "operations",
+   "steps": [
+    "Pick a unit within about 5 miles of the owner's home",
+    "Prefer neighbourhood proximity and road frontage over shopping-centre footfall",
+    "Check roughly 100,000 people within 5 miles for 40 members"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Low-touch operations via automation",
+   "area": "operations",
+   "steps": [
+    "Use scheduling software to book tee times",
+    "Email confirmation then phone app unlocks the door 10 minutes before",
+    "Use cameras to monitor and ping new members for walkthrough",
+    "Owner or family cleans about one hour a week"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Full Swing simulator",
+   "purpose": "Indoor golf simulator with instant ball feedback (preferred over Trackman)",
+   "cost_stated": null
+  },
+  {
+   "name": "Trackman",
+   "purpose": "Competing simulator/launch monitor with 2-3 second delay on portable model",
+   "cost_stated": null
+  },
+  {
+   "name": "Scheduling software platform (unnamed)",
+   "purpose": "Booking and tee times",
+   "cost_stated": "USD 40 per month"
+  },
+  {
+   "name": "Simulator software subscription",
+   "purpose": "Simulator games and data",
+   "cost_stated": "about USD 100 per year"
+  },
+  {
+   "name": "24/7 door access app",
+   "purpose": "Unlocks door 10 minutes before booking",
+   "cost_stated": null
+  },
+  {
+   "name": "Video surveillance cameras",
+   "purpose": "Remote monitoring of the space",
+   "cost_stated": null
+  },
+  {
+   "name": "Bizee",
+   "purpose": "Sponsor: LLC formation and registered agent",
+   "cost_stated": "no fee for LLC filing besides state fees"
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Franchising too early with only two or three locations risks friction if franchisees cannot hit 40 members quickly",
+   "quote": {
+    "text": "he can't get to 40 within six months and then there's some friction, right?",
+    "speaker": "Jay Meldrum",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17518,
+    "approx_timestamp_s": 985
+   }
+  },
+  {
+   "warning": "Customers who use it every day reduce capacity, while customers who rarely use it risk churn; aim for enthusiasts but not obsessives",
+   "quote": null
+  },
+  {
+   "warning": "Other businesses in the same strip mall had not done well, so location risk is real",
+   "quote": {
+    "text": "there have been other businesses in this strip mall that haven't done well.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20901,
+    "approx_timestamp_s": 1175
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Build for a customer of one: designing the business around your own need makes decisions and persistence easier.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "I think anything entrepreneurial if you're passionate about it, it's a lot easier to do.",
+    "speaker": "Jay Meldrum",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14734,
+    "approx_timestamp_s": 828
+   }
+  },
+  {
+   "lesson": "Pre-sell to a small group of friends to validate demand and reduce break-even risk before spending on fit-out.",
+   "theme": "validation_testing",
+   "quote": null
+  },
+  {
+   "lesson": "Negotiate lease terms (no rent until opening, improvement allowances) to cut risk on physical businesses.",
+   "theme": "finance_unit_economics",
+   "quote": null
+  },
+  {
+   "lesson": "Membership models with capped capacity give predictable recurring revenue and a break-even benchmark (15 of 40 members).",
+   "theme": "finance_unit_economics",
+   "quote": null
+  },
+  {
+   "lesson": "Passive income is rarely passive; the effort is front-loaded, and this one still needs a physical footprint and capital.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "nothing is passive. Yeah. Because if something is passive, you have to do a lot of active work to get to that point.",
+    "speaker": "Jay Meldrum",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25281,
+    "approx_timestamp_s": 1421
+   }
+  },
+  {
+   "lesson": "Don't wait for perfect conditions; learning from early members before permits arrived was valuable.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "if you really want to do it, just do it. You learn more by doing it than thinking about it.",
+    "speaker": "Jay Meldrum",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18687,
+    "approx_timestamp_s": 1051
+   }
+  },
+  {
+   "lesson": "Price at market and compete on product quality rather than undercutting.",
+   "theme": "pricing",
+   "quote": null
+  },
+  {
+   "lesson": "Use the second location to test the opposite strategy (heavy marketing) versus the first (word of mouth only).",
+   "theme": "scaling",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "B",
+  "rationale": "First-hand operator with specific numbers (members, tiers, costs) that are mostly consistent, but only six months of data, margin claims are unverified and partly projected, and the transcript is Whisper-tiny with some garbled numbers.",
+  "promotional_conflict": "Host sells a USD 19 golf simulator business plan and sponsors Bizee."
+ },
+ "extraction": {
+  "model": "claude-sonnet-5-5",
+  "extracted_at": "2026-10-22T02:01:41",
+  "cost_usd": 0.1125062,
+  "quote_verification": {
+   "quotes": 25,
+   "verified": 25,
+   "rate": 1.0
+  },
+  "schema_errors": [],
+  "reviewed_by": null,
+  "review_notes": null
+ }
+}

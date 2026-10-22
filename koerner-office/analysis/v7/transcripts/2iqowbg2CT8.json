@@ -1,0 +1,1094 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "2iqowbg2CT8",
+  "title": "He Makes $20k/Month on the Weekends",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=2iqowbg2CT8",
+  "upload_date": "2026-04-24",
+  "duration_s": 2217,
+  "view_count": 67405,
+  "transcript_provider": "local_whisper_tiny",
+  "transcript_chars": 39966,
+  "transcript_is_whisper": true
+ },
+ "summary": "Chris Koerner explains how to start and run a farmer's market (using his wife's kids' market at a shopping centre as the example), then interviews Mike McCoy of Prep Pizza, who sold DIY pizza dough kits at farmer's markets (about $60k in a first summer, part time) before scaling online via Facebook ads to claimed $3-4M of sales. The video also covers other farmer's market products (baked goods, pickles, fresh pasta) and tips such as sampling, choosing in-city markets, and filming content. Key takeaway: farmer's markets are a cheap, fast way to validate a physical food product, and a market organiser can piggyback on a venue that wants footfall.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Host of The Koerner Office; launching a powdered drink mix business."
+  },
+  {
+   "name": "Mike McCoy",
+   "role": "guest",
+   "description": "Co-founder of Prep Pizza (prepapizza.com), sells pizza dough making kits."
+  }
+ ],
+ "format": "operator_interview",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Pizza dough kit (Prep Pizza)",
+   "one_liner": "DIY pizza dough ingredient kit with free training course, sold first at farmer's markets then online via Facebook ads.",
+   "category": "ecommerce_physical",
+   "business_model": "One-off product sales of a $30 kit; free masterclass and support drive conversion and satisfaction.",
+   "customer": "Home cooks who want better pizza at home, including the outdoor cooking crowd and people who bought equipment and failed.",
+   "problem": "Home cooks struggle to get good pizza dough and revert to store-bought; they lack the right flour, ingredients and technique.",
+   "offer": "A kit with flour, yeast, salt, honey powder and diastatic malt powder for roughly six pizzas (2 lb package), a two-part poolish recipe, a free video masterclass, chat and phone support.",
+   "pricing": {
+    "model": "Fixed price per kit",
+    "price_points": [
+     {
+      "amount": 30,
+      "currency": "USD",
+      "unit": "per kit",
+      "label": "farmer's market price"
+     },
+     {
+      "amount": 29.97,
+      "currency": "USD",
+      "unit": "per kit",
+      "label": "online price"
+     }
+    ],
+    "notes": "Not the cheapest product; customers often say it is expensive, justified by training and support."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Farmer's markets 3-4 per week (Wed, Thu, two Saturdays) with a pizza oven, samples of plain dough with minimal toppings; also food shows, golf tournaments and neighbourhood events.",
+     "quote": {
+      "text": "I started going farmer's market after farmer's market and basically over the course of a summer, you know, I sold roughly $60,000",
+      "speaker": "Mike McCoy",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 18546,
+      "approx_timestamp_s": 1063
+     }
+    },
+    {
+     "channel": "paid_social",
+     "details": "Facebook/Instagram ads; hired an agency first with poor results, then took it over himself; about 60 active ads with frequent creative rotation. Also Google ads.",
+     "quote": {
+      "text": "we did in less than 30 days what we did in four months in sales just by me taking out over everything",
+      "speaker": "Mike McCoy",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 27520,
+      "approx_timestamp_s": 1578
+     }
+    }
+   ],
+   "delivery": "Kits assembled in the founders' basement (weighing ingredients, bagging, sealing machine, batches of ~100), later online order fulfilment; training delivered via a free online course; founder answers chat and phone support himself.",
+   "unit_economics_claims": [
+    "About $60k sold in first summer at markets, under 20 hrs/week",
+    "Gross margin about 80% on ingredients (agreed to host's estimate)",
+    "Best month over $160k online sales",
+    "Roughly $3-4M online sales over a couple of years",
+    "Best farmer's market day close to $3k"
+   ],
+   "tools": [
+    "Facebook/Instagram ads",
+    "Google ads",
+    "Sealing machine",
+    "Venmo/QR code payments",
+    "Website chat and 800 number"
+   ],
+   "startup_cost": "Low; basement production, pre-ordered bags, bulk ingredients, no ad spend at first (amount not stated)",
+   "time_to_first_revenue": "Immediate at the first farmer's markets; online was dismal for the first four months.",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Facebook/Google ads and creative testing can be largely agent-run; the market phase was in-person and would be 0-1."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Order confirmation and course access are automated by e-commerce tooling."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Physical kit assembly and shipping; needs a 3PL to reduce human work, otherwise manual packing."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Online checkout is fully automated."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Chat and email can be handled by an AI agent with the course content; founder currently answers personally."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Concept works in the UK (farmer's markets, Facebook ads), but food business registration with the local council, allergen labelling, labelling rules and UK flour/yeast sourcing apply; imperial/US cottage food laws differ."
+   },
+   "risks": [
+    "Facebook ad costs consume most margin",
+    "Heavy reliance on one ad platform",
+    "Manual in-house manufacturing is time-consuming",
+    "Food regulation and labelling",
+    "Low online conversion at first"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "we charged $30 for our kit, $29.97 online",
+     "speaker": "Mike McCoy",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 18124,
+     "approx_timestamp_s": 1039
+    },
+    {
+     "text": "every single time I'd walk home without and people would buy them",
+     "speaker": "Mike McCoy",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 17992,
+     "approx_timestamp_s": 1031
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Run a farmer's market at a shopping centre",
+   "one_liner": "Organise a market on a mixed-use shopping centre's parking spaces and sidewalks, charging vendors booth fees while the venue provides space and promotion.",
+   "category": "events_experiences",
+   "business_model": "Booth fees from vendors.",
+   "customer": "Market vendors (and, indirectly, the shopping centre wanting footfall).",
+   "problem": "Shopping centres want to look busy and drive traffic; vendors need venues with existing crowds.",
+   "offer": "A ready-made market day on venue land with the venue advertising it, vendors bringing their own tents, tables and chairs.",
+   "pricing": {
+    "model": "Booth fee per vendor",
+    "price_points": [
+     {
+      "amount": 50,
+      "currency": "USD",
+      "unit": "per booth",
+      "label": "typical average market"
+     },
+     {
+      "amount": 100,
+      "currency": "USD",
+      "unit": "per booth",
+      "label": "typical upper"
+     }
+    ],
+    "notes": "Host suggests adult markets could charge more."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "partnerships",
+     "details": "Called the shopping centre marketing manager; venue offered roped-off parking, electronic billboard, email list and gift cards for judges.",
+     "quote": {
+      "text": "it's in their best interest to host a farmer's market",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 4672,
+      "approx_timestamp_s": 267
+     }
+    },
+    {
+     "channel": "existing_audience",
+     "details": "Piggybacks on the shopping centre's existing audience; vendors' families promote on social media. Small Facebook page (300 followers).",
+     "quote": null
+    }
+   ],
+   "delivery": "Mark booth spots with numbered laminated sheets weighed down with sandbags; vendors set up from 8am, market 9am to 12-2pm; organiser runs the day (judging app built by Chris).",
+   "unit_economics_claims": [
+    "200 booths x $100 = $20,000 per Saturday",
+    "Possible $10k profit per weekend, $40k/month",
+    "Second market sold 100 booths in about a week"
+   ],
+   "tools": [
+    "Custom vibe-coded judging app",
+    "Instagram",
+    "Facebook page"
+   ],
+   "startup_cost": "Almost nothing; the only cost was providing tables and chairs, which they won't repeat.",
+   "time_to_first_revenue": "Not stated; first market sold 50 booths over a couple of months.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Venue outreach and vendor recruitment can be assisted by tooling but the venue deal needs human negotiation."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Vendor sign-up forms, booth maps and instructions can be automated."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical event on a Saturday requires people on-site."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Booth fees via online payment."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Vendor questions handled by agent before the event; on-site by humans."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Works with changes: UK public liability insurance, venue permissions, council street trading rules and food hygiene checks for food vendors."
+   },
+   "risks": [
+    "Revenue claim is hypothetical, based on a non-profit kids' market",
+    "Venue dependence",
+    "Weather",
+    "Insurance/liability",
+    "Requires on-site presence every week"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "So 200 stall market, $100 apiece. That's $20,000 for five or six hours of work on a Saturday.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 10258,
+     "approx_timestamp_s": 588
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Custom hats at kids' market",
+   "one_liner": "Daughter sold $35 custom pressed hats with high margin at the kids' market.",
+   "category": "ecommerce_physical",
+   "business_model": "One-off product sales.",
+   "customer": "Market shoppers.",
+   "problem": "not stated",
+   "offer": "Custom hats with patches made with a hat pressing machine.",
+   "pricing": {
+    "model": "Fixed price",
+    "price_points": [
+     {
+      "amount": 35,
+      "currency": "USD",
+      "unit": "per hat",
+      "label": null
+     }
+    ],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Booth at the kids' farmer's market.",
+     "quote": null
+    }
+   ],
+   "delivery": "Made by hand with a press.",
+   "unit_economics_claims": [
+    "80% margin",
+    "Hundreds of dollars profit in a few hours",
+    "$70 press, $4 blank hats"
+   ],
+   "tools": [
+    "Hat pressing machine",
+    "Amazon blanks"
+   ],
+   "startup_cost": "About $70 for the press plus blanks",
+   "time_to_first_revenue": "Same day",
+   "automation": {
+    "acquisition": {
+     "score_e": 0,
+     "how": "In-person booth."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "Face to face."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Manual pressing."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Card or QR payments."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "In person."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works the same."
+   },
+   "risks": [
+    "Not scalable without labour"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "My daughter sold $35 custom hats. She had an 80% margin",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 8152,
+     "approx_timestamp_s": 467
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "Busy Juice powdered drink mix",
+   "one_liner": "Chris is launching a three-ingredient powdered drink mix at his local farmer's market.",
+   "category": "ecommerce_physical",
+   "business_model": "One-off product sales in gusset bags.",
+   "customer": "Farmer's market shoppers.",
+   "problem": "not stated",
+   "offer": "Powder drink mix of three ingredients he invented.",
+   "pricing": {
+    "model": "Fixed price per bag",
+    "price_points": [
+     {
+      "amount": 30,
+      "currency": "USD",
+      "unit": "per bag",
+      "label": null
+     }
+    ],
+    "notes": "Claimed about 70% profit margin."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Farmer's market tent with samples and live-streamed content.",
+     "quote": null
+    }
+   ],
+   "delivery": "Mixed in his kitchen and bagged himself.",
+   "unit_economics_claims": [
+    "70% margin at $30 a bag"
+   ],
+   "tools": [
+    "Gusset bags",
+    "Sealer",
+    "Livestream camera"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "Planned launch May 9",
+   "automation": {
+    "acquisition": {
+     "score_e": 0,
+     "how": "In-person market."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Not applicable."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Manual production."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Standard payments."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Minimal."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "UK food labelling and registration required."
+   },
+   "risks": [
+    "Regulatory requirements",
+    "Untested"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "I'm gonna sell 30 bucks a bag. It's got like 70% profit margins.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 11754,
+     "approx_timestamp_s": 674
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "Fresh pasta sold via market vendor team",
+   "one_liner": "A woman made fresh refrigerated pasta in her basement and sent a team of sellers to multiple farmer's markets.",
+   "category": "ecommerce_physical",
+   "business_model": "Product sales through hired sellers.",
+   "customer": "Farmer's market shoppers.",
+   "problem": "not stated",
+   "offer": "Fresh refrigerated pasta.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Multiple farmer's markets with repeat customers.",
+     "quote": null
+    }
+   ],
+   "delivery": "Made in basement, refrigerated, sold by paid staff.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 0,
+     "how": "In person."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "n/a"
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Card payments."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "In person."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "UK food hygiene registration and chilled storage rules."
+   },
+   "risks": [
+    "Refrigeration and food safety"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "you're not gonna scale something that doesn't work",
+     "speaker": "Mike McCoy",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 37039,
+     "approx_timestamp_s": 2124
+    }
+   ]
+  },
+  {
+   "local_id": "I6",
+   "name": "Baked goods, bread and pickles at markets",
+   "one_liner": "Home bakers and pickle makers who sell out regularly at farmer's markets.",
+   "category": "ecommerce_physical",
+   "business_model": "Direct product sales.",
+   "customer": "Market shoppers.",
+   "problem": "not stated",
+   "offer": "Baked goods, breads, pickles.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Farmer's market stalls.",
+     "quote": null
+    }
+   ],
+   "delivery": "Home production.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 0,
+     "how": "In person."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "n/a"
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Baking by hand."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Card payments."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "In person."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Home baking sold in the UK needs food business registration and allergen labelling."
+   },
+   "risks": [
+    "Labour intensive"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "the majority of people that seemed to make the most money were someone who made baked goods",
+     "speaker": "Mike McCoy",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 35940,
+     "approx_timestamp_s": 2061
+    }
+   ]
+  },
+  {
+   "local_id": "I7",
+   "name": "Resell pizza equipment and related products at markets",
+   "one_liner": "Mike suggests reselling pizza-related products rather than selling pizza to avoid licensing and equipment cost.",
+   "category": "arbitrage_reselling",
+   "business_model": "Resale margin on inventory.",
+   "customer": "Pizza enthusiasts.",
+   "problem": "Selling pizza requires licensing and investment (under $25k).",
+   "offer": "Pizza-related products and equipment.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Showcase at markets and events.",
+     "quote": null
+    }
+   ],
+   "delivery": "Hold inventory and hand sell.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "Inventory only; selling pizza itself would need around $25,000.",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 0,
+     "how": "In person demos."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "n/a"
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Physical inventory."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Payments."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Online."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Works in the UK."
+   },
+   "risks": [
+    "Stones and steels are hard to showcase"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "reselling pizza related products versus selling pizza",
+     "speaker": "Mike McCoy",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 34943,
+     "approx_timestamp_s": 2003
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Sold about $60,000 of kits in the first summer at farmer's markets working under 20 hours a week",
+   "metric": "revenue",
+   "value": {
+    "amount": 60000,
+    "currency": "USD",
+    "unit": "first summer"
+   },
+   "period": "first summer",
+   "claimant": "Mike McCoy",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "over the course of a summer, you know, I sold roughly $60,000",
+    "speaker": "Mike McCoy",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18614,
+    "approx_timestamp_s": 1067
+   }
+  },
+  {
+   "claim": "Best month online over $160,000 sales",
+   "metric": "revenue",
+   "value": {
+    "amount": 160000,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "period": "best month",
+   "claimant": "Mike McCoy",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Where our best month so far, we did over $160,000 in sales.",
+    "speaker": "Mike McCoy",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 27780,
+    "approx_timestamp_s": 1593
+   }
+  },
+  {
+   "claim": "Online sales of roughly $3-4 million over a couple of years",
+   "metric": "revenue",
+   "value": {
+    "amount": 3000000,
+    "amount_max": 4000000,
+    "currency": "USD",
+    "unit": "cumulative"
+   },
+   "period": "past couple of years",
+   "claimant": "Mike McCoy",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "over the past couple of years, just online sales alone, the little north of $3 or $4 million in sales",
+    "speaker": "Mike McCoy",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 27864,
+    "approx_timestamp_s": 1597
+   }
+  },
+  {
+   "claim": "Gross margin on ingredients around 80%",
+   "metric": "margin",
+   "value": {
+    "amount": 80,
+    "currency": null,
+    "unit": "percent"
+   },
+   "period": null,
+   "claimant": "Chris Koerner (Mike agreed)",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "As far as the actual ingredients and things like that, I'd say that's probably pretty close.",
+    "speaker": "Mike McCoy",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20951,
+    "approx_timestamp_s": 1201
+   }
+  },
+  {
+   "claim": "Best farmer's market day close to $3,000",
+   "metric": "revenue",
+   "value": {
+    "amount": 3000,
+    "currency": "USD",
+    "unit": "per market day"
+   },
+   "period": null,
+   "claimant": "Mike McCoy",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I think my best market ever we did like close to three grand",
+    "speaker": "Mike McCoy",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 32107,
+    "approx_timestamp_s": 1841
+   }
+  },
+  {
+   "claim": "First online sales were only five kits before taking over marketing",
+   "metric": "customers",
+   "value": {
+    "amount": 5,
+    "currency": null,
+    "unit": "kits"
+   },
+   "period": "first four months",
+   "claimant": "Mike McCoy",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "we've sold five of these online so I'm not really sure we're ready for you guys yet",
+    "speaker": "Mike McCoy",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 27301,
+    "approx_timestamp_s": 1565
+   }
+  },
+  {
+   "claim": "200 booths at $100 gives $20,000 per Saturday",
+   "metric": "revenue",
+   "value": {
+    "amount": 20000,
+    "currency": "USD",
+    "unit": "per market day"
+   },
+   "period": "per weekend",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "So 200 stall market, $100 apiece. That's $20,000 for five or six hours of work on a Saturday.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10258,
+    "approx_timestamp_s": 588
+   }
+  },
+  {
+   "claim": "Weekly markets could put $10k profit per weekend, $40k a month",
+   "metric": "profit",
+   "value": {
+    "amount": 40000,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "period": "monthly",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "Put 10 grand profit in your pocket, 40 grand a month. I think that's possible.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10682,
+    "approx_timestamp_s": 612
+   }
+  },
+  {
+   "claim": "Second market sold 100 booths in about a week",
+   "metric": "customers",
+   "value": {
+    "amount": 100,
+    "currency": null,
+    "unit": "booths"
+   },
+   "period": "one week",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "This one took them about a week to sell twice as many booths, a hundred",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2525,
+    "approx_timestamp_s": 144
+   }
+  },
+  {
+   "claim": "Daughter's hats: $35 price, 80% margin",
+   "metric": "margin",
+   "value": {
+    "amount": 80,
+    "currency": null,
+    "unit": "percent"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "My daughter sold $35 custom hats. She had an 80% margin",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8152,
+    "approx_timestamp_s": 467
+   }
+  },
+  {
+   "claim": "Busy Juice priced $30 per bag with about 70% margin",
+   "metric": "margin",
+   "value": {
+    "amount": 70,
+    "currency": null,
+    "unit": "percent"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "I'm gonna sell 30 bucks a bag. It's got like 70% profit margins.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11754,
+    "approx_timestamp_s": 674
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Validate food products at farmer's markets",
+   "area": "acquisition",
+   "steps": [
+    "Go to 3-4 markets per week (Wed, Thu, two Saturdays) with 30-40 units",
+    "Have the spouse cover a second market on Saturdays",
+    "Give samples of the product exactly as sold, with minimal toppings so the product is tasted",
+    "Take payment via QR code/Venmo, no team needed",
+    "Prefer markets inside city limits that are well marketed"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "every single time I'd walk home without and people would buy them",
+    "speaker": "Mike McCoy",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17992,
+    "approx_timestamp_s": 1031
+   }
+  },
+  {
+   "name": "Move from markets to Facebook ads",
+   "area": "acquisition",
+   "steps": [
+    "Start online once markets prove the product",
+    "Test an agency, but be ready to take over marketing yourself",
+    "Run many ad creatives (about 60 active) and rotate them often",
+    "Use high gross margin to afford ad costs"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "you have to have a way more creatives than you think and you have to rotate them much more often than you think",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 28710,
+    "approx_timestamp_s": 1646
+   }
+  },
+  {
+   "name": "Free course and support to increase conversions",
+   "area": "product",
+   "steps": [
+    "Include a free masterclass with every kit",
+    "Collect troubleshooting issues and reshoot the course",
+    "Offer live chat and an 800 number answered by the founder"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Pitch a venue that wants footfall",
+   "area": "acquisition",
+   "steps": [
+    "Contact the shopping centre marketing manager",
+    "Offer a market on parking spaces",
+    "Ask the venue to advertise on billboard and email list and supply gift cards",
+    "Mark booths with laminated numbers weighed with sandbags; vendors bring own tables and chairs"
+   ],
+   "idea_local_id": "I2",
+   "quote": null
+  },
+  {
+   "name": "Film content at the market",
+   "area": "acquisition",
+   "steps": [
+    "Set up cameras behind you and let people taste",
+    "Do not be abrasive about filming; people ignore it"
+   ],
+   "idea_local_id": "I4",
+   "quote": null
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Facebook/Instagram Ads",
+   "purpose": "Main online customer acquisition for Prep Pizza",
+   "cost_stated": "not stated"
+  },
+  {
+   "name": "Google Ads",
+   "purpose": "Additional ads",
+   "cost_stated": null
+  },
+  {
+   "name": "Venmo / QR code",
+   "purpose": "Payments at markets",
+   "cost_stated": null
+  },
+  {
+   "name": "Amazon",
+   "purpose": "Blank hats for custom hat business",
+   "cost_stated": "about $4 per hat"
+  },
+  {
+   "name": "Hat pressing machine",
+   "purpose": "Making custom hats",
+   "cost_stated": "$70"
+  },
+  {
+   "name": "TKOwners.com",
+   "purpose": "Koerner's community (promotion)",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Don't provide tables and chairs when running a market; only provide ground space.",
+   "quote": {
+    "text": "We provided tables and chairs. Never again, ever, ever again.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6707,
+    "approx_timestamp_s": 384
+   }
+  },
+  {
+   "warning": "Cheap knickknacks and crafts sell poorly at kids' markets; higher-ticket $20-50 items do better.",
+   "quote": null
+  },
+  {
+   "warning": "Wanting to open a restaurant because friends love your cooking is a trap; running the business is most of the work.",
+   "quote": {
+    "text": "being a good cook is like 20% of it. You still have to run a dang business",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16514,
+    "approx_timestamp_s": 947
+   }
+  },
+  {
+   "warning": "Selling prepared food at markets requires permits; samples are generally exempt but laws vary by state.",
+   "quote": null
+  },
+  {
+   "warning": "Not every farmer's market is good; roadside ones outside city limits can have no customers.",
+   "quote": null
+  },
+  {
+   "warning": "Facebook ad spend takes most of the margin and an agency did not work at first.",
+   "quote": {
+    "text": "our good friend Zuckerberg gets the majority of our money",
+    "speaker": "Mike McCoy",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21088,
+    "approx_timestamp_s": 1209
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Farmer's markets are a cheap, fast, real-time feedback channel for physical products before investing in ads.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "These markets are just an amazing place to get immediate real time feedback from strangers on your product.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11941,
+    "approx_timestamp_s": 684
+   }
+  },
+  {
+   "lesson": "High gross margin (about 80%) allows aggressive paid advertising, unlike 10-20% margin competitors.",
+   "theme": "finance_unit_economics",
+   "quote": null
+  },
+  {
+   "lesson": "Piggyback on existing audiences (a shopping centre's traffic) instead of building your own.",
+   "theme": "customer_acquisition",
+   "quote": null
+  },
+  {
+   "lesson": "Selling a product plus training/support increases success and justifies a premium price.",
+   "theme": "offer_design",
+   "quote": null
+  },
+  {
+   "lesson": "Taking over marketing yourself and learning it produced more in 30 days than four months with an agency.",
+   "theme": "customer_acquisition",
+   "quote": null
+  },
+  {
+   "lesson": "Choose businesses you are passionate about when you can afford to.",
+   "theme": "mindset_execution",
+   "quote": null
+  },
+  {
+   "lesson": "Selling a product around a hobby is lower-risk than opening a restaurant.",
+   "theme": "niche_selection",
+   "quote": null
+  },
+  {
+   "lesson": "Some customers only buy at the market and distrust the internet; online conversion is a separate problem.",
+   "theme": "scaling",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "B",
+  "rationale": "First-hand operator with specific headline numbers (60k summer, 160k best month, 3-4M online) but unverified, little detail on ad spend or profit. The farmer's market organiser economics are hypothetical. Whisper-tiny transcript contains mishearings.",
+  "promotional_conflict": "Chris promotes TKOwners.com community and his own Busy Juice; Mike promotes prepapizza.com."
+ },
+ "extraction": {
+  "model": "claude-sonnet-5-5",
+  "extracted_at": "2026-10-22T02:01:07",
+  "cost_usd": 0.1464622,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 28,
+   "verified": 28,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

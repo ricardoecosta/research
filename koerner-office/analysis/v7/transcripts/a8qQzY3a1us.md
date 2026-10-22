@@ -1,6 +1,6 @@
 # I Let Strangers Pitch Me Their Business Live
 
-- **Video:** [a8qQzY3a1us](https://www.youtube.com/watch?v=a8qQzY3a1us) · **Channel:** The Koerner Office · **Uploaded:** unknown · **Length:** 71 min · **Transcript:** cached
+- **Video:** [a8qQzY3a1us](https://www.youtube.com/watch?v=a8qQzY3a1us) · **Channel:** The Koerner Office · **Uploaded:** 2026-10-04 · **Length:** 71 min · **Transcript:** cached
 - **Speakers:** Chris Koerner (host), Nick (co-host), Brandon (co-host), Aean (Ammon) Harden (guest), Cam Finley (guest), Tom Hamilton (guest), Nisha and Duchar (guest), Cameron and Jason (guest), Jake Nelson (guest), Chris Prinster (guest), James Lincoln (guest) · **Format:** panel_discussion
 - **Evidence quality:** C — Live pitches with mostly unverified first-hand claims (e.g. Utah Veterans Massage and Goodly give specific numbers) mixed with idea-stage pitches with no data. The format is entertainment with hosts also acting as potential investors; claims are not audited. · Promotional conflict: Chris Koerner sells a $5/month community and a sponsor read for Beehiiv appears; hosts have investments or competing businesses (Brandon owns a Goodly competitor).
 - **Extraction:** claude-sonnet-5-5 · quotes verified 57/57

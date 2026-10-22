@@ -1,0 +1,1015 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "I24XPX0HS5c",
+  "title": "6 Ways to Make Money With the New GPT Agent (It Blew My Mind)",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=I24XPX0HS5c",
+  "upload_date": "2025-07-20",
+  "duration_s": 2396,
+  "view_count": 596569,
+  "transcript_provider": "ok",
+  "transcript_chars": 40332,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner demos OpenAI's new ChatGPT Agent mode, running six agents at once on business tasks: finding Nashville plumbers with websites, hyper-personalised cold emails to Austin dentists, competitor research for his Texas Snacks store, Google Trends ranking of business ideas, a calendar meeting-briefing task, and Amazon-review research that became a pitch deck. He pitches selling websites or SEO to businesses that already have websites, and selling AI-driven research to clients. He rates each task out of 10 and notes friction: logins, glitches when he navigated away from the tab, and slow runs. Takeaway: agents save hours of research and drafting, but need specific prompts, reference data and some supervision.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Host of The Koerner Office; owns Texas Snacks e-commerce store; runs TK Owners community"
+  }
+ ],
+ "format": "tutorial_howto",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Websites for businesses that already have websites",
+   "one_liner": "Build or redesign websites for local business owners who already have a site, because they value having one.",
+   "category": "agency",
+   "business_model": "One-off project fees for website builds or redesigns",
+   "customer": "Local business owners (e.g. plumbers) who already have a website",
+   "problem": "Existing sites are statistically likely to be poor; owners who value a site will pay to improve it",
+   "offer": "Website build or redesign, with AI making delivery more profitable",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "not stated"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "cold_email",
+     "details": "Use ChatGPT Agent to find 20 plumbers in Nashville with websites, collect owner emails and phones, then write personalised emails. Directories like Manta used for hard-to-find contact info.",
+     "quote": {
+      "text": "We want to find business owners that already have websites. We don't need to assume or guess that it's an ugly website because statistically speaking, it probably is.",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 4298,
+      "approx_timestamp_s": 262
+     }
+    }
+   ],
+   "delivery": "Build websites for clients, with AI making it more profitable; details not stated",
+   "unit_economics_claims": [],
+   "tools": [
+    "ChatGPT Agent",
+    "Manta",
+    "Google Sheets"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Agent builds lead lists and drafts emails, but the agent took about 30 minutes for 20 leads and glitched. UK sole traders cannot be cold-emailed under PECR, so outreach is limited to limited companies and needs checking."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Briefing and scoping calls need a human, with tooling help."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "AI site builders and agents can produce most of a site, with human review."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Invoicing and payment links are easy to automate."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Edit requests and client handholding need some human involvement."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Works in the UK. Cold email must target limited companies only, not sole traders (PECR)."
+   },
+   "risks": [
+    "Many small-business owners are pitched websites constantly",
+    "Cold email to sole traders is illegal in the UK without consent",
+    "Agent lead lists can be slow and error-prone"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "I think one business idea that exists today, existed 10 years ago, and will exist in another 10 years is simply making websites for other people.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 3277,
+     "approx_timestamp_s": 200
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Hyper-personalised SEO for niche professionals (Austin dentists)",
+   "one_liner": "Agent-researched, personalised cold emails selling SEO to dentists in one city.",
+   "category": "agency",
+   "business_model": "SEO services, presumably retainers (not stated)",
+   "customer": "Dentist practice owners in Austin",
+   "problem": "Poor local search ranking (e.g. not on page one for South Austin implants)",
+   "offer": "SEO services exclusively for Austin dentists",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "not stated"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "cold_email",
+     "details": "Agent researched five dentists (education, hobbies, pets) and drafted personalised emails into Gmail drafts. The demo took about 3 minutes of research, and subject lines needed fixing. Chris says he doesn't actually sell SEO.",
+     "quote": {
+      "text": "Make a list of five dentists in Austin, owners only. Write five cold emails that are hyperpersonalized to each of them.",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 8570,
+      "approx_timestamp_s": 523
+     }
+    }
+   ],
+   "delivery": "SEO delivery not covered",
+   "unit_economics_claims": [],
+   "tools": [
+    "ChatGPT Agent",
+    "Gmail",
+    "Apollo"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Research and drafting are automated, but the agent needs logins, glitches, and supervision. Dentists are often sole traders or partnerships, which PECR restricts for cold email."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Sales calls are human."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "SEO work is tool-heavy, not covered in the video."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Standard recurring billing."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Client reporting and calls need a human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Works with changes: many UK dentists are sole traders or partnerships, so PECR restricts cold email. Corporate practices are fair game."
+   },
+   "risks": [
+    "Spammy subject lines",
+    "Creepy over-personalisation",
+    "PECR breach if emailing sole traders"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "I don't have to hire anyone to do my cold emails anymore. I just need to prompt it and then log in.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 30742,
+     "approx_timestamp_s": 1879
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Selling competitive research reports and implementation",
+   "one_liner": "Use an AI agent to research a company's competitors, then sell the report or help implement it as a consultant.",
+   "category": "b2b_service",
+   "business_model": "Per-project research or consulting fees",
+   "customer": "Business owners, e-commerce stores",
+   "problem": "Owners lack time to do competitive research",
+   "offer": "Report on top five competitors by traffic: what they do well, best products, SEO, lessons",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "not stated"
+   },
+   "acquisition_channels": [],
+   "delivery": "Agent produces the research report, and the consultant can then implement",
+   "unit_economics_claims": [],
+   "tools": [
+    "ChatGPT Agent"
+   ],
+   "startup_cost": "$20/month ChatGPT subscription",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Not described in the video."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "A form can collect the URL and goals."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Agent produced the report on his own site; the output needs a human sanity check."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Easy to automate."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Follow-up questions can be answered by AI."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works the same."
+   },
+   "risks": [
+    "Agent output may contain errors",
+    "Many tools offer the same capability"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "even if you don't already own a business, you can use a prompt like this to do competitive research on other companies and then you can sell them that research",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 8179,
+     "approx_timestamp_s": 500
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "Texas Snacks (resold Buc-ee's snacks e-commerce)",
+   "one_liner": "Chris's e-commerce store reselling Texas snacks bought from a gas station chain.",
+   "category": "ecommerce_physical",
+   "business_model": "Resale of physical products",
+   "customer": "Online snack buyers",
+   "problem": "not stated",
+   "offer": "Texas snacks resold online",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "not stated"
+   },
+   "acquisition_channels": [],
+   "delivery": "Physical goods bought and shipped; not detailed",
+   "unit_economics_claims": [],
+   "tools": [
+    "Amazon",
+    "Shopify"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "SEO and social content are automatable."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Checkout is self-serve."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Physical sourcing and shipping."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Store checkout."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Routine queries can be handled by AI."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 2,
+    "notes": "Depends on a US gas-station brand; the UK analogue would be a different product."
+   },
+   "risks": [
+    "Clones and competitors have popped up",
+    "Amazon third-party resellers are the biggest competitors"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "I own an e-commerce business called Texas Snacks, and we sell Texas Snacks.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 7550,
+     "approx_timestamp_s": 461
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "Powdered energy drink on Amazon (product research)",
+   "one_liner": "Use Amazon-review mining to design a better powdered energy drink, then pitch investors.",
+   "category": "ecommerce_physical",
+   "business_model": "Direct to consumer via Amazon subscriptions",
+   "customer": "Energy drink consumers",
+   "problem": "Complaints: mixability/clumps 31%, taste 25%, packaging 12%, price 12%, limited flavours 6%, counterfeit 6%",
+   "offer": "Easy-open, no-clump, balanced-sweetness, flavour variety, caffeine options",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "not stated"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "marketplace_platform",
+     "details": "Sell via Amazon subscriptions and social media footprint per the generated deck.",
+     "quote": null
+    }
+   ],
+   "delivery": "Manufacturing and fulfilment not covered. Chris says he isn't selling it yet.",
+   "unit_economics_claims": [],
+   "tools": [
+    "ChatGPT Agent",
+    "Amazon"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Amazon listing and ads are semi-automatable."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Marketplace checkout."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Physical product manufacturing and shipping."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Handled by Amazon."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Reviews and queries can be handled by AI."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Amazon UK exists, but food and supplement regulation (UK labelling, caffeine rules) applies."
+   },
+   "risks": [
+    "Food regulation",
+    "Crowded market",
+    "Inventory risk"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "I want to sell a healthy powdered energy drink on Amazon. Research Amazon reviews for similar products. Extract common complaints.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 11304,
+     "approx_timestamp_s": 691
+    }
+   ]
+  },
+  {
+   "local_id": "I6",
+   "name": "Mobile car wash / detailing",
+   "one_liner": "Business ranked #2 by the agent's Google Trends analysis; Chris 'goes all in' to research case studies.",
+   "category": "local_service",
+   "business_model": "Per-job service",
+   "customer": "Car owners",
+   "problem": "not stated",
+   "offer": "Mobile car wash service from a home base",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "not stated"
+   },
+   "acquisition_channels": [],
+   "delivery": "Physical washing by a person, travelling to customers",
+   "unit_economics_claims": [
+    "Reddit solo detailer: spent $811, made $920 from five customers in month one",
+    "A YouTube 22-year-old reportedly runs a $50k/month business"
+   ],
+   "tools": [
+    "ChatGPT Agent",
+    "Reddit",
+    "YouTube"
+   ],
+   "startup_cost": "Summary table cited around $400 (as read aloud)",
+   "time_to_first_revenue": "First month in the Reddit example",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Local SEO and Google Business Profile."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Online booking."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical work."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Online payment."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Booking queries can be handled by AI."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Works in the UK, but water and run-off rules, and waterless products, matter."
+   },
+   "risks": [
+    "Physical labour",
+    "Seasonality"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "I'm going all in on the mobile car wash business. Find four specific and tactical case studies about other real entrepreneurs that did the same",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 22529,
+     "approx_timestamp_s": 1377
+    }
+   ]
+  },
+  {
+   "local_id": "I7",
+   "name": "AI agent-powered business research and outreach service (generic)",
+   "one_liner": "Agents act as researcher, scraper and copywriter to automate revenue streams like lead lists and meeting briefs.",
+   "category": "ai_automation",
+   "business_model": "Not stated; framed as replacing assistants and interns",
+   "customer": "Business owners and solo founders",
+   "problem": "Manual research, lead lists and briefs take 8+ hours",
+   "offer": "Agent-run research, lead lists, briefs and pitch decks",
+   "pricing": {
+    "model": "ChatGPT subscription",
+    "price_points": [
+     {
+      "amount": 20,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "ChatGPT plan cited"
+     }
+    ],
+    "notes": "Chris claims $20 a month; plan tier not clarified"
+   },
+   "acquisition_channels": [],
+   "delivery": "Agent runs tasks in a browser",
+   "unit_economics_claims": [],
+   "tools": [
+    "ChatGPT Agent"
+   ],
+   "startup_cost": "$20/month",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Not covered."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Prompt intake."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Agent did the work but glitched and needed logins."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Standard."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Routine."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works the same."
+   },
+   "risks": [
+    "Agent glitches",
+    "Logins give access to sensitive accounts",
+    "OpenAI may absorb the use case"
+   ],
+   "is_primary": true,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "Yesterday, you needed a virtual assistant, a data scraper, a copywriter, an intern, and maybe a research assistant to do everything I'm about to show you today.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 1879,
+     "approx_timestamp_s": 114
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "ChatGPT subscription gives a team of PhD employees for $20/month",
+   "metric": "price",
+   "value": {
+    "amount": 20,
+    "currency": "USD",
+    "unit": "per month",
+    "label": null
+   },
+   "period": "monthly",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "20 bucks a month and you can have a team of PhD employees at your fingertips.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 38832,
+    "approx_timestamp_s": 2374
+   }
+  },
+  {
+   "claim": "Reddit solo detailer spent $811 and made $920 from five customers in month one",
+   "metric": "revenue",
+   "value": {
+    "amount": 920,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": "month one"
+   },
+   "period": "first month",
+   "claimant": "Reddit user via agent",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "solo detailing, first month, spent $811, made $920 from five customers in month one.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23430,
+    "approx_timestamp_s": 1432
+   }
+  },
+  {
+   "claim": "22-year-old runs a $50k/month car wash business",
+   "metric": "revenue",
+   "value": {
+    "amount": 50000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": null
+   },
+   "period": "monthly",
+   "claimant": "YouTube video via agent",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "YouTube, 22-year-old, 50k a month business. Holy crap.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 427,
+    "approx_timestamp_s": 26
+   }
+  },
+  {
+   "claim": "Mixability/clumps made up 31% of energy drink powder complaints",
+   "metric": "other",
+   "value": {
+    "amount": 31,
+    "currency": null,
+    "unit": "percent",
+    "label": "share of complaints"
+   },
+   "period": null,
+   "claimant": "ChatGPT Agent output",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "Mixability 31%, taste issues 25%, packaging 12%.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 19084,
+    "approx_timestamp_s": 1166
+   }
+  },
+  {
+   "claim": "Agent produced five personalised dentist emails in 3 minutes from one prompt",
+   "metric": "hours",
+   "value": {
+    "amount": 3,
+    "currency": null,
+    "unit": "minutes",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "doing all this research and writing five hyperpersonalized cold emails took 3 minutes. And all I did was prompt it once.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10900,
+    "approx_timestamp_s": 666
+   }
+  },
+  {
+   "claim": "Meeting prep research took 9 minutes",
+   "metric": "hours",
+   "value": {
+    "amount": 9,
+    "currency": null,
+    "unit": "minutes",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "Worked for 9 minutes. Here's your client meeting briefing for next week.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12842,
+    "approx_timestamp_s": 785
+   }
+  },
+  {
+   "claim": "Plumber lead list of 20 took about half an hour",
+   "metric": "hours",
+   "value": {
+    "amount": 30,
+    "currency": null,
+    "unit": "minutes",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Now, that one took a while. It took like a half hour and it glitched out a couple times",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 33161,
+    "approx_timestamp_s": 2027
+   }
+  },
+  {
+   "claim": "Texas Bite Box claims to have shipped 16,000 products and served 13,000 customers",
+   "metric": "customers",
+   "value": {
+    "amount": 13000,
+    "currency": null,
+    "unit": "customers",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Texas Bite Box via agent",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "They claims to have shipped 16,000 products, serve 13,000 customers.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 28942,
+    "approx_timestamp_s": 1769
+   }
+  },
+  {
+   "claim": "OpenAI reached a $500bn valuation in about 5 years versus 20 for Google",
+   "metric": "valuation",
+   "value": {
+    "amount": 500000000000,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "Open AAI became a half a trillion dollar company in the matter of 5 years. It took Google 20 years to do that.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 26904,
+    "approx_timestamp_s": 1644
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Target businesses that already have websites",
+   "area": "acquisition",
+   "steps": [
+    "Pick a local trade and city",
+    "Have the agent find businesses that already have websites and list owner contact info",
+    "Skip judging the site quality; having a site signals they value it",
+    "Pitch redesign or improvement"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "if you go give this same offer to business owners that don't have a website, they could have one by now.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4598,
+    "approx_timestamp_s": 281
+   }
+  },
+  {
+   "name": "Give the agent reference data and name sources",
+   "area": "operations",
+   "steps": [
+    "Provide examples (e.g. four sample ideas) so output matches your taste",
+    "Name specific sources such as Manta, Reddit, Facebook, X and niche blogs",
+    "Say 'move fast' to speed it up",
+    "Ask for niche, specific case studies to avoid generic articles"
+   ],
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "Anytime you ask it to do a task or to return something interesting for you, give it reference data.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6317,
+    "approx_timestamp_s": 386
+   }
+  },
+  {
+   "name": "Mine Amazon reviews for product gaps",
+   "area": "product",
+   "steps": [
+    "Ask the agent to research reviews for similar products",
+    "Extract common complaints and rank by proportion with a pie chart",
+    "Create a feature list addressing the top pain points",
+    "Turn findings into a pitch deck"
+   ],
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "I don't want to fix problems that are anecdotal and don't affect a large percentage of people.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16618,
+    "approx_timestamp_s": 1016
+   }
+  },
+  {
+   "name": "Run multiple agents in parallel and minimise logins",
+   "area": "operations",
+   "steps": [
+    "Open several agent tabs for independent tasks",
+    "Avoid tasks needing account logins where possible",
+    "Do not navigate away from tabs inside logged-in accounts",
+    "Ask for CSV export if Google Sheets glitches"
+   ],
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "The less you ask it to log in for now, the better.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 33332,
+    "approx_timestamp_s": 2038
+   }
+  },
+  {
+   "name": "Case-study-to-launch-plan prompt",
+   "area": "validation",
+   "steps": [
+    "Have the agent rank low-cost ideas using Google Trends",
+    "Pick one and request niche case studies with startup costs and early sales",
+    "Ask for 40 stories, then a 30-day launch plan"
+   ],
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "Come up with a dayby-day launch plan over the next 30 days.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23712,
+    "approx_timestamp_s": 1449
+   }
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "ChatGPT Agent (OpenAI)",
+   "purpose": "Browser-controlling agent for research, drafting, decks",
+   "cost_stated": "$20/month"
+  },
+  {
+   "name": "Manta",
+   "purpose": "Business directory to cross-reference contact info",
+   "cost_stated": null
+  },
+  {
+   "name": "Apollo",
+   "purpose": "Lead data and outreach tool",
+   "cost_stated": null
+  },
+  {
+   "name": "Google Sheets",
+   "purpose": "Store lead lists",
+   "cost_stated": null
+  },
+  {
+   "name": "Gmail",
+   "purpose": "Drafting and sending emails",
+   "cost_stated": null
+  },
+  {
+   "name": "Google Trends",
+   "purpose": "Rank business ideas",
+   "cost_stated": null
+  },
+  {
+   "name": "Manus",
+   "purpose": "Alternative AI tool that makes pitch decks",
+   "cost_stated": null
+  },
+  {
+   "name": "TK Owners",
+   "purpose": "Chris's paid community (promo)",
+   "cost_stated": "$99/month"
+  },
+  {
+   "name": "Amazon",
+   "purpose": "Review research and selling channel",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Agent glitched in Gmail and Google Sheets when the user switched tabs; logins are friction and expose sensitive data.",
+   "quote": {
+    "text": "The less you ask it to log in for now, the better.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 33332,
+    "approx_timestamp_s": 2038
+   }
+  },
+  {
+   "warning": "Agent put the whole email body in the subject line and wrote spammy subject lines, so review drafts before sending.",
+   "quote": {
+    "text": "It put the entire email in the subject line.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17718,
+    "approx_timestamp_s": 1083
+   }
+  },
+  {
+   "warning": "Generic prompts produce generic ideas (pet sitting, dog walking); give niche reference examples.",
+   "quote": {
+    "text": "They were kind of generic, you know, pet sitting, dog washing. They weren't super niche.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 35915,
+    "approx_timestamp_s": 2195
+   }
+  },
+  {
+   "warning": "OpenAI may make Chrome extensions and apps built on its APIs irrelevant.",
+   "quote": {
+    "text": "OpenAI is slowly eating the internet.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 602,
+    "approx_timestamp_s": 36
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Specific prompts with named sources and reference examples beat generic prompts.",
+   "theme": "automation_ai",
+   "quote": {
+    "text": "me asking it to do things more specifically is another way of uploading reference data",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6190,
+    "approx_timestamp_s": 378
+   }
+  },
+  {
+   "lesson": "The value of AI outreach is the research before the email, not the sending.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "the magic is not in cold emailing. It's in all the research it's doing beforehand.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 30893,
+    "approx_timestamp_s": 1888
+   }
+  },
+  {
+   "lesson": "Sell to people who already value the thing (those with a website, clean driveways), not those who plainly need it but don't care.",
+   "theme": "niche_selection",
+   "quote": null
+  },
+  {
+   "lesson": "Use research agents to validate demand cheaply by mining reviews, Reddit and YouTube before building a product.",
+   "theme": "validation_testing",
+   "quote": null
+  },
+  {
+   "lesson": "Once you have proprietary data from an agent, keep questioning it to find which problems are widespread.",
+   "theme": "validation_testing",
+   "quote": null
+  },
+  {
+   "lesson": "Speed of adoption matters: people who automate workflows early gain a cost advantage over those treating AI as a search engine.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "the gap between the people who just get this and the people who don't is about to become as big as the Grand Canyon.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2351,
+    "approx_timestamp_s": 143
+   }
+  },
+  {
+   "lesson": "Platform risk: features absorbed by OpenAI can erase wrapper businesses.",
+   "theme": "legal_risk",
+   "quote": null
+  },
+  {
+   "lesson": "Agent tools remain slow and glitchy for multi-login tasks, so plan for human supervision.",
+   "theme": "operations",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "C",
+  "rationale": "Live demo of a tool by a host with no verified business results for these ideas; he rates outputs subjectively, and the figures are agent-found or hearsay. Hype-heavy framing, with the one first-hand business (Texas Snacks) given no numbers.",
+  "promotional_conflict": "Promotes his paid TK Owners community ($99/month) and his newsletter/podcast; says he is not sponsored by OpenAI."
+ },
+ "extraction": {
+  "model": "claude-sonnet-5-5",
+  "extracted_at": "2026-10-22T02:02:50",
+  "cost_usd": 0.1437462,
+  "quote_verification": {
+   "quotes": 30,
+   "verified": 30,
+   "rate": 1.0
+  },
+  "schema_errors": [],
+  "reviewed_by": null,
+  "review_notes": null
+ }
+}

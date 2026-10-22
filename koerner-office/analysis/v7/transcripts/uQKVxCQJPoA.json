@@ -1,0 +1,697 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "uQKVxCQJPoA",
+  "title": "Watch This Overlooked AI Tool Build Me a Business in 23 Minutes",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=uQKVxCQJPoA",
+  "upload_date": null,
+  "duration_s": 1423,
+  "view_count": null,
+  "transcript_provider": "ok",
+  "transcript_chars": 22758,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner demonstrates finding, validating and launching a business idea in one sitting using Replit Agent 3. He uses Google Trends and Google autocomplete to spot demand for free invoicing software for contractors, then vibe-codes an AI chat/email invoicing app with Stripe payment links and Resend email, and publishes it on a new domain (invoicefree.com). The app works after fixing email-domain verification, though emails land in spam. Key takeaway: search trends plus autocomplete are a cheap demand signal, and AI app builders can produce a working MVP in under an hour; Koerner says he does not plan to turn it into a business.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Host of The Koerner Office; builds the app live with Replit Agent 3"
+  }
+ ],
+ "format": "tutorial_howto",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Invoice Freely: AI chat/email invoicing for contractors",
+   "one_liner": "Free natural-language invoicing app where contractors text, email or chat a request and the customer gets an invoice with a Stripe payment link; revenue from a markup on card processing.",
+   "category": "saas_software",
+   "business_model": "Free software monetised by a markup on Stripe card processing (about 0.5% on top of Stripe's 2.9%).",
+   "customer": "Small businesses and contractors (tree trimmers, roofers, general contractors, home service businesses, gutter cleaners) who dislike filling in CRM/invoicing forms.",
+   "problem": "Invoicing software is painful and rarely industry-specific; contractors on a job site do not want to log into a CRM and fill in name, phone, email and address.",
+   "offer": "Free invoicing software where the user types or emails something like 'send an invoice for $800 to Mary Smith for tree trimming services'; the app extracts the details with OpenAI, asks for confirmation, and emails the customer an invoice with a Stripe checkout link. Includes a dashboard of invoices sent, paid and pending.",
+   "pricing": {
+    "model": "Free to users; platform earns a processing markup (e.g. 3.4% charged vs Stripe's ~2.9%); users can mark it up or pass it on",
+    "price_points": [
+     {
+      "amount": 2.9,
+      "currency": null,
+      "unit": "percent Stripe processing fee",
+      "label": "Stripe fee (approx.)"
+     },
+     {
+      "amount": 0.5,
+      "currency": null,
+      "unit": "percent markup on each payment",
+      "label": "Platform markup"
+     },
+     {
+      "amount": 1000,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "Hypothetical revenue at 100 customers"
+     }
+    ],
+    "notes": "The transcript garbles the figure ('3 12%'); read as roughly 3.4%, i.e. about half a percent on top of Stripe. Not a stated price to customers."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Host plans a lead capture / email capture / lead magnet on the site and exposure from this video; no real acquisition plan stated.",
+     "quote": {
+      "text": "I better get some sort of a lead capture, email capture, lead magnet on this because once this video goes live",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 20784,
+      "approx_timestamp_s": 1343
+     }
+    },
+    {
+     "channel": "existing_audience",
+     "details": "The YouTube audience is expected to try the app after the video goes live.",
+     "quote": null
+    }
+   ],
+   "delivery": "Software delivered as a web app on a custom domain, built with Replit Agent 3. Uses OpenAI API for natural language parsing, Stripe for payment links and Resend for transactional email. Text/SMS via Twilio was left out of the MVP because of US A2P registration (about 2 weeks).",
+   "unit_economics_claims": [
+    "Even 100 customers could be $1,000/month with almost no cost (hypothetical)",
+    "Domain cost $11",
+    "Twilio number would cost $1/month",
+    "Over 33 million small businesses need invoicing software"
+   ],
+   "tools": [
+    "Replit Agent 3",
+    "Google Trends",
+    "Google autocomplete",
+    "Stripe",
+    "Resend",
+    "OpenAI API",
+    "Namecheap",
+    "Twilio (not implemented)"
+   ],
+   "startup_cost": "About $11 for the domain plus Replit subscription and API usage (not stated); Resend free plan expected to suffice.",
+   "time_to_first_revenue": "not stated; a working MVP was built in under an hour, but no revenue and no stated plan to run it as a business",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "No acquisition plan exists yet. Inbound routes (SEO, directories, app listings, ads) could be run by agents; cold outreach to sole traders would be restricted in the UK under PECR."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Self-serve signup and chat interface; an agent can handle setup, with occasional human review."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "The product is software: OpenAI parses the request, Stripe and Resend handle payment and email. Deliverability issues (spam folder) need occasional fixes."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Stripe processes payments and the platform markup is automatic; the host would handle payouts, tax and Stripe Connect setup."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "AI support agents can field most questions, but payment disputes and failed emails need human escalation."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Software idea works in the UK with changes: Stripe supported, UK contractors and sole traders need invoices and VAT handling (Making Tax Digital), and a 0.5% markup needs Stripe Connect/payments compliance. A2P registration is US-specific; UK SMS is simpler. Market is very crowded (Xero, FreeAgent, QuickBooks, Zoho)."
+   },
+   "risks": [
+    "Crowded invoicing software market",
+    "Invoice emails from a no-reply address landed in spam",
+    "Payments markup may need Stripe Connect and regulatory compliance",
+    "Early AI-generated app had bugs (wrong $150 amount, emails not arriving)",
+    "Free pricing means revenue depends on payment volume",
+    "Host himself says he does not plan to run it as a business"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "Build me a free invoicing software for contractors where my customers can use natural language either via SMS or a chatbot window",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 3658,
+     "approx_timestamp_s": 236
+    },
+    {
+     "text": "Even if we had a 100 customers on this business, that could be $1,000 a month. That's awesome. With almost no cost.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 10294,
+     "approx_timestamp_s": 665
+    },
+    {
+     "text": "Am I planning on making this a business? No.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 20948,
+     "approx_timestamp_s": 1354
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Demand-research method: Google Trends plus autocomplete",
+   "one_liner": "Find a business idea by checking Google Trends for a rising keyword and reading Google autocomplete suffixes to see which niches have demand.",
+   "category": "other",
+   "business_model": "Not a business; a research method used to pick a product niche.",
+   "customer": "Aspiring founders looking for ideas",
+   "problem": "Finding and validating ideas with real demand",
+   "offer": "A free process: check Trends over 5 years, type the keyword plus a space into Google, and read the autocomplete suffixes (small business, free, freelancers, contractors, etc.) as signals of volume and trend.",
+   "pricing": {
+    "model": "free method",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "Manual research in Google Trends and Google search.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Google Trends",
+    "Google autocomplete"
+   ],
+   "startup_cost": "$0",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 0,
+     "how": "Not a business."
+    },
+    "onboarding": {
+     "score_e": 0,
+     "how": "Not applicable."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "An agent can pull trends and autocomplete data and shortlist niches."
+    },
+    "billing": {
+     "score_e": 0,
+     "how": "Not applicable."
+    },
+    "support": {
+     "score_e": 0,
+     "how": "Not applicable."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Google Trends and autocomplete work in the UK; use the UK region filter."
+   },
+   "risks": [
+    "Autocomplete shows interest, not willingness to pay",
+    "Demand for 'free' may not convert to revenue"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "the autocomplete tells us where the demand is. It's giving us a combo of which of these keywords have the highest search volume and which of them are trending in the right direction.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 1245,
+     "approx_timestamp_s": 80
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Invoicing software search interest has surged in Google Trends over the last year",
+   "metric": "traffic",
+   "value": {
+    "amount": null,
+    "currency": null,
+    "unit": "trend"
+   },
+   "period": "last 5 years, especially last year",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Especially over the last year, for whatever reason, invoicing software is surging.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1035,
+    "approx_timestamp_s": 66
+   }
+  },
+  {
+   "claim": "Stripe charges about 2.9% to process a card payment",
+   "metric": "cost",
+   "value": {
+    "amount": 2.9,
+    "currency": null,
+    "unit": "percent per payment"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Stripe is going to charge about 2.9% to process that credit card payment.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1963,
+    "approx_timestamp_s": 126
+   }
+  },
+  {
+   "claim": "Platform could earn about half a percent of every payment by marking up processing",
+   "metric": "margin",
+   "value": {
+    "amount": 0.5,
+    "currency": null,
+    "unit": "percent of payment volume"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So then we can make half a percent of every single scent pushed through our software",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2201,
+    "approx_timestamp_s": 142
+   }
+  },
+  {
+   "claim": "Domain invoicefree.com cost $11",
+   "metric": "cost",
+   "value": {
+    "amount": 11,
+    "currency": "USD",
+    "unit": "one-off"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "this domain name is unregistered. It's 11 bucks. I'm going to go ahead and buy it.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9790,
+    "approx_timestamp_s": 632
+   }
+  },
+  {
+   "claim": "There are 33 million small businesses that need invoicing software",
+   "metric": "customers",
+   "value": {
+    "amount": 33000000,
+    "currency": null,
+    "unit": "businesses"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "there's 33 million small businesses that all need invoicing software and most of them are not happy with it.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10047,
+    "approx_timestamp_s": 649
+   }
+  },
+  {
+   "claim": "100 customers could equal $1,000 per month",
+   "metric": "revenue",
+   "value": {
+    "amount": 1000,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "period": "monthly",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Even if we had a 100 customers on this business, that could be $1,000 a month.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10294,
+    "approx_timestamp_s": 665
+   }
+  },
+  {
+   "claim": "Twilio phone number costs $1 a month",
+   "metric": "cost",
+   "value": {
+    "amount": 1,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "period": "monthly",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "You're going to buy a phone number in Twilio for $1 a month.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8117,
+    "approx_timestamp_s": 524
+   }
+  },
+  {
+   "claim": "Replit Agent 3 runs for up to 200 minutes autonomously and claims 10x more autonomy than version two",
+   "metric": "hours",
+   "value": {
+    "amount": 200,
+    "currency": null,
+    "unit": "minutes"
+   },
+   "period": null,
+   "claimant": "Chris Koerner (relaying Replit's claim)",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "It claims to have 10 times more autonomy than version two.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3228,
+    "approx_timestamp_s": 208
+   }
+  },
+  {
+   "claim": "The app was vibe coded in under an hour",
+   "metric": "hours",
+   "value": {
+    "amount": 1,
+    "currency": null,
+    "unit": "hour (max)"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "The app works. We vibe coded it in under an hour.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21225,
+    "approx_timestamp_s": 1372
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Google Trends + autocomplete niche discovery",
+   "area": "acquisition",
+   "steps": [
+    "Search a broad product keyword in Google Trends and set the range to 5 years to confirm it is rising",
+    "Type the keyword plus a space into google.com and read the autocomplete suffixes as demand signals",
+    "Note unexpected terms (e.g. 'free') that show what buyers want",
+    "Pick a suffix that maps to a big niche (e.g. contractors) and rewrite the product idea for it"
+   ],
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "I'm going to go to google.com just to the homepage and type in invoicing software 4.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1152,
+    "approx_timestamp_s": 74
+   }
+  },
+  {
+   "name": "Monetise a free tool through payment processing markup",
+   "area": "pricing",
+   "steps": [
+    "Offer the software free",
+    "Process payments through Stripe at about 2.9%",
+    "Charge a slightly higher rate (about 3.4%) and keep the difference of about 0.5%",
+    "Let customers pass the fee on or mark it up to their clients"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Vibe-code an MVP with Replit Agent 3",
+   "area": "product",
+   "steps": [
+    "Write one clear prompt describing the product and the simplest functional version",
+    "Prepare API keys first (Stripe secret key starting SK, Stripe public key starting PK, Resend, OpenAI)",
+    "Store keys in Replit Secrets",
+    "Ask the agent to verify the keys work",
+    "Test in preview, then paste errors and observations back to the agent",
+    "Publish to the Replit domain first, then connect the custom domain via DNS records"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Let's oneshot prompt this bad boy.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6181,
+    "approx_timestamp_s": 399
+   }
+  },
+  {
+   "name": "Set up Resend with a spare domain for transactional email",
+   "area": "operations",
+   "steps": [
+    "Add a domain you own in Resend",
+    "Add the MX, TXT (SPF/DKIM) and DMARC records at your registrar's advanced DNS",
+    "Wait for verification",
+    "Set a FROM_EMAIL secret such as no-reply@verified-domain",
+    "Use a different domain from the app domain if desired, since it only sends and does not receive"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Launch an ugly MVP",
+   "area": "mindset",
+   "steps": [
+    "Start with the simplest working version (scooter, not car)",
+    "Defer things like A2P registration, logo, perfect design and business plan",
+    "Launch, then upgrade over time"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "if you're not at least a little bit embarrassed by version one of your product or service, then you probably waited too long to launch.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9304,
+    "approx_timestamp_s": 601
+   }
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Replit Agent 3",
+   "purpose": "AI vibe-coding app builder that can run autonomously for up to 200 minutes and self-test in a browser",
+   "cost_stated": null
+  },
+  {
+   "name": "Google Trends",
+   "purpose": "Check demand trend for a keyword",
+   "cost_stated": "free"
+  },
+  {
+   "name": "Stripe",
+   "purpose": "Payment links and card processing",
+   "cost_stated": "about 2.9% per payment"
+  },
+  {
+   "name": "Resend",
+   "purpose": "Transactional email API",
+   "cost_stated": "free plan likely sufficient"
+  },
+  {
+   "name": "OpenAI API",
+   "purpose": "Natural language parsing of invoice requests",
+   "cost_stated": null
+  },
+  {
+   "name": "Twilio",
+   "purpose": "SMS integration (not built in the MVP)",
+   "cost_stated": "$1/month per phone number"
+  },
+  {
+   "name": "Namecheap",
+   "purpose": "Domain registration and DNS",
+   "cost_stated": "$11 for invoicefree.com"
+  },
+  {
+   "name": "ChatGPT",
+   "purpose": "Help with API setup steps",
+   "cost_stated": null
+  },
+  {
+   "name": "TK Owners",
+   "purpose": "Host's community of founders, including a pod for vibe coders (promotion)",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Asking an AI builder for many things at once used to lead to hallucinations and partial work; Replit now queues prompts and limits this.",
+   "quote": {
+    "text": "It used to get tripped up because people such as myself would ask it to do like seven things all in a row.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6400,
+    "approx_timestamp_s": 413
+   }
+  },
+  {
+   "warning": "Resend will not send from an unverified domain; the invoice email failed until DNS records were added and a verified FROM address was set.",
+   "quote": {
+    "text": "this domain isn't verified with resend.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13588,
+    "approx_timestamp_s": 878
+   }
+  },
+  {
+   "warning": "In the US, texting customers, including transactional texts, requires A2P registration that takes about 2 weeks.",
+   "quote": {
+    "text": "here in the United States, they have what's called A2P registration that takes about 2 weeks.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7588,
+    "approx_timestamp_s": 490
+   }
+  },
+  {
+   "warning": "Invoices sent from a generic no-reply address landed in spam, and Resend advises that open tracking can reduce deliverability.",
+   "quote": {
+    "text": "It's in my spam.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20519,
+    "approx_timestamp_s": 1326
+   }
+  },
+  {
+   "warning": "Waiting for a perfect launch (design, logo, marketing plan) means you may never launch.",
+   "quote": null
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Google Trends plus autocomplete gives a quick, free signal of both demand and which niche to target.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "the autocomplete tells us where the demand is.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1245,
+    "approx_timestamp_s": 80
+   }
+  },
+  {
+   "lesson": "A crowded market can still be worth entering if it is large and customers are unhappy; a vertical focus gives a way to stand out.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "Huge market means huge demand and more surface area for being able to stand out.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10184,
+    "approx_timestamp_s": 658
+   }
+  },
+  {
+   "lesson": "'Free' demand can be monetised indirectly, for example by taking a small cut of payment flow.",
+   "theme": "finance_unit_economics",
+   "quote": null
+  },
+  {
+   "lesson": "Ship an ugly MVP quickly instead of polishing; friction before launch kills projects.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "we're in the business of launching fast, moving fast and breaking things.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9110,
+    "approx_timestamp_s": 588
+   }
+  },
+  {
+   "lesson": "Choose a name that is broad, easy to spell and says what you do so it does not box you into a sub-niche.",
+   "theme": "offer_design",
+   "quote": null
+  },
+  {
+   "lesson": "AI app builders now handle full-stack MVPs with payments and email, but integration plumbing (DNS, email auth, spam) still needs human debugging.",
+   "theme": "automation_ai",
+   "quote": null
+  },
+  {
+   "lesson": "Feeding observations from third-party dashboards (e.g. Resend queue status) back to the AI agent speeds up debugging.",
+   "theme": "automation_ai",
+   "quote": null
+  },
+  {
+   "lesson": "Keep the human confirmation step on money-related AI actions such as sending invoices.",
+   "theme": "operations",
+   "quote": {
+    "text": "I kind of like confirming it.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12300,
+    "approx_timestamp_s": 795
+   }
+  }
+ ],
+ "evidence_quality": {
+  "rating": "C",
+  "rationale": "This is a live product demo rather than a validated business. The host says he does not plan to run the app as a business, there is no customer, revenue or conversion data, and the economics are hypothetical. The tool demo itself is first-hand and credible, but the market 'validation' is only search-trend evidence.",
+  "promotional_conflict": "Promotes his TK Owners community and Replit (says it is not an ad, but it is a product showcase); asks viewers to subscribe."
+ },
+ "extraction": {
+  "model": "claude-sonnet-5-5",
+  "extracted_at": "2026-10-22T02:02:07",
+  "cost_usd": 0.0690635,
+  "quote_verification": {
+   "quotes": 25,
+   "verified": 25,
+   "rate": 1.0
+  },
+  "schema_errors": [],
+  "reviewed_by": null,
+  "review_notes": null
+ }
+}
