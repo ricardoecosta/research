@@ -1,0 +1,260 @@
+{
+ "scores": [
+  {
+   "cid": "C0048",
+   "automation": {
+    "acquisition": {
+     "score": 4,
+     "why": "Purely inbound via the YouTube algorithm and search, so no PECR issue. Fully dependent on one platform's recommendation system."
+    },
+    "onboarding": {
+     "score": 5,
+     "why": "There are no customers to onboard; viewers self-serve."
+    },
+    "delivery": {
+     "score": 3,
+     "why": "Agents can script, voice, edit and generate thumbnails. A human should still check quality, facts and policy compliance to avoid 'inauthentic/repetitive content' demonetisation [E]."
+    },
+    "billing": {
+     "score": 5,
+     "why": "AdSense/YPP and affiliate networks pay automatically."
+    },
+    "support": {
+     "score": 4,
+     "why": "Only comment moderation is needed, and agents can handle most of it."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 3,
+   "R_why": "Cheap to test within £300 using AI tools, and it suits a technical part-timer. However, YPP thresholds (1,000 subs plus watch hours) mean months with no income, and YouTube's 2025+ policy on mass-produced AI content is a real monetisation risk. UK operation is fine.",
+   "M_headroom": 1,
+   "M_why": "Faceless AI channels are among the most saturated and commoditised hustles of 2026. Many niches are flooded, platforms are labelling or demonetising low-effort AI content, and the only first-hand claims concern tool speed, not revenue.",
+   "E_adjust": -1,
+   "one_line": "Highly automatable and cheap to test, but the market is saturated, YouTube can demonetise AI slop at will, and nobody showed earnings, so it is a lottery ticket rather than a business [E]."
+  },
+  {
+   "cid": "C0056",
+   "automation": {
+    "acquisition": {
+     "score": 3,
+     "why": "Google Ads, SEO city pages, Google Business Profile and Facebook ads are all inbound and legal. Ad spend management needs human budget approval, and a GBP generally needs a verifiable local presence."
+    },
+    "onboarding": {
+     "score": 3,
+     "why": "Instant online quote and booking software (Zenbooker-style) can capture jobs. Scoping odd jobs such as tree work or junk removal still needs photos and human judgement."
+    },
+    "delivery": {
+     "score": 1,
+     "why": "Physical work is done by subcontractors. Recruiting, vetting insurance and waste-carrier licences, and quality control need a human."
+    },
+    "billing": {
+     "score": 4,
+     "why": "Stripe deposits and subcontractor payouts can be automated, but disputes and refunds need human review."
+    },
+    "support": {
+     "score": 1,
+     "why": "No-shows, damage complaints, rescheduling and angry homeowners are frequent and need a human at short notice. This clashes with 6-8 hours a week."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 2,
+   "R_why": "The model is well proven (several first-hand operators), but a £300 budget barely buys a week of London Google Ads at £5-15 per click [E]. Building a reliable insured subcontractor bench in Bromley takes time, and Ricardo carries legal and consumer liability (CRA 2015, waste duty of care) for others' work. Support load does not fit toddler hours.",
+   "M_headroom": 3,
+   "M_why": "UK local services are fragmented, with demand that will not be replaced by AI. However, Checkatrade, MyBuilder, Bark and franchise players compete for the same paid keywords, so CPC margin squeeze is real.",
+   "E_adjust": 0,
+   "one_line": "A genuinely profitable, well-evidenced model that AI can help sell and dispatch, but physical delivery and complaint handling make it a people business, not an agent-run one."
+  },
+  {
+   "cid": "C0204",
+   "automation": {
+    "acquisition": {
+     "score": 2,
+     "why": "The examples rely on referrals and free friend builds. Cold email to limited companies is legal but low-converting, and sole-trader creators cannot be cold-messaged. Content or SEO inbound is possible but slow."
+    },
+    "onboarding": {
+     "score": 3,
+     "why": "Agents can ingest a client's content and tone, but the setup call, approvals and connecting their accounts need human touchpoints."
+    },
+    "delivery": {
+     "score": 4,
+     "why": "n8n plus an LLM pipeline runs scheduled generation unattended. Workflows break and clients want edits, so routine checks are needed."
+    },
+    "billing": {
+     "score": 5,
+     "why": "Stripe retainer subscriptions."
+    },
+    "support": {
+     "score": 2,
+     "why": "Retainer clients expect revisions, voice tweaks and fixes for broken integrations. This is service-business support."
+    }
+   },
+   "legal_acquisition": "b2b_cold_email_ok",
+   "R_realism": 3,
+   "R_why": "Ricardo has the technical skills and the build cost is tiny. However, selling a £2k setup plus £300-800 a month retainer needs sales calls and trust. Income figures are hypothetical, and the 6-8 hours a week limit caps client count.",
+   "M_headroom": 1,
+   "M_why": "Repurposing SaaS (Opus Clip, Castmagic, Taplio, native LinkedIn and ChatGPT features) does this for £20-50 a month, and 'AI automation agency' is a crowded 2025-26 trope. Clients can increasingly DIY it.",
+   "E_adjust": -1,
+   "one_line": "Easy for Ricardo to build but hard to sell; it is a commoditised AI-agency service competing with cheap SaaS, with hypothetical pricing and one tutorial-grade source [E]."
+  },
+  {
+   "cid": "C0008",
+   "automation": {
+    "acquisition": {
+     "score": 4,
+     "why": "Amazon search plus PPC is inbound and legal. It is fully platform-dependent and increasingly pay-to-play."
+    },
+    "onboarding": {
+     "score": 4,
+     "why": "Customers self-serve on Amazon or Shopify."
+    },
+    "delivery": {
+     "score": 1,
+     "why": "Physical goods. FBA handles fulfilment, but sourcing, samples, QC, UKCA/GPSR compliance, freight and customs need human decisions."
+    },
+    "billing": {
+     "score": 5,
+     "why": "Amazon or Shopify collect payment and remit automatically."
+    },
+    "support": {
+     "score": 3,
+     "why": "FBA handles returns. Seller messages and account-health issues need periodic human attention."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 1,
+   "R_why": "£300 cannot fund a 100-unit MOQ plus freight, duty, VAT, FBA fees and a PPC launch (realistic minimum £2-5k [E]). UK GPSR and UKCA product-safety obligations and inventory risk weigh heavily on a part-timer.",
+   "M_headroom": 1,
+   "M_why": "Sources themselves call Amazon pay-to-play and capital-intensive. Copycat private label is saturated, with Temu and Shein undercutting and margins of 20-30% before ads.",
+   "E_adjust": 0,
+   "one_line": "Proven in the past and well documented, but capital-heavy, physical and saturated in 2026, so it does not fit a £300, agent-run UK test."
+  },
+  {
+   "cid": "C0038",
+   "automation": {
+    "acquisition": {
+     "score": 2,
+     "why": "Selling on eBay or Facebook Marketplace is inbound. Sourcing relies on rapid unsolicited messages to private sellers via scraping, which breaches Meta ToS and needs a human. Buyer-side demand is platform-dependent."
+    },
+    "onboarding": {
+     "score": 4,
+     "why": "Marketplace buyers self-serve."
+    },
+    "delivery": {
+     "score": 0,
+     "why": "Physically collecting, inspecting, storing and shipping items is human work every time."
+    },
+    "billing": {
+     "score": 4,
+     "why": "eBay managed payments are automatic. Local cash or bank-transfer purchases are manual."
+    },
+    "support": {
+     "score": 2,
+     "why": "Returns, 'not as described' claims and haggling need human handling."
+    }
+   },
+   "legal_acquisition": "doubtful",
+   "R_realism": 1,
+   "R_why": "Scraping Facebook Marketplace breaches Meta terms and risks account bans. The model needs fast physical pickups in London, which is incompatible with toddler hours, and the sources are untested demos with hypothetical numbers.",
+   "M_headroom": 2,
+   "M_why": "Flipping competition is intense and bots are increasingly common. Anti-scraping measures tighten over time, and margins after eBay fees and travel are thin.",
+   "E_adjust": -1,
+   "one_line": "The automation is only in the finding; the money still requires driving around London collecting goods, and the sourcing method breaches platform ToS. The evidence is tutorial demos, not businesses."
+  },
+  {
+   "cid": "C0124",
+   "automation": {
+    "acquisition": {
+     "score": 4,
+     "why": "Traffic comes from Amazon product-page carousels and YouTube, which is inbound and legal. It is heavily dependent on Amazon's opaque placement."
+    },
+    "onboarding": {
+     "score": 5,
+     "why": "There are no clients; Amazon handles shoppers."
+    },
+    "delivery": {
+     "score": 1,
+     "why": "Filming physical products with a person on camera is manual. AI helps with scripts, editing and cross-posting, but each video still needs Ricardo's hands and the product."
+    },
+    "billing": {
+     "score": 5,
+     "why": "Amazon Associates and Creator Connections pay automatically."
+    },
+    "support": {
+     "score": 4,
+     "why": "Minimal. Occasional video rejections and gifted-product disclosure checks."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 3,
+   "R_why": "The cost is near zero using household items, so it fits £300. However, UK program scale, campaigns and commissions are smaller than the US, and video volume takes Ricardo's own filming time. The $20k a month figure is an outlier; typical results are heavily skewed.",
+   "M_headroom": 2,
+   "M_why": "Carousel slots are limited (about six per listing) and increasingly contested. Amazon has repeatedly cut commissions and removed related-sale credit, and AI-generated video may soon compete.",
+   "E_adjust": 0,
+   "one_line": "A cheap, legal and inbound side income with real practitioner evidence, but filming is irreducibly manual and Amazon UK commission and placement risk is high, so it does not suit an agent-run business."
+  },
+  {
+   "cid": "C0160",
+   "automation": {
+    "acquisition": {
+     "score": 3,
+     "why": "SEO, organic social content and paid creator content are inbound and legal (creator DMs to UK individuals need care). Employer-side sales may use B2B cold email to limited companies."
+    },
+    "onboarding": {
+     "score": 5,
+     "why": "Self-serve signup and Stripe paywall, or self-serve employer posting."
+    },
+    "delivery": {
+     "score": 4,
+     "why": "Scraping, deduplication and freshness checks plus listing moderation can run on agents. Occasional human spam and scam checks are needed."
+    },
+    "billing": {
+     "score": 5,
+     "why": "Stripe subscriptions or per-posting fees."
+    },
+    "support": {
+     "score": 3,
+     "why": "Refunds, churn queries and employer listing issues are mostly agent-handleable with escalation."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 3,
+   "R_why": "A strong fit for Ricardo's skills, and an MVP is buildable under £300. However, the UK Employment Agencies Act and Conduct Regulations restrict charging job seekers for work-finding services, so the CareerHound-style seeker paywall is legally risky in the UK [E]. The model would need to monetise employers in a niche (e.g. rural, equestrian or estate jobs), which takes SEO time to build liquidity. Scraping rights and UK GDPR must also be checked.",
+   "M_headroom": 3,
+   "M_why": "Indeed, LinkedIn and Google dominate generic search, but tight UK niches remain underserved and SEO-winnable. AI search answers threaten organic traffic somewhat.",
+   "E_adjust": 0,
+   "one_line": "One of the most agent-runnable models here with multiple first-hand operators, but the UK version must charge employers rather than seekers and win a narrow niche via slow SEO [E]."
+  },
+  {
+   "cid": "C0309",
+   "automation": {
+    "acquisition": {
+     "score": 4,
+     "why": "Google Business Profile, SEO and marketplaces (Facebook, peer-to-peer hire) are inbound and legal."
+    },
+    "onboarding": {
+     "score": 5,
+     "why": "Online booking, e-signed agreement, ID and insurance upload, and lockbox code by text are software-driven."
+    },
+    "delivery": {
+     "score": 1,
+     "why": "Physical asset. Lot checks, cleaning, maintenance, damage inspection and theft recovery need humans."
+    },
+    "billing": {
+     "score": 4,
+     "why": "Automated deposits and day rates. Damage claims need human handling."
+    },
+    "support": {
+     "score": 2,
+     "why": "Breakdowns, towing problems and damage disputes need someone available."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 0,
+   "R_why": "It requires roughly £25-30k of trailers plus a secure lot, and London-area land is expensive, which is far beyond £300. UK B/B+E towing limits shrink demand, insurance is costly, and theft risk in London is high.",
+   "M_headroom": 3,
+   "M_why": "Local trailer hire is fragmented, with little digital competition beyond hire shops, and AI cannot substitute for it. However, it is limited by UK licence rules and local demand.",
+   "E_adjust": 0,
+   "one_line": "An elegant, largely contactless model with genuine first-hand numbers, but it is capital-heavy, physical and land-dependent, so it is a non-starter on a £300 budget near London."
+  }
+ ]
+}

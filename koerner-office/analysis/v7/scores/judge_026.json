@@ -1,0 +1,260 @@
+{
+ "scores": [
+  {
+   "cid": "C0451",
+   "automation": {
+    "acquisition": {
+     "score": 1,
+     "why": "There are two sides to win. Buyers come from wanted ads, which means messaging consumers or sole traders, and PECR blocks that without consent. Sellers are individuals as well. Cold email would only be legal for limited-company dealerships. The only inbound route is a paid lead-alert signup page [E]."
+    },
+    "onboarding": {
+     "score": 3,
+     "why": "Buyer criteria could be captured with a form."
+    },
+    "delivery": {
+     "score": 3,
+     "why": "Agents could scrape listings and match them to buyers. UK platforms like Gumtree, eBay, Facebook Marketplace and AutoTrader restrict scraping by their terms, and checking lead quality needs human spot checks."
+    },
+    "billing": {
+     "score": 4,
+     "why": "Stripe can charge per lead or by subscription."
+    },
+    "support": {
+     "score": 2,
+     "why": "Buyers will dispute leads that turn out sold, duplicated or invalid."
+    }
+   },
+   "legal_acquisition": "doubtful",
+   "R_realism": 2,
+   "R_why": "There is no Craigslist-style wanted-ad culture in the UK. Scraping breaches platform terms. The $5 per lead price is hypothetical and comes from one source. It is cheap to test, but the legal route to customers is weak.",
+   "M_headroom": 2,
+   "M_why": "Flippers can set up their own saved-search alerts and AI scrapers. AutoTrader and Motorway already serve the car side.",
+   "E_adjust": -1,
+   "one_line": "This is a hypothetical brainstorm from one video. Getting customers legally in the UK and scraping under platform terms are both blockers, and buyers can easily do it themselves with alerts."
+  },
+  {
+   "cid": "C0227",
+   "automation": {
+    "acquisition": {
+     "score": 3,
+     "why": "Amazon and paid social are inbound, but standing out in the category costs a lot of ad money."
+    },
+    "onboarding": {
+     "score": 5,
+     "why": "It is ecommerce checkout."
+    },
+    "delivery": {
+     "score": 1,
+     "why": "It needs physical manufacturing through a co-packer, plus inventory and fulfilment (FBA could help)."
+    },
+    "billing": {
+     "score": 5,
+     "why": "Handled by the platform."
+    },
+    "support": {
+     "score": 3,
+     "why": "Agents can answer routine enquiries. Product complaints and food safety issues need a human."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 1,
+   "R_why": "Co-packer minimum orders, UK and Food Standards Agency labelling, high-caffeine warnings and the UK under-16 sales restrictions make £300 nowhere near enough. A powdered version needs food-business registration [E].",
+   "M_headroom": 1,
+   "M_why": "The category is extremely saturated, with Monster, Red Bull, Prime and many powder brands.",
+   "E_adjust": -1,
+   "one_line": "This is a capital-heavy, regulated and saturated physical product with no evidence of real sales. It is a poor fit."
+  },
+  {
+   "cid": "C0431",
+   "automation": {
+    "acquisition": {
+     "score": 3,
+     "why": "Customers could come through SEO and content aimed at founders and local-market research, or a listing on Apify or another marketplace. That makes it inbound, but it depends on those platforms."
+    },
+    "onboarding": {
+     "score": 4,
+     "why": "Self-serve signup."
+    },
+    "delivery": {
+     "score": 4,
+     "why": "The Places API plus an LLM pipeline could run without supervision. The Google Maps Platform terms limit storing and caching data, which needs checking."
+    },
+    "billing": {
+     "score": 4,
+     "why": "Stripe subscriptions or credits."
+    },
+    "support": {
+     "score": 3,
+     "why": "Mostly handled by agents."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 3,
+   "R_why": "It matches Ricardo's technical skills and could be built for under £300 plus API costs. Willingness to pay among would-be founders is unproven, and Google API costs and terms are a risk.",
+   "M_headroom": 2,
+   "M_why": "There are many Apify Google Maps scrapers and review-analytics SaaS products, and general AI agents can increasingly do this on request. It needs a narrow UK niche to stand out.",
+   "E_adjust": -1,
+   "one_line": "This is technically ideal for an agent-run business, but it is only a brainstorm with no evidence anyone will pay. It also faces commoditisation and Google terms-of-service risk; a UK-niche Apify actor could be a cheap test [E]."
+  },
+  {
+   "cid": "C0744",
+   "automation": {
+    "acquisition": {
+     "score": 3,
+     "why": "Customers come inbound through social content and Shopify. That content needs a credible personal story."
+    },
+    "onboarding": {
+     "score": 4,
+     "why": "Ecommerce checkout and a course portal."
+    },
+    "delivery": {
+     "score": 1,
+     "why": "Machines and refills have to be shipped and warranty replacements handled. Fulfilment could be outsourced."
+    },
+    "billing": {
+     "score": 5,
+     "why": "Shopify handles it."
+    },
+    "support": {
+     "score": 2,
+     "why": "Machine problems and coaching a community need a human."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 2,
+   "R_why": "Stocking machines costs far more than £300 and margins are only about 30%. The lifetime warranty is a liability, and the founder's own magnet-business story drives demand. It could be tested as dropship or pre-order [E].",
+   "M_headroom": 2,
+   "M_why": "Machines from Amazon and AliExpress, plus copycats, cap prices. There is a UK craft-business niche, but it is small.",
+   "E_adjust": 0,
+   "one_line": "This is a physical, support-heavy product whose sales depend on an operator's personal brand. It is not agent-friendly."
+  },
+  {
+   "cid": "C0986",
+   "automation": {
+    "acquisition": {
+     "score": 3,
+     "why": "Facebook ads, SEO and B2B cold email to agencies that are limited companies are all workable channels."
+    },
+    "onboarding": {
+     "score": 3,
+     "why": "Self-serve membership, though link strategy needs some guidance."
+    },
+    "delivery": {
+     "score": 2,
+     "why": "Supplier sourcing, quality checks, chasing placements and checking links stay live all need humans or brokers."
+    },
+    "billing": {
+     "score": 4,
+     "why": "Stripe subscriptions and per-placement orders."
+    },
+    "support": {
+     "score": 2,
+     "why": "Disputes over link quality and removed links are frequent."
+    }
+   },
+   "legal_acquisition": "b2b_cold_email_ok",
+   "R_realism": 2,
+   "R_why": "It is cheap to test with a fake-door funnel, but building trusted supplier inventory takes time. Paid links break Google's spam policies, which creates reputation risk and a vague product.",
+   "M_headroom": 1,
+   "M_why": "There are many incumbents, such as Collaborator, Adsy and PRposting, and AI-search changes are reducing the value of links. The space is saturated and low-trust.",
+   "E_adjust": -1,
+   "one_line": "The only evidence is a pre-product $1 trial funnel whose buyers were refunded. It sits in a saturated, policy-risky, supplier-heavy market, which makes it a weak fit."
+  },
+  {
+   "cid": "C0399",
+   "automation": {
+    "acquisition": {
+     "score": 2,
+     "why": "Sales come through farmers' markets, farm partnerships and online kits. Selling to farms involves relationships."
+    },
+    "onboarding": {
+     "score": 3,
+     "why": "Ordering is simple."
+    },
+    "delivery": {
+     "score": 0,
+     "why": "It is lab and grow-room production with a risk of contamination."
+    },
+    "billing": {
+     "score": 5,
+     "why": "Standard."
+    },
+    "support": {
+     "score": 2,
+     "why": "Customers need help with growing problems."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 1,
+   "R_why": "It needs a facility, sterile process and daily attention. That is impossible at 6-8 hours a week with a toddler and £300.",
+   "M_headroom": 2,
+   "M_why": "There are established UK suppliers, such as Merlin and GroCycle-type kits.",
+   "E_adjust": 0,
+   "one_line": "This is a physical manufacturing business with daily hands-on production, which is incompatible with an agent-run part-time model."
+  },
+  {
+   "cid": "C0510",
+   "automation": {
+    "acquisition": {
+     "score": 3,
+     "why": "Customers came from YouTube tutorials and a newsletter, which is inbound. The original depended on on-camera personalities."
+    },
+    "onboarding": {
+     "score": 4,
+     "why": "Ecommerce checkout."
+    },
+    "delivery": {
+     "score": 1,
+     "why": "Fabric must be cut and shipped, from stock or through a dropship supplier."
+    },
+    "billing": {
+     "score": 5,
+     "why": "Shopify handles it."
+    },
+    "support": {
+     "score": 3,
+     "why": "Order queries can be handled by agents."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 2,
+   "R_why": "The $20M is a one-off, first-hand outlier built from 2008-era YouTube and a family business with lots of staff. Fabric stock costs far more than £300. A UK version could try dropship or affiliate content.",
+   "M_headroom": 2,
+   "M_why": "UK craft ecommerce is mature (Hobbycraft, Amazon, many independent shops) and deal sites are fading. Missouri Star itself ships here.",
+   "E_adjust": 0,
+   "one_line": "This is a real success story, but it rests on a physical inventory business and timing that cannot be repeated. It is a poor match for agents; at most it could be a quilting content and affiliate play [E]."
+  },
+  {
+   "cid": "C0778",
+   "automation": {
+    "acquisition": {
+     "score": 3,
+     "why": "Customers come through paid social, YouTube and Amazon, all inbound. Retail buyer deals need a human."
+    },
+    "onboarding": {
+     "score": 4,
+     "why": "Ecommerce checkout."
+    },
+    "delivery": {
+     "score": 1,
+     "why": "It is a physical product needing manufacturing and FBA or a 3PL."
+    },
+    "billing": {
+     "score": 4,
+     "why": "Platform billing."
+    },
+    "support": {
+     "score": 3,
+     "why": "Routine enquiries."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 2,
+   "R_why": "Private-label stock on Amazon UK is possible but would cost about £1-3k in stock and ads [E]. The Walmart story is a US-specific lucky break.",
+   "M_headroom": 1,
+   "M_why": "Tongue scrapers are a commodity on Amazon with heavy price competition.",
+   "E_adjust": -1,
+   "one_line": "This is a second-hand viral anecdote ($28 ad led to a $2M order) about a commodity physical product. It is not repeatable or agent-friendly."
+  }
+ ]
+}

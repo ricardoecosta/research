@@ -1,0 +1,260 @@
+{
+ "scores": [
+  {
+   "cid": "C0046",
+   "automation": {
+    "acquisition": {
+     "score": 3,
+     "why": "Inbound only: SEO, Etsy/Gumroad marketplace search and paid ads are all legal. Agents can produce SEO pages and run ad variants. Ad spend and marketplace listings still need human approval, and organic SEO takes months to rank [E]."
+    },
+    "onboarding": {
+     "score": 5,
+     "why": "Checkout plus an instant download link. No human needed."
+    },
+    "delivery": {
+     "score": 4,
+     "why": "AI can draft PDFs. Ricardo needs a quick quality and accuracy check, especially on health, finance or fitness topics that carry liability."
+    },
+    "billing": {
+     "score": 5,
+     "why": "Stripe, Gumroad or Etsy handle payment and VAT/MOSS-style digital tax."
+    },
+    "support": {
+     "score": 4,
+     "why": "Mostly download issues and refund requests. UK consumer digital-content rules apply. An agent can handle these with occasional escalation."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 3,
+   "R_why": "Very cheap to test within £300 using Etsy/Gumroad and small ad tests, and it fits 6-8 h/week. Weaknesses: there is no audience, paid ads on $19 products rarely break even, and SEO is slow [E].",
+   "M_headroom": 1,
+   "M_why": "Generic how-to guides are heavily commoditised by free AI answers and a flood of AI-generated ebooks on marketplaces. Headroom remains only in tight niches.",
+   "E_adjust": -1,
+   "one_line": "Trivially automatable and cheap to test, but the 7 videos contain no first-hand revenue, only hypothetical or anecdotal claims. ChatGPT substitutes for most generic guides, so expect low, sporadic sales [E]."
+  },
+  {
+   "cid": "C1094",
+   "automation": {
+    "acquisition": {
+     "score": 4,
+     "why": "App Store search plus agent-written SEO guides is a legal, mostly unattended inbound loop. It depends on Google and Apple algorithms."
+    },
+    "onboarding": {
+     "score": 5,
+     "why": "Self-serve install with a freemium paywall."
+    },
+    "delivery": {
+     "score": 4,
+     "why": "On-device software with no servers. iOS updates, App Review and bug fixes need periodic human approval."
+    },
+    "billing": {
+     "score": 5,
+     "why": "Apple in-app purchases handle billing and tax."
+    },
+    "support": {
+     "score": 4,
+     "why": "Agent-answerable FAQ. The no-recovery policy will create some angry users who need templated responses."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 3,
+   "R_why": "Ricardo is technical and coding agents make an MVP feasible in weeks. The £79/yr Apple developer fee fits the £300 budget, but he needs a Mac and an iPhone [E]. Encryption apps carry UK Investigatory Powers Act and App Review risk, and security bugs are reputationally fatal.",
+   "M_headroom": 2,
+   "M_why": "A crowded category with long-established vault apps and iOS's built-in hidden/locked albums. The keyword-SEO playbook is copyable.",
+   "E_adjust": -1,
+   "one_line": "The most agent-friendly model in this batch (app plus daily auto-SEO). However, the $2-3k/day claim comes from one promotional Starter Story video with garbled figures, so treat it as an outlier [E]."
+  },
+  {
+   "cid": "C0090",
+   "automation": {
+    "acquisition": {
+     "score": 2,
+     "why": "App store discovery is hit-driven. The proven tactic is human-run Reddit community posting, and paid user acquisition is expensive. All of it is legal inbound, but none of it is reliable for agents."
+    },
+    "onboarding": {
+     "score": 5,
+     "why": "Free install."
+    },
+    "delivery": {
+     "score": 3,
+     "why": "Software runs unattended, but retention needs live-ops, content updates, balancing and art assets. The founder reports about $500/month in freelancer and subscription costs."
+    },
+    "billing": {
+     "score": 5,
+     "why": "App store in-app purchases."
+    },
+    "support": {
+     "score": 3,
+     "why": "Community management on Discord and Reddit plus bug reports needs a human presence."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 2,
+   "R_why": "Technically buildable with AI tools. Game design and retention tuning, however, are craft- and time-intensive, and 6-8 h/week rarely produces a hit. Children's games add Age Appropriate Design Code obligations.",
+   "M_headroom": 1,
+   "M_why": "An extremely saturated market made worse by an AI-built game flood. Discovery is dominated by paid user acquisition and short video, and the Draw Something example is from 2012.",
+   "E_adjust": 0,
+   "one_line": "Evidence is mixed: an old mega-hit plus one indie idle game. This is a lottery-like, attention-hungry business that needs ongoing creative live-ops, so it is a poor fit for an approve-only, agent-run setup."
+  },
+  {
+   "cid": "C0663",
+   "automation": {
+    "acquisition": {
+     "score": 4,
+     "why": "Paid Meta lead ads into Beehiiv are legal and consent-based, and agents can iterate creatives. It depends on Meta and Beehiiv, and spend needs approval."
+    },
+    "onboarding": {
+     "score": 5,
+     "why": "Signup and Boost recommendations are automatic."
+    },
+    "delivery": {
+     "score": 3,
+     "why": "Earnings still need a real newsletter people open, or Boost clawbacks kick in for low-quality subscribers. AI can draft issues, but someone must check quality and engagement."
+    },
+    "billing": {
+     "score": 5,
+     "why": "Beehiiv Boost escrow pays out automatically."
+    },
+    "support": {
+     "score": 4,
+     "why": "Minimal support: unsubscribes and the odd reply."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 2,
+   "R_why": "£300 buys only about 200-250 subscribers at roughly $1.45 each, and the claimed immediate recovery is only 65c. Payback depends on later monetisation that needs list scale and months of content, so the test budget is far too small to validate it [E].",
+   "M_headroom": 2,
+   "M_why": "An arbitrage window that is narrowing. Boost buyers tighten quality checks, CPMs rise, and many operators run the same playbook.",
+   "E_adjust": 0,
+   "one_line": "Highly automatable plumbing, but it loses money upfront by the operator's own honest numbers. Breakeven relies on ad and sponsor revenue at scale, so it is under-capitalised for a £300 test [E]."
+  },
+  {
+   "cid": "C0018",
+   "automation": {
+    "acquisition": {
+     "score": 2,
+     "why": "Every example sells to an existing newsletter or YouTube audience. Without one, it needs slow content building or costly ads. Consented email lists are legal."
+    },
+    "onboarding": {
+     "score": 4,
+     "why": "Stripe link to Skool or Drive access is mostly automatic, though communities need a welcome step."
+    },
+    "delivery": {
+     "score": 4,
+     "why": "Recorded content is static once made, but creating credible expert content and any live AMAs needs Ricardo himself."
+    },
+    "billing": {
+     "score": 5,
+     "why": "Stripe or course platforms."
+    },
+    "support": {
+     "score": 3,
+     "why": "Community questions, refunds and lifetime-update promises need human attention."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 2,
+   "R_why": "Ricardo has no audience or known expertise brand. Building one takes far more than 6-8 h/week, and agents cannot fake genuine expertise or trust.",
+   "M_headroom": 2,
+   "M_why": "Course fatigue is widespread and AI tutors substitute for much of the content. Only authority creators sell well.",
+   "E_adjust": 0,
+   "one_line": "Real first-hand sales, but every success rides on an existing audience. For a faceless, no-audience UK founder the binding constraint is distribution, which agents cannot shortcut."
+  },
+  {
+   "cid": "C1098",
+   "automation": {
+    "acquisition": {
+     "score": 3,
+     "why": "SEO, content and legal cold email to limited companies are agent-friendly. The founder says self-serve SEO demand is declining, and partnerships and conferences need a human."
+    },
+    "onboarding": {
+     "score": 3,
+     "why": "Self-serve for small plans. Higher tiers expect white-glove setup and 90-day maintenance."
+    },
+    "delivery": {
+     "score": 4,
+     "why": "Software with LLM APIs. It needs reliability monitoring and model and cost management."
+    },
+    "billing": {
+     "score": 5,
+     "why": "Stripe subscriptions."
+    },
+    "support": {
+     "score": 3,
+     "why": "B2B customers expect responsive support and accuracy tuning. It can be partly agent-handled but escalations are real."
+    }
+   },
+   "legal_acquisition": "b2b_cold_email_ok",
+   "R_realism": 2,
+   "R_why": "Technically within reach, but B2B SaaS needs reliability, security and UK GDPR processor terms (DPA) plus sales effort. Competing as a solo 6 h/week founder is very hard [E].",
+   "M_headroom": 1,
+   "M_why": "Intensely crowded: Intercom Fin, Zendesk AI, Chatbase and many clones. Vibe-coded DIY already causes 13% of cancellations and self-serve demand has dried up.",
+   "E_adjust": 0,
+   "one_line": "Credible first-hand metrics from DocsBot, a 2023-era early mover. The category is now commoditised and support-heavy, so it is unattractive for a new part-time UK entrant."
+  },
+  {
+   "cid": "C0106",
+   "automation": {
+    "acquisition": {
+     "score": 3,
+     "why": "The WordPress.org free directory, SEO content and an affiliate programme are legal inbound channels. Launch success, however, leaned heavily on the founder's existing audience."
+    },
+    "onboarding": {
+     "score": 5,
+     "why": "Plugin install plus licence key via Freemius or EDD."
+    },
+    "delivery": {
+     "score": 4,
+     "why": "Software, but it needs ongoing compatibility updates for WordPress, PHP and themes. Agents can do most of this with human review."
+    },
+    "billing": {
+     "score": 5,
+     "why": "Licensing platforms handle billing and VAT."
+    },
+    "support": {
+     "score": 3,
+     "why": "Plugin conflicts and site-specific bugs need technical triage."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 3,
+   "R_why": "A good fit for Ricardo's technical skills, and coding agents make an MVP feasible within £300. It still needs a sharp niche, and without an audience the free-directory funnel is slow.",
+   "M_headroom": 2,
+   "M_why": "WordPress SEO tooling is crowded (Yoast, Rank Math, Link Whisper itself), and SEO plugins face AI-search disruption. Narrow unmet plugin niches still exist [E].",
+   "E_adjust": 0,
+   "one_line": "Five videos but all from one founder and channel (Spencer Haws, Niche Pursuits) telling one well-documented exit. The model, a free directory listing upselling to paid, is agent-friendly. The open question is finding a niche without his audience."
+  },
+  {
+   "cid": "C0060",
+   "automation": {
+    "acquisition": {
+     "score": 2,
+     "why": "Works only as an upsell to an existing show or newsletter audience. Without one it would need slow SEO or ads on a low-ticket product."
+    },
+    "onboarding": {
+     "score": 5,
+     "why": "Paywall or checkout followed by download."
+    },
+    "delivery": {
+     "score": 4,
+     "why": "Deep-research AI can generate plans. Ricardo would need to review them for accuracy."
+    },
+    "billing": {
+     "score": 5,
+     "why": "Stripe or YouTube memberships."
+    },
+    "support": {
+     "score": 4,
+     "why": "Minimal."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 2,
+   "R_why": "Ricardo has no audience. The product's value comes from the host's show content, not the PDF itself.",
+   "M_headroom": 1,
+   "M_why": "Anyone can now generate a business plan with free ChatGPT or Gemini deep research, which leaves little standalone willingness to pay.",
+   "E_adjust": 0,
+   "one_line": "Many first-hand mentions, but essentially one creator (Koerner) monetising his own audience. AI deep research has commoditised the product itself, so it is not viable standalone [E]."
+  }
+ ]
+}

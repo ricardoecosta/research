@@ -1,0 +1,260 @@
+{
+ "scores": [
+  {
+   "cid": "C0255",
+   "automation": {
+    "acquisition": {
+     "score": 3,
+     "why": "Inbound works: SEO for 'luxury toilet hire Kent/London', wedding directories like Hitched and Bridebook, and venue/planner partnerships. Partnerships need a human relationship at the start."
+    },
+    "onboarding": {
+     "score": 3,
+     "why": "Agents can run the quote, availability calendar, contract and deposit. Site access and pitch checks need some human confirmation."
+    },
+    "delivery": {
+     "score": 0,
+     "why": "Physical work every event: towing (B+E licence), setup, servicing, cleaning and waste disposal. A human is needed each time."
+    },
+    "billing": {
+     "score": 5,
+     "why": "Deposits and per-event invoices fit standard Stripe/Xero automation."
+    },
+    "support": {
+     "score": 2,
+     "why": "Event-day problems (blockages, water, power) need a human on call at weekends."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 0,
+   "R_why": "A UK trailer costs about £20-40k [E], far beyond the £300 test budget. Weekend event delivery and cleaning conflicts with 6-8 h/week and a toddler. It also needs a waste carrier registration and a tow vehicle.",
+   "M_headroom": 2,
+   "M_why": "An established, crowded UK niche with many local operators. Demand is seasonal (May-Sep). AI does not threaten it, but competition on price and quality is local and physical.",
+   "E_adjust": -1,
+   "one_line": "Physical, capital-heavy weekend logistics with second-hand, promotional US figures. It cannot be agent-run and is far beyond a £300 budget."
+  },
+  {
+   "cid": "C0259",
+   "automation": {
+    "acquisition": {
+     "score": 3,
+     "why": "SEO, content, comparison sites and an accountant/app marketplace (Xero/HMRC software list) are inbound. The market is crowded, so paid ads would be expensive."
+    },
+    "onboarding": {
+     "score": 4,
+     "why": "Self-serve signup and an Open Banking connection flow (via an aggregator such as TrueLayer)."
+    },
+    "delivery": {
+     "score": 4,
+     "why": "Unattended SaaS once built. Building a reliable MTD-compliant product needs significant engineering and correctness checks."
+    },
+    "billing": {
+     "score": 5,
+     "why": "Stripe subscriptions."
+    },
+    "support": {
+     "score": 2,
+     "why": "Financial-data and tax questions carry high stakes and liability. Human escalation would be frequent."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 1,
+   "R_why": "Ricardo is technical, but a UK bookkeeping product needs HMRC MTD recognition, Open Banking aggregator costs, GDPR/security work and accounting accuracy. That is not feasible at 6-8 h/week on £300. A landing-page waitlist test is feasible.",
+   "M_headroom": 1,
+   "M_why": "Xero, QuickBooks, FreeAgent (free with some banks), plus Coconut, Pandle and others crowd the UK market. Bank apps and AI assistants are commoditising basic P&L. Switching costs favour incumbents.",
+   "E_adjust": -1,
+   "one_line": "Saturated, regulated UK market. The only first-hand evidence is a hypothetical price and a domain purchase, with no customers. A poor fit despite being software."
+  },
+  {
+   "cid": "C1120",
+   "automation": {
+    "acquisition": {
+     "score": 1,
+     "why": "It depends entirely on an existing podcast audience, which Ricardo does not have. Cold app-store discovery for a generic story app is weak."
+    },
+    "onboarding": {
+     "score": 4,
+     "why": "App-store install and signup are self-serve."
+    },
+    "delivery": {
+     "score": 4,
+     "why": "Audio playback is software. Story content creation needs a creator."
+    },
+    "billing": {
+     "score": 4,
+     "why": "App-store in-app purchases or Stripe."
+    },
+    "support": {
+     "score": 2,
+     "why": "The community needs moderation, especially with sensitive personal sharing. Agents can triage, but a human must decide escalations."
+    }
+   },
+   "legal_acquisition": "doubtful",
+   "R_realism": 1,
+   "R_why": "The idea is a companion app for an established show (Nothing Much Happens). Without a comparable audience or IP, Ricardo would face a cold start. Community moderation also creates UK Online Safety Act duties.",
+   "M_headroom": 1,
+   "M_why": "Calm, Headspace, Spotify and AI-generated sleep-story apps saturate the space. Its value is tied to one creator's IP.",
+   "E_adjust": -1,
+   "one_line": "A creator-IP-dependent app with no revenue data and only one source. It cannot be replicated without an audience."
+  },
+  {
+   "cid": "C1144",
+   "automation": {
+    "acquisition": {
+     "score": 3,
+     "why": "App Store search/ASO is inbound but platform-dependent, and the category is crowded."
+    },
+    "onboarding": {
+     "score": 5,
+     "why": "Install-and-use."
+    },
+    "delivery": {
+     "score": 5,
+     "why": "Unattended on-device software."
+    },
+    "billing": {
+     "score": 5,
+     "why": "App Store subscriptions or IAP."
+    },
+    "support": {
+     "score": 4,
+     "why": "Low-touch; agents can handle FAQs and reviews."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 3,
+   "R_why": "Ricardo has the skills. The £79/yr Apple developer fee fits the budget, and the app is buildable in a few weekends. The weakness is distribution and differentiation, not feasibility.",
+   "M_headroom": 1,
+   "M_why": "Dozens of teleprompter apps exist (PromptSmart, BIGVU, Teleprompter Premium), many free. CapCut/iOS features and AI-generated clones commoditise them. The source itself shows it can be built for 2 cents.",
+   "E_adjust": -1,
+   "one_line": "Highly automatable and cheap to test, but the source shows a 2-cent personal clone, not a business. Headroom in a free-clone-saturated App Store category is minimal."
+  },
+  {
+   "cid": "C0319",
+   "automation": {
+    "acquisition": {
+     "score": 3,
+     "why": "Inbound via SEO ('finish my Lovable app'), Upwork/Fiverr and Lovable/Replit community expert listings. Marketplace profiles need some human input."
+    },
+    "onboarding": {
+     "score": 2,
+     "why": "Scoping an unknown half-built codebase needs human judgement and a scoping call or quote."
+    },
+    "delivery": {
+     "score": 2,
+     "why": "Coding agents can do much of the work, but debugging, deployment, auth and payments need Ricardo's review. The work is project-based, and each project is different."
+    },
+    "billing": {
+     "score": 4,
+     "why": "Fixed-price milestones through a marketplace or Stripe."
+    },
+    "support": {
+     "score": 2,
+     "why": "Clients expect revisions and follow-ups, which needs human time."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 3,
+   "R_why": "This fits Ricardo's technical skills and costs almost nothing to start. However, it is service work: it consumes his limited hours and is not agent-run with approval only.",
+   "M_headroom": 2,
+   "M_why": "There is real demand now. However, the AI tools themselves are closing the gap, and many freelancers and agencies already offer 'vibe-code rescue' [E].",
+   "E_adjust": -1,
+   "one_line": "A good skill fit and a cheap test, but it is a time-for-money service with shrinking headroom. Two sources from the same channel, with no claims."
+  },
+  {
+   "cid": "C0387",
+   "automation": {
+    "acquisition": {
+     "score": 2,
+     "why": "Local SEO, Google Maps, Meta ads and Facebook groups are legal. Local word of mouth and community presence are what drive success."
+    },
+    "onboarding": {
+     "score": 4,
+     "why": "Online signup, a fob/app access system and direct debit (e.g. GoCardless)."
+    },
+    "delivery": {
+     "score": 1,
+     "why": "A physical facility needs cleaning, equipment maintenance, safety work and possibly classes or staff."
+    },
+    "billing": {
+     "score": 5,
+     "why": "Recurring direct debit."
+    },
+    "support": {
+     "score": 2,
+     "why": "On-site issues, access faults and member complaints."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 0,
+   "R_why": "A lease, fit-out and equipment cost tens to hundreds of thousands of pounds [E], with landlord commitments, insurance and staffing. Impossible on £300 and 6-8 h/week.",
+   "M_headroom": 2,
+   "M_why": "Budget chains such as PureGym and The Gym Group dominate the UK, including around Bromley. Only niche or boutique formats have room.",
+   "E_adjust": 0,
+   "one_line": "A capital-intensive physical venue completely outside Ricardo's constraints."
+  },
+  {
+   "cid": "C0194",
+   "automation": {
+    "acquisition": {
+     "score": 4,
+     "why": "Airbnb, Hipcamp, Canopy & Stars and Pitchup provide inbound demand, but the business is heavily dependent on these platforms."
+    },
+    "onboarding": {
+     "score": 4,
+     "why": "Platform booking and automated check-in messages."
+    },
+    "delivery": {
+     "score": 1,
+     "why": "Cleaning, linen changes, maintenance and guest issues need a local human or paid cleaners."
+    },
+    "billing": {
+     "score": 5,
+     "why": "Handled by the platforms."
+    },
+    "support": {
+     "score": 3,
+     "why": "Agents can handle guest messaging; on-site problems need a person."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 0,
+   "R_why": "Ricardo has no land, and land near London is expensive. Planning permission is needed (beyond the 28/60-day permitted-development allowance), plus setup capital, and the site would be far from Bromley. Not feasible on £300.",
+   "M_headroom": 2,
+   "M_why": "UK glamping is popular but supply grew strongly after COVID. Occupancy is seasonal and pricing competition has increased.",
+   "E_adjust": -1,
+   "one_line": "Platform-driven bookings automate well, but it needs land, planning and capital, and the claims are second-hand US figures. Not viable for Ricardo."
+  },
+  {
+   "cid": "C0361",
+   "automation": {
+    "acquisition": {
+     "score": 3,
+     "why": "Marketplaces (no UK Goldbelly equivalent; options include Amazon Fresh and Etsy limits), social reels and paid ads are inbound."
+    },
+    "onboarding": {
+     "score": 4,
+     "why": "Ecommerce checkout."
+    },
+    "delivery": {
+     "score": 0,
+     "why": "Food production, cold-chain packing and courier dispatch are physical and need a human every order."
+    },
+    "billing": {
+     "score": 5,
+     "why": "Shopify or Stripe."
+    },
+    "support": {
+     "score": 3,
+     "why": "Agents can triage, but warm-box refunds and food-safety complaints need judgement."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 0,
+   "R_why": "It needs an existing food business, council food registration, cold-chain packaging and high UK courier costs. The sources are established restaurants or smokehouses, not starters.",
+   "M_headroom": 2,
+   "M_why": "Specialist UK food DTC exists (e.g. Pipers Farm, smokehouses). The COVID demand spike has faded, and margins are thin after shipping.",
+   "E_adjust": -1,
+   "one_line": "The first-hand claims come from existing producers, and the Goldbelly spike was COVID-specific. Physical food logistics make it unsuitable for an agent-run UK solo business."
+  }
+ ]
+}

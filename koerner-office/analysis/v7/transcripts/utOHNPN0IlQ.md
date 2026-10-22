@@ -3,7 +3,7 @@
 - **Video:** [utOHNPN0IlQ](https://www.youtube.com/watch?v=utOHNPN0IlQ) · **Channel:** The Koerner Office · **Uploaded:** 2026-05-22 · **Length:** 16 min · **Transcript:** ok_freetranscriptapi
 - **Speakers:** Chris Koerner (host) · **Format:** tutorial_howto
 - **Evidence quality:** C — The host demonstrates a concrete AI video workflow, but gives no verified results from operating the proposed channel. Earnings, sale prices, conventional production costs, and revenue per view are broad claims or examples. The Higgsfield demonstration is first-hand, but the transcript does not establish channel performance. · Promotional conflict: The host says Higgsfield supports the channel, endorses the product, and demonstrates its MCP connector.
-- **Extraction:** gpt-6-luna · quotes verified 66/69
+- **Extraction:** gpt-6-luna · quotes verified 70/70 · reviewed by claude-opus-5-5
 
 ## Summary
 
@@ -19,7 +19,7 @@ Chris Koerner demonstrates a workflow for making faceless YouTube videos with Cl
 | I4 | **Weird science and quirky topics channel** — Make faceless videos about unusual science and quirky subjects, with a possible newsletter conversion. | content_media | mention | 3/4/3/4/2 | 5 |
 | I5 | **True crime and cold case faceless channel** — Make faceless videos about true crime and cold cases using dramatic AI recreation visuals. | content_media | mention | 3/4/2/4/2 | 3 |
 | I6 | **Build and sell a faceless YouTube channel** — Build a faceless channel as an asset and sell it once it has meaningful ad revenue. | content_media | mention | 2/2/3/2/2 | 3 |
-| I7 | **AI video production service** — Sell AI-assisted video creation to clients if a creator’s own channel does not take off. | b2b_service | moderate | 2/3/3/3/2 | 5 |
+| I7 | **AI video production service** — Sell AI-assisted video creation to clients if a creator’s own channel does not take off. | b2b_service | mention | 2/3/3/3/2 | 5 |
 | I8 | **Faceless TikTok or Instagram page** — Use AI to create faceless content for TikTok or Instagram instead of, or alongside, YouTube. | content_media | mention | 3/4/3/2/2 | 5 |
 | I9 | **Newsletter for a faceless channel audience** — Convert a loyal video audience into newsletter subscribers. | content_media | mention | 3/4/3/4/2 | 5 |
 | I10 | **Affiliate links for channel-recommended products** — Recommend a tool or product to viewers and earn a commission when they buy. | content_media | mention | 3/3/4/4/2 | 5 |
@@ -34,7 +34,7 @@ Chris Koerner demonstrates a workflow for making faceless YouTube videos with Cl
 - **Offer:** Faceless, cinematic business-history videos. The proposed workflow uses AI for scripts, thumbnails, images, and video clips, then adds narration and music.
 - **Business model:** YouTube advertising, affiliate commissions, sales of the creator’s own products or newsletter subscriptions, and a possible channel sale.
 - **Pricing:** Advertising revenue per view, affiliate commissions, audience product sales, and possible sale of the channel.. Finance-channel revenue example; not specific to this niche USD 15-30 per 1,000 views; Storytelling-channel revenue example USD 3-8 per 1,000 views; General revenue estimate USD 500-2000 per video at 100,000 views The speaker gives general examples for finance and storytelling channels, not a verified rate for a dark business history channel. He also describes affiliate links, own products, newsletter subscriptions, and selling the channel.
-- **Acquisition:** youtube: Publish videos on YouTube and use titles and thumbnails to attract viewers. The speaker demonstrates title and thumbnail generation and YouTube Studio A/B testing.; seo_organic_search: No search strategy is described; discoverability through YouTube search is not stated.
+- **Acquisition:** youtube: Publish videos on YouTube and use titles and thumbnails to attract viewers. The speaker demonstrates title and thumbnail generation and YouTube Studio A/B testing.
 - **Delivery:** Claude drafts a script and can generate a thumbnail through the Higgsfield MCP connector. Claude breaks the script into scenes, Higgsfield generates images and clips, and narration can come from Higgsfield Speak 2.0 or ElevenLabs. CapCut is used to assemble clips, narration, and optional royalty-free music. The creator reviews the output, uploads it through YouTube Studio, and may test titles and thumbnails.
 - **Unit economics (claims):** The speaker says finance channels may make $15–$30 per 1,000 views and storytelling channels $3–$8 per 1,000 views.; The speaker estimates that a video with 100,000 views could earn $500–$2,000.; The speaker contrasts AI-assisted production with claimed conventional production costs of roughly $1,000–$1,500 per video.
 - **Tools:** Claude, Higgsfield, Higgsfield MCP connector, Higgsfield Speak 2.0, ElevenLabs, CapCut, YouTube, YouTube Studio, YouTube AdSense, ChatGPT, Photoshop, Canva, GPT Image 2, Seedance 2.0
@@ -46,24 +46,6 @@ Chris Koerner demonstrates a workflow for making faceless YouTube videos with Cl
 > "Number one, dark business history. You ever see American Greed on CNBC? That's the type of stuff I'm talking about." — Chris Koerner (~4:30)
 > "Take the script you just wrote, break it into 12 cinematic shots. For each shot, write a detailed visual prompt." — Chris Koerner (~8:46)
 > "And you can knock out your first video without any experience in about an hour or so, depending on how long it is." — Chris Koerner (~12:13)
-
-### I7. AI video production service
-
-- **Customer:** Not stated; people or businesses that want videos produced.
-- **Problem:** Not stated.
-- **Offer:** Use the demonstrated workflow to make videos for other people.
-- **Business model:** Client service fees; the speaker gives no service pricing.
-- **Pricing:** Service fee; details not stated..  The speaker suggests charging for the service but gives no rate or package.
-- **Acquisition:** other: The speaker says a creator could charge other people for video production; how to find clients is not stated.
-- **Delivery:** Use AI to draft scripts, generate thumbnails and clips, then add voiceover and music and assemble the video. The person providing the service would need to review and deliver the result.
-- **Unit economics (claims):** The speaker compares conventional video production costs with using credits and subscriptions, but does not state a price for this service.
-- **Tools:** Claude, Higgsfield, ElevenLabs, CapCut
-- **Startup cost:** Not stated; credits and subscriptions are mentioned without amounts.
-- **Time to first revenue:** Not stated.
-- **UK applicability [E]:** 5/5 — Digital video production can be sold from the UK; the transcript gives no location-specific constraint.
-- **Risks:** The speaker gives no client acquisition, service scope, revision, or pricing process.; Client work may require more human review and revisions than the demonstration suggests.
-- **Automation [E]:** acquisition 2/5 (No client acquisition process is described; automated inbound content could help, but sales and scoping need human involvement.); onboarding 3/5 (Forms and agent-written briefs could collect requirements, with a person checking scope and references.); delivery 3/5 (Agents can generate much of the script and media, while a human checks quality, accuracy, and client fit.); billing 3/5 (Invoices and payment can be automated once service packages and terms are defined.); support 2/5 (Client feedback, revisions, and approvals require regular human review.)
-> "And if your videos don't take off, then you can still charge to do this for other people as a service." — Chris Koerner (~13:49)
 
 ## Revenue and metric claims (unverified claims)
 
@@ -121,12 +103,14 @@ Chris Koerner demonstrates a workflow for making faceless YouTube videos with Cl
   > "So to knock out 24 videos, which is probably a good idea to find some winners in there, you'd have to spend 30,000 35,000 bucks to get that done." — Chris Koerner (~13:31)
 - **A video with 100,000 views may earn $500–$2,000.** (revenue, second-hand, hypothetical, claimant: Chris Koerner)
   > "If you have a video hit 100,000 views in any given niche, that's going to be between $500 and $2,000 from one video." — Chris Koerner (~13:55)
-- **The speaker says a first video can be made in about an hour, depending on its length.** (hours, first-hand, claimant: Chris Koerner)
+- **The speaker says a first video can be made in about an hour, depending on its length.** (hours, second-hand, claimant: Chris Koerner)
   > "And you can knock out your first video without any experience in about an hour or so, depending on how long it is." — Chris Koerner (~12:13)
 - **The conventional process could take 5, 10, or 20 hours.** (hours, second-hand, claimant: Chris Koerner)
   > "Whereas before all these tools existed, the same thing would take you 5, 10, 20 hours, especially if you don't know anything about video editing or video creation." — Chris Koerner (~12:19)
 - **The speaker says a video may not take off until after the first or even tenth video.** (other, second-hand, hypothetical, claimant: Chris Koerner)
   > "It's probably not going to happen from your first, maybe not even your 10th video, but it's just a numbers game." — Chris Koerner (~14:01)
+- **Choosing a higher-paying niche such as AI tools and tech predictions can mean $25 instead of $5 per 1,000 views.** (revenue, second-hand, claimant: Chris Koerner)
+  > "It could be the difference between $5 and $25 per thousand views." — Chris Koerner (~5:05)
 
 ## Tactics and playbook steps
 
@@ -167,7 +151,7 @@ Chris Koerner demonstrates a workflow for making faceless YouTube videos with Cl
 1. Generate narration in Higgsfield Speak 2.0 or use ElevenLabs, especially if cloning a voice.
 2. In CapCut, add the generated clips and narration to a project.
 3. Add royalty-free background music if desired.
-> "And then within Cap Cut itself, you choose background music should you want to include that, which I would. Just use royalty-free." — Chris Koerner (~15:41) [quote not matched verbatim]
+> "And then within Cap Cut itself, you choose background music should you want to include that, which I would." — Chris Koerner (~15:41)
 
 **Upload and test titles and thumbnails** (acquisition)
 1. Create a YouTube Studio account and upload the video.
@@ -203,4 +187,4 @@ Chris Koerner demonstrates a workflow for making faceless YouTube videos with Cl
 
 ## Tools mentioned
 
-Claude (AI assistant used to write scripts, create titles and descriptions, make thumbnails, and orchestrate Higgsfield through an MCP connector.), Higgsfield (AI media creation tool for thumbnails, images, animations, and video clips.; Credits are used; the speaker says he ran out and bought more but gives no total cost.), MCP (Connector interface that lets Claude use other tools, here Higgsfield.), ChatGPT (Named as an AI assistant and as a tool to brainstorm additional niches.), Claude Opus 4.7 (Model the speaker says he is using with adaptive thinking.), YouTube (Video publishing, audience building, and advertising monetization.), YouTube Studio (Upload videos and A/B test titles and thumbnails.; The speaker says to create a free account.), YouTube AdSense (Advertising revenue for channel owners.), BizBuySell (Marketplace named as a place to sell a channel.), Flippa (Marketplace named as a place to sell a channel.), Acquire.com (Marketplace named as a place to sell a channel.), CNBC (Reference point for the American Greed business-scam documentary style.), American Greed (Reference example of business scam stories.), Photoshop (Possible tool for improving a generated thumbnail.), Canva (Possible tool for improving a generated thumbnail.), GPT Image 2 (Alternative image model the speaker uses to regenerate a thumbnail with improved text rendering.; The speaker estimates about $0.04 in credits for the thumbnail.), Seedance 2.0 (Video generation model named as the back end for Higgsfield clips.), Higgsfield Face Lock (Keeps a character’s face consistent across shots when an image is uploaded.), Higgsfield Speak 2.0 (Generates spoken audio from text with emphasis and pauses.), ElevenLabs (Generates voice audio and can clone a voice; the speaker says he uses it to dub his YouTube videos into other languages.), CapCut (Assembles clips, voiceover, and background music on desktop or mobile.; The speaker says it is free.), TikTok (Alternative platform for faceless content.), Instagram (Alternative platform for faceless content.), Google Docs (The speaker says he will share prompts in a free Google document.; The speaker says the document is free.), Zoom (The speaker says Claude can answer questions about a previously recorded Zoom.), Stripe (Named as a connector example for bank account information.), Mercury (Named as a connector example for bank account information.)
+Claude (AI assistant used to write scripts, create titles and descriptions, make thumbnails, and orchestrate Higgsfield through an MCP connector.), Higgsfield (AI media creation tool for thumbnails, images, animations, and video clips.; Credits are used; the speaker says he ran out and bought more but gives no total cost.), MCP (Connector interface that lets Claude use other tools, here Higgsfield.), ChatGPT (Named as an AI assistant and as a tool to brainstorm additional niches.), Claude Opus 4.7 (Model the speaker says he is using with adaptive thinking.), YouTube (Video publishing, audience building, and advertising monetization.), YouTube Studio (Upload videos and A/B test titles and thumbnails.; The speaker says to create a free account.), YouTube AdSense (Advertising revenue for channel owners.), BizBuySell (Marketplace named as a place to sell a channel.), Flippa (Marketplace named as a place to sell a channel.), Acquire.com (Marketplace named as a place to sell a channel.), CNBC (Reference point for the American Greed business-scam documentary style.), American Greed (Reference example of business scam stories.), Photoshop (Possible tool for improving a generated thumbnail.), Canva (Possible tool for improving a generated thumbnail.), GPT Image 2 (Alternative image model the speaker uses to regenerate a thumbnail with improved text rendering.; The speaker estimates about $0.04 in credits for the thumbnail.), Seedance 2.0 (Video generation model named as the back end for Higgsfield clips.), Higgsfield Face Lock (Keeps a character’s face consistent across shots when an image is uploaded.), Higgsfield Speak 2.0 (Generates spoken audio from text with emphasis and pauses.), ElevenLabs (Generates voice audio and can clone a voice; the speaker says he uses it to dub his YouTube videos into other languages.), CapCut (Assembles clips, voiceover, and background music on desktop or mobile.; The speaker says it is free.), TikTok (Alternative platform for faceless content.), Instagram (Alternative platform for faceless content.), Google Docs (The speaker says he will share prompts in a free Google document.; The speaker says the document is free.), Zoom (The speaker says Claude can answer questions about a previously recorded Zoom.), Stripe (Named as a connector example for bank account information.), Mercury (Named as one of the Claude connectors the speaker uses daily (listed alongside Mercury for bank accounts).)

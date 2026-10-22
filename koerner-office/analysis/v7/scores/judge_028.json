@@ -1,0 +1,261 @@
+{
+ "scores": [
+  {
+   "cid": "C0599",
+   "automation": {
+    "acquisition": {
+     "score": 1,
+     "why": "The described method is scraping Craigslist and emailing or texting private sellers. Under PECR that counts as unsolicited marketing to individuals, so it is illegal in the UK. A legal route would be SEO or paid ads for 'unlock phone UK', but that is a crowded keyword [E]."
+    },
+    "onboarding": {
+     "score": 4,
+     "why": "The customer pays at web checkout and submits an IMEI. This can be fully automated."
+    },
+    "delivery": {
+     "score": 3,
+     "why": "The order is passed to a third-party unlock provider through an API or email. Agents can route orders, but provider failures and delays need human checks."
+    },
+    "billing": {
+     "score": 4,
+     "why": "Stripe checkout plus a weekly provider invoice. Mostly automatic."
+    },
+    "support": {
+     "score": 3,
+     "why": "Failed unlocks, refunds and 'wrong network' queries are frequent. Agents can handle most of them, with escalations [E]."
+    }
+   },
+   "legal_acquisition": "needs_human_outreach",
+   "R_realism": 1,
+   "R_why": "Most UK networks have sold unlocked phones since around 2018-2021, and Ofcom banned locked handset sales from December 2021, so demand for paid unlocking in the UK is small and shrinking [E]. The grey-market unlock provider brings fraud and chargeback exposure. The only acquisition channel described breaks PECR.",
+   "M_headroom": 1,
+   "M_headroom_note": "",
+   "M_why": "The UK market has largely gone away because of the Ofcom ban. Global SEO for unlock services is saturated with established IMEI unlock sites, and the host himself said the growth hack stopped working.",
+   "E_adjust": -1,
+   "one_line": "A dated US arbitrage: in the UK, locked phones are mostly gone and the cold text/email acquisition is illegal, so it is not viable."
+  },
+  {
+   "cid": "C0350",
+   "automation": {
+    "acquisition": {
+     "score": 2,
+     "why": "Organic social and influencer promotion is possible in principle. In practice, UK crypto financial promotions must be approved by an FCA-authorised firm, which effectively blocks any agent-run hype [E]."
+    },
+    "onboarding": {
+     "score": 3,
+     "why": "Joining Discord or Telegram and token airdrops can be automated."
+    },
+    "delivery": {
+     "score": 3,
+     "why": "Content and community posting can be agent-generated, but moderation and narrative-setting need human judgement."
+    },
+    "billing": {
+     "score": 2,
+     "why": "No clear revenue model in the sources. Monetisation would come through tokens or memberships, which are regulated."
+    },
+    "support": {
+     "score": 2,
+     "why": "Community moderation, scam and complaint handling, and reputational crises need a human."
+    }
+   },
+   "legal_acquisition": "doubtful",
+   "R_realism": 0,
+   "R_why": "The FCA financial promotions regime (since October 2023) makes unapproved crypto promotion to UK consumers a criminal offence. A price-prediction tool plus a token is a high regulatory and reputational risk for a solo parent.",
+   "M_headroom": 1,
+   "M_why": "Crypto communities are saturated and full of scams. AI makes narrative content trivial to produce, and the market is cyclical: the source business died in a crash.",
+   "E_adjust": -1,
+   "one_line": "An unregulated crypto hype model with no revenue mechanism and serious FCA exposure in the UK; avoid."
+  },
+  {
+   "cid": "C0363",
+   "automation": {
+    "acquisition": {
+     "score": 3,
+     "why": "Paid social, Amazon and SEO are inbound and legal. Agents can manage ads, but spend needs approval, and channels depend on platforms."
+    },
+    "onboarding": {
+     "score": 4,
+     "why": "Standard e-commerce checkout."
+    },
+    "delivery": {
+     "score": 1,
+     "why": "Physical goods. Even with a 3PL or Amazon FBA there is sourcing, inventory and QC risk."
+    },
+    "billing": {
+     "score": 4,
+     "why": "Shopify or Amazon payments are automatic."
+    },
+    "support": {
+     "score": 2,
+     "why": "Fit issues, returns, and questions about efficacy or water hardness need case handling. Agents can draft replies [E]."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 2,
+   "R_why": "Inventory and ad testing typically need £1-3k+, well above the £300 budget [E]. Health and contaminant claims must be substantiated under CAP code and ASA rules. Hard-water (limescale) shower filters are a real UK angle, especially in London.",
+   "M_headroom": 2,
+   "M_why": "Shower filters are a crowded Amazon/TikTok category with many white-label brands. A niche (hard-water London, cyclists' masks) gives some differentiation but little moat.",
+   "E_adjust": 0,
+   "one_line": "A legal, inbound physical-product niche with a UK hard-water angle, but it is capital-heavy for £300, has a physical delivery cap, and is commodity-competitive."
+  },
+  {
+   "cid": "C0368",
+   "automation": {
+    "acquisition": {
+     "score": 2,
+     "why": "Selling high-ticket education depends on the founder's own podcast appearances and partner outreach. Cold email to limited companies is legal, but the selling is personal and trust-based."
+    },
+    "onboarding": {
+     "score": 3,
+     "why": "Course platform enrolment is automatable, though high-ticket buyers usually need a sales call."
+    },
+    "delivery": {
+     "score": 3,
+     "why": "Templates, podcast-matching databases and pitch drafts could be agent-produced. Coaching calls need a human."
+    },
+    "billing": {
+     "score": 4,
+     "why": "Stripe or a course platform handles payment."
+    },
+    "support": {
+     "score": 2,
+     "why": "High-ticket clients expect personal access."
+    }
+   },
+   "legal_acquisition": "b2b_cold_email_ok",
+   "R_realism": 1,
+   "R_why": "Ricardo has no visible track record in partnerships or podcast guesting to teach from. High-ticket coaching needs credibility and live time he doesn't have with 6-8 h/week.",
+   "M_headroom": 1,
+   "M_why": "The guest-booking and partnership-coaching space is saturated, and AI tools now do podcast matching and pitch writing, which erodes the paid-education premium.",
+   "E_adjust": -1,
+   "one_line": "Credibility-led, founder-face coaching with unverified second-hand revenue claims, so it is a poor fit for agent-run operation."
+  },
+  {
+   "cid": "C0501",
+   "automation": {
+    "acquisition": {
+     "score": 3,
+     "why": "Consumer leads come in through book funnel ads (inbound). Buyer law firms can be cold-emailed as B2B; LLPs and Ltds are fine, but sole-practitioner solicitors count as individuals under PECR."
+    },
+    "onboarding": {
+     "score": 2,
+     "why": "Signing law firms requires negotiation, compliance due diligence and contracts."
+    },
+    "delivery": {
+     "score": 3,
+     "why": "Book writing and lead routing can be largely agent-run, but GDPR consent and lead QA need checks."
+    },
+    "billing": {
+     "score": 3,
+     "why": "Per-lead invoicing is automatable. Revenue-share and per-signed-contract deals need reconciliation and chasing."
+    },
+    "support": {
+     "score": 2,
+     "why": "Lead quality disputes and consumer data requests need a human."
+    }
+   },
+   "legal_acquisition": "b2b_cold_email_ok",
+   "R_realism": 1,
+   "R_why": "The SRA, and the LASPO ban on referral fees for personal injury, sharply restrict the model. Claims management activity needs FCA authorisation. GDPR consent to share data is required. Paid-ad testing of a book funnel exceeds £300 [E].",
+   "M_headroom": 2,
+   "M_why": "UK legal lead gen is crowded, with comparison sites and established panels. Divorce and family law leads are more open than injury, which is heavily regulated.",
+   "E_adjust": -1,
+   "one_line": "A clever book-as-lead-magnet idea, but UK legal referral regulation (LASPO, SRA, FCA) and illustrative-only numbers make it risky for a solo part-timer."
+  },
+  {
+   "cid": "C0313",
+   "automation": {
+    "acquisition": {
+     "score": 1,
+     "why": "Finding and buying businesses requires broker relationships, owner conversations and due diligence, all human-led."
+    },
+    "onboarding": {
+     "score": 2,
+     "why": "Transitioning an acquired business means staff, suppliers and legal handover."
+    },
+    "delivery": {
+     "score": 1,
+     "why": "The acquired targets are physical manufacturers or nurseries, with operations-heavy delivery."
+    },
+    "billing": {
+     "score": 3,
+     "why": "Existing invoicing can be modernised with software."
+    },
+    "support": {
+     "score": 2,
+     "why": "Customer service in an operating business needs staff."
+    }
+   },
+   "legal_acquisition": "needs_human_outreach",
+   "R_realism": 0,
+   "R_why": "It needs six- to seven-figure capital or seller finance and serious management time. That is impossible with £300 and 6-8 h/week. Nurseries are also Ofsted-regulated.",
+   "M_headroom": 3,
+   "M_why": "There is a genuine UK succession gap among ageing SME owners, but competition from search funds and holdcos is growing.",
+   "E_adjust": -1,
+   "one_line": "The ageing-owner succession thesis is real, but it needs heavy capital and operational involvement, so it is incompatible with Ricardo's constraints. The $2M/month claim is unverified."
+  },
+  {
+   "cid": "C0365",
+   "automation": {
+    "acquisition": {
+     "score": 3,
+     "why": "Inbound via the TikTok Shop marketplace and affiliate creators. Creator outreach is in-platform and B2B-ish. Very platform-dependent."
+    },
+    "onboarding": {
+     "score": 4,
+     "why": "The platform handles checkout."
+    },
+    "delivery": {
+     "score": 1,
+     "why": "Physical goods, though Fulfilled by TikTok or a 3PL can reduce handling."
+    },
+    "billing": {
+     "score": 5,
+     "why": "The platform settles payments."
+    },
+    "support": {
+     "score": 3,
+     "why": "Platform-mediated support. Agents can answer most queries, but returns and disputes need checks."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 2,
+   "R_why": "TikTok Shop UK is live, but winning products need sample seeding, creator management and inventory, which is hard on £300 and few hours. UK seller verification and product safety rules apply.",
+   "M_headroom": 2,
+   "M_why": "TikTok Shop UK is crowded with China-direct sellers, so margins are compressed. Policy and fee changes add risk.",
+   "E_adjust": -1,
+   "one_line": "A real UK channel with automatic billing, but the dossier is generic with no claims, and inventory plus creator ops strain a £300, 6-8 h/week owner."
+  },
+  {
+   "cid": "C0417",
+   "automation": {
+    "acquisition": {
+     "score": 4,
+     "why": "Listings go on marketplaces (YourParkingSpace, JustPark, Stashbee in the UK). Inbound and legal, though platform-dependent."
+    },
+    "onboarding": {
+     "score": 3,
+     "why": "The platform handles booking and ID. Access instructions can be templated."
+    },
+    "delivery": {
+     "score": 1,
+     "why": "Physical space. Access, key or gate handover and security checks happen in the real world."
+    },
+    "billing": {
+     "score": 5,
+     "why": "The platform collects monthly rent automatically."
+    },
+    "support": {
+     "score": 3,
+     "why": "Queries are few once a tenant is settled. Agents handle messages, and a human deals with access issues."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 3,
+   "R_why": "There is near-zero cost if Ricardo has a driveway, garage or spare space. Bromley has commuter-station parking demand [E]. However, this depends on owning suitable space, his mortgage, lease or insurance terms, and it caps out at small income.",
+   "M_headroom": 3,
+   "M_why": "UK platforms are established and demand near stations is steady, but each listing is a tiny hyperlocal asset that cannot scale without acquiring more space.",
+   "E_adjust": 0,
+   "one_line": "A low-effort, legal, inbound passive side income if he has space, with billing handled by the platform, but it is not a scalable agent-run business. It is more like £50-150/month per spot [E]."
+  }
+ ]
+}

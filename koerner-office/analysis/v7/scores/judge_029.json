@@ -1,0 +1,260 @@
+{
+ "scores": [
+  {
+   "cid": "C0268",
+   "automation": {
+    "acquisition": {
+     "score": 3,
+     "why": "Paid social ads plus Etsy/Amazon Merch/Instagram content are inbound and legal. Agents can generate creatives and manage budgets. A human approves ad spend and checks designs for trademark problems. Results depend on Meta and Etsy algorithms."
+    },
+    "onboarding": {
+     "score": 5,
+     "why": "Customers simply check out in Shopify or Etsy. No onboarding is needed."
+    },
+    "delivery": {
+     "score": 1,
+     "why": "Physical goods made by a print-on-demand supplier. Automated routing works, but quality problems, misprints and lost parcels still need human judgement."
+    },
+    "billing": {
+     "score": 5,
+     "why": "Stripe, Shopify Payments and Etsy take payment at checkout without human involvement."
+    },
+    "support": {
+     "score": 2,
+     "why": "Most queries are 'where is my order', which agents can answer. Returns, damaged items and Consumer Contract Regulations refunds need human checks [E]."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 3,
+   "R_why": "A test fits the ~£300 budget, with Printful/Printify UK fulfilment and few hours needed. The weakness is skill: winning depends on taste and luck with slogans, which an agent team cannot reliably supply. Print-on-demand margins of about £5-10 per shirt get consumed by ad costs [E]. UK VAT, GPSR and OSS rules for EU sales add some compliance overhead.",
+   "M_headroom": 1,
+   "M_why": "Slogan print-on-demand is badly saturated, and AI-generated designs have flooded Etsy and Amazon Merch. There is no moat, ad costs are high, and copycats appear within days of a winning design.",
+   "E_adjust": -1,
+   "one_line": "Cheap and easy to test with agents running ads, but this is a slogan lottery in a commoditised market. The only first-hand claims are vanity metrics (views, compliments), with no sales or profit data."
+  },
+  {
+   "cid": "C0308",
+   "automation": {
+    "acquisition": {
+     "score": 4,
+     "why": "Inbound through marketplaces such as Pitchup, Hipcamp/Campspace and Google Business Profile. Listings are largely maintained by the platforms, which makes this platform-dependent."
+    },
+    "onboarding": {
+     "score": 3,
+     "why": "Booking and check-in instructions can be automated. Site rules and access codes need some human setup."
+    },
+    "delivery": {
+     "score": 0,
+     "why": "This is physical land: toilets, waste, safety, neighbours, damage. Someone has to be on site."
+    },
+    "billing": {
+     "score": 4,
+     "why": "The platform or Stripe handles deposits and payments."
+    },
+    "support": {
+     "score": 2,
+     "why": "Messages can be automated, but on-site incidents need a human."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 0,
+   "R_why": "Ricardo has no land and lives in suburban Bromley. Buying or leasing rural land is far beyond £300. UK sites also need planning permission, the 28/60-day permitted-development limits and caravan site licences. RV demand at US prices barely exists here.",
+   "M_headroom": 2,
+   "M_why": "UK glamping and pop-up camping has decent demand, but the market is crowded and seasonal, and the business is tied to owning land.",
+   "E_adjust": 0,
+   "one_line": "Requires land and on-site presence, both of which Ricardo lacks. Only the agent-run booking workflow transfers, and it would suit a landowner client rather than Ricardo as operator."
+  },
+  {
+   "cid": "C0405",
+   "automation": {
+    "acquisition": {
+     "score": 2,
+     "why": "Domain sales come through inbound marketplaces (Afternic, Sedo). Partnership deals need human negotiation."
+    },
+    "onboarding": {
+     "score": 3,
+     "why": "Escrow.com and the marketplaces handle domain transfers."
+    },
+    "delivery": {
+     "score": 3,
+     "why": "Transferring a domain is automated. Building a business on the domain is undefined."
+    },
+    "billing": {
+     "score": 4,
+     "why": "Escrow and marketplace payments need no human."
+    },
+    "support": {
+     "score": 3,
+     "why": "Very little support is needed."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 1,
+   "R_why": "Premium .com domains cost five to six figures, so £300 buys only speculative hand-registrations, which have very low sell-through (around 1% a year [E]). There is no real business model in the dossier.",
+   "M_headroom": 1,
+   "M_why": "Domain investing is mature, AI has flooded registrations, and AI search reduces the value of exact-match domains.",
+   "E_adjust": -1,
+   "one_line": "A capital-intensive speculative asset with no first-hand evidence and no defined business. It is not a fit for a £300 agent-run test."
+  },
+  {
+   "cid": "C0440",
+   "automation": {
+    "acquisition": {
+     "score": 3,
+     "why": "Tenders are found inbound on Contracts Finder, Find a Tender and council portals. Agents can monitor them and draft bids. Finding subcontractors means B2B outreach to limited companies, but submissions and supplier calls still need a human."
+    },
+    "onboarding": {
+     "score": 2,
+     "why": "Contract kickoff, supplier vetting, insurance and compliance documents all need human review."
+    },
+    "delivery": {
+     "score": 1,
+     "why": "Subcontractors do physical work, but the prime stays liable and must coordinate and manage failures. The pass-through risk means Ricardo must add real value."
+    },
+    "billing": {
+     "score": 3,
+     "why": "Invoices go through public-sector systems with milestone checks. Net-30 terms create cash-flow management work."
+    },
+    "support": {
+     "score": 2,
+     "why": "Contract management, performance issues and replacing subcontractors are all human work."
+    }
+   },
+   "legal_acquisition": "b2b_cold_email_ok",
+   "R_realism": 2,
+   "R_why": "The Procurement Act 2023 (live since February 2025) and the UK portals make small tenders accessible, and agents can do much of the bid writing. However, UK buyers usually require insurance, past performance and local presence. Liability and cash flow sit with Ricardo, and 6-8 h/week is thin for managing contracts. Some low-delivery niches might fit, such as supplying goods [E].",
+   "M_headroom": 3,
+   "M_why": "Thousands of low-value UK tenders exist, and SME participation is encouraged. Competition from established local firms and AI-written bids is rising [E].",
+   "E_adjust": -1,
+   "one_line": "Agent-led tender scanning and bidding is plausible, but the result is a liability-heavy, human-supervised coordination business. The evidence is one US interviewee with a 1-in-14 win rate and rule caveats added afterwards."
+  },
+  {
+   "cid": "C0702",
+   "automation": {
+    "acquisition": {
+     "score": 3,
+     "why": "Inbound via Substack, SEO, YouTube and podcasts. Agents can produce content, but credibility builds slowly."
+    },
+    "onboarding": {
+     "score": 5,
+     "why": "Substack subscription checkout needs no human."
+    },
+    "delivery": {
+     "score": 2,
+     "why": "AI can draft research, but differentiated judgement and accuracy checks need a human. In the UK, factual errors and personalised advice risk FCA problems."
+    },
+    "billing": {
+     "score": 5,
+     "why": "Substack and Stripe handle billing without human involvement."
+    },
+    "support": {
+     "score": 3,
+     "why": "There are few queries, and agents can handle most of them."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 2,
+   "R_why": "Cheap to start on Substack. However, a solo non-analyst with no track record selling stock picks faces trust problems. FCA financial promotion rules apply, and the line between generic research and regulated advice must be respected. Hours are limited, and the time to traction is long.",
+   "M_headroom": 1,
+   "M_why": "Paid finance newsletters are very crowded, and AI tools now produce commodity company reports nearly for free. Success depends on track record or brand.",
+   "E_adjust": 0,
+   "one_line": "Delivery is easy to automate, but agent-written stock research is a commodity in 2026. Ricardo lacks the credibility and has regulatory exposure. The evidence comes from a 50-year-old analyst firm, not a replicable solo playbook."
+  },
+  {
+   "cid": "C0767",
+   "automation": {
+    "acquisition": {
+     "score": 1,
+     "why": "Organic Facebook Marketplace posts depend on running multiple accounts, which breaks Meta's terms. There is high ban risk and buyers expect human chat."
+    },
+    "onboarding": {
+     "score": 3,
+     "why": "Order capture can be automated."
+    },
+    "delivery": {
+     "score": 1,
+     "why": "Heavy physical hardware has to be imported, stocked, shipped and covered by warranty."
+    },
+    "billing": {
+     "score": 3,
+     "why": "Stripe works for payment, but high-value crypto-adjacent sales carry chargeback and fraud risk."
+    },
+    "support": {
+     "score": 1,
+     "why": "Dead-on-arrival units, warranty claims and setup help all need hands-on human work."
+    }
+   },
+   "legal_acquisition": "doubtful",
+   "R_realism": 1,
+   "R_why": "Inventory costs thousands and cannot be covered by £300. UK electricity prices make mining uneconomic, so demand is small. Import duty, WEEE and electrical safety compliance also apply.",
+   "M_headroom": 1,
+   "M_why": "A niche market with tight margins, dominated by established resellers and direct sales from Bitmain. It is cyclical and tied to Bitcoin's price.",
+   "E_adjust": -1,
+   "one_line": "An unverified, unexplained $9.8M claim resting on a channel that breaks Meta's rules. The business is capital-heavy and physical, with weak UK demand."
+  },
+  {
+   "cid": "C0976",
+   "automation": {
+    "acquisition": {
+     "score": 2,
+     "why": "Influencer and community growth is legal but relationship-heavy. Building a two-sided marketplace needs hustle on both supply and demand sides."
+    },
+    "onboarding": {
+     "score": 3,
+     "why": "Self-serve app sign-up, but sellers need vetting."
+    },
+    "delivery": {
+     "score": 2,
+     "why": "The platform is software, but authentication, disputes, moderation and live video infrastructure are heavy work."
+    },
+    "billing": {
+     "score": 4,
+     "why": "Payments run through Stripe Connect, though seller payouts and KYC add complexity."
+    },
+    "support": {
+     "score": 1,
+     "why": "Disputes between buyers and sellers, fraud and fake goods need constant human judgement."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 0,
+   "R_why": "This was a VC-funded startup that needed $100-200K plus YC money and a full-time team. It cannot be built or given liquidity in 6-8 h/week on £300.",
+   "M_headroom": 0,
+   "M_why": "Whatnot, eBay Live and TikTok Shop already dominate UK live shopping.",
+   "E_adjust": 0,
+   "one_line": "A credible founder story, but it is a venture-scale marketplace against funded incumbents. It does not fit a solo, agent-run, £300 model."
+  },
+  {
+   "cid": "C0366",
+   "automation": {
+    "acquisition": {
+     "score": 3,
+     "why": "Inbound via paid social, Amazon or Etsy listings and content. Getting into retail requires human selling."
+    },
+    "onboarding": {
+     "score": 5,
+     "why": "E-commerce checkout needs no onboarding."
+    },
+    "delivery": {
+     "score": 0,
+     "why": "Food manufacturing and bottling are physical. A co-packer needs minimum orders, and the business carries food safety liability."
+    },
+    "billing": {
+     "score": 4,
+     "why": "Shopify and Stripe handle payments."
+    },
+    "support": {
+     "score": 2,
+     "why": "Breakages, complaints and allergen questions need human checks."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 1,
+   "R_why": "Requires council food business registration, HACCP, UK allergen and labelling law, and a co-packer with minimum orders far beyond £300. The banana ketchup idea is backed only by unverified AI research on the US market.",
+   "M_headroom": 2,
+   "M_why": "UK craft condiments are crowded with low margins and expensive shelf space. A few novel products can still find room [E].",
+   "E_adjust": -1,
+   "one_line": "A physical, food-regulated, capital-heavy product with no demand evidence beyond a Google Trends check, which makes it a poor fit for an agent-run £300 test."
+  }
+ ]
+}

@@ -1,0 +1,260 @@
+{
+ "scores": [
+  {
+   "cid": "C0203",
+   "automation": {
+    "acquisition": {
+     "score": 2,
+     "why": "The demonstrated method (scraped numbers plus ringless voicemail) is not safe under UK PECR/TPS, and many UK trades are sole traders who cannot be cold-emailed or texted. That leaves cold email to limited-company trades, Meta ads to trades (no sale proven) and SEO, which face heavy competition. Agents can run ads and email, but conversion likely needs a demo or call [E]."
+    },
+    "onboarding": {
+     "score": 2,
+     "why": "Each client needs a UK number, call-forwarding set up on their own mobile or network (voicemail must be off, which they often get wrong), UK SMS sender registration and a trade-specific prompt or link. Some client hand-holding is needed every time [E]."
+    },
+    "delivery": {
+     "score": 4,
+     "why": "Once configured, GoHighLevel or Twilio workflows send the text and the AI qualifies the lead unattended. Replying to an inbound caller is not cold marketing."
+    },
+    "billing": {
+     "score": 5,
+     "why": "Monthly Stripe or GHL SaaS-mode subscription."
+    },
+    "support": {
+     "score": 2,
+     "why": "Forwarding breaks, missed texts and bad AI answers to urgent jobs reach the owner directly, and those tradespeople expect a human [E]."
+    }
+   },
+   "legal_acquisition": "b2b_cold_email_ok",
+   "R_realism": 2,
+   "R_why": "Technically trivial for Ricardo. However, GHL costs about $97-297/month, which eats a £300 test in 1-3 months [E]. Selling to UK tradespeople usually means calls and demos he has no hours for. No sale was closed in the source.",
+   "M_headroom": 2,
+   "M_why": "Heavily commoditised. VoIP providers, Tradify-type job apps, GHL resellers and AI receptionists (e.g. Trillet-style, Rosie) already offer it, and many UK trades rely on WhatsApp Business auto-replies [E].",
+   "E_adjust": -1,
+   "one_line": "Easy to build and runs itself once live, but UK-legal acquisition of tradespeople is hard and the product is a saturated GHL commodity. Weak fit for an agent-run, hands-off business [E]."
+  },
+  {
+   "cid": "C0421",
+   "automation": {
+    "acquisition": {
+     "score": 2,
+     "why": "Value-first posting in Facebook groups needs a genuine human presence. UK cheer is a tiny niche. App-store and SEO inbound is possible but low-volume [E]."
+    },
+    "onboarding": {
+     "score": 4,
+     "why": "Self-serve signup and parent import. Parent and child data requires consent capture flows."
+    },
+    "delivery": {
+     "score": 4,
+     "why": "Unattended software. Push, email or WhatsApp links avoid SMS consent and cost issues."
+    },
+    "billing": {
+     "score": 5,
+     "why": "Stripe subscription."
+    },
+    "support": {
+     "score": 3,
+     "why": "Low-touch with an agent-handled help desk. GDPR and child-data queries are occasional."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 3,
+   "R_why": "Easily vibe-coded within his hours and budget. However, UK youth cheer is very small; widening to all UK youth sports runs straight into free incumbents. Children's data adds GDPR care.",
+   "M_headroom": 1,
+   "M_why": "Spond (free and dominant in UK grassroots sport), TeamSnap, Heja, Pitchero and plain WhatsApp groups already do this for free. A £5/month single feature has almost no room [E].",
+   "E_adjust": -1,
+   "one_line": "A purely illustrative teaching example with no revenue. Highly automatable, but the UK market is tiny and free tools like Spond already cover it, so it is unattractive."
+  },
+  {
+   "cid": "C0572",
+   "automation": {
+    "acquisition": {
+     "score": 2,
+     "why": "Most UK charities are incorporated (CLG or CIO), so cold email is broadly OK, and there is charity-sector SEO and content. However, trust-based sales to trustees are slow, and some smaller unincorporated charities fall outside the corporate exemption [E]."
+    },
+    "onboarding": {
+     "score": 2,
+     "why": "Each client needs a human-reviewed intake of governance documents, accounts, impact data and project budgets."
+    },
+    "delivery": {
+     "score": 3,
+     "why": "Agents can match funders and draft bids, but a human review before submission is essential for quality and accuracy."
+    },
+    "billing": {
+     "score": 3,
+     "why": "Retainers can be on Stripe, but success fees depend on award outcomes with months of lag and need manual invoicing and tracking."
+    },
+    "support": {
+     "score": 2,
+     "why": "Clients expect a named bid writer and revisions, and funder feedback loops are human."
+    }
+   },
+   "legal_acquisition": "b2b_cold_email_ok",
+   "R_realism": 3,
+   "R_why": "Ricardo can build it. The large UK funder landscape (360Giving open data) is a plus. However, the Chartered Institute of Fundraising code discourages commission or success fees, and bid quality needs domain expertise he likely lacks. Review time competes with his 6-8 hours/week.",
+   "M_headroom": 2,
+   "M_why": "Crowded: Grantable, Instrumentl, Plinth and other UK AI bid tools, Funds Online and GrantFinder databases, and charities using ChatGPT directly. Funders are also increasingly wary of AI-drafted bids [E].",
+   "E_adjust": 0,
+   "one_line": "A real UK need with a specific first-hand price claim. However, it is human-review-heavy, success fees conflict with UK fundraising norms, and AI substitutes are commoditising it."
+  },
+  {
+   "cid": "C1128",
+   "automation": {
+    "acquisition": {
+     "score": 3,
+     "why": "Most UK bodyshops are limited companies, so cold email is OK, and Meta ads are agent-runnable. Conversion probably needs a demo [E]."
+    },
+    "onboarding": {
+     "score": 2,
+     "why": "Each shop needs a branded setup, customer-notification consent and integration with, or habit change in, their job workflow."
+    },
+    "delivery": {
+     "score": 3,
+     "why": "The software is automated, but status accuracy depends on shop staff updating it unless it is integrated with their management system."
+    },
+    "billing": {
+     "score": 5,
+     "why": "Monthly subscription via Stripe or GHL."
+    },
+    "support": {
+     "score": 2,
+     "why": "Staff adoption issues and customer complaints about wrong statuses need hands-on help [E]."
+    }
+   },
+   "legal_acquisition": "b2b_cold_email_ok",
+   "R_realism": 2,
+   "R_why": "Buildable with cheap tooling. However, UK bodyshop work is largely insurer- or accident-management-directed, and those insurer portals and existing bodyshop systems already push status updates. Selling to garages takes calls and visits he has no hours for [E].",
+   "M_headroom": 2,
+   "M_why": "Vertical DMS and estimating platforms (e.g. Bodyshop Manager-type tools, insurer repair-tracking portals) bundle this, so a standalone white-labelled GHL tracker is easy to displace [E].",
+   "E_adjust": -1,
+   "one_line": "A second-hand, single-mention example with no pricing. B2B cold email is legal, but adoption friction and bundled incumbents make it a poor agent-run bet."
+  },
+  {
+   "cid": "C0115",
+   "automation": {
+    "acquisition": {
+     "score": 3,
+     "why": "Inbound via content, SEO and the Chrome Web Store is feasible but platform-dependent, and buyers are sceptical of protection claims."
+    },
+    "onboarding": {
+     "score": 4,
+     "why": "Self-serve upload, plugin install or API."
+    },
+    "delivery": {
+     "score": 2,
+     "why": "Requires R&D-grade adversarial audio and detection. Effectiveness is unproven and decays as new models appear, so it needs ongoing expert work rather than unattended software [E]."
+    },
+    "billing": {
+     "score": 5,
+     "why": "Stripe subscription."
+    },
+    "support": {
+     "score": 2,
+     "why": "False positives and negatives and 'it got cloned anyway' disputes need careful human handling."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 1,
+   "R_why": "This is ML-research territory in an arms race, far beyond 6-8 hours/week and £300. Overstated protection claims carry ASA and consumer-law risk, and voice biometrics trigger UK GDPR special-category rules.",
+   "M_headroom": 2,
+   "M_why": "Real and growing demand, but contested by well-funded players: Reality Defender, Resemble, Pindrop, C2PA and Content Credentials from Adobe and Google, and platform-native labels [E].",
+   "E_adjust": -1,
+   "one_line": "A speculative trend observation with no revenue evidence. It needs deep R&D and competes with funded incumbents, so it is not viable for a part-time agent-run test."
+  },
+  {
+   "cid": "C0331",
+   "automation": {
+    "acquisition": {
+     "score": 3,
+     "why": "The antique-centre booth provides passive foot traffic, an inbound retail placement, but sales depend on that single location."
+    },
+    "onboarding": {
+     "score": 5,
+     "why": "No customer onboarding: shoppers simply buy."
+    },
+    "delivery": {
+     "score": 0,
+     "why": "Physical sourcing at 5am car boots, plus pricing, transport and booth stocking, all require a human every time."
+    },
+    "billing": {
+     "score": 3,
+     "why": "The centre usually handles the till and pays out monthly minus commission."
+    },
+    "support": {
+     "score": 2,
+     "why": "Minimal, but returns and queries go through centre staff and the stock owner."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 1,
+   "R_why": "Early weekend car-boot runs clash with toddler care, and stall rent (about £80-250/month [E]) plus stock quickly exceed £300. Zero agent leverage.",
+   "M_headroom": 2,
+   "M_why": "UK car boots and antique centres are an established, competitive hobby market with eBay and Vinted price transparency. There is no saturation crisis, but margins are thin [E].",
+   "E_adjust": -1,
+   "one_line": "A purely physical hobby-reselling business with no claims backing it. The computed evidence score is inflated, and nothing here can be agent-run."
+  },
+  {
+   "cid": "C0353",
+   "automation": {
+    "acquisition": {
+     "score": 2,
+     "why": "UK pond and dredging contractors are often sole traders, so cold email is restricted. Small Ltd firms and inbound SEO are possible but the niche is tiny."
+    },
+    "onboarding": {
+     "score": 3,
+     "why": "Self-serve purchase of lead lists by region is possible."
+    },
+    "delivery": {
+     "score": 3,
+     "why": "Agents can map ponds from OS/Environment Agency/OpenStreetMap data, but 'need signals' and accuracy are weak and need human QA."
+    },
+    "billing": {
+     "score": 4,
+     "why": "Stripe one-off or subscription payments."
+    },
+    "support": {
+     "score": 3,
+     "why": "Agents handle bad-lead complaints and refunds."
+    }
+   },
+   "legal_acquisition": "doubtful",
+   "R_realism": 1,
+   "R_why": "The UK pond market is a fraction of the 800,000 Texas ponds cited. Landowner personal data needs a UK GDPR lawful basis, and contractors using the leads for cold outreach to farmers face PECR limits.",
+   "M_headroom": 1,
+   "M_why": "Very small buyer pool, unproven demand and easily replicated data, so there is little headroom in the UK [E].",
+   "E_adjust": -1,
+   "one_line": "A US-specific, unproven agent demo. The UK market is tiny and legally awkward on data and outreach, so it should be passed over."
+  },
+  {
+   "cid": "C0503",
+   "automation": {
+    "acquisition": {
+     "score": 3,
+     "why": "Paid Meta and Google ads, Amazon KDP and SEO are agent-manageable. However, Meta restricts 'personal hardship' targeting and the source's CAC only broke even, so it is platform-dependent."
+    },
+    "onboarding": {
+     "score": 5,
+     "why": "Purchase and instant download."
+    },
+    "delivery": {
+     "score": 4,
+     "why": "Digital ebook or KDP print-on-demand avoids holding inventory, though a higher-ticket back-end programme or community needs some moderation."
+    },
+    "billing": {
+     "score": 5,
+     "why": "Stripe or funnel checkout, including order bumps."
+    },
+    "support": {
+     "score": 3,
+     "why": "Agents handle refunds and access issues. Distressed customers and legal-adjacent questions need careful escalation."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 2,
+   "R_why": "The content needs a full rewrite for UK law (no-fault divorce since 2022, separate Scottish law) and to avoid regulated legal advice. A £300 ad budget is only about 3 days at the source's spend, with break-even CAC, so profit depends on unproven upsells [E].",
+   "M_headroom": 2,
+   "M_why": "Amazon has many divorce books, free gov.uk and Citizens Advice guidance exists, and AI chat substitutes are common. Meta ad restrictions add platform risk [E].",
+   "E_adjust": 0,
+   "one_line": "A candid, specific, first-hand single source (break-even CAC, about $5-6k in sales). The funnel is very automatable, but thin margins, UK legal localisation and ad-policy risk make it marginal on £300."
+  }
+ ]
+}

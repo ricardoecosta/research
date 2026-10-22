@@ -1,0 +1,260 @@
+{
+ "scores": [
+  {
+   "cid": "C0465",
+   "automation": {
+    "acquisition": {
+     "score": 3,
+     "why": "Inbound SEO and YouTube search. Google AI Overviews cut traffic by about 64% at one point, so this channel is fragile and depends on the platform."
+    },
+    "onboarding": {
+     "score": 5,
+     "why": "Readers need no onboarding. Joining an ad network such as Mediavine or Raptive is a one-off application, and both have traffic thresholds."
+    },
+    "delivery": {
+     "score": 3,
+     "why": "Agents can draft articles. Animal-care accuracy needs human or expert review, and AI-only content risks Google penalties. Video needs a presenter or faceless production [E]."
+    },
+    "billing": {
+     "score": 5,
+     "why": "The ad network pays automatically."
+    },
+    "support": {
+     "score": 3,
+     "why": "Reader questions and comments are low stakes. Agents can triage them and escalate health questions."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 2,
+   "R_why": "Ricardo has no goat expertise. It takes years and hundreds of articles to reach ad-network traffic thresholds, and UK RPMs are lower. 6-8 h/week makes the climb slow, and the £300 budget only covers hosting and tools.",
+   "M_headroom": 1,
+   "M_why": "Generic informational niche sites are the format most damaged by AI Overviews and LLM answers in 2026. AI-written content floods the space, and incumbents like this one already hold the rankings.",
+   "E_adjust": 0,
+   "one_line": "The pipeline is agent-friendly, but SEO-dependent display-ad media is being eroded by AI answers and needs years of authority-building, so it is a poor bet for a new UK entrant [E]."
+  },
+  {
+   "cid": "C0211",
+   "automation": {
+    "acquisition": {
+     "score": 4,
+     "why": "Amazon search gives inbound demand with no marketing needed. It depends heavily on the platform."
+    },
+    "onboarding": {
+     "score": 4,
+     "why": "There is no customer onboarding; Amazon handles checkout. Seller account verification is a one-off task."
+    },
+    "delivery": {
+     "score": 1,
+     "why": "Physical sourcing: in-store scanning at TK Maxx and similar shops, then prep, labelling and shipping into FBA. A human does this every time."
+    },
+    "billing": {
+     "score": 5,
+     "why": "Amazon collects payment and pays out."
+    },
+    "support": {
+     "score": 3,
+     "why": "FBA handles most customer service. Account-health and suspension appeals need a human."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 2,
+   "R_why": "Retail arbitrage needs in-store hours, which a toddler makes hard. £300 buys only a few dozen units. VAT, brand gating, UK product compliance and FBA fees thin margins. Online arbitrage via tools is more feasible, but it is still capital- and time-bound.",
+   "M_headroom": 2,
+   "M_why": "Arbitrage is saturated, with repricer wars and more brand gating. Amazon UK enforcement is strict, and the source's own business was suspended for 180 days.",
+   "E_adjust": -1,
+   "one_line": "The physical sourcing and inventory risk cannot be handed to agents. The $2M claim comes from a single first-hand source, and account-suspension risk makes this a poor fit."
+  },
+  {
+   "cid": "C0299",
+   "automation": {
+    "acquisition": {
+     "score": 3,
+     "why": "Customers arrive inbound via SEO, an exact-match domain and short social videos. Signing producer partners is relationship-based and needs a human, with in-person visits (B2B)."
+    },
+    "onboarding": {
+     "score": 2,
+     "why": "Each producer deal needs negotiation and trust. Consumer checkout on Shopify is automated."
+    },
+    "delivery": {
+     "score": 1,
+     "why": "The producer packs and ships physical perishable food. The operator only coordinates."
+    },
+    "billing": {
+     "score": 4,
+     "why": "Shopify collects payment. The revenue split with the producer needs periodic reconciliation."
+    },
+    "support": {
+     "score": 2,
+     "why": "Damaged or rotten produce complaints need judgment and refunds, plus coordination with the farm."
+    }
+   },
+   "legal_acquisition": "needs_human_outreach",
+   "R_realism": 2,
+   "R_why": "Possible in the UK with things like Jersey Royals, Yorkshire rhubarb or regional bakeries. However, producer deals need visits, and food labelling, food-business registration and perishable courier economics add friction. Ricardo's hours are limited. The £300 test is feasible as a landing page plus a domain [E].",
+   "M_headroom": 3,
+   "M_why": "Many small UK producers still lack decent DTC channels. Competition comes from marketplaces such as Farmison, Etsy food sellers, and producers' own Shopify stores. Protected names need permission.",
+   "E_adjust": 0,
+   "one_line": "An interesting capital-light model, but it relies on human producer relationships and perishable physical fulfilment, which limits agent-run potential."
+  },
+  {
+   "cid": "C0573",
+   "automation": {
+    "acquisition": {
+     "score": 1,
+     "why": "Came via a personal referral. Many UK clinics are sole traders or partnerships, so cold email is restricted, and sales calls need a human."
+    },
+    "onboarding": {
+     "score": 2,
+     "why": "Scoping a clinic's new service, getting brand assets and doing compliance review need calls."
+    },
+    "delivery": {
+     "score": 3,
+     "why": "GoHighLevel bots, forms and content can be largely templated by agents. Health and ASA/CAP claims need human review."
+    },
+    "billing": {
+     "score": 5,
+     "why": "Stripe recurring retainers. Per-client bonuses can be tracked through the CRM."
+    },
+    "support": {
+     "score": 3,
+     "why": "About 1.5 h/month of maintenance is claimed, and agents can handle routine edits."
+    }
+   },
+   "legal_acquisition": "needs_human_outreach",
+   "R_realism": 3,
+   "R_why": "Ricardo has the technical skill to build GoHighLevel and AI stacks. UK clinics such as physios, chiropractors and aesthetics pay for marketing. Selling consultatively in 6-8 h/week is the bottleneck, and healthcare advertising rules add review work.",
+   "M_headroom": 2,
+   "M_why": "The agency/AI-automation offer to clinics is heavily crowded in 2026, and GoHighLevel resellers are everywhere. Prices like $3.5k setup are likely to compress.",
+   "E_adjust": -1,
+   "one_line": "Delivery templates well, but this is a sales-led agency with one referred client as its only evidence, so it is not agent-runnable at acquisition."
+  },
+  {
+   "cid": "C0677",
+   "automation": {
+    "acquisition": {
+     "score": 2,
+     "why": "Growth came from inbound content plus founder-led partnership pitches. Growth depends on a personal brand and daily founder content."
+    },
+    "onboarding": {
+     "score": 4,
+     "why": "Newsletter and membership signups are automated on Beehiiv or Stripe."
+    },
+    "delivery": {
+     "score": 2,
+     "why": "The value is the founder's voice, the community and events. Agents can help with the job board and drafting, but authenticity needs a human."
+    },
+    "billing": {
+     "score": 5,
+     "why": "Subscriptions, sponsorships and job-board payments run automatically."
+    },
+    "support": {
+     "score": 3,
+     "why": "Agents can handle membership administration. Community moderation needs light human oversight."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 2,
+   "R_why": "The founder is UK-based, so the model works here. It hinges on a magnetic personal brand and years of daily content, which 6-8 h/week makes unlikely. Events are physical and time-heavy.",
+   "M_headroom": 2,
+   "M_why": "The creator-newsletter market is saturated, and AI content floods inboxes. A niche identity community is defensible only through the founder's personality.",
+   "E_adjust": 0,
+   "one_line": "A founder-personality media business. Its $30k/month comes from one first-hand anecdote, and the core asset cannot be delegated to agents."
+  },
+  {
+   "cid": "C1083",
+   "automation": {
+    "acquisition": {
+     "score": 3,
+     "why": "Customers would come inbound via Facebook ads or content. The idea is untested, and paid acquisition at a $10/month price point is risky."
+    },
+    "onboarding": {
+     "score": 4,
+     "why": "Self-serve signup and templates."
+    },
+    "delivery": {
+     "score": 3,
+     "why": "The CRM itself would run unattended. AI-coded customisations per user need review for defects and security."
+    },
+    "billing": {
+     "score": 5,
+     "why": "Stripe subscriptions."
+    },
+    "support": {
+     "score": 2,
+     "why": "Customisation requests and bugs from AI-generated code create a support load."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 3,
+   "R_why": "Ricardo can build it technically. However, demand is unproven even according to the speakers, and contact data raises UK GDPR obligations. A £300 ad test is enough to validate it [E].",
+   "M_headroom": 1,
+   "M_why": "Personal CRMs are crowded (Clay/Mesh, Dex, Monica, Notion templates). Users can ask ChatGPT or Claude to vibe-code their own, which commoditises the core pitch.",
+   "E_adjust": -1,
+   "one_line": "A hypothetical idea with no first-hand evidence, in a space AI tools are actively commoditising, so it is a low-priority test."
+  },
+  {
+   "cid": "C1134",
+   "automation": {
+    "acquisition": {
+     "score": 3,
+     "why": "Could reach customers via SEO, directories, AppSumo-style marketplaces and content. No channel is evidenced."
+    },
+    "onboarding": {
+     "score": 5,
+     "why": "Users paste a script snippet themselves."
+    },
+    "delivery": {
+     "score": 5,
+     "why": "Unattended software."
+    },
+    "billing": {
+     "score": 5,
+     "why": "Stripe subscriptions at about $9/month."
+    },
+    "support": {
+     "score": 3,
+     "why": "Agents can handle install and tracking questions from docs. Edge cases are occasional."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 3,
+   "R_why": "Easy for Ricardo to build. Privacy-first, cookieless analytics suits UK and EU PECR rules. Hosting costs fit within £300. Reaching meaningful MRR is the hard part.",
+   "M_headroom": 1,
+   "M_why": "Extremely saturated: Plausible, Fathom, Simple Analytics, Umami, GA4 for free, Cloudflare for free, and many indie clones. There is no differentiation.",
+   "E_adjust": 0,
+   "one_line": "Highly automatable SaaS, but the market is a red ocean of free and privacy-first alternatives, and the evidence is only anecdotal pricing feedback."
+  },
+  {
+   "cid": "C0065",
+   "automation": {
+    "acquisition": {
+     "score": 3,
+     "why": "TikTok Shop affiliates, marketplaces and Shopify are inbound channels, but this case relies on TikTok for 83% of revenue. Founder livestreams and the founder story need a human."
+    },
+    "onboarding": {
+     "score": 4,
+     "why": "Consumer checkout is automated."
+    },
+    "delivery": {
+     "score": 0,
+     "why": "Physical food manufacturing, packing and food-safety compliance need a human or co-packer every time."
+    },
+    "billing": {
+     "score": 5,
+     "why": "Shopify and TikTok Shop collect payment."
+    },
+    "support": {
+     "score": 3,
+     "why": "Agents can handle order queries and refunds. Allergen or quality issues need a human."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 1,
+   "R_why": "Needs local-authority food registration, a food-safe premises or co-packer minimum order quantities, allergen labelling, and inventory capital well beyond £300. Production in 6-8 h/week with a toddler is unrealistic.",
+   "M_headroom": 2,
+   "M_why": "UK CPG food is crowded. TikTok Shop is competitive and its algorithm is volatile, and retail terms squeeze margins. Niche dietary angles give some room.",
+   "E_adjust": -1,
+   "one_line": "Physical production makes it impossible for agents to run. The headline claims include an implausible 86% margin against 30% COGS, and it needs far more capital and hours than Ricardo has."
+  }
+ ]
+}

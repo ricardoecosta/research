@@ -1,0 +1,260 @@
+{
+ "scores": [
+  {
+   "cid": "C0111",
+   "automation": {
+    "acquisition": {
+     "score": 4,
+     "why": "Pure SEO/AI-search inbound; agents can do keyword research and publish content, though ranking is slow and Google-dependent."
+    },
+    "onboarding": {
+     "score": 5,
+     "why": "No onboarding; users land and use the tool."
+    },
+    "delivery": {
+     "score": 5,
+     "why": "Static client-side calculator; unattended software."
+    },
+    "billing": {
+     "score": 5,
+     "why": "AdSense/Ezoic pay automatically; no customer billing."
+    },
+    "support": {
+     "score": 4,
+     "why": "Minimal; occasional bug reports and data refreshes (e.g. UK tax rates yearly) an agent can draft."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 4,
+   "R_why": "Very cheap to build (domain + hosting well under £300), fits 6-8 h/week, and Ricardo's technical skill helps. UK-specific calculators (tax, stamp duty, student loan) are a natural niche. Cookie consent (CMP) is needed for ads, and email gating needs PECR consent. Revenue is small until traffic is large: about £20-80/month per 10k page views [E].",
+   "M_headroom": 2,
+   "M_why": "Calculator SERPs are saturated, and Google AI Overviews and LLMs answer many simple calculations directly. Copying is trivial, and one first-hand claim (build time) says nothing about revenue. Long-tail UK niches still have some room.",
+   "E_adjust": -1,
+   "one_line": "Almost fully automatable and cheap to test as a portfolio of UK-niche calculators, but AI answers and saturation squeeze traffic, so expect pocket money, not a business [E]."
+  },
+  {
+   "cid": "C0283",
+   "automation": {
+    "acquisition": {
+     "score": 3,
+     "why": "Paid Reddit/Facebook ads and app-store/SEO are legal inbound. Agents can run creative and bidding, but ad spend needs human approval and CAC is untested."
+    },
+    "onboarding": {
+     "score": 5,
+     "why": "Self-serve app signup."
+    },
+    "delivery": {
+     "score": 4,
+     "why": "Software; agents can handle feature tweaks and maintenance with occasional human review."
+    },
+    "billing": {
+     "score": 5,
+     "why": "Stripe or app-store subscriptions."
+    },
+    "support": {
+     "score": 3,
+     "why": "Consumer hobbyists send feature requests and bug reports; agents can triage most of them."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 3,
+   "R_why": "Ricardo can build an app cheaply. But £300 buys little paid-ad testing, $10-20/month for a tracker is ambitious, and churn among hobbyists is likely. UK hobby communities exist but are small; app-store review and posting rules add friction.",
+   "M_headroom": 2,
+   "M_why": "Free incumbents exist (BG Stats, garden planners, golf apps like 18Birdies) and vibe-coded clones are multiplying. Willingness to pay is unproven, and there are no first-hand claims.",
+   "E_adjust": -1,
+   "one_line": "Agent-friendly SaaS shape, but the pitch is a hypothetical brainstorm with strong free competitors and an unproven $10-20/month price for hobby trackers."
+  },
+  {
+   "cid": "C0687",
+   "automation": {
+    "acquisition": {
+     "score": 4,
+     "why": "Programmatic SEO plus being cited by ChatGPT; agents generate and publish pages. Exposed to Google helpful-content updates."
+    },
+    "onboarding": {
+     "score": 5,
+     "why": "Self-serve membership signup."
+    },
+    "delivery": {
+     "score": 4,
+     "why": "AI recipe generator via API plus auto-generated pages; needs occasional quality and brand-name checks."
+    },
+    "billing": {
+     "score": 5,
+     "why": "Stripe membership."
+    },
+    "support": {
+     "score": 4,
+     "why": "Low-ticket consumer queries and refunds an agent can handle."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 3,
+   "R_why": "Technically easy for Ricardo and tools cost about $50/month, within budget. But SEO feedback takes about 5 months. Using restaurant brand names carries UK trademark and passing-off sensitivity, and AI-content penalties are a risk. The claimed $700-800/month suggests a modest ceiling.",
+   "M_headroom": 2,
+   "M_why": "Recipe search is among the most AI-disrupted SERPs (AI Overviews, ChatGPT recipes), copycat-recipe sites are plentiful, and the app's launch spike is not repeatable. A single source, though first-hand.",
+   "E_adjust": 0,
+   "one_line": "A credible first-hand, agent-runnable pSEO model, but the revenue is small, recipe SEO is crowded and AI-eroded, and brand-name pages carry legal risk."
+  },
+  {
+   "cid": "C0688",
+   "automation": {
+    "acquisition": {
+     "score": 3,
+     "why": "Build-in-public content on X and a newsletter. Agents can draft research posts, but audience growth needs an authentic voice and human approval."
+    },
+    "onboarding": {
+     "score": 5,
+     "why": "Self-serve SaaS signup."
+    },
+    "delivery": {
+     "score": 4,
+     "why": "Scraping and analysis software plus AI-written reports; scrapers break and need upkeep."
+    },
+    "billing": {
+     "score": 5,
+     "why": "Stripe subscriptions."
+    },
+    "support": {
+     "score": 3,
+     "why": "Developer users ask technical questions; agents can answer most of them."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 2,
+   "R_why": "Ricardo has the technical ability, but building an audience is slow at 6-8 h/week. Marketplace scraping terms (Apple, Shopify, etc.) are a risk, and the host himself doubts each marketplace is big enough for a tool.",
+   "M_headroom": 2,
+   "M_why": "ASO tools (AppTweak, Sensor Tower, Astro) are established, and indie-dev audience content is crowded. One speculative mention with no claims.",
+   "E_adjust": -1,
+   "one_line": "An idea pitched with no evidence, in a crowded ASO tool space, behind a slow audience-building moat that is hard to delegate to agents."
+  },
+  {
+   "cid": "C0040",
+   "automation": {
+    "acquisition": {
+     "score": 2,
+     "why": "Sales depend on an existing audience or author platform. Amazon KDP ads and SEO are inbound, but without an audience discovery is weak."
+    },
+    "onboarding": {
+     "score": 5,
+     "why": "Readers just buy on Amazon or a store."
+    },
+    "delivery": {
+     "score": 2,
+     "why": "Credible nonfiction needs the author's expertise and voice over months. AI drafting helps, but quality and authority need heavy human involvement, and AI-slop books get flagged on KDP."
+    },
+    "billing": {
+     "score": 5,
+     "why": "KDP and publishers pay royalties automatically."
+    },
+    "support": {
+     "score": 4,
+     "why": "Minimal reader support."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 2,
+   "R_why": "An 18-22 month project at 6-8 h/week, and the big outcomes ($500k advance, $1M launch) rely on huge existing audiences Ricardo lacks. KDP royalty income is typically low for unknown authors [E].",
+   "M_headroom": 2,
+   "M_why": "KDP is flooded with AI-generated nonfiction and Amazon now caps uploads. Books work as authority for other offers, not as a standalone income source.",
+   "E_adjust": -1,
+   "one_line": "Well evidenced as an authority play for people who already have big audiences, but not an agent-run income source for an unknown part-timer in a flooded KDP market."
+  },
+  {
+   "cid": "C0095",
+   "automation": {
+    "acquisition": {
+     "score": 3,
+     "why": "Etsy search and paid social are legal inbound. Etsy is the main channel but platform-dependent, and agents can manage listings."
+    },
+    "onboarding": {
+     "score": 4,
+     "why": "The customer uploads photos and details via form or Etsy messages; occasional clarifications are needed."
+    },
+    "delivery": {
+     "score": 3,
+     "why": "AI generation plus print-on-demand fulfilment; outputs need a quality check, especially of children's likenesses, and physical print issues occur."
+    },
+    "billing": {
+     "score": 5,
+     "why": "Etsy or Stripe checkout."
+    },
+    "support": {
+     "score": 3,
+     "why": "Gift buyers raise delivery, reprint and likeness complaints; agents handle most with escalation."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 3,
+   "R_why": "Cheap to test on Etsy UK with UK print-on-demand for well under £300. Seasonal gift demand exists. Children's photos are personal data under UK GDPR and need care. Consumer refund rules for personalised goods are favourable.",
+   "M_headroom": 2,
+   "M_why": "A crowded personalised-book market (Wonderbly, many Etsy sellers), and ChatGPT lets buyers DIY. Sam himself sees a 3-4 year window.",
+   "E_adjust": 0,
+   "one_line": "An Etsy plus print-on-demand gift product that agents can mostly run, but margins and differentiation are thin as buyers can DIY with ChatGPT and incumbents dominate."
+  },
+  {
+   "cid": "C0221",
+   "automation": {
+    "acquisition": {
+     "score": 3,
+     "why": "B2B cold email to company marketers with a free sample ebook is PECR-OK, and agents can find leads via Apollo and draft emails. Avoid LinkedIn DM automation (against platform terms)."
+    },
+    "onboarding": {
+     "score": 3,
+     "why": "B2B clients need scoping, branding assets and approvals; agents can run intake forms with human sign-off."
+    },
+    "delivery": {
+     "score": 4,
+     "why": "Transcript to ebook, blog and LinkedIn posts is very agent-friendly, with a human quality pass on brand voice."
+    },
+    "billing": {
+     "score": 5,
+     "why": "Stripe invoices or retainers."
+    },
+    "support": {
+     "score": 3,
+     "why": "Revision requests and account management; agents draft, the human approves."
+    }
+   },
+   "legal_acquisition": "b2b_cold_email_ok",
+   "R_realism": 3,
+   "R_why": "Fits Ricardo's skills and budget (Apollo free tier, Claude). UK B2B webinar culture is strong. But $1-8k pricing is aspirational, B2B sales cycles are slow, and a human must stand behind the client relationship.",
+   "M_headroom": 2,
+   "M_why": "Repurposing is heavily commoditised (Descript, Castmagic, in-house ChatGPT), and the agency space is crowded. The cold-email free-sample angle gives some edge.",
+   "E_adjust": -1,
+   "one_line": "A legal B2B cold-email service where AI does most delivery, but clients can increasingly DIY. Pricing claims are pitches, not first-hand results, so test with UK SaaS webinar hosts [E]."
+  },
+  {
+   "cid": "C0422",
+   "automation": {
+    "acquisition": {
+     "score": 2,
+     "why": "Needs SEO or paid ads for 'infographic CV'. No channel was identified, and $5 pricing can't support paid acquisition."
+    },
+    "onboarding": {
+     "score": 5,
+     "why": "Upload and pay."
+    },
+    "delivery": {
+     "score": 4,
+     "why": "Image or HTML generation via API; errors in AI-rendered text need guardrails."
+    },
+    "billing": {
+     "score": 5,
+     "why": "Stripe one-off payment."
+    },
+    "support": {
+     "score": 3,
+     "why": "Revision and refund requests over garbled output."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 2,
+   "R_why": "Easy for Ricardo to build. But at $5 it needs volume, UK recruiters and ATS systems disfavour infographic CVs, and CVs are personal data under UK GDPR. Demand is unvalidated.",
+   "M_headroom": 1,
+   "M_why": "Canva templates, free AI CV builders and ChatGPT do this already. The ATS-unfriendly format limits demand. Purely hypothetical claims.",
+   "E_adjust": -1,
+   "one_line": "A trivially automatable but hypothetical, low-price product that free tools already cover, with a format UK hiring systems penalise."
+  }
+ ]
+}

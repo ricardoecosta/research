@@ -1,0 +1,260 @@
+{
+ "scores": [
+  {
+   "cid": "C0177",
+   "automation": {
+    "acquisition": {
+     "score": 3,
+     "why": "Agents can make Meta ad creatives and run tests, but Ricardo has to approve the spend. With a £300 budget there is little room for testing. This is inbound paid social, so it is PECR-safe. The influencer-DM variant is not, because unsolicited DMs to individuals breach PECR."
+    },
+    "onboarding": {
+     "score": 5,
+     "why": "No onboarding: the customer checks out on Shopify and gets an instant download."
+    },
+    "delivery": {
+     "score": 5,
+     "why": "Email or download delivery runs unattended. AI drafts the guides, but health and finance topics need a human review [E]."
+    },
+    "billing": {
+     "score": 5,
+     "why": "Shopify or Stripe checkout with VAT handled by a merchant-of-record or plugin."
+    },
+    "support": {
+     "score": 3,
+     "why": "Agents can handle refunds and access problems. Chargebacks and complaints about ad claims sometimes need a human."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 3,
+   "R_why": "Skills and hours fit, and the build costs almost nothing. But about £300 buys roughly 3-6 days of a single ad test [E]. Cheap AI-written guides compete with free ChatGPT answers. Using creators' names without consent is a legal risk, and health or finance claims fall under CAP code scrutiny.",
+   "M_headroom": 2,
+   "M_why": "Low-ticket AI ebooks are heavily saturated in 2026, and buyers are sceptical of them. Meta CPMs are rising, and the business depends on that one platform's algorithm.",
+   "E_adjust": -1,
+   "one_line": "Highly automatable digital store, but it is basically paid-ads gambling on commoditised AI guides, and the £300 budget barely covers one test. Only one first-hand source, with hypothetical economics."
+  },
+  {
+   "cid": "C0032",
+   "automation": {
+    "acquisition": {
+     "score": 3,
+     "why": "Etsy and Redbubble search gives inbound traffic. Agents can do keyword research and bulk listing. The channel depends on the platforms, and Etsy policies limit mass AI listings."
+    },
+    "onboarding": {
+     "score": 5,
+     "why": "Ordinary marketplace purchase; nothing to onboard."
+    },
+    "delivery": {
+     "score": 4,
+     "why": "Printify or Printful prints and ships. The goods are physical, but fulfilment is fully outsourced and API-driven, so it is above the usual physical cap. Agents still need to check design quality and IP."
+    },
+    "billing": {
+     "score": 5,
+     "why": "The marketplace collects payment and handles UK VAT as a marketplace facilitator."
+    },
+    "support": {
+     "score": 3,
+     "why": "Agents can handle wrong-size and late-delivery messages and reprints through POD. Trademark complaints need a human."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 3,
+   "R_why": "Cheap to start, and the hours and skills fit; £300 covers listing fees and samples. The 'copy best-sellers' approach brings trademark and IP strikes and shop suspension, a real risk for an unattended setup. Expect few sales [E].",
+   "M_headroom": 1,
+   "M_why": "Extremely saturated, and floods of AI art are making it worse. Etsy keeps tightening rules on POD and AI listings, and margins are thin. Eight videos agree on the model, but only one gives first-hand economics.",
+   "E_adjust": 0,
+   "one_line": "The most automatable physical-product model, but it is a saturated lottery with IP and suspension risk. Fine as a cheap side experiment, poor as a core business."
+  },
+  {
+   "cid": "C0265",
+   "automation": {
+    "acquisition": {
+     "score": 3,
+     "why": "Inbound SEO, a free-audit lead magnet and content can be agent-run. The 'local traders' segment invites PECR-illegal cold outreach to sole traders. Cold email to limited companies is fine."
+    },
+    "onboarding": {
+     "score": 4,
+     "why": "The user enters a URL and gets an audit; self-serve."
+    },
+    "delivery": {
+     "score": 4,
+     "why": "Automated crawling plus LLM analysis. GEO metrics are fuzzy, so outputs need periodic quality checks."
+    },
+    "billing": {
+     "score": 5,
+     "why": "Stripe subscriptions or one-off reports."
+    },
+    "support": {
+     "score": 3,
+     "why": "Agents can answer most questions. Disputes about accuracy need a human."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 4,
+   "R_why": "Fits Ricardo's technical skills and can be built cheaply with Claude Code. Running costs are low (APIs and hosting under £50/month [E]). The hard part is distribution, not building.",
+   "M_headroom": 2,
+   "M_why": "Crowded: Ahrefs, Semrush, SEOptimer and many free GEO checkers, and AI assistants can do ad-hoc audits. A niche angle is needed (UK trades, a specific CMS).",
+   "E_adjust": -1,
+   "one_line": "Easy to build and highly automatable, but it is a commoditised category with no demonstrated revenue in the dossier. Only worth it as a sharply niched lead-magnet tool."
+  },
+  {
+   "cid": "C0426",
+   "automation": {
+    "acquisition": {
+     "score": 3,
+     "why": "Original growth came from content, SEO and affiliates (Niche Pursuits blog), all inbound and agent-assistable. Building the audience takes years."
+    },
+    "onboarding": {
+     "score": 4,
+     "why": "Self-serve trial and signup."
+    },
+    "delivery": {
+     "score": 5,
+     "why": "Software calling keyword data APIs; unattended."
+    },
+    "billing": {
+     "score": 5,
+     "why": "Stripe subscriptions."
+    },
+    "support": {
+     "score": 3,
+     "why": "Data-accuracy and feature questions; agents can handle most of them."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 2,
+   "R_why": "The claims are well documented ($1M ARR, $1.8M exit) but date from 2015-16 and relied on the founder's large existing audience. A clone needs paid data APIs (DataForSEO and similar) costing more than £300, and serious marketing.",
+   "M_headroom": 1,
+   "M_why": "In 2026 keyword research is dominated by Ahrefs and Semrush plus cheap DataForSEO-based tools. LLM search is eroding classic keyword demand.",
+   "E_adjust": 0,
+   "one_line": "A credible historical exit, but a 2015 playbook in a market now consolidated and being eroded by AI search. Not replicable at this scale or budget."
+  },
+  {
+   "cid": "C0703",
+   "automation": {
+    "acquisition": {
+     "score": 3,
+     "why": "Meta ads to parents are inbound and agent-runnable; spend needs approval. The founder's own face-to-camera ad worked best, so some human creative helps. SEO and app stores could be added."
+    },
+    "onboarding": {
+     "score": 5,
+     "why": "A form for the child's name and preferences, then Stripe checkout."
+    },
+    "delivery": {
+     "score": 4,
+     "why": "Nightly AI generation and email is unattended. Content-safety filtering for children is needed, with spot checks [E]."
+    },
+    "billing": {
+     "score": 5,
+     "why": "Stripe subscriptions."
+    },
+    "support": {
+     "score": 4,
+     "why": "Simple cancellations and preference changes."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 4,
+   "R_why": "Ricardo is the target customer (he has a toddler), so authentic founder ads are possible. It is cheap to build, and £300 matches the claimed test spend. UK GDPR applies to children's data, plus ICO fee and VAT, but this is manageable.",
+   "M_headroom": 2,
+   "M_why": "Many AI bedtime-story apps already exist (Oscar, Bedtimestory.ai and others), and parents can prompt ChatGPT themselves. The claimed $300 MRR is only break-even on ads. Churn is high and CAC sensitivity is extreme at £7-9/month [E].",
+   "E_adjust": 0,
+   "one_line": "An excellent automation and founder fit (a parent of a toddler), but the economics are break-even, the niche is crowded and DIY ChatGPT substitutes it. A good cheap test, with limited upside."
+  },
+  {
+   "cid": "C1095",
+   "automation": {
+    "acquisition": {
+     "score": 4,
+     "why": "SEO content, Chrome Web Store, YouTube tutorials: all inbound and largely agent-producible. Reddit posting got blocked, a sign of community risk."
+    },
+    "onboarding": {
+     "score": 4,
+     "why": "Install the extension or app and sign up. Seniors may need guidance, which can be covered by docs and video."
+    },
+    "delivery": {
+     "score": 4,
+     "why": "Whisper API software. Multi-platform maintenance (Electron, mobile, OS updates) needs developer attention."
+    },
+    "billing": {
+     "score": 5,
+     "why": "Stripe subscriptions and lifetime plans. The disability discount is granted manually by email, but this could be automated."
+    },
+    "support": {
+     "score": 2,
+     "why": "Senior and disabled users need patient support, and installation problems across five platforms are frequent [E]."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 3,
+   "R_why": "A London solo founder did it with AI coding tools, so this is technically within Ricardo's reach. But maintaining five platforms and producing 200 posts plus YouTube content is far more than 6-8 h/week, even with agents. Audio data falls under UK GDPR.",
+   "M_headroom": 2,
+   "M_why": "Dictation is commoditising fast. OS-native tools (Apple, Windows voice typing) are improving, and Wispr Flow and others are well funded. The accessibility/senior SEO niche remains, but the incumbent already has the first-mover SEO.",
+   "E_adjust": 0,
+   "one_line": "Strong first-hand revenue proof ($11K MRR), a good inbound SEO playbook and a UK-based founder. But it is a single source, OS-native dictation is a commoditisation threat, and support is heavy for an agent-run setup."
+  },
+  {
+   "cid": "C0074",
+   "automation": {
+    "acquisition": {
+     "score": 3,
+     "why": "Organic Facebook reach from posting; agents can schedule. Monetisation is invite-only, and reach is at the algorithm's mercy."
+    },
+    "onboarding": {
+     "score": 5,
+     "why": "No customers to onboard; the audience simply follows."
+    },
+    "delivery": {
+     "score": 3,
+     "why": "Agents can generate Canva graphics and AI video. Originality and quality review is needed to avoid demonetisation and IP strikes, and UK fair dealing is narrow."
+    },
+    "billing": {
+     "score": 5,
+     "why": "Meta pays out automatically."
+    },
+    "support": {
+     "score": 4,
+     "why": "Comment moderation, partly agent-handled. Account appeals need a human."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 2,
+   "R_why": "Zero capital needed. But building to 50k+ followers takes many months, and UK eligibility varies. Reels RPMs are tiny (~$0.25 per 1,000 views). Meta is cracking down on unoriginal and AI content.",
+   "M_headroom": 1,
+   "M_why": "Total platform dependence: even Koerner lost a 1.5M-follower page and six figures of income overnight. AI-slop saturation is driving demonetisation policies.",
+   "E_adjust": 0,
+   "one_line": "The best-corroborated idea here (five first-hand videos), but it is pure platform rent. Payouts are tiny for new pages, and a ban wipes everything out, so it is unsuitable as a durable agent-run business."
+  },
+  {
+   "cid": "C0260",
+   "automation": {
+    "acquisition": {
+     "score": 2,
+     "why": "Mac App Store, Chrome Web Store and SEO are inbound. The source relied on Koerner's existing audience, which Ricardo lacks, and the store categories are crowded."
+    },
+    "onboarding": {
+     "score": 4,
+     "why": "Install plus permission setup. OS permissions confuse some users."
+    },
+    "delivery": {
+     "score": 4,
+     "why": "Local software; OS and browser updates break the blocking, so maintenance is needed."
+    },
+    "billing": {
+     "score": 4,
+     "why": "Stripe or app-store subscriptions. Money-back stake mechanics add refund complexity."
+    },
+    "support": {
+     "score": 3,
+     "why": "Bypass and permission problems, plus privacy queries."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 3,
+   "R_why": "Ricardo can build it, and the cost is low (Apple $99 plus a Chrome fee). Demand is unvalidated. Screen and browsing monitoring triggers UK GDPR care, and financial-stake features could touch gambling or payment rules [E].",
+   "M_headroom": 1,
+   "M_why": "Very crowded: Freedom, Cold Turkey, Opal, ScreenZen, Beeminder/stickK, plus built-in OS focus modes. No differentiation is shown.",
+   "E_adjust": -1,
+   "one_line": "An agent-buildable demo with no customers or revenue, in a saturated blocker market with OS-native substitutes. Weak evidence and weak headroom."
+  }
+ ]
+}

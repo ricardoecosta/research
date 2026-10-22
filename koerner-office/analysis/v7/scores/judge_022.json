@@ -1,0 +1,260 @@
+{
+ "scores": [
+  {
+   "cid": "C0081",
+   "automation": {
+    "acquisition": {
+     "score": 2,
+     "why": "UK-legal routes are paid Meta/Google ads, which need ongoing creative testing and budget, cold email to limited-company prospects, and partnerships. The US playbook relies on cold SMS, ringless voicemail and DMs to sole traders, which PECR bans. Agents can draft ads, but spend decisions and judgement on winning creatives need Ricardo."
+    },
+    "onboarding": {
+     "score": 2,
+     "why": "Every source describes setup calls, template configuration, A2P/UK number regulatory bundles and training. Snapshots can automate some of this [E], but small local firms expect a human."
+    },
+    "delivery": {
+     "score": 4,
+     "why": "GoHighLevel runs the software. The reseller maintains niche templates and snapshots, which agents can largely handle."
+    },
+    "billing": {
+     "score": 4,
+     "why": "GHL SaaS mode with Stripe handles recurring billing. Dunning and churn saves are occasional human tasks."
+    },
+    "support": {
+     "score": 1,
+     "why": "Non-technical local businesses on an all-in-one CRM generate a heavy support load: phone numbers, deliverability, integrations. That is a poor fit for 6-8 h/week."
+    }
+   },
+   "legal_acquisition": "b2b_cold_email_ok",
+   "R_realism": 2,
+   "R_why": "The £300 budget barely covers GHL ($97-497/month) plus any ad test. Many UK target trades are sole traders, so cold outreach is off-limits. Support and onboarding exceed the time available, and churn among small local businesses is high [E].",
+   "M_headroom": 1,
+   "M_why": "Thousands of GHL resellers already exist, heavily promoted by affiliate-driven creators. The niches are saturated, there is no moat, and GoHighLevel controls pricing and policy.",
+   "E_adjust": -1,
+   "one_line": "Saturated, affiliate-hyped resale of someone else's platform. UK-legal acquisition is paid ads only, and the support load breaks a hands-off, 6 h/week model."
+  },
+  {
+   "cid": "C0272",
+   "automation": {
+    "acquisition": {
+     "score": 1,
+     "why": "Placement depends on negotiating in person with gyms, pubs and hospitals for revenue-share hosting. End-user bookings can come via local SEO and the host venue's footfall."
+    },
+    "onboarding": {
+     "score": 4,
+     "why": "Customers self-book online with code-based check-in."
+    },
+    "delivery": {
+     "score": 1,
+     "why": "Physical equipment needs installation, cleaning, consumables, repairs and safety checks. Physical-world work caps this score."
+    },
+    "billing": {
+     "score": 5,
+     "why": "Online booking with prepayment runs unattended."
+    },
+    "support": {
+     "score": 2,
+     "why": "Lockouts, faults and hygiene complaints need someone local to respond."
+    }
+   },
+   "legal_acquisition": "needs_human_outreach",
+   "R_realism": 0,
+   "R_why": "Capex runs from £1k to £50k+ against a £300 budget. Unsupervised UV sunbeds are illegal in England and Wales. Karaoke needs PPL PRS licensing, and saunas and plunges need electrical, water and insurance work. Ricardo cannot service equipment with a toddler and 6-8 h/week.",
+   "M_headroom": 2,
+   "M_why": "Contrast-therapy and karaoke demand exists in London. However, competition from dedicated studios and dependence on a single host venue limit headroom.",
+   "E_adjust": 0,
+   "one_line": "A physical, capex-heavy, host-dependent operation with UK sunbed bans. It is fundamentally incompatible with a £300, agent-run test."
+  },
+  {
+   "cid": "C0439",
+   "automation": {
+    "acquisition": {
+     "score": 3,
+     "why": "Organic content on X, TikTok, LinkedIn and YouTube is inbound and PECR-safe. Agents can draft and schedule, but growth depends on a voice and taste Ricardo must approve, and on algorithms."
+    },
+    "onboarding": {
+     "score": 4,
+     "why": "Newsletter signups and digital-product checkout run self-serve."
+    },
+    "delivery": {
+     "score": 2,
+     "why": "Content needs constant creation and quality judgement. Fully AI-generated, faceless content performs worse and risks platform demotion [E]. Higher rungs such as events and services are human work."
+    },
+    "billing": {
+     "score": 4,
+     "why": "Gumroad, Stripe and Substack handle billing. Sponsorship deals need human negotiation."
+    },
+    "support": {
+     "score": 3,
+     "why": "Digital products have low support needs. Community moderation adds work."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 2,
+   "R_why": "Possible on 6-8 h/week, but it takes years to build an audience large enough for sponsorships of $200-8k per post at 100k followers. Codie's results reflect survivorship and an existing team. Ricardo needs a credible niche, and his technical expertise could supply one.",
+   "M_headroom": 2,
+   "M_why": "AI-generated content is flooding every platform in 2026, attention is saturated, and reach depends on the platforms. A narrow, expertise-led niche newsletter retains some headroom.",
+   "E_adjust": -1,
+   "one_line": "Legal, cheap inbound model, but it is a slow, voice-dependent audience grind from a single survivorship-biased source. Agents can assist but cannot run it."
+  },
+  {
+   "cid": "C0450",
+   "automation": {
+    "acquisition": {
+     "score": 3,
+     "why": "Paid creator/UGC deals, Meta ads and app-store discovery are all inbound. Agents can find creators and manage ads, with Ricardo approving spend. Results depend on the platforms and on creative fatigue."
+    },
+    "onboarding": {
+     "score": 5,
+     "why": "App install, trial and paywall run self-serve through RevenueCat."
+    },
+    "delivery": {
+     "score": 4,
+     "why": "Video-model analysis is automated. Accuracy needs periodic spot checks, and youth athletes and weight advice add safety review."
+    },
+    "billing": {
+     "score": 5,
+     "why": "App Store and Play subscriptions via RevenueCat run unattended."
+    },
+    "support": {
+     "score": 3,
+     "why": "Mostly refunds and bug reports that agents can triage. App review disputes need a human."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 3,
+   "R_why": "Ricardo is technical, and an AI app builder plus vision-capable models keep the build cheap. However, £300 covers only a tiny creator test. The UK wrestling and MMA market is far smaller than the US one, so he would target boxing, BJJ or global English-language users [E]. Seasonality and churn as users run out of footage are real problems.",
+   "M_headroom": 3,
+   "M_why": "Niche sports-AI apps are proliferating, and general multimodal assistants can analyse uploaded video directly, which is a substitution risk. Narrow niches with sport-specific UX still have room globally.",
+   "E_adjust": 0,
+   "one_line": "Credible, modest first-hand numbers (~$500-1k MRR) and highly automatable app subscriptions. This is a good agent-run fit if Ricardo picks a global niche and accepts ad-spend and churn risk."
+  },
+  {
+   "cid": "C0093",
+   "automation": {
+    "acquisition": {
+     "score": 3,
+     "why": "Selling to B2B sales teams via cold email to limited companies is UK-legal and dogfoods the product. Agents can run it with oversight, but deliverability and personalisation need checks."
+    },
+    "onboarding": {
+     "score": 2,
+     "why": "Each client needs ICP definition, messaging, domain and inbox warm-up, and CRM integration. These require human calls."
+    },
+    "delivery": {
+     "score": 3,
+     "why": "Agents do the research, outreach and replies. Running it as a done-for-you service needs QA, reputation monitoring and PECR screening for each client's targets."
+    },
+    "billing": {
+     "score": 4,
+     "why": "Stripe retainers or per-meeting billing. Disputes over meeting quality occur."
+    },
+    "support": {
+     "score": 2,
+     "why": "Clients expect reporting calls and get anxious when results lag."
+    }
+   },
+   "legal_acquisition": "b2b_cold_email_ok",
+   "R_realism": 2,
+   "R_why": "Ricardo has the technical skill. However, client results depend on deliverability, which is tightening under Google and Microsoft sender rules, and UK targets must be screened as limited companies. Client-management time exceeds 6-8 h/week.",
+   "M_headroom": 1,
+   "M_why": "Many heavily funded AI SDR startups plus thousands of lead-gen agencies compete here. Buyer scepticism and spam fatigue are high in 2026, and Apollo, Clay and Instantly bundle the capability.",
+   "E_adjust": -1,
+   "one_line": "UK-legal via B2B cold email, but crowded by funded startups and backed only by vendor demos and funding headlines. The service model is too hands-on for this setup."
+  },
+  {
+   "cid": "C0325",
+   "automation": {
+    "acquisition": {
+     "score": 2,
+     "why": "Targets are often sole traders (realtors, therapists, coffee shops) where cold outreach is banned. Limited companies can be cold-emailed, and SEO and content are slow. No proven channel was shown."
+    },
+    "onboarding": {
+     "score": 2,
+     "why": "Each project needs gathering materials and scoping with the client."
+    },
+    "delivery": {
+     "score": 3,
+     "why": "Agents can build the assistants. Testing for accuracy and confidentiality leakage needs human review."
+    },
+    "billing": {
+     "score": 4,
+     "why": "One-off Stripe invoices."
+    },
+    "support": {
+     "score": 2,
+     "why": "Ongoing updates and wrong-answer complaints. Per-project pricing gives little recurring value."
+    }
+   },
+   "legal_acquisition": "b2b_cold_email_ok",
+   "R_realism": 2,
+   "R_why": "Cheap to start and within Ricardo's skills. However, the host himself doubts demand, and small businesses can now build their own assistants in ChatGPT or Claude. Project sales need human selling.",
+   "M_headroom": 1,
+   "M_why": "Heavily commoditised by OpenAI and Google no-code builders and website chatbot SaaS. Thousands of 'AI agency' freelancers sell the same offer.",
+   "E_adjust": -1,
+   "one_line": "Commoditised, low-ticket project work with doubted demand and sole-trader targets. Not a scalable agent-run business."
+  },
+  {
+   "cid": "C0444",
+   "automation": {
+    "acquisition": {
+     "score": 3,
+     "why": "Podcast directories, YouTube search and word of mouth are fully inbound. Growth is slow and platform-dependent."
+    },
+    "onboarding": {
+     "score": 5,
+     "why": "Listeners subscribe in their own podcast player."
+    },
+    "delivery": {
+     "score": 3,
+     "why": "Agents can draft scripts and ElevenLabs can narrate. Quality and voice consistency need Ricardo's approval, and AI-voiced channels are flooding the format [E]."
+    },
+    "billing": {
+     "score": 4,
+     "why": "Ad networks, Supporting Cast and Apple subscriptions handle billing."
+    },
+    "support": {
+     "score": 4,
+     "why": "Minimal support load."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 3,
+   "R_why": "Cheap and fits the time available. A narrow angle such as British-voiced or toddler sleep stories is plausible. However, success relied on Catherine's personal voice and editorial featuring, and monetisation needs a large audience.",
+   "M_headroom": 2,
+   "M_why": "The sleep-story category is crowded, with Calm, Headspace, Nothing Much Happens and many AI-generated YouTube channels. YouTube is demonetising mass-produced AI content.",
+   "E_adjust": 0,
+   "one_line": "Cheap, inbound, largely automatable media with a credible first-hand outlier story. Saturation by AI clones and platform monetisation rules make the upside a long shot."
+  },
+  {
+   "cid": "C1129",
+   "automation": {
+    "acquisition": {
+     "score": 3,
+     "why": "Inbound via the Chrome Web Store, reseller communities and SEO, with a free extension upselling to paid. This depends on the store and on Whatnot."
+    },
+    "onboarding": {
+     "score": 5,
+     "why": "Extension install and signup are self-serve."
+    },
+    "delivery": {
+     "score": 4,
+     "why": "Software runs unattended, but scrapers break whenever Whatnot changes its interface, requiring maintenance."
+    },
+    "billing": {
+     "score": 5,
+     "why": "Stripe subscriptions."
+    },
+    "support": {
+     "score": 3,
+     "why": "Agents can handle FAQ and bug triage."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 3,
+   "R_why": "Well matched to Ricardo's technical skills and cheap to build. Whatnot has a smaller UK presence, though Vinted and eBay Live are alternatives [E]. Scraping a platform risks ToS bans or takedowns.",
+   "M_headroom": 2,
+   "M_why": "Niche reseller tools are under-served but small. Platform-native analytics or a single ToS change could wipe the product out.",
+   "E_adjust": -1,
+   "one_line": "Highly automatable micro-SaaS that fits Ricardo's skills, but it rests on one unsupported mention and a scraping dependency on Whatnot in a smaller UK market."
+  }
+ ]
+}

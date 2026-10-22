@@ -1,0 +1,260 @@
+{
+ "scores": [
+  {
+   "cid": "C0398",
+   "automation": {
+    "acquisition": {
+     "score": 2,
+     "why": "Neighbourhood Facebook-group pre-sales and paid social are inbound and legal. But the UK household market barely exists because collection is statutory and council-run. Only niche commercial or bulky-waste angles remain, and those are B2B and local."
+    },
+    "onboarding": {
+     "score": 4,
+     "why": "A Stripe pre-sale checkout and bin-delivery scheduling can be automated. Bin drop-off itself is physical."
+    },
+    "delivery": {
+     "score": 0,
+     "why": "Trucks, drivers, dump runs and breakdowns. This is purely physical work."
+    },
+    "billing": {
+     "score": 5,
+     "why": "Recurring Stripe subscriptions run unattended."
+    },
+    "support": {
+     "score": 2,
+     "why": "Missed pickups, bin damage and HOA or neighbour complaints need human dispatch decisions."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 0,
+   "R_why": "UK household waste is a council statutory service, so the US model does not transfer. Commercial waste needs a waste carrier licence, a truck (£40k+ [E]), drivers, an operator licence and depot parking. That is impossible on £300 and 6-8 hours a week with a toddler.",
+   "M_headroom": 1,
+   "M_why": "UK commercial waste is dominated by Biffa, Veolia and council trade services. Private residential subscriptions only exist for garden or bulky waste, and councils already offer those at low prices.",
+   "E_adjust": 0,
+   "one_line": "A credible first-hand US story, but structurally non-viable in the UK and capital- and labour-heavy. Not agent-runnable."
+  },
+  {
+   "cid": "C0528",
+   "automation": {
+    "acquisition": {
+     "score": 3,
+     "why": "Facebook Marketplace or ads and UK trailer-hire listings are inbound and legal. Leads still need credit vetting by a human."
+    },
+    "onboarding": {
+     "score": 2,
+     "why": "Credit checks, deposits, insurance additions, O-licence checks and physical handover coordination need judgement."
+    },
+    "delivery": {
+     "score": 1,
+     "why": "Physical trailers at depots. The lessor maintains them, but handover, recovery and theft follow-up are physical."
+    },
+    "billing": {
+     "score": 4,
+     "why": "Weekly recurring card or direct-debit billing can be automated. Defaults and deposit disputes need a human."
+    },
+    "support": {
+     "score": 1,
+     "why": "Breakdowns, damage claims, theft (3-5% unreturned claimed) and late payers need active human handling."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 1,
+   "R_why": "Needs a UK lessor willing to permit subleasing, plus commercial insurance at £4k+ [E], which exceeds the budget. Credit risk exposure is £15-25k per lost trailer. The UK haulage market is smaller and has established hire firms like TIP, Ryder UK and Fraikin. Hard to run in 6-8 hours a week.",
+   "M_headroom": 2,
+   "M_why": "UK trailer and van hire is mature and consolidated. Serving poor-credit hauliers is a niche gap, but margins are thin at about 15% and depend on supplier goodwill.",
+   "E_adjust": 0,
+   "one_line": "A clever arbitrage in the US. In the UK it is a credit- and theft-risk business with capital needs far above £300 and heavy human exception-handling."
+  },
+  {
+   "cid": "C0982",
+   "automation": {
+    "acquisition": {
+     "score": 1,
+     "why": "Relies on an existing public-company brand and customer base. A solo founder has no audience to leverage."
+    },
+    "onboarding": {
+     "score": 2,
+     "why": "Regulated finance and insurance onboarding needs KYC and compliance."
+    },
+    "delivery": {
+     "score": 1,
+     "why": "Brokering mortgages, insurance and services needs FCA authorisation and partner integrations, with no automated core."
+    },
+    "billing": {
+     "score": 3,
+     "why": "Commission and fee collection from partners can be automated once deals exist."
+    },
+    "support": {
+     "score": 1,
+     "why": "Financial-services complaints, FOS obligations and multi-vertical support need humans."
+    }
+   },
+   "legal_acquisition": "doubtful",
+   "R_realism": 0,
+   "R_why": "A visionary, corporate-scale concept needing huge capital, FCA permissions and multi-sector partnerships. HM Land Registry already digitises title, so on-chain records add little in the UK.",
+   "M_headroom": 1,
+   "M_why": "UK home portals (Rightmove, Zoopla, Habito-style brokers, Checkatrade) are entrenched. Blockchain home records have no proven demand.",
+   "E_adjust": -1,
+   "one_line": "An unproven corporate moonshot with no claims or numbers. Irrelevant for a £300 agent-run UK test."
+  },
+  {
+   "cid": "C0297",
+   "automation": {
+    "acquisition": {
+     "score": 3,
+     "why": "Amazon UK, Shopify with paid social, and AI-generated ad tests are inbound and legal. Race-pack sampling partnerships with organisers are B2B and need some human deal-making. Platform-dependent on Meta and Amazon."
+    },
+    "onboarding": {
+     "score": 4,
+     "why": "Ecommerce checkout and subscription sign-up are self-serve."
+    },
+    "delivery": {
+     "score": 2,
+     "why": "Physical goods, but Amazon FBA or a 3PL can fulfil. Supplier sourcing, quality control and repackaging need oversight."
+    },
+    "billing": {
+     "score": 4,
+     "why": "Shopify or Stripe subscriptions and Amazon payouts are automated."
+    },
+    "support": {
+     "score": 3,
+     "why": "Agents can handle returns and FAQs. Product-safety complaints and claim queries need escalation."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 2,
+   "R_why": "A cheap ad-validation test is possible within £300 [E], but inventory, packaging and compliance push beyond that. Pollution-filtration claims risk ASA/CAP breaches and possible MHRA medical-device classification. Mouth-taping safety claims are sensitive.",
+   "M_headroom": 2,
+   "M_why": "Mouth tape (Hostage Tape, Myotape) and nasal products like Intake and Rhinomed are already marketed to athletes on Amazon. No moat, easily copied, and dependent on unproven efficacy.",
+   "E_adjust": -1,
+   "one_line": "A low-capex DTC consumable that agents could largely run, but it is a hypothetical brainstorm with claim-regulation risk and an already-crowded category."
+  },
+  {
+   "cid": "C0317",
+   "automation": {
+    "acquisition": {
+     "score": 3,
+     "why": "Cold email to dental and aesthetic clinics trading as limited companies is legal. Many clinics are sole traders or partnerships, though, so they need consent or screening. Closing £2k+ retainers usually needs sales calls."
+    },
+    "onboarding": {
+     "score": 2,
+     "why": "Ad account access, offer design, GoHighLevel setup, and clinic-specific compliance review of ad copy."
+    },
+    "delivery": {
+     "score": 3,
+     "why": "Agents can run Meta ad creatives, GoHighLevel automations, AI booking follow-ups and local SEO with human QA. Results accountability is high."
+    },
+    "billing": {
+     "score": 4,
+     "why": "Retainers and pay-per-patient billing via Stripe. Lead-quality disputes need humans."
+    },
+    "support": {
+     "score": 2,
+     "why": "Clients expect reporting calls and performance conversations, and churn occurs when results dip."
+    }
+   },
+   "legal_acquisition": "b2b_cold_email_ok",
+   "R_realism": 2,
+   "R_why": "His technical skills suit GoHighLevel and ad automation, and the test costs little. But it needs ad-spend proof, sales calls and client management beyond 6-8 hours a week. Strict UK rules apply: GDC guidance for dental, and the ban on advertising prescription-only medicines like Botox.",
+   "M_headroom": 1,
+   "M_why": "Dental and aesthetic lead-gen is one of the most saturated agency niches in the UK and US. AI-agency floods since 2024 have commoditised it, and many clinics have been burned by agencies.",
+   "E_adjust": -1,
+   "one_line": "A legal B2B channel and partly automatable delivery, but a hyper-saturated, relationship-heavy agency niche backed only by second-hand or hypothetical figures."
+  },
+  {
+   "cid": "C0290",
+   "automation": {
+    "acquisition": {
+     "score": 2,
+     "why": "Content, paid social and community are inbound. But the model depends on hit films and multi-million ad budgets."
+    },
+    "onboarding": {
+     "score": 5,
+     "why": "Membership sign-up is fully self-serve."
+    },
+    "delivery": {
+     "score": 0,
+     "why": "Film production and distribution need creatives, rights deals and theatrical logistics."
+    },
+    "billing": {
+     "score": 5,
+     "why": "Subscription billing is automated."
+    },
+    "support": {
+     "score": 3,
+     "why": "Agents can handle member support. Filmmaker relations and rights need humans."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 0,
+   "R_why": "Needs tens of millions in capital, film-industry relationships and FCA-regulated crowdfunding. Completely mismatched to £300 and part-time hours.",
+   "M_headroom": 1,
+   "M_why": "Angel Studios and Pure Flix/Great American dominate faith media. The UK values-based audience is small, and distribution is hit-driven.",
+   "E_adjust": 0,
+   "one_line": "An impressive first-hand case of Angel Studios at scale, but a capital-intensive, hit-driven media company and not a solo agent-run test."
+  },
+  {
+   "cid": "C0448",
+   "automation": {
+    "acquisition": {
+     "score": 3,
+     "why": "Facebook and Nextdoor ads, local SEO and web chatbots are inbound and legal. The outbound texting used in the source is not PECR-compliant for individuals or sole traders in the UK. Property-manager outreach by email to limited companies is fine."
+    },
+    "onboarding": {
+     "score": 2,
+     "why": "Quoting from photos needs judgement (voids and foam under-estimation lose money), and the remote win rate is about 25%."
+    },
+    "delivery": {
+     "score": 1,
+     "why": "Physical work by subcontracted foam lifters. The owner must vet subs and manage quality."
+    },
+    "billing": {
+     "score": 4,
+     "why": "50% deposit and balance via online invoicing can be automated."
+    },
+    "support": {
+     "score": 2,
+     "why": "Job overruns, sub no-shows and quality complaints need human arbitration."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 1,
+   "R_why": "The sell-and-subcontract model is low-capex. But UK foam-lifting operators are few, and demand is far lower because there are fewer slab-on-grade settlement problems. Job risk lands on the founder. Coordination exceeds 6-8 hours a week, and a £300 ad test could only generate leads, not cover job risk.",
+   "M_headroom": 1,
+   "M_why": "UK concrete-lifting is a tiny niche served by a few specialist firms (e.g. Uretek, Mainmark). There is limited residential demand to arbitrage.",
+   "E_adjust": -1,
+   "one_line": "A neat lead-gen-plus-subcontract playbook, but UK demand and subcontractor supply are thin. The evidence is 90 days of self-reported results from one interview."
+  },
+  {
+   "cid": "C0454",
+   "automation": {
+    "acquisition": {
+     "score": 3,
+     "why": "Facebook video ads for free inspections are inbound and legal. Agents can handle creative and follow-up, but the model relies on commissioned in-home sales reps to close."
+    },
+    "onboarding": {
+     "score": 1,
+     "why": "In-person survey with thermal imaging and a sales appointment for each lead."
+    },
+    "delivery": {
+     "score": 1,
+     "why": "Physical installation by subcontractors, with a project manager overseeing quality."
+    },
+    "billing": {
+     "score": 3,
+     "why": "Deposits and invoicing can be automated. Consumer finance, and grant schemes in the UK, need compliance."
+    },
+    "support": {
+     "score": 2,
+     "why": "Install issues, warranty and sub disputes need a human project manager."
+    }
+   },
+   "legal_acquisition": "inbound_ok",
+   "R_realism": 1,
+   "R_why": "The ducted HVAC and Aeroseal parts do not apply to most UK homes. A UK analogue would be loft insulation, ventilation or retrofit. Doing that well needs TrustMark/PAS 2035 accreditation for grant work, credit-broking authorisation for finance, and a sales team. Far beyond £300 and part-time hours.",
+   "M_headroom": 2,
+   "M_why": "UK retrofit demand is real thanks to ECO4 and the Great British Insulation Scheme. But the market is crowded with installers and lead generators, and policy-dependent. Mis-selling scrutiny is high.",
+   "E_adjust": 0,
+   "one_line": "A credible first-hand $1M+ US playbook, but sales-rep- and subcontractor-heavy, and the product mix mostly does not transfer to UK housing. Not agent-runnable."
+  }
+ ]
+}
