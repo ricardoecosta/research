@@ -1,0 +1,1896 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "guJiTrw9qV4",
+  "title": "I Tested How Passive This AI Side Hustle Really Is",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=guJiTrw9qV4",
+  "upload_date": "2026-10-02",
+  "duration_s": 757,
+  "view_count": 27353,
+  "transcript_provider": "cached",
+  "transcript_chars": 13699,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner connects Claude to Omnisend and uses AI agents to send a paid consulting offer to people on his email list. The one week experiment reports $80 from 1,013 emails, with 16 calls estimated to take 80 minutes. Koerner says the $5 price, an unclear free email reply path, and the lack of follow-up weakened the campaign, and he considers testing a much higher hourly price. The tools automate campaign setup and analysis, but the consulting itself still depends on his time; Omnisend is also a promotional partner.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Host of The Koerner Office; runs the consulting email experiment."
+  }
+ ],
+ "format": "tutorial_howto",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Five-minute business consulting",
+   "one_liner": "Sell short business advice sessions to people on an existing email list, with potential coaching and higher-ticket upsells.",
+   "category": "education_coaching",
+   "business_model": "One-off paid consultation, with possible upsells to coaching packages, recurring services, higher-ticket work, or AI audits.",
+   "customer": "People in Koerner's network who like business ideas or own businesses and may have business questions.",
+   "problem": "Customers want a quick answer about a business problem, idea, or next move.",
+   "offer": "A five-minute live consultation booked through TidyCal for $5, with an email-reply option also offered. Koerner mentions coaching packages, recurring work, higher-ticket work, and AI audits as possible upsells.",
+   "pricing": {
+    "model": "Per booking for a short consultation; possible upsells are not priced.",
+    "price_points": [
+     {
+      "amount": 5,
+      "currency": "USD",
+      "unit": "per five-minute booking"
+     },
+     {
+      "amount": 1,
+      "currency": "USD",
+      "unit": "per minute",
+      "label": "Equivalent implied by the $5 five-minute session"
+     },
+     {
+      "amount": 60,
+      "currency": "USD",
+      "unit": "per hour",
+      "label": "Equivalent implied by the $5 five-minute session"
+     },
+     {
+      "amount": 1000,
+      "currency": "USD",
+      "unit": "per hour",
+      "label": "Proposed future price test; not tested in this video"
+     }
+    ],
+    "notes": "The email also offered replies as a way to ask questions, which some recipients understood as free. Coaching, recurring services, and AI audits were mentioned as possible upsells without prices."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "existing_audience",
+     "details": "Koerner selected contacts from his network and emailed his audience through Omnisend. The video later describes 1,013 campaign emails and discusses sending to his full list.",
+     "quote": {
+      "text": "Well, these are people in my network that I'm going to email, but I want to randomize them, because I'm only going to email a set limited number of people",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 1372,
+      "approx_timestamp_s": 78
+     }
+    }
+   ],
+   "delivery": "Koerner personally delivers the five-minute live consultations and may answer questions by email. TidyCal takes bookings, Stripe handles payment, and the booking calendar syncs with his calendar.",
+   "unit_economics_claims": [
+    "Koerner reports $80 in campaign revenue from 16 calls, and estimates 80 minutes of consultation time.",
+    "He calculates campaign revenue per recipient at about $0.08.",
+    "He claims he has no costs, but does not quantify payment processing or software fees.",
+    "His $120,000-per-year illustration assumes 40 paid hours per week at $60 per hour; it is hypothetical, not observed profit.",
+    "He says a $1,000-per-hour consultation could yield 12 times the revenue from the same email send, but this was only a proposed test."
+   ],
+   "tools": [
+    "Claude",
+    "Omnisend",
+    "TidyCal",
+    "Stripe",
+    "Google Sheets"
+   ],
+   "startup_cost": "Koerner says he has no costs for selling his time. Actual payment-processing and software costs are not stated.",
+   "time_to_first_revenue": "Not stated. Koerner reviewed campaign results one week after sending the email.",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Claude and Omnisend can segment contacts, draft, and send campaigns. Building a permission-based audience and choosing the offer still need human direction and review."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "TidyCal, Stripe, and calendar syncing can take payment and book an available slot automatically, subject to occasional checks."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Koerner must personally conduct each live consultation or write each substantive email answer."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Stripe is integrated into the booking flow and can collect the stated booking price automatically; exceptions and accounting still need review."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Questions and consulting answers require Koerner's judgement and time. Agents could draft routine replies, but the paid advice remains human-led."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "The consulting and booking model can work in the UK, but email acquisition needs UK PECR compliance: obtain consent for marketing to individuals and sole traders unless an exception applies; marketing to corporate subscribers has different rules. Cold calls must be screened against TPS/CTPS. Adapt the currency and payment terms for UK customers."
+   },
+   "risks": [
+    "The $5 price may signal low quality and earns little for each human-delivered session.",
+    "Offering a reply-by-email path alongside a paid booking confused some recipients about whether advice was free.",
+    "The reported campaign revenue does not establish that the same response rates will hold across the full list or at a much higher price.",
+    "The business sells Koerner's time, so it does not run almost entirely on agents.",
+    "In the UK, sending marketing emails to individuals or sole traders without the required consent can breach PECR.",
+    "Koerner granted the AI connector read and write access to Omnisend, creating account and data risks if access is misconfigured."
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "I'm offering 5 minutes of consulting for only $5. Now, that doesn't sound like but that's a dollar a minute, aka $60 an hour",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 2717,
+     "approx_timestamp_s": 155
+    },
+    {
+     "text": "So, I'm going to make from these 16 calls $80, and it's going to take 80 minutes of my time, an hour and 20 minutes",
+     "speaker": "Chris Koerner",
+     "match_score": 98.2,
+     "verified": true,
+     "char_offset": 8656,
+     "approx_timestamp_s": 496
+    },
+    {
+     "text": "If I were to send this to my entire list and these percentages carried through, then it would be a six-figure consulting business at a ridiculously low rate.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 8817,
+     "approx_timestamp_s": 505
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "LEGO building knowledge consulting",
+   "one_liner": "A possible niche for selling knowledge to people who want help putting LEGO sets together.",
+   "category": "education_coaching",
+   "business_model": "Knowledge-based consulting or training; exact model not stated.",
+   "customer": "People who want help putting LEGO pieces together; a specific customer group is not stated.",
+   "problem": "Not stated.",
+   "offer": "Koerner gives LEGO building as an example of a skill someone might monetize; no specific product or service is described.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": "Not stated."
+   },
+   "acquisition_channels": [],
+   "delivery": "Not stated; the example is presented as a way to monetize knowledge.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "No channel is described. Agents could help create useful content, but the audience and offer would still need to be developed."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "If sold as a booked lesson, standard booking and payment software could handle routine steps; no setup is described."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "The example implies teaching or advising; no automated delivery method is stated."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Routine payments could be collected by booking or checkout software, but no billing process is described."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Specific questions about building would likely need human judgement; no support system is stated."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Knowledge about building LEGO sets can be offered in the UK. The transcript gives no evidence about demand, audience, or a delivery format."
+   },
+   "risks": [
+    "This is an illustrative example, not a tested business; no buyer, offer, price, or sales result is given."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "If you're really good at putting LEGOs together, or grading Pokémon cards, that might not seem like a high-value skill, but it is.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 3585,
+     "approx_timestamp_s": 205
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Pokémon card grading knowledge consulting",
+   "one_liner": "A possible niche for monetizing expertise in grading Pokémon cards.",
+   "category": "education_coaching",
+   "business_model": "Knowledge-based consulting or training; exact model not stated.",
+   "customer": "People interested in grading Pokémon cards; a specific customer group is not stated.",
+   "problem": "Not stated.",
+   "offer": "Koerner gives Pokémon card grading as an example of knowledge someone could monetize; no specific product or service is described.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": "Not stated."
+   },
+   "acquisition_channels": [],
+   "delivery": "Not stated; the example is presented as a way to monetize knowledge.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "No channel is described. Agents could help create useful content, but audience-building is not explained."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "If sold as a lesson, booking and payment could be automated with standard software; no such process is described."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Grading advice depends on knowledge and judgement; no automated product or process is described."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Checkout could collect payment automatically, but no billing setup is stated."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Questions about individual cards would likely need human review; no support process is stated."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "The knowledge-based service could be offered in the UK. The transcript does not establish demand or explain grading standards or delivery."
+   },
+   "risks": [
+    "This is an illustrative example, not a tested business; no buyer, offer, price, or sales result is given."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "If you're really good at putting LEGOs together, or grading Pokémon cards, that might not seem like a high-value skill, but it is.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 3585,
+     "approx_timestamp_s": 205
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "Vacuuming skills training",
+   "one_liner": "Train people to vacuum well, using a practical skill as a knowledge-based service.",
+   "category": "education_coaching",
+   "business_model": "Training or instruction; payment model not stated.",
+   "customer": "People who want to learn to vacuum well; a more specific group is not stated.",
+   "problem": "Not stated beyond a possible demand for instruction in vacuuming.",
+   "offer": "Train people on how to vacuum well.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": "Not stated."
+   },
+   "acquisition_channels": [],
+   "delivery": "Training is suggested, but the format and who delivers it are not stated.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "No channel is described. Agents could help publish instructional content, but no audience-building process is stated."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Booking and payment could be handled by software if training were sold as a session; no setup is described."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Instruction is likely human-led in the example; no recorded or automated training product is specified."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "A checkout system could handle routine payment, but billing is not discussed."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Learner questions would likely require a human response; no support process is stated."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "The example is a general practical skill that could be taught in the UK. No location-specific dependency is mentioned."
+   },
+   "risks": [
+    "Demand is asserted as an example but not tested or supported with sales evidence."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "Vacuuming. You're really good at vacuuming, there is a demand for that. You could train people on how to vacuum really well.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 3750,
+     "approx_timestamp_s": 215
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "Coaching packages",
+   "one_liner": "Offer coaching packages as an upsell from a low-priced consulting session.",
+   "category": "education_coaching",
+   "business_model": "Possible higher-value coaching upsell; format and payment model not stated.",
+   "customer": "Not stated beyond people who might buy Koerner's consulting.",
+   "problem": "Not stated.",
+   "offer": "Coaching packages are mentioned as a possible upsell from the five-minute consultation; details are not stated.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": "Not stated."
+   },
+   "acquisition_channels": [],
+   "delivery": "Not stated.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "No separate acquisition process is given; agents could draft follow-up offers, while the audience and positioning need human direction."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Booking and forms could automate routine enrollment, but no process is described."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Coaching typically involves human guidance; the transcript does not describe recorded or automated delivery."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Subscription or checkout software could collect payment automatically, but no billing terms are provided."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Coaching questions require human judgement; no support process is stated."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Coaching can be sold in the UK; the transcript gives no specific subject, terms, or regulatory details."
+   },
+   "risks": [
+    "The offer, audience, delivery, and price are not defined in the video."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "But, I can also upsell coaching packages, recurring stuff, higher ticket stuff, AI audits, whatever.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 3002,
+     "approx_timestamp_s": 172
+    }
+   ]
+  },
+  {
+   "local_id": "I6",
+   "name": "AI audits",
+   "one_liner": "Sell AI audits as a possible higher-ticket consulting upsell.",
+   "category": "b2b_service",
+   "business_model": "Potential consulting upsell; audit scope and payment model not stated.",
+   "customer": "Not stated beyond possible business consulting customers.",
+   "problem": "Not stated.",
+   "offer": "AI audits are mentioned as a possible upsell; deliverables and scope are not described.",
+   "pricing": {
+    "model": "Not stated; described only as a possible higher-ticket upsell.",
+    "price_points": [],
+    "notes": "Not stated."
+   },
+   "acquisition_channels": [],
+   "delivery": "Not stated.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "No acquisition process is stated. Agents could draft content or proposals, but trust and scoping would need human oversight."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Forms and scheduling could automate routine intake, but no process is described."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Agents could assist with analysis, but an audit needs human scoping and review; the transcript gives no delivery details."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "A payment system could collect fees automatically, but billing is not discussed."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Agents could handle routine questions, while advice about findings would need human review."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "The idea can be offered to UK businesses, but the service scope, standards, and any applicable customer requirements are not stated."
+   },
+   "risks": [
+    "The audit scope, evidence standard, price, and customer demand are not described."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "But, I can also upsell coaching packages, recurring stuff, higher ticket stuff, AI audits, whatever.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 3002,
+     "approx_timestamp_s": 172
+    }
+   ]
+  },
+  {
+   "local_id": "I7",
+   "name": "Children's market",
+   "one_liner": "Host's wife organizes a children's market and follows up with vendors to encourage sign-ups.",
+   "category": "events_experiences",
+   "business_model": "Event hosting; how the market earns money is not stated.",
+   "customer": "Vendors invited to sign up; attendees and other customer groups are not described.",
+   "problem": "The organizer wants more vendor sign-ups; no other customer problem is stated.",
+   "offer": "A children's market hosted by Koerner's wife. She emailed vendors again and reportedly received four more sign-ups.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": "Vendor fees, ticket prices, and other revenue are not stated."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "cold_email",
+     "details": "Koerner says his wife emailed vendors again to increase sign-ups. Whether recipients had consented or were corporate subscribers is not stated.",
+     "quote": {
+      "text": "Babe, email those vendors more than feels reasonable. Because if they're not going to go anyway, then they might get annoyed.",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 11270,
+      "approx_timestamp_s": 646
+     }
+    }
+   ],
+   "delivery": "The wife hosts the market in person; the venue, event operations, and division of work are not stated.",
+   "unit_economics_claims": [
+    "Koerner reports that the follow-up email led to four more vendor sign-ups; no revenue or event costs are stated."
+   ],
+   "tools": [
+    "Email"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated; the event was described as two weeks away when discussed.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Agents can draft and schedule follow-up emails, but UK marketing consent rules and vendor targeting need human oversight."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Sign-up forms could automate basic registration, but no registration process is described."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "The event is physical and must be hosted and managed by people."
+    },
+    "billing": {
+     "score_e": 2,
+     "how": "No fees or payment process are stated; software could handle routine collection if one exists."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Vendor questions and event-day issues require human responses; no support process is described."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "A children's market could be run in the UK, but venue, safety, insurance, and local event requirements would need to be addressed. The transcript does not specify the location or operating arrangements."
+   },
+   "risks": [
+    "Repeated marketing emails to UK vendors need to comply with PECR, especially if recipients are sole traders or individuals.",
+    "The transcript gives no event costs, revenue, attendance, or vendor-fee information, so profitability cannot be assessed."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "My wife is hosting a children's market in 2 weeks, and I was just talking to her about this like 4 hours ago.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 11162,
+     "approx_timestamp_s": 640
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Koerner says the experiment is intended to make money over one week.",
+   "metric": "other",
+   "value": {
+    "amount": 1,
+    "currency": null,
+    "unit": "week"
+   },
+   "period": "Planned experiment duration",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I'm going to use a tool called OmniSend to see how much money I can make in 1 week sending a simple email",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 70,
+    "approx_timestamp_s": 4
+   }
+  },
+  {
+   "claim": "Koerner defines his six-figure business target as more than $100,000 a year in profit.",
+   "metric": "profit",
+   "value": {
+    "amount": 100000,
+    "currency": "USD",
+    "unit": "per year",
+    "label": "Target is over this amount"
+   },
+   "period": "Annual",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Also, this has to be a six-figure business, not just any business, which means over $100,000 a year of profit.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 375,
+    "approx_timestamp_s": 21
+   }
+  },
+  {
+   "claim": "The consultation is five minutes long.",
+   "metric": "hours",
+   "value": {
+    "amount": 5,
+    "currency": null,
+    "unit": "minutes per consultation"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I'm offering 5 minutes of consulting for only $5. Now, that doesn't sound like but that's a dollar a minute, aka $60 an hour",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2717,
+    "approx_timestamp_s": 155
+   }
+  },
+  {
+   "claim": "Koerner charges $5 per booking for the five-minute consultation.",
+   "metric": "price",
+   "value": {
+    "amount": 5,
+    "currency": "USD",
+    "unit": "per booking"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Duration of the meeting is 5 minutes. We're going to go to pricing. Charge $5 per booking.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4202,
+    "approx_timestamp_s": 240
+   }
+  },
+  {
+   "claim": "Koerner describes the $5 consultation as equivalent to $1 per minute.",
+   "metric": "price",
+   "value": {
+    "amount": 1,
+    "currency": "USD",
+    "unit": "per minute"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I'm offering 5 minutes of consulting for only $5. Now, that doesn't sound like but that's a dollar a minute, aka $60 an hour",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2717,
+    "approx_timestamp_s": 155
+   }
+  },
+  {
+   "claim": "Koerner describes the $5 consultation as equivalent to $60 per hour.",
+   "metric": "price",
+   "value": {
+    "amount": 60,
+    "currency": "USD",
+    "unit": "per hour"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I'm offering 5 minutes of consulting for only $5. Now, that doesn't sound like but that's a dollar a minute, aka $60 an hour",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2717,
+    "approx_timestamp_s": 155
+   }
+  },
+  {
+   "claim": "Koerner uses a 40-hour work week in his annual revenue illustration.",
+   "metric": "hours",
+   "value": {
+    "amount": 40,
+    "currency": null,
+    "unit": "hours per week"
+   },
+   "period": "Per week",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Now, that doesn't sound like but that's a dollar a minute, aka $60 an hour, and at a 40-hour work week, quote unquote, that's about $120,000 a year of pure profit",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2765,
+    "approx_timestamp_s": 158
+   }
+  },
+  {
+   "claim": "Koerner's 40-hour-per-week illustration yields about $120,000 per year in profit at $60 per hour.",
+   "metric": "profit",
+   "value": {
+    "amount": 120000,
+    "currency": "USD",
+    "unit": "per year"
+   },
+   "period": "Annual",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Now, that doesn't sound like but that's a dollar a minute, aka $60 an hour, and at a 40-hour work week, quote unquote, that's about $120,000 a year of pure profit",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2765,
+    "approx_timestamp_s": 158
+   }
+  },
+  {
+   "claim": "Koerner says his consulting business has no costs.",
+   "metric": "cost",
+   "value": {
+    "amount": 0,
+    "currency": "USD",
+    "unit": "business costs claimed"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "that's about $120,000 a year of pure profit, because I have no costs on this business. I'm just selling my time.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2878,
+    "approx_timestamp_s": 165
+   }
+  },
+  {
+   "claim": "Koerner says he limits the initial list to a selected number of contacts; the count is not stated here.",
+   "metric": "customers",
+   "value": {
+    "amount": null,
+    "currency": null,
+    "unit": "selected email contacts",
+    "label": "Exact count not stated"
+   },
+   "period": "Initial campaign",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "These are people in my network that I'm going to email, but I want to randomize them, because I'm only going to email a set limited number of people",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1377,
+    "approx_timestamp_s": 78
+   }
+  },
+  {
+   "claim": "Koerner says the uploaded Omnisend list contained 999 contacts.",
+   "metric": "customers",
+   "value": {
+    "amount": 999,
+    "currency": null,
+    "unit": "contacts"
+   },
+   "period": "After upload",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So, I also want Claude to write this email for me, write and send it. Okay, so it said, \"Hey, trying something new.",
+    "speaker": "Chris Koerner",
+    "match_score": 82.2,
+    "verified": false,
+    "char_offset": 6027,
+    "approx_timestamp_s": 345
+   }
+  },
+  {
+   "claim": "Koerner reports sending 1,013 emails in the campaign.",
+   "metric": "other",
+   "value": {
+    "amount": 1013,
+    "currency": null,
+    "unit": "emails sent"
+   },
+   "period": "One campaign",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So, 1,013 emails sent, almost all of them were delivered, 39% of them were opened.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8106,
+    "approx_timestamp_s": 464
+   }
+  },
+  {
+   "claim": "Almost all of the 1,013 emails were delivered; the precise number is not stated.",
+   "metric": "other",
+   "value": {
+    "amount": null,
+    "currency": null,
+    "unit": "emails delivered",
+    "label": "Almost all; exact count not stated"
+   },
+   "period": "One campaign",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So, 1,013 emails sent, almost all of them were delivered, 39% of them were opened.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8106,
+    "approx_timestamp_s": 464
+   }
+  },
+  {
+   "claim": "Koerner reports a 39% email open rate.",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 39,
+    "currency": null,
+    "unit": "percent opened"
+   },
+   "period": "One campaign",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So, 1,013 emails sent, almost all of them were delivered, 39% of them were opened.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8106,
+    "approx_timestamp_s": 464
+   }
+  },
+  {
+   "claim": "Koerner reports a 3.5% click-through rate.",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 3.5,
+    "currency": null,
+    "unit": "percent click-through rate"
+   },
+   "period": "One campaign",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I had a 3 and 1/2% click-through rate, so 35 people clicked the links.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8184,
+    "approx_timestamp_s": 469
+   }
+  },
+  {
+   "claim": "Koerner reports that 35 people clicked the links.",
+   "metric": "other",
+   "value": {
+    "amount": 35,
+    "currency": null,
+    "unit": "link clicks"
+   },
+   "period": "One campaign",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I had a 3 and 1/2% click-through rate, so 35 people clicked the links.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8184,
+    "approx_timestamp_s": 469
+   }
+  },
+  {
+   "claim": "Koerner reports receiving five email replies.",
+   "metric": "other",
+   "value": {
+    "amount": 5,
+    "currency": null,
+    "unit": "email replies"
+   },
+   "period": "One campaign",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I got five email replies, three of them were wanting to buy, asking me a question for $5",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8252,
+    "approx_timestamp_s": 473
+   }
+  },
+  {
+   "claim": "Three of the replies expressed interest in buying and asked a question for $5.",
+   "metric": "other",
+   "value": {
+    "amount": 3,
+    "currency": null,
+    "unit": "interested replies"
+   },
+   "period": "One campaign",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I got five email replies, three of them were wanting to buy, asking me a question for $5",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8252,
+    "approx_timestamp_s": 473
+   }
+  },
+  {
+   "claim": "Koerner reports $80 in Stripe revenue from the campaign.",
+   "metric": "revenue",
+   "value": {
+    "amount": 80,
+    "currency": "USD",
+    "unit": "campaign revenue"
+   },
+   "period": "One campaign",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I got five email replies, three of them were wanting to buy, asking me a question for $5, and then I had this many bookings and that much Stripe revenue. Ended up with 80 bucks.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8252,
+    "approx_timestamp_s": 473
+   }
+  },
+  {
+   "claim": "Koerner estimates about $0.08 in revenue per recipient.",
+   "metric": "revenue",
+   "value": {
+    "amount": 0.08,
+    "currency": "USD",
+    "unit": "per recipient"
+   },
+   "period": "One campaign",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "That puts the revenue per recipient at like what? 8 cents? Not bad at all for one email.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8456,
+    "approx_timestamp_s": 484
+   }
+  },
+  {
+   "claim": "Koerner estimates that the 16 calls associated with the campaign will generate $80.",
+   "metric": "revenue",
+   "value": {
+    "amount": 80,
+    "currency": "USD",
+    "unit": "from 16 calls"
+   },
+   "period": "One campaign",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So, I'm going to make from these 16 calls $80, and it's going to take 80 minutes of my time, an hour and 20 minutes",
+    "speaker": "Chris Koerner",
+    "match_score": 98.2,
+    "verified": true,
+    "char_offset": 8656,
+    "approx_timestamp_s": 496
+   }
+  },
+  {
+   "claim": "Koerner estimates the 16 calls will take 80 minutes, or one hour and 20 minutes.",
+   "metric": "hours",
+   "value": {
+    "amount": 80,
+    "currency": null,
+    "unit": "minutes of consultation time"
+   },
+   "period": "For 16 calls",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So, I'm going to make from these 16 calls $80, and it's going to take 80 minutes of my time, an hour and 20 minutes",
+    "speaker": "Chris Koerner",
+    "match_score": 98.2,
+    "verified": true,
+    "char_offset": 8656,
+    "approx_timestamp_s": 496
+   }
+  },
+  {
+   "claim": "Koerner says the campaign could become a six-figure consulting business if the results scaled to his full list.",
+   "metric": "revenue",
+   "value": {
+    "amount": null,
+    "currency": "USD",
+    "unit": "annual business revenue",
+    "label": "Six figures; exact amount not stated"
+   },
+   "period": "Annual projection",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "If I were to send this to my entire list and these percentages carried through, then it would be a six-figure consulting business at a ridiculously low rate.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8817,
+    "approx_timestamp_s": 505
+   }
+  },
+  {
+   "claim": "Koerner uses $0.25 as an example of an unusually cheap hot dog.",
+   "metric": "price",
+   "value": {
+    "amount": 0.25,
+    "currency": "USD",
+    "unit": "per hot dog"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": null,
+   "quote": {
+    "text": "If you go to buy a hot dog from a vendor and it's only 25 cents, you probably don't want that hot dog. Something's probably wrong with it.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9206,
+    "approx_timestamp_s": 527
+   }
+  },
+  {
+   "claim": "Koerner uses $3 as an example of a plausible hot dog price.",
+   "metric": "price",
+   "value": {
+    "amount": 3,
+    "currency": "USD",
+    "unit": "per hot dog"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": null,
+   "quote": {
+    "text": "But, if it's three bucks, it's like, \"Yeah, that's what a hot dog should cost.\" If it's 10 bucks, it's like,",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9342,
+    "approx_timestamp_s": 535
+   }
+  },
+  {
+   "claim": "Koerner uses $10 as an example of a high-priced hot dog.",
+   "metric": "price",
+   "value": {
+    "amount": 10,
+    "currency": "USD",
+    "unit": "per hot dog"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": null,
+   "quote": {
+    "text": "But, if it's three bucks, it's like, \"Yeah, that's what a hot dog should cost.\" If it's 10 bucks, it's like,",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9342,
+    "approx_timestamp_s": 535
+   }
+  },
+  {
+   "claim": "Koerner says his usual email open rate is in the mid-40s percent range.",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": null,
+    "currency": null,
+    "unit": "percent open rate",
+    "label": "Mid-40s; exact rate not stated"
+   },
+   "period": "Usually",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "39% open rate was a little lower than I would have liked to see. I'm usually in like the mid-40s, but I didn't really take the time to optimize it.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10237,
+    "approx_timestamp_s": 586
+   }
+  },
+  {
+   "claim": "Koerner proposes testing a $1,000 price for one hour of consulting.",
+   "metric": "price",
+   "value": {
+    "amount": 1000,
+    "currency": "USD",
+    "unit": "per hour"
+   },
+   "period": "Proposed future test",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I kind of want to do another video where I send out an email that offers like $1,000 for an hour of consulting and see how that does",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9619,
+    "approx_timestamp_s": 551
+   }
+  },
+  {
+   "claim": "Koerner says the $1,000-per-hour option could yield 12 times the revenue from the same email send as the $5-per-five-minute offer.",
+   "metric": "other",
+   "value": {
+    "amount": 12,
+    "currency": null,
+    "unit": "times the revenue"
+   },
+   "period": "Hypothetical comparison",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "If so, then I made 12x on the same email send that I would have made selling my time for only a dollar a minute.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9876,
+    "approx_timestamp_s": 566
+   }
+  },
+  {
+   "claim": "Koerner refers to 1,000 people as the size of the email send in his hypothetical higher-price comparison.",
+   "metric": "customers",
+   "value": {
+    "amount": 1000,
+    "currency": null,
+    "unit": "email recipients"
+   },
+   "period": "Campaign comparison",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I sent this to 1,000 people. Do you think one of them is willing to pay that?",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9779,
+    "approx_timestamp_s": 560
+   }
+  },
+  {
+   "claim": "Koerner's availability example offers sessions on three weekdays from 1 p.m. to 5 p.m.",
+   "metric": "hours",
+   "value": {
+    "amount": 4,
+    "currency": null,
+    "unit": "hours per listed day"
+   },
+   "period": "Monday, Wednesday, and Thursday",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So, I'm only going to sell times on Monday, let's say, Wednesday, and Thursday from 1:00 to 5:00.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4817,
+    "approx_timestamp_s": 276
+   }
+  },
+  {
+   "claim": "Koerner says his wife received four more children's market sign-ups after sending another email.",
+   "metric": "customers",
+   "value": {
+    "amount": 4,
+    "currency": null,
+    "unit": "additional sign-ups"
+   },
+   "period": "After a follow-up email",
+   "claimant": "Chris Koerner, reporting his wife's result",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "And what do you know? She sent another email, and she got four more sign-ups for the kids market.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11556,
+    "approx_timestamp_s": 662
+   }
+  },
+  {
+   "claim": "Koerner says the children's market was two weeks away when he discussed vendor follow-up with his wife.",
+   "metric": "other",
+   "value": {
+    "amount": 2,
+    "currency": null,
+    "unit": "weeks until the event"
+   },
+   "period": "At the time of the conversation",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "My wife is hosting a children's market in 2 weeks, and I was just talking to her about this like 4 hours ago.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11162,
+    "approx_timestamp_s": 640
+   }
+  },
+  {
+   "claim": "Koerner says he had spoken to his wife about the market four hours earlier.",
+   "metric": "hours",
+   "value": {
+    "amount": 4,
+    "currency": null,
+    "unit": "hours before speaking"
+   },
+   "period": "Relative to the video discussion",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "My wife is hosting a children's market in 2 weeks, and I was just talking to her about this like 4 hours ago.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11162,
+    "approx_timestamp_s": 640
+   }
+  },
+  {
+   "claim": "Koerner asked Claude to create three follow-up email drafts in Omnisend.",
+   "metric": "other",
+   "value": {
+    "amount": 3,
+    "currency": null,
+    "unit": "email drafts"
+   },
+   "period": "After reviewing the campaign",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Make three new emails that incorporate all three, and post the drafts in Omnisend.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11830,
+    "approx_timestamp_s": 678
+   }
+  },
+  {
+   "claim": "Koerner says more than 150,000 brands use Omnisend.",
+   "metric": "customers",
+   "value": {
+    "amount": 150000,
+    "currency": null,
+    "unit": "brands",
+    "label": "More than this amount"
+   },
+   "period": "Not stated",
+   "claimant": "Chris Koerner, relaying an Omnisend claim",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "Keep in mind, guys, over 150,000 brands use Omnisend. It's an amazing piece of software.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12167,
+    "approx_timestamp_s": 697
+   }
+  },
+  {
+   "claim": "Koerner says Omnisend brands make an average of $79 for every $1 spent on the service.",
+   "metric": "revenue",
+   "value": {
+    "amount": 79,
+    "currency": "USD",
+    "unit": "revenue per $1 spent"
+   },
+   "period": "Average; period not stated",
+   "claimant": "Chris Koerner, relaying an Omnisend claim",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "On average, their brands make $79 for every $1 they spend on Omnisend.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12252,
+    "approx_timestamp_s": 702
+   }
+  },
+  {
+   "claim": "Koerner uses a $30-per-month Omnisend plan as an example.",
+   "metric": "cost",
+   "value": {
+    "amount": 30,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "period": "Monthly",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": null,
+   "quote": {
+    "text": "So, if your account's 30 bucks a month, 30 * 79 is $2,370.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12319,
+    "approx_timestamp_s": 706
+   }
+  },
+  {
+   "claim": "Koerner calculates that a $30 monthly plan at the claimed average return would generate $2,370.",
+   "metric": "revenue",
+   "value": {
+    "amount": 2370,
+    "currency": "USD",
+    "unit": "per month in illustrative calculation"
+   },
+   "period": "Monthly illustration",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": null,
+   "quote": {
+    "text": "So, if your account's 30 bucks a month, 30 * 79 is $2,370. The average brand would generate $2,370 from that $30 a month plan.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12319,
+    "approx_timestamp_s": 706
+   }
+  },
+  {
+   "claim": "Koerner says his promo code provides 30% off paid plans.",
+   "metric": "price",
+   "value": {
+    "amount": 30,
+    "currency": null,
+    "unit": "percent discount"
+   },
+   "period": "Promotional offer",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "So, use promo code Kerner, k o e r n e r, for 30% off all paid plans for the first 30 months.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13114,
+    "approx_timestamp_s": 751
+   }
+  },
+  {
+   "claim": "Koerner says the 30% discount applies for the first 30 months.",
+   "metric": "other",
+   "value": {
+    "amount": 30,
+    "currency": null,
+    "unit": "months"
+   },
+   "period": "Promotional offer",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "So, use promo code Kerner, k o e r n e r, for 30% off all paid plans for the first 30 months.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13114,
+    "approx_timestamp_s": 751
+   }
+  },
+  {
+   "claim": "Koerner calls Omnisend a thousand times better than Mailchimp.",
+   "metric": "other",
+   "value": {
+    "amount": 1000,
+    "currency": null,
+    "unit": "times",
+    "label": "Hyperbolic product comparison"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "It's an email marketing tool, similar to Mailchimp, but like a thousand times better.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1052,
+    "approx_timestamp_s": 60
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Randomize a small initial audience",
+   "area": "validation_testing",
+   "steps": [
+    "Put the candidate email contacts into Google Sheets.",
+    "Use the RAND formula to assign a random number to each row.",
+    "Sort by the random number and select a limited group for the initial campaign.",
+    "Export the selected contacts as a CSV."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So, I'm going to use this formula in Google Sheets, equals rand open parentheses close parentheses, that assigns a perfectly randomized number to that row.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1576,
+    "approx_timestamp_s": 90
+   }
+  },
+  {
+   "name": "Connect an AI agent to the email platform",
+   "area": "operations",
+   "steps": [
+    "Add Omnisend as a custom connector in Claude using the MCP URL shown in the video.",
+    "Authorize the connection and import the selected CSV into an Omnisend segment.",
+    "Ask Claude to draft the email and create or send the campaign through the connector.",
+    "Review permission requests and campaign content before allowing actions."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "This removes the need for me to log in to Omnisend at all, and I can still use it and enjoy all the features of it.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5397,
+    "approx_timestamp_s": 309
+   }
+  },
+  {
+   "name": "Create a paid short-consult booking link",
+   "area": "offer_design",
+   "steps": [
+    "Set up a five-minute TidyCal booking page.",
+    "Connect Stripe and charge $5 per booking.",
+    "Sync the link to the calendar to avoid double-booking.",
+    "Limit the available times to selected weekdays and hours."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Duration of the meeting is 5 minutes. We're going to go to pricing. Charge $5 per booking. I integrated Stripe just with a couple clicks.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4202,
+    "approx_timestamp_s": 240
+   }
+  },
+  {
+   "name": "Keep the initial campaign plain and direct",
+   "area": "customer_acquisition",
+   "steps": [
+    "Send a plain-text email with one clear booking link.",
+    "Use a short subject line; Koerner chose \"$5\".",
+    "Check that the booking link works before sending.",
+    "Make the payment requirement and the paid route explicit so email replies are not mistaken for free advice."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I just want this to be plain text, one link for them to click on where they can buy, and I'm going to tell it what subject line to use.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6861,
+    "approx_timestamp_s": 393
+   }
+  },
+  {
+   "name": "Review campaign results with connected data",
+   "area": "operations",
+   "steps": [
+    "Ask Claude to summarize the Omnisend campaign.",
+    "Connect Stripe data so the agent can compare clicks, buyers, and revenue.",
+    "Review sends, delivery, opens, clicks, replies, bookings, and revenue before deciding on a follow-up."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So, I also have Stripe connected through my Claude MCP, so it was able to cross-reference the clicks to the buyers and Stripe and put everything all in one chart.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7946,
+    "approx_timestamp_s": 455
+   }
+  },
+  {
+   "name": "Follow up with interested prospects",
+   "area": "customer_acquisition",
+   "steps": [
+    "Do not stop after the first email; send relevant follow-ups to people who may still be deciding.",
+    "Use the children's market example as a reminder that another vendor email led to four additional sign-ups.",
+    "Respect consent, unsubscribe requests, and UK PECR requirements when sending marketing follow-ups."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "And what do you know? She sent another email, and she got four more sign-ups for the kids market.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11556,
+    "approx_timestamp_s": 662
+   }
+  },
+  {
+   "name": "Improve the next email using observed weaknesses",
+   "area": "offer_design",
+   "steps": [
+    "Add a reason to act now if one genuinely exists.",
+    "Use one clear paid path rather than mixing a paid booking link with a reply path that appears free.",
+    "Add relevant proof and make the offer more specific.",
+    "Use a clear, descriptive booking link and follow up.",
+    "Ask Claude to create drafts in the email platform, then review them before sending."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "There was no reason to act now, no scarcity play. The free path ate the paid path. I guess it was confusing.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10569,
+    "approx_timestamp_s": 606
+   }
+  },
+  {
+   "name": "Test higher pricing against the same audience",
+   "area": "pricing",
+   "steps": [
+    "Compare the low-priced five-minute offer with a proposed $1,000 one-hour consultation.",
+    "Use the same email audience as a test, then measure whether any customer buys at the higher price.",
+    "Treat the outcome as unknown until the test is run."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I kind of want to do another video where I send out an email that offers like $1,000 for an hour of consulting and see how that does",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9619,
+    "approx_timestamp_s": 551
+   }
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Claude",
+   "purpose": "AI assistant connected to Omnisend and Stripe through MCP; used to import contacts, draft and send emails, and analyze campaign performance.",
+   "cost_stated": null
+  },
+  {
+   "name": "OmniSend / Omnisend",
+   "purpose": "Email marketing platform used to create a segment, send a campaign, and draft follow-up emails.",
+   "cost_stated": "A $30-per-month plan is used in an illustrative calculation; Koerner also advertises 30% off paid plans for the first 30 months."
+  },
+  {
+   "name": "MCP (Model Context Protocol)",
+   "purpose": "Connector mechanism used to let Claude access Omnisend and Stripe.",
+   "cost_stated": null
+  },
+  {
+   "name": "Gemini",
+   "purpose": "Named as an alternative AI tool.",
+   "cost_stated": null
+  },
+  {
+   "name": "Grok",
+   "purpose": "Named as an alternative AI tool.",
+   "cost_stated": null
+  },
+  {
+   "name": "ChatGPT",
+   "purpose": "Named as an alternative AI tool and as a place to operate connected accounts.",
+   "cost_stated": null
+  },
+  {
+   "name": "Google Sheets",
+   "purpose": "Used to randomize contact selection with a RAND formula.",
+   "cost_stated": null
+  },
+  {
+   "name": "TidyCal",
+   "purpose": "Calendar booking software used to create the five-minute consulting booking page.",
+   "cost_stated": null
+  },
+  {
+   "name": "Stripe",
+   "purpose": "Payment integration for booking and revenue reporting.",
+   "cost_stated": null
+  },
+  {
+   "name": "Mailchimp",
+   "purpose": "Email marketing product used as a comparison with Omnisend.",
+   "cost_stated": null
+  },
+  {
+   "name": "Beehiiv",
+   "purpose": "Promoted as a newsletter, personal brand, and podcast platform during a promotional segment.",
+   "cost_stated": null
+  },
+  {
+   "name": "CSV",
+   "purpose": "File format used to export the selected email contacts and upload them to Claude.",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Koerner says Omnisend would not send until he had a verified sender. Email marketing requires proper sender verification and applicable legal compliance.",
+   "quote": {
+    "text": "Okay, so it said, \"Hey, I can't send this until there's a verified sender.\" That is a regulation, it's not Omnisend's choice.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7122,
+    "approx_timestamp_s": 408
+   }
+  },
+  {
+   "warning": "Koerner granted the connector broad read and write permissions. That creates a risk if the AI account, connector, or data access is compromised or misused.",
+   "quote": {
+    "text": "I'm going to give it all read and write permissions, because I'm trusting like that",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1135,
+    "approx_timestamp_s": 65
+   }
+  },
+  {
+   "warning": "The email's reply-by-email option confused recipients about whether they could get an answer for free, weakening the paid booking path.",
+   "quote": {
+    "text": "The free path ate the paid path. I guess it was confusing. Some people thought they could just reply to the email and get an answer for free",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10617,
+    "approx_timestamp_s": 608
+   }
+  },
+  {
+   "warning": "Koerner says the $5 price could make the offer seem like a joke or low quality.",
+   "quote": {
+    "text": "And $5 signals junk. That's exactly what I just said about pricing. It sounds like a gag.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10792,
+    "approx_timestamp_s": 618
+   }
+  },
+  {
+   "warning": "Koerner says the campaign lacked proof, testimonials, specificity, and follow-up, so the reported one-campaign results should not be treated as validated repeatable performance.",
+   "quote": {
+    "text": "No proof, no testimonials, no reviews, no specificity. Booking link is a naked URL. And I never followed up",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10878,
+    "approx_timestamp_s": 623
+   }
+  },
+  {
+   "warning": "In the UK, marketing emails to individuals and sole traders generally need consent unless an applicable exception applies; cold calls must be screened against TPS/CTPS.",
+   "quote": null
+  },
+  {
+   "warning": "The campaign's reported response rates come from one email send; extrapolating them to a full list or a different price is not evidence that the projection will hold.",
+   "quote": {
+    "text": "If I were to send this to my entire list and these percentages carried through, then it would be a six-figure consulting business at a ridiculously low rate.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8817,
+    "approx_timestamp_s": 505
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "A person can sell practical knowledge without a degree or impressive credentials if they find customers who want that knowledge.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "You don't need a college degree, you don't need a ton of accolades, or an impressive resume to charge for your services.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3940,
+    "approx_timestamp_s": 225
+   }
+  },
+  {
+   "lesson": "Price affects perceived quality as well as revenue; a very low price can make an offer seem less credible.",
+   "theme": "pricing",
+   "quote": {
+    "text": "But, if it's three bucks, it's like, \"Yeah, that's what a hot dog should cost.\" If it's 10 bucks, it's like,",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9342,
+    "approx_timestamp_s": 535
+   }
+  },
+  {
+   "lesson": "Make the paid route unambiguous. A free-looking reply option can divert customers from a paid booking.",
+   "theme": "offer_design",
+   "quote": {
+    "text": "The free path ate the paid path. I guess it was confusing. Some people thought they could just reply to the email and get an answer for free",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10617,
+    "approx_timestamp_s": 608
+   }
+  },
+  {
+   "lesson": "Follow-up can produce additional sign-ups, but marketing follow-ups must respect recipients' consent and preferences.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "And what do you know? She sent another email, and she got four more sign-ups for the kids market.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11556,
+    "approx_timestamp_s": 662
+   }
+  },
+  {
+   "lesson": "An MCP connection lets an AI agent carry out work inside another service, including importing contacts and drafting campaign emails.",
+   "theme": "automation_ai",
+   "quote": {
+    "text": "You can run your entire account from inside ChatGPT or Claude. You can understand your performance, build segments, read to it, write to it",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5511,
+    "approx_timestamp_s": 315
+   }
+  },
+  {
+   "lesson": "Automating campaign operations does not automate the human expertise being sold; Koerner still has to deliver each consultation.",
+   "theme": "automation_ai",
+   "quote": {
+    "text": "So, I'm going to make from these 16 calls $80, and it's going to take 80 minutes of my time, an hour and 20 minutes",
+    "speaker": "Chris Koerner",
+    "match_score": 98.2,
+    "verified": true,
+    "char_offset": 8656,
+    "approx_timestamp_s": 496
+   }
+  },
+  {
+   "lesson": "Review campaign outcomes and improve the offer, proof, call to action, timing, and follow-up rather than assuming a first send is optimized.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "Didn't do a bunch of AB tests. Didn't send it at the right time of day. So, with a little more tweaking, I could have done a bit better here.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10381,
+    "approx_timestamp_s": 595
+   }
+  },
+  {
+   "lesson": "Treat an attractive annualized calculation as a hypothesis when it depends on assumed hours, response rates, and prices.",
+   "theme": "finance_unit_economics",
+   "quote": {
+    "text": "If I were to send this to my entire list and these percentages carried through, then it would be a six-figure consulting business at a ridiculously low rate.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8817,
+    "approx_timestamp_s": 505
+   }
+  },
+  {
+   "lesson": "Use AI to produce drafts inside the operating platform, then inspect those drafts before they are sent.",
+   "theme": "operations",
+   "quote": {
+    "text": "In other words, don't just read what's in there or tell me what to paste over there. Show me what you're putting over there, and then actually create the drafts in Omnisend.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11911,
+    "approx_timestamp_s": 682
+   }
+  }
+ ],
+ "evidence_quality": {
+  "rating": "B",
+  "rationale": "Koerner describes a first-hand one-week campaign and reports specific email and revenue metrics, plus the setup steps. The figures are self-reported, the experiment is small, and the video does not provide independently verifiable campaign records. The claimed annual outcome is hypothetical.",
+  "promotional_conflict": "Koerner says Omnisend supports the podcast and promotes its performance claims and discount code. He also recommends Beehiiv in a promotional segment."
+ },
+ "extraction": {
+  "model": "gpt-6-luna",
+  "extracted_at": "2026-10-22T11:27:07",
+  "cost_usd": 0,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 76,
+   "verified": 75,
+   "rate": 0.987
+  },
+  "schema_errors": []
+ }
+}

@@ -1,0 +1,2232 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "haUsXY0RQFE",
+  "title": "The Most Profitable One-Man Business You’ve Never Heard Of",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=haUsXY0RQFE",
+  "upload_date": "2026-02-02",
+  "duration_s": 1957,
+  "view_count": 2498252,
+  "transcript_provider": "transcribeyoutube",
+  "transcript_chars": 35562,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner interviews Alex, who runs a forestry mulching and land-clearing business near Cincinnati. Alex explains how he spotted local demand, priced jobs, used video ads and YouTube to educate leads, and scheduled large farm jobs in winter to reduce seasonality. He reports strong revenue and margins, while also describing equipment costs, maintenance, and other Bobcat services such as snow removal. The central takeaway is that clear local demand and a video-led sales funnel helped a capital-intensive, physical service business grow quickly; the work itself still depends on people and machinery.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Host of The Koerner Office."
+  },
+  {
+   "name": "Alex",
+   "role": "guest",
+   "description": "Owner of Brushworks Co; surname not stated."
+  }
+ ],
+ "format": "operator_interview",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Forestry mulching and land clearing",
+   "one_liner": "Use a forestry-equipped Bobcat and mulching head to clear overgrown land for residential and commercial customers.",
+   "category": "home_service",
+   "business_model": "Per-job service, priced by day initially and later by quarter acre with density and terrain adjustments; additional grapple work and other upsells.",
+   "customer": "Landowners with overgrown property, including residential customers and owners of large farms; commercial work is also discussed as a scaling opportunity.",
+   "problem": "Property becomes unusable as invasive honeysuckle and other growth spreads. Customers may not know forestry mulching exists and may otherwise pay tree services to clear land by hand.",
+   "offer": "Clear woods and overgrown land with a forestry mulcher, leaving a layer of mulch that breaks down over time. The crew also offers grapple work and asks customers to clear debris beforehand.",
+   "pricing": {
+    "model": "Initially per day; later priced per quarter acre, adjusted for three brush-density tiers and three terrain tiers.",
+    "price_points": [
+     {
+      "amount": 2000,
+      "currency": "USD",
+      "unit": "per day",
+      "label": "Rate they moved to early on"
+     },
+     {
+      "amount": 6000,
+      "amount_max": 7000,
+      "currency": "USD",
+      "unit": "per job",
+      "label": "Approximate price for three acres at tier-two density"
+     },
+     {
+      "amount": 750,
+      "currency": "USD",
+      "unit": "not stated",
+      "label": "Grapple work"
+     },
+     {
+      "amount": 6500,
+      "currency": "USD",
+      "unit": "per job",
+      "label": "First job"
+     }
+    ],
+    "notes": "The quarter-acre base price and terrain multipliers are not stated. The guest says customers can be quoted by the day when starting out."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "paid_social",
+     "details": "They ran vertical video ads on Meta/Facebook, targeted within about 50 miles of their area, and sent viewers to the website, which featured their YouTube channel. They reported a $20 cost per lead.",
+     "quote": {
+      "text": "So, essentially, we do a meta ad to capture their attention. Only video ads. Only video. Vertical.",
+      "speaker": "Alex",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 23244,
+      "approx_timestamp_s": 1329
+     }
+    },
+    {
+     "channel": "youtube",
+     "details": "They used videos to explain what forestry mulching is, show the process and results, and build trust before a prospect contacted them.",
+     "quote": {
+      "text": "So we show them what it is, show them how it's done. They can see what to expect on a job, what it looks like when we show up",
+      "speaker": "Alex",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 24105,
+      "approx_timestamp_s": 1378
+     }
+    },
+    {
+     "channel": "other",
+     "details": "They researched hundreds of local search terms, including customer wording such as “clear my woods” and “open up my land,” to assess demand. The transcript does not say they acquired customers through organic search.",
+     "quote": {
+      "text": "I did a lot of keyword research on it just looking into you know what if people are searching clear my land",
+      "speaker": "Alex",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 2931,
+      "approx_timestamp_s": 167
+     }
+    }
+   ],
+   "delivery": "Alex goes out to quote and marks the area to be cleared. One operator then arrives with the forestry-equipped machine and runs it through the marked area. They ask customers to remove metal, tires, and other debris; if the customer does not, the crew does that work as billable time.",
+   "unit_economics_claims": [
+    "Alex reported about $3,300 as the average job size.",
+    "Alex reported a $20 cost per lead and about 49% of quotes closing.",
+    "For a roughly $6,000 job, the host estimated about $4,000 profit; Alex agreed with the calculation.",
+    "Alex reported spending about $80–$100 per day on diesel and setting aside about 8% for repairs.",
+    "Alex reported gross profit of about 70% in the first operating period and net profit of about 40% later."
+   ],
+   "tools": [
+    "Forestry-equipped Bobcat and mulching head",
+    "Website",
+    "Meta/Facebook video ads",
+    "YouTube",
+    "Keyword research tool",
+    "ChatGPT"
+   ],
+   "startup_cost": "Alex financed the first machine and attachment with about $5,000 down, paid about $11,000 cash for a trailer, and bought a used truck for about $8,000. He said a used first machine cost about $74,000 and the first used attachment cost $15,000; the transcript does not give a full startup-cost total.",
+   "time_to_first_revenue": "The first deal closed two days after ads were published; the first job was about $6,500.",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Agents could help produce ad variants, manage targeting, and route inbound leads, with a person checking the videos, local targeting, and ad spend."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "A person currently visits properties, assesses density and terrain, marks the area, and prepares the operator."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "A person must operate heavy machinery and handle site conditions; this is physical work."
+    },
+    "billing": {
+     "score_e": 1,
+     "how": "Billing tools could handle invoices and payments, but the transcript does not describe their billing process."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Customer questions about property, debris, timing, and results require human judgment."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "The service and video-led local marketing could work in the UK, but demand, equipment financing, land access, and environmental or wildlife rules would need local adaptation."
+   },
+   "risks": [
+    "Forestry mulching wears equipment and parts; Alex says used equipment can be hard to assess and recommends starting with a new machine and warranty.",
+    "Metal, tires, and barbed wire can damage teeth or equipment, so the work area needs checking.",
+    "Fuel, repairs, insurance, machine payments, suitable towing capacity, and a CDL for some equipment combinations add operating costs and constraints.",
+    "Weather and wet ground affected the business's season; Alex adapted by booking suitable large farm properties for winter.",
+    "The work is physical, equipment-dependent, and cannot be run unattended."
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "So, we do forestry mulching and land clearing. So, we just clear woods. Clear land.",
+     "speaker": "Alex",
+     "match_score": 94.9,
+     "verified": true,
+     "char_offset": 1215,
+     "approx_timestamp_s": 69
+    },
+    {
+     "text": "So I started I did a lot of keyword research on it just looking into you know what if people are searching clear my land",
+     "speaker": "Alex",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 2918,
+     "approx_timestamp_s": 166
+    },
+    {
+     "text": "Our leads are very hotly. They're basically already sold by the time that I even go out there",
+     "speaker": "Alex",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 24660,
+     "approx_timestamp_s": 1410
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Bobcat snow removal",
+   "one_liner": "Use a Bobcat with a snow box to clear commercial parking lots and HOA sites as a subcontractor to general contractors.",
+   "category": "local_service",
+   "business_model": "Per snow event or subcontracted snow-clearing work; exact payment terms are not stated.",
+   "customer": "General contractors holding snow contracts for commercial property owners, parking lots, and HOAs.",
+   "problem": "General contractors may sell more snow-clearing capacity than they can fulfill and need extra machines and operators when snow reaches a site's trigger.",
+   "offer": "Push snow off parking lots and HOA sites using a Bobcat and snow box.",
+   "pricing": {
+    "model": "Per snow event or subcontracted job; exact customer pricing is not stated.",
+    "price_points": [
+     {
+      "amount": 10000,
+      "amount_max": 11000,
+      "currency": "USD",
+      "unit": "per snow event",
+      "label": "Reported earnings across the machines they have"
+     },
+     {
+      "amount": null,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per attachment",
+      "label": "Snow box described as costing a couple thousand dollars"
+     }
+    ],
+    "notes": "The $10,000–$11,000 figure is described as what they make per snow event across multiple machines, not a per-machine figure."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "partnerships",
+     "details": "Alex says they contact general contractors, tell them they have snow boxes and equipment, and ask which sites need coverage. Contractors subcontract work to them.",
+     "quote": {
+      "text": "A general contractor will typically oversell their capacity and uh we can just we come in, contact a general contractor.",
+      "speaker": "Alex",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 27544,
+      "approx_timestamp_s": 1575
+     }
+    }
+   ],
+   "delivery": "The operator uses a Bobcat and snow box to push snow from parking lots and HOA sites. Alex says they spread event work across their machines and described about 20 hours of clearing for a snow event.",
+   "unit_economics_claims": [
+    "Alex reported making about $10,000–$11,000 per snow event across their machines, within about 20 hours of clearing.",
+    "A snow box was described as costing a couple thousand dollars."
+   ],
+   "tools": [
+    "Bobcat",
+    "Snow box"
+   ],
+   "startup_cost": "A snow box was described as costing a couple thousand dollars; other startup costs are not stated.",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Software could maintain contractor lists and manage inbound requests, but building contractor relationships and confirming site coverage still needs human coordination."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "A person needs to confirm the site, snow trigger, access, and timing."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "An operator must drive and push snow at the physical site."
+    },
+    "billing": {
+     "score_e": 1,
+     "how": "Invoices could be automated, but the transcript gives no billing workflow or contract terms."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Weather changes and site requirements need human response."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "The subcontracting model could transfer, but snowfall patterns and snow-removal demand vary by UK region, and local site and contractor arrangements would need to be established."
+   },
+   "risks": [
+    "Revenue depends on snow events and can vary with weather.",
+    "The work requires physical equipment operation and timely site attendance.",
+    "The reported event revenue spans multiple machines, so it should not be treated as one-machine economics."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "So we'll make around 10 to 11,000 per snow event and that is within about 20 hours of clearing",
+     "speaker": "Alex",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 26958,
+     "approx_timestamp_s": 1541
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Bobcat street sweeping",
+   "one_liner": "Use a Bobcat attachment to provide street-sweeping services.",
+   "category": "local_service",
+   "business_model": "not stated",
+   "customer": "not stated",
+   "problem": "not stated",
+   "offer": "Street sweeping using a Bobcat; no further detail is provided.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "not stated"
+   },
+   "acquisition_channels": [],
+   "delivery": "Physical work using a Bobcat; specific equipment and workflow are not stated.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Bobcat"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "No customer acquisition process is described; local business prospecting would need human judgment."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "Site assessment and service requirements are not described and would likely need human input."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Street sweeping is physical equipment work."
+    },
+    "billing": {
+     "score_e": 1,
+     "how": "No billing process is described."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "No support process is described."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Street sweeping is a transferable local service concept, though equipment, contracting, and local operating requirements would need checking."
+   },
+   "risks": [
+    "The transcript gives no details on customer demand, equipment, pricing, or contracts."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "I mean, there's hundreds of different attachments you can street sweeping, snow removal.",
+     "speaker": "Alex",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 26450,
+     "approx_timestamp_s": 1512
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "Tree transplanting with a tree spade",
+   "one_liner": "Use a Bobcat-mounted tree spade to transplant trees.",
+   "category": "local_service",
+   "business_model": "not stated",
+   "customer": "not stated",
+   "problem": "not stated",
+   "offer": "Transplant trees using a tree-spade attachment; no further detail is provided.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "not stated"
+   },
+   "acquisition_channels": [],
+   "delivery": "Physical tree-transplanting work using a Bobcat and tree-spade attachment.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Bobcat",
+    "Tree spade"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "No acquisition method is described; finding suitable local customers would require human outreach or inbound demand."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "Tree and site suitability would require assessment."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Tree transplanting is physical machine work."
+    },
+    "billing": {
+     "score_e": 1,
+     "how": "No billing process is described."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "No support process is described."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "The service concept could work in the UK, subject to local demand, tree health, access, and any applicable permissions."
+   },
+   "risks": [
+    "The transcript gives no details on demand, equipment cost, tree suitability, pricing, or operating requirements."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "They've got you could have a tree spade. You could transplant trees with it.",
+     "speaker": "Alex",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 26536,
+     "approx_timestamp_s": 1517
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "Asphalt grinding with a Bobcat",
+   "one_liner": "Use an asphalt grinder attachment to provide asphalt-grinding work.",
+   "category": "local_service",
+   "business_model": "not stated",
+   "customer": "not stated",
+   "problem": "not stated",
+   "offer": "Grind asphalt using a Bobcat attachment; no further workflow is described.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "not stated"
+   },
+   "acquisition_channels": [],
+   "delivery": "Physical equipment work using a Bobcat and asphalt grinder.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Bobcat",
+    "Asphalt grinder"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "No acquisition method is described; finding jobs would need human sales or inbound leads."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "No site assessment or intake process is described."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Asphalt grinding is physical machine work."
+    },
+    "billing": {
+     "score_e": 1,
+     "how": "No billing process is described."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "No support process is described."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "The service concept is transferable, but demand, equipment, and local contracting requirements are not covered in the transcript."
+   },
+   "risks": [
+    "The transcript gives no details on customers, costs, pricing, or safety requirements."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "You could grind asphalt. That's a big one, too. We actually see a lot of people with asphalt grinders dirt.",
+     "speaker": "Alex",
+     "match_score": 96.1,
+     "verified": true,
+     "char_offset": 26610,
+     "approx_timestamp_s": 1521
+    }
+   ]
+  },
+  {
+   "local_id": "I6",
+   "name": "Right-of-way clearing",
+   "one_liner": "Scale land-clearing work into right-of-way clearing contracts.",
+   "category": "b2b_service",
+   "business_model": "not stated",
+   "customer": "not stated",
+   "problem": "not stated",
+   "offer": "Right-of-way clearing is named as a possible expansion area; the specific service scope is not described.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "not stated"
+   },
+   "acquisition_channels": [],
+   "delivery": "Land-clearing work is implied, but staffing, equipment, and delivery details for this market are not stated.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "No procurement or sales process is described; winning commercial work would likely require human relationship-building."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "Project scope and site requirements are not described."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Clearing requires physical work and machinery."
+    },
+    "billing": {
+     "score_e": 1,
+     "how": "No billing process is described."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "No support process is described."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "The service category could transfer, but the relevant UK infrastructure buyers, procurement requirements, and environmental rules would need local research."
+   },
+   "risks": [
+    "The transcript gives no information about how to win this work, what equipment it requires, or its economics."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "Oh man, the sky's is the limit because you can get into commercial, you can get into rightaway clearing.",
+     "speaker": "Alex",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 32905,
+     "approx_timestamp_s": 1881
+    }
+   ]
+  },
+  {
+   "local_id": "I7",
+   "name": "Solar-field clearing",
+   "one_liner": "Offer clearing services for solar fields.",
+   "category": "b2b_service",
+   "business_model": "not stated",
+   "customer": "Solar-field owners or operators are implied; the transcript does not name a specific buyer.",
+   "problem": "not stated",
+   "offer": "Clear solar fields; no scope, equipment, or contract details are stated.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "not stated"
+   },
+   "acquisition_channels": [],
+   "delivery": "Physical clearing work is implied; specific delivery details are not stated.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "No sales process is described; identifying and winning commercial contracts would need human work."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "No intake or site-survey process is described."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Field clearing requires physical work and machinery."
+    },
+    "billing": {
+     "score_e": 1,
+     "how": "No billing process is described."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "No support process is described."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Solar-field clearing could be relevant in the UK, but local solar development, land management, procurement, and environmental requirements would shape the offer."
+   },
+   "risks": [
+    "The transcript provides no details on market demand, contracts, equipment, or economics."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "Um, you can government contracts. Yeah, solar fields is another big one. So, you can do solar field clearing.",
+     "speaker": "Alex",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 33007,
+     "approx_timestamp_s": 1887
+    }
+   ]
+  },
+  {
+   "local_id": "I8",
+   "name": "Government land-clearing contracts",
+   "one_liner": "Pursue government contracts for land-clearing work.",
+   "category": "b2b_service",
+   "business_model": "Government contract revenue; contract structure is not stated.",
+   "customer": "Government buyers; the specific department or asset owner is not stated.",
+   "problem": "not stated",
+   "offer": "Land-clearing services through government contracts; no tendering or delivery details are provided.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "not stated"
+   },
+   "acquisition_channels": [],
+   "delivery": "Land-clearing work is implied, but the contract scope and delivery process are not stated.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "No bidding process is discussed; government contract research and qualification would require human review."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "No contract intake or scoping process is described."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Land clearing requires physical work and machinery."
+    },
+    "billing": {
+     "score_e": 1,
+     "how": "No invoicing or payment details are described."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "No support process is described."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Government land-management contracts exist as a general business route, but UK procurement rules and contract requirements would need separate research."
+   },
+   "risks": [
+    "The transcript offers no evidence of government contract experience or guidance on procurement."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "Oh man, the sky's is the limit because you can get into commercial, you can get into rightaway clearing. Um, you can government contracts.",
+     "speaker": "Alex",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 32905,
+     "approx_timestamp_s": 1881
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "A person could make $60,000 a month with a Bobcat.",
+   "metric": "revenue",
+   "value": {
+    "amount": 60000,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "period": "per month",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Would you believe that you can make 60 grand a month just with a bobcat like this?",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 0,
+    "approx_timestamp_s": 0
+   }
+  },
+  {
+   "claim": "Alex said the business did about $565,000 in six months.",
+   "metric": "revenue",
+   "value": {
+    "amount": 565000,
+    "currency": "USD",
+    "unit": "over six months"
+   },
+   "period": "six months",
+   "claimant": "Alex",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Yeah, this year we ended up doing about 565,000 in 6 months.",
+    "speaker": "Alex",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20677,
+    "approx_timestamp_s": 1182
+   }
+  },
+  {
+   "claim": "Alex said he could see the business reaching about $30 million a year in Cincinnati.",
+   "metric": "revenue",
+   "value": {
+    "amount": 30000000,
+    "currency": "USD",
+    "unit": "per year"
+   },
+   "period": "per year",
+   "claimant": "Alex",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "In just your city alone, depending on where you live, like in Cincinnati, for example, I could easily see this getting to about $30 million a year.",
+    "speaker": "Alex",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 33208,
+    "approx_timestamp_s": 1899
+   }
+  },
+  {
+   "claim": "A three-acre, tier-two-density job takes roughly three days and costs about $6,000–$7,000.",
+   "metric": "price",
+   "value": {
+    "amount": 6000,
+    "amount_max": 7000,
+    "currency": "USD",
+    "unit": "per job"
+   },
+   "period": null,
+   "claimant": "Alex",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Three acres would be on a tier 2 density roughly 3 days. Okay. And what would you charge for that? That would be somewhere around 6,000. Okay. Yeah. A little bit higher than that, but yeah, about 6 to 7.",
+    "speaker": "Alex and Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11567,
+    "approx_timestamp_s": 661
+   }
+  },
+  {
+   "claim": "Diesel fuel costs about $80–$100 per day.",
+   "metric": "cost",
+   "value": {
+    "amount": 80,
+    "amount_max": 100,
+    "currency": "USD",
+    "unit": "per day"
+   },
+   "period": "per day",
+   "claimant": "Alex",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "How much in fuel roughly? So we'll probably run about $80 to $100 a day in diesel fuel.",
+    "speaker": "Alex and Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12137,
+    "approx_timestamp_s": 694
+   }
+  },
+  {
+   "claim": "An operator makes about $250–$300 per day.",
+   "metric": "cost",
+   "value": {
+    "amount": 250,
+    "amount_max": 300,
+    "currency": "USD",
+    "unit": "per day"
+   },
+   "period": "per day",
+   "claimant": "Alex",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "If you're paying someone to do it, what are you paying him per day? So they're making about $250 to $300 a day.",
+    "speaker": "Alex and Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12255,
+    "approx_timestamp_s": 700
+   }
+  },
+  {
+   "claim": "Alex said they set aside about 8% for repairs and previously set aside 10%.",
+   "metric": "cost",
+   "value": {
+    "amount": 8,
+    "amount_max": 10,
+    "currency": "%",
+    "unit": "of revenue set aside for repairs"
+   },
+   "period": null,
+   "claimant": "Alex",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Um, it's about 8% is what we put aside for years. We used to do 10% but we just, you know, it ended up being too much.",
+    "speaker": "Alex",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12520,
+    "approx_timestamp_s": 715
+   }
+  },
+  {
+   "claim": "The vehicle payment is about $1,500 a month.",
+   "metric": "cost",
+   "value": {
+    "amount": 1500,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "period": "per month",
+   "claimant": "Alex",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "And then payment on the vehicle, what is that per month? 1,500 a month.",
+    "speaker": "Alex and Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12729,
+    "approx_timestamp_s": 727
+   }
+  },
+  {
+   "claim": "Alex said a grapple run costs $750.",
+   "metric": "price",
+   "value": {
+    "amount": 750,
+    "currency": "USD",
+    "unit": "to run the grapple"
+   },
+   "period": null,
+   "claimant": "Alex",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "And and and that would be if it was just mulching. And you know, other things that we offer, which most customers take advantage of, is going to be something like grapple work. We charge $750 to run the grapple.",
+    "speaker": "Alex",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12878,
+    "approx_timestamp_s": 736
+   }
+  },
+  {
+   "claim": "The host estimated about $4,000 profit on a $6,000 job; Alex agreed.",
+   "metric": "profit",
+   "value": {
+    "amount": 4000,
+    "currency": "USD",
+    "unit": "per job"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So $6,000 job, $4,000 profit. Yeah. And if you do it yourself, $5,000 profit. Same job, give or take. Yep.",
+    "speaker": "Chris Koerner and Alex",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13083,
+    "approx_timestamp_s": 748
+   }
+  },
+  {
+   "claim": "The host estimated about $5,000 profit on the same job if the owner does the work.",
+   "metric": "profit",
+   "value": {
+    "amount": 5000,
+    "currency": "USD",
+    "unit": "per job"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So $6,000 job, $4,000 profit. Yeah. And if you do it yourself, $5,000 profit. Same job, give or take.",
+    "speaker": "Chris Koerner and Alex",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13083,
+    "approx_timestamp_s": 748
+   }
+  },
+  {
+   "claim": "The used Fecon attachment cost $15,000 and a new one would cost about $40,000.",
+   "metric": "price",
+   "value": {
+    "amount": 15000,
+    "amount_max": 40000,
+    "currency": "USD",
+    "unit": "per attachment"
+   },
+   "period": null,
+   "claimant": "Alex",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So, our first attachment we got was a Fecon attachment. We bought that used. It was part of their rental stuff. We picked it up for 15,000. Okay. A brand new one, you're going to be around 40,000.",
+    "speaker": "Alex and Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14208,
+    "approx_timestamp_s": 812
+   }
+  },
+  {
+   "claim": "A new Bobcat 86 costs about $115,000; their first used 770 cost $74,000.",
+   "metric": "price",
+   "value": {
+    "amount": 74000,
+    "amount_max": 115000,
+    "currency": "USD",
+    "unit": "per machine"
+   },
+   "period": null,
+   "claimant": "Alex",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So, an 86 is going to be about 115,000. Um, our first machine was a 770. We bought that used for 74.",
+    "speaker": "Alex",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14434,
+    "approx_timestamp_s": 825
+   }
+  },
+  {
+   "claim": "Alex put about $5,000 down on the first financed machine.",
+   "metric": "cost",
+   "value": {
+    "amount": 5000,
+    "currency": "USD",
+    "unit": "down payment"
+   },
+   "period": null,
+   "claimant": "Alex",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So, we definitely financed, you know, we put about 5,000 down um and financed the first machine.",
+    "speaker": "Alex",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14614,
+    "approx_timestamp_s": 835
+   }
+  },
+  {
+   "claim": "The first machine and attachment payment was about $1,400 a month.",
+   "metric": "cost",
+   "value": {
+    "amount": 1400,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "period": "per month",
+   "claimant": "Alex",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "What was your first payment on your first machine and attachment? So, it's about 1,400. Okay. A month for that.",
+    "speaker": "Alex and Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14712,
+    "approx_timestamp_s": 841
+   }
+  },
+  {
+   "claim": "The trailer cost about $11,000 and the used truck about $8,000.",
+   "metric": "cost",
+   "value": {
+    "amount": 8000,
+    "amount_max": 11000,
+    "currency": "USD",
+    "unit": "per vehicle or trailer"
+   },
+   "period": null,
+   "claimant": "Alex",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So, we just paid cash for it, but it was about 11,000. Okay. Um, and then we needed a truck that could pull it. So, we just bought a a used truck uh for about $8,000.",
+    "speaker": "Alex and Chris Koerner",
+    "match_score": 98.7,
+    "verified": true,
+    "char_offset": 15117,
+    "approx_timestamp_s": 864
+   }
+  },
+  {
+   "claim": "The first job was about $6,500.",
+   "metric": "revenue",
+   "value": {
+    "amount": 6500,
+    "currency": "USD",
+    "unit": "per job"
+   },
+   "period": null,
+   "claimant": "Alex",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "And how much was your first job? First job we did was about $6,500. Wow. Okay. The one where the lady cried?",
+    "speaker": "Alex and Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15373,
+    "approx_timestamp_s": 879
+   }
+  },
+  {
+   "claim": "The first deal closed two days after ads were published.",
+   "metric": "other",
+   "value": {
+    "amount": 2,
+    "currency": null,
+    "unit": "days from publishing ads to closing the first deal"
+   },
+   "period": null,
+   "claimant": "Alex",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "How long between the time when you first started running ads in earnest to closing that first deal? 2 days. Wow. Yeah.",
+    "speaker": "Alex and Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15947,
+    "approx_timestamp_s": 911
+   }
+  },
+  {
+   "claim": "The second job was about $1,800; they soon moved to $2,000 per day.",
+   "metric": "price",
+   "value": {
+    "amount": 1800,
+    "amount_max": 2000,
+    "currency": "USD",
+    "unit": "per job or day"
+   },
+   "period": null,
+   "claimant": "Alex",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "It's been a while since it was probably just a day job. I think it was about 1,800. I think at the time we were at 1,800. Uh, we moved to 2,000 per day pretty quickly.",
+    "speaker": "Alex",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15779,
+    "approx_timestamp_s": 902
+   }
+  },
+  {
+   "claim": "Alex estimated first-month revenue at about $25,000.",
+   "metric": "revenue",
+   "value": {
+    "amount": 25000,
+    "currency": "USD",
+    "unit": "first 30 days"
+   },
+   "period": "first 30 days",
+   "claimant": "Alex",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Uh, first 30 days, I think it was about 25,000.",
+    "speaker": "Alex",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16365,
+    "approx_timestamp_s": 935
+   }
+  },
+  {
+   "claim": "Alex estimated first-month profit at about $16,000–$17,000.",
+   "metric": "profit",
+   "value": {
+    "amount": 16000,
+    "amount_max": 17000,
+    "currency": "USD",
+    "unit": "first 30 days"
+   },
+   "period": "first 30 days",
+   "claimant": "Alex",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I mean, it was pretty 17 maybe 16.",
+    "speaker": "Alex",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16513,
+    "approx_timestamp_s": 944
+   }
+  },
+  {
+   "claim": "Alex said an individual rented a standard Bobcat for about $350 a day.",
+   "metric": "cost",
+   "value": {
+    "amount": 350,
+    "currency": "USD",
+    "unit": "per day"
+   },
+   "period": "per day",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I rent Bobcats on Facebook Marketplace for my property, right? I've never tried to to rent the attachment. Well, that's a good point, too.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17019,
+    "approx_timestamp_s": 973
+   }
+  },
+  {
+   "claim": "The guest said the mulch takes about 12–18 months to break down.",
+   "metric": "other",
+   "value": {
+    "amount": 12,
+    "amount_max": 18,
+    "currency": null,
+    "unit": "months"
+   },
+   "period": null,
+   "claimant": "Alex",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "It takes about 12 to 18 months to break down and then the grass will come back in.",
+    "speaker": "Alex",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18091,
+    "approx_timestamp_s": 1034
+   }
+  },
+  {
+   "claim": "Alex said the property he cleared for himself had five acres, about three of them wooded.",
+   "metric": "other",
+   "value": {
+    "amount": 3,
+    "amount_max": 5,
+    "currency": null,
+    "unit": "acres"
+   },
+   "period": null,
+   "claimant": "Alex",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Yeah. So I have 5 acres and about three of it was wooded. It was an old pasture that had grown up for about 15 years",
+    "speaker": "Alex",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2035,
+    "approx_timestamp_s": 116
+   }
+  },
+  {
+   "claim": "The first operating period from May through December brought about $170,000–$180,000 in revenue.",
+   "metric": "revenue",
+   "value": {
+    "amount": 170000,
+    "amount_max": 180000,
+    "currency": "USD",
+    "unit": "May through December"
+   },
+   "period": "May through December of the first year",
+   "claimant": "Alex",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So we did around 170 to 180 off the top of my head. Thousand. Yeah. Wow. Okay. How much of that was profit?",
+    "speaker": "Alex and Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 19263,
+    "approx_timestamp_s": 1101
+   }
+  },
+  {
+   "claim": "Alex estimated first-period gross profit at about 70%, saying it was about 69-point-something.",
+   "metric": "margin",
+   "value": {
+    "amount": 69,
+    "amount_max": 70,
+    "currency": "%",
+    "unit": "gross profit margin"
+   },
+   "period": "first operating period",
+   "claimant": "Alex",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Gross profit was about 70%. Wow. Yeah. It was exactly like 69 point something.",
+    "speaker": "Alex and Chris Koerner",
+    "match_score": 93.2,
+    "verified": true,
+    "char_offset": 19368,
+    "approx_timestamp_s": 1107
+   }
+  },
+  {
+   "claim": "The best month in the first operating period was about $45,000.",
+   "metric": "revenue",
+   "value": {
+    "amount": 45000,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "period": "best month in the first operating period",
+   "claimant": "Alex",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "45,000. Wow. I say. Yeah. And that was that's hustling. That's running that machine every day.",
+    "speaker": "Alex and Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 19602,
+    "approx_timestamp_s": 1120
+   }
+  },
+  {
+   "claim": "Alex said the business did about $565,000 in six months in its second year.",
+   "metric": "revenue",
+   "value": {
+    "amount": 565000,
+    "currency": "USD",
+    "unit": "over six months"
+   },
+   "period": "six months",
+   "claimant": "Alex",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "But yeah, this year we ended up doing about 565,000 in 6 months. Yeah. Holy crap.",
+    "speaker": "Alex and Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20673,
+    "approx_timestamp_s": 1182
+   }
+  },
+  {
+   "claim": "They collect a 20% deposit for jobs above $10,000.",
+   "metric": "other",
+   "value": {
+    "amount": 20,
+    "currency": "%",
+    "unit": "deposit on jobs over $10,000"
+   },
+   "period": null,
+   "claimant": "Alex",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "We actually don't unless it's over a certain amount. So, if it's like over $10,000, then we'll collect a 20% deposit.",
+    "speaker": "Alex",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20556,
+    "approx_timestamp_s": 1175
+   }
+  },
+  {
+   "claim": "Alex offers a 10% discount to move suitable large farm jobs to winter.",
+   "metric": "price",
+   "value": {
+    "amount": 10,
+    "currency": "%",
+    "unit": "discount"
+   },
+   "period": null,
+   "claimant": "Alex",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "They say, \"Oh, I don't mind at all.\" And I'll offer them a 10% discount for us to move that to the winter.",
+    "speaker": "Alex",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21430,
+    "approx_timestamp_s": 1225
+   }
+  },
+  {
+   "claim": "Alex estimated net profit at about 40%.",
+   "metric": "margin",
+   "value": {
+    "amount": 40,
+    "currency": "%",
+    "unit": "net profit margin"
+   },
+   "period": "reported business period",
+   "claimant": "Alex",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "What would net be? So net is about 40%. Okay. about 3640.",
+    "speaker": "Alex and Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22555,
+    "approx_timestamp_s": 1289
+   }
+  },
+  {
+   "claim": "Alex expects next year's revenue to exceed $1 million and hopes to reach $1.2 million.",
+   "metric": "revenue",
+   "value": {
+    "amount": 1000000,
+    "amount_max": 1200000,
+    "currency": "USD",
+    "unit": "per year"
+   },
+   "period": "next year",
+   "claimant": "Alex",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "We expect to do over a million. We're hoping to hit 1.2 too. And we can do that with the machines that we have now.",
+    "speaker": "Alex",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22948,
+    "approx_timestamp_s": 1312
+   }
+  },
+  {
+   "claim": "Alex reported a $20 cost per lead.",
+   "metric": "cost",
+   "value": {
+    "amount": 20,
+    "currency": "USD",
+    "unit": "per lead"
+   },
+   "period": null,
+   "claimant": "Alex",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So, what do you spend per lead on to what do you give to Facebook for every lead on average? So, our per lead cost is $20.",
+    "speaker": "Alex and Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24822,
+    "approx_timestamp_s": 1419
+   }
+  },
+  {
+   "claim": "Alex said about 49% of their quotes close.",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 49,
+    "currency": "%",
+    "unit": "of quotes closed"
+   },
+   "period": null,
+   "claimant": "Alex",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "And then what percentage of your quotes close? So about 49% of our quotes close.",
+    "speaker": "Alex and Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25056,
+    "approx_timestamp_s": 1432
+   }
+  },
+  {
+   "claim": "Alex reported an average job size of about $3,300.",
+   "metric": "revenue",
+   "value": {
+    "amount": 3300,
+    "currency": "USD",
+    "unit": "per job"
+   },
+   "period": null,
+   "claimant": "Alex",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "What is your average job size? Our average job is about $3,300. Holy cow. So that's like a 66x return on ad spend.",
+    "speaker": "Alex and Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25245,
+    "approx_timestamp_s": 1443
+   }
+  },
+  {
+   "claim": "The host estimated a $50 customer acquisition cost using a conservative $25 lead cost; this was a hypothetical calculation.",
+   "metric": "cost",
+   "value": {
+    "amount": 50,
+    "currency": "USD",
+    "unit": "per customer"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So let's just say a lead's 25 bucks to be conservative. You're spending $50 to acquire a customer.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25144,
+    "approx_timestamp_s": 1437
+   }
+  },
+  {
+   "claim": "The host estimated about a 66x return on ad spend from the average job and customer-acquisition figures.",
+   "metric": "other",
+   "value": {
+    "amount": 66,
+    "currency": "x",
+    "unit": "return on ad spend"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "What is your average job size? Our average job is about $3,300. Holy cow. So that's like a 66x return on ad spend.",
+    "speaker": "Alex and Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25245,
+    "approx_timestamp_s": 1443
+   }
+  },
+  {
+   "claim": "The advertising area was about 50 miles from the business.",
+   "metric": "other",
+   "value": {
+    "amount": 50,
+    "currency": null,
+    "unit": "miles"
+   },
+   "period": null,
+   "claimant": "Alex",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Yeah. So, within about 50 mi of us, 50 mi. Okay.",
+    "speaker": "Alex and Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 26128,
+    "approx_timestamp_s": 1494
+   }
+  },
+  {
+   "claim": "They initially ran ads at $20 a day and currently run an $80 daily budget.",
+   "metric": "cost",
+   "value": {
+    "amount": 20,
+    "amount_max": 80,
+    "currency": "USD",
+    "unit": "per day"
+   },
+   "period": "initial and current ad budgets",
+   "claimant": "Alex",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So, right now, we run about an $80 a day budget. Okay. So, but when we started out, we ran $20 a day.",
+    "speaker": "Alex and Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 29701,
+    "approx_timestamp_s": 1698
+   }
+  },
+  {
+   "claim": "Alex suggested about $500 of ad spend could provide an initial read on demand.",
+   "metric": "cost",
+   "value": {
+    "amount": 500,
+    "currency": "USD",
+    "unit": "initial ad test"
+   },
+   "period": null,
+   "claimant": "Alex",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "You don't have to put a ton of money into an ad. About put about $500 into it, you can get a pretty good idea.",
+    "speaker": "Alex",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 29550,
+    "approx_timestamp_s": 1689
+   }
+  },
+  {
+   "claim": "The host suggested a $20 tripod as a possible filming setup.",
+   "metric": "cost",
+   "value": {
+    "amount": 20,
+    "currency": "USD",
+    "unit": "one-off tripod"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Is that realistic? Oh, yeah. You could just use your phone. Yeah. You can strap it to your chest, get some stuff on the inside of the machine.",
+    "speaker": "Chris Koerner and Alex",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25637,
+    "approx_timestamp_s": 1466
+   }
+  },
+  {
+   "claim": "A snow event brings about $10,000–$11,000 across their machines within about 20 hours of clearing.",
+   "metric": "revenue",
+   "value": {
+    "amount": 10000,
+    "amount_max": 11000,
+    "currency": "USD",
+    "unit": "per snow event"
+   },
+   "period": "per snow event",
+   "claimant": "Alex",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "So we'll make around 10 to 11,000 per snow event and that is within about 20 hours of clearing and then we spread that across different machines that we have.",
+    "speaker": "Alex",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 26958,
+    "approx_timestamp_s": 1541
+   }
+  },
+  {
+   "claim": "Alex said snow boxes cost a couple thousand dollars.",
+   "metric": "price",
+   "value": {
+    "amount": null,
+    "currency": "USD",
+    "unit": "per attachment",
+    "label": "A couple thousand dollars; exact amount not stated"
+   },
+   "period": null,
+   "claimant": "Alex",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "And that's probably the the most affordable attachment is a snow box. I mean, you can pick those up for a couple thousand dollar.",
+    "speaker": "Alex",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 27876,
+    "approx_timestamp_s": 1594
+   }
+  },
+  {
+   "claim": "The host gave a hypothetical example in which a contractor receives $20,000 for a parking lot and subcontracts $10,000–$15,000.",
+   "metric": "price",
+   "value": {
+    "amount": 10000,
+    "amount_max": 15000,
+    "currency": "USD",
+    "unit": "subcontracted lot"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "So they might be getting paid 20 grand for that parking lot. They're giving you 10 of it or 15 of it.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 28776,
+    "approx_timestamp_s": 1645
+   }
+  },
+  {
+   "claim": "The host described a one-inch snow trigger and a possible forecast of 13 inches as an example.",
+   "metric": "other",
+   "value": {
+    "amount": 1,
+    "amount_max": 13,
+    "currency": null,
+    "unit": "inches of snow"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "So, in our case, they'll have one some properties that are 1 in. So if it is one inch of snow on the ground, you're out there pushing snow.",
+    "speaker": "Alex",
+    "match_score": 98.5,
+    "verified": true,
+    "char_offset": 28329,
+    "approx_timestamp_s": 1620
+   }
+  },
+  {
+   "claim": "Alex said one machine can do about $35,000 a month in revenue and about $20,000 a month in profit when run year round.",
+   "metric": "revenue",
+   "value": {
+    "amount": 35000,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "period": "per month, one person and one machine",
+   "claimant": "Alex",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I would say with one person, one machine running year round, they could do reasonably about 35,000 a month. A month in profit or revenue? In revenue with one machine.",
+    "speaker": "Alex and Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 32448,
+    "approx_timestamp_s": 1855
+   }
+  },
+  {
+   "claim": "Alex estimated one person and one machine could produce about $20,000 monthly profit.",
+   "metric": "profit",
+   "value": {
+    "amount": 20000,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "period": "per month, one person and one machine",
+   "claimant": "Alex",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "How much of that profit would you say? I would say they're going to end up about 20,000 a month. And Okay.",
+    "speaker": "Alex and Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 32615,
+    "approx_timestamp_s": 1865
+   }
+  },
+  {
+   "claim": "The host extrapolated the one-person monthly profit to about a quarter million dollars a year.",
+   "metric": "profit",
+   "value": {
+    "amount": 250000,
+    "currency": "USD",
+    "unit": "per year"
+   },
+   "period": "per year",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Okay. Quarter million a year in in profit running this business yourself. Yep. Running yourself.",
+    "speaker": "Chris Koerner and Alex",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 32714,
+    "approx_timestamp_s": 1870
+   }
+  },
+  {
+   "claim": "The transcript says the Bobcat machine weighs about 12,000 pounds.",
+   "metric": "other",
+   "value": {
+    "amount": 12000,
+    "currency": null,
+    "unit": "pounds"
+   },
+   "period": null,
+   "claimant": "Alex",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "No, this would need especially this machine. This one's about 12,000 lb. Okay. So, you're going to want at least uh a 3500 truck.",
+    "speaker": "Alex and Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16679,
+    "approx_timestamp_s": 953
+   }
+  },
+  {
+   "claim": "Alex said insurance for one machine was about $150 a month and general liability was $225 a month.",
+   "metric": "cost",
+   "value": {
+    "amount": 150,
+    "amount_max": 225,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "period": "per month",
+   "claimant": "Alex",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So, insurance for us is actually pretty reasonable. For one machine, I want to say is about $150 a month. So, wow. Pretty reasonable.",
+    "speaker": "Alex and Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 31084,
+    "approx_timestamp_s": 1777
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Validate local demand through customer-language keyword research",
+   "area": "validation_testing",
+   "steps": [
+    "List the phrases customers might use, including non-industry terms such as “clear my land” and “get rid of this honeysuckle.”",
+    "Use a keyword tool to compare local search demand with a familiar service such as concrete work.",
+    "Check the likely service radius; Alex used about 50 miles around his area.",
+    "Use ChatGPT to brainstorm additional phrases, then run those phrases through a keyword tool."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So just created a big list, ran it through a keyword tool and just saw there was a lot of demand.",
+    "speaker": "Alex",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4324,
+    "approx_timestamp_s": 247
+   }
+  },
+  {
+   "name": "Capture, educate, then sell with video",
+   "area": "customer_acquisition",
+   "steps": [
+    "Run vertical video ads that show the problem and the visible before-and-after result.",
+    "Send ad viewers to a website that features explanatory YouTube videos.",
+    "Use the videos to show what the service is, how the job is done, and what customers should expect.",
+    "Route interested viewers to the website contact form."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "The three-step marketing framework is capture, educate, sale.",
+    "speaker": "Alex",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23180,
+    "approx_timestamp_s": 1325
+   }
+  },
+  {
+   "name": "Start filming with a phone and simple editing apps",
+   "area": "customer_acquisition",
+   "steps": [
+    "Record machine footage on a phone, including footage from inside the machine or a time-lapse from a tripod.",
+    "Use simple editing apps such as CapCut or Instagram edits.",
+    "Show the work clearly; Alex says it does not need elaborate production."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Oh, yeah. You could just use your phone. Yeah. You can strap it to your chest, get some stuff on the inside of the machine.",
+    "speaker": "Alex",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25655,
+    "approx_timestamp_s": 1467
+   }
+  },
+  {
+   "name": "Use a simple day rate first, then add pricing structure as the business grows",
+   "area": "pricing",
+   "steps": [
+    "Start by quoting jobs by the day if a detailed pricing model is not ready.",
+    "As the business expands, define brush-density and terrain tiers.",
+    "Quote the cleared area and apply a terrain multiplier to the base quarter-acre price."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "If this area is a tier 2 terrain, it has a multiplier applied to that base quarter acre price.",
+    "speaker": "Alex",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11017,
+    "approx_timestamp_s": 630
+   }
+  },
+  {
+   "name": "Fill winter capacity with suitable farm properties",
+   "area": "operations",
+   "steps": [
+    "When quoting a large farm property in summer, ask whether the customer is flexible on timing.",
+    "Offer a 10% discount to move suitable work to winter.",
+    "Choose properties that do not hold water and where the customer is not concerned about ruts."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So I'll look at make sure these are great properties, filling in the gaps. Right. Right. I'm basically now last year we stopped all winter.",
+    "speaker": "Alex and Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21530,
+    "approx_timestamp_s": 1231
+   }
+  },
+  {
+   "name": "Make customer site preparation explicit",
+   "area": "operations",
+   "steps": [
+    "Include debris-removal instructions in customer emails before the job.",
+    "Ask customers to remove metal, tires, and barbed wire.",
+    "If the customer leaves debris, remove it as billable time."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So we actually include it as part of our emails to the customers. So we'll say, \"Hey, if you could clear the area of debris.\"",
+    "speaker": "Alex",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18770,
+    "approx_timestamp_s": 1073
+   }
+  },
+  {
+   "name": "Test paid ads with a modest initial budget",
+   "area": "customer_acquisition",
+   "steps": [
+    "Create a basic brand and website with lead capture, service descriptions, and images or videos.",
+    "Start with a $20 daily ad budget, according to Alex's early approach.",
+    "Use about $500 of ad spend as an initial demand test, as Alex suggested."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "You don't have to put a ton of money into an ad. About put about $500 into it, you can get a pretty good idea.",
+    "speaker": "Alex",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 29550,
+    "approx_timestamp_s": 1689
+   }
+  },
+  {
+   "name": "Build snow-removal work through general contractors",
+   "area": "customer_acquisition",
+   "steps": [
+    "Contact general contractors who hold snow contracts.",
+    "Tell them what equipment and attachments are available.",
+    "Ask which sites need extra capacity."
+   ],
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "Hey, we've got the snow boxes. We've got everything we need. What sites do you want us at?",
+    "speaker": "Alex",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 27663,
+    "approx_timestamp_s": 1581
+   }
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Bobcat",
+   "purpose": "Skid-steer equipment used for forestry mulching, land clearing, snow removal, and other possible services.",
+   "cost_stated": "New 86 about $115,000; first used machine about $74,000; a standard Bobcat rented from an individual was described by the host as about $350 per day."
+  },
+  {
+   "name": "Bobcat T86",
+   "purpose": "Specific forestry mulching machine shown in the video.",
+   "cost_stated": "Not stated for this specific machine; Alex said an 86 is about $115,000."
+  },
+  {
+   "name": "Superflow Bobcat mulching head",
+   "purpose": "Mulching attachment shown on the Bobcat T86.",
+   "cost_stated": "Not stated."
+  },
+  {
+   "name": "Fecon attachment",
+   "purpose": "Alex's first used forestry mulching attachment, bought as part of rental equipment.",
+   "cost_stated": "Used for $15,000; new about $40,000."
+  },
+  {
+   "name": "Facebook Marketplace",
+   "purpose": "The host said he rented Bobcats from individuals through the marketplace.",
+   "cost_stated": "Host said a rental was about $350 per day."
+  },
+  {
+   "name": "Meta/Facebook Ads",
+   "purpose": "Vertical video ads used to generate local leads.",
+   "cost_stated": "Started at $20 per day; current budget about $80 per day; $500 suggested as an initial test."
+  },
+  {
+   "name": "YouTube",
+   "purpose": "Video channel used to explain forestry mulching and educate prospects.",
+   "cost_stated": "Not stated."
+  },
+  {
+   "name": "ChatGPT",
+   "purpose": "Used to brainstorm search terms customers might use.",
+   "cost_stated": "Not stated."
+  },
+  {
+   "name": "Keyword tool",
+   "purpose": "Used to check search demand for a large list of service-related terms.",
+   "cost_stated": "Not stated."
+  },
+  {
+   "name": "WordPress",
+   "purpose": "Used to build the initial business website.",
+   "cost_stated": "Not stated."
+  },
+  {
+   "name": "Lovable",
+   "purpose": "Suggested by Alex as an AI website-building tool.",
+   "cost_stated": "Not stated."
+  },
+  {
+   "name": "CapCut",
+   "purpose": "Named as a simple video-editing app for business footage.",
+   "cost_stated": "Described as a free app; no specific plan or price stated."
+  },
+  {
+   "name": "Instagram edits",
+   "purpose": "Named as a simple way to edit business videos.",
+   "cost_stated": "Described among free apps; no specific plan or price stated."
+  },
+  {
+   "name": "Bizzy",
+   "purpose": "Sponsor-mentioned LLC formation and compliance service; the host says he uses it.",
+   "cost_stated": "Sponsor read says it does not charge to file an LLC; state fees still apply. Other costs are not stated."
+  },
+  {
+   "name": "Snow box",
+   "purpose": "Bobcat attachment used to push snow from parking lots and HOA sites.",
+   "cost_stated": "A couple thousand dollars, exact amount not stated."
+  },
+  {
+   "name": "Tree spade",
+   "purpose": "Possible Bobcat attachment for transplanting trees.",
+   "cost_stated": "Not stated."
+  },
+  {
+   "name": "Asphalt grinder",
+   "purpose": "Possible Bobcat attachment for asphalt grinding.",
+   "cost_stated": "Not stated."
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "The host's opening $60,000-a-month line and the guest's $30 million market estimate are hypothetical claims, not demonstrated results for a one-person business.",
+   "quote": {
+    "text": "I could easily see this getting to about $30 million a year.",
+    "speaker": "Alex",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 733,
+    "approx_timestamp_s": 41
+   }
+  },
+  {
+   "warning": "Forestry mulching is hard on equipment; Alex says used-machine condition can be difficult to determine and recommends new equipment with a warranty.",
+   "quote": {
+    "text": "The reason is is because forestry can be hard on equipment and and it's hard to determine what you're getting.",
+    "speaker": "Alex",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 30599,
+    "approx_timestamp_s": 1749
+   }
+  },
+  {
+   "warning": "Metal, tires, and barbed wire in a work area can damage machine teeth or equipment.",
+   "quote": {
+    "text": "You don't want to hit metal. So before a job, we'll go through and make sure all the metal's picked up.",
+    "speaker": "Alex",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18609,
+    "approx_timestamp_s": 1064
+   }
+  },
+  {
+   "warning": "Budget for wear parts and repairs; Alex says hydraulic couplings can break and buying wear parts in bulk is cheaper.",
+   "quote": {
+    "text": "So, you know, you're going to break hydraulic couplings and they're super easy to just unscrew and screw on.",
+    "speaker": "Alex",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 31796,
+    "approx_timestamp_s": 1818
+   }
+  },
+  {
+   "warning": "Weather and wet ground can interrupt a seasonal schedule; Alex says suitable large farms helped them fill winter work.",
+   "quote": {
+    "text": "We just got record-breaking rain. So, we didn't end up getting started until June.",
+    "speaker": "Alex",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20235,
+    "approx_timestamp_s": 1157
+   }
+  },
+  {
+   "warning": "The machine and trailer require suitable towing capacity; the host and guest discuss a 3,500 truck and CDL requirements for the shown machine.",
+   "quote": {
+    "text": "So, you're going to want at least uh a 3500 truck. Yeah. Okay. And this one you would need a CDL to pull.",
+    "speaker": "Alex and Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16754,
+    "approx_timestamp_s": 958
+   }
+  },
+  {
+   "warning": "The sponsor segment promotes Bizzy and should be treated as a promotional conflict when evaluating the host's LLC-service endorsement.",
+   "quote": {
+    "text": "So Bizzy supports this channel. I use them personally. I file all my LLC's with Bizzy.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9755,
+    "approx_timestamp_s": 557
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Research how customers describe their problem, not only the industry's technical terms; the guest found demand in phrases like “clear my land” and “get rid of this honeysuckle.”",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "They're not as like lane clearing and forestry watching are more the commercial terms. Honeysuckle invasion.",
+    "speaker": "Alex and Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4000,
+    "approx_timestamp_s": 228
+   }
+  },
+  {
+   "lesson": "A visible service can benefit from video that shows the problem, the process, and the finished result before the sales visit.",
+   "theme": "offer_design",
+   "quote": {
+    "text": "Most people don't know what forest streaming is, what land clearing is. So, we show them what it is, show them how it's done.",
+    "speaker": "Alex",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24035,
+    "approx_timestamp_s": 1374
+   }
+  },
+  {
+   "lesson": "Compare local search demand with the number of providers before committing to a service category.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "So people were searching for these terms and so that's how I just decided hey this is going to work.",
+    "speaker": "Alex",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3516,
+    "approx_timestamp_s": 201
+   }
+  },
+  {
+   "lesson": "A customer can value an outcome emotionally as well as financially; Alex's first customer wanted the property to look as it did in childhood.",
+   "theme": "offer_design",
+   "quote": {
+    "text": "So she wanted the property that she grew up in to look like it did when she lived there when she was a kid.",
+    "speaker": "Alex",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7920,
+    "approx_timestamp_s": 452
+   }
+  },
+  {
+   "lesson": "Start with a pricing method that is easy to quote, then add detail as operational scale requires it.",
+   "theme": "pricing",
+   "quote": {
+    "text": "If you wanted to start out like we did, you could also just do it by day.",
+    "speaker": "Alex",
+    "match_score": 97.2,
+    "verified": true,
+    "char_offset": 11170,
+    "approx_timestamp_s": 638
+   }
+  },
+  {
+   "lesson": "Plan seasonal work ahead by asking flexible customers about timing and offering a discount for suitable off-season jobs.",
+   "theme": "operations",
+   "quote": {
+    "text": "I'll offer them a 10% discount for us to move that to the winter.",
+    "speaker": "Alex",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21466,
+    "approx_timestamp_s": 1227
+   }
+  },
+  {
+   "lesson": "A machine-based business can add adjacent services to use equipment in more conditions or seasons, but each service still requires operators and suitable attachments.",
+   "theme": "scaling",
+   "quote": {
+    "text": "There's a million things you can do with a Bobcat. I mean, there's hundreds of different attachments",
+    "speaker": "Alex",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 26400,
+    "approx_timestamp_s": 1509
+   }
+  },
+  {
+   "lesson": "Include job-preparation instructions in customer communications and define how extra cleanup time is billed.",
+   "theme": "operations",
+   "quote": {
+    "text": "If they don't do that, that's fine. We'll do it. It's just that's part of the billable time.",
+    "speaker": "Alex",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18890,
+    "approx_timestamp_s": 1080
+   }
+  },
+  {
+   "lesson": "Treat reported revenue, profit, and growth projections as separate measures; the host initially described gross profit as net profit, and Alex corrected the distinction.",
+   "theme": "finance_unit_economics",
+   "quote": {
+    "text": "Yeah. That's incredible. Um, now let's gross profit. Gross profit. Okay. Gross profit. Yeah. Yeah. Not net.",
+    "speaker": "Chris Koerner and Alex",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22457,
+    "approx_timestamp_s": 1284
+   }
+  }
+ ],
+ "evidence_quality": {
+  "rating": "B",
+  "rationale": "The guest describes his own operating business with specific processes, equipment, pricing, customer acquisition, and financial figures. The numbers are self-reported, some are approximate, and the host makes several calculations or projections that are not independently verified. The transcript includes auto-caption errors and conversational corrections.",
+  "promotional_conflict": "The host reads a sponsored endorsement for Bizzy, an LLC formation and compliance service, and says he uses it. The guest's Brushworks business is not presented as a course or software promotion."
+ },
+ "extraction": {
+  "model": "gpt-6-luna",
+  "extracted_at": "2026-10-22T11:28:15",
+  "cost_usd": 0,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 88,
+   "verified": 88,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}
