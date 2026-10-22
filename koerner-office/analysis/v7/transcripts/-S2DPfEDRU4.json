@@ -1,0 +1,1171 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "-S2DPfEDRU4",
+  "title": "The Most Overlooked $1M Business Every Town Needs",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=-S2DPfEDRU4",
+  "upload_date": "2026-09-23",
+  "duration_s": 1985,
+  "view_count": 1086311,
+  "transcript_provider": "cached",
+  "transcript_chars": 39632,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner tours Laundry Spot's flagship store in Hamilton, Ohio with co-owner Tyler. The family business builds large, modern laundromats with cloud-controlled washers, direct soap injection and any-payment options, priced at parity with old competitors; the Hamilton store did about $1.025M revenue and $420k profit last year. Tyler shares startup costs ($1.2M-$2.2M excluding real estate), site selection, a grand-opening playbook with two free-laundry weekends, commercial laundry at $1-$3/lb, and the new franchise (36 units in 8 months). Key takeaway: build new, better stores rather than buying old ones, and remove every bit of friction for customers.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": null
+  },
+  {
+   "name": "Tyler",
+   "role": "guest",
+   "description": "Co-owner of Laundry Spot (family laundromat business with father-in-law David), finance background"
+  }
+ ],
+ "format": "case_study_profile",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Modern large-format laundromat (Laundry Spot)",
+   "one_liner": "Build new, large (4,400-8,000 sq ft) laundromats with high-efficiency cloud-controlled washers, priced at parity with local competitors, to take over a mid-size town.",
+   "category": "local_service",
+   "business_model": "Self-service wash/dry revenue plus loyalty card, wash-and-fold, commercial laundry and dry cleaning; now franchising",
+   "customer": "Residents of mid-size towns (e.g. Hamilton, Ohio, ~60k people), especially renters in older apartments with poor shared laundry; families",
+   "problem": "Existing laundromats are old, dirty, inefficient and owner-centric",
+   "offer": "Clean, large stores with giant washers (up to 130 lb), direct soap injection with 8 options, ozone cycles, any payment method, nice bathrooms, 40+ cameras",
+   "pricing": {
+    "model": "per wash with add-ons",
+    "price_points": [
+     {
+      "amount": 22,
+      "currency": "USD",
+      "unit": "per wash",
+      "label": "130 lb washer base"
+     },
+     {
+      "amount": 25,
+      "currency": "USD",
+      "unit": "per wash",
+      "label": "with extended wash"
+     }
+    ],
+    "notes": "Utilities under 10% of revenue vs 20-30% for old stores; dryers 10-15% of washer revenue; priced same or lower than competitors."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "direct_mail_postcards",
+     "details": "Every Door Direct Mail 'coming soon' flyers starting 3 months before opening",
+     "quote": {
+      "text": "We do every door direct mail. Y is that what you're doing? Yep",
+      "speaker": "Tyler",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 29744,
+      "approx_timestamp_s": 1549
+     }
+    },
+    {
+     "channel": "networking_events",
+     "details": "VIP red-carpet grand opening a month out (open bar, catering, 50-60 business owners); join chambers",
+     "quote": {
+      "text": "we had a VIP red carpet grand opening, catered food, open bar, music at a laundromat",
+      "speaker": "Tyler",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 14040,
+      "approx_timestamp_s": 731
+     }
+    },
+    {
+     "channel": "other",
+     "details": "Two consecutive free-laundry weekends to get people in the door, collecting Google reviews",
+     "quote": {
+      "text": "this store was the first time we did two weekends in a row free laundry cuz it worked so well",
+      "speaker": "Tyler",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 14452,
+      "approx_timestamp_s": 753
+     }
+    },
+    {
+     "channel": "google_business_profile_maps",
+     "details": "Push for as many five-star Google reviews as possible during free weekends"
+    }
+   ],
+   "delivery": "Staffed by attendants (1-2 on floor, up to 6 with commercial), GM and AGM; machines programmed remotely from the cloud; data on every cycle drives equipment decisions.",
+   "unit_economics_claims": [
+    "130 lb washer: 6-7 turns/day, ~$130/day, ~$28-30k profit/year",
+    "Hamilton store: $1.025M revenue, ~$420k profit",
+    "Fairfield: cost $1.1M (2019), nets high $300ks",
+    "Startup $1.2M-$2.2M excl. real estate; up to $1.1M equipment",
+    "Labour ~20% of revenue; utilities ~9.5%",
+    "Sell at 5-6x"
+   ],
+   "tools": [
+    "Cloud-connected washers",
+    "Direct soap injection system",
+    "Ozone system",
+    "Loyalty card",
+    "Ford Transit vans",
+    "Google Business Profile",
+    "EDDM"
+   ],
+   "startup_cost": "$1.2M-$2.2M all-in excluding real estate (FDD)",
+   "time_to_first_revenue": "Fast ramp: $100k self-serve revenue in first quarter; best store within 6 months",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Mailers and Google reviews automatable, but grand openings and community events are in person."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Walk-in; loyalty card sign-up."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Physical store with attendants, cleaning, maintenance."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Card/app payments, loyalty card."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "On-site staff; cameras help remote monitoring."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Laundrettes exist in the UK; demand profile and costs differ; US bonus depreciation does not apply."
+   },
+   "risks": [
+    "High capex ($1M+)",
+    "Labour is biggest cost",
+    "Seasonality (summer slow)",
+    "Competition copying"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "We did topline 1,25,000 last year and bottom line 420",
+     "speaker": "Tyler",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 26727,
+     "approx_timestamp_s": 1392
+    },
+    {
+     "text": "our FDD says startup costs anywhere between 1.2 million all in to 2.2 million all in",
+     "speaker": "Tyler",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 21055,
+     "approx_timestamp_s": 1097
+    },
+    {
+     "text": "We want to go in, give the customer a better experience, and then be like, \"Oh, this is the same price.\"",
+     "speaker": "Tyler",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 15994,
+     "approx_timestamp_s": 833
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Commercial wash-and-fold for hotels and public services",
+   "one_liner": "Process hotel, fire and police department laundry from the laundromat at $1-$3 per pound.",
+   "category": "b2b_service",
+   "business_model": "Per pound",
+   "customer": "Hotels, fire and police departments, local businesses",
+   "problem": "Businesses need laundry processing",
+   "offer": "Washed, folded, stain-removed linen with upcharges for soiling",
+   "pricing": {
+    "model": "per pound",
+    "price_points": [
+     {
+      "amount": 1,
+      "currency": "USD",
+      "unit": "per lb",
+      "amount_max": 3
+     }
+    ],
+    "notes": "30,000 lbs/month rising to ~50,000 lbs; Chris estimates near $100k/month."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "networking_events",
+     "details": "GM joins chambers and talks to business owners",
+     "quote": {
+      "text": "Our GM is big in the community. It's it's joining your local chambers",
+      "speaker": "Tyler",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 13900,
+      "approx_timestamp_s": 724
+     }
+    },
+    {
+     "channel": "referrals_word_of_mouth",
+     "details": "Inbound and referrals"
+    }
+   ],
+   "delivery": "Staff wash and fold; Ford Transit vans pick up and deliver.",
+   "unit_economics_claims": [
+    "21% of Hamilton revenue is commercial"
+   ],
+   "tools": [
+    "Ford Transit 250 high roof"
+   ],
+   "startup_cost": "Uses laundromat capacity",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Relationship sales."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Account setup."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical washing/folding and delivery."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Invoicing."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Commercial laundry works in UK."
+   },
+   "risks": [
+    "Labour-intensive"
+   ],
+   "is_primary": false,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "we move 30 lbs a month through here. We have a new commercial account this month that will add probably another 20,000",
+     "speaker": "Tyler",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 13146,
+     "approx_timestamp_s": 685
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Wholesaled dry cleaning drop-off",
+   "one_liner": "Accept dry cleaning at the laundromat and wholesale it out, keeping 50% of the price.",
+   "category": "local_service",
+   "business_model": "Revenue share: keep 50% of top line",
+   "customer": "Loyal laundromat customers",
+   "problem": "Customers asked to drop dry cleaning",
+   "offer": "Dry cleaning drop-off",
+   "pricing": {
+    "model": "per item",
+    "price_points": [
+     {
+      "amount": 7,
+      "currency": "USD",
+      "unit": "per shirt"
+     }
+    ],
+    "notes": "Pay ~$3.50 per $7 shirt to wholesaler."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "existing_audience",
+     "details": "Existing laundromat customers"
+    }
+   ],
+   "delivery": "Outsourced to wholesale dry cleaner.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "Minimal",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Existing customers."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Counter."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Outsourced physical."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Card."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works in UK."
+   },
+   "risks": [
+    "Low priority line"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "shirts are like $7, I think, and we we get 50% of the the top line",
+     "speaker": "Tyler",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 19418,
+     "approx_timestamp_s": 1011
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "Laundromat franchise",
+   "one_liner": "Franchise the Laundry Spot model; 36 territories sold in 8 months.",
+   "category": "franchise",
+   "business_model": "Franchise fees/royalties (not stated)",
+   "customer": "Investors and business owners",
+   "problem": "not stated",
+   "offer": "Franchise system with proprietary washer and DSI",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "youtube",
+     "details": "Featured on podcast; website"
+    }
+   ],
+   "delivery": "not stated",
+   "unit_economics_claims": [
+    "36 units sold in 8 months"
+   ],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Franchise sales."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Onboarding."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Build-outs."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Royalties."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Support."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "US franchise; UK expansion not discussed."
+   },
+   "risks": [
+    "Franchise execution"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "The franchise is live. Started in January. We've sold 36 units",
+     "speaker": "Tyler",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 36795,
+     "approx_timestamp_s": 1917
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "130 lb washer does 6-7 turns/day, ~$130/day",
+   "metric": "revenue",
+   "value": {
+    "amount": 130,
+    "currency": "USD",
+    "unit": "per day"
+   },
+   "claimant": "Tyler",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "we run about six, seven turns a day",
+    "speaker": "Tyler",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3537,
+    "approx_timestamp_s": 184
+   },
+   "period": "daily"
+  },
+  {
+   "claim": "Wash price $22 base, ~$24-25 with add-ons",
+   "metric": "price",
+   "value": {
+    "amount": 22,
+    "currency": "USD",
+    "unit": "per wash"
+   },
+   "claimant": "Tyler",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "At $22. And that's base price on this machine",
+    "speaker": "Tyler",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3698,
+    "approx_timestamp_s": 192
+   }
+  },
+  {
+   "claim": "Utilities under 10% of revenue (~9.5%)",
+   "metric": "margin",
+   "value": {
+    "amount": 10,
+    "currency": null,
+    "unit": "percent of revenue"
+   },
+   "claimant": "Tyler",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "our utilities run under 10%",
+    "speaker": "Tyler",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4088,
+    "approx_timestamp_s": 213
+   }
+  },
+  {
+   "claim": "Old laundromats' utilities 20-30%",
+   "metric": "cost",
+   "value": {
+    "amount": 20,
+    "currency": null,
+    "unit": "percent of revenue",
+    "amount_max": 30
+   },
+   "claimant": "Tyler",
+   "first_hand": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "their utilities may be 20, 25, even up to 30%",
+    "speaker": "Tyler",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4427,
+    "approx_timestamp_s": 230
+   }
+  },
+  {
+   "claim": "One machine could make $28-30k profit/year",
+   "metric": "profit",
+   "value": {
+    "amount": 28000,
+    "currency": "USD",
+    "unit": "per year",
+    "amount_max": 30000
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "this will make you like 28 to $30,000 of profit every year, right?",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5018,
+    "approx_timestamp_s": 261
+   },
+   "hypothetical": true
+  },
+  {
+   "claim": "Hamilton store: $1.025M revenue, $420k profit last year",
+   "metric": "revenue",
+   "value": {
+    "amount": 1025000,
+    "currency": "USD",
+    "unit": "per year"
+   },
+   "claimant": "Tyler",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "We did topline 1,25,000 last year and bottom line 420",
+    "speaker": "Tyler",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 26727,
+    "approx_timestamp_s": 1392
+   },
+   "period": "annual"
+  },
+  {
+   "claim": "Dryers 10-15% of washer revenue",
+   "metric": "other",
+   "value": {
+    "amount": 10,
+    "currency": null,
+    "unit": "percent",
+    "amount_max": 15
+   },
+   "claimant": "Tyler",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "dryers end up being 10 to 15% of washer revenue",
+    "speaker": "Tyler",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9232,
+    "approx_timestamp_s": 481
+   }
+  },
+  {
+   "claim": "28% of customers still use quarters",
+   "metric": "other",
+   "value": {
+    "amount": 28,
+    "currency": null,
+    "unit": "percent"
+   },
+   "claimant": "Tyler",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "28% of our customers still use quarters",
+    "speaker": "Tyler",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9474,
+    "approx_timestamp_s": 493
+   }
+  },
+  {
+   "claim": "50% of self-service revenue on weekends",
+   "metric": "other",
+   "value": {
+    "amount": 50,
+    "currency": null,
+    "unit": "percent"
+   },
+   "claimant": "Tyler",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "50% of the self-service revenue is done on Saturday and Sunday",
+    "speaker": "Tyler",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11216,
+    "approx_timestamp_s": 584
+   }
+  },
+  {
+   "claim": "Commercial is 21% of Hamilton revenue",
+   "metric": "revenue",
+   "value": {
+    "amount": 21,
+    "currency": null,
+    "unit": "percent"
+   },
+   "claimant": "Tyler",
+   "first_hand": true,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "This location does about 21% revenue in commercial",
+    "speaker": "Tyler",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12479,
+    "approx_timestamp_s": 650
+   }
+  },
+  {
+   "claim": "Commercial pricing $1-$3 per lb",
+   "metric": "price",
+   "value": {
+    "amount": 1,
+    "currency": "USD",
+    "unit": "per lb",
+    "amount_max": 3
+   },
+   "claimant": "Tyler",
+   "first_hand": true,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "anywhere from dollar a pound up to 250, $3 a pound depending on the account",
+    "speaker": "Tyler",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13528,
+    "approx_timestamp_s": 704
+   }
+  },
+  {
+   "claim": "Opened 4 stores; 11 competitors went out of business",
+   "metric": "customers",
+   "value": {
+    "amount": 11,
+    "currency": null,
+    "unit": "competitors closed"
+   },
+   "claimant": "Tyler",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "We've put out 11 mats with our four over the years",
+    "speaker": "Tyler",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15559,
+    "approx_timestamp_s": 810
+   }
+  },
+  {
+   "claim": "Fairfield lease $14/sq ft, 4,400 sq ft, ~$4,600/month",
+   "metric": "cost",
+   "value": {
+    "amount": 4600,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Tyler",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "our lease there it's uh $14 a square foot. 4,400 ft²",
+    "speaker": "Tyler",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20399,
+    "approx_timestamp_s": 1062
+   }
+  },
+  {
+   "claim": "Startup $1.2M-$2.2M excluding real estate",
+   "metric": "cost",
+   "value": {
+    "amount": 1200000,
+    "currency": "USD",
+    "unit": "one-off",
+    "amount_max": 2200000
+   },
+   "claimant": "Tyler",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "startup costs anywhere between 1.2 million all in to 2.2 million all in",
+    "speaker": "Tyler",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21068,
+    "approx_timestamp_s": 1097
+   }
+  },
+  {
+   "claim": "Equipment up to $1.1M",
+   "metric": "cost",
+   "value": {
+    "amount": 1100000,
+    "currency": "USD",
+    "unit": "one-off"
+   },
+   "claimant": "Tyler",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "you're going to spend upwards of possibly depending on the size, you know, $1.1 million in equipment",
+    "speaker": "Tyler",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21578,
+    "approx_timestamp_s": 1124
+   }
+  },
+  {
+   "claim": "Sell at 5-6x; Fairfield worth ~$2M",
+   "metric": "valuation",
+   "value": {
+    "amount": 2000000,
+    "currency": "USD",
+    "unit": "one-off"
+   },
+   "claimant": "Tyler",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Fairfield could go for around 2 million",
+    "speaker": "Tyler",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23263,
+    "approx_timestamp_s": 1212
+   }
+  },
+  {
+   "claim": "Fairfield cost $1.1M in 2019 and nets high $300ks",
+   "metric": "profit",
+   "value": {
+    "amount": null,
+    "currency": "USD",
+    "unit": "per year",
+    "label": "high $300ks"
+   },
+   "claimant": "Tyler",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Fairfield does high threes net",
+    "speaker": "Tyler",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23387,
+    "approx_timestamp_s": 1218
+   },
+   "period": "annual"
+  },
+  {
+   "claim": "First quarter after opening: $100k self-serve revenue; Q4 $155k",
+   "metric": "revenue",
+   "value": {
+    "amount": 100000,
+    "currency": "USD",
+    "unit": "per quarter"
+   },
+   "claimant": "Tyler",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "that first quarter we were opened after that, we uh were at $100,000 in self-s serve revenue",
+    "speaker": "Tyler",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 26010,
+    "approx_timestamp_s": 1355
+   },
+   "period": "quarterly"
+  },
+  {
+   "claim": "Hamilton cost ~$2M to build; mid-$700ks revenue year one",
+   "metric": "revenue",
+   "value": {
+    "amount": 750000,
+    "currency": "USD",
+    "unit": "first year"
+   },
+   "claimant": "Tyler",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I think we did mid700s first year",
+    "speaker": "Tyler",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 27794,
+    "approx_timestamp_s": 1448
+   },
+   "period": "first year"
+  },
+  {
+   "claim": "Labour ~20% of revenue; $15-$22/hour",
+   "metric": "cost",
+   "value": {
+    "amount": 15,
+    "currency": "USD",
+    "unit": "per hour",
+    "amount_max": 22
+   },
+   "claimant": "Tyler",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "they're around 20% of our revenue overall. We started about 15 bucks an hour",
+    "speaker": "Tyler",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 35002,
+    "approx_timestamp_s": 1823
+   }
+  },
+  {
+   "claim": "VIP event cost a few thousand dollars",
+   "metric": "cost",
+   "value": {
+    "amount": null,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": "a few thousand"
+   },
+   "claimant": "Tyler",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "A couple thousand bucks. Yeah, a few thousand bucks",
+    "speaker": "Tyler",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 30144,
+    "approx_timestamp_s": 1570
+   }
+  },
+  {
+   "claim": "36 franchise units sold in 8 months",
+   "metric": "customers",
+   "value": {
+    "amount": 36,
+    "currency": null,
+    "unit": "units"
+   },
+   "claimant": "Tyler",
+   "first_hand": true,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "We've sold 36 units",
+    "speaker": "Tyler",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 36836,
+    "approx_timestamp_s": 1919
+   }
+  },
+  {
+   "claim": "30,000-40,000 laundromats in the US",
+   "metric": "other",
+   "value": {
+    "amount": 30000,
+    "currency": null,
+    "unit": "laundromats",
+    "amount_max": 40000
+   },
+   "claimant": "Tyler",
+   "first_hand": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "the number that everybody likes to say is 30,000",
+    "speaker": "Tyler",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 37322,
+    "approx_timestamp_s": 1944
+   }
+  },
+  {
+   "claim": "50 five-star reviews in one week about new equipment",
+   "metric": "other",
+   "value": {
+    "amount": 50,
+    "currency": null,
+    "unit": "reviews"
+   },
+   "claimant": "Tyler",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "this week alone, we have 50 fivestar reviews just about this equipment",
+    "speaker": "Tyler",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3382,
+    "approx_timestamp_s": 176
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Laundromat grand opening playbook",
+   "steps": [
+    "3 months out: coming-soon EDDM mailers, join chambers, publications",
+    "1 month out: VIP red-carpet event for local business owners (few thousand dollars)",
+    "Announce free laundry weekends at 1 month and 2 weeks",
+    "Run two consecutive free weekends, all staff present, ask every customer for a Google review"
+   ],
+   "idea_local_id": "I1",
+   "area": "acquisition",
+   "quote": {
+    "text": "how many fivestar reviews can we get as quickly as possible?",
+    "speaker": "Tyler",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 30733,
+    "approx_timestamp_s": 1601
+   }
+  },
+  {
+   "name": "Site selection",
+   "steps": [
+    "Look for areas with 3-5 existing laundromats (proven market)",
+    "Hang out at competitors, take water meter readings to estimate revenue, note pricing",
+    "Match demographics; target 1990s apartments with poor shared laundry, not new builds",
+    "Build next to or across from the best competitor"
+   ],
+   "idea_local_id": "I1",
+   "area": "operations",
+   "quote": {
+    "text": "We don't want new. We want the apartment. We want the 1990s apartment",
+    "speaker": "Tyler",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 29193,
+    "approx_timestamp_s": 1521
+   }
+  },
+  {
+   "name": "Price at parity with better experience",
+   "steps": [
+    "Survey competitor prices before entering",
+    "Use efficient equipment to keep utilities <10% so you can match prices",
+    "Offer a much better experience at the same price"
+   ],
+   "idea_local_id": "I1",
+   "area": "pricing"
+  },
+  {
+   "name": "Use machine data to pick equipment",
+   "steps": [
+    "Track every cycle per machine in the cloud",
+    "Compare turns per day by machine size",
+    "Add more large machines where the data shows demand"
+   ],
+   "idea_local_id": "I1",
+   "area": "operations"
+  },
+  {
+   "name": "Accept every payment method",
+   "steps": [
+    "Quarters, loyalty card, debit/credit, Apple Pay, tap",
+    "Reward loyalty card with free dry credits"
+   ],
+   "idea_local_id": "I1",
+   "area": "operations"
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Cloud-connected washers",
+   "purpose": "Remote cycle programming and data"
+  },
+  {
+   "name": "Direct soap injection system",
+   "purpose": "Auto dosing with 8 options"
+  },
+  {
+   "name": "Ozone system",
+   "purpose": "Sanitisation and odour removal"
+  },
+  {
+   "name": "Every Door Direct Mail",
+   "purpose": "Grand opening flyers"
+  },
+  {
+   "name": "Google reviews",
+   "purpose": "Social proof"
+  },
+  {
+   "name": "Ford Transit 250",
+   "purpose": "Commercial laundry hauling"
+  },
+  {
+   "name": "Beehiiv",
+   "purpose": "Sponsor read (newsletter platform)"
+  },
+  {
+   "name": "TKOwners.com",
+   "purpose": "Host's community"
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Buying an old laundromat: books are unverifiable, people overpay, equipment breaks constantly, and you buy yourself a low-paying job.",
+   "quote": {
+    "text": "a lot of people who fall into that trap find themselves that they just bought themselves a job, like a lowpaying job",
+    "speaker": "Tyler",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24604,
+    "approx_timestamp_s": 1282
+   }
+  },
+  {
+   "warning": "Laundromats are not passive; even with a GM and AGM it's work.",
+   "quote": {
+    "text": "nothing is passive. I mean, we have a GM and an AGM and still not passive",
+    "speaker": "Tyler",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25189,
+    "approx_timestamp_s": 1312
+   }
+  },
+  {
+   "warning": "Car washes go fully down when a part fails; laundromats keep earning with machines down.",
+   "quote": {
+    "text": "With my laundry mats over here, I can have 1 2 3 five machines down, I'm still making money",
+    "speaker": "Tyler",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 32586,
+    "approx_timestamp_s": 1698
+   }
+  },
+  {
+   "warning": "Short leases risk the landlord taking over your build-out; get long leases with options.",
+   "quote": {
+    "text": "You don't want the landlord to be able to just kick you out",
+    "speaker": "Tyler",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20648,
+    "approx_timestamp_s": 1075
+   }
+  },
+  {
+   "warning": "Influencer hype around laundromats glosses over these problems.",
+   "quote": null
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Build new rather than buy and refurbish; you can outcompete old stores from across the street.",
+   "theme": "exit_acquisition",
+   "quote": {
+    "text": "why would we buy this, put all this money to fix it up when I could just go across the street",
+    "speaker": "Tyler",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22532,
+    "approx_timestamp_s": 1174
+   }
+  },
+  {
+   "lesson": "Remove all friction from receiving money; serve what the customer wants, not what is easy for the owner.",
+   "theme": "operations",
+   "quote": {
+    "text": "You got to remove all the friction of receiving money",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9591,
+    "approx_timestamp_s": 499
+   }
+  },
+  {
+   "lesson": "Mid-size towns with low competition quality can be dominated with a few great locations.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "The the competition, the bar is so low",
+    "speaker": "Tyler",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6010,
+    "approx_timestamp_s": 313
+   }
+  },
+  {
+   "lesson": "Get people in the door free; habit-driven customers don't go back once they've switched.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "Literally, if we just get people in the door, they're not going back",
+    "speaker": "Tyler",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14994,
+    "approx_timestamp_s": 781
+   }
+  },
+  {
+   "lesson": "A/B test business model choices across locations (card-only vs coin-only).",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "He literally had an AB test",
+    "speaker": "Tyler",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 33799,
+    "approx_timestamp_s": 1761
+   }
+  },
+  {
+   "lesson": "Efficient equipment lowers variable cost, enabling price parity with a better product.",
+   "theme": "finance_unit_economics",
+   "quote": null
+  },
+  {
+   "lesson": "Self-service matures in years 2-3 as the 1-3 mile radius saturates; growth then comes from commercial and price rises.",
+   "theme": "scaling",
+   "quote": null
+  },
+  {
+   "lesson": "Bonus depreciation on equipment makes laundromats attractive for offsetting other income (US).",
+   "theme": "finance_unit_economics",
+   "quote": {
+    "text": "bonus depreciation's back. You know, you can you can take all that year one if you want",
+    "speaker": "Tyler",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21704,
+    "approx_timestamp_s": 1130
+   }
+  },
+  {
+   "lesson": "Ask for reviews when customers are getting something free.",
+   "theme": "customer_acquisition",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "A",
+  "rationale": "First-hand operator with detailed, consistent numbers on revenue, costs and process.",
+  "promotional_conflict": "Guest is selling Laundry Spot franchises; sponsor read for Beehiiv; host promotes TKOwners."
+ },
+ "extraction": {
+  "model": "grokbot",
+  "extracted_at": "2026-10-22T08:47:09",
+  "cost_usd": null,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 46,
+   "verified": 46,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

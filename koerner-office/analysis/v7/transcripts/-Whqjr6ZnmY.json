@@ -1,0 +1,1305 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "-Whqjr6ZnmY",
+  "title": "Missed Every Gold Rush? This One Started Just 2 Days Ago",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=-Whqjr6ZnmY",
+  "upload_date": "2025-04-25",
+  "duration_s": 1796,
+  "view_count": 59162,
+  "transcript_provider": "ok",
+  "transcript_chars": 31632,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner interviews Jacob Posel, an Australian AI builder in San Francisco, on the day OpenAI released its image generation API. They brainstorm consumer wrapper apps (Ghibli-style portraits, future-baby images, weight-loss visualiser, ageing), vertical uses (virtual staging, Airbnb photos, tree-trimming lead images) and, most deeply, AI ad creative: white-labelling high-volume ad variants for agencies or selling a $200/month tool to agencies via permissionless remade ads. Jacob shares reference-image prompting tips and says reliable viable-ad systems are still unsolved. Key takeaway: be ready to ship the moment a new capability drops, and target outputs that make customers money.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": null
+  },
+  {
+   "name": "Jacob Posel",
+   "role": "guest",
+   "description": "AI builder from Australia working on internal AI tools for a San Francisco software company"
+  }
+ ],
+ "format": "operator_interview",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Focused consumer image-filter apps (Ghibli-me, anime-me)",
+   "one_liner": "Wrap a viral ChatGPT image capability (e.g. Ghibli-style portraits) in a single-purpose app for non-technical people.",
+   "category": "saas_software",
+   "business_model": "Subscription plus credit packs for extra images (suggested)",
+   "customer": "Non-technical consumers who don't know what ChatGPT can do",
+   "problem": "People outside tech don't know how to get these images from ChatGPT",
+   "offer": "Single-purpose app that turns your photo into a style (Ghibli, anime)",
+   "pricing": {
+    "model": "subscription + credits (suggested, no prices)",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "organic_social_content",
+     "details": "Hope for virality on TikTok (suggested)"
+    }
+   ],
+   "delivery": "Thin app wrapping the OpenAI image generation API; user uploads photos and gets edited images.",
+   "unit_economics_claims": [],
+   "tools": [
+    "OpenAI image generation API"
+   ],
+   "startup_cost": "Low (API costs; domain $10 for rightsizeme.com)",
+   "time_to_first_revenue": "Days (API released the day of recording)",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Viral TikTok content and app store/SEO are inbound; content generation can be automated."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Self-serve sign-up and upload."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "Image API generates output unattended."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Subscription/credits via Stripe or app store."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "FAQ/refund handling by agent."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Consumer apps work in the UK; uploads of personal photos require UK GDPR compliance."
+   },
+   "risks": [
+    "High churn and fad risk",
+    "Commoditised by ChatGPT itself",
+    "IP issues with styles like Studio Ghibli"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "take whatever whatever you know everyone is loving that Chad GPT does and just turn that into a super focused app like Giblly Me",
+     "speaker": "Jacob Posel",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 3144,
+     "approx_timestamp_s": 181
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "'What would our baby look like' app",
+   "one_liner": "Combine photos of two partners to generate an image of their future child.",
+   "category": "saas_software",
+   "business_model": "Subscription plus credit packs for extra images (suggested)",
+   "customer": "Couples",
+   "problem": "Curiosity about what their kids would look like",
+   "offer": "Upload two photos, receive generated baby image",
+   "pricing": {
+    "model": "subscription + credits (suggested, no prices)",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "organic_social_content",
+     "details": "Hope for virality on TikTok (suggested)"
+    }
+   ],
+   "delivery": "Thin app wrapping the OpenAI image generation API; user uploads photos and gets edited images.",
+   "unit_economics_claims": [],
+   "tools": [
+    "OpenAI image generation API"
+   ],
+   "startup_cost": "Low (API costs; domain $10 for rightsizeme.com)",
+   "time_to_first_revenue": "Days (API released the day of recording)",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Viral TikTok content and app store/SEO are inbound; content generation can be automated."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Self-serve sign-up and upload."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "Image API generates output unattended."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Subscription/credits via Stripe or app store."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "FAQ/refund handling by agent."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Consumer apps work in the UK; uploads of personal photos require UK GDPR compliance."
+   },
+   "risks": [
+    "Novelty/fad",
+    "Sensitive personal data"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "you can combine two people and be like what would my kid look like?",
+     "speaker": "Jacob Posel",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 3866,
+     "approx_timestamp_s": 223
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Weight-loss visualiser (rightsizeme.com)",
+   "one_liner": "Show people what they would look like if they lost 30 pounds; Chris bought rightsizeme.com for $10 during the interview.",
+   "category": "saas_software",
+   "business_model": "Subscription plus credit packs for extra images (suggested)",
+   "customer": "Overweight adults (two-thirds of Americans per Chris)",
+   "problem": "Motivation to lose weight",
+   "offer": "Upload photo, see slimmer version",
+   "pricing": {
+    "model": "subscription + credits (suggested, no prices)",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "organic_social_content",
+     "details": "Hope for virality on TikTok (suggested)"
+    }
+   ],
+   "delivery": "Thin app wrapping the OpenAI image generation API; user uploads photos and gets edited images.",
+   "unit_economics_claims": [],
+   "tools": [
+    "OpenAI image generation API"
+   ],
+   "startup_cost": "Low (API costs; domain $10 for rightsizeme.com)",
+   "time_to_first_revenue": "Days (API released the day of recording)",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Viral TikTok content and app store/SEO are inbound; content generation can be automated."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Self-serve sign-up and upload."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "Image API generates output unattended."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Subscription/credits via Stripe or app store."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "FAQ/refund handling by agent."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Consumer apps work in the UK; uploads of personal photos require UK GDPR compliance."
+   },
+   "risks": [
+    "Body-image sensitivity",
+    "Low retention"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "What would I look like if I lost 30 pounds, right? I mean twothirds of Americans are overweight. So there's your market",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 4873,
+     "approx_timestamp_s": 282
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "Ageing / hairstyle / beard try-on app",
+   "one_liner": "Show people what they will look like older or with different hairstyles or a beard.",
+   "category": "saas_software",
+   "business_model": "Subscription plus credit packs for extra images (suggested)",
+   "customer": "Consumers",
+   "problem": "Curiosity and styling decisions",
+   "offer": "Photo transformations",
+   "pricing": {
+    "model": "subscription + credits (suggested, no prices)",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "organic_social_content",
+     "details": "Hope for virality on TikTok (suggested)"
+    }
+   ],
+   "delivery": "Thin app wrapping the OpenAI image generation API; user uploads photos and gets edited images.",
+   "unit_economics_claims": [],
+   "tools": [
+    "OpenAI image generation API"
+   ],
+   "startup_cost": "Low (API costs; domain $10 for rightsizeme.com)",
+   "time_to_first_revenue": "Days (API released the day of recording)",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Viral TikTok content and app store/SEO are inbound; content generation can be automated."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Self-serve sign-up and upload."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "Image API generates output unattended."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Subscription/credits via Stripe or app store."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "FAQ/refund handling by agent."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Consumer apps work in the UK; uploads of personal photos require UK GDPR compliance."
+   },
+   "risks": [
+    "Commodity feature"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "what would I look like with different hairstyles or with a beard?",
+     "speaker": "Jacob Posel",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 4808,
+     "approx_timestamp_s": 278
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "AI virtual staging / interior design for real estate",
+   "one_liner": "Fill empty room photos with furniture using image generation for real estate and interior design.",
+   "category": "saas_software",
+   "business_model": "not stated (suggested tool)",
+   "customer": "Real estate agents, home sellers",
+   "problem": "Empty rooms photograph poorly",
+   "offer": "Generated furnished-room images",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "Image API edits listing photos.",
+   "unit_economics_claims": [],
+   "tools": [
+    "OpenAI image generation API"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Inbound SEO/ads to agents."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Self-serve upload."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "API-generated."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Stripe."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "Agent support."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Works in UK; must not mislead buyers under consumer protection rules (disclose virtual staging)."
+   },
+   "risks": [
+    "Existing competitors",
+    "Misleading listing concerns"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "take an empty room and like fill it up with furniture for me and like help with interior design",
+     "speaker": "Jacob Posel",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 5490,
+     "approx_timestamp_s": 317
+    }
+   ]
+  },
+  {
+   "local_id": "I6",
+   "name": "Airbnb photo lighting/vibe enhancement",
+   "one_liner": "Improve the lighting or vibe of Airbnb listing photos with AI.",
+   "category": "saas_software",
+   "business_model": "not stated",
+   "customer": "Short-let hosts",
+   "problem": "Listing photos look dull",
+   "offer": "Enhanced listing images",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "Jacob says people hated it when he posted it; needs an ethical approach."
+   },
+   "acquisition_channels": [],
+   "delivery": "Image API edits.",
+   "unit_economics_claims": [],
+   "tools": [
+    "OpenAI image generation API"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Inbound."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Self-serve."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "API."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Stripe."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "Agent."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Works in UK; misleading photos risk platform and consumer law issues."
+   },
+   "risks": [
+    "Backlash: seen as deceptive",
+    "Platform policy"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "improving the lighting or the vibe of like an air like an Airbnb. I posted about that one and people hated it",
+     "speaker": "Jacob Posel",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 5606,
+     "approx_timestamp_s": 324
+    }
+   ]
+  },
+  {
+   "local_id": "I7",
+   "name": "Personalised 'tree fell on your house' images to sell tree trimming",
+   "one_liner": "Generate images of a prospect's own home with a tree fallen on it to prompt them to buy tree trimming.",
+   "category": "local_service",
+   "business_model": "Per-job tree trimming (lead-gen tactic)",
+   "customer": "Homeowners with trees near their homes",
+   "problem": "Homeowners underestimate tree risk",
+   "offer": "Tree trimming service promoted with personalised images",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "direct_mail_postcards",
+     "details": "Send personalised images of people's homes with a tree on them (delivery channel not specified; mail implied)",
+     "quote": {
+      "text": "I wanted to send personalized images of people's homes with a tree on it to incentivize them to pay for my tree trimming services",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 7043,
+      "approx_timestamp_s": 407
+     }
+    }
+   ],
+   "delivery": "Tree trimming crew (physical).",
+   "unit_economics_claims": [],
+   "tools": [
+    "OpenAI image generation API"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Image generation automatable; unsolicited electronic marketing to homeowners not allowed in UK, postal mail is."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "Quotes in person."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical tree work."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Invoicing software."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Direct mail allowed in UK; electronic cold outreach to consumers forbidden under PECR; fear-based imagery may be seen as misleading."
+   },
+   "risks": [
+    "Could be seen as manipulative",
+    "Physical delivery"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "what would this home look like if a if a large tree fell on it? And I owned a tree trimming business",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 6939,
+     "approx_timestamp_s": 401
+    }
+   ]
+  },
+  {
+   "local_id": "I8",
+   "name": "White-label AI ad creative service for ad agencies",
+   "one_liner": "Partner with existing performance ad agencies and produce high volumes of AI-generated ad variants that they resell to their clients.",
+   "category": "agency",
+   "business_model": "Per accepted ad, revenue split with agency, or base retainer plus per-ad fee",
+   "customer": "Performance marketing/ad agencies and their brand clients",
+   "problem": "Ad algorithms reward creative volume and variety; ads fatigue; creative is the bottleneck",
+   "offer": "Ad variants made from reference winning ads plus product images, delivered as finished ads in Google Drive folders in the client's format",
+   "pricing": {
+    "model": "per ad / revenue split / retainer + per accepted ad",
+    "price_points": [],
+    "notes": "No figures; Jacob suggests pricing per ad with markup or retainer plus ads accepted."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "cold_sms_dm",
+     "details": "DM agencies on Twitter offering a white-labelled service",
+     "quote": {
+      "text": "if you DM'd any of these agencies on Twitter, they would probably give you a shot",
+      "speaker": "Jacob Posel",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 21975,
+      "approx_timestamp_s": 1271
+     }
+    },
+    {
+     "channel": "partnerships",
+     "details": "Piggyback on agencies' existing trusted client portfolios, including dormant clients",
+     "quote": {
+      "text": "You'd piggyback off someone that already has a whole portfolio of not just customers but trusted customers",
+      "speaker": "Jacob Posel",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 22606,
+      "approx_timestamp_s": 1308
+     }
+    }
+   ],
+   "delivery": "Operator uses Sora/the image API with reference ads to create variants, curates the best, and delivers completed ads to the agency.",
+   "unit_economics_claims": [
+    "A $100 ad can make a brand $20,000 (Jacob's example)",
+    "Images: about 60% of outputs good vs 90% text, 5% video"
+   ],
+   "tools": [
+    "Sora",
+    "OpenAI image generation API",
+    "Google Drive",
+    "Twitter/X"
+   ],
+   "startup_cost": "Low",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "B2B outreach to agencies (limited companies) by email/DM is allowed in the UK if targeted at businesses; agents can draft."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Briefing via format questions."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Generation automated but curating viable ads still needs human taste; best practices unsolved."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Invoicing per ad/retainer."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Revisions with oversight."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Agencies and Meta/Google ads work the same in the UK."
+   },
+   "risks": [
+    "Best practices for viable ads are unsolved; high churn if output is poor",
+    "Agencies may build in-house",
+    "Margin squeezed by tools"
+   ],
+   "is_primary": false,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "ads are the perfect output for image generation because they make people money",
+     "speaker": "Jacob Posel",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 157,
+     "approx_timestamp_s": 9
+    },
+    {
+     "text": "I would probably partner with existing ad agencies and I would say I'm going to help you to offer a service to your customers",
+     "speaker": "Jacob Posel",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 21620,
+     "approx_timestamp_s": 1251
+    }
+   ]
+  },
+  {
+   "local_id": "I9",
+   "name": "AI ad-generation SaaS wrapper for ad agencies with permissionless outreach",
+   "one_liner": "Scrape agencies' client portfolios, remake their clients' ads, and send them proactively with a link to a $200/month unlimited-generation tool built on Replit.",
+   "category": "saas_software",
+   "business_model": "Subscription $200/month",
+   "customer": "Ad agencies not yet using AI creative",
+   "problem": "Agencies need cheap high-volume creative",
+   "offer": "Agency-branded image-generation tool (Sora-like) plus sample remade ads",
+   "pricing": {
+    "model": "subscription",
+    "price_points": [
+     {
+      "amount": 200,
+      "currency": "USD",
+      "unit": "per month"
+     }
+    ],
+    "notes": "Chris prefers flat monthly over per-ad because brands want predictable costs; must watch API credits. Jacob argues to deliver done-for-you first because tools are hard to adopt."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "cold_email",
+     "details": "Scrape agencies listing clients; remake six ads for one of their clients and send proactively with a link to the tool",
+     "quote": {
+      "text": "I'm going to go remake six Athletic Greens ads and I'm going to send them to them proactively with a link to my rapper",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 25051,
+      "approx_timestamp_s": 1449
+     }
+    }
+   ],
+   "delivery": "Self-serve web app built on Replit wrapping the image API.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Replit",
+    "OpenAI image generation API"
+   ],
+   "startup_cost": "Low",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Scraping and personalised B2B email to agencies (limited companies) is legal in UK and automatable."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Self-serve."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "Software."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Stripe subscription."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "Agent support."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works in UK; B2B cold email to companies allowed under PECR."
+   },
+   "risks": [
+    "Tool adoption friction (Jacob)",
+    "API cost on unlimited plans",
+    "Using client brand assets without permission"
+   ],
+   "is_primary": false,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "And then you charge 200 bucks a month for it. And it's just a tool. It's just a tool that they use for unlimited image generation",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 25366,
+     "approx_timestamp_s": 1468
+    },
+    {
+     "text": "it's really difficult to get people to use tools, like to actually use it themselves, even if there's really obvious value there",
+     "speaker": "Jacob Posel",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 26020,
+     "approx_timestamp_s": 1506
+    }
+   ]
+  },
+  {
+   "local_id": "I10",
+   "name": "Themed wrapper from top Sora Explore prompts (e.g. jacked Harry Potter characters)",
+   "one_liner": "Browse Sora's most-liked prompts and turn a popular one into a single-purpose app.",
+   "category": "saas_software",
+   "business_model": "Subscription plus credit packs for extra images (suggested)",
+   "customer": "Fans of popular franchises",
+   "problem": "Fun themed images",
+   "offer": "Themed image generation app",
+   "pricing": {
+    "model": "subscription + credits (suggested, no prices)",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "organic_social_content",
+     "details": "Hope for virality on TikTok (suggested)"
+    }
+   ],
+   "delivery": "Thin app wrapping the OpenAI image generation API; user uploads photos and gets edited images.",
+   "unit_economics_claims": [],
+   "tools": [
+    "OpenAI image generation API"
+   ],
+   "startup_cost": "Low (API costs; domain $10 for rightsizeme.com)",
+   "time_to_first_revenue": "Days (API released the day of recording)",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Viral TikTok content and app store/SEO are inbound; content generation can be automated."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Self-serve sign-up and upload."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "Image API generates output unattended."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Subscription/credits via Stripe or app store."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "FAQ/refund handling by agent."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Consumer apps work in the UK; uploads of personal photos require UK GDPR compliance."
+   },
+   "risks": [
+    "IP/trademark infringement"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "you could build a rapper out of that out of that one prompt, right? Because there's a billion people that love Harry Potter",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 18504,
+     "approx_timestamp_s": 1071
+    }
+   ]
+  },
+  {
+   "local_id": "I11",
+   "name": "AI stock imagery",
+   "one_liner": "Create stock images on demand with image generation.",
+   "category": "digital_products",
+   "business_model": "not stated",
+   "customer": "Content creators and marketers",
+   "problem": "Need specific stock images",
+   "offer": "Generated stock images",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "Image API.",
+   "unit_economics_claims": [],
+   "tools": [
+    "OpenAI image generation API"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Marketplace/SEO."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Self-serve."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "API."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Automated."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "Agent."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works in UK."
+   },
+   "risks": [
+    "Commoditised"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "I think there's going to be a lot of winning in like stock imagery here as well",
+     "speaker": "Jacob Posel",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 20500,
+     "approx_timestamp_s": 1186
+    }
+   ]
+  },
+  {
+   "local_id": "I12",
+   "name": "Micro-personalised ad creative (e.g. per event, per persona)",
+   "one_liner": "Use cheap image generation to make ads for many narrow personas or every single event.",
+   "category": "agency",
+   "business_model": "not stated",
+   "customer": "Brands, events companies",
+   "problem": "Creative bottleneck limits targeting to a few personas",
+   "offer": "Persona- and event-specific ad creative at scale",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "Image generation pipelines per persona/event.",
+   "unit_economics_claims": [],
+   "tools": [
+    "OpenAI image generation API"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "B2B outreach."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Briefing."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Pipelines generate per persona."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Invoicing."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Oversight."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works in UK."
+   },
+   "risks": [
+    "Ad slop; quality control"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "I spoke to an events company that runs events and it was really difficult for them to market every single event",
+     "speaker": "Jacob Posel",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 28408,
+     "approx_timestamp_s": 1644
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "A $100 ad can make an advertiser $20,000",
+   "metric": "other",
+   "value": {
+    "amount": 20000,
+    "currency": "USD",
+    "unit": "per ad"
+   },
+   "claimant": "Jacob Posel",
+   "first_hand": false,
+   "idea_local_id": "I8",
+   "quote": {
+    "text": "if a single ad cost them a h 100red bucks, they could make like $20,000 from that",
+    "speaker": "Jacob Posel",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10312,
+    "approx_timestamp_s": 596
+   },
+   "hypothetical": true
+  },
+  {
+   "claim": "Domain rightsizeme.com cost $10",
+   "metric": "cost",
+   "value": {
+    "amount": 10,
+    "currency": "USD",
+    "unit": "one-off"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "Rightizeme.com. How much was it? Done. 10 bucks",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6455,
+    "approx_timestamp_s": 373
+   }
+  },
+  {
+   "claim": "Charge agencies $200/month for unlimited generation",
+   "metric": "price",
+   "value": {
+    "amount": 200,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I9",
+   "quote": {
+    "text": "And then you charge 200 bucks a month for it",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25366,
+    "approx_timestamp_s": 1468
+   },
+   "hypothetical": true
+  },
+  {
+   "claim": "Roughly 90% of text outputs good, 60% of images, 5% of video",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 60,
+    "currency": null,
+    "unit": "percent of image outputs usable"
+   },
+   "claimant": "Jacob Posel",
+   "first_hand": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "if you use text, like I would say 90% of outputs are going to be good. If you use images, 60% of outputs are going to be good",
+    "speaker": "Jacob Posel",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16904,
+    "approx_timestamp_s": 978
+   }
+  },
+  {
+   "claim": "Two-thirds of Americans are overweight (market size)",
+   "metric": "customers",
+   "value": {
+    "amount": null,
+    "currency": null,
+    "unit": "two-thirds of Americans"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "I mean twothirds of Americans are overweight. So there's your market",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4922,
+    "approx_timestamp_s": 284
+   }
+  },
+  {
+   "claim": "Sora generates four images at once vs one in ChatGPT",
+   "metric": "other",
+   "value": {
+    "amount": 4,
+    "currency": null,
+    "unit": "images per run"
+   },
+   "claimant": "Jacob Posel",
+   "first_hand": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "Sora is limited to creating four images at once. With the API you can create more than that",
+    "speaker": "Jacob Posel",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14133,
+    "approx_timestamp_s": 818
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Reference-ad variant generation",
+   "steps": [
+    "Screenshot a competitor's or your own winning ad as the reference",
+    "Add your product image",
+    "Tell the model clearly which image is the reference ad to reproduce and which is the product",
+    "Generate multiple variants (4 in Sora, 50 via API) and pick the best to refresh fatigued ads"
+   ],
+   "idea_local_id": "I8",
+   "area": "operations",
+   "quote": {
+    "text": "the reference image can be one the reference ad which is just a screenshot of the ad that you like and two can be your product",
+    "speaker": "Jacob Posel",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12271,
+    "approx_timestamp_s": 710
+   }
+  },
+  {
+   "name": "Piggyback on agencies with a white-label offer",
+   "steps": [
+    "List agencies (DM on Twitter)",
+    "Offer to deliver AI ads under their brand to existing and dormant clients",
+    "Price per ad with markup, revenue split, or retainer plus per-ad-accepted",
+    "Deliver finished ads in Google Drive in the client's format"
+   ],
+   "idea_local_id": "I8",
+   "area": "acquisition",
+   "quote": {
+    "text": "I would literally send them Google Drive folders of just completed ads",
+    "speaker": "Jacob Posel",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 26309,
+    "approx_timestamp_s": 1522
+   }
+  },
+  {
+   "name": "Permissionless spec work for agencies",
+   "steps": [
+    "Scrape agency sites listing clients",
+    "Pick agencies not yet using AI",
+    "Remake several of a client's ads",
+    "Send them proactively with a link to your tool"
+   ],
+   "idea_local_id": "I9",
+   "area": "acquisition",
+   "quote": {
+    "text": "a lot of these ad agencies list out their customers, right? They just make it too easy for growth hackers like us",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24475,
+    "approx_timestamp_s": 1416
+   }
+  },
+  {
+   "name": "Mine Sora Explore for app ideas",
+   "steps": [
+    "Scroll Sora's explore page sorted by likes",
+    "Look at the exact prompts and former popular filters",
+    "Turn a top prompt into a focused wrapper"
+   ],
+   "idea_local_id": "I10",
+   "area": "product",
+   "quote": {
+    "text": "I highly recommend anyone listening to this just scroll through Sora and just take a look at their explore page",
+    "speaker": "Jacob Posel",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17961,
+    "approx_timestamp_s": 1039
+   }
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "OpenAI image generation API",
+   "purpose": "Core image generation, released the day of recording"
+  },
+  {
+   "name": "ChatGPT",
+   "purpose": "Image generation (one image at a time)"
+  },
+  {
+   "name": "Sora",
+   "purpose": "Generates 4 images at once; explore library of prompts"
+  },
+  {
+   "name": "Replit",
+   "purpose": "Building wrapper apps"
+  },
+  {
+   "name": "TikTok",
+   "purpose": "Virality for consumer apps"
+  },
+  {
+   "name": "Google Drive",
+   "purpose": "Delivering ads to agencies"
+  },
+  {
+   "name": "Google Photos",
+   "purpose": "Comparison photos"
+  },
+  {
+   "name": "Twitter/X",
+   "purpose": "Finding and DMing agencies"
+  },
+  {
+   "name": "tkopod.com newsletter",
+   "purpose": "Host's free newsletter"
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Without solving how to reliably produce viable ads you'll get a spike then massive churn.",
+   "quote": {
+    "text": "Otherwise, you're going to have a massive spike and a massive churn",
+    "speaker": "Jacob Posel",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11325,
+    "approx_timestamp_s": 655
+   }
+  },
+  {
+   "warning": "AI video is still a gimmick; not worth investing time yet.",
+   "quote": {
+    "text": "Videos still haven't had that moment we spoke about before. They're still unusable",
+    "speaker": "Jacob Posel",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16380,
+    "approx_timestamp_s": 948
+   }
+  },
+  {
+   "warning": "Getting customers to use tools themselves is hard; do it for them first.",
+   "quote": null
+  },
+  {
+   "warning": "Some image-enhancement uses (Airbnb photos) draw backlash as deceptive.",
+   "quote": null
+  },
+  {
+   "warning": "Spreading thin across opportunities means not winning at anything.",
+   "quote": {
+    "text": "when I get to spread thin, then I kind of don't really win at anything",
+    "speaker": "Jacob Posel",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 30032,
+    "approx_timestamp_s": 1738
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "New API releases create short gold rushes; prepare in advance and launch the day they drop.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "if you had been preparing for it, you you could have created like a really really great outcome for yourself starting today",
+    "speaker": "Jacob Posel",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7570,
+    "approx_timestamp_s": 438
+   }
+  },
+  {
+   "lesson": "Most people outside tech don't know what AI can do; packaging one capability into a focused app is the opportunity.",
+   "theme": "niche_selection",
+   "quote": null
+  },
+  {
+   "lesson": "Image outputs tied to revenue (ads) are the best use because buyers see ROI.",
+   "theme": "niche_selection",
+   "quote": null
+  },
+  {
+   "lesson": "Ad algorithms now reward creative volume and variety, so demand for cheap high-volume creative is rising.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "the ad algorithms are starting to reward volume and choice more than high focus",
+    "speaker": "Jacob Posel",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9869,
+    "approx_timestamp_s": 571
+   }
+  },
+  {
+   "lesson": "Reference images improve output far more than describing the image.",
+   "theme": "automation_ai",
+   "quote": {
+    "text": "that will improve the quality of the output like orders of magnitude more than if you were to try and describe that image",
+    "speaker": "Jacob Posel",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12659,
+    "approx_timestamp_s": 732
+   }
+  },
+  {
+   "lesson": "Agencies are arbitrage businesses and will resell any service they can mark up.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "if you can deliver the service to them and they can sell it for more, then they're going to say yes",
+    "speaker": "Jacob Posel",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22265,
+    "approx_timestamp_s": 1288
+   }
+  },
+  {
+   "lesson": "Clients want predictable monthly costs; flat pricing or approval-based per-ad pricing avoids bill shock.",
+   "theme": "pricing",
+   "quote": {
+    "text": "usually brands want to know like what is this going to cost me per month?",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25626,
+    "approx_timestamp_s": 1483
+   }
+  },
+  {
+   "lesson": "People look for excuses not to launch.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "People look for a million reasons not to do something",
+    "speaker": "Jacob Posel",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7512,
+    "approx_timestamp_s": 434
+   }
+  },
+  {
+   "lesson": "Cheap creative enables hyper-targeted personas instead of a few broad ones.",
+   "theme": "customer_acquisition",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "C",
+  "rationale": "Speculative brainstorm on launch day; no revenue from any idea; Jacob has hands-on prompting experience but no business results stated.",
+  "promotional_conflict": "Host promotes his newsletter tkopod.com."
+ },
+ "extraction": {
+  "model": "grokbot",
+  "extracted_at": "2026-10-22T08:44:34",
+  "cost_usd": null,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 37,
+   "verified": 37,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

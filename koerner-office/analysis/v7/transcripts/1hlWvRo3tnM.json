@@ -1,0 +1,758 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "1hlWvRo3tnM",
+  "title": "How To Make Money by Building Simple Apps for Businesses (AI + No-Code)",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=1hlWvRo3tnM",
+  "upload_date": "2025-11-16",
+  "duration_s": 2538,
+  "view_count": 30322,
+  "transcript_provider": "ok",
+  "transcript_chars": 40435,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner and Brandon Doyle each vibe-code a lawn care instant-quote web app in the Emergent tool in under an hour, for about $10 of credits. Brandon builds a polished landing page with lawn size, services and frequency discounts; Chris builds a lead-capture form with lot math, scaled discounts, minimums and a Stripe link, meant to be sent via missed-call text-back. They argue that cheap custom tools beat paying for bloated SaaS like Jobber or Salesforce and can be a free lead magnet into home service businesses. Key takeaway: plain prompts are enough; instant pricing plus speed-to-lead is a competitive edge for trades.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": null
+  },
+  {
+   "name": "Brandon Doyle",
+   "role": "co-host",
+   "description": "Helps run TKOwners; vibe coder"
+  }
+ ],
+ "format": "tutorial_howto",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Instant-quote calculator web app for lawn care businesses",
+   "one_liner": "Vibe-code a simple web app that instantly quotes lawn mowing from lot size, house size and frequency, captures the lead to a Google Sheet, and can take payment.",
+   "category": "saas_software",
+   "business_model": "Free lead magnet or low-cost tool sold to home service businesses (pricing not set); upsell other services",
+   "customer": "Lawn care / landscaping business owners and their prospects",
+   "problem": "Owners are mowing all day, miss calls and lose hot leads asking for a price; quoting takes time",
+   "offer": "Dynamic form: acreage/house square footage or lawn size, services (mowing, hedging, weed eating), frequency discounts, minimum price, instant quote, lead capture to Google Sheet, Stripe pay-now link",
+   "pricing": {
+    "model": "not stated (tool could be free lead magnet)",
+    "price_points": [
+     {
+      "amount": 20,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "Emergent hosting plan"
+     },
+     {
+      "amount": 10,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "approx. credits to build both apps"
+     }
+    ],
+    "notes": "Example pricing logic: 1.6 cents per net sq ft, 20% discount per quarter acre, frequency discounts, $40 minimum per mow."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Used as lead magnet or foot in the door to sell other services to home service businesses (outreach channel not specified)",
+     "quote": {
+      "text": "This could be free. This could be your lead magnet. This could be your foot in the door to start charging them for other stuff",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 570,
+      "approx_timestamp_s": 37
+     }
+    },
+    {
+     "channel": "seo_organic_search",
+     "details": "Brandon's version as a public landing page to drive traffic to",
+     "quote": {
+      "text": "this would be a landing page or a homepage of a live website that I would try to drive traffic to to get customers with",
+      "speaker": "Brandon Doyle",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 24856,
+      "approx_timestamp_s": 1638
+     }
+    }
+   ],
+   "delivery": "Built in under an hour with Emergent from 6-9 short prompts (211-354 words); hosted on Emergent or exported.",
+   "unit_economics_claims": [
+    "~$10 of credits to build",
+    "Emergent $20/month",
+    "Jobber with SMS costs $400-$500/month"
+   ],
+   "tools": [
+    "Emergent",
+    "Google Sheets",
+    "Stripe",
+    "SendGrid"
+   ],
+   "startup_cost": "About $10-$20",
+   "time_to_first_revenue": "Under an hour to build",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Selling tools to trades: B2B email to limited companies allowed; many lawn firms are sole traders (PECR consent needed). Inbound SEO possible."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Templateable setup per business."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "Web app runs unattended."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Stripe."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "Agent support."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "UK lawn care and trades firms can use the same tool; quote logic in metres/pounds."
+   },
+   "risks": [
+    "Wrong pricing logic produces bad quotes ($0 or $2,450)",
+    "Low willingness to pay of small trades",
+    "Easy to copy"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "So, I just chose 50 bucks per thousand square feet of mowing",
+     "speaker": "Brandon Doyle",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 11503,
+     "approx_timestamp_s": 758
+    },
+    {
+     "text": "work in a minimum where it will never quote any job less than $40 per mo",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 19285,
+     "approx_timestamp_s": 1271
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Missed-call text-back with instant quote link",
+   "one_liner": "If a trade's phone or text goes unanswered for 5 minutes, auto-text a link to the quote calculator, then call back.",
+   "category": "ai_automation",
+   "business_model": "Not stated (part of a tool or service to trades)",
+   "customer": "Busy home service owners without a receptionist",
+   "problem": "Missed calls from hot leads wanting a price",
+   "offer": "Auto-text 'sorry, I'm mowing a lawn, fill this out in 30 seconds' with quote link",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "Automation via Lindy, Zapier or GoHighLevel plus the quote app.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Lindy",
+    "Zapier",
+    "GoHighLevel",
+    "Emergent"
+   ],
+   "startup_cost": "Low",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Selling to trades as above."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Setup per number."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "Fully automated texting to inbound callers (they initiated contact)."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Subscription billing."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "Agent support."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Texting someone who just called you is a reply, not cold marketing; works in UK."
+   },
+   "risks": [
+    "Competition from existing missed-call text-back tools"
+   ],
+   "is_primary": false,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "if the phone isn't answered at all and if the text isn't answered in 5 minutes then auto text a link to this",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 25291,
+     "approx_timestamp_s": 1667
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Custom lightweight software instead of Jobber/Salesforce for small businesses",
+   "one_liner": "Build exactly the 3 features a small business needs for pennies instead of paying for bloated SaaS.",
+   "category": "saas_software",
+   "business_model": "Custom builds / cheap subscription (not stated)",
+   "customer": "Small businesses paying for CRM/field service software",
+   "problem": "Paying $400-$500/month for Jobber's SMS tier or thousands for Salesforce while using few features",
+   "offer": "Bespoke vibe-coded tools",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "Vibe coding tools.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Emergent",
+    "Salesforce",
+    "HubSpot",
+    "Jobber"
+   ],
+   "startup_cost": "Low",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Requires sales conversations."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Requirements gathering."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "AI builds; human checks."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Billing."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Maintenance."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works in UK."
+   },
+   "risks": [
+    "Maintenance burden of custom apps"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "why would you pay Salesforce thousands of dollars a month or HubSpot or whoever when you can build exactly what your business needs",
+     "speaker": "Brandon Doyle",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 12226,
+     "approx_timestamp_s": 806
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "Instant quote calculators for roofers, painters and fencing",
+   "one_liner": "Apply the same instant pricing + lead gen widget to other trades.",
+   "category": "saas_software",
+   "business_model": "not stated",
+   "customer": "Roofers, painters, fencing companies",
+   "problem": "Prospects have to call and wait for quotes",
+   "offer": "Instant quote widget",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "Vibe-coded web app.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Emergent"
+   ],
+   "startup_cost": "Low",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "As I1."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Templated."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "Software."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Stripe."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "Agent."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works in UK."
+   },
+   "risks": [
+    "Trade pricing complexity"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "The same logic can be applied to so many industries whether you're a roofer or a painter or in fencing",
+     "speaker": "Brandon Doyle",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 20216,
+     "approx_timestamp_s": 1332
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Jobber account with SMS costs $400-$500/month",
+   "metric": "price",
+   "value": {
+    "amount": 400,
+    "currency": "USD",
+    "unit": "per month",
+    "amount_max": 500
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "if I want the Jobber account that has that has like the SMS functionality or a lot of these things, it's like four or 500 bucks a month",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21704,
+    "approx_timestamp_s": 1430
+   }
+  },
+  {
+   "claim": "Emergent plan $20/month",
+   "metric": "cost",
+   "value": {
+    "amount": 20,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Brandon Doyle",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "If we wanted to keep this app on emergent, it would cost 20 bucks a month",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 37868,
+    "approx_timestamp_s": 2496
+   }
+  },
+  {
+   "claim": "It cost about $10 to launch these apps",
+   "metric": "cost",
+   "value": {
+    "amount": 10,
+    "currency": "USD",
+    "unit": "one-off"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "it cost us about about 10 bucks to launch these apps",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 37994,
+    "approx_timestamp_s": 2504
+   }
+  },
+  {
+   "claim": "Chris used 6 prompts / 211 words; Brandon 9 prompts / 354 words",
+   "metric": "other",
+   "value": {
+    "amount": 211,
+    "currency": null,
+    "unit": "words"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "six prompts in total and 211 words is how many words I typed in",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 35658,
+    "approx_timestamp_s": 2350
+   }
+  },
+  {
+   "claim": "Built in under an hour",
+   "metric": "hours",
+   "value": {
+    "amount": 1,
+    "currency": null,
+    "unit": "hours"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "will have something live >> and working in the span of under an hour as well",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 36639,
+    "approx_timestamp_s": 2415
+   }
+  },
+  {
+   "claim": "Twitter poll 64% vs 36%",
+   "metric": "other",
+   "value": {
+    "amount": 64,
+    "currency": null,
+    "unit": "percent"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "idea_local_id": null,
+   "quote": {
+    "text": "64% to me, >> 36% to you",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 37158,
+    "approx_timestamp_s": 2449
+   }
+  },
+  {
+   "claim": "Currency conversion can eat 3-5% per transaction (sponsor read)",
+   "metric": "cost",
+   "value": {
+    "amount": 3,
+    "currency": null,
+    "unit": "percent",
+    "amount_max": 5
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "It's not uncommon for currency conversions to eat 3 to 5% of every transaction",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18278,
+    "approx_timestamp_s": 1205
+   }
+  },
+  {
+   "claim": "80% of viewers are not subscribed",
+   "metric": "other",
+   "value": {
+    "amount": 80,
+    "currency": null,
+    "unit": "percent"
+   },
+   "claimant": "Brandon Doyle",
+   "first_hand": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "80% of the people that watch my YouTube videos are not subscribed to me",
+    "speaker": "Brandon Doyle",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6380,
+    "approx_timestamp_s": 420
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Lawn quote pricing logic",
+   "steps": [
+    "Acre = ~43,500 sq ft; subtract house footprint and 10% of lot for driveway",
+    "Multiply net sq ft by 1.6 cents (~$45-50 for a 0.1 acre lot)",
+    "Discount 20% per quarter acre for big lots",
+    "Frequency discounts (2x/month 20%, 3+ 40%)",
+    "Minimum $40 per mow; weed eating +20%"
+   ],
+   "idea_local_id": "I1",
+   "area": "pricing",
+   "quote": {
+    "text": "I just said multiply the the square footage by 1.6 cents because that's about how you get to about 40 50 bucks",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17127,
+    "approx_timestamp_s": 1129
+   }
+  },
+  {
+   "name": "Speed-to-lead follow-up",
+   "steps": [
+    "Get a text (not just email) for each form submission",
+    "Call/text immediately",
+    "Offer a small discount to start this week (quote $80 -> $75)"
+   ],
+   "idea_local_id": "I1",
+   "area": "sales",
+   "quote": {
+    "text": "the quote says it would be 80 bucks uh a week, but actually if if we start this week, I'll do it for 75",
+    "speaker": "Brandon Doyle",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21217,
+    "approx_timestamp_s": 1398
+   }
+  },
+  {
+   "name": "Vibe coding without prompt engineering",
+   "steps": [
+    "Write a short plain prompt; include your math example",
+    "Answer the agent's clarifying questions",
+    "Ask the same chat how to deploy",
+    "Reference a known design (Airbnb style) for good UI",
+    "Skip integrations (Google Sheets over SendGrid) to launch fast"
+   ],
+   "idea_local_id": null,
+   "area": "product",
+   "quote": {
+    "text": "Like don't get hung up on how perfect your prompt needs to be",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2482,
+    "approx_timestamp_s": 163
+   }
+  },
+  {
+   "name": "Decide lead-capture friction",
+   "steps": [
+    "Ask for name and phone before showing price for more qualified leads",
+    "Or show price first for more volume and fewer contacts",
+    "Choose based on industry"
+   ],
+   "idea_local_id": "I1",
+   "area": "acquisition",
+   "quote": {
+    "text": "The more friction you implement, the fewer leads you get, but the higher quality those leads will be",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 28297,
+    "approx_timestamp_s": 1865
+   }
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Emergent",
+   "purpose": "Vibe coding platform used to build the apps",
+   "cost_stated": "$20/month"
+  },
+  {
+   "name": "Bolt",
+   "purpose": "Vibe coding tool"
+  },
+  {
+   "name": "Replit",
+   "purpose": "Vibe coding tool"
+  },
+  {
+   "name": "Cursor",
+   "purpose": "Coding tool"
+  },
+  {
+   "name": "ChatGPT",
+   "purpose": "Ideas and research"
+  },
+  {
+   "name": "Google Sheets",
+   "purpose": "Lead storage"
+  },
+  {
+   "name": "SendGrid",
+   "purpose": "Email (skipped)"
+  },
+  {
+   "name": "Stripe",
+   "purpose": "Pay-now links"
+  },
+  {
+   "name": "Jobber",
+   "purpose": "Field service software comparison",
+   "cost_stated": "$400-$500/month with SMS"
+  },
+  {
+   "name": "Salesforce",
+   "purpose": "CRM comparison"
+  },
+  {
+   "name": "HubSpot",
+   "purpose": "CRM comparison"
+  },
+  {
+   "name": "Lindy",
+   "purpose": "Automation for text-back"
+  },
+  {
+   "name": "Zapier",
+   "purpose": "Automation"
+  },
+  {
+   "name": "GoHighLevel",
+   "purpose": "Automation/CRM"
+  },
+  {
+   "name": "Airwallex",
+   "purpose": "Sponsor: multi-currency accounts"
+  },
+  {
+   "name": "Twitter/X",
+   "purpose": "Poll"
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "AI-built calculators can output absurd prices ($0, $2,450 per acre); test edge cases and add minimums.",
+   "quote": {
+    "text": "one of the quotes it gave me was $0. And the math was right",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 19137,
+    "approx_timestamp_s": 1261
+   }
+  },
+  {
+   "warning": "Showing price before capturing contact loses leads who dislike the price.",
+   "quote": {
+    "text": "if they if they don't like the price, you're never going to get their number, right?",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 26800,
+    "approx_timestamp_s": 1766
+   }
+  },
+  {
+   "warning": "Elaborate 'prompt hacks' are unnecessary.",
+   "quote": null
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Small businesses pay for bloated SaaS while using a few features; cheap custom tools are an opening.",
+   "theme": "offer_design",
+   "quote": {
+    "text": "the vast majority of businesses might need like really need three of Jobers 50 features 100 features",
+    "speaker": "Chris Koerner",
+    "match_score": 98.0,
+    "verified": true,
+    "char_offset": 21930,
+    "approx_timestamp_s": 1445
+   }
+  },
+  {
+   "lesson": "Free niche tools can be a foot in the door to sell bigger services.",
+   "theme": "customer_acquisition",
+   "quote": null
+  },
+  {
+   "lesson": "Transparent upfront pricing plus speed of reply makes a small trade look like a national brand.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "transparency of pricing upfront and speed to reply. In the home services industry, those two things are not that normal",
+    "speaker": "Brandon Doyle",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21394,
+    "approx_timestamp_s": 1410
+   }
+  },
+  {
+   "lesson": "Non-coders can ship a working app in under an hour for about $10.",
+   "theme": "automation_ai",
+   "quote": null
+  },
+  {
+   "lesson": "Use the building agent itself as support (how do I deploy?) instead of Googling.",
+   "theme": "automation_ai",
+   "quote": {
+    "text": "just use the chat interface that you're currently using to build the app to ask it questions about the app",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13820,
+    "approx_timestamp_s": 911
+   }
+  },
+  {
+   "lesson": "Every question added to a form trades response rate for accuracy.",
+   "theme": "customer_acquisition",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "C",
+  "rationale": "Live demo build, no revenue from the apps; useful process detail.",
+  "promotional_conflict": "Sponsor read for Airwallex; both promote TKOwners."
+ },
+ "extraction": {
+  "model": "grokbot",
+  "extracted_at": "2026-10-22T08:47:55",
+  "cost_usd": null,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 24,
+   "verified": 24,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

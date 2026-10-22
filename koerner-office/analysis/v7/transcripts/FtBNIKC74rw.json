@@ -1,0 +1,349 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "FtBNIKC74rw",
+  "title": "You Can't Fake This Online",
+  "channel": "Nick Huber - Sweaty Startup",
+  "url": "https://www.youtube.com/watch?v=FtBNIKC74rw",
+  "upload_date": "2026-10-02",
+  "duration_s": 254,
+  "view_count": 287,
+  "transcript_provider": "local_whisper_tiny",
+  "transcript_chars": 3963,
+  "transcript_is_whisper": true
+ },
+ "summary": "Short clip from an interview with Nick Huber (Sweaty Startup) about building a social media audience as an operator. He says audience growth requires first doing something interesting in business and then writing good copy without caring what others think. He estimates he spent about two hours a day on Twitter/X in 2021 and calls it the highest-ROI work he has done, but says the same posts that gained 3,000-4,000 followers in 2021 now gain about 50. The key takeaway is that radical transparency builds trust and a network that sells your companies and products, but timing on the platform mattered a lot and it is much harder today.",
+ "speakers": [
+  {
+   "name": "Nick Huber",
+   "role": "guest",
+   "description": "Self-storage developer and multi-business operator, known as Sweaty Startup on X"
+  },
+  {
+   "name": "Unnamed interviewer",
+   "role": "host",
+   "description": "Podcast host asking about audience building and transparency"
+  }
+ ],
+ "format": "operator_interview",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Operator-led audience on X as a sales channel",
+   "one_liner": "Share real stories and numbers from your own businesses on X to build trust that drives sales of your companies, book and products.",
+   "category": "content_media",
+   "business_model": "Audience as distribution: followers buy from the operator's companies and products (e.g. his book); no direct monetisation of content stated.",
+   "customer": "Followers on X interested in small business, self-storage and deals",
+   "problem": "Operators need trust and distribution for their companies and products",
+   "offer": "Free, transparent threads and breakdowns of real deals and businesses",
+   "pricing": {
+    "model": "not stated (free content)",
+    "price_points": [],
+    "notes": "Monetised indirectly through his companies and book."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "organic_social_content",
+     "details": "Threads, stories and deal breakdowns on X/Twitter, about 2 hours a day (14 hours a week) in 2021.",
+     "quote": {
+      "text": "I could write a thread or a story or a breakdown of one of my deals and in 2021 I would get three to four thousand followers",
+      "speaker": "Nick Huber",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 2526,
+      "approx_timestamp_s": 162
+     }
+    }
+   ],
+   "delivery": "The operator personally writes posts drawn from his own experience; notes are captured in a phone notes app or a notebook by the bed.",
+   "unit_economics_claims": [
+    "About 2 hours a day / 14 hours a week spent posting in 2021",
+    "3,000-4,000 new followers per deal breakdown in 2021 vs about 50 today"
+   ],
+   "tools": [
+    "X (Twitter)",
+    "Apple Notes"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Posting and scheduling can be automated, but growth depended on authentic first-hand stories and luck of timing."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Followers self-select; funnels to products can be automated."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Content value comes from the operator's own real experiences and voice; AI drafting helps but substance must be lived."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Product/book sales are handled by standard checkout software."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Replies and DMs can be partly handled by agents with oversight."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "X works the same in the UK; reach is harder for everyone now regardless of country."
+   },
+   "risks": [
+    "Platform reach has collapsed versus 2020-2021 (50 followers vs 3,000-4,000 per post)",
+    "Public transparency invites pile-ons and takedowns",
+    "Requires having done something interesting first"
+   ],
+   "is_primary": true,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "you posted that you're spending like two hours per day 14 hours per week On on doing all this but this has been the highest ROI of any work I've ever done",
+     "speaker": "Interviewer",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 427,
+     "approx_timestamp_s": 27
+    },
+    {
+     "text": "The same stuff now gets me 50 followers And it would be way less if I had less so I got very lucky with my timing on X",
+     "speaker": "Nick Huber",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 2651,
+     "approx_timestamp_s": 170
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Spent about two hours a day (14 hours a week) posting on Twitter in 2021",
+   "metric": "hours",
+   "value": {
+    "amount": 14,
+    "amount_max": null,
+    "currency": null,
+    "unit": "hours per week",
+    "label": "time on X"
+   },
+   "period": "2021",
+   "claimant": "Interviewer, restating Nick Huber's post",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "you posted that you're spending like two hours per day 14 hours per week On on doing all this",
+    "speaker": "Interviewer",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 427,
+    "approx_timestamp_s": 27
+   }
+  },
+  {
+   "claim": "A deal breakdown thread gained 3,000-4,000 followers in 2021",
+   "metric": "traffic",
+   "value": {
+    "amount": 3000,
+    "amount_max": 4000,
+    "currency": null,
+    "unit": "followers per thread",
+    "label": "2021"
+   },
+   "period": "2021",
+   "claimant": "Nick Huber",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "a breakdown of one of my deals and in 2021 I would get three to four thousand followers",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2563,
+    "approx_timestamp_s": 165
+   }
+  },
+  {
+   "claim": "The same content now gains about 50 followers",
+   "metric": "traffic",
+   "value": {
+    "amount": 50,
+    "amount_max": null,
+    "currency": null,
+    "unit": "followers per thread",
+    "label": "today"
+   },
+   "period": "2026",
+   "claimant": "Nick Huber",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "The same stuff now gets me 50 followers",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2651,
+    "approx_timestamp_s": 170
+   }
+  },
+  {
+   "claim": "Over half of his 15 closest friends came from Twitter in the last five years",
+   "metric": "other",
+   "value": {
+    "amount": 15,
+    "amount_max": null,
+    "currency": null,
+    "unit": "close friends",
+    "label": null
+   },
+   "period": "last five years",
+   "claimant": "Nick Huber",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "15 of my closest friends probably over half of them are from people I met over the last five years on Twitter",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3666,
+    "approx_timestamp_s": 236
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Build an audience from lived operator experience",
+   "area": "acquisition",
+   "steps": [
+    "First do something interesting in business (he built self-storage facilities and ran companies)",
+    "Open up deeply about real deals, numbers and stories",
+    "Write good copy and post consistently (about 2 hours a day at his peak)",
+    "Capture ideas continuously in a phone notes app or a bedside notebook",
+    "Accept some exposure in exchange for trust that drives sales"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "just leave an interesting life and just share the stories And then just it just comes",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2342,
+    "approx_timestamp_s": 150
+   }
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "X (Twitter)",
+   "purpose": "Audience building and distribution",
+   "cost_stated": null
+  },
+  {
+   "name": "Apple Notes",
+   "purpose": "Capturing post ideas",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Audience growth on X is far harder now than in 2020-2021; timing drove much of his growth.",
+   "quote": {
+    "text": "I just don't think it's the same to build the audience today",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2773,
+    "approx_timestamp_s": 178
+   }
+  },
+  {
+   "warning": "Radical transparency exposes you to public takedowns of business owners.",
+   "quote": {
+    "text": "we can talk about what happened last year with You know an all-out takedown of several business owners on Twitter",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3222,
+    "approx_timestamp_s": 207
+   }
+  },
+  {
+   "warning": "Without real achievements or experience, building a following is very hard.",
+   "quote": null
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "People follow those they can learn from or want to be like, so substance comes before audience.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "everybody wants to follow people who they can learn something from or they want to be like",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1100,
+    "approx_timestamp_s": 70
+   }
+  },
+  {
+   "lesson": "Transparency about numbers builds trust that turns followers into customers of your companies and products.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "the upside is that people begin to trust you. They begin to know you",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3345,
+    "approx_timestamp_s": 215
+   }
+  },
+  {
+   "lesson": "Writing good copy and not caring what people think are the two skills that make content work.",
+   "theme": "mindset_execution",
+   "quote": null
+  },
+  {
+   "lesson": "Channel timing matters: early movers on a platform got growth that the same effort cannot buy later.",
+   "theme": "customer_acquisition",
+   "quote": null
+  },
+  {
+   "lesson": "An online audience can act as a network accelerator, producing mentors and close friends, not only customers.",
+   "theme": "scaling",
+   "quote": {
+    "text": "it's been a network supercharger for me",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3812,
+    "approx_timestamp_s": 245
+   }
+  }
+ ],
+ "evidence_quality": {
+  "rating": "B",
+  "rationale": "First-hand account with a few specific numbers (hours, follower gains) but short clip, Whisper transcript and no revenue figures.",
+  "promotional_conflict": "Mentions his book and companies as beneficiaries of the audience."
+ },
+ "extraction": {
+  "model": "grokbot",
+  "extracted_at": "2026-10-22T08:37:05",
+  "cost_usd": null,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 13,
+   "verified": 13,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

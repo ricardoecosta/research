@@ -1,0 +1,1356 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "22Jpzt683jw",
+  "title": "The Easiest Way to Make Money With AI Right Now",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=22Jpzt683jw",
+  "upload_date": "2026-10-11",
+  "duration_s": 2267,
+  "view_count": 179019,
+  "transcript_provider": "cached",
+  "transcript_chars": 44431,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner interviews Aaron Edwards, founder of DocsBot, an AI customer support agent SaaS that passed $1M ARR in 3.5 years with >90% gross margin, ~$130 ARPU and ~3% revenue churn. After several failed AI image products, he built DocsBot from a problem at his employer, launched via build-in-public on Twitter, and now sells mostly through agencies that charge small businesses about $2,000-$3,000 setup and $500/month. He describes an automated pipeline: find businesses with docs but no chatbot (BuiltWith, job posts), auto-build a demo bot, and send AI monthly reports. Key takeaway: the opportunity is implementing AI agents for businesses that won't do it themselves.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": null
+  },
+  {
+   "name": "Aaron Edwards",
+   "role": "guest",
+   "description": "Founder of DocsBot (AI support agents), X: uglyrobot"
+  }
+ ],
+ "format": "operator_interview",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "AI customer support agent SaaS (DocsBot)",
+   "one_liner": "Self-serve and white-label SaaS that trains AI support agents on a company's docs to answer 70-80% of tickets, escalating the rest; now sold mostly through agencies.",
+   "category": "saas_software",
+   "business_model": "Monthly subscription tiers; white-label per-agent fees to agencies",
+   "customer": "Companies with support teams, especially manufacturers with complex product manuals; agencies/implementers reselling",
+   "problem": "Support teams answer the same questions repeatedly and staff live chat 24/7",
+   "offer": "AI chatbot/voice agent trained on knowledge base, escalation to tickets/live chat, dashboard and stats, MCP plugin for building bots",
+   "pricing": {
+    "model": "tiered subscription",
+    "price_points": [
+     {
+      "amount": 50,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "personal"
+     },
+     {
+      "amount": 150,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "main plan"
+     },
+     {
+      "amount": 500,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "business self-serve"
+     },
+     {
+      "amount": 130,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "ARPU"
+     }
+    ],
+    "notes": "Early pricing $20/$50/$100; no free trial initially (paid with refund); now a free plan for 'no credit card'. LTV a little over $2,000; revenue churn ~3%; gross margin >90%."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "organic_social_content",
+     "details": "Built in public on Twitter with ~300 followers; a Japanese tech influencer reposted, ~3M views, hundreds of signups overnight",
+     "quote": {
+      "text": "what really kicked off the product was going viral on Twitter with 300 followers",
+      "speaker": "Aaron Edwards",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 10595,
+      "approx_timestamp_s": 558
+     }
+    },
+    {
+     "channel": "seo_organic_search",
+     "details": "Classic SEO and word of mouth early on, now declining"
+    },
+    {
+     "channel": "partnerships",
+     "details": "Now courting agencies and implementers who white-label and resell",
+     "quote": {
+      "text": "most of our effort goes into like courting agencies and and implementers instead of like going directly after customers",
+      "speaker": "Aaron Edwards",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 17841,
+      "approx_timestamp_s": 939
+     }
+    },
+    {
+     "channel": "networking_events",
+     "details": "Conferences with $50 3D-printed talking shoulder robots instead of a $25k booth; 10-20 leads, 2+ customers"
+    },
+    {
+     "channel": "existing_audience",
+     "details": "Waitlist of 200-300 business owners with feature survey before MVP"
+    }
+   ],
+   "delivery": "Software platform run by founder plus best friend and son; AI automates 95% of service work; white-glove setup with 90-day maintenance offered.",
+   "unit_economics_claims": [
+    "$1M+ ARR after 3.5 years",
+    "10k MRR within 3 months",
+    "3-4% monthly growth",
+    "LTV ~$2,000+",
+    "Gross margin >90%",
+    "Revenue churn ~3%"
+   ],
+   "tools": [
+    "OpenAI models",
+    "DocsBot MCP plugin",
+    "Twitter/X"
+   ],
+   "startup_cost": "not stated (MVP built in two weeks)",
+   "time_to_first_revenue": "~3 months to $10k MRR",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Inbound SEO/content and agency partners; outreach can be automated."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Self-serve sign-up and bot creation from URL."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "Software answers tickets."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Subscription billing."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "AI-assisted support."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "SaaS sells globally including UK."
+   },
+   "risks": [
+    "Vibe-coded DIY alternatives (13% of cancellations)",
+    "Many competitors",
+    "Self-serve demand dried up"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "we hit more than a million dollars uh in ARR. Holy crap. This year",
+     "speaker": "Aaron Edwards",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 23936,
+     "approx_timestamp_s": 1260
+    },
+    {
+     "text": "our main plan, and this is kind of our average customer is on 150 a month",
+     "speaker": "Aaron Edwards",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 15835,
+     "approx_timestamp_s": 834
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "AI support agent implementation agency for small businesses",
+   "one_liner": "Find businesses with docs but no AI chatbot, auto-build a demo bot on their content, and sell setup plus a monthly retainer with automated reports.",
+   "category": "ai_automation",
+   "business_model": "Setup fee plus monthly retainer",
+   "customer": "Small and mid-sized businesses with support load: manufacturers, contractors, companies using basic help widgets (Help Scout), companies hiring support agents",
+   "problem": "They lack expertise to implement AI; support staff cost ~$40k/year",
+   "offer": "Done-for-you AI support agent, white-labelled, with monthly AI-generated PDF performance report and knowledge-gap suggestions",
+   "pricing": {
+    "model": "setup + retainer",
+    "price_points": [
+     {
+      "amount": 2000,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "setup fee"
+     },
+     {
+      "amount": 3000,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "upper setup"
+     },
+     {
+      "amount": 500,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "maintenance retainer"
+     },
+     {
+      "amount": 1000,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "upper retainer"
+     },
+     {
+      "amount": 50,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "platform cost per agent (white-label)"
+     }
+    ],
+    "notes": "Price at 10x value: 2,000 tickets x 5 min, 50% deflection = ~$7,000/month saved vs $500 fee."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "networking_events",
+     "details": "In person (chamber of commerce, conferences) is best",
+     "quote": {
+      "text": "if you have a relationship, you meet someone at the chamber of commerce, at a conference, whatever, like that's like the best lead",
+      "speaker": "Aaron Edwards",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 27886,
+      "approx_timestamp_s": 1468
+     }
+    },
+    {
+     "channel": "cold_call",
+     "details": "Phone calls second best"
+    },
+    {
+     "channel": "cold_sms_dm",
+     "details": "Cold texting third (not legal to consumers/sole traders in UK)"
+    },
+    {
+     "channel": "cold_email",
+     "details": "Email possible but weak; AI agent finds leads via BuiltWith (sites using Help Scout or old chatbots) and job posts for support agents, finds decision-maker via Tregt API router, auto-builds demo bot and sends link",
+     "quote": {
+      "text": "you can use like BuiltWith or things like that that actually tell you, okay, here's all the websites that are using this Help Scout widget",
+      "speaker": "Aaron Edwards",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 35057,
+      "approx_timestamp_s": 1846
+     }
+    },
+    {
+     "channel": "direct_mail_postcards",
+     "details": "Chris: send gifts (chocolates, donuts, DoorDash tacos, $1 Venmo) to stand out",
+     "quote": {
+      "text": "If I get their home address, I'm going to mail them a box of chocolates or something, a box of donuts",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 39885,
+      "approx_timestamp_s": 2100
+     }
+    }
+   ],
+   "delivery": "Implementer uses ChatGPT/Claude with DocsBot MCP plugin to scrape site, build bot, create demo link; monthly report generated and emailed by AI.",
+   "unit_economics_claims": [
+    "Setup $2,000-$3,000",
+    "Retainer $500-$1,000/month",
+    "Agent saves ~$7,500-$10,000/month for 15,000 tickets"
+   ],
+   "tools": [
+    "DocsBot",
+    "ChatGPT",
+    "Claude",
+    "BuiltWith",
+    "Tregt",
+    "Apollo",
+    "Ahrefs",
+    "LinkedIn"
+   ],
+   "startup_cost": "~$20/month AI subscription + platform fees",
+   "time_to_first_revenue": "not stated (19-year-old son landed first contractor client)",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Lead finding, demo creation and B2B cold email to limited companies are automatable and legal in UK; in-person and calls work best per guest."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Bot auto-built from website/docs; human pilot."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "AI answers tickets; occasional knowledge updates."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Recurring billing."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "AI monthly reports and gap analysis."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "UK businesses have the same support needs; cold texting not allowed for individuals/sole traders, B2B email to limited companies fine."
+   },
+   "risks": [
+    "Commoditisation; customers DIY",
+    "Proving ROI",
+    "Gift-based outreach cost"
+   ],
+   "is_primary": false,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "a good price point we found for like a good fit customer is roughly like around a $2,000 setup fee",
+     "speaker": "Aaron Edwards",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 19275,
+     "approx_timestamp_s": 1015
+    },
+    {
+     "text": "Create a demo link that going to automatically send to them. So they can just click and see it already working",
+     "speaker": "Aaron Edwards",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 41015,
+     "approx_timestamp_s": 2160
+    },
+    {
+     "text": "I want you to go through, look at all their stats, their logs, analyze it, create a nice PDF report with my logo on it",
+     "speaker": "Aaron Edwards",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 41812,
+     "approx_timestamp_s": 2202
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "AI profile picture generator",
+   "one_liner": "Sold AI-generated profile pictures during the viral wave.",
+   "category": "digital_products",
+   "business_model": "One-off purchases",
+   "customer": "Consumers on Twitter",
+   "problem": "Wanted AI avatars",
+   "offer": "AI profile pictures",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "organic_social_content",
+     "details": "Rode viral Twitter trend"
+    }
+   ],
+   "delivery": "AI image generation.",
+   "unit_economics_claims": [
+    "~$10k in two months"
+   ],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Viral."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Self-serve."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "AI."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Stripe."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "Agent."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works in UK."
+   },
+   "risks": [
+    "Fad died off"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "We made like 10 grand in like two months. Wow. Just selling AI profile pictures",
+     "speaker": "Aaron Edwards",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 3273,
+     "approx_timestamp_s": 172
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "Personalised AI children's book (Imagine AI)",
+   "one_liner": "Parents upload photos and the child appears in a custom printed educational book.",
+   "category": "ecommerce_physical",
+   "business_model": "One-off product sales",
+   "customer": "Parents/gift buyers",
+   "problem": "Personalised educational gifts",
+   "offer": "Custom printed book",
+   "pricing": {
+    "model": "per book",
+    "price_points": [
+     {
+      "amount": 40,
+      "currency": "USD",
+      "unit": "per book",
+      "amount_max": 60
+     }
+    ],
+    "notes": "TV and magazine coverage produced zero sales."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "paid_social",
+     "details": "Tried ads around Christmas, struggled to convert"
+    }
+   ],
+   "delivery": "AI images + print on demand.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Ads."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Upload."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "AI + POD."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Stripe."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Agent."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works in UK."
+   },
+   "risks": [
+    "Hard to sell to consumers",
+    "Media coverage didn't convert"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "paying like 60 bucks, 40 to 60 bucks for a book is a lot",
+     "speaker": "Aaron Edwards",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 5458,
+     "approx_timestamp_s": 287
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "AI image WordPress plugin / product photos",
+   "one_liner": "WordPress plugin for AI images that went viral but earned nothing; pivot to business product photos failed.",
+   "category": "saas_software",
+   "business_model": "not stated",
+   "customer": "WordPress users; businesses",
+   "problem": "not stated",
+   "offer": "AI image plugin",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "Software.",
+   "unit_economics_claims": [],
+   "tools": [
+    "WordPress"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "none",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Viral."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Self-serve."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "Software."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Billing."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "Agent."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works in UK."
+   },
+   "risks": [
+    "No willingness to pay"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "Everyone loved it. No one wanted Yeah. No one wanted to pay",
+     "speaker": "Aaron Edwards",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 2679,
+     "approx_timestamp_s": 141
+    }
+   ]
+  },
+  {
+   "local_id": "I6",
+   "name": "3D-printed talking shoulder robots",
+   "one_liner": "Desk-sized robots that sit on your shoulder and talk via a voice agent; everyone at conferences wanted one.",
+   "category": "ecommerce_physical",
+   "business_model": "One-off product sales (hypothetical $200)",
+   "customer": "Conference attendees/marketers",
+   "problem": "Standing out at events",
+   "offer": "Talking shoulder robot",
+   "pricing": {
+    "model": "per unit",
+    "price_points": [
+     {
+      "amount": 200,
+      "currency": "USD",
+      "unit": "per unit"
+     }
+    ],
+    "notes": "Cost ~$50 each to make."
+   },
+   "acquisition_channels": [],
+   "delivery": "3D printed + voice agent.",
+   "unit_economics_claims": [
+    "Cost about $50"
+   ],
+   "tools": [
+    "3D printer",
+    "OpenAI realtime voice"
+   ],
+   "startup_cost": "About $50 per unit",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Not tested."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "n/a"
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Physical production."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Stripe."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works in UK."
+   },
+   "risks": [
+    "Untested demand"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "could be a whole business. You sell those for 200 bucks",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 30770,
+     "approx_timestamp_s": 1620
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "DocsBot passed $1M ARR after 3.5 years",
+   "metric": "arr",
+   "value": {
+    "amount": 1000000,
+    "currency": "USD",
+    "unit": "per year"
+   },
+   "claimant": "Aaron Edwards",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "We hit more than a million dollars uh in ARR",
+    "speaker": "Aaron Edwards",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23936,
+    "approx_timestamp_s": 1260
+   },
+   "period": "annual"
+  },
+  {
+   "claim": "Hit $10k MRR within about 3 months",
+   "metric": "mrr",
+   "value": {
+    "amount": 10000,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Aaron Edwards",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I think we got like 3 months we hit like 10k MR",
+    "speaker": "Aaron Edwards",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12561,
+    "approx_timestamp_s": 661
+   }
+  },
+  {
+   "claim": "ARPU about $130/month",
+   "metric": "price",
+   "value": {
+    "amount": 130,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Aaron Edwards",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Our ARPU a revenue per p per user is I think like about 130",
+    "speaker": "Aaron Edwards",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16111,
+    "approx_timestamp_s": 848
+   }
+  },
+  {
+   "claim": "LTV a little over $2,000",
+   "metric": "other",
+   "value": {
+    "amount": 2000,
+    "currency": "USD",
+    "unit": "lifetime"
+   },
+   "claimant": "Aaron Edwards",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "lifetime value, last I checked, it's u it's a little over $2,000",
+    "speaker": "Aaron Edwards",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16284,
+    "approx_timestamp_s": 857
+   }
+  },
+  {
+   "claim": "Revenue churn around 3%",
+   "metric": "other",
+   "value": {
+    "amount": 3,
+    "currency": null,
+    "unit": "percent per month"
+   },
+   "claimant": "Aaron Edwards",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "our revenue churn is around 3%",
+    "speaker": "Aaron Edwards",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16378,
+    "approx_timestamp_s": 862
+   }
+  },
+  {
+   "claim": "Gross margin over 90%",
+   "metric": "margin",
+   "value": {
+    "amount": 90,
+    "currency": null,
+    "unit": "percent"
+   },
+   "claimant": "Aaron Edwards",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "it's greater than 90% is our gross margin",
+    "speaker": "Aaron Edwards",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25762,
+    "approx_timestamp_s": 1356
+   }
+  },
+  {
+   "claim": "DIY 'build my own' cancellations rose from 1% to 13%",
+   "metric": "other",
+   "value": {
+    "amount": 13,
+    "currency": null,
+    "unit": "percent of cancellations"
+   },
+   "claimant": "Aaron Edwards",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "it's increased from like 1% like I'll build my own to like about 13% of people who cancel",
+    "speaker": "Aaron Edwards",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13633,
+    "approx_timestamp_s": 718
+   }
+  },
+  {
+   "claim": "Growth ~3-4% per month",
+   "metric": "other",
+   "value": {
+    "amount": 3,
+    "currency": null,
+    "unit": "percent per month",
+    "amount_max": 4
+   },
+   "claimant": "Aaron Edwards",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "like 3 to 4% per month growth",
+    "speaker": "Aaron Edwards",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 35760,
+    "approx_timestamp_s": 1883
+   }
+  },
+  {
+   "claim": "Agencies charge ~$2,000-$3,000 setup and $500/month",
+   "metric": "price",
+   "value": {
+    "amount": 2000,
+    "currency": "USD",
+    "unit": "setup",
+    "amount_max": 3000
+   },
+   "claimant": "Aaron Edwards",
+   "first_hand": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "that mid price point I've heard is like two to three grand for setup and then $500 a month",
+    "speaker": "Aaron Edwards",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 26413,
+    "approx_timestamp_s": 1391
+   }
+  },
+  {
+   "claim": "Saving ~$7,000/month vs $500 fee (2,000 tickets, 5 min, 50% deflection)",
+   "metric": "other",
+   "value": {
+    "amount": 7000,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "We're going to save you $7,000 a month. We're only going to charge you 500",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23700,
+    "approx_timestamp_s": 1248
+   },
+   "hypothetical": true
+  },
+  {
+   "claim": "Support agent salary ~$40k/year (~$20/hour)",
+   "metric": "cost",
+   "value": {
+    "amount": 40000,
+    "currency": "USD",
+    "unit": "per year"
+   },
+   "claimant": "Aaron Edwards",
+   "first_hand": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "maybe their salary is like 40 grand a year, you know, that's probably like base like 20 bucks an hour",
+    "speaker": "Aaron Edwards",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 19721,
+    "approx_timestamp_s": 1038
+   }
+  },
+  {
+   "claim": "Plan covers up to 15,000 tickets a month",
+   "metric": "other",
+   "value": {
+    "amount": 15000,
+    "currency": null,
+    "unit": "tickets per month"
+   },
+   "claimant": "Aaron Edwards",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "as much as like 15,000 tickets a month",
+    "speaker": "Aaron Edwards",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20096,
+    "approx_timestamp_s": 1058
+   }
+  },
+  {
+   "claim": "Contractor said AI could save him $100k+/year",
+   "metric": "other",
+   "value": {
+    "amount": 100000,
+    "currency": "USD",
+    "unit": "per year"
+   },
+   "claimant": "Aaron Edwards",
+   "first_hand": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "I could see this saving me like $100,000 or more a year",
+    "speaker": "Aaron Edwards",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22994,
+    "approx_timestamp_s": 1211
+   }
+  },
+  {
+   "claim": "AI profile pictures made ~$10k in two months",
+   "metric": "revenue",
+   "value": {
+    "amount": 10000,
+    "currency": "USD",
+    "unit": "per 2 months"
+   },
+   "claimant": "Aaron Edwards",
+   "first_hand": true,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "We made like 10 grand in like two months",
+    "speaker": "Aaron Edwards",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3273,
+    "approx_timestamp_s": 172
+   },
+   "period": "2 months"
+  },
+  {
+   "claim": "Shoulder robots cost ~$50; 10-20 leads, at least 2 customers worth $2,000 each",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 50,
+    "currency": "USD",
+    "unit": "per robot"
+   },
+   "claimant": "Aaron Edwards",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "we probably got like 10 to 20 leads from there. Okay. Um at least two customers so far",
+    "speaker": "Aaron Edwards",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 31240,
+    "approx_timestamp_s": 1645
+   }
+  },
+  {
+   "claim": "Conference booth would cost $25k",
+   "metric": "cost",
+   "value": {
+    "amount": 25000,
+    "currency": "USD",
+    "unit": "per booth"
+   },
+   "claimant": "Aaron Edwards",
+   "first_hand": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "I don't want to pay 25 grand for a booth",
+    "speaker": "Aaron Edwards",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 29058,
+    "approx_timestamp_s": 1530
+   }
+  },
+  {
+   "claim": "Gifts can lift close rates from 0.1% to ~12%",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 12,
+    "currency": null,
+    "unit": "percent"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "It's going to go from.1 to like 12%",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 40183,
+    "approx_timestamp_s": 2116
+   },
+   "hypothetical": true
+  },
+  {
+   "claim": "Twitter repost had ~3M views in Japan",
+   "metric": "traffic",
+   "value": {
+    "amount": 3000000,
+    "currency": null,
+    "unit": "views"
+   },
+   "claimant": "Aaron Edwards",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "that tweet had like three million views or something in Japan",
+    "speaker": "Aaron Edwards",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11226,
+    "approx_timestamp_s": 591
+   }
+  },
+  {
+   "claim": "Waitlist of 200-300 business owners",
+   "metric": "customers",
+   "value": {
+    "amount": 200,
+    "currency": null,
+    "unit": "signups",
+    "amount_max": 300
+   },
+   "claimant": "Aaron Edwards",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I got like two or 300 people on that weight list",
+    "speaker": "Aaron Edwards",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9845,
+    "approx_timestamp_s": 518
+   }
+  },
+  {
+   "claim": "30 million businesses in America",
+   "metric": "other",
+   "value": {
+    "amount": 30000000,
+    "currency": null,
+    "unit": "businesses"
+   },
+   "claimant": "Aaron Edwards",
+   "first_hand": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "there's 30 million businesses in America",
+    "speaker": "Aaron Edwards",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 36444,
+    "approx_timestamp_s": 1919
+   }
+  },
+  {
+   "claim": "Lead data via Tregt ~1 cent per lead",
+   "metric": "cost",
+   "value": {
+    "amount": 0.01,
+    "currency": "USD",
+    "unit": "per lead"
+   },
+   "claimant": "Aaron Edwards",
+   "first_hand": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "you only pay whatever it's like one cent per lead",
+    "speaker": "Aaron Edwards",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 38583,
+    "approx_timestamp_s": 2032
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Automated AI-agent sales pipeline",
+   "steps": [
+    "Use ChatGPT/Claude ($20/month) with tools to find businesses with a knowledge base/docs but no chatbot",
+    "Use BuiltWith to list sites using basic widgets like Help Scout",
+    "Scrape job sites/LinkedIn for companies hiring support agents (budget ready)",
+    "Find decision-maker contact via Tregt (API router to Apollo etc., ~1c/lead)",
+    "Auto-build a bot on their docs via DocsBot MCP and send a demo link",
+    "Charge ~$2,000 setup + $500/month"
+   ],
+   "idea_local_id": "I2",
+   "area": "acquisition",
+   "quote": {
+    "text": "Go find businesses, manufacturers that are doing this and that have a knowledge base on their website, but no chatbot",
+    "speaker": "Aaron Edwards",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 37154,
+    "approx_timestamp_s": 1956
+   }
+  },
+  {
+   "name": "Automated monthly value report",
+   "steps": [
+    "Each month have AI analyse the client's bot logs and stats",
+    "Generate branded PDF report and email it",
+    "Flag unanswered questions and recommend new support docs"
+   ],
+   "idea_local_id": "I2",
+   "area": "operations",
+   "quote": {
+    "text": "For that 500 bucks a month, it's doing it for you",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 396,
+    "approx_timestamp_s": 20
+   }
+  },
+  {
+   "name": "10x value pricing",
+   "steps": [
+    "Estimate tickets/month and minutes per ticket",
+    "Assume conservative deflection (50%)",
+    "Show savings ~10x the fee"
+   ],
+   "idea_local_id": "I2",
+   "area": "pricing",
+   "quote": {
+    "text": "you want to provide 10 times the value that you charge",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23324,
+    "approx_timestamp_s": 1228
+   }
+  },
+  {
+   "name": "Paid-first instead of free trial",
+   "steps": [
+    "Require payment upfront with refund guarantee",
+    "Filters for serious customers and saves founder time"
+   ],
+   "idea_local_id": "I1",
+   "area": "pricing",
+   "quote": {
+    "text": "you pay us and show us you're serious. We'll give you a refund if it doesn't work for you",
+    "speaker": "Aaron Edwards",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15296,
+    "approx_timestamp_s": 805
+   }
+  },
+  {
+   "name": "Waitlist + survey MVP",
+   "steps": [
+    "Share concept with your network",
+    "Waitlist form plus survey on core features",
+    "Build the minimum feature set in two weeks"
+   ],
+   "idea_local_id": "I1",
+   "area": "product"
+  },
+  {
+   "name": "Conference attention hack",
+   "steps": [
+    "Skip $25k booth",
+    "Build $50 talking shoulder robots (AI-designed 3D print) connected to your voice agent as live demo",
+    "Walk the floor"
+   ],
+   "idea_local_id": "I1",
+   "area": "acquisition"
+  },
+  {
+   "name": "Solve your employer's problem first",
+   "steps": [
+    "Build a proof of concept for your current employer",
+    "Make them first customer while transitioning out"
+   ],
+   "idea_local_id": "I1",
+   "area": "acquisition"
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "DocsBot",
+   "purpose": "AI support agent platform; partner program and MCP plugin",
+   "cost_stated": "$50/$150/$500 per month"
+  },
+  {
+   "name": "ChatGPT",
+   "purpose": "Agentic lead finding and building",
+   "cost_stated": "$20/month"
+  },
+  {
+   "name": "Claude",
+   "purpose": "Same"
+  },
+  {
+   "name": "BuiltWith",
+   "purpose": "Find sites using specific widgets"
+  },
+  {
+   "name": "Help Scout",
+   "purpose": "Example legacy support widget to target"
+  },
+  {
+   "name": "Tregt",
+   "purpose": "API router for lead data (Apollo etc.)",
+   "cost_stated": "~1 cent per lead"
+  },
+  {
+   "name": "Apollo",
+   "purpose": "Lead data"
+  },
+  {
+   "name": "Ahrefs",
+   "purpose": "SEO data"
+  },
+  {
+   "name": "OpenRouter",
+   "purpose": "Comparison"
+  },
+  {
+   "name": "GoHighLevel",
+   "purpose": "Cheaper AI receptionist for blue-collar"
+  },
+  {
+   "name": "LinkedIn",
+   "purpose": "Job post scraping"
+  },
+  {
+   "name": "Venmo / DoorDash",
+   "purpose": "Gift-based outreach ideas"
+  },
+  {
+   "name": ".online domains",
+   "purpose": "Sponsor read",
+   "cost_stated": "99 cents"
+  },
+  {
+   "name": "WordPress",
+   "purpose": "Early plugin"
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Consumers are hard to sell to; TV and magazine coverage produced zero sales of the custom book.",
+   "quote": {
+    "text": "the funny thing is like not a single sale from any of that. Not one",
+    "speaker": "Aaron Edwards",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6074,
+    "approx_timestamp_s": 319
+   }
+  },
+  {
+   "warning": "Viral free products don't mean revenue.",
+   "quote": null
+  },
+  {
+   "warning": "Self-serve SaaS demand from tech-savvy customers has dried up; need service/implementers.",
+   "quote": null
+  },
+  {
+   "warning": "Underpricing: his son wanted to charge $500/month for $100k/year value.",
+   "quote": null
+  },
+  {
+   "warning": "Cheap outreach (cold email, LinkedIn DMs) is increasingly ineffective.",
+   "quote": {
+    "text": "Cold email is free. It's cheap. DMs on LinkedIn. So, it's like not effective at all anymore",
+    "speaker": "Aaron Edwards",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 40341,
+    "approx_timestamp_s": 2124
+   }
+  },
+  {
+   "warning": "Fads die; AI profile pictures revenue disappeared.",
+   "quote": {
+    "text": "But the fad died off, you know",
+    "speaker": "Aaron Edwards",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3399,
+    "approx_timestamp_s": 179
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Try many cheap experiments while employed; the ninth stuck.",
+   "theme": "validation_testing",
+   "quote": null
+  },
+  {
+   "lesson": "Build in public: one repost from a stranger can launch a product.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "all it takes is one dude in Japan",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12206,
+    "approx_timestamp_s": 642
+   }
+  },
+  {
+   "lesson": "Charge more than you think; offer high tiers and enterprise contact.",
+   "theme": "pricing",
+   "quote": {
+    "text": "charge more than you think you should",
+    "speaker": "Aaron Edwards",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8901,
+    "approx_timestamp_s": 468
+   }
+  },
+  {
+   "lesson": "Bad-fit customers (solo devs) churn and DIY; target companies with support teams.",
+   "theme": "niche_selection",
+   "quote": null
+  },
+  {
+   "lesson": "SMBs won't learn new software; the opportunity is implementation services on top of AI.",
+   "theme": "offer_design",
+   "quote": {
+    "text": "They're installing water heaters. Yeah. Exactly. So they need that person",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17510,
+    "approx_timestamp_s": 922
+   }
+  },
+  {
+   "lesson": "Companies hiring support staff already have budget and ticket load.",
+   "theme": "customer_acquisition",
+   "quote": null
+  },
+  {
+   "lesson": "Spend more per prospect on unique outreach when deal value is high.",
+   "theme": "customer_acquisition",
+   "quote": null
+  },
+  {
+   "lesson": "Lifestyle bootstrapping gives freedom (6 weeks vacation) but slower growth; he'd reinvest more in ads.",
+   "theme": "mindset_execution",
+   "quote": null
+  },
+  {
+   "lesson": "Prove value monthly to justify retainers.",
+   "theme": "operations",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "A",
+  "rationale": "First-hand founder with specific ARR, ARPU, churn, LTV and margin figures.",
+  "promotional_conflict": "Guest sells DocsBot and its partner program; sponsor read for .online domains."
+ },
+ "extraction": {
+  "model": "grokbot",
+  "extracted_at": "2026-10-22T08:49:10",
+  "cost_usd": null,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 45,
+   "verified": 45,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}
