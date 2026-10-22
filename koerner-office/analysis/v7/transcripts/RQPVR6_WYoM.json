@@ -1,0 +1,409 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "RQPVR6_WYoM",
+  "title": "Do these 7 Things Immediately When Building Apps with AI",
+  "channel": "Mikey No Code",
+  "url": "https://www.youtube.com/watch?v=RQPVR6_WYoM",
+  "upload_date": "2026-10-06",
+  "duration_s": 1769,
+  "view_count": 37456,
+  "transcript_provider": "cached",
+  "transcript_chars": 29168,
+  "transcript_is_whisper": false
+ },
+ "summary": "Tutorial from Mikey No Code on seven habits to adopt immediately when building apps with AI, demonstrated by building a task manager in Base44. The steps are: prototype only the core function first, write structured prompts (what it does, looks like, what users can do, what to leave out), add authentication right after the prototype works, plan the data structure in Base44's discuss mode before adding features, run Base44's free security scan before publishing, test with realistic data across multiple accounts, and make scale-ready structural choices (workspace-based data model, back-end functions). The key takeaway is that most problems blamed on AI builders come from the process around them, and the order of decisions matters. The video repeatedly promotes the creator's Base44 masterclass ($499 'normally', offered free).",
+ "speakers": [
+  {
+   "name": "Mikey No Code",
+   "role": "host",
+   "description": "No-code/AI app-building YouTuber who sells a Base44 masterclass"
+  }
+ ],
+ "format": "tutorial_howto",
+ "has_business_idea": false,
+ "ideas": [],
+ "metric_claims": [
+  {
+   "claim": "His masterclass on building SaaS apps, websites, AI agents and mobile apps with AI normally costs $499 but is offered free to viewers",
+   "metric": "price",
+   "value": {
+    "amount": 499,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": "masterclass list price"
+   },
+   "period": null,
+   "claimant": "Mikey No Code",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "my masterclass here normally costs $499 to join, but since you are watching this video and taking the time to do so, thank you so much, you can join completely free",
+    "speaker": "Mikey No Code",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1678,
+    "approx_timestamp_s": 103
+   }
+  },
+  {
+   "claim": "Base44's built-in security scan is free and takes less than a minute",
+   "metric": "hours",
+   "value": {
+    "amount": 1,
+    "amount_max": null,
+    "currency": null,
+    "unit": "minute (upper bound)",
+    "label": "security scan duration"
+   },
+   "period": null,
+   "claimant": "Mikey No Code",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "the scan is free here. It takes less than a minute, and it checks for common vulnerabilities",
+    "speaker": "Mikey No Code",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17441,
+    "approx_timestamp_s": 1080
+   }
+  },
+  {
+   "claim": "Spending a few extra minutes structuring the first prompt can prevent around 10 follow-up prompts",
+   "metric": "other",
+   "value": {
+    "amount": 10,
+    "amount_max": null,
+    "currency": null,
+    "unit": "follow-up prompts avoided",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Mikey No Code",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": null,
+   "quote": {
+    "text": "Spending a few, just a few extra minutes here deciding what the app should do and how it should behave can actually prevent 10 follow-up prompts later",
+    "speaker": "Mikey No Code",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7870,
+    "approx_timestamp_s": 487
+   }
+  },
+  {
+   "claim": "Structural weaknesses start causing inconsistent behaviour at around 100 users and become major performance and reliability problems at 10,000 users",
+   "metric": "customers",
+   "value": {
+    "amount": 100,
+    "amount_max": 10000,
+    "currency": null,
+    "unit": "users",
+    "label": "scale thresholds"
+   },
+   "period": null,
+   "claimant": "Mikey No Code",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": null,
+   "quote": {
+    "text": "at a hundred users and more, weaknesses in the structure can start causing inconsistent behavior or even unnecessary database activity",
+    "speaker": "Mikey No Code",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24606,
+    "approx_timestamp_s": 1524
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Prototype the single core function first",
+   "area": "product",
+   "steps": [
+    "Identify the one most important user loop (for a task manager: type a task and see it in a list)",
+    "Prompt only that loop, explicitly excluding extras (no categories, priorities, due dates or auth yet)",
+    "Specify minimal design (e.g. white background, blue accent)",
+    "Test the loop manually (enter, add button, display, delete) before adding anything else"
+   ],
+   "idea_local_id": null,
+   "quote": {
+    "text": "it means building the single most important function and making sure it works correctly before adding anything around it",
+    "speaker": "Mikey No Code",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3013,
+    "approx_timestamp_s": 186
+   }
+  },
+  {
+   "name": "Four-part structured build prompt",
+   "area": "product",
+   "steps": [
+    "State what the app does and the data each item holds (title, priority low/medium/high, due date)",
+    "State what it should look like (layout, grouping, colours)",
+    "State what the user can do (checkbox to complete, delete, completed items move to bottom with strikethrough)",
+    "State what to leave out (no authentication, categories or team features yet)"
+   ],
+   "idea_local_id": null,
+   "quote": {
+    "text": "It should explain what the app does, what it should look like, what the user can do, and what should be left out",
+    "speaker": "Mikey No Code",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6292,
+    "approx_timestamp_s": 389
+   }
+  },
+  {
+   "name": "Add authentication straight after the prototype works",
+   "area": "product",
+   "steps": [
+    "Once the core loop works, prompt: add sign-up/login, each user sees only their own data, keep existing functionality and design unchanged",
+    "Create two test accounts, add different tasks in each",
+    "Switch accounts and confirm data is fully isolated"
+   ],
+   "idea_local_id": null,
+   "quote": {
+    "text": "Add user authentication with sign up and login. Each user should only be able to see and manage their own tasks",
+    "speaker": "Mikey No Code",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9567,
+    "approx_timestamp_s": 592
+   }
+  },
+  {
+   "name": "Plan the data model in discuss mode before adding features",
+   "area": "product",
+   "steps": [
+    "Open Base44 discuss mode (no code changes)",
+    "Describe all future features (categories, team assignment, projects) and ask how data should be structured to support them without rebuilds",
+    "Challenge weak suggestions (e.g. categories stored inside each task vs a separate category structure)",
+    "Return to build mode and add one feature at a time with 'Do not change anything else'"
+   ],
+   "idea_local_id": null,
+   "quote": {
+    "text": "Before I add any new features, I want to plan the full data structure for this task management app",
+    "speaker": "Mikey No Code",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14036,
+    "approx_timestamp_s": 869
+   }
+  },
+  {
+   "name": "Mandatory pre-publish security scan",
+   "area": "operations",
+   "steps": [
+    "Run Base44's built-in security scan before every publish",
+    "Review flagged exposed API keys, broken access-control rules and dependency vulnerabilities",
+    "Apply recommended fixes one at a time",
+    "Re-run the scan until the app passes"
+   ],
+   "idea_local_id": null,
+   "quote": {
+    "text": "Making it a required step before every publish is one of the simplest ways to avoid shipping an app that works on the surface great, but is not secure underneath",
+    "speaker": "Mikey No Code",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18891,
+    "approx_timestamp_s": 1170
+   }
+  },
+  {
+   "name": "Realistic-data testing",
+   "area": "operations",
+   "steps": [
+    "Fill the app with realistic items: short and long titles, mixed priorities, overdue and future deadlines, active and completed states",
+    "Use more than one user account",
+    "Exercise every core flow as a real user would (create, complete, delete, switch priorities)",
+    "Fix layout and logic issues (e.g. long titles pushing buttons, overdue dates not flagged) before sharing"
+   ],
+   "idea_local_id": null,
+   "quote": null
+  },
+  {
+   "name": "Scale-ready structural defaults",
+   "area": "product",
+   "steps": [
+    "Make records belong to a workspace rather than directly to a user, without changing visible functionality",
+    "Move important, consistency-critical logic into back-end functions instead of the browser",
+    "Avoid hard-coded values that should be configurable"
+   ],
+   "idea_local_id": null,
+   "quote": {
+    "text": "Update the data structure so that tasks belong to a workspace rather than directly to a user",
+    "speaker": "Mikey No Code",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23532,
+    "approx_timestamp_s": 1458
+   }
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Base44",
+   "purpose": "AI no-code app builder used for the demo; built-in auth, discuss mode, security scan and back-end functions",
+   "cost_stated": "security scan is free"
+  },
+  {
+   "name": "Mikey No Code Base44 Masterclass",
+   "purpose": "Creator's own course on building SaaS apps, websites, AI agents and mobile apps with AI",
+   "cost_stated": "$499 normally, offered free via link"
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Putting the full feature set into one giant first prompt produces bloated, inconsistent, partly missing builds whose early mistakes get harder to fix.",
+   "quote": {
+    "text": "when your first prompt includes the complete feature set, then the initial result often just becomes bloated and inconsistent",
+    "speaker": "Mikey No Code",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2454,
+    "approx_timestamp_s": 152
+   }
+  },
+  {
+   "warning": "Vague one-line prompts make the AI fill gaps with its own defaults, leading to round after round of corrections.",
+   "quote": {
+    "text": "anything left unclear then gets filled in using its own assumptions",
+    "speaker": "Mikey No Code",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5275,
+    "approx_timestamp_s": 326
+   }
+  },
+  {
+   "warning": "Leaving authentication to the end forces retrofitting user ownership into the data model, queries and every page.",
+   "quote": {
+    "text": "Leaving authentication until the end would then just force us to retrofit that logic across the entire app",
+    "speaker": "Mikey No Code",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10941,
+    "approx_timestamp_s": 678
+   }
+  },
+  {
+   "warning": "AI code generators prioritise making features work and may not catch exposed API keys, weak access rules or vulnerable dependencies.",
+   "quote": {
+    "text": "It may not automatically catch every exposed API key, weak access rule, or vulnerable dependency sitting behind the finished result",
+    "speaker": "Mikey No Code",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17200,
+    "approx_timestamp_s": 1065
+   }
+  },
+  {
+   "warning": "Testing only with tidy placeholder data hides layout bugs and edge cases that real users will hit.",
+   "quote": null
+  },
+  {
+   "warning": "The creator's '$499 normally, free for you' masterclass pitch is a promotional funnel; treat claims about students' 'successful AI-powered businesses' as unverified.",
+   "quote": null
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "With AI builders, speed makes it easier to dig a hole: process discipline at the start matters more than generation speed.",
+   "theme": "automation_ai",
+   "quote": {
+    "text": "the faster that you build, the faster you can dig yourself too into a hole that takes you days to climb out of",
+    "speaker": "Mikey No Code",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 252,
+    "approx_timestamp_s": 15
+   }
+  },
+  {
+   "lesson": "An MVP prototype means the single most important function working, not a rough version of the whole app.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "A prototype in Vibe coding does not mean creating a rough version of the entire app",
+    "speaker": "Mikey No Code",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2926,
+    "approx_timestamp_s": 181
+   }
+  },
+  {
+   "lesson": "Prompt quality determines first-build quality: say what it does, how it looks, what users can do and what to exclude.",
+   "theme": "automation_ai",
+   "quote": null
+  },
+  {
+   "lesson": "Cross-cutting concerns (auth, data ownership) should be added early because every later feature depends on them.",
+   "theme": "operations",
+   "quote": null
+  },
+  {
+   "lesson": "Plan the data model with the AI before writing code; design decisions are cheap before features depend on them.",
+   "theme": "operations",
+   "quote": null
+  },
+  {
+   "lesson": "Security review and realistic-data testing should be standard gates before publishing or sharing, even for small apps.",
+   "theme": "legal_risk",
+   "quote": null
+  },
+  {
+   "lesson": "Building for scale means a few smart structural defaults (workspace-based ownership, server-side logic), not building every future feature.",
+   "theme": "scaling",
+   "quote": {
+    "text": "building for scale does not mean adding every feature you might need one day",
+    "speaker": "Mikey No Code",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22671,
+    "approx_timestamp_s": 1405
+   }
+  },
+  {
+   "lesson": "Many problems blamed on AI builders are actually caused by the process used around them.",
+   "theme": "automation_ai",
+   "quote": {
+    "text": "Many of the problems blamed on AI builders are actually just caused by the process used around them",
+    "speaker": "Mikey No Code",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 26733,
+    "approx_timestamp_s": 1656
+   }
+  },
+  {
+   "lesson": "If changing the whole workflow is too much, start with structured first prompts and early authentication for the biggest immediate gain.",
+   "theme": "mindset_execution",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "C",
+  "rationale": "Generic process tutorial with a demo build; no first-hand business numbers. Useful build hygiene for AI-built SaaS but not a business case.",
+  "promotional_conflict": "Promotes the creator's own Base44 masterclass ($499 'normally', free via link) twice; Base44 is presented very favourably."
+ },
+ "extraction": {
+  "model": "grokbot",
+  "extracted_at": "2026-10-22T09:23:27",
+  "cost_usd": null,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 18,
+   "verified": 18,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

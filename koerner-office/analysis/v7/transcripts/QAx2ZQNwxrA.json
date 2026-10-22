@@ -1,0 +1,1889 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "QAx2ZQNwxrA",
+  "title": "14 BORING Businesses That Run Without a Single Employee",
+  "channel": "Harry's Stealth Wealth",
+  "url": "https://www.youtube.com/watch?v=QAx2ZQNwxrA",
+  "upload_date": "2026-10-19",
+  "duration_s": 2308,
+  "view_count": 4234,
+  "transcript_provider": "cached",
+  "transcript_chars": 34016,
+  "transcript_is_whisper": false
+ },
+ "summary": "Faceless listicle combining two lists: seven 'booked hour' self-serve space rentals (karaoke booth, tanning booth, nap pod, infrared sauna pod, private dog field, day office, golf simulator bay) and seven certificate-gated recurring trades (pool cleaning, chimney sweep, pest control, energy audit, arborist, landscaping, commercial cleaning). A composite character 'Harry' illustrates each path. Key takeaways: for space rentals, an online calendar plus expiring door code replaces staff and placement in a host venue on revenue share is key; for trades, a cheap certificate plus recurring contracts is the moat. Numbers are aggregated ranges, not first-hand.",
+ "speakers": [
+  {
+   "name": "Narrator",
+   "role": "narrator",
+   "description": "Faceless channel narrator (Harry's Stealth Wealth); 'Harry' is a story character"
+  }
+ ],
+ "format": "listicle_roundup",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Karaoke booth on revenue share in a host venue",
+   "one_liner": "Put a private karaoke room inside a bar or bowling alley, sold by the hour via online booking and an expiring keypad code.",
+   "category": "rental_asset",
+   "business_model": "Hourly room rental; 20-30% revenue share paid to host venue instead of rent",
+   "customer": "Groups of friends wanting private karaoke in the evening",
+   "problem": "No private place to sing without an audience",
+   "offer": "One private hour (later 30-minute base unit) in a soundproof booth, self check-in by code",
+   "pricing": {
+    "model": "Hourly / 30-minute slots",
+    "price_points": [
+     {
+      "amount": 30,
+      "currency": "USD",
+      "unit": "per hour",
+      "amount_max": 150
+     },
+     {
+      "amount": 50,
+      "currency": "USD",
+      "unit": "per hour",
+      "label": "example rate"
+     }
+    ],
+    "notes": "Weekday afternoons 10-20% below peak; repriced to a 30-minute base unit with hourly as a discount."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "partnerships",
+     "details": "Host venue (bar, bowling alley, entertainment complex) funnels its regulars; revenue share 20-30%.",
+     "quote": {
+      "text": "You offer the host a share of the takings instead of rent, somewhere in the 20 to 30% range",
+      "speaker": "Narrator",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 3193,
+      "approx_timestamp_s": 224
+     }
+    },
+    {
+     "channel": "seo_organic_search",
+     "details": "Local search for 'karaoke room near me'."
+    }
+   ],
+   "delivery": "Booth installed in host venue; online calendar generates a code per booking that expires at slot end; 15-minute buffers; no staff.",
+   "unit_economics_claims": [
+    "11 booked hours/week at $50/h = ~$1,800/month",
+    "Running cost ~$15/hour vs $50-150 rent",
+    "With drinks/snacks operators report $1,100-4,000 per week"
+   ],
+   "tools": [
+    "Online booking calendar",
+    "Keypad smart lock"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "Months 1-2: $300-500/month in the composite story",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Inbound local search plus host venue footfall; listings and ads automatable."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Online booking calendar issues the slot and door code."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Booth runs itself; cleaning/reset between groups and host coordination are human."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Card payment taken at booking."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "FAQs and rebooking automated; damage/lockouts need a human or host venue."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Works in UK venues; UK needs music licensing (PPL PRS) for public karaoke, and host venue alcohol licence. Revenue share with pubs plausible."
+   },
+   "risks": [
+    "Utilisation risk; most walk-ups want 30-45 minutes",
+    "Music licensing (PPL PRS in UK)",
+    "Dependence on host venue footfall"
+   ],
+   "is_primary": true,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "A room like that costs about 15 dollars an hour to run. It rents for 50 to 150. That gap is the whole business",
+     "speaker": "Narrator",
+     "match_score": 94.4,
+     "verified": true,
+     "char_offset": 2333,
+     "approx_timestamp_s": 163
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Self-serve tanning booth in a gym",
+   "one_liner": "A sunless or UV tanning booth placed inside an existing gym, booked and paid per session.",
+   "category": "rental_asset",
+   "business_model": "Per-session fees",
+   "customer": "Gym members and locals wanting a tan before/after work",
+   "problem": "Tanning salons are staffed and seasonal",
+   "offer": "Self-serve tanning session",
+   "pricing": {
+    "model": "Per session",
+    "price_points": [
+     {
+      "amount": 10,
+      "currency": "USD",
+      "unit": "per session",
+      "amount_max": 25
+     },
+     {
+      "amount": 30,
+      "currency": "USD",
+      "unit": "per spray session",
+      "amount_max": 40
+     }
+    ],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "partnerships",
+     "details": "Placed inside an existing gym; members are the footfall."
+    }
+   ],
+   "delivery": "Booth with scheduling app; operator replaces lotion/bulbs.",
+   "unit_economics_claims": [
+    "Sunless booth ~$15,000 installed; basic bed $1,000-10,000",
+    "Big chains average ~$500,000/year per staffed location"
+   ],
+   "tools": [
+    "Scheduling app"
+   ],
+   "startup_cost": "$1,000-15,000 equipment",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Host gym provides customers; online booking automatable."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Online booking calendar issues the slot and door code."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Machine delivers; restocking and bulb maintenance are physical."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Card payment taken at booking."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "FAQs and rebooking automated; damage/lockouts need a human or host venue."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 2,
+    "notes": "UK: Sunbeds (Regulation) Act 2010 bans under-18s and unsupervised sunbeds in England and Wales, so unmanned UV sunbeds are effectively illegal; sunless spray booths are possible."
+   },
+   "risks": [
+    "UK law bans unsupervised sunbed use (Sunbeds Regulation Act 2010)",
+    "Health rules on bulbs, signage, minimum ages",
+    "Seasonal demand"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "Health rules on bulb replacement, signage, and minimum ages mean a casual operator cannot just drop a bed into a spare room",
+     "speaker": "Narrator",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 5348,
+     "approx_timestamp_s": 375
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Nap pod in a hospital, airport or campus",
+   "one_liner": "Hourly-rented sleep pods placed where shift workers and travellers already are.",
+   "category": "rental_asset",
+   "business_model": "Hourly rental on revenue share with host building",
+   "customer": "Hospital staff, airline crew, night workers, students",
+   "problem": "Need to rest between shifts or flights with no home nearby",
+   "offer": "Private pod for an hour, QR/app check-in",
+   "pricing": {
+    "model": "Hourly",
+    "price_points": [
+     {
+      "amount": 10,
+      "currency": "USD",
+      "unit": "per hour",
+      "amount_max": 50
+     },
+     {
+      "amount": 25,
+      "currency": "USD",
+      "unit": "per hour (airport)",
+      "amount_max": 50
+     },
+     {
+      "amount": 10,
+      "currency": "USD",
+      "unit": "per hour",
+      "amount_max": 12,
+      "label": "Seattle startup opening rate"
+     }
+    ],
+    "notes": "Mature operators with extras report $45-65 per occupied hour."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "partnerships",
+     "details": "Placed on revenue share inside hospital, airport, campus or co-working floor."
+    }
+   ],
+   "delivery": "QR/app check-in releases lock; occupancy sensor; disposable linens or a route cleaner doing 4-5 sites a morning.",
+   "unit_economics_claims": [
+    "$20/h x 5 h/day = ~$3,000/month",
+    "India maker: 4 pods at 70% occupancy ~$1,000/month, >$2,000 with layover bookings"
+   ],
+   "tools": [
+    "QR code / app check-in",
+    "Occupancy sensor"
+   ],
+   "startup_cost": "one unit (cost not stated)",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Footfall comes from host building; host deal is human."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Online booking calendar issues the slot and door code."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Pod runs unattended; linens/cleaning on a route."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Card payment taken at booking."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "FAQs and rebooking automated; damage/lockouts need a human or host venue."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Works in UK hospitals/airports subject to host approval; NHS procurement may be slow."
+   },
+   "risks": [
+    "Placement is everything; quiet retail fails",
+    "Buying two pods before proving one"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "A pod at $20 an hour, booked 5 hours a day, is around $3,000 a month before costs",
+     "speaker": "Narrator",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 7042,
+     "approx_timestamp_s": 494
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "Infrared sauna pod in a gym",
+   "one_liner": "Single infrared sauna unit placed inside a gym, sold as private sessions.",
+   "category": "rental_asset",
+   "business_model": "Per-session / hourly fees",
+   "customer": "Gym members",
+   "problem": "Want sauna sessions without a studio membership",
+   "offer": "Private infrared sauna session",
+   "pricing": {
+    "model": "Per session or private suite hourly",
+    "price_points": [
+     {
+      "amount": 60,
+      "currency": "USD",
+      "unit": "per hour private suite",
+      "amount_max": 150
+     },
+     {
+      "amount": 25,
+      "currency": "USD",
+      "unit": "per 30-90 min drop-in",
+      "amount_max": 75
+     }
+    ],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "partnerships",
+     "details": "Gym membership is channel number one."
+    }
+   ],
+   "delivery": "Unit in gym, booked online; 5-10 sessions/day target.",
+   "unit_economics_claims": [
+    "Equipment route $8,000-25,000 down, monthly payments under $2,000-3,000",
+    "Small studio build $40,000-70,000",
+    "Studios average ~$570,000/year (staffed)"
+   ],
+   "tools": [],
+   "startup_cost": "$8,000-25,000 down",
+   "time_to_first_revenue": "Months 6-8 in composite story",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Gym footfall plus online booking."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Online booking calendar issues the slot and door code."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Unit runs itself; cleaning between sessions."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Card payment taken at booking."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "FAQs and rebooking automated; damage/lockouts need a human or host venue."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Works in UK; electrical and ventilation compliance needed."
+   },
+   "risks": [
+    "Electrical and ventilation permitting",
+    "Heat safety liability"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "Private suites rent for 60 to 150 dollars an hour. Drop-in sessions run 25 to 75 dollars for 30 to 90 minutes",
+     "speaker": "Narrator",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 7698,
+     "approx_timestamp_s": 540
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "Private dog field rental (pay-to-play dog park)",
+   "one_liner": "List a fenced yard or field on a marketplace and rent it by the hour to dog owners.",
+   "category": "rental_asset",
+   "business_model": "Per dog per hour via marketplace (~22% fee)",
+   "customer": "Owners of reactive dogs who cannot use public parks",
+   "problem": "Dogs that can't be trusted around others have nowhere to run",
+   "offer": "Private fenced field booked alone, gate code access",
+   "pricing": {
+    "model": "Per dog per hour",
+    "price_points": [
+     {
+      "amount": 5,
+      "currency": "USD",
+      "unit": "per dog per hour",
+      "amount_max": 50
+     },
+     {
+      "amount": 10,
+      "currency": "USD",
+      "unit": "per dog per hour",
+      "amount_max": 15,
+      "label": "typical"
+     }
+    ],
+    "notes": "Extra dogs half price; marketplace takes ~22% plus card fees."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "marketplace_platform",
+     "details": "Listing on a dog-park marketplace (Sniffspot-style) that has customers, insurance and payments.",
+     "quote": {
+      "text": "A listing on the marketplace that already has the customers, which takes about 22% plus card fees",
+      "speaker": "Narrator",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 10545,
+      "approx_timestamp_s": 740
+     }
+    }
+   ],
+   "delivery": "Fence, water, coded gate; walk the field once or twice a day.",
+   "unit_economics_claims": [
+    "Average host ~$180/month; top hosts >$3,000/month",
+    "Farm host averaged $7,100/month, peak $8,400",
+    "20 bookings x $15 x 1.5 dogs = ~$450 before cut"
+   ],
+   "tools": [
+    "Dog park marketplace (Sniffspot implied)"
+   ],
+   "startup_cost": "Cheapest if you own land (fence, water, gate)",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Marketplace provides demand."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Online booking calendar issues the slot and door code."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Field self-serve; daily pick-up and water refill."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Card payment taken at booking."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "FAQs and rebooking automated; damage/lockouts need a human or host venue."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Sniffspot and similar operate in the UK; needs land."
+   },
+   "risks": [
+    "Requires owning land",
+    "Most hosts earn little (~$180/month)"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "Elizabeth Morisoni, who lists a 108-acre farm and average $7,100 a month across the first half of one year",
+     "speaker": "Narrator",
+     "match_score": 94.2,
+     "verified": true,
+     "char_offset": 9890,
+     "approx_timestamp_s": 694
+    }
+   ]
+  },
+  {
+   "local_id": "I6",
+   "name": "Single private day office / phone booth",
+   "one_liner": "Rent a phone booth or small office by the hour or day.",
+   "category": "rental_asset",
+   "business_model": "Hourly/daily rental",
+   "customer": "Remote workers needing a private room",
+   "problem": "No quiet private space on workdays",
+   "offer": "Booth or office by the hour/day",
+   "pricing": {
+    "model": "Hourly/daily",
+    "price_points": [
+     {
+      "amount": 5,
+      "currency": "USD",
+      "unit": "per hour booth"
+     },
+     {
+      "amount": 15,
+      "currency": "USD",
+      "unit": "per day desk"
+     },
+     {
+      "amount": 50,
+      "currency": "USD",
+      "unit": "per day private office"
+     }
+    ],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Placed in a co-working floor; pairs with evening units in same building."
+    }
+   ],
+   "delivery": "Self-access booking.",
+   "unit_economics_claims": [
+    "Booth $5/h x 4 h/day = ~$440/month",
+    "Office $50/day x 15 days = $750/month"
+   ],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "Months 9-11 in composite story",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Host footfall and booking listings."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Online booking calendar issues the slot and door code."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Self-serve; cleaning occasionally."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Card payment taken at booking."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "FAQs and rebooking automated; damage/lockouts need a human or host venue."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works the same in the UK."
+   },
+   "risks": [
+    "Low revenue per unit"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "One booth at $5 an hour filled 4 hours a day across a working month is roughly $440",
+     "speaker": "Narrator",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 12115,
+     "approx_timestamp_s": 851
+    }
+   ]
+  },
+  {
+   "local_id": "I7",
+   "name": "Golf simulator bay in a host venue",
+   "one_liner": "One or two simulator bays inside a brewery or sports bar on revenue share, members book in an app that unlocks the door.",
+   "category": "rental_asset",
+   "business_model": "Hourly bay rental plus memberships",
+   "customer": "Golfers, especially in winter",
+   "problem": "Weather and course access",
+   "offer": "Bay time and memberships, app-unlocked",
+   "pricing": {
+    "model": "Hourly + membership",
+    "price_points": [
+     {
+      "amount": 40,
+      "currency": "USD",
+      "unit": "per hour median"
+     },
+     {
+      "amount": 60,
+      "currency": "USD",
+      "unit": "per hour peak",
+      "amount_max": 80
+     },
+     {
+      "amount": 70,
+      "currency": "USD",
+      "unit": "per hour big cities",
+      "amount_max": 140
+     },
+     {
+      "amount": 200,
+      "currency": "USD",
+      "unit": "per month membership"
+     }
+    ],
+    "notes": "Median $40 (census) / $55 (booking platform)."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "marketplace_platform",
+     "details": "Booking platform listings."
+    },
+    {
+     "channel": "existing_audience",
+     "details": "Membership locks in regulars."
+    }
+   ],
+   "delivery": "App booking unlocks door; no front desk.",
+   "unit_economics_claims": [
+    "One bay 60% utilisation at $50 blended = $4,000-5,500/month",
+    "Blended model ~$8,500/month per bay",
+    "Full build $150,000-500,000; hardware $15,000-40,000/bay",
+    "Break-even under ~35% utilisation"
+   ],
+   "tools": [
+    "Booking app with door unlock"
+   ],
+   "startup_cost": "$15,000-40,000 hardware per bay (if hosted)",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Booking platforms and membership."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Online booking calendar issues the slot and door code."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Unattended bay; maintenance periodic."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Card payment taken at booking."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "FAQs and rebooking automated; damage/lockouts need a human or host venue."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Indoor golf popular in UK; same model."
+   },
+   "risks": [
+    "High capex for full venue",
+    "Utilisation ramp ~33% in year one"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "One operator running this model describes memberships around $200 a month and virtually no employees",
+     "speaker": "Narrator",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 14169,
+     "approx_timestamp_s": 995
+    }
+   ]
+  },
+  {
+   "local_id": "I8",
+   "name": "Pool cleaning route with CPO certification",
+   "one_liner": "Weekly residential pool route plus commercial/HOA pools unlocked by a Certified Pool Operator course.",
+   "category": "home_service",
+   "business_model": "Monthly recurring per pool",
+   "customer": "Homeowners with pools, HOAs, commercial pools",
+   "problem": "Pools need weekly maintenance",
+   "offer": "Weekly cleaning and chemical service",
+   "pricing": {
+    "model": "Monthly per pool",
+    "price_points": [
+     {
+      "amount": 125,
+      "currency": "USD",
+      "unit": "per pool per month",
+      "amount_max": 150
+     },
+     {
+      "amount": 390,
+      "currency": "USD",
+      "unit": "CPO course",
+      "amount_max": 500
+     }
+    ],
+    "notes": "Commercial accounts pay 2-10x."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "door_to_door_in_person",
+     "details": "Knock doors in one tight neighbourhood for route density."
+    }
+   ],
+   "delivery": "Operator drives a dense route with test kit and net.",
+   "unit_economics_claims": [
+    "40-50 pools at $125-150 = $5,000-7,500/month",
+    "Bright Pools bought for $35,000, grew past $100,000/year",
+    "Route setup ~ $6,000"
+   ],
+   "tools": [
+    "Pool route software"
+   ],
+   "startup_cost": "~$6,000",
+   "time_to_first_revenue": "Month 3: ~3 pools; month 6: ~10",
+   "automation": {
+    "acquisition": {
+     "score_e": 0,
+     "how": "Door knocking; cannot be automated legally or practically."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Quotes and contracts can be templated; first meeting/site visit is human."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical work by the operator on site."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Recurring invoicing via service software."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Scheduling and reminders automated; problems need a human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 1,
+    "notes": "Few private pools in UK; market is small. CPO-equivalent (PWTAG) exists."
+   },
+   "risks": [
+    "Small UK market",
+    "Physical work"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "A solo operator running 40 to 50 weekly homes at around $125 to $150 a month per pool clears roughly $5,000 to $7,500 a month in season",
+     "speaker": "Narrator",
+     "match_score": 95.4,
+     "verified": true,
+     "char_offset": 18046,
+     "approx_timestamp_s": 1267
+    }
+   ]
+  },
+  {
+   "local_id": "I9",
+   "name": "Certified chimney sweep",
+   "one_liner": "Chimney sweeping and certified repairs fed by insurer and estate agent vendor lists.",
+   "category": "home_service",
+   "business_model": "Per job, annual rebooking",
+   "customer": "Homeowners with fireplaces",
+   "problem": "Fire safety; insurer requirements",
+   "offer": "Sweeping, repairs, relining",
+   "pricing": {
+    "model": "Per job",
+    "price_points": [
+     {
+      "amount": 500,
+      "currency": "USD",
+      "unit": "first-year certification",
+      "amount_max": 600
+     }
+    ],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "referrals_word_of_mouth",
+     "details": "Become go-to for an insurance agent or home inspector; vendor lists."
+    }
+   ],
+   "delivery": "Operator with brushes, vacuum and van.",
+   "unit_economics_claims": [
+    "Sweep-only ~ $150,000/year",
+    "Owner grew $70,000 to seven figures over 8 years"
+   ],
+   "tools": [],
+   "startup_cost": "Brushes, vacuum, used van",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Referral partnerships are human."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Quotes and contracts can be templated; first meeting/site visit is human."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical work by the operator on site."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Recurring invoicing via service software."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Scheduling and reminders automated; problems need a human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "UK has HETAS/NACS sweeps; similar referral model."
+   },
+   "risks": [
+    "Physical, seasonal"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "Insurers and real estate agents keep vendor lists and they only list certified sweeps",
+     "speaker": "Narrator",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 20690,
+     "approx_timestamp_s": 1453
+    }
+   ]
+  },
+  {
+   "local_id": "I10",
+   "name": "Pest control quarterly route",
+   "one_liner": "Licensed pest control sold door-to-door as quarterly plans.",
+   "category": "home_service",
+   "business_model": "Quarterly recurring service",
+   "customer": "Homeowners",
+   "problem": "Pests",
+   "offer": "Quarterly spraying plan",
+   "pricing": {
+    "model": "Recurring per service",
+    "price_points": [
+     {
+      "amount": 135,
+      "currency": "USD",
+      "unit": "per recurring service"
+     }
+    ],
+    "notes": "Margin ~$120 per $135 service (Casey McDaniel)."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "door_to_door_in_person",
+     "details": "Door-to-door in tight clusters offering quarterly plan."
+    }
+   ],
+   "delivery": "Technician sprays route every 3 months.",
+   "unit_economics_claims": [
+    "Solo tech $4,000-10,000/month",
+    "Casey McDaniel: $8,000 start to $1.3M recurring in 3 years",
+    "200-500 homes needed"
+   ],
+   "tools": [],
+   "startup_cost": "$8,000 chemicals (example)",
+   "time_to_first_revenue": "Month 4 knocking and signing",
+   "automation": {
+    "acquisition": {
+     "score_e": 0,
+     "how": "Door-to-door sales."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Quotes and contracts can be templated; first meeting/site visit is human."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical work by the operator on site."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Recurring invoicing via service software."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Scheduling and reminders automated; problems need a human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "UK needs BASIS/RSPH training and pesticide rules; quarterly spray culture less common."
+   },
+   "risks": [
+    "Licensing",
+    "Door-to-door sales labour"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "He started with $8,000 of chemicals in his garage and scaled to a $1.3 million recurring revenue business in 3 years",
+     "speaker": "Narrator",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 22110,
+     "approx_timestamp_s": 1553
+    }
+   ]
+  },
+  {
+   "local_id": "I11",
+   "name": "Certified home energy auditor",
+   "one_liner": "BPI/RESNET-certified auditor feeding off utility rebate programs.",
+   "category": "b2b_service",
+   "business_model": "Per audit",
+   "customer": "Homeowners seeking rebates",
+   "problem": "Rebate paperwork needs a certified signer",
+   "offer": "Energy audits and ratings",
+   "pricing": {
+    "model": "Per audit",
+    "price_points": [
+     {
+      "amount": 85,
+      "currency": "USD",
+      "unit": "per basic audit",
+      "amount_max": 125
+     },
+     {
+      "amount": 200,
+      "currency": "USD",
+      "unit": "per rating",
+      "amount_max": 450
+     },
+     {
+      "amount": 1500,
+      "currency": "USD",
+      "unit": "training",
+      "amount_max": 3000
+     }
+    ],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "partnerships",
+     "details": "Referral relationship with a utility rebate program."
+    }
+   ],
+   "delivery": "Site visit with blower door kit.",
+   "unit_economics_claims": [
+    "15-20 audits/month"
+   ],
+   "tools": [
+    "Blower door kit"
+   ],
+   "startup_cost": "$1,500-3,000 training",
+   "time_to_first_revenue": "several weeks",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Referral pipeline from rebate program."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Quotes and contracts can be templated; first meeting/site visit is human."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical work by the operator on site."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Recurring invoicing via service software."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Scheduling and reminders automated; problems need a human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "UK equivalent is Domestic Energy Assessor (EPCs) with accreditation."
+   },
+   "risks": [
+    "Policy-dependent demand"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "Certified auditors earn roughly $85 to $125 per basic audit, and specialized raters earn $200 to $450 per rating",
+     "speaker": "Narrator",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 24159,
+     "approx_timestamp_s": 1697
+    }
+   ]
+  },
+  {
+   "local_id": "I12",
+   "name": "Certified arborist tree work",
+   "one_liner": "Tree removal plus recurring maintenance and utility line clearance unlocked by ISA certification.",
+   "category": "home_service",
+   "business_model": "Per job + multi-year contracts",
+   "customer": "Homeowners, property managers, utilities",
+   "problem": "Tree risk and maintenance",
+   "offer": "Removals, pruning, line clearance",
+   "pricing": {
+    "model": "Per job/contract",
+    "price_points": [
+     {
+      "amount": 800,
+      "currency": "USD",
+      "unit": "per tree removal"
+     },
+     {
+      "amount": 335,
+      "currency": "USD",
+      "unit": "exam",
+      "amount_max": 420
+     }
+    ],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "partnerships",
+     "details": "Chase property managers and municipalities for maintenance contracts."
+    }
+   ],
+   "delivery": "Crew with truck, chipper, climbing gear.",
+   "unit_economics_claims": [
+    "Solo certified ~ $7,500/month at maturity"
+   ],
+   "tools": [],
+   "startup_cost": "Chainsaws, gear, chipper, used truck",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Contract bids are human."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Quotes and contracts can be templated; first meeting/site visit is human."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical work by the operator on site."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Recurring invoicing via service software."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Scheduling and reminders automated; problems need a human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "UK equivalents (NPTC chainsaw tickets, Arboricultural Association)."
+   },
+   "risks": [
+    "Dangerous work",
+    "3 years experience for exam"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "High-ticket removals pay $800 or more per tree",
+     "speaker": "Narrator",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 25247,
+     "approx_timestamp_s": 1773
+    }
+   ]
+  },
+  {
+   "local_id": "I13",
+   "name": "Landscaping maintenance with season contracts",
+   "one_liner": "Weekly mowing sold as season-long contracts plus commercial accounts.",
+   "category": "home_service",
+   "business_model": "Per visit / monthly contracts",
+   "customer": "Homeowners and commercial properties",
+   "problem": "Lawn upkeep",
+   "offer": "Weekly maintenance contract",
+   "pricing": {
+    "model": "Per visit / monthly",
+    "price_points": [
+     {
+      "amount": 50,
+      "currency": "USD",
+      "unit": "per visit"
+     },
+     {
+      "amount": 600,
+      "currency": "USD",
+      "unit": "per month commercial",
+      "amount_max": 2000
+     }
+    ],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "direct_mail_postcards",
+     "details": "Door hangers in one tight cluster, then upsell season contract."
+    }
+   ],
+   "delivery": "Operator with mower and trailer.",
+   "unit_economics_claims": [
+    "40 homes x $50 weekly = $8,000/month",
+    "Nets $3,000-8,000/month in season"
+   ],
+   "tools": [],
+   "startup_cost": "Used mower, trailer, door hangers",
+   "time_to_first_revenue": "1-3 weeks",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Door hangers are physical but cheap; no PECR issue with leaflets."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Quotes and contracts can be templated; first meeting/site visit is human."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical work by the operator on site."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Recurring invoicing via service software."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Scheduling and reminders automated; problems need a human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works same in UK."
+   },
+   "risks": [
+    "Seasonal",
+    "Low barrier, heavy competition"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "40 weekly homes at $50 a visit is $8,000 a month of base load mowing revenue",
+     "speaker": "Narrator",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 27247,
+     "approx_timestamp_s": 1914
+    }
+   ]
+  },
+  {
+   "local_id": "I14",
+   "name": "Commercial office cleaning",
+   "one_liner": "Nightly B2B janitorial contracts; insurance and bonding are the moat.",
+   "category": "b2b_service",
+   "business_model": "Monthly recurring contracts",
+   "customer": "Office managers, medical suites",
+   "problem": "Offices need nightly cleaning",
+   "offer": "Recurring nightly cleaning",
+   "pricing": {
+    "model": "Monthly per contract",
+    "price_points": [
+     {
+      "amount": 800,
+      "currency": "USD",
+      "unit": "per month per contract"
+     },
+     {
+      "amount": 500,
+      "currency": "USD",
+      "unit": "per year insurance+bonding",
+      "amount_max": 1500
+     }
+    ],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "door_to_door_in_person",
+     "details": "Walk into office parks and ask property managers who cleans at night.",
+     "quote": {
+      "text": "Walk into office parks and medical suites during the day and ask the property manager who cleans at night",
+      "speaker": "Narrator",
+      "match_score": 96.2,
+      "verified": true,
+      "char_offset": 29874,
+      "approx_timestamp_s": 2098
+     }
+    }
+   ],
+   "delivery": "Operator cleans nightly.",
+   "unit_economics_claims": [
+    "5 contracts x $800 = $4,000/month",
+    "10,000 sq ft office can be >$70,000/year",
+    "Five-client portfolio scaled past $34,000/month"
+   ],
+   "tools": [],
+   "startup_cost": "Under $500 gear plus insurance",
+   "time_to_first_revenue": "1-2 weeks",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "In-person walk-ins; B2B cold email to limited companies is legal in UK and could be automated."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Quotes and contracts can be templated; first meeting/site visit is human."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical work by the operator on site."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Recurring invoicing via service software."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Scheduling and reminders automated; problems need a human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works the same in UK."
+   },
+   "risks": [
+    "Physical labour",
+    "Price contracts you can service twice"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "A solo operator securing five recurring contracts at around $800 a month each generates $4,000 a month",
+     "speaker": "Narrator",
+     "match_score": 94.0,
+     "verified": true,
+     "char_offset": 28387,
+     "approx_timestamp_s": 1994
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Karaoke room rents for $30-150 per hour",
+   "metric": "price",
+   "value": {
+    "amount": 30,
+    "currency": "USD",
+    "unit": "per hour",
+    "amount_max": 150
+   },
+   "claimant": "Narrator",
+   "first_hand": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "A private room rents for 30 to 150 dollars an hour, depending on the town and the night",
+    "speaker": "Narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1887,
+    "approx_timestamp_s": 132
+   }
+  },
+  {
+   "claim": "One booth booked 11 hours a week at $50/h brings ~ $1,800/month",
+   "metric": "revenue",
+   "value": {
+    "amount": 1800,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Narrator",
+   "first_hand": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "One booth, booked around 11 hours a week at 50 dollars an hour, brings in roughly 1800 dollars a month",
+    "speaker": "Narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2073,
+    "approx_timestamp_s": 145
+   },
+   "hypothetical": true
+  },
+  {
+   "claim": "Operators pairing rooms with drinks report $1,100-4,000 a week",
+   "metric": "revenue",
+   "value": {
+    "amount": 1100,
+    "currency": "USD",
+    "unit": "per week",
+    "amount_max": 4000
+   },
+   "claimant": "Narrator",
+   "first_hand": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "in the range of 1100 to 4000 dollars in a single week",
+    "speaker": "Narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2243,
+    "approx_timestamp_s": 157
+   }
+  },
+  {
+   "claim": "Biggest tanning chains average ~ $500,000/year per location",
+   "metric": "revenue",
+   "value": {
+    "amount": 500000,
+    "currency": "USD",
+    "unit": "per year per location"
+   },
+   "claimant": "Narrator",
+   "first_hand": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "The biggest tanning chains average around $500,000 a year per location",
+    "speaker": "Narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4937,
+    "approx_timestamp_s": 346
+   }
+  },
+  {
+   "claim": "Sunless booth costs ~ $15,000 installed",
+   "metric": "cost",
+   "value": {
+    "amount": 15000,
+    "currency": "USD",
+    "unit": "one-off"
+   },
+   "claimant": "Narrator",
+   "first_hand": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "$15,000 installed. A basic bed is cheaper",
+    "speaker": "Narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5196,
+    "approx_timestamp_s": 365
+   }
+  },
+  {
+   "claim": "Nap pod at $20/h booked 5h/day ~ $3,000/month",
+   "metric": "revenue",
+   "value": {
+    "amount": 3000,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Narrator",
+   "first_hand": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "A pod at $20 an hour, booked 5 hours a day, is around $3,000 a month before costs",
+    "speaker": "Narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7042,
+    "approx_timestamp_s": 494
+   },
+   "hypothetical": true
+  },
+  {
+   "claim": "Infrared sauna studios average ~ $570,000/year",
+   "metric": "revenue",
+   "value": {
+    "amount": 570000,
+    "currency": "USD",
+    "unit": "per year"
+   },
+   "claimant": "Narrator",
+   "first_hand": false,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "The studios doing this at scale average around 570,000 dollars a year",
+    "speaker": "Narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7807,
+    "approx_timestamp_s": 548
+   }
+  },
+  {
+   "claim": "Farm host averaged $7,100/month, peak $8,400",
+   "metric": "revenue",
+   "value": {
+    "amount": 7100,
+    "currency": "USD",
+    "unit": "per month",
+    "amount_max": 8400
+   },
+   "claimant": "Narrator about Elizabeth Morisoni",
+   "first_hand": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "average $7,100 a month across the first half of one year, peaking at 8,400 in a single month",
+    "speaker": "Narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9943,
+    "approx_timestamp_s": 698
+   }
+  },
+  {
+   "claim": "Average dog-field host earns ~ $180/month",
+   "metric": "revenue",
+   "value": {
+    "amount": 180,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Narrator",
+   "first_hand": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "because most hosts list a yard and forget about it. The committed ones are somewhere else entirely",
+    "speaker": "Narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9615,
+    "approx_timestamp_s": 675
+   }
+  },
+  {
+   "claim": "Golf bay median $40/hour",
+   "metric": "price",
+   "value": {
+    "amount": 40,
+    "currency": "USD",
+    "unit": "per hour"
+   },
+   "claimant": "Narrator",
+   "first_hand": false,
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "puts the national median at $40 an hour, with the middle range at 25 to 55",
+    "speaker": "Narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12844,
+    "approx_timestamp_s": 902
+   }
+  },
+  {
+   "claim": "One golf bay at 60% utilisation ~ $4,000-5,500/month",
+   "metric": "revenue",
+   "value": {
+    "amount": 4000,
+    "currency": "USD",
+    "unit": "per month",
+    "amount_max": 5500
+   },
+   "claimant": "Narrator",
+   "first_hand": false,
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "One bay at 60% utilization and a blended $50 an hour brings in roughly 4 to 5 and 1/2 thousand dollars a month",
+    "speaker": "Narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13125,
+    "approx_timestamp_s": 922
+   },
+   "hypothetical": true
+  },
+  {
+   "claim": "Composite 'Harry' reached ~ $3,919/month across three units by month 18",
+   "metric": "revenue",
+   "value": {
+    "amount": 3919,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Narrator",
+   "first_hand": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "By month 18, blended across three units, he was at about $3,919 a month",
+    "speaker": "Narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15102,
+    "approx_timestamp_s": 1060
+   }
+  },
+  {
+   "claim": "40-50 pools at $125-150 clears $5,000-7,500/month",
+   "metric": "revenue",
+   "value": {
+    "amount": 5000,
+    "currency": "USD",
+    "unit": "per month",
+    "amount_max": 7500
+   },
+   "claimant": "Narrator",
+   "first_hand": false,
+   "idea_local_id": "I8",
+   "quote": {
+    "text": "clears roughly $5,000 to $7,500 a month in season",
+    "speaker": "Narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18135,
+    "approx_timestamp_s": 1273
+   },
+   "hypothetical": true
+  },
+  {
+   "claim": "Bright Pools bought for $35,000, grown past $100,000/year",
+   "metric": "revenue",
+   "value": {
+    "amount": 100000,
+    "currency": "USD",
+    "unit": "per year"
+   },
+   "claimant": "Narrator about Brian and Mike",
+   "first_hand": false,
+   "idea_local_id": "I8",
+   "quote": {
+    "text": "They bought an existing pool business called Bright Pools for $35,000 and grew it past $100,000 a year",
+    "speaker": "Narrator",
+    "match_score": 94.0,
+    "verified": true,
+    "char_offset": 19335,
+    "approx_timestamp_s": 1358
+   }
+  },
+  {
+   "claim": "Casey McDaniel scaled pest control to $1.3M recurring in 3 years",
+   "metric": "revenue",
+   "value": {
+    "amount": 1300000,
+    "currency": "USD",
+    "unit": "recurring revenue"
+   },
+   "claimant": "Narrator about Casey McDaniel",
+   "first_hand": false,
+   "idea_local_id": "I10",
+   "quote": {
+    "text": "scaled to a $1.3 million recurring revenue business in 3 years using door-to-door sales",
+    "speaker": "Narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22163,
+    "approx_timestamp_s": 1556
+   }
+  },
+  {
+   "claim": "Margin ~ $120 on a $135 pest service",
+   "metric": "margin",
+   "value": {
+    "amount": 120,
+    "currency": "USD",
+    "unit": "per service"
+   },
+   "claimant": "Narrator about Casey McDaniel",
+   "first_hand": false,
+   "idea_local_id": "I10",
+   "quote": {
+    "text": "His margin ran about $120 on a $135 recurring service",
+    "speaker": "Narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22283,
+    "approx_timestamp_s": 1565
+   }
+  },
+  {
+   "claim": "Five-client commercial cleaning portfolio past $34,000/month",
+   "metric": "revenue",
+   "value": {
+    "amount": 34000,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Narrator",
+   "first_hand": false,
+   "idea_local_id": "I14",
+   "quote": {
+    "text": "One aggregate case shows a five-client commercial cleaning portfolio scaling past $34,000 a month",
+    "speaker": "Narrator",
+    "match_score": 93.8,
+    "verified": true,
+    "char_offset": 29630,
+    "approx_timestamp_s": 2081
+   }
+  },
+  {
+   "claim": "Composite 'Harry' trades story reached ~ $6,129/month by month 12",
+   "metric": "revenue",
+   "value": {
+    "amount": 6129,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Narrator",
+   "first_hand": false,
+   "idea_local_id": "I8",
+   "quote": {
+    "text": "he settled somewhere around $6,129 a month",
+    "speaker": "Narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 30927,
+    "approx_timestamp_s": 2172
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Host-venue revenue share instead of rent",
+   "area": "operations",
+   "steps": [
+    "Place the unit (booth, pod, bay) inside a venue with existing footfall",
+    "Pay the host 20-30% of takings instead of fixed rent",
+    "Online booking calendar generates an expiring door code per booking",
+    "Add 15-minute buffers between bookings"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Put 15 minutes of buffer between every booking from day one",
+    "speaker": "Narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4377,
+    "approx_timestamp_s": 307
+   }
+  },
+  {
+   "name": "Price the unit customers want",
+   "area": "pricing",
+   "steps": [
+    "Check real utilisation vs booked hours",
+    "Reprice around a 30-minute base unit",
+    "Make the hourly rate the discount for staying longer"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Price the unit the customer actually wants to buy, not the unit that is easiest to bill",
+    "speaker": "Narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9189,
+    "approx_timestamp_s": 645
+   }
+  },
+  {
+   "name": "Three filters before buying a unit",
+   "area": "product",
+   "steps": [
+    "Does the crowd already walk past the door?",
+    "Can the space be reset without you?",
+    "Which hours does it fill; stack units whose peak hours differ"
+   ],
+   "idea_local_id": null,
+   "quote": {
+    "text": "Does the crowd already walk past the door? If the answer is no, that is a marketing problem being bought",
+    "speaker": "Narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15337,
+    "approx_timestamp_s": 1077
+   }
+  },
+  {
+   "name": "10-minute demand check on maps",
+   "area": "acquisition",
+   "steps": [
+    "Search maps for nearest karaoke room, golf bay and private dog field",
+    "Check distance and whether their calendars have free evening slots this week"
+   ],
+   "idea_local_id": null,
+   "quote": null
+  },
+  {
+   "name": "Certificate moat plus recurring contract",
+   "area": "sales",
+   "steps": [
+    "Pick a trade with a cheap fast certificate",
+    "Earn it",
+    "Sell a recurring contract (weekly/quarterly/nightly) not one-off jobs",
+    "Use a one-page scope and term contract for every account"
+   ],
+   "idea_local_id": "I8",
+   "quote": {
+    "text": "He wrote a simple scope and term contract for every account after that",
+    "speaker": "Narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23418,
+    "approx_timestamp_s": 1645
+   }
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Online booking calendar",
+   "purpose": "Selling hourly slots",
+   "cost_stated": null
+  },
+  {
+   "name": "Keypad / smart lock",
+   "purpose": "Expiring door codes",
+   "cost_stated": null
+  },
+  {
+   "name": "Dog park marketplace (unnamed, ~22% fee)",
+   "purpose": "Demand, insurance, payments for private dog fields",
+   "cost_stated": "~22% plus card fees"
+  },
+  {
+   "name": "Certified Pool Operator (Pool and Hot Tub Alliance)",
+   "purpose": "Pool certification",
+   "cost_stated": "$390-500"
+  },
+  {
+   "name": "Chimney Safety Institute of America",
+   "purpose": "Chimney sweep certification",
+   "cost_stated": "$500-600 first year"
+  },
+  {
+   "name": "BPI / RESNET",
+   "purpose": "Energy auditor certification",
+   "cost_stated": "$1,500-3,000"
+  },
+  {
+   "name": "International Society of Arboriculture",
+   "purpose": "Certified arborist",
+   "cost_stated": "$335-420"
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Buying two pods before the first proves its building.",
+   "quote": {
+    "text": "The mistake to avoid, buying two pods before the first one has proven its building",
+    "speaker": "Narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7437,
+    "approx_timestamp_s": 522
+   }
+  },
+  {
+   "warning": "Hourly pricing hid half-empty bookings; real utilisation was half of the booking sheet.",
+   "quote": null
+  },
+  {
+   "warning": "Handshake deals with no written scope lead to unpaid extra work.",
+   "quote": {
+    "text": "shook his hand on a deal with no written scope, nothing on paper",
+    "speaker": "Narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23205,
+    "approx_timestamp_s": 1630
+   }
+  },
+  {
+   "warning": "Chasing one-off jobs instead of recurring contracts.",
+   "quote": null
+  },
+  {
+   "warning": "Figures are composite ranges from a faceless channel; 'Harry' is a narrative device.",
+   "quote": null
+  },
+  {
+   "warning": "UK: unsupervised UV sunbeds are banned; door-to-door and cold calling to homes need TPS checks under PECR; cold SMS to homeowners is illegal without consent.",
+   "quote": null
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "The calendar and the expiring lock replace the employee for space-rental businesses.",
+   "theme": "automation_ai",
+   "quote": {
+    "text": "The calendar is the business. And the lock is the employee",
+    "speaker": "Narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11537,
+    "approx_timestamp_s": 810
+   }
+  },
+  {
+   "lesson": "Utilisation, not sticker price, decides unit economics.",
+   "theme": "finance_unit_economics",
+   "quote": {
+    "text": "Utilization, not the sticker price, is what decides this",
+    "speaker": "Narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7382,
+    "approx_timestamp_s": 518
+   }
+  },
+  {
+   "lesson": "Stack units whose demand peaks at different hours in one footprint.",
+   "theme": "scaling",
+   "quote": null
+  },
+  {
+   "lesson": "Revenue share with a host turns fixed rent into a variable cost.",
+   "theme": "finance_unit_economics",
+   "quote": null
+  },
+  {
+   "lesson": "A cheap certificate most competitors skip can be the moat.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "The trade is not the moat. The certificate is",
+    "speaker": "Narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23862,
+    "approx_timestamp_s": 1676
+   }
+  },
+  {
+   "lesson": "Never sign a recurring contract at a price you cannot service twice.",
+   "theme": "pricing",
+   "quote": {
+    "text": "Never sign a recurring contract at a price you cannot service twice",
+    "speaker": "Narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 30626,
+    "approx_timestamp_s": 2151
+   }
+  },
+  {
+   "lesson": "A business is worth more the less the owner is required (Built to Sell).",
+   "theme": "exit_acquisition",
+   "quote": null
+  },
+  {
+   "lesson": "Route density drives profit in service routes.",
+   "theme": "operations",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "C",
+  "rationale": "Second-hand aggregated ranges and a composite fictional character; some named operators but no first-hand interviews.",
+  "promotional_conflict": "Mentions books (Built to Sell, So Good They Can't Ignore You); no product sold."
+ },
+ "extraction": {
+  "model": "grokbot",
+  "extracted_at": "2026-10-22T09:23:29",
+  "cost_usd": null,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 45,
+   "verified": 45,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

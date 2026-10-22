@@ -1,0 +1,1163 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "L8kpGiVuwz4",
+  "title": "He Makes $1M a Year Selling Fish From His Backyard",
+  "channel": "UpFlip",
+  "url": "https://www.youtube.com/watch?v=L8kpGiVuwz4",
+  "upload_date": "2026-06-22",
+  "duration_s": 2286,
+  "view_count": 3777876,
+  "transcript_provider": "local_whisper_tiny",
+  "transcript_chars": 40509,
+  "transcript_is_whisper": true
+ },
+ "summary": "UpFlip visits Ty at Smoking Chimneys (as transcribed), a revitalised 1930s federal trout hatchery on four acres in Newcastle, southwest Virginia, fed by a 3,000-gallon-a-minute limestone spring. With zero fish experience, Ty spent a year cleaning the site, a year learning to raise trout and a year getting state processing approval, burned through $60k of savings and worked at a grocery store before reaching $120k in sales; the farm now does $1.1M revenue with about $218k (19.8%) net margin, selling 85% fresh to Michelin-star and high-end restaurants and 15% frozen/smoked to co-ops, grocers and direct-to-consumer boxes. Growth came with no debt and no ads, using organic reels, chef referrals and in-person cooler drops. The key lesson was raising price from $11.50/lb (below a $15/lb cost) to $18/lb, which saved the business.",
+ "speakers": [
+  {
+   "name": "UpFlip host (name not stated)",
+   "role": "host",
+   "description": "UpFlip interviewer"
+  },
+  {
+   "name": "Ty",
+   "role": "guest",
+   "description": "Owner of the trout farm (transcribed as Smoking Chimneys / Smoke in the Chimneys)"
+  },
+  {
+   "name": "Shannon",
+   "role": "other",
+   "description": "Ty's spouse, blind taste-test judge"
+  }
+ ],
+ "format": "case_study_profile",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Spring-fed boutique trout farm selling to fine-dining restaurants",
+   "one_liner": "Revive an old spring-fed trout hatchery and sell premium fresh and smoked trout to Michelin-star restaurants, grocers and consumers.",
+   "category": "manufacturing",
+   "business_model": "Product sales by the pound: wholesale to restaurants (85% fresh), frozen/smoked to co-ops, small grocers and direct-to-consumer boxes incl. a subscription",
+   "customer": "High-end and Michelin-star restaurants across US cities; co-ops, small grocery stores, home consumers",
+   "problem": "Farm-raised fish has a stigma; chefs want pristine, clean-tasting trout",
+   "offer": "Whole fresh trout harvested weekly year-round, smoked fillets and whole smoked trout, brook trout on request",
+   "pricing": {
+    "model": "Per pound",
+    "price_points": [
+     {
+      "amount": 18,
+      "currency": "USD",
+      "unit": "per lb",
+      "label": "fresh trout"
+     },
+     {
+      "amount": 25,
+      "currency": "USD",
+      "unit": "per lb",
+      "label": "smoked trout"
+     },
+     {
+      "amount": 11.5,
+      "currency": "USD",
+      "unit": "per lb",
+      "label": "old price (loss-making)"
+     }
+    ],
+    "notes": "Raised from $11.50 to $18 when cost was ~$15/lb; lost a few customers, mainly on the consumer/co-op side."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "organic_social_content",
+     "details": "2-3 reels a week showing how fish are raised, to overcome farm-fish stigma; no paid ads.",
+     "quote": {
+      "text": "there's no ads. Not all of our organic content. You know, we're posting like, you know, two or three reels a week",
+      "speaker": "Ty",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 22480,
+      "approx_timestamp_s": 1348
+     }
+    },
+    {
+     "channel": "door_to_door_in_person",
+     "details": "Showed up at restaurants with a cooler of fish and let chefs try it; quarterly 3-4 day city trips.",
+     "quote": {
+      "text": "my pitch was showing up in person with a cooler fish",
+      "speaker": "Ty",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 26886,
+      "approx_timestamp_s": 1612
+     }
+    },
+    {
+     "channel": "referrals_word_of_mouth",
+     "details": "Small fine-dining community refers chefs to each other.",
+     "quote": {
+      "text": "the fine dining community is pretty small. So we get referrals from other chefs",
+      "speaker": "Ty",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 26365,
+      "approx_timestamp_s": 1581
+     }
+    }
+   ],
+   "delivery": "Three full-time staff plus owners: daily feeding, weekly pond weed trimming, oxygen checks, Monday harvest and processing, UPS shipping, Tuesday local deliveries, Wednesday smoking; outsourced fillet processing and fingerlings from another farm.",
+   "unit_economics_claims": [
+    "Revenue $1.1M; total costs $882k; net $218k (19.8%)",
+    "Labor $120k, shipping $156k, fingerlings/live fish $96k, feed $84k, owner salary $60k, packaging $66k, fillet processing $120k, marketing (salary + travel) $72k",
+    "Cost ~$15/lb vs old price $11.50/lb",
+    "Eggs: 25-50k for $2,500",
+    "Shipping ~$10k/month",
+    "Startup infrastructure ~$10k; $60k savings burned over two years",
+    "Smoker cost $20k"
+   ],
+   "tools": [
+    "UPS",
+    "Smoker",
+    "Crane basket truck",
+    "Dissolved oxygen meter",
+    "eBay (old books)"
+   ],
+   "startup_cost": "~$10k infrastructure plus ~$60k burned on feed and living over two years",
+   "time_to_first_revenue": "About three years (clean-up, learning to raise fish, state processing approval); trout take ~2 years to mature",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Organic content helps but chef relationships are built in person."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Restaurant accounts set up through relationships; DTC orders online."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Live animal farming, harvesting, gutting, smoking and packing are physical daily work."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Invoicing and DTC checkout/subscriptions are software."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Replacing warm boxes and chef relationships need humans."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "UK has trout farms and chalk streams; needs Cefas fish health authorisation, Environment Agency abstraction/discharge permits and food business registration. Physically intensive; unsuitable for automation."
+   },
+   "risks": [
+    "Fish die-offs from oxygen or water problems",
+    "Years before first sale",
+    "Thin ~20% margin with heavy shipping and packaging",
+    "Dependent on a single spring",
+    "Underpricing risk",
+    "Inventory management stress"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "We spent a year cleaning the property up. Second year was like learning how to actually raise fish. And then the third year was going back and forth with the state",
+     "speaker": "Ty",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 6167,
+     "approx_timestamp_s": 369
+    },
+    {
+     "text": "our cost is about 15 a pound",
+     "speaker": "Ty",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 30101,
+     "approx_timestamp_s": 1805
+    },
+    {
+     "text": "So 85% you're going fresh to restaurants and the other 15 are going frozen",
+     "speaker": "Ty",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 20872,
+     "approx_timestamp_s": 1252
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Direct-to-consumer smoked trout boxes and subscription",
+   "one_liner": "Ship frozen/smoked trout boxes to homes with a monthly subscription option, packed with ice packs rather than dry ice.",
+   "category": "ecommerce_physical",
+   "business_model": "One-off and subscription product boxes",
+   "customer": "Home consumers",
+   "problem": "Access to premium farm trout at home",
+   "offer": "Boxes of smoked fillets, whole smoked trout and fresh trout with ice packs",
+   "pricing": {
+    "model": "Per box / subscription",
+    "price_points": [
+     {
+      "amount": 25,
+      "currency": "USD",
+      "unit": "per lb",
+      "label": "smoked trout"
+     }
+    ],
+    "notes": "No dry ice to keep costs down; replaced if it arrives warm."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "organic_social_content",
+     "details": "Same organic reels.",
+     "quote": null
+    }
+   ],
+   "delivery": "Packed in-house and shipped via UPS.",
+   "unit_economics_claims": [
+    "Smoked products ~15% of business last year and growing"
+   ],
+   "tools": [
+    "UPS"
+   ],
+   "startup_cost": "Smoker $20k",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Content and ecommerce can be largely automated."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Online checkout."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Smoking, packing and shipping cold food are manual."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Subscription billing software."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Agents can handle replacement requests with approval."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Chilled food shipping and food hygiene registration apply in the UK."
+   },
+   "risks": [
+    "Boxes arriving warm",
+    "Cold-chain shipping cost"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "We just replace it, because we don't guarantee it's gonna show up frozen",
+     "speaker": "Ty",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 32695,
+     "approx_timestamp_s": 1961
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Small-scale regenerative farming (raw milk dairy, grass-fed beef, pastured chickens)",
+   "one_liner": "Family-land farm products such as raw milk, grass-fed beef or pastured chickens sold direct (Ty's prior work; also Fat Mountain Farms episode reference).",
+   "category": "manufacturing",
+   "business_model": "Direct farm product sales",
+   "customer": "Consumers wanting premium farm products",
+   "problem": "Demand for high-quality farm products",
+   "offer": "Raw milk, grass-fed beef, chickens",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "not stated",
+     "quote": null
+    }
+   ],
+   "delivery": "Physical farming",
+   "unit_economics_claims": [
+    "Fat Mountain Farms grew to more than $250,000 through livestock (referenced episode)"
+   ],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Farmers markets and content."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "not stated"
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical farming."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Card payments."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 2,
+    "notes": "Raw milk sales are heavily restricted in the UK (England allows only farm-gate/direct sales by registered producers)."
+   },
+   "risks": [
+    "Hard physical work",
+    "Regulation of raw milk"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "The demand for amazing farm products is the highest it's ever been. But you gotta like the work",
+     "speaker": "Ty",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 7779,
+     "approx_timestamp_s": 466
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Annual revenue $1.1 million",
+   "metric": "revenue",
+   "value": {
+    "amount": 1100000,
+    "currency": "USD",
+    "unit": "per year"
+   },
+   "period": "annual",
+   "claimant": "Ty",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "We're at 1.1 mill rev",
+    "speaker": "Host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21311,
+    "approx_timestamp_s": 1278
+   }
+  },
+  {
+   "claim": "Total expenses $882k leaving $218k net, 19.8% margin",
+   "metric": "profit",
+   "value": {
+    "amount": 218000,
+    "currency": "USD",
+    "unit": "per year",
+    "label": "19.8% margin"
+   },
+   "period": "annual",
+   "claimant": "Ty",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Which leaves us with 218,000, which is percentage point of margin. - 19.8",
+    "speaker": "Host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22737,
+    "approx_timestamp_s": 1363
+   }
+  },
+  {
+   "claim": "Labor $120k per year",
+   "metric": "cost",
+   "value": {
+    "amount": 120000,
+    "currency": "USD",
+    "unit": "per year"
+   },
+   "period": "annual",
+   "claimant": "Ty",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Labor. - 120K",
+    "speaker": "Ty",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21391,
+    "approx_timestamp_s": 1283
+   }
+  },
+  {
+   "claim": "Shipping $156k per year",
+   "metric": "cost",
+   "value": {
+    "amount": 156000,
+    "currency": "USD",
+    "unit": "per year"
+   },
+   "period": "annual",
+   "claimant": "Ty",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Shipping. - 156",
+    "speaker": "Ty",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21402,
+    "approx_timestamp_s": 1283
+   }
+  },
+  {
+   "claim": "Fingerlings/live fish $96k per year",
+   "metric": "cost",
+   "value": {
+    "amount": 96000,
+    "currency": "USD",
+    "unit": "per year"
+   },
+   "period": "annual",
+   "claimant": "Ty",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Fingerlings, 96,000",
+    "speaker": "Ty",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21478,
+    "approx_timestamp_s": 1288
+   }
+  },
+  {
+   "claim": "Feed $84k per year",
+   "metric": "cost",
+   "value": {
+    "amount": 84000,
+    "currency": "USD",
+    "unit": "per year"
+   },
+   "period": "annual",
+   "claimant": "Ty",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Feed. - That's a big one. - 84,000",
+    "speaker": "Ty",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21502,
+    "approx_timestamp_s": 1289
+   }
+  },
+  {
+   "claim": "Owner salary $60k",
+   "metric": "cost",
+   "value": {
+    "amount": 60000,
+    "currency": "USD",
+    "unit": "per year"
+   },
+   "period": "annual",
+   "claimant": "Ty",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "My salary. - 60K",
+    "speaker": "Ty",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21565,
+    "approx_timestamp_s": 1293
+   }
+  },
+  {
+   "claim": "Packaging $66k per year",
+   "metric": "cost",
+   "value": {
+    "amount": 66000,
+    "currency": "USD",
+    "unit": "per year"
+   },
+   "period": "annual",
+   "claimant": "Ty",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Packaging 66,000",
+    "speaker": "Ty",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21924,
+    "approx_timestamp_s": 1315
+   }
+  },
+  {
+   "claim": "Fillet processing $120k per year",
+   "metric": "cost",
+   "value": {
+    "amount": 120000,
+    "currency": "USD",
+    "unit": "per year"
+   },
+   "period": "annual",
+   "claimant": "Ty",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "filet processing. - What's the cost on that, 120,000",
+    "speaker": "Ty",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22090,
+    "approx_timestamp_s": 1325
+   }
+  },
+  {
+   "claim": "Marketing $72k (a salary plus travel), no ads",
+   "metric": "cost",
+   "value": {
+    "amount": 72000,
+    "currency": "USD",
+    "unit": "per year"
+   },
+   "period": "annual",
+   "claimant": "Ty",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "and then marketing. 72K",
+    "speaker": "Ty",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22142,
+    "approx_timestamp_s": 1328
+   }
+  },
+  {
+   "claim": "Shipping fish costs about $10k a month",
+   "metric": "cost",
+   "value": {
+    "amount": 10000,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "period": "monthly",
+   "claimant": "Ty",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "we spend 10,000 a month on just shipping the fish",
+    "speaker": "Ty",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15267,
+    "approx_timestamp_s": 915
+   }
+  },
+  {
+   "claim": "Feed about $3,500 a month",
+   "metric": "cost",
+   "value": {
+    "amount": 3500,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "period": "monthly",
+   "claimant": "Ty",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "The feed is probably 3500 bucks a month",
+    "speaker": "Ty",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15131,
+    "approx_timestamp_s": 907
+   }
+  },
+  {
+   "claim": "Eggs: 25,000-50,000 at a time for $2,500, from Washington",
+   "metric": "cost",
+   "value": {
+    "amount": 2500,
+    "currency": "USD",
+    "unit": "per egg batch"
+   },
+   "period": null,
+   "claimant": "Ty",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "about 25,000, sometimes 50,000 at a time. - What are you paying for that? - 25 hundred bucks",
+    "speaker": "Ty",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9729,
+    "approx_timestamp_s": 583
+   }
+  },
+  {
+   "claim": "Infrastructure startup cost maybe $10k",
+   "metric": "cost",
+   "value": {
+    "amount": 10000,
+    "currency": "USD",
+    "unit": "one-off"
+   },
+   "period": null,
+   "claimant": "Ty",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "the actual infrastructure costs, I mean, maybe 10 grand",
+    "speaker": "Ty",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10045,
+    "approx_timestamp_s": 602
+   }
+  },
+  {
+   "claim": "$60k savings gone over two years before selling",
+   "metric": "cost",
+   "value": {
+    "amount": 60000,
+    "currency": "USD",
+    "unit": "over two years"
+   },
+   "period": "first two years",
+   "claimant": "Ty",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "over the course of two years, the 60 grand was gone",
+    "speaker": "Ty",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10420,
+    "approx_timestamp_s": 625
+   }
+  },
+  {
+   "claim": "Feed costs $2,000 a pallet; about $1/lb, $50 a bag",
+   "metric": "cost",
+   "value": {
+    "amount": 2000,
+    "currency": "USD",
+    "unit": "per pallet"
+   },
+   "period": null,
+   "claimant": "Ty",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I was buying feed $2,000 a pallet",
+    "speaker": "Ty",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10544,
+    "approx_timestamp_s": 632
+   }
+  },
+  {
+   "claim": "Did about $120k in sales in the year he had $6 in the bank",
+   "metric": "revenue",
+   "value": {
+    "amount": 120000,
+    "currency": "USD",
+    "unit": "per year"
+   },
+   "period": "early year",
+   "claimant": "Ty",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "in that same year, we did like 120,000 in sales",
+    "speaker": "Ty",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18464,
+    "approx_timestamp_s": 1107
+   }
+  },
+  {
+   "claim": "Old price $11.50/lb vs cost ~$15/lb; raised to $18/lb",
+   "metric": "price",
+   "value": {
+    "amount": 18,
+    "currency": "USD",
+    "unit": "per lb"
+   },
+   "period": null,
+   "claimant": "Ty",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "For charge and 11.50, bleeding money, we're just gonna slowly bleed out",
+    "speaker": "Ty",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 30139,
+    "approx_timestamp_s": 1807
+   }
+  },
+  {
+   "claim": "Smoked trout sells at $25/lb",
+   "metric": "price",
+   "value": {
+    "amount": 25,
+    "currency": "USD",
+    "unit": "per lb"
+   },
+   "period": null,
+   "claimant": "Ty",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "How much are you selling the smoke trout per pound? - 25",
+    "speaker": "Ty",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 31759,
+    "approx_timestamp_s": 1905
+   }
+  },
+  {
+   "claim": "Smoker cost $20,000",
+   "metric": "cost",
+   "value": {
+    "amount": 20000,
+    "currency": "USD",
+    "unit": "one-off"
+   },
+   "period": null,
+   "claimant": "Ty",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "What did you pay for the smoker, Ty? - $20,000",
+    "speaker": "Ty",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 28262,
+    "approx_timestamp_s": 1695
+   }
+  },
+  {
+   "claim": "Makes $60k for every $360k of sales",
+   "metric": "margin",
+   "value": {
+    "amount": 60000,
+    "currency": "USD",
+    "unit": "per $360k sales"
+   },
+   "period": null,
+   "claimant": "Ty",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I make 60 grand for every $360,000 worth of sales",
+    "speaker": "Ty",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23096,
+    "approx_timestamp_s": 1385
+   }
+  },
+  {
+   "claim": "Second facility expected to take revenue to about $1.5M",
+   "metric": "revenue",
+   "value": {
+    "amount": 1500000,
+    "currency": "USD",
+    "unit": "per year (projection)"
+   },
+   "period": "future",
+   "claimant": "Ty",
+   "first_hand": true,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "That'll probably get us to the 1.5 marks somewhere in there",
+    "speaker": "Ty",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23797,
+    "approx_timestamp_s": 1427
+   }
+  },
+  {
+   "claim": "50,000-100,000 fish on the farm at any time",
+   "metric": "other",
+   "value": {
+    "amount": 50000,
+    "amount_max": 100000,
+    "currency": null,
+    "unit": "fish"
+   },
+   "period": null,
+   "claimant": "Ty",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "We probably have between 50 and 100,000 here at any given time",
+    "speaker": "Ty",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2348,
+    "approx_timestamp_s": 140
+   }
+  },
+  {
+   "claim": "Three full-time staff",
+   "metric": "other",
+   "value": {
+    "amount": 3,
+    "currency": null,
+    "unit": "full-time staff"
+   },
+   "period": null,
+   "claimant": "Ty",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I've like three full-time people",
+    "speaker": "Ty",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15230,
+    "approx_timestamp_s": 913
+   }
+  },
+  {
+   "claim": "Boutique farms typically run ~20% margin",
+   "metric": "margin",
+   "value": {
+    "amount": 20,
+    "currency": "%",
+    "unit": "net margin"
+   },
+   "period": null,
+   "claimant": "Ty",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "This is pretty typical for like a boutique farm kind of like ours, 20%",
+    "speaker": "Ty",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23494,
+    "approx_timestamp_s": 1409
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Know your cost per unit and price above it",
+   "area": "pricing",
+   "steps": [
+    "Run the numbers on full cost per pound (~$15)",
+    "Raise price from $11.50 to $18 so you earn a few dollars per pound",
+    "Accept losing a few customers; restaurants can absorb it better than retail co-ops"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "if it's cost in 15, we need to make a couple bucks per pound to run our business",
+    "speaker": "Ty",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 30247,
+    "approx_timestamp_s": 1814
+   }
+  },
+  {
+   "name": "Product-first pitch to chefs",
+   "area": "sales",
+   "steps": [
+    "Show up in person with a cooler of fish",
+    "Explain briefly what you do",
+    "Let the chef taste it",
+    "Build exactly what top chefs ask for (raised brook trout over two years for Blue Hill)"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I would show up with the product, tell them a little bit about what we were doing, and then let them travel the trout",
+    "speaker": "Ty",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 27027,
+    "approx_timestamp_s": 1621
+   }
+  },
+  {
+   "name": "Fixed weekly operating rhythm",
+   "area": "operations",
+   "steps": [
+    "Monday: harvest, process, chill, pack, UPS",
+    "Tuesday: local deliveries and retail orders",
+    "Wednesday: smoking",
+    "Thursday/Friday: feed runs and pond work",
+    "Weekly one-hour weed trimming; check dissolved oxygen (target ~7.5-7.8 ppm)"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Exit low-volume channels",
+   "area": "sales",
+   "steps": [
+    "Calculate how much volume each channel can move",
+    "Quit farmers markets selling one or two fish at a time",
+    "Focus on bulk restaurant orders"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "That was the single biggest contributor to me like quitting all farmers' markets",
+    "speaker": "Ty",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23145,
+    "approx_timestamp_s": 1388
+   }
+  },
+  {
+   "name": "Cheaper cold-chain packing",
+   "area": "operations",
+   "steps": [
+    "Use ice packs instead of dry ice",
+    "Fill dead air space with paper",
+    "Replace any box that arrives warm"
+   ],
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "Paper is really important, 'cause it's killing a lot of that dead air space",
+    "speaker": "Ty",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 33205,
+    "approx_timestamp_s": 1991
+   }
+  },
+  {
+   "name": "Content to beat product stigma",
+   "area": "acquisition",
+   "steps": [
+    "Post 2-3 reels a week showing natural raising conditions",
+    "Use content as the only marketing; no ads"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "UPS",
+   "purpose": "Shipping fish",
+   "cost_stated": "~$10k/month total shipping"
+  },
+  {
+   "name": "eBay",
+   "purpose": "Buying old trout-farming books",
+   "cost_stated": null
+  },
+  {
+   "name": "Smoker",
+   "purpose": "Smoking trout",
+   "cost_stated": "$20,000"
+  },
+  {
+   "name": "Busy (LLC formation service)",
+   "purpose": "Sponsor read: business formation",
+   "cost_stated": null
+  },
+  {
+   "name": "UpFlip Niche Finder",
+   "purpose": "Host's own niche analysis tool (promo)",
+   "cost_stated": "free"
+  },
+  {
+   "name": "Dissolved oxygen meter",
+   "purpose": "Checking pond oxygen",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Underpricing below cost slowly bleeds a business out; he agonised six months before raising price.",
+   "quote": {
+    "text": "It probably took me six months of like agonizing to come to that decision",
+    "speaker": "Ty",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 30447,
+    "approx_timestamp_s": 1826
+   }
+  },
+  {
+   "warning": "Inexperience killed fish early on; there were few resources for raising trout in an old system.",
+   "quote": {
+    "text": "We were killing more fish than what we were raising",
+    "speaker": "Ty",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12220,
+    "approx_timestamp_s": 733
+   }
+  },
+  {
+   "warning": "Overgrown pond weeds cut oxygen and nearly suffocated a pond of fish.",
+   "quote": null
+  },
+  {
+   "warning": "It takes years before trout can be sold; cash burn on feed is heavy.",
+   "quote": {
+    "text": "This is years, you guys. Years before you could sell the trout",
+    "speaker": "Host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10708,
+    "approx_timestamp_s": 642
+   }
+  },
+  {
+   "warning": "Boutique farming has thin margins: you spend a lot to make a fraction.",
+   "quote": null
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Charging properly protects customers too, since they rely on you staying in business.",
+   "theme": "pricing",
+   "quote": {
+    "text": "you do your customers a disservice by not charging appropriately",
+    "speaker": "Ty",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 30764,
+    "approx_timestamp_s": 1845
+   }
+  },
+  {
+   "lesson": "Take messy action and iterate; every wall is a turn in a maze.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "Take a messy action, whatever you do, it's not gonna be right, do it anyway. Then iterate",
+    "speaker": "Ty",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6630,
+    "approx_timestamp_s": 397
+   }
+  },
+  {
+   "lesson": "Avoiding debt preserves creative freedom, at the cost of slower growth.",
+   "theme": "finance_unit_economics",
+   "quote": {
+    "text": "I knew if I was in major debt, I wouldn't be able to like execute on the creative freedom",
+    "speaker": "Ty",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17387,
+    "approx_timestamp_s": 1043
+   }
+  },
+  {
+   "lesson": "A unique physical asset (the spring) is the moat; water quality drives taste.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "You have clean water, you're gonna have a clean product",
+    "speaker": "Ty",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14050,
+    "approx_timestamp_s": 842
+   }
+  },
+  {
+   "lesson": "Pick channels that move volume; tiny retail sales can't cover fixed costs.",
+   "theme": "customer_acquisition",
+   "quote": null
+  },
+  {
+   "lesson": "Deliver exactly what demanding flagship customers ask for to earn a reference account.",
+   "theme": "offer_design",
+   "quote": null
+  },
+  {
+   "lesson": "Things take much longer than expected; persistence through the low point matters.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "It's gonna take you way longer than what you thought it's gonna take, but you're going to get there",
+    "speaker": "Ty",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 33839,
+    "approx_timestamp_s": 2029
+   }
+  },
+  {
+   "lesson": "Identify what you're really afraid of; fear keeps you in your current paradigm.",
+   "theme": "mindset_execution",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "A",
+  "rationale": "First-hand operator with a full P&L breakdown and consistent numbers; Whisper transcript has some garbled names (e.g. farm name).",
+  "promotional_conflict": "Sponsor read for Busy; host promotes UpFlip Niche Finder."
+ },
+ "extraction": {
+  "model": "grokbot",
+  "extracted_at": "2026-10-22T09:17:40",
+  "cost_usd": null,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 45,
+   "verified": 45,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

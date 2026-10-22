@@ -1,0 +1,369 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "L-FFpkvkseE",
+  "title": "I Got Paid to Watch TV (2026 Mediaprobe Review)",
+  "channel": "Side Hustle Nation",
+  "url": "https://www.youtube.com/watch?v=L-FFpkvkseE",
+  "upload_date": "2026-07-20",
+  "duration_s": 297,
+  "view_count": 1192,
+  "transcript_provider": "local_whisper_tiny",
+  "transcript_chars": 5578,
+  "transcript_is_whisper": true
+ },
+ "summary": "Side Hustle Nation host reviews Mediaprobe (mPanel in some countries), a media research panel that mails you a galvanic skin response sensor and pays gift cards for watching assigned TV shows while the sensor and your phone microphone record reactions. Entry is by application (he had a five-minute verification call), you get 5-10 session invites a month, and pay is about $5 per hour. He earned $10 from a MrBeast video and $30 from World Cup games, had one session denied for leaving early, and notes privacy concerns and gift-card-only payouts. Takeaway: fine for content you would watch anyway, but not a meaningful side income.",
+ "speakers": [
+  {
+   "name": "Side Hustle Nation host (Nick Loper, not named in clip)",
+   "role": "host",
+   "description": "Reviewer testing the Mediaprobe app"
+  }
+ ],
+ "format": "tool_review",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Paid TV-watching biometric research panel (Mediaprobe)",
+   "one_liner": "Get paid gift cards by a media research firm to watch assigned shows while wearing a skin-response sensor.",
+   "category": "job_career",
+   "business_model": "Panel participation paid per session in gift cards; research company sells reaction data to networks and brands.",
+   "customer": "Mediaprobe (the payer); its clients are TV networks and content companies",
+   "problem": "Networks want to know how audiences really feel about content",
+   "offer": "Viewer watches an assigned show at airtime wearing a sensor, with mic sync, then answers a short survey",
+   "pricing": {
+    "model": "Paid per session/hour of watch time",
+    "price_points": [
+     {
+      "amount": 5,
+      "currency": "USD",
+      "unit": "per hour of watch time",
+      "label": "typical rate"
+     }
+    ],
+    "notes": "Paid only in gift cards (hundreds of options), sometimes next day."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Viewer applies to the panel; Mediaprobe selects by demographics and viewing habits and may require a short call.",
+     "quote": {
+      "text": "media probe is by application only",
+      "speaker": "Host",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 1048,
+      "approx_timestamp_s": 57
+     }
+    }
+   ],
+   "delivery": "The panelist personally watches assigned shows at scheduled airtimes wearing the sensor; app uploads data afterwards.",
+   "unit_economics_claims": [
+    "About $5 per hour of watch time",
+    "5-10 invites per month",
+    "$10 from one MrBeast video, $30 from World Cup games"
+   ],
+   "tools": [
+    "Mediaprobe app",
+    "Mediaprobe GSR sensor",
+    "Amazon gift cards"
+   ],
+   "startup_cost": "Free (sensor mailed by the company)",
+   "time_to_first_revenue": "Paid as soon as the next day after a session",
+   "automation": {
+    "acquisition": {
+     "score_e": 0,
+     "how": "Requires personal application and verification call."
+    },
+    "onboarding": {
+     "score_e": 0,
+     "how": "Human must be approved and set up the sensor."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "A real person must physically watch with a biometric sensor attached; cannot be automated and faking it would be fraud."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Company pays gift cards automatically."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Occasional emails to support for denied sessions."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "mPanel operates in other countries; UK availability not stated. Biometric data is special category data under UK GDPR, so consent terms matter."
+   },
+   "risks": [
+    "Biometric and always-on microphone privacy concerns",
+    "Gift-card-only payment",
+    "Cannot choose shows; must watch at airtime",
+    "Sessions denied if not completed in full",
+    "Tiny income, not scalable or automatable"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "Generally, media probe offers about $5 per hour of watch time, sometimes a little bit higher",
+     "speaker": "Host",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 2328,
+     "approx_timestamp_s": 127
+    },
+    {
+     "text": "is never gonna add up to a full-time income",
+     "speaker": "Host",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 2482,
+     "approx_timestamp_s": 135
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Mediaprobe pays about $5 per hour of watch time",
+   "metric": "price",
+   "value": {
+    "amount": 5,
+    "currency": "USD",
+    "unit": "per hour"
+   },
+   "period": null,
+   "claimant": "Host",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Generally, media probe offers about $5 per hour of watch time",
+    "speaker": "Host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2328,
+    "approx_timestamp_s": 127
+   }
+  },
+  {
+   "claim": "Receives 5-10 session invites per month",
+   "metric": "other",
+   "value": {
+    "amount": 5,
+    "amount_max": 10,
+    "currency": null,
+    "unit": "invites per month"
+   },
+   "period": "per month",
+   "claimant": "Host",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I've been getting like five to 10 invites a month",
+    "speaker": "Host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2094,
+    "approx_timestamp_s": 114
+   }
+  },
+  {
+   "claim": "Earned $10 from a MrBeast video and $30 from World Cup games in total",
+   "metric": "revenue",
+   "value": {
+    "amount": 40,
+    "currency": "USD",
+    "unit": "total over test month"
+   },
+   "period": "one month test",
+   "claimant": "Host",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "In total, I made 10 bucks from MrBeast and 30 bucks from watching a couple World Cup games",
+    "speaker": "Host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5067,
+    "approx_timestamp_s": 276
+   }
+  },
+  {
+   "claim": "Verification call with Mediaprobe team took about five minutes",
+   "metric": "hours",
+   "value": {
+    "amount": 5,
+    "currency": null,
+    "unit": "minutes"
+   },
+   "period": null,
+   "claimant": "Host",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I even had to get on like a five minute call with their team",
+    "speaker": "Host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1457,
+    "approx_timestamp_s": 79
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Run panel apps on a spare phone",
+   "area": "operations",
+   "steps": [
+    "Install the Mediaprobe app on an old phone you no longer use",
+    "Keep it on the session screen for the full watch time so the session is not rejected",
+    "Use your main phone normally meanwhile"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "it might make sense to install media probe on an old phone device you're no longer using",
+    "speaker": "Host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4779,
+    "approx_timestamp_s": 260
+   }
+  },
+  {
+   "name": "Recover a denied session via polite support email",
+   "area": "operations",
+   "steps": [
+    "Complete the full assigned watch time (e.g. 30 minutes of post-game show)",
+    "If denied, email support politely explaining what happened"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Mediaprobe (mPanel)",
+   "purpose": "Media research panel paying viewers to watch with a biometric sensor",
+   "cost_stated": "free; pays about $5/hour"
+  },
+  {
+   "name": "Amazon gift cards",
+   "purpose": "Preferred payout option",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Mediaprobe requires microphone access during sessions to sync show audio, a privacy concern.",
+   "quote": {
+    "text": "media probe asks you to enable the microphone on your phone",
+    "speaker": "Host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2941,
+    "approx_timestamp_s": 160
+   }
+  },
+  {
+   "warning": "Payouts are gift cards only, no cash, PayPal or Venmo.",
+   "quote": {
+    "text": "At the time of this recording, media probe only pays in gift cards",
+    "speaker": "Host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3375,
+    "approx_timestamp_s": 184
+   }
+  },
+  {
+   "warning": "Leaving a session early gets it denied with no in-app warning.",
+   "quote": {
+    "text": "I actually had one session get denied, 'cause I didn't complete the full watch time",
+    "speaker": "Host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3753,
+    "approx_timestamp_s": 204
+   }
+  },
+  {
+   "warning": "You cannot pick shows; only assigned shows at their airtime pay.",
+   "quote": {
+    "text": "you don't get to pick. You can't just turn on the TV and expect them to pay you",
+    "speaker": "Host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1968,
+    "approx_timestamp_s": 107
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Get-paid-to apps trade time for very small pay; only worth it for activities you would do anyway.",
+   "theme": "finance_unit_economics",
+   "quote": {
+    "text": "Use it for the content. You are gonna watch anyway",
+    "speaker": "Host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5224,
+    "approx_timestamp_s": 285
+   }
+  },
+  {
+   "lesson": "Data companies monetise consumer reactions and pass only a slice to the people producing the data; owning the data business is where the margin is.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "companies and TV networks pay media probe for this data to see how audiences actually feel about their content",
+    "speaker": "Host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 798,
+    "approx_timestamp_s": 43
+   }
+  },
+  {
+   "lesson": "Panels that ship hardware screen applicants hard to protect their per-panelist cost.",
+   "theme": "operations",
+   "quote": null
+  },
+  {
+   "lesson": "Your time is better spent on side hustles with higher earning potential than micro-task apps.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "your time is much better spent pursuing a side hustle with higher earning potential",
+    "speaker": "Host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5314,
+    "approx_timestamp_s": 289
+   }
+  }
+ ],
+ "evidence_quality": {
+  "rating": "B",
+  "rationale": "First-hand test with specific small earnings, but a short affiliate-style review on a Whisper transcript.",
+  "promotional_conflict": "Application link in description (likely referral/affiliate)."
+ },
+ "extraction": {
+  "model": "grokbot",
+  "extracted_at": "2026-10-22T09:14:54",
+  "cost_usd": null,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 15,
+   "verified": 15,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}
