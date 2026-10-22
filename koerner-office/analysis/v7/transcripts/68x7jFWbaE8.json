@@ -1,0 +1,1227 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "68x7jFWbaE8",
+  "title": "The Simple One-Man Side Hustle That Runs Itself",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=68x7jFWbaE8",
+  "upload_date": "2026-09-06",
+  "duration_s": 2555,
+  "view_count": 169475,
+  "transcript_provider": "cached",
+  "transcript_chars": 43861,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner interviews Nathan, a 31-year-old with a full-time auction job, who bought 10 used trailers from a retiring local operator in Lancaster, Pennsylvania for 35,000 USD and turned them into a contactless trailer rental business. After 15 months it grosses 5,500-7,500 USD a month with about 2,000-2,500 USD of overhead, taking him 2-5 hours a week. He explains the lockbox self-pickup system, pricing at ~1.5% of purchase price per day, deposits, insurance, maintenance and lead sources (Google 55%, Facebook 14%). Key takeaway: a low-tech rental asset with systemised booking can be nearly passive, and expansion via cloned small lots is the next step.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": null
+  },
+  {
+   "name": "Nathan",
+   "role": "guest",
+   "description": "Owner of Lanco Trailer Rentals, Lancaster PA; full-time auction job"
+  }
+ ],
+ "format": "operator_interview",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Contactless trailer rental yard",
+   "one_liner": "Rent 10-15 utility, enclosed, car-hauler and dump trailers from a half-acre gravel lot with online booking, e-signed agreements and lockbox self-pickup.",
+   "category": "rental_asset",
+   "business_model": "Per-day rental fees plus a security deposit hold (2x daily rate); asset retains resale value.",
+   "customer": "Local homeowners, movers, landscapers, people towing cars, motorcyclists taking bikes on trips",
+   "problem": "People need a trailer occasionally for moves, junk, landscaping or hauling and incumbents require in-person pickup at set hours",
+   "offer": "Online-bookable trailers with automated rental agreement, ID/insurance upload and 24h-before pickup instructions with lockbox code",
+   "pricing": {
+    "model": "Daily rate, roughly 1.5% of trailer purchase price per day",
+    "price_points": [
+     {
+      "amount": 50,
+      "currency": "USD",
+      "unit": "per day",
+      "label": "trailer daily rate range",
+      "amount_max": 150
+     },
+     {
+      "amount": 90,
+      "currency": "USD",
+      "unit": "per day",
+      "label": "median daily rate"
+     },
+     {
+      "amount": 95,
+      "currency": "USD",
+      "unit": "per day",
+      "label": "dump trailer"
+     }
+    ],
+    "notes": "Deposit is held on the card at two times the daily rate (about 100-250 USD). Benchmarked against larger local competitors."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "google_business_profile_maps",
+     "details": "New Google Business Profile plus SEO website built by a trailer-rental software vendor; Google is about 55% of leads.",
+     "quote": {
+      "text": "Google makes up about 55% of where the leads come and then Facebook for the last 15 months is about 14%",
+      "speaker": "Nathan",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 32981,
+      "approx_timestamp_s": 1981
+     }
+    },
+    {
+     "channel": "marketplace_platform",
+     "details": "Facebook Marketplace listings (about 14% of leads, ~100 USD total boost spend in 15 months) plus peer-to-peer trailer platforms (Neighbor, trailer rental sites) that take a commission."
+    },
+    {
+     "channel": "referrals_word_of_mouth",
+     "details": "Previous owner forwards his old customers for a 35% kickback on their first rental; repeat customers and word of mouth make up the rest."
+    },
+    {
+     "channel": "partnerships",
+     "details": "Suggested: offer local businesses such as landscapers a 10% discount program for 3+ day rentals and easy text booking."
+    }
+   ],
+   "delivery": "Owner-operated, contactless: customer books online or by phone, signs agreement on phone, gets lockbox code by text 24h before, takes before/after photos; owner checks lot twice a week; a mobile mechanic does maintenance.",
+   "unit_economics_claims": [
+    "Bought 10 used trailers for 35,000 USD that did 28,000 USD/yr for previous owner",
+    "Revenue 5,500-7,500 USD/month, overhead 2,000-2,500 USD/month, roughly 4,000 USD/month net",
+    "2-5 hours a week of owner time",
+    "Insurance 3,800 USD/yr for 13 trailers; lot 800 USD/month; software ~200 USD/month; cameras 50 USD/month; maintenance ~8,000 USD/yr",
+    "Dump trailer cost 8,300 USD, rents 95 USD/day"
+   ],
+   "tools": [
+    "Rent Flow Solutions",
+    "Google Business Profile",
+    "Facebook Marketplace",
+    "Neighbor",
+    "GPS trackers",
+    "Security cameras",
+    "Lockboxes (Amazon)"
+   ],
+   "startup_cost": "About 35,000 USD for 10 used trailers (HELOC-financed) plus ~1,000 USD lot setup",
+   "time_to_first_revenue": "First rental on day one via forwarded referral; 2,300 USD in first half month",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Inbound via Google Business Profile, SEO site and marketplaces; no outbound needed, so legal in the UK."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Online booking, e-signed agreement, licence/insurance upload and automated texts."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Physical assets: owner inspections, mechanic maintenance, damage handling and occasional customers who cannot tow."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Card payment and deposit holds via rental software."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Phone calls for pricing/availability could be handled by an AI voice agent; damage disputes need a human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Trailer rental is common in the UK (B&Q, local hire shops) but towing rules differ: car licence category (B vs B+E) limits who can tow larger trailers, and insurance must be arranged; land for a gravel lot near London is expensive."
+   },
+   "risks": [
+    "Physical damage and theft (mitigated by deposits, GPS, cameras, ID upload)",
+    "Seasonality: winter revenue dropped to ~2,000-3,000 USD",
+    "Maintenance ~8,000 USD/yr scales with usage",
+    "Inexperienced towers",
+    "UK B+E licence rules shrink the customer base for heavy trailers"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "when somebody books on the website or if they call me to book, I'll process the card information over the phone. Then the automated system kicks in",
+     "speaker": "Nathan",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 14851,
+     "approx_timestamp_s": 892
+    },
+    {
+     "text": "The last several months it fluctuates between 5,500 to 7500",
+     "speaker": "Nathan",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 23706,
+     "approx_timestamp_s": 1424
+    },
+    {
+     "text": "a decent rule of thumb is one and a half times or one and a half percent of the purchase price",
+     "speaker": "Nathan",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 27342,
+     "approx_timestamp_s": 1642
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Replicated satellite trailer lots",
+   "one_liner": "Copy the same contactless system into small 10-13 trailer lots 30 minutes apart, served by the same mobile mechanic.",
+   "category": "rental_asset",
+   "business_model": "Per-day rentals across multiple locations",
+   "customer": "Renters in neighbouring towns",
+   "problem": "Growth without quitting a job",
+   "offer": "Same systemised trailer yard in a new town",
+   "pricing": {
+    "model": "Daily rate",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "google_business_profile_maps",
+     "details": "New Google Business Profile per location"
+    }
+   ],
+   "delivery": "Same lockbox system; mobile mechanic visits each lot.",
+   "unit_economics_claims": [
+    "Host estimates up to 100,000 USD profit if the current lot were filled at the same occupancy"
+   ],
+   "tools": [
+    "Rent Flow Solutions"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Inbound local search per location."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Automated booking flow."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Physical lots and maintenance."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Automated payments."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Calls can be AI-handled."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Same as I1."
+   },
+   "risks": [
+    "Each lot needs land and local demand",
+    "More travel for inspections"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "you could do a bunch of little transplant locations of 10 to 13 trailers. Keep the footprint small and just take the exact same repeatable system",
+     "speaker": "Nathan",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 26042,
+     "approx_timestamp_s": 1564
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Golf cart rental for events and campgrounds",
+   "one_liner": "Rent golf carts for farm weddings, events and campers, usually delivered.",
+   "category": "rental_asset",
+   "business_model": "Per-day rental",
+   "customer": "Event organisers, weddings on farms, nearby campers",
+   "problem": "Getting around large outdoor events or campgrounds",
+   "offer": "Delivered golf cart for the day or week",
+   "pricing": {
+    "model": "Daily rate",
+    "price_points": [
+     {
+      "amount": 100,
+      "currency": "USD",
+      "unit": "per day",
+      "amount_max": 200
+     }
+    ],
+    "notes": "About 95% of enquiries wanted delivery."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Tested one cart in summer alongside trailer listings"
+    }
+   ],
+   "delivery": "Owner or hired helper delivers and collects.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Inbound enquiries."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Online booking."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Delivery and pickup needed by a person."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Automated."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "More moving parts and breakdowns."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Event/wedding market exists in UK; road rules for carts differ."
+   },
+   "risks": [
+    "Requires delivery labour",
+    "More moving parts and breakdowns"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "They most 95% of the people that are inquiring about them just when I'm dropped off",
+     "speaker": "Nathan",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 32007,
+     "approx_timestamp_s": 1922
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "Heavy equipment rental (skid steer, excavator)",
+   "one_liner": "Rent construction equipment such as skid steers locally, e.g. via Facebook Marketplace.",
+   "category": "rental_asset",
+   "business_model": "Per-day rental",
+   "customer": "DIYers and small contractors",
+   "problem": "Occasional need for heavy machines",
+   "offer": "Equipment hire, typically delivered with a quick tutorial",
+   "pricing": {
+    "model": "Daily rate",
+    "price_points": [
+     {
+      "amount": 450,
+      "currency": "USD",
+      "unit": "per day",
+      "label": "skid steer example"
+     }
+    ],
+    "notes": "Host's hypothetical test price."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "marketplace_platform",
+     "details": "Facebook Marketplace listings"
+    }
+   ],
+   "delivery": "Delivery, pickup, refuelling and operator tutorial.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Facebook Marketplace"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Marketplace listings."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Bookings."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Delivery and training by a person."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Automated."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Breakdowns and user errors."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Plant hire is mature in UK."
+   },
+   "risks": [
+    "Moving parts, fuel, delivery and operator training",
+    "Needs an operator to scale"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "I've rented a skid steer on Facebook Marketplace. I've rented an excavator on Facebook Marketplace",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 33910,
+     "approx_timestamp_s": 2036
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "Trailer rental starter guide",
+   "one_liner": "Free downloadable guide used as a lead magnet (email capture) about starting a trailer rental business.",
+   "category": "digital_products",
+   "business_model": "Free lead magnet; monetisation not stated",
+   "customer": "Aspiring trailer rental owners",
+   "problem": "Not knowing how to start",
+   "offer": "Starter guide at trailerrental.guide",
+   "pricing": {
+    "model": "Free",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "youtube",
+     "details": "Promoted on the podcast"
+    }
+   ],
+   "delivery": "Static PDF guide emailed after opt-in.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Podcast/organic."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Email opt-in."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "Digital download."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Free."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "Email."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Digital; works anywhere."
+   },
+   "risks": [
+    "No stated monetisation"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "I put together a free just basic starter guide um that you can go online and download at uh trailer rental.guide",
+     "speaker": "Nathan",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 41975,
+     "approx_timestamp_s": 2521
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Bought 10 used trailers for 35,000 USD",
+   "metric": "cost",
+   "value": {
+    "amount": 35000,
+    "currency": "USD",
+    "unit": "one-off"
+   },
+   "claimant": "Nathan",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "negotiated to just buy the trailers for what he was saying they were valued at, which was 35,000",
+    "speaker": "Nathan",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2248,
+    "approx_timestamp_s": 135
+   }
+  },
+  {
+   "claim": "Previous owner's 10 trailers averaged 28,000 USD a year",
+   "metric": "revenue",
+   "value": {
+    "amount": 28000,
+    "currency": "USD",
+    "unit": "per year"
+   },
+   "claimant": "Nathan",
+   "first_hand": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Those 10 trailers averaged over the last two years 28,000 a year total",
+    "speaker": "Nathan",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5046,
+    "approx_timestamp_s": 303
+   },
+   "period": "last two years"
+  },
+  {
+   "claim": "Seller asked 20,000 USD for the customer list; instead 35% referral fee on first rentals",
+   "metric": "price",
+   "value": {
+    "amount": 20000,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": "customer list ask"
+   },
+   "claimant": "Nathan",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "he was asking for $20,000 on top of the trailers for his customer list",
+    "speaker": "Nathan",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4427,
+    "approx_timestamp_s": 265
+   }
+  },
+  {
+   "claim": "Referral fees paid to date total about 1,200 USD on ~20 referrals",
+   "metric": "cost",
+   "value": {
+    "amount": 1200,
+    "currency": "USD",
+    "unit": "total"
+   },
+   "claimant": "Nathan",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "there's been 20 right about 20 referrals, it's total 1,200 bucks",
+    "speaker": "Nathan",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7422,
+    "approx_timestamp_s": 445
+   },
+   "period": "15 months"
+  },
+  {
+   "claim": "Insurance for 13 trailers plus liability is 3,800 USD/yr",
+   "metric": "cost",
+   "value": {
+    "amount": 3800,
+    "currency": "USD",
+    "unit": "per year"
+   },
+   "claimant": "Nathan",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "which there's 13 of them right now, it's 3,800 bucks a year",
+    "speaker": "Nathan",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8753,
+    "approx_timestamp_s": 525
+   }
+  },
+  {
+   "claim": "Lot rent rose from 400 to 800 USD/month",
+   "metric": "cost",
+   "value": {
+    "amount": 800,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Nathan",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I was paying him 400 bucks a month. Okay. Which was pretty reasonable. And now I'm paying 800",
+    "speaker": "Nathan",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9900,
+    "approx_timestamp_s": 594
+   }
+  },
+  {
+   "claim": "First half-month revenue 2,300 USD",
+   "metric": "revenue",
+   "value": {
+    "amount": 2300,
+    "currency": "USD",
+    "unit": "first half month"
+   },
+   "claimant": "Nathan",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "The first month's revenue was 2,300 bucks",
+    "speaker": "Nathan",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11472,
+    "approx_timestamp_s": 689
+   }
+  },
+  {
+   "claim": "First full month revenue about 4,000 USD",
+   "metric": "revenue",
+   "value": {
+    "amount": 4000,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Nathan",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "The first full months was right about 4,000",
+    "speaker": "Nathan",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11876,
+    "approx_timestamp_s": 713
+   }
+  },
+  {
+   "claim": "About 20 rentals in first full month, 3-5 from previous owner",
+   "metric": "customers",
+   "value": {
+    "amount": 20,
+    "currency": null,
+    "unit": "rentals per month"
+   },
+   "claimant": "Nathan",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "that first month, we had about 20 rentals on the first total month",
+    "speaker": "Nathan",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12593,
+    "approx_timestamp_s": 756
+   }
+  },
+  {
+   "claim": "Median daily rate ~90 USD, range 50-150; average 2 days",
+   "metric": "price",
+   "value": {
+    "amount": 90,
+    "currency": "USD",
+    "unit": "per day"
+   },
+   "claimant": "Nathan",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "A good ballpark is probably 90 bucks is the median that I rent for. It's anywhere between 50 and 150",
+    "speaker": "Nathan",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12821,
+    "approx_timestamp_s": 770
+   }
+  },
+  {
+   "claim": "Winter months dropped to just over 2,000 USD",
+   "metric": "revenue",
+   "value": {
+    "amount": 2000,
+    "currency": "USD",
+    "unit": "per month",
+    "amount_max": 3000
+   },
+   "claimant": "Nathan",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "They dropped down to the lowest was just over $2,000",
+    "speaker": "Nathan",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16620,
+    "approx_timestamp_s": 998
+   },
+   "period": "winter"
+  },
+  {
+   "claim": "Lockboxes 30 USD each, locks 65 USD each, sign 350 USD",
+   "metric": "cost",
+   "value": {
+    "amount": 350,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": "sign"
+   },
+   "claimant": "Nathan",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "The lock boxes, they're 30 bucks a piece on Amazon. I spent 350 bucks on print shop",
+    "speaker": "Nathan",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15686,
+    "approx_timestamp_s": 942
+   }
+  },
+  {
+   "claim": "Maintenance ~8,000 USD in first full year",
+   "metric": "cost",
+   "value": {
+    "amount": 8000,
+    "currency": "USD",
+    "unit": "per year"
+   },
+   "claimant": "Nathan",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "For the first full year, that was 8,000",
+    "speaker": "Nathan",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 19819,
+    "approx_timestamp_s": 1190
+   }
+  },
+  {
+   "claim": "Website and software about 200 USD/month",
+   "metric": "cost",
+   "value": {
+    "amount": 200,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Nathan",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So the website and software is right about 200 bucks a month",
+    "speaker": "Nathan",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22915,
+    "approx_timestamp_s": 1376
+   }
+  },
+  {
+   "claim": "Four cameras 50 USD/month total; GPS 150 USD upfront each with 4-year battery",
+   "metric": "cost",
+   "value": {
+    "amount": 50,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Nathan",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "The GPS, they're an upfront 150 to buy it. And the batteries are good for 4 years",
+    "speaker": "Nathan",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23203,
+    "approx_timestamp_s": 1393
+   }
+  },
+  {
+   "claim": "Revenue 5,500-7,500 USD/month recently",
+   "metric": "revenue",
+   "value": {
+    "amount": 5500,
+    "currency": "USD",
+    "unit": "per month",
+    "amount_max": 7500
+   },
+   "claimant": "Nathan",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "The last several months it fluctuates between 5,500 to 7500",
+    "speaker": "Nathan",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23706,
+    "approx_timestamp_s": 1424
+   }
+  },
+  {
+   "claim": "Overhead 2,000-2,500 USD/month, net about 4,000 USD/month",
+   "metric": "profit",
+   "value": {
+    "amount": 4000,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So you're netting 4,000 a month, give or take? Yep. 40,000 a year",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23793,
+    "approx_timestamp_s": 1429
+   }
+  },
+  {
+   "claim": "Owner spends 2-4 hours per week",
+   "metric": "hours",
+   "value": {
+    "amount": 2,
+    "currency": null,
+    "unit": "hours per week",
+    "amount_max": 4
+   },
+   "claimant": "Nathan",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I think that's where it's closer to 2 to four hours",
+    "speaker": "Nathan",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24247,
+    "approx_timestamp_s": 1456
+   }
+  },
+  {
+   "claim": "Effective rate ~200-250 USD per hour",
+   "metric": "other",
+   "value": {
+    "amount": 200,
+    "currency": "USD",
+    "unit": "per hour",
+    "amount_max": 250
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So you're making 200 plus an hour on this business",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24977,
+    "approx_timestamp_s": 1500
+   }
+  },
+  {
+   "claim": "Dump trailer bought new for 8,300 USD, rents 95 USD/day",
+   "metric": "cost",
+   "value": {
+    "amount": 8300,
+    "currency": "USD",
+    "unit": "one-off"
+   },
+   "claimant": "Nathan",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "That was 8300. Oh, new",
+    "speaker": "Nathan",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 26947,
+    "approx_timestamp_s": 1618
+   }
+  },
+  {
+   "claim": "HELOC at 2.5% intro for nine months, then 6.5%",
+   "metric": "other",
+   "value": {
+    "amount": null,
+    "currency": null,
+    "unit": null,
+    "label": "2.5% then 6.5% interest"
+   },
+   "claimant": "Nathan",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I think the initial rate was two and a half per percent",
+    "speaker": "Nathan",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 28129,
+    "approx_timestamp_s": 1689
+   }
+  },
+  {
+   "claim": "Could be 100,000 USD profit if the lot were filled",
+   "metric": "profit",
+   "value": {
+    "amount": 100000,
+    "currency": "USD",
+    "unit": "per year"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "it could be $100,000 of profit from that one halfacre lot",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 35459,
+    "approx_timestamp_s": 2130
+   },
+   "hypothetical": true
+  },
+  {
+   "claim": "Golf carts rent for 100-200 USD/day",
+   "metric": "price",
+   "value": {
+    "amount": 100,
+    "currency": "USD",
+    "unit": "per day",
+    "amount_max": 200
+   },
+   "claimant": "Nathan",
+   "first_hand": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "it's usually between 100 to 200 bucks a day",
+    "speaker": "Nathan",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 32369,
+    "approx_timestamp_s": 1944
+   }
+  },
+  {
+   "claim": "Facebook boost spend about 100 USD total in 15 months",
+   "metric": "cost",
+   "value": {
+    "amount": 100,
+    "currency": "USD",
+    "unit": "total"
+   },
+   "claimant": "Nathan",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "total over the past 15 months, spend a hundred bucks",
+    "speaker": "Nathan",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 40885,
+    "approx_timestamp_s": 2455
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Buy a small rental book from a retiring operator",
+   "steps": [
+    "Watch Facebook Marketplace for rental businesses for sale",
+    "Negotiate to pay asset value only (35,000 USD for 10 trailers)",
+    "Replace the 20,000 USD customer-list ask with a 35% first-rental referral fee to the seller",
+    "Seller forwards calls; you launch fresh brand, domain and Google Business Profile"
+   ],
+   "idea_local_id": "I1",
+   "area": "acquisition",
+   "quote": {
+    "text": "I made a deal with him that I'd just give him a referral fee for any previous renter",
+    "speaker": "Nathan",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4501,
+    "approx_timestamp_s": 270
+   }
+  },
+  {
+   "name": "Three-phase move to contactless pickup",
+   "steps": [
+    "Phase 1: meet renters in person",
+    "Phase 2: hide-a-key lockbox on each trailer with code sent after booking",
+    "Phase 3: numbered lockbox board on a rented half-acre lot, automated agreement and ID/insurance upload, pickup text 24h before",
+    "Renter takes before/after photos; deposit held at 2x daily rate"
+   ],
+   "idea_local_id": "I1",
+   "area": "operations"
+  },
+  {
+   "name": "Price trailers off purchase price",
+   "steps": [
+    "Charge ~1.5% of purchase price per day",
+    "Check larger local competitors",
+    "Payback in ~75 rental days; resale value only 20-40% below cost"
+   ],
+   "idea_local_id": "I1",
+   "area": "pricing"
+  },
+  {
+   "name": "Demand-led fleet expansion",
+   "steps": [
+    "Log every call for a trailer type you do not have",
+    "Buy the most-requested type next",
+    "Buy trailers, rent 2-3 months to test, then sell"
+   ],
+   "idea_local_id": "I1",
+   "area": "product"
+  },
+  {
+   "name": "Market density research for next location",
+   "steps": [
+    "Find sister cities with similar population and income",
+    "Count competitors and total trailers for rent from websites/calls",
+    "Compute residents per trailer and go where supply is thinnest"
+   ],
+   "idea_local_id": "I2",
+   "area": "acquisition"
+  },
+  {
+   "name": "Zero-capital demand test",
+   "steps": [
+    "Post a stock trailer image on Facebook Marketplace and count enquiries",
+    "Or list on Neighbor/peer platforms that charge commission only",
+    "Host idea: rent someone else's trailer and re-list it to test at break-even"
+   ],
+   "idea_local_id": "I1",
+   "area": "validation"
+  },
+  {
+   "name": "Local business discount program",
+   "steps": [
+    "Approach landscapers and other businesses",
+    "Offer 10% off rentals of 3+ days and text booking",
+    "Rely on repeat usage once they rent once"
+   ],
+   "idea_local_id": "I1",
+   "area": "acquisition"
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Rent Flow Solutions",
+   "purpose": "Trailer-rental website, SEO, booking, agreements and automations",
+   "cost_stated": "about 200 USD/month for website and software"
+  },
+  {
+   "name": "Google Business Profile",
+   "purpose": "Main lead source"
+  },
+  {
+   "name": "Facebook Marketplace",
+   "purpose": "Listings and demand tests",
+   "cost_stated": "~100 USD boosts over 15 months"
+  },
+  {
+   "name": "Neighbor",
+   "purpose": "Peer-to-peer rental listing for commission"
+  },
+  {
+   "name": "GPS trackers",
+   "purpose": "Mileage tracking and theft recovery",
+   "cost_stated": "150 USD each upfront"
+  },
+  {
+   "name": "Security cameras",
+   "purpose": "Lot monitoring",
+   "cost_stated": "50 USD/month for four"
+  },
+  {
+   "name": "Amazon lockboxes",
+   "purpose": "Key handover",
+   "cost_stated": "30 USD each"
+  },
+  {
+   "name": "Trailer locks",
+   "purpose": "Securing trailers",
+   "cost_stated": "65 USD each"
+  },
+  {
+   "name": "WordPress",
+   "purpose": "Previous owner's website"
+  },
+  {
+   "name": "HELOC",
+   "purpose": "Financing the initial purchase"
+  },
+  {
+   "name": "Beehiiv",
+   "purpose": "Podcast sponsor (newsletter platform)"
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Meeting renters in person wastes time because you are on their schedule.",
+   "quote": {
+    "text": "you're on their time. So if they're running late, then you're stuck there at the yard for an hour",
+    "speaker": "Nathan",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14100,
+    "approx_timestamp_s": 846
+   }
+  },
+  {
+   "warning": "Damage is inevitable; buy used first and use deposits rather than getting attached to the trailers.",
+   "quote": {
+    "text": "That's something you have to definitely disconnect yourself with, the trailers",
+    "speaker": "Nathan",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17902,
+    "approx_timestamp_s": 1075
+   }
+  },
+  {
+   "warning": "A narrow lot where trailers stack behind each other forces extra moving with a skid loader.",
+   "quote": null
+  },
+  {
+   "warning": "Expanding to golf carts, campers or equipment adds delivery, breakdowns and time.",
+   "quote": {
+    "text": "all require typically time. There's more moving parts like they break more",
+    "speaker": "Nathan",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 31800,
+    "approx_timestamp_s": 1910
+   }
+  },
+  {
+   "warning": "Open trailers are seasonal and slow in snowy winters.",
+   "quote": null
+  },
+  {
+   "warning": "Previous owner's books were poor; value the deal on asset resale value instead.",
+   "quote": null
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Value a small-business purchase on the resale value of its assets so the downside is capped if it flops.",
+   "theme": "finance_unit_economics",
+   "quote": {
+    "text": "I figured that the 35,000 just for those trailers was the price that I could sell them all for individually if we started it and it flopped",
+    "speaker": "Nathan",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5492,
+    "approx_timestamp_s": 329
+   }
+  },
+  {
+   "lesson": "Replace an up-front payment for a customer list with a performance-based referral fee.",
+   "theme": "exit_acquisition",
+   "quote": null
+  },
+  {
+   "lesson": "Front-load the time building systems so ongoing ownership is a few hours a week.",
+   "theme": "automation_ai",
+   "quote": {
+    "text": "a lot of the the time was front-loaded, just getting systems in place",
+    "speaker": "Nathan",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25384,
+    "approx_timestamp_s": 1524
+   }
+  },
+  {
+   "lesson": "Pick rental assets with no engines and few moving parts to minimise maintenance.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "it's there's no engines. So, there's typically also minimal hydraulics",
+    "speaker": "Nathan",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17098,
+    "approx_timestamp_s": 1027
+   }
+  },
+  {
+   "lesson": "Contactless self-service can be a differentiator when no local competitor offers it.",
+   "theme": "offer_design",
+   "quote": {
+    "text": "nobody was doing contact lists",
+    "speaker": "Nathan",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 35946,
+    "approx_timestamp_s": 2159
+   }
+  },
+  {
+   "lesson": "Test demand with listings before buying assets.",
+   "theme": "validation_testing",
+   "quote": null
+  },
+  {
+   "lesson": "Use residents-per-unit supply metrics to pick the next market.",
+   "theme": "niche_selection",
+   "quote": null
+  },
+  {
+   "lesson": "Layered theft controls (ID upload, payment before code, cameras, GPS) make unattended rental viable.",
+   "theme": "legal_risk",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "A",
+  "rationale": "First-hand operator with consistent, specific numbers on purchase, revenue, costs and process.",
+  "promotional_conflict": "Guest promotes a free starter guide (lead magnet); Beehiiv sponsor read."
+ },
+ "extraction": {
+  "model": "grokbot",
+  "extracted_at": "2026-10-22T08:57:03",
+  "cost_usd": null,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 40,
+   "verified": 40,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

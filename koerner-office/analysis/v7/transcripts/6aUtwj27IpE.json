@@ -1,0 +1,2229 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "6aUtwj27IpE",
+  "title": "Starting a Business Has Never Been Easier. Here’s How to Win",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=6aUtwj27IpE",
+  "upload_date": "2025-06-21",
+  "duration_s": 3934,
+  "view_count": 37255,
+  "transcript_provider": "ok",
+  "transcript_chars": 71987,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner and co-host Nick run an ideas episode on why starting a business has never been easier with AI. They discuss a 7,000 USD/month AI automation consultant selling to Fortune 500 firms with a charity guarantee, a 24-year-old running automated accounting for 140 clients at 50 USD/month, and many 'piggyback' home-service ideas (fabric pergola ceilings, B2B stump grinding, B2B pool digging). They pitch consumer AI products (custom GPTs, family trivia app, AI story capture, AI handyman mentor), a handyman mentor marketplace, a corporate invitation mailing service and AI-personalised Street View postcards. Takeaway: piggyback distribution and remove friction; AI lowers the cost of both outreach and fulfilment.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": null
+  },
+  {
+   "name": "Nick",
+   "role": "co-host",
+   "description": "Co-host (outbound/cold outreach background)"
+  }
+ ],
+ "format": "host_solo_ideas",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "AI automations-as-a-service for Fortune 500 teams",
+   "one_liner": "Sell in-person AI automation of employee tasks to large companies at 7,000 USD/month, framed as giving staff superpowers rather than replacing them.",
+   "category": "ai_automation",
+   "business_model": "Monthly retainer",
+   "customer": "Fortune 500 companies with many open job postings",
+   "problem": "Rising headcount costs and repetitive employee tasks",
+   "offer": "Interview employees about their roles, build automations, train them in person; guarantee: find savings above the fee in a 30-minute meeting or donate to a charity of their choice",
+   "pricing": {
+    "model": "Retainer",
+    "price_points": [
+     {
+      "amount": 7000,
+      "currency": "USD",
+      "unit": "per month"
+     }
+    ],
+    "notes": "Very low churn claimed."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "cold_email",
+     "details": "Strong pitch in cold emails to corporate staff, using LinkedIn/Indeed job postings to find targets.",
+     "quote": {
+      "text": "he has a really good pitch in his cold email okay he only sells in person and he has a 33% close rate in person",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 1769,
+      "approx_timestamp_s": 97
+     }
+    },
+    {
+     "channel": "door_to_door_in_person",
+     "details": "Sells only in face-to-face 30-minute meetings."
+    }
+   ],
+   "delivery": "Founder interviews employees and builds automations.",
+   "unit_economics_claims": [
+    "33% in-person close rate",
+    "7,000 USD/month per client"
+   ],
+   "tools": [
+    "LinkedIn",
+    "Indeed"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Cold email to limited companies is legal under UK PECR and can be agent-written, but closing is in person."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "Employee interviews in person."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Building automations can be agent-assisted but needs bespoke work."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Recurring invoicing."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Ongoing account management."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Large UK companies buy AI consulting; B2B cold email to corporate addresses is allowed under PECR (must offer opt-out and comply with UK GDPR legitimate interest)."
+   },
+   "risks": [
+    "Second-hand story; unverified",
+    "Founder-dependent in-person selling",
+    "Charity guarantee cost"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "I promise you I can find ways to save you so much more money than what my service costs if I can't for whatever reason",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 2239,
+     "approx_timestamp_s": 122
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Automated low-price accounting service for CPA firms / small clients",
+   "one_liner": "A 24-year-old charges 50 USD/month for automated accounting services to 140 clients and upsells automation implementation, spending about an hour a week.",
+   "category": "ai_automation",
+   "business_model": "Low-ticket subscription plus implementation upsells",
+   "customer": "CPA firms and small businesses",
+   "problem": "Outsourced bookkeeping normally costs 1,000-2,000 USD/month",
+   "offer": "Automated accounting at 50 USD/month, then automation implementation upsells",
+   "pricing": {
+    "model": "Subscription",
+    "price_points": [
+     {
+      "amount": 50,
+      "currency": "USD",
+      "unit": "per month"
+     }
+    ],
+    "notes": "Deliberately priced far below the ~1,200 USD/month market rate to be sticky."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Not stated how the 140 clients were acquired."
+    }
+   ],
+   "delivery": "Fully automated process; founder spends ~1 hour a week.",
+   "unit_economics_claims": [
+    "140 clients x 50 USD ~ 8,000 USD/month (stated as 8 grand)",
+    "Total ~16,000 USD/month with upsells (stated)"
+   ],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Unknown channel; low ticket suits inbound/self-serve."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Self-serve onboarding plausible."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Stated as fully automated."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Subscription billing."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Some support."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "UK bookkeeping is regulated lightly but anti-money-laundering supervision (AML) applies to accountancy services; MTD for VAT/income tax software rules."
+   },
+   "risks": [
+    "Hearsay numbers; 140 x 50 does not equal 8k",
+    "Compliance/accuracy liability",
+    "Low price limits support"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "I have 140 clients What what is he charging this part blew my mind 50 bucks a month",
+     "speaker": "Nick",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 4369,
+     "approx_timestamp_s": 239
+    },
+    {
+     "text": "I spend an hour a week basically on this business",
+     "speaker": "Nick",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 5400,
+     "approx_timestamp_s": 296
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Fabric ceilings for pergolas via installer partnerships",
+   "one_liner": "Install Mediterranean-style wavy fabric ceilings on pergolas by partnering with pergola installers who upsell it.",
+   "category": "home_service",
+   "business_model": "Per-install upcharge with referral fee to installer",
+   "customer": "Homeowners getting pergolas, via pergola installation businesses",
+   "problem": "Pergolas look bare and give little shade",
+   "offer": "Fabric ceiling installed as a ~1,000 USD upcharge; 200 USD to the referring installer",
+   "pricing": {
+    "model": "Per install",
+    "price_points": [
+     {
+      "amount": 1000,
+      "currency": "USD",
+      "unit": "per install"
+     }
+    ],
+    "notes": "Costs ~200 USD, a couple of hours labour."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "partnerships",
+     "details": "Recruit a dozen or two pergola installers to offer it as an upsell for a 200 USD referral fee.",
+     "quote": {
+      "text": "go find a dozen or two of these pergola installation businesses and piggyback on them",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 9388,
+      "approx_timestamp_s": 514
+     }
+    }
+   ],
+   "delivery": "Founder installs; installer sells.",
+   "unit_economics_claims": [
+    "Earn 200-300 USD/hour"
+   ],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Partnership recruiting is personal; B2B cold email to limited companies allowed."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Coordination per job."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical installation."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Invoicing."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Pergolas are popular in UK gardens; weather is wetter."
+   },
+   "risks": [
+    "Weather durability",
+    "Dependent on partner volume"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "you upcharge a,000 bucks i have 200 of that for you just for referring me and I'll do all the work",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 9578,
+     "approx_timestamp_s": 525
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "B2B stump grinding for tree services",
+   "one_liner": "Buy a financed stump grinder and do all stump grinding for tree trimming companies.",
+   "category": "b2b_service",
+   "business_model": "Per-job subcontracting",
+   "customer": "Tree trimming businesses",
+   "problem": "Tree services do not want to own a 50-60k USD grinder",
+   "offer": "Outsourced stump grinding",
+   "pricing": {
+    "model": "Per job",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "cold_call",
+     "details": "Scrape tree trimming businesses and call them to test demand before buying equipment."
+    }
+   ],
+   "delivery": "Solo operator (Tyler) with financed grinder, truck and trailer.",
+   "unit_economics_claims": [
+    "Grinder 60,000 USD financed ~450 USD/month; truck 450/month; lot 250/month",
+    "Revenue ~9,000 then ~20,000 then ~30,000 USD/month"
+   ],
+   "tools": [],
+   "startup_cost": "Equipment financed; small monthly payments",
+   "time_to_first_revenue": "First month",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Cold calling businesses; UK B2B calls allowed if CTPS-screened."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Relationships."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Invoices."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "UK tree surgeons exist; similar model works."
+   },
+   "risks": [
+    "Equipment debt",
+    "Customer concentration"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "he bought a $60,000 stump grinder but he he financed it his payment's like $450 a month",
+     "speaker": "Nick",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 16538,
+     "approx_timestamp_s": 907
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "B2B pool excavation subcontractor",
+   "one_liner": "An operator with no website rents an excavator and digs pools for pool companies at ~5,000 USD per 4-hour dig.",
+   "category": "b2b_service",
+   "business_model": "Per-job subcontract",
+   "customer": "Pool builders that subcontract everything",
+   "problem": "Pool companies do not want to own excavators",
+   "offer": "Pool hole digging",
+   "pricing": {
+    "model": "Per job",
+    "price_points": [
+     {
+      "amount": 5000,
+      "currency": "USD",
+      "unit": "per pool dig"
+     }
+    ],
+    "notes": "Excavator rental ~700 USD/day."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "partnerships",
+     "details": "Phone number and a handful of pool company relationships; no website or Google profile.",
+     "quote": {
+      "text": "he has no website he has no Google business profile he has a phone number and a handful of relationships with pool companies",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 12913,
+      "approx_timestamp_s": 708
+     }
+    }
+   ],
+   "delivery": "Operator rents an excavator from United Rentals and digs in ~4 hours.",
+   "unit_economics_claims": [
+    "~5,000 USD revenue for ~4 hours, ~700 USD rental"
+   ],
+   "tools": [
+    "United Rentals"
+   ],
+   "startup_cost": "Equipment rental per day",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Relationships."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Phone."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Operating machinery."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Invoices."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "UK in-ground pools are rarer."
+   },
+   "risks": [
+    "Small UK market",
+    "Skilled operator needed"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "he goes to United Rentals he picks up the excavator he pays about $700 for it for the day",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 13257,
+     "approx_timestamp_s": 727
+    }
+   ]
+  },
+  {
+   "local_id": "I6",
+   "name": "Disposal / dumpster service for deck and landscaping contractors",
+   "one_liner": "Piggyback on deck installers and landscapers by hauling away old decks and debris, starting with a trailer.",
+   "category": "home_service",
+   "business_model": "Per haul",
+   "customer": "Deck, patio and landscaping contractors",
+   "problem": "Contractors don't want to haul to the dump",
+   "offer": "Debris removal",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "partnerships",
+     "details": "Contact contractors offering pickup of old decks."
+    }
+   ],
+   "delivery": "Trailer then dumpster.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "B2B outreach."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Human."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical hauling."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Invoices."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "UK waste carriers need a waste carrier licence."
+   },
+   "risks": [
+    "Waste licensing"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "Hey I have a dumpster i'll come pick up your old deck",
+     "speaker": "Nick",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 15405,
+     "approx_timestamp_s": 844
+    }
+   ]
+  },
+  {
+   "local_id": "I7",
+   "name": "Auger post-hole digging as a service",
+   "one_liner": "Dig fence post and tree holes for fencing installers or homeowners.",
+   "category": "home_service",
+   "business_model": "Per job",
+   "customer": "Fencing installers, homeowners",
+   "problem": "Hole digging is tedious",
+   "offer": "Auger hole digging",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [
+     {
+      "amount": 350,
+      "currency": "USD",
+      "unit": "per job",
+      "label": "13 holes"
+     }
+    ],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "partnerships",
+     "details": "Piggyback off fencing installers."
+    }
+   ],
+   "delivery": "Operator with auger.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "B2B."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Human."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Invoice."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works in UK."
+   },
+   "risks": [
+    "Low ticket"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "hey 350 bucks come out and dig 13 holes for me",
+     "speaker": "Nick",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 16088,
+     "approx_timestamp_s": 882
+    }
+   ]
+  },
+  {
+   "local_id": "I8",
+   "name": "Bobcat land grading for landscapers",
+   "one_liner": "Be the subcontractor who grades and moves dirt for big landscaping jobs.",
+   "category": "b2b_service",
+   "business_model": "Per job",
+   "customer": "Landscaping companies",
+   "problem": "They don't want to own a Bobcat",
+   "offer": "Grading",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "partnerships",
+     "details": "Piggyback off landscapers."
+    }
+   ],
+   "delivery": "Operator with skid steer.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "B2B."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Human."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Invoice."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Works in UK."
+   },
+   "risks": [
+    "Equipment cost"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": []
+  },
+  {
+   "local_id": "I9",
+   "name": "howtouseai.com AI ideas community",
+   "one_liner": "An unbundled-subreddit style site where users submit, vote and comment on AI ideas, built quickly with AI tools.",
+   "category": "content_media",
+   "business_model": "not stated",
+   "customer": "People interested in AI use cases",
+   "problem": "Finding practical AI ideas",
+   "offer": "Community site",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "organic_social_content",
+     "details": "Promoted via podcast."
+    }
+   ],
+   "delivery": "Self-built web app.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Replit"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Content."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Signup."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Software."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "n/a."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "Moderation."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Global."
+   },
+   "risks": [
+    "No monetisation stated"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": []
+  },
+  {
+   "local_id": "I10",
+   "name": "Custom GPTs / prompt wrappers sold as products",
+   "one_liner": "Turn your expertise into a custom GPT or simple chat wrapper (e.g. book writing, business research, business-buying advisor) and sell it via the GPT store or as a web app.",
+   "category": "saas_software",
+   "business_model": "Subscription or one-off sale of a wrapper app",
+   "customer": "People needing guided help in a domain",
+   "problem": "Users do not know what to ask AI",
+   "offer": "Interactive guided GPT that asks the user questions",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "app_store",
+     "details": "GPT store inside ChatGPT, or a standalone wrapper built on Replit."
+    }
+   ],
+   "delivery": "Saved prompt in a custom GPT; wrapper built with Replit.",
+   "unit_economics_claims": [],
+   "tools": [
+    "ChatGPT custom GPTs",
+    "Replit"
+   ],
+   "startup_cost": "Near zero",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "GPT store and SEO/content are inbound."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Self-serve."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "Software."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Stripe."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "AI support."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Global digital product."
+   },
+   "risks": [
+    "Easy to copy",
+    "GPT store monetisation limited",
+    "Platform dependence"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "it's not complicated it's literally just a saved prompt",
+     "speaker": "Nick",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 20827,
+     "approx_timestamp_s": 1142
+    }
+   ]
+  },
+  {
+   "local_id": "I11",
+   "name": "Hands-on skills fantasy camps (welding, handyman)",
+   "one_liner": "Weekend or hour-long classes teaching non-handy people to weld, fix sprinklers, change oil etc., e.g. Metal Shop Fantasy Camp; can be a lead magnet for local tradespeople.",
+   "category": "events_experiences",
+   "business_model": "Per-participant class fees",
+   "customer": "Millennial men and others who lack practical skills but have money",
+   "problem": "People want to build or fix things but are insecure and YouTube is not hands-on",
+   "offer": "Small group classes with an instructor",
+   "pricing": {
+    "model": "Per participant",
+    "price_points": [
+     {
+      "amount": 130,
+      "currency": "USD",
+      "unit": "per participant",
+      "label": "1-hour intro to welding"
+     },
+     {
+      "amount": 250,
+      "currency": "USD",
+      "unit": "per participant",
+      "label": "make a cube"
+     },
+     {
+      "amount": 190,
+      "currency": "USD",
+      "unit": "per participant",
+      "label": "steel bowl"
+     }
+    ],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "organic_social_content",
+     "details": "Found via Twitter; website with class list."
+    }
+   ],
+   "delivery": "Instructor-led in-person classes.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Ads/booking pages."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Online booking."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "In-person instruction."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Online payment."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "FAQ."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Workshop experiences exist in UK; insurance and safety needed."
+   },
+   "risks": [
+    "Instructor time",
+    "Insurance/safety"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "1 hour introduction to welding $130 per participant how to make a cube $250 per participant steel bowl welding class $190",
+     "speaker": "Nick",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 28478,
+     "approx_timestamp_s": 1561
+    }
+   ]
+  },
+  {
+   "local_id": "I12",
+   "name": "Age-tailored family trivia app",
+   "one_liner": "Mobile app that generates trivia games where each family member gets age- and interest-appropriate categories (e.g. Minecraft vs geography).",
+   "category": "saas_software",
+   "business_model": "Low subscription or lifetime price",
+   "customer": "Parents and kids",
+   "problem": "Few games work equally for all ages",
+   "offer": "AI-generated personalised trivia with score keeping and voice",
+   "pricing": {
+    "model": "Subscription or lifetime",
+    "price_points": [
+     {
+      "amount": 3,
+      "currency": "USD",
+      "unit": "per month"
+     },
+     {
+      "amount": 20,
+      "currency": "USD",
+      "unit": "lifetime"
+     }
+    ],
+    "notes": "Suggested prices."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "app_store",
+     "details": "Mobile app; test many niche variants (father-son, mother-daughter) and marketing angles."
+    }
+   ],
+   "delivery": "LLM backend generates questions per player profile.",
+   "unit_economics_claims": [],
+   "tools": [
+    "ChatGPT voice",
+    "Lovable",
+    "Replit",
+    "Windsurf",
+    "Cursor",
+    "Bolt",
+    "Vercel",
+    "Supabase",
+    "GitHub"
+   ],
+   "startup_cost": "Low",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "App store and paid social."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Self-serve."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "Software."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "In-app purchase."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "Minimal."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works globally; children's data rules (UK Age Appropriate Design Code) apply."
+   },
+   "risks": [
+    "API costs if it scales",
+    "Security of AI-built code",
+    "Children's privacy rules"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "someone needs to build build a version of this in a mobile app a wrapper",
+     "speaker": "Nick",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 38725,
+     "approx_timestamp_s": 2124
+    },
+    {
+     "text": "I'm worried that it would do really well and I'd like wake up and I'd have and I'd have like $1,000 in API charges",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 40027,
+     "approx_timestamp_s": 2195
+    }
+   ]
+  },
+  {
+   "local_id": "I13",
+   "name": "AI family story capture (One Life Tale) and elder story phone line",
+   "one_liner": "App or phone number where an AI voice agent interviews family members (including assisted-living residents) and compiles their stories into a narrated product, cloning voices.",
+   "category": "ai_automation",
+   "business_model": "Not stated (consumer app)",
+   "customer": "Families, assisted living residents",
+   "problem": "Family stories die with older generations",
+   "offer": "AI-facilitated calls that capture stories and produce a consolidated narrated story; can mine photo albums for prompts",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "partnerships",
+     "details": "Assisted living facilities"
+    },
+    {
+     "channel": "app_store",
+     "details": "Consumer app / phone number"
+    }
+   ],
+   "delivery": "AI voice agent conducts conversations; ElevenLabs voices.",
+   "unit_economics_claims": [],
+   "tools": [
+    "ElevenLabs",
+    "Limitless pendant",
+    "iCloud / Google Photos"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "App store/content; facility partnerships need people."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Phone number or app."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "AI voice agent and narration."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Subscription."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "Mostly automated."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works in UK; consent and voice cloning rules under UK GDPR."
+   },
+   "risks": [
+    "Adoption by elderly users",
+    "Voice cloning consent"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "why not just make this an app that's just an AI voice agent or a phone number that you call",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 46630,
+     "approx_timestamp_s": 2557
+    }
+   ]
+  },
+  {
+   "local_id": "I14",
+   "name": "Handyman mentor marketplace (handymans.com)",
+   "one_liner": "Match non-handy younger homeowners with retired handy mentors (e.g. Home Depot retirees) who show them how to do simple repairs, taking a cut.",
+   "category": "marketplace_directory",
+   "business_model": "Commission on payments through the app",
+   "customer": "Millennial homeowners; retired tradesmen as mentors",
+   "problem": "Trades are booked out for weeks; people want to learn simple fixes",
+   "offer": "Local mentor visits or video help",
+   "pricing": {
+    "model": "Commission",
+    "price_points": [
+     {
+      "amount": 20,
+      "currency": "USD",
+      "unit": "per help session",
+      "label": "example Venmo tip"
+     }
+    ],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "door_to_door_in_person",
+     "details": "Recruit mentors at Home Depot and Lowe's across shifts; flyers on cars."
+    },
+    {
+     "channel": "paid_social",
+     "details": "Geo-targeted Facebook ads for the demand side."
+    }
+   ],
+   "delivery": "Start manually by putting mentor and learner in a group text.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Facebook ads",
+    "Venmo"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Supply side recruited in person; demand via ads."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Matching can be automated later."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Mentors deliver in person."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "In-app payments."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Trust and safety issues."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Shortage of tradespeople also in UK; safety/insurance and Part P electrical rules limit what can be taught at home."
+   },
+   "risks": [
+    "Liability for injuries/damage",
+    "Two-sided cold start"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "i bought the domain handymans.com why isn't there somewhere for people like you and I to go and just find a handyman mentor",
+     "speaker": "Nick",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 49781,
+     "approx_timestamp_s": 2730
+    }
+   ]
+  },
+  {
+   "local_id": "I15",
+   "name": "AI handyman mentor app (video chat wrapper)",
+   "one_liner": "Wrap live video AI (like ChatGPT video) into an app that diagnoses home repairs through the phone camera.",
+   "category": "saas_software",
+   "business_model": "Subscription",
+   "customer": "Non-handy homeowners",
+   "problem": "Waiting weeks for tradespeople for simple fixes",
+   "offer": "Camera-based AI diagnosis and guidance",
+   "pricing": {
+    "model": "Subscription",
+    "price_points": [
+     {
+      "amount": 10,
+      "currency": "USD",
+      "unit": "per month",
+      "amount_max": 20
+     },
+     {
+      "amount": 100,
+      "currency": "USD",
+      "unit": "per year"
+     }
+    ],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "paid_social",
+     "details": "Not specified; consumer marketing"
+    }
+   ],
+   "delivery": "LLM vision/voice wrapper.",
+   "unit_economics_claims": [],
+   "tools": [
+    "ChatGPT video"
+   ],
+   "startup_cost": "Low",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Inbound/app store/ads."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Self-serve."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "Software."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Subscriptions."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "Automated."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works in UK."
+   },
+   "risks": [
+    "Thin wrapper over ChatGPT features",
+    "Liability for bad advice"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "put it in a rapper call it handyman mentor you know AI handyman mentor or whatever and just that 10 bucks a month 20 bucks a month 100 bucks a year",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 60459,
+     "approx_timestamp_s": 3316
+    }
+   ]
+  },
+  {
+   "local_id": "I16",
+   "name": "Mailed DIY practice kits with video course",
+   "one_liner": "Ship a kit (drywall, wiring, outlet cover) with a YouTube-based course so people practise repairs without wrecking their house; piggyback a DIY influencer.",
+   "category": "education_coaching",
+   "business_model": "One-off kit + course sale",
+   "customer": "Non-handy homeowners",
+   "problem": "Learning repairs safely",
+   "offer": "Kit plus course",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "affiliates_influencers",
+     "details": "Partner with a DIY creator on Instagram/TikTok/YouTube."
+    }
+   ],
+   "delivery": "Kits shipped; video course.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Influencer partnership."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Checkout."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Physical kits via fulfilment."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Automated."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "FAQ."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works in UK."
+   },
+   "risks": [
+    "Shipping bulky drywall"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "you could have a YouTube-based course and mail them a big package and in the package would be some drywall",
+     "speaker": "Nick",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 62280,
+     "approx_timestamp_s": 3415
+    }
+   ]
+  },
+  {
+   "local_id": "I17",
+   "name": "Corporate wedding/baby shower invitation mailing service",
+   "one_liner": "Website where engaged couples or parents pay to have invitations mailed to hundreds of companies' corporate addresses, which often send free gifts.",
+   "category": "digital_products",
+   "business_model": "Per order, margin over postage costs",
+   "customer": "Newlyweds and expecting parents",
+   "problem": "Manually finding and writing invites to brands is tedious",
+   "offer": "Database of 1,000 company addresses and automated mailing via a direct mail API",
+   "pricing": {
+    "model": "Per order",
+    "price_points": [
+     {
+      "amount": 199,
+      "currency": "USD",
+      "unit": "per 100 invitations",
+      "label": "example price"
+     }
+    ],
+    "notes": "Costs ~0.45 USD each; claim customers get 500-1,000 USD of gifts."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "paid_social",
+     "details": "Facebook ads."
+    }
+   ],
+   "delivery": "Website calls a direct mail API; robot handwriting optional.",
+   "unit_economics_claims": [
+    "One woman sent ~150 invites, ~25 companies sent gifts"
+   ],
+   "tools": [
+    "Lovable",
+    "Replit",
+    "Direct mail APIs",
+    "Ghostwriter-style robot handwriting"
+   ],
+   "startup_cost": "Low",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Paid social inbound."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Self-serve web order."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "Direct mail API."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Online payment."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "Automated."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "UK brands may respond less; Royal Mail print-and-post APIs exist."
+   },
+   "risks": [
+    "Companies may stop responding as volume grows",
+    "Reputation risk with brands"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "why is this not a service why can people not just pay 50 bucks to have invitations sent out to all of these companies",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 65077,
+     "approx_timestamp_s": 3569
+    },
+    {
+     "text": "let's say it costs 45 cents to send each one you want to send it to 100 that's $45 you charge $199 for this service",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 65861,
+     "approx_timestamp_s": 3612
+    }
+   ]
+  },
+  {
+   "local_id": "I18",
+   "name": "Personalised Street View postcards with AI-rendered home improvements",
+   "one_liner": "Direct mail for home services that shows the homeowner's own house (from Google Street View), AI-edited with new paint, windows or roof, plus a QR video; or an iPad app for door-knockers.",
+   "category": "data_leads",
+   "business_model": "Per campaign or software for home service companies",
+   "customer": "Painting, roofing, window, gutter companies",
+   "problem": "Homeowners can't picture the result",
+   "offer": "Custom postcards with their house and a QR code to a video",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "direct_mail_postcards",
+     "details": "Hire Bus app pulled addresses, Street View images, printed custom postcards; 15% engagement, 3% booked calls, 1% closed on a 4,000 USD ticket.",
+     "quote": {
+      "text": "engagement rate was 15%",
+      "speaker": "Nick",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 68228,
+      "approx_timestamp_s": 3742
+     }
+    }
+   ],
+   "delivery": "Software pipeline: address list -> Street View -> AI edit -> print API.",
+   "unit_economics_claims": [
+    "~1 USD per postcard, 1% close on 4,000 USD ticket"
+   ],
+   "tools": [
+    "Google Street View",
+    "Replit",
+    "AI image generation",
+    "Postcard print APIs"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Direct mail addressed to the occupier is not covered by PECR consent rules (postal marketing is allowed in the UK, subject to the Mailing Preference Service and UK GDPR)."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Self-serve campaign setup for businesses."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "Fully software."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Automated."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "Minimal."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Postal marketing works in UK; Street View image use for commercial mailers may breach Google terms; GDPR applies to name-and-address data."
+   },
+   "risks": [
+    "Google Street View terms",
+    "Creepy factor",
+    "Print costs"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "he pulled all of the addresses and then he had that I don't know how he wrote it but he had that then go to Google Street View of those houses",
+     "speaker": "Nick",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 67685,
+     "approx_timestamp_s": 3712
+    },
+    {
+     "text": "you get their Google maps picture of their house and then you have AI change their windows",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 68634,
+     "approx_timestamp_s": 3764
+    }
+   ]
+  },
+  {
+   "local_id": "I19",
+   "name": "VR HVAC trade school certification",
+   "one_liner": "Sell government-funded HVAC certification courses delivered via white-labelled Oculus VR training.",
+   "category": "education_coaching",
+   "business_model": "Course fee (8,000-12,000 USD, government funded)",
+   "customer": "Aspiring HVAC technicians",
+   "problem": "Skilled labour shortage",
+   "offer": "HVAC certification with VR headset",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "existing_audience",
+     "details": "not stated"
+    }
+   ],
+   "delivery": "White-labelled VR software on a 400 USD Oculus.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Unknown."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Enrolment."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "VR software."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Funding paperwork."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Some."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 2,
+    "notes": "UK apprenticeships/funding differ; F-gas certification rules."
+   },
+   "risks": [
+    "Funding dependence"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "once they pay like eight or 12,000 that's fully funded by the government he sends them an Oculus",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 58659,
+     "approx_timestamp_s": 3217
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "AI automation service sells for 7,000 USD/month",
+   "metric": "price",
+   "value": {
+    "amount": 7000,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "i just had a call with a guy that's selling a $7,000 a month service",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 71,
+    "approx_timestamp_s": 3
+   }
+  },
+  {
+   "claim": "33% close rate in person",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 33,
+    "currency": null,
+    "unit": "percent"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "he has a 33% close rate in person",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1847,
+    "approx_timestamp_s": 101
+   }
+  },
+  {
+   "claim": "Accounting automation side business has 140 clients",
+   "metric": "customers",
+   "value": {
+    "amount": 140,
+    "currency": null,
+    "unit": "clients"
+   },
+   "claimant": "Nick",
+   "first_hand": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "I have 140 clients",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 400,
+    "approx_timestamp_s": 21
+   }
+  },
+  {
+   "claim": "Charges 50 USD/month per client",
+   "metric": "price",
+   "value": {
+    "amount": 50,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Nick",
+   "first_hand": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "50 bucks a month oh dude listen to this 50 bucks a month",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4436,
+    "approx_timestamp_s": 243
+   }
+  },
+  {
+   "claim": "Accounting services ~8,000 USD/month; ~16,000 USD/month total",
+   "metric": "mrr",
+   "value": {
+    "amount": 16000,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Nick",
+   "first_hand": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "you're making 16 grand a month passively",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4867,
+    "approx_timestamp_s": 266
+   }
+  },
+  {
+   "claim": "Market rate for outsourced bookkeeping ~1,200 USD/month",
+   "metric": "price",
+   "value": {
+    "amount": 1200,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Nick",
+   "first_hand": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "He's like \"Yeah about $1,200 a month.\"",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25101,
+    "approx_timestamp_s": 1376
+   }
+  },
+  {
+   "claim": "Fabric ceiling: 1,000 USD upcharge, 200 USD referral, ~200 USD cost, 200-300 USD/hour",
+   "metric": "price",
+   "value": {
+    "amount": 1000,
+    "currency": "USD",
+    "unit": "per install"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "you're making $200 to $300 an hour to install something that objectively looks awesome",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9748,
+    "approx_timestamp_s": 534
+   },
+   "hypothetical": true
+  },
+  {
+   "claim": "Pergola installation costs 8,000-12,000 USD; a quote of 15,000 USD",
+   "metric": "price",
+   "value": {
+    "amount": 8000,
+    "currency": "USD",
+    "unit": "per install",
+    "amount_max": 15000
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "It costs like 8 to 12,000 to install a pergola",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9272,
+    "approx_timestamp_s": 508
+   }
+  },
+  {
+   "claim": "Mid-range pool cost 150,000 USD in Texas",
+   "metric": "price",
+   "value": {
+    "amount": 150000,
+    "currency": "USD",
+    "unit": "per pool"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "that's like going rate and that's like a good price for a pool like that",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11827,
+    "approx_timestamp_s": 648
+   }
+  },
+  {
+   "claim": "Pool digging line item 5,000 USD for ~4 hours; excavator rental ~700 USD/day",
+   "metric": "revenue",
+   "value": {
+    "amount": 5000,
+    "currency": "USD",
+    "unit": "per job"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "he goes there for about four hours digs out a pool he's on his merry little way $5,000",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13435,
+    "approx_timestamp_s": 736
+   }
+  },
+  {
+   "claim": "Stump grinder 60,000 USD financed ~450 USD/month; lot 250 USD/month",
+   "metric": "cost",
+   "value": {
+    "amount": 450,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Nick",
+   "first_hand": false,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "his truck financed 450 a month his trailer financed parking he pays like 250 bucks a month for a lot",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16624,
+    "approx_timestamp_s": 911
+   }
+  },
+  {
+   "claim": "Tyler did ~9,000 USD month one, ~20,000 month two, ~30,000 recently",
+   "metric": "revenue",
+   "value": {
+    "amount": 30000,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "just two months ago he did $30,000",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17531,
+    "approx_timestamp_s": 961
+   }
+  },
+  {
+   "claim": "36% of Gen Z/millennial business owners plan to acquire from a retiring owner; 54% of owners have succession plans",
+   "metric": "other",
+   "value": {
+    "amount": 36,
+    "currency": null,
+    "unit": "percent"
+   },
+   "claimant": "Nick",
+   "first_hand": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "36% of Gen Z and millennials who are business owners plan to acquire a business from a retiring owner",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18036,
+    "approx_timestamp_s": 989
+   }
+  },
+  {
+   "claim": "Business owners expecting AI to matter rose from 72% to 87%",
+   "metric": "other",
+   "value": {
+    "amount": 87,
+    "currency": null,
+    "unit": "percent"
+   },
+   "claimant": "Nick",
+   "first_hand": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "last year 72% of business owners thought AI was going to play an important role 2024 this year 87%",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18602,
+    "approx_timestamp_s": 1020
+   }
+  },
+  {
+   "claim": "Chris has started about 80 businesses",
+   "metric": "other",
+   "value": {
+    "amount": 80,
+    "currency": null,
+    "unit": "businesses"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "idea_local_id": null,
+   "quote": {
+    "text": "i've started about 80 businesses",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 26476,
+    "approx_timestamp_s": 1452
+   }
+  },
+  {
+   "claim": "Welding classes 130-250 USD per participant",
+   "metric": "price",
+   "value": {
+    "amount": 130,
+    "currency": "USD",
+    "unit": "per participant",
+    "amount_max": 250
+   },
+   "claimant": "Nick",
+   "first_hand": false,
+   "idea_local_id": "I11",
+   "quote": {
+    "text": "1 hour introduction to welding $130 per participant",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 28478,
+    "approx_timestamp_s": 1561
+   }
+  },
+  {
+   "claim": "Trades shortages: 550k plumbers, 600k mechanics, 80k electricians",
+   "metric": "other",
+   "value": {
+    "amount": 550000,
+    "currency": null,
+    "unit": "plumbers short"
+   },
+   "claimant": "Nick",
+   "first_hand": false,
+   "idea_local_id": "I14",
+   "quote": {
+    "text": "right now we are short 550,000 plumbers 600,000 auto mechanics 80,000 electricians",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 48230,
+    "approx_timestamp_s": 2645
+   }
+  },
+  {
+   "claim": "Woman sent ~150 invites to companies; ~25 sent gifts",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 25,
+    "currency": null,
+    "unit": "responses of 150"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I17",
+   "quote": {
+    "text": "it was like 150 and 25 of them sent me gifts or gift cards or money or something",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 64126,
+    "approx_timestamp_s": 3517
+   }
+  },
+  {
+   "claim": "Postcard campaign: 15% engagement, 3% booked calls, 1% closed on 4,000 USD ticket",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 1,
+    "currency": null,
+    "unit": "percent close"
+   },
+   "claimant": "Nick",
+   "first_hand": false,
+   "idea_local_id": "I18",
+   "quote": {
+    "text": "He got 3% of them to schedule calls and then 1% of of the hundred that he sent the 1% closed",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 68251,
+    "approx_timestamp_s": 3743
+   }
+  },
+  {
+   "claim": "VR HVAC course 8,000-12,000 USD government funded; Oculus ~400 USD",
+   "metric": "price",
+   "value": {
+    "amount": 8000,
+    "currency": "USD",
+    "unit": "per student",
+    "amount_max": 12000
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I19",
+   "quote": {
+    "text": "once they pay like eight or 12,000 that's fully funded by the government",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 58659,
+    "approx_timestamp_s": 3217
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Charity guarantee for enterprise meetings",
+   "steps": [
+    "Cold email with a strong pitch to corporate staff",
+    "Ask for 30 minutes in person",
+    "Promise savings greater than your fee or you donate to their chosen charity",
+    "Proactively mention your youth to stand out"
+   ],
+   "idea_local_id": "I1",
+   "area": "sales",
+   "quote": {
+    "text": "if you don't want to be a customer of mine I will donate x amount to a charity of your choice",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2358,
+    "approx_timestamp_s": 129
+   }
+  },
+  {
+   "name": "Use job postings to target automation clients",
+   "steps": [
+    "Check LinkedIn and Indeed for open roles",
+    "Pitch automations that prevent new hires, not replace staff",
+    "Interview employees about tasks, then build automations"
+   ],
+   "idea_local_id": "I1",
+   "area": "acquisition"
+  },
+  {
+   "name": "Piggyback on existing businesses' customers",
+   "steps": [
+    "Pick a high-ticket home service (pools, tree trimming, landscaping, decks, fencing)",
+    "Identify the expensive sub-task they don't want to own equipment for",
+    "Ask ChatGPT for lists of high-ticket home purchases",
+    "Scrape a list of those contractors in one test market and call them before spending money"
+   ],
+   "idea_local_id": null,
+   "area": "acquisition",
+   "quote": {
+    "text": "you scrape a list of the type of contractors that you want to piggyback off of you find a market to test it in",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16925,
+    "approx_timestamp_s": 928
+   }
+  },
+  {
+   "name": "Low-ticket sticky pricing with upsells",
+   "steps": [
+    "Price far below market (50 USD vs 1,200 USD) for a fully automated core service",
+    "Win trust, then upsell implementation work"
+   ],
+   "idea_local_id": "I2",
+   "area": "pricing"
+  },
+  {
+   "name": "Do things that don't scale for a two-sided marketplace",
+   "steps": [
+    "Recruit supply (retired handymen) at Home Depot/Lowe's across shifts",
+    "Get demand via flyers and geo-targeted Facebook ads",
+    "Match manually by group text for ~3 months",
+    "Observe behaviour, then set pricing and product"
+   ],
+   "idea_local_id": "I14",
+   "area": "product"
+  },
+  {
+   "name": "Personalised visual direct mail",
+   "steps": [
+    "Pull addresses in target area",
+    "Fetch Street View photo of each house",
+    "AI-edit the house with your service result",
+    "Print postcard with QR to a video; ~1 USD each"
+   ],
+   "idea_local_id": "I18",
+   "area": "acquisition"
+  },
+  {
+   "name": "Build custom GPTs fast",
+   "steps": [
+    "Ask ChatGPT to write the custom GPT instructions",
+    "Paste into a GPT or Replit wrapper",
+    "Share in the GPT store or sell the wrapper"
+   ],
+   "idea_local_id": "I10",
+   "area": "product"
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Instantly",
+   "purpose": "Mass cold email"
+  },
+  {
+   "name": "Lemlist",
+   "purpose": "Cold email"
+  },
+  {
+   "name": "GMass",
+   "purpose": "Cold email"
+  },
+  {
+   "name": "Replit",
+   "purpose": "Building apps without code"
+  },
+  {
+   "name": "ChatGPT",
+   "purpose": "Custom GPTs, voice and video help"
+  },
+  {
+   "name": "Lovable",
+   "purpose": "App builder"
+  },
+  {
+   "name": "Windsurf",
+   "purpose": "AI coding"
+  },
+  {
+   "name": "Cursor",
+   "purpose": "AI coding"
+  },
+  {
+   "name": "Bolt",
+   "purpose": "App builder"
+  },
+  {
+   "name": "Vercel",
+   "purpose": "Hosting"
+  },
+  {
+   "name": "Supabase",
+   "purpose": "Backend"
+  },
+  {
+   "name": "ElevenLabs",
+   "purpose": "Voice cloning for story app"
+  },
+  {
+   "name": "Limitless pendant",
+   "purpose": "Recording conversations"
+  },
+  {
+   "name": "United Rentals",
+   "purpose": "Excavator rental",
+   "cost_stated": "~700 USD/day"
+  },
+  {
+   "name": "LinkedIn / Indeed",
+   "purpose": "Finding companies hiring"
+  },
+  {
+   "name": "Ghostwriter (robot handwriting)",
+   "purpose": "Handwritten-style mailers"
+  },
+  {
+   "name": "Google Street View",
+   "purpose": "House images for postcards"
+  },
+  {
+   "name": "Oculus",
+   "purpose": "VR HVAC training",
+   "cost_stated": "~400 USD"
+  },
+  {
+   "name": "Venmo",
+   "purpose": "Paying mentors"
+  },
+  {
+   "name": "Facebook ads",
+   "purpose": "Demand generation"
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Everyone is being flooded with AI-generated sales messages, so outreach must stand out more than ever.",
+   "quote": {
+    "text": "we are getting inundated with sales messages and as marketers we're inundating others with sales messages",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1157,
+    "approx_timestamp_s": 63
+   }
+  },
+  {
+   "warning": "High-ticket agency offers (1,500-4,000/month) can be hard to sell; a cheap automated offer may win.",
+   "quote": null
+  },
+  {
+   "warning": "AI-built code may have security flaws; audit before adding payments.",
+   "quote": {
+    "text": "security protocol is missing here flaw here",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 40903,
+    "approx_timestamp_s": 2243
+   }
+  },
+  {
+   "warning": "Uncapped LLM API costs can surprise a viral consumer app.",
+   "quote": null
+  },
+  {
+   "warning": "Delay to first dollar kills momentum and leads people to abandon entrepreneurship.",
+   "quote": null
+  },
+  {
+   "warning": "UK: unsolicited marketing texts/DMs to individuals are illegal without consent; cold email only to corporate subscribers.",
+   "quote": null
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Run away from friction, not just toward monetization; get the first dollar fast to keep momentum.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "it's not about running towards monetization as fast as possible it's about running away from friction as fast as possible",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25715,
+    "approx_timestamp_s": 1410
+   }
+  },
+  {
+   "lesson": "Piggyback on businesses that already have your customers instead of finding customers from scratch.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "instead of like starting from scratch and finding your own customers fresh just plug into another business and piggyback",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8527,
+    "approx_timestamp_s": 467
+   }
+  },
+  {
+   "lesson": "Validate demand by calling the target contractors before buying equipment.",
+   "theme": "validation_testing",
+   "quote": null
+  },
+  {
+   "lesson": "Very low prices on an automated service can create sticky customers and upsell paths.",
+   "theme": "pricing",
+   "quote": null
+  },
+  {
+   "lesson": "Showing customers a visual of the result removes friction and boosts close rates.",
+   "theme": "customer_acquisition",
+   "quote": null
+  },
+  {
+   "lesson": "Ride tailwinds: ageing population, skilled-labour shortage, ageing housing.",
+   "theme": "niche_selection",
+   "quote": null
+  },
+  {
+   "lesson": "Find one thing you're better at than anyone and exploit it repeatedly instead of testing forever.",
+   "theme": "mindset_execution",
+   "quote": null
+  },
+  {
+   "lesson": "AI makes both outreach and fulfilment easy, so non-coders can now build products themselves.",
+   "theme": "automation_ai",
+   "quote": null
+  },
+  {
+   "lesson": "Novel marketplaces need flexible manual testing before committing to structure or pricing.",
+   "theme": "validation_testing",
+   "quote": null
+  },
+  {
+   "lesson": "Offer guarantees that lower risk for the buyer and differentiate you.",
+   "theme": "offer_design",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "C",
+  "rationale": "Mostly second-hand anecdotes and hypothetical ideas; few verifiable numbers, some inconsistent (140 x 50 USD vs 8k).",
+  "promotional_conflict": "TK newsletter promotion; hosts mention their own projects (One Life Tale)."
+ },
+ "extraction": {
+  "model": "grokbot",
+  "extracted_at": "2026-10-22T09:01:26",
+  "cost_usd": null,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 51,
+   "verified": 51,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}
