@@ -1,0 +1,891 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "0pJEW-sFDXk",
+  "title": "He Built a Simple App and Sold It for $200 Million",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=0pJEW-sFDXk",
+  "upload_date": "2025-11-07",
+  "duration_s": 3009,
+  "view_count": 25708,
+  "transcript_provider": "ok",
+  "transcript_chars": 50298,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner interviews Dan Porter, former teacher and CEO of OMGPOP, who designed Draw Something, a friends-only drawing game that hit #1 in 60 countries with 25M daily players and sold to Zynga for $200M. He explains the key ingredients (simplicity, streaks, friends-only play, live drawing playback) and how a bug fix made it take off. He later led digital at WME and founded Overtime (110M followers, own leagues) and launched 67 Water from a meme. Key takeaway: building is research, small tweaks matter, and hits need all ingredients together.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": null
+  },
+  {
+   "name": "Dan Porter",
+   "role": "guest",
+   "description": "CEO/co-founder of Overtime; former CEO of OMGPOP (Draw Something); ex-WME head of digital; teacher"
+  }
+ ],
+ "format": "career_story",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Draw Something: simple friends-only social mobile game",
+   "one_liner": "A drawing-and-guessing mobile game played only with friends, with streaks instead of winners and live playback of drawings; hit #1 and sold to Zynga for $200M.",
+   "category": "saas_software",
+   "business_model": "Mobile game (monetisation not detailed); exit via acquisition",
+   "customer": "Mobile phone users of all ages, including 80-year-olds",
+   "problem": "Open-lobby drawing games were toxic; games were competitive and complex",
+   "offer": "Friend-based Pictionary-style game with streaks, live drawing playback, touch-native mechanics",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "Sold for $200M to Zynga."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Built-in virality: invite friends from contact list",
+     "quote": {
+      "text": "you have a built-in virality cuz you can invite all your friends in your contact list",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 13190,
+      "approx_timestamp_s": 813
+     }
+    },
+    {
+     "channel": "app_store",
+     "details": "iPhone App Store; #1 every day for 6 months",
+     "quote": {
+      "text": "it shot to number one and it stayed there every single day for 6 months",
+      "speaker": "Dan Porter",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 10584,
+      "approx_timestamp_s": 652
+     }
+    }
+   ],
+   "delivery": "OMGPOP team; CEO designed it with a few people while 90% of company worked on other games; developers fixed a technical bug that was blocking players.",
+   "unit_economics_claims": [
+    "25M daily players",
+    "#1 in 60 countries",
+    "250M downloads",
+    "Sold for $200M"
+   ],
+   "tools": [
+    "iPhone",
+    "Google Analytics"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "Launched, bombed, then fixed bug and went to #1",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Viral invite loops and app store."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Self-serve."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "Software."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "App store billing."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Moderation reduced by friends-only design."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Mobile games work globally."
+   },
+   "risks": [
+    "Hit-driven; mobile game discovery now dominated by social/short video",
+    "Platform risk (Facebook/FarmVille)"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "25 million people a day were playing it. It's the number one game in 60 countries in the world and a quarter of a billion people downloaded it",
+     "speaker": "Dan Porter",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 10656,
+     "approx_timestamp_s": 657
+    },
+    {
+     "text": "And what did you end up selling it for? $200 million",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 22405,
+     "approx_timestamp_s": 1381
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Overtime: sports media brand and leagues for Gen Z",
+   "one_liner": "Sports platform with no pro rights that built a 110M-follower brand via paid iPhone filmers, then its own basketball, football and girls' leagues.",
+   "category": "content_media",
+   "business_model": "Media, leagues and events (revenue details not stated)",
+   "customer": "Young sports fans",
+   "problem": "Young people don't watch live sports",
+   "offer": "Short-form sports content and owned leagues (OTE etc.)",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "organic_social_content",
+     "details": "Short-form video across platforms; 250M weekly viewers",
+     "quote": {
+      "text": "every week, a quarter of a billion people watch a video that we make. We have over 110 million followers",
+      "speaker": "Dan Porter",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 31420,
+      "approx_timestamp_s": 1937
+     }
+    }
+   ],
+   "delivery": "Built own iPhone camera software; paid ~800 filmers $20 per game; later own leagues.",
+   "unit_economics_claims": [
+    "110M followers",
+    "250M weekly viewers",
+    "800 filmers paid $20 each"
+   ],
+   "tools": [
+    "Custom iPhone camera app"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Content-led."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "n/a"
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Live sports production."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Sponsors/ads."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Model could apply to UK youth sports; rights and culture differ."
+   },
+   "risks": [
+    "Capital intensive leagues"
+   ],
+   "is_primary": false,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "we paid people $20 to go to certain games and film stuff that we then published",
+     "speaker": "Dan Porter",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 32216,
+     "approx_timestamp_s": 1986
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "67 Water: meme-based water brand",
+   "one_liner": "Launched a bottled water brand off the '6-7' meme in 8 weeks with athlete Talen Horton-Tucker; 41,000-person waitlist.",
+   "category": "ecommerce_physical",
+   "business_model": "Retail product sales",
+   "customer": "Gen Z/kids",
+   "problem": "not stated",
+   "offer": "Branded bottled water",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "Tens of thousands sold."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "retail_placement",
+     "details": "Interns visit gas stations and bodegas in New York; launching in Kentucky"
+    },
+    {
+     "channel": "organic_social_content",
+     "details": "Meme-driven social following"
+    }
+   ],
+   "delivery": "Contract-produced water.",
+   "unit_economics_claims": [
+    "Tens of thousands sold",
+    "41,000 waitlist",
+    "Built in 8 weeks"
+   ],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "8 weeks to launch",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Social buzz."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Retail distribution."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Physical product."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Retail payments."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Meme is US-centric."
+   },
+   "risks": [
+    "Fad risk"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "we built a water brand off of a meme. I I picked water because it was just easy to make",
+     "speaker": "Dan Porter",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 34152,
+     "approx_timestamp_s": 2106
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "Niche creator business",
+   "one_liner": "Become a creator in a niche you can own; people under 30 rely on creators to filter information.",
+   "category": "content_media",
+   "business_model": "Creator monetisation",
+   "customer": "Young audiences",
+   "problem": "Information overload",
+   "offer": "Niche content",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "organic_social_content",
+     "details": "Social platforms"
+    }
+   ],
+   "delivery": "Creator-made content.",
+   "unit_economics_claims": [],
+   "tools": [
+    "TikTok",
+    "YouTube"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Content."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "n/a"
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Creator's own voice; AI accelerates."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Platform payouts."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Community."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works in UK."
+   },
+   "risks": [
+    "Crowded niches"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "I would try to be a creator in a niche that I could own",
+     "speaker": "Dan Porter",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 27337,
+     "approx_timestamp_s": 1685
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "TikTok Shop creator-driven products",
+   "one_liner": "Products driven by creators on TikTok Shop, especially functional food.",
+   "category": "ecommerce_physical",
+   "business_model": "Product sales",
+   "customer": "TikTok users",
+   "problem": "not stated",
+   "offer": "Creator-led products",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "affiliates_influencers",
+     "details": "Creators"
+    }
+   ],
+   "delivery": "not stated",
+   "unit_economics_claims": [],
+   "tools": [
+    "TikTok Shop"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Affiliates."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Shop."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Physical."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Platform."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Agent."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "TikTok Shop operates in the UK."
+   },
+   "risks": [
+    "Platform dependence"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "I think TikTok Shop is super interesting. I think that a lot of products are going to be driven by creators",
+     "speaker": "Dan Porter",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 33230,
+     "approx_timestamp_s": 2049
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Draw Something sold for $200M",
+   "metric": "sale_price",
+   "value": {
+    "amount": 200000000,
+    "currency": "USD",
+    "unit": "one-off"
+   },
+   "claimant": "Dan Porter",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "And what did you end up selling it for? $200 million",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22405,
+    "approx_timestamp_s": 1381
+   }
+  },
+  {
+   "claim": "25M people a day played; 250M downloads",
+   "metric": "customers",
+   "value": {
+    "amount": 25000000,
+    "currency": null,
+    "unit": "daily players"
+   },
+   "claimant": "Dan Porter",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "25 million people a day were playing it",
+    "speaker": "Dan Porter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 308,
+    "approx_timestamp_s": 18
+   }
+  },
+  {
+   "claim": "OMGPOP had ~3M users vs FarmVille's 100M",
+   "metric": "customers",
+   "value": {
+    "amount": 3000000,
+    "currency": null,
+    "unit": "users"
+   },
+   "claimant": "Dan Porter",
+   "first_hand": true,
+   "idea_local_id": null,
+   "quote": {
+    "text": "they had 100 million users. We had like 3 million users",
+    "speaker": "Dan Porter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9351,
+    "approx_timestamp_s": 576
+   }
+  },
+  {
+   "claim": "Average time on site 4.5-5 hours",
+   "metric": "other",
+   "value": {
+    "amount": 4.5,
+    "currency": null,
+    "unit": "hours",
+    "amount_max": 5
+   },
+   "claimant": "Dan Porter",
+   "first_hand": true,
+   "idea_local_id": null,
+   "quote": {
+    "text": "Average time on site was four and a half to five hours",
+    "speaker": "Dan Porter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9209,
+    "approx_timestamp_s": 567
+   }
+  },
+  {
+   "claim": "Took 80% pay cut to join gaming company",
+   "metric": "other",
+   "value": {
+    "amount": 80,
+    "currency": null,
+    "unit": "percent pay cut"
+   },
+   "claimant": "Dan Porter",
+   "first_hand": true,
+   "idea_local_id": null,
+   "quote": {
+    "text": "I quit my job and took an 80% pay cut",
+    "speaker": "Dan Porter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6716,
+    "approx_timestamp_s": 414
+   }
+  },
+  {
+   "claim": "Overtime: 110M followers, 250M weekly viewers",
+   "metric": "traffic",
+   "value": {
+    "amount": 110000000,
+    "currency": null,
+    "unit": "followers"
+   },
+   "claimant": "Dan Porter",
+   "first_hand": true,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "We have over 110 million followers",
+    "speaker": "Dan Porter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 31488,
+    "approx_timestamp_s": 1941
+   }
+  },
+  {
+   "claim": "Paid filmers $20 per game; ~800 filmers",
+   "metric": "cost",
+   "value": {
+    "amount": 20,
+    "currency": "USD",
+    "unit": "per game"
+   },
+   "claimant": "Dan Porter",
+   "first_hand": true,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "we paid people $20 to go to certain games and film stuff",
+    "speaker": "Dan Porter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 32216,
+    "approx_timestamp_s": 1986
+   }
+  },
+  {
+   "claim": "67 Water: tens of thousands sold, 41,000 waitlist, built in 8 weeks",
+   "metric": "customers",
+   "value": {
+    "amount": 41000,
+    "currency": null,
+    "unit": "waitlist"
+   },
+   "claimant": "Dan Porter",
+   "first_hand": true,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "We have 41,000 people on our wait list",
+    "speaker": "Dan Porter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 34385,
+    "approx_timestamp_s": 2120
+   }
+  },
+  {
+   "claim": "At WME signed 20 agents and 250 YouTubers",
+   "metric": "customers",
+   "value": {
+    "amount": 250,
+    "currency": null,
+    "unit": "YouTubers"
+   },
+   "claimant": "Dan Porter",
+   "first_hand": true,
+   "idea_local_id": null,
+   "quote": {
+    "text": "signing 20 agents and 250 YouTubers",
+    "speaker": "Dan Porter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 26894,
+    "approx_timestamp_s": 1658
+   }
+  },
+  {
+   "claim": "Ad optimisation choice can be $10 vs $100 CAC",
+   "metric": "cost",
+   "value": {
+    "amount": 10,
+    "currency": "USD",
+    "unit": "per customer",
+    "amount_max": 100
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "That could be the difference between me spending $10 to acquire a customer and $100",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25722,
+    "approx_timestamp_s": 1586
+   },
+   "hypothetical": true
+  },
+  {
+   "claim": "ChatGPT reproduced his writing style ~90% from 50 essays",
+   "metric": "other",
+   "value": {
+    "amount": 90,
+    "currency": null,
+    "unit": "percent"
+   },
+   "claimant": "Dan Porter",
+   "first_hand": true,
+   "idea_local_id": null,
+   "quote": {
+    "text": "I'd say it was like 90% that literally sounded like I wrote it",
+    "speaker": "Dan Porter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15584,
+    "approx_timestamp_s": 961
+   }
+  },
+  {
+   "claim": "40% of Gen Z want to be a YouTuber",
+   "metric": "other",
+   "value": {
+    "amount": 40,
+    "currency": null,
+    "unit": "percent"
+   },
+   "claimant": "Dan Porter",
+   "first_hand": false,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "40% of Gen Z wants to be a YouTuber",
+    "speaker": "Dan Porter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 28070,
+    "approx_timestamp_s": 1731
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Fix toxicity by restricting the audience",
+   "steps": [
+    "Identify why an open version fails (strangers being rude)",
+    "Limit play to friends instead of moderating everyone",
+    "Gain built-in virality from contact invites"
+   ],
+   "idea_local_id": "I1",
+   "area": "product",
+   "quote": {
+    "text": "you couldn't solve changing people's bad behavior on the internet",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12865,
+    "approx_timestamp_s": 793
+   }
+  },
+  {
+   "name": "Check analytics for your real customer",
+   "steps": [
+    "Dig into Google Analytics",
+    "Discover real audience (14-year-old girls in California, not the team)",
+    "Rename company if users misspell it"
+   ],
+   "idea_local_id": null,
+   "area": "product",
+   "quote": {
+    "text": "I realized that the customers were actually almost entirely 14-year-old girls in California",
+    "speaker": "Dan Porter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8062,
+    "approx_timestamp_s": 497
+   }
+  },
+  {
+   "name": "Hiring question for designers",
+   "steps": [
+    "Ask 'what is your favourite game?' then 'why is it great?'",
+    "Hire the 1 in 5 who describe a specific mechanic in depth"
+   ],
+   "idea_local_id": null,
+   "area": "hiring"
+  },
+  {
+   "name": "Paid filmer network instead of UGC",
+   "steps": [
+    "Build own iPhone camera/tagging software",
+    "Pay people $20 per game to film",
+    "Promote standout filmers to full-time"
+   ],
+   "idea_local_id": "I2",
+   "area": "operations"
+  },
+  {
+   "name": "Street-level customer development",
+   "steps": [
+    "Send interns to bodegas/gas stations to talk to owners and kids",
+    "Feed findings into product (e.g. add a flavour)",
+    "Launch in an overlooked market (Kentucky) not LA/NY"
+   ],
+   "idea_local_id": "I3",
+   "area": "product"
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Google Analytics",
+   "purpose": "Finding the real audience"
+  },
+  {
+   "name": "ChatGPT",
+   "purpose": "Reverse-engineering writing style; naming"
+  },
+  {
+   "name": "TikTok Shop",
+   "purpose": "Creator commerce"
+  },
+  {
+   "name": "Beehiiv",
+   "purpose": "Sponsor read (newsletter)"
+  },
+  {
+   "name": "Facebook",
+   "purpose": "FarmVille platform"
+  },
+  {
+   "name": "iPhone App Store",
+   "purpose": "Distribution"
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Platform risk cuts both ways: a giant platform game (FarmVille) made his company small overnight.",
+   "quote": {
+    "text": "All of a sudden we were big and then we were small",
+    "speaker": "Dan Porter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9406,
+    "approx_timestamp_s": 580
+   }
+  },
+  {
+   "warning": "A technical bug nearly killed the hit; it bombed until developers noticed people trying to play.",
+   "quote": {
+    "text": "If they don't say that, the app doesn't blow up and the company goes out of business",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 146,
+    "approx_timestamp_s": 9
+   }
+  },
+  {
+   "warning": "Building for 'people like us' rather than real users.",
+   "quote": null
+  },
+  {
+   "warning": "Young people don't go to websites.",
+   "quote": {
+    "text": "Like have you ever seen a young person open a browser on their phone?",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11500,
+    "approx_timestamp_s": 709
+   }
+  },
+  {
+   "warning": "Owning many businesses at once makes it hard to make any great.",
+   "quote": null
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Hits need all key ingredients together (simplicity, streaks, friends-only, live playback); remove one and it fails.",
+   "theme": "offer_design",
+   "quote": {
+    "text": "You take one of those four key ingredients away, then it's a nothing burger",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24051,
+    "approx_timestamp_s": 1483
+   }
+  },
+  {
+   "lesson": "Building is the research; a premise is just an excuse to start.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "the building of the thing is the best research you can do",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 19254,
+    "approx_timestamp_s": 1187
+   }
+  },
+  {
+   "lesson": "Small tweaks can be the difference between failure and $200M; keep testing.",
+   "theme": "validation_testing",
+   "quote": null
+  },
+  {
+   "lesson": "Outsiders can win because they don't know the 'right' way (forgot to add XP).",
+   "theme": "mindset_execution",
+   "quote": null
+  },
+  {
+   "lesson": "Great products must feel amazing in use.",
+   "theme": "offer_design",
+   "quote": null
+  },
+  {
+   "lesson": "Hire people who think deeply about why things work.",
+   "theme": "hiring_outsourcing",
+   "quote": null
+  },
+  {
+   "lesson": "Passion often follows being good at something.",
+   "theme": "mindset_execution",
+   "quote": null
+  },
+  {
+   "lesson": "Launch where competition for attention is lower (Kentucky, not LA/NY).",
+   "theme": "customer_acquisition",
+   "quote": null
+  },
+  {
+   "lesson": "Cultural signals (wired headphones, recurring story themes) inform product decisions.",
+   "theme": "niche_selection",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "B",
+  "rationale": "First-hand founder with headline figures, little unit economics; mostly lessons.",
+  "promotional_conflict": "Sponsor read for Beehiiv; TKOwners promo."
+ },
+ "extraction": {
+  "model": "grokbot",
+  "extracted_at": "2026-10-22T08:51:25",
+  "cost_usd": null,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 28,
+   "verified": 28,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

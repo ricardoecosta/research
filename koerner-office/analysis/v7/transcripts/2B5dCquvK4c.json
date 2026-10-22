@@ -1,0 +1,2077 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "2B5dCquvK4c",
+  "title": "If We Had to Make $1M Fast, We’d Start These Businesses",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=2B5dCquvK4c",
+  "upload_date": "2025-08-05",
+  "duration_s": 3666,
+  "view_count": 200237,
+  "transcript_provider": "ok",
+  "transcript_chars": 68140,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner and fellow podcaster Nick trade ideas for reaching a $1M business in six months. They cover RV rentals, 30 AI wrappers in 30 days, offshore AI-native talent placement, AI cost-savings audits for large corporations, rolling up dormant newsletters, a 'hero workflow' AI automation agency (Chris built a GoHighLevel after-hours voice agent for garage door firms and got a yes in 57 minutes), liquidation flipping, buying a business to add AI value, glamping, HVAC coil cleaning, Bingo Loco-style events and a mowing fantasy camp. Final picks: buy a business plus AI, liquidation, RV rentals, and AI automation for small businesses. Key takeaway: pick one high-impact plug-and-play workflow per niche, validate demand with data before buying assets.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": null
+  },
+  {
+   "name": "Nick",
+   "role": "co-host",
+   "description": "Host of the Nickonomics podcast; works in home health/hospice"
+  }
+ ],
+ "format": "host_solo_ideas",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Class C RV rentals on peer-to-peer platforms",
+   "one_liner": "Finance Class C motorhomes cheaply and rent them on RVshare/Outdoorsy, validated by occupancy research.",
+   "category": "rental_asset",
+   "business_model": "Nightly rental",
+   "customer": "Families/travellers renting RVs",
+   "problem": "not stated",
+   "offer": "Class C RV rental with handoff at storage facility",
+   "pricing": {
+    "model": "per night",
+    "price_points": [
+     {
+      "amount": 200,
+      "currency": "USD",
+      "unit": "per night",
+      "amount_max": 500
+     }
+    ],
+    "notes": "$35-40k RV financed 20-30 years, payment ~$200-300/month; storage ~$150/month per RV; 50% occupancy ~ $7k/month revenue, ~$5k profit."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "marketplace_platform",
+     "details": "RVshare and Outdoorsy listings",
+     "quote": {
+      "text": "having Google Sheets in one window and RV Share and Outdoorsy in another",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 1727,
+      "approx_timestamp_s": 95
+     }
+    }
+   ],
+   "delivery": "Owner cleans, turns over and hands off at storage lot; hire help at 5-10 units.",
+   "unit_economics_claims": [
+    "~$5k/month profit per RV at 50% occupancy (claimed)"
+   ],
+   "tools": [
+    "RVshare",
+    "Outdoorsy",
+    "Google Sheets"
+   ],
+   "startup_cost": "RV financed; small down payment (not stated)",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Marketplace inbound."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Online booking; handoff in person."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Cleaning, turnover, repairs physical."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Platform payments."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Messaging partly automatable."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "UK campervan hire platforms exist (e.g. Goboony); financing and demand differ."
+   },
+   "risks": [
+    "Location dependent demand",
+    "Self-managing one unit is annoying",
+    "Financing many RVs"
+   ],
+   "is_primary": false,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "like literally your monthly payment is paid for on one or two nights of renting it out",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 2845,
+     "approx_timestamp_s": 157
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "30 wrappers in 30 days, then productise or sell as SaaS/agency",
+   "one_liner": "Build an AI wrapper app every day for 30 days in Replit, pick the best pain points, sell to local businesses or the app store; modelled on Billy Howell's agency.",
+   "category": "saas_software",
+   "business_model": "SaaS subscriptions or agency builds",
+   "customer": "Local businesses with a pain point; app store users",
+   "problem": "Small pain points with no tool",
+   "offer": "Wrapper apps built with Replit/Lovable",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "Billy Howell reportedly ~$60k/month building wrappers for others."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "app_store",
+     "details": "Place on app store"
+    },
+    {
+     "channel": "other",
+     "details": "Find local businesses with that pain point (method not stated)"
+    }
+   ],
+   "delivery": "Builder vibe-codes apps.",
+   "unit_economics_claims": [
+    "Billy Howell ~ $60k/month (approximate)"
+   ],
+   "tools": [
+    "Replit",
+    "Lovable"
+   ],
+   "startup_cost": "Low",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "App store inbound; selling to local businesses needs outreach."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Self-serve."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "Software."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Stripe."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "Agent."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works in UK."
+   },
+   "risks": [
+    "Last 10% of building is hard",
+    "Customer finding is the hard part"
+   ],
+   "is_primary": false,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "I would do a 30 for30 challenge. 30 rappers in 30 days",
+     "speaker": "Nick",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 5828,
+     "approx_timestamp_s": 323
+    },
+    {
+     "text": "I think he's making like 60 grand a month",
+     "speaker": "Nick",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 5687,
+     "approx_timestamp_s": 315
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Offshore AI-native talent placement (headhunting)",
+   "one_liner": "Find AI-trained offshore workers on Upwork, vet on Zoom, and place them at companies for 20-35% of first-year salary.",
+   "category": "b2b_service",
+   "business_model": "One-off placement fee (vs staffing markup model)",
+   "customer": "Hiring managers at companies hiring 10-100 overseas staff",
+   "problem": "Need vetted overseas talent",
+   "offer": "Vetted AI-native remote hires",
+   "pricing": {
+    "model": "% of first-year salary",
+    "price_points": [
+     {
+      "amount": 4000,
+      "currency": "USD",
+      "unit": "per placement",
+      "label": "example average fee"
+     }
+    ],
+    "notes": "Staffing alternative: pay VA $1,200/month, bill $2,500 (100% markup). Referral partners get 10-20% ($400-$800)."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "outbound_linkedin",
+     "details": "DM hiring managers at big companies",
+     "quote": {
+      "text": "you just start sliding into the DMs of hiring managers at big companies that need to hire 10 to 100 people overseas",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 11314,
+      "approx_timestamp_s": 628
+     }
+    },
+    {
+     "channel": "partnerships",
+     "details": "Pay a referral fee to someone with a CRM of hiring managers"
+    }
+   ],
+   "delivery": "Recruiter sources on Upwork and vets.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Upwork",
+    "Zoom",
+    "LinkedIn",
+    "ChatGPT"
+   ],
+   "startup_cost": "Minimal ('you just need an Upwork account')",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "B2B outreach to companies is automatable and legal; relationship needed."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Vetting calls."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Candidate vetting human."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Invoicing."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works in UK; employment agency regulations apply."
+   },
+   "risks": [
+    "Not recurring",
+    "Upwork terms on taking talent off-platform"
+   ],
+   "is_primary": false,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "place them for 35% of their first year salary",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 10550,
+     "approx_timestamp_s": 585
+    },
+    {
+     "text": "You're paying a virtual assistant in the Philippines $1,200 a month. You're charging your client $2,500 a month",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 10192,
+     "approx_timestamp_s": 565
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "Agency applying to job posts with placed candidates",
+   "one_liner": "Automatically apply to job postings as an agency offering to fill the role.",
+   "category": "b2b_service",
+   "business_model": "Placement/agency fees",
+   "customer": "Employers posting jobs",
+   "problem": "Need hires",
+   "offer": "Agency candidates",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Automated applications to job posts",
+     "quote": {
+      "text": "I would go and apply to a bunch of jobs and I could probably automate that application process",
+      "speaker": "Nick",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 13208,
+      "approx_timestamp_s": 733
+     }
+    }
+   ],
+   "delivery": "Find candidates after winning.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Job boards"
+   ],
+   "startup_cost": "Low",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Automatable but spammy."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Calls."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Human."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Invoicing."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Works in UK; may annoy employers/breach board terms."
+   },
+   "risks": [
+    "Reputation, platform bans"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "I'm gonna get a lot of people who are pissed off about it and just be an agency",
+     "speaker": "Nick",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 13312,
+     "approx_timestamp_s": 739
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "Hyper-niche AI audit and savings agency for large corporations",
+   "one_liner": "Use domain expertise (payroll, benefits, IT) to audit and automate costly manual processes at large companies, priced to capture savings.",
+   "category": "ai_automation",
+   "business_model": "Share of first-year savings (50%) or fixed price equivalent",
+   "customer": "Large corporations (nine figures+)",
+   "problem": "Manual processes cost e.g. $20k/month for new-employee profiles; benefits billing errors ~$5k/month",
+   "offer": "Plug-and-play audit + automation with savings calculator",
+   "pricing": {
+    "model": "% of savings or fixed",
+    "price_points": [],
+    "notes": "Fixed predictable pricing preferred by companies."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "cold_email",
+     "details": "Send niche decision-makers a savings calculator",
+     "quote": {
+      "text": "I would target people in that niche industry by just sending them my calculator",
+      "speaker": "Nick",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 17995,
+      "approx_timestamp_s": 998
+     }
+    },
+    {
+     "channel": "outbound_linkedin",
+     "details": "DM executives (Ben Wis model)"
+    }
+   ],
+   "delivery": "Specialist builds automations.",
+   "unit_economics_claims": [
+    "$20k/month help-desk cost for profile creation",
+    "$5k/month benefits reconciliation errors"
+   ],
+   "tools": [
+    "ChatGPT",
+    "HR system integrations"
+   ],
+   "startup_cost": "Low",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "B2B outreach to corporates legal and automatable; closing needs meetings."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Discovery."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Automations built with AI; human implementation."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Invoicing."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Maintenance."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works in UK."
+   },
+   "risks": [
+    "Long enterprise sales cycles",
+    "Squeamish about % pricing"
+   ],
+   "is_primary": false,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "$20,000 a month just creating new profiles for new employees",
+     "speaker": "Nick",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 15765,
+     "approx_timestamp_s": 875
+    },
+    {
+     "text": "50% of what I save you in the first year you pay me and then everything else after that you keep",
+     "speaker": "Nick",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 18406,
+     "approx_timestamp_s": 1021
+    }
+   ]
+  },
+  {
+   "local_id": "I6",
+   "name": "Teen AI cost-savings pitches to Swiss executives (Ben Wis)",
+   "one_liner": "DM Fortune 100 executives in Switzerland offering AI savings with a $1,000 charity guarantee; pitches only in person.",
+   "category": "ai_automation",
+   "business_model": "Consulting fees (six figures of value per customer)",
+   "customer": "Large Swiss companies",
+   "problem": "Cost savings",
+   "offer": "AI savings consulting",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "30-60% close rate in person."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "cold_sms_dm",
+     "details": "DMs to executives with charity guarantee",
+     "quote": {
+      "text": "If I can't, I will donate $1,000 to the charity of your choice",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 19244,
+      "approx_timestamp_s": 1068
+     }
+    }
+   ],
+   "delivery": "Uses ChatGPT; in-person meetings.",
+   "unit_economics_claims": [],
+   "tools": [
+    "ChatGPT"
+   ],
+   "startup_cost": "Low",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "In-person closing."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Meetings."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "AI-assisted."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Invoicing."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works in UK."
+   },
+   "risks": [
+    "Credibility for young founders"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "he has like a something like a 30 or 60 somewhere in there percent close rate and it's six figures worth of value from each customer",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 19614,
+     "approx_timestamp_s": 1088
+    }
+   ]
+  },
+  {
+   "local_id": "I7",
+   "name": "Dormant newsletter roll-up",
+   "one_liner": "Buy burned-out small newsletters (3k-30k subs) in a niche cheaply or on contingency, aggregate them, sell CPM ads, and possibly go daily.",
+   "category": "content_media",
+   "business_model": "CPM sponsorships, affiliates, paid tiers; resale",
+   "customer": "Advertisers; newsletter readers",
+   "problem": "Burned-out operators with dormant lists",
+   "offer": "Aggregated niche newsletter",
+   "pricing": {
+    "model": "CPM",
+    "price_points": [
+     {
+      "amount": 30,
+      "currency": "USD",
+      "unit": "per 1,000 opens",
+      "label": "conservative CPM"
+     },
+     {
+      "amount": 50,
+      "currency": "USD",
+      "unit": "per 1,000 opens",
+      "label": "daily CPM"
+     }
+    ],
+    "notes": "10k subs x 50% opens x $30 CPM = $150/send = $600/month weekly. Buy at 10c/sub now, $1/sub later; or seller finance/contingency."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Find dormant newsletters via Beehiiv/Kit/Substack public directories using AI agents (ChatGPT agent, Manus, Comet)",
+     "quote": {
+      "text": "I want you to make a spreadsheet of every single newsletter that has not sent an email in at least a month",
+      "speaker": "Nick",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 21812,
+      "approx_timestamp_s": 1210
+     }
+    }
+   ],
+   "delivery": "Operator writes/aggregates newsletter.",
+   "unit_economics_claims": [
+    "$150 per send for 10k list"
+   ],
+   "tools": [
+    "Beehiiv",
+    "Kit",
+    "Substack",
+    "ChatGPT agent",
+    "Manus",
+    "Perplexity Comet"
+   ],
+   "startup_cost": "Pennies per subscriber or contingency",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Directory scraping and B2B outreach to newsletter owners automatable."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "List migration."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "AI-written newsletter with oversight."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Sponsor billing."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Sponsor relations."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "UK GDPR/PECR: transferring subscribers' consent to a new owner is legally risky."
+   },
+   "risks": [
+    "Consent/deliverability when merging lists",
+    "Finding sponsors"
+   ],
+   "is_primary": false,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "He would just buy up dormant newsletters in the same kind of niche and just aggregate them",
+     "speaker": "Nick",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 20918,
+     "approx_timestamp_s": 1161
+    },
+    {
+     "text": "So, that means you can make 150 bucks every time you hit send on that newsletter",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 22897,
+     "approx_timestamp_s": 1271
+    }
+   ]
+  },
+  {
+   "local_id": "I8",
+   "name": "Newsletter list broker to agencies",
+   "one_liner": "Buy dormant newsletter lists in a vertical/city cheaply and sell the audience to a marketing agency.",
+   "category": "data_leads",
+   "business_model": "Buy low, sell list",
+   "customer": "Marketing agencies",
+   "problem": "not stated",
+   "offer": "Targeted list",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "partnerships",
+     "details": "Partner with an existing marketing agency"
+    }
+   ],
+   "delivery": "Broker only.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Beehiiv",
+    "Kit"
+   ],
+   "startup_cost": "Low",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Automatable outreach."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "n/a"
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Data transfer."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Invoicing."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "n/a"
+    }
+   },
+   "uk_applicability": {
+    "score_e": 1,
+    "notes": "Selling email lists of individuals is largely unlawful under UK GDPR/PECR."
+   },
+   "risks": [
+    "Data protection law"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "I'll sell you this massive list of people that are exactly in your space",
+     "speaker": "Nick",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 24415,
+     "approx_timestamp_s": 1355
+    }
+   ]
+  },
+  {
+   "local_id": "I9",
+   "name": "Hero-workflow AI automation agency (e.g. after-hours AI receptionist for garage door companies)",
+   "one_liner": "Pick niches, build one plug-and-play high-impact workflow each (missed-call text-back, 24/7 AI voice answering), sell with setup fee plus retainer or pay-per-closed-lead.",
+   "category": "ai_automation",
+   "business_model": "Setup fee + monthly retainer; alternatively pay only per closed lead",
+   "customer": "Small home service businesses (garage door repair: $500-$3,000 jobs) that miss after-hours calls",
+   "problem": "Missed and after-hours calls lose leads; owners overwhelmed by AI",
+   "offer": "Plug-and-play AI voice agent/answering service built in GoHighLevel AI Employee",
+   "pricing": {
+    "model": "setup + retainer",
+    "price_points": [
+     {
+      "amount": 3000,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "setup"
+     },
+     {
+      "amount": 100,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "AI answering cost comparison"
+     }
+    ],
+    "notes": "Chris offered pay only when a lead closes."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "cold_sms_dm",
+     "details": "Chris scraped every DFW garage door company and texted them; a yes in 57 minutes",
+     "quote": {
+      "text": "I scraped every garage door repair company in DFW. I texted them",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 32061,
+      "approx_timestamp_s": 1779
+     }
+    }
+   ],
+   "delivery": "AI voice agent built with six clicks in GoHighLevel, knowledge base written by ChatGPT.",
+   "unit_economics_claims": [
+    "First yes in 57 minutes",
+    "Recover ~15% of leads with missed-call follow-up (claimed)"
+   ],
+   "tools": [
+    "GoHighLevel AI Employee",
+    "ChatGPT",
+    "Thinkai"
+   ],
+   "startup_cost": "Low (GoHighLevel subscription)",
+   "time_to_first_revenue": "Same day interest",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Cold texting businesses: sole traders protected under UK PECR; B2B email to limited companies OK; inbound possible."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Templated agent setup."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "AI answers calls unattended."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Recurring billing."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "Agent support."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "UK trades have the same missed-call problem; outreach method must change (no cold SMS to sole traders)."
+   },
+   "risks": [
+    "Competition, saturated in plumbing/HVAC",
+    "Voice agent quality"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "I created an AI voice agent with literally like six clicks",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 0,
+     "approx_timestamp_s": 0
+    },
+    {
+     "text": "I'd close clients and free charge 3,000 for a setup, have a monthly retainer",
+     "speaker": "Nick",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 34855,
+     "approx_timestamp_s": 1934
+    },
+    {
+     "text": "by 10:38 10:38 57 minutes later I had a business owner that said yes I want to pay for your service",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 32210,
+     "approx_timestamp_s": 1788
+    }
+   ]
+  },
+  {
+   "local_id": "I10",
+   "name": "Liquidation pallet flipping (GovDeals, B-Stock)",
+   "one_liner": "Buy liquidation lots at ~5 cents on the dollar and resell at 30-40 cents.",
+   "category": "arbitrage_reselling",
+   "business_model": "Buy/sell spread",
+   "customer": "Local marketplace buyers",
+   "problem": "not stated",
+   "offer": "Liquidated goods (e.g. treadmills)",
+   "pricing": {
+    "model": "per item",
+    "price_points": [
+     {
+      "amount": 200,
+      "currency": "USD",
+      "unit": "per treadmill"
+     }
+    ],
+    "notes": "10 treadmills for $500, sell at $200 each."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "marketplace_platform",
+     "details": "Facebook Marketplace resale"
+    }
+   ],
+   "delivery": "Owner stores and resells.",
+   "unit_economics_claims": [],
+   "tools": [
+    "GovDeals",
+    "B-Stock (Costco)",
+    "Facebook Marketplace"
+   ],
+   "startup_cost": "From $500",
+   "time_to_first_revenue": "Weeks",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Marketplace."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Messaging."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical handling."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Payments."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "UK liquidation auctions exist."
+   },
+   "risks": [
+    "Inventory risk"
+   ],
+   "is_primary": false,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "You buy for five cents on the dollar. You sell for 30 to 40 cents on the dollar",
+     "speaker": "Nick",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 35517,
+     "approx_timestamp_s": 1971
+    }
+   ]
+  },
+  {
+   "local_id": "I11",
+   "name": "Restaurant equipment liquidation middleman",
+   "one_liner": "Find closing restaurants on Facebook Marketplace and pre-sell their equipment on eBay/equipment sites before buying.",
+   "category": "arbitrage_reselling",
+   "business_model": "Spread on high-ticket equipment",
+   "customer": "Restaurants buying used equipment",
+   "problem": "Closing restaurants need to liquidate",
+   "offer": "Brokered equipment sales",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "marketplace_platform",
+     "details": "Search 'business' on Facebook Marketplace; list on eBay/restaurant equipment sites"
+    }
+   ],
+   "delivery": "No inventory held.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Facebook Marketplace",
+    "eBay"
+   ],
+   "startup_cost": "Low",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Marketplace."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Negotiation."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Pickup logistics."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Payments."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works in UK."
+   },
+   "risks": [
+    "Logistics of heavy equipment"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "just focusing on restaurants that are going out of business and liquidating their equipment",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 37524,
+     "approx_timestamp_s": 2083
+    }
+   ]
+  },
+  {
+   "local_id": "I12",
+   "name": "Buy a business and unlock value with AI automation",
+   "one_liner": "Acquire a scaled business in an industry you know and apply one high-leverage AI workflow (e.g. dictation for hospice charting) to boost capacity or cut labour.",
+   "category": "acquisition_buy_business",
+   "business_model": "Equity value creation",
+   "customer": "Owners of e.g. home health/hospice businesses",
+   "problem": "Labour-heavy processes",
+   "offer": "AI workflow implemented post-purchase",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "Example: 20% productivity, 5 to 7 visits/day, revenue $5M to $7M without new staff; 20% labour cut on $1M/month = $200k."
+   },
+   "acquisition_channels": [],
+   "delivery": "Operator implements post-acquisition.",
+   "unit_economics_claims": [],
+   "tools": [
+    "AI dictation"
+   ],
+   "startup_cost": "High (acquisition capital)",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Deal sourcing."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "n/a"
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Business still human-run."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "n/a"
+    },
+    "support": {
+     "score_e": 1,
+     "how": "n/a"
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Works in UK with sector differences."
+   },
+   "risks": [
+    "Capital and execution risk"
+   ],
+   "is_primary": false,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "If there's a company that's spending a million dollar a month on labor and I'm able to reduce their labor by 20%. I just made $200,000",
+     "speaker": "Nick",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 39474,
+     "approx_timestamp_s": 2191
+    }
+   ]
+  },
+  {
+   "local_id": "I13",
+   "name": "Conditional equity for value-add (Hector's heavy-equipment repair deal)",
+   "one_liner": "Earn equity in an under-systemised profitable business by adding website, trucks, systems and price increases instead of buying it.",
+   "category": "acquisition_buy_business",
+   "business_model": "Conditional equity",
+   "customer": "Older owner-operators",
+   "problem": "No systems, underpriced ($125/hr vs $300 market)",
+   "offer": "Operational upgrades for equity",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "Owner nets $350k/year."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "referrals_word_of_mouth",
+     "details": "Met through church friend"
+    }
+   ],
+   "delivery": "Value-add operator.",
+   "unit_economics_claims": [
+    "$350k net profit one-man operator"
+   ],
+   "tools": [],
+   "startup_cost": "None (sweat equity)",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Relationships."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "n/a"
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Operational."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "n/a"
+    },
+    "support": {
+     "score_e": 1,
+     "how": "n/a"
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works in UK."
+   },
+   "risks": [
+    "Trust; longer sales cycle"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "He makes $350,000 a year of net profit and he's crushing it",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 230,
+     "approx_timestamp_s": 12
+    }
+   ]
+  },
+  {
+   "local_id": "I14",
+   "name": "Glamping sites in under-supplied markets",
+   "one_liner": "Lease-with-option land, add pad and septic, buy discounted glamping tents and list on Airbnb one at a time.",
+   "category": "rental_asset",
+   "business_model": "Nightly rental",
+   "customer": "Glampers",
+   "problem": "Supply gaps (e.g. south Island Park, Idaho)",
+   "offer": "Glamping tents",
+   "pricing": {
+    "model": "per night",
+    "price_points": [
+     {
+      "amount": 200,
+      "currency": "USD",
+      "unit": "per night",
+      "amount_max": 300
+     }
+    ],
+    "notes": "Tents $1,500 (90% off $15k); land ~$500k for 5 acres or lease $3k/month with option; septic ~$20k; pad $6-7/sq ft."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "marketplace_platform",
+     "details": "Airbnb"
+    }
+   ],
+   "delivery": "Owner manages site.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Airbnb"
+   ],
+   "startup_cost": "Septic ~$20k + pad + tents; land lease or purchase",
+   "time_to_first_revenue": "~6 months",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Airbnb."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Online."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Cleaning, maintenance."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Platform."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Messaging."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "UK glamping popular; planning permission needed."
+   },
+   "risks": [
+    "Permitting, septic",
+    "Seasonality"
+   ],
+   "is_primary": false,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "You go search for glamping on Airbnb. You look for this weekend. You look for a year out",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 46361,
+     "approx_timestamp_s": 2573
+    }
+   ]
+  },
+  {
+   "local_id": "I15",
+   "name": "HVAC coil cleaning for grocery stores",
+   "one_liner": "Specialise in pressure-washing HVAC coils for grocery stores and gas stations; near-zero churn.",
+   "category": "b2b_service",
+   "business_model": "Recurring maintenance contract",
+   "customer": "Grocery stores, gas stations; HVAC companies (subcontract)",
+   "problem": "HVAC firms hate doing coil cleaning",
+   "offer": "Coil pressure washing",
+   "pricing": {
+    "model": "per month (guessed)",
+    "price_points": [
+     {
+      "amount": 500,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "Chris's guess"
+     }
+    ],
+    "notes": "Guest said never lost a grocery store customer."
+   },
+   "acquisition_channels": [],
+   "delivery": "Technician with pressure washer.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Pressure washer"
+   ],
+   "startup_cost": "Low",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "B2B sales."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Contracts."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Recurring invoicing."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works in UK."
+   },
+   "risks": [
+    "Physical labour"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "I had a guy on my podcast that does coil cleaning on HVAC units at grocery stores. The churn is almost zero",
+     "speaker": "Nick",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 50822,
+     "approx_timestamp_s": 2821
+    }
+   ]
+  },
+  {
+   "local_id": "I16",
+   "name": "Bingo Loco-style party events (and pickleball parties)",
+   "one_liner": "Rebrand a boring activity (bingo, pickleball) as a millennial party, validate with Facebook ads before buying gear.",
+   "category": "events_experiences",
+   "business_model": "Tickets plus food and alcohol",
+   "customer": "Millennials; 35-50 pickleball players",
+   "problem": "not stated",
+   "offer": "Themed party events with DJ, prizes",
+   "pricing": {
+    "model": "per ticket",
+    "price_points": [
+     {
+      "amount": 40,
+      "currency": "USD",
+      "unit": "per ticket"
+     }
+    ],
+    "notes": "~1,000 attendees x $40 = $40k; Bingo Loco $20-30k per night."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "paid_social",
+     "details": "Instagram/Facebook ads; pre-sell tickets and refund if not enough",
+     "quote": {
+      "text": "You run targeted Facebook ads to 35 to 50 year olds that enjoy pickle ball",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 53558,
+      "approx_timestamp_s": 2973
+     }
+    }
+   ],
+   "delivery": "Event crew on site.",
+   "unit_economics_claims": [
+    "$20-30k per night"
+   ],
+   "tools": [
+    "Facebook Ads",
+    "Instagram"
+   ],
+   "startup_cost": "Low to validate",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Paid ads and ticketing automatable."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Ticketing."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Live event."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Ticketing."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works in UK (Bingo Loco originated in Ireland/UK region)."
+   },
+   "risks": [
+    "Licensing for alcohol/gambling"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "they make like 20 to $30,000 a night and they travel around the country",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 53121,
+     "approx_timestamp_s": 2948
+    }
+   ]
+  },
+  {
+   "local_id": "I17",
+   "name": "Mowing fantasy camp / mower amusement park",
+   "one_liner": "Open a few acres with obstacle features where people pay to ride mowers, inspired by Walker's sales-rep training course.",
+   "category": "events_experiences",
+   "business_model": "Ticket sales",
+   "customer": "Mowing enthusiasts",
+   "problem": "not stated",
+   "offer": "Mower obstacle course experiences",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "On-site operation.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Riding mowers"
+   ],
+   "startup_cost": "Land and mowers",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Social content."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Ticketing."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Physical."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Ticketing."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Possible in UK."
+   },
+   "risks": [
+    "Novelty demand unproven"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "this three acres had like has 120 different features on it that showcase their mowers",
+     "speaker": "Nick",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 57328,
+     "approx_timestamp_s": 3182
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "RV payment ~$200-300/month; rents $200-500/night",
+   "metric": "price",
+   "value": {
+    "amount": 200,
+    "currency": "USD",
+    "unit": "per night",
+    "amount_max": 500
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "you could rent it out for depending on the market like 200 to 500 a night",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2768,
+    "approx_timestamp_s": 153
+   }
+  },
+  {
+   "claim": "50% occupancy ~ $7k/month topline, ~$5k profit per RV",
+   "metric": "profit",
+   "value": {
+    "amount": 5000,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So let's say 5K a month in profit",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4144,
+    "approx_timestamp_s": 230
+   },
+   "hypothetical": true
+  },
+  {
+   "claim": "RV storage ~$150/month",
+   "metric": "cost",
+   "value": {
+    "amount": 150,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "you're looking at like 150 bucks a month per RV to store it",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4489,
+    "approx_timestamp_s": 249
+   }
+  },
+  {
+   "claim": "Billy Howell ~ $60k/month",
+   "metric": "revenue",
+   "value": {
+    "amount": 60000,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Nick",
+   "first_hand": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "I think he's making like 60 grand a month",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5687,
+    "approx_timestamp_s": 315
+   }
+  },
+  {
+   "claim": "Placement fee 20-35% of first-year salary",
+   "metric": "price",
+   "value": {
+    "amount": 20,
+    "currency": null,
+    "unit": "percent",
+    "amount_max": 35
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "you charge 20 to 35% of their first year salary",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11434,
+    "approx_timestamp_s": 634
+   }
+  },
+  {
+   "claim": "Philippine VA $1,200/month billed at $2,500",
+   "metric": "price",
+   "value": {
+    "amount": 2500,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "You're charging your client $2,500 a month",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10259,
+    "approx_timestamp_s": 569
+   }
+  },
+  {
+   "claim": "Company spent $20k/month creating employee profiles",
+   "metric": "cost",
+   "value": {
+    "amount": 20000,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Nick",
+   "first_hand": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "$20,000 a month just creating new profiles for new employees",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15765,
+    "approx_timestamp_s": 875
+   }
+  },
+  {
+   "claim": "Benefits billing errors ~$5k/month",
+   "metric": "cost",
+   "value": {
+    "amount": 5000,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Nick",
+   "first_hand": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "it's like $5,000 a month that they find",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17341,
+    "approx_timestamp_s": 962
+   }
+  },
+  {
+   "claim": "Newsletter: 10k subs, 50% open, $30 CPM = $150/send",
+   "metric": "revenue",
+   "value": {
+    "amount": 150,
+    "currency": "USD",
+    "unit": "per send"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "So, that means you can make 150 bucks every time you hit send",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22897,
+    "approx_timestamp_s": 1271
+   },
+   "hypothetical": true
+  },
+  {
+   "claim": "Offer 10 cents per subscriber now, $1 later",
+   "metric": "price",
+   "value": {
+    "amount": 0.1,
+    "currency": "USD",
+    "unit": "per subscriber"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "today I can give you 10 cents per subscriber",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21993,
+    "approx_timestamp_s": 1220
+   },
+   "hypothetical": true
+  },
+  {
+   "claim": "Garage door jobs $500-$3,000",
+   "metric": "price",
+   "value": {
+    "amount": 500,
+    "currency": "USD",
+    "unit": "per job",
+    "amount_max": 3000
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I9",
+   "quote": {
+    "text": "higher ticket, $500 to $3,000 per job",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 30077,
+    "approx_timestamp_s": 1669
+   }
+  },
+  {
+   "claim": "Missed-call follow-up recovers ~15% of leads",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 15,
+    "currency": null,
+    "unit": "percent"
+   },
+   "claimant": "Nick",
+   "first_hand": false,
+   "idea_local_id": "I9",
+   "quote": {
+    "text": "Automating missed call follow-up texts for any any home services company, and you recover 15% of leads",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 28447,
+    "approx_timestamp_s": 1579
+   }
+  },
+  {
+   "claim": "Setup fee $3,000",
+   "metric": "price",
+   "value": {
+    "amount": 3000,
+    "currency": "USD",
+    "unit": "one-off"
+   },
+   "claimant": "Nick",
+   "first_hand": false,
+   "idea_local_id": "I9",
+   "quote": {
+    "text": "free charge 3,000 for a setup",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 34877,
+    "approx_timestamp_s": 1936
+   },
+   "hypothetical": true
+  },
+  {
+   "claim": "Hector's target nets $350k/year; charges $125/hr vs $300 market",
+   "metric": "profit",
+   "value": {
+    "amount": 350000,
+    "currency": "USD",
+    "unit": "per year"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I13",
+   "quote": {
+    "text": "He makes $350,000 a year of net profit",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 41719,
+    "approx_timestamp_s": 2316
+   }
+  },
+  {
+   "claim": "Glamping tents $1,500 (90% off $15k); sites $200-300/night",
+   "metric": "cost",
+   "value": {
+    "amount": 1500,
+    "currency": "USD",
+    "unit": "per tent"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I14",
+   "quote": {
+    "text": "These are like $15,000 glamping sites. They're like 1,500 bucks",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 44961,
+    "approx_timestamp_s": 2495
+   }
+  },
+  {
+   "claim": "Septic ~$20k, pad ~$6-7/sq ft",
+   "metric": "cost",
+   "value": {
+    "amount": 20000,
+    "currency": "USD",
+    "unit": "one-off"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I14",
+   "quote": {
+    "text": "then the septic is going to be $20,000",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 48567,
+    "approx_timestamp_s": 2696
+   }
+  },
+  {
+   "claim": "Bingo Loco makes $20-30k per night",
+   "metric": "revenue",
+   "value": {
+    "amount": 20000,
+    "currency": "USD",
+    "unit": "per night",
+    "amount_max": 30000
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I16",
+   "quote": {
+    "text": "they make like 20 to $30,000 a night",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 53121,
+    "approx_timestamp_s": 2948
+   }
+  },
+  {
+   "claim": "32 million small businesses in the US",
+   "metric": "other",
+   "value": {
+    "amount": 32000000,
+    "currency": null,
+    "unit": "businesses"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I9",
+   "quote": {
+    "text": "There are 32 million small businesses in America alone",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 64972,
+    "approx_timestamp_s": 3606
+   }
+  },
+  {
+   "claim": "TKOwners costs $99/month",
+   "metric": "price",
+   "value": {
+    "amount": 99,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "idea_local_id": null,
+   "quote": {
+    "text": "it's 99 bucks a month",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 31811,
+    "approx_timestamp_s": 1765
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Validate rental demand by scraping occupancy",
+   "steps": [
+    "Search RVshare/Outdoorsy (or Airbnb glamping) for this weekend and a year out",
+    "Log availability by type in a spreadsheet",
+    "Buy the type/market with highest occupancy"
+   ],
+   "idea_local_id": "I1",
+   "area": "product"
+  },
+  {
+   "name": "Hero workflow selection",
+   "steps": [
+    "Pain: clear operational cost/stress",
+    "Access: who can you reach",
+    "Infrastructure: uses some digital tools, not too many",
+    "Dollar savings: real savings",
+    "Pick high-impact, low-complexity, magic-feeling workflows; one per niche"
+   ],
+   "idea_local_id": "I9",
+   "area": "product",
+   "quote": {
+    "text": "you're looking for hero workflows. And these are what hero workflows are. They're high impact and they're low complexity",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 28128,
+    "approx_timestamp_s": 1561
+   }
+  },
+  {
+   "name": "Live AI receptionist demo outreach",
+   "steps": [
+    "Build GoHighLevel AI voice agent with ChatGPT knowledge base",
+    "Pick an un-saturated higher-ticket niche with after-hours calls (garage doors)",
+    "Scrape every company in the metro, randomise",
+    "Message offer: pay only when a lead closes"
+   ],
+   "idea_local_id": "I9",
+   "area": "acquisition"
+  },
+  {
+   "name": "Dormant newsletter sourcing",
+   "steps": [
+    "Use AI agents to list newsletters on Beehiiv/Kit/Substack directories with no send in a month",
+    "Offer pennies per subscriber or contingency/seller finance",
+    "Aggregate in one niche; sell CPM ads; convert weekly to daily"
+   ],
+   "idea_local_id": "I7",
+   "area": "acquisition"
+  },
+  {
+   "name": "Lease with option to validate land businesses",
+   "steps": [
+    "Lease raw land (e.g. $3k/month) with option to buy in a year",
+    "Install business (storage, glamping)",
+    "Buy only after validation"
+   ],
+   "idea_local_id": "I14",
+   "area": "finance"
+  },
+  {
+   "name": "Pre-sell events with ads",
+   "steps": [
+    "Run targeted ads for an event before buying gear",
+    "Refund if not enough tickets"
+   ],
+   "idea_local_id": "I16",
+   "area": "acquisition"
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "RVshare",
+   "purpose": "RV rental marketplace"
+  },
+  {
+   "name": "Outdoorsy",
+   "purpose": "RV rental marketplace"
+  },
+  {
+   "name": "Replit",
+   "purpose": "Vibe coding"
+  },
+  {
+   "name": "Lovable",
+   "purpose": "Vibe coding"
+  },
+  {
+   "name": "Upwork",
+   "purpose": "Talent sourcing"
+  },
+  {
+   "name": "LinkedIn",
+   "purpose": "DMing hiring managers"
+  },
+  {
+   "name": "Beehiiv",
+   "purpose": "Newsletter directory"
+  },
+  {
+   "name": "Kit",
+   "purpose": "Newsletter directory"
+  },
+  {
+   "name": "Substack",
+   "purpose": "Newsletter directory"
+  },
+  {
+   "name": "ChatGPT agent",
+   "purpose": "Automated research"
+  },
+  {
+   "name": "Manus",
+   "purpose": "Agent research"
+  },
+  {
+   "name": "Perplexity Comet",
+   "purpose": "Agent browser"
+  },
+  {
+   "name": "GoHighLevel AI Employee",
+   "purpose": "AI voice agent"
+  },
+  {
+   "name": "GovDeals",
+   "purpose": "Liquidation auctions"
+  },
+  {
+   "name": "B-Stock",
+   "purpose": "Costco liquidation"
+  },
+  {
+   "name": "Facebook Marketplace",
+   "purpose": "Resale and finding closing businesses"
+  },
+  {
+   "name": "eBay",
+   "purpose": "Equipment resale"
+  },
+  {
+   "name": "Airbnb",
+   "purpose": "Glamping listings"
+  },
+  {
+   "name": "TKOwners",
+   "purpose": "Community",
+   "cost_stated": "$99/month"
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Self-managing a single rental asset has no scale and becomes annoying.",
+   "quote": {
+    "text": "You should never own a rental home unless you're going to own like 10, 20, hundred of them",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3478,
+    "approx_timestamp_s": 193
+   }
+  },
+  {
+   "warning": "The last 10% of vibe-coded apps is still the hardest part.",
+   "quote": null
+  },
+  {
+   "warning": "Companies get squeamish about percentage-of-savings pricing; prefer predictable fees.",
+   "quote": null
+  },
+  {
+   "warning": "Always 'just a few more months' of grinding can become permanent.",
+   "quote": null
+  },
+  {
+   "warning": "Plumbing/HVAC/electrical are saturated with PE and existing AI answering.",
+   "quote": null
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Validate rental demand with marketplace data before buying assets.",
+   "theme": "validation_testing",
+   "quote": null
+  },
+  {
+   "lesson": "Learn by building first, then research and market.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "I just feel like you're only going to learn how to do it by building",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8599,
+    "approx_timestamp_s": 477
+   }
+  },
+  {
+   "lesson": "Piggyback on people who already have customer networks.",
+   "theme": "customer_acquisition",
+   "quote": null
+  },
+  {
+   "lesson": "Large companies waste huge sums on manual processes; domain experts can find them.",
+   "theme": "niche_selection",
+   "quote": null
+  },
+  {
+   "lesson": "Most small businesses don't answer after-hours calls; AI receptionists are a blue ocean.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "They're definitely not answering after 5:00 p.m. I just think that is a blue ocean",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 65118,
+    "approx_timestamp_s": 3614
+   }
+  },
+  {
+   "lesson": "Unbundle a pain point big companies hate doing (coil cleaning, stump grinding).",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "Find the painoint that nobody really wants to do but they have to do and unbundle it",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 52919,
+    "approx_timestamp_s": 2937
+   }
+  },
+  {
+   "lesson": "Packaging can turn a boring activity into a premium experience.",
+   "theme": "offer_design",
+   "quote": null
+  },
+  {
+   "lesson": "Equity for value-add can beat agency fees when you can't afford to buy.",
+   "theme": "exit_acquisition",
+   "quote": null
+  },
+  {
+   "lesson": "Short focused intense build periods can buy long-term freedom.",
+   "theme": "mindset_execution",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "C",
+  "rationale": "Brainstorm with mostly hypothetical numbers; some first-hand experience (RV rental, garage door outreach).",
+  "promotional_conflict": "TKOwners promo."
+ },
+ "extraction": {
+  "model": "grokbot",
+  "extracted_at": "2026-10-22T08:54:11",
+  "cost_usd": null,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 55,
+   "verified": 55,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}
