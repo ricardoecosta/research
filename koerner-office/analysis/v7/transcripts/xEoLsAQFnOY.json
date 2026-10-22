@@ -1,0 +1,1080 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "xEoLsAQFnOY",
+  "title": "I make $25K/month from one simple website",
+  "channel": "Starter Story",
+  "url": "https://www.youtube.com/watch?v=xEoLsAQFnOY",
+  "upload_date": "2026-09-06",
+  "duration_s": 899,
+  "view_count": 140687,
+  "transcript_provider": "local_whisper_tiny",
+  "transcript_chars": 15329,
+  "transcript_is_whisper": true
+ },
+ "summary": "Roman describes CareerHound, a subscription job board that scrapes listings from company websites for US jobseekers. He reports $25K in one introduction and later says the business made $28,000 in total revenue last month, with $12K MRR; the transcript does not explain the difference. His central growth method is researching audience interests, repeating timeless social content formats, and giving creators clear briefs. The main takeaway is that he credits marketing and distribution, more than product novelty, for the business’s growth.",
+ "speakers": [
+  {
+   "name": "Gus",
+   "role": "host",
+   "description": "Starter Story host; introduces himself as Gus."
+  },
+  {
+   "name": "Roman",
+   "role": "guest",
+   "description": "Founder of CareerHound."
+  }
+ ],
+ "format": "operator_interview",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "CareerHound job board",
+   "one_liner": "A paid job board that scrapes listings from company websites and uses social content to attract jobseekers.",
+   "category": "marketplace_directory",
+   "business_model": "Recurring subscriptions with weekly, monthly, and annual plans behind a hard paywall.",
+   "customer": "People in the US who are looking for a job, whether employed or unemployed.",
+   "problem": "Jobseekers want to find relevant openings, including remote roles and jobs listed directly on company websites.",
+   "offer": "A job board that scrapes jobs directly from company websites. Roman also promotes lists of companies hiring remotely and worldwide through social content that directs viewers to CareerHound.",
+   "pricing": {
+    "model": "Recurring subscription; hard paywall with no free plan.",
+    "price_points": [
+     {
+      "amount": 7,
+      "currency": "USD",
+      "unit": "per week",
+      "label": "Weekly subscription"
+     },
+     {
+      "amount": 20,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "Monthly subscription"
+     },
+     {
+      "amount": 50,
+      "currency": "USD",
+      "unit": "per year",
+      "label": "Annual subscription"
+     }
+    ],
+    "notes": "Roman states the prices without naming the currency; USD is used because CareerHound targets US users."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "organic_social_content",
+     "details": "Roman researches content in his niche across Instagram, Reddit, and TikTok, then uses repeatable formats such as lists of companies hiring remotely and worldwide, ending with a call to visit CareerHound.",
+     "quote": {
+      "text": "In my niche, people will always want to find companies hiring remotely and worldwide. So I can keep running this list over and over and over again.",
+      "speaker": "Roman",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 8308,
+      "approx_timestamp_s": 500
+     }
+    },
+    {
+     "channel": "paid_social",
+     "details": "Roman pays creators to make content for CareerHound. The transcript does not say whether the content is boosted as paid advertising or posted organically by creators.",
+     "quote": {
+      "text": "And I'll often send a message saying, \"Hey, you wanna do some paid content work.\" In like 90% of situations, you don't wanna pay more than $20 a video.",
+      "speaker": "Roman",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 9529,
+      "approx_timestamp_s": 574
+     }
+    },
+    {
+     "channel": "marketplace_platform",
+     "details": "Roman uses creator marketplaces to find people who can make promotional content; he does not name a specific marketplace for this process.",
+     "quote": {
+      "text": "The easiest way is to use a marketplace. There are a bunch of creator marketplaces.",
+      "speaker": "Roman",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 9303,
+      "approx_timestamp_s": 560
+     }
+    },
+    {
+     "channel": "cold_sms_dm",
+     "details": "Roman says he finds creators by scrolling and DMing people who already make content. This is creator recruitment, not stated customer outreach; unsolicited DMs to UK individuals or sole traders require care under PECR.",
+     "quote": {
+      "text": "But most of my creators, I find just by DMing people. They scroll, scroll, and scroll, and I find people who are already making content just for fun.",
+      "speaker": "Roman",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 9385,
+      "approx_timestamp_s": 565
+     }
+    }
+   ],
+   "delivery": "The website scrapes job listings from company websites and presents them on the job board. The transcript does not describe the scraping system, listing review, customer onboarding, or support process. Creators make social content using Roman's instructed formats.",
+   "unit_economics_claims": [
+    "Roman says the average user lifetime value is $50.",
+    "Roman reports 31% churn, explaining that job search is a high-turnover product.",
+    "Roman reports $28,000 total revenue last month and $12K MRR; an earlier statement says $25K last month.",
+    "Roman says there were over 8,079 active subscriptions.",
+    "Roman says creators generally should not be paid more than $20 per video in 90% of situations."
+   ],
+   "tools": [
+    "CareerHound",
+    "Company websites",
+    "Instagram",
+    "Reddit",
+    "TikTok",
+    "Creator marketplaces",
+    "Side Shift",
+    "Sensor Tower",
+    "Mice (as transcribed; tool name unclear)",
+    "PostHog",
+    "WhatsApp",
+    "Microsoft Clarity",
+    "Hetzner (heard in the transcript as “head snare”)",
+    "Postmark",
+    "Google Suite",
+    "Cloudflare"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Agents can research topics, draft content, and schedule posts, but spotting useful formats and managing creator work need judgment. The described unsolicited creator DMs should not be automated to UK individuals without consent."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "A paid subscription site can grant access after checkout. Roman does not describe the account setup or onboarding steps."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "A scraper can collect and publish job listings automatically, but scraping failures and stale listings need routine checks."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Weekly, monthly, and annual subscriptions fit recurring billing software; the payment provider and billing operations are not stated."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "The support process is not stated. Agents could handle routine subscription questions, with human review for billing problems and listing complaints."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "The job-board and subscription model could work in the UK, but CareerHound targets US jobseekers. A UK version would need UK job sources and local pricing, plus attention to privacy, scraping, and employment-related requirements. Unsolicited creator DMs to individuals or sole traders need consent under UK PECR."
+   },
+   "risks": [
+    "Roman reports 31% churn and says it is high because job search is a short-term need, which can make ongoing customer acquisition important.",
+    "Scraped listings can become stale or unavailable, and the transcript does not describe how CareerHound checks listing accuracy or handles source-site restrictions.",
+    "Social reach depends on content performance and platform distribution; the reported 11.7 million views are not guaranteed to repeat.",
+    "Creator content requires clear briefs and ongoing creator management.",
+    "Unsolicited marketing DMs to UK individuals and sole traders are restricted by PECR without consent; automated creator outreach would need a compliant approach."
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "Yeah, so CareerHound is a job board that scrapes, jobs directly from company websites, and our target users are people that live in US, looking for jobs either.",
+     "speaker": "Roman",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 1693,
+     "approx_timestamp_s": 101
+    },
+    {
+     "text": "So I'm a strong believer in a hard paywall, so no free plans. Our users pay $7 a week, 20 a month, or 50 a year.",
+     "speaker": "Roman",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 1917,
+     "approx_timestamp_s": 115
+    },
+    {
+     "text": "I think what makes me stand out has nothing to do with the product. It all has to do with my ability to spike people's emotions, to make people think things in their heads through my content.",
+     "speaker": "Roman",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 4982,
+     "approx_timestamp_s": 300
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "CareerHound made 25K last month.",
+   "metric": "revenue",
+   "value": {
+    "amount": 25000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "CareerHound revenue"
+   },
+   "period": "last month",
+   "claimant": "Roman",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "My name is Roman. I run a job board called CareerHound that made 25K last month. I'm non-technical, I launched it two years ago.",
+    "speaker": "Roman",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1224,
+    "approx_timestamp_s": 73
+   }
+  },
+  {
+   "claim": "Roman says CareerHound launched two years ago.",
+   "metric": "other",
+   "value": {
+    "amount": 2,
+    "currency": null,
+    "unit": "years ago",
+    "label": "Time since launch"
+   },
+   "period": null,
+   "claimant": "Roman",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I'm non-technical, I launched it two years ago. I tried everything, but I persisted and eventually made it work.",
+    "speaker": "Roman",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1303,
+    "approx_timestamp_s": 78
+   }
+  },
+  {
+   "claim": "The founders initially intended to make $1,000 each.",
+   "metric": "other",
+   "value": {
+    "amount": 1000,
+    "currency": "USD",
+    "unit": "per founder",
+    "label": "Initial income target"
+   },
+   "period": null,
+   "claimant": "Roman",
+   "first_hand": true,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "and initially our intention was to make just $1,000 each, but since we started, it has turned to a real business.",
+    "speaker": "Roman",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3709,
+    "approx_timestamp_s": 223
+   }
+  },
+  {
+   "claim": "CareerHound charges $7 per week.",
+   "metric": "price",
+   "value": {
+    "amount": 7,
+    "currency": "USD",
+    "unit": "per week",
+    "label": "Weekly plan"
+   },
+   "period": null,
+   "claimant": "Roman",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So I'm a strong believer in a hard paywall, so no free plans. Our users pay $7 a week, 20 a month, or 50 a year.",
+    "speaker": "Roman",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1917,
+    "approx_timestamp_s": 115
+   }
+  },
+  {
+   "claim": "CareerHound charges 20 per month.",
+   "metric": "price",
+   "value": {
+    "amount": 20,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "Monthly plan"
+   },
+   "period": null,
+   "claimant": "Roman",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So I'm a strong believer in a hard paywall, so no free plans. Our users pay $7 a week, 20 a month, or 50 a year.",
+    "speaker": "Roman",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1917,
+    "approx_timestamp_s": 115
+   }
+  },
+  {
+   "claim": "CareerHound charges 50 per year.",
+   "metric": "price",
+   "value": {
+    "amount": 50,
+    "currency": "USD",
+    "unit": "per year",
+    "label": "Annual plan"
+   },
+   "period": null,
+   "claimant": "Roman",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So I'm a strong believer in a hard paywall, so no free plans. Our users pay $7 a week, 20 a month, or 50 a year.",
+    "speaker": "Roman",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1917,
+    "approx_timestamp_s": 115
+   }
+  },
+  {
+   "claim": "CareerHound has over 8,079 active subscriptions.",
+   "metric": "customers",
+   "value": {
+    "amount": 8079,
+    "currency": null,
+    "unit": "active subscriptions",
+    "label": "Over 8,079"
+   },
+   "period": "current at interview",
+   "claimant": "Roman",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "And right now we have over 8,079 active subs, and the lifetime value of each user on average is $50.",
+    "speaker": "Roman",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2024,
+    "approx_timestamp_s": 121
+   }
+  },
+  {
+   "claim": "Average user lifetime value is $50.",
+   "metric": "other",
+   "value": {
+    "amount": 50,
+    "currency": "USD",
+    "unit": "per user",
+    "label": "Average lifetime value"
+   },
+   "period": null,
+   "claimant": "Roman",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "And right now we have over 8,079 active subs, and the lifetime value of each user on average is $50.",
+    "speaker": "Roman",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2024,
+    "approx_timestamp_s": 121
+   }
+  },
+  {
+   "claim": "CareerHound's churn is 31%.",
+   "metric": "other",
+   "value": {
+    "amount": 31,
+    "currency": null,
+    "unit": "percent",
+    "label": "Churn"
+   },
+   "period": null,
+   "claimant": "Roman",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "The turn is high because we're selling a job search product, so it's 31%.",
+    "speaker": "Roman",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2122,
+    "approx_timestamp_s": 127
+   }
+  },
+  {
+   "claim": "CareerHound made $28,000 in total revenue last month.",
+   "metric": "revenue",
+   "value": {
+    "amount": 28000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "Total revenue"
+   },
+   "period": "last month",
+   "claimant": "Roman",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Last month, we did $28,000 in total, and right now our MRR is 12K.",
+    "speaker": "Roman",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2193,
+    "approx_timestamp_s": 132
+   }
+  },
+  {
+   "claim": "CareerHound has $12K MRR.",
+   "metric": "mrr",
+   "value": {
+    "amount": 12000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "MRR"
+   },
+   "period": "current at interview",
+   "claimant": "Roman",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Last month, we did $28,000 in total, and right now our MRR is 12K.",
+    "speaker": "Roman",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2193,
+    "approx_timestamp_s": 132
+   }
+  },
+  {
+   "claim": "CareerHound received 11.7 million social views in the last 30 days.",
+   "metric": "traffic",
+   "value": {
+    "amount": 11700000,
+    "currency": null,
+    "unit": "views in 30 days",
+    "label": "Social views"
+   },
+   "period": "last 30 days",
+   "claimant": "Roman",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "And in social views in the last 30 days, we did 11.7 million views.",
+    "speaker": "Roman",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2435,
+    "approx_timestamp_s": 146
+   }
+  },
+  {
+   "claim": "Roman sold alarm systems for five summers.",
+   "metric": "other",
+   "value": {
+    "amount": 5,
+    "currency": null,
+    "unit": "summers",
+    "label": "Prior sales experience"
+   },
+   "period": null,
+   "claimant": "Roman",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "and while I was in college, I actually sold alarm systems, go to Dora, for five summers, and at some point, I even managed teams of salespeople",
+    "speaker": "Roman",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2896,
+    "approx_timestamp_s": 174
+   }
+  },
+  {
+   "claim": "Roman says he has followed the same content playbook for two years.",
+   "metric": "other",
+   "value": {
+    "amount": 2,
+    "currency": null,
+    "unit": "years",
+    "label": "Duration of playbook"
+   },
+   "period": null,
+   "claimant": "Roman",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Yeah, I've been following pretty much the same playbook for the last two years and it's based on this concept that there's two types of content.",
+    "speaker": "Roman",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5935,
+    "approx_timestamp_s": 357
+   }
+  },
+  {
+   "claim": "Roman describes two types of content: timeless and timely.",
+   "metric": "other",
+   "value": {
+    "amount": 2,
+    "currency": null,
+    "unit": "content types",
+    "label": "Timeless and timely"
+   },
+   "period": null,
+   "claimant": "Roman",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Yeah, I've been following pretty much the same playbook for the last two years and it's based on this concept that there's two types of content.",
+    "speaker": "Roman",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5935,
+    "approx_timestamp_s": 357
+   }
+  },
+  {
+   "claim": "Roman says timely content can lose relevance after a week.",
+   "metric": "other",
+   "value": {
+    "amount": 1,
+    "currency": null,
+    "unit": "week",
+    "label": "Example of short-lived trend content"
+   },
+   "period": null,
+   "claimant": "Roman",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "A timely piece of content is something that's in trend right now, but a week from now, nobody cares about it.",
+    "speaker": "Roman",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6126,
+    "approx_timestamp_s": 369
+   }
+  },
+  {
+   "claim": "Roman advises that in 90% of situations creators should not be paid more than $20 per video.",
+   "metric": "other",
+   "value": {
+    "amount": 90,
+    "currency": null,
+    "unit": "percent of situations",
+    "label": "Creator pricing advice"
+   },
+   "period": null,
+   "claimant": "Roman",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "In like 90% of situations, you don't wanna pay more than $20 a video.",
+    "speaker": "Roman",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9606,
+    "approx_timestamp_s": 578
+   }
+  },
+  {
+   "claim": "Roman advises not paying more than $20 per video in most situations.",
+   "metric": "price",
+   "value": {
+    "amount": 20,
+    "currency": "USD",
+    "unit": "per video",
+    "label": "Suggested creator payment ceiling"
+   },
+   "period": null,
+   "claimant": "Roman",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "In like 90% of situations, you don't wanna pay more than $20 a video.",
+    "speaker": "Roman",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9606,
+    "approx_timestamp_s": 578
+   }
+  },
+  {
+   "claim": "Roman says job search advice may be less credible from a 19-year-old creator.",
+   "metric": "other",
+   "value": {
+    "amount": 19,
+    "currency": null,
+    "unit": "years old",
+    "label": "Age example"
+   },
+   "period": null,
+   "claimant": "Roman",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Like for certain niches, young people make sense. But if you're looking for job search advice, why would you be listening to somebody who's 19 years old?",
+    "speaker": "Roman",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8977,
+    "approx_timestamp_s": 540
+   }
+  },
+  {
+   "claim": "Roman says he can give content work to people in their 50s who have never made content.",
+   "metric": "other",
+   "value": {
+    "amount": 50,
+    "currency": null,
+    "unit": "years old",
+    "label": "Creator age example"
+   },
+   "period": null,
+   "claimant": "Roman",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "That's why I'm able to give content to people in their 50s who've never done content in their life.",
+    "speaker": "Roman",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10060,
+    "approx_timestamp_s": 606
+   }
+  },
+  {
+   "claim": "Roman recommends running marketing experiments daily.",
+   "metric": "other",
+   "value": {
+    "amount": 1,
+    "currency": null,
+    "unit": "experiment cadence per day",
+    "label": "Daily experimentation"
+   },
+   "period": null,
+   "claimant": "Roman",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Because if you're running marketing experiments on a daily basis, extracting insights from every failed experiment, it's actually inevitable that you are gonna create a profitable business.",
+    "speaker": "Roman",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12921,
+    "approx_timestamp_s": 778
+   }
+  },
+  {
+   "claim": "Gus suggests CareerHound may reach $100K per month.",
+   "metric": "revenue",
+   "value": {
+    "amount": 100000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "Future milestone"
+   },
+   "period": "future",
+   "claimant": "Gus",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Maybe we'll talk to you again when you're at, you know, 100k per month.",
+    "speaker": "Gus",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13313,
+    "approx_timestamp_s": 802
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Research for timeless content formats",
+   "area": "customer_acquisition",
+   "steps": [
+    "Spend substantial time reviewing niche content across Instagram, Reddit, and TikTok.",
+    "Review both video and text rather than limiting research to one format.",
+    "Save examples that catch your attention and investigate what makes them work.",
+    "Look for recurring audience interests and questions that can support repeatable content."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "And I call it content thrifting, basically as you scroll and go through all of this content, you're just accumulating a bunch of stuff that grabs your attention",
+    "speaker": "Roman",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6566,
+    "approx_timestamp_s": 395
+   }
+  },
+  {
+   "name": "Repeat formats that convert",
+   "area": "customer_acquisition",
+   "steps": [
+    "Find a format that matches a durable audience desire, such as remote and worldwide job listings.",
+    "Use a clear hook, list the companies that fit the promise, and end with a call to visit the website.",
+    "Repeat the format while it continues to work, instead of chasing every short-lived trend."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "In my niche, people will always want to find companies hiring remotely and worldwide. So I can keep running this list over and over and over again.",
+    "speaker": "Roman",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8308,
+    "approx_timestamp_s": 500
+   }
+  },
+  {
+   "name": "Give creators simple, specific briefs",
+   "area": "operations",
+   "steps": [
+    "Put repeatable content formats and instructions in a sheet.",
+    "Review each brief for points that could confuse a creator.",
+    "Reduce research and production work so a first-time creator can follow the format."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "It's zero research. All they have to do is open up their laptop and there's a sheet of formats perfectly instructed.",
+    "speaker": "Roman",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9812,
+    "approx_timestamp_s": 591
+   }
+  },
+  {
+   "name": "Source creators through marketplaces and existing content",
+   "area": "hiring",
+   "steps": [
+    "Try creator marketplaces as a source.",
+    "Scroll through platforms and look for people already making content for fun.",
+    "Offer paid content work and keep video costs low; Roman recommends a ceiling of $20 in most situations.",
+    "Choose creators whose apparent credibility fits the audience and topic."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "But most of my creators, I find just by DMing people. They scroll, scroll, and scroll, and I find people who are already making content just for fun.",
+    "speaker": "Roman",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9385,
+    "approx_timestamp_s": 565
+   }
+  },
+  {
+   "name": "Use existing spend and app demand to find product directions",
+   "area": "validation_testing",
+   "steps": [
+    "Use Side Shift to see what companies are hiring creators.",
+    "Treat companies paying for creator work as a signal that they have a budget and are making money.",
+    "Use Sensor Tower to find apps getting downloads.",
+    "Choose a product direction you personally enjoy, then use existing content as marketing inspiration."
+   ],
+   "idea_local_id": null,
+   "quote": {
+    "text": "One creative way to source product ideas is to sign up on side shift, which is a creator marketplace.",
+    "speaker": "Roman",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10833,
+    "approx_timestamp_s": 652
+   }
+  },
+  {
+   "name": "Run frequent marketing experiments and learn from failures",
+   "area": "validation_testing",
+   "steps": [
+    "Run marketing experiments frequently.",
+    "Record what happened in each experiment, including failed attempts.",
+    "Extract a lesson from each result and use it to choose the next experiment."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So you wanna strive for failed results because this way you can eliminate what doesn't work and get closer to the thing that's gonna work.",
+    "speaker": "Roman",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11491,
+    "approx_timestamp_s": 692
+   }
+  },
+  {
+   "name": "Start with a hard paywall",
+   "area": "pricing",
+   "steps": [
+    "Offer paid weekly, monthly, and annual subscriptions.",
+    "Do not offer a free plan, according to Roman's current approach."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So I'm a strong believer in a hard paywall, so no free plans. Our users pay $7 a week, 20 a month, or 50 a year.",
+    "speaker": "Roman",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1917,
+    "approx_timestamp_s": 115
+   }
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "CareerHound",
+   "purpose": "Roman's job board and subscription product.",
+   "cost_stated": null
+  },
+  {
+   "name": "Company websites",
+   "purpose": "Source of job listings scraped into CareerHound.",
+   "cost_stated": null
+  },
+  {
+   "name": "Instagram",
+   "purpose": "Researching niche content and social content platform.",
+   "cost_stated": null
+  },
+  {
+   "name": "Reddit",
+   "purpose": "Researching niche content.",
+   "cost_stated": null
+  },
+  {
+   "name": "TikTok",
+   "purpose": "Researching niche content and social content platform.",
+   "cost_stated": null
+  },
+  {
+   "name": "Creator marketplaces",
+   "purpose": "Finding content creators; no specific marketplace is named for CareerHound creator sourcing.",
+   "cost_stated": null
+  },
+  {
+   "name": "Side Shift",
+   "purpose": "Creator marketplace Roman recommends using to see which companies hire creators and source product ideas.",
+   "cost_stated": null
+  },
+  {
+   "name": "Sensor Tower",
+   "purpose": "Finding apps that are getting downloads as a product-research input.",
+   "cost_stated": null
+  },
+  {
+   "name": "Mice (as transcribed; unclear)",
+   "purpose": "Roman says it is used for tracking social views; the tool name is unclear in the transcript.",
+   "cost_stated": null
+  },
+  {
+   "name": "PostHog",
+   "purpose": "Running marketing experiments.",
+   "cost_stated": null
+  },
+  {
+   "name": "WhatsApp",
+   "purpose": "Communicating with creators.",
+   "cost_stated": null
+  },
+  {
+   "name": "Microsoft Clarity",
+   "purpose": "Viewing website visitors.",
+   "cost_stated": null
+  },
+  {
+   "name": "Hetzner",
+   "purpose": "Server; the transcript renders the name as “head snare.”",
+   "cost_stated": null
+  },
+  {
+   "name": "Postmark",
+   "purpose": "Email campaigns.",
+   "cost_stated": null
+  },
+  {
+   "name": "Google Suite",
+   "purpose": "Email and cloud services.",
+   "cost_stated": null
+  },
+  {
+   "name": "Cloudflare",
+   "purpose": "Named as part of the website tech stack; specific function is not stated.",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Roman says trend-led content becomes a constant chase and can quickly be recognized as an ad and scrolled past.",
+   "quote": {
+    "text": "And if you build your distribution system on timely content, it's a constant grind chase after trends.",
+    "speaker": "Roman",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6233,
+    "approx_timestamp_s": 375
+   }
+  },
+  {
+   "warning": "Job search is a short-term use case; Roman says CareerHound has 31% churn.",
+   "quote": {
+    "text": "The turn is high because we're selling a job search product, so it's 31%.",
+    "speaker": "Roman",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2122,
+    "approx_timestamp_s": 127
+   }
+  },
+  {
+   "warning": "Unsolicited marketing DMs to UK individuals or sole traders require consent under PECR, so the creator-sourcing approach needs a compliant route in the UK."
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Start by understanding the audience's recurring questions and problems, then make content that addresses them.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "What are their fundamental questions and problems? And then I solve for those questions and problems using content.",
+    "speaker": "Roman",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 676,
+    "approx_timestamp_s": 40
+   }
+  },
+  {
+   "lesson": "Build distribution around enduring audience interests; trend-only content creates a constant production chase.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "And if you build your distribution system on timely content, it's a constant grind chase after trends.",
+    "speaker": "Roman",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6233,
+    "approx_timestamp_s": 375
+   }
+  },
+  {
+   "lesson": "Research across platforms and formats to notice patterns other marketers may miss.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "And in order to have a breakthrough in content, you need to spot something that's not obvious to other people",
+    "speaker": "Roman",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6792,
+    "approx_timestamp_s": 409
+   }
+  },
+  {
+   "lesson": "Once a content format converts, repeat it while the audience continues to want the outcome it promises.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "So the key to escape the hamster wheel in UGC, in content marketing is to discover formats that are converting and repeatable.",
+    "speaker": "Roman",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8171,
+    "approx_timestamp_s": 492
+   }
+  },
+  {
+   "lesson": "Match creator credibility to the audience and make the content brief clear enough for inexperienced creators to execute.",
+   "theme": "operations",
+   "quote": {
+    "text": "When I'm designing the instructions for their content, I'm asking myself, have I left any room for confusion? Or is it super simple?",
+    "speaker": "Roman",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9931,
+    "approx_timestamp_s": 598
+   }
+  },
+  {
+   "lesson": "Use real market signals, such as companies paying for creator work or apps gaining downloads, to choose product directions.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "And look at what companies are hiring creators because these companies have money, pay them, which means they're making money.",
+    "speaker": "Roman",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10933,
+    "approx_timestamp_s": 658
+   }
+  },
+  {
+   "lesson": "Treat failed marketing experiments as useful information and change the next attempt based on what you learn.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "So you wanna strive for failed results because this way you can eliminate what doesn't work and get closer to the thing that's gonna work.",
+    "speaker": "Roman",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11491,
+    "approx_timestamp_s": 692
+   }
+  },
+  {
+   "lesson": "A simple product can compete when its distribution and marketing are strong.",
+   "theme": "offer_design",
+   "quote": {
+    "text": "I think what makes me stand out has nothing to do with the product. It all has to do with my ability to spike people's emotions, to make people think things in their heads through my content.",
+    "speaker": "Roman",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4982,
+    "approx_timestamp_s": 300
+   }
+  },
+  {
+   "lesson": "Keep faith during the early stage and build a consistent habit of testing and learning.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "I think once you make your first money online, it becomes really obvious that you can do it.",
+    "speaker": "Roman",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12759,
+    "approx_timestamp_s": 768
+   }
+  }
+ ],
+ "evidence_quality": {
+  "rating": "B",
+  "rationale": "Roman gives first-hand operating details, subscription prices, customer and churn figures, revenue claims, and a concrete content and creator workflow. The transcript includes different figures for last month's revenue ($25K and $28,000), and the claims are not independently verified here.",
+  "promotional_conflict": "Starter Story promotes its free database of simple apps and websites during the video. No Roman course or software product is stated."
+ },
+ "extraction": {
+  "model": "gpt-6-luna",
+  "extracted_at": "2026-10-22T12:12:58",
+  "cost_usd": 0,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 47,
+   "verified": 47,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

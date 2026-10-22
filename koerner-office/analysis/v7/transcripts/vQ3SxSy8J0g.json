@@ -1,0 +1,2628 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "vQ3SxSy8J0g",
+  "title": "I Tried OpenClaw for a Month and I'm Never Going Back",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=vQ3SxSy8J0g",
+  "upload_date": "2026-02-28",
+  "duration_s": 2806,
+  "view_count": 151135,
+  "transcript_provider": "transcribeyoutube",
+  "transcript_chars": 54394,
+  "transcript_is_whisper": false
+ },
+ "summary": "Nick describes how he has been learning AI agents and applying them at a large company, where leaders have little experience with the tools. He demonstrates an earnings-call preparation prototype and a personal OpenClaw assistant built around organized, searchable data. He suggests businesses in corporate AI consulting, executive education, data cleanup, custom tools, and meeting follow-up. His central advice is to learn by applying AI to real workplace problems and to keep testing ideas as the technology changes.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Host of The Koerner Office."
+  },
+  {
+   "name": "Nick",
+   "role": "guest",
+   "description": "AI-focused guest who describes building and using AI tools at a large company."
+  }
+ ],
+ "format": "operator_interview",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Corporate AI adoption consulting",
+   "one_liner": "Help companies identify workflow problems and bring practical AI tools into their work.",
+   "category": "b2b_service",
+   "business_model": "Consulting projects or ongoing advisory; exact model not stated.",
+   "customer": "Executives and companies that have not yet learned how to use AI in their work.",
+   "problem": "Leaders lack time and familiarity to identify useful AI applications, while work processes contain pain points and missed follow-ups.",
+   "offer": "Learn a company's pain points, show leaders practical AI use cases, and help move workflows toward AI-enabled processes.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "Nick discusses consulting and ongoing advisory but gives no specific price for general AI adoption work."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "cold_email",
+     "details": "Nick suggests finding public information about publicly traded companies and their executives, then emailing executives to offer a short update on AI.",
+     "quote": {
+      "text": "Cold email every single one of those executives and say, \"Hi, I'm Nick. Um, I've been deep into AI in the last year and a half. I know what's coming around the corner and 95% of your competitors don't. I'd love to have five minutes with you so that I can update you on what's coming down the pike.\"",
+      "speaker": "Nick",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 44172,
+      "approx_timestamp_s": 2349
+     }
+    },
+    {
+     "channel": "cold_call",
+     "details": "Nick also suggests cold-calling companies after identifying a customer and distribution channel.",
+     "quote": {
+      "text": "If you get educated and you just cold call, literally, you could set up a cloudbot to be like, \"Here are all the publicly traded companies because I can go and scrape all of that data.\"",
+      "speaker": "Nick",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 43899,
+      "approx_timestamp_s": 2335
+     }
+    }
+   ],
+   "delivery": "Nick describes learning a company's problems, showing practical examples, and implementing AI-enabled workflows. A specific repeatable delivery process is not stated.",
+   "unit_economics_claims": [
+    "Nick says a conversation with an executive team grew from about 15 minutes to five hours as they asked him about AI.",
+    "He says AI could save senior executives a day in preparing an earnings-call script."
+   ],
+   "tools": [
+    "OpenClaw",
+    "Claude",
+    "ChatGPT",
+    "Gemini",
+    "Codex",
+    "AI agents"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Agents can research public company information and draft outreach, but targeted sales still needs human review and meetings. In the UK, cold email to limited companies can be used with appropriate identification and opt-out; sole traders need consent, and cold calls must be screened against TPS/CTPS."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "A human needs to understand the company's workflows, data, and priorities; agents can help collect and organize information."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Agents can build and demonstrate tools, but scoping, implementation choices, and client review require substantial human involvement."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Project invoicing or recurring billing could be handled by standard billing software with occasional human checks; no billing workflow is described."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Client questions and changing requirements need human judgment, though agents can answer routine questions from documented project context."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "The corporate AI adoption gap described could exist in UK companies too. Data protection, confidentiality, and sector-specific requirements would need to be addressed."
+   },
+   "risks": [
+    "The pitch depends on earning trust and demonstrating business value, not just familiarity with AI tools.",
+    "Cold outreach must follow UK rules: electronic marketing to sole traders generally needs consent, and cold calling requires TPS/CTPS screening.",
+    "Nick's claims about how far behind companies are are based on his experience, not a measured survey."
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "If you can go and work at a company, do it for a year. Who cares? And just get an idea of what are their pain points?",
+     "speaker": "Nick",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 14596,
+     "approx_timestamp_s": 776
+    },
+    {
+     "text": "This is like 2010 social media where it's like, \"Oh, you have a Facebook account. Will you run social for us?\" That's that's what it's like in AI right now.",
+     "speaker": "Nick",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 45671,
+     "approx_timestamp_s": 2429
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Earnings-call preparation pipeline",
+   "one_liner": "Turn a public company's financial data and past transcripts into a first draft for its next earnings call.",
+   "category": "saas_software",
+   "business_model": "Potential software product or service; exact revenue model not stated.",
+   "customer": "Publicly traded companies and the executives preparing their quarterly earnings calls.",
+   "problem": "Executive teams spend time reviewing data and debating wording for earnings-call scripts.",
+   "offer": "An intake and workflow that uses company strategy, past transcripts, and current data to create, workshop, refine, and export an earnings-call draft.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "Nick says he could take the prototype to market but does not state a price."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Nick showed the prototype to people at his company, who described the time required to prepare for earnings calls and helped surface the opportunity.",
+     "quote": {
+      "text": "And so, from this, like I I showed some of the people at my company like, \"Hey, this is pretty cool.\"",
+      "speaker": "Nick",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 23665,
+      "approx_timestamp_s": 1258
+     }
+    }
+   ],
+   "delivery": "The customer supplies data through an intake workflow. The system creates a first draft, supports a strategy workshop and script refinement, and exports the result. Nick says people still need to review and massage the messaging.",
+   "unit_economics_claims": [
+    "Nick says he spent 12 hours building the prototype.",
+    "He estimates that the workflow could give four senior executives 10 hours a year back."
+   ],
+   "tools": [
+    "OpenClaw",
+    "API Ninjas",
+    "Gary",
+    "public company 10-K and 10-Q filings",
+    "earnings-call transcripts"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "The transcript only describes an internal demonstration. A repeatable sales channel is not stated; enterprise sales would likely need human-led outreach and trust building."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "A structured intake can collect data and company strategy, while a human checks that the inputs are complete and appropriate."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Software can assemble data and produce drafts, but Nick explicitly says people still need to workshop and refine the messaging."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Subscription or project billing could be automated with standard software, though the business's actual billing model is not stated."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Routine product questions could be handled with documentation and agents; customer-specific reporting needs human review."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "UK public companies also prepare regular financial reports, but the prototype is described around US SEC 10-K and 10-Q filings. It would need UK filing data, reporting practices, and relevant compliance adaptations."
+   },
+   "risks": [
+    "The transcript does not establish that a company has bought or used the prototype.",
+    "Financial and executive statements need careful review; an inaccurate draft could create reputational or regulatory problems.",
+    "Customer data may be commercially sensitive."
+   ],
+   "is_primary": false,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "Stop scrambling before earnings. Start running a pipeline.",
+     "speaker": "Nick",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 25061,
+     "approx_timestamp_s": 1333
+    },
+    {
+     "text": "Then you go through like this strategy session of AI making some recommendations. Then you workshop it. Then you actually generate the first script. Then you refine it. And then you export it.",
+     "speaker": "Nick",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 26059,
+     "approx_timestamp_s": 1386
+    },
+    {
+     "text": "This is to the point I could sell it Chris.",
+     "speaker": "Nick",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 26532,
+     "approx_timestamp_s": 1411
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Company data cleanup and organization",
+   "one_liner": "Help companies organize inconsistent files and records so AI can find and use them.",
+   "category": "b2b_service",
+   "business_model": "Project-based data cleanup or implementation service; pricing and contract model not stated.",
+   "customer": "Companies with large collections of contracts and other documents stored across inconsistent folders and formats.",
+   "problem": "Files are scattered, mislabeled, or stored in different formats, making them hard to retrieve and use in AI workflows.",
+   "offer": "Create a clear taxonomy and naming system, categorize files, and prepare the data for reliable search and AI use.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "Nick calls it a potential multi-million-dollar business but does not state a customer price."
+   },
+   "acquisition_channels": [],
+   "delivery": "AI can categorize a large share of files, according to Nick, but a knowledgeable person must decide how to handle ambiguous files and establish the system for querying the data.",
+   "unit_economics_claims": [
+    "Nick estimates AI might categorize files to 80% confidence, with a substantial remainder needing human decisions."
+   ],
+   "tools": [
+    "AI",
+    "PDF",
+    "Word",
+    "HTML",
+    "JPEG"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "No acquisition channel is described. Finding and qualifying companies with messy data likely requires targeted research and human sales."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Agents can inventory files, but the company must define access, sensitivity, and the taxonomy it wants."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Automation can classify much of the corpus, but the transcript says the ambiguous remainder requires experienced human judgment."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Project invoicing could be automated with standard tools; no billing method is stated."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Exceptions, taxonomy changes, and retrieval errors require human review."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "The underlying problem is common to organizations in the UK. Handling personal or confidential records would need suitable data protection, security, and access controls."
+   },
+   "risks": [
+    "Automated classification can misfile ambiguous documents.",
+    "The service may require substantial manual work for exceptions and taxonomy decisions.",
+    "Access to contracts and internal records creates confidentiality and data protection obligations."
+   ],
+   "is_primary": false,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "So that would be like the first thing I would say is just helping companies get clean data is a multi-million dollar business.",
+     "speaker": "Nick",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 31793,
+     "approx_timestamp_s": 1691
+    },
+    {
+     "text": "I could probably run AI on it and categorize everything to 80% confidence, but there's still, let's say, 20,000 files in there that you don't know where they go.",
+     "speaker": "Nick",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 32305,
+     "approx_timestamp_s": 1718
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "Executive AI briefing and training",
+   "one_liner": "Give executives regular, practical updates and training on AI tools and their business uses.",
+   "category": "education_coaching",
+   "business_model": "One-off executive briefing, course, recurring updates, roundtables, or fractional advisory.",
+   "customer": "Executives and leadership teams who want to understand AI but lack time to explore it themselves.",
+   "problem": "Executives do not know what tools can do or how quickly they are changing, and may not have time to keep up.",
+   "offer": "Provide an executive briefing, a multi-week course, regular roundtables or updates, or fractional AI officer support.",
+   "pricing": {
+    "model": "One-off briefing and/or recurring advisory; other terms not stated.",
+    "price_points": [
+     {
+      "amount": null,
+      "currency": "USD",
+      "unit": "per session",
+      "label": "a couple thousand dollars"
+     },
+     {
+      "amount": 5000,
+      "currency": "USD",
+      "unit": "per hour",
+      "label": "jokingly suggested as Nick Consulting's rate"
+     }
+    ],
+    "notes": "Nick says a single session could command a couple thousand dollars and jokingly gives a $5,000 hourly rate. A 12-week course is proposed without a stated price."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "cold_email",
+     "details": "Nick suggests emailing executives at publicly traded companies with a short offer to update them on AI.",
+     "quote": {
+      "text": "Cold email every single one of those executives and say, \"Hi, I'm Nick. Um, I've been deep into AI in the last year and a half. I know what's coming around the corner and 95% of your competitors don't. I'd love to have five minutes with you so that I can update you on what's coming down the pike.\"",
+      "speaker": "Nick",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 44172,
+      "approx_timestamp_s": 2349
+     }
+    },
+    {
+     "channel": "cold_call",
+     "details": "He also suggests cold-calling after identifying companies and understanding the offer.",
+     "quote": {
+      "text": "If you get educated and you just cold call, literally, you could set up a cloudbot to be like, \"Here are all the publicly traded companies because I can go and scrape all of that data.\"",
+      "speaker": "Nick",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 43899,
+      "approx_timestamp_s": 2335
+     }
+    }
+   ],
+   "delivery": "Nick proposes executive briefings, a 12-week course with a weekly session, roundtables, weekly updates, or a fractional AI officer arrangement. He does not describe a course curriculum or fulfillment system.",
+   "unit_economics_claims": [
+    "Nick says a one-off executive briefing could be worth a couple thousand dollars.",
+    "He jokingly offers Nick Consulting at $5,000 an hour."
+   ],
+   "tools": [
+    "OpenClaw",
+    "Claude",
+    "AI agents"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Agents can research companies and draft outreach, but meetings and trust-building are human-led. UK B2B email rules and TPS/CTPS screening apply as relevant."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "A questionnaire and agent could gather executive priorities, but tailoring the briefing needs human input."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Training and executive discussion are live human work; agents can prepare supporting materials."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Booking and payment could be automated with ordinary scheduling and billing tools; the transcript gives no system."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Follow-up questions and tailored advice require a human, with agents helping prepare answers and updates."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "UK executives face similar AI adoption questions. The content would need to reflect UK rules, local examples, and the tools available to each client."
+   },
+   "risks": [
+    "Executives may expect specific, current answers; AI products and benchmarks change quickly.",
+    "The suggested $5,000 hourly figure is delivered jokingly and is not evidence of a sale.",
+    "The pitch should distinguish practical guidance from guaranteed business outcomes."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "I think an executive boot camp, I think weekly roundtables, I think a fractional AI officer is 100% in the offering.",
+     "speaker": "Nick",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 46544,
+     "approx_timestamp_s": 2475
+    },
+    {
+     "text": "I think just doing that session alone, you could charge a couple thousand dollars just to give these executives a taste of kind of what's coming around the corner",
+     "speaker": "Nick",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 46086,
+     "approx_timestamp_s": 2451
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "Personal OpenClaw assistant setup",
+   "one_liner": "Set up a persistent AI assistant that can search a person's organized messages, files, and commitments.",
+   "category": "ai_automation",
+   "business_model": "Setup or customization service for individuals or companies; pricing not stated.",
+   "customer": "Executives or individuals with large amounts of messages, files, and commitments to manage.",
+   "problem": "People have too much information to process and forget commitments or lose context across conversations.",
+   "offer": "Organize personal data and configure an OpenClaw assistant with persistent memory, searchable files, and reminders.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "The transcript discusses how a person might charge for helping others but gives no fee."
+   },
+   "acquisition_channels": [],
+   "delivery": "Nick exported and standardized his own ChatGPT, Claude, email, and text data, organized it into files, and connected it to OpenClaw. The assistant searches that material and can remind him about commitments.",
+   "unit_economics_claims": [
+    "Nick says the setup took significant time and that he can now retrieve some information or prepare work in minutes."
+   ],
+   "tools": [
+    "OpenClaw",
+    "Gary",
+    "ChatGPT",
+    "Claude",
+    "Google",
+    "iMessage",
+    "MCP server",
+    "QMD",
+    "Mac"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "No acquisition method is described. An agent could help with research and content, while personal-data setup is likely to require trust and a human-led sales process."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Data exports and indexing can be automated, but the user must authorize access and decide what information the assistant should retain."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "The assistant can answer queries and generate reminders after setup, but the initial data cleanup, permissions, and personalization need human oversight."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "A setup fee or subscription could use automated billing; no model is stated."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Agents can handle routine usage questions, but sensitive data, access failures, and incorrect memory require human support."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "The workflow can be used in the UK, but storing or processing personal messages, emails, and work data requires careful consent, security, and data protection handling."
+   },
+   "risks": [
+    "Connecting an agent to email, texts, and work files creates privacy and security risks.",
+    "Personal memory can be incomplete or wrong; users need a way to review stored information and reminders.",
+    "Nick says the initial setup takes time and requires planning, not just installing software."
+   ],
+   "is_primary": false,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "Now literally I can say, \"Hey, what do I have outstanding to so- and so? What did I say I was going to do?\"",
+     "speaker": "Nick",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 36349,
+     "approx_timestamp_s": 1933
+    },
+    {
+     "text": "And now I just go through him and I ask him questions. And so the first thing we just started iterating was like, \"How could I get these?\"",
+     "speaker": "Nick",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 18116,
+     "approx_timestamp_s": 963
+    }
+   ]
+  },
+  {
+   "local_id": "I6",
+   "name": "Meeting capture and follow-up system",
+   "one_liner": "Record meetings, summarize decisions, and remind people about the commitments they made.",
+   "category": "ai_automation",
+   "business_model": "Potential setup or implementation service; pricing not stated.",
+   "customer": "Companies, executives, or teams that struggle to document meetings and follow through on commitments.",
+   "problem": "Meeting decisions and promised actions are forgotten or scattered, so follow-up slips through the cracks.",
+   "offer": "Record meetings, transcribe them, create summaries, store them for later search, and send reminders about agreed actions.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "The guest describes this as a low-effort way to unlock value but does not state a price."
+   },
+   "acquisition_channels": [],
+   "delivery": "A system captures meeting audio, transcribes and summarizes it, saves the record somewhere searchable, and reminds people about follow-ups. Nick presents the workflow as a practical starting point.",
+   "unit_economics_claims": [],
+   "tools": [
+    "AI",
+    "transcription",
+    "OpenClaw"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "No acquisition channel is described; selling into organizations likely requires a human conversation about meeting practices and data handling."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Recording and storage can be configured with software, but participants, consent, and retention rules need human approval."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Transcription, summaries, search, and reminders can be automated, with human checks needed for important decisions and action items."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "A software subscription or service fee could be billed automatically; no method is stated."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Agents can answer routine questions, but missed actions, transcription errors, and privacy requests need human review."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "The workflow is relevant to UK organizations, but recording meetings and processing transcripts requires appropriate notice, lawful handling, and data retention controls."
+   },
+   "risks": [
+    "Meeting participants may not expect recording or transcript storage.",
+    "Transcripts can contain mistakes or confidential information.",
+    "Automated reminders may surface sensitive commitments to the wrong person if access controls are poor."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "If you want to unlock the most value, record your meetings. Period. Record your meetings, transcribe them, have a vehicle or a way for you to actually get a summary and a synopsis of that",
+     "speaker": "Nick",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 40168,
+     "approx_timestamp_s": 2136
+    }
+   ]
+  },
+  {
+   "local_id": "I7",
+   "name": "Custom AI-built business tools",
+   "one_liner": "Build small custom software tools for specific company workflows using AI-assisted coding.",
+   "category": "ai_automation",
+   "business_model": "Custom development projects; pricing and ongoing support model not stated.",
+   "customer": "Companies with a specific workflow that off-the-shelf software does not address well.",
+   "problem": "Businesses spend time on repetitive processes or cannot justify the cost and effort of conventional custom software.",
+   "offer": "Build customized tools that automate or simplify a company's workflow.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "The transcript says custom code costs less to build but gives no customer price."
+   },
+   "acquisition_channels": [],
+   "delivery": "Nick says he has built small survey and tracking tools and that custom software can be built for a particular use case. Specific delivery steps are not stated.",
+   "unit_economics_claims": [
+    "Nick claims custom tools can save people 80% of their time."
+   ],
+   "tools": [
+    "Claude",
+    "Codex",
+    "Gemini",
+    "Replit",
+    "Lovable",
+    "Cursor"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "No channel is stated. Customer discovery and workflow scoping are likely to involve human conversations."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Agents can collect requirements and draft specifications, but a person must confirm the workflow and acceptance criteria."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "AI coding tools can produce much of a prototype, but review, testing, deployment, and client-specific changes require human oversight."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Project or recurring billing can be automated with standard software; the transcript gives no billing details."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Agents can answer common questions, but bugs and changing business requirements need human attention."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Custom workflow software is applicable to UK businesses. Handling personal or regulated data may require specific security and compliance measures."
+   },
+   "risks": [
+    "AI-generated code can be incomplete or insecure and needs review before use.",
+    "The claimed time savings are not accompanied by a measured example in the transcript.",
+    "One-off custom projects may create ongoing support obligations."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "The cost of custom code is so low that you can build customized tools that save people 80% of their time",
+     "speaker": "Nick",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 43583,
+     "approx_timestamp_s": 2318
+    }
+   ]
+  },
+  {
+   "local_id": "I8",
+   "name": "AI search interface for company data",
+   "one_liner": "Make internal company data searchable through a natural-language AI interface.",
+   "category": "ai_automation",
+   "business_model": "Custom data integration or software implementation; pricing not stated.",
+   "customer": "Companies with proprietary data that employees cannot easily query.",
+   "problem": "Organizations have data in systems such as databases and business intelligence tools, but employees need technical skills to get useful answers.",
+   "offer": "Connect company data to an AI user interface that lets employees ask questions in everyday language.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "Nick calls access to proprietary datasets a major opportunity but gives no price."
+   },
+   "acquisition_channels": [],
+   "delivery": "Connect and structure internal datasets so an AI interface can retrieve relevant information and answer employee questions. The transcript does not describe an implementation stack or finished customer deployment.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Power BI",
+    "SQL",
+    "AI",
+    "OpenClaw"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "No acquisition method is stated. Enterprise data projects need human discovery and security discussions."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Agents can inspect and document data, but access rights, data meaning, and customer security approval require people."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Retrieval and answering can be automated after integration, but data mapping, permissions, and accuracy testing need human oversight."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Project or subscription billing could be automated; no pricing or billing method is stated."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Agents can handle routine questions, but incorrect answers or access issues need human investigation."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "The need to query company data applies in the UK. UK clients may require controls for personal data, access permissions, and regulated records."
+   },
+   "risks": [
+    "Incorrect answers can mislead employees if the system retrieves or interprets data poorly.",
+    "Private company data requires strict access control and security.",
+    "Data may need cleaning and structuring before the interface works reliably."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "If you can get a AI UI on top of that data so that people can just search, hey, show me where we have the largest deficiency in labor costs in the company right now.",
+     "speaker": "Nick",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 47297,
+     "approx_timestamp_s": 2515
+    }
+   ]
+  },
+  {
+   "local_id": "I9",
+   "name": "On-demand custom printing for schools and teams",
+   "one_liner": "Take a portable printer to where customers are and test demand for personalized items.",
+   "category": "manufacturing",
+   "business_model": "Per-item custom printing; price points and margins not stated.",
+   "customer": "Students, school teams, athletes, and people who want customized objects or apparel.",
+   "problem": "Customers want personalized designs on clothing, shoes, drinkware, phone cases, stickers, or banners.",
+   "offer": "Bring a printer that can print on different materials and surfaces, then print custom products on demand.",
+   "pricing": {
+    "model": "per-item sales; exact model not stated",
+    "price_points": [],
+    "notes": "The host recommends testing what customers want and will pay, but gives no price."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "door_to_door_in_person",
+     "details": "The host suggests taking the printer to school and printing items there on demand.",
+     "quote": {
+      "text": "dude, you need to put this in your backpack, take it to school, plug it in, and print stuff on demand.",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 5399,
+      "approx_timestamp_s": 287
+     }
+    }
+   ],
+   "delivery": "A person transports and operates the printer, takes orders, and prints personalized items on site. Examples include team shirts, customized track spikes, tumblers, phone cases, stickers, and banners.",
+   "unit_economics_claims": [],
+   "tools": [
+    "printer that can print on different materials and surfaces"
+   ],
+   "startup_cost": "The kids had bought a printer; its cost is not stated.",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 0,
+     "how": "The suggested route is in-person selling at a school, which needs a person on site."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "Orders and design choices could be collected digitally, but the in-person customer interaction and design approval need human involvement."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "A person must transport, set up, and operate the physical printer and handle the printed item."
+    },
+    "billing": {
+     "score_e": 2,
+     "how": "A payment terminal or online checkout could automate payment, but no system is described."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "A person needs to resolve print quality issues, customer changes, and product questions."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "The concept can work in UK schools and sports settings, subject to school permission, suitable product safety, and demand."
+   },
+   "risks": [
+    "The idea is unvalidated; the host recommends testing demand, product preferences, and willingness to pay.",
+    "Printing at schools requires permission and may involve safeguarding or site-access rules.",
+    "Physical setup, printing, and customer service limit automation."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "Like, you could print the the wrestling team's weight classes on their shirts.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 5666,
+     "approx_timestamp_s": 301
+    },
+    {
+     "text": "You could print like they're on the track and field team. A lot of the track and field runners, they customize their spikes, right, on their shoes.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 5748,
+     "approx_timestamp_s": 305
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Nick spent four months away from his usual work learning AI and agents.",
+   "metric": "hours",
+   "value": {
+    "amount": 4,
+    "currency": null,
+    "unit": "months",
+    "label": "time spent learning AI"
+   },
+   "period": "four months",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "Well, he's been gone for 4 months. He quit everything for 4 months, went underground, and spent hours per day, 10 plus hours every day learning AI and AI agents and how to monetize AI agents.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 754,
+    "approx_timestamp_s": 40
+   }
+  },
+  {
+   "claim": "Nick spent more than 10 hours per day learning AI during that period.",
+   "metric": "hours",
+   "value": {
+    "amount": 10,
+    "currency": null,
+    "unit": "hours per day",
+    "label": "10 plus"
+   },
+   "period": "every day during the four-month period",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "He quit everything for 4 months, went underground, and spent hours per day, 10 plus hours every day learning AI and AI agents and how to monetize AI agents.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 787,
+    "approx_timestamp_s": 41
+   }
+  },
+  {
+   "claim": "A person in a quoted tweet says they run 10 agents while sleeping.",
+   "metric": "other",
+   "value": {
+    "amount": 10,
+    "currency": null,
+    "unit": "agents",
+    "label": "running while asleep"
+   },
+   "period": null,
+   "claimant": "author of the quoted tweet, unnamed",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "Dude, I have 10 agents running while I sleep. No one is prepared for AGI in 2 years.",
+    "speaker": "Quoted tweet author",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1548,
+    "approx_timestamp_s": 82
+   }
+  },
+  {
+   "claim": "The quoted tweet predicts AGI in two years.",
+   "metric": "other",
+   "value": {
+    "amount": 2,
+    "currency": null,
+    "unit": "years",
+    "label": "AGI prediction"
+   },
+   "period": "two years",
+   "claimant": "author of the quoted tweet, unnamed",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "No one is prepared for AGI in 2 years. All my smartest friends are vibe coding until 3:00 a.m. every night.",
+    "speaker": "Quoted tweet author",
+    "match_score": 79.8,
+    "verified": false,
+    "char_offset": 1622,
+    "approx_timestamp_s": 86
+   }
+  },
+  {
+   "claim": "The quoted tweet says its author's friends code until 3 a.m. every night.",
+   "metric": "hours",
+   "value": {
+    "amount": 3,
+    "currency": null,
+    "unit": "a.m.",
+    "label": "3:00 a.m."
+   },
+   "period": "every night",
+   "claimant": "author of the quoted tweet, unnamed",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "All my smartest friends are vibe coding until 3:00 a.m. every night. It's all about agency.",
+    "speaker": "Quoted tweet author",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1659,
+    "approx_timestamp_s": 88
+   }
+  },
+  {
+   "claim": "Nick says his response to the tweet received 1.3 million views.",
+   "metric": "traffic",
+   "value": {
+    "amount": 1300000,
+    "currency": null,
+    "unit": "views",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Nick",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "Jeez, bro. 1.3 million views, dude. Prove me wrong. Go to my profile. Swipe right. Swipe right. Swipe right.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2209,
+    "approx_timestamp_s": 117
+   }
+  },
+  {
+   "claim": "The printer can make a banner 30 feet long.",
+   "metric": "other",
+   "value": {
+    "amount": 30,
+    "currency": null,
+    "unit": "feet",
+    "label": "banner length"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I9",
+   "quote": {
+    "text": "And so they wanted business ideas from me. And where we finished the conversation was like, dude, you need to put this in your backpack, take it to school, plug it in, and print stuff on demand.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5309,
+    "approx_timestamp_s": 282
+   }
+  },
+  {
+   "claim": "The host says the possible printer uses could be discussed for 10 hours.",
+   "metric": "hours",
+   "value": {
+    "amount": 10,
+    "currency": null,
+    "unit": "hours",
+    "label": "idea brainstorming"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I9",
+   "quote": {
+    "text": "Like, we could sit here for 10 hours and just scratch the surface of all the ways you could make money with this thing, but don't try to go down those rabbit holes.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5952,
+    "approx_timestamp_s": 316
+   }
+  },
+  {
+   "claim": "The chart is described as having 200 dots, each representing 3.2 million people.",
+   "metric": "customers",
+   "value": {
+    "amount": 200,
+    "currency": null,
+    "unit": "dots",
+    "label": "each dot represents 3.2 million people"
+   },
+   "period": null,
+   "claimant": "Nick",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "So this is a chart or a graph with 200 dots. Each dot represents 3.2 million people.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7641,
+    "approx_timestamp_s": 406
+   }
+  },
+  {
+   "claim": "The chart is described as representing 8.1 billion people.",
+   "metric": "customers",
+   "value": {
+    "amount": 8100000000,
+    "currency": null,
+    "unit": "people",
+    "label": "world population represented in chart"
+   },
+   "period": null,
+   "claimant": "Nick",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "Yeah. 8.1 billion people. Most of the dots are gray and then you've got kind of like maybe a tenth of the dots that are green",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7824,
+    "approx_timestamp_s": 416
+   }
+  },
+  {
+   "claim": "Nick estimates that 80% of the world has never interacted with AI.",
+   "metric": "other",
+   "value": {
+    "amount": 80,
+    "currency": null,
+    "unit": "%",
+    "label": "estimated share of world population"
+   },
+   "period": null,
+   "claimant": "Nick",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "They've never heard of AI and that is like let's just say 80% of the world.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8078,
+    "approx_timestamp_s": 429
+   }
+  },
+  {
+   "claim": "Nick estimates that 10% of the world has used a free chatbot.",
+   "metric": "other",
+   "value": {
+    "amount": 10,
+    "currency": null,
+    "unit": "%",
+    "label": "estimated share using a free chatbot"
+   },
+   "period": null,
+   "claimant": "Nick",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "Then you've got this green band which is 10% of the world who have used a free chatbot.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8152,
+    "approx_timestamp_s": 433
+   }
+  },
+  {
+   "claim": "The chart has seven dots for people who pay $20 a month for AI, which Nick estimates as 24 million people.",
+   "metric": "customers",
+   "value": {
+    "amount": 24000000,
+    "currency": null,
+    "unit": "people",
+    "label": "estimated from seven chart dots"
+   },
+   "period": "monthly subscribers",
+   "claimant": "Nick",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "So 7* 3.2 we're talking about 24 million people who pay $20 a month for AI.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8505,
+    "approx_timestamp_s": 452
+   }
+  },
+  {
+   "claim": "The chart's AI subscribers are said to pay $20 per month.",
+   "metric": "price",
+   "value": {
+    "amount": 20,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "AI subscription"
+   },
+   "period": "monthly",
+   "claimant": "Nick",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "So 7* 3.2 we're talking about 24 million people who pay $20 a month for AI.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8505,
+    "approx_timestamp_s": 452
+   }
+  },
+  {
+   "claim": "Nick describes one small chart dot as representing people who use coding scaffolding.",
+   "metric": "other",
+   "value": {
+    "amount": 1,
+    "currency": null,
+    "unit": "dot",
+    "label": "coding scaffolding users"
+   },
+   "period": null,
+   "claimant": "Nick",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "And then there's one little tiny dot. dot here of people who actually use coding scaffolding.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8578,
+    "approx_timestamp_s": 456
+   }
+  },
+  {
+   "claim": "Nick says GPT-5 could complete about two hours of human work in one output at 50% accuracy.",
+   "metric": "hours",
+   "value": {
+    "amount": 2,
+    "currency": null,
+    "unit": "human work hours per output",
+    "label": "at 50% accuracy"
+   },
+   "period": "December benchmark described",
+   "claimant": "Nick",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "It could do about two hours of human work in sort of one output of a prompt with 50% accuracy.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9998,
+    "approx_timestamp_s": 531
+   }
+  },
+  {
+   "claim": "Nick says Claude Opus 4.5 could complete about five hours of human work in one output.",
+   "metric": "hours",
+   "value": {
+    "amount": 5,
+    "currency": null,
+    "unit": "human work hours per output",
+    "label": "at the stated 50% threshold"
+   },
+   "period": "December benchmark described",
+   "claimant": "Nick",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "Claude Opus 4.5 in December, this is December, could do about 5 hours.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10169,
+    "approx_timestamp_s": 540
+   }
+  },
+  {
+   "claim": "Nick says the benchmark capability had been doubling every four months.",
+   "metric": "other",
+   "value": {
+    "amount": 4,
+    "currency": null,
+    "unit": "months",
+    "label": "doubling interval"
+   },
+   "period": "as described at the time",
+   "claimant": "Nick",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "And at that point, it was doubling every four months.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10269,
+    "approx_timestamp_s": 546
+   }
+  },
+  {
+   "claim": "Nick says that by April the models were expected to do 10 human hours of work in one output.",
+   "metric": "hours",
+   "value": {
+    "amount": 10,
+    "currency": null,
+    "unit": "human work hours per output",
+    "label": "expected benchmark"
+   },
+   "period": "by April",
+   "claimant": "Nick",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": null,
+   "quote": {
+    "text": "So, you would expect December, April, okay, by April, we should be able to have these models doing 10 human hours in one output.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10321,
+    "approx_timestamp_s": 549
+   }
+  },
+  {
+   "claim": "Nick says Claude Opus 4.6 could do about 15 hours of human work in one output.",
+   "metric": "hours",
+   "value": {
+    "amount": 15,
+    "currency": null,
+    "unit": "human work hours per output",
+    "label": "at the stated 50% threshold"
+   },
+   "period": "when the episode was recorded",
+   "claimant": "Nick",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "Now if you look way up here, whoa, 15 hours in one output. So if I ask it something now, I'm like, hey, code this blah blah blah, its output would do the same amount of work of 15 human hours in one output.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10562,
+    "approx_timestamp_s": 561
+   }
+  },
+  {
+   "claim": "Nick says the benchmark rose from five to 15 hours in about a month and a half.",
+   "metric": "other",
+   "value": {
+    "amount": 1.5,
+    "currency": null,
+    "unit": "months",
+    "label": "time for increase from five to 15 hours"
+   },
+   "period": "about a month and a half",
+   "claimant": "Nick",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "So it tripled in a month and a half when it had been doubling every four months.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10839,
+    "approx_timestamp_s": 576
+   }
+  },
+  {
+   "claim": "Nick says the benchmark uses 50% accuracy as its threshold.",
+   "metric": "other",
+   "value": {
+    "amount": 50,
+    "currency": null,
+    "unit": "%",
+    "label": "accuracy threshold"
+   },
+   "period": null,
+   "claimant": "Nick",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "What's the accuracy difference? It's the same. It's 50%. So 50% is the bar, is the threshold, basically.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10919,
+    "approx_timestamp_s": 580
+   }
+  },
+  {
+   "claim": "Nick describes a 15-minute conversation with executives growing into a five-hour conversation.",
+   "metric": "hours",
+   "value": {
+    "amount": 5,
+    "currency": null,
+    "unit": "hours",
+    "label": "conversation duration after growing from 15 minutes"
+   },
+   "period": null,
+   "claimant": "Nick",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I went to an offsite with the executive leadership team. I had a conversation with them. All of a sudden, a like 15-inute conversation ballooned into a 5-hour conversation because they were just asking me questions.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13177,
+    "approx_timestamp_s": 700
+   }
+  },
+  {
+   "claim": "Nick recommends working at a company for one year to learn its pain points.",
+   "metric": "hours",
+   "value": {
+    "amount": 1,
+    "currency": null,
+    "unit": "year",
+    "label": "suggested time working at a company"
+   },
+   "period": "one year",
+   "claimant": "Nick",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So, if you can go and work at a company, do it for a year. Who cares? And just get an idea of what are their pain points?",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14593,
+    "approx_timestamp_s": 776
+   }
+  },
+  {
+   "claim": "Nick says the earnings-call tool could return 10 hours a year to four highly paid executives.",
+   "metric": "hours",
+   "value": {
+    "amount": 10,
+    "currency": null,
+    "unit": "hours per year",
+    "label": "for four executives"
+   },
+   "period": "per year",
+   "claimant": "Nick",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "As an executive, like you just got the four highest paid people in the entire company 10 hours a year back in their time.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 26796,
+    "approx_timestamp_s": 1425
+   }
+  },
+  {
+   "claim": "Nick says API Ninjas offered access to APIs for $20 a month.",
+   "metric": "cost",
+   "value": {
+    "amount": 20,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "API Ninjas access"
+   },
+   "period": "monthly",
+   "claimant": "Nick",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "And it went and it found an API. So, I went to Ninja AP or API ninjas, which I didn't know was a website. And it was like, oh, buy this $20 a month, you get access to all these other APIs.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23017,
+    "approx_timestamp_s": 1224
+   }
+  },
+  {
+   "claim": "Nick says Gemini inference costs about $5 per million tokens.",
+   "metric": "cost",
+   "value": {
+    "amount": 5,
+    "currency": "USD",
+    "unit": "per million tokens",
+    "label": "Gemini inference"
+   },
+   "period": null,
+   "claimant": "Nick",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "For models like Gemini, you're paying like $5 per million tokens.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21859,
+    "approx_timestamp_s": 1162
+   }
+  },
+  {
+   "claim": "Nick estimates OpenAI's newest model costs about $10 per million tokens.",
+   "metric": "cost",
+   "value": {
+    "amount": 10,
+    "currency": "USD",
+    "unit": "per million tokens",
+    "label": "OpenAI model inference"
+   },
+   "period": null,
+   "claimant": "Nick",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "For a model like OpenAI's newest model, you're probably paying $10 per million tokens.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21922,
+    "approx_timestamp_s": 1166
+   }
+  },
+  {
+   "claim": "Nick says Claude Opus 4.6 costs $25 per million tokens.",
+   "metric": "cost",
+   "value": {
+    "amount": 25,
+    "currency": "USD",
+    "unit": "per million tokens",
+    "label": "Claude Opus 4.6 inference"
+   },
+   "period": null,
+   "claimant": "Nick",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "For Claude's Opus 4.6, you're paying $25 per million tokens. But it's so good.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22006,
+    "approx_timestamp_s": 1170
+   }
+  },
+  {
+   "claim": "Nick says executive teams spend a couple of days each quarter preparing for earnings calls.",
+   "metric": "hours",
+   "value": {
+    "amount": null,
+    "currency": null,
+    "unit": "days per quarter",
+    "label": "a couple of days"
+   },
+   "period": "each quarter",
+   "claimant": "Nick",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "And they spend like a couple days a quarter every quarter the whole executive team like talking about should we use great or should we use amazing",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24448,
+    "approx_timestamp_s": 1300
+   }
+  },
+  {
+   "claim": "Nick says he spent 12 hours building the earnings pipeline prototype.",
+   "metric": "hours",
+   "value": {
+    "amount": 12,
+    "currency": null,
+    "unit": "hours",
+    "label": "prototype build time"
+   },
+   "period": null,
+   "claimant": "Nick",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "I spent 12 hours like this is to the point I could sell it Chris.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 26510,
+    "approx_timestamp_s": 1410
+   }
+  },
+  {
+   "claim": "Nick estimates a company may have tens of thousands of contracts.",
+   "metric": "customers",
+   "value": {
+    "amount": null,
+    "currency": null,
+    "unit": "contracts",
+    "label": "tens of thousands"
+   },
+   "period": null,
+   "claimant": "Nick",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "You're a company. You have tens of thousands of contracts, okay? But they're all saved in different folders.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 29509,
+    "approx_timestamp_s": 1569
+   }
+  },
+  {
+   "claim": "Nick estimates AI could classify 80% of a large file collection with confidence.",
+   "metric": "other",
+   "value": {
+    "amount": 80,
+    "currency": null,
+    "unit": "%",
+    "label": "classification confidence"
+   },
+   "period": null,
+   "claimant": "Nick",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "I could probably run AI on it and categorize everything to 80% confidence, but there's still, let's say, 20,000 files in there that you don't know where they go.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 32305,
+    "approx_timestamp_s": 1718
+   }
+  },
+  {
+   "claim": "Nick uses 20,000 files as an example of the unresolved remainder after automated categorization.",
+   "metric": "other",
+   "value": {
+    "amount": 20000,
+    "currency": null,
+    "unit": "files",
+    "label": "example unresolved files"
+   },
+   "period": null,
+   "claimant": "Nick",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "I could probably run AI on it and categorize everything to 80% confidence, but there's still, let's say, 20,000 files in there that you don't know where they go.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 32305,
+    "approx_timestamp_s": 1718
+   }
+  },
+  {
+   "claim": "Nick says a model context window had long been around 200,000 tokens.",
+   "metric": "other",
+   "value": {
+    "amount": 200000,
+    "currency": null,
+    "unit": "tokens",
+    "label": "context window"
+   },
+   "period": "for a long time",
+   "claimant": "Nick",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "That context window is pretty finite. And for a long time, it only went up to like 200,000 tokens.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 33569,
+    "approx_timestamp_s": 1785
+   }
+  },
+  {
+   "claim": "Nick says the context window had recently reached one million tokens.",
+   "metric": "other",
+   "value": {
+    "amount": 1000000,
+    "currency": null,
+    "unit": "tokens",
+    "label": "context window"
+   },
+   "period": "recently, as described in the episode",
+   "claimant": "Nick",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "It finally just hit a million tokens. But even with a million tokens, if we're talking about tens of thousands of documents, we're talking about billions of tokens.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 33665,
+    "approx_timestamp_s": 1790
+   }
+  },
+  {
+   "claim": "Nick estimates that tens of thousands of documents can contain billions of tokens.",
+   "metric": "other",
+   "value": {
+    "amount": null,
+    "currency": null,
+    "unit": "tokens",
+    "label": "billions across tens of thousands of documents"
+   },
+   "period": null,
+   "claimant": "Nick",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "But even with a million tokens, if we're talking about tens of thousands of documents, we're talking about billions of tokens.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 33702,
+    "approx_timestamp_s": 1792
+   }
+  },
+  {
+   "claim": "Nick gives an example of tens of millions of tokens of source data and a 100,000-token ingestion limit.",
+   "metric": "other",
+   "value": {
+    "amount": 100000,
+    "currency": null,
+    "unit": "tokens",
+    "label": "example ingestion limit alongside tens of millions of source tokens"
+   },
+   "period": null,
+   "claimant": "Nick",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": null,
+   "quote": {
+    "text": "So, if I've got tens of millions of tokens of data, but I can only ever ingest 100,000 tokens, how do you make things queryable?",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 38353,
+    "approx_timestamp_s": 2040
+   }
+  },
+  {
+   "claim": "Nick contrasts five hours of work before setup with about five minutes after setup for some tasks.",
+   "metric": "hours",
+   "value": {
+    "amount": 5,
+    "currency": null,
+    "unit": "minutes",
+    "label": "about five minutes after setup, compared with five hours before"
+   },
+   "period": null,
+   "claimant": "Nick",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "Well, you did what now? Oh, my Yeah. Right. Cuz like the old paradigm is this took you five hours. The new paradigm is it took me like five minutes.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 37522,
+    "approx_timestamp_s": 1995
+   }
+  },
+  {
+   "claim": "Nick says the meeting capture and follow-up approach could make millions of dollars.",
+   "metric": "revenue",
+   "value": {
+    "amount": null,
+    "currency": "USD",
+    "unit": null,
+    "label": "millions of dollars"
+   },
+   "period": null,
+   "claimant": "Nick",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "and then build in yourself some type of an accountability mechanism for you to then say, \"Hey, this was a doo out that you committed to that will make you millions of dollars.\"",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 40351,
+    "approx_timestamp_s": 2146
+   }
+  },
+  {
+   "claim": "Nick says people learning AI this way are ahead of 95% of people.",
+   "metric": "other",
+   "value": {
+    "amount": 95,
+    "currency": null,
+    "unit": "%",
+    "label": "people allegedly behind"
+   },
+   "period": null,
+   "claimant": "Nick",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So, the first thing I would say is just learn. Just learn, bro. The second thing that I would say is anytime that you've been within an organization",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 42790,
+    "approx_timestamp_s": 2276
+   }
+  },
+  {
+   "claim": "Nick says custom tools can save people 80% of their time.",
+   "metric": "other",
+   "value": {
+    "amount": 80,
+    "currency": null,
+    "unit": "%",
+    "label": "claimed time saving"
+   },
+   "period": null,
+   "claimant": "Nick",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "The cost of custom code is so low that you can build customized tools that save people 80% of their time and it doesn't have to be like on the mass corporate scale.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 43583,
+    "approx_timestamp_s": 2318
+   }
+  },
+  {
+   "claim": "Nick proposes asking executives for five minutes to give them an AI update.",
+   "metric": "hours",
+   "value": {
+    "amount": 5,
+    "currency": null,
+    "unit": "minutes",
+    "label": "requested executive meeting time"
+   },
+   "period": null,
+   "claimant": "Nick",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I'd love to have five minutes with you so that I can update you on what's coming down the pike.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 44366,
+    "approx_timestamp_s": 2360
+   }
+  },
+  {
+   "claim": "Nick's suggested cold-email pitch claims 95% of an executive's competitors do not know what is coming in AI.",
+   "metric": "other",
+   "value": {
+    "amount": 95,
+    "currency": null,
+    "unit": "%",
+    "label": "claimed share of competitors"
+   },
+   "period": null,
+   "claimant": "Nick",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I've been deep into AI in the last year and a half. I know what's coming around the corner and 95% of your competitors don't.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 44243,
+    "approx_timestamp_s": 2353
+   }
+  },
+  {
+   "claim": "Nick suggests a 12-week executive course with one hour of instruction each week.",
+   "metric": "hours",
+   "value": {
+    "amount": 1,
+    "currency": null,
+    "unit": "hour per week",
+    "label": "for 12 weeks"
+   },
+   "period": "12 weeks",
+   "claimant": "Nick",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "They've asked me to like, hey, would you just would you do a course for the next 12 weeks, 1 hour a week for the executive team?",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 45234,
+    "approx_timestamp_s": 2406
+   }
+  },
+  {
+   "claim": "Nick says a one-off executive briefing could cost a couple thousand dollars.",
+   "metric": "price",
+   "value": {
+    "amount": null,
+    "currency": "USD",
+    "unit": "per session",
+    "label": "a couple thousand dollars"
+   },
+   "period": null,
+   "claimant": "Nick",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "I think just doing that session alone, you could charge a couple thousand dollars just to give these executives a taste of kind of what's coming around the corner",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 46086,
+    "approx_timestamp_s": 2451
+   }
+  },
+  {
+   "claim": "Nick suggests a six-week timeframe for helping a healthcare organization make quality reports accessible.",
+   "metric": "hours",
+   "value": {
+    "amount": 6,
+    "currency": null,
+    "unit": "weeks",
+    "label": "implementation period"
+   },
+   "period": "within six weeks",
+   "claimant": "Nick",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I8",
+   "quote": {
+    "text": "Hey, I will show you how to get every single one of your quality reports for every one of your locations in the next 6 weeks.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 48257,
+    "approx_timestamp_s": 2567
+   }
+  },
+  {
+   "claim": "Nick says the current opportunity to use cold email arbitrage may last six months.",
+   "metric": "other",
+   "value": {
+    "amount": 6,
+    "currency": null,
+    "unit": "months",
+    "label": "estimated opportunity window"
+   },
+   "period": "next six months",
+   "claimant": "Nick",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "You are going to find people in the next six months. Once everybody kind of figures that out, those channels are flooded and there's going to be a new opportunity.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 49804,
+    "approx_timestamp_s": 2649
+   }
+  },
+  {
+   "claim": "Nick says he could hire two or three people to help execute his idea.",
+   "metric": "customers",
+   "value": {
+    "amount": 2,
+    "amount_max": 3,
+    "currency": null,
+    "unit": "people",
+    "label": "potential hires"
+   },
+   "period": null,
+   "claimant": "Nick",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "And now with Clawbot, I can unlock it because I could hire like two or three people to be my minions.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 50100,
+    "approx_timestamp_s": 2665
+   }
+  },
+  {
+   "claim": "Nick jokingly advertises consulting at $5,000 an hour.",
+   "metric": "price",
+   "value": {
+    "amount": 5000,
+    "currency": "USD",
+    "unit": "per hour",
+    "label": "jokingly suggested consulting rate"
+   },
+   "period": null,
+   "claimant": "Nick",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "Um, you can find me at Nick Consulting. $5,000 an hour. Uh, I probably should actually. I mean, seriously.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 52586,
+    "approx_timestamp_s": 2797
+   }
+  },
+  {
+   "claim": "Chris says 80% of viewers of his YouTube videos are not subscribed.",
+   "metric": "other",
+   "value": {
+    "amount": 80,
+    "currency": null,
+    "unit": "%",
+    "label": "viewers not subscribed"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "Fun fact, 80% of the people that watch my YouTube videos are not subscribed to me. And most of them think they are.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11016,
+    "approx_timestamp_s": 585
+   }
+  },
+  {
+   "claim": "Chris says an email to his list generated almost $3,000 in the first 24 hours.",
+   "metric": "revenue",
+   "value": {
+    "amount": 3000,
+    "currency": "USD",
+    "unit": "in the first 24 hours",
+    "label": "almost"
+   },
+   "period": "first 24 hours",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "That email brought in almost $3,000 in the first 24 hours with no ads, no social media, and no algorithm.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 27159,
+    "approx_timestamp_s": 1444
+   }
+  },
+  {
+   "claim": "Chris says his email list has more than a quarter million people.",
+   "metric": "customers",
+   "value": {
+    "amount": 250000,
+    "currency": null,
+    "unit": "subscribers",
+    "label": "over a quarter million"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "over a quarter million people I can reach whenever I want directly with nothing standing between me and their inbox.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 27553,
+    "approx_timestamp_s": 1465
+   }
+  },
+  {
+   "claim": "The Beehiiv sponsor read says the platform takes zero commission on sales.",
+   "metric": "cost",
+   "value": {
+    "amount": 0,
+    "currency": null,
+    "unit": "commission",
+    "label": "claimed platform commission"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "Beehive lets you sell right on the platform with no separate storefront, no extra tools, and they take zero commission on any of it.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 27806,
+    "approx_timestamp_s": 1479
+   }
+  },
+  {
+   "claim": "The Beehiiv promotion offers 30% off the first three months with the stated code.",
+   "metric": "price",
+   "value": {
+    "amount": 30,
+    "currency": null,
+    "unit": "% off for first three months",
+    "label": "promotional offer"
+   },
+   "period": "first three months",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "So go to beehive.com/chris and use code chris30 for 30% off your first three months.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 28024,
+    "approx_timestamp_s": 1490
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Learn company problems from inside the organization",
+   "area": "customer_acquisition",
+   "steps": [
+    "Consider working at a company to see how its teams operate.",
+    "Notice where employees struggle, where spreadsheets are used, and where work slips through the cracks.",
+    "Use those observed pain points to identify possible AI services or tools."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "If you're on a meeting that could have been an email, that's an opportunity. If somebody let something slip through the cracks, that's an opportunity.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 43286,
+    "approx_timestamp_s": 2302
+   }
+  },
+  {
+   "name": "Use a short AI update to open executive conversations",
+   "area": "sales",
+   "steps": [
+    "Identify publicly traded companies and find executive contact information from public sources.",
+    "Write a concise, relevant message that offers a short briefing on practical AI changes.",
+    "Expect rejection and improve the pitch based on responses.",
+    "Use the first meeting to demonstrate a concrete workflow rather than just describe AI."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "If you can get on their calendar and just have like what I had with that executive team, like within a couple of minutes, they're going to be like, \"Oh, I get it. I get it.\"",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 44628,
+    "approx_timestamp_s": 2374
+   }
+  },
+  {
+   "name": "Treat an AI demo as a prototype, not proof of demand",
+   "area": "validation_testing",
+   "steps": [
+    "Build a small demo around one real workflow.",
+    "Show it to people who do that work and ask what the process currently costs them.",
+    "Use their feedback to decide whether to refine, sell, or abandon the idea."
+   ],
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "And so, from this, like I I showed some of the people at my company like, \"Hey, this is pretty cool.\"",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23665,
+    "approx_timestamp_s": 1258
+   }
+  },
+  {
+   "name": "Keep a human review stage in AI-generated earnings scripts",
+   "area": "operations",
+   "steps": [
+    "Collect the company strategy and current reporting data.",
+    "Generate an initial draft from prior transcripts and the new data.",
+    "Workshop the recommendations, refine the script, and export only after people review it."
+   ],
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "The thing that people miss here is they think AI just does everything. It doesn't. It's a good help but like you still have to work shop things.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 26262,
+    "approx_timestamp_s": 1397
+   }
+  },
+  {
+   "name": "Create a clear taxonomy before building AI retrieval",
+   "area": "operations",
+   "steps": [
+    "Inventory where files are stored and identify inconsistent folder and naming conventions.",
+    "Agree on a hierarchy and common naming structure.",
+    "Use AI to categorize files, then have an experienced person resolve ambiguous cases.",
+    "Prepare the resulting data for search and retrieval."
+   ],
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "Now, clean data would be clear taxonomy, which a taxonomy would just be a hierarchical way for you to to uh identify information.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 30591,
+    "approx_timestamp_s": 1627
+   }
+  },
+  {
+   "name": "Start with meeting capture and follow-up",
+   "area": "automation_ai",
+   "steps": [
+    "Record meetings with appropriate participant notice.",
+    "Transcribe and summarize the meeting.",
+    "Save the transcript and summary in a searchable location.",
+    "Extract commitments and create reminders for agreed follow-up."
+   ],
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "But if you just record meetings, document what was said, and then put it in a place where you can go and get back to later or build something that reminds you",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 41154,
+    "approx_timestamp_s": 2189
+   }
+  },
+  {
+   "name": "Use multiple models to review plans and specifications",
+   "area": "operations",
+   "steps": [
+    "Ask one model to turn an idea into a product requirements document.",
+    "Send the document to other models for an adversarial review.",
+    "Revise the specification through several review rounds.",
+    "Repeat the review for the implementation plan before building."
+   ],
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "And I go through like four rounds of that. And after those four rounds, I've got something that's pretty good.",
+    "speaker": "Nick",
+    "match_score": 95.3,
+    "verified": true,
+    "char_offset": 51540,
+    "approx_timestamp_s": 2741
+   }
+  },
+  {
+   "name": "Test a physical product idea where customers already are",
+   "area": "validation_testing",
+   "steps": [
+    "Take the printer to school and offer on-demand printing.",
+    "Try specific products such as team shirts, customized spikes, tumblers, phone cases, and stickers.",
+    "Ask which products and colors customers prefer and what they will pay.",
+    "Follow customer demand instead of committing early to one product."
+   ],
+   "idea_local_id": "I9",
+   "quote": {
+    "text": "How much will people pay? What colors do they like? Do they want tumblers? Do they want their phone cases engraved? Stickers, whatever.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6192,
+    "approx_timestamp_s": 329
+   }
+  },
+  {
+   "name": "Use new technology for rapid testing",
+   "area": "validation_testing",
+   "steps": [
+    "Treat a new tool as a way to test many possible offers.",
+    "Run small experiments and observe actual demand.",
+    "Keep options open until customers show where interest is strongest."
+   ],
+   "idea_local_id": "I9",
+   "quote": {
+    "text": "That's what you should do with this. And leave your options open and then just chase the energy.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6322,
+    "approx_timestamp_s": 336
+   }
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "OpenClaw",
+   "purpose": "Locally hosted agent framework used for a personal assistant with persistent memory, access to files and accounts, and reminders.",
+   "cost_stated": null
+  },
+  {
+   "name": "Gary",
+   "purpose": "Nick's name for his OpenClaw assistant.",
+   "cost_stated": null
+  },
+  {
+   "name": "ChatGPT",
+   "purpose": "AI chatbot; Nick also exports his ChatGPT data for his personal assistant.",
+   "cost_stated": "The transcript says some AI subscriptions cost $20 per month, without tying that price specifically to ChatGPT."
+  },
+  {
+   "name": "Claude",
+   "purpose": "AI model and coding assistant used for analysis and software planning.",
+   "cost_stated": "Nick says Claude Opus 4.6 costs $25 per million tokens."
+  },
+  {
+   "name": "Claude Code",
+   "purpose": "Coding tool mentioned as an example of coding scaffolding.",
+   "cost_stated": null
+  },
+  {
+   "name": "Gemini",
+   "purpose": "AI model; Nick uses it for reviews and mentions local/open-model comparisons.",
+   "cost_stated": "Nick says Gemini inference costs about $5 per million tokens."
+  },
+  {
+   "name": "Codex",
+   "purpose": "Coding tool mentioned as an example of coding scaffolding and used for adversarial reviews.",
+   "cost_stated": null
+  },
+  {
+   "name": "Replit",
+   "purpose": "Coding platform named among coding tools.",
+   "cost_stated": null
+  },
+  {
+   "name": "Lovable",
+   "purpose": "Coding platform named among coding tools.",
+   "cost_stated": null
+  },
+  {
+   "name": "Cursor",
+   "purpose": "Coding tool named among coding tools.",
+   "cost_stated": null
+  },
+  {
+   "name": "DeepSeek",
+   "purpose": "Named as a possible model for a locally hosted assistant.",
+   "cost_stated": "Described by the host as open source and potentially free to run locally; compute and hardware costs are not stated."
+  },
+  {
+   "name": "MiniMax",
+   "purpose": "Open model Nick says can be downloaded and run locally.",
+   "cost_stated": "Described as open; no price stated."
+  },
+  {
+   "name": "API Ninjas",
+   "purpose": "API access used to obtain public company filing data for the earnings pipeline.",
+   "cost_stated": "$20 per month was stated for access to APIs."
+  },
+  {
+   "name": "Google",
+   "purpose": "Nick says his OpenClaw assistant has access to his Google accounts.",
+   "cost_stated": null
+  },
+  {
+   "name": "iMessage",
+   "purpose": "Personal text messages exported or accessed for Nick's assistant through an MCP server.",
+   "cost_stated": null
+  },
+  {
+   "name": "MCP server",
+   "purpose": "Used to connect iMessage data to Nick's assistant.",
+   "cost_stated": null
+  },
+  {
+   "name": "QMD",
+   "purpose": "Nick says his assistant uses QMD for semantic search over markdown data.",
+   "cost_stated": null
+  },
+  {
+   "name": "Power BI",
+   "purpose": "Business intelligence tool mentioned as a current way companies work with data.",
+   "cost_stated": null
+  },
+  {
+   "name": "SQL",
+   "purpose": "Database query language mentioned as a technical way to work with company data.",
+   "cost_stated": null
+  },
+  {
+   "name": "Mac",
+   "purpose": "Nick locally hosts OpenClaw on his Mac.",
+   "cost_stated": null
+  },
+  {
+   "name": "Twitter",
+   "purpose": "Social platform discussed in relation to AI discourse and Nick's response to a tweet.",
+   "cost_stated": null
+  },
+  {
+   "name": "Facebook",
+   "purpose": "Host discusses his page being banned and the risk of dependence on social platforms.",
+   "cost_stated": null
+  },
+  {
+   "name": "Beehiiv (transcript says \"Beehive\")",
+   "purpose": "Newsletter platform advertised by the host as a way to sell a digital product to an email list.",
+   "cost_stated": "Sponsor read claims zero sales commission and advertises 30% off the first three months."
+  },
+  {
+   "name": "YouTube",
+   "purpose": "Host's video platform and channel.",
+   "cost_stated": null
+  },
+  {
+   "name": "tkopod.com",
+   "purpose": "Host's newsletter signup site, mentioned in a self-promotion.",
+   "cost_stated": "Described as free."
+  },
+  {
+   "name": "Earnings Pipeline",
+   "purpose": "Nick's prototype for public company earnings-call preparation.",
+   "cost_stated": null
+  },
+  {
+   "name": "10-K and 10-Q filings",
+   "purpose": "Public company annual and quarterly reports used as source data for the earnings pipeline.",
+   "cost_stated": null
+  },
+  {
+   "name": "printer that can print on different materials and surfaces",
+   "purpose": "Physical production equipment discussed for on-demand custom printing.",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Do not assume AI can deliver a finished, reliable result without human review; Nick says messaging still needs to be workshopped and refined.",
+   "quote": {
+    "text": "The thing that people miss here is they think AI just does everything. It doesn't. It's a good help but like you still have to work shop things.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 26262,
+    "approx_timestamp_s": 1397
+   }
+  },
+  {
+   "warning": "A powerful agent is not useful unless the user has a plan for what work it should do and how it will be supervised.",
+   "quote": {
+    "text": "You've got to have a plan for how you're going to use it. That's what people miss with AI.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 19650,
+    "approx_timestamp_s": 1045
+   }
+  },
+  {
+   "warning": "Poorly organized or inconsistent source data can prevent AI from finding and using the right information.",
+   "quote": {
+    "text": "But if the data is dirty, you can't get good outputs.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 31741,
+    "approx_timestamp_s": 1688
+   }
+  },
+  {
+   "warning": "Locally hosting an agent is a security choice Nick says he prefers; he says hosting it on the web scares him.",
+   "quote": {
+    "text": "This is locally hosted on my Mac. I will probably turn another one of my Macs just into this so that it's running all of the time.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18396,
+    "approx_timestamp_s": 978
+   }
+  },
+  {
+   "warning": "AI classification leaves ambiguous files that still need an experienced person to decide where they belong.",
+   "quote": {
+    "text": "But even beyond that, putting in a format where it can query and use the data is something in and of itself.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 32631,
+    "approx_timestamp_s": 1735
+   }
+  },
+  {
+   "warning": "The suggested cold email approach needs UK legal checks: marketing emails to sole traders generally require consent, and cold calls must be screened against TPS/CTPS.",
+   "quote": {
+    "text": "Cold email every single one of those executives and say, \"Hi, I'm Nick. Um, I've been deep into AI in the last year and a half.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 44172,
+    "approx_timestamp_s": 2349
+   }
+  },
+  {
+   "warning": "Treat the printer idea as unvalidated and test demand, prices, and product preferences before committing.",
+   "quote": {
+    "text": "How much will people pay? What colors do they like? Do they want tumblers? Do they want their phone cases engraved?",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6192,
+    "approx_timestamp_s": 329
+   }
+  },
+  {
+   "warning": "The host's Facebook account and page were banned, illustrating that social platform access and audiences can disappear.",
+   "quote": {
+    "text": "So what happened is that Meta, aka Facebook, banned my Facebook page out of nowhere. All of my followers, content, everything gone overnight.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 27261,
+    "approx_timestamp_s": 1450
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Learn AI by applying it to real customer or workplace problems; experimentation alone is not a business.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "99% of the things that people are messing around with don't have a use case and they won't have a use case. But how are people supposed to build the skill?",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3182,
+    "approx_timestamp_s": 169
+   }
+  },
+  {
+   "lesson": "Keep testing possible uses and follow demonstrated customer demand instead of marrying the first idea.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "And leave your options open and then just chase the energy. And what we're talking about here is like use claude, use AI, use LLMs, use agents as your rapid testing vehicles.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6358,
+    "approx_timestamp_s": 338
+   }
+  },
+  {
+   "lesson": "A job can be a way to learn a company's real problems and build expertise before starting a business.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "I think if I went and actually worked at a company, I'll learn their pain points and then I can do whatever the freak I want whenever I want",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15113,
+    "approx_timestamp_s": 803
+   }
+  },
+  {
+   "lesson": "Start with a clear task, training material, and oversight plan before handing work to an agent.",
+   "theme": "automation_ai",
+   "quote": {
+    "text": "If you understand like, oh, I know exactly what I would use them for. Here's the training material. Here's how I'm going to oversee them.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20000,
+    "approx_timestamp_s": 1063
+   }
+  },
+  {
+   "lesson": "Clean, structured data is a prerequisite for useful AI retrieval and analysis.",
+   "theme": "operations",
+   "quote": {
+    "text": "The only way for you though to get out of AI what the promise is is if you have clean data that it can extract, analyze, and then spit out actionable information to you.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 29039,
+    "approx_timestamp_s": 1544
+   }
+  },
+  {
+   "lesson": "Start with simple, useful workflows such as meeting summaries and follow-up before building elaborate agents.",
+   "theme": "automation_ai",
+   "quote": {
+    "text": "People get so tripped up on like, I'm going to build this agent or I'm going to build this skill. No, literally record a meeting, summarize it",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 41388,
+    "approx_timestamp_s": 2201
+   }
+  },
+  {
+   "lesson": "Use AI as a first-draft and analysis aid while keeping people involved in judgment-heavy work.",
+   "theme": "operations",
+   "quote": {
+    "text": "Then you go through like this strategy session of AI making some recommendations. Then you workshop it. Then you actually generate the first script. Then you refine it.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 26059,
+    "approx_timestamp_s": 1386
+   }
+  },
+  {
+   "lesson": "A practical demonstration can make a new technology understandable to leaders who have not tried it.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "The second you meet somebody like me, you're like, okay, I get it. Holy crap, the train is coming. I'm about to get hit.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 46427,
+    "approx_timestamp_s": 2469
+   }
+  },
+  {
+   "lesson": "Use multiple AI models to challenge a plan and expose gaps before implementation.",
+   "theme": "automation_ai",
+   "quote": {
+    "text": "I'll use other models as a way to sort of glean other insights that I might have missed.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 51888,
+    "approx_timestamp_s": 2760
+   }
+  },
+  {
+   "lesson": "Build an audience you can reach directly because social media access can disappear.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "Social media can disappear overnight, but your email list will not.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 27958,
+    "approx_timestamp_s": 1487
+   }
+  }
+ ],
+ "evidence_quality": {
+  "rating": "B",
+  "rationale": "Nick gives first-hand descriptions of his AI workflows, a prototype, and how he introduced AI to an executive team. Several business opportunities are proposals rather than launched offers, and the benchmark, market-size, time-saving, and pricing claims are not independently substantiated in the transcript.",
+  "promotional_conflict": "Chris includes a Beehiiv sponsor read and promotes his own newsletter. Nick mentions a possible Nick Consulting rate and his own YouTube and Twitter presence."
+ },
+ "extraction": {
+  "model": "gpt-6-luna",
+  "extracted_at": "2026-10-22T12:10:12",
+  "cost_usd": 0,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 104,
+   "verified": 103,
+   "rate": 0.99
+  },
+  "schema_errors": []
+ }
+}
