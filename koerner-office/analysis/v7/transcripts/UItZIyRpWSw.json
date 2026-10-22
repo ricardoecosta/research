@@ -1,0 +1,2164 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "UItZIyRpWSw",
+  "title": "Watch Me Build an App With AI and Make a Sale in 85 Minutes",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=UItZIyRpWSw",
+  "upload_date": "2026-09-02",
+  "duration_s": 5101,
+  "view_count": 49859,
+  "transcript_provider": "cached",
+  "transcript_chars": 91151,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner builds and markets Only Waivers, a subscription app for creating digital liability waivers and collecting signatures for youth activities. He uses AI coding and advertising tools, runs paid and organic tests, and works through payment and product bugs on camera. He reports one paying customer, but says his advertising spend so far is much higher than the first year’s $13 subscription revenue. The main takeaway is to test demand while building, then use customer behavior and real checkout results to guide fixes and marketing.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Host of The Koerner Office; builds and markets the app on camera."
+  }
+ ],
+ "format": "tutorial_howto",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Only Waivers",
+   "one_liner": "A self-service app for event organizers to create digital waivers and collect signatures from participants or their parents.",
+   "category": "saas_software",
+   "business_model": "Annual subscription or one-off lifetime payment.",
+   "customer": "Initially, Church of Jesus Christ of Latter-day Saints ward and stake leaders organizing youth activities; also considered gyms, trampoline parks, and tour operators. Parents or guardians sign as end users.",
+   "problem": "Paper or PDF permission forms are cumbersome to distribute, print, sign, and collect. Forms can be lost, and organizers may let a child attend without a waiver rather than turn them away.",
+   "offer": "An organizer creates an event, optionally uploads a waiver PDF to emulate, and generates a shareable signing link. Signers enter participant and medical information and sign on a phone without creating an account. The organizer can access signed copies in an admin account; the app can provide a generic waiver template.",
+   "pricing": {
+    "model": "Annual subscription or lifetime access.",
+    "price_points": [
+     {
+      "amount": 13,
+      "currency": "USD",
+      "unit": "per year",
+      "label": "Yearly plan"
+     },
+     {
+      "amount": 17,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "Lifetime plan"
+     },
+     {
+      "amount": 15,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "Lifetime price briefly considered"
+     },
+     {
+      "amount": 20,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "Lifetime price briefly considered"
+     }
+    ],
+    "notes": "The prompt initially specified $13 per year and no free plan. Chris later selected $17 lifetime access, after briefly considering $15 or $20. The first reported external customer bought the yearly plan."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "paid_social",
+     "details": "Created Meta/Facebook ads with an on-camera video aimed at LDS organizers. Started with broad US targeting, then narrowed delivery to Utah after seeing ads served across many states. Used a Meta pixel and UTM parameters to measure activity and compare ads.",
+     "quote": {
+      "text": "Make the daily budget 200 instead of 20 because I want results as soon as possible.",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 40842,
+      "approx_timestamp_s": 2369
+     }
+    },
+    {
+     "channel": "facebook_groups_communities",
+     "details": "Posted questions about the waiver pain point in relevant Facebook groups, attached a screenshot of the waiver, and planned to explain the product in comments. Some posts went to moderator approval.",
+     "quote": {
+      "text": "posts that have a picture or a video of some sort always perform better. Always.",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 71068,
+      "approx_timestamp_s": 4122
+     }
+    },
+    {
+     "channel": "organic_social_content",
+     "details": "Posted a factual story in relevant Reddit communities, initially without a link, then planned to answer comments and add the product name or link if the community response supported it. One post was removed by moderators.",
+     "quote": {
+      "text": "the best way to promote on Reddit is to just write a true factual story about what you've done and why you did it and not link to it.",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 69440,
+      "approx_timestamp_s": 4028
+     }
+    },
+    {
+     "channel": "seo_organic_search",
+     "details": "Added a resources page and an SEO-friendly blog about sending liability waivers, with the aim of attracting search traffic and being recommended by ChatGPT.",
+     "quote": null
+    },
+    {
+     "channel": "referrals_word_of_mouth",
+     "details": "Planned referral links in confirmation emails and signed-waiver emails so organizers and signers could discover the product.",
+     "quote": {
+      "text": "Referral footer in every signed waiver email a lifetime value past year one.",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 48385,
+      "approx_timestamp_s": 2806
+     }
+    }
+   ],
+   "delivery": "The organizer creates an event and signing link in the web app. Participants or parents complete the form and sign on a phone; signed digital copies are stored for the organizer. The software sends transactional emails. Chris built and maintained the app himself with an AI coding tool, fixed bugs, and handled early customer support. No human service is required for each waiver, though organizers must choose appropriate waiver language and review the records.",
+   "unit_economics_claims": [
+    "The first reported external customer paid for the $13 yearly plan.",
+    "Chris said he had spent around $100 on ads and had spent six hours building the app offline by the time of the sale.",
+    "He reported a $0.68 Stripe fee on the first external subscription payment.",
+    "He said a $200 daily advertising budget could produce roughly 1 to 200 landing page views per day, and estimated that about 15 sales per day would be needed to break even on ad spend."
+   ],
+   "tools": [
+    "Replit",
+    "Claude",
+    "Meta Ads Manager",
+    "Stripe",
+    "Resend",
+    "Google Analytics",
+    "Meta Pixel",
+    "UTM parameters"
+   ],
+   "startup_cost": "Chris paid $12 for the domain. He did not state a full startup cost. He later described roughly $100 of ad spend and six hours of offline app-building work.",
+   "time_to_first_revenue": "A paying customer bought the yearly plan during the video. The transcript does not state the exact elapsed time from starting the build to that sale.",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Agents can help configure and optimize paid ads, write copy, and support SEO content. A person still needs to choose the audience and offer, make or approve creative, check results, and comply with platform and UK marketing rules."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Organizers can self-serve event creation and payment, and signers do not need an account. Human review may still be needed when an organizer needs help choosing a template or setting up an event."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "The app generates links, collects form data and signatures, and stores copies automatically. Organizers still need to decide whether the waiver suits their event and check that the data is complete."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Stripe handles checkout and recurring yearly billing. The founder had to connect the live account and troubleshoot sandbox-mode and checkout issues."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "A contact form can route messages, but early bugs, billing problems, and questions about waiver wording are likely to need founder attention."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "The web app, paid advertising, search, and digital signatures can be used in the UK, but the waiver wording, consumer terms, privacy handling, and treatment of children's sensitive medical information need UK-specific review. The initial LDS positioning and US ad targeting also need adaptation."
+   },
+   "risks": [
+    "A digital signature and template do not by themselves establish that a waiver is suitable or enforceable for a particular organization or activity.",
+    "Medical details and children's data create privacy and security obligations; the transcript does not describe a compliance review.",
+    "The app initially launched with missing fields and encountered checkout, Stripe live-mode, and contact-form bugs.",
+    "A low annual price may not support costly paid acquisition. Chris explicitly reported spending more on ads than the first customer's annual payment.",
+    "Paid advertising aimed broadly at cheap clicks may produce traffic from poor-fit audiences; Chris changed targeting after seeing delivery across many states.",
+    "A narrow religious niche may limit the initial market, while expansion into gyms, tours, or other organizations may require different forms, branding, and sales processes.",
+    "Only one external customer is reported, so retention, repeat usage, referrals, and viable acquisition costs are unproven.",
+    "Using a church waiver form as a blueprint requires care; Chris noted that the source form was copyrighted and said not to ship a clone."
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "I have a leadership position in my church. I'm a member of the Church of Jesus Christ of Jesus Christ of Latter-day Saints. And every now and then, we do fun activities with the youth.",
+     "speaker": "Chris Koerner",
+     "match_score": 91.1,
+     "verified": true,
+     "char_offset": 727,
+     "approx_timestamp_s": 42
+    },
+    {
+     "text": "Someone tells the app the name and date of an event in mind mind. Okay. That person has the option if they want to upload a PDF someone of the actual waiver for the app to emulate.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 6120,
+     "approx_timestamp_s": 355
+    },
+    {
+     "text": "Every permission slip signed before the activity starts. Built for ward and stake activity leaders. Create your event. Text one link to the group chat and every parent signs from their phone in seconds.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 36076,
+     "approx_timestamp_s": 2092
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "The congregation has about 60 to 70 youth.",
+   "metric": "customers",
+   "value": {
+    "amount": 60,
+    "amount_max": 70,
+    "currency": null,
+    "unit": "youth",
+    "label": "Youth in congregation"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "We have like 60 or 70 youth in our in our congregation, also called a ward.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 900,
+    "approx_timestamp_s": 52
+   }
+  },
+  {
+   "claim": "The domain name cost $12.",
+   "metric": "cost",
+   "value": {
+    "amount": 12,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": "Domain"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Onlywavers.com. It's a $12 domain name. Four syllables. Easy to spell. Easy to remember.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3148,
+    "approx_timestamp_s": 182
+   }
+  },
+  {
+   "claim": "He says a vibe-coding app costs $20 per month.",
+   "metric": "cost",
+   "value": {
+    "amount": 20,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "Vibe-coding app"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "anyone in the world that has access to a $20 a month vibe coding app should and could be able to do exactly what I'm about to do",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 124,
+    "approx_timestamp_s": 7
+   }
+  },
+  {
+   "claim": "The planned yearly subscription price was $13.",
+   "metric": "price",
+   "value": {
+    "amount": 13,
+    "currency": "USD",
+    "unit": "per year",
+    "label": "Yearly subscription"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "It will use a Stripe API for payment and only costs $13 per year to use one plan, no free plan.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6979,
+    "approx_timestamp_s": 404
+   }
+  },
+  {
+   "claim": "He considered a $20 lifetime price.",
+   "metric": "price",
+   "value": {
+    "amount": 20,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": "Lifetime price considered"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Oh, I might make it like $20 lifetime as well or $15 lifetime. I don't want to waste the time and the effort that I just put into this",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7723,
+    "approx_timestamp_s": 448
+   }
+  },
+  {
+   "claim": "He considered a $15 lifetime price.",
+   "metric": "price",
+   "value": {
+    "amount": 15,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": "Lifetime price considered"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Oh, I might make it like $20 lifetime as well or $15 lifetime. I don't want to waste the time and the effort that I just put into this",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7723,
+    "approx_timestamp_s": 448
+   }
+  },
+  {
+   "claim": "He selected a $17 lifetime price.",
+   "metric": "price",
+   "value": {
+    "amount": 17,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": "Lifetime plan"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So, I'm going to go ahead and pay. But I do like that idea to make it $17 for lifetime.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7882,
+    "approx_timestamp_s": 457
+   }
+  },
+  {
+   "claim": "He expected event setup to take about two minutes, after initially describing five minutes.",
+   "metric": "hours",
+   "value": {
+    "amount": 2,
+    "currency": null,
+    "unit": "minutes",
+    "label": "Estimated setup time"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "They've invested 5 minutes into making the link, typing in the name of the event. Really, more like 2 minutes.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7564,
+    "approx_timestamp_s": 438
+   }
+  },
+  {
+   "claim": "A vendor quoted $10,000 for an email automation.",
+   "metric": "cost",
+   "value": {
+    "amount": 10000,
+    "currency": "USD",
+    "unit": "one-off quote",
+    "label": "Newsletter email automation"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "I got a quote to make an email automation for my behalf newsletter. It was a $10,000 quote.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11653,
+    "approx_timestamp_s": 676
+   }
+  },
+  {
+   "claim": "He estimated that doing the email automation himself would take a few hours.",
+   "metric": "hours",
+   "value": {
+    "amount": null,
+    "currency": null,
+    "unit": "a few hours",
+    "label": "Estimated DIY automation time"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "It's something that I could do myself, but I'm not great at, and it would take a few hours, and I didn't want to.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11775,
+    "approx_timestamp_s": 683
+   }
+  },
+  {
+   "claim": "He says his Replit affiliate link would earn him $20.",
+   "metric": "other",
+   "value": {
+    "amount": 20,
+    "currency": "USD",
+    "unit": "per referral",
+    "label": "Affiliate commission"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "you're welcome to use that link and that would be great. I get 20 bucks.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18273,
+    "approx_timestamp_s": 1060
+   }
+  },
+  {
+   "claim": "The Teleprompter app costs $20 per year.",
+   "metric": "cost",
+   "value": {
+    "amount": 20,
+    "currency": "USD",
+    "unit": "per year",
+    "label": "Teleprompter app"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "It's literally called Teleprompter. Okay, it's 20 bucks a year. I would just take the script, paste it into Teleprompter app",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 30216,
+    "approx_timestamp_s": 1752
+   }
+  },
+  {
+   "claim": "The initial ad set targeted ages 25 to 60.",
+   "metric": "other",
+   "value": {
+    "amount": 25,
+    "amount_max": 60,
+    "currency": null,
+    "unit": "years of age",
+    "label": "Initial ad audience age range"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So, 25 to 60, location, United States, men. We could do men and women because there's plenty of female leaders that send out these as well.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 28108,
+    "approx_timestamp_s": 1630
+   }
+  },
+  {
+   "claim": "The video script targeted active LDS members aged 20 to 50 in the United States.",
+   "metric": "other",
+   "value": {
+    "amount": 20,
+    "amount_max": 50,
+    "currency": null,
+    "unit": "years of age",
+    "label": "Ad script audience age range"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So, if you are 20 to 50 years old and an active member of the LDS church here in the United States, as I am, you've probably experienced this problem.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 30595,
+    "approx_timestamp_s": 1774
+   }
+  },
+  {
+   "claim": "He prefers ad videos around 15 to 20 seconds long.",
+   "metric": "hours",
+   "value": {
+    "amount": 15,
+    "amount_max": 20,
+    "currency": null,
+    "unit": "seconds",
+    "label": "Preferred video duration"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I have better luck with 15 to 20 second videos, but at least I'm speaking directly to the audience.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 32053,
+    "approx_timestamp_s": 1859
+   }
+  },
+  {
+   "claim": "The ad video was 30 seconds long.",
+   "metric": "hours",
+   "value": {
+    "amount": 30,
+    "currency": null,
+    "unit": "seconds",
+    "label": "Recorded video duration"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "It was 30 seconds exactly, but we're going to yolo it.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 31275,
+    "approx_timestamp_s": 1814
+   }
+  },
+  {
+   "claim": "Meta reported a 31-second video in the ad workflow.",
+   "metric": "hours",
+   "value": {
+    "amount": 31,
+    "currency": null,
+    "unit": "seconds",
+    "label": "Ad video duration shown"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "31 seconds, perfect for reals, no public URL.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 32661,
+    "approx_timestamp_s": 1894
+   }
+  },
+  {
+   "claim": "The campaign was initially set to $20 per day.",
+   "metric": "cost",
+   "value": {
+    "amount": 20,
+    "currency": "USD",
+    "unit": "per day",
+    "label": "Initial Meta ad budget"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "It's done $20 a day. CBO is campaign budget optimization.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22603,
+    "approx_timestamp_s": 1311
+   }
+  },
+  {
+   "claim": "He raised the daily Meta budget to $200.",
+   "metric": "cost",
+   "value": {
+    "amount": 200,
+    "currency": "USD",
+    "unit": "per day",
+    "label": "Raised Meta ad budget"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Make the daily budget 200 instead of 20 because I want results as soon as possible.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 40842,
+    "approx_timestamp_s": 2369
+   }
+  },
+  {
+   "claim": "He estimated a $200 daily budget could generate roughly 1 to 200 landing page views per day.",
+   "metric": "traffic",
+   "value": {
+    "amount": 1,
+    "amount_max": 200,
+    "currency": null,
+    "unit": "landing page views per day",
+    "label": "Estimated ad traffic"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "At $200 a day, you'll roughly get one to 200 landing page views a day. You need about 15 sales a day just to break even on ad spend",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 48055,
+    "approx_timestamp_s": 2787
+   }
+  },
+  {
+   "claim": "He estimated about 15 sales per day would be needed to break even on ad spend.",
+   "metric": "customers",
+   "value": {
+    "amount": 15,
+    "currency": null,
+    "unit": "sales per day",
+    "label": "Estimated break-even sales volume"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "You need about 15 sales a day just to break even on ad spend, which almost no culture.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 48123,
+    "approx_timestamp_s": 2791
+   }
+  },
+  {
+   "claim": "He said each buyer's ward could have 20 or more other units watching.",
+   "metric": "customers",
+   "value": {
+    "amount": 20,
+    "currency": null,
+    "unit": "other units per buyer's ward",
+    "label": "Potential referral audience"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Your real bet is each buyer's word has 20 plus other units watching.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 48302,
+    "approx_timestamp_s": 2802
+   }
+  },
+  {
+   "claim": "He said he had spent $44 in roughly the first ten minutes of ad delivery.",
+   "metric": "cost",
+   "value": {
+    "amount": 44,
+    "currency": "USD",
+    "unit": "first roughly 10 minutes",
+    "label": "Ad spend"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Oh my gosh. I spent $44 in the first like 10 minutes. Oh man. And people can't even buy.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 58637,
+    "approx_timestamp_s": 3401
+   }
+  },
+  {
+   "claim": "He described an early cost of $137 per landing page view.",
+   "metric": "cost",
+   "value": {
+    "amount": 137,
+    "currency": "USD",
+    "unit": "per landing page view",
+    "label": "Early acquisition cost"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Oh man. I spent $44 in the first like 10 minutes. Oh man. And people can't even buy. Yikes. I'm spending $137 per landing page view.",
+    "speaker": "Chris Koerner",
+    "match_score": 96.8,
+    "verified": true,
+    "char_offset": 58644,
+    "approx_timestamp_s": 3402
+   }
+  },
+  {
+   "claim": "He had spent about $100 on ads and six hours building the app offline by the time he reported the sale.",
+   "metric": "cost",
+   "value": {
+    "amount": 100,
+    "currency": "USD",
+    "unit": "ad spend to date, approximate",
+    "label": "Reported ad spend"
+   },
+   "period": "By the time of the reported first sale",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I've spent probably around 100 bucks in ads so far, including the time I spent offline six hours building this app",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 87378,
+    "approx_timestamp_s": 5068
+   }
+  },
+  {
+   "claim": "The app offered a 100% lifetime money-back guarantee.",
+   "metric": "other",
+   "value": {
+    "amount": 100,
+    "currency": null,
+    "unit": "percent",
+    "label": "Satisfaction guarantee"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "100% lifetime money back guarantee. Not we've been around since 2019. I have 50,000 users.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 66562,
+    "approx_timestamp_s": 3861
+   }
+  },
+  {
+   "claim": "He said the waiver process being replaced was about 40 years old.",
+   "metric": "other",
+   "value": {
+    "amount": 40,
+    "currency": null,
+    "unit": "years",
+    "label": "Age of process, approximate"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "the waiver process it replaces is about 40 years old. I like our odds.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 66877,
+    "approx_timestamp_s": 3879
+   }
+  },
+  {
+   "claim": "He said he had built four companies.",
+   "metric": "other",
+   "value": {
+    "amount": 4,
+    "currency": null,
+    "unit": "companies",
+    "label": "Founder background"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "I built four companies, yada yada yada. I'm not going to risk it for $13.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 67004,
+    "approx_timestamp_s": 3887
+   }
+  },
+  {
+   "claim": "He said he had received more than 60 landing page visits from the Facebook ad.",
+   "metric": "traffic",
+   "value": {
+    "amount": 60,
+    "currency": null,
+    "unit": "visits, more than",
+    "label": "Landing page visits"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I've had 60 plus landing page visits from the Facebook ad. Go see if the pixel is good and everything is working.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 63058,
+    "approx_timestamp_s": 3658
+   }
+  },
+  {
+   "claim": "A Reddit post had 58 views in its first three minutes.",
+   "metric": "traffic",
+   "value": {
+    "amount": 58,
+    "currency": null,
+    "unit": "views in first 3 minutes",
+    "label": "Reddit post views"
+   },
+   "period": "First 3 minutes",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So 58 views in the first 3 minutes. Literally 58 eyeballs for free.",
+    "speaker": "Chris Koerner",
+    "match_score": 89.2,
+    "verified": false,
+    "char_offset": 74853,
+    "approx_timestamp_s": 4342
+   }
+  },
+  {
+   "claim": "The Reddit post had 75 views in its first four minutes.",
+   "metric": "traffic",
+   "value": {
+    "amount": 75,
+    "currency": null,
+    "unit": "views in first 4 minutes",
+    "label": "Reddit post views"
+   },
+   "period": "First 4 minutes",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "75 views in the first four minutes. I'm enthused by that.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 75187,
+    "approx_timestamp_s": 4361
+   }
+  },
+  {
+   "claim": "One Facebook group had 500,000 members.",
+   "metric": "customers",
+   "value": {
+    "amount": 500000,
+    "currency": null,
+    "unit": "group members",
+    "label": "Facebook group size"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Okay, this one has 500,000 members. It's a public group. 300 likes. Okay, 200 likes.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 70640,
+    "approx_timestamp_s": 4097
+   }
+  },
+  {
+   "claim": "A Reddit community had 3,000 weekly contributors among 53,000 members.",
+   "metric": "customers",
+   "value": {
+    "amount": 3000,
+    "currency": null,
+    "unit": "weekly contributors",
+    "label": "Reddit community activity"
+   },
+   "period": "Weekly",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "3,000 weekly contributors out of 53,000 people. Now, let's see how that compares.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 73154,
+    "approx_timestamp_s": 4243
+   }
+  },
+  {
+   "claim": "A comparison Reddit community had 400 contributors among 9,800 members, which he characterized as about 4% versus 8%.",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 4,
+    "amount_max": 8,
+    "currency": null,
+    "unit": "percent",
+    "label": "Community contributor share comparison"
+   },
+   "period": "Weekly contributors, as estimated in video",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "This one has 400 out of 9,800. So that's 4% verse like 8% on the other one, give or take.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 73253,
+    "approx_timestamp_s": 4249
+   }
+  },
+  {
+   "claim": "A Reddit post had 319 views in 16 minutes.",
+   "metric": "traffic",
+   "value": {
+    "amount": 319,
+    "currency": null,
+    "unit": "views in 16 minutes",
+    "label": "Reddit post views"
+   },
+   "period": "16 minutes",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "319 views in 16 minutes. This is one of your top 100 posts of all time.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 78763,
+    "approx_timestamp_s": 4569
+   }
+  },
+  {
+   "claim": "A Reddit post was the eighth most viewed post in the community that day.",
+   "metric": "traffic",
+   "value": {
+    "amount": 8,
+    "currency": null,
+    "unit": "rank among posts",
+    "label": "Daily Reddit post ranking"
+   },
+   "period": "That day",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "This is the number eight post on the Latter Day Saints subreddit today.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 85648,
+    "approx_timestamp_s": 4968
+   }
+  },
+  {
+   "claim": "The Reddit post had 1,400 views at a later check.",
+   "metric": "traffic",
+   "value": {
+    "amount": 1400,
+    "currency": null,
+    "unit": "views",
+    "label": "Reddit post views"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "We're at 1,400 views, but this is the number eight post on the Latter Day Saints subreddit today.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 85623,
+    "approx_timestamp_s": 4967
+   }
+  },
+  {
+   "claim": "The original ad reached 3,200 people and had a frequency of 1.12.",
+   "metric": "traffic",
+   "value": {
+    "amount": 3200,
+    "currency": null,
+    "unit": "people reached",
+    "label": "Meta ad reach"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "It's reached 3200 people. The frequency is 1.12, which means of these 3,200 people, they have all seen it on average 1.12 times.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 79099,
+    "approx_timestamp_s": 4588
+   }
+  },
+  {
+   "claim": "He said about 10% of the reached audience had seen the ad twice.",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 10,
+    "currency": null,
+    "unit": "percent",
+    "label": "Estimated audience seeing ad twice"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So 10% of people have seen it twice. I think I'm doing that right.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 79224,
+    "approx_timestamp_s": 4595
+   }
+  },
+  {
+   "claim": "The ad had 17 link clicks and 11 landing page views at one check.",
+   "metric": "traffic",
+   "value": {
+    "amount": 17,
+    "currency": null,
+    "unit": "link clicks",
+    "label": "Meta ad clicks"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "The original one that I posted 3 days ago has 11 clicks, 11 landing page views. It's reached 3200 people.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 79021,
+    "approx_timestamp_s": 4584
+   }
+  },
+  {
+   "claim": "He reported a $1.49 cost per landing page view.",
+   "metric": "cost",
+   "value": {
+    "amount": 1.49,
+    "currency": "USD",
+    "unit": "per landing page view",
+    "label": "Early Meta acquisition cost"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "And I'm paying $1.49 per landing page view. Sheesh. That is a lot.",
+    "speaker": "Chris Koerner",
+    "match_score": 96.8,
+    "verified": true,
+    "char_offset": 79303,
+    "approx_timestamp_s": 4600
+   }
+  },
+  {
+   "claim": "He reported spending 456 per 1,000 views; the transcript does not make clear whether a decimal was omitted.",
+   "metric": "cost",
+   "value": {
+    "amount": 456,
+    "currency": "USD",
+    "unit": "per 1,000 views, as spoken",
+    "label": "Reported view cost; possible transcript or speech ambiguity"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I'm paying 456 per,000 views, 17 link clicks, 96 cent cost per click.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 79406,
+    "approx_timestamp_s": 4606
+   }
+  },
+  {
+   "claim": "He reported a cost per click of 96 cents.",
+   "metric": "cost",
+   "value": {
+    "amount": 0.96,
+    "currency": "USD",
+    "unit": "per click",
+    "label": "Meta cost per click"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "17 link clicks, 96 cent cost per click. Okay, so I'm spending a dollar cost per click, $150 per landing page view.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 79435,
+    "approx_timestamp_s": 4608
+   }
+  },
+  {
+   "claim": "He estimated that about two-thirds of people who clicked reached the landing page.",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 66.7,
+    "currency": null,
+    "unit": "percent, approximate",
+    "label": "Click-to-landing estimate"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So I think that's like twothirds of clickers are ending up on the landing page.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 79544,
+    "approx_timestamp_s": 4614
+   }
+  },
+  {
+   "claim": "He described the click-through rate as 1% at an early check.",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 1,
+    "currency": null,
+    "unit": "percent",
+    "label": "Click-through rate"
+   },
+   "period": "Early check",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Clickthrough rate is only 1%. That is not good.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 79623,
+    "approx_timestamp_s": 4619
+   }
+  },
+  {
+   "claim": "A Meta opportunity score was 96, after previously being under 50.",
+   "metric": "other",
+   "value": {
+    "amount": 96,
+    "currency": null,
+    "unit": "score out of 100",
+    "label": "Meta opportunity score"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Opportunity score 96. That's a grade out of 100. I don't know if you remember this, but when we started the ads, it was very low.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 82889,
+    "approx_timestamp_s": 4808
+   }
+  },
+  {
+   "claim": "He said college tuition at USC cost $100,000 per year and $400,000 for a four-year degree.",
+   "metric": "cost",
+   "value": {
+    "amount": 100000,
+    "currency": "USD",
+    "unit": "per year",
+    "label": "Tuition comparison, as reported"
+   },
+   "period": "One year",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "Costs $100,000 a year to go to USC. And I know that's a random stat in a random school, but I just my best friend Nick went to USC",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 82463,
+    "approx_timestamp_s": 4783
+   }
+  },
+  {
+   "claim": "He compared the tuition to $400,000 for a four-year degree.",
+   "metric": "cost",
+   "value": {
+    "amount": 400000,
+    "currency": "USD",
+    "unit": "four-year degree",
+    "label": "Tuition comparison, as reported"
+   },
+   "period": "Four years",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "$400,000 for a four-year degree. You can buy a lot of Facebook ads for $400,000.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 82694,
+    "approx_timestamp_s": 4797
+   }
+  },
+  {
+   "claim": "He reported 158 three-second video plays and 23 through plays.",
+   "metric": "traffic",
+   "value": {
+    "amount": 158,
+    "currency": null,
+    "unit": "three-second video plays",
+    "label": "Meta ad engagement"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "We've have 158 3se secondond video plays and 23 through plays.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 81525,
+    "approx_timestamp_s": 4729
+   }
+  },
+  {
+   "claim": "Google Analytics showed 49 active users in the previous two minutes at one check.",
+   "metric": "traffic",
+   "value": {
+    "amount": 49,
+    "currency": null,
+    "unit": "active users in last 2 minutes",
+    "label": "Real-time site users"
+   },
+   "period": "Last 2 minutes at check",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Only waiverss view real time. 49 active users in the last 2 minutes.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 80745,
+    "approx_timestamp_s": 4684
+   }
+  },
+  {
+   "claim": "Google Analytics showed three people on pricing and six people creating a waiver at one check.",
+   "metric": "traffic",
+   "value": {
+    "amount": 3,
+    "currency": null,
+    "unit": "people on pricing page",
+    "label": "Real-time funnel activity"
+   },
+   "period": "At check",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Pricing. Three people are on the pricing page. Create a waiver. Six people are on that.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 85844,
+    "approx_timestamp_s": 4979
+   }
+  },
+  {
+   "claim": "A non-founder customer bought the yearly plan for $13.",
+   "metric": "revenue",
+   "value": {
+    "amount": 13,
+    "currency": "USD",
+    "unit": "yearly subscription sale",
+    "label": "First reported external customer"
+   },
+   "period": "First reported customer sale",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "We got a customer. Only waiverss, yearly plan, 68 cents in Stripe fees.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 87110,
+    "approx_timestamp_s": 5053
+   }
+  },
+  {
+   "claim": "Stripe charged 68 cents in fees on the reported yearly subscription sale.",
+   "metric": "cost",
+   "value": {
+    "amount": 0.68,
+    "currency": "USD",
+    "unit": "per transaction",
+    "label": "Stripe fee"
+   },
+   "period": "First reported external customer",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "We got a customer. Only waiverss, yearly plan, 68 cents in Stripe fees.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 87110,
+    "approx_timestamp_s": 5053
+   }
+  },
+  {
+   "claim": "The founder's own test payment was $13.",
+   "metric": "price",
+   "value": {
+    "amount": 13,
+    "currency": "USD",
+    "unit": "test transaction",
+    "label": "Founder test payment"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Invoice subscription creation. So this one right here, this is me. This is my test transaction that I did this morning",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 86323,
+    "approx_timestamp_s": 5007
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Test the offer while the product is being built",
+   "area": "validation_testing",
+   "steps": [
+    "Build a minimal version of the product around a problem the founder experiences directly.",
+    "Set up an ad campaign before the app is complete so demand can be tested while implementation continues.",
+    "Pause ads if checkout is broken so traffic does not continue spending without a path to purchase.",
+    "Return to the ad campaign after payment and signup flows work."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I'm going to start seeing if I can make ads for this before it's even done because what do I always say? Sell it before you have it.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10527,
+    "approx_timestamp_s": 610
+   }
+  },
+  {
+   "name": "Start with the audience closest to the problem",
+   "area": "niche_selection",
+   "steps": [
+    "Begin with the customer group whose problem the founder understands personally.",
+    "Write creative using language and examples that group recognizes.",
+    "Expand to adjacent customer types only after learning from the first audience."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I want to start with the audience that's closest in line with the problem that I'm experience and trying to solve with this product.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14723,
+    "approx_timestamp_s": 854
+   }
+  },
+  {
+   "name": "Use specific creative to qualify paid traffic",
+   "area": "acquisition",
+   "steps": [
+    "Record a short video describing the exact customer, situation, and pain point.",
+    "Put niche-specific details in the spoken creative so poor-fit viewers can skip the ad.",
+    "Use the landing-page pixel to measure landing page views and later purchase events.",
+    "Review actual delivery geography and narrow the audience if the platform is finding cheap clicks from poor-fit areas."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So, what that means is if I'm a 72-year-old woman who's not an active member of the LDS church, I'm going to swipe away from that so hard, which is perfect for me",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 32151,
+    "approx_timestamp_s": 1865
+   }
+  },
+  {
+   "name": "Post a useful story in communities before adding a link",
+   "area": "acquisition",
+   "steps": [
+    "Choose a relevant community and check its promotion rules and recent high-performing posts.",
+    "Tell a true, specific story about the problem and what was built.",
+    "Initially leave out the product link; answer questions in the comments and add the link only if allowed.",
+    "Use a screenshot or other relevant image in Facebook groups, where the founder says visual posts perform better."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "as it starts to do well and you see the views climb and you see people are commenting, a answer comments telling people what it is cuz that's usually allowed.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 69628,
+    "approx_timestamp_s": 4039
+   }
+  },
+  {
+   "name": "Track ads with a pixel and per-ad UTMs",
+   "area": "operations",
+   "steps": [
+    "Install a Meta pixel with view-content, checkout, and purchase events.",
+    "Add UTM parameters to the landing-page URL to identify the source ad.",
+    "Compare clicks, landing page views, video plays, and purchases instead of relying on click counts alone.",
+    "Save a custom Ads Manager column preset containing only the metrics needed for decisions."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "A UTM parameter is basically adding something like that to a link so you can track where that link came from.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 76394,
+    "approx_timestamp_s": 4431
+   }
+  },
+  {
+   "name": "Make setup and checkout low-friction",
+   "area": "offer_design",
+   "steps": [
+    "Allow customers to build an event and generate a link before asking them to pay.",
+    "Show prices clearly rather than implying the product is free.",
+    "Keep signers account-free and make the form mobile-first.",
+    "Check the real click path before claiming a specific number of clicks."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "A CTA that lies by one click is worse than a boring one.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 26041,
+    "approx_timestamp_s": 1510
+   }
+  },
+  {
+   "name": "Choose a simple price and test lifetime access",
+   "area": "pricing",
+   "steps": [
+    "Start with one annual plan and no free plan.",
+    "Consider whether a low one-off lifetime option better fits customers who need the product for one event.",
+    "Use actual conversion and retention data before deciding whether to remove a lifetime option."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "My bet is that people need this for onetime use. We have subscription fatigue, so I'd rather get $17 than $0 from them.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9001,
+    "approx_timestamp_s": 522
+   }
+  },
+  {
+   "name": "Test the complete payment flow before scaling spend",
+   "area": "operations",
+   "steps": [
+    "Run the organizer flow from event creation through payment and account setup.",
+    "Use test mode while validating, then confirm the live Stripe account is connected before taking real payments.",
+    "Verify the generated link and signed-copy workflow after checkout succeeds.",
+    "Pause the ad campaign while resolving live checkout errors."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So, for now, I'm going to pause my ad. Okay, I did the hard part. I built it. I'm going to pause it. Okay, for now so I don't burn money.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 58955,
+    "approx_timestamp_s": 3420
+   }
+  },
+  {
+   "name": "Fix the product from observed user friction",
+   "area": "product",
+   "steps": [
+    "Use screenshots and exact steps to report checkout errors to the coding agent.",
+    "Test the product on a real phone and complete a real payment flow.",
+    "Add required form fields such as emergency contact and medical information after checking the source form.",
+    "Add a working contact form so visitors can report problems."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "The version of the form that was live a few days ago when I last filmed was not thorough enough. It didn't ask for allergies or emergency contact.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 67816,
+    "approx_timestamp_s": 3934
+   }
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Replit",
+   "purpose": "AI coding platform used to build and publish the app; the founder also shared an affiliate link.",
+   "cost_stated": "He describes vibe-coding apps as available for $20 per month and says his Replit referral would earn him $20; he does not state his own Replit subscription price."
+  },
+  {
+   "name": "Claude",
+   "purpose": "Used to refine the app prompt, create ad copy, operate the Meta Ads MCP, and advise on Stripe and pixel setup.",
+   "cost_stated": "He describes his combined AI/tool spend as roughly $200 to $250 per month, mostly Claude; no exact Claude-only price is stated."
+  },
+  {
+   "name": "Fable 5",
+   "purpose": "Claude model selected for prompt writing.",
+   "cost_stated": "Described as the most expensive model in the service; no price stated."
+  },
+  {
+   "name": "ChatGPT",
+   "purpose": "Named as an example of a large language model and as a possible recommendation source for the blog.",
+   "cost_stated": null
+  },
+  {
+   "name": "OpenAI",
+   "purpose": "Named as the maker of ChatGPT and as an example of a large language model provider.",
+   "cost_stated": null
+  },
+  {
+   "name": "Grok",
+   "purpose": "Named as an example of a large language model.",
+   "cost_stated": null
+  },
+  {
+   "name": "Gemini",
+   "purpose": "Named as an example of a large language model.",
+   "cost_stated": null
+  },
+  {
+   "name": "Anthropic",
+   "purpose": "Named as the owner of Claude.",
+   "cost_stated": null
+  },
+  {
+   "name": "Claude Code",
+   "purpose": "Mentioned as an alternative coding tool that the founder considers too technical for his preference.",
+   "cost_stated": null
+  },
+  {
+   "name": "Namecheap",
+   "purpose": "Domain registrar used to buy onlywavers.com.",
+   "cost_stated": "$12 for the domain name."
+  },
+  {
+   "name": "Google Drive",
+   "purpose": "Used to store and copy the app prompt; later used to host the ad video.",
+   "cost_stated": null
+  },
+  {
+   "name": "Google",
+   "purpose": "Used to search for an LDS liability waiver PDF, find Meta Media Library, and locate the Meta Ads Library.",
+   "cost_stated": null
+  },
+  {
+   "name": "Wix",
+   "purpose": "Named as a website builder the founder has used or could use.",
+   "cost_stated": null
+  },
+  {
+   "name": "Squarespace",
+   "purpose": "Named as a website builder the founder has used or could use.",
+   "cost_stated": null
+  },
+  {
+   "name": "Facebook Ads MCP",
+   "purpose": "Claude connector used to create and edit Meta campaigns and ads.",
+   "cost_stated": null
+  },
+  {
+   "name": "Meta Ads Manager",
+   "purpose": "Used to create, edit, pause, and review Facebook campaigns, ad sets, and ads.",
+   "cost_stated": "Ad budget initially $20 per day, later raised to $200 per day."
+  },
+  {
+   "name": "Meta Ads Library",
+   "purpose": "Used to check whether the ad was publicly visible.",
+   "cost_stated": null
+  },
+  {
+   "name": "Meta Business Suite",
+   "purpose": "Used to inspect campaigns and ad delivery.",
+   "cost_stated": null
+  },
+  {
+   "name": "Facebook",
+   "purpose": "Paid ad platform and community groups used to reach potential organizers.",
+   "cost_stated": "Ad spend stated separately."
+  },
+  {
+   "name": "Instagram",
+   "purpose": "Named as an ad placement and social platform.",
+   "cost_stated": null
+  },
+  {
+   "name": "Reddit",
+   "purpose": "Used to post a factual product story in relevant communities.",
+   "cost_stated": null
+  },
+  {
+   "name": "Stripe",
+   "purpose": "Payment processing for annual subscriptions and lifetime purchases.",
+   "cost_stated": "First reported external transaction had a $0.68 fee."
+  },
+  {
+   "name": "SendGrid",
+   "purpose": "Initially selected for transactional waiver copies and organizer alerts; its credentials were already connected to Replit.",
+   "cost_stated": null
+  },
+  {
+   "name": "Resend",
+   "purpose": "Later used for email sending after the founder said he had confused it with SendGrid.",
+   "cost_stated": null
+  },
+  {
+   "name": "Twilio",
+   "purpose": "Named as an option for text reminders, but not added at launch.",
+   "cost_stated": null
+  },
+  {
+   "name": "Mailchimp",
+   "purpose": "Named as an example of a public-facing newsletter service.",
+   "cost_stated": null
+  },
+  {
+   "name": "Beehiiv",
+   "purpose": "Newsletter service the founder uses for his newsletter and connected to Claude.",
+   "cost_stated": null
+  },
+  {
+   "name": "Mailgun",
+   "purpose": "Named as an example of transactional email infrastructure.",
+   "cost_stated": null
+  },
+  {
+   "name": "Google Analytics",
+   "purpose": "Added to the app to track visitors and see real-time funnel activity.",
+   "cost_stated": null
+  },
+  {
+   "name": "Meta Pixel",
+   "purpose": "Added to track website events and purchases for ad optimization.",
+   "cost_stated": null
+  },
+  {
+   "name": "Meta CAPI",
+   "purpose": "Server-side purchase tracking was suggested to reduce the effect of ad blockers; setup was deferred.",
+   "cost_stated": null
+  },
+  {
+   "name": "Plaid",
+   "purpose": "Named in the transcript as a domain-connection helper; the exact product or service intended is unclear.",
+   "cost_stated": null
+  },
+  {
+   "name": "Mercury",
+   "purpose": "Bank account connected to Claude as an MCP example.",
+   "cost_stated": null
+  },
+  {
+   "name": "Fathom",
+   "purpose": "AI note-taking service named in the list of Claude connectors.",
+   "cost_stated": null
+  },
+  {
+   "name": "Choros",
+   "purpose": "Watch and fitness service named in the list of Claude connectors.",
+   "cost_stated": null
+  },
+  {
+   "name": "Function Health",
+   "purpose": "Health service named in the list of Claude connectors.",
+   "cost_stated": null
+  },
+  {
+   "name": "GoHighLevel",
+   "purpose": "CRM and marketing platform named in the list of Claude connectors.",
+   "cost_stated": null
+  },
+  {
+   "name": "Google Calendar",
+   "purpose": "Calendar connected to Claude as an MCP example.",
+   "cost_stated": null
+  },
+  {
+   "name": "Gusto",
+   "purpose": "Payroll service named in the list of Claude connectors.",
+   "cost_stated": null
+  },
+  {
+   "name": "Higgsfield",
+   "purpose": "AI content tool named in the list of Claude connectors.",
+   "cost_stated": null
+  },
+  {
+   "name": "Kubera",
+   "purpose": "Net worth tracker named in the list of Claude connectors.",
+   "cost_stated": null
+  },
+  {
+   "name": "Plaud",
+   "purpose": "Recording pendant and app named in the list of Claude connectors.",
+   "cost_stated": null
+  },
+  {
+   "name": "Robinhood",
+   "purpose": "Investment service named in the list of Claude connectors.",
+   "cost_stated": null
+  },
+  {
+   "name": "Typeform",
+   "purpose": "Form service named in the list of Claude connectors.",
+   "cost_stated": null
+  },
+  {
+   "name": "Zapier",
+   "purpose": "Automation service named in the list of Claude connectors.",
+   "cost_stated": null
+  },
+  {
+   "name": "Teleprompter",
+   "purpose": "Phone app used to display a script while recording ad creative.",
+   "cost_stated": "$20 per year."
+  },
+  {
+   "name": "DJI Mic 3",
+   "purpose": "Microphone used to record the ad video.",
+   "cost_stated": null
+  },
+  {
+   "name": "iPhone 17",
+   "purpose": "Phone used to record the ad video.",
+   "cost_stated": null
+  },
+  {
+   "name": "Amazon",
+   "purpose": "Named as the place he bought the microphone; also mentioned as an example of transactional delivery email.",
+   "cost_stated": null
+  },
+  {
+   "name": "Wikipedia",
+   "purpose": "Named as a trust signal on the founder's website biography.",
+   "cost_stated": null
+  },
+  {
+   "name": "chrisjkerner.com",
+   "purpose": "Founder website used as a source for biography information on the app homepage.",
+   "cost_stated": null
+  },
+  {
+   "name": "Church of Jesus Christ of Latter-day Saints permission and medical release form",
+   "purpose": "Existing PDF used as a reference for required fields in the app; the founder says not to ship a clone of the copyrighted form.",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Do not copy the church's copyrighted permission form into the product. The founder says he used it as a blueprint for fields instead.",
+   "quote": {
+    "text": "Copyrighted by intellectual reserve. You can't ship a clone of it in the product.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15197,
+    "approx_timestamp_s": 881
+   }
+  },
+  {
+   "warning": "The founder found that Meta no longer allowed the religion-based detailed targeting he initially expected, so he used audience-specific ad copy and later narrowed geography.",
+   "quote": {
+    "text": "Meta killed religion-based detail targeting. There's no BYU LDS living.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15391,
+    "approx_timestamp_s": 892
+   }
+  },
+  {
+   "warning": "Do not run paid traffic while the checkout is broken; the founder paused the ad after spending money while customers could not buy.",
+   "quote": {
+    "text": "Oh my gosh. I spent $44 in the first like 10 minutes. Oh man. And people can't even buy.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 58637,
+    "approx_timestamp_s": 3401
+   }
+  },
+  {
+   "warning": "Several checkout failures came from confusion between Stripe test and live modes and from the live Stripe account not being attached correctly.",
+   "quote": {
+    "text": "Still in sandbox mode. Still in sandbox mode. Tell me what Stripe key you still need from me based on what you see in my settings.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 49538,
+    "approx_timestamp_s": 2873
+   }
+  },
+  {
+   "warning": "Publishing repeatedly while the agent is still changing the app can catch changes mid-build and cause a failed publish.",
+   "quote": {
+    "text": "One publish attempt caught my work mid change. So, me over here saying hit publish, hit publish, hit publish.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 46322,
+    "approx_timestamp_s": 2687
+   }
+  },
+  {
+   "warning": "Do not make false community posts or misleading landing-page claims; moderators may remove posts and trust can be damaged.",
+   "quote": {
+    "text": "And so, I basically just told Claude, \"Don't lie.\"",
+    "speaker": "Chris Koerner",
+    "match_score": 95.6,
+    "verified": true,
+    "char_offset": 70486,
+    "approx_timestamp_s": 4089
+   }
+  },
+  {
+   "warning": "Avoid claiming an exact click count until the real user path has been checked.",
+   "quote": {
+    "text": "A CTA that lies by one click is worse than a boring one.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 26041,
+    "approx_timestamp_s": 1510
+   }
+  },
+  {
+   "warning": "The waiver touches legal and medical information, and a form template may not be suitable for every organization or jurisdiction. The transcript does not establish legal validity or compliance.",
+   "quote": {
+    "text": "The form is barely a waiver it's mostly a data collection form allergies medications yada yada yada",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24523,
+    "approx_timestamp_s": 1422
+   }
+  },
+  {
+   "warning": "A low annual price can be overwhelmed by paid acquisition costs; the founder says his spend exceeded the first annual subscription.",
+   "quote": {
+    "text": "I've clearly lost money. I've spent probably around 100 bucks in ads so far, including the time I spent offline six hours building this app to make $13.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 87354,
+    "approx_timestamp_s": 5067
+   }
+  },
+  {
+   "warning": "The app was new and had bugs, so the founder added a contact form and a lifetime refund guarantee to reduce buyer concern.",
+   "quote": {
+    "text": "Full transparency. This app is new. 100% lifetime money back guarantee.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 66528,
+    "approx_timestamp_s": 3859
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Start by solving a problem the founder personally understands, then use that knowledge to choose the first audience and the product requirements.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "I'm trying to skip the line a little bit. I can probably convert other types of people like, you know, the owner of the gymnastics gym or the trampoline park.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14451,
+    "approx_timestamp_s": 838
+   }
+  },
+  {
+   "lesson": "Do not let prompt preparation become a reason to delay building; a workable first prompt can be improved after the product exists.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "Don't overthink it. Any prompt is better than no prompt. And if coming up with the perfect prompt is enough friction to prevent you from actually doing the thing, then just tell it whatever.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4868,
+    "approx_timestamp_s": 282
+   }
+  },
+  {
+   "lesson": "The final refinement stage can take substantial time, so plan for testing and repeated fixes after the initial build appears complete.",
+   "theme": "operations",
+   "quote": {
+    "text": "The last mile is a real thing. And in logistics, delivery, electricity, whatever it is, the literal last mile is the hardest part.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5563,
+    "approx_timestamp_s": 322
+   }
+  },
+  {
+   "lesson": "Test demand while the product is being built, but pause spend when there is no working path for a visitor to become a customer.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "I'm going to start seeing if I can make ads for this before it's even done because what do I always say? Sell it before you have it.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10527,
+    "approx_timestamp_s": 610
+   }
+  },
+  {
+   "lesson": "Make the first version simple and remove unnecessary steps from signup and checkout, while being clear about when payment is required.",
+   "theme": "offer_design",
+   "quote": {
+    "text": "In any business, you want to remove friction to getting the money and add friction to losing the money.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21629,
+    "approx_timestamp_s": 1254
+   }
+  },
+  {
+   "lesson": "Specific creative can filter out poor-fit viewers and help the ad platform learn from people who engage.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "So, what that means is if I'm a 72-year-old woman who's not an active member of the LDS church, I'm going to swipe away from that so hard, which is perfect for me",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 32151,
+    "approx_timestamp_s": 1865
+   }
+  },
+  {
+   "lesson": "Measure landing page views and purchases, not just link clicks, because clicking an ad does not mean the visitor reached or bought from the site.",
+   "theme": "finance_unit_economics",
+   "quote": {
+    "text": "Some people click and then they bounce. They need to land on the landing page and Meta knows that they're landing there because I have a pixel there.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 78458,
+    "approx_timestamp_s": 4551
+   }
+  },
+  {
+   "lesson": "Community promotion can work when it starts with an honest, relevant story and respects the rules of the group.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "the best way to promote on Reddit is to just write a true factual story about what you've done and why you did it and not link to it.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 69440,
+    "approx_timestamp_s": 4028
+   }
+  },
+  {
+   "lesson": "Trust signals matter for a new product: show the actual founder and product, state that it is new, and offer a clear way to get in touch.",
+   "theme": "offer_design",
+   "quote": {
+    "text": "I want people to know that a real human is behind this, that I'm behind this, and that I stand behind these 13 and $17 fees that I'm charging",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 64450,
+    "approx_timestamp_s": 3738
+   }
+  },
+  {
+   "lesson": "The first customer provides proof that someone will pay, but the founder's own account shows that a sale alone does not prove the economics work.",
+   "theme": "finance_unit_economics",
+   "quote": {
+    "text": "The first dollar for any business is the best dollar in the world. It will never get old. I don't care if it's literally $1, $1,000, doesn't matter.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 86826,
+    "approx_timestamp_s": 5036
+   }
+  },
+  {
+   "lesson": "Use customer and campaign data to adjust the audience instead of assuming the ad platform will automatically find the right buyer.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "Meta is optimizing for cheap clicks anywhere. You're right to call it. Utah only men 20 to 60 hard age cap kept.",
+    "speaker": "Chris Koerner",
+    "match_score": 67.0,
+    "verified": false,
+    "char_offset": 84877,
+    "approx_timestamp_s": 4923
+   }
+  },
+  {
+   "lesson": "Treat AI as a useful operator but verify its work, provide missing context, and push back when it declines a task or makes the wrong choice.",
+   "theme": "automation_ai",
+   "quote": {
+    "text": "If Claude says it can't do something, it doesn't mean it can't do it. It just probably means it doesn't want to spend credits doing that thing",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 34400,
+    "approx_timestamp_s": 1995
+   }
+  }
+ ],
+ "evidence_quality": {
+  "rating": "B",
+  "rationale": "The host demonstrates the build, ad setup, product fixes, campaign measurements, and one external subscription sale. The early operating evidence is first-hand and includes specific process details, but results are very short-term, only one external customer is reported, several metrics are approximate or inconsistent, and unit economics and retention are not established.",
+  "promotional_conflict": "Chris shares a Replit affiliate link and says he would earn $20 from a referral. He also promotes his own channel and business activity."
+ },
+ "extraction": {
+  "model": "gpt-6-luna",
+  "extracted_at": "2026-10-22T10:45:19",
+  "cost_usd": 0,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 92,
+   "verified": 90,
+   "rate": 0.978
+  },
+  "schema_errors": []
+ }
+}

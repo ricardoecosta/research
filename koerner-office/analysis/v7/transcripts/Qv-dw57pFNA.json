@@ -12,56 +12,56 @@
   "transcript_chars": 51740,
   "transcript_is_whisper": false
  },
- "summary": "Chris Koerner launches Plans of Grandeur by selling his existing creator training materials to his newsletter subscribers after Facebook bans his page. He tests $47 and $97 one-time prices, then uses several email and payment-link tests to refine the offer and checkout. He reports building the business around existing videos, spreadsheets and documents, with most delivery moving into a School community. The central takeaway is to use an existing audience and useful material, launch quickly, and test price and messaging with small, randomized groups before emailing the rest of the list.",
+ "summary": "Host Chris Koerner describes losing a Facebook page that had generated substantial income, then launching Plans of Grandeur by selling previously unpublished creator training to his newsletter. He tests prices and email formats with randomized subscriber groups, takes payment through Stripe, and later organizes the material in a community. He reports that the launch generated tens of thousands of dollars in revenue and profit, while presenting his process as a repeatable way to sell useful content to an existing audience. The video also discusses his former creator consulting, Facebook monetization, newsletter tutorials, and small-list sales of courses and events.",
  "speakers": [
   {
    "name": "Chris Koerner",
    "role": "host",
-   "description": "The Koerner Office host and solo presenter."
+   "description": "The Koerner Office host and operator of Plans of Grandeur."
   }
  ],
- "format": "tutorial_howto",
+ "format": "case_study_profile",
  "has_business_idea": true,
  "ideas": [
   {
    "local_id": "I1",
-   "name": "Plans of Grandeur creator training",
-   "one_liner": "Sell a growing library of creator training materials and AMAs as a one-time digital product with a community.",
+   "name": "Plans of Grandeur creator training library",
+   "one_liner": "Sell a one-time lifetime purchase of unpublished creator training and add future content for buyers.",
    "category": "digital_products",
-   "business_model": "One-time purchase for lifetime access to digital training, with recorded AMAs and new content added over time.",
-   "customer": "People who want to grow a personal or business brand, make content or go viral, including faceless creators.",
-   "problem": "They want practical help creating content, growing an audience and building a brand, but need training and examples.",
-   "offer": "Existing videos, spreadsheets, guides and documents from Chris's Google Drive, later organized into School folders. Buyers also receive 12 AMAs, recordings of those AMAs and future creator training content.",
+   "business_model": "One-off digital product payment, with future training added to the purchased library; 12 AMAs were also promised.",
+   "customer": "People who want to grow a personal or business brand, make content, or go viral, including faceless creators.",
+   "problem": "Aspiring creators need practical guidance and resources to create content and grow a following or brand.",
+   "offer": "Videos, guides, documents, and tracking spreadsheets from Koerner's Google Drive, later organized in a community. Buyers receive future tactical content and 12 recorded AMAs.",
    "pricing": {
-    "model": "One-time lifetime payment; the initial launch tested two prices and Chris later chose $97.",
+    "model": "One-time lifetime payment; presale price was tested against two price points, then the $97 price was selected. A higher full launch price was planned.",
     "price_points": [
      {
       "amount": 47,
       "currency": "USD",
       "unit": "one-time",
-      "label": "Initial test price"
+      "label": "A/B test presale price"
      },
      {
       "amount": 97,
       "currency": "USD",
       "unit": "one-time",
-      "label": "Initial test and chosen price"
+      "label": "A/B test and selected presale price"
      },
      {
       "amount": 291,
       "currency": "USD",
       "unit": "one-time",
-      "label": "Stated full launch price"
+      "label": "Planned full price on launch day"
      }
     ],
-    "notes": "The presale email described a 67% discount from the planned full price. Chris later chose $97 and tested email copy, price visibility and Stripe versus School checkout."
+    "notes": "Koerner described the $97 presale as 67% off the planned $291 price. He later chose $97 after testing $47 and $97. The offer was described as lifetime and non-recurring."
    },
    "acquisition_channels": [
     {
      "channel": "existing_audience",
-     "details": "Chris segmented and randomized active newsletter subscribers, then sent identical emails with different prices and payment links to test the offer. He later emailed the rest of the list.",
+     "details": "Emailed active subscribers from Koerner's newsletter. He randomized the list, tagged and segmented test groups, excluded unsubscribed subscribers and people who had already received the test emails, and sent the winning offer to the remaining list.",
      "quote": {
-      "text": "I'm going to take a sample of my entire email list and launch not just like test, but launch the business with a Stripe link to pay",
+      "text": "I'm going to take a sample of my entire email list and launch not just like test, but launch the business with a Stripe link to pay uh at one price to sample A and then at another price to sample B.",
       "speaker": "Chris Koerner",
       "match_score": 100.0,
       "verified": true,
@@ -71,116 +71,129 @@
     },
     {
      "channel": "youtube",
-     "details": "Chris documented the launch in a YouTube video, referred viewers to the offer and asked them to share it with potential customers.",
+     "details": "The video explains the offer and directs viewers to a special link in its description or pinned comment.",
      "quote": {
-      "text": "If you know anyone that might want to start doing content either for themselves or for their business, faceless or with their face, AI generated or not, please share this with them",
+      "text": "Also, by the way, if you're watching this, I've got a special link in the description where you can get lower price.",
       "speaker": "Chris Koerner",
       "match_score": 100.0,
       "verified": true,
-      "char_offset": 49737,
-      "approx_timestamp_s": 2891
+      "char_offset": 27244,
+      "approx_timestamp_s": 1584
      }
     }
    ],
-   "delivery": "Digital materials were initially hosted in Google Drive. Chris's business partner downloaded and organized them into folders in a School community. Stripe payment links could redirect buyers to the content; Chris says he had set up automatic invites or additions to School after Stripe payment. AMAs were to be recorded and added to the program.",
+   "delivery": "Initially, the Stripe payment link redirected buyers to a Google Drive folder. Koerner later had his business partner download and organize the files into a Skool community, then invited buyers. He also recorded Loom videos, including a welcome walkthrough and a video showing the charity donation.",
    "unit_economics_claims": [
-    "Chris says the content had already been created and that the business was almost pure profit, with Stripe transaction fees as the only stated cost.",
-    "He reports 111 transactions at about $80 per transaction and $8,300 revenue during an early update.",
-    "He reports generating $30,000 to $40,000 net profit over the course of the video, including A/B test emails."
+    "Koerner reported $8,300 in revenue after 111 transactions and said costs were almost all profit, aside from Stripe transaction fees.",
+    "He later reported $23,000 in nearly pure profit after the full-list email and prior price tests.",
+    "He said total net profit across the video was between $30,000 and $40,000."
    ],
    "tools": [
-    "Beehiiv",
-    "Google Sheets",
-    "Stripe",
-    "Google Drive",
-    "School",
-    "Loom",
-    "Claude",
-    "ChatGPT"
+    "Beehiiv for the newsletter, subscriber segments, tags, and email campaigns",
+    "Google Sheets for randomizing and dividing the email list",
+    "Stripe for one-time payment links, transaction analytics, and payment processing",
+    "Google Drive for hosting the original training materials",
+    "Skool for organizing the content and community",
+    "Loom for welcome and donation videos",
+    "Claude for reviewing A/B test results and creating a logo",
+    "ChatGPT for generating the community description"
    ],
-   "startup_cost": "Not stated. Chris says the materials already existed; the only ongoing cost he names is Stripe's 3% transaction fee. He separately bought a domain for $11.28 per year.",
-   "time_to_first_revenue": "Chris says the first $97 payment arrived in under two hours from the idea.",
+   "startup_cost": "Not stated. Koerner bought the domain for $11.28 per year during setup; other setup costs were not stated.",
+   "time_to_first_revenue": "Koerner says the first $97 sale arrived in under two hours from the idea. He reports sending the first test email at about 12:30 and getting the first sale at 12:41.",
    "automation": {
     "acquisition": {
      "score_e": 4,
-     "how": "Newsletter segmentation and campaign sending can be automated after a person has subscribed. The initial offer, audience selection and tests still need human decisions. UK email marketing rules require the right consent for individual subscribers."
+     "how": "An opted-in newsletter can be segmented, emailed, and measured with software. UK marketing rules still require a valid basis to email subscribers and functioning unsubscribe handling."
     },
     "onboarding": {
      "score_e": 4,
-     "how": "Stripe payment links and the stated automatic School invite or add flow can handle routine onboarding, with occasional checks for failed payments or access problems."
+     "how": "Stripe can take payment and redirect buyers to the materials; tagging and invitations can be automated. The transcript describes manual setup and some manual community invitations."
     },
     "delivery": {
-     "score_e": 5,
-     "how": "The core offer is recorded digital material delivered through Google Drive or School, so software can provide access without routine manual work."
+     "score_e": 4,
+     "how": "Digital files and recorded training can be delivered automatically. New material, AMAs, and community upkeep still require human work."
     },
     "billing": {
-     "score_e": 4,
-     "how": "Stripe takes one-time payments and can redirect buyers after checkout. Refund decisions and payment issues may still need a person."
+     "score_e": 5,
+     "how": "Stripe payment links can collect one-time payments without manual invoicing. Refunds and exceptions may need a human."
     },
     "support": {
      "score_e": 2,
-     "how": "The materials are self-serve, but Chris promised live AMAs and notes that customers can generate support requests, complaints and refund requests."
+     "how": "A digital library can answer routine questions, but promised AMAs, community discussion, and refund requests need human involvement."
     }
    },
    "uk_applicability": {
     "score_e": 5,
-    "notes": "A digital training library and paid online community can be sold in the UK. The channel shown is an existing newsletter audience; UK rules on marketing email still apply, especially for individual subscribers."
+    "notes": "Digital training, email sales to an appropriately opted-in list, and online payment work in the UK. The founder would need to follow UK consumer, privacy, and email-marketing rules and make the offer's lifetime and support terms clear."
    },
    "risks": [
-    "The original revenue stream depended heavily on Facebook, which Chris says banned his page without reinstating it.",
-    "A digital product must deliver the value promised; Chris says poor value relative to sales promises gives courses a bad reputation.",
-    "A founder with a small or nonexistent audience may not reproduce results from Chris's established newsletter.",
-    "A one-time lifetime offer combined with future content and AMAs creates an ongoing obligation to maintain the library and serve buyers."
+    "The offer relies on an existing audience and trust; results may not transfer to a founder without a newsletter or established reputation.",
+    "A lifetime-content promise and 12 AMAs create ongoing delivery and support obligations.",
+    "The video presents short-term A/B results from a finite list; delayed purchases changed the relative results over time.",
+    "Email marketing in the UK requires an appropriate legal basis, accurate subscriber records, and working unsubscribe handling.",
+    "The host calls the product almost pure profit, but support, platform fees, refunds, and ongoing content work can reduce margins."
    ],
    "is_primary": true,
    "depth": "deep",
    "quotes": [
     {
-     "text": "I have a treasure trove of videos, spreadsheets, and docs in my Google Drive account that has never been published.",
+     "text": "All those training videos, guides, docs, and tracking spreadsheets are safely tucked in my drive.",
      "speaker": "Chris Koerner",
      "match_score": 100.0,
      "verified": true,
-     "char_offset": 22218,
-     "approx_timestamp_s": 1291
+     "char_offset": 22539,
+     "approx_timestamp_s": 1310
     },
     {
-     "text": "Today, the pre-sale price to my newsletter is only $97 with this link. This is a one-time lifetime price, not monthly.",
+     "text": "Every time I record more tactical content about growing a brand, going viral, or making content, I will add it to what you already bought.",
      "speaker": "Chris Koerner",
      "match_score": 100.0,
      "verified": true,
-     "char_offset": 22938,
-     "approx_timestamp_s": 1333
+     "char_offset": 23052,
+     "approx_timestamp_s": 1340
     },
     {
-     "text": "we basically downloaded all of the Google Drive content and uploaded it here uh into separate folders.",
+     "text": "So, I'm going to go with 97 bucks.",
      "speaker": "Chris Koerner",
      "match_score": 100.0,
      "verified": true,
-     "char_offset": 40008,
-     "approx_timestamp_s": 2326
+     "char_offset": 36287,
+     "approx_timestamp_s": 2109
     }
    ]
   },
   {
    "local_id": "I2",
    "name": "Facebook creator content monetization",
-   "one_liner": "Publish creator content on Facebook and earn income from a large following and related monetization.",
+   "one_liner": "Create content and earn income through a Facebook page and related advertising activity.",
    "category": "content_media",
-   "business_model": "Not fully stated; Chris describes making monthly income on Facebook and using his follower audience as data for profitable ads.",
-   "customer": "Not stated. The platform audience is viewers of Chris's creator content.",
+   "business_model": "Facebook-based creator income; the transcript does not specify the exact revenue mechanisms. Koerner also says his Facebook followers served as data points for profitable advertising.",
+   "customer": "Facebook viewers and followers; the transcript does not describe a separate paying customer.",
    "problem": "Not stated.",
-   "offer": "Creator videos and Facebook content; Chris refers to a video about how he makes money on Facebook.",
+   "offer": "Content published to a Facebook page, including a video about how Koerner makes money on Facebook.",
    "pricing": {
-    "model": "Platform monetization and advertising-related income; exact mechanism not stated.",
+    "model": "Platform and advertising income; exact model not stated.",
     "price_points": [],
-    "notes": "Chris does not explain which Facebook monetization products generated the income."
+    "notes": "Koerner describes monthly income and lost yearly income but does not explain the exact payout or sales model."
    },
    "acquisition_channels": [
     {
      "channel": "organic_social_content",
-     "details": "Chris posted creator videos to Facebook; one video was also posted to Facebook and he says the page was banned hours later.",
+     "details": "Koerner posted a video about Facebook earnings to Facebook; he says the page had 1.5 million followers.",
      "quote": {
-      "text": "And it had to have been because of that video because I also posted that video to Facebook. Hours later, banned",
+      "text": "Most of you saw it about making 35 grand a month on Facebook.",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 575,
+      "approx_timestamp_s": 33
+     }
+    },
+    {
+     "channel": "youtube",
+     "details": "The same video was also posted to Facebook, and Koerner says his audience had seen it on YouTube.",
+     "quote": {
+      "text": "And it had to have been because of that video because I also posted that video to Facebook.",
       "speaker": "Chris Koerner",
       "match_score": 100.0,
       "verified": true,
@@ -189,52 +202,50 @@
      }
     }
    ],
-   "delivery": "Chris published content on Facebook. He says he had a large content team and that Facebook followers were useful as data points for running ads. Exact content production and monetization processes are not stated.",
+   "delivery": "Koerner and his content team produced and posted videos. The transcript says the Facebook page was removed and the resulting income disappeared; it does not describe the full content production workflow.",
    "unit_economics_claims": [
-    "Chris says a video described making $35,000 per month on Facebook.",
-    "He says his page generated hundreds of thousands of dollars a year before the income disappeared after the ban.",
-    "He says the business had real costs, including a content team, so it was not 100% profit."
+    "Koerner says he made $35,000 per month on Facebook before the page was removed.",
+    "He says hundreds of thousands of dollars a year in income disappeared when the page was removed.",
+    "He says he had 1.5 million Facebook followers and a content team with real costs."
    ],
    "tools": [
-    "Facebook",
-    "Meta",
-    "Instagram",
-    "Facebook Ads",
-    "YouTube"
+    "Facebook for page and content monetization",
+    "Meta and Instagram for account correspondence",
+    "Facebook Ads for advertising activity",
+    "YouTube for publishing the video"
    ],
-   "startup_cost": "Not stated. Chris says he had a large content team and real business costs but gives no amount.",
+   "startup_cost": "Not stated.",
    "time_to_first_revenue": "Not stated.",
    "automation": {
     "acquisition": {
      "score_e": 3,
-     "how": "Content publishing and distribution can use software, but planning, creation and audience development still need substantial human work. Paid ads require monitoring."
+     "how": "Publishing content and running ads can be scheduled or managed with software, but creative production and platform decisions need human input."
     },
     "onboarding": {
-     "score_e": 1,
-     "how": "No customer onboarding process is described; the audience relationship and platform access depend on the account and content team."
+     "score_e": 0,
+     "how": "No customer onboarding process is described."
     },
     "delivery": {
      "score_e": 1,
-     "how": "Content is digital, but Chris describes a large content team producing it. The account's removal also stopped delivery through Facebook."
+     "how": "Producing videos and managing a content team require substantial human work."
     },
     "billing": {
      "score_e": 2,
-     "how": "Platform monetization may be processed by Facebook, but the transcript does not describe billing or payout operations."
+     "how": "Platform payouts may be automated, but the transcript does not explain the billing or payout process."
     },
     "support": {
      "score_e": 1,
-     "how": "Chris describes extensive calls and correspondence with Meta support after the ban, with no automated resolution."
+     "how": "Koerner describes repeated account appeals and calls with platform representatives, which required human effort."
     }
    },
    "uk_applicability": {
     "score_e": 3,
-    "notes": "Creator content can be produced in the UK, but the model depends on platform rules, monetization eligibility and an audience. Chris's stated results and platform access are not shown to transfer directly."
+    "notes": "Social video publishing works in the UK, but Facebook monetization eligibility, payout terms, and enforcement depend on current platform rules and the account."
    },
    "risks": [
-    "A platform can remove a page and income abruptly; Chris says his account was banned and not reinstated.",
-    "The transcript describes a copyright or intellectual property infringement claim that Chris disputes.",
-    "The content team creates costs, so platform revenue is not all profit.",
-    "Paid advertising effectiveness may depend on follower data and platform access."
+    "The business depended heavily on a platform that removed the page, cutting off the reported income overnight.",
+    "Koerner says the stated intellectual-property reason for removal was false, but the transcript does not independently verify the dispute.",
+    "A large following did not protect the business from account enforcement or loss of advertising data."
    ],
    "is_primary": false,
    "depth": "moderate",
@@ -248,24 +259,24 @@
      "approx_timestamp_s": 33
     },
     {
-     "text": "I have a big content team. This is not like a 100% profit business. There are real costs that go into this.",
+     "text": "Hundreds of thousands of dollars a year. Disappeared overnight.",
      "speaker": "Chris Koerner",
      "match_score": 100.0,
      "verified": true,
-     "char_offset": 1398,
-     "approx_timestamp_s": 81
+     "char_offset": 1297,
+     "approx_timestamp_s": 75
     }
    ]
   },
   {
    "local_id": "I3",
-   "name": "One-to-one creator consulting",
-   "one_liner": "Advise creators who want to grow a brand through recurring calls and training materials.",
-   "category": "b2b_service",
+   "name": "Creator brand consulting",
+   "one_liner": "Provide recurring one-to-one consulting calls to creators who want to grow a brand.",
+   "category": "education_coaching",
    "business_model": "Monthly consulting retainer.",
-   "customer": "Creators trying to grow big brands.",
-   "problem": "They want guidance on growing a brand; more specific customer problems are not stated.",
-   "offer": "One-hour calls per week, supported by training videos, guides, documents and tracking spreadsheets.",
+   "customer": "Creators trying to grow large brands.",
+   "problem": "Creators want help growing their brands.",
+   "offer": "One-hour-long consulting calls each week. The host says he also has related training videos, guides, documents, and tracking spreadsheets.",
    "pricing": {
     "model": "Monthly retainer.",
     "price_points": [
@@ -273,50 +284,48 @@
       "amount": 10000,
       "currency": "USD",
       "unit": "per month",
-      "label": "Chris's stated past consulting fee"
+      "label": "Host's stated consulting fee"
      }
     ],
-    "notes": "Chris says he used to provide this consulting. Number of clients and contract terms are not stated."
+    "notes": "The host describes this as his former fee; the transcript does not say how many clients he served."
    },
    "acquisition_channels": [],
-   "delivery": "Chris says he used to deliver one-hour calls per week. He does not state how clients were acquired or how many he served.",
+   "delivery": "Koerner says he delivered one-hour calls per week. The transcript does not specify the call platform or other delivery details.",
    "unit_economics_claims": [
-    "Chris says his past consulting fee was $10,000 per month for one-hour-long calls each week."
+    "Koerner says his fee was $10,000 per month for weekly one-hour calls."
    ],
-   "tools": [
-    "Google Drive"
-   ],
+   "tools": [],
    "startup_cost": "Not stated.",
    "time_to_first_revenue": "Not stated.",
    "automation": {
     "acquisition": {
      "score_e": 1,
-     "how": "No acquisition method is stated. A high-value consulting sale usually needs a person to build trust and qualify the client."
+     "how": "No acquisition method is stated; selling high-touch consulting likely requires human trust and sales conversations."
     },
     "onboarding": {
      "score_e": 2,
-     "how": "Scheduling and intake could use software, but the transcript does not describe an onboarding system."
+     "how": "Scheduling and intake could use software, but no onboarding workflow is described."
     },
     "delivery": {
      "score_e": 0,
-     "how": "The offer includes weekly live calls with Chris, so a human must deliver the core service."
+     "how": "The weekly one-hour consulting calls require the operator to deliver the service."
     },
     "billing": {
      "score_e": 3,
-     "how": "Recurring invoices could be handled by billing software, but no billing method is stated."
+     "how": "A monthly retainer can be billed automatically, but the transcript does not describe the billing setup."
     },
     "support": {
      "score_e": 1,
-     "how": "The consulting relationship is personal and the transcript does not describe automated support."
+     "how": "One-to-one consulting requires direct human contact; other support terms are not stated."
     }
    },
    "uk_applicability": {
     "score_e": 5,
-    "notes": "Remote creator consulting can be offered from the UK. Chris does not state any location-specific legal or delivery requirements."
+    "notes": "Remote creator consulting can be sold and delivered in the UK. The transcript does not mention a US-specific legal or platform dependency."
    },
    "risks": [
-    "The core service depends on the consultant's time and is difficult to run unattended.",
-    "The transcript gives no client count, acquisition method or evidence that the quoted fee was sustained."
+    "The offer depends on the consultant's time and cannot be delivered unattended.",
+    "The transcript gives the stated fee but no client count, results, or evidence of how consistently the service sold."
    ],
    "is_primary": false,
    "depth": "moderate",
@@ -333,206 +342,148 @@
   },
   {
    "local_id": "I4",
-   "name": "Newsletter publishing and monetization",
-   "one_liner": "Build a newsletter audience and earn from products, events or other paid offers.",
-   "category": "content_media",
-   "business_model": "Newsletter audience monetized through paid offers; Chris points to courses and events as possible products.",
-   "customer": "Newsletter readers interested in the creator's subject matter.",
+   "name": "Newsletter audience monetization with courses and events",
+   "one_liner": "Use an email audience to sell courses or events, including when the list is relatively small.",
+   "category": "education_coaching",
+   "business_model": "Courses and events sold to an email audience; specific payment and delivery models are not stated.",
+   "customer": "Newsletter subscribers interested in learning or attending events.",
    "problem": "Not stated.",
-   "offer": "Regular newsletter content and paid offers to subscribers. Chris also recommends a newsletter as an asset for selling a business offer.",
+   "offer": "The host recommends events and high-ticket courses as ways to monetize a newsletter audience. He cites the Beehiiv founder as an example.",
    "pricing": {
-    "model": "Not stated for the newsletter itself; possible revenue from paid products, courses and events.",
+    "model": "High-ticket course and event sales; exact model not stated.",
     "price_points": [],
-    "notes": "The transcript gives third-party income examples and general advice, but no newsletter subscription price."
+    "notes": "The host does not give a price for the courses or events."
    },
-   "acquisition_channels": [],
-   "delivery": "Chris writes and sends email through Beehiiv. He says the founder of Beehiiv sends one email per week, but does not describe subscriber acquisition for that example.",
+   "acquisition_channels": [
+    {
+     "channel": "existing_audience",
+     "details": "Sell to newsletter subscribers; the host says that even a small list can generate meaningful annual revenue.",
+     "quote": {
+      "text": "Even if you only had 2,000 email subscribers, you can make tens of thousands of dollars plus a year.",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 48980,
+      "approx_timestamp_s": 2847
+     }
+    }
+   ],
+   "delivery": "Not stated for the courses or events.",
    "unit_economics_claims": [
-    "Chris says the Beehiiv founder earns $500,000 a year from a list smaller than his and sends one email per week.",
-    "Chris says a newsletter with 2,000 subscribers could make tens of thousands of dollars or more a year from events and high-ticket courses."
+    "Koerner says the Beehiiv founder makes $500,000 per year from a list smaller than his and sends one email per week.",
+    "He says a list of 2,000 subscribers could make tens of thousands of dollars or more per year through events and high-ticket courses."
    ],
    "tools": [
-    "Beehiiv"
+    "Beehiiv for newsletters"
    ],
-   "startup_cost": "Not stated. Chris says he has posted free beginner-level tutorials on starting a newsletter with little money.",
+   "startup_cost": "Not stated.",
    "time_to_first_revenue": "Not stated.",
    "automation": {
     "acquisition": {
-     "score_e": 3,
-     "how": "Newsletter publishing software can automate signup flows and campaigns, but audience growth methods are not described."
+     "score_e": 4,
+     "how": "Email campaigns can be scheduled and segmented for an opted-in list. UK email marketing rules still apply."
     },
     "onboarding": {
-     "score_e": 4,
-     "how": "Subscription confirmation and welcome flows can be handled by newsletter software; Chris says he chose not to send a welcome email when tagging existing subscribers."
+     "score_e": 3,
+     "how": "Course access can be automated, but event registration and bespoke support arrangements are not described."
     },
     "delivery": {
-     "score_e": 4,
-     "how": "Email campaigns can be scheduled and sent by software, although a person still needs to create useful content."
+     "score_e": 2,
+     "how": "Recorded courses can be delivered digitally; events may involve live human delivery. The transcript does not specify."
     },
     "billing": {
-     "score_e": 2,
-     "how": "No paid newsletter billing process is described; monetization is through offers rather than a stated paid subscription."
+     "score_e": 4,
+     "how": "Online payment can be automated, though the host gives no specific billing setup for this idea."
     },
     "support": {
      "score_e": 2,
-     "how": "Reader replies and issues would likely need human attention; the transcript gives no support process."
+     "how": "Course questions and event participation may need human support; no workflow is stated."
     }
    },
    "uk_applicability": {
     "score_e": 5,
-    "notes": "Newsletter publishing and selling digital offers work in the UK. UK marketing rules apply to email campaigns, particularly messages to individuals and sole traders."
+    "notes": "Newsletter sales of courses and events can work in the UK. The cited revenue example is second-hand, and local tax, consumer, and email-marketing rules still apply."
    },
    "risks": [
-    "The revenue example about Beehiiv's founder is second-hand and has no supporting operating detail.",
-    "Newsletter monetization depends on having an engaged list and an offer that readers value.",
-    "Email marketing to UK individuals requires appropriate consent."
+    "The revenue example is second-hand and lacks details about the offer, audience, costs, or measurement.",
+    "The host notes that high-ticket courses have a poor reputation when they do not deliver the value promised."
    ],
    "is_primary": false,
    "depth": "mention",
    "quotes": [
     {
-     "text": "Even if you only had 2,000 email subscribers, you can make tens of thousands of dollars plus a year. Events and high ticket courses are the key.",
+     "text": "Events and high ticket courses are the key.",
      "speaker": "Chris Koerner",
      "match_score": 100.0,
      "verified": true,
-     "char_offset": 48980,
-     "approx_timestamp_s": 2847
+     "char_offset": 49079,
+     "approx_timestamp_s": 2853
     }
    ]
   },
   {
    "local_id": "I5",
-   "name": "Paid events for a newsletter audience",
-   "one_liner": "Sell events to an existing newsletter audience as a way to monetize a smaller list.",
-   "category": "events_experiences",
-   "business_model": "Paid event sales to an audience; specific event format and revenue model are not stated.",
-   "customer": "Newsletter subscribers; more specific audience details are not stated.",
-   "problem": "Not stated.",
-   "offer": "Events are named as one of the keys to earning from a newsletter audience, but no event details are given.",
+   "name": "Beginner newsletter-starting tutorial videos",
+   "one_liner": "Publish beginner tutorials that explain how to start a newsletter.",
+   "category": "content_media",
+   "business_model": "Not stated; the host mentions free tutorial videos but does not explain how they make money.",
+   "customer": "People with no newsletter experience who want to start one with little money.",
+   "problem": "Beginners may not know how to start a newsletter.",
+   "offer": "Tactical, beginner-level tutorials covering the process from start to finish.",
    "pricing": {
     "model": "Not stated.",
     "price_points": [],
-    "notes": "No event price or format is provided."
+    "notes": "The host says he has published the tutorials but does not state whether they are free or paid."
    },
    "acquisition_channels": [
     {
-     "channel": "existing_audience",
-     "details": "Chris presents events as an offer for an existing newsletter audience.",
+     "channel": "youtube",
+     "details": "The host says he has published four or five tutorial videos and will link them in the show notes.",
      "quote": {
-      "text": "Even if you only had 2,000 email subscribers, you can make tens of thousands of dollars plus a year. Events and high ticket courses are the key.",
+      "text": "I've posted four or five videos like tactical beginner level tutorials soup to nuts about exactly how to start a newsletter with no experience and very little money.",
       "speaker": "Chris Koerner",
       "match_score": 100.0,
       "verified": true,
-      "char_offset": 48980,
-      "approx_timestamp_s": 2847
+      "char_offset": 3870,
+      "approx_timestamp_s": 225
      }
     }
    ],
-   "delivery": "Not stated.",
-   "unit_economics_claims": [
-    "Chris says events can help a newsletter with 2,000 subscribers make tens of thousands of dollars or more per year, but gives no event-level figures."
+   "delivery": "Video tutorials; the host says he links them in the show notes.",
+   "unit_economics_claims": [],
+   "tools": [
+    "YouTube for tutorial videos"
    ],
-   "tools": [],
    "startup_cost": "Not stated.",
    "time_to_first_revenue": "Not stated.",
    "automation": {
     "acquisition": {
      "score_e": 3,
-     "how": "Email invitations to an opted-in list can be sent through software, but event conversion and any additional promotion are not described."
+     "how": "YouTube discovery can bring inbound viewers, but producing useful tutorials and building an audience requires human work."
     },
     "onboarding": {
      "score_e": 3,
-     "how": "Ticketing software could automate registration, but the transcript does not name or describe a system."
+     "how": "Viewers can access videos without direct onboarding; no paid product or signup flow is described."
     },
     "delivery": {
+     "score_e": 4,
+     "how": "Once recorded and published, video tutorials can be viewed without the creator delivering them live."
+    },
+    "billing": {
+     "score_e": 0,
+     "how": "No paid offer or billing process is stated."
+    },
+    "support": {
      "score_e": 1,
-     "how": "The event format is not stated. If delivered live, it would require people to host or facilitate it."
-    },
-    "billing": {
-     "score_e": 3,
-     "how": "Online ticket payments could be processed by software, but no payment system is stated."
-    },
-    "support": {
-     "score_e": 2,
-     "how": "Attendee questions and event issues would need a human process; none is described."
+     "how": "The transcript does not describe support; audience questions would likely need human responses."
     }
    },
    "uk_applicability": {
     "score_e": 5,
-    "notes": "Events can be sold to UK audiences, but the transcript gives no format, venue or legal details."
+    "notes": "Publishing newsletter tutorials on YouTube works in the UK; no US-specific dependency is described."
    },
    "risks": [
-    "The transcript gives no event format, price, costs or evidence for the stated income potential.",
-    "In-person event delivery would require human coordination and could limit automation."
-   ],
-   "is_primary": false,
-   "depth": "mention",
-   "quotes": []
-  },
-  {
-   "local_id": "I6",
-   "name": "High-ticket creator courses",
-   "one_liner": "Sell an expensive course when the creator can confidently deliver the value promised.",
-   "category": "education_coaching",
-   "business_model": "One-time course sales; specific price and course structure are not stated.",
-   "customer": "People who want to create content, grow a following or build a brand.",
-   "problem": "They want training that helps them take action and succeed at a creator or business goal.",
-   "offer": "A course backed by creator content and training; Chris says a course can help buyers do the thing and be more successful.",
-   "pricing": {
-    "model": "High-ticket one-time course sales.",
-    "price_points": [],
-    "notes": "No specific high-ticket course price is given."
-   },
-   "acquisition_channels": [
-    {
-     "channel": "existing_audience",
-     "details": "Chris discusses selling courses to newsletter subscribers and an existing audience.",
-     "quote": {
-      "text": "Even if you only had 2,000 email subscribers, you can make tens of thousands of dollars plus a year. Events and high ticket courses are the key.",
-      "speaker": "Chris Koerner",
-      "match_score": 100.0,
-      "verified": true,
-      "char_offset": 48980,
-      "approx_timestamp_s": 2847
-     }
-    }
-   ],
-   "delivery": "Not stated for a separate high-ticket course. Chris's own Plans of Grandeur offer uses digital materials and recorded AMAs.",
-   "unit_economics_claims": [
-    "Chris says high-ticket courses can be a key source of newsletter income but gives no price or specific course revenue."
-   ],
-   "tools": [],
-   "startup_cost": "Not stated.",
-   "time_to_first_revenue": "Not stated.",
-   "automation": {
-    "acquisition": {
-     "score_e": 3,
-     "how": "An opted-in newsletter can promote a course through automated campaigns, but high-value course sales may need personal trust-building."
-    },
-    "onboarding": {
-     "score_e": 4,
-     "how": "A course platform can automate account creation and access, though no platform is stated for this idea."
-    },
-    "delivery": {
-     "score_e": 4,
-     "how": "Recorded lessons can be delivered digitally, but the transcript does not say whether the courses are recorded or live."
-    },
-    "billing": {
-     "score_e": 4,
-     "how": "Online course payments can be processed automatically, but no payment process is stated for a separate course."
-    },
-    "support": {
-     "score_e": 2,
-     "how": "Student questions and outcomes would need attention; Chris mentions AMAs for his own product but gives no process for other courses."
-    }
-   },
-   "uk_applicability": {
-    "score_e": 5,
-    "notes": "Online courses can be sold to UK customers. The transcript gives no jurisdiction-specific requirements; the seller still needs to meet UK consumer and marketing rules."
-   },
-   "risks": [
-    "Chris warns that courses have a bad reputation when their value does not match what the seller promises.",
-    "No pricing, costs, completion rates or student results are provided for high-ticket courses."
+    "The transcript does not state whether these tutorials generate revenue or how the creator measures their results."
    ],
    "is_primary": false,
    "depth": "mention",
@@ -541,12 +492,13 @@
  ],
  "metric_claims": [
   {
-   "claim": "Chris says his Facebook video was about making $35,000 per month on Facebook.",
+   "claim": "Koerner says the Facebook business made $35,000 per month.",
    "metric": "revenue",
    "value": {
     "amount": 35000,
     "currency": "USD",
-    "unit": "per month"
+    "unit": "per month",
+    "label": "Facebook income"
    },
    "period": "per month",
    "claimant": "Chris Koerner",
@@ -563,13 +515,13 @@
    }
   },
   {
-   "claim": "Chris says hundreds of thousands of dollars of annual income disappeared after the Facebook ban.",
+   "claim": "Koerner says hundreds of thousands of dollars of yearly income disappeared when Facebook removed his page.",
    "metric": "revenue",
    "value": {
     "amount": null,
     "currency": "USD",
     "unit": "per year",
-    "label": "hundreds of thousands"
+    "label": "hundreds of thousands, exact amount not stated"
    },
    "period": "per year",
    "claimant": "Chris Koerner",
@@ -577,7 +529,7 @@
    "hypothetical": false,
    "idea_local_id": "I2",
    "quote": {
-    "text": "Hundreds of thousands of dollars a year. Disappeared overnight. And I need this to pay my content team.",
+    "text": "Hundreds of thousands of dollars a year. Disappeared overnight.",
     "speaker": "Chris Koerner",
     "match_score": 100.0,
     "verified": true,
@@ -586,13 +538,13 @@
    }
   },
   {
-   "claim": "Chris says the ban caused his family to lose six figures of income overnight.",
+   "claim": "Koerner says six figures of income to his family disappeared overnight.",
    "metric": "revenue",
    "value": {
     "amount": null,
     "currency": "USD",
-    "unit": "income",
-    "label": "six figures"
+    "unit": null,
+    "label": "six figures; period and exact amount not stated"
    },
    "period": null,
    "claimant": "Chris Koerner",
@@ -600,7 +552,7 @@
    "hypothetical": false,
    "idea_local_id": "I2",
    "quote": {
-    "text": "So immediately six figures of income to me to my family disappears overnight. Overnight.",
+    "text": "So immediately six figures of income to me to my family disappears overnight.",
     "speaker": "Chris Koerner",
     "match_score": 100.0,
     "verified": true,
@@ -609,125 +561,59 @@
    }
   },
   {
-   "claim": "Chris predicts the new business will become a six-figure business by that day or the next day.",
-   "metric": "revenue",
+   "claim": "Koerner says his Facebook account had 1.5 million followers.",
+   "metric": "customers",
    "value": {
-    "amount": null,
-    "currency": "USD",
-    "unit": "business revenue",
-    "label": "six figures"
+    "amount": 1500000,
+    "currency": null,
+    "unit": "followers",
+    "label": "Facebook followers"
    },
-   "period": "by the end of today or tomorrow",
-   "claimant": "Chris Koerner",
-   "first_hand": false,
-   "hypothetical": true,
-   "idea_local_id": "I1",
-   "quote": {
-    "text": "I can almost guarantee you it's going to be a six-figure business by the end of today or maybe tomorrow at the worst.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 398,
-    "approx_timestamp_s": 23
-   }
-  },
-  {
-   "claim": "Chris says a video described how he makes $35,000 per month on Facebook.",
-   "metric": "revenue",
-   "value": {
-    "amount": 35000,
-    "currency": "USD",
-    "unit": "per month"
-   },
-   "period": "per month",
+   "period": null,
    "claimant": "Chris Koerner",
    "first_hand": true,
    "hypothetical": false,
    "idea_local_id": "I2",
    "quote": {
-    "text": "It was about exactly how I make 35K a month on Facebook.",
+    "text": "Not only do six figures of income disappear overnight, but I can't run ads nearly as effectively anymore because I needed those 1.5 million Facebook followers as data points so my ads could be profitable.",
     "speaker": "Chris Koerner",
     "match_score": 100.0,
     "verified": true,
-    "char_offset": 21024,
-    "approx_timestamp_s": 1222
+    "char_offset": 21643,
+    "approx_timestamp_s": 1258
    }
   },
   {
-   "claim": "Chris says he had posted four or five free newsletter tutorials.",
-   "metric": "other",
+   "claim": "Koerner says his consulting fee was $10,000 per month for weekly one-hour calls.",
+   "metric": "price",
    "value": {
-    "amount": null,
-    "currency": null,
-    "unit": "videos",
-    "label": "four or five"
+    "amount": 10000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "creator consulting retainer"
    },
-   "period": null,
+   "period": "per month",
    "claimant": "Chris Koerner",
    "first_hand": true,
    "hypothetical": false,
-   "idea_local_id": "I4",
+   "idea_local_id": "I3",
    "quote": {
-    "text": "I've posted four or five videos like tactical beginner level tutorials soup to nuts about exactly how to start a newsletter with no experience and very little money.",
+    "text": "I used to do one-on-one consulting for creators trying to grow big brands. My fee, $10,000 a month for one-hour long calls per week.",
     "speaker": "Chris Koerner",
     "match_score": 100.0,
     "verified": true,
-    "char_offset": 3870,
-    "approx_timestamp_s": 225
+    "char_offset": 22350,
+    "approx_timestamp_s": 1299
    }
   },
   {
-   "claim": "Chris estimates that 99% of people do not have a newsletter.",
-   "metric": "other",
-   "value": {
-    "amount": 99,
-    "currency": "%",
-    "unit": "of people"
-   },
-   "period": null,
-   "claimant": "Chris Koerner",
-   "first_hand": false,
-   "hypothetical": false,
-   "idea_local_id": "I4",
-   "quote": {
-    "text": "because 99% of people don't have a newsletter. That's fine. And you don't have to have a newsletter to start this business either",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 4176,
-    "approx_timestamp_s": 242
-   }
-  },
-  {
-   "claim": "Chris says he owns about 200 domain names.",
-   "metric": "other",
-   "value": {
-    "amount": 200,
-    "currency": null,
-    "unit": "domain names",
-    "label": "about"
-   },
-   "period": null,
-   "claimant": "Chris Koerner",
-   "first_hand": true,
-   "hypothetical": false,
-   "idea_local_id": "I1",
-   "quote": {
-    "text": "Now, I own like 200 domain names. I have a problem. It's an addiction, I admit.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 11103,
-    "approx_timestamp_s": 645
-   }
-  },
-  {
-   "claim": "Chris says the domain name cost $11.28 per year.",
+   "claim": "Koerner says he registered the domain for $11.28 per year.",
    "metric": "cost",
    "value": {
     "amount": 11.28,
     "currency": "USD",
-    "unit": "per year"
+    "unit": "per year",
+    "label": "domain registration"
    },
    "period": "per year",
    "claimant": "Chris Koerner",
@@ -744,13 +630,82 @@
    }
   },
   {
-   "claim": "Chris says the product would be sold for $47 one time and $97 one time in the initial test.",
+   "claim": "Koerner says he owns about 200 domain names.",
+   "metric": "other",
+   "value": {
+    "amount": 200,
+    "currency": null,
+    "unit": "domain names",
+    "label": "approximately"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Now, I own like 200 domain names. I have a problem. It's an addiction, I admit.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11103,
+    "approx_timestamp_s": 645
+   }
+  },
+  {
+   "claim": "Koerner says domain names can be about $11 each.",
+   "metric": "cost",
+   "value": {
+    "amount": 11,
+    "currency": "USD",
+    "unit": "per domain",
+    "label": "approximate"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "But if they're $11, whatever. What's one more domain name?",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11178,
+    "approx_timestamp_s": 649
+   }
+  },
+  {
+   "claim": "Koerner says he aimed to offer the presale at a discount of more than 50%.",
+   "metric": "other",
+   "value": {
+    "amount": 50,
+    "currency": "%",
+    "unit": "discount, greater than",
+    "label": "presale discount"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So, I want this email to be a pre-sale for the full launch and I want the pre-sale to be at a steep 50 plus% discount because that works.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12847,
+    "approx_timestamp_s": 746
+   }
+  },
+  {
+   "claim": "Koerner tested a $47 one-time price.",
    "metric": "price",
    "value": {
     "amount": 47,
     "currency": "USD",
     "unit": "one-time",
-    "label": "test price A"
+    "label": "A/B test price"
    },
    "period": null,
    "claimant": "Chris Koerner",
@@ -758,22 +713,22 @@
    "hypothetical": false,
    "idea_local_id": "I1",
    "quote": {
-    "text": "we're going to test $47 one time and $97 one time. That's going to be our AB test.",
+    "text": "So, we're going to test $47 one time and $97 one time. That's going to be our AB test.",
     "speaker": "Chris Koerner",
     "match_score": 100.0,
     "verified": true,
-    "char_offset": 13428,
+    "char_offset": 13425,
     "approx_timestamp_s": 780
    }
   },
   {
-   "claim": "Chris says the product would be sold for $97 one time in the initial test.",
+   "claim": "Koerner tested a $97 one-time price.",
    "metric": "price",
    "value": {
     "amount": 97,
     "currency": "USD",
     "unit": "one-time",
-    "label": "test price B"
+    "label": "A/B test price"
    },
    "period": null,
    "claimant": "Chris Koerner",
@@ -781,61 +736,16 @@
    "hypothetical": false,
    "idea_local_id": "I1",
    "quote": {
-    "text": "we're going to test $47 one time and $97 one time. That's going to be our AB test.",
+    "text": "So, we're going to test $47 one time and $97 one time. That's going to be our AB test.",
     "speaker": "Chris Koerner",
     "match_score": 100.0,
     "verified": true,
-    "char_offset": 13428,
+    "char_offset": 13425,
     "approx_timestamp_s": 780
    }
   },
   {
-   "claim": "Chris says his past creator consulting fee was $10,000 per month.",
-   "metric": "price",
-   "value": {
-    "amount": 10000,
-    "currency": "USD",
-    "unit": "per month"
-   },
-   "period": "per month",
-   "claimant": "Chris Koerner",
-   "first_hand": true,
-   "hypothetical": false,
-   "idea_local_id": "I3",
-   "quote": {
-    "text": "I used to do one-on-one consulting for creators trying to grow big brands. My fee, $10,000 a month for one-hour long calls per week.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 22350,
-    "approx_timestamp_s": 1299
-   }
-  },
-  {
-   "claim": "Chris says the consulting included one-hour-long calls each week.",
-   "metric": "hours",
-   "value": {
-    "amount": 1,
-    "currency": null,
-    "unit": "hour per week",
-    "label": "call duration"
-   },
-   "period": "weekly",
-   "claimant": "Chris Koerner",
-   "first_hand": true,
-   "hypothetical": false,
-   "idea_local_id": "I3",
-   "quote": {
-    "text": "I used to do one-on-one consulting for creators trying to grow big brands. My fee, $10,000 a month for one-hour long calls per week.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 22350,
-    "approx_timestamp_s": 1299
-   }
-  },
-  {
-   "claim": "Chris says the planned full price was $291 one time.",
+   "claim": "Koerner says the planned launch-day full price was $291 one time.",
    "metric": "price",
    "value": {
     "amount": 291,
@@ -849,7 +759,7 @@
    "hypothetical": false,
    "idea_local_id": "I1",
    "quote": {
-    "text": "The full price on launch day will be $291 time. Now, this is going to be the $97 test.",
+    "text": "The full price on launch day will be $291 time.",
     "speaker": "Chris Koerner",
     "match_score": 100.0,
     "verified": true,
@@ -858,12 +768,13 @@
    }
   },
   {
-   "claim": "Chris says the initial presale was offered at a 67% discount.",
+   "claim": "Koerner described the $97 presale as 67% off.",
    "metric": "other",
    "value": {
     "amount": 67,
     "currency": "%",
-    "unit": "discount"
+    "unit": "discount",
+    "label": "presale discount"
    },
    "period": null,
    "claimant": "Chris Koerner",
@@ -871,7 +782,7 @@
    "hypothetical": false,
    "idea_local_id": "I1",
    "quote": {
-    "text": "But right now is when the pre-sale goes live at a 67% discount. The full price on launch day will be $291 time.",
+    "text": "But right now is when the pre-sale goes live at a 67% discount.",
     "speaker": "Chris Koerner",
     "match_score": 100.0,
     "verified": true,
@@ -880,13 +791,13 @@
    }
   },
   {
-   "claim": "Chris says the initial newsletter presale price was $97 one time.",
-   "metric": "price",
+   "claim": "Koerner said 10% of revenue, not profit, would be donated to the National Kidney Foundation.",
+   "metric": "other",
    "value": {
-    "amount": 97,
-    "currency": "USD",
-    "unit": "one-time",
-    "label": "presale price"
+    "amount": 10,
+    "currency": "%",
+    "unit": "of revenue",
+    "label": "charity donation share"
    },
    "period": null,
    "claimant": "Chris Koerner",
@@ -894,21 +805,22 @@
    "hypothetical": false,
    "idea_local_id": "I1",
    "quote": {
-    "text": "Today, the pre-sale price to my newsletter is only $97 with this link. This is a one-time lifetime price, not monthly.",
+    "text": "Oh, and 10% of all revenue, not profits, revenue will be publicly donated to the National Kidney Foundation cuz it's very near and dear to my heart.",
     "speaker": "Chris Koerner",
     "match_score": 100.0,
     "verified": true,
-    "char_offset": 22938,
-    "approx_timestamp_s": 1333
+    "char_offset": 23801,
+    "approx_timestamp_s": 1383
    }
   },
   {
-   "claim": "Chris says buyers would receive 12 AMAs.",
+   "claim": "Koerner promised 12 AMAs for buyers.",
    "metric": "other",
    "value": {
     "amount": 12,
     "currency": null,
-    "unit": "AMAs"
+    "unit": "AMAs",
+    "label": "buyer sessions"
    },
    "period": null,
    "claimant": "Chris Koerner",
@@ -916,7 +828,7 @@
    "hypothetical": false,
    "idea_local_id": "I1",
    "quote": {
-    "text": "I will also do 12 AMAs with everyone that purchased as well. So, if you ever maybe potentially might want to try to go viral",
+    "text": "I will also do 12 AMAs with everyone that purchased as well.",
     "speaker": "Chris Koerner",
     "match_score": 100.0,
     "verified": true,
@@ -925,12 +837,13 @@
    }
   },
   {
-   "claim": "Chris says 10% of revenue would be donated to the National Kidney Foundation.",
+   "claim": "Koerner says he sent the first test email to less than 10% of his list.",
    "metric": "other",
    "value": {
     "amount": 10,
     "currency": "%",
-    "unit": "of revenue"
+    "unit": "of email list, less than",
+    "label": "initial test sample"
    },
    "period": null,
    "claimant": "Chris Koerner",
@@ -938,114 +851,138 @@
    "hypothetical": false,
    "idea_local_id": "I1",
    "quote": {
-    "text": "10% of all revenue, not profits, revenue will be publicly donated to the National Kidney Foundation cuz it's very near and dear to my heart.",
+    "text": "Now, I only want to sample less than 10% of my list because I don't want to waste a lower than necessary price point on too big of my list.",
     "speaker": "Chris Koerner",
     "match_score": 100.0,
     "verified": true,
-    "char_offset": 23808,
-    "approx_timestamp_s": 1384
+    "char_offset": 7425,
+    "approx_timestamp_s": 431
    }
   },
   {
-   "claim": "Chris says the first $97 sale arrived in under two hours from the business idea.",
+   "claim": "Koerner says he deleted about 92% of the list for the test.",
+   "metric": "other",
+   "value": {
+    "amount": 92,
+    "currency": "%",
+    "unit": "of email list",
+    "label": "deleted from sample"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Okay, so I just deleted about 92% of my list.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7765,
+    "approx_timestamp_s": 451
+   }
+  },
+  {
+   "claim": "Koerner's hypothetical comparison says a $50 product at 2% conversion and a $100 product at 1% conversion yield the same net amount.",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 2,
+    "amount_max": 2,
+    "currency": "%",
+    "unit": "conversion rate",
+    "label": "hypothetical $50 product; compared with 1% at $100"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Selling a $50 product at a 2% conversion rate to a limited email list is the same amount of money net to me as selling a $100 product at a 1% conversion rate.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14050,
+    "approx_timestamp_s": 816
+   }
+  },
+  {
+   "claim": "Koerner says his first sale was $97.",
+   "metric": "revenue",
+   "value": {
+    "amount": 97,
+    "currency": "USD",
+    "unit": "first sale",
+    "label": "first Plans of Grandeur payment"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Boom. First sale $97. Thank you, Nata. Who is he? Nata P4.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 29893,
+    "approx_timestamp_s": 1738
+   }
+  },
+  {
+   "claim": "Koerner says the first sale came in under two hours after the idea.",
    "metric": "hours",
    "value": {
     "amount": 2,
     "currency": null,
-    "unit": "hours",
-    "label": "under two hours"
+    "unit": "hours, under",
+    "label": "idea to first revenue"
    },
-   "period": "from idea to first revenue",
+   "period": null,
    "claimant": "Chris Koerner",
    "first_hand": true,
    "hypothetical": false,
    "idea_local_id": "I1",
    "quote": {
-    "text": "from the time I had the idea to the time revenue was generated, $97 in this case, it was under 2 hours.",
+    "text": "So you can see the time 12:41. It took a little over an hour, guys. I'm sorry, but from the time I had the idea to the time revenue was generated, $97 in this case, it was under 2 hours.",
     "speaker": "Chris Koerner",
     "match_score": 100.0,
     "verified": true,
-    "char_offset": 30096,
-    "approx_timestamp_s": 1749
+    "char_offset": 30017,
+    "approx_timestamp_s": 1745
    }
   },
   {
-   "claim": "Chris says six customers paid $97 and 16 paid $47 during the early sales update.",
-   "metric": "customers",
-   "value": {
-    "amount": 6,
-    "currency": null,
-    "unit": "customers",
-    "label": "at $97 each"
-   },
-   "period": "about an hour and 20 minutes after the initial email update",
-   "claimant": "Chris Koerner",
-   "first_hand": true,
-   "hypothetical": false,
-   "idea_local_id": "I1",
-   "quote": {
-    "text": "six $97 payments. And then I mean we've had how many have we had today? Okay. 18. No, no, no. 16. $697 payments and 16 $47 payments.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 30952,
-    "approx_timestamp_s": 1799
-   }
-  },
-  {
-   "claim": "Chris says 16 customers paid $47 during the early sales update.",
-   "metric": "customers",
-   "value": {
-    "amount": 16,
-    "currency": null,
-    "unit": "customers",
-    "label": "at $47 each"
-   },
-   "period": "about an hour and 20 minutes after the initial email update",
-   "claimant": "Chris Koerner",
-   "first_hand": true,
-   "hypothetical": false,
-   "idea_local_id": "I1",
-   "quote": {
-    "text": "six $97 payments. And then I mean we've had how many have we had today? Okay. 18. No, no, no. 16. $697 payments and 16 $47 payments.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 30952,
-    "approx_timestamp_s": 1799
-   }
-  },
-  {
-   "claim": "Chris reports $1,334 generated in about an hour and 20 minutes after the earlier update.",
+   "claim": "Koerner reported $1,334 in sales about an hour and 20 minutes after the previous update.",
    "metric": "revenue",
    "value": {
     "amount": 1334,
     "currency": "USD",
-    "unit": "total",
-    "label": "as transcribed"
+    "unit": "about 1 hour 20 minutes",
+    "label": "early launch revenue"
    },
-   "period": "about an hour and 20 minutes",
+   "period": "about 1 hour 20 minutes",
    "claimant": "Chris Koerner",
    "first_hand": true,
    "hypothetical": false,
    "idea_local_id": "I1",
    "quote": {
-    "text": "Boom, baby. 1334 generated in about an hour and 20 minutes. So, call it $1,000 an hour from sending one email.",
+    "text": "This is about an hour and 20 minutes after I last recorded. So, we go to Stripe. Boom, baby. 1334 generated in about an hour and 20 minutes.",
     "speaker": "Chris Koerner",
     "match_score": 100.0,
     "verified": true,
-    "char_offset": 30750,
-    "approx_timestamp_s": 1787
+    "char_offset": 30672,
+    "approx_timestamp_s": 1783
    }
   },
   {
-   "claim": "Chris says the early email generated about $1,000 per hour.",
+   "claim": "Koerner describes the early sales pace as about $1,000 per hour from one email.",
    "metric": "revenue",
    "value": {
     "amount": 1000,
     "currency": "USD",
     "unit": "per hour",
-    "label": "rounded estimate"
+    "label": "approximate early pace from one email"
    },
    "period": "per hour",
    "claimant": "Chris Koerner",
@@ -1053,60 +990,108 @@
    "hypothetical": false,
    "idea_local_id": "I1",
    "quote": {
-    "text": "1334 generated in about an hour and 20 minutes. So, call it $1,000 an hour from sending one email.",
+    "text": "So, call it $1,000 an hour from sending one email.",
     "speaker": "Chris Koerner",
     "match_score": 100.0,
     "verified": true,
-    "char_offset": 30760,
-    "approx_timestamp_s": 1788
+    "char_offset": 30807,
+    "approx_timestamp_s": 1791
    }
   },
   {
-   "claim": "Chris reports 11% open rate and 1.5% click-through rate shortly after sending.",
+   "claim": "Koerner reports six $97 payments in the first update.",
+   "metric": "customers",
+   "value": {
+    "amount": 6,
+    "currency": null,
+    "unit": "payments at $97",
+    "label": "early sales"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Okay. 16. $697 payments and 16 $47 payments.",
+    "speaker": "Chris Koerner",
+    "match_score": 92.3,
+    "verified": true,
+    "char_offset": 31035,
+    "approx_timestamp_s": 1804
+   }
+  },
+  {
+   "claim": "Koerner reports 16 $47 payments in the first update.",
+   "metric": "customers",
+   "value": {
+    "amount": 16,
+    "currency": null,
+    "unit": "payments at $47",
+    "label": "early sales"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Okay. 16. $697 payments and 16 $47 payments.",
+    "speaker": "Chris Koerner",
+    "match_score": 92.3,
+    "verified": true,
+    "char_offset": 31035,
+    "approx_timestamp_s": 1804
+   }
+  },
+  {
+   "claim": "Koerner reports an 11% open rate shortly after sending.",
    "metric": "conversion_rate",
    "value": {
     "amount": 11,
     "currency": "%",
-    "unit": "email open rate"
+    "unit": "open rate",
+    "label": "early email result"
    },
-   "period": "early performance check",
+   "period": "early after send",
    "claimant": "Chris Koerner",
    "first_hand": true,
    "hypothetical": false,
    "idea_local_id": "I1",
    "quote": {
-    "text": "11% open rate right off the bat. Clickthrough rate 1.5. Not bad. 62.",
+    "text": "Performance. Performance. Okay. 11% open rate right off the bat. Clickthrough rate 1.5.",
     "speaker": "Chris Koerner",
     "match_score": 100.0,
     "verified": true,
-    "char_offset": 29333,
-    "approx_timestamp_s": 1705
+    "char_offset": 29304,
+    "approx_timestamp_s": 1703
    }
   },
   {
-   "claim": "Chris reports a 1.5% click-through rate shortly after sending.",
+   "claim": "Koerner reports a 1.5% click-through rate shortly after sending.",
    "metric": "conversion_rate",
    "value": {
     "amount": 1.5,
     "currency": "%",
-    "unit": "click-through rate"
+    "unit": "click-through rate",
+    "label": "early email result"
    },
-   "period": "early performance check",
+   "period": "early after send",
    "claimant": "Chris Koerner",
    "first_hand": true,
    "hypothetical": false,
    "idea_local_id": "I1",
    "quote": {
-    "text": "11% open rate right off the bat. Clickthrough rate 1.5. Not bad. 62.",
+    "text": "Performance. Performance. Okay. 11% open rate right off the bat. Clickthrough rate 1.5.",
     "speaker": "Chris Koerner",
     "match_score": 100.0,
     "verified": true,
-    "char_offset": 29333,
-    "approx_timestamp_s": 1705
+    "char_offset": 29304,
+    "approx_timestamp_s": 1703
    }
   },
   {
-   "claim": "Chris says the $47 email had a 3.7% click-through rate, with 76 clicks, while the $97 email had 62 clicks.",
+   "claim": "Koerner reports a 3.7% click-through rate for the $47 email in a later update.",
    "metric": "conversion_rate",
    "value": {
     "amount": 3.7,
@@ -1114,119 +1099,51 @@
     "unit": "click-through rate",
     "label": "$47 email"
    },
-   "period": "early email results",
+   "period": null,
    "claimant": "Chris Koerner",
    "first_hand": true,
    "hypothetical": false,
    "idea_local_id": "I1",
    "quote": {
-    "text": "This is the $47 email. 3.7% click-through rate. So, 76 people clicked on the $47 email and 62 people clicked on the $97 email.",
+    "text": "So, if we go look over at Beehive right here, this is the $47 email. 3.7% click-through rate.",
     "speaker": "Chris Koerner",
     "match_score": 100.0,
     "verified": true,
-    "char_offset": 31307,
-    "approx_timestamp_s": 1820
+    "char_offset": 31263,
+    "approx_timestamp_s": 1817
    }
   },
   {
-   "claim": "Chris reports six purchases from 62 clicks on the $97 email and 16 purchases from 76 clicks on the $47 email.",
-   "metric": "conversion_rate",
-   "value": {
-    "amount": 6,
-    "currency": null,
-    "unit": "purchases from 62 clicks",
-    "label": "about 10% as stated"
-   },
-   "period": "early email results",
-   "claimant": "Chris Koerner",
-   "first_hand": true,
-   "hypothetical": false,
-   "idea_local_id": "I1",
-   "quote": {
-    "text": "But of the 62, only six purchased. So, 10% conversion rate on the landing page over here. and 16 out of 76 21%.",
-    "speaker": "Chris Koerner",
-    "match_score": 95.2,
-    "verified": true,
-    "char_offset": 31432,
-    "approx_timestamp_s": 1827
-   }
-  },
-  {
-   "claim": "Chris reports 16 purchases from 76 clicks, described as 21%.",
-   "metric": "conversion_rate",
-   "value": {
-    "amount": 21,
-    "currency": "%",
-    "unit": "purchases per click"
-   },
-   "period": "early email results",
-   "claimant": "Chris Koerner",
-   "first_hand": true,
-   "hypothetical": false,
-   "idea_local_id": "I1",
-   "quote": {
-    "text": "But of the 62, only six purchased. So, 10% conversion rate on the landing page over here. and 16 out of 76 21%.",
-    "speaker": "Chris Koerner",
-    "match_score": 95.2,
-    "verified": true,
-    "char_offset": 31432,
-    "approx_timestamp_s": 1827
-   }
-  },
-  {
-   "claim": "Chris gives a conflicting, possibly garbled conversion-rate statement of 8% and 29%.",
-   "metric": "conversion_rate",
-   "value": {
-    "amount": null,
-    "currency": "%",
-    "unit": "conversion rate",
-    "label": "transcript states 8% and 29%; basis unclear"
-   },
-   "period": "initial price test",
-   "claimant": "Chris Koerner",
-   "first_hand": true,
-   "hypothetical": false,
-   "idea_local_id": "I1",
-   "quote": {
-    "text": "So when we double the price our conversion rate goes from8 to 29. So if these numbers hold, which they might not hold people",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 32068,
-    "approx_timestamp_s": 1864
-   }
-  },
-  {
-   "claim": "Chris says the initial email groups had about 2,056 or 256 people; the transcript is unclear.",
+   "claim": "Koerner says 76 people clicked the $47 email and 62 clicked the $97 email.",
    "metric": "customers",
    "value": {
-    "amount": null,
+    "amount": 76,
     "currency": null,
-    "unit": "email recipients",
-    "label": "transcript appears garbled: '2056 okay 256'"
+    "unit": "clickers on $47 email",
+    "label": "compared with 62 on $97 email"
    },
-   "period": "initial price test",
+   "period": null,
    "claimant": "Chris Koerner",
    "first_hand": true,
    "hypothetical": false,
    "idea_local_id": "I1",
    "quote": {
-    "text": "So on the $47 email we had 2056 okay 256 in front of me. So the conversion rate was8% and then 29%.",
+    "text": "So, 76 people clicked on the $47 email and 62 people clicked on the $97 email.",
     "speaker": "Chris Koerner",
     "match_score": 100.0,
     "verified": true,
-    "char_offset": 31973,
-    "approx_timestamp_s": 1859
+    "char_offset": 31351,
+    "approx_timestamp_s": 1822
    }
   },
   {
-   "claim": "Chris says 35 new customers paid on the day of a later update, with eight at $97 and 27 at $47.",
+   "claim": "Koerner reports 35 new customers in a later update.",
    "metric": "customers",
    "value": {
     "amount": 35,
     "currency": null,
-    "unit": "customers",
-    "label": "eight at $97; 27 at $47"
+    "unit": "new customers",
+    "label": "sales that day"
    },
    "period": "that day",
    "claimant": "Chris Koerner",
@@ -1234,22 +1151,68 @@
    "hypothetical": false,
    "idea_local_id": "I1",
    "quote": {
-    "text": "We've had 35 new customers pay today. Of those 35, eight were the 97 and 27 were the $47.",
+    "text": "Okay, so it's been a few hours. You can see I'm wearing new clothes. I took a shower. I went on a date with my beautiful wife and I'm going to check in on Stripe. Okay, so very, very surprising here. We've had 35 new customers pay today.",
     "speaker": "Chris Koerner",
     "match_score": 100.0,
     "verified": true,
-    "char_offset": 33523,
-    "approx_timestamp_s": 1949
+    "char_offset": 33331,
+    "approx_timestamp_s": 1938
    }
   },
   {
-   "claim": "Chris says the $97 group produced about 8 cents per email subscriber and the $47 group 27 cents.",
+   "claim": "Of those 35 customers, Koerner says eight paid $97 and 27 paid $47.",
+   "metric": "customers",
+   "value": {
+    "amount": 8,
+    "currency": null,
+    "unit": "payments at $97",
+    "label": "of 35 customers"
+   },
+   "period": "that day",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Of those 35, eight were the 97 and 27 were the $47.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 33560,
+    "approx_timestamp_s": 1951
+   }
+  },
+  {
+   "claim": "Of those 35 customers, Koerner says 27 paid $47.",
+   "metric": "customers",
+   "value": {
+    "amount": 27,
+    "currency": null,
+    "unit": "payments at $47",
+    "label": "of 35 customers"
+   },
+   "period": "that day",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Of those 35, eight were the 97 and 27 were the $47.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 33560,
+    "approx_timestamp_s": 1951
+   }
+  },
+  {
+   "claim": "Koerner says the $47 version generated about $0.08 per email subscriber.",
    "metric": "revenue",
    "value": {
     "amount": 0.08,
     "currency": "USD",
     "unit": "per email subscriber",
-    "label": "Chris says this was for the $97 plan"
+    "label": "host's approximate calculation"
    },
    "period": null,
    "claimant": "Chris Koerner",
@@ -1257,22 +1220,22 @@
    "hypothetical": false,
    "idea_local_id": "I1",
    "quote": {
-    "text": "I made about 8 cents per email subscriber on the $97 plan and I made 27 cents per email subscriber on the $47 plan.",
+    "text": "So, one way to look at this is if you look at these numbers, I made about 8 cents per email subscriber on the $97 plan and I made 27 cents per email subscriber on the $47 plan.",
     "speaker": "Chris Koerner",
     "match_score": 100.0,
     "verified": true,
-    "char_offset": 33668,
-    "approx_timestamp_s": 1957
+    "char_offset": 33609,
+    "approx_timestamp_s": 1954
    }
   },
   {
-   "claim": "Chris says the $47 group produced 27 cents per email subscriber.",
+   "claim": "Koerner says the $47 version generated $0.27 per email subscriber.",
    "metric": "revenue",
    "value": {
     "amount": 0.27,
     "currency": "USD",
     "unit": "per email subscriber",
-    "label": "Chris says this was for the $47 plan"
+    "label": "host's approximate calculation"
    },
    "period": null,
    "claimant": "Chris Koerner",
@@ -1280,45 +1243,22 @@
    "hypothetical": false,
    "idea_local_id": "I1",
    "quote": {
-    "text": "I made about 8 cents per email subscriber on the $97 plan and I made 27 cents per email subscriber on the $47 plan.",
+    "text": "So, one way to look at this is if you look at these numbers, I made about 8 cents per email subscriber on the $97 plan and I made 27 cents per email subscriber on the $47 plan.",
     "speaker": "Chris Koerner",
     "match_score": 100.0,
     "verified": true,
-    "char_offset": 33668,
-    "approx_timestamp_s": 1957
+    "char_offset": 33609,
+    "approx_timestamp_s": 1954
    }
   },
   {
-   "claim": "Chris says the $47 group generated about three and a half times more money per subscriber in that update.",
-   "metric": "other",
-   "value": {
-    "amount": 3.5,
-    "currency": "times",
-    "unit": "comparison",
-    "label": "about"
-   },
-   "period": null,
-   "claimant": "Chris Koerner",
-   "first_hand": true,
-   "hypothetical": false,
-   "idea_local_id": "I1",
-   "quote": {
-    "text": "So, it's about three and a half times more money, which is crazy.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 33781,
-    "approx_timestamp_s": 1964
-   }
-  },
-  {
-   "claim": "Chris reports 43 successful $47 transactions totaling an amount transcribed as $2,21.",
+   "claim": "Koerner says 43 transactions at $47 totaled $2,021; the transcript captions the amount as '$2,21', with the amount here calculated from the stated transaction count and price.",
    "metric": "revenue",
    "value": {
-    "amount": null,
+    "amount": 2021,
     "currency": "USD",
-    "unit": "total",
-    "label": "transcribed as $2,21"
+    "unit": "43 transactions",
+    "label": "calculated from stated count and price; transcript captions the amount as $2,21"
    },
    "period": "about one week",
    "claimant": "Chris Koerner",
@@ -1326,43 +1266,22 @@
    "hypothetical": false,
    "idea_local_id": "I1",
    "quote": {
-    "text": "There were 43 of those, which is $2,21. Now, we're going to change the filter to $97. And there were 22 of those, which is $2,134.",
+    "text": "There were 43 of those, which is $2,21.",
     "speaker": "Chris Koerner",
-    "match_score": 95.9,
+    "match_score": 91.7,
     "verified": true,
-    "char_offset": 34895,
-    "approx_timestamp_s": 2028
+    "char_offset": 34979,
+    "approx_timestamp_s": 2033
    }
   },
   {
-   "claim": "Chris reports 43 successful $47 transactions.",
-   "metric": "customers",
-   "value": {
-    "amount": 43,
-    "currency": null,
-    "unit": "transactions"
-   },
-   "period": "about one week",
-   "claimant": "Chris Koerner",
-   "first_hand": true,
-   "hypothetical": false,
-   "idea_local_id": "I1",
-   "quote": {
-    "text": "There were 43 of those, which is $2,21. Now, we're going to change the filter to $97. And there were 22 of those, which is $2,134.",
-    "speaker": "Chris Koerner",
-    "match_score": 95.9,
-    "verified": true,
-    "char_offset": 34895,
-    "approx_timestamp_s": 2028
-   }
-  },
-  {
-   "claim": "Chris reports 22 successful $97 transactions totaling $2,134.",
+   "claim": "Koerner reports 22 transactions at $97 totaling $2,134.",
    "metric": "revenue",
    "value": {
     "amount": 2134,
     "currency": "USD",
-    "unit": "total"
+    "unit": "22 transactions",
+    "label": "reported total"
    },
    "period": "about one week",
    "claimant": "Chris Koerner",
@@ -1370,43 +1289,22 @@
    "hypothetical": false,
    "idea_local_id": "I1",
    "quote": {
-    "text": "There were 43 of those, which is $2,21. Now, we're going to change the filter to $97. And there were 22 of those, which is $2,134.",
+    "text": "And there were 22 of those, which is $2,134.",
     "speaker": "Chris Koerner",
-    "match_score": 95.9,
+    "match_score": 100.0,
     "verified": true,
-    "char_offset": 34895,
-    "approx_timestamp_s": 2028
+    "char_offset": 34975,
+    "approx_timestamp_s": 2033
    }
   },
   {
-   "claim": "Chris reports 22 successful $97 transactions.",
-   "metric": "customers",
-   "value": {
-    "amount": 22,
-    "currency": null,
-    "unit": "transactions"
-   },
-   "period": "about one week",
-   "claimant": "Chris Koerner",
-   "first_hand": true,
-   "hypothetical": false,
-   "idea_local_id": "I1",
-   "quote": {
-    "text": "There were 43 of those, which is $2,21. Now, we're going to change the filter to $97. And there were 22 of those, which is $2,134.",
-    "speaker": "Chris Koerner",
-    "match_score": 95.9,
-    "verified": true,
-    "char_offset": 34895,
-    "approx_timestamp_s": 2028
-   }
-  },
-  {
-   "claim": "Chris says the $97 option made about 5% more per person in the week-long comparison.",
-   "metric": "revenue",
+   "claim": "Koerner says the $97 plan made about 5% more money per person than the $47 plan over the measured period.",
+   "metric": "other",
    "value": {
     "amount": 5,
     "currency": "%",
-    "unit": "more per person"
+    "unit": "more per person",
+    "label": "$97 plan versus $47 plan"
    },
    "period": "about one week",
    "claimant": "Chris Koerner",
@@ -1423,82 +1321,84 @@
    }
   },
   {
-   "claim": "Chris says 10 $97 transactions occurred from February 2 onward.",
-   "metric": "customers",
+   "claim": "Koerner reports 111 transactions at about $80 per transaction and $8,300 in revenue.",
+   "metric": "revenue",
    "value": {
-    "amount": 10,
-    "currency": null,
-    "unit": "transactions",
-    "label": "at $97"
+    "amount": 8300,
+    "currency": "USD",
+    "unit": "revenue to date",
+    "label": "reported alongside 111 transactions at about $80 each"
    },
-   "period": "from February 2 onward in the shown date range",
+   "period": "so far",
    "claimant": "Chris Koerner",
    "first_hand": true,
    "hypothetical": false,
    "idea_local_id": "I1",
    "quote": {
-    "text": "So, like from February 2nd on, we had 10 transactions on the $97 one.",
+    "text": "We've had 111 transactions at about $80 per transaction. We've had $8,300 in revenue so far.",
     "speaker": "Chris Koerner",
     "match_score": 100.0,
     "verified": true,
-    "char_offset": 35183,
-    "approx_timestamp_s": 2045
+    "char_offset": 39529,
+    "approx_timestamp_s": 2298
    }
   },
   {
-   "claim": "Chris says the hidden-price email produced 23 sales and about $2,200 revenue.",
+   "claim": "Koerner says about a quarter of the 110 buyers he invited had joined the community.",
+   "metric": "customers",
+   "value": {
+    "amount": 25,
+    "currency": "%",
+    "unit": "of invited buyers",
+    "label": "about one quarter of 110"
+   },
+   "period": "a couple hours after invitation",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Basically, I took the 110 people that have paid. I sent them all an invite link to school a couple hours ago and about a quarter of them have already joined.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 40172,
+    "approx_timestamp_s": 2335
+   }
+  },
+  {
+   "claim": "Koerner says the email that disclosed the price produced 23 sales and $2,200 in revenue.",
    "metric": "revenue",
    "value": {
     "amount": 2200,
     "currency": "USD",
-    "unit": "total",
-    "label": "about"
+    "unit": "sales through payment link",
+    "label": "23 sales"
    },
-   "period": "A/B test",
+   "period": null,
    "claimant": "Chris Koerner",
    "first_hand": true,
    "hypothetical": false,
    "idea_local_id": "I1",
    "quote": {
-    "text": "So, if we go to payments and analytics, we got $2,200 uh in revenue through this link. 23 sales.",
+    "text": "So, if we go here to our payment links, you'll see this first one was the link I put in the email where I did not tell them the price. So, if we go to payments and analytics, we got $2,200 uh in revenue through this link. 23 sales.",
     "speaker": "Chris Koerner",
-    "match_score": 100.0,
+    "match_score": 99.1,
     "verified": true,
-    "char_offset": 41453,
-    "approx_timestamp_s": 2410
+    "char_offset": 41323,
+    "approx_timestamp_s": 2402
    }
   },
   {
-   "claim": "Chris says the hidden-price email produced 23 sales.",
-   "metric": "customers",
-   "value": {
-    "amount": 23,
-    "currency": null,
-    "unit": "sales"
-   },
-   "period": "A/B test",
-   "claimant": "Chris Koerner",
-   "first_hand": true,
-   "hypothetical": false,
-   "idea_local_id": "I1",
-   "quote": {
-    "text": "So, if we go to payments and analytics, we got $2,200 uh in revenue through this link. 23 sales.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 41453,
-    "approx_timestamp_s": 2410
-   }
-  },
-  {
-   "claim": "Chris says the other email produced 11 sales, less than half as many.",
+   "claim": "Koerner says the email that did not disclose the price produced 11 sales.",
    "metric": "customers",
    "value": {
     "amount": 11,
     "currency": null,
-    "unit": "sales"
+    "unit": "sales",
+    "label": "email without price disclosed"
    },
-   "period": "A/B test",
+   "period": null,
    "claimant": "Chris Koerner",
    "first_hand": true,
    "hypothetical": false,
@@ -1513,89 +1413,68 @@
    }
   },
   {
-   "claim": "Chris reports 375 views for one payment link and 287 views for the other.",
+   "claim": "Koerner reports 375 views on one payment link and 287 on another.",
    "metric": "traffic",
    "value": {
     "amount": 375,
     "currency": null,
-    "unit": "payment-link views",
-    "label": "price not stated in the email"
+    "unit": "views",
+    "label": "price-disclosed email payment link; compared with 287"
    },
-   "period": "A/B test",
+   "period": null,
    "claimant": "Chris Koerner",
    "first_hand": true,
    "hypothetical": false,
    "idea_local_id": "I1",
    "quote": {
-    "text": "375 views on this one. So, the conversion rate is about 3% on that one. And on this one, we had 287 views.",
+    "text": "Actually, I take that back. 375 views on this one. So, the conversion rate is about 3% on that one. And on this one, we had 287 views.",
     "speaker": "Chris Koerner",
     "match_score": 100.0,
     "verified": true,
-    "char_offset": 41922,
-    "approx_timestamp_s": 2437
+    "char_offset": 41896,
+    "approx_timestamp_s": 2436
    }
   },
   {
-   "claim": "Chris reports 287 views for the other payment link.",
-   "metric": "traffic",
-   "value": {
-    "amount": 287,
-    "currency": null,
-    "unit": "payment-link views"
-   },
-   "period": "A/B test",
-   "claimant": "Chris Koerner",
-   "first_hand": true,
-   "hypothetical": false,
-   "idea_local_id": "I1",
-   "quote": {
-    "text": "375 views on this one. So, the conversion rate is about 3% on that one. And on this one, we had 287 views.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 41922,
-    "approx_timestamp_s": 2437
-   }
-  },
-  {
-   "claim": "Chris says the first of the compared links converted at about 3%.",
+   "claim": "Koerner reports about 3% conversion on the 375-view payment link.",
    "metric": "conversion_rate",
    "value": {
     "amount": 3,
     "currency": "%",
-    "unit": "payment-link conversion rate",
-    "label": "about"
+    "unit": "conversion rate",
+    "label": "payment link with price disclosed"
    },
-   "period": "A/B test",
+   "period": null,
    "claimant": "Chris Koerner",
    "first_hand": true,
    "hypothetical": false,
    "idea_local_id": "I1",
    "quote": {
-    "text": "375 views on this one. So, the conversion rate is about 3% on that one. And on this one, we had 287 views.",
+    "text": "Actually, I take that back. 375 views on this one. So, the conversion rate is about 3% on that one.",
     "speaker": "Chris Koerner",
     "match_score": 100.0,
     "verified": true,
-    "char_offset": 41922,
-    "approx_timestamp_s": 2437
+    "char_offset": 41896,
+    "approx_timestamp_s": 2436
    }
   },
   {
-   "claim": "Chris says the other link converted at 8% or 9%.",
+   "claim": "Koerner estimates conversion on the 287-view payment link at 8% or 9%.",
    "metric": "conversion_rate",
    "value": {
-    "amount": null,
+    "amount": 8,
+    "amount_max": 9,
     "currency": "%",
-    "unit": "payment-link conversion rate",
-    "label": "8% or 9%"
+    "unit": "conversion rate",
+    "label": "payment link with price withheld from email"
    },
-   "period": "A/B test",
+   "period": null,
    "claimant": "Chris Koerner",
    "first_hand": true,
    "hypothetical": false,
    "idea_local_id": "I1",
    "quote": {
-    "text": "And on this one, we had 287 views. So the conversion rate was like eight or nine%. Just crazy.",
+    "text": "And on this one, we had 287 views. So the conversion rate was like eight or nine%.",
     "speaker": "Chris Koerner",
     "match_score": 100.0,
     "verified": true,
@@ -1604,111 +1483,90 @@
    }
   },
   {
-   "claim": "Chris says about a quarter of people invited to School had joined within a couple of hours.",
-   "metric": "conversion_rate",
-   "value": {
-    "amount": 25,
-    "currency": "%",
-    "unit": "invite-to-join rate",
-    "label": "about a quarter"
-   },
-   "period": "a couple of hours after invites",
-   "claimant": "Chris Koerner",
-   "first_hand": true,
-   "hypothetical": false,
-   "idea_local_id": "I1",
-   "quote": {
-    "text": "I sent them all an invite link to school a couple hours ago and about a quarter of them have already joined.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 40219,
-    "approx_timestamp_s": 2338
-   }
-  },
-  {
-   "claim": "Chris says the School link generated 10 sales at $97.",
+   "claim": "Koerner says the Skool-link email generated 10 sales at $97.",
    "metric": "customers",
    "value": {
     "amount": 10,
     "currency": null,
-    "unit": "sales",
-    "label": "at $97 each"
+    "unit": "sales at $97",
+    "label": "Skool link"
    },
-   "period": "A/B test",
+   "period": null,
    "claimant": "Chris Koerner",
    "first_hand": true,
    "hypothetical": false,
    "idea_local_id": "I1",
    "quote": {
-    "text": "The email with the school link brought in 10 sales at $97. And the email with the Stripe link brought in 13 sales.",
+    "text": "So, the email with the school link brought in 10 sales at $97.",
     "speaker": "Chris Koerner",
     "match_score": 100.0,
     "verified": true,
-    "char_offset": 43843,
+    "char_offset": 43840,
     "approx_timestamp_s": 2549
    }
   },
   {
-   "claim": "Chris says the Stripe link generated 13 sales, 30% more than the School link.",
+   "claim": "Koerner says the Stripe-link email generated 13 sales at $97.",
    "metric": "customers",
    "value": {
     "amount": 13,
     "currency": null,
-    "unit": "sales",
-    "label": "at $97 each"
+    "unit": "sales at $97",
+    "label": "Stripe link"
    },
-   "period": "A/B test",
+   "period": null,
    "claimant": "Chris Koerner",
    "first_hand": true,
    "hypothetical": false,
    "idea_local_id": "I1",
    "quote": {
-    "text": "The email with the school link brought in 10 sales at $97. And the email with the Stripe link brought in 13 sales. So 30% more",
+    "text": "And the email with the Stripe link brought in 13 sales.",
     "speaker": "Chris Koerner",
     "match_score": 100.0,
     "verified": true,
-    "char_offset": 43843,
-    "approx_timestamp_s": 2549
+    "char_offset": 43900,
+    "approx_timestamp_s": 2552
    }
   },
   {
-   "claim": "Chris says the Stripe link produced 30% more sales than the School link.",
+   "claim": "Koerner says the Stripe-link email produced 30% more sales than the Skool-link email.",
    "metric": "other",
    "value": {
     "amount": 30,
     "currency": "%",
-    "unit": "more sales"
+    "unit": "more sales",
+    "label": "Stripe link versus Skool link"
    },
-   "period": "A/B test",
+   "period": null,
    "claimant": "Chris Koerner",
    "first_hand": true,
    "hypothetical": false,
    "idea_local_id": "I1",
    "quote": {
-    "text": "The email with the school link brought in 10 sales at $97. And the email with the Stripe link brought in 13 sales. So 30% more",
+    "text": "And the email with the Stripe link brought in 13 sales. So 30% more, which kind of surprised me because school is more organized.",
     "speaker": "Chris Koerner",
     "match_score": 100.0,
     "verified": true,
-    "char_offset": 43843,
-    "approx_timestamp_s": 2549
+    "char_offset": 43900,
+    "approx_timestamp_s": 2552
    }
   },
   {
-   "claim": "Chris reports $970 in School sales.",
+   "claim": "Koerner reports $970 in Skool sales before the full-list announcement.",
    "metric": "revenue",
    "value": {
     "amount": 970,
     "currency": "USD",
-    "unit": "total"
+    "unit": "sales",
+    "label": "Skool"
    },
-   "period": "before the full-list email",
+   "period": "before full-list announcement",
    "claimant": "Chris Koerner",
    "first_hand": true,
    "hypothetical": false,
    "idea_local_id": "I1",
    "quote": {
-    "text": "In school, they were $970. And in Stripe, I had 126 total payments with most of those being at the $97 price point",
+    "text": "In school, they were $970.",
     "speaker": "Chris Koerner",
     "match_score": 100.0,
     "verified": true,
@@ -1717,83 +1575,38 @@
    }
   },
   {
-   "claim": "Chris reports 126 total Stripe payments before the full-list email.",
-   "metric": "customers",
-   "value": {
-    "amount": 126,
-    "currency": null,
-    "unit": "payments"
-   },
-   "period": "before the full-list email",
-   "claimant": "Chris Koerner",
-   "first_hand": true,
-   "hypothetical": false,
-   "idea_local_id": "I1",
-   "quote": {
-    "text": "In school, they were $970. And in Stripe, I had 126 total payments with most of those being at the $97 price point",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 45227,
-    "approx_timestamp_s": 2629
-   }
-  },
-  {
-   "claim": "Chris states Stripe revenue as $10,22 in the transcript; the amount is unclear.",
+   "claim": "Koerner reports 126 total Stripe payments and a total of about $10,220; the transcript captions the total as '$10,22'.",
    "metric": "revenue",
    "value": {
-    "amount": null,
+    "amount": 10220,
     "currency": "USD",
-    "unit": "total",
-    "label": "transcribed as $10,22"
+    "unit": "total payments",
+    "label": "approximate correction of captioned $10,22"
    },
-   "period": "before the full-list email",
+   "period": "before full-list announcement",
    "claimant": "Chris Koerner",
    "first_hand": true,
    "hypothetical": false,
    "idea_local_id": "I1",
    "quote": {
-    "text": "In school, they were $970. And in Stripe, I had 126 total payments with most of those being at the $97 price point and the rest at $47 for a total revenue count of $10,22.",
+    "text": "And in Stripe, I had 126 total payments with most of those being at the $97 price point and the rest at $47 for a total revenue count of $10,22.",
     "speaker": "Chris Koerner",
     "match_score": 100.0,
     "verified": true,
-    "char_offset": 45227,
-    "approx_timestamp_s": 2629
+    "char_offset": 45251,
+    "approx_timestamp_s": 2631
    }
   },
   {
-   "claim": "Chris says the early tests had generated almost $11,000 in total.",
-   "metric": "revenue",
-   "value": {
-    "amount": 11000,
-    "currency": "USD",
-    "unit": "total",
-    "label": "almost"
-   },
-   "period": "before the full-list email",
-   "claimant": "Chris Koerner",
-   "first_hand": true,
-   "hypothetical": false,
-   "idea_local_id": "I1",
-   "quote": {
-    "text": "That's more than I thought. So, we're almost at exactly $11,000 from this launch so far, which is basically pure profit",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 45391,
-    "approx_timestamp_s": 2639
-   }
-  },
-  {
-   "claim": "Chris says roughly one-fourth of the newsletter list had already received the A/B test emails.",
-   "metric": "customers",
+   "claim": "Koerner says about one quarter of the list had already received A/B test emails.",
+   "metric": "other",
    "value": {
     "amount": 25,
     "currency": "%",
-    "unit": "of the newsletter list",
-    "label": "about one-fourth"
+    "unit": "of email list",
+    "label": "about one fourth"
    },
-   "period": "before the full-list email",
+   "period": "before full-list send",
    "claimant": "Chris Koerner",
    "first_hand": true,
    "hypothetical": false,
@@ -1808,37 +1621,38 @@
    }
   },
   {
-   "claim": "Chris says the main full-list email generated 125 sales at $97 each in its first hour and 20 minutes.",
-   "metric": "customers",
+   "claim": "Koerner's forecast assumes at least four times the revenue already earned once the rest of the list is emailed.",
+   "metric": "revenue",
    "value": {
-    "amount": 125,
+    "amount": 4,
     "currency": null,
-    "unit": "sales",
-    "label": "at $97 each"
+    "unit": "times current earnings",
+    "label": "host's projection based on about a quarter of list already emailed"
    },
-   "period": "first hour and 20 minutes",
+   "period": null,
    "claimant": "Chris Koerner",
-   "first_hand": true,
-   "hypothetical": false,
+   "first_hand": false,
+   "hypothetical": true,
    "idea_local_id": "I1",
    "quote": {
-    "text": "And in the first hour and 20 minutes, I've had 125 sales at $97 per sale, which is exactly $12,125.",
+    "text": "So, theoretically, I could expect to earn at least four times what I've earned so far.",
     "speaker": "Chris Koerner",
-    "match_score": 96.8,
+    "match_score": 100.0,
     "verified": true,
-    "char_offset": 46675,
-    "approx_timestamp_s": 2713
+    "char_offset": 45877,
+    "approx_timestamp_s": 2667
    }
   },
   {
-   "claim": "Chris reports $12,125 from the 125 main-email sales.",
+   "claim": "Koerner reports 125 sales at $97 each in the first hour and 19 minutes after emailing the rest of the list.",
    "metric": "revenue",
    "value": {
     "amount": 12125,
     "currency": "USD",
-    "unit": "total"
+    "unit": "125 sales",
+    "label": "full-list email sales"
    },
-   "period": "first hour and 20 minutes",
+   "period": "1 hour 19 minutes",
    "claimant": "Chris Koerner",
    "first_hand": true,
    "hypothetical": false,
@@ -1853,15 +1667,15 @@
    }
   },
   {
-   "claim": "Chris says the main email and A/B tests had generated almost $23,000 in near-pure profit.",
+   "claim": "Koerner says the full-list email and previous A/B tests brought the total to almost $23,000 in nearly pure profit.",
    "metric": "profit",
    "value": {
     "amount": 23000,
     "currency": "USD",
-    "unit": "total",
-    "label": "almost"
+    "unit": "approximate total",
+    "label": "almost pure profit"
    },
-   "period": "over the launch and email tests",
+   "period": "at that update",
    "claimant": "Chris Koerner",
    "first_hand": true,
    "hypothetical": false,
@@ -1876,16 +1690,17 @@
    }
   },
   {
-   "claim": "Claude estimates that 40% to 50% of total sales happen in the first hour.",
-   "metric": "conversion_rate",
+   "claim": "Claude's forecast, read by Koerner, says 40% to 50% of total sales happen in the first hour.",
+   "metric": "other",
    "value": {
     "amount": 40,
     "amount_max": 50,
     "currency": "%",
-    "unit": "of total sales"
+    "unit": "of total sales in first hour",
+    "label": "Claude forecast"
    },
    "period": "first hour",
-   "claimant": "Claude, as reported by Chris Koerner",
+   "claimant": "Claude, as read by Chris Koerner",
    "first_hand": false,
    "hypothetical": true,
    "idea_local_id": "I1",
@@ -1899,66 +1714,69 @@
    }
   },
   {
-   "claim": "Claude estimates 110 to 140 sales by the end of the first hour based on the stated sales velocity.",
+   "claim": "Claude's forecast, read by Koerner, estimates 110 to 140 sales by the end of the hour from 82 sales at 40 minutes.",
    "metric": "customers",
    "value": {
     "amount": 110,
     "amount_max": 140,
     "currency": null,
-    "unit": "sales by end of hour one"
+    "unit": "sales by end of hour",
+    "label": "forecast based on 82 sales at 40 minutes"
    },
    "period": "first hour",
-   "claimant": "Claude, as reported by Chris Koerner",
+   "claimant": "Claude, as read by Chris Koerner",
    "first_hand": false,
    "hypothetical": true,
    "idea_local_id": "I1",
    "quote": {
-    "text": "if you're at 82 sales in 40 minutes, you're probably looking at 110 to 140 by the end of hour 1, 200 by the end of the day.",
+    "text": "It's been an hour. It says if you're at 82 sales in 40 minutes, you're probably looking at 110 to 140 by the end of hour 1, 200 by the end of the day.",
     "speaker": "Chris Koerner",
     "match_score": 100.0,
     "verified": true,
-    "char_offset": 47426,
-    "approx_timestamp_s": 2757
+    "char_offset": 47400,
+    "approx_timestamp_s": 2756
    }
   },
   {
-   "claim": "Claude estimates 200 sales by the end of the day.",
+   "claim": "Claude's forecast, read by Koerner, estimates 200 sales by the end of the day.",
    "metric": "customers",
    "value": {
     "amount": 200,
     "currency": null,
-    "unit": "sales by end of day"
+    "unit": "sales",
+    "label": "forecast"
    },
-   "period": "day one",
-   "claimant": "Claude, as reported by Chris Koerner",
+   "period": "end of day",
+   "claimant": "Claude, as read by Chris Koerner",
    "first_hand": false,
    "hypothetical": true,
    "idea_local_id": "I1",
    "quote": {
-    "text": "if you're at 82 sales in 40 minutes, you're probably looking at 110 to 140 by the end of hour 1, 200 by the end of the day.",
+    "text": "It's been an hour. It says if you're at 82 sales in 40 minutes, you're probably looking at 110 to 140 by the end of hour 1, 200 by the end of the day.",
     "speaker": "Chris Koerner",
     "match_score": 100.0,
     "verified": true,
-    "char_offset": 47426,
-    "approx_timestamp_s": 2757
+    "char_offset": 47400,
+    "approx_timestamp_s": 2756
    }
   },
   {
-   "claim": "Claude estimates 250 to 300 total sales over the next five days.",
+   "claim": "Claude's forecast, read by Koerner, estimates 250 to 300 sales over five days.",
    "metric": "customers",
    "value": {
     "amount": 250,
     "amount_max": 300,
     "currency": null,
-    "unit": "sales over five days"
+    "unit": "sales",
+    "label": "forecast"
    },
-   "period": "next five days",
-   "claimant": "Claude, as reported by Chris Koerner",
+   "period": "next 5 days",
+   "claimant": "Claude, as read by Chris Koerner",
    "first_hand": false,
    "hypothetical": true,
    "idea_local_id": "I1",
    "quote": {
-    "text": "Long tail total estimate 250 to 300 sales over the next 5 days. That's 24 to 29,000 gross from one email.",
+    "text": "Long tail total estimate 250 to 300 sales over the next 5 days.",
     "speaker": "Chris Koerner",
     "match_score": 100.0,
     "verified": true,
@@ -1967,36 +1785,61 @@
    }
   },
   {
-   "claim": "Claude estimates $24,000 to $29,000 gross from one email.",
+   "claim": "Claude's forecast, read by Koerner, estimates $24,000 to $29,000 gross from one email.",
    "metric": "revenue",
    "value": {
     "amount": 24000,
     "amount_max": 29000,
     "currency": "USD",
-    "unit": "gross revenue from one email"
+    "unit": "gross revenue",
+    "label": "forecast from one email"
    },
-   "period": "next five days",
-   "claimant": "Claude, as reported by Chris Koerner",
+   "period": "next 5 days",
+   "claimant": "Claude, as read by Chris Koerner",
    "first_hand": false,
    "hypothetical": true,
    "idea_local_id": "I1",
    "quote": {
-    "text": "Long tail total estimate 250 to 300 sales over the next 5 days. That's 24 to 29,000 gross from one email.",
+    "text": "That's 24 to 29,000 gross from one email. Gross, but really it's net.",
     "speaker": "Chris Koerner",
     "match_score": 100.0,
     "verified": true,
-    "char_offset": 47547,
-    "approx_timestamp_s": 2764
+    "char_offset": 47610,
+    "approx_timestamp_s": 2768
    }
   },
   {
-   "claim": "Chris says Stripe transaction fees are 3%.",
+   "claim": "Claude's later forecast, read by Koerner, estimates $22,000 to $26,000 from the email.",
+   "metric": "revenue",
+   "value": {
+    "amount": 22000,
+    "amount_max": 26000,
+    "currency": "USD",
+    "unit": "revenue",
+    "label": "Claude forecast"
+   },
+   "period": null,
+   "claimant": "Claude, as read by Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Hey, here's a new screenshot. It's been 40 minutes. I'm up to 125 sales now. What do you think? And it says 22 to 26,000 from this email.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 47812,
+    "approx_timestamp_s": 2780
+   }
+  },
+  {
+   "claim": "Koerner says the only stated costs are Stripe's 3% transaction fees.",
    "metric": "cost",
    "value": {
     "amount": 3,
     "currency": "%",
-    "unit": "of transaction value",
-    "label": "Stripe transaction fee"
+    "unit": "transaction fee",
+    "label": "Stripe fee as stated by host"
    },
    "period": null,
    "claimant": "Chris Koerner",
@@ -2013,15 +1856,16 @@
    }
   },
   {
-   "claim": "Chris says the launch generated between $30,000 and $40,000 net profit over the course of the video.",
+   "claim": "Koerner says the video launch generated between $30,000 and $40,000 of net profit.",
    "metric": "profit",
    "value": {
     "amount": 30000,
     "amount_max": 40000,
     "currency": "USD",
-    "unit": "net profit"
+    "unit": "net profit",
+    "label": "host's total for the video"
    },
-   "period": "over the course of the video",
+   "period": "during the video",
    "claimant": "Chris Koerner",
    "first_hand": true,
    "hypothetical": false,
@@ -2036,13 +1880,13 @@
    }
   },
   {
-   "claim": "Chris says the business could bring in a few thousand dollars per month fairly passively.",
+   "claim": "Koerner says the business could bring in a few thousand dollars per month passively.",
    "metric": "revenue",
    "value": {
     "amount": null,
     "currency": "USD",
     "unit": "per month",
-    "label": "a few thousand"
+    "label": "a few thousand; exact amount not stated"
    },
    "period": "per month",
    "claimant": "Chris Koerner",
@@ -2050,24 +1894,25 @@
    "hypothetical": true,
    "idea_local_id": "I1",
    "quote": {
-    "text": "I'll raise the price as promised. And I think this could bring in a few thousand per month pretty passively.",
+    "text": "And then I'll just work this into my email flow, my automations. I'll raise the price as promised. And I think this could bring in a few thousand per month pretty passively.",
     "speaker": "Chris Koerner",
     "match_score": 100.0,
     "verified": true,
-    "char_offset": 48093,
-    "approx_timestamp_s": 2796
+    "char_offset": 48030,
+    "approx_timestamp_s": 2792
    }
   },
   {
-   "claim": "Chris says Beehiiv's founder makes $500,000 a year from a newsletter list smaller than his.",
+   "claim": "Koerner says the Beehiiv founder makes $500,000 per year from a smaller list and sends one email per week.",
    "metric": "revenue",
    "value": {
     "amount": 500000,
     "currency": "USD",
-    "unit": "per year"
+    "unit": "per year",
+    "label": "second-hand claim about Beehiiv founder"
    },
    "period": "per year",
-   "claimant": "Beehiiv founder, as reported by Chris Koerner",
+   "claimant": "Chris Koerner, citing the Beehiiv founder",
    "first_hand": false,
    "hypothetical": false,
    "idea_local_id": "I4",
@@ -2081,35 +1926,13 @@
    }
   },
   {
-   "claim": "Chris says the Beehiiv founder sends one email per week.",
-   "metric": "other",
-   "value": {
-    "amount": 1,
-    "currency": null,
-    "unit": "email per week"
-   },
-   "period": "weekly",
-   "claimant": "Beehiiv founder, as reported by Chris Koerner",
-   "first_hand": false,
-   "hypothetical": false,
-   "idea_local_id": "I4",
-   "quote": {
-    "text": "I don't know if you saw this video with the founder of Beehive, but he makes $500,000 a year from a list much smaller than mine, and he only sends one email per week.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 48817,
-    "approx_timestamp_s": 2838
-   }
-  },
-  {
-   "claim": "Chris says a list of 2,000 subscribers could earn tens of thousands of dollars or more per year.",
+   "claim": "Koerner says a newsletter with 2,000 subscribers could make tens of thousands of dollars or more per year.",
    "metric": "revenue",
    "value": {
     "amount": null,
     "currency": "USD",
     "unit": "per year",
-    "label": "tens of thousands or more"
+    "label": "tens of thousands or more; exact amount not stated"
    },
    "period": "per year",
    "claimant": "Chris Koerner",
@@ -2129,15 +1952,14 @@
  "tactics": [
   {
    "name": "Start from an unfair advantage",
-   "area": "product",
+   "area": "niche_selection",
    "steps": [
-    "List audience access, work history, skills and experiences that give you insight into a market.",
-    "Choose an offer that uses one of those existing advantages.",
-    "For Chris, that was a newsletter he could sell to."
+    "List assets or experience that give you a useful starting point, such as a newsletter, work history, or knowledge of an industry.",
+    "Choose an offer that can be sold to people you already understand or can reach through that advantage."
    ],
    "idea_local_id": "I1",
    "quote": {
-    "text": "anytime anyone starts a business, you need to go to your unfair advantage. Everyone has an unfair advantage.",
+    "text": "Anytime anyone starts a business, you need to go to your unfair advantage. Everyone has an unfair advantage.",
     "speaker": "Chris Koerner",
     "match_score": 100.0,
     "verified": true,
@@ -2146,54 +1968,36 @@
    }
   },
   {
-   "name": "Launch a minimum offer before polishing the brand",
+   "name": "Randomize the list before an email price test",
    "area": "validation_testing",
    "steps": [
-    "Choose a workable name and move forward without hiring a branding agency or conducting a friend survey.",
-    "Create a payment link and write the first sales email.",
-    "Aim to get a first customer quickly so real sales data can guide improvements."
+    "Export active subscribers and put the addresses in Google Sheets.",
+    "Add a RAND formula, sort the list by the random values, then split the randomized rows into groups.",
+    "Keep the sample below 10% of the full list so the initial lower-price test does not reach too many subscribers.",
+    "Tag and segment each group, and exclude unsubscribed subscribers."
    ],
    "idea_local_id": "I1",
    "quote": {
-    "text": "I just want to launch. I want revenue. That's what I preach, right? You guys have heard me say that. Get your first customer as soon as possible.",
+    "text": "So, I want to perfectly randomize this list because what I'm about to do is what's called an AB test or a split test.",
     "speaker": "Chris Koerner",
     "match_score": 100.0,
     "verified": true,
-    "char_offset": 10628,
-    "approx_timestamp_s": 617
-   }
-  },
-  {
-   "name": "Randomize subscribers before an email price test",
-   "area": "validation_testing",
-   "steps": [
-    "Export active subscribers and paste them into a spreadsheet.",
-    "Use a random number formula, sort by that value, and remove the formula column.",
-    "Split a small sample into groups so older or more loyal subscribers do not skew one test group.",
-    "Use separate tags or segments for each price group."
-   ],
-   "idea_local_id": "I1",
-   "quote": {
-    "text": "I want to perfectly randomize this list because what I'm about to do is what's called an AB test or a split test.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 6281,
+    "char_offset": 6278,
     "approx_timestamp_s": 365
    }
   },
   {
-   "name": "Test prices with identical email copy",
+   "name": "Test price with the same email and different payment links",
    "area": "pricing",
    "steps": [
-    "Send the same subject line and email copy to equal-sized audience samples.",
-    "Change only the payment link and price between the groups.",
-    "Compare sales and revenue per subscriber, then allow time for higher-priced buyers to decide.",
-    "Refund buyers if a later test establishes that they paid more than the final test price."
+    "Create the same one-time offer at $47 and $97.",
+    "Send identical emails to randomized groups, changing only the payment link and price.",
+    "Compare the revenue and conversion results, and allow time for higher-priced purchases to arrive.",
+    "Repeat tests when results are uncertain before sending the selected offer to the rest of the list."
    ],
    "idea_local_id": "I1",
    "quote": {
-    "text": "If I send both of those identical emails, it's the same email, same subject, same wording, same everything. The only thing that's different is the payment link with the price",
+    "text": "If I send both of those identical emails, it's the same email, same subject, same wording, same everything. The only thing that's different is the payment link with the price, right?",
     "speaker": "Chris Koerner",
     "match_score": 100.0,
     "verified": true,
@@ -2205,363 +2009,11 @@
    "name": "Reduce checkout friction",
    "area": "sales",
    "steps": [
-    "Ask only for information needed to complete the purchase.",
-    "Do not add fields such as names or phone numbers if the seller already has the information or does not need it.",
-    "Test whether an external community checkout adds account-creation friction compared with a Stripe payment link."
+    "Use a direct payment link and avoid asking for information already held in the subscriber list.",
+    "Do not add optional fields unless the value of collecting that data justifies the conversion cost.",
+    "Check that the payment link is one-time rather than recurring and test the link before sending."
    ],
    "idea_local_id": "I1",
-   "quote": {
-    "text": "The more friction you add to the checkout process, the more your conversion rate will drop. I don't care what it is you're selling. Do not add friction.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 14910,
-    "approx_timestamp_s": 866
-   }
-  },
-  {
-   "name": "Show the price before the click",
-   "area": "sales",
-   "steps": [
-    "Test short emails with the price stated near the link against emails where the price is hidden until checkout.",
-    "Use separate payment links to track each variant.",
-    "In Chris's test, the version that disclosed the price performed better, so he chose to state the price in the full-list email."
-   ],
-   "idea_local_id": "I1",
-   "quote": {
-    "text": "So the lesson, tell them the price in the email. That's what we're going to do here.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 42080,
-    "approx_timestamp_s": 2446
-   }
-  },
-  {
-   "name": "Track each checkout link separately",
-   "area": "operations",
-   "steps": [
-    "Create separate Stripe payment links for each test.",
-    "Use Stripe payment-link analytics to compare results when the price is the same but the checkout destination or email copy differs.",
-    "Exclude people who already received a test email from later sends."
-   ],
-   "idea_local_id": "I1",
-   "quote": {
-    "text": "If we want to see how many people are using each of the payment links, we go into the payment link in question and then we click payments and analytics.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 36641,
-    "approx_timestamp_s": 2130
-   }
-  },
-  {
-   "name": "Repurpose existing material into a paid library",
-   "area": "product",
-   "steps": [
-    "Inventory existing training videos, guides, documents and tracking spreadsheets.",
-    "Package useful material as an initial paid offer.",
-    "Organize the files into a cleaner course or community interface after validating demand."
-   ],
-   "idea_local_id": "I1",
-   "quote": {
-    "text": "we basically downloaded all of the Google Drive content and uploaded it here uh into separate folders.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 40008,
-    "approx_timestamp_s": 2326
-   }
-  },
-  {
-   "name": "Use a repeatable digital fulfillment flow",
-   "area": "operations",
-   "steps": [
-    "Take payment through a Stripe link.",
-    "Redirect buyers to the hosted content or automatically invite them into the community.",
-    "Use a short welcome video and clear folders to orient new members.",
-    "Record live AMAs so people who miss them can still access the material."
-   ],
-   "idea_local_id": "I1",
-   "quote": {
-    "text": "I can still automatically invite or add them to school after they pay on Stripe. I already have the automation set up.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 44415,
-    "approx_timestamp_s": 2582
-   }
-  },
-  {
-   "name": "Stand behind the value of a course",
-   "area": "offer_design",
-   "steps": [
-    "Make a clear promise about what the buyer gets.",
-    "Ensure the product provides the promised value.",
-    "Use the material to help buyers take action rather than selling unsupported outcomes."
-   ],
-   "idea_local_id": "I6",
-   "quote": {
-    "text": "They only have a bad rap because so many of them don't match the value that the salesperson promises.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 49221,
-    "approx_timestamp_s": 2861
-   }
-  }
- ],
- "tools_mentioned": [
-  {
-   "name": "Beehiiv (transcribed as Beehive and Behive)",
-   "purpose": "Newsletter hosting, subscriber segments, tags, imports and email campaigns.",
-   "cost_stated": null
-  },
-  {
-   "name": "Google Sheets",
-   "purpose": "Organizing subscriber email exports and randomizing the list for A/B tests.",
-   "cost_stated": null
-  },
-  {
-   "name": "Microsoft Excel",
-   "purpose": "Mentioned as an alternative to Google Sheets.",
-   "cost_stated": null
-  },
-  {
-   "name": "Stripe",
-   "purpose": "Creating payment links, taking one-time payments, tracking payment-link analytics and redirecting buyers after checkout.",
-   "cost_stated": "Chris says transaction fees are 3%."
-  },
-  {
-   "name": "Google Drive",
-   "purpose": "Hosting the creator training videos, spreadsheets, guides and documents before they were organized in School.",
-   "cost_stated": null
-  },
-  {
-   "name": "School",
-   "purpose": "Hosting the paid community and folders of creator training material.",
-   "cost_stated": null
-  },
-  {
-   "name": "Loom",
-   "purpose": "Recording a video to show that the promised donation was made and to welcome members.",
-   "cost_stated": null
-  },
-  {
-   "name": "Claude",
-   "purpose": "Reviewing A/B test information and forecasting sales.",
-   "cost_stated": null
-  },
-  {
-   "name": "ChatGPT (transcribed as Chad GPT and JBT)",
-   "purpose": "Generating a product description and potentially shortening email copy.",
-   "cost_stated": null
-  },
-  {
-   "name": "Namecheap (transcribed as NameCheep)",
-   "purpose": "Searching for and buying the Plans of Grandeur domain.",
-   "cost_stated": "$11.28 per year for the domain mentioned."
-  },
-  {
-   "name": "Chrome",
-   "purpose": "Browser used when Namecheap did not work in the speaker's other browser.",
-   "cost_stated": null
-  },
-  {
-   "name": "GoDaddy",
-   "purpose": "Domain registrar Chris says he dislikes and advises against using.",
-   "cost_stated": null
-  },
-  {
-   "name": "Dynadot (transcribed as Dinad)",
-   "purpose": "Alternative domain registrar Chris says he has used.",
-   "cost_stated": null
-  },
-  {
-   "name": "Facebook",
-   "purpose": "Publishing creator content and the platform on which Chris says he earned income before his page was removed.",
-   "cost_stated": null
-  },
-  {
-   "name": "Meta",
-   "purpose": "Parent company Chris contacted about his removed Facebook page and ads.",
-   "cost_stated": null
-  },
-  {
-   "name": "Instagram",
-   "purpose": "Platform Chris mentions in correspondence with Meta about the page and ads.",
-   "cost_stated": null
-  },
-  {
-   "name": "Facebook Ads",
-   "purpose": "Advertising that Chris says relied on data from his Facebook followers.",
-   "cost_stated": null
-  },
-  {
-   "name": "YouTube",
-   "purpose": "Publishing the launch video and referring viewers to the offer.",
-   "cost_stated": null
-  },
-  {
-   "name": "National Kidney Foundation",
-   "purpose": "Charity Chris says would receive 10% of revenue.",
-   "cost_stated": null
-  },
-  {
-   "name": "MacBook",
-   "purpose": "Computer Chris says he used while studying and researching business ideas.",
-   "cost_stated": null
-  },
-  {
-   "name": "Topgolf",
-   "purpose": "Place Chris says he planned to take his oldest son; not part of the business.",
-   "cost_stated": null
-  }
- ],
- "warnings": [
-  {
-   "warning": "A business that depends on one social platform can lose income suddenly when the platform removes an account. Chris says Facebook banned his page and did not reinstate it.",
-   "quote": {
-    "text": "They banned me. Why? They said intellectual property infringement. False. Not true. Absolutely not. They won't reinstate me.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 1502,
-    "approx_timestamp_s": 87
-   }
-  },
-  {
-   "warning": "Chris says dependence on his Facebook followers also made his ads harder to run profitably after the ban.",
-   "quote": {
-    "text": "I can't run ads nearly as effectively anymore because I needed those 1.5 million Facebook followers as data points so my ads could be profitable.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 21701,
-    "approx_timestamp_s": 1261
-   }
-  },
-  {
-   "warning": "Do not make a course promise that the content cannot meet; Chris says this mismatch is why courses have a bad reputation.",
-   "quote": {
-    "text": "They only have a bad rap because so many of them don't match the value that the salesperson promises.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 49221,
-    "approx_timestamp_s": 2861
-   }
-  },
-  {
-   "warning": "Do not assume that a high-priced offer converts better or that a low price is always best; Chris recommends testing prices against a finite audience.",
-   "quote": {
-    "text": "I don't want to waste a lower than necessary price point on too big of my list.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 7483,
-    "approx_timestamp_s": 435
-   }
-  },
-  {
-   "warning": "Avoid adding unnecessary checkout fields or account-creation steps, since Chris believes added friction reduces conversion.",
-   "quote": {
-    "text": "The more friction you add to the checkout process, the more your conversion rate will drop. I don't care what it is you're selling.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 14910,
-    "approx_timestamp_s": 866
-   }
-  },
-  {
-   "warning": "The transcript describes emails to active newsletter subscribers; replicating this with unsolicited marketing to UK individuals or sole traders would raise PECR consent requirements.",
-   "quote": {
-    "text": "So, I'm going to make a segment of every single subscriber I have that is not unsubscribed from me ever.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 5012,
-    "approx_timestamp_s": 291
-   }
-  }
- ],
- "lessons": [
-  {
-   "lesson": "Start with an advantage you already have, such as audience access, job experience or a useful insight into a market.",
-   "theme": "niche_selection",
-   "quote": {
-    "text": "anytime anyone starts a business, you need to go to your unfair advantage. Everyone has an unfair advantage.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 3260,
-    "approx_timestamp_s": 189
-   }
-  },
-  {
-   "lesson": "Get a real customer quickly; early revenue can validate an offer and reveal what to improve.",
-   "theme": "validation_testing",
-   "quote": {
-    "text": "Get your first customer as soon as possible. I want to get my first customer within an hour",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 10724,
-    "approx_timestamp_s": 623
-   }
-  },
-  {
-   "lesson": "Avoid spending too long on branding or analysis before trying a simple offer with customers.",
-   "theme": "mindset_execution",
-   "quote": {
-    "text": "Time kills all deals. Lack of momentum kills all deals. Friction kills all deals.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 10512,
-    "approx_timestamp_s": 611
-   }
-  },
-  {
-   "lesson": "Use a randomized audience sample and change one variable at a time to learn from email tests.",
-   "theme": "validation_testing",
-   "quote": {
-    "text": "If I send both of those identical emails, it's the same email, same subject, same wording, same everything. The only thing that's different is the payment link with the price",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 13511,
-    "approx_timestamp_s": 785
-   }
-  },
-  {
-   "lesson": "Consider revenue per subscriber and the quality of buyers, not only the number of conversions.",
-   "theme": "finance_unit_economics",
-   "quote": {
-    "text": "I have a finite number of people on my email list, so it is worth testing.",
-    "speaker": "Chris Koerner",
-    "match_score": 94.4,
-    "verified": true,
-    "char_offset": 33971,
-    "approx_timestamp_s": 1975
-   }
-  },
-  {
-   "lesson": "Give buyers enough information to decide before they click; in Chris's test, disclosing the price outperformed hiding it.",
-   "theme": "sales",
-   "quote": {
-    "text": "So the lesson, tell them the price in the email. That's what we're going to do here.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 42080,
-    "approx_timestamp_s": 2446
-   }
-  },
-  {
-   "lesson": "Reduce unnecessary steps in checkout, because each extra step can cause some buyers to leave.",
-   "theme": "offer_design",
    "quote": {
     "text": "The more friction you add to the checkout process, the more your conversion rate will drop.",
     "speaker": "Chris Koerner",
@@ -2572,10 +2024,340 @@
    }
   },
   {
-   "lesson": "Use existing useful material as a product instead of assuming every offer needs new content production.",
+   "name": "Build the presale offer from existing assets",
+   "area": "offer_design",
+   "steps": [
+    "Inventory training videos, spreadsheets, documents, and guides that already exist.",
+    "Describe the outcome the material supports and bundle it as a practical library.",
+    "State what future material and live sessions buyers will receive, and make the one-time lifetime terms clear."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I have a treasure trove of videos, spreadsheets, and docs in my Google Drive account that has never been published.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22218,
+    "approx_timestamp_s": 1291
+   }
+  },
+  {
+   "name": "Segment and send the test campaigns",
+   "area": "operations",
+   "steps": [
+    "Import each randomized CSV group into the newsletter platform and add a separate tag.",
+    "Build dynamic segments from the tags and filter to active subscribers.",
+    "Duplicate the email so the copy stays consistent, change the link and price, then send each version to its assigned group.",
+    "Exclude prior test groups from later campaigns to avoid sending the same offer repeatedly."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "We want to AB test the entire email which I think you can do in Beehive as well but I haven't learned it yet so I'm not trying to learn it right friction momentum time kills all deals etc.",
+    "speaker": "Chris Koerner",
+    "match_score": 98.9,
+    "verified": true,
+    "char_offset": 17600,
+    "approx_timestamp_s": 1023
+   }
+  },
+  {
+   "name": "State the price in the email",
+   "area": "sales",
+   "steps": [
+    "Compare a price-disclosed email with one that hides the price, using separate payment links to track sales.",
+    "Koerner reports that the disclosed-price version converted better in his test and chose to show the price in later emails."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So the lesson, tell them the price in the email.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 42080,
+    "approx_timestamp_s": 2446
+   }
+  },
+  {
+   "name": "Organize delivery after validating sales",
+   "area": "operations",
+   "steps": [
+    "Start with an existing file folder and a payment redirect to deliver the material.",
+    "After purchases arrive, organize the materials into clear folders in a community platform.",
+    "Invite buyers and provide a short walkthrough video."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So, we basically downloaded all of the Google Drive content and uploaded it here uh into separate folders.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 40005,
+    "approx_timestamp_s": 2326
+   }
+  },
+  {
+   "name": "Use a small list to test, then scale the winning email",
+   "area": "customer_acquisition",
+   "steps": [
+    "Use a small randomized sample to test price, copy length, and payment destination.",
+    "Track each payment link and email campaign separately.",
+    "Send the best-performing version to subscribers who have not received the earlier tests."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "After a few more AB tests, I'm going to know exactly what people need. And then I'll send the right price with the right messaging to everyone on my newsletter.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 33004,
+    "approx_timestamp_s": 1919
+   }
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Beehiiv",
+   "purpose": "Host the newsletter, export and import subscriber lists, tag subscribers, create segments, and send campaigns. The transcript captions the name as Beehive and Behive.",
+   "cost_stated": null
+  },
+  {
+   "name": "Google Sheets",
+   "purpose": "Paste and randomize newsletter email addresses, then split them into test groups.",
+   "cost_stated": null
+  },
+  {
+   "name": "Microsoft Excel",
+   "purpose": "Mentioned as an alternative to Google Sheets; Koerner says he prefers Sheets.",
+   "cost_stated": null
+  },
+  {
+   "name": "Stripe",
+   "purpose": "Create one-time payment links, accept payments, and inspect payment-link analytics.",
+   "cost_stated": "Koerner says transaction fees are 3%."
+  },
+  {
+   "name": "Namecheap",
+   "purpose": "Register the Plans of Grandeur domain. The transcript captions the name as NameCheep.",
+   "cost_stated": "$11.28 per year for the domain, as stated by Koerner."
+  },
+  {
+   "name": "GoDaddy",
+   "purpose": "Domain registrar mentioned by Koerner, who says he dislikes it and advises viewers not to use it.",
+   "cost_stated": null
+  },
+  {
+   "name": "Dinad",
+   "purpose": "Domain registrar Koerner says he has used and likes; name is transcribed as Dinad.",
+   "cost_stated": null
+  },
+  {
+   "name": "Google Drive",
+   "purpose": "Store the unpublished training material and initially deliver it to buyers.",
+   "cost_stated": null
+  },
+  {
+   "name": "Skool",
+   "purpose": "Community platform used to organize the training content and invite buyers; transcribed as school.",
+   "cost_stated": null
+  },
+  {
+   "name": "Loom",
+   "purpose": "Record a welcome walkthrough and a video showing the charity donation.",
+   "cost_stated": null
+  },
+  {
+   "name": "Claude",
+   "purpose": "Review A/B test screenshots and create a logo.",
+   "cost_stated": null
+  },
+  {
+   "name": "ChatGPT",
+   "purpose": "Generate the Skool community description; the transcript also contains misheard variants such as Chad GPT.",
+   "cost_stated": null
+  },
+  {
+   "name": "Chrome",
+   "purpose": "Browser Koerner opened when Namecheap did not work in his other browser.",
+   "cost_stated": null
+  },
+  {
+   "name": "Facebook",
+   "purpose": "Publish creator content and operate the monetized page that Koerner says was removed.",
+   "cost_stated": null
+  },
+  {
+   "name": "Meta",
+   "purpose": "Company Koerner contacted about the removed Facebook page.",
+   "cost_stated": null
+  },
+  {
+   "name": "Instagram",
+   "purpose": "Account and support correspondence mentioned alongside Meta and Facebook.",
+   "cost_stated": null
+  },
+  {
+   "name": "Facebook Ads",
+   "purpose": "Advertising activity that Koerner says depended on the Facebook follower data.",
+   "cost_stated": null
+  },
+  {
+   "name": "YouTube",
+   "purpose": "Publish the video and the host's newsletter tutorials; the Facebook earnings video was also posted to Facebook.",
+   "cost_stated": null
+  },
+  {
+   "name": "National Kidney Foundation",
+   "purpose": "Charity recipient to which Koerner says he donated 10% of revenue.",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Koerner's Facebook income depended on access to a platform account, and he says page removal caused a sudden loss of income.",
+   "quote": {
+    "text": "Hundreds of thousands of dollars a year. Disappeared overnight.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1297,
+    "approx_timestamp_s": 75
+   }
+  },
+  {
+   "warning": "The host advises against adding unnecessary checkout fields because he believes they reduce conversion.",
+   "quote": {
+    "text": "The more friction you add to the checkout process, the more your conversion rate will drop.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14910,
+    "approx_timestamp_s": 866
+   }
+  },
+  {
+   "warning": "Koerner reports that the test with the price hidden from the email performed worse in his later comparison.",
+   "quote": {
+    "text": "So the lesson, tell them the price in the email.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 42080,
+    "approx_timestamp_s": 2446
+   }
+  },
+  {
+   "warning": "Koerner says he dislikes GoDaddy and tells viewers not to use it, but gives no specific reason.",
+   "quote": {
+    "text": "By the way, I kind of hate GoDaddy. So, don't use GoDaddy.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11440,
+    "approx_timestamp_s": 665
+   }
+  },
+  {
+   "warning": "The host says high-ticket courses can have a bad reputation when the delivered value does not match the salesperson's promise.",
+   "quote": {
+    "text": "And yeah, high ticket courses have a bad rap. A lot of that for good reason.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 49122,
+    "approx_timestamp_s": 2856
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Look for a relevant advantage you already have, such as an audience, work experience, or knowledge of a market.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "Anytime anyone starts a business, you need to go to your unfair advantage. Everyone has an unfair advantage.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3260,
+    "approx_timestamp_s": 189
+   }
+  },
+  {
+   "lesson": "Get an offer in front of customers quickly; Koerner argues that branding work and extra planning can slow momentum.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "Get your first customer as soon as possible.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10724,
+    "approx_timestamp_s": 623
+   }
+  },
+  {
+   "lesson": "Run a simple, controlled test instead of overcomplicating early validation.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "We want to be the guy in the middle who's just like, let's just find the 8020 of this.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7103,
+    "approx_timestamp_s": 413
+   }
+  },
+  {
+   "lesson": "Test prices with comparable groups and consider revenue per subscriber, not only how many people buy.",
+   "theme": "pricing",
+   "quote": {
+    "text": "I'm working with a finite number of people on my email list, so it is worth testing.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 33960,
+    "approx_timestamp_s": 1974
+   }
+  },
+  {
+   "lesson": "Avoid hiding a price when a test suggests buyers respond better to seeing it before clicking.",
+   "theme": "other",
+   "quote": {
+    "text": "So the lesson, tell them the price in the email.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 42080,
+    "approx_timestamp_s": 2446
+   }
+  },
+  {
+   "lesson": "Trust from an existing audience can make it easier to sell a new offer, but that trust depends on delivering what was promised.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "That's the awesome thing about having a newsletter is there's trust.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 26792,
+    "approx_timestamp_s": 1557
+   }
+  },
+  {
+   "lesson": "A small audience can still support sales when the offer fits its needs; the host uses a second-hand example and a hypothetical projection.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "Even if you only had 2,000 email subscribers, you can make tens of thousands of dollars plus a year.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 48980,
+    "approx_timestamp_s": 2847
+   }
+  },
+  {
+   "lesson": "Repurpose existing material into a clear product before investing in new content production.",
    "theme": "offer_design",
    "quote": {
-    "text": "These are pieces of content that I've already created that just lived in my Google Drive. Not bad.",
+    "text": "These are pieces of content that I've already created that just lived in my Google Drive.",
     "speaker": "Chris Koerner",
     "match_score": 100.0,
     "verified": true,
@@ -2584,60 +2366,46 @@
    }
   },
   {
-   "lesson": "A small audience can still support a business if the creator builds a close relationship and offers relevant paid products.",
-   "theme": "customer_acquisition",
-   "quote": {
-    "text": "There's a lot of power in small email lists because you can connect so much more closely with your audience.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 48589,
-    "approx_timestamp_s": 2825
-   }
-  },
-  {
-   "lesson": "Build trust by delivering the value promised; a course buyer may be more likely to act after consuming the material.",
+   "lesson": "Stand behind a course when the seller believes it delivers the value promised, and keep the offer aligned with that value.",
    "theme": "offer_design",
    "quote": {
-    "text": "if you're confident in the value you're offering, then own it. Own your course because you're helping people.",
+    "text": "So, if you're confident in the value you're offering, then own it. Own your course because you're helping people.",
     "speaker": "Chris Koerner",
     "match_score": 100.0,
     "verified": true,
-    "char_offset": 49325,
-    "approx_timestamp_s": 2868
+    "char_offset": 49322,
+    "approx_timestamp_s": 2867
    }
   },
   {
-   "lesson": "Do not rely on one platform as the sole source of income; Chris's Facebook ban removed an important revenue stream.",
-   "theme": "legal_risk",
+   "lesson": "Build more than one source of income because platform decisions can remove a business's main revenue source.",
+   "theme": "finance_unit_economics",
    "quote": {
-    "text": "So immediately six figures of income to me to my family disappears overnight. Overnight.",
+    "text": "And I got a business idea. So, I literally turned around, came in, I hit record.",
     "speaker": "Chris Koerner",
     "match_score": 100.0,
     "verified": true,
-    "char_offset": 1620,
-    "approx_timestamp_s": 94
+    "char_offset": 113,
+    "approx_timestamp_s": 6
    }
   }
  ],
  "evidence_quality": {
   "rating": "B",
-  "rationale": "Chris demonstrates the setup and shares first-hand sales, email and payment-link results across several updates. The process is relatively specific, but the transcript contains inconsistent or garbled figures, the results are not independently verified, and his established audience makes the launch difficult to generalize.",
-  "promotional_conflict": "Chris sells Plans of Grandeur in the video and promotes it to viewers. He also speaks favorably about Beehiiv and says he links beginner tutorials, but no sponsor relationship is disclosed."
+  "rationale": "Koerner describes his own launch process and reports specific prices, email tests, payment counts, and revenue. The figures are self-reported, some captions appear corrupted, and some totals or rates are inconsistent across updates. The transcript does not independently verify the screenshots or the reported results.",
+  "promotional_conflict": "Koerner sells Plans of Grandeur in the video and directs viewers to a special offer link. He also endorses Beehiiv, though no paid sponsorship is stated."
  },
  "extraction": {
   "model": "gpt-6-luna",
-  "extracted_at": "2026-10-22T10:31:10",
+  "extracted_at": "2026-10-22T10:34:42",
   "cost_usd": 0,
   "reviewed_by": null,
   "review_notes": null,
   "quote_verification": {
-   "quotes": 109,
-   "verified": 109,
+   "quotes": 100,
+   "verified": 100,
    "rate": 1.0
   },
-  "schema_errors": [
-   "lessons/5/theme: 'sales' is not one of ['customer_acquisition', 'pricing', 'offer_design', 'operations', 'automation_ai', 'hiring_outsourcing', 'finance_unit_economics', 'valida"
-  ]
+  "schema_errors": []
  }
 }

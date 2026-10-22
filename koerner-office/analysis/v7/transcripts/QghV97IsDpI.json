@@ -12,17 +12,17 @@
   "transcript_chars": 25589,
   "transcript_is_whisper": false
  },
- "summary": "Chris Koerner demonstrates how he finds potential off-market RV park acquisitions using Google Maps listings, lead-scraping and phone validation tools, then texts and calls owners. He shows a South Dakota search, outreach results and a call with a seasonal campground owner, and explains his rough cap-rate approach to pricing. He says he buys mobile home and RV parks individually and larger campgrounds through a fund. The process depends on targeted, personal seller conversations; its cold-texting approach would need major legal changes for UK use.",
+ "summary": "Chris Koerner demonstrates how he finds potential off-market RV park acquisitions by scraping Google Maps listings, cleaning and validating phone data, then texting owners and following up by phone. He screens a prospect by asking about occupancy, seasonal pricing, utilities, acreage, and operations, and explains his target of at least a 10% cap rate. A seller describes a seasonal lakeside campground with 80–85% occupancy and different prices for shoreline and inland sites. The video offers a practical sourcing workflow, but the demo does not show a completed acquisition, and several response-rate figures are inconsistent.",
  "speakers": [
   {
    "name": "Chris Koerner",
    "role": "host",
-   "description": "The Koerner Office host, narrator and buyer speaking with the campground owner."
+   "description": "The Koerner Office host demonstrating his RV park deal-sourcing process."
   },
   {
    "name": "Shane",
    "role": "other",
-   "description": "Campground owner who speaks with Chris on the phone; no surname is stated."
+   "description": "RV park owner and prospective seller interviewed during the demonstration."
   }
  ],
  "format": "tutorial_howto",
@@ -31,58 +31,53 @@
   {
    "local_id": "I1",
    "name": "Off-market RV park acquisition",
-   "one_liner": "Find RV park owners through Google Maps data, contact them directly and assess whether a purchase can meet a target return.",
-   "category": "real_estate",
-   "business_model": "Acquire RV parks individually, with potential seller financing, then own the real estate and park business.",
-   "customer": "RV park owners who may consider selling; the buyer is an investor.",
-   "problem": "Potential sellers and attractive properties may not be publicly listed. The host says finding more leads creates more opportunities to find good deals.",
-   "offer": "Buy the owner's park, potentially with seller financing; the host describes contacting owners to learn about the property and discuss price.",
+   "one_liner": "Find RV park owners through map listings, contact them directly, and evaluate potential acquisitions against a target cap rate.",
+   "category": "acquisition_buy_business",
+   "business_model": "Buy income-producing RV parks and earn revenue from site rentals. Seller financing is discussed as a possible way to reduce cash required at purchase, not as a guaranteed outcome.",
+   "customer": "For deal sourcing, RV park owners who may consider selling. After acquisition, campers and RV owners who rent sites.",
+   "problem": "The buyer needs a repeatable way to find and assess parks that are not listed for sale. The sellers' specific problems are not stated.",
+   "offer": "Approach park owners directly, learn about the property's occupancy and operations, and consider an offer based on net operating income and other value levers. Koerner says he targets at least a 10% cap rate.",
    "pricing": {
-    "model": "Purchase price assessed against net operating income and a target cap rate; seller financing may reduce cash paid up front.",
+    "model": "Acquisition price based on property income and a target cap rate; ongoing income from rented sites.",
     "price_points": [
      {
-      "amount": 10,
-      "currency": "%",
-      "unit": "minimum target cap rate",
-      "label": "Host's stated acquisition target"
+      "amount": 100000,
+      "currency": "USD",
+      "unit": "annual net profit in illustrative example",
+      "label": "Example income used to discuss valuation"
      },
      {
       "amount": 1000000,
+      "amount_max": null,
       "currency": "USD",
-      "unit": "purchase price",
-      "label": "Illustrative upper price for a property earning $100,000 yearly net profit"
-     },
-     {
-      "amount": 100,
-      "currency": "%",
-      "unit": "seller financing",
-      "label": "Potential full seller financing, with no money down"
+      "unit": "purchase price ceiling in illustrative example",
+      "label": "Koerner says he would try to pay under this amount for the example"
      },
      {
       "amount": 10,
-      "currency": "USD",
-      "unit": "one-off scrape",
-      "label": "Outscraper example cost for the search"
+      "currency": null,
+      "unit": "percent cap rate",
+      "label": "Stated minimum target"
      }
     ],
-    "notes": "The $1 million purchase price is an illustrative example, not a reported transaction. The host says rents below market or improvements such as paved roads could affect what he would pay."
+    "notes": "The $100,000 income and under-$1 million purchase price are an illustrative calculation, not a reported transaction."
    },
    "acquisition_channels": [
     {
      "channel": "google_business_profile_maps",
-     "details": "Search Google Maps listings for the RV park category, select a state and export listing details, including phone numbers and profile information.",
+     "details": "Uses Outscraper's Google Maps data scraper to find RV parks by category and state, then reviews listing fields such as phone type, owner verification, ratings, and photos.",
      "quote": {
-      "text": "I'm just going to look at RV parks right now because it's they're easy to get a hold of.",
+      "text": "So this is outscraper and I want to show you how I use outs scraper but then I didn't want to have to wait for it to scrape.",
       "speaker": "Chris Koerner",
       "match_score": 100.0,
       "verified": true,
-      "char_offset": 2201,
-      "approx_timestamp_s": 137
+      "char_offset": 1676,
+      "approx_timestamp_s": 104
      }
     },
     {
      "channel": "cold_sms_dm",
-     "details": "Text mobile numbers from the scraped list with a short personalized opener using the city name; the host sends messages in batches and replies to interested owners.",
+     "details": "Filters for cell numbers, adds a city name as a personalized variable, and sends a short first text to start a conversation. He follows up with people who respond. In the UK, unsolicited marketing texts to individuals and sole traders require consent under PECR.",
      "quote": {
       "text": "The best results come when you're willing to play the long game and just seek to start a conversation on the first message as opposed to ask them right up front if they're interested in selling.",
       "speaker": "Chris Koerner",
@@ -93,91 +88,91 @@
      }
     },
     {
-     "channel": "cold_call",
-     "details": "Call owners who express interest, introduce the buyer and ask about ownership history, occupancy, utilities, number of pads and potential sale interest.",
+     "channel": "other",
+     "details": "Calls a seller who asks to speak by phone; Koerner says he researches the property before calling. This is a response to the seller, not a cold call.",
      "quote": {
-      "text": "Hey, Shane, this is Chris. We were just texting about your park.",
+      "text": "Give me a call. I don't do business over text message. Okay, I will. I like to do a little more research before I call them so I don't sound like an idiot.",
       "speaker": "Chris Koerner",
       "match_score": 100.0,
       "verified": true,
-      "char_offset": 17966,
-      "approx_timestamp_s": 1121
+      "char_offset": 16869,
+      "approx_timestamp_s": 1053
      }
     }
    ],
-   "delivery": "The buyer researches each property, contacts the owner, assesses the numbers and negotiates a purchase. After acquisition, the park must be operated; the host describes RV parks as having less operational overhead than single-family properties but does not give a specific operating system.",
+   "delivery": "The video focuses on finding and assessing acquisition targets. After purchase, the owner would operate the park and rent sites; the transcript does not explain Koerner's post-purchase staffing, maintenance, or guest-service process. The seller in the example says he manages his park seasonally.",
    "unit_economics_claims": [
-    "The host says he targets at least a 10% cap rate.",
-    "He gives a hypothetical example of $100,000 annual net profit and a purchase price under $1 million.",
-    "He says reaching more leads raises the chance of obtaining 100% seller financing."
+    "Koerner says he targets a minimum 10% cap rate.",
+    "He illustrates that $100,000 in annual net profit would imply trying to pay under $1 million.",
+    "A capped Outscraper search in the demo is quoted at $10; this is lead-list cost, not a full business startup cost.",
+    "He says 129 scraped listings yielded 129 cell phones from a 500-listing search, or 26%."
    ],
    "tools": [
     "Outscraper",
     "Google Maps",
     "Google Sheets",
-    "SearchBug.com",
+    "Excel",
+    "SearchBug",
     "Sly Broadcast",
-    "Message Media",
-    "slyex.com",
-    "cinchesmedia.com",
+    "MessageMedia",
+    "Slyex",
+    "Cinches Media",
     "Porterhouse",
-    "CRM",
-    "Excel"
+    "CRM or spreadsheet"
    ],
-   "startup_cost": "Not stated; the example Google Maps scrape is said to cost $10.",
-   "time_to_first_revenue": "Not stated. The host says he found several potential deals within minutes, but does not report a completed purchase or revenue from this demonstration.",
+   "startup_cost": "Not stated. The demonstrated scrape is quoted at $10 for a search capped at 500 listings; this is not a complete startup-cost estimate.",
+   "time_to_first_revenue": "Not stated for a purchase or operating revenue. The demonstrated scrape is quoted as taking 7–25 minutes.",
    "automation": {
     "acquisition": {
      "score_e": 1,
-     "how": "Software can scrape and validate listings, but the demonstrated cold-text channel is generally not lawful in the UK for unsolicited marketing to individuals and sole traders without consent. UK cold calls must be screened against TPS/CTPS; lawful B2B outreach and inbound channels would need to replace much of this workflow."
+     "how": "Map scraping and data cleaning can be automated, but the demonstrated unsolicited SMS approach is restricted in the UK for individuals and sole traders without consent. UK cold email to limited companies may be used where appropriate; cold calls must be screened against TPS/CTPS. Seller negotiation remains human."
     },
     "onboarding": {
-     "score_e": 2,
-     "how": "Forms and a CRM could organize seller and property details, but verifying ownership, property condition and financial records needs human review."
+     "score_e": 1,
+     "how": "Property records, financials, site visits, and purchase documents require human review and negotiation; no automated onboarding process is described."
     },
     "delivery": {
-     "score_e": 1,
-     "how": "Research and document handling can be software assisted, but owning and operating a physical park requires human oversight and may involve on-site work."
+     "score_e": 0,
+     "how": "Operating an RV park involves physical property, utilities, and guest needs. The video does not describe automation for that work."
     },
     "billing": {
-     "score_e": 2,
-     "how": "Some rent and purchase administration could be automated, but the transcript does not describe billing tools or processes."
+     "score_e": 1,
+     "how": "No billing system is described. Site rental billing could use software, but setup and exceptions would need human oversight."
     },
     "support": {
      "score_e": 1,
-     "how": "Seller negotiations and property questions require direct human communication; physical park operations also need human support."
+     "how": "Guest and seller conversations are handled personally in the example; no automated support system is described."
     }
    },
    "uk_applicability": {
-    "score_e": 2,
-    "notes": "UK holiday parks and caravan sites can be investment targets, and the valuation approach can translate. The demonstrated US data sources and South Dakota search are location-specific, and unsolicited marketing texts to individuals or sole traders without consent would not translate to UK use."
+    "score_e": 3,
+    "notes": "The property-investment and map-research approach can work in the UK, but the demonstrated US cold-text workflow cannot be copied to UK individuals and sole traders without consent under PECR. UK cold email can be used for limited companies, and cold calls must be screened against TPS/CTPS. Property, planning, and seasonal-demand assumptions also need local assessment."
    },
    "risks": [
-    "Unsolicited marketing texts to individuals and sole traders without consent can breach UK PECR; cold calls must be screened against TPS/CTPS.",
-    "Google Maps listings may be inaccurate, unclaimed or categorized incorrectly, and owner names may be missing or wrong.",
-    "The host says some numbers may belong to reservation lines or property managers rather than owners.",
-    "Duplicate phone numbers can misalign validation data with the original list.",
-    "A low cap rate, seasonality, utilities, road condition, rents and other property-specific factors can change the deal economics.",
-    "The demonstration shows leads and conversations, not a completed acquisition or realized return."
+    "The transcript presents seller financing as a possibility, not a guaranteed way to buy with no money down.",
+    "The example's reply figures do not reconcile: four initial replies from 129 recipients are described as a 10% response rate, and a later count is 23 responses.",
+    "The speaker says listing owner names may be missing or inaccurate, data can include the wrong business category, and duplicate phone rows can disrupt data matching.",
+    "The demonstrated cold SMS tactic would require a UK-compliant lawful basis and appropriate consent where the recipient is an individual or sole trader.",
+    "The demonstration does not establish the seller's asking price, net operating income, required capital works, or whether a deal closes."
    ],
    "is_primary": true,
    "depth": "deep",
    "quotes": [
     {
-     "text": "I went from zero to having several amazing real estate deals on the hook over the course of minutes.",
+     "text": "That's the best when you can get to a price before even getting them on the phone. If they're easier to find, then they're easier to find good deals cuz you have more deals to pull from.",
      "speaker": "Chris Koerner",
      "match_score": 100.0,
      "verified": true,
-     "char_offset": 826,
-     "approx_timestamp_s": 51
+     "char_offset": 170,
+     "approx_timestamp_s": 10
     },
     {
-     "text": "And the more leads you reach out to, the higher the chance of getting 100% seller financing where you put no money down.",
+     "text": "The best results come when you're willing to play the long game and just seek to start a conversation on the first message as opposed to ask them right up front if they're interested in selling.",
      "speaker": "Chris Koerner",
      "match_score": 100.0,
      "verified": true,
-     "char_offset": 1090,
-     "approx_timestamp_s": 68
+     "char_offset": 14560,
+     "approx_timestamp_s": 909
     },
     {
      "text": "So, I try to buy at at a bare minimum 10% cap rate. So, you take your net operating income for the year, divide it by your potential purchase price.",
@@ -191,67 +186,54 @@
   },
   {
    "local_id": "I2",
-   "name": "Acquire mobile home parks",
-   "one_liner": "Buy mobile home parks, using direct owner relationships and property-level return analysis.",
-   "category": "real_estate",
-   "business_model": "Acquire and own mobile home park real estate; the host says he has bought parks individually and also invests in larger properties through a fund.",
-   "customer": "Mobile home park owners who may sell; residents are the eventual park customers, though the transcript does not describe their offer or rent terms.",
-   "problem": "Not stated for mobile home parks specifically.",
-   "offer": "Purchase a mobile home park; deal sourcing, purchase terms and park operations are not explained in detail here.",
+   "name": "Mobile home park acquisition",
+   "one_liner": "Acquire mobile home parks as a real estate investment.",
+   "category": "acquisition_buy_business",
+   "business_model": "Not stated beyond buying mobile home parks.",
+   "customer": "Not stated.",
+   "problem": "Not stated.",
+   "offer": "Not stated.",
    "pricing": {
-    "model": "Property acquisition; the host describes a target cap-rate approach for parks generally.",
+    "model": "Not stated.",
     "price_points": [],
-    "notes": "No mobile home park purchase price or rent is stated."
+    "notes": "Not stated."
    },
-   "acquisition_channels": [
-    {
-     "channel": "other",
-     "details": "The host says he buys mobile home parks, but does not separately describe a sourcing channel for them in this transcript.",
-     "quote": {
-      "text": "I've been buying mobile home and RV parks since 2019 and I also have a newsletter about it.",
-      "speaker": "Chris Koerner",
-      "match_score": 100.0,
-      "verified": true,
-      "char_offset": 19901,
-      "approx_timestamp_s": 1242
-     }
-    }
+   "acquisition_channels": [],
+   "delivery": "Not stated. The transcript only says Koerner buys mobile home parks.",
+   "unit_economics_claims": [
+    "Koerner says he has been buying mobile home and RV parks since 2019."
    ],
-   "delivery": "The host says he buys mobile home parks but does not describe park operations or who performs them.",
-   "unit_economics_claims": [],
    "tools": [],
    "startup_cost": "Not stated.",
    "time_to_first_revenue": "Not stated.",
    "automation": {
     "acquisition": {
      "score_e": 1,
-     "how": "Lead research could be automated, but sourcing and negotiating require human work; the demonstrated unsolicited-text method needs a UK legal alternative."
+     "how": "The transcript gives no sourcing process for mobile home parks; finding and negotiating real estate acquisitions would require human review."
     },
     "onboarding": {
-     "score_e": 2,
-     "how": "Software could collect seller and property information, with human checks for ownership and records."
+     "score_e": 1,
+     "how": "Property diligence and acquisition paperwork would require human review; no process is described."
     },
     "delivery": {
-     "score_e": 1,
-     "how": "A physical residential park needs human oversight and maintenance."
+     "score_e": 0,
+     "how": "Owning and operating a physical property requires human oversight; no delivery process is described."
     },
     "billing": {
-     "score_e": 2,
-     "how": "Rent billing may be software assisted, but no process is described."
+     "score_e": 1,
+     "how": "No billing process is stated."
     },
     "support": {
      "score_e": 1,
-     "how": "Resident and property issues require human escalation, especially where physical work is needed."
+     "how": "No tenant-support process is stated."
     }
    },
    "uk_applicability": {
-    "score_e": 2,
-    "notes": "The asset class and acquisition model can exist in the UK, but local planning, tenancy, licensing, financing and property rules would need review. The transcript's examples and sourcing are US-based."
+    "score_e": 3,
+    "notes": "The general real-estate investment model can apply in the UK, but property law, planning, tenancy rules, and financing would need local adaptation. The transcript provides no UK-specific details."
    },
    "risks": [
-    "The video gives little detail about mobile home park economics or operations.",
-    "UK rules for residential occupiers and park sites may differ from the US.",
-    "Cold text outreach would need to comply with UK PECR."
+    "The transcript gives no purchase, operating, or tenant-economics details for this idea."
    ],
    "is_primary": false,
    "depth": "mention",
@@ -268,26 +250,20 @@
   },
   {
    "local_id": "I3",
-   "name": "Buy larger campgrounds through an investment fund",
-   "one_liner": "Acquire larger campground properties as part of a fund rather than buying each park only as an individual investor.",
-   "category": "real_estate",
-   "business_model": "Fund-based acquisition and ownership of larger campgrounds; fund structure, fees and investor returns are not stated.",
-   "customer": "Not stated; potentially fund investors and campground sellers.",
+   "name": "Fund-based acquisition of larger campgrounds",
+   "one_liner": "Buy larger campgrounds as part of an investment fund.",
+   "category": "acquisition_buy_business",
+   "business_model": "Koerner says he buys bigger campgrounds as part of a fund; fund structure, investor returns, and fees are not stated.",
+   "customer": "Not stated; the transcript does not describe fund investors or their terms.",
    "problem": "Not stated.",
-   "offer": "Not stated beyond buying larger campgrounds as part of a fund.",
+   "offer": "Acquire larger campgrounds through a fund.",
    "pricing": {
     "model": "Not stated.",
     "price_points": [],
-    "notes": "No fund fee, minimum investment or purchase price is given."
+    "notes": "Fund fees, investor minimums, and property prices are not stated."
    },
-   "acquisition_channels": [
-    {
-     "channel": "other",
-     "details": "The host says he buys larger campgrounds through a fund but does not explain how those deals or fund investors are sourced.",
-     "quote": null
-    }
-   ],
-   "delivery": "The fund acquires larger campground assets; the fund's management, investor reporting and campground operations are not described.",
+   "acquisition_channels": [],
+   "delivery": "Not stated. The transcript does not explain fund operations or campground management.",
    "unit_economics_claims": [],
    "tools": [],
    "startup_cost": "Not stated.",
@@ -295,32 +271,31 @@
    "automation": {
     "acquisition": {
      "score_e": 1,
-     "how": "Property sourcing, fund formation and investor relationships require substantial human work; no automated process is described."
+     "how": "Sourcing and underwriting large property acquisitions require substantial human review; no process is described."
     },
     "onboarding": {
      "score_e": 1,
-     "how": "Investor eligibility, disclosures and due diligence would need human oversight."
+     "how": "Fund investor onboarding and legal documentation are not discussed and would need human oversight."
     },
     "delivery": {
-     "score_e": 1,
-     "how": "Fund management and physical campground operations require human oversight."
+     "score_e": 0,
+     "how": "Campground operations involve physical property and guest needs; no delivery process is described."
     },
     "billing": {
-     "score_e": 2,
-     "how": "Routine statements and payments could use financial software, but no process is stated."
+     "score_e": 1,
+     "how": "No fund or property billing process is stated."
     },
     "support": {
      "score_e": 1,
-     "how": "Investor and property matters require human responses."
+     "how": "No investor or guest support process is stated."
     }
    },
    "uk_applicability": {
-    "score_e": 2,
-    "notes": "A fund investing in UK campgrounds is conceivable, but fund regulation, investor marketing and property rules would differ and are not addressed in the video."
+    "score_e": 3,
+    "notes": "The concept of acquiring campgrounds through a fund can apply in the UK, but fund structure, investor rules, property law, and campground operations would need local adaptation."
    },
    "risks": [
-    "The transcript provides no fund terms, performance, investor protections or operating details.",
-    "Fundraising and investor communications may trigger regulatory obligations in the UK."
+    "The transcript gives no information about fund terms, investors, property returns, or management."
    ],
    "is_primary": false,
    "depth": "mention",
@@ -337,231 +312,22 @@
   },
   {
    "local_id": "I4",
-   "name": "Seasonal RV campground operation",
-   "one_liner": "Operate a seasonal lakeside RV campground with shoreline and off-shore sites rented to campers.",
-   "category": "rental_asset",
-   "business_model": "Seasonal site rentals; water, sewer and garbage are included in the stated seasonal price, while campers pay for electricity.",
-   "customer": "RV campers seeking seasonal sites near a lake.",
-   "problem": "Campers need a place to park and connect their RVs for the season; the owner says shoreline sites booked up and a waiting list was growing.",
-   "offer": "Seasonal RV pads with water, sewer and garbage included; shoreline and off-shore locations have different prices.",
-   "pricing": {
-    "model": "Seasonal site rental, with different annual-season prices by site location.",
-    "price_points": [
-     {
-      "amount": 2500,
-      "currency": "USD",
-      "unit": "per season",
-      "label": "Shoreline site"
-     },
-     {
-      "amount": 2000,
-      "currency": "USD",
-      "unit": "per season",
-      "label": "Off-shore site"
-     },
-     {
-      "amount": 400,
-      "currency": "USD",
-      "unit": "per month",
-      "label": "Host's calculation for a $2,500 six-month season"
-     },
-     {
-      "amount": 200,
-      "currency": "USD",
-      "unit": "per month",
-      "label": "Host's calculation if the seasonal price were spread across a year"
-     }
-    ],
-    "notes": "The $400 and $200 monthly amounts are the host's calculations, not separate prices quoted by the owner."
-   },
-   "acquisition_channels": [
-    {
-     "channel": "google_business_profile_maps",
-     "details": "The park was found through the host's Google Maps data search for RV parks; its listing helped identify the property and owner contact.",
-     "quote": {
-      "text": "So this is outscraper and I want to show you how I use outs scraper but then I didn't want to have to wait for it to scrape.",
-      "speaker": "Chris Koerner",
-      "match_score": 100.0,
-      "verified": true,
-      "char_offset": 1676,
-      "approx_timestamp_s": 104
-     }
-    },
-    {
-     "channel": "organic_social_content",
-     "details": "The host looks at the park's social media presence and posting activity as part of assessing it; the owner says the park is posting regularly.",
-     "quote": {
-      "text": "I like to go look at their social media. 900 followers. I mean, I bet this thing stays full.",
-      "speaker": "Chris Koerner",
-      "match_score": 100.0,
-      "verified": true,
-      "char_offset": 17664,
-      "approx_timestamp_s": 1102
-     }
-    }
-   ],
-   "delivery": "The owner manages the park seasonally. The property has RV pads and utilities; the owner says water, sewer and garbage are included, electricity is paid by the camper. Adding sites requires land development and planting trees.",
-   "unit_economics_claims": [
-    "The owner says the park is 80–85% full.",
-    "The owner says it is in its second full-time season and that occupancy is six higher than the previous year, though the unit behind 'six' is not specified.",
-    "The host calculates the shoreline seasonal price as $400 per month over six months or $200 per month if spread over a year."
-   ],
-   "tools": [
-    "Google Maps",
-    "Outscraper",
-    "Park website",
-    "Social media"
-   ],
-   "startup_cost": "Not stated. The owner describes adding sites and utilities but gives no development cost.",
-   "time_to_first_revenue": "Not stated. The owner says the full-time seasonal model is in its second season.",
-   "automation": {
-    "acquisition": {
-     "score_e": 1,
-     "how": "Inbound listings and content could be automated to some extent, but the transcript does not show a customer acquisition system; site visits and local referrals may need human work."
-    },
-    "onboarding": {
-     "score_e": 2,
-     "how": "Reservations and customer forms could be handled online, but no system is stated and guest needs may require personal coordination."
-    },
-    "delivery": {
-     "score_e": 0,
-     "how": "The campground is a physical property; utilities, grounds, site expansion and guest issues require human oversight and physical work."
-    },
-    "billing": {
-     "score_e": 3,
-     "how": "Seasonal charges and utility billing could use booking and payment software, but the owner does not describe automation."
-    },
-    "support": {
-     "score_e": 1,
-     "how": "Guest questions and on-site problems require a human, especially for physical facilities."
-    }
-   },
-   "uk_applicability": {
-    "score_e": 3,
-    "notes": "Seasonal caravan and camping sites operate in the UK, but the South Dakota lake setting, US utility arrangements, land use and seasonality differ. Local planning and site licensing would need checking."
-   },
-   "risks": [
-    "The business is seasonal and the owner says the area has about a six-month operating window.",
-    "The owner says the site uses septic and is about 20 miles from the nearest town.",
-    "The owner mentions low water and says new sites lack mature tree cover.",
-    "Site expansion requires physical development; costs and approvals are not given.",
-    "The owner's claimed occupancy and pricing are not independently verified."
-   ],
-   "is_primary": false,
-   "depth": "moderate",
-   "quotes": [
-    {
-     "text": "And so, we're we're somewhere uh probably 80 85% full.",
-     "speaker": "Shane",
-     "match_score": 100.0,
-     "verified": true,
-     "char_offset": 19158,
-     "approx_timestamp_s": 1196
-    },
-    {
-     "text": "Yeah, 2500 on the shoreline, 2,000 off. And does that include any any bills, any utilities, or is that extra?",
-     "speaker": "Chris Koerner",
-     "match_score": 100.0,
-     "verified": true,
-     "char_offset": 19333,
-     "approx_timestamp_s": 1207
-    }
-   ]
-  },
-  {
-   "local_id": "I5",
-   "name": "Acquire existing businesses off-market",
-   "one_liner": "Find and buy existing businesses directly from owners rather than relying only on publicly marketed opportunities.",
-   "category": "acquisition_buy_business",
-   "business_model": "Acquire an operating business, potentially with seller financing; the transcript does not give a non-real-estate business example.",
-   "customer": "Owners of existing businesses who may sell.",
-   "problem": "Not stated beyond the host's general aim to find off-market leads and deals.",
-   "offer": "Purchase an existing business from its owner.",
-   "pricing": {
-    "model": "Acquisition price negotiated with the owner; no general business pricing method is described.",
-    "price_points": [],
-    "notes": "No purchase price or revenue information for a non-real-estate business is stated."
-   },
-   "acquisition_channels": [
-    {
-     "channel": "other",
-     "details": "The host recommends finding off-market leads but the walkthrough focuses on RV parks, not other businesses.",
-     "quote": {
-      "text": "So, if you have ever been interested in buying real estate or buying an existing business and you want to find these leads offmarket where all the best leads are",
-      "speaker": "Chris Koerner",
-      "match_score": 100.0,
-      "verified": true,
-      "char_offset": 1208,
-      "approx_timestamp_s": 75
-     }
-    }
-   ],
-   "delivery": "The buyer would take ownership of an existing business; no operating or transition process is stated.",
-   "unit_economics_claims": [],
-   "tools": [],
-   "startup_cost": "Not stated.",
-   "time_to_first_revenue": "Not stated.",
-   "automation": {
-    "acquisition": {
-     "score_e": 1,
-     "how": "Lead discovery may be automated, but the demonstrated cold-text method is not suitable for UK outreach to individuals or sole traders without consent; qualification and negotiation need people."
-    },
-    "onboarding": {
-     "score_e": 1,
-     "how": "Business due diligence, legal transfer and owner handover require human judgment."
-    },
-    "delivery": {
-     "score_e": 1,
-     "how": "No business type is specified, so operating work may require people and cannot be assumed to be automatable."
-    },
-    "billing": {
-     "score_e": 2,
-     "how": "Some financial administration could be automated, but the transcript gives no system or example."
-    },
-    "support": {
-     "score_e": 1,
-     "how": "Owner, staff and customer matters would need human handling; no operating model is described."
-    }
-   },
-   "uk_applicability": {
-    "score_e": 3,
-    "notes": "Buying an existing business is possible in the UK, but the business type, transfer process, financing and legal requirements vary. The transcript gives no UK-specific acquisition guidance."
-   },
-   "risks": [
-    "No business example, diligence checklist, transaction terms or results are provided.",
-    "Unsolicited outreach to individual sellers must comply with UK PECR and calling rules."
-   ],
-   "is_primary": false,
-   "depth": "mention",
-   "quotes": [
-    {
-     "text": "So, if you have ever been interested in buying real estate or buying an existing business and you want to find these leads offmarket where all the best leads are",
-     "speaker": "Chris Koerner",
-     "match_score": 100.0,
-     "verified": true,
-     "char_offset": 1208,
-     "approx_timestamp_s": 75
-    }
-   ]
-  },
-  {
-   "local_id": "I6",
    "name": "Single-family real estate investing",
-   "one_liner": "Invest in single-family properties, which the host says he did before focusing on parks.",
+   "one_liner": "Invest in single-family properties; Koerner mentions this as his earlier real estate activity.",
    "category": "real_estate",
-   "business_model": "Not stated; the host refers to earlier single-family real estate activity and compares its operational overhead with parks.",
+   "business_model": "Not stated.",
    "customer": "Not stated.",
    "problem": "Not stated.",
    "offer": "Not stated.",
    "pricing": {
     "model": "Not stated.",
     "price_points": [],
-    "notes": "No single-family purchase price, rent or return is stated."
+    "notes": "Not stated."
    },
    "acquisition_channels": [],
    "delivery": "Not stated.",
    "unit_economics_claims": [
-    "The host says he started in single-family real estate in Alabama in 2010 and bought his first RV park later."
+    "Koerner says he started in single-family real estate in Alabama in 2010."
    ],
    "tools": [],
    "startup_cost": "Not stated.",
@@ -569,38 +335,37 @@
    "automation": {
     "acquisition": {
      "score_e": 1,
-     "how": "Property lead research can use software, but negotiation and property diligence require human judgment."
+     "how": "The transcript gives no sourcing process; property acquisition and diligence require human review."
     },
     "onboarding": {
-     "score_e": 2,
-     "how": "Document collection can be organized with software, but ownership and property checks need human review."
+     "score_e": 1,
+     "how": "No onboarding process is stated; property and tenant setup would require human oversight."
     },
     "delivery": {
      "score_e": 0,
-     "how": "Owning and maintaining physical homes can require repairs, contractors and tenant support."
+     "how": "A physical property requires maintenance and human oversight; no delivery process is described."
     },
     "billing": {
-     "score_e": 3,
-     "how": "Rent collection can use property software, though the transcript does not describe a system."
+     "score_e": 1,
+     "how": "No billing process is stated."
     },
     "support": {
      "score_e": 1,
-     "how": "Tenant and property issues require human escalation."
+     "how": "No tenant-support process is stated."
     }
    },
    "uk_applicability": {
     "score_e": 3,
-    "notes": "Residential property investment exists in the UK, but housing law, taxes, financing and rental economics differ from the US. The host gives no transferable numbers."
+    "notes": "Single-family property investment exists in the UK, but the transcript gives no details that transfer directly, and local property and tenancy rules would apply."
    },
    "risks": [
-    "The host gives no specific single-family operating or financial details.",
-    "His comparison with RV parks is his opinion, not a quantified comparison."
+    "The transcript mentions this only as Koerner's earlier activity and gives no operating or financial details."
    ],
    "is_primary": false,
    "depth": "mention",
    "quotes": [
     {
-     "text": "I started in single family back in Alabama 2010, moved to Dallas a decade ago and um I just I bought my first RV park in southern Oklahoma and I fell in love.",
+     "text": "I started in single family back in Alabama 2010, moved to Dallas a decade ago and um I just I bought my first RV park in southern Oklahoma",
      "speaker": "Chris Koerner",
      "match_score": 100.0,
      "verified": true,
@@ -610,164 +375,123 @@
    ]
   },
   {
-   "local_id": "I7",
-   "name": "RV and mobile home park newsletter and social content",
-   "one_liner": "Publish a newsletter and social posts about mobile home and RV parks.",
-   "category": "content_media",
-   "business_model": "Not stated; the host says he has a newsletter and posts about parks, but does not describe its revenue model.",
-   "customer": "People interested in mobile home and RV parks.",
-   "problem": "Not stated.",
-   "offer": "A newsletter and posts about mobile home and RV parks.",
+   "local_id": "I5",
+   "name": "Seasonal lakeside RV campground operation",
+   "one_liner": "Operate seasonal RV sites, including shoreline and inland pads, as illustrated by the seller's campground.",
+   "category": "rental_asset",
+   "business_model": "Seasonal site rentals. The seller says water, sewer, and garbage are included, while campers pay for electricity.",
+   "customer": "Campers and RV owners renting seasonal shoreline or inland sites.",
+   "problem": "The transcript establishes demand for seasonal sites and a growing waiting list, but does not state customers' specific problem.",
+   "offer": "Provide seasonal RV sites near a lake, with water, sewer, and garbage included; electricity is paid by the camper.",
    "pricing": {
-    "model": "Not stated.",
-    "price_points": [],
-    "notes": "No subscription price or revenue is stated."
+    "model": "Per-site seasonal rental.",
+    "price_points": [
+     {
+      "amount": 2500,
+      "currency": "USD",
+      "unit": "per shoreline site per season",
+      "label": "Shoreline site"
+     },
+     {
+      "amount": 2000,
+      "currency": "USD",
+      "unit": "per inland site per season",
+      "label": "Offshore site"
+     }
+    ],
+    "notes": "The seller gives these seasonal prices. Electricity is paid by the camper; water, sewer, and garbage are included."
    },
    "acquisition_channels": [
     {
-     "channel": "youtube",
-     "details": "The host publishes videos about parks on YouTube.",
+     "channel": "other",
+     "details": "The seller says shoreline spots were booked last year and this year and that a waiting list is growing; how customers find or book the campground is not stated.",
      "quote": null
-    },
-    {
-     "channel": "organic_social_content",
-     "details": "The host says he tweets about mobile home and RV parks.",
-     "quote": {
-      "text": "I also have a newsletter about it. Um, and I tweet about mobile home and RV parks, believe it or not, and I just love it.",
-      "speaker": "Chris Koerner",
-      "match_score": 100.0,
-      "verified": true,
-      "char_offset": 19958,
-      "approx_timestamp_s": 1246
-     }
     }
    ],
-   "delivery": "The host says he publishes a newsletter and social posts; content production and any paid product are not described.",
-   "unit_economics_claims": [],
+   "delivery": "The seller manages the park seasonally. The campground has RV pads and water, sewer, and electric utilities; the transcript does not detail staffing or maintenance.",
+   "unit_economics_claims": [
+    "The seller says the campground is about 80–85% full.",
+    "Seasonal prices are $2,500 for shoreline sites and $2,000 for inland sites.",
+    "The seller says the park is in its second full-time season; costs and profit are not stated."
+   ],
    "tools": [
-    "Beehiiv",
-    "YouTube",
-    "Twitter"
+    "Website",
+    "Social media"
    ],
-   "startup_cost": "Not stated.",
-   "time_to_first_revenue": "Not stated.",
-   "automation": {
-    "acquisition": {
-     "score_e": 3,
-     "how": "Search, social posts and YouTube can bring inbound readers, though audience growth needs ongoing editorial work."
-    },
-    "onboarding": {
-     "score_e": 4,
-     "how": "A newsletter platform can automate subscriber signup and welcome sequences."
-    },
-    "delivery": {
-     "score_e": 4,
-     "how": "Email delivery can be automated after content is prepared; editorial judgment remains human."
-    },
-    "billing": {
-     "score_e": 3,
-     "how": "If paid subscriptions are offered, billing can be software managed, but no paid model is stated."
-    },
-    "support": {
-     "score_e": 3,
-     "how": "Basic subscriber support can be templated or routed, but unusual reader issues need human review."
-    }
-   },
-   "uk_applicability": {
-    "score_e": 5,
-    "notes": "Publishing a newsletter and social content works similarly in the UK. The audience and content focus would need adapting to UK park owners and investors."
-   },
-   "risks": [
-    "The transcript does not say whether the newsletter is paid, profitable or tied to acquisitions.",
-    "The host promotes Beehiiv with a referral discount, so his platform claims are promotional."
-   ],
-   "is_primary": false,
-   "depth": "mention",
-   "quotes": [
-    {
-     "text": "I've been buying mobile home and RV parks since 2019 and I also have a newsletter about it.",
-     "speaker": "Chris Koerner",
-     "match_score": 100.0,
-     "verified": true,
-     "char_offset": 19901,
-     "approx_timestamp_s": 1242
-    }
-   ]
-  },
-  {
-   "local_id": "I8",
-   "name": "Farming and ranching",
-   "one_liner": "The campground owner's family operates farming and ranching as its usual main source of income.",
-   "category": "other",
-   "business_model": "Not stated; the owner says farming and ranching are the family's typical money maker.",
-   "customer": "Not stated.",
-   "problem": "Not stated.",
-   "offer": "Not stated.",
-   "pricing": {
-    "model": "Not stated.",
-    "price_points": [],
-    "notes": "No farm or ranch revenue, prices or costs are given."
-   },
-   "acquisition_channels": [],
-   "delivery": "Not stated.",
-   "unit_economics_claims": [],
-   "tools": [],
-   "startup_cost": "Not stated.",
+   "startup_cost": "Not stated. The seller says the family added utilities and renovated the campground, but gives no cost.",
    "time_to_first_revenue": "Not stated.",
    "automation": {
     "acquisition": {
      "score_e": 1,
-     "how": "No customer acquisition method is stated; agricultural sales and relationships would likely require human work."
+     "how": "The seller mentions a growing waiting list but does not explain how customers are acquired. Local demand-building would require human attention."
     },
     "onboarding": {
      "score_e": 1,
-     "how": "No process is stated."
+     "how": "Site allocation and seasonal guest setup are not described and likely need human coordination."
     },
     "delivery": {
      "score_e": 0,
-     "how": "Farming and ranching involve physical land and work."
+     "how": "The product is physical campground space and utility access, which require human oversight and maintenance."
     },
     "billing": {
-     "score_e": 2,
-     "how": "Administrative billing might use software, but no billing process is stated."
+     "score_e": 1,
+     "how": "No payment or billing system is described."
     },
     "support": {
      "score_e": 1,
-     "how": "No support process is stated; physical operations need human oversight."
+     "how": "The seller manages the campground seasonally; no automated guest-support process is described."
     }
    },
    "uk_applicability": {
     "score_e": 3,
-    "notes": "Farming and ranching exist in the UK, but climate, land economics, regulations and production differ from the South Dakota example."
+    "notes": "Seasonal campsites can operate in the UK, but climate, planning, licensing, utility, and environmental requirements would need local assessment."
    },
    "risks": [
-    "The transcript provides no detail on products, customers, costs or returns."
+    "The seller describes a seasonal business and says the local area is limited to roughly a six-month operating window.",
+    "The seller says newly planned sites lack the mature tree cover of existing sites.",
+    "The transcript does not provide operating costs, debt, net income, or capital expenditure."
    ],
    "is_primary": false,
-   "depth": "mention",
+   "depth": "deep",
    "quotes": [
     {
-     "text": "I mean, farming and ranching is our typical or go-to. That's our that's our money maker. This is kind of a side gig for us.",
+     "text": "We're we're somewhere uh probably 80 85% full.",
      "speaker": "Shane",
      "match_score": 100.0,
      "verified": true,
-     "char_offset": 23714,
-     "approx_timestamp_s": 1480
+     "char_offset": 19165,
+     "approx_timestamp_s": 1196
+    },
+    {
+     "text": "2500 on the shoreline, 2,000 off. ... water, sewer, and garbage are included. Electric is tenant pays, camper pays.",
+     "speaker": "Shane",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 19338,
+     "approx_timestamp_s": 1207
+    },
+    {
+     "text": "So, it's nice to have mailbox money at this point.",
+     "speaker": "Shane",
+     "match_score": 95.8,
+     "verified": true,
+     "char_offset": 24203,
+     "approx_timestamp_s": 1511
     }
    ]
   }
  ],
  "metric_claims": [
   {
-   "claim": "The host says this outreach approach has produced nearly a 50% response rate.",
+   "claim": "Koerner says one of his outreach runs produced almost a 50% response rate.",
    "metric": "response_rate",
    "value": {
     "amount": 50,
-    "currency": "%",
-    "unit": "response rate",
-    "label": "Almost 50%"
+    "currency": null,
+    "unit": "percent",
+    "label": "Approximate response rate"
    },
-   "period": null,
+   "period": "per outreach run",
    "claimant": "Chris Koerner",
    "first_hand": true,
    "hypothetical": false,
@@ -782,12 +506,12 @@
    }
   },
   {
-   "claim": "The host says he established relationships with 129 people in 20 minutes.",
+   "claim": "Koerner says he formed 129 new relationships in 20 minutes.",
    "metric": "customers",
    "value": {
     "amount": 129,
     "currency": null,
-    "unit": "people",
+    "unit": "people in 20 minutes",
     "label": "New relationships"
    },
    "period": "20 minutes",
@@ -805,41 +529,18 @@
    }
   },
   {
-   "claim": "The host says the demonstration went from zero to several potential real estate deals within minutes.",
-   "metric": "other",
-   "value": {
-    "amount": null,
-    "currency": null,
-    "unit": "potential deals",
-    "label": "Several, exact count not stated"
-   },
-   "period": "minutes",
-   "claimant": "Chris Koerner",
-   "first_hand": true,
-   "hypothetical": false,
-   "idea_local_id": "I1",
-   "quote": {
-    "text": "I went from zero to having several amazing real estate deals on the hook over the course of minutes.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 826,
-    "approx_timestamp_s": 51
-   }
-  },
-  {
-   "claim": "The host says contacting more leads increases the chance of 100% seller financing with no money down.",
+   "claim": "Koerner says contacting more leads increases the chance of getting 100% seller financing with no money down.",
    "metric": "other",
    "value": {
     "amount": 100,
-    "currency": "%",
-    "unit": "seller financing",
-    "label": "Potential full seller financing"
+    "currency": null,
+    "unit": "percent of purchase financing",
+    "label": "Possible seller financing"
    },
    "period": null,
    "claimant": "Chris Koerner",
-   "first_hand": true,
-   "hypothetical": false,
+   "first_hand": false,
+   "hypothetical": true,
    "idea_local_id": "I1",
    "quote": {
     "text": "And the more leads you reach out to, the higher the chance of getting 100% seller financing where you put no money down.",
@@ -851,936 +552,106 @@
    }
   },
   {
-   "claim": "The example Outscraper search is said to cost $10 and take 7 to 25 minutes.",
-   "metric": "cost",
+   "claim": "Outscraper preloads 50 US states in the demonstrated search interface.",
+   "metric": "other",
    "value": {
-    "amount": 10,
-    "currency": "USD",
-    "unit": "per scrape",
-    "label": "Example search"
+    "amount": 50,
+    "currency": null,
+    "unit": "US states",
+    "label": null
    },
-   "period": "7 to 25 minutes",
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So, it preloads all 50 states. Just close that out.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2561,
+    "approx_timestamp_s": 159
+   }
+  },
+  {
+   "claim": "Koerner capped the example scrape at 500 results.",
+   "metric": "other",
+   "value": {
+    "amount": 500,
+    "currency": null,
+    "unit": "results per scrape",
+    "label": "Chosen result cap"
+   },
+   "period": "per scrape",
    "claimant": "Chris Koerner",
    "first_hand": true,
    "hypothetical": false,
    "idea_local_id": "I1",
    "quote": {
-    "text": "This will cost me 10 bucks and take 7 to 25 minutes, but I've already done this exact search.",
+    "text": "And then it's probably a good idea to cap your results just so you don't accidentally spend a bunch of money. I capped it at 500.",
+    "speaker": "Chris Koerner",
+    "match_score": 96.1,
+    "verified": true,
+    "char_offset": 2654,
+    "approx_timestamp_s": 165
+   }
+  },
+  {
+   "claim": "The example Outscraper job is quoted at $10.",
+   "metric": "cost",
+   "value": {
+    "amount": 10,
+    "currency": "USD",
+    "unit": "per example scrape",
+    "label": null
+   },
+   "period": "per scrape",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So, this will cost me 10 bucks and take 7 to 25 minutes, but I've already done this exact search.",
     "speaker": "Chris Koerner",
     "match_score": 100.0,
     "verified": true,
-    "char_offset": 5507,
+    "char_offset": 5504,
     "approx_timestamp_s": 343
    }
   },
   {
-   "claim": "The host caps the example scrape at 500 results to limit spending.",
-   "metric": "customers",
-   "value": {
-    "amount": 500,
-    "currency": null,
-    "unit": "results maximum",
-    "label": "Scrape cap"
-   },
-   "period": null,
-   "claimant": "Chris Koerner",
-   "first_hand": true,
-   "hypothetical": false,
-   "idea_local_id": "I1",
-   "quote": {
-    "text": "I capped it at 500. And then it's probably a good idea to get all the data you can because it's a difference of pennies.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 2762,
-    "approx_timestamp_s": 172
-   }
-  },
-  {
-   "claim": "The scraper estimate displayed 500 because that was the selected cap, though the host says the estimate was inaccurate.",
-   "metric": "customers",
-   "value": {
-    "amount": 500,
-    "currency": null,
-    "unit": "estimated listings",
-    "label": "Displayed estimate"
-   },
-   "period": null,
-   "claimant": "Chris Koerner",
-   "first_hand": true,
-   "hypothetical": false,
-   "idea_local_id": "I1",
-   "quote": {
-    "text": "It says 500 cuz that's what I said as the limit, but it doesn't really know.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 5429,
-    "approx_timestamp_s": 338
-   }
-  },
-  {
-   "claim": "The downloaded South Dakota search contained 500 parks, with almost half verified by owners.",
-   "metric": "customers",
-   "value": {
-    "amount": 500,
-    "currency": null,
-    "unit": "park listings",
-    "label": "Downloaded listing count"
-   },
-   "period": null,
-   "claimant": "Chris Koerner",
-   "first_hand": true,
-   "hypothetical": false,
-   "idea_local_id": "I1",
-   "quote": {
-    "text": "We've got 500 parks. It's almost 50/50, which is really good.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 6739,
-    "approx_timestamp_s": 420
-   }
-  },
-  {
-   "claim": "The host says 259 of the 500 park listings were unverified.",
-   "metric": "customers",
-   "value": {
-    "amount": 259,
-    "currency": null,
-    "unit": "unverified listings",
-    "label": "Owner verification status"
-   },
-   "period": null,
-   "claimant": "Chris Koerner",
-   "first_hand": true,
-   "hypothetical": false,
-   "idea_local_id": "I1",
-   "quote": {
-    "text": "Yeah, two 259 unverified. That's really surprising to me.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 6825,
-    "approx_timestamp_s": 426
-   }
-  },
-  {
-   "claim": "The host says about 98% of dentist listings would be owner verified.",
-   "metric": "conversion_rate",
-   "value": {
-    "amount": 98,
-    "currency": "%",
-    "unit": "verified listings",
-    "label": "Dentist search comparison"
-   },
-   "period": null,
-   "claimant": "Chris Koerner",
-   "first_hand": true,
-   "hypothetical": false,
-   "idea_local_id": "I1",
-   "quote": {
-    "text": "If we were to run a search for like dentists, it'd be like 98% verified.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 6880,
-    "approx_timestamp_s": 429
-   }
-  },
-  {
-   "claim": "The host says the list had 387 phone numbers at one stage.",
-   "metric": "customers",
-   "value": {
-    "amount": 387,
-    "currency": null,
-    "unit": "phone numbers",
-    "label": "List before validation"
-   },
-   "period": null,
-   "claimant": "Chris Koerner",
-   "first_hand": true,
-   "hypothetical": false,
-   "idea_local_id": "I1",
-   "quote": {
-    "text": "So we've got 387 phone numbers. And then you go to manage lists.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 8088,
-    "approx_timestamp_s": 504
-   }
-  },
-  {
-   "claim": "Sly Broadcast validated hundreds of numbers in about three seconds, according to the host.",
+   "claim": "The example Outscraper job is quoted as taking 7 to 25 minutes.",
    "metric": "hours",
    "value": {
-    "amount": 3,
+    "amount": 7,
+    "amount_max": 25,
     "currency": null,
-    "unit": "seconds",
-    "label": "Processing time"
+    "unit": "minutes",
+    "label": "Scrape duration"
    },
-   "period": null,
+   "period": "per scrape",
    "claimant": "Chris Koerner",
    "first_hand": true,
    "hypothetical": false,
    "idea_local_id": "I1",
    "quote": {
-    "text": "And then like magic, it literally takes 3 seconds to process hundreds.",
+    "text": "So, this will cost me 10 bucks and take 7 to 25 minutes, but I've already done this exact search.",
     "speaker": "Chris Koerner",
     "match_score": 100.0,
     "verified": true,
-    "char_offset": 8472,
-    "approx_timestamp_s": 528
+    "char_offset": 5504,
+    "approx_timestamp_s": 343
    }
   },
   {
-   "claim": "After removing duplicates, the host says the sheet contained 452 records.",
-   "metric": "customers",
-   "value": {
-    "amount": 452,
-    "currency": null,
-    "unit": "records",
-    "label": "After duplicate removal"
-   },
-   "period": null,
-   "claimant": "Chris Koerner",
-   "first_hand": true,
-   "hypothetical": false,
-   "idea_local_id": "I1",
-   "quote": {
-    "text": "Now, we're we're left with 452. And so, I'm basically going to do that whole process.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 9352,
-    "approx_timestamp_s": 583
-   }
-  },
-  {
-   "claim": "From 500 scraped listings, the host says 129 had cell phone numbers, or 26%.",
-   "metric": "conversion_rate",
-   "value": {
-    "amount": 26,
-    "currency": "%",
-    "unit": "cell phone numbers per scraped listing",
-    "label": "Cell phone share"
-   },
-   "period": null,
-   "claimant": "Chris Koerner",
-   "first_hand": true,
-   "hypothetical": false,
-   "idea_local_id": "I1",
-   "quote": {
-    "text": "So we started with 500 and we're left with 129 cell phones. So, 26%. So, you can just kind of expect whatever you scrape, a quarter of them are going to be cell phones.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 9900,
-    "approx_timestamp_s": 618
-   }
-  },
-  {
-   "claim": "The host says about a quarter of scraped phone listings can be expected to be cell phones.",
-   "metric": "conversion_rate",
-   "value": {
-    "amount": 25,
-    "currency": "%",
-    "unit": "cell phone numbers per scraped listing",
-    "label": "General estimate"
-   },
-   "period": null,
-   "claimant": "Chris Koerner",
-   "first_hand": true,
-   "hypothetical": false,
-   "idea_local_id": "I1",
-   "quote": {
-    "text": "So, you can just kind of expect whatever you scrape, a quarter of them are going to be cell phones.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 9965,
-    "approx_timestamp_s": 622
-   }
-  },
-  {
-   "claim": "The host says that if sending to a list of 1,000, he would pair more data fields to keep the CRM or sheet clean.",
-   "metric": "customers",
-   "value": {
-    "amount": 1000,
-    "currency": null,
-    "unit": "contacts",
-    "label": "Hypothetical outreach list"
-   },
-   "period": null,
-   "claimant": "Chris Koerner",
-   "first_hand": false,
-   "hypothetical": true,
-   "idea_local_id": "I1",
-   "quote": {
-    "text": "If we wanted to get really granular and we were texting a thousand, I would pair like as much as I could.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 11934,
-    "approx_timestamp_s": 745
-   }
-  },
-  {
-   "claim": "The texting platform charges two credits when a message exceeds 160 characters.",
-   "metric": "cost",
-   "value": {
-    "amount": 2,
-    "currency": null,
-    "unit": "credits per message",
-    "label": "Messages over 160 characters"
-   },
-   "period": null,
-   "claimant": "Chris Koerner",
-   "first_hand": true,
-   "hypothetical": false,
-   "idea_local_id": "I1",
-   "quote": {
-    "text": "You will you'll pay two credits if it goes over 160 characters, which is great because it's a forcing function to keep your message short anyway cuz shorter always performs better.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 13190,
-    "approx_timestamp_s": 823
-   }
-  },
-  {
-   "claim": "The first batch produced four immediate responses and the host reports a 10% response rate from 129 people.",
-   "metric": "response_rate",
-   "value": {
-    "amount": 10,
-    "currency": "%",
-    "unit": "response rate",
-    "label": "Initial batch"
-   },
-   "period": "Immediately after sending",
-   "claimant": "Chris Koerner",
-   "first_hand": true,
-   "hypothetical": false,
-   "idea_local_id": "I1",
-   "quote": {
-    "text": "Look at that. Four responses. How fast is that? Every time I do it, it just shocks me. I mean, it's only 129 people and we already have a 10% response rate.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 15240,
-    "approx_timestamp_s": 951
-   }
-  },
-  {
-   "claim": "The host later says the outreach had received 23 responses.",
-   "metric": "customers",
-   "value": {
-    "amount": 23,
-    "currency": null,
-    "unit": "responses",
-    "label": "Outreach replies"
-   },
-   "period": null,
-   "claimant": "Chris Koerner",
-   "first_hand": true,
-   "hypothetical": false,
-   "idea_local_id": "I1",
-   "quote": {
-    "text": "If it looks somewhat promising, get the data out of here to something else. I mean, 23 responses. That's crazy.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 15799,
-    "approx_timestamp_s": 986
-   }
-  },
-  {
-   "claim": "The host says no one is likely to be trying to buy 10 RV parks per month in this example.",
-   "metric": "customers",
-   "value": {
-    "amount": 10,
-    "currency": null,
-    "unit": "RV parks per month",
-    "label": "Host's hypothetical scale"
-   },
-   "period": "Per month",
-   "claimant": "Chris Koerner",
-   "first_hand": false,
-   "hypothetical": true,
-   "idea_local_id": "I1",
-   "quote": {
-    "text": "But like I don't recommend that because I don't think anyone's trying to buy 10 RV parks a month here.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 12503,
-    "approx_timestamp_s": 780
-   }
-  },
-  {
-   "claim": "The host says the park's social media account has 900 followers.",
-   "metric": "customers",
-   "value": {
-    "amount": 900,
-    "currency": null,
-    "unit": "followers",
-    "label": "Park social account"
-   },
-   "period": null,
-   "claimant": "Chris Koerner",
-   "first_hand": false,
-   "hypothetical": false,
-   "idea_local_id": "I4",
-   "quote": {
-    "text": "I like to go look at their social media. 900 followers. I mean, I bet this thing stays full.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 17664,
-    "approx_timestamp_s": 1102
-   }
-  },
-  {
-   "claim": "The campground owner says shoreline sites cost $2,500 per season.",
-   "metric": "price",
-   "value": {
-    "amount": 2500,
-    "currency": "USD",
-    "unit": "per season",
-    "label": "Shoreline site"
-   },
-   "period": "Season",
-   "claimant": "Shane",
-   "first_hand": true,
-   "hypothetical": false,
-   "idea_local_id": "I4",
-   "quote": {
-    "text": "Yeah, 2500 on the shoreline, 2,000 off. And does that include any any bills, any utilities, or is that extra?",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 19333,
-    "approx_timestamp_s": 1207
-   }
-  },
-  {
-   "claim": "The campground owner says off-shore sites cost $2,000 per season.",
-   "metric": "price",
-   "value": {
-    "amount": 2000,
-    "currency": "USD",
-    "unit": "per season",
-    "label": "Off-shore site"
-   },
-   "period": "Season",
-   "claimant": "Shane",
-   "first_hand": true,
-   "hypothetical": false,
-   "idea_local_id": "I4",
-   "quote": {
-    "text": "Yeah, 2500 on the shoreline, 2,000 off. And does that include any any bills, any utilities, or is that extra?",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 19333,
-    "approx_timestamp_s": 1207
-   }
-  },
-  {
-   "claim": "The host calculates the $2,500 seasonal price as $400 per month over six months.",
-   "metric": "price",
-   "value": {
-    "amount": 400,
-    "currency": "USD",
-    "unit": "per month",
-    "label": "Host's calculation over six months"
-   },
-   "period": "6 months",
-   "claimant": "Chris Koerner",
-   "first_hand": false,
-   "hypothetical": true,
-   "idea_local_id": "I4",
-   "quote": {
-    "text": "Even at 6 months, that's 400 bucks a month for a lakefront spot.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 17554,
-    "approx_timestamp_s": 1095
-   }
-  },
-  {
-   "claim": "The host calculates the $2,500 seasonal price as $200 per month if spread across a year.",
-   "metric": "price",
-   "value": {
-    "amount": 200,
-    "currency": "USD",
-    "unit": "per month",
-    "label": "Host's calculation spread over a year"
-   },
-   "period": "12 months",
-   "claimant": "Chris Koerner",
-   "first_hand": false,
-   "hypothetical": true,
-   "idea_local_id": "I4",
-   "quote": {
-    "text": "I mean, 200 a month for a year.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 17617,
-    "approx_timestamp_s": 1099
-   }
-  },
-  {
-   "claim": "The owner says the campground is about 80–85% full.",
-   "metric": "conversion_rate",
-   "value": {
-    "amount": 80,
-    "amount_max": 85,
-    "currency": "%",
-    "unit": "occupancy",
-    "label": "Seasonal occupancy"
-   },
-   "period": "Current season",
-   "claimant": "Shane",
-   "first_hand": true,
-   "hypothetical": false,
-   "idea_local_id": "I4",
-   "quote": {
-    "text": "And so, we're we're somewhere uh probably 80 85% full.",
-    "speaker": "Shane",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 19158,
-    "approx_timestamp_s": 1196
-   }
-  },
-  {
-   "claim": "The owner says the campground is in its second full-time season.",
-   "metric": "other",
-   "value": {
-    "amount": 2,
-    "currency": null,
-    "unit": "seasons",
-    "label": "Full-time seasonal operation"
-   },
-   "period": null,
-   "claimant": "Shane",
-   "first_hand": true,
-   "hypothetical": false,
-   "idea_local_id": "I4",
-   "quote": {
-    "text": "Last year we went ahead and uh and renovated and put in all utilities, you know, water, sewer, electric. So, it's our second this will be our second season uh full-time.",
-    "speaker": "Shane",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 18626,
-    "approx_timestamp_s": 1162
-   }
-  },
-  {
-   "claim": "The owner says the park is 'plus six' compared with last year; what the six measures is unclear.",
-   "metric": "other",
-   "value": {
-    "amount": 6,
-    "currency": null,
-    "unit": null,
-    "label": "Increase versus last year; unit unclear"
-   },
-   "period": "Compared with last year",
-   "claimant": "Shane",
-   "first_hand": true,
-   "hypothetical": false,
-   "idea_local_id": "I4",
-   "quote": {
-    "text": "Uh I think we're plus six this year.",
-    "speaker": "Shane",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 19250,
-    "approx_timestamp_s": 1201
-   }
-  },
-  {
-   "claim": "The owner says the family has had the land for more than 100 years.",
-   "metric": "other",
-   "value": {
-    "amount": 100,
-    "currency": null,
-    "unit": "years",
-    "label": "Family land ownership; stated as over 100 years"
-   },
-   "period": "Over 100 years",
-   "claimant": "Shane",
-   "first_hand": true,
-   "hypothetical": false,
-   "idea_local_id": "I4",
-   "quote": {
-    "text": "Um, so it's on family land we've had for over a hundred years.",
-    "speaker": "Shane",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 18478,
-    "approx_timestamp_s": 1153
-   }
-  },
-  {
-   "claim": "The owner says the family had a primitive or rustic campground for about 20 years.",
-   "metric": "hours",
-   "value": {
-    "amount": 20,
-    "currency": null,
-    "unit": "years",
-    "label": "Prior primitive or rustic campground operation"
-   },
-   "period": "About 20 years",
-   "claimant": "Shane",
-   "first_hand": true,
-   "hypothetical": false,
-   "idea_local_id": "I4",
-   "quote": {
-    "text": "And uh we've had kind of a primitive or rustic campground out there for about 20 years.",
-    "speaker": "Shane",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 18539,
-    "approx_timestamp_s": 1157
-   }
-  },
-  {
-   "claim": "The owner says the nearest town is about 20 miles away.",
-   "metric": "other",
-   "value": {
-    "amount": 20,
-    "currency": null,
-    "unit": "miles",
-    "label": "Distance from nearest town"
-   },
-   "period": null,
-   "claimant": "Shane",
-   "first_hand": true,
-   "hypothetical": false,
-   "idea_local_id": "I4",
-   "quote": {
-    "text": "We septic. Okay. I mean, we're probably I mean, from the actual closest town, I mean, it's 20 miles, so",
-    "speaker": "Shane",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 21603,
-    "approx_timestamp_s": 1348
-   }
-  },
-  {
-   "claim": "The owner says the park is adding 20 seasonal spots, which he estimates will use about 20 acres.",
-   "metric": "customers",
-   "value": {
-    "amount": 20,
-    "currency": null,
-    "unit": "seasonal spots",
-    "label": "Planned expansion"
-   },
-   "period": "Planned",
-   "claimant": "Shane",
-   "first_hand": true,
-   "hypothetical": false,
-   "idea_local_id": "I4",
-   "quote": {
-    "text": "in the process of of adding another 20 seasonal spots. I think that would probably encompass probably I don't know around 20 acres something like that.",
-    "speaker": "Shane",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 22759,
-    "approx_timestamp_s": 1420
-   }
-  },
-  {
-   "claim": "The owner says the existing park uses about 12 acres and another eight acres will be added.",
-   "metric": "other",
-   "value": {
-    "amount": 12,
-    "currency": null,
-    "unit": "acres",
-    "label": "Current park area"
-   },
-   "period": null,
-   "claimant": "Shane",
-   "first_hand": true,
-   "hypothetical": false,
-   "idea_local_id": "I4",
-   "quote": {
-    "text": "So we are uh what are we now? We're about 12 acres I think. So we're adding another eight to it.",
-    "speaker": "Shane",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 22973,
-    "approx_timestamp_s": 1434
-   }
-  },
-  {
-   "claim": "The owner says the property has about a mile and a half of shoreline.",
-   "metric": "other",
-   "value": {
-    "amount": 1.5,
-    "currency": null,
-    "unit": "miles of shoreline",
-    "label": "Approximate shoreline"
-   },
-   "period": null,
-   "claimant": "Shane",
-   "first_hand": true,
-   "hypothetical": false,
-   "idea_local_id": "I4",
-   "quote": {
-    "text": "I mean, technically, we probably have a mile and a half of shoreline.",
-    "speaker": "Shane",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 23285,
-    "approx_timestamp_s": 1453
-   }
-  },
-  {
-   "claim": "The owner estimates the family's total landholding at roughly 2,000–3,000 acres.",
-   "metric": "other",
-   "value": {
-    "amount": 2000,
-    "amount_max": 3000,
-    "currency": null,
-    "unit": "acres",
-    "label": "Approximate total landholding"
-   },
-   "period": null,
-   "claimant": "Shane",
-   "first_hand": true,
-   "hypothetical": false,
-   "idea_local_id": "I4",
-   "quote": {
-    "text": "But but only a portion of that obviously is Shoreline. Okay. Well, yeah. I mean, if you ever decide to sell and you want to talk prices,",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 23924,
-    "approx_timestamp_s": 1493
-   }
-  },
-  {
-   "claim": "The owner says the family has over 2,000 acres, perhaps around 3,000; the exact figure is uncertain.",
-   "metric": "other",
-   "value": {
-    "amount": 2000,
-    "amount_max": 3000,
-    "currency": null,
-    "unit": "acres",
-    "label": "Approximate total landholding"
-   },
-   "period": null,
-   "claimant": "Shane",
-   "first_hand": true,
-   "hypothetical": false,
-   "idea_local_id": "I8",
-   "quote": {
-    "text": "But but only a portion of that obviously is Shoreline. Okay. Well, yeah. I mean, if you ever decide to sell and you want to talk prices,",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 23924,
-    "approx_timestamp_s": 1493
-   }
-  },
-  {
-   "claim": "The host says he targets at least a 10% cap rate when buying.",
-   "metric": "margin",
-   "value": {
-    "amount": 10,
-    "currency": "%",
-    "unit": "cap rate",
-    "label": "Minimum target"
-   },
-   "period": null,
-   "claimant": "Chris Koerner",
-   "first_hand": true,
-   "hypothetical": false,
-   "idea_local_id": "I1",
-   "quote": {
-    "text": "So, I try to buy at at a bare minimum 10% cap rate. So, you take your net operating income for the year, divide it by your potential purchase price.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 21022,
-    "approx_timestamp_s": 1312
-   }
-  },
-  {
-   "claim": "The host gives a hypothetical example of a property making $100,000 per year in net profit.",
-   "metric": "profit",
-   "value": {
-    "amount": 100000,
-    "currency": "USD",
-    "unit": "per year",
-    "label": "Illustrative net profit"
-   },
-   "period": "Per year",
-   "claimant": "Chris Koerner",
-   "first_hand": false,
-   "hypothetical": true,
-   "idea_local_id": "I1",
-   "quote": {
-    "text": "So, making 100 grand a year in net profit. I try to pay under a million for something like that.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 21165,
-    "approx_timestamp_s": 1321
-   }
-  },
-  {
-   "claim": "For the hypothetical $100,000 yearly net profit example, the host says he would try to pay under $1 million.",
-   "metric": "sale_price",
-   "value": {
-    "amount": 1000000,
-    "currency": "USD",
-    "unit": "purchase price maximum",
-    "label": "Host says under this amount"
-   },
-   "period": null,
-   "claimant": "Chris Koerner",
-   "first_hand": false,
-   "hypothetical": true,
-   "idea_local_id": "I1",
-   "quote": {
-    "text": "So, making 100 grand a year in net profit. I try to pay under a million for something like that.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 21165,
-    "approx_timestamp_s": 1321
-   }
-  },
-  {
-   "claim": "The host says he has been buying mobile home and RV parks since 2019.",
-   "metric": "other",
-   "value": {
-    "amount": 2019,
-    "currency": null,
-    "unit": "year",
-    "label": "Start year stated"
-   },
-   "period": null,
-   "claimant": "Chris Koerner",
-   "first_hand": true,
-   "hypothetical": false,
-   "idea_local_id": "I2",
-   "quote": {
-    "text": "I've been buying mobile home and RV parks since 2019 and I also have a newsletter about it.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 19901,
-    "approx_timestamp_s": 1242
-   }
-  },
-  {
-   "claim": "The host says he started in single-family real estate in Alabama in 2010.",
-   "metric": "other",
-   "value": {
-    "amount": 2010,
-    "currency": null,
-    "unit": "year",
-    "label": "Start year stated"
-   },
-   "period": null,
-   "claimant": "Chris Koerner",
-   "first_hand": true,
-   "hypothetical": false,
-   "idea_local_id": "I6",
-   "quote": {
-    "text": "I started in single family back in Alabama 2010, moved to Dallas a decade ago and um I just I bought my first RV park in southern Oklahoma and I fell in love.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 20075,
-    "approx_timestamp_s": 1253
-   }
-  },
-  {
-   "claim": "The host says he moved to Dallas a decade before the recording.",
-   "metric": "hours",
-   "value": {
-    "amount": 10,
-    "currency": null,
-    "unit": "years",
-    "label": "Approximate time before recording"
-   },
-   "period": "A decade before recording",
-   "claimant": "Chris Koerner",
-   "first_hand": true,
-   "hypothetical": false,
-   "idea_local_id": "I6",
-   "quote": {
-    "text": "I started in single family back in Alabama 2010, moved to Dallas a decade ago and um I just I bought my first RV park in southern Oklahoma and I fell in love.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 20075,
-    "approx_timestamp_s": 1253
-   }
-  },
-  {
-   "claim": "Beehiiv offers 30% off for three months through the host's referral link.",
-   "metric": "price",
-   "value": {
-    "amount": 30,
-    "currency": "%",
-    "unit": "discount",
-    "label": "Referral offer"
-   },
-   "period": "3 months",
-   "claimant": "Chris Koerner",
-   "first_hand": false,
-   "hypothetical": false,
-   "idea_local_id": "I7",
-   "quote": {
-    "text": "So head to beehive.com/chris for 30% off 3 months.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 14466,
-    "approx_timestamp_s": 903
-   }
-  },
-  {
-   "claim": "The host says he has used Beehiiv for over a year and a half.",
-   "metric": "hours",
-   "value": {
-    "amount": 1.5,
-    "currency": null,
-    "unit": "years",
-    "label": "Duration of use"
-   },
-   "period": "Over 1.5 years",
-   "claimant": "Chris Koerner",
-   "first_hand": true,
-   "hypothetical": false,
-   "idea_local_id": "I7",
-   "quote": {
-    "text": "Beehive is the newsletter platform that I've used for over a year and a half because of their data.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 13711,
-    "approx_timestamp_s": 856
-   }
-  },
-  {
-   "claim": "SearchBug phone validation is said to cost about $10.",
+   "claim": "SearchBug is described as costing about $10.",
    "metric": "cost",
    "value": {
     "amount": 10,
     "currency": "USD",
-    "unit": "service cost",
-    "label": "Approximate SearchBug cost"
+    "unit": "approximately, per use",
+    "label": null
    },
    "period": null,
    "claimant": "Chris Koerner",
@@ -1797,13 +668,13 @@
    }
   },
   {
-   "claim": "Sly Broadcast phone validation is available for free as part of the described service.",
+   "claim": "Sly Broadcast phone-list validation is free if used only for validation.",
    "metric": "cost",
    "value": {
     "amount": 0,
     "currency": "USD",
-    "unit": "phone validation",
-    "label": "Free validation claim"
+    "unit": "for phone validation only",
+    "label": "Free"
    },
    "period": null,
    "claimant": "Chris Koerner",
@@ -1811,403 +682,189 @@
    "hypothetical": false,
    "idea_local_id": "I1",
    "quote": {
-    "text": "And so, I use Sly Broadcast. And so, Sly Broadcast is a ringless voicemail provider, but as part of their ringless voicemail service, they will validate your list for free.",
+    "text": "And so I use Sly Broadcast. And so Sly Broadcast is a ringless voicemail provider, but as part of their ringless voicemail service, they will validate your list for free.",
     "speaker": "Chris Koerner",
     "match_score": 100.0,
     "verified": true,
     "char_offset": 7452,
     "approx_timestamp_s": 465
    }
-  }
- ],
- "tactics": [
+  },
   {
-   "name": "Build a targeted owner list from Google Maps",
-   "area": "acquisition",
-   "steps": [
-    "Choose an exact Google Maps business category, such as RV parks, and a target state, city or ZIP code.",
-    "Set a results cap before scraping to control spend.",
-    "Export the park name, phone, address, category, rating, review count, photos and owner-verification status.",
-    "Avoid unnecessary columns and filter out mismatched categories such as RV dealerships."
-   ],
+   "claim": "The initial selected list contained 387 phone numbers.",
+   "metric": "customers",
+   "value": {
+    "amount": 387,
+    "currency": null,
+    "unit": "phone numbers",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
    "idea_local_id": "I1",
    "quote": {
-    "text": "And then it's probably a good idea to cap your results just so you don't accidentally spend a bunch of money.",
+    "text": "So we've got 387 phone numbers. And then you go to manage lists. Create a new recipient list.",
     "speaker": "Chris Koerner",
-    "match_score": 95.4,
+    "match_score": 100.0,
     "verified": true,
-    "char_offset": 2653,
-    "approx_timestamp_s": 165
+    "char_offset": 8088,
+    "approx_timestamp_s": 504
    }
   },
   {
-   "name": "Clean and validate phone data before outreach",
-   "area": "operations",
-   "steps": [
-    "Standardize phone numbers in the spreadsheet, including removing the country prefix and dashes where needed.",
-    "Remove duplicate phone numbers before matching validation results back to the list.",
-    "Upload only phone numbers to Sly Broadcast's validation list because the host says extra columns and blanks can cause issues.",
-    "Compare the returned list order and counts before using it; remove landlines and retain the mobile numbers."
-   ],
+   "claim": "Sly Broadcast takes about 3 seconds to process hundreds of numbers.",
+   "metric": "hours",
+   "value": {
+    "amount": 3,
+    "currency": null,
+    "unit": "seconds",
+    "label": "Processing time"
+   },
+   "period": "per batch of hundreds",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
    "idea_local_id": "I1",
    "quote": {
-    "text": "Remove the duplicates by phone. But this this is tricky though because it it's going to delete all of these ones that don't have phone numbers as well.",
+    "text": "And then like magic, it literally takes 3 seconds to process hundreds. You just click on these three dots and you click download.",
     "speaker": "Chris Koerner",
     "match_score": 100.0,
     "verified": true,
-    "char_offset": 9017,
-    "approx_timestamp_s": 562
+    "char_offset": 8472,
+    "approx_timestamp_s": 528
    }
   },
   {
-   "name": "Keep first contact short and conversational",
-   "area": "sales",
-   "steps": [
-    "Use a city or street name as a personalization field, after checking the data for missing or odd characters.",
-    "Use a broad term such as 'park' when the listing category may be wrong or could mean an RV or mobile home park.",
-    "Keep the text under 160 characters where possible; the host says longer messages use two credits.",
-    "Ask to start a conversation instead of asking immediately whether the owner wants to sell.",
-    "Preview personalized messages before sending and avoid automated replies unless someone can pause campaigns and monitor them."
-   ],
+   "claim": "In the 500-park sample, about 259 listings were unverified, described as almost half.",
+   "metric": "customers",
+   "value": {
+    "amount": 259,
+    "currency": null,
+    "unit": "unverified listings",
+    "label": "Approximate count"
+   },
+   "period": "in the 500-park sample",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
    "idea_local_id": "I1",
    "quote": {
-    "text": "The best results come when you're willing to play the long game and just seek to start a conversation on the first message as opposed to ask them right up front if they're interested in selling.",
+    "text": "We've got 500 parks. It's almost 50/50, which is really good. I want more owner verified. Yeah, two 259 unverified.",
     "speaker": "Chris Koerner",
     "match_score": 100.0,
     "verified": true,
-    "char_offset": 14560,
-    "approx_timestamp_s": 909
+    "char_offset": 6739,
+    "approx_timestamp_s": 420
    }
   },
   {
-   "name": "Research and qualify interested owners by phone",
-   "area": "sales",
-   "steps": [
-    "Move promising replies into a CRM or spreadsheet so conversations do not get lost in a clunky texting platform.",
-    "Look up the property website, reviews, social media, site layout and utilities before calling.",
-    "Introduce who you are and why you are interested, then ask how long they have owned or operated the park.",
-    "Ask about occupancy, site count, included utilities, expansion potential and land ownership.",
-    "Build credibility before asking for detailed financial information."
-   ],
+   "claim": "Koerner says dentist listings would be about 98% owner-verified.",
+   "metric": "other",
+   "value": {
+    "amount": 98,
+    "currency": null,
+    "unit": "percent verified",
+    "label": "Approximate"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
    "idea_local_id": "I1",
    "quote": {
-    "text": "I like to do a little more research before I call them so I don't sound like an idiot.",
+    "text": "If we were to run a search for like dentists, it'd be like 98% verified. And you can also see on all the false ones, there's no data over here because they don't have as much data.",
     "speaker": "Chris Koerner",
     "match_score": 100.0,
     "verified": true,
-    "char_offset": 16934,
-    "approx_timestamp_s": 1057
+    "char_offset": 6880,
+    "approx_timestamp_s": 429
    }
   },
   {
-   "name": "Use a cap-rate screen and identify deal levers",
-   "area": "pricing",
-   "steps": [
-    "Estimate annual net operating income and divide it by the potential purchase price to calculate the cap rate.",
-    "Use the host's stated 10% minimum as his own screen, not as a universal market rule.",
-    "Adjust the price if rents are below market and can fairly be raised, or if improvements such as paved roads could add value.",
-    "Ask about utilities, site count, occupancy, seasonality and land before deciding whether the target price is realistic."
-   ],
+   "claim": "After removing duplicates, Koerner says 452 entries remained.",
+   "metric": "customers",
+   "value": {
+    "amount": 452,
+    "currency": null,
+    "unit": "list entries",
+    "label": "After deduplication"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
    "idea_local_id": "I1",
    "quote": {
-    "text": "So, I try to buy at at a bare minimum 10% cap rate. So, you take your net operating income for the year, divide it by your potential purchase price.",
+    "text": "Now, we're we're left with 452. And so, I'm basically going to do that whole process. Slide broadcast again.",
     "speaker": "Chris Koerner",
     "match_score": 100.0,
     "verified": true,
-    "char_offset": 21022,
-    "approx_timestamp_s": 1312
+    "char_offset": 9352,
+    "approx_timestamp_s": 583
    }
   },
   {
-   "name": "Treat a seller's no as a possible future lead",
-   "area": "sales",
-   "steps": [
-    "If an owner says no, leave the conversation open and invite them to get back in touch if their situation changes.",
-    "Keep the response polite rather than pressing the seller."
-   ],
+   "claim": "The 500-listing sample yielded 129 cell phones, or 26%.",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 26,
+    "currency": null,
+    "unit": "percent of scraped listings",
+    "label": "Cell phone share"
+   },
+   "period": "per scrape",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
    "idea_local_id": "I1",
    "quote": {
-    "text": "So, I could say, \"Let me know if that changes cuz even like they said no, they didn't ghost me.\"",
+    "text": "So we started with 500 and we're left with 129 cell phones. So 26%. So, you can just kind of expect whatever you scrape, a quarter of them are going to be cell phones.",
     "speaker": "Chris Koerner",
     "match_score": 100.0,
     "verified": true,
-    "char_offset": 16734,
-    "approx_timestamp_s": 1044
+    "char_offset": 9900,
+    "approx_timestamp_s": 618
    }
-  }
- ],
- "tools_mentioned": [
-  {
-   "name": "Outscraper",
-   "purpose": "Scrape Google Maps business listings and export contact and profile fields for lead research.",
-   "cost_stated": "The example scrape is said to cost $10 and take 7 to 25 minutes."
   },
   {
-   "name": "Google Maps",
-   "purpose": "Source business categories and listings for RV park leads.",
-   "cost_stated": null
-  },
-  {
-   "name": "Google Sheets",
-   "purpose": "Import and clean the CSV list, standardize phone numbers, filter rows and remove duplicates.",
-   "cost_stated": null
-  },
-  {
-   "name": "SearchBug.com",
-   "purpose": "Check whether phone numbers are cell phones or landlines.",
-   "cost_stated": "About $10, according to the host."
-  },
-  {
-   "name": "Sly Broadcast",
-   "purpose": "Ringless voicemail service that the host uses to validate phone lists for free.",
-   "cost_stated": "Phone validation is said to be free."
-  },
-  {
-   "name": "Message Media",
-   "purpose": "Texting platform used to import contacts, send campaign messages and respond to leads.",
-   "cost_stated": null
-  },
-  {
-   "name": "slyex.com",
-   "purpose": "The host suggests creating an account as another option to hedge against account setup delays.",
-   "cost_stated": null
-  },
-  {
-   "name": "cinchesmedia.com",
-   "purpose": "The host suggests creating an account as another option to hedge against account setup delays.",
-   "cost_stated": null
-  },
-  {
-   "name": "Porterhouse",
-   "purpose": "Texting app the host says can be used to send messages in a blue iPhone-like interface.",
-   "cost_stated": null
-  },
-  {
-   "name": "CRM",
-   "purpose": "A place to keep lead and conversation data organized; no specific CRM product is named.",
-   "cost_stated": null
-  },
-  {
-   "name": "Excel",
-   "purpose": "Alternative spreadsheet to Google Sheets for managing the scraped lead data.",
-   "cost_stated": null
-  },
-  {
-   "name": "Manta",
-   "purpose": "Named as one source Google may use when automatically adding unverified business listings to Maps.",
-   "cost_stated": null
-  },
-  {
-   "name": "Beehiiv",
-   "purpose": "Newsletter platform promoted by the host; he says he uses it and highlights its subscriber analytics and automated email sequences.",
-   "cost_stated": "The host offers a referral discount of 30% off for 3 months; standard price is not stated."
-  },
-  {
-   "name": "YouTube",
-   "purpose": "The host publishes business-building and real estate videos on the channel.",
-   "cost_stated": null
-  },
-  {
-   "name": "Twitter",
-   "purpose": "The host says he tweets about mobile home and RV parks.",
-   "cost_stated": null
-  },
-  {
-   "name": "Google Maps business profiles",
-   "purpose": "The host checks owner verification, reviews, photos, ratings and property details as part of lead qualification.",
-   "cost_stated": null
-  }
- ],
- "warnings": [
-  {
-   "warning": "For UK use, unsolicited marketing SMS or WhatsApp messages to individuals and sole traders generally require consent under PECR. The demonstrated bulk-text approach cannot simply be copied; cold calls must be screened against TPS/CTPS.",
+   "claim": "Koerner generalizes that about a quarter of scraped numbers will be cell phones.",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 25,
+    "currency": null,
+    "unit": "percent of scraped listings",
+    "label": "Approximate share"
+   },
+   "period": "per scrape",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
    "quote": {
-    "text": "All right, so this is going to be what I upload to the texting platform.",
+    "text": "So we started with 500 and we're left with 129 cell phones. So 26%. So, you can just kind of expect whatever you scrape, a quarter of them are going to be cell phones.",
     "speaker": "Chris Koerner",
     "match_score": 100.0,
     "verified": true,
-    "char_offset": 10917,
-    "approx_timestamp_s": 681
+    "char_offset": 9900,
+    "approx_timestamp_s": 618
    }
   },
   {
-   "warning": "The host cautions that automated replies can keep running after a campaign and send inappropriate messages if they are not paused.",
-   "quote": {
-    "text": "You'll forget to pause them and then you'll send another campaign and then you'll just start sounding like an idiot and sending all kinds of ridiculous stuff.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 12761,
-    "approx_timestamp_s": 796
-   }
-  },
-  {
-   "warning": "Scraped owner names may be missing or inaccurate, and some phone numbers may reach a reservation desk or property manager rather than the owner.",
-   "quote": {
-    "text": "The owner's name is likely to be missing or inaccurate, which you'll see in a minute.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 5177,
-    "approx_timestamp_s": 323
-   }
-  },
-  {
-   "warning": "Duplicate phone records can break the alignment between validated numbers and the original spreadsheet; the host says duplicates can really screw up the process.",
-   "quote": {
-    "text": "There's duplicates. That's why. So, I'm going to remove the duplicates.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 8912,
-    "approx_timestamp_s": 556
-   }
-  },
-  {
-   "warning": "Some map listings may not match the category searched, and unverified listings may have less complete data.",
-   "quote": {
-    "text": "Sometimes I'll choose RV parks but for some reason it will give me like an RV dealership and so that way I can very cleanly scrape those out",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 3718,
-    "approx_timestamp_s": 232
-   }
-  },
-  {
-   "warning": "The owner says the campground is seasonal, uses septic and is in a low-water area; new expansion sites also lack the mature tree cover of the existing sites.",
-   "quote": {
-    "text": "But the new stuff doesn't have uh kind of mature overhead tree cover that the existing does. Okay. So, we'll have to be planting there.",
-    "speaker": "Shane",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 23462,
-    "approx_timestamp_s": 1464
-   }
-  },
-  {
-   "warning": "The example shows outreach and possible leads, not a verified acquisition or realized return.",
-   "quote": {
-    "text": "I went from zero to having several amazing real estate deals on the hook over the course of minutes.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 826,
-    "approx_timestamp_s": 51
-   }
-  },
-  {
-   "warning": "The Beehiiv segment is a promotional read with a referral discount, so its platform claims come from an endorsed promotion.",
-   "quote": {
-    "text": "So head to beehive.com/chris for 30% off 3 months.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 14466,
-    "approx_timestamp_s": 903
-   }
-  }
- ],
- "lessons": [
-  {
-   "lesson": "Use lead volume to increase the number of opportunities, but qualify the list before spending time on calls.",
-   "theme": "customer_acquisition",
-   "quote": {
-    "text": "If they're easier to find, then they're easier to find good deals cuz you have more deals to pull from.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 252,
-    "approx_timestamp_s": 15
-   }
-  },
-  {
-   "lesson": "A first message can aim to start a conversation rather than ask for a sale immediately.",
-   "theme": "customer_acquisition",
-   "quote": {
-    "text": "The best results come when you're willing to play the long game and just seek to start a conversation on the first message as opposed to ask them right up front if they're interested in selling.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 14560,
-    "approx_timestamp_s": 909
-   }
-  },
-  {
-   "lesson": "Reduce friction in outreach by keeping messages short and checking personalization before sending.",
-   "theme": "offer_design",
-   "quote": {
-    "text": "Every word they have to read is another piece of friction between them and a close.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 435,
-    "approx_timestamp_s": 27
-   }
-  },
-  {
-   "lesson": "Treat data cleaning as part of the acquisition process: duplicates, blanks and mismatched rows can corrupt outreach.",
-   "theme": "operations",
-   "quote": {
-    "text": "Remove the duplicates by phone. But this this is tricky though because it it's going to delete all of these ones that don't have phone numbers as well.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 9017,
-    "approx_timestamp_s": 562
-   }
-  },
-  {
-   "lesson": "Research the property before calling so that the conversation can be specific and the buyer sounds prepared.",
-   "theme": "sales",
-   "quote": {
-    "text": "I like to do a little more research before I call them so I don't sound like an idiot.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 16934,
-    "approx_timestamp_s": 1057
-   }
-  },
-  {
-   "lesson": "Assess the owner and the property's operating facts before discussing a purchase price.",
-   "theme": "validation_testing",
-   "quote": {
-    "text": "So, before I give you the keys to the castle here, I guess I probably should find out a little bit more about you first and what uh what we're doing here.",
-    "speaker": "Shane",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 19685,
-    "approx_timestamp_s": 1229
-   }
-  },
-  {
-   "lesson": "Use income and purchase price to calculate a cap rate, then consider property-specific levers such as below-market rents and road improvements.",
-   "theme": "finance_unit_economics",
-   "quote": {
-    "text": "So, I try to buy at at a bare minimum 10% cap rate. So, you take your net operating income for the year, divide it by your potential purchase price.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 21022,
-    "approx_timestamp_s": 1312
-   }
-  },
-  {
-   "lesson": "A seller who declines now may still be worth keeping in contact with if their circumstances change.",
-   "theme": "customer_acquisition",
-   "quote": {
-    "text": "Let me know if that changes cuz even like they said no, they didn't ghost me.",
-    "speaker": "Chris Koerner",
-    "match_score": 100.0,
-    "verified": true,
-    "char_offset": 16749,
-    "approx_timestamp_s": 1045
-   }
-  },
-  {
-   "lesson": "Use automation for repetitive data work, but keep human oversight for nuanced owner conversations and property decisions.",
-   "theme": "automation_ai",
+   "claim": "Koerner says he does not expect anyone to buy 10 RV parks per month in the example market.",
+   "metric": "customers",
+   "value": {
+    "amount": 10,
+    "currency": null,
+    "unit": "RV parks per month",
+    "label": "Hypothetical volume"
+   },
+   "period": "per month",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
    "quote": {
     "text": "But like I don't recommend that because I don't think anyone's trying to buy 10 RV parks a month here.",
     "speaker": "Chris Koerner",
@@ -2218,36 +875,989 @@
    }
   },
   {
-   "lesson": "Check whether the contact method is lawful in the market where the business will operate before copying an outreach playbook.",
-   "theme": "legal_risk",
+   "claim": "The texting platform charges two credits when a message exceeds 160 characters.",
+   "metric": "cost",
+   "value": {
+    "amount": 2,
+    "currency": null,
+    "unit": "platform credits per message",
+    "label": "Messages over 160 characters"
+   },
+   "period": "per message over the character limit",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
    "quote": {
-    "text": "So, I'm going to say, so yeah, if I put the word here, right there, it would do a lot better.",
+    "text": "You will you'll pay two credits if it goes over 160 characters, which is great because it's a forcing function to keep your message short anyway cuz shorter always performs better.",
     "speaker": "Chris Koerner",
     "match_score": 100.0,
     "verified": true,
-    "char_offset": 14754,
-    "approx_timestamp_s": 921
+    "char_offset": 13190,
+    "approx_timestamp_s": 823
+   }
+  },
+  {
+   "claim": "The texting platform's threshold is 160 characters.",
+   "metric": "other",
+   "value": {
+    "amount": 160,
+    "currency": null,
+    "unit": "characters per message",
+    "label": "Threshold before additional credits"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "You will you'll pay two credits if it goes over 160 characters, which is great because it's a forcing function to keep your message short anyway cuz shorter always performs better.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13190,
+    "approx_timestamp_s": 823
+   }
+  },
+  {
+   "claim": "The first live text batch produced four responses.",
+   "metric": "customers",
+   "value": {
+    "amount": 4,
+    "currency": null,
+    "unit": "responses",
+    "label": "Initial batch"
+   },
+   "period": "shortly after sending",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Look at that. Four responses. How fast is that? Every time I do it, it just shocks me.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15240,
+    "approx_timestamp_s": 951
+   }
+  },
+  {
+   "claim": "Koerner describes the initial 129-person batch as having a 10% response rate.",
+   "metric": "response_rate",
+   "value": {
+    "amount": 10,
+    "currency": null,
+    "unit": "percent",
+    "label": "Stated response rate"
+   },
+   "period": "initial text batch",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I mean, it's only 129 people and we already have a 10% response rate. It's crazy. I should have throttled it, but it belongs to the city.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15322,
+    "approx_timestamp_s": 956
+   }
+  },
+  {
+   "claim": "Koerner later reports 23 responses.",
+   "metric": "customers",
+   "value": {
+    "amount": 23,
+    "currency": null,
+    "unit": "responses",
+    "label": null
+   },
+   "period": "text outreach",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I mean, 23 responses. That's crazy. So, let's type up a response and then I'm going to copy and paste it.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15873,
+    "approx_timestamp_s": 991
+   }
+  },
+  {
+   "claim": "Koerner counted 900 followers on the example campground's social media.",
+   "metric": "traffic",
+   "value": {
+    "amount": 900,
+    "currency": null,
+    "unit": "social media followers",
+    "label": null
+   },
+   "period": "at time of review",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "I like this part. I like to go look at their social media. 900 followers. I mean, I bet this thing stays full. They're posting regularly.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17647,
+    "approx_timestamp_s": 1101
+   }
+  },
+  {
+   "claim": "The seller says the campground is about 80–85% full.",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 80,
+    "amount_max": 85,
+    "currency": null,
+    "unit": "percent occupied",
+    "label": "Approximate occupancy"
+   },
+   "period": "current season",
+   "claimant": "Shane",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "We're we're somewhere uh probably 80 85% full.",
+    "speaker": "Shane",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 19165,
+    "approx_timestamp_s": 1196
+   }
+  },
+  {
+   "claim": "The seller says the family has had the land for over 100 years.",
+   "metric": "other",
+   "value": {
+    "amount": 100,
+    "currency": null,
+    "unit": "years",
+    "label": "Land held by family, over this duration"
+   },
+   "period": null,
+   "claimant": "Shane",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "So it's on family land we've had for over a hundred years. And uh we've had kind of a primitive or rustic campground out there for about 20 years.",
+    "speaker": "Shane",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18481,
+    "approx_timestamp_s": 1153
+   }
+  },
+  {
+   "claim": "The seller says the family has operated a primitive or rustic campground for about 20 years.",
+   "metric": "other",
+   "value": {
+    "amount": 20,
+    "currency": null,
+    "unit": "years",
+    "label": "Approximate campground history"
+   },
+   "period": null,
+   "claimant": "Shane",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "So it's on family land we've had for over a hundred years. And uh we've had kind of a primitive or rustic campground out there for about 20 years.",
+    "speaker": "Shane",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18481,
+    "approx_timestamp_s": 1153
+   }
+  },
+  {
+   "claim": "The seller says this is the campground's second full-time season.",
+   "metric": "other",
+   "value": {
+    "amount": 2,
+    "currency": null,
+    "unit": "full-time seasons",
+    "label": "Second season"
+   },
+   "period": null,
+   "claimant": "Shane",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "And uh we've had kind of a primitive or rustic campground out there for about 20 years. Last year we went ahead and uh and renovated and put in all utilities, you know, water, sewer, electric. So it's our second this will be our second season uh full-time.",
+    "speaker": "Shane",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18539,
+    "approx_timestamp_s": 1157
+   }
+  },
+  {
+   "claim": "The seller charges $2,500 for shoreline sites per season.",
+   "metric": "price",
+   "value": {
+    "amount": 2500,
+    "currency": "USD",
+    "unit": "per shoreline site per season",
+    "label": null
+   },
+   "period": "per season",
+   "claimant": "Shane",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "2500 on the shoreline, 2,000 off. ... water, sewer, and garbage are included. Electric is tenant pays, camper pays.",
+    "speaker": "Shane",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 19338,
+    "approx_timestamp_s": 1207
+   }
+  },
+  {
+   "claim": "The seller charges $2,000 for inland sites per season.",
+   "metric": "price",
+   "value": {
+    "amount": 2000,
+    "currency": "USD",
+    "unit": "per inland site per season",
+    "label": null
+   },
+   "period": "per season",
+   "claimant": "Shane",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "2500 on the shoreline, 2,000 off. ... water, sewer, and garbage are included. Electric is tenant pays, camper pays.",
+    "speaker": "Shane",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 19338,
+    "approx_timestamp_s": 1207
+   }
+  },
+  {
+   "claim": "Koerner says the local season is limited to about six months.",
+   "metric": "other",
+   "value": {
+    "amount": 6,
+    "currency": null,
+    "unit": "months per year",
+    "label": "Approximate seasonal operating window"
+   },
+   "period": "per year",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "I mean clearly the South is uh a little bit stronger uh year round. you know, we're we're kind of limited up here to about a six month time frame, but yeah, that must be nice.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20417,
+    "approx_timestamp_s": 1274
+   }
+  },
+  {
+   "claim": "The seller says the campground is about six sites ahead of the prior year; the exact measure is unclear.",
+   "metric": "other",
+   "value": {
+    "amount": 6,
+    "currency": null,
+    "unit": "unspecified comparison to last year",
+    "label": "Seller says “plus six”"
+   },
+   "period": "this year compared with last year",
+   "claimant": "Shane",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "Uh I think we're plus six this year.",
+    "speaker": "Shane",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 19250,
+    "approx_timestamp_s": 1201
+   }
+  },
+  {
+   "claim": "The seller says they are adding 20 seasonal spots, with the work encompassing around 20 acres.",
+   "metric": "customers",
+   "value": {
+    "amount": 20,
+    "currency": null,
+    "unit": "planned seasonal spots",
+    "label": "Expansion"
+   },
+   "period": "planned",
+   "claimant": "Shane",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "I think well we're uh in the process of of adding another 20 seasonal spots. I think that would probably encompass probably I don't know around 20 acres something like that.",
+    "speaker": "Shane",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22737,
+    "approx_timestamp_s": 1419
+   }
+  },
+  {
+   "claim": "The seller estimates that the expansion will encompass around 20 acres.",
+   "metric": "other",
+   "value": {
+    "amount": 20,
+    "currency": null,
+    "unit": "acres",
+    "label": "Approximate expansion area"
+   },
+   "period": "planned",
+   "claimant": "Shane",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "I think well we're uh in the process of of adding another 20 seasonal spots. I think that would probably encompass probably I don't know around 20 acres something like that.",
+    "speaker": "Shane",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22737,
+    "approx_timestamp_s": 1419
+   }
+  },
+  {
+   "claim": "The seller says the current park is about 12 acres and they are adding another eight acres.",
+   "metric": "other",
+   "value": {
+    "amount": 12,
+    "currency": null,
+    "unit": "acres",
+    "label": "Current park area"
+   },
+   "period": "current",
+   "claimant": "Shane",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "So we are uh what are we now? We're about 12 acres I think. So we're adding another eight to it.",
+    "speaker": "Shane",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22973,
+    "approx_timestamp_s": 1434
+   }
+  },
+  {
+   "claim": "The seller says they are adding eight acres.",
+   "metric": "other",
+   "value": {
+    "amount": 8,
+    "currency": null,
+    "unit": "acres",
+    "label": "Additional area"
+   },
+   "period": "planned",
+   "claimant": "Shane",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "So we are uh what are we now? We're about 12 acres I think. So we're adding another eight to it.",
+    "speaker": "Shane",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22973,
+    "approx_timestamp_s": 1434
+   }
+  },
+  {
+   "claim": "The seller estimates about one and a half miles of shoreline.",
+   "metric": "other",
+   "value": {
+    "amount": 1.5,
+    "currency": null,
+    "unit": "miles of shoreline",
+    "label": "Approximate"
+   },
+   "period": null,
+   "claimant": "Shane",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "I mean, technically, we probably have a mile and a half of shoreline. It's just as uh as they uh continue to express interest and waiting list grows",
+    "speaker": "Shane",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23285,
+    "approx_timestamp_s": 1453
+   }
+  },
+  {
+   "claim": "The seller says the family's total land holding is roughly 2,000–3,000 acres.",
+   "metric": "other",
+   "value": {
+    "amount": 2000,
+    "amount_max": 3000,
+    "currency": null,
+    "unit": "acres",
+    "label": "Approximate total land holding"
+   },
+   "period": null,
+   "claimant": "Shane",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "That's our that's our money maker. This is kind of a side gig for us. So, I don't know. I mean, we we've got over I don't know two 3,000 acres, something like that.",
+    "speaker": "Shane",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23766,
+    "approx_timestamp_s": 1483
+   }
+  },
+  {
+   "claim": "Koerner says he has been buying mobile home and RV parks since 2019.",
+   "metric": "other",
+   "value": {
+    "amount": 2019,
+    "currency": null,
+    "unit": "year",
+    "label": "Start year claimed"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I've been buying mobile home and RV parks since 2019 and I also have a newsletter about it. Um, and I tweet about mobile home and RV parks, believe it or not, and I just love it.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 19901,
+    "approx_timestamp_s": 1242
+   }
+  },
+  {
+   "claim": "Koerner says he started in single-family real estate in Alabama in 2010.",
+   "metric": "other",
+   "value": {
+    "amount": 2010,
+    "currency": null,
+    "unit": "year",
+    "label": "Start year claimed"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "I started in single family back in Alabama 2010, moved to Dallas a decade ago and um I just I bought my first RV park in southern Oklahoma and I fell in love",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20075,
+    "approx_timestamp_s": 1253
+   }
+  },
+  {
+   "claim": "Koerner says he moved to Dallas a decade before the recording.",
+   "metric": "other",
+   "value": {
+    "amount": 10,
+    "currency": null,
+    "unit": "years",
+    "label": "A decade"
+   },
+   "period": "before recording",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "I started in single family back in Alabama 2010, moved to Dallas a decade ago and um I just I bought my first RV park in southern Oklahoma and I fell in love",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20075,
+    "approx_timestamp_s": 1253
+   }
+  },
+  {
+   "claim": "Koerner says he tries to buy at a minimum 10% cap rate.",
+   "metric": "other",
+   "value": {
+    "amount": 10,
+    "currency": null,
+    "unit": "percent cap rate",
+    "label": "Stated minimum target"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So, I try to buy at at a bare minimum 10% cap rate. So, you take your net operating income for the year, divide it by your potential purchase price.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21022,
+    "approx_timestamp_s": 1312
+   }
+  },
+  {
+   "claim": "Koerner gives an illustrative example of $100,000 in annual net profit.",
+   "metric": "profit",
+   "value": {
+    "amount": 100000,
+    "currency": "USD",
+    "unit": "per year",
+    "label": "Illustrative net profit"
+   },
+   "period": "per year",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So, making 100 grand a year in net profit. I try to pay under a million for something like that.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21165,
+    "approx_timestamp_s": 1321
+   }
+  },
+  {
+   "claim": "For the $100,000 annual net-profit example, Koerner says he would try to pay under $1 million.",
+   "metric": "sale_price",
+   "value": {
+    "amount": 1000000,
+    "currency": "USD",
+    "unit": "maximum illustrative purchase price",
+    "label": "Under this amount"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So, making 100 grand a year in net profit. I try to pay under a million for something like that.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21165,
+    "approx_timestamp_s": 1321
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Build a bounded Google Maps lead list",
+   "area": "acquisition",
+   "steps": [
+    "Choose a Google Maps business category such as RV park and select a target state.",
+    "Set a result cap before scraping to limit accidental spend.",
+    "Select useful fields such as phone, address, category, rating, review count, photos, owner verification, and phone carrier type.",
+    "Review categories after export because the scraper can include adjacent business types."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "And then it's probably a good idea to cap your results just so you don't accidentally spend a bunch of money. I capped it at 500.",
+    "speaker": "Chris Koerner",
+    "match_score": 96.1,
+    "verified": true,
+    "char_offset": 2654,
+    "approx_timestamp_s": 165
+   }
+  },
+  {
+   "name": "Clean and validate phone data before outreach",
+   "area": "operations",
+   "steps": [
+    "Standardize phone formatting in the spreadsheet.",
+    "Remove duplicate phone numbers before matching validation results back to the list.",
+    "Upload only rows with phone numbers to Sly Broadcast for carrier-type validation.",
+    "Check that the validated numbers remain aligned with the correct listings."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "And so, I'm just going to kind of do a cursory glance. Oh, and they're not. Oh, okay. Yep. There's duplicates. That's why.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8828,
+    "approx_timestamp_s": 551
+   }
+  },
+  {
+   "name": "Personalize the first text and keep it short",
+   "area": "sales",
+   "steps": [
+    "Use a reliable field such as city for personalization when street names may be missing or malformed.",
+    "Preview the text to catch bad substitutions.",
+    "Use a broad term such as “park” if the exact listing might be an RV park or mobile home park.",
+    "Start a conversation instead of asking immediately whether the owner wants to sell."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "The best results come when you're willing to play the long game and just seek to start a conversation on the first message as opposed to ask them right up front if they're interested in selling.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14560,
+    "approx_timestamp_s": 909
+   }
+  },
+  {
+   "name": "Use automation sparingly in seller conversations",
+   "area": "operations",
+   "steps": [
+    "Prefer direct, high-touch replies for a small list of likely sellers.",
+    "If automated replies are used for a larger campaign, pause them before sending another campaign.",
+    "Move promising conversations to a phone call after researching the property."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "But like I don't recommend that because I don't think anyone's trying to buy 10 RV parks a month here.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12503,
+    "approx_timestamp_s": 780
+   }
+  },
+  {
+   "name": "Screen a park before discussing an offer",
+   "area": "sales",
+   "steps": [
+    "Ask how long the owner has had the property and whether they built or bought it.",
+    "Ask about occupancy, seasonal pricing, included utilities, number of pads, and operating season.",
+    "Ask about land area, expansion plans, utilities, and physical condition.",
+    "Estimate net operating income and compare it with a target cap rate before proposing a price."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Well, how long have you owned it? Did you build it or did you buy it?",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18411,
+    "approx_timestamp_s": 1149
+   }
+  },
+  {
+   "name": "Set a purchase threshold before negotiating",
+   "area": "pricing",
+   "steps": [
+    "Calculate annual net operating income.",
+    "Divide net operating income by the prospective purchase price to calculate the cap rate.",
+    "Use a stated minimum target of 10% as an initial screen, then adjust for rents below market or other value levers."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So, I try to buy at at a bare minimum 10% cap rate. So, you take your net operating income for the year, divide it by your potential purchase price.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21022,
+    "approx_timestamp_s": 1312
+   }
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Outscraper",
+   "purpose": "Scrape Google Maps business listings and export selected lead fields.",
+   "cost_stated": "The demo quotes $10 for a scrape capped at 500 results and estimates 7–25 minutes."
+  },
+  {
+   "name": "Google Maps",
+   "purpose": "Source of business categories and RV park listings.",
+   "cost_stated": null
+  },
+  {
+   "name": "Google Sheets",
+   "purpose": "Import and clean the scraped CSV, standardize phone numbers, filter, and deduplicate rows.",
+   "cost_stated": null
+  },
+  {
+   "name": "Excel",
+   "purpose": "Alternative spreadsheet mentioned by the host.",
+   "cost_stated": null
+  },
+  {
+   "name": "SearchBug",
+   "purpose": "Check phone number type.",
+   "cost_stated": "About $10, according to the host."
+  },
+  {
+   "name": "Sly Broadcast",
+   "purpose": "Ringless voicemail service that the host uses to validate phone lists for free when used only for validation.",
+   "cost_stated": "Free for phone validation only, according to the host."
+  },
+  {
+   "name": "MessageMedia",
+   "purpose": "Texting platform used to import contacts, personalize messages, send campaigns, and manage replies.",
+   "cost_stated": null
+  },
+  {
+   "name": "Slyex",
+   "purpose": "Alternative texting platform the host recommends trying when creating an account.",
+   "cost_stated": null
+  },
+  {
+   "name": "Cinches Media",
+   "purpose": "Alternative texting platform the host recommends trying when creating an account.",
+   "cost_stated": null
+  },
+  {
+   "name": "Porterhouse",
+   "purpose": "App the host says allows texting in blue like an iPhone.",
+   "cost_stated": null
+  },
+  {
+   "name": "Manta",
+   "purpose": "A source from which Google may automatically add business listings to Google Maps, according to the host.",
+   "cost_stated": null
+  },
+  {
+   "name": "Local records",
+   "purpose": "A source from which Google may automatically add business listings to Google Maps, according to the host.",
+   "cost_stated": null
+  },
+  {
+   "name": "Beehiiv",
+   "purpose": "Newsletter platform promoted in a sponsor read.",
+   "cost_stated": "Sponsor read offers 30% off for 3 months; base price is not stated."
+  },
+  {
+   "name": "YouTube",
+   "purpose": "The host publishes videos on the platform.",
+   "cost_stated": null
+  },
+  {
+   "name": "Twitter",
+   "purpose": "The host says he tweets about mobile home and RV parks.",
+   "cost_stated": null
+  },
+  {
+   "name": "Google Search",
+   "purpose": "The host recommends looking up a seller and the property before calling.",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Duplicate phone rows can cause validation results to be matched to the wrong listings. The host removes duplicates and checks that the records align.",
+   "quote": {
+    "text": "And so, I'm just going to kind of do a cursory glance. Oh, and they're not. Oh, okay. Yep. There's duplicates. That's why.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8828,
+    "approx_timestamp_s": 551
+   }
+  },
+  {
+   "warning": "Automated replies can keep running into a later campaign and send inappropriate or confusing messages if they are not paused.",
+   "quote": {
+    "text": "But like if you do want to cast a wide net, these automations work well, but you have to be really careful because you'll forget to pause them and then you'll send another campaign",
+    "speaker": "Chris Koerner",
+    "match_score": 97.2,
+    "verified": true,
+    "char_offset": 12646,
+    "approx_timestamp_s": 789
+   }
+  },
+  {
+   "warning": "The host says listing data can include the wrong business category and owner names may be missing or inaccurate.",
+   "quote": {
+    "text": "The owner's name is likely to be missing or inaccurate, which you'll see in a minute.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5177,
+    "approx_timestamp_s": 323
+   }
+  },
+  {
+   "warning": "The scrape estimate is described as inaccurate, so the host recommends setting a result cap to avoid unexpected spend.",
+   "quote": {
+    "text": "That's always inaccurate. I would just ignore it. It says 500 cuz that's what I said as the limit, but it doesn't really know.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5381,
+    "approx_timestamp_s": 335
+   }
+  },
+  {
+   "warning": "The demonstrated cold SMS process needs UK legal adaptation: unsolicited marketing texts to individuals and sole traders require consent under PECR.",
+   "quote": null
+  },
+  {
+   "warning": "The reported response-rate figures are not internally consistent: the host says four replies from 129 recipients and calls that 10%.",
+   "quote": {
+    "text": "I mean, it's only 129 people and we already have a 10% response rate. It's crazy. I should have throttled it, but it belongs to the city.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15322,
+    "approx_timestamp_s": 956
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Set a target purchase price before a seller call so the conversation can focus on facts that change the valuation.",
+   "theme": "pricing",
+   "quote": {
+    "text": "That's the best when you can get to a price before even getting them on the phone.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 170,
+    "approx_timestamp_s": 10
+   }
+  },
+  {
+   "lesson": "Use a controlled, relevant lead list and check the data before contacting owners; bad categories and duplicate records waste outreach.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "And then it's probably a good idea to cap your results just so you don't accidentally spend a bunch of money. I capped it at 500.",
+    "speaker": "Chris Koerner",
+    "match_score": 96.1,
+    "verified": true,
+    "char_offset": 2654,
+    "approx_timestamp_s": 165
+   }
+  },
+  {
+   "lesson": "Begin outreach by starting a conversation rather than asking for a sale immediately.",
+   "theme": "offer_design",
+   "quote": {
+    "text": "The best results come when you're willing to play the long game and just seek to start a conversation on the first message as opposed to ask them right up front if they're interested in selling.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14560,
+    "approx_timestamp_s": 909
+   }
+  },
+  {
+   "lesson": "Keep messages brief and check personalized fields before sending so each recipient sees a credible message.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "You will you'll pay two credits if it goes over 160 characters, which is great because it's a forcing function to keep your message short anyway cuz shorter always performs better.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13190,
+    "approx_timestamp_s": 823
+   }
+  },
+  {
+   "lesson": "Use human follow-up when a seller shows interest; the host prefers higher-touch handling for a small list.",
+   "theme": "operations",
+   "quote": {
+    "text": "So, but like I don't recommend that because I don't think anyone's trying to buy 10 RV parks a month here.",
+    "speaker": "Chris Koerner",
+    "match_score": 98.1,
+    "verified": true,
+    "char_offset": 12500,
+    "approx_timestamp_s": 780
+   }
+  },
+  {
+   "lesson": "Assess the physical property and its operating facts, not just the listing: occupancy, rents, utilities, season length, and expansion needs all affect value.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "And how full does it normally stay? We're we're strictly a seasonal model at this at this point.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 19063,
+    "approx_timestamp_s": 1190
+   }
+  },
+  {
+   "lesson": "More leads can create more chances to find unusual financing, but the transcript does not establish that no-money-down financing is typical or assured.",
+   "theme": "finance_unit_economics",
+   "quote": {
+    "text": "And the more leads you reach out to, the higher the chance of getting 100% seller financing where you put no money down.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1090,
+    "approx_timestamp_s": 68
+   }
+  },
+  {
+   "lesson": "Treat a refusal as a possible future relationship rather than ending the conversation abruptly.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "So, I could say, \"Let me know if that changes cuz even like they said no, they didn't ghost me.\"",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16734,
+    "approx_timestamp_s": 1044
+   }
+  },
+  {
+   "lesson": "Automate repetitive data work, but keep checks around data alignment and conversation quality.",
+   "theme": "automation_ai",
+   "quote": {
+    "text": "And so, I'm just going to kind of do a cursory glance. Oh, and they're not. Oh, okay. Yep. There's duplicates. That's why.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8828,
+    "approx_timestamp_s": 551
    }
   }
  ],
  "evidence_quality": {
   "rating": "B",
-  "rationale": "The host demonstrates a first-hand sourcing workflow and speaks directly with a campground owner, including specific lead counts, prices and occupancy claims. The lead and response figures are from a live example, but the transcript does not verify them independently or show a completed purchase or investment return; some figures are estimates and the audio transcript contains transcription errors.",
-  "promotional_conflict": "The host includes a Beehiiv promotional segment and referral discount; he says he has used the platform for over a year and a half."
+  "rationale": "The host walks through a first-hand lead-sourcing process and conducts a live call with an owner who gives operational details and prices. The video does not show a completed acquisition or verified financial statements, and the reply-count and response-rate claims are inconsistent.",
+  "promotional_conflict": "A Beehiiv sponsor read promotes the newsletter platform and offers 30% off for 3 months through the host's link."
  },
  "extraction": {
   "model": "gpt-6-luna",
-  "extracted_at": "2026-10-22T10:29:49",
+  "extracted_at": "2026-10-22T10:35:10",
   "cost_usd": 0,
   "reviewed_by": null,
   "review_notes": null,
   "quote_verification": {
-   "quotes": 89,
-   "verified": 89,
+   "quotes": 75,
+   "verified": 75,
    "rate": 1.0
   },
-  "schema_errors": [
-   "lessons/4/theme: 'sales' is not one of ['customer_acquisition', 'pricing', 'offer_design', 'operations', 'automation_ai', 'hiring_outsourcing', 'finance_unit_economics', 'valida"
-  ]
+  "schema_errors": []
  }
 }
