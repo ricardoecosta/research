@@ -1,0 +1,3820 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "D5iCSoOL-4E",
+  "title": "From $3K to $270M: How He Did It (and How You Can Too)",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=D5iCSoOL-4E",
+  "upload_date": "2025-09-08",
+  "duration_s": 5886,
+  "view_count": 54503,
+  "transcript_provider": "ok",
+  "transcript_chars": 104535,
+  "transcript_is_whisper": false
+ },
+ "summary": "Ryan Bartlett describes how he built True Classic from a small initial investment into a large apparel business, focusing on fit, value, comfort, product testing, and paid advertising. He explains how retention, free gifts, customer research, creative, and wholesale helped the company grow, while describing the risks of ad dependence, inventory, and retail attribution. The conversation also covers service businesses such as CRO and email marketing agencies, plus other ideas ranging from dropshipping to small-run apparel fulfillment. The central lesson is to solve a real customer problem, test cheaply, and keep improving what already works.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Host of The Koerner Office."
+  },
+  {
+   "name": "Ryan Bartlett",
+   "role": "guest",
+   "description": "Founder of True Classic."
+  }
+ ],
+ "format": "operator_interview",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "True Classic men's apparel",
+   "one_liner": "Sell comfortable, affordable men's apparel with a fit that makes customers feel more confident.",
+   "category": "ecommerce_physical",
+   "business_model": "Direct-to-consumer product sales, with additional wholesale and retail distribution.",
+   "customer": "Men looking for well-fitting, comfortable apparel at prices below premium brands.",
+   "problem": "Bartlett saw men's clothing as poorly fitted, uncomfortable, or overpriced; customers also wanted products that made them look better.",
+   "offer": "A plain men's T-shirt designed to fit closely at the shoulders and arms, followed by related apparel including denim, activewear, underwear, joggers, long sleeves, and other categories.",
+   "pricing": {
+    "model": "Product sales; the transcript gives order thresholds for free gifts and shipping but not standard product prices.",
+    "price_points": [
+     {
+      "amount": 100,
+      "currency": "USD",
+      "unit": "order threshold",
+      "label": "Free shipping threshold"
+     },
+     {
+      "amount": 150,
+      "currency": "USD",
+      "unit": "order threshold",
+      "label": "Free shirt threshold"
+     },
+     {
+      "amount": 200,
+      "currency": "USD",
+      "unit": "order threshold",
+      "label": "Free underwear threshold"
+     }
+    ],
+    "notes": "Standard product prices are not stated. The thresholds and gift offers may vary; the speaker says 'or whatever it is' for the final tier."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "paid_social",
+     "details": "Started with Facebook ads, initially using static creative; later used comedic video ads and scaled spend when results supported it.",
+     "quote": {
+      "text": "I was, you know, I should go back and really look at the early days on Meta, but I do remember starting out at 100 a day.",
+      "speaker": "Ryan Bartlett",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 35699,
+      "approx_timestamp_s": 2065
+     }
+    },
+    {
+     "channel": "organic_social_content",
+     "details": "Published comedic video creative that also accumulated organic views on the True Classic channel.",
+     "quote": {
+      "text": "The best comedy that we've ever done was two videos.",
+      "speaker": "Ryan Bartlett",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 64995,
+      "approx_timestamp_s": 3760
+     }
+    },
+    {
+     "channel": "retail_placement",
+     "details": "Sold through Costco, Target, Sam's Club, TJ Maxx, Kohl's, and other retail partners; retail visibility also helped online customers trust the brand.",
+     "quote": {
+      "text": "We got into Costco and Target and they and Sam's Club and TJ Maxx and Kohl's and a couple other ones",
+      "speaker": "Ryan Bartlett",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 46596,
+      "approx_timestamp_s": 2696
+     }
+    }
+   ],
+   "delivery": "Apparel is made by manufacturers and fulfilled through third-party logistics providers. The company began with one T-shirt in six colors and sizes small through 2XL, then expanded products and sizes. It also sells through wholesale and retail partners.",
+   "unit_economics_claims": [
+    "Bartlett said first-customer acquisition was often around break-even, with profitability depending on retention and repeat purchases.",
+    "He said Facebook ROAS above 2:1 made his days look very profitable, while break-even ROAS was around 1.6.",
+    "He said the company spent about $60–70 million a year on Facebook ads in recent years.",
+    "He said negotiating saved the company tens of millions of dollars a year in fees and product costs."
+   ],
+   "tools": [
+    "Shopify",
+    "Facebook / Meta ads",
+    "Klaviyo email flows",
+    "Third-party logistics providers",
+    "Triple Whale",
+    "AfterSell",
+    "Post-purchase surveys"
+   ],
+   "startup_cost": "Bartlett said the initial $3,000 went mainly to Facebook ads and product development; he negotiated credit terms with a manufacturer to avoid paying for initial inventory upfront.",
+   "time_to_first_revenue": "Sales began slowly; Bartlett recalled an $800 sales day in the first week and said sales were coming within a couple of weeks.",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Ad platforms can handle targeting and delivery, but creative strategy, product claims, and channel decisions need human review."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Checkout, order confirmation, and lifecycle email flows can be automated; sizing and product questions still need human support."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Software can route orders to a 3PL, but manufacturing, packing, shipping, and returns depend on physical operations."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "E-commerce checkout and payment collection can run automatically, with people handling exceptions and refunds."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Automated order updates and help content can handle routine queries; fit, quality, and delivery issues need human escalation."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "The apparel and direct-to-consumer model can work in the UK. The company would need UK-specific sizing, pricing, tax, consumer-rights, returns, and fulfilment arrangements."
+   },
+   "risks": [
+    "Bartlett described the company as close to break-even on first-customer acquisition, so repeat purchases and retention matter.",
+    "Heavy dependence on Facebook ads made the business vulnerable to platform and attribution changes.",
+    "Apparel requires inventory bets, and retail stores can appear unprofitable when their influence on later online purchases is not attributed.",
+    "The guest said 3PL software errors caused split shipments and duplicated shipping costs.",
+    "Expanding into new product categories without the same product quality and problem-solving focus can weaken the brand."
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "And that's when I made the connection that like, oh, we're selling confidence. We're not just selling t-shirts now.",
+     "speaker": "Ryan Bartlett",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 5412,
+     "approx_timestamp_s": 313
+    },
+    {
+     "text": "before they even get to the checkout, we're already doing what's called a gift with purchase, which is tremendous for the business.",
+     "speaker": "Ryan Bartlett",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 7734,
+     "approx_timestamp_s": 447
+    },
+    {
+     "text": "I wanted to prove that thesis out and I was like look if there's just a small group of guys that love True Classic for what it is I'm happy with that.",
+     "speaker": "Ryan Bartlett",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 4335,
+     "approx_timestamp_s": 250
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Digital marketing and advertising agency",
+   "one_liner": "Manage digital marketing for businesses and charge recurring retainers.",
+   "category": "agency",
+   "business_model": "Monthly service retainers.",
+   "customer": "Businesses including lawyers, dentists, and chiropractors that need marketing and can earn substantial value from each acquired customer.",
+   "problem": "Businesses need help acquiring customers and often waste money on ineffective marketing.",
+   "offer": "Digital marketing services. Bartlett said he built an agency over a decade and later handed off his CEO role while the agency continued operating.",
+   "pricing": {
+    "model": "Monthly retainer.",
+    "price_points": [
+     {
+      "amount": 500,
+      "amount_max": 5000,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "Historical monthly agency fee range"
+     },
+     {
+      "amount": 1500,
+      "amount_max": 3000,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "Bartlett's stated sweet spot"
+     }
+    ],
+    "notes": "Bartlett said the $500 starting point was too low in hindsight."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Bartlett stressed that agency owners need to learn sales, listen to prospects, and sell the value they can deliver; he did not describe a specific lead source for his own agency.",
+     "quote": null
+    }
+   ],
+   "delivery": "The agency performed digital marketing work for business clients. Specific service processes and staffing are not stated; Bartlett said clients stayed when the agency delivered value.",
+   "unit_economics_claims": [
+    "Bartlett said the agency was doing a little over $1 million a year.",
+    "He described recurring retainers as a way to build income over time."
+   ],
+   "tools": [
+    "Facebook ads"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Lead research and scheduling can be automated, but trust-building and sales conversations usually require people; UK outreach must follow PECR and calling rules."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Forms and account access can be automated, but goals, scope, and ad account decisions need human discussion."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Reporting and campaign operations can use software, but strategy and creative review need ongoing human input."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Recurring invoicing and payment collection can be automated."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Routine status updates can be automated, but clients expect human advice and accountability."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "The retainer model and business-marketing services apply in the UK. Any outbound email or calls need to follow UK marketing and screening rules."
+   },
+   "risks": [
+    "The founder needs strong sales and listening skills, or a co-founder who can sell.",
+    "Clients can leave if the agency does not deliver measurable value.",
+    "Low retainers can make delivery uneconomic."
+   ],
+   "is_primary": false,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "I always tell people to get into the service-based business. It is so easy to make money working with other businesses and charging them a flat fee and just stacking those retainers up over years and years and years.",
+     "speaker": "Ryan Bartlett",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 37304,
+     "approx_timestamp_s": 2158
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Dropshipping store",
+   "one_liner": "Test products online without holding stock, then focus on the products that sell.",
+   "category": "ecommerce_physical",
+   "business_model": "Online product sales, with a supplier shipping directly to customers.",
+   "customer": "Online shoppers seeking the selected product; the transcript does not identify a single customer niche.",
+   "problem": "Customers want the product being tested; the founder needs a lower-cost way to learn e-commerce and validate demand.",
+   "offer": "A product selected from a supplier catalogue and shipped directly to the customer.",
+   "pricing": {
+    "model": "Product sales.",
+    "price_points": [],
+    "notes": "Prices are not stated for the guest's dropshipping stores."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "paid_social",
+     "details": "Bartlett described finding product winners and scaling them on Facebook; no spend or campaign details for his early stores are stated.",
+     "quote": null
+    },
+    {
+     "channel": "marketplace_platform",
+     "details": "He recommended finding products on AliExpress and having the supplier ship directly to customers.",
+     "quote": {
+      "text": "What you should do is go on AliExpress and find some product and and drop ship it and see if you can create winners out of that",
+      "speaker": "Ryan Bartlett",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 18866,
+      "approx_timestamp_s": 1091
+     }
+    }
+   ],
+   "delivery": "The supplier ships the selected product directly to the customer. The store owner handles product selection, marketing, and customer service.",
+   "unit_economics_claims": [
+    "Bartlett said dropshipping was useful as a training ground, not a guarantee of making millions."
+   ],
+   "tools": [
+    "AliExpress",
+    "Oberlo",
+    "Shopify",
+    "Facebook ads"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Paid ads and product pages can be operated with software, but product selection and creative testing need human judgment."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Checkout and order notifications can be automated; customer questions and exceptions remain."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Supplier routing can be automated, but physical picking, packing, shipping, and returns are not unattended software work."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Checkout and payment collection can be automated."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Automations can answer routine order questions, but delivery delays, defects, and refunds need human handling."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "The model works in the UK, but delivery times, import charges, consumer rights, returns, and product compliance need local handling."
+   },
+   "risks": [
+    "Bartlett said the model has become harder than it used to be.",
+    "Supplier quality, delivery times, and customer service can damage the store's reputation.",
+    "Paid advertising can lose money if a product does not convert."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "Dude, it's the perfect training ground.",
+     "speaker": "Ryan Bartlett",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 18598,
+     "approx_timestamp_s": 1076
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "Fidget-spinner dropshipping store",
+   "one_liner": "Test a winning fidget spinner through dropshipping, then build a focused store around it.",
+   "category": "ecommerce_physical",
+   "business_model": "Online product sales through dropshipping.",
+   "customer": "People buying fidget spinners; the transcript gives no narrower segment.",
+   "problem": "The transcript does not state a specific customer problem beyond demand for the product.",
+   "offer": "Bartlett said fidget spinners were one of the two products he found winning among many tests, and he built a dedicated website around them.",
+   "pricing": {
+    "model": "Product sales.",
+    "price_points": [],
+    "notes": "The guest's selling prices and costs are not stated."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "paid_social",
+     "details": "Bartlett described testing products and scaling winners on Facebook; he did not give campaign details for this store.",
+     "quote": null
+    }
+   ],
+   "delivery": "Dropshipped product; the supplier and fulfillment process are not specified.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Facebook ads"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Ad delivery can be automated, while product testing and creative decisions need review."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Online checkout and order processing can be automated."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "A supplier can ship orders, but the physical product must still be manufactured and delivered."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Online payment collection can run automatically."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Routine messages can be automated, but defects and shipping issues need human attention."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "A UK store could use the same product-testing approach, subject to product safety, import, shipping, tax, and returns requirements."
+   },
+   "risks": [
+    "The transcript does not establish how long the product stayed popular or whether the store remained profitable."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "And so, I took the fidget spinner and then I just made a whole website around fidget spinners.",
+     "speaker": "Ryan Bartlett",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 22012,
+     "approx_timestamp_s": 1273
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "Tech backpack dropshipping test",
+   "one_liner": "Test a technology-oriented backpack through a dropshipping store.",
+   "category": "ecommerce_physical",
+   "business_model": "Online product sales through dropshipping.",
+   "customer": "The transcript does not state a specific customer segment.",
+   "problem": "The transcript does not state a specific problem beyond the backpack's built-in charging feature.",
+   "offer": "A backpack with a charger adapter fitting into its side.",
+   "pricing": {
+    "model": "Product sales.",
+    "price_points": [],
+    "notes": "No prices are stated."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "paid_social",
+     "details": "Mentioned as an early product winner in a dropshipping business; the specific channel is not stated for this product.",
+     "quote": null
+    }
+   ],
+   "delivery": "Dropshipped product; supplier and fulfillment details are not stated.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Product ads can be scheduled and optimized with software, but initial positioning and creative need review."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Checkout can be automated."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "The backpack is a physical product and still needs physical fulfillment."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Online payments can be collected automatically."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Automated responses can cover routine questions, but product and delivery issues need a person."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "The product could be sold in the UK, with local shipping, import, product-safety, and returns requirements."
+   },
+   "risks": [
+    "The guest gives no evidence about product costs, sales, or sustained demand."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "Another one was like this backpack. It was like a tech backpack that had like a charger adapter thing to fit into the side.",
+     "speaker": "Ryan Bartlett",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 22260,
+     "approx_timestamp_s": 1288
+    }
+   ]
+  },
+  {
+   "local_id": "I6",
+   "name": "Lab-grown diamond business",
+   "one_liner": "Sell lab-grown diamonds as a potential value-focused jewellery business.",
+   "category": "ecommerce_physical",
+   "business_model": "Not stated.",
+   "customer": "Not stated.",
+   "problem": "Bartlett said he saw potential customer value in the business, but did not specify the problem.",
+   "offer": "Not stated.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": "Not stated."
+   },
+   "acquisition_channels": [],
+   "delivery": "Not stated.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Online marketing could be automated, but high-value jewellery purchasing depends on trust and human reassurance."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Order intake can be automated, but product choice and authenticity questions may require human help."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Physical jewellery needs secure handling and delivery."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Payments can be processed automatically, with manual review for exceptions."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "High-value purchases and returns are likely to require human customer support."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "The product category can be sold in the UK, but the transcript gives no operating details; local consumer, product-description, and sourcing requirements would need to be addressed."
+   },
+   "risks": [
+    "No business model, sourcing approach, pricing, or evidence of demand is provided."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "I wanted to get into the lab diamond business, I thought what an amazing value for the customer in that business",
+     "speaker": "Ryan Bartlett",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 16250,
+     "approx_timestamp_s": 940
+    }
+   ]
+  },
+  {
+   "local_id": "I7",
+   "name": "Chicken Salad Chick franchise",
+   "one_liner": "Operate a franchise focused on chicken salad.",
+   "category": "franchise",
+   "business_model": "Franchise restaurant sales.",
+   "customer": "Restaurant customers who want chicken salad.",
+   "problem": "The transcript does not specify a customer problem beyond demand for the restaurant's product.",
+   "offer": "A restaurant chain and franchise selling chicken salad.",
+   "pricing": {
+    "model": "Restaurant sales; franchise terms not stated.",
+    "price_points": [],
+    "notes": "Menu prices and franchise costs are not stated."
+   },
+   "acquisition_channels": [],
+   "delivery": "Food is prepared and served in physical franchise locations.",
+   "unit_economics_claims": [
+    "The host said franchisees make hundreds of thousands of dollars a year in net profit; this is a second-hand claim."
+   ],
+   "tools": [],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Local discovery can use software, but restaurant traffic and franchise sales require human and local operations."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "Franchise training and restaurant setup require people."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Food preparation and service are physical tasks."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Point-of-sale payments can be automated, with staff handling exceptions."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Customer complaints and restaurant service require staff."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 1,
+    "notes": "The specific franchise is described as a US chain, and the transcript gives no indication of UK availability. A similar food concept could be adapted, but the named franchise may not be accessible."
+   },
+   "risks": [
+    "The claimed franchise profit is not supported with details or independent evidence.",
+    "Restaurant franchises require physical sites, staff, food operations, and franchise capital."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "It's it's a franchise that sells chicken salad. That's it.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 10501,
+     "approx_timestamp_s": 607
+    }
+   ]
+  },
+  {
+   "local_id": "I8",
+   "name": "Small-run apparel testing and China fulfillment",
+   "one_liner": "Let apparel brands test small product runs through a China-based 3PL before committing to larger inventory bets.",
+   "category": "b2b_service",
+   "business_model": "A logistics and fulfillment service charging apparel sellers; pricing is not stated.",
+   "customer": "Apparel brands that want to test demand without tying up cash in large inventory orders.",
+   "problem": "Traditional apparel production requires long lead times and large inventory bets before demand is known.",
+   "offer": "Portless provides a China-based 3PL arrangement where small batches move from manufacturer to the 3PL and then to the customer.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": "The guest says the service has minimums but gives no prices or terms."
+   },
+   "acquisition_channels": [],
+   "delivery": "The provider receives products from manufacturers in China and ships them directly to customers. The transcript describes Portless as a company Ryan planned to test, not a business he had already operated.",
+   "unit_economics_claims": [
+    "Bartlett said the service could enable testing 100 units per style and cited a six-day purchase-to-delivery time."
+   ],
+   "tools": [
+    "Portless",
+    "China-based 3PL"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Lead generation can use software, but winning brand clients requires trust and commercial relationships."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Client setup and product requirements need human coordination with factories and logistics providers."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Manufacturing, receiving, packing, and shipping are physical operations."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Usage-based invoicing may be automated once order and shipping data are integrated."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Inventory, customs, delivery, and product exceptions require people to coordinate."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "The model could serve UK brands, but customs, import duties, VAT, delivery expectations, and returns would need to be handled for UK customers."
+   },
+   "risks": [
+    "Bartlett said the service has minimums and may not take every client.",
+    "The transcript describes a planned test, not proven results from the guest's own business.",
+    "The model depends on reliable factory, warehouse, shipping, and customs operations."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "What portless has solved is your speed to market.",
+     "speaker": "Ryan Bartlett",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 76506,
+     "approx_timestamp_s": 4426
+    }
+   ]
+  },
+  {
+   "local_id": "I9",
+   "name": "God Is Dope T-shirt brand",
+   "one_liner": "Use low-cost or free promotional T-shirts to introduce customers to a message-led apparel brand.",
+   "category": "ecommerce_physical",
+   "business_model": "Promotional loss-leader shirts drive customers to higher-priced online apparel sales.",
+   "customer": "People who respond to the brand's design and message.",
+   "problem": "The transcript does not state a specific problem beyond wanting a distinctive, message-led T-shirt.",
+   "offer": "The host describes a business giving away or selling low-cost shirts around Atlanta, then selling other designs online.",
+   "pricing": {
+    "model": "Loss-leader and product sales.",
+    "price_points": [
+     {
+      "amount": 5,
+      "currency": "USD",
+      "unit": "per shirt",
+      "label": "Giveaway shirt price, described as roughly break-even"
+     },
+     {
+      "amount": 20,
+      "amount_max": 30,
+      "currency": "USD",
+      "unit": "per shirt",
+      "label": "Other shirts sold through the website"
+     }
+    ],
+    "notes": "The host says the first shirts were sold for $5, basically break-even, and mentions other designs at $20–30."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "door_to_door_in_person",
+     "details": "The host said the founder went around Atlanta selling the shirts for $5.",
+     "quote": {
+      "text": "I heard of this kid in Atlanta who created this design. I'm sharing my screen right now here on the right. God is dope.",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 79918,
+      "approx_timestamp_s": 4624
+     }
+    },
+    {
+     "channel": "seo_organic_search",
+     "details": "The host said the promotional shirt directed people to the brand's website, where they could buy other designs.",
+     "quote": null
+    }
+   ],
+   "delivery": "Physical shirts are handed out or sold in person and other designs are sold through the website.",
+   "unit_economics_claims": [
+    "The host described the $5 shirt as basically break-even and the other designs as selling for $20–30."
+   ],
+   "tools": [
+    "God Is Dope website"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "In-person shirt sales require a person; the website can support later inbound discovery."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Online ordering can be automated, while in-person transactions need staff."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Shirts must be printed, stocked, and physically handed over or shipped."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Online payment can be automated; in-person payment depends on the point-of-sale setup."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Automated FAQs can handle basic questions, with people handling product and delivery issues."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Promotional apparel and a message-led e-commerce brand could work in the UK; the transcript's Atlanta in-person tactic would need a local equivalent."
+   },
+   "risks": [
+    "A loss leader can lose money if customers do not buy later products.",
+    "In-person selling requires time and is difficult to automate."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "And he went around Atlanta um selling these for $5 basically break even.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 80035,
+     "approx_timestamp_s": 4631
+    }
+   ]
+  },
+  {
+   "local_id": "I10",
+   "name": "Conversion rate optimization agency",
+   "one_liner": "Improve e-commerce websites through measurable conversion rate experiments and charge a service fee.",
+   "category": "agency",
+   "business_model": "Monthly or project service fees; a performance-linked fee was discussed as a possible future model.",
+   "customer": "E-commerce businesses with enough website traffic and sales to benefit from improved conversion.",
+   "problem": "Businesses lose sales when product pages or other website elements convert poorly.",
+   "offer": "Redesign and test website elements, run CRO experiments, and show the resulting conversion data.",
+   "pricing": {
+    "model": "Flat fee initially; percentage of improvement was discussed as a possible model.",
+    "price_points": [
+     {
+      "amount": 5000,
+      "amount_max": 20000,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "Possible CRO service fees discussed by the host"
+     }
+    ],
+    "notes": "Bartlett said he planned to start with a flat fee; the host gave $5,000–$20,000 per month as possible price points."
+   },
+   "acquisition_channels": [],
+   "delivery": "Review website data, identify changes, run experiments, and report measured conversion results. Bartlett said his in-house team brought weekly proposals and discussed tests with him.",
+   "unit_economics_claims": [
+    "The host used a half-percentage-point conversion lift as an example of value created.",
+    "The host gave $100,000 of additional monthly revenue as a hypothetical example, not a reported result."
+   ],
+   "tools": [
+    "Intelligems"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Bartlett said CRO can show impact within a week; he did not state a time to the agency's first revenue.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Marketing and lead research can be automated, but trust and sales conversations need human involvement."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Analytics access and intake forms can be automated, but goals and experiment priorities need human agreement."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Agents can draft analyses and test ideas, but implementation, experiment design, and interpretation need human review."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Invoices and recurring payment collection can be automated."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Routine reports can be automated, while client decisions and explaining results need human input."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "The service works for UK e-commerce businesses. The transcript's value proposition is tied to measurable website data rather than US-specific rules."
+   },
+   "risks": [
+    "The agency must demonstrate attributable improvement rather than making vague marketing promises.",
+    "Results depend on traffic, product, price, and the quality of experiments.",
+    "The guest's plan was described as a pivot, not a completed agency case study."
+   ],
+   "is_primary": false,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "the two most impactful service-based industries to go into in the future that will always have a life no matter AI or not is email marketing and CRO.",
+     "speaker": "Ryan Bartlett",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 83851,
+     "approx_timestamp_s": 4852
+    }
+   ]
+  },
+  {
+   "local_id": "I11",
+   "name": "Email marketing agency",
+   "one_liner": "Improve e-commerce email flows and revenue per recipient for client brands.",
+   "category": "agency",
+   "business_model": "Monthly service retainers.",
+   "customer": "E-commerce brands using email marketing software.",
+   "problem": "Brands may have weak welcome, abandoned-cart, post-purchase, and other email flows that leave revenue unrealized.",
+   "offer": "Audit and improve email flows, test changes, and help increase revenue per recipient.",
+   "pricing": {
+    "model": "Monthly retainer after a free proof-of-value project.",
+    "price_points": [
+     {
+      "amount": 2500,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "Possible retainer after proving value"
+     }
+    ],
+    "notes": "The guest suggested $2,500 per month as a possible price after free case-study work."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "facebook_groups_communities",
+     "details": "Join a Facebook group for e-commerce business owners, offer to improve a brand's flows for free, request read-only account access, and build case studies.",
+     "quote": {
+      "text": "join a Facebook group for e-commerce business owners post and say, Hey, I like Clavio. It's cool. I want to tinker.",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 85276,
+      "approx_timestamp_s": 4934
+     }
+    }
+   ],
+   "delivery": "Review and adjust email flows in the client's account. The proposed approach uses read-only access initially and does not send messages without client permission.",
+   "unit_economics_claims": [
+    "The guest suggested that a successful free trial could lead to clients paying $2,500 a month."
+   ],
+   "tools": [
+    "Klaviyo"
+   ],
+   "startup_cost": "Not stated; the proposed first projects are free.",
+   "time_to_first_revenue": "Not stated; the proposal is to do free work first and seek paid retainers after building case studies.",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Posting useful offers in a business community can be scheduled and supported by software, but relationship-building and client qualification need people."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Account access and reporting can be organized with software; client goals and permissions need human agreement."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Agents can analyze flows and draft copy, but sending and revenue-impacting changes need client approval."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Recurring invoicing and payment collection can be automated."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Reporting can be automated, but client decisions and campaign issues require human support."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "The service applies to UK e-commerce brands. Client email campaigns must comply with UK marketing and data-protection rules."
+   },
+   "risks": [
+    "The free-work approach can consume time without converting to paid work.",
+    "Client access and permissions must be handled carefully; the guest specifically proposed read-only access and no sending without approval."
+   ],
+   "is_primary": false,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "Give me readonly access to your Clavio account. Let me tinker around in there. I won't send anything before talking to you.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 85438,
+     "approx_timestamp_s": 4943
+    }
+   ]
+  },
+  {
+   "local_id": "I12",
+   "name": "SEO agency",
+   "one_liner": "Sell search engine optimization services to businesses on a retainer.",
+   "category": "agency",
+   "business_model": "Service retainers; the transcript does not give SEO pricing.",
+   "customer": "Businesses seeking organic search traffic.",
+   "problem": "Businesses want search visibility, but the guest said SEO can take a long time to show results.",
+   "offer": "SEO services; Bartlett said his agency was pivoting away from SEO toward CRO.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": "No SEO agency price is given."
+   },
+   "acquisition_channels": [],
+   "delivery": "Not described in detail. Bartlett said the agency was still alive despite SEO crumbling around them, then said he was pivoting its focus.",
+   "unit_economics_claims": [],
+   "tools": [
+    "ChatGPT"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Lead research can be automated, but sales and client trust need human work."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Forms and access requests can be automated, while the client's goals and scope need discussion."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Some research and reporting can be automated, but strategy and quality control need human review."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Recurring invoices can be automated."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Routine reporting can be automated; explaining slow-changing results requires human support."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "SEO services can be sold to UK businesses. The guest's concern was the time needed to see results, not a US-specific constraint."
+   },
+   "risks": [
+    "The guest said SEO can take a long time to show results, making it harder to prove value quickly.",
+    "The guest described the service as vulnerable to changes in the search and AI landscape."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "That's why SEO is so tough is because it takes forever.",
+     "speaker": "Ryan Bartlett",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 84409,
+     "approx_timestamp_s": 4884
+    }
+   ]
+  },
+  {
+   "local_id": "I13",
+   "name": "Fractional CFO service",
+   "one_liner": "Provide part-time finance leadership and recurring financial reporting to businesses.",
+   "category": "b2b_service",
+   "business_model": "Monthly service fee.",
+   "customer": "Businesses too small to hire a full-time CFO.",
+   "problem": "Smaller businesses need financial reporting and CFO-level help without hiring a full-time executive.",
+   "offer": "Fractional CFO services and monthly financial reporting such as a P&L and balance sheet.",
+   "pricing": {
+    "model": "Monthly service fee.",
+    "price_points": [
+     {
+      "amount": 2500,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "Host's example fractional CFO fee"
+     }
+    ],
+    "notes": "The host compared this with a hypothetical $10,000 monthly full-time hire."
+   },
+   "acquisition_channels": [],
+   "delivery": "Provide finance support and deliver a P&L and balance sheet each month; further delivery details are not stated.",
+   "unit_economics_claims": [
+    "The host said a business might pay $2,500 a month for fractional CFO services instead of $10,000 a month for a full-time CFO."
+   ],
+   "tools": [],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Lead research can be automated, but earning trust and qualifying a business require human conversations."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Document collection can be automated, but access, scope, and financial context require human work."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Software can prepare reports, but review, interpretation, and financial advice need a qualified person."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Monthly invoices and payment collection can be automated."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Routine reminders can be automated, but finance decisions and questions require human advice."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "The service model applies in the UK, though the provider needs suitable financial expertise and should be clear about the scope of any regulated advice."
+   },
+   "risks": [
+    "The transcript gives no evidence about qualifications, client acquisition, or actual fractional CFO results.",
+    "Financial reporting depends on accurate client records and careful human review."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "you could pay $2,500 a month for someone to be a fractional CFO",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 83063,
+     "approx_timestamp_s": 4806
+    }
+   ]
+  },
+  {
+   "local_id": "I14",
+   "name": "Operator school for entrepreneurs",
+   "one_liner": "Teach entrepreneurs how to build and operate businesses.",
+   "category": "education_coaching",
+   "business_model": "Not stated; could be an educational product or service, but the transcript does not describe the offer or pricing.",
+   "customer": "Entrepreneurs seeking business guidance.",
+   "problem": "The guest said he wished he had someone guiding him when he was younger.",
+   "offer": "A possible operator school to empower and teach entrepreneurs.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": "No format or price is given."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "existing_audience",
+     "details": "Bartlett's stated audience and relationships with entrepreneurs could support the concept, but he did not give an acquisition plan.",
+     "quote": null
+    }
+   ],
+   "delivery": "Not stated.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Content can attract learners automatically over time, but trust and enrolment decisions need human-facing material."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "A digital learning platform could automate enrolment and course access."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Recorded lessons can be delivered automatically, while feedback and coaching require people."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Digital product payments can be automated."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Automated help can cover account issues, but learner questions and coaching need human support."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Entrepreneur education can be delivered online to UK customers; no US-specific requirement is stated."
+   },
+   "risks": [
+    "The guest described this as a possible future activity, not an operating business.",
+    "The transcript does not state curriculum, proof of outcomes, pricing, or delivery format."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "developing some sort of operator school and just empowering entrepreneurs and helping them and teaching",
+     "speaker": "Ryan Bartlett",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 99896,
+     "approx_timestamp_s": 5780
+    }
+   ]
+  },
+  {
+   "local_id": "I15",
+   "name": "Live business Q&A and website review show",
+   "one_liner": "Host live sessions where entrepreneurs ask questions and receive direct feedback on their businesses or websites.",
+   "category": "content_media",
+   "business_model": "Not stated; the guest described a possible show, with no monetization plan.",
+   "customer": "Entrepreneurs seeking direct business advice.",
+   "problem": "Entrepreneurs want practical guidance and feedback on their businesses and websites.",
+   "offer": "A YouTube live-style show where people ask questions and the host reviews their websites.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": "No monetization or price is stated."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "youtube",
+     "details": "Bartlett suggested a live show similar to Gary Vee's Tea with GaryVee.",
+     "quote": null
+    }
+   ],
+   "delivery": "The host answers live questions and gives website feedback on camera.",
+   "unit_economics_claims": [],
+   "tools": [
+    "YouTube"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "A channel and event listings can attract viewers through software, although the host's reputation and content drive demand."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Question submissions and scheduling can be automated."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "The guest or host must personally appear and respond during the live session."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "If monetized digitally, payments can be automated; the transcript gives no payment model."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Moderation and follow-up can use tools, but questions need a human host."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "A live online business Q&A show can be produced from the UK and reach an international audience."
+   },
+   "risks": [
+    "The guest described the format as a future possibility, not a tested business.",
+    "Delivery depends on the host's time and ability to attract a regular audience."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "some sort of a YouTube live show where people just come on uh similar to like the I don't know if you've ever watched Gary Vee do his uh tea with Gary Vee",
+     "speaker": "Ryan Bartlett",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 100008,
+     "approx_timestamp_s": 5786
+    }
+   ]
+  },
+  {
+   "local_id": "I16",
+   "name": "Wholesale iPhone parts supplier",
+   "one_liner": "Sell iPhone parts in bulk to repair-shop customers.",
+   "category": "arbitrage_reselling",
+   "business_model": "Wholesale sales to repair shops.",
+   "customer": "iPhone repair shops.",
+   "problem": "Repair shops need parts to service customer phones; the transcript does not describe additional problems.",
+   "offer": "The host said he had a company selling iPhone parts wholesale.",
+   "pricing": {
+    "model": "Wholesale product sales.",
+    "price_points": [],
+    "notes": "No iPhone parts prices are stated."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "The host described selling wholesale to his iPhone repair shop customers; other acquisition methods are not stated.",
+     "quote": null
+    }
+   ],
+   "delivery": "Physical parts are supplied to repair shops; fulfillment details are not stated.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Account research and ordering can use software, but wholesale relationships and sales conversations need people."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Account setup and ordering can be partly automated, with human handling for terms and compatibility."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Parts require physical stocking, packing, and shipping."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Invoices and payment reminders can be automated."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Order-status questions can be automated, but compatibility and returns need people."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "The wholesale model could work in the UK. The transcript does not discuss UK sourcing, product compliance, or repair-shop demand."
+   },
+   "risks": [
+    "The transcript provides no information about margins, supplier reliability, or the host's business results."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "I had this company that sold iPhone parts wholesale and my iPhone repair shop customers were selling fidget spinners on the counter.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 22588,
+     "approx_timestamp_s": 1307
+    }
+   ]
+  },
+  {
+   "local_id": "I17",
+   "name": "Countertop fidget-spinner resale",
+   "one_liner": "Wholesale fidget spinners to repair shops for resale at their counters.",
+   "category": "arbitrage_reselling",
+   "business_model": "Bulk resale to shops, which then resell units to walk-in customers.",
+   "customer": "Retail shops and their walk-in customers.",
+   "problem": "The transcript does not state a customer problem beyond impulse demand for fidget spinners.",
+   "offer": "Buy fidget spinners in bulk, sell them to repair shops, and let the shops sell them at the counter.",
+   "pricing": {
+    "model": "Wholesale resale and retail resale.",
+    "price_points": [
+     {
+      "amount": 1,
+      "currency": "USD",
+      "unit": "per unit cost",
+      "label": "Host's approximate bulk purchase cost"
+     },
+     {
+      "amount": 1.5,
+      "currency": "USD",
+      "unit": "per unit wholesale sale",
+      "label": "Host's approximate selling price to shops"
+     },
+     {
+      "amount": 5,
+      "currency": "USD",
+      "unit": "per unit retail sale",
+      "label": "Approximate counter price charged by shops"
+     }
+    ],
+    "notes": "The host said these amounts were approximate and described the customer resale price as 'something like that.'"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "The host supplied his iPhone repair shop customers; no additional sales method is stated.",
+     "quote": null
+    }
+   ],
+   "delivery": "The host ordered bulk inventory and sold it to repair shops, which sold it at their counters.",
+   "unit_economics_claims": [
+    "The host described a roughly $1 unit cost, $1.50 sale to the shop, and $5 counter sale."
+   ],
+   "tools": [],
+   "startup_cost": "Not stated; the host said orders were in the tens of thousands of dollars.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Wholesale sales rely on physical shop relationships and a person making the offer."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Repeat shop orders could be handled online, but initial account setup is human."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "The business requires handling and shipping physical inventory."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Invoices can be automated once shop accounts are established."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Stock issues and shop relationships need human attention."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "The wholesale counter-resale model could work in the UK, though demand for the product may be temporary and local shop channels would need to be developed."
+   },
+   "risks": [
+    "The host said the business was short-lived.",
+    "The approximate spread does not include shipping, unsold inventory, or other operating costs."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "So we would order them by the tens of thousands of dollars for like a dollar each and then sell them for $1.50 each and then they would sell them at the counter for $5 each",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 22720,
+     "approx_timestamp_s": 1314
+    }
+   ]
+  },
+  {
+   "local_id": "I18",
+   "name": "Vegas limo hack",
+   "one_liner": "A past limo-related business idea or tactic referenced by the host, with no operating details provided.",
+   "category": "local_service",
+   "business_model": "Not stated.",
+   "customer": "Not stated.",
+   "problem": "Not stated.",
+   "offer": "Not stated; the host referred to Ryan Bartlett's 'Vegas limo hack' as a topic for a future episode.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": "Not stated."
+   },
+   "acquisition_channels": [],
+   "delivery": "Not stated.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "A local limo service would likely rely on local sales and bookings; the transcript provides no details."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Booking details could be collected online, but the transcript gives no process."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Limo transport is physical-world work and requires a driver and vehicle."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Payments could be collected online, but no billing approach is stated."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Customer and journey issues would require human support."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 1,
+    "notes": "The reference is to a Vegas-specific idea, and the transcript does not explain whether the model could transfer to the UK."
+   },
+   "risks": [
+    "The transcript does not explain the business model or establish that it was operated."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "we're going to have to do another episode where we talk about your poker days and your your va your Vegas limo hack.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 74851,
+     "approx_timestamp_s": 4331
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "The host introduced True Classic as a business doing $270 million a year.",
+   "metric": "revenue",
+   "value": {
+    "amount": 270000000,
+    "currency": "USD",
+    "unit": "per year",
+    "label": "Annual revenue"
+   },
+   "period": "Annual",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "He took a very small investment that basically anyone watching this could afford and turned it into a business doing $270 million a year without any venture funding",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 899,
+    "approx_timestamp_s": 52
+   }
+  },
+  {
+   "claim": "Bartlett said the business reached about $100 million in two years.",
+   "metric": "revenue",
+   "value": {
+    "amount": 100000000,
+    "currency": "USD",
+    "unit": "within two years",
+    "label": "Rounded revenue milestone"
+   },
+   "period": "First two years",
+   "claimant": "Ryan Bartlett",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "to get to the, you know, 100 million in two years, that was on the backbone of just building unbelievable product market fit",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6909,
+    "approx_timestamp_s": 399
+   }
+  },
+  {
+   "claim": "Bartlett said True Classic made $15 million in its first year.",
+   "metric": "revenue",
+   "value": {
+    "amount": 15000000,
+    "currency": "USD",
+    "unit": "first year",
+    "label": "Annual revenue"
+   },
+   "period": "Year one",
+   "claimant": "Ryan Bartlett",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So, we did 15 million the first year and that's when we were at Wow, we're we're really on to something.",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 42246,
+    "approx_timestamp_s": 2444
+   }
+  },
+  {
+   "claim": "Bartlett said True Classic made $90 million the next year.",
+   "metric": "revenue",
+   "value": {
+    "amount": 90000000,
+    "currency": "USD",
+    "unit": "second year",
+    "label": "Annual revenue"
+   },
+   "period": "Year two",
+   "claimant": "Ryan Bartlett",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "And then we did 90 the next year. And we were like, Oh, we're going to be billionaires.",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 42543,
+    "approx_timestamp_s": 2461
+   }
+  },
+  {
+   "claim": "The host recited revenue of $150 million for a later year.",
+   "metric": "revenue",
+   "value": {
+    "amount": 150000000,
+    "currency": "USD",
+    "unit": "annual",
+    "label": "Annual revenue"
+   },
+   "period": "Year three in host's six-year recap",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "15 mil, 90 million, 150 million, 206 million, 212 million, 270 million.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 46388,
+    "approx_timestamp_s": 2684
+   }
+  },
+  {
+   "claim": "The host recited revenue of $206 million for a later year.",
+   "metric": "revenue",
+   "value": {
+    "amount": 206000000,
+    "currency": "USD",
+    "unit": "annual",
+    "label": "Annual revenue"
+   },
+   "period": "Year four in host's six-year recap",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "15 mil, 90 million, 150 million, 206 million, 212 million, 270 million.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 46388,
+    "approx_timestamp_s": 2684
+   }
+  },
+  {
+   "claim": "The host recited revenue of $212 million for a later year.",
+   "metric": "revenue",
+   "value": {
+    "amount": 212000000,
+    "currency": "USD",
+    "unit": "annual",
+    "label": "Annual revenue"
+   },
+   "period": "Year five in host's six-year recap",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "15 mil, 90 million, 150 million, 206 million, 212 million, 270 million.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 46388,
+    "approx_timestamp_s": 2684
+   }
+  },
+  {
+   "claim": "The host recited revenue of $270 million for a later year.",
+   "metric": "revenue",
+   "value": {
+    "amount": 270000000,
+    "currency": "USD",
+    "unit": "annual",
+    "label": "Annual revenue"
+   },
+   "period": "Year six in host's six-year recap",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "15 mil, 90 million, 150 million, 206 million, 212 million, 270 million.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 46388,
+    "approx_timestamp_s": 2684
+   }
+  },
+  {
+   "claim": "The host recited profit margins of 2%, 4%, 5%, 8%, 8%, and 16% over six years.",
+   "metric": "margin",
+   "value": {
+    "amount": 2,
+    "currency": null,
+    "unit": "percent of revenue",
+    "label": "Year one profit margin"
+   },
+   "period": "Year one",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "And your profit per year, 2%, 4%, 5%, 8%, 8%, 16%.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 46454,
+    "approx_timestamp_s": 2688
+   }
+  },
+  {
+   "claim": "The host recited a 4% profit margin for year two.",
+   "metric": "margin",
+   "value": {
+    "amount": 4,
+    "currency": null,
+    "unit": "percent of revenue",
+    "label": "Profit margin"
+   },
+   "period": "Year two",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "And your profit per year, 2%, 4%, 5%, 8%, 8%, 16%.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 46454,
+    "approx_timestamp_s": 2688
+   }
+  },
+  {
+   "claim": "The host recited a 5% profit margin for year three.",
+   "metric": "margin",
+   "value": {
+    "amount": 5,
+    "currency": null,
+    "unit": "percent of revenue",
+    "label": "Profit margin"
+   },
+   "period": "Year three",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "And your profit per year, 2%, 4%, 5%, 8%, 8%, 16%.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 46454,
+    "approx_timestamp_s": 2688
+   }
+  },
+  {
+   "claim": "The host recited an 8% profit margin for year four.",
+   "metric": "margin",
+   "value": {
+    "amount": 8,
+    "currency": null,
+    "unit": "percent of revenue",
+    "label": "Profit margin"
+   },
+   "period": "Year four",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "And your profit per year, 2%, 4%, 5%, 8%, 8%, 16%.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 46454,
+    "approx_timestamp_s": 2688
+   }
+  },
+  {
+   "claim": "The host recited an 8% profit margin for year five.",
+   "metric": "margin",
+   "value": {
+    "amount": 8,
+    "currency": null,
+    "unit": "percent of revenue",
+    "label": "Profit margin"
+   },
+   "period": "Year five",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "And your profit per year, 2%, 4%, 5%, 8%, 8%, 16%.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 46454,
+    "approx_timestamp_s": 2688
+   }
+  },
+  {
+   "claim": "The host recited a 16% profit margin for year six.",
+   "metric": "margin",
+   "value": {
+    "amount": 16,
+    "currency": null,
+    "unit": "percent of revenue",
+    "label": "Profit margin"
+   },
+   "period": "Year six",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "And your profit per year, 2%, 4%, 5%, 8%, 8%, 16%.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 46454,
+    "approx_timestamp_s": 2688
+   }
+  },
+  {
+   "claim": "Bartlett recalled an $800 sales day in the first week.",
+   "metric": "revenue",
+   "value": {
+    "amount": 800,
+    "currency": "USD",
+    "unit": "one day",
+    "label": "Sales day"
+   },
+   "period": "First week",
+   "claimant": "Ryan Bartlett",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I remember like the first week we hit like an $800 day and that was like blowing my mind.",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 32344,
+    "approx_timestamp_s": 1871
+   }
+  },
+  {
+   "claim": "Bartlett started Facebook ads at about $100 per day.",
+   "metric": "cost",
+   "value": {
+    "amount": 100,
+    "currency": "USD",
+    "unit": "per day",
+    "label": "Initial Facebook ad spend"
+   },
+   "period": "Early launch",
+   "claimant": "Ryan Bartlett",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I was, you know, I should go back and really look at the early days on Meta, but I do remember starting out at 100 a day.",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 35699,
+    "approx_timestamp_s": 2065
+   }
+  },
+  {
+   "claim": "Bartlett said he scaled the daily ad budget to about $300 within a week to a week and a half.",
+   "metric": "cost",
+   "value": {
+    "amount": 300,
+    "currency": "USD",
+    "unit": "per day",
+    "label": "Early Facebook ad spend"
+   },
+   "period": "Within a week to a week and a half",
+   "claimant": "Ryan Bartlett",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I went from 100 to 150 to 200, 250 to 300 in like no time. Like a week, week and a half.",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 35892,
+    "approx_timestamp_s": 2076
+   }
+  },
+  {
+   "claim": "Bartlett said the first launch month used about 10 static ads.",
+   "metric": "other",
+   "value": {
+    "amount": 10,
+    "currency": null,
+    "unit": "static ads",
+    "label": "Initial creative count"
+   },
+   "period": "First month",
+   "claimant": "Ryan Bartlett",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I probably came up with 10 static ads. We didn't we didn't even do video for like wow I want to say 6 to 8 months.",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 33384,
+    "approx_timestamp_s": 1931
+   }
+  },
+  {
+   "claim": "Bartlett said video ads began around six to eight months after launch.",
+   "metric": "other",
+   "value": {
+    "amount": 6,
+    "amount_max": 8,
+    "currency": null,
+    "unit": "months after launch",
+    "label": "Time until first video ads"
+   },
+   "period": "Early operation",
+   "claimant": "Ryan Bartlett",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "We didn't we didn't even do video for like wow I want to say 6 to 8 months.",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 33422,
+    "approx_timestamp_s": 1933
+   }
+  },
+  {
+   "claim": "Bartlett said Facebook ad spend was $60–70 million a year in recent years.",
+   "metric": "cost",
+   "value": {
+    "amount": 60000000,
+    "amount_max": 70000000,
+    "currency": "USD",
+    "unit": "per year",
+    "label": "Facebook advertising spend"
+   },
+   "period": "Last couple of years",
+   "claimant": "Ryan Bartlett",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "you know, like the last couple years we would spend 60 70 million on Facebook ads a year.",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 26402,
+    "approx_timestamp_s": 1527
+   }
+  },
+  {
+   "claim": "Bartlett said the advertising agency generated a little over $1 million a year.",
+   "metric": "revenue",
+   "value": {
+    "amount": 1000000,
+    "currency": "USD",
+    "unit": "per year",
+    "label": "Agency revenue, slightly above this amount"
+   },
+   "period": "At the time True Classic started",
+   "claimant": "Ryan Bartlett",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "It was a little over a million a year. Yeah, it was a great business, dude.",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 37232,
+    "approx_timestamp_s": 2154
+   }
+  },
+  {
+   "claim": "Bartlett said agency retainers ranged from $500 to $5,000 a month.",
+   "metric": "price",
+   "value": {
+    "amount": 500,
+    "amount_max": 5000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "Agency retainer range"
+   },
+   "period": null,
+   "claimant": "Ryan Bartlett",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "I was charging 500 to five grand a month because it was mostly LA market.",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 38038,
+    "approx_timestamp_s": 2201
+   }
+  },
+  {
+   "claim": "Bartlett said his agency sweet spot was $1,500 to $3,000 a month.",
+   "metric": "price",
+   "value": {
+    "amount": 1500,
+    "amount_max": 3000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "Agency retainer sweet spot"
+   },
+   "period": null,
+   "claimant": "Ryan Bartlett",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "I would say my sweet spot was like 1,500 to to 3,000 a month and it was like a lot of lawyers and dentists and chiropractors",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 38183,
+    "approx_timestamp_s": 2209
+   }
+  },
+  {
+   "claim": "Bartlett said he could source the T-shirt fabric and production for a couple of dollars per shirt.",
+   "metric": "cost",
+   "value": {
+    "amount": null,
+    "currency": "USD",
+    "unit": "per shirt",
+    "label": "A couple bucks in cost of goods"
+   },
+   "period": "Product development",
+   "claimant": "Ryan Bartlett",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "And so I could get that for like a couple bucks essentially on COGS.",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24329,
+    "approx_timestamp_s": 1407
+   }
+  },
+  {
+   "claim": "The host used a $100 shirt as an example of a premium apparel price.",
+   "metric": "price",
+   "value": {
+    "amount": 100,
+    "currency": "USD",
+    "unit": "per shirt",
+    "label": "Premium market example"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "And make him look, you know, buffer than he really is. And then let me make a premium garment that isn't $100 a shirt like some of the Nordstrom people that you go in there and see.",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2662,
+    "approx_timestamp_s": 154
+   }
+  },
+  {
+   "claim": "Bartlett estimated break-even Facebook ROAS at around 1.6.",
+   "metric": "other",
+   "value": {
+    "amount": 1.6,
+    "currency": null,
+    "unit": "ROAS multiple",
+    "label": "Break-even ROAS; transcript says '16 mark'"
+   },
+   "period": "Early advertising",
+   "claimant": "Ryan Bartlett",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "what I landed on was like my break even rorowaz was like somewhere in like the 16 mark",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25702,
+    "approx_timestamp_s": 1487
+   }
+  },
+  {
+   "claim": "Bartlett said days looked very profitable when ROAS exceeded 2:1.",
+   "metric": "other",
+   "value": {
+    "amount": 2,
+    "currency": null,
+    "unit": "ROAS multiple",
+    "label": "Profitability threshold"
+   },
+   "period": "Early advertising",
+   "claimant": "Ryan Bartlett",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "and my super profitable rorowaz was like 2 to one. Like anything over 2:1, my days looked unbelievably profitable.",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25789,
+    "approx_timestamp_s": 1492
+   }
+  },
+  {
+   "claim": "The host gave an illustrative $29 selling price for a competing shirt.",
+   "metric": "price",
+   "value": {
+    "amount": 29,
+    "currency": "USD",
+    "unit": "per shirt",
+    "label": "Hypothetical competitor selling price"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "They're selling the shirt for $29. They're paying $3 for it. They're paying $3 to ship it. They're paying $6 for a customer.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25039,
+    "approx_timestamp_s": 1448
+   }
+  },
+  {
+   "claim": "The host gave an illustrative $3 product cost for a competing shirt.",
+   "metric": "cost",
+   "value": {
+    "amount": 3,
+    "currency": "USD",
+    "unit": "per shirt",
+    "label": "Hypothetical cost of goods"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "They're selling the shirt for $29. They're paying $3 for it. They're paying $3 to ship it. They're paying $6 for a customer.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25039,
+    "approx_timestamp_s": 1448
+   }
+  },
+  {
+   "claim": "The host gave an illustrative $3 shipping cost for a competing shirt.",
+   "metric": "cost",
+   "value": {
+    "amount": 3,
+    "currency": "USD",
+    "unit": "per shirt",
+    "label": "Hypothetical shipping cost"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "They're selling the shirt for $29. They're paying $3 for it. They're paying $3 to ship it. They're paying $6 for a customer.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25039,
+    "approx_timestamp_s": 1448
+   }
+  },
+  {
+   "claim": "The host gave an illustrative $6 customer acquisition cost.",
+   "metric": "cost",
+   "value": {
+    "amount": 6,
+    "currency": "USD",
+    "unit": "per customer",
+    "label": "Hypothetical customer acquisition cost"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "They're selling the shirt for $29. They're paying $3 for it. They're paying $3 to ship it. They're paying $6 for a customer.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25039,
+    "approx_timestamp_s": 1448
+   }
+  },
+  {
+   "claim": "The host said the illustrative competitor economics implied a 60% net margin.",
+   "metric": "margin",
+   "value": {
+    "amount": 60,
+    "currency": null,
+    "unit": "percent",
+    "label": "Hypothetical margin"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "These guys have 60% net margins, not even including the retention and reorder rate and subscription.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25156,
+    "approx_timestamp_s": 1455
+   }
+  },
+  {
+   "claim": "Bartlett said the first $3,000 was split between ads and product development.",
+   "metric": "cost",
+   "value": {
+    "amount": 3000,
+    "currency": "USD",
+    "unit": "initial investment",
+    "label": "Initial True Classic spend"
+   },
+   "period": "At launch",
+   "claimant": "Ryan Bartlett",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "the 3,000 went against, you know, 2,000 of it went against Facebook ads. The other thousand went against actually building the shirt to make it great.",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 56049,
+    "approx_timestamp_s": 3243
+   }
+  },
+  {
+   "claim": "Bartlett said about $2,000 of the initial spend went to Facebook ads.",
+   "metric": "cost",
+   "value": {
+    "amount": 2000,
+    "currency": "USD",
+    "unit": "initial spend",
+    "label": "Facebook ads"
+   },
+   "period": "At launch",
+   "claimant": "Ryan Bartlett",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "the 3,000 went against, you know, 2,000 of it went against Facebook ads. The other thousand went against actually building the shirt to make it great.",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 56049,
+    "approx_timestamp_s": 3243
+   }
+  },
+  {
+   "claim": "Bartlett said about $1,000 went toward building the shirt.",
+   "metric": "cost",
+   "value": {
+    "amount": 1000,
+    "currency": "USD",
+    "unit": "initial spend",
+    "label": "Product development"
+   },
+   "period": "At launch",
+   "claimant": "Ryan Bartlett",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "the 3,000 went against, you know, 2,000 of it went against Facebook ads. The other thousand went against actually building the shirt to make it great.",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 56049,
+    "approx_timestamp_s": 3243
+   }
+  },
+  {
+   "claim": "Bartlett said the manufacturer was asked for $20,000 in credit.",
+   "metric": "cost",
+   "value": {
+    "amount": 20000,
+    "currency": "USD",
+    "unit": "credit",
+    "label": "Requested manufacturer credit"
+   },
+   "period": "Early operation",
+   "claimant": "Ryan Bartlett",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "our ask was, Give me 20,000 in credit, right? Give me terms on that credit.",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 55840,
+    "approx_timestamp_s": 3231
+   }
+  },
+  {
+   "claim": "Bartlett said he sought 60- or 90-day credit terms from manufacturers.",
+   "metric": "other",
+   "value": {
+    "amount": 60,
+    "amount_max": 90,
+    "currency": null,
+    "unit": "days",
+    "label": "Requested credit terms"
+   },
+   "period": "Early operation",
+   "claimant": "Ryan Bartlett",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Give me terms on that credit. Give me 60 days. Give me 90 days, whatever it is.",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 55883,
+    "approx_timestamp_s": 3233
+   }
+  },
+  {
+   "claim": "Bartlett said negotiations saved the company over $40–50 million a year in fees and product costs.",
+   "metric": "cost",
+   "value": {
+    "amount": 40000000,
+    "amount_max": 50000000,
+    "currency": "USD",
+    "unit": "per year saved",
+    "label": "Negotiated savings, stated as 'excess of 40 to 50 million'"
+   },
+   "period": "Annual",
+   "claimant": "Ryan Bartlett",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "we're probably saving the company excess of 40 to 50 million a year in fees and cogs.",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 57390,
+    "approx_timestamp_s": 3320
+   }
+  },
+  {
+   "claim": "Bartlett said software contract negotiations saved low millions of dollars a year.",
+   "metric": "cost",
+   "value": {
+    "amount": null,
+    "currency": "USD",
+    "unit": "per year saved",
+    "label": "Low millions in software savings"
+   },
+   "period": "Annual",
+   "claimant": "Ryan Bartlett",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Even on the SAS side, we're probably saving in the low millions a year in just pure negotiation.",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 57546,
+    "approx_timestamp_s": 3329
+   }
+  },
+  {
+   "claim": "The host said a Chicken Salad Chick franchise can make hundreds of thousands of dollars in net profit a year.",
+   "metric": "profit",
+   "value": {
+    "amount": null,
+    "currency": "USD",
+    "unit": "per year",
+    "label": "Hundreds of thousands in net profit"
+   },
+   "period": "Annual",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "And the franchises do hundreds of thousands a year of net profit.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10570,
+    "approx_timestamp_s": 611
+   }
+  },
+  {
+   "claim": "The host said fidget spinners were ordered in quantities worth tens of thousands of dollars.",
+   "metric": "cost",
+   "value": {
+    "amount": null,
+    "currency": "USD",
+    "unit": "bulk order",
+    "label": "Tens of thousands of dollars"
+   },
+   "period": "During the short-lived trend",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I17",
+   "quote": {
+    "text": "So we would order them by the tens of thousands of dollars for like a dollar each",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22720,
+    "approx_timestamp_s": 1314
+   }
+  },
+  {
+   "claim": "The host said the bulk fidget spinners cost about $1 each.",
+   "metric": "cost",
+   "value": {
+    "amount": 1,
+    "currency": "USD",
+    "unit": "per unit",
+    "label": "Approximate bulk cost"
+   },
+   "period": "During the short-lived trend",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I17",
+   "quote": {
+    "text": "So we would order them by the tens of thousands of dollars for like a dollar each",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22720,
+    "approx_timestamp_s": 1314
+   }
+  },
+  {
+   "claim": "The host said the fidget spinners were sold to shops for about $1.50 each.",
+   "metric": "price",
+   "value": {
+    "amount": 1.5,
+    "currency": "USD",
+    "unit": "per unit",
+    "label": "Wholesale price"
+   },
+   "period": "During the short-lived trend",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I17",
+   "quote": {
+    "text": "and then sell them for $1.50 each and then they would sell them at the counter for $5 each",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22802,
+    "approx_timestamp_s": 1319
+   }
+  },
+  {
+   "claim": "The host said shops sold fidget spinners at the counter for about $5 each.",
+   "metric": "price",
+   "value": {
+    "amount": 5,
+    "currency": "USD",
+    "unit": "per unit",
+    "label": "Retail counter price"
+   },
+   "period": "During the short-lived trend",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I17",
+   "quote": {
+    "text": "and then sell them for $1.50 each and then they would sell them at the counter for $5 each",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22802,
+    "approx_timestamp_s": 1319
+   }
+  },
+  {
+   "claim": "The host said the God Is Dope shirts were sold for about $5 each.",
+   "metric": "price",
+   "value": {
+    "amount": 5,
+    "currency": "USD",
+    "unit": "per shirt",
+    "label": "Giveaway shirt price"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I9",
+   "quote": {
+    "text": "And he went around Atlanta um selling these for $5 basically break even.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 80035,
+    "approx_timestamp_s": 4631
+   }
+  },
+  {
+   "claim": "The host said other God Is Dope shirts sold for $20–30.",
+   "metric": "price",
+   "value": {
+    "amount": 20,
+    "amount_max": 30,
+    "currency": "USD",
+    "unit": "per shirt",
+    "label": "Other website designs"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I9",
+   "quote": {
+    "text": "Then people go to his website goddisdop.com and they start spending 20 $30 on t-shirts with different designs.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 80215,
+    "approx_timestamp_s": 4641
+   }
+  },
+  {
+   "claim": "The host suggested CRO retainers could range from $5,000 to $20,000 a month.",
+   "metric": "price",
+   "value": {
+    "amount": 5000,
+    "amount_max": 20000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "Possible CRO agency fee"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I10",
+   "quote": {
+    "text": "you could charge 5, 10, 15, 20,000 a month, but you're creating overnight impact.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 82191,
+    "approx_timestamp_s": 4755
+   }
+  },
+  {
+   "claim": "The host used $100,000 in added monthly revenue as an example of CRO value.",
+   "metric": "revenue",
+   "value": {
+    "amount": 100000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "Hypothetical revenue increase"
+   },
+   "period": "Monthly",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I10",
+   "quote": {
+    "text": "you have just created such unbelievable value for that business that what is five grand to them when they're going to be making a h 100red grand more per month.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 82400,
+    "approx_timestamp_s": 4768
+   }
+  },
+  {
+   "claim": "The host used a half-percentage-point conversion improvement as an example.",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 0.5,
+    "currency": null,
+    "unit": "percentage points",
+    "label": "Hypothetical CRO lift"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I10",
+   "quote": {
+    "text": "if you redesign that thing and it converts at like half a point better, you have just created such unbelievable value",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 82329,
+    "approx_timestamp_s": 4763
+   }
+  },
+  {
+   "claim": "The host suggested an email agency could charge $2,500 a month after proving value.",
+   "metric": "price",
+   "value": {
+    "amount": 2500,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "Possible email agency retainer"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I11",
+   "quote": {
+    "text": "Pretty soon, you're going to have people lined up to pay you $2,500 a month to improve their Clavio flows or to add new flows",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 85854,
+    "approx_timestamp_s": 4967
+   }
+  },
+  {
+   "claim": "The host compared a $10,000 monthly full-time CFO cost with $2,500 monthly fractional CFO service.",
+   "metric": "price",
+   "value": {
+    "amount": 2500,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "Example fractional CFO fee"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I13",
+   "quote": {
+    "text": "Instead of hiring someone for 10 grand a month to be a CFO, you know, your your business isn't really big enough, you could pay $2,500 a month",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 82952,
+    "approx_timestamp_s": 4799
+   }
+  },
+  {
+   "claim": "The host used $10,000 a month as an example full-time CFO cost.",
+   "metric": "price",
+   "value": {
+    "amount": 10000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "Example full-time CFO cost"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I13",
+   "quote": {
+    "text": "Instead of hiring someone for 10 grand a month to be a CFO, you know, your your business isn't really big enough, you could pay $2,500 a month",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 82952,
+    "approx_timestamp_s": 4799
+   }
+  },
+  {
+   "claim": "The host said True Classic had 16 retail stores and could have had more than 100 had it expanded faster.",
+   "metric": "customers",
+   "value": {
+    "amount": 16,
+    "amount_max": 100,
+    "currency": null,
+    "unit": "stores; more than 100 potential stores",
+    "label": "Current and unrealized retail footprint"
+   },
+   "period": "At time of interview",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So we have 16 stores now. We could have had over a hundred had we ramped at the level we were going to ramp originally",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 51607,
+    "approx_timestamp_s": 2986
+   }
+  },
+  {
+   "claim": "Bartlett said he gave away $6 million in inventory to people affected by the Los Angeles fires.",
+   "metric": "cost",
+   "value": {
+    "amount": 6000000,
+    "currency": "USD",
+    "unit": "inventory donated",
+    "label": "Fire relief donation"
+   },
+   "period": "Last year, as stated in the interview",
+   "claimant": "Ryan Bartlett",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "the LA Fires were here last year and I gave away like 6 million in inventory to people that lost everything.",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 45461,
+    "approx_timestamp_s": 2630
+   }
+  },
+  {
+   "claim": "Bartlett said True Classic received between 100,000 and 150,000 visitors a day.",
+   "metric": "traffic",
+   "value": {
+    "amount": 100000,
+    "amount_max": 150000,
+    "currency": null,
+    "unit": "visitors per day",
+    "label": "Website traffic"
+   },
+   "period": "Per day",
+   "claimant": "Ryan Bartlett",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "It's somewhere between a 100 to 150,000 a day.",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 95898,
+    "approx_timestamp_s": 5549
+   }
+  },
+  {
+   "claim": "The host used a 3.5% conversion rate as a hypothetical baseline.",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 3.5,
+    "currency": null,
+    "unit": "percent",
+    "label": "Hypothetical baseline conversion"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "If you have 100,000 visitors a day, that's 3,500 orders at a three and a half% conversion rate.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 95952,
+    "approx_timestamp_s": 5552
+   }
+  },
+  {
+   "claim": "The host used a 3.6% conversion rate as a hypothetical improvement.",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 3.6,
+    "currency": null,
+    "unit": "percent",
+    "label": "Hypothetical improved conversion"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "If you find some intern that gets your conversion rate from 3.5 to 3.6, that's an extra 100 orders, right?",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 96045,
+    "approx_timestamp_s": 5557
+   }
+  },
+  {
+   "claim": "The host estimated that a 0.1 percentage-point lift on 100,000 daily visitors could add 100 orders a day.",
+   "metric": "customers",
+   "value": {
+    "amount": 100,
+    "currency": null,
+    "unit": "orders per day",
+    "label": "Hypothetical additional orders"
+   },
+   "period": "Per day",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "If you find some intern that gets your conversion rate from 3.5 to 3.6, that's an extra 100 orders, right?",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 96045,
+    "approx_timestamp_s": 5557
+   }
+  },
+  {
+   "claim": "Bartlett said the comedic ad had 35 million views across organic and paid distribution.",
+   "metric": "traffic",
+   "value": {
+    "amount": 35000000,
+    "currency": null,
+    "unit": "views",
+    "label": "Comedic ad views"
+   },
+   "period": "Not stated",
+   "claimant": "Ryan Bartlett",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So 35 million views. Was that organic or did you put paid behind that? Both.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 66969,
+    "approx_timestamp_s": 3875
+   }
+  },
+  {
+   "claim": "Bartlett estimated that about 5–6 million of the comedic ad's views were organic.",
+   "metric": "traffic",
+   "value": {
+    "amount": 5000000,
+    "amount_max": 6000000,
+    "currency": null,
+    "unit": "organic views",
+    "label": "Estimated organic views"
+   },
+   "period": "Not stated",
+   "claimant": "Ryan Bartlett",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "The organic was probably a few uh let me see. It was like probably five or six million if I remember correctly",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 67060,
+    "approx_timestamp_s": 3880
+   }
+  },
+  {
+   "claim": "Bartlett said True Classic ads received about 14 million impressions a day.",
+   "metric": "traffic",
+   "value": {
+    "amount": 14000000,
+    "currency": null,
+    "unit": "impressions per day",
+    "label": "Advertising impressions"
+   },
+   "period": "Per day",
+   "claimant": "Ryan Bartlett",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Dude, we're already getting, you know, 14 million impressions a day on our ads.",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 49477,
+    "approx_timestamp_s": 2862
+   }
+  },
+  {
+   "claim": "The guest said a comedic True Classic ad contained the claim that more than 200,000 people gave the brand five stars.",
+   "metric": "customers",
+   "value": {
+    "amount": 200000,
+    "currency": null,
+    "unit": "people",
+    "label": "Ad-script claim about five-star reviews"
+   },
+   "period": "Not stated",
+   "claimant": "True Classic ad script, played by Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I don't need to know how to read to know that over 200,000 people gave True Classic a five stars.",
+    "speaker": "True Classic ad script",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 66312,
+    "approx_timestamp_s": 3837
+   }
+  },
+  {
+   "claim": "Bartlett said Harmon Brothers would charge more than $500,000 for an ad.",
+   "metric": "cost",
+   "value": {
+    "amount": 500000,
+    "currency": "USD",
+    "unit": "per ad",
+    "label": "Guest's estimate of Harmon Brothers pricing, more than this amount"
+   },
+   "period": null,
+   "claimant": "Ryan Bartlett",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "The Harmon Brothers are way too expensive. Are you kidding me? That's like 500 grand for an ad, isn't it?",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 68389,
+    "approx_timestamp_s": 3957
+   }
+  },
+  {
+   "claim": "Bartlett said the first small-run apparel test could use 100 units of one style.",
+   "metric": "customers",
+   "value": {
+    "amount": 100,
+    "currency": null,
+    "unit": "units per style",
+    "label": "Hypothetical initial test size"
+   },
+   "period": "Planned Portless test",
+   "claimant": "Ryan Bartlett",
+   "first_hand": true,
+   "hypothetical": true,
+   "idea_local_id": "I8",
+   "quote": {
+    "text": "I can make bets on small product categories and shirts and things like that on a very small run and prove it out first on say a 100 units.",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 76865,
+    "approx_timestamp_s": 4447
+   }
+  },
+  {
+   "claim": "Bartlett said a test would be a winner if 100 units sold through in one day.",
+   "metric": "other",
+   "value": {
+    "amount": 1,
+    "currency": null,
+    "unit": "day to sell through",
+    "label": "Hypothetical sell-through speed"
+   },
+   "period": "Hypothetical test",
+   "claimant": "Ryan Bartlett",
+   "first_hand": true,
+   "hypothetical": true,
+   "idea_local_id": "I8",
+   "quote": {
+    "text": "And if it if I blow through a 100 units in one day, well, I'm I'm into a winner.",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 77003,
+    "approx_timestamp_s": 4455
+   }
+  },
+  {
+   "claim": "Bartlett said he hoped the small-run process could support 10–50 styles a month.",
+   "metric": "other",
+   "value": {
+    "amount": 10,
+    "amount_max": 50,
+    "currency": null,
+    "unit": "styles per month",
+    "label": "Planned monthly test volume, with 20 also stated"
+   },
+   "period": "Following month or two",
+   "claimant": "Ryan Bartlett",
+   "first_hand": true,
+   "hypothetical": true,
+   "idea_local_id": "I8",
+   "quote": {
+    "text": "We're going to start being able to do 10, 20, maybe 50 styles a month at a 100 units per style.",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 77995,
+    "approx_timestamp_s": 4513
+   }
+  },
+  {
+   "claim": "Bartlett said the Portless shipping time from purchase to customer was about six days.",
+   "metric": "other",
+   "value": {
+    "amount": 6,
+    "currency": null,
+    "unit": "days",
+    "label": "Portless transit time"
+   },
+   "period": "Purchase to delivery",
+   "claimant": "Ryan Bartlett",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I8",
+   "quote": {
+    "text": "The portless transit time from purchase to landed with the customer is like six days. It's crazy.",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 79570,
+    "approx_timestamp_s": 4604
+   }
+  },
+  {
+   "claim": "Bartlett said the alternative US delivery time was about five days.",
+   "metric": "other",
+   "value": {
+    "amount": 5,
+    "currency": null,
+    "unit": "days",
+    "label": "Comparison transit time"
+   },
+   "period": "Purchase to delivery",
+   "claimant": "Ryan Bartlett",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I8",
+   "quote": {
+    "text": "Do you know how much now it's like 5 days in the US?",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 79779,
+    "approx_timestamp_s": 4616
+   }
+  },
+  {
+   "claim": "Bartlett said the retailer Quint was launching 8,000 styles a day.",
+   "metric": "other",
+   "value": {
+    "amount": 8000,
+    "currency": null,
+    "unit": "styles per day",
+    "label": "Claim about Quint"
+   },
+   "period": "Daily",
+   "claimant": "Ryan Bartlett",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I8",
+   "quote": {
+    "text": "Dude, you know how many styles? Quint is rolling out on a daily basis? 8,000.",
+    "speaker": "Ryan Bartlett",
+    "match_score": 95.9,
+    "verified": true,
+    "char_offset": 78404,
+    "approx_timestamp_s": 4536
+   }
+  },
+  {
+   "claim": "Bartlett referred to Quint having a $5 billion valuation.",
+   "metric": "valuation",
+   "value": {
+    "amount": 5000000000,
+    "currency": "USD",
+    "unit": "valuation",
+    "label": "Claim about Quint"
+   },
+   "period": "Not stated",
+   "claimant": "Ryan Bartlett",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I8",
+   "quote": {
+    "text": "Like, holy crap. When I heard that number, I looked at Ben, our CEO, and we were just like, what are we doing? Like, yeah, no wonder they have a $5 billion valuation.",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 78508,
+    "approx_timestamp_s": 4542
+   }
+  },
+  {
+   "claim": "Bartlett said True Classic had 16 stores at the time of the interview.",
+   "metric": "customers",
+   "value": {
+    "amount": 16,
+    "currency": null,
+    "unit": "stores",
+    "label": "Retail locations"
+   },
+   "period": "At interview",
+   "claimant": "Ryan Bartlett",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So we have 16 stores now.",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 51607,
+    "approx_timestamp_s": 2986
+   }
+  },
+  {
+   "claim": "Bartlett estimated that True Classic could have opened more than 100 stores had it scaled retail faster.",
+   "metric": "customers",
+   "value": {
+    "amount": 100,
+    "currency": null,
+    "unit": "stores, more than",
+    "label": "Hypothetical retail footprint"
+   },
+   "period": "Could have opened",
+   "claimant": "Ryan Bartlett",
+   "first_hand": true,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "We could have had over a hundred had we ramped at the level we were going to ramp originally",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 51632,
+    "approx_timestamp_s": 2987
+   }
+  },
+  {
+   "claim": "Bartlett said the company tested retail in 16 stores and believed it could have expanded beyond 100.",
+   "metric": "customers",
+   "value": {
+    "amount": 16,
+    "amount_max": 100,
+    "currency": null,
+    "unit": "stores",
+    "label": "Current and possible retail footprint"
+   },
+   "period": "At interview",
+   "claimant": "Ryan Bartlett",
+   "first_hand": true,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So we have 16 stores now. We could have had over a hundred had we ramped at the level we were going to ramp originally",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 51607,
+    "approx_timestamp_s": 2986
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Validate demand before committing to a product",
+   "area": "validation_testing",
+   "steps": [
+    "Read marketplace reviews to find repeated customer complaints and requests.",
+    "Compare competitors' product, price, customer service, and marketing.",
+    "Use a small test or dropshipped product to learn whether customers respond before making a large inventory bet.",
+    "Treat customer feedback as product input rather than relying only on industry trend reports."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "go validate please on Amazon and come back to me with something really tangible and then I'll feel much better about investing into product.",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20758,
+    "approx_timestamp_s": 1201
+   }
+  },
+  {
+   "name": "Narrow down dropshipping tests",
+   "area": "product",
+   "steps": [
+    "Test a range of products.",
+    "Identify repeated winners, such as the fidget spinner Bartlett described.",
+    "Build a focused website around a winning product rather than continuing to sell an unfocused mix."
+   ],
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "Test everything, find your winners, scale the winners.",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22208,
+    "approx_timestamp_s": 1285
+   }
+  },
+  {
+   "name": "Solve one clear apparel problem",
+   "area": "offer_design",
+   "steps": [
+    "Choose a specific customer and product problem.",
+    "For True Classic, focus on fit, price, and comfort.",
+    "Make the product itself demonstrate the benefit, such as showing how the fit changes the wearer's appearance."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Once I like figured out the three value props that we kind of live and die by which is like just fit, price and comfort.",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 35105,
+    "approx_timestamp_s": 2031
+   }
+  },
+  {
+   "name": "Iterate around a winning product",
+   "area": "product",
+   "steps": [
+    "Keep improving the product customers already buy.",
+    "Test variations such as curved hems, different fits, and inclusive sizes.",
+    "Delay unrelated product categories until the core product and its variations are strong."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "lean into what works and then do all your iterations against that winner.",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 31484,
+    "approx_timestamp_s": 1821
+   }
+  },
+  {
+   "name": "Use gift with purchase to introduce adjacent products",
+   "area": "pricing",
+   "steps": [
+    "Choose a high-quality product from a related category, such as activewear or underwear.",
+    "Add it as a gift during checkout and use order thresholds for shipping or additional gifts.",
+    "Measure average order value and whether recipients later buy from the new category.",
+    "Do not use unwanted overstock as the gift if it will disappoint customers."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I did it specifically. Well, number one, boost AOV. That's like the obvious thing, right? Like average order value.",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9118,
+    "approx_timestamp_s": 527
+   }
+  },
+  {
+   "name": "Scale ads with a clear performance rule",
+   "area": "acquisition",
+   "steps": [
+    "Start with a manageable ad budget and increase it when results support the increase.",
+    "Bartlett described going from $100 per day to $300 per day within about a week to a week and a half.",
+    "If performance collapses, pull spend back rather than continuing blindly.",
+    "Compare platform-attributed returns with the full profit and loss statement."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Now if I push and I look tomorrow and rorowaz is like 0.2 two I'll pull back, right? Like that's how I thought about it.",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 32855,
+    "approx_timestamp_s": 1901
+   }
+  },
+  {
+   "name": "Build retention before relying on acquisition cash",
+   "area": "operations",
+   "steps": [
+    "Set up welcome, abandoned-cart, and post-purchase email flows.",
+    "Use post-purchase upsells to introduce related products.",
+    "Track whether customers return and buy across categories.",
+    "Reinvest cash when the business can afford to do so."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So that comes back to like Clavio, email flows, post-purchase upsells, and abandoned cart flows, welcome flows, optimizing the crap out of all of that.",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 54974,
+    "approx_timestamp_s": 3181
+   }
+  },
+  {
+   "name": "Diversify channels after finding product-market fit",
+   "area": "scaling",
+   "steps": [
+    "Use the early paid channel to learn, but avoid becoming dependent on it.",
+    "Develop wholesale and retail relationships so the business can reach people who distrust online-only brands.",
+    "Use retail presence to build credibility as well as immediate sales."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "diversifying sooner than later is incredibly important to the success of your brand.",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 26903,
+    "approx_timestamp_s": 1556
+   }
+  },
+  {
+   "name": "Use a 3PL from the start",
+   "area": "operations",
+   "steps": [
+    "Outsource physical fulfillment when the founders cannot reliably handle it themselves.",
+    "Review 3PL software and order-routing behavior.",
+    "Monitor split shipments and shipping charges because errors can erase margins."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "We knew like there was no way we were going to be able to tell actually ourselves.",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 53944,
+    "approx_timestamp_s": 3121
+   }
+  },
+  {
+   "name": "Negotiate cash-flow terms with suppliers",
+   "area": "finance_unit_economics",
+   "steps": [
+    "Explain the business's potential to manufacturers and ask them to invest through credit terms.",
+    "Ask for a defined credit amount and 60- or 90-day terms.",
+    "Talk to multiple potential partners because many may decline before one agrees.",
+    "Review supplier and software contracts again as volume grows."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "our ask was, Give me 20,000 in credit, right? Give me terms on that credit. Give me 60 days. Give me 90 days, whatever it is.",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 55840,
+    "approx_timestamp_s": 3231
+   }
+  },
+  {
+   "name": "Make comedy ads explain the product",
+   "area": "acquisition",
+   "steps": [
+    "Work with people who can make genuinely funny creative.",
+    "Show a clear before-and-after product reveal.",
+    "Include the key product benefit and related categories in the script.",
+    "Test iterations and keep the elements that improve results."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "if you really break down that ad, one of the biggest components that you'll notice is that there's this reveal moment",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 69954,
+    "approx_timestamp_s": 4047
+   }
+  },
+  {
+   "name": "Check marketing attribution with post-purchase surveys",
+   "area": "finance_unit_economics",
+   "steps": [
+    "Ask customers where they heard about the brand after purchase.",
+    "Compare survey responses with platform-reported performance.",
+    "If a channel receives no survey credit and is not showing up in sales, consider stopping spend."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "If it's not showing up in the post-purchase survey, guess what? It's not netting out.",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 64487,
+    "approx_timestamp_s": 3731
+   }
+  },
+  {
+   "name": "Use a small free project to prove agency value",
+   "area": "customer_acquisition",
+   "steps": [
+    "Find e-commerce owners in a relevant Facebook group.",
+    "Offer to review or improve their email flows for free.",
+    "Request read-only access and do not send or publish changes without approval.",
+    "Document results as case studies before pitching a retainer."
+   ],
+   "idea_local_id": "I11",
+   "quote": {
+    "text": "Let me mess with your flows. Let me see if I can get your revenue per recipient up.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 85613,
+    "approx_timestamp_s": 4953
+   }
+  },
+  {
+   "name": "Sell agencies on attributable impact",
+   "area": "sales",
+   "steps": [
+    "Tie the offer to a measurable business result.",
+    "Show the client work or data that supports the proposal.",
+    "Avoid sending generic decks that list impressions or contacts without explaining the impact.",
+    "Use a flat fee when starting if that is easier to explain and deliver."
+   ],
+   "idea_local_id": "I10",
+   "quote": {
+    "text": "If you can't do that, you're going to be fighting uphill the entire time.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 83571,
+    "approx_timestamp_s": 4835
+   }
+  },
+  {
+   "name": "Prioritize impact over busy work",
+   "area": "operations",
+   "steps": [
+    "Learn which outcomes matter to the business before choosing projects.",
+    "Put roughly 80% of effort toward high-impact work and 20% toward routine work, as Bartlett advised.",
+    "Use AI and agents to reduce repetitive tasks so people can focus on higher-impact work."
+   ],
+   "idea_local_id": null,
+   "quote": {
+    "text": "80% of your energy towards impactful things for the business, 20% to busy work and learn AI, learn a AI agents",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 94184,
+    "approx_timestamp_s": 5449
+   }
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Shopify",
+   "purpose": "E-commerce storefront and order platform used by True Classic and recommended for dropshipping.",
+   "cost_stated": null
+  },
+  {
+   "name": "WordPress",
+   "purpose": "Platform Bartlett had used before choosing Shopify for the store.",
+   "cost_stated": null
+  },
+  {
+   "name": "Facebook / Meta",
+   "purpose": "Paid social advertising and early customer acquisition.",
+   "cost_stated": "Bartlett said early spend began at $100 per day and later reached $300 per day; he said recent annual spend was $60–70 million."
+  },
+  {
+   "name": "Amazon",
+   "purpose": "Marketplace used by the guest to validate product demand and review customer feedback.",
+   "cost_stated": null
+  },
+  {
+   "name": "AliExpress",
+   "purpose": "Dropshipping product sourcing and supplier fulfillment.",
+   "cost_stated": null
+  },
+  {
+   "name": "Oberlo",
+   "purpose": "Dropshipping connection mentioned for connecting suppliers to Shopify.",
+   "cost_stated": null
+  },
+  {
+   "name": "WGSN",
+   "purpose": "Apparel trend source Bartlett said his product team considered.",
+   "cost_stated": null
+  },
+  {
+   "name": "Klaviyo",
+   "purpose": "Email flows and e-commerce lifecycle marketing; transcript renders the name as 'Clavio'.",
+   "cost_stated": null
+  },
+  {
+   "name": "Triple Whale",
+   "purpose": "Analytics platform named by Bartlett.",
+   "cost_stated": null
+  },
+  {
+   "name": "AfterSell",
+   "purpose": "Post-purchase upsells; transcript renders the name as 'afterale'.",
+   "cost_stated": null
+  },
+  {
+   "name": "Intelligems",
+   "purpose": "CRO testing platform Bartlett recommended; transcript renders the name as 'Intellig' and 'Intelligjs'.",
+   "cost_stated": null
+  },
+  {
+   "name": "Maverick AI",
+   "purpose": "Personalized video email tool Bartlett described using to address customers by name.",
+   "cost_stated": null
+  },
+  {
+   "name": "Portless",
+   "purpose": "China-based 3PL model for small-run apparel testing and direct shipping.",
+   "cost_stated": null
+  },
+  {
+   "name": "Snap",
+   "purpose": "Paid advertising platform Bartlett said they tested.",
+   "cost_stated": "Not stated; Bartlett said the post-purchase survey showed 0% of responses for the spend he described."
+  },
+  {
+   "name": "TikTok",
+   "purpose": "Platform where Bartlett said he first found the comedy video creators Greg and Nate.",
+   "cost_stated": null
+  },
+  {
+   "name": "YouTube",
+   "purpose": "Platform for the guest's videos and the possible future live Q&A show.",
+   "cost_stated": null
+  },
+  {
+   "name": "Instagram",
+   "purpose": "Social platform where Bartlett said people could find him.",
+   "cost_stated": null
+  },
+  {
+   "name": "Twitter",
+   "purpose": "Social platform where Bartlett said people could find him.",
+   "cost_stated": null
+  },
+  {
+   "name": "LinkedIn",
+   "purpose": "Social platform where Bartlett said people could find him.",
+   "cost_stated": null
+  },
+  {
+   "name": "Slack",
+   "purpose": "Internal channel where True Classic staff shared ideas.",
+   "cost_stated": null
+  },
+  {
+   "name": "ChatGPT",
+   "purpose": "Mentioned in connection with the changing SEO landscape.",
+   "cost_stated": null
+  },
+  {
+   "name": "Costco",
+   "purpose": "Wholesale and retail partner named as a True Classic distribution channel.",
+   "cost_stated": null
+  },
+  {
+   "name": "Target",
+   "purpose": "Wholesale and retail partner named as a True Classic distribution channel.",
+   "cost_stated": null
+  },
+  {
+   "name": "Sam's Club",
+   "purpose": "Wholesale and retail partner named as a True Classic distribution channel.",
+   "cost_stated": null
+  },
+  {
+   "name": "TJ Maxx",
+   "purpose": "Wholesale and retail partner named as a True Classic distribution channel.",
+   "cost_stated": null
+  },
+  {
+   "name": "Kohl's",
+   "purpose": "Wholesale and retail partner named as a True Classic distribution channel.",
+   "cost_stated": null
+  },
+  {
+   "name": "Harmon Brothers",
+   "purpose": "Comedy advertising production company discussed by the speakers.",
+   "cost_stated": "Bartlett estimated an ad could cost more than $500,000."
+  },
+  {
+   "name": "Greg Tube",
+   "purpose": "Comedy creators Bartlett credited with early True Classic ads.",
+   "cost_stated": null
+  },
+  {
+   "name": ". online domains",
+   "purpose": "Sponsor-read domain service mentioned by the host.",
+   "cost_stated": "Sponsor offer: first domain for $0.99."
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Do not expand into unrelated product categories just to raise sales; Bartlett said brands often fail to give new products the same attention as the original winner.",
+   "quote": {
+    "text": "And then they don't put the same intentionality that they put into the original product into everything else. And that is a huge miss.",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13101,
+    "approx_timestamp_s": 758
+   }
+  },
+  {
+   "warning": "A business that depends too heavily on one paid channel can be vulnerable to platform changes or a loss of attribution.",
+   "quote": {
+    "text": "Like, well, if Facebook goes away, we're out of business.",
+    "speaker": "Ryan Bartlett",
+    "match_score": 86.8,
+    "verified": false,
+    "char_offset": 26835,
+    "approx_timestamp_s": 1552
+   }
+  },
+  {
+   "warning": "Retail stores can appear unprofitable if their influence on later online purchases is not attributed to the store.",
+   "quote": {
+    "text": "Like, you see this gap in the P&L for retail, and you're like, Oh, we're just losing money.",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 52596,
+    "approx_timestamp_s": 3043
+   }
+  },
+  {
+   "warning": "The guest described 3PL software failures that split shipments and doubled shipping charges.",
+   "quote": {
+    "text": "And if you know what split ships are, like I've done that, you're paying double uh for every order.",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 54301,
+    "approx_timestamp_s": 3142
+   }
+  },
+  {
+   "warning": "Do not assume platform-attributed ROAS represents full business profitability; operating expenses and other P&L items also matter.",
+   "quote": {
+    "text": "that's not really the true rorowaz. That's the attributed rorowaz from Facebook which doesn't take into account your operational expenses",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 36225,
+    "approx_timestamp_s": 2096
+   }
+  },
+  {
+   "warning": "Comedy ads can be difficult to create, and Bartlett said ads without a product reveal performed poorly for them.",
+   "quote": {
+    "text": "if we didn't include that transitional component, which is really very DR, that the ad really suffered on rorowaz",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 70234,
+    "approx_timestamp_s": 4064
+   }
+  },
+  {
+   "warning": "The guest said generic partnership proposals based on impressions or logos do not persuade him; proposals should explain customer impact.",
+   "quote": {
+    "text": "Don't show me your sexy deck with big numbers and all these impressions. You're not going to win me over",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 89031,
+    "approx_timestamp_s": 5151
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Start from a customer problem and validate it through customer feedback, reviews, and product tests rather than building only around a founder's preferred brand idea.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "Solve a problem in the market, and your life will be a million times easier, right?",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3297,
+    "approx_timestamp_s": 190
+   }
+  },
+  {
+   "lesson": "Good product-market fit and repeat purchasing can matter more than profitable first-order acquisition.",
+   "theme": "finance_unit_economics",
+   "quote": {
+    "text": "without the retention in the repeat buy, there is no business essentially.",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7112,
+    "approx_timestamp_s": 411
+   }
+  },
+  {
+   "lesson": "Improve the winning offer and its variations before scattering effort across unrelated products.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "lean into what works and then do all your iterations against that winner.",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 31484,
+    "approx_timestamp_s": 1821
+   }
+  },
+  {
+   "lesson": "Customer feedback can reveal the emotional value customers receive, which may be more compelling than the product's basic function.",
+   "theme": "offer_design",
+   "quote": {
+    "text": "oh, we're selling confidence. We're not just selling t-shirts now.",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5460,
+    "approx_timestamp_s": 315
+   }
+  },
+  {
+   "lesson": "Keep adding genuine value across product categories; a new category should meet the same standard as the original product.",
+   "theme": "offer_design",
+   "quote": {
+    "text": "You have to take that original DNA that you put there and spread it out.",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13322,
+    "approx_timestamp_s": 770
+   }
+  },
+  {
+   "lesson": "Measure marketing with multiple sources, including post-purchase questions and full business economics, rather than relying only on ad-platform attribution.",
+   "theme": "finance_unit_economics",
+   "quote": {
+    "text": "I just look to my source of truth for literally everything.",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 64847,
+    "approx_timestamp_s": 3752
+   }
+  },
+  {
+   "lesson": "Negotiate supplier and software contracts because small cost improvements can matter greatly in a low-margin business.",
+   "theme": "finance_unit_economics",
+   "quote": {
+    "text": "negotiating is so incredibly important to the life of a business.",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 55320,
+    "approx_timestamp_s": 3201
+   }
+  },
+  {
+   "lesson": "A service business can be a strong way to learn sales and build recurring revenue, but the founder must be able to listen and explain value.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "you need to be obsessed with sales because you need to know how to relate to people. You need to know how to listen.",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 38913,
+    "approx_timestamp_s": 2251
+   }
+  },
+  {
+   "lesson": "Specific, provable impact makes a service offer easier to buy than vague promises.",
+   "theme": "offer_design",
+   "quote": {
+    "text": "If you can't do that, you're going to be fighting uphill the entire time.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 83571,
+    "approx_timestamp_s": 4835
+   }
+  },
+  {
+   "lesson": "Treat earlier experiments and failures as skill-building when they teach transferable skills such as research, marketing, logistics, and customer service.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "I am very thankful for my drop shipping journey because it taught me all the inner workings of e-commerce.",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 19430,
+    "approx_timestamp_s": 1124
+   }
+  },
+  {
+   "lesson": "Focus effort on work that changes business outcomes and use AI tools to reduce routine work.",
+   "theme": "automation_ai",
+   "quote": {
+    "text": "80% of your energy towards impactful things for the business, 20% to busy work and learn AI, learn a AI agents",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 94184,
+    "approx_timestamp_s": 5449
+   }
+  },
+  {
+   "lesson": "A small idea from a junior person can become valuable when leaders investigate it and act on the customer need behind it.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "it started from one little concept from one person who was not that high up on the chain at all.",
+    "speaker": "Ryan Bartlett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 97962,
+    "approx_timestamp_s": 5668
+   }
+  }
+ ],
+ "evidence_quality": {
+  "rating": "B",
+  "rationale": "The guest is a first-hand operator and gives detailed processes, channel choices, and specific business figures. Some figures are approximate, several financial claims are recited by the host, and the interview has no independent verification; the transcript also contains apparent speech-recognition errors.",
+  "promotional_conflict": "The host reads a .online domain sponsor ad, and the guest promotes the TK Owners business community. The guest also discusses a possible future operator school."
+ },
+ "extraction": {
+  "model": "gpt-6-luna",
+  "extracted_at": "2026-10-22T10:05:25",
+  "cost_usd": 0,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 133,
+   "verified": 132,
+   "rate": 0.992
+  },
+  "schema_errors": []
+ }
+}

@@ -1,0 +1,3104 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "KSQF7cYG8gU",
+  "title": "You're Overthinking It. Here’s the Simple Way to Start (ft. Nick Huber)",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=KSQF7cYG8gU",
+  "upload_date": "2025-04-30",
+  "duration_s": 2607,
+  "view_count": 21452,
+  "transcript_provider": "ok",
+  "transcript_chars": 48827,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner interviews Nick Huber about choosing practical businesses, finding customers, managing teams, and staying involved in operations. Huber describes his storage, recruiting, insurance, construction consulting, marketing, and other businesses, along with the student storage company he grew through chalk ads. He argues that straightforward services can be easier to start than novel ideas, while emphasizing that business ownership is stressful and not right for everyone. The conversation also covers AI, delegation, family, and Huber’s book, The Sweaty Startup.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Host of The Koerner Office."
+  },
+  {
+   "name": "Nick Huber",
+   "role": "guest",
+   "description": "Entrepreneur known as Sweaty Startup."
+  }
+ ],
+ "format": "operator_interview",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Somewhere recruiting business",
+   "one_liner": "A recruiting company Huber describes as his main focus at the time of the interview.",
+   "category": "b2b_service",
+   "business_model": "Recruiting fees; specific fee structure not stated.",
+   "customer": "Businesses seeking candidates; Huber mentions recruiting PE people and presenting candidates to clients.",
+   "problem": "Businesses need candidates sourced and moved through a recruiting process.",
+   "offer": "Recruit candidates, source them, request candidate videos, and present candidates to clients.",
+   "pricing": {
+    "model": "Recruiting fees; not stated.",
+    "price_points": [],
+    "notes": "No customer pricing stated."
+   },
+   "acquisition_channels": [],
+   "delivery": "Recruiters source and present candidates. Huber says he knows the recruiting process and coached the sales team; exact staffing and client delivery process is not fully described.",
+   "unit_economics_claims": [
+    "Huber says the company he calls Somewhere was his main focus.",
+    "Huber says he coached its sales team after taking 20 sales calls over the previous month."
+   ],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "A software agent could research corporate prospects and support sales follow-up. Human-led relationship building and sales remain likely; UK outreach must follow PECR and call-screening rules."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Agents could collect role requirements and create recruiting briefs, with a human checking role details and client expectations."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Sourcing and admin can use software, but candidate assessment, client communication, and hiring decisions need substantial human judgment."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Invoicing and payment reminders can be automated after agreed placement milestones."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Agents can handle routine status updates, with people resolving sensitive candidate and client issues."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Recruiting can operate in the UK, with local employment practices, data protection, and market expectations to account for."
+   },
+   "risks": [
+    "Candidate sourcing and hiring decisions require human review.",
+    "Huber says AI could threaten the recruiting model, though he also describes current AI delivery as underwhelming."
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "somewhere is my you know I'd say it's my main focus at the moment is pretty good opportunity to build a really really big company I think.",
+     "speaker": "Nick Huber",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 3272,
+     "approx_timestamp_s": 179
+    },
+    {
+     "text": "Yesterday at 4:30, I got on and coached for an hour our sales team because I took 20 sales calls over the last month.",
+     "speaker": "Nick Huber",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 19208,
+     "approx_timestamp_s": 1052
+    },
+    {
+     "text": "I know how to recruit. I know how to recruit almost any PE person. I know how to get in our software.",
+     "speaker": "Nick Huber",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 18832,
+     "approx_timestamp_s": 1032
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Bolt Storage self-storage business",
+   "one_liner": "A self-storage real estate business that Huber says benefits from property operations, leasing, and time.",
+   "category": "real_estate",
+   "business_model": "Self-storage property ownership and operation; investment structure and revenue model not fully stated.",
+   "customer": "People or businesses renting storage units.",
+   "problem": "Customers need storage space.",
+   "offer": "Operate self-storage properties, lease units, and market them.",
+   "pricing": {
+    "model": "Monthly storage-unit rent.",
+    "price_points": [
+     {
+      "amount": 300,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "Example climate-controlled unit at a high-rent location"
+     }
+    ],
+    "notes": "Huber gives this as an example of a unit at one of his highest-rent locations."
+   },
+   "acquisition_channels": [],
+   "delivery": "Property operation and unit leasing; Huber says the right people, good marketing, and well-managed properties matter. Specific operating arrangements are not stated.",
+   "unit_economics_claims": [
+    "Huber says filling a unit costs $500 at some high-rent locations and well under $200 blended across his portfolio.",
+    "He gives $300 per month as an example rent for a climate-controlled unit."
+   ],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Software can manage inbound enquiries and ads, but property acquisition and local operations require human work."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Agents could collect renter details, prepare agreements, and issue access instructions, with human checks for exceptions."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Renting and billing can be software-led, but maintaining and securing physical properties requires people."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Recurring charges, receipts, and payment reminders can be automated with routine account review."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Agents can answer routine account questions; access, property, and security problems need human response."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Self-storage works in the UK, with local property costs, financing, planning, and customer demand affecting the model."
+   },
+   "risks": [
+    "Property and refinancing debt can expose the company to serious financial pressure.",
+    "The transcript does not explain the purchase price, financing terms, occupancy, or operating costs."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "Bolt Storage is just going to be a really powerful machine with time because it's really tax efficient.",
+     "speaker": "Nick Huber",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 2779,
+     "approx_timestamp_s": 152
+    },
+    {
+     "text": "I pay $500 for a customer in the self- storage business at some of my highest rent locations, you know, blended across my portfolio well under $200.",
+     "speaker": "Nick Huber",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 27131,
+     "approx_timestamp_s": 1486
+    },
+    {
+     "text": "where I'm charging, you know, 300 bucks a month for a climate controlled, you know, high high rent storage unit.",
+     "speaker": "Nick Huber",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 27291,
+     "approx_timestamp_s": 1495
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "ReCost (name as heard; business type unclear)",
+   "one_liner": "A business Huber says has more than 50 employees and nearly $800,000 in monthly revenue; its offer is not explained.",
+   "category": "other",
+   "business_model": "not stated",
+   "customer": "not stated",
+   "problem": "not stated",
+   "offer": "not stated",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "The business name and model are unclear in the transcript."
+   },
+   "acquisition_channels": [],
+   "delivery": "not stated",
+   "unit_economics_claims": [
+    "Huber says the business had 50-plus employees and almost $800,000 in revenue last month."
+   ],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "The business type and its sales process are not stated, so the achievable automation cannot be judged."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "The customer and onboarding process are not stated."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "The product or service is not stated; no delivery automation estimate is reliable."
+    },
+    "billing": {
+     "score_e": 1,
+     "how": "The billing model is not stated."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "The support model is not stated."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 2,
+    "notes": "The business type is unclear, so UK fit cannot be assessed from this transcript."
+   },
+   "risks": [
+    "The transcript may have misheard or corrupted the business name.",
+    "There is not enough information to assess the offer, economics, or delivery."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "re cost is also just kind of exploding 50 plus employees did almost $800,000 last month of revenue",
+     "speaker": "Nick Huber",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 3165,
+     "approx_timestamp_s": 173
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "Storage Squad student pickup-and-delivery storage",
+   "one_liner": "A college storage service that collected students’ belongings, stored them between terms, and delivered them to new dorms.",
+   "category": "home_service",
+   "business_model": "Paid storage service; exact pricing not stated.",
+   "customer": "College students living in dorms who need to store belongings when going home or moving dorms.",
+   "problem": "Students need a place for their belongings between terms and help moving them between dorms.",
+   "offer": "Pickup and delivery student storage with free boxes and packing supplies.",
+   "pricing": {
+    "model": "Paid storage service with free boxes and supplies; paid price not stated.",
+    "price_points": [
+     {
+      "amount": 0,
+      "currency": "USD",
+      "unit": "included offer",
+      "label": "Free boxes, pickup, delivery, and packing supplies"
+     }
+    ],
+    "notes": "The transcript does not state what students paid for storage."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Huber wrote five chalk advertisements each day on a bridge all students crossed, directing them to the website to sign up.",
+     "quote": {
+      "text": "I got up at 7:30 and I went to the bridge where North Campus went to campus where every kid walked across and I wrote five chalk advertisements on that bridge",
+      "speaker": "Nick Huber",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 41294,
+      "approx_timestamp_s": 2263
+     }
+    }
+   ],
+   "delivery": "The company provided boxes and packing supplies, picked up students’ belongings, stored them, and delivered them when needed. Exact staffing and storage arrangements are not stated.",
+   "unit_economics_claims": [
+    "Huber says he acquired his first 7,000 customers without paid marketing.",
+    "He says the chalk ads generated 40-plus signups from 8:00 to 8:40 each day during finals week."
+   ],
+   "tools": [
+    "StorageSquad.com"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "The described channel required someone to write chalk ads in a physical location. A website can capture signups, but physical promotion needs a person and location permission."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "A signup form can collect student, item, and delivery details; exceptions and scheduling changes need human review."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Box handoff, pickup, storage handling, and delivery are physical tasks that people must do."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Payment collection can be automated once a price and storage schedule are configured."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Agents can answer routine booking questions, but lost-item, access, and schedule problems need human escalation."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "The model could serve UK universities, with term dates, campus access, storage costs, and local permissions adapted. Chalk advertising rules and property permission would need checking."
+   },
+   "risks": [
+    "Seasonal demand and concentrated pickup windows can strain storage and delivery capacity.",
+    "Physical handling creates damage, loss, and scheduling risks."
+   ],
+   "is_primary": false,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "I got my first 7,000 customers without paying for any marketing.",
+     "speaker": "Nick Huber",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 305,
+     "approx_timestamp_s": 16
+    },
+    {
+     "text": "from 8 to 8:40 every single day during finals week we got 40 plus signups.",
+     "speaker": "Nick Huber",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 41547,
+     "approx_timestamp_s": 2276
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "Titan Risk insurance business",
+   "one_liner": "An insurance business Huber names among his other companies.",
+   "category": "b2b_service",
+   "business_model": "not stated",
+   "customer": "not stated",
+   "problem": "not stated",
+   "offer": "Insurance business; specific products and services are not stated.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "not stated",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Inbound enquiries and administration could be automated, but regulated sales need qualified human oversight."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Software can collect information, but insurance suitability and application checks need human review."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "The precise service is not stated; insurance advice or arranging requires qualified oversight."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Routine invoicing and payment administration can use software, subject to the actual product model."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Agents can answer basic questions, with policy and claims issues escalated to qualified staff."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Insurance is a UK market, but the business would need to fit UK regulation and permissions."
+   },
+   "risks": [
+    "The transcript does not identify the insurance product or regulatory setup.",
+    "UK insurance distribution may require regulatory permissions and qualified oversight."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": []
+  },
+  {
+   "local_id": "I6",
+   "name": "Bolt Builders construction consulting",
+   "one_liner": "A construction consulting business Huber names among his other companies.",
+   "category": "b2b_service",
+   "business_model": "Consulting fees; exact model not stated.",
+   "customer": "not stated",
+   "problem": "not stated",
+   "offer": "Construction consulting; specific services are not stated.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "Consulting; specific work, delivery format, and staffing are not stated.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Agents could support inbound lead handling and proposals; relationship sales may remain human-led."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Agents could collect project information and prepare a consulting brief for human review."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Research and reporting can be assisted by agents, but construction advice needs human expertise."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Invoices and payment reminders can be automated."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Agents can answer routine questions, with technical or project-specific issues passed to a consultant."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Construction consulting is applicable in the UK; the specific service would need to match local building practices and rules."
+   },
+   "risks": [
+    "No service scope, customer profile, or evidence of demand is given."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "We got Bolt Builders which is like a construction consulting business.",
+     "speaker": "Nick Huber",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 3519,
+     "approx_timestamp_s": 192
+    }
+   ]
+  },
+  {
+   "local_id": "I7",
+   "name": "Ad Rhino",
+   "one_liner": "A business Huber names, without describing its offer.",
+   "category": "agency",
+   "business_model": "not stated",
+   "customer": "not stated",
+   "problem": "not stated",
+   "offer": "not stated",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "not stated",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "The offer is unclear, so no reliable channel plan can be assessed."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "The customer onboarding process is not stated."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "The product or service is not stated."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Routine billing could use software if the business has a recurring or project fee."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "The support needs are not stated."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "The name alone is not enough to assess UK fit."
+   },
+   "risks": [
+    "No offer, customer, or operating details are provided."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": []
+  },
+  {
+   "local_id": "I8",
+   "name": "Bold SEO",
+   "one_liner": "A business Huber names; the transcript does not explain its services.",
+   "category": "agency",
+   "business_model": "not stated",
+   "customer": "not stated",
+   "problem": "not stated",
+   "offer": "not stated",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "not stated",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "The offer and customer are not stated, so acquisition automation cannot be judged."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "The onboarding process is not stated."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "The name suggests a search-related business, but the transcript does not describe delivery."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Routine invoices could be automated if a fee model exists."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "The support process is not stated."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "If it provides search services, that type of work can serve UK customers; the transcript does not establish its actual offer."
+   },
+   "risks": [
+    "The offer and evidence of demand are not stated."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": []
+  },
+  {
+   "local_id": "I9",
+   "name": "WebRun",
+   "one_liner": "A business Huber names without describing its offer.",
+   "category": "other",
+   "business_model": "not stated",
+   "customer": "not stated",
+   "problem": "not stated",
+   "offer": "not stated",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "not stated",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "The offer and acquisition process are not stated."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "The onboarding process is not stated."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "The product or service is not stated."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Routine billing could use software if a suitable fee model exists."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "The support process is not stated."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "The transcript gives too little information to assess UK fit."
+   },
+   "risks": [
+    "No offer, customer, or operating details are provided."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": []
+  },
+  {
+   "local_id": "I10",
+   "name": "General cleaning service",
+   "one_liner": "A simple cleaning service Huber recommends as an accessible starting business.",
+   "category": "local_service",
+   "business_model": "Paid cleaning work; Huber gives an hourly earning claim but no billing arrangement.",
+   "customer": "People or businesses with something that needs cleaning; specific customer type not stated.",
+   "problem": "Dirty items or spaces need cleaning.",
+   "offer": "Clean something for customers.",
+   "pricing": {
+    "model": "Hourly earnings claim; customer pricing structure not stated.",
+    "price_points": [
+     {
+      "amount": 50,
+      "currency": "USD",
+      "unit": "per hour",
+      "label": "Claimed potential earnings"
+     }
+    ],
+    "notes": "Huber says a person can make this amount; it is not a stated customer price."
+   },
+   "acquisition_channels": [],
+   "delivery": "A person physically cleans the customer’s item or space; exact scope is not stated.",
+   "unit_economics_claims": [
+    "Huber says someone can make $50 per hour cleaning."
+   ],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Inbound local search and booking could be automated; the transcript gives no actual channel."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Agents can collect job details and schedule appointments, with human review of unusual jobs."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "A person must perform the physical cleaning."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Quotes, invoices, and payment reminders can be automated after job scope is confirmed."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Agents can handle routine booking questions; complaints and quality issues need human attention."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Cleaning services work in the UK; the transcript’s earnings figure is in USD and is not a UK price estimate."
+   },
+   "risks": [
+    "The claimed hourly earnings are not supported with costs, utilization, or customer pricing.",
+    "The physical work limits unattended delivery."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "If you got no money, you got no job, no experience, no skills, go clean something, man. There's a lot that's dirty out there that you can clean and you can make 50 bucks an hour doing it.",
+     "speaker": "Nick Huber",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 0,
+     "approx_timestamp_s": 0
+    }
+   ]
+  },
+  {
+   "local_id": "I11",
+   "name": "Lawn care service idea",
+   "one_liner": "Lawn care appears in Huber’s list of straightforward service businesses.",
+   "category": "home_service",
+   "business_model": "not stated",
+   "customer": "not stated",
+   "problem": "not stated",
+   "offer": "Lawn care; exact tasks are not stated.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "not stated beyond the named service.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Inbound local search and booking can be automated; no channel is stated for this list entry."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Agents can collect property and job details and schedule work."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Lawn work is physical and requires people or equipment on site."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Recurring billing and reminders can be automated."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Agents can handle routine scheduling questions; service problems need human attention."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Lawn care is applicable in the UK; the work and demand vary by season and location."
+   },
+   "risks": [
+    "Physical service delivery requires people and equipment."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": []
+  },
+  {
+   "local_id": "I12",
+   "name": "Pest control",
+   "one_liner": "Pest control appears in Huber’s list of service business ideas.",
+   "category": "home_service",
+   "business_model": "not stated",
+   "customer": "not stated",
+   "problem": "Pest problems are implied by the named service; specific customer problems are not stated.",
+   "offer": "Pest control; specific services are not stated.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "not stated beyond the named service.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Inbound local search and online booking could automate lead capture."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Agents can gather issue details, but pest identification and safe treatment need human review."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Inspection and treatment are physical tasks."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Quotes and payment administration can use software after a human confirms the work."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Agents can handle routine booking; treatment and safety issues need human attention."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Pest control operates in the UK, with local safety, training, and chemical-use requirements to account for."
+   },
+   "risks": [
+    "Treatment can involve safety and regulatory requirements."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": []
+  },
+  {
+   "local_id": "I13",
+   "name": "Firewood delivery",
+   "one_liner": "Firewood delivery appears in Huber’s list of service business ideas.",
+   "category": "local_service",
+   "business_model": "not stated",
+   "customer": "not stated",
+   "problem": "not stated",
+   "offer": "Firewood delivery.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "Physical firewood delivery; who performs it and how it is sourced are not stated.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Inbound local search and online ordering could automate discovery and booking."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Orders, delivery addresses, and time slots can be collected online."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Loading and delivering firewood require physical work."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Online payment and order receipts can be automated."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Agents can handle routine order questions; delivery exceptions need people."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "The idea can work in the UK, with local supply, delivery radius, and seasonal demand affecting it."
+   },
+   "risks": [
+    "Delivery and stock handling require people and transport."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": []
+  },
+  {
+   "local_id": "I14",
+   "name": "Residential painting",
+   "one_liner": "Residential painting appears in Huber’s list of service business ideas.",
+   "category": "home_service",
+   "business_model": "not stated",
+   "customer": "not stated",
+   "problem": "not stated",
+   "offer": "Residential painting.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "not stated beyond the named service.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Inbound local search and quote forms can be automated."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Agents can collect room, surface, and timing details; estimates need human review."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Painting is physical work that requires people on site."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Invoices and payment reminders can be automated after scope approval."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Agents can handle routine scheduling; quality disputes need human review."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Residential painting is applicable in the UK."
+   },
+   "risks": [
+    "Job estimates and quality control depend on the property and require human oversight."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": []
+  },
+  {
+   "local_id": "I15",
+   "name": "Pressure washing",
+   "one_liner": "Pressure washing appears in Huber’s list of service business ideas.",
+   "category": "home_service",
+   "business_model": "not stated",
+   "customer": "not stated",
+   "problem": "not stated",
+   "offer": "Pressure washing.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "not stated beyond the named service.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Inbound local search and booking can automate lead capture."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Agents can collect surface and job details; suitability and quotes need human review."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Pressure washing is physical work performed on site."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Invoices and payment reminders can be automated."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Agents can answer routine questions; damage and quality issues need people."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Pressure washing is applicable in the UK, subject to local demand and safe handling."
+   },
+   "risks": [
+    "Physical work can cause property damage if done incorrectly."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": []
+  },
+  {
+   "local_id": "I16",
+   "name": "Thermal imaging service",
+   "one_liner": "Thermal imaging appears in Huber’s list of service business ideas.",
+   "category": "local_service",
+   "business_model": "not stated",
+   "customer": "not stated",
+   "problem": "not stated",
+   "offer": "Thermal imaging; the intended use is not stated.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "not stated beyond the named service.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Inbound search and booking could automate lead capture."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Agents could collect job details; the intended use and technical requirements need human review."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Image analysis may be automated, but the transcript does not state the service; equipment use and interpretation likely need a person."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Booking and payment can be automated once the service is defined."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Agents can handle basic questions; technical interpretation needs a person."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Thermal imaging can be used in the UK, but the transcript does not say what market or application is intended."
+   },
+   "risks": [
+    "The service use case and required qualifications are not stated."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": []
+  },
+  {
+   "local_id": "I17",
+   "name": "Vacation rental management",
+   "one_liner": "Vacation rental management appears in Huber’s list of service business ideas.",
+   "category": "local_service",
+   "business_model": "Management fees or commission not stated.",
+   "customer": "not stated",
+   "problem": "not stated",
+   "offer": "Vacation rental management; specific tasks are not stated.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "not stated beyond the named service.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Inbound search and owner enquiry forms could be automated."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Agents can collect property details and listing information, with a human verifying access and condition."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Messaging and booking administration can be automated, but property turnover and on-site guest issues require people."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Owner statements and recurring fee billing can use software."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Agents can answer routine guest questions; urgent property issues require human response."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "The model can work in the UK but depends on local short-let rules, property arrangements, and seasonality."
+   },
+   "risks": [
+    "Physical turnovers and guest emergencies limit unattended operation.",
+    "Local short-let rules and property permissions may affect the model."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": []
+  },
+  {
+   "local_id": "I18",
+   "name": "Custom closet buildout",
+   "one_liner": "Custom closet buildout appears in Huber’s list of service business ideas.",
+   "category": "home_service",
+   "business_model": "not stated",
+   "customer": "not stated",
+   "problem": "not stated",
+   "offer": "Custom closet buildout.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "not stated beyond the named service.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Inbound local search and quote requests can be automated."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Agents can collect dimensions and preferences, but site measurements and design approval need human review."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Building and fitting a closet are physical tasks."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Deposits and invoices can be automated after the quote is approved."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Agents can handle routine updates; fit and workmanship issues need human attention."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Custom closet work is applicable in the UK."
+   },
+   "risks": [
+    "Measurement and installation errors can create rework."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": []
+  },
+  {
+   "local_id": "I19",
+   "name": "Mobile car detailing",
+   "one_liner": "Mobile car detailing appears in Huber’s list of service business ideas.",
+   "category": "local_service",
+   "business_model": "not stated",
+   "customer": "not stated",
+   "problem": "not stated",
+   "offer": "Mobile car detailing.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "not stated beyond the named service.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Inbound local search and booking can automate lead capture."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Agents can collect vehicle and service details and schedule a visit."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Detailing requires physical work at the vehicle."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Online payment and receipts can be automated."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Agents can handle booking questions; quality issues need human review."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Mobile detailing is applicable in the UK, with local travel and water-use conditions to account for."
+   },
+   "risks": [
+    "Travel and on-site work limit unattended delivery."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": []
+  },
+  {
+   "local_id": "I20",
+   "name": "Trim service",
+   "one_liner": "Trim appears as a standalone service in Huber’s list; the exact kind of trim work is unclear.",
+   "category": "home_service",
+   "business_model": "not stated",
+   "customer": "not stated",
+   "problem": "not stated",
+   "offer": "Trim work; exact service is not stated.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "not stated",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "The service is unclear, so acquisition automation cannot be assessed."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "The job scope is unclear."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "If this means physical trim work, a person must perform it; the transcript does not clarify."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Invoices could be automated once the work is defined."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Support needs are not stated."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "The service is too unclear to assess beyond a likely local service."
+   },
+   "risks": [
+    "The transcript does not clarify what trim service means."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": []
+  },
+  {
+   "local_id": "I21",
+   "name": "Tree trimming service idea",
+   "one_liner": "Tree trimming appears in Huber’s list of service business ideas.",
+   "category": "home_service",
+   "business_model": "not stated",
+   "customer": "not stated",
+   "problem": "not stated",
+   "offer": "Tree trimming.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "not stated beyond the named service.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Inbound local search and quote forms can automate lead capture."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Agents can collect photos and job details, but site inspection and safety assessment need a person."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Tree work is physical and safety-critical."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Quotes and invoices can use software after human job assessment."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Agents can handle scheduling; safety and damage issues need human response."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Tree trimming is applicable in the UK, with local permissions and safety requirements to check."
+   },
+   "risks": [
+    "Work at height and tree hazards require trained people and safety controls."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": []
+  },
+  {
+   "local_id": "I22",
+   "name": "On-demand irrigation",
+   "one_liner": "On-demand irrigation appears in Huber’s list of service business ideas.",
+   "category": "home_service",
+   "business_model": "not stated",
+   "customer": "not stated",
+   "problem": "not stated",
+   "offer": "On-demand irrigation; exact service is not stated.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "not stated beyond the named service.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Inbound local search and booking could automate lead capture."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Agents can gather site details and schedule work."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Installation or repair requires physical work."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Quotes and invoices can be automated after job scope is confirmed."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Agents can handle routine questions; system faults need human attention."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Irrigation services can operate in the UK, with demand varying by property and season."
+   },
+   "risks": [
+    "On-site installation and repair limit unattended delivery."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": []
+  },
+  {
+   "local_id": "I23",
+   "name": "Green home consultation",
+   "one_liner": "Green home consultation appears in Huber’s list of service business ideas.",
+   "category": "b2b_service",
+   "business_model": "Consulting fees not stated.",
+   "customer": "not stated",
+   "problem": "not stated",
+   "offer": "Green home consultation; the advice and customer type are not specified.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "Consulting; format and scope are not stated.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Inbound content and enquiry forms could automate lead capture."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Agents can collect property and client information, with a human confirming the brief."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Research and report drafting can use agents; recommendations need qualified human review."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Consultation booking and invoices can be automated."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Agents can answer routine questions; advice follow-up needs a human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "The idea is applicable in the UK, with local housing practices and relevant standards to account for."
+   },
+   "risks": [
+    "The consultation scope and any required expertise are not stated."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": []
+  },
+  {
+   "local_id": "I24",
+   "name": "On-demand holiday decorations",
+   "one_liner": "On-demand holiday decorations appears in Huber’s list of service business ideas.",
+   "category": "home_service",
+   "business_model": "not stated",
+   "customer": "not stated",
+   "problem": "not stated",
+   "offer": "On-demand holiday decorations.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "not stated beyond the named service.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Inbound local search and seasonal booking can be automated."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Agents can collect property details, decoration preferences, and appointment times."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Installing and removing decorations are physical tasks."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Seasonal quotes and payment reminders can be automated."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Agents can handle booking changes; installation issues need human attention."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "The service can operate in the UK, adapting to local holiday demand."
+   },
+   "risks": [
+    "Seasonal workload and physical installation limit unattended delivery."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": []
+  },
+  {
+   "local_id": "I25",
+   "name": "Pool and hot tub services",
+   "one_liner": "Pool and hot tub services appears in Huber’s list of service business ideas.",
+   "category": "home_service",
+   "business_model": "not stated",
+   "customer": "not stated",
+   "problem": "not stated",
+   "offer": "Pool and hot tub services; specific work is not stated.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "not stated beyond the named service.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Inbound local search and booking could automate lead capture."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Agents can collect equipment and service details; diagnosis needs human review."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Servicing equipment and water systems requires physical work."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Recurring service billing and invoices can be automated."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Agents can handle routine booking; equipment faults need human attention."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "The idea can work in the UK, though the local pool and hot tub customer base may be limited."
+   },
+   "risks": [
+    "The exact service and available local demand are not stated."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": []
+  },
+  {
+   "local_id": "I26",
+   "name": "Deck staining",
+   "one_liner": "Deck staining appears in Huber’s list of service business ideas.",
+   "category": "home_service",
+   "business_model": "not stated",
+   "customer": "not stated",
+   "problem": "not stated",
+   "offer": "Deck staining.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "not stated beyond the named service.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Inbound local search and quote forms could automate lead capture."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Agents can collect deck dimensions and condition; the scope needs human review."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Staining a deck requires physical work."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Quotes and invoices can be automated after job assessment."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Agents can handle routine updates; finish issues need human review."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Deck staining can operate in the UK, with demand affected by weather and season."
+   },
+   "risks": [
+    "Weather and surface condition affect physical job delivery."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": []
+  },
+  {
+   "local_id": "I27",
+   "name": "Gutter cleaning",
+   "one_liner": "Gutter cleaning appears in Huber’s list of service business ideas.",
+   "category": "home_service",
+   "business_model": "not stated",
+   "customer": "not stated",
+   "problem": "not stated",
+   "offer": "Gutter cleaning.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "not stated beyond the named service.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Inbound local search and quote forms can automate lead capture."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Agents can collect property details and schedule a visit."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Gutter cleaning requires physical work, often at height."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Quotes and invoices can use software after human job assessment."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Agents can handle routine booking; property and safety concerns need people."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Gutter cleaning is applicable in the UK."
+   },
+   "risks": [
+    "Work at height creates safety risks and requires human delivery."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": []
+  },
+  {
+   "local_id": "I28",
+   "name": "Maid services",
+   "one_liner": "Maid services appears in Huber’s list of service business ideas.",
+   "category": "home_service",
+   "business_model": "not stated",
+   "customer": "not stated",
+   "problem": "not stated",
+   "offer": "Maid services; specific tasks are not stated.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "not stated beyond the named service.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Inbound local search and online booking could automate lead capture."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Agents can collect scope, access, and scheduling information."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Cleaning work must be done by a person."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Recurring invoices and payment reminders can be automated."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Agents can handle scheduling and routine questions; quality concerns need human attention."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Maid services can operate in the UK."
+   },
+   "risks": [
+    "Physical work, staff reliability, and access to customers’ homes require human oversight."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": []
+  },
+  {
+   "local_id": "I29",
+   "name": "Laundry services",
+   "one_liner": "Laundry services appears in Huber’s list of service business ideas.",
+   "category": "local_service",
+   "business_model": "not stated",
+   "customer": "not stated",
+   "problem": "not stated",
+   "offer": "Laundry services; collection, cleaning, and delivery details are not stated.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "not stated beyond the named service.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Inbound local search and online orders could automate discovery and booking."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Agents can collect order and collection details."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Order tracking can be automated, but handling, cleaning, and any delivery are physical work."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Online payment and receipts can be automated."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Agents can answer order questions; missing or damaged items need human resolution."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Laundry services can operate in the UK."
+   },
+   "risks": [
+    "The operating model and equipment needs are not stated.",
+    "Physical handling limits unattended delivery."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": []
+  },
+  {
+   "local_id": "I30",
+   "name": "Brother’s lawn care company",
+   "one_liner": "Koerner says his brother’s lawn care company gets its leading customer source from bandit signs.",
+   "category": "home_service",
+   "business_model": "Paid lawn care; exact pricing not stated.",
+   "customer": "not stated",
+   "problem": "not stated",
+   "offer": "Lawn care; specific tasks are not stated.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Koerner says bandit signs are his brother’s number one customer source.",
+     "quote": {
+      "text": "My brother runs a lawn care company and bandit signs are his number one customer source.",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 42160,
+      "approx_timestamp_s": 2310
+     }
+    }
+   ],
+   "delivery": "Lawn care; who performs the work and the exact service scope are not stated.",
+   "unit_economics_claims": [
+    "Koerner says bandit signs cost about $2 each and describes ordering 500, with the total spend transcribed as “a,000 bucks.”"
+   ],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "The stated channel requires buying and physically placing signs; online ordering can automate procurement, not placement."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Agents can collect property and job details and schedule work."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Lawn care is physical work."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Recurring invoices and reminders can be automated."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Agents can handle routine scheduling; service complaints need human attention."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Lawn care works in the UK. Sign placement may need landowner permission and local rules checked."
+   },
+   "risks": [
+    "Sign placement is physical and may be restricted without permission.",
+    "The transcript’s sign total is corrupted as “a,000”; $1,000 follows from the stated $2 each and 500 signs, but is not cleanly transcribed."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "They cost like two bucks each. You order 500 of them. Yeah. You're going to spend a,000 bucks.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 42454,
+     "approx_timestamp_s": 2326
+    }
+   ]
+  },
+  {
+   "local_id": "I31",
+   "name": "Koerner’s tree trimming business",
+   "one_liner": "Koerner says his tree trimming business leaves a bandit sign at each house it works at.",
+   "category": "home_service",
+   "business_model": "Paid tree trimming; exact pricing not stated.",
+   "customer": "not stated",
+   "problem": "not stated",
+   "offer": "Tree trimming; exact scope is not stated.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "The business leaves a bandit sign at each house where it works.",
+     "quote": {
+      "text": "We don't leave a house without leaving a bandit sign at our tree trimming business.",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 42558,
+      "approx_timestamp_s": 2332
+     }
+    }
+   ],
+   "delivery": "Tree trimming at customer properties; who performs the work is not stated.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Leaving physical signs at job sites requires a person; online lead capture could supplement it."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Agents can collect job details, but tree inspection and safety assessment need a person."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Tree trimming is physical and safety-critical."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Quotes and invoices can be automated after a human assesses the job."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Agents can handle routine scheduling; job and safety issues need human attention."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Tree trimming can operate in the UK, subject to local permissions and safety practices."
+   },
+   "risks": [
+    "Physical, height-related work requires skilled people.",
+    "Bandit signs need appropriate placement permission."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "We don't leave a house without leaving a bandit sign at our tree trimming business.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 42558,
+     "approx_timestamp_s": 2332
+    }
+   ]
+  },
+  {
+   "local_id": "I32",
+   "name": "Publishing The Sweaty Startup",
+   "one_liner": "Huber wrote a business book and sold it to HarperCollins, with an advance and a royalty share after recoupment.",
+   "category": "digital_products",
+   "business_model": "Publisher advance plus a share of revenue after the publisher recoups its costs.",
+   "customer": "Readers interested in starting and operating businesses.",
+   "problem": "Readers want guidance on choosing a business, building skills, and hiring and managing people.",
+   "offer": "The Sweaty Startup, described as a tactical guide to making money and running a company.",
+   "pricing": {
+    "model": "Publisher advance and author royalty share; retail price not stated.",
+    "price_points": [
+     {
+      "amount": 500000,
+      "currency": "USD",
+      "unit": "one-off advance",
+      "label": "Advance to write the book"
+     },
+     {
+      "amount": 15,
+      "currency": null,
+      "unit": "percent of revenue after publisher recoups",
+      "label": "Author share"
+     }
+    ],
+    "notes": "The advance is not a customer price; no retail book price is stated."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "existing_audience",
+     "details": "Huber says his organized Twitter writing and audience were part of his writing background; the transcript does not detail book sales acquisition.",
+     "quote": null
+    }
+   ],
+   "delivery": "Huber wrote the manuscript, worked with an editor on structure, and published through HarperCollins. The transcript says the book was due to come out April 29, without a year in that closing exchange.",
+   "unit_economics_claims": [
+    "Huber says he received a $500,000 advance.",
+    "He says he receives 15% of revenue after the publisher recoups its costs."
+   ],
+   "tools": [
+    "HarperCollins",
+    "Amazon",
+    "Twitter"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "An existing audience and online book listings can support sales; content and reader engagement still need author input."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Digital book purchases can be fulfilled automatically through a sales platform."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "A publisher and retail platforms handle production and distribution; writing and editorial work remain human."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Publisher accounting and online retail payments can be system-managed, with royalty statements reviewed by the author."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Retailers can handle routine order support; author questions and promotion remain human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Book publishing works in the UK, though publisher terms, readership, and distribution arrangements vary."
+   },
+   "risks": [
+    "Huber says a ghostwriter’s first chapter did not work for him and that the book required substantial rewriting and editorial help.",
+    "The advance and royalty terms are Huber’s claim and are not typical or guaranteed."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "I sold my book to Harper Collins and got my advance in the fall of 2023.",
+     "speaker": "Nick Huber",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 45857,
+     "approx_timestamp_s": 2513
+    },
+    {
+     "text": "I got a half million dollar advance to write the book.",
+     "speaker": "Nick Huber",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 46061,
+     "approx_timestamp_s": 2524
+    },
+    {
+     "text": "I get 15% of revenue after they recoup theirs.",
+     "speaker": "Nick Huber",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 46158,
+     "approx_timestamp_s": 2529
+    }
+   ]
+  },
+  {
+   "local_id": "I33",
+   "name": "Koerner’s Shopify B2B e-commerce business",
+   "one_liner": "Koerner describes a Shopify business selling to business customers with larger orders.",
+   "category": "ecommerce_physical",
+   "business_model": "B2B e-commerce; products, pricing, and revenue model are not stated.",
+   "customer": "Business customers placing orders.",
+   "problem": "not stated",
+   "offer": "Products sold through a Shopify store; the products are not identified.",
+   "pricing": {
+    "model": "B2B product sales; specific pricing not stated.",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "Orders were placed through Shopify; product fulfilment arrangements are not stated.",
+   "unit_economics_claims": [
+    "Koerner refers to an $8 million yearly revenue business, apparently the business in this example; the exact connection is not fully clear."
+   ],
+   "tools": [
+    "Shopify"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Online listings and paid ads can generate inbound orders; the transcript does not state the actual acquisition channel."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "A storefront can collect business orders automatically, with manual review for unusual orders."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Order processing can be automated, but physical product fulfilment needs people or a fulfilment provider."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Checkout, receipts, and routine payment processing can be automated."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Agents can answer order questions and route issues to a person."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "B2B e-commerce can operate in the UK, with product, tax, and fulfilment arrangements adapted to the market."
+   },
+   "risks": [
+    "The product and fulfilment model are not stated.",
+    "Koerner’s $8 million revenue reference is not clearly tied to this exact business."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "it was e-commerce, but it was B2B, so there were bigger orders",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 22210,
+     "approx_timestamp_s": 1217
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "A person can make $50 an hour cleaning.",
+   "metric": "revenue",
+   "value": {
+    "amount": 50,
+    "currency": "USD",
+    "unit": "per hour",
+    "label": "claimed earnings"
+   },
+   "period": "per hour",
+   "claimant": "Nick Huber",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I10",
+   "quote": {
+    "text": "There's a lot that's dirty out there that you can clean and you can make 50 bucks an hour doing it.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 82,
+    "approx_timestamp_s": 4
+   }
+  },
+  {
+   "claim": "Huber says he acquired his first 7,000 customers without paying for marketing.",
+   "metric": "customers",
+   "value": {
+    "amount": 7000,
+    "currency": null,
+    "unit": "customers",
+    "label": "first customers"
+   },
+   "period": null,
+   "claimant": "Nick Huber",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "I got my first 7,000 customers without paying for any marketing.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 305,
+    "approx_timestamp_s": 16
+   }
+  },
+  {
+   "claim": "Huber says the first 7,000 customers were acquired without paid marketing.",
+   "metric": "cost",
+   "value": {
+    "amount": 0,
+    "currency": "USD",
+    "unit": "marketing spend",
+    "label": "no paid marketing"
+   },
+   "period": null,
+   "claimant": "Nick Huber",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "I got my first 7,000 customers without paying for any marketing.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 305,
+    "approx_timestamp_s": 16
+   }
+  },
+  {
+   "claim": "The chalk advertisements generated 40-plus signups between 8:00 and 8:40 each day during finals week.",
+   "metric": "customers",
+   "value": {
+    "amount": 40,
+    "amount_max": null,
+    "currency": null,
+    "unit": "signups per day",
+    "label": "40 plus"
+   },
+   "period": "each day during finals week, 8:00 to 8:40",
+   "claimant": "Nick Huber",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "from 8 to 8:40 every single day during finals week we got 40 plus signups.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 41547,
+    "approx_timestamp_s": 2276
+   }
+  },
+  {
+   "claim": "ReCost had more than 50 employees.",
+   "metric": "other",
+   "value": {
+    "amount": 50,
+    "currency": null,
+    "unit": "employees",
+    "label": "50 plus"
+   },
+   "period": null,
+   "claimant": "Nick Huber",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "re cost is also just kind of exploding 50 plus employees did almost $800,000 last month of revenue",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3165,
+    "approx_timestamp_s": 173
+   }
+  },
+  {
+   "claim": "ReCost generated almost $800,000 in revenue last month.",
+   "metric": "revenue",
+   "value": {
+    "amount": 800000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "almost"
+   },
+   "period": "last month",
+   "claimant": "Nick Huber",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "re cost is also just kind of exploding 50 plus employees did almost $800,000 last month of revenue",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3165,
+    "approx_timestamp_s": 173
+   }
+  },
+  {
+   "claim": "Koerner says Huber owns about $100 million of self-storage real estate alongside investors.",
+   "metric": "valuation",
+   "value": {
+    "amount": 100000000,
+    "currency": "USD",
+    "unit": "real estate value",
+    "label": "about"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "Not to mention, he owns about a hund00 million dollars of self- storage real estate alongside investors.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 992,
+    "approx_timestamp_s": 54
+   }
+  },
+  {
+   "claim": "Bandit signs cost about $2 each.",
+   "metric": "cost",
+   "value": {
+    "amount": 2,
+    "currency": "USD",
+    "unit": "per sign",
+    "label": "about"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I30",
+   "quote": {
+    "text": "They cost like two bucks each. You order 500 of them. Yeah. You're going to spend a,000 bucks.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 42454,
+    "approx_timestamp_s": 2326
+   }
+  },
+  {
+   "claim": "Koerner describes ordering 500 bandit signs.",
+   "metric": "other",
+   "value": {
+    "amount": 500,
+    "currency": null,
+    "unit": "signs",
+    "label": "order quantity"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I30",
+   "quote": {
+    "text": "They cost like two bucks each. You order 500 of them. Yeah. You're going to spend a,000 bucks.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 42454,
+    "approx_timestamp_s": 2326
+   }
+  },
+  {
+   "claim": "Koerner says the business in the example was an $8 million yearly revenue business; the exact link to the Shopify business is unclear.",
+   "metric": "revenue",
+   "value": {
+    "amount": 8000000,
+    "currency": "USD",
+    "unit": "per year",
+    "label": "topline"
+   },
+   "period": "yearly",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I33",
+   "quote": {
+    "text": "How big was the business in revenue and headcount when it was an $8 million yearly revenue business topline?",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20372,
+    "approx_timestamp_s": 1116
+   }
+  },
+  {
+   "claim": "Huber says acquiring a customer at some of his highest-rent storage locations costs $500.",
+   "metric": "cost",
+   "value": {
+    "amount": 500,
+    "currency": "USD",
+    "unit": "per customer",
+    "label": "highest-rent locations"
+   },
+   "period": null,
+   "claimant": "Nick Huber",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "I pay $500 for a customer in the self- storage business at some of my highest rent locations, you know, blended across my portfolio well under $200.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 27131,
+    "approx_timestamp_s": 1486
+   }
+  },
+  {
+   "claim": "Huber says blended customer acquisition cost across his storage portfolio is well under $200.",
+   "metric": "cost",
+   "value": {
+    "amount": 200,
+    "currency": "USD",
+    "unit": "per customer",
+    "label": "well under"
+   },
+   "period": null,
+   "claimant": "Nick Huber",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "I pay $500 for a customer in the self- storage business at some of my highest rent locations, you know, blended across my portfolio well under $200.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 27131,
+    "approx_timestamp_s": 1486
+   }
+  },
+  {
+   "claim": "Huber says he charges $300 per month for an example climate-controlled unit at a high-rent location.",
+   "metric": "price",
+   "value": {
+    "amount": 300,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "climate-controlled storage unit"
+   },
+   "period": "monthly",
+   "claimant": "Nick Huber",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "where I'm charging, you know, 300 bucks a month for a climate controlled, you know, high high rent storage unit.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 27291,
+    "approx_timestamp_s": 1495
+   }
+  },
+  {
+   "claim": "Huber says his companies have $15 million of overhead, mostly labor.",
+   "metric": "cost",
+   "value": {
+    "amount": 15000000,
+    "currency": "USD",
+    "unit": "overhead",
+    "label": "mostly labor"
+   },
+   "period": null,
+   "claimant": "Nick Huber",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "I am following it very closely because I have 15 million of overhead at my companies, mostly labor.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23537,
+    "approx_timestamp_s": 1289
+   }
+  },
+  {
+   "claim": "Huber says he got two storage facilities under contract for almost $10 million.",
+   "metric": "valuation",
+   "value": {
+    "amount": 10000000,
+    "currency": "USD",
+    "unit": "deal value",
+    "label": "almost"
+   },
+   "period": null,
+   "claimant": "Nick Huber",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "We got two self- storage facilities under contract, almost $10 million in storage.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 38077,
+    "approx_timestamp_s": 2086
+   }
+  },
+  {
+   "claim": "Huber says the deals could have required $5 million to $6 million for refinancing.",
+   "metric": "cost",
+   "value": {
+    "amount": 5000000,
+    "amount_max": 6000000,
+    "currency": "USD",
+    "unit": "refinancing capital",
+    "label": "five, $6 million"
+   },
+   "period": null,
+   "claimant": "Nick Huber",
+   "first_hand": true,
+   "hypothetical": true,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "they could have taken down our entire organization because 10 million of debt, you got to have five, $6 million to come up with a refi.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 38840,
+    "approx_timestamp_s": 2128
+   }
+  },
+  {
+   "claim": "Huber says he received a $500,000 advance to write his book.",
+   "metric": "revenue",
+   "value": {
+    "amount": 500000,
+    "currency": "USD",
+    "unit": "one-off advance",
+    "label": "book advance"
+   },
+   "period": null,
+   "claimant": "Nick Huber",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I32",
+   "quote": {
+    "text": "I got a half million dollar advance to write the book.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 46061,
+    "approx_timestamp_s": 2524
+   }
+  },
+  {
+   "claim": "Huber says he receives 15% of revenue after the publisher recoups its costs.",
+   "metric": "margin",
+   "value": {
+    "amount": 15,
+    "currency": null,
+    "unit": "percent of revenue after recoup",
+    "label": "author share"
+   },
+   "period": null,
+   "claimant": "Nick Huber",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I32",
+   "quote": {
+    "text": "I get 15% of revenue after they recoup theirs.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 46158,
+    "approx_timestamp_s": 2529
+   }
+  },
+  {
+   "claim": "Huber says he can work 3,000 hours in a year, about 55 hours a week.",
+   "metric": "hours",
+   "value": {
+    "amount": 3000,
+    "currency": null,
+    "unit": "hours per year",
+    "label": "Huber’s stated personal capacity"
+   },
+   "period": "per year",
+   "claimant": "Nick Huber",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "Me, myself, I can work for a whole year and I can work 3,000 hours. You know, that's what, 55 hours a week.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 43357,
+    "approx_timestamp_s": 2376
+   }
+  },
+  {
+   "claim": "Huber says he might work 4,000 hours in a year if he were an attorney.",
+   "metric": "hours",
+   "value": {
+    "amount": 4000,
+    "currency": null,
+    "unit": "hours per year",
+    "label": "attorney comparison"
+   },
+   "period": "per year",
+   "claimant": "Nick Huber",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": null,
+   "quote": {
+    "text": "So, maybe I can work 4,000 hours if I'm an attorney, no life.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 43459,
+    "approx_timestamp_s": 2381
+   }
+  },
+  {
+   "claim": "Huber says a one-hour podcast conversation produces 350 hours’ worth of work because his organizations have 350 employees.",
+   "metric": "hours",
+   "value": {
+    "amount": 350,
+    "currency": null,
+    "unit": "hours of work per podcast hour",
+    "label": "Huber’s comparison"
+   },
+   "period": "per podcast hour",
+   "claimant": "Nick Huber",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "Right now on this podcast, you and I are going to spend an hour together, and I'm going to get 350 hours worth of work done because I have 350 employees across my organizations.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 43522,
+    "approx_timestamp_s": 2385
+   }
+  },
+  {
+   "claim": "Huber says he has 350 employees across his organizations.",
+   "metric": "other",
+   "value": {
+    "amount": 350,
+    "currency": null,
+    "unit": "employees",
+    "label": "across his organizations"
+   },
+   "period": null,
+   "claimant": "Nick Huber",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "Right now on this podcast, you and I are going to spend an hour together, and I'm going to get 350 hours worth of work done because I have 350 employees across my organizations.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 43522,
+    "approx_timestamp_s": 2385
+   }
+  },
+  {
+   "claim": "Koerner says the chance one business idea will be the one that moves the needle is 5%.",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 5,
+    "currency": null,
+    "unit": "percent",
+    "label": "host’s estimate"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "the statistical chance that that one thing is the thing that will move the needle is 5%.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3940,
+    "approx_timestamp_s": 215
+   }
+  },
+  {
+   "claim": "Huber suggests that two of ten hires could be major needle-movers.",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 20,
+    "currency": null,
+    "unit": "percent",
+    "label": "two of ten hires, illustrative"
+   },
+   "period": null,
+   "claimant": "Nick Huber",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": null,
+   "quote": {
+    "text": "You're going to hire 10 people and two of them are going to be just a massive massive needle movers for your business.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4178,
+    "approx_timestamp_s": 228
+   }
+  },
+  {
+   "claim": "Huber suggests that two of ten marketing approaches could work well.",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 20,
+    "currency": null,
+    "unit": "percent",
+    "label": "two of ten marketing approaches, illustrative"
+   },
+   "period": null,
+   "claimant": "Nick Huber",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": null,
+   "quote": {
+    "text": "You're going to try 10 different ways to market and two of them are going to click.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4296,
+    "approx_timestamp_s": 235
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Use a footbridge chalk-ad routine for student storage",
+   "area": "acquisition",
+   "steps": [
+    "Choose a bridge or path that nearly every target student uses.",
+    "Write five short chalk advertisements there each morning.",
+    "Run the ads during finals week and time them before classes.",
+    "Use a simple URL and state the free boxes, pickup, delivery, and packing supplies.",
+    "Send people to a signup page that captures their details."
+   ],
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "I got up at 7:30 and I went to the bridge where North Campus went to campus where every kid walked across and I wrote five chalk advertisements on that bridge",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 41294,
+    "approx_timestamp_s": 2263
+   }
+  },
+  {
+   "name": "Use bandit signs around local service jobs",
+   "area": "acquisition",
+   "steps": [
+    "Order simple double-sided signs; Koerner says they cost about $2 each.",
+    "Leave a sign at each tree-trimming job and use signs as a leading channel for lawn care.",
+    "Check landowner permission and local sign rules before placing them."
+   ],
+   "idea_local_id": "I30",
+   "quote": {
+    "text": "My brother runs a lawn care company and bandit signs are his number one customer source.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 42160,
+    "approx_timestamp_s": 2310
+   }
+  },
+  {
+   "name": "Start with an obvious service and get a paying customer",
+   "area": "validation_testing",
+   "steps": [
+    "Pick a simple service with visible demand, such as cleaning something.",
+    "Find one person who does not know you and get them to pay.",
+    "Work out how to fulfil the service after confirming demand."
+   ],
+   "idea_local_id": "I10",
+   "quote": {
+    "text": "just get someone that doesn't know you to pay you for a service, then figure out how to fulfill it.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 34278,
+    "approx_timestamp_s": 1878
+   }
+  },
+  {
+   "name": "Run a practical market study before choosing a business",
+   "area": "validation_testing",
+   "steps": [
+    "Call the market and ask questions before committing to the idea.",
+    "Use what you learn to judge whether customers have a real need.",
+    "Huber says his book explains this process but does not give the call script in this conversation."
+   ],
+   "idea_local_id": null,
+   "quote": {
+    "text": "literally how to call and do a market study. It's pretty tactical.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 42873,
+    "approx_timestamp_s": 2349
+   }
+  },
+  {
+   "name": "Keep frontline process knowledge before delegating",
+   "area": "operations",
+   "steps": [
+    "Learn the work well enough to explain it to the team.",
+    "Write or review the templates and process used by staff.",
+    "Coach the team through real calls and tasks.",
+    "Set direction, then check progress and hold people accountable."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "People delegate too fast. A lot of CEOs delegate too fast and COOs, meaning a problem comes in, they know the solution. They're just going to send a quick message.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21348,
+    "approx_timestamp_s": 1169
+   }
+  },
+  {
+   "name": "Use negative customer feedback as a quality-control alert",
+   "area": "operations",
+   "steps": [
+    "Send client feedback into a shared Slack channel.",
+    "Notify the owner when a client gives negative feedback.",
+    "Review the feedback and decide what to change in the process."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I can get an AI notification in my Slack channel every time a client sends my recruiter negative feedback.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22518,
+    "approx_timestamp_s": 1234
+   }
+  },
+  {
+   "name": "Keep important operating signals visible",
+   "area": "operations",
+   "steps": [
+    "Turn on notifications for business orders or customer reviews.",
+    "Review who ordered, order size, and new feedback.",
+    "Use recurring monthly check-ins to confirm that each team has clear direction."
+   ],
+   "idea_local_id": "I33",
+   "quote": {
+    "text": "I want you to turn on notifications for all of our orders.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21947,
+    "approx_timestamp_s": 1202
+   }
+  },
+  {
+   "name": "Test multiple people and channels, then notice what works",
+   "area": "scaling",
+   "steps": [
+    "Try more than one hiring or marketing approach.",
+    "Watch for which people and channels materially move the business.",
+    "Put more attention into the approaches that show traction."
+   ],
+   "idea_local_id": null,
+   "quote": {
+    "text": "You're going to try 10 different ways to market and two of them are going to click.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4296,
+    "approx_timestamp_s": 235
+   }
+  },
+  {
+   "name": "Publish a book with structured editorial help",
+   "area": "operations",
+   "steps": [
+    "Organize existing writing into topics and chapter material.",
+    "Use an editor to improve structure and keep the schedule moving.",
+    "Rewrite the manuscript when the editor identifies gaps.",
+    "Compare publisher terms, including the advance and royalty share."
+   ],
+   "idea_local_id": "I32",
+   "quote": {
+    "text": "I hired an editor to basically keep me on track. Help me with structure.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 45031,
+    "approx_timestamp_s": 2467
+   }
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Twitter",
+   "purpose": "Huber’s writing and social-media audience; mentioned as a source of organized writing for the book.",
+   "cost_stated": null
+  },
+  {
+   "name": "StorageSquad.com",
+   "purpose": "Website where student storage customers signed up.",
+   "cost_stated": null
+  },
+  {
+   "name": "SweatyStartup.com",
+   "purpose": "Website where Huber says listeners can get a PDF of business ideas.",
+   "cost_stated": null
+  },
+  {
+   "name": "TKOP.com",
+   "purpose": "Host’s newsletter subscription site; part of a promotional read.",
+   "cost_stated": "Free newsletter"
+  },
+  {
+   "name": "TKOPod.com",
+   "purpose": "Host’s audio podcast site; part of a promotional read.",
+   "cost_stated": "Free"
+  },
+  {
+   "name": "Shopify",
+   "purpose": "E-commerce platform used by the host’s B2B business example.",
+   "cost_stated": null
+  },
+  {
+   "name": "Google My Business",
+   "purpose": "Review notifications for the host’s businesses.",
+   "cost_stated": null
+  },
+  {
+   "name": "Slack",
+   "purpose": "Shared channel for AI notifications about negative recruiter feedback.",
+   "cost_stated": null
+  },
+  {
+   "name": "Zapier",
+   "purpose": "Automation tool Huber mentions as an example of automation rather than an AI agent.",
+   "cost_stated": null
+  },
+  {
+   "name": "Gumroad",
+   "purpose": "Automation example Huber mentions.",
+   "cost_stated": null
+  },
+  {
+   "name": "ChatGPT",
+   "purpose": "AI tool mentioned in discussion of AI agents.",
+   "cost_stated": null
+  },
+  {
+   "name": "Grok",
+   "purpose": "AI chatbot mentioned in the discussion of AI demonstrations.",
+   "cost_stated": null
+  },
+  {
+   "name": "Tesla Full Self-Driving",
+   "purpose": "Huber’s example of a technology whose promised arrival has taken a long time.",
+   "cost_stated": null
+  },
+  {
+   "name": "HarperCollins",
+   "purpose": "Publisher of Huber’s book.",
+   "cost_stated": null
+  },
+  {
+   "name": "Amazon",
+   "purpose": "Book sales link mentioned by the host.",
+   "cost_stated": null
+  },
+  {
+   "name": "nicksartup.com",
+   "purpose": "Contact site Huber gives at the end of the interview.",
+   "cost_stated": null
+  },
+  {
+   "name": "SM Bash",
+   "purpose": "Event where the host says he is preparing a keynote.",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Physical service businesses need people to perform the work, so automating customer acquisition and administration does not remove the delivery labor.",
+   "quote": {
+    "text": "If you got no money, you got no job, no experience, no skills, go clean something, man.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 0,
+    "approx_timestamp_s": 0
+   }
+  },
+  {
+   "warning": "Huber says he tried several AI tools and found most difficult to implement; he views AI as a risk to recruiting but says current delivery is underwhelming.",
+   "quote": {
+    "text": "I've tried to implement about eight of them into my company and seven of them were total giant pain in the today right now.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24315,
+    "approx_timestamp_s": 1332
+   }
+  },
+  {
+   "warning": "Huber says storage deals with substantial debt could have endangered the organization if refinancing required several million dollars.",
+   "quote": {
+    "text": "they could have taken down our entire organization because 10 million of debt, you got to have five, $6 million to come up with a refi.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 38840,
+    "approx_timestamp_s": 2128
+   }
+  },
+  {
+   "warning": "Huber warns that delegating without training, follow-up, and accountability can leave managers blind to how work is done.",
+   "quote": {
+    "text": "No followup, no holding them accountable, no walking them through it, no watching them.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21601,
+    "approx_timestamp_s": 1183
+   }
+  },
+  {
+   "warning": "Huber says business ownership is not suitable for everyone and describes it as stressful and difficult.",
+   "quote": {
+    "text": "Running a business and running a business poorly is a nightmare.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 34774,
+    "approx_timestamp_s": 1905
+   }
+  },
+  {
+   "warning": "Bandit sign placement is physical and may require permission; the transcript does not discuss legal placement requirements.",
+   "quote": null
+  },
+  {
+   "warning": "The host promotes his newsletter and podcast during the conversation, and Huber promotes his book. Treat their promotional claims accordingly.",
+   "quote": {
+    "text": "So video is cool, but you know what's better? Long form audio via podcast and my newsletter.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23718,
+    "approx_timestamp_s": 1299
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "A simple service with an obvious customer problem can be a more practical starting point than an idea chosen for novelty.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "We bend over backwards trying to think of really creative, innovative ideas when the obvious ones are usually the right ones.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 42036,
+    "approx_timestamp_s": 2303
+   }
+  },
+  {
+   "lesson": "A specific, repeated promotion placed where target customers already pass can generate demand without paid marketing.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "I got up at 7:30 and I went to the bridge where North Campus went to campus where every kid walked across and I wrote five chalk advertisements",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 41294,
+    "approx_timestamp_s": 2263
+   }
+  },
+  {
+   "lesson": "Get a customer to pay for a service, then work out how to fulfil it.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "just get someone that doesn't know you to pay you for a service, then figure out how to fulfill it.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 34278,
+    "approx_timestamp_s": 1878
+   }
+  },
+  {
+   "lesson": "Build a network by becoming useful and skilled at something people value.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "the best way to build a network is to get really freaking good at something.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9432,
+    "approx_timestamp_s": 516
+   }
+  },
+  {
+   "lesson": "Know how frontline work happens before delegating it; teach, follow up, and hold people accountable.",
+   "theme": "hiring_outsourcing",
+   "quote": {
+    "text": "to be an effective manager, you have to be able to get in a meeting and tell people what to do. You can't do that if you don't know what it's like on the front row.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18649,
+    "approx_timestamp_s": 1022
+   }
+  },
+  {
+   "lesson": "Use AI where it improves a specific workflow, such as surfacing quality problems, and judge it by delivered value rather than demos.",
+   "theme": "automation_ai",
+   "quote": {
+    "text": "That's what AI AI is overblown in my opinion. But there's one thing it's really good at. It's quality control.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22406,
+    "approx_timestamp_s": 1227
+   }
+  },
+  {
+   "lesson": "Business owners should examine customer feedback and operating signals instead of disconnecting from them.",
+   "theme": "operations",
+   "quote": {
+    "text": "I can get an AI notification in my Slack channel every time a client sends my recruiter negative feedback.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22518,
+    "approx_timestamp_s": 1234
+   }
+  },
+  {
+   "lesson": "A business can take a long time to show progress and then change quickly; keep evaluating whether work is moving the business forward.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "you can feel like you're toiling away at something for five years and nothing has happened ... and then bam all of a sudden in a matter of like days and weeks",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12120,
+    "approx_timestamp_s": 664
+   }
+  },
+  {
+   "lesson": "Business ownership is a skill set involving stress, decisions, and delegation, built through practice rather than reading alone.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "Being able to handle stress, being able to make good decisions, and then actually being able to delegate and tell people what to do.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15721,
+    "approx_timestamp_s": 861
+   }
+  },
+  {
+   "lesson": "Let children make mistakes while the stakes are low instead of protecting them from every difficulty.",
+   "theme": "other",
+   "quote": {
+    "text": "let them go out and experiment and mess up and make mistakes when the stakes are low",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 30199,
+    "approx_timestamp_s": 1654
+   }
+  },
+  {
+   "lesson": "Stay open to changing your mind and listening to people who identify risks, even when you are the owner.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "I started encouraging him to talk and we started talking through it and I realized he was right.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 38610,
+    "approx_timestamp_s": 2115
+   }
+  }
+ ],
+ "evidence_quality": {
+  "rating": "B",
+  "rationale": "The guest is an experienced operator and gives first-hand examples, including a concrete student-storage acquisition routine and claims about staffing, revenue, and costs. Most claims are not independently verified, some business names are unclear in the transcript, and several other companies receive little detail.",
+  "promotional_conflict": "Huber promotes his book The Sweaty Startup; Koerner includes a promotional read for his newsletter and podcast."
+ },
+ "extraction": {
+  "model": "gpt-6-luna",
+  "extracted_at": "2026-10-22T10:22:58",
+  "cost_usd": 0,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 71,
+   "verified": 71,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

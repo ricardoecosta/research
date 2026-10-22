@@ -1,0 +1,3044 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "QezvXB-n3q0",
+  "title": "8 BORING Machines That Quietly Pay You for Years (No Employees Needed)",
+  "channel": "Harry's Stealth Wealth",
+  "url": "https://www.youtube.com/watch?v=QezvXB-n3q0",
+  "upload_date": "2026-10-05",
+  "duration_s": 2190,
+  "view_count": 2434,
+  "transcript_provider": "cached",
+  "transcript_chars": 32864,
+  "transcript_is_whisper": false
+ },
+ "summary": "The narrator presents seven unattended machine businesses, then gives a longer explanation of traditional cash ATM placement. The ideas rely on finding a busy location, making a host agreement, and using machines to serve customers without an employee on site. The transcript gives many revenue and cost figures, but most are narrator-reported estimates or examples, and the Harry story is presented without verifiable operator evidence. Its clearest practical advice is to confirm demand and the site agreement before buying equipment.",
+ "speakers": [
+  {
+   "name": "Unnamed narrator",
+   "role": "host",
+   "description": "Harry's Stealth Wealth narrator; no personal name is stated."
+  }
+ ],
+ "format": "listicle_roundup",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I01",
+   "name": "Ice vending machine",
+   "one_liner": "Place an unattended ice vending kiosk at a site where customers already need ice.",
+   "category": "vending_machines_kiosks",
+   "business_model": "Customers pay per bag of ice; the operator pays the site landlord rent or a sales share.",
+   "customer": "People visiting gas stations, marinas, campgrounds, RV parks, or feed stores.",
+   "problem": "Customers want ice at a convenient location, especially where there is no ice freezer.",
+   "offer": "A kiosk where customers tap a card and receive a bag of ice.",
+   "pricing": {
+    "model": "Per bag",
+    "price_points": [
+     {
+      "amount": 1.5,
+      "amount_max": 3,
+      "currency": "USD",
+      "unit": "per bag",
+      "label": "Price stated by narrator"
+     }
+    ],
+    "notes": "The operator pays a site fee or gives the host a cut of sales; no exact percentage is stated."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "partnerships",
+     "details": "Find a high-demand site such as a gas station, marina, feed store, or campground, then negotiate a land lease with the landlord.",
+     "quote": {
+      "text": "You find a spot that already has demand walking past it. a gas station, a marina, a feed store, a place with no ice freezer of its own.",
+      "speaker": "Unnamed narrator",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 3075,
+      "approx_timestamp_s": 212
+     }
+    }
+   ],
+   "delivery": "The kiosk dispenses bagged ice after card payment. The transcript does not explain who restocks or services it.",
+   "unit_economics_claims": [
+    "Narrator says one operator's unit cleared about $2,500 in a month.",
+    "Revenue varies by site; the narrator gives an unclear lower range for quiet suburban locations and says marina or campground sites can earn $3,500 and up in peak season.",
+    "A busy site may sell 40 to 60 bags a day; a slow one may sell 15 to 20.",
+    "The landlord lease is often $200 to $400 a month or a small share of sales."
+   ],
+   "tools": [
+    "Ice vending kiosk",
+    "Concrete pad",
+    "Plumbing",
+    "Power",
+    "Card reader"
+   ],
+   "startup_cost": "A standalone kiosk is stated to cost $38,000 to $62,000 all-in with pad, plumbing, and power.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Software can help map candidate sites, but confirming traffic and negotiating a landlord agreement are human tasks."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "Site access, lease, utilities, and installation require human coordination."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "The machine dispenses ice and counts sales, but physical replenishment, cleaning, and repairs are not described as automated."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Card payment and sales counting can be handled by the machine; landlord payments and bookkeeping need routine checks."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "The transcript does not describe remote fault handling; physical machine and site issues likely need an operator."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "The placement model transfers, but UK food handling, planning, utility, and site requirements and the US prices need checking."
+   },
+   "risks": [
+    "Buying the machine before confirming a busy site can leave the operator with an expensive asset and no location.",
+    "A site lease, utilities, and installation costs add to the equipment cost.",
+    "The transcript says ice is legally a food product in many US states; local requirements need checking."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "A single ice machine outside a gas station cleared roughly $2,500 a month for one operator.",
+     "speaker": "Unnamed narrator",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 2252,
+     "approx_timestamp_s": 155
+    }
+   ]
+  },
+  {
+   "local_id": "I02",
+   "name": "Crypto ATM hosting",
+   "one_liner": "Host an operator network's crypto ATM in a store and receive a share of its transaction revenue.",
+   "category": "vending_machines_kiosks",
+   "business_model": "Revenue share or a flat monthly host payment from a crypto ATM operator.",
+   "customer": "Walk-in customers who want to buy or sell digital currency using a kiosk.",
+   "problem": "Customers want an in-person way to exchange cash and digital currency.",
+   "offer": "A store location for an operator's crypto ATM; the host receives a share of revenue or a flat payment.",
+   "pricing": {
+    "model": "Host revenue share or flat monthly location payment; machine customers pay a spread per transaction.",
+    "price_points": [
+     {
+      "amount": 50,
+      "currency": null,
+      "unit": "percent of revenue",
+      "label": "Premium spot share"
+     },
+     {
+      "amount": 100,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "Flat payment for an average spot"
+     }
+    ],
+    "notes": "The customer spread is not quantified."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "partnerships",
+     "details": "Partner with a crypto ATM operator network and place its machine on a store floor.",
+     "quote": {
+      "text": "You partner with an operator network, place their machine on a store floor, and split the revenue.",
+      "speaker": "Unnamed narrator",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 4693,
+      "approx_timestamp_s": 323
+     }
+    }
+   ],
+   "delivery": "The kiosk exchanges cash and digital currency and retains a spread. The host provides floor space; the transcript does not say who handles cash or servicing.",
+   "unit_economics_claims": [
+    "A hosted machine is said to net $300 to $1,200 a month, with top corner-store spots clearing over $1,000.",
+    "A healthy location is said to have 150 to 300 transactions a month.",
+    "A host may receive half the revenue at a premium spot or $100 a month at an average spot."
+   ],
+   "tools": [
+    "Crypto ATM",
+    "Operator network",
+    "Written compliance program"
+   ],
+   "startup_cost": "For a host, upfront cost is described as almost nothing; no amount is stated.",
+   "time_to_first_revenue": "The narrator estimates a few weeks to go live, with compliance filing taking longer than the hardware.",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Finding and negotiating a host location requires human relationship work; the transcript does not describe software-led acquisition."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "The narrator describes registration and a written compliance program, which require human oversight."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "The kiosk can process transactions, but cash handling, compliance monitoring, and machine servicing remain operational responsibilities."
+    },
+    "billing": {
+     "score_e": 2,
+     "how": "Revenue sharing may be calculated by the operator network, but the host would need to check settlements."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "The transcript does not describe unattended resolution of customer, compliance, or hardware issues."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 2,
+    "notes": "The placement concept could transfer, but the transcript's FinCEN registration and state money-transmitter licensing are US-specific. UK compliance and commercial requirements would need separate research."
+   },
+   "risks": [
+    "The transcript says operators must register with FinCEN and run a written compliance program, and that roughly 23 US states also require money-transmitter licensing.",
+    "Compliance can delay launch and creates an ongoing human responsibility.",
+    "The narrator's transaction and revenue figures are not independently supported in the transcript."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "A single hosted machine nets roughly $300 to $1,200 a month.",
+     "speaker": "Unnamed narrator",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 4171,
+     "approx_timestamp_s": 287
+    }
+   ]
+  },
+  {
+   "local_id": "I03",
+   "name": "Self-service dog wash station",
+   "one_liner": "Install a self-service wash bay at a pet store, car wash, or other suitable site.",
+   "category": "local_service",
+   "business_model": "Customers pay per wash; the operator leases a bay or rents a unit and may share revenue with a host.",
+   "customer": "Dog owners who want to wash a muddy dog without cleaning their own tub.",
+   "problem": "Home dog washing can leave the owner's bathroom dirty and inconvenient to clean.",
+   "offer": "A tiled bay with a raised tub, sprayer, warm water, and dryer.",
+   "pricing": {
+    "model": "Timed self-service wash",
+    "price_points": [
+     {
+      "amount": 10,
+      "amount_max": 15,
+      "currency": "USD",
+      "unit": "per 10 to 20 minutes",
+      "label": "Customer charge"
+     }
+    ],
+    "notes": "The transcript does not state a separate dryer charge."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "partnerships",
+     "details": "Lease a bay inside a pet store or car wash and split revenue with the host, or take a strip-mall unit independently.",
+     "quote": {
+      "text": "you lease a small bay inside a pet store or a car wash and split revenue with the host.",
+      "speaker": "Unnamed narrator",
+      "match_score": 93.0,
+      "verified": true,
+      "char_offset": 6341,
+      "approx_timestamp_s": 437
+     }
+    }
+   ],
+   "delivery": "Customers wash their own dogs at the station. The operator installs and maintains the bay; the transcript does not describe routine cleaning or service arrangements.",
+   "unit_economics_claims": [
+    "A station is said to have grown from $1,300 in month 1 to $4,700 by month 19.",
+    "A quiet bay is said to net $800 to $3,000 a month.",
+    "The narrator says 4 to 5 washes a day is break-even.",
+    "All Paws Pet Wash is reported to have operator earnings of about $800 in quiet months up to $3,000 in busy months per unit."
+   ],
+   "tools": [
+    "Dog wash tub",
+    "Sprayer",
+    "Warm-water system",
+    "Dryer",
+    "Hair trap",
+    "Sewer connection"
+   ],
+   "startup_cost": "A single bay is stated to cost $8,500 to $25,000.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "A host-site lease or revenue-share agreement requires direct human negotiation."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "The operator must arrange site access, drainage approval, and installation."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Customers operate the wash themselves, but the physical bay needs cleaning, maintenance, and repair."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Timed payment at a self-service station can be automated; the transcript does not specify the payment system."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Physical faults, cleaning, and customer problems need human attention."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "The customer need and self-service format transfer, but UK drainage, water, site, and price requirements differ from the US examples."
+   },
+   "risks": [
+    "Dog-wash water requires a suitable hair trap and sewer connection, with local sanitation approval before installation.",
+    "The transcript says to confirm the drain before buying the tub.",
+    "The station remains physical equipment that can need cleaning and repair."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "A real station grew from $1,300 in month 1 to 4,700 by month 19.",
+     "speaker": "Unnamed narrator",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 5499,
+     "approx_timestamp_s": 379
+    }
+   ]
+  },
+  {
+   "local_id": "I04",
+   "name": "Water refill station",
+   "one_liner": "Install an unmanned purified-water kiosk near a grocery store or in a dense neighborhood.",
+   "category": "vending_machines_kiosks",
+   "business_model": "Customers pay per gallon; the operator pays a location fee or percentage of sales.",
+   "customer": "Local residents who bring empty jugs to refill with purified water.",
+   "problem": "Residents may want purified water, particularly in communities where tap water is described as rough.",
+   "offer": "An outdoor kiosk where customers fill containers and pay by card.",
+   "pricing": {
+    "model": "Per gallon",
+    "price_points": [
+     {
+      "amount": 0.4,
+      "amount_max": 0.5,
+      "currency": "USD",
+      "unit": "per gallon",
+      "label": "Transcript says 'A4 to 50 cents'; interpreted as 40 to 50 cents"
+     }
+    ],
+    "notes": "The lower endpoint is unclear in the transcript and is interpreted from the likely spoken figure."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "partnerships",
+     "details": "Negotiate a small footprint with a strip-mall or grocery-anchor landlord.",
+     "quote": {
+      "text": "You negotiate a strip mall or grocery anchor landlord for a small footprint",
+      "speaker": "Unnamed narrator",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 7614,
+      "approx_timestamp_s": 525
+     }
+    }
+   ],
+   "delivery": "Customers fill their own jugs at the kiosk and pay by card. The transcript does not state who maintains filters or replenishes supplies.",
+   "unit_economics_claims": [
+    "A single kiosk is said to pull $500 to $2,000 a month; a dense community may generate $2,000 to $3,000.",
+    "The narrator says 50 gallons a day is a solid mid-tier location.",
+    "The location fee is stated as $100 to $400 a month or a percentage of sales."
+   ],
+   "tools": [
+    "Water refill kiosk",
+    "Card reader",
+    "Water purification system"
+   ],
+   "startup_cost": "The unit is stated to cost $10,000 to $25,000 all-in.",
+   "time_to_first_revenue": "The narrator estimates 2 to 8 weeks for the permit, then says revenue can start when the unit is plugged in.",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "The landlord agreement and location validation require human work."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "The operator must arrange the site, permit, installation, and water connection."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "The kiosk dispenses water without staff, but filter changes, cleaning, and physical repairs are not described as automated."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "The card reader and kiosk can collect payment automatically; the operator still needs to reconcile sales and site fees."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Water quality, hardware, and customer issues require human checks and physical servicing."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "The kiosk model could work in the UK, but drinking-water approvals, site requirements, prices, and water supply conditions need adapting."
+   },
+   "risks": [
+    "The transcript says a health department permit and a per-machine license may be required in US cities.",
+    "Water quality and purification-system maintenance are not explained.",
+    "The lower stated price per gallon is garbled in the transcript."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "A single unmanned kiosk in a strip mall pulls $500 to $2,000 a month.",
+     "speaker": "Unnamed narrator",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 7059,
+     "approx_timestamp_s": 487
+    }
+   ]
+  },
+  {
+   "local_id": "I05",
+   "name": "Small coin-op laundromat",
+   "one_liner": "Buy an existing laundromat with established machines, lease, and customers, then run it with no floor attendant.",
+   "category": "local_service",
+   "business_model": "Walk-in customers pay per wash and dryer cycle.",
+   "customer": "Renters and other residents who need access to washing machines and dryers.",
+   "problem": "Some apartment-heavy neighborhoods have renters with few in-unit washers.",
+   "offer": "An unattended laundromat with self-service washers and dryers, accepting coins or card payments.",
+   "pricing": {
+    "model": "Per wash and dryer use",
+    "price_points": [
+     {
+      "amount": 2.5,
+      "amount_max": 5,
+      "currency": "USD",
+      "unit": "per wash",
+      "label": "Transcript renders this as '$250 to $5'; interpreted as $2.50 to $5"
+     }
+    ],
+    "notes": "Dryers cost a bit more, but no amount is stated."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "The narrator recommends buying an existing laundromat to inherit its lease, machines, and existing customer base; no sourcing channel is given."
+    }
+   ],
+   "delivery": "Customers operate the washers and dryers themselves. The transcript describes no attendant, but does not explain cleaning, repairs, collections, or utilities management.",
+   "unit_economics_claims": [
+    "A small unattended store is said to generate $5,000 to $25,000 a month gross and keep roughly $1,000 to $8,000 a month net.",
+    "Jeff Schulmeister of Speed Clean Coin Laundry is reported to discuss $4,000 to $8,000 a week in gross revenue for one store.",
+    "The narrator says each machine runs around 3 cycles a day.",
+    "A small coin-op store is said to cost $150,000 to $350,000."
+   ],
+   "tools": [
+    "Commercial washers",
+    "Commercial dryers",
+    "Coin payment",
+    "Card payment",
+    "Water, sewer, and gas hookups"
+   ],
+   "startup_cost": "A small coin-op store is stated to cost $150,000 to $350,000.",
+   "time_to_first_revenue": "Not stated; the narrator says buying an operating laundromat means inheriting an existing customer base.",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Buying a store and evaluating its lease, customer base, and utilities require human due diligence."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "A buyer must complete the purchase and confirm the site's utility capacity."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Customers run the machines themselves, but the premises, machines, and utilities need physical oversight and maintenance."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Coin and card systems can collect payments without an attendant, but collections and reconciliation are not described."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Machine breakdowns, cleaning, and utility issues need a human response."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "The self-service laundromat model transfers, but property prices, lease terms, utility costs, and customer prices are US examples."
+   },
+   "risks": [
+    "The transcript says to confirm water, sewer, and gas capacity before signing a lease.",
+    "The capital requirement is high relative to the other machines in the list.",
+    "The cited survival-rate claim is not quantified or sourced in the transcript."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "A small, well-run, unattended laundromat generates around $5,000 to $25,000 a month in gross revenue.",
+     "speaker": "Unnamed narrator",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 9160,
+     "approx_timestamp_s": 632
+    }
+   ]
+  },
+  {
+   "local_id": "I06",
+   "name": "Automated pizza vending",
+   "one_liner": "Place a heated pizza vending unit where people are hungry and have to wait or stay nearby.",
+   "category": "vending_machines_kiosks",
+   "business_model": "Customers buy hot pizzas from the machine; the operator may pay a site commission.",
+   "customer": "People in dorms, gyms, transit hubs, apartment complexes, or other late-night locations.",
+   "problem": "Customers may want hot food when staffed food outlets are closed or inconvenient.",
+   "offer": "A heated vending unit that prepares and dispenses a hot pizza after card payment.",
+   "pricing": {
+    "model": "Per pizza",
+    "price_points": [
+     {
+      "amount": 8,
+      "amount_max": 12,
+      "currency": "USD",
+      "unit": "per pizza",
+      "label": "Customer price"
+     },
+     {
+      "amount": 10,
+      "amount_max": 20,
+      "currency": null,
+      "unit": "percent of sales",
+      "label": "Typical site commission"
+     }
+    ],
+    "notes": "The transcript says food vending usually pays a commission rather than flat rent."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "partnerships",
+     "details": "Negotiate floor space directly with a landlord at a campus, apartment complex, or transit hub.",
+     "quote": {
+      "text": "You negotiate directly with a landlord for floor space, a campus, an apartment complex, a transit hub.",
+      "speaker": "Unnamed narrator",
+      "match_score": 93.9,
+      "verified": true,
+      "char_offset": 11459,
+      "approx_timestamp_s": 790
+     }
+    }
+   ],
+   "delivery": "The heated unit dispenses hot pizzas after payment. The transcript does not explain who stocks ingredients or handles food safety and cleaning.",
+   "unit_economics_claims": [
+    "A standard unit is said to net $3,000 to $8,000 a month while selling 25 to 35 pizzas a day.",
+    "A decent site is said to repay the purchase cost in 8 to 14 months.",
+    "Site commissions are stated as 10 to 20 percent of sales."
+   ],
+   "tools": [
+    "Heated pizza vending unit",
+    "Card reader",
+    "Hot-food vending approval"
+   ],
+   "startup_cost": "A standard heated unit is stated to cost $10,000 to $20,000.",
+   "time_to_first_revenue": "The narrator says cash flow can start on day one, after the unit is ready and placed.",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Finding a suitable landlord and negotiating floor space require human work."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "Installation, site approval, and food-vending approval require human coordination."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "The machine heats and dispenses pizzas, but stocking, cleaning, food safety, and repairs are physical tasks."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Card payment can be automatic; the operator needs to check sales and commission settlements."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Food, machine, and customer problems need human response."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "The placement concept transfers, but UK food safety, vending approval, site commissions, and prices require adaptation."
+   },
+   "risks": [
+    "The transcript says pizza vending may be treated as real food service and require hot-food vending approval.",
+    "A low-traffic location can undermine sales; the narrator emphasizes placing the machine where people are already waiting and hungry.",
+    "Food stocking and hygiene responsibilities are not explained."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "A standard heated serve pizza unit nets around $3,000 to $8,000 a month, selling 25 to 35 pizzas a day.",
+     "speaker": "Unnamed narrator",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 10929,
+     "approx_timestamp_s": 754
+    }
+   ]
+  },
+  {
+   "local_id": "I07",
+   "name": "Self-service car wash",
+   "one_liner": "Buy or lease a site with self-service wash bays and earn from drivers washing their own cars.",
+   "category": "local_service",
+   "business_model": "Drivers pay per wash period and for add-ons such as vacuums.",
+   "customer": "Drivers who want to wash their cars at a self-service site.",
+   "problem": "Drivers need a convenient place to wash their cars, particularly near commuters and apartment clusters.",
+   "offer": "Open self-service bays with lights and card payment, plus vacuums and add-ons.",
+   "pricing": {
+    "model": "Per few minutes of wash-bay use, plus add-ons",
+    "price_points": [
+     {
+      "amount": 1,
+      "amount_max": 3,
+      "currency": "USD",
+      "unit": "per few minutes per bay",
+      "label": "Wash-bay price"
+     }
+    ],
+    "notes": "Vacuum and add-on prices are not stated."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "The narrator recommends buying or leasing the lot and owning the bays. Candidate locations are busy commuter corners and apartment clusters; no property sourcing channel is stated."
+    }
+   ],
+   "delivery": "Drivers wash their own cars in open bays. The owner provides and maintains the site; the transcript does not specify cleaning or maintenance staffing.",
+   "unit_economics_claims": [
+    "A multi-bay site is said to run $4,000 to $15,000 a month and up, with average operations in a $10,000 to $30,000 range.",
+    "Brianna Nixon's location was said to be making around $8,000 a month when she bought it.",
+    "Her three-location operation reportedly cleared roughly $340,000 profit in 2022.",
+    "An existing wash is stated to cost $150,000 to $300,000."
+   ],
+   "tools": [
+    "Self-service wash bays",
+    "Card payment",
+    "Vacuums",
+    "Water-reclaim system"
+   ],
+   "startup_cost": "An existing wash is stated to cost $150,000 to $300,000.",
+   "time_to_first_revenue": "The narrator says revenue starts on day one of ownership when buying an existing operating wash.",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Buying or leasing a site requires human property, seller, and due-diligence work."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "The operator must complete the purchase or lease and confirm zoning and environmental approvals."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Customers wash their own cars, but the site, bays, water systems, and equipment need physical maintenance."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Card payment can collect automatically; the owner still checks equipment, settlements, and site finances."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Physical faults, cleaning, and environmental issues require human attention."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Self-service washing can transfer to the UK, but land costs, zoning, water-discharge rules, and environmental approvals differ."
+   },
+   "risks": [
+    "The transcript says to confirm reclaim and discharge permits, storm-water rules, and zoning before closing.",
+    "The purchase price is high and the business depends on a suitable site.",
+    "A physical wash site requires ongoing maintenance even if customers operate the bays themselves."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "A multi-base self-s serve site realistically runs $4,000 to $15,000 a month and up.",
+     "speaker": "Unnamed narrator",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 12299,
+     "approx_timestamp_s": 848
+    }
+   ]
+  },
+  {
+   "local_id": "I08",
+   "name": "Traditional cash ATM placement route",
+   "one_liner": "Own or host cash ATMs at cash-heavy businesses and earn surcharge and interchange fees.",
+   "category": "vending_machines_kiosks",
+   "business_model": "The ATM owner earns a surcharge on withdrawals and interchange from the card network; some deals split fees with the store.",
+   "customer": "People withdrawing cash at laundromats, bars, gas stations, smoke shops, corner stores, festivals, and events.",
+   "problem": "Customers at cash-heavy locations need convenient cash access, especially where a bank machine is absent.",
+   "offer": "A cash-dispensing ATM installed on a business's premises. The operator supplies the machine, cash float, and paperwork, while the host provides wall or floor space.",
+   "pricing": {
+    "model": "Per withdrawal surcharge plus interchange; the owner may share the surcharge with the host.",
+    "price_points": [
+     {
+      "amount": 2.5,
+      "amount_max": 4,
+      "currency": "USD",
+      "unit": "per withdrawal",
+      "label": "Surcharge"
+     },
+     {
+      "amount": 0.1,
+      "amount_max": 0.25,
+      "currency": "USD",
+      "unit": "per withdrawal",
+      "label": "Interchange"
+     },
+     {
+      "amount": 50,
+      "currency": null,
+      "unit": "percent of surcharge or fees",
+      "label": "Example store revenue share"
+     }
+    ],
+    "notes": "The transcript also describes a flat monthly check to a store as a possible alternative, but does not give that amount."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "door_to_door_in_person",
+     "details": "The narrator's Harry walks into a nearby laundromat, offers a machine at no cost to the store, and proposes handling the machine, cash, and paperwork in exchange for a fee split.",
+     "quote": {
+      "text": "I will put a cash machine in here at no cost to you. I handle everything and I will split the fees with you every single month.",
+      "speaker": "Unnamed narrator",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 21870,
+      "approx_timestamp_s": 1509
+     }
+    },
+    {
+     "channel": "partnerships",
+     "details": "The operator signs a placement deal with the store owner; a processor may supply the machine and cash in exchange for the operator finding a location and taking a slice."
+    }
+   ],
+   "delivery": "The machine dispenses cash and settles withdrawals through a network. The operator or processor supplies and replenishes the cash float, handles placement paperwork, and maintains the route. The transcript says cash returns to the owner's account within a day or two and describes refilling on a quiet loop.",
+   "unit_economics_claims": [
+    "A well-placed machine is said to generate around $1,250 a month in fees; a sleepy store may generate closer to $500.",
+    "A route of 6 to 12 machines is said to approach $10,000 a month in gross fees, citing ATM Depot.",
+    "The narrator's example uses 500 withdrawals at $2.50 each for about $1,250 gross surcharge, then about half retained by the operator after the store split.",
+    "Interchange is stated as $0.10 to $0.25 per withdrawal, or $30 to $75 a month on a busy machine.",
+    "A well-placed machine is said to pay back in 6 to 18 months, citing ATM Marketplace and ATM Depot.",
+    "A strong location may generate 500 to 600 withdrawals per month.",
+    "The Harry story says a route of about eight machines had a strong month around $4,300 and a best month of $4,317."
+   ],
+   "tools": [
+    "ATM",
+    "Processor",
+    "ATM network",
+    "Cash float",
+    "Receipt paper",
+    "Wireless connection",
+    "Hand truck",
+    "Placement agreement",
+    "Recordkeeping system"
+   ],
+   "startup_cost": "The machine is stated to cost about $2,200 to $8,000 new; used machines cost less. The cash float is described as a few thousand dollars that recirculates, not as a spent cost. Other setup costs are not stated.",
+   "time_to_first_revenue": "The fictional Harry example says he studied and called around in month 1, launched his first laundromat placement in month 3, renegotiated its split in month 5, and bought a second machine after the first paid for itself in month 7.",
+   "automation": {
+    "acquisition": {
+     "score_e": 0,
+     "how": "The described method is scouting sites and walking in to pitch owners. That in-person selling needs a human; unsolicited UK marketing to individuals or sole traders also needs care under the user's stated PECR rule."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "The operator must negotiate and sign placement agreements, select a processor, register the business, and keep records."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "The machine dispenses cash unattended, but an operator must manage the physical cash float, refills, route, and machine issues."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Network settlement and fee collection are described as automatic, but the owner must verify settlements, store splits, and bookkeeping."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Cash shortages, machine faults, receipt supplies, and store issues require a human route operator."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "The placement and fee model could work, but the transcript describes US processors, registration, network settlement, and state rules. UK regulation, operator economics, and site contracts need separate checking."
+   },
+   "risks": [
+    "A dead location may not cover the operator's refill trips; the narrator says to judge a placement using 30 days of real numbers.",
+    "The narrator advises moving a weak machine or renegotiating the store split rather than keeping an unproductive placement.",
+    "Cash handling creates physical route work and requires insurance, records, and refills.",
+    "The transcript says federal money-services registration and some state rules may apply; these US requirements should not be assumed to describe the UK.",
+    "The fictional Harry timeline and much of the route economics are not independently verified in the transcript."
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "A single well-placed machine in a busy spot can throw off around $1,250 a month. In fees alone, a sleepy little store might do closer to 500.",
+     "speaker": "Unnamed narrator",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 17591,
+     "approx_timestamp_s": 1213
+    },
+    {
+     "text": "Call it 500 withdrawals in a month at $2.50 each. That is roughly $1,250 from one box bolted to one wall in one month.",
+     "speaker": "Unnamed narrator",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 18816,
+     "approx_timestamp_s": 1298
+    },
+    {
+     "text": "Month 10, a neighborhood bar. And by month 18, Harry was running a small route of about eight machines.",
+     "speaker": "Unnamed narrator",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 28203,
+     "approx_timestamp_s": 1946
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "One ice machine cleared around $2,500 in the previous month.",
+   "metric": "revenue",
+   "value": {
+    "amount": 2500,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "period": "last month",
+   "claimant": "Narrator, reporting an unnamed operator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I01",
+   "quote": {
+    "text": "That one box quietly cleared around $2,500 last month for a guy who never showed up once.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1169,
+    "approx_timestamp_s": 80
+   }
+  },
+  {
+   "claim": "One ice machine is said to have cleared roughly $2,500 a month for one operator.",
+   "metric": "revenue",
+   "value": {
+    "amount": 2500,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "period": "per month",
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I01",
+   "quote": {
+    "text": "A single ice machine outside a gas station cleared roughly $2,500 a month for one operator.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2252,
+    "approx_timestamp_s": 155
+   }
+  },
+  {
+   "claim": "Quiet suburban ice vending locations earn from $700 a month; the transcript's upper endpoint is garbled as ',200'.",
+   "metric": "revenue",
+   "value": {
+    "amount": 700,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "Lower endpoint; upper endpoint unclear in transcript"
+   },
+   "period": "per month",
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I01",
+   "quote": {
+    "text": "On one unit, quiet suburban spots run 700 to,200 a month.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2342,
+    "approx_timestamp_s": 161
+   }
+  },
+  {
+   "claim": "A marina or campground ice machine can earn $3,500 and up in peak season.",
+   "metric": "revenue",
+   "value": {
+    "amount": 3500,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "and up in peak season"
+   },
+   "period": "peak season",
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I01",
+   "quote": {
+    "text": "a marina or a campground in peak season. 3,500 and up.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2398,
+    "approx_timestamp_s": 165
+   }
+  },
+  {
+   "claim": "Ice sells for $1.50 to $3 a bag.",
+   "metric": "price",
+   "value": {
+    "amount": 1.5,
+    "amount_max": 3,
+    "currency": "USD",
+    "unit": "per bag"
+   },
+   "period": null,
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I01",
+   "quote": {
+    "text": "$1.50 to $3 a bag right at the machine.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2646,
+    "approx_timestamp_s": 182
+   }
+  },
+  {
+   "claim": "A busy ice location may sell 40 to 60 bags a day.",
+   "metric": "other",
+   "value": {
+    "amount": 40,
+    "amount_max": 60,
+    "currency": null,
+    "unit": "bags per day"
+   },
+   "period": "per day",
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I01",
+   "quote": {
+    "text": "40 to 60 bags a day is a busy spot.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2683,
+    "approx_timestamp_s": 185
+   }
+  },
+  {
+   "claim": "A slow ice location may sell 15 to 20 bags a day.",
+   "metric": "other",
+   "value": {
+    "amount": 15,
+    "amount_max": 20,
+    "currency": null,
+    "unit": "bags per day"
+   },
+   "period": "per day",
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I01",
+   "quote": {
+    "text": "15 to 20 bags is a slow one.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2718,
+    "approx_timestamp_s": 187
+   }
+  },
+  {
+   "claim": "Steve Slaggel started with two machines in early 2022 and grew to eight.",
+   "metric": "customers",
+   "value": {
+    "amount": 2,
+    "amount_max": 8,
+    "currency": null,
+    "unit": "machines",
+    "label": "Started with 2, grew to 8"
+   },
+   "period": "from early 2022 onward",
+   "claimant": "Narrator, reporting Steve Slaggel",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I01",
+   "quote": {
+    "text": "He started with two machines back in early 2022. He grew to eight.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2866,
+    "approx_timestamp_s": 197
+   }
+  },
+  {
+   "claim": "A land lease is often $200 to $400 a month or a small sales share.",
+   "metric": "cost",
+   "value": {
+    "amount": 200,
+    "amount_max": 400,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "period": "per month",
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I01",
+   "quote": {
+    "text": "often $200 to $400 a month for the pad or a small cut of sales.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3265,
+    "approx_timestamp_s": 225
+   }
+  },
+  {
+   "claim": "A standalone ice kiosk costs about $38,000 to $62,000 all-in with pad, plumbing, and power.",
+   "metric": "cost",
+   "value": {
+    "amount": 38000,
+    "amount_max": 62000,
+    "currency": "USD",
+    "unit": "one-off"
+   },
+   "period": null,
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I01",
+   "quote": {
+    "text": "a standalone kiosk unit runs about $38,000 to $62,000 allin with the pad and the plumbing and the power.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3354,
+    "approx_timestamp_s": 231
+   }
+  },
+  {
+   "claim": "There are usually 40 to 80 candidate sites within a 15-minute drive.",
+   "metric": "other",
+   "value": {
+    "amount": 40,
+    "amount_max": 80,
+    "currency": null,
+    "unit": "sites within a 15-minute drive"
+   },
+   "period": null,
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I01",
+   "quote": {
+    "text": "Usually 40 to 80 of them. You need one that says yes.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3712,
+    "approx_timestamp_s": 256
+   }
+  },
+  {
+   "claim": "A hosted crypto ATM is said to net $300 to $1,200 a month.",
+   "metric": "profit",
+   "value": {
+    "amount": 300,
+    "amount_max": 1200,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "period": "per month",
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I02",
+   "quote": {
+    "text": "A single hosted machine nets roughly $300 to $1,200 a month.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4171,
+    "approx_timestamp_s": 287
+   }
+  },
+  {
+   "claim": "Top crypto ATM corner-store spots clear over $1,000 a month.",
+   "metric": "profit",
+   "value": {
+    "amount": 1000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "over"
+   },
+   "period": "per month",
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I02",
+   "quote": {
+    "text": "Top corner store spots clear over a thousand.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4229,
+    "approx_timestamp_s": 291
+   }
+  },
+  {
+   "claim": "A premium host spot may receive 50 percent of revenue.",
+   "metric": "margin",
+   "value": {
+    "amount": 50,
+    "currency": null,
+    "unit": "percent of revenue"
+   },
+   "period": null,
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I02",
+   "quote": {
+    "text": "Often 50/50 at a premium spot or a flat $100 a month at an average one.",
+    "speaker": "Unnamed narrator",
+    "match_score": 91.3,
+    "verified": true,
+    "char_offset": 4792,
+    "approx_timestamp_s": 330
+   }
+  },
+  {
+   "claim": "An average crypto ATM host spot may pay $100 a month.",
+   "metric": "price",
+   "value": {
+    "amount": 100,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "period": "per month",
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I02",
+   "quote": {
+    "text": "a flat $100 a month at an average one.",
+    "speaker": "Unnamed narrator",
+    "match_score": 97.2,
+    "verified": true,
+    "char_offset": 4828,
+    "approx_timestamp_s": 333
+   }
+  },
+  {
+   "claim": "A healthy crypto ATM location has 150 to 300 transactions a month.",
+   "metric": "customers",
+   "value": {
+    "amount": 150,
+    "amount_max": 300,
+    "currency": null,
+    "unit": "transactions per month"
+   },
+   "period": "per month",
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I02",
+   "quote": {
+    "text": "150 to 300 transactions a month is a healthy location.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4607,
+    "approx_timestamp_s": 317
+   }
+  },
+  {
+   "claim": "Roughly 23 US states require a money-transmitter license for crypto ATM operators.",
+   "metric": "other",
+   "value": {
+    "amount": 23,
+    "currency": null,
+    "unit": "US states"
+   },
+   "period": null,
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I02",
+   "quote": {
+    "text": "Roughly 23 states want a money transmitter license on top.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5064,
+    "approx_timestamp_s": 349
+   }
+  },
+  {
+   "claim": "The narrator estimates a few weeks to go live.",
+   "metric": "other",
+   "value": {
+    "amount": null,
+    "currency": null,
+    "unit": "a few weeks"
+   },
+   "period": "time to launch",
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I02",
+   "quote": {
+    "text": "One realistic timeline a few weeks to go live because the compliance filing takes longer than the hardware.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5287,
+    "approx_timestamp_s": 364
+   }
+  },
+  {
+   "claim": "A dog wash station grew from $1,300 in month 1 to $4,700 by month 19.",
+   "metric": "revenue",
+   "value": {
+    "amount": 1300,
+    "amount_max": 4700,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "Month 1 to month 19"
+   },
+   "period": "months 1 to 19",
+   "claimant": "Narrator, reporting an unnamed station",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I03",
+   "quote": {
+    "text": "A real station grew from $1,300 in month 1 to 4,700 by month 19.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5499,
+    "approx_timestamp_s": 379
+   }
+  },
+  {
+   "claim": "A quiet dog wash bay nets $800 to $3,000 a month.",
+   "metric": "profit",
+   "value": {
+    "amount": 800,
+    "amount_max": 3000,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "period": "per month",
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I03",
+   "quote": {
+    "text": "A quiet bay nets 800 to 3,000 a month.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5562,
+    "approx_timestamp_s": 383
+   }
+  },
+  {
+   "claim": "Dog washing costs $10 to $15 for 10 to 20 minutes.",
+   "metric": "price",
+   "value": {
+    "amount": 10,
+    "amount_max": 15,
+    "currency": "USD",
+    "unit": "per 10 to 20 minutes"
+   },
+   "period": null,
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I03",
+   "quote": {
+    "text": "$10 to $15 for 10 to 20 minutes of warm water and a dryer right at the station.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5945,
+    "approx_timestamp_s": 410
+   }
+  },
+  {
+   "claim": "The narrator says 4 to 5 washes a day is break-even.",
+   "metric": "other",
+   "value": {
+    "amount": 4,
+    "amount_max": 5,
+    "currency": null,
+    "unit": "washes per day"
+   },
+   "period": "per day",
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I03",
+   "quote": {
+    "text": "4 to five washes a day is your break even.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6022,
+    "approx_timestamp_s": 415
+   }
+  },
+  {
+   "claim": "All Paws Pet Wash reports operator earnings of about $800 in quiet months up to $3,000 in busy months per unit.",
+   "metric": "profit",
+   "value": {
+    "amount": 800,
+    "amount_max": 3000,
+    "currency": "USD",
+    "unit": "per unit per month"
+   },
+   "period": "quiet to busy months",
+   "claimant": "Narrator, citing All Paws Pet Wash",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I03",
+   "quote": {
+    "text": "reports operator earnings from about $800 in the quiet months up to 3,000 in the busy ones per unit across their network",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6156,
+    "approx_timestamp_s": 424
+   }
+  },
+  {
+   "claim": "A single dog wash bay costs $8,500 to $25,000.",
+   "metric": "cost",
+   "value": {
+    "amount": 8500,
+    "amount_max": 25000,
+    "currency": "USD",
+    "unit": "one-off"
+   },
+   "period": null,
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I03",
+   "quote": {
+    "text": "A single bay unit runs about $8,500 to $25,000.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6494,
+    "approx_timestamp_s": 448
+   }
+  },
+  {
+   "claim": "An unmanned water kiosk pulls $500 to $2,000 a month.",
+   "metric": "revenue",
+   "value": {
+    "amount": 500,
+    "amount_max": 2000,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "period": "per month",
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I04",
+   "quote": {
+    "text": "A single unmanned kiosk in a strip mall pulls $500 to $2,000 a month.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7059,
+    "approx_timestamp_s": 487
+   }
+  },
+  {
+   "claim": "A water kiosk in a dense community can earn $2,000 to $3,000 a month.",
+   "metric": "revenue",
+   "value": {
+    "amount": 2000,
+    "amount_max": 3000,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "period": "per month",
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I04",
+   "quote": {
+    "text": "In a dense community with rough tap water, 2,000 to 3,000.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7126,
+    "approx_timestamp_s": 491
+   }
+  },
+  {
+   "claim": "Water is priced at a garbled 'A4 to 50 cents' per gallon; interpreted as $0.40 to $0.50.",
+   "metric": "price",
+   "value": {
+    "amount": 0.4,
+    "amount_max": 0.5,
+    "currency": "USD",
+    "unit": "per gallon",
+    "label": "Interpreted from garbled transcript"
+   },
+   "period": null,
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I04",
+   "quote": {
+    "text": "A4 to 50 cents a gallon right at the machine.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7444,
+    "approx_timestamp_s": 513
+   }
+  },
+  {
+   "claim": "A solid mid-tier water station sells 50 gallons a day.",
+   "metric": "other",
+   "value": {
+    "amount": 50,
+    "currency": null,
+    "unit": "gallons per day"
+   },
+   "period": "per day",
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I04",
+   "quote": {
+    "text": "50 gallons a day is a solid mid-tier spot.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7489,
+    "approx_timestamp_s": 516
+   }
+  },
+  {
+   "claim": "A location fee may be $100 to $400 a month or a percentage of sales.",
+   "metric": "cost",
+   "value": {
+    "amount": 100,
+    "amount_max": 400,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "period": "per month",
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I04",
+   "quote": {
+    "text": "flat location fee of 100 to 400 a month or a percentage of sales.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7690,
+    "approx_timestamp_s": 530
+   }
+  },
+  {
+   "claim": "A water refill unit costs $10,000 to $25,000 all-in.",
+   "metric": "cost",
+   "value": {
+    "amount": 10000,
+    "amount_max": 25000,
+    "currency": "USD",
+    "unit": "one-off"
+   },
+   "period": null,
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I04",
+   "quote": {
+    "text": "The unit itself runs about $10,000 to $25,000 allin.",
+    "speaker": "Unnamed narrator",
+    "match_score": 93.9,
+    "verified": true,
+    "char_offset": 7762,
+    "approx_timestamp_s": 535
+   }
+  },
+  {
+   "claim": "The water permit is estimated to take 2 to 8 weeks.",
+   "metric": "other",
+   "value": {
+    "amount": 2,
+    "amount_max": 8,
+    "currency": null,
+    "unit": "weeks"
+   },
+   "period": "permit timeline",
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I04",
+   "quote": {
+    "text": "One realistic timeline, 2 to 8 weeks for the permit, then revenue the day it is plugged in.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8044,
+    "approx_timestamp_s": 555
+   }
+  },
+  {
+   "claim": "An unattended laundromat generates $5,000 to $25,000 a month gross.",
+   "metric": "revenue",
+   "value": {
+    "amount": 5000,
+    "amount_max": 25000,
+    "currency": "USD",
+    "unit": "gross per month"
+   },
+   "period": "per month",
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I05",
+   "quote": {
+    "text": "A small, well-run, unattended laundromat generates around $5,000 to $25,000 a month in gross revenue.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9160,
+    "approx_timestamp_s": 632
+   }
+  },
+  {
+   "claim": "A typical small laundromat keeps roughly $1,000 to $8,000 a month net.",
+   "metric": "profit",
+   "value": {
+    "amount": 1000,
+    "amount_max": 8000,
+    "currency": "USD",
+    "unit": "net per month"
+   },
+   "period": "per month",
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I05",
+   "quote": {
+    "text": "a typical small store keeps roughly 1,000 to 8,000 a month.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9272,
+    "approx_timestamp_s": 639
+   }
+  },
+  {
+   "claim": "Jeff Schulmeister's store is reported to gross $4,000 to $8,000 a week.",
+   "metric": "revenue",
+   "value": {
+    "amount": 4000,
+    "amount_max": 8000,
+    "currency": "USD",
+    "unit": "gross per week"
+   },
+   "period": "per week",
+   "claimant": "Narrator, reporting Jeff Schulmeister",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I05",
+   "quote": {
+    "text": "He talks openly about gross revenue in the $4,000 to $8,000 a week range depending on the neighborhood's demographics.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9839,
+    "approx_timestamp_s": 679
+   }
+  },
+  {
+   "claim": "Each laundromat machine runs around three cycles a day.",
+   "metric": "other",
+   "value": {
+    "amount": 3,
+    "currency": null,
+    "unit": "cycles per machine per day"
+   },
+   "period": "per day",
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I05",
+   "quote": {
+    "text": "Every machine runs around three cycles a day.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9683,
+    "approx_timestamp_s": 668
+   }
+  },
+  {
+   "claim": "The transcript gives the wash price as '$250 to $5'; interpreted as $2.50 to $5.",
+   "metric": "price",
+   "value": {
+    "amount": 2.5,
+    "amount_max": 5,
+    "currency": "USD",
+    "unit": "per wash",
+    "label": "Interpreted from transcript formatting"
+   },
+   "period": null,
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I05",
+   "quote": {
+    "text": "$250 to $5 a wash, a bit more for the dryers, all selfs serve.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9625,
+    "approx_timestamp_s": 664
+   }
+  },
+  {
+   "claim": "A small coin-op laundromat costs $150,000 to $350,000.",
+   "metric": "cost",
+   "value": {
+    "amount": 150000,
+    "amount_max": 350000,
+    "currency": "USD",
+    "unit": "one-off"
+   },
+   "period": null,
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I05",
+   "quote": {
+    "text": "A small coin op store runs 150,000 to $350,000.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10232,
+    "approx_timestamp_s": 706
+   }
+  },
+  {
+   "claim": "A pizza vending unit nets $3,000 to $8,000 a month and sells 25 to 35 pizzas a day.",
+   "metric": "profit",
+   "value": {
+    "amount": 3000,
+    "amount_max": 8000,
+    "currency": "USD",
+    "unit": "net per month"
+   },
+   "period": "per month",
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I06",
+   "quote": {
+    "text": "A standard heated serve pizza unit nets around $3,000 to $8,000 a month, selling 25 to 35 pizzas a day.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10929,
+    "approx_timestamp_s": 754
+   }
+  },
+  {
+   "claim": "The pizza unit sells 25 to 35 pizzas a day.",
+   "metric": "customers",
+   "value": {
+    "amount": 25,
+    "amount_max": 35,
+    "currency": null,
+    "unit": "pizzas per day"
+   },
+   "period": "per day",
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I06",
+   "quote": {
+    "text": "selling 25 to 35 pizzas a day.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10999,
+    "approx_timestamp_s": 759
+   }
+  },
+  {
+   "claim": "A pizza sells for $8 to $12.",
+   "metric": "price",
+   "value": {
+    "amount": 8,
+    "amount_max": 12,
+    "currency": "USD",
+    "unit": "per pizza"
+   },
+   "period": null,
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I06",
+   "quote": {
+    "text": "$8 to 12 a pizza right at the machine.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11301,
+    "approx_timestamp_s": 779
+   }
+  },
+  {
+   "claim": "Food-vending site commissions are usually 10 to 20 percent of sales.",
+   "metric": "margin",
+   "value": {
+    "amount": 10,
+    "amount_max": 20,
+    "currency": null,
+    "unit": "percent of sales"
+   },
+   "period": null,
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I06",
+   "quote": {
+    "text": "Food vending usually runs on a commission, 10 to 20% of sales rather than flat rent.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11561,
+    "approx_timestamp_s": 797
+   }
+  },
+  {
+   "claim": "A heated pizza vending unit costs $10,000 to $20,000.",
+   "metric": "cost",
+   "value": {
+    "amount": 10000,
+    "amount_max": 20000,
+    "currency": "USD",
+    "unit": "one-off"
+   },
+   "period": null,
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I06",
+   "quote": {
+    "text": "The standard heated unit runs about $10,000 to $20,000.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11643,
+    "approx_timestamp_s": 803
+   }
+  },
+  {
+   "claim": "Payback for a pizza vending unit is estimated at 8 to 14 months in a decent spot.",
+   "metric": "other",
+   "value": {
+    "amount": 8,
+    "amount_max": 14,
+    "currency": null,
+    "unit": "months to payback"
+   },
+   "period": "payback",
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I06",
+   "quote": {
+    "text": "payback lands around 8 to 14 months in a decent spot.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11784,
+    "approx_timestamp_s": 813
+   }
+  },
+  {
+   "claim": "A self-service car wash site runs $4,000 to $15,000 a month and up.",
+   "metric": "revenue",
+   "value": {
+    "amount": 4000,
+    "amount_max": 15000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "and up"
+   },
+   "period": "per month",
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I07",
+   "quote": {
+    "text": "A multi-base self-s serve site realistically runs $4,000 to $15,000 a month and up.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12299,
+    "approx_timestamp_s": 848
+   }
+  },
+  {
+   "claim": "Average car wash operations are said to land in a $10,000 to $30,000 range before the top tier.",
+   "metric": "revenue",
+   "value": {
+    "amount": 10000,
+    "amount_max": 30000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "Transcript does not repeat the period in this sentence"
+   },
+   "period": "implied monthly by surrounding claim",
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I07",
+   "quote": {
+    "text": "Average operations land in the 10 to 30,000 range before the top tier ones climb higher.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12380,
+    "approx_timestamp_s": 854
+   }
+  },
+  {
+   "claim": "Brianna Nixon's car wash location was making around $8,000 a month when she bought it.",
+   "metric": "revenue",
+   "value": {
+    "amount": 8000,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "period": "at acquisition",
+   "claimant": "Narrator, reporting Brianna Nixon",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I07",
+   "quote": {
+    "text": "The location was already making around $8,000 a month when she bought it.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13041,
+    "approx_timestamp_s": 899
+   }
+  },
+  {
+   "claim": "Brianna Nixon's three-location operation reportedly cleared about $340,000 profit in 2022.",
+   "metric": "profit",
+   "value": {
+    "amount": 340000,
+    "currency": "USD",
+    "unit": "profit in 2022"
+   },
+   "period": "2022",
+   "claimant": "Narrator, reporting Brianna Nixon",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I07",
+   "quote": {
+    "text": "and reportedly cleared roughly $340,000 in profit in 2022.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13162,
+    "approx_timestamp_s": 908
+   }
+  },
+  {
+   "claim": "Brianna Nixon's operation had three locations.",
+   "metric": "customers",
+   "value": {
+    "amount": 3,
+    "currency": null,
+    "unit": "locations"
+   },
+   "period": null,
+   "claimant": "Narrator, reporting Brianna Nixon",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I07",
+   "quote": {
+    "text": "She grew it into a threelocation operation",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13113,
+    "approx_timestamp_s": 904
+   }
+  },
+  {
+   "claim": "An existing self-service car wash costs $150,000 to $300,000.",
+   "metric": "cost",
+   "value": {
+    "amount": 150000,
+    "amount_max": 300000,
+    "currency": "USD",
+    "unit": "one-off"
+   },
+   "period": null,
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I07",
+   "quote": {
+    "text": "An existing wash runs about $150,000 to $300,000.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13466,
+    "approx_timestamp_s": 929
+   }
+  },
+  {
+   "claim": "A self-service wash bay costs $1 to $3 per few minutes.",
+   "metric": "price",
+   "value": {
+    "amount": 1,
+    "amount_max": 3,
+    "currency": "USD",
+    "unit": "per few minutes per bay"
+   },
+   "period": null,
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I07",
+   "quote": {
+    "text": "A dollar to $3 per few minutes at each bay, plus vacuums and add-ons.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12750,
+    "approx_timestamp_s": 879
+   }
+  },
+  {
+   "claim": "A well-placed traditional ATM can generate around $1,250 a month in fees.",
+   "metric": "revenue",
+   "value": {
+    "amount": 1250,
+    "currency": "USD",
+    "unit": "fees per month"
+   },
+   "period": "per month",
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I08",
+   "quote": {
+    "text": "A single well-placed machine in a busy spot can throw off around $1,250 a month.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17591,
+    "approx_timestamp_s": 1213
+   }
+  },
+  {
+   "claim": "A sleepy cash ATM store might generate around $500 a month in fees.",
+   "metric": "revenue",
+   "value": {
+    "amount": 500,
+    "currency": "USD",
+    "unit": "fees per month"
+   },
+   "period": "per month",
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I08",
+   "quote": {
+    "text": "In fees alone, a sleepy little store might do closer to 500.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17670,
+    "approx_timestamp_s": 1219
+   }
+  },
+  {
+   "claim": "A route of 6 to 12 ATMs can approach $10,000 a month in gross fees, attributed to ATM Depot.",
+   "metric": "revenue",
+   "value": {
+    "amount": 10000,
+    "currency": "USD",
+    "unit": "gross fees per month",
+    "label": "toward this amount"
+   },
+   "period": "per month",
+   "claimant": "Narrator, citing ATM Depot",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I08",
+   "quote": {
+    "text": "And a small route, say 6 to 12 machines, can push toward $10,000 a month in gross fees.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17729,
+    "approx_timestamp_s": 1223
+   }
+  },
+  {
+   "claim": "The surcharge is stated as $2.50, sometimes $3, and sometimes as much as $4.",
+   "metric": "price",
+   "value": {
+    "amount": 2.5,
+    "amount_max": 4,
+    "currency": "USD",
+    "unit": "per withdrawal",
+    "label": "Narrator also mentions $3 as an intermediate example"
+   },
+   "period": null,
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I08",
+   "quote": {
+    "text": "$2.50, sometimes three, sometimes as much as four.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18452,
+    "approx_timestamp_s": 1273
+   }
+  },
+  {
+   "claim": "A gas station may have 15 to 20 ATM withdrawals a day.",
+   "metric": "customers",
+   "value": {
+    "amount": 15,
+    "amount_max": 20,
+    "currency": null,
+    "unit": "withdrawals per day"
+   },
+   "period": "per day",
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I08",
+   "quote": {
+    "text": "15, maybe 20 people hit that machine every day.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18770,
+    "approx_timestamp_s": 1295
+   }
+  },
+  {
+   "claim": "The narrator's ATM example uses 500 withdrawals in a month.",
+   "metric": "customers",
+   "value": {
+    "amount": 500,
+    "currency": null,
+    "unit": "withdrawals per month"
+   },
+   "period": "per month",
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I08",
+   "quote": {
+    "text": "Call it 500 withdrawals in a month at $2.50 each.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18816,
+    "approx_timestamp_s": 1298
+   }
+  },
+  {
+   "claim": "The example of 500 withdrawals at $2.50 produces about $1,250 in monthly surcharge revenue.",
+   "metric": "revenue",
+   "value": {
+    "amount": 1250,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "period": "per month",
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I08",
+   "quote": {
+    "text": "That is roughly $1,250 from one box bolted to one wall in one month.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18864,
+    "approx_timestamp_s": 1301
+   }
+  },
+  {
+   "claim": "Interchange is stated as $0.10 to $0.25 per withdrawal.",
+   "metric": "price",
+   "value": {
+    "amount": 0.1,
+    "amount_max": 0.25,
+    "currency": "USD",
+    "unit": "per withdrawal"
+   },
+   "period": null,
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I08",
+   "quote": {
+    "text": "usually somewhere between 10 and 25 cents per withdrawal.",
+    "speaker": "Unnamed narrator",
+    "match_score": 89.3,
+    "verified": false,
+    "char_offset": 19205,
+    "approx_timestamp_s": 1325
+   }
+  },
+  {
+   "claim": "Interchange adds $30 to $75 a month on a busy machine.",
+   "metric": "revenue",
+   "value": {
+    "amount": 30,
+    "amount_max": 75,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "period": "per month",
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I08",
+   "quote": {
+    "text": "on a busy machine that is another $30 to $75 a month just appearing.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 19429,
+    "approx_timestamp_s": 1340
+   }
+  },
+  {
+   "claim": "The ATM cash float may be a few thousand dollars.",
+   "metric": "cost",
+   "value": {
+    "amount": null,
+    "currency": "USD",
+    "unit": "cash float",
+    "label": "A few thousand; no exact amount stated"
+   },
+   "period": null,
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I08",
+   "quote": {
+    "text": "The owner loads the machine with their own money, say a few thousand in bills.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20118,
+    "approx_timestamp_s": 1388
+   }
+  },
+  {
+   "claim": "The narrator's cash-float example uses a $60 withdrawal.",
+   "metric": "other",
+   "value": {
+    "amount": 60,
+    "currency": "USD",
+    "unit": "example withdrawal"
+   },
+   "period": null,
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I08",
+   "quote": {
+    "text": "You come along and withdraw 60.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20195,
+    "approx_timestamp_s": 1393
+   }
+  },
+  {
+   "claim": "The network is said to settle the withdrawal back to the owner's account within a day or two.",
+   "metric": "other",
+   "value": {
+    "amount": 1,
+    "amount_max": 2,
+    "currency": null,
+    "unit": "days to settlement"
+   },
+   "period": "settlement",
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I08",
+   "quote": {
+    "text": "within a day or two, the network settles up and drops that same 60 right back into the owner's bank account.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20253,
+    "approx_timestamp_s": 1397
+   }
+  },
+  {
+   "claim": "A new ATM costs about $2,200 to $8,000.",
+   "metric": "cost",
+   "value": {
+    "amount": 2200,
+    "amount_max": 8000,
+    "currency": "USD",
+    "unit": "one-off"
+   },
+   "period": null,
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I08",
+   "quote": {
+    "text": "a machine runs about $2,200 on the low end, up to around $8,000 for a shiny new one.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20582,
+    "approx_timestamp_s": 1420
+   }
+  },
+  {
+   "claim": "ATM Marketplace and ATM Depot are said to estimate a 6 to 18 month payback for a well-placed machine.",
+   "metric": "other",
+   "value": {
+    "amount": 6,
+    "amount_max": 18,
+    "currency": null,
+    "unit": "months to payback"
+   },
+   "period": "payback",
+   "claimant": "Narrator, citing ATM Marketplace and ATM Depot",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I08",
+   "quote": {
+    "text": "both peg the payback on a wellplaced machine at somewhere between 6 and 18 months.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20779,
+    "approx_timestamp_s": 1433
+   }
+  },
+  {
+   "claim": "The narrator says there are hundreds of thousands of independent ATMs across the country.",
+   "metric": "other",
+   "value": {
+    "amount": null,
+    "currency": null,
+    "unit": "machines",
+    "label": "Hundreds of thousands; exact count not stated"
+   },
+   "period": null,
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I08",
+   "quote": {
+    "text": "There are hundreds of thousands of these independent machines scattered across the country.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21475,
+    "approx_timestamp_s": 1482
+   }
+  },
+  {
+   "claim": "The narrator says an operator needs eight or ten good placements.",
+   "metric": "other",
+   "value": {
+    "amount": 8,
+    "amount_max": 10,
+    "currency": null,
+    "unit": "good locations"
+   },
+   "period": null,
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I08",
+   "quote": {
+    "text": "You need eight or 10 good ones. That is the entire game.",
+    "speaker": "Unnamed narrator",
+    "match_score": 88.9,
+    "verified": false,
+    "char_offset": 21616,
+    "approx_timestamp_s": 1491
+   }
+  },
+  {
+   "claim": "A store may receive about half the surcharge or fees in a placement deal.",
+   "metric": "margin",
+   "value": {
+    "amount": 50,
+    "currency": null,
+    "unit": "percent of surcharge or fees"
+   },
+   "period": null,
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I08",
+   "quote": {
+    "text": "A common deal hands the store owner something like half the search charge or a flat check every month.",
+    "speaker": "Unnamed narrator",
+    "match_score": 94.1,
+    "verified": true,
+    "char_offset": 22241,
+    "approx_timestamp_s": 1534
+   }
+  },
+  {
+   "claim": "An operator described online has run a personal ATM route for more than seven years.",
+   "metric": "hours",
+   "value": {
+    "amount": 7,
+    "currency": null,
+    "unit": "years operating"
+   },
+   "period": "more than seven years",
+   "claimant": "Narrator, reporting an online operator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I08",
+   "quote": {
+    "text": "One of them has run his own route for more than 7 years.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22788,
+    "approx_timestamp_s": 1572
+   }
+  },
+  {
+   "claim": "A nightlife ATM location may see 500 to 600 withdrawals a month.",
+   "metric": "customers",
+   "value": {
+    "amount": 500,
+    "amount_max": 600,
+    "currency": null,
+    "unit": "withdrawals per month"
+   },
+   "period": "per month",
+   "claimant": "Narrator, reporting operators",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I08",
+   "quote": {
+    "text": "A busy bar with a long line for cash doing 500, even 600 withdrawals in one month.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24309,
+    "approx_timestamp_s": 1677
+   }
+  },
+  {
+   "claim": "The nightlife example uses a $3 surcharge.",
+   "metric": "price",
+   "value": {
+    "amount": 3,
+    "currency": "USD",
+    "unit": "per withdrawal"
+   },
+   "period": null,
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I08",
+   "quote": {
+    "text": "Same little box, same $3 toll, different doorway.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24390,
+    "approx_timestamp_s": 1683
+   }
+  },
+  {
+   "claim": "The narrator's example says the store receives half of $1,250, leaving the operator a little over $600 a month.",
+   "metric": "revenue",
+   "value": {
+    "amount": 600,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "A little over"
+   },
+   "period": "per month",
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I08",
+   "quote": {
+    "text": "Keep half of that after the store split and call it a little over $600 a month.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 30280,
+    "approx_timestamp_s": 2089
+   }
+  },
+  {
+   "claim": "Harry's first placement was in a laundromat two blocks from his apartment.",
+   "metric": "other",
+   "value": {
+    "amount": 2,
+    "currency": null,
+    "unit": "blocks from apartment"
+   },
+   "period": null,
+   "claimant": "Narrator, describing Harry",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I08",
+   "quote": {
+    "text": "Harry walked into a laundromat two blocks from his apartment.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21689,
+    "approx_timestamp_s": 1496
+   }
+  },
+  {
+   "claim": "Harry's example placement agreement had a one-year minimum.",
+   "metric": "other",
+   "value": {
+    "amount": 1,
+    "currency": null,
+    "unit": "year minimum term"
+   },
+   "period": "minimum agreement term",
+   "claimant": "Narrator, describing Harry",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I08",
+   "quote": {
+    "text": "He got the host agreement in writing, one year minimum.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8907,
+    "approx_timestamp_s": 614
+   }
+  },
+  {
+   "claim": "Harry's example route had eight machines by month 18.",
+   "metric": "customers",
+   "value": {
+    "amount": 8,
+    "currency": null,
+    "unit": "machines"
+   },
+   "period": "month 18",
+   "claimant": "Narrator, describing Harry",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I08",
+   "quote": {
+    "text": "And by month 18, Harry was running a small route of about eight machines.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 28231,
+    "approx_timestamp_s": 1948
+   }
+  },
+  {
+   "claim": "Harry's route cleared around $4,300 in a strong month and $4,317 in his best month.",
+   "metric": "revenue",
+   "value": {
+    "amount": 4300,
+    "amount_max": 4317,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "Strong month to stated best month"
+   },
+   "period": "best month so far",
+   "claimant": "Narrator, describing Harry",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I08",
+   "quote": {
+    "text": "On a strong month, that route clears somewhere around $4,300. $4,317 in his best month so far.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 28303,
+    "approx_timestamp_s": 1953
+   }
+  },
+  {
+   "claim": "Harry's timeline includes month 1 reading and calling, month 3 launch, month 5 split renegotiation, month 7 second machine, month 10 bar placement, and month 18 eight machines.",
+   "metric": "other",
+   "value": {
+    "amount": 1,
+    "amount_max": 18,
+    "currency": null,
+    "unit": "months",
+    "label": "Milestones cited at months 1, 3, 5, 7, 10, and 18"
+   },
+   "period": "route timeline",
+   "claimant": "Narrator, describing Harry",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I08",
+   "quote": {
+    "text": "Month one, he was just reading and calling around, comparing suppliers, learning the lingo.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 27822,
+    "approx_timestamp_s": 1920
+   }
+  },
+  {
+   "claim": "A planned follow-up to the video will cover whichever of seven ideas gets the most comments.",
+   "metric": "other",
+   "value": {
+    "amount": 7,
+    "currency": null,
+    "unit": "ideas in the first list"
+   },
+   "period": null,
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "Whichever one gets the most replies, I am doing a full deep dive on it next.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16089,
+    "approx_timestamp_s": 1110
+   }
+  },
+  {
+   "claim": "The narrator's combined Harry example says the machine portfolio clears around $3,847 a month by about month 12.",
+   "metric": "profit",
+   "value": {
+    "amount": 3847,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "period": "about month 12",
+   "claimant": "Narrator, describing Harry",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": null,
+   "quote": {
+    "text": "By about month 12, across his little stack, Harry was clearing somewhere around $3,847 a month on top of his day job.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14909,
+    "approx_timestamp_s": 1028
+   }
+  },
+  {
+   "claim": "The combined Harry portfolio includes one water station, one dog wash bay, and a second water unit.",
+   "metric": "other",
+   "value": {
+    "amount": 3,
+    "currency": null,
+    "unit": "machines or stations"
+   },
+   "period": "by about month 12",
+   "claimant": "Narrator, describing Harry",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": null,
+   "quote": {
+    "text": "He started with one water station in a strip mall. he already trusted, then a dog wash bay two towns over, then a second water unit.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14780,
+    "approx_timestamp_s": 1019
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Lock the location before buying equipment",
+   "area": "validation_testing",
+   "steps": [
+    "Choose a machine that fits a site with existing demand.",
+    "Count traffic or check usage before purchasing.",
+    "Get the host agreement in writing and confirm site access, utilities, and permits.",
+    "Buy the machine only after the location is secured."
+   ],
+   "idea_local_id": null,
+   "quote": {
+    "text": "Confirm the traffic first, sign the lease first, buy the machine last.",
+    "speaker": "Unnamed narrator",
+    "match_score": 91.0,
+    "verified": true,
+    "char_offset": 3919,
+    "approx_timestamp_s": 270
+   }
+  },
+  {
+   "name": "Use a simple ATM host pitch",
+   "area": "sales",
+   "steps": [
+    "Scout cash-heavy businesses that are busy and have no ATM.",
+    "Offer the store a machine at no upfront cost.",
+    "Tell the owner that you handle the machine, cash, and paperwork.",
+    "Offer a monthly share of fees or another clear host payment."
+   ],
+   "idea_local_id": "I08",
+   "quote": {
+    "text": "No upfront cost to you. That is it.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23636,
+    "approx_timestamp_s": 1631
+   }
+  },
+  {
+   "name": "Scout, compare, pitch",
+   "area": "acquisition",
+   "steps": [
+    "Count which businesses already have an ATM and which busy businesses do not.",
+    "Compare two processors' offers.",
+    "Pitch the best empty wall you found.",
+    "Start with one placement before building a route."
+   ],
+   "idea_local_id": "I08",
+   "quote": {
+    "text": "Scout, compare, pitch. Three moves. None of them cost him a dollar.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23512,
+    "approx_timestamp_s": 1622
+   }
+  },
+  {
+   "name": "Use three filters for ATM sites",
+   "area": "validation_testing",
+   "steps": [
+    "Check for real cash traffic.",
+    "Make sure the host benefits from the placement.",
+    "Choose a site close enough to refill on an easy route.",
+    "Reject a location that misses any of the three filters."
+   ],
+   "idea_local_id": "I08",
+   "quote": {
+    "text": "Traffic, a happy host, an easy loop.",
+    "speaker": "Unnamed narrator",
+    "match_score": 81.8,
+    "verified": false,
+    "char_offset": 29574,
+    "approx_timestamp_s": 2040
+   }
+  },
+  {
+   "name": "Review a weak ATM placement after real usage",
+   "area": "operations",
+   "steps": [
+    "Let the machine run for 30 days before judging the placement.",
+    "Compare actual withdrawal activity with refill and travel effort.",
+    "If the site is weak, renegotiate the split or move the machine."
+   ],
+   "idea_local_id": "I08",
+   "quote": {
+    "text": "Never judge a placement before 30 days of real numbers.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 27144,
+    "approx_timestamp_s": 1873
+   }
+  },
+  {
+   "name": "Start with hosting, then consider machine ownership",
+   "area": "finance_unit_economics",
+   "steps": [
+    "Use a processor-supplied machine and cash at the first site if available.",
+    "Learn how location traffic and fee splits work.",
+    "Move toward owning machines after the economics are understood."
+   ],
+   "idea_local_id": "I08",
+   "quote": {
+    "text": "Start light, then own more. That is the ladder.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 26258,
+    "approx_timestamp_s": 1812
+   }
+  },
+  {
+   "name": "Check physical requirements before committing",
+   "area": "operations",
+   "steps": [
+    "For a dog wash, confirm the hair trap and sewer connection.",
+    "For a laundromat, confirm water, sewer, and gas capacity.",
+    "For pizza vending, check food approval.",
+    "For a car wash, check zoning and water-discharge requirements."
+   ],
+   "idea_local_id": null,
+   "quote": {
+    "text": "Confirm the drain, then buy the tub.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6975,
+    "approx_timestamp_s": 481
+   }
+  },
+  {
+   "name": "Build a route from placements, not one perfect machine",
+   "area": "scaling",
+   "steps": [
+    "Use the first placement to learn the permit, site-pitch, and vendor process.",
+    "Reuse that learning for the next location.",
+    "Add machines only after the first location has demonstrated demand."
+   ],
+   "idea_local_id": null,
+   "quote": {
+    "text": "The stack is the business, not the single box.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8476,
+    "approx_timestamp_s": 584
+   }
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "ATM Depot",
+   "purpose": "Industry guide cited for ATM route gross-fee potential and payback.",
+   "cost_stated": null
+  },
+  {
+   "name": "ATM Marketplace",
+   "purpose": "Industry guide cited for ATM machine payback.",
+   "cost_stated": null
+  },
+  {
+   "name": "FinCEN",
+   "purpose": "Federal money-services registration named for crypto ATM and cash ATM operators; transcript mishears the name as 'Fininsen'.",
+   "cost_stated": null
+  },
+  {
+   "name": "ATM processor",
+   "purpose": "Connects an ATM to the network and may supply a machine and cash for a host placement.",
+   "cost_stated": null
+  },
+  {
+   "name": "ATM network",
+   "purpose": "Processes transactions and settles withdrawn cash back to the ATM owner's account.",
+   "cost_stated": null
+  },
+  {
+   "name": "The Millionaire Next Door",
+   "purpose": "Book referenced for the idea that wealth often comes from owning unglamorous assets.",
+   "cost_stated": null
+  },
+  {
+   "name": "The 4-Hour Workweek by Tim Ferriss",
+   "purpose": "Book referenced for building income detached from personal working hours.",
+   "cost_stated": null
+  },
+  {
+   "name": "Card reader",
+   "purpose": "Accepts payments at the ice, water, pizza, and car wash machines.",
+   "cost_stated": null
+  },
+  {
+   "name": "Hand truck",
+   "purpose": "Used to move a poorly performing ATM to another location.",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Do not buy a machine before confirming the site and getting an agreement; the narrator describes an unplaced machine as an expensive paperweight.",
+   "quote": {
+    "text": "A machine with no confirmed traffic and no written agreement is just an expensive paper weight sitting in a garage.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8687,
+    "approx_timestamp_s": 599
+   }
+  },
+  {
+   "warning": "ATM placements can fail when the location has too little traffic to cover refill trips.",
+   "quote": {
+    "text": "the machine barely does 20 withdrawals a week. It does not even cover the trips out to refill it.",
+    "speaker": "Unnamed narrator",
+    "match_score": 93.7,
+    "verified": true,
+    "char_offset": 26971,
+    "approx_timestamp_s": 1861
+   }
+  },
+  {
+   "warning": "For a dog wash, obtain approval for the hair trap and sewer connection before installation.",
+   "quote": {
+    "text": "So, you need a proper hair trap and a sewer connection signed off before you install.",
+    "speaker": "Unnamed narrator",
+    "match_score": 92.8,
+    "verified": true,
+    "char_offset": 6830,
+    "approx_timestamp_s": 471
+   }
+  },
+  {
+   "warning": "For a laundromat, verify water, sewer, and gas capacity before signing the lease.",
+   "quote": {
+    "text": "Smart operators confirm the utility hookups before the lease.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10764,
+    "approx_timestamp_s": 742
+   }
+  },
+  {
+   "warning": "For a car wash, check water-reclaim and discharge permits, storm-water rules, and zoning before closing.",
+   "quote": {
+    "text": "Confirm the environmental approvals up front and the site just collects.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14091,
+    "approx_timestamp_s": 972
+   }
+  },
+  {
+   "warning": "Crypto ATM and cash ATM compliance requirements in the transcript are US-specific and should not be treated as UK guidance.",
+   "quote": {
+    "text": "Some states add a little extra on top. So check your own state's rules before you build a big route.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 28839,
+    "approx_timestamp_s": 1990
+   }
+  },
+  {
+   "warning": "The transcript labels itself educational and says it is not financial advice.",
+   "quote": {
+    "text": "This is for educational purposes, not financial advice.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18201,
+    "approx_timestamp_s": 1256
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Validate the location before buying equipment; traffic and a written host agreement are central to the economics.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "Confirm the traffic first, sign the lease first, buy the machine last.",
+    "speaker": "Unnamed narrator",
+    "match_score": 91.0,
+    "verified": true,
+    "char_offset": 3919,
+    "approx_timestamp_s": 270
+   }
+  },
+  {
+   "lesson": "For location-based machines, the doorway and customer flow matter more than the machine itself.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "The machine does not make the money. The doorway makes the money.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24477,
+    "approx_timestamp_s": 1689
+   }
+  },
+  {
+   "lesson": "A placement deal should give the host a reason to keep the machine available and performing.",
+   "theme": "offer_design",
+   "quote": {
+    "text": "A host who wins when you win, a store owner getting a cut, so they want that machine humming.",
+    "speaker": "Unnamed narrator",
+    "match_score": 93.3,
+    "verified": true,
+    "char_offset": 29362,
+    "approx_timestamp_s": 2026
+   }
+  },
+  {
+   "lesson": "A route works best when sites are close enough to service without turning refills into long trips.",
+   "theme": "operations",
+   "quote": {
+    "text": "a spot you can refill on one easy loop, close enough that topping it off is a chore, not a road trip.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 29472,
+    "approx_timestamp_s": 2033
+   }
+  },
+  {
+   "lesson": "Use real operating data to evaluate a placement rather than relying on a traffic guess.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "Traffic tells the truth. Guesses do not.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 27622,
+    "approx_timestamp_s": 1906
+   }
+  },
+  {
+   "lesson": "A low-performing placement can be moved or renegotiated; the operator should not become attached to the equipment.",
+   "theme": "operations",
+   "quote": {
+    "text": "You never fall in love with a machine. You fall in love with a busy doorway.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 27661,
+    "approx_timestamp_s": 1908
+   }
+  },
+  {
+   "lesson": "A first placement can teach the operator about permits, the sales pitch, and vendors before they add more locations.",
+   "theme": "scaling",
+   "quote": {
+    "text": "Machine one pays for the learning. the permits, the pitch, the vendor.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8360,
+    "approx_timestamp_s": 576
+   }
+  },
+  {
+   "lesson": "Unattended equipment still needs physical work such as refilling, utility checks, repairs, and compliance oversight.",
+   "theme": "operations",
+   "quote": {
+    "text": "Insured, recorded, refilled on a quiet loop.",
+    "speaker": "Unnamed narrator",
+    "match_score": 85.4,
+    "verified": false,
+    "char_offset": 26584,
+    "approx_timestamp_s": 1834
+   }
+  },
+  {
+   "lesson": "The narrator's route examples suggest that several modest placements may produce more stable income than relying on one machine.",
+   "theme": "finance_unit_economics",
+   "quote": {
+    "text": "Eight small tolls all paying you at the same time.",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 30542,
+    "approx_timestamp_s": 2107
+   }
+  },
+  {
+   "lesson": "Before spending money, estimate how much daily use a site needs and identify who controls the location.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "Who controls that spot? And how many uses a day would it need to cover the machine?",
+    "speaker": "Unnamed narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15809,
+    "approx_timestamp_s": 1090
+   }
+  }
+ ],
+ "evidence_quality": {
+  "rating": "C",
+  "rationale": "The video is a narrator-led roundup with many specific figures, but most are unsourced or attributed to unnamed operators and industry guides. The Harry route stories are presented as narrative examples rather than independently verifiable operator interviews. Several transcript figures are garbled or inconsistent.",
+  "promotional_conflict": null
+ },
+ "extraction": {
+  "model": "gpt-6-luna",
+  "extracted_at": "2026-10-22T10:27:43",
+  "cost_usd": 0,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 120,
+   "verified": 116,
+   "rate": 0.967
+  },
+  "schema_errors": []
+ }
+}
