@@ -2,8 +2,8 @@
 
 - **Video:** [hO_lT-ro2sU](https://www.youtube.com/watch?v=hO_lT-ro2sU) · **Channel:** Dark Horse Entrepreneur · **Uploaded:** 2026-09-16 · **Length:** 2 min · **Transcript:** cached
 - **Speakers:** Dark Horse Entrepreneur host (name not stated) (host) · **Format:** other
-- **Evidence quality:** D — A 2-minute promotional teaser with no business idea. Statistics are attributed to an unnamed cybersecurity firm and are second-hand and unverified. Useful only as a general security warning. · Promotional conflict: Teaser drives viewers to the full episode linked in the description; the channel sells entrepreneurship content.
-- **Extraction:** claude-sonnet-5-5 · quotes verified 10/10
+- **Evidence quality:** C — A 2-minute promotional teaser with no business idea. Statistics are attributed to an unnamed cybersecurity firm and are second-hand and unverified. Useful only as a general security warning. · Promotional conflict: Teaser drives viewers to the full episode linked in the description.
+- **Extraction:** claude-sonnet-5-5 · quotes verified 10/10 · reviewed by claude-opus-5-5
 
 ## Summary
 
@@ -11,7 +11,7 @@ A short promotional teaser warning that people searching how to make money with 
 
 ## Revenue and metric claims (unverified claims)
 
-- **A cybersecurity firm found over 101,000 devices infected with malware built to steal ChatGPT logins.** (customers, second-hand, claimant: Host (citing an unnamed cybersecurity firm))
+- **A cybersecurity firm found over 101,000 devices infected with malware built to steal ChatGPT logins.** (other, second-hand, claimant: Host (citing an unnamed cybersecurity firm))
   > "A cybersecurity firm found over 101,000 devices infected with malware built for one job and one job only, stealing ChatGPT logins." — Host (~0:30)
 - **Nearly 27,000 sets of ChatGPT credentials were sold on the dark web in a single month.** (other, second-hand, claimant: Host (second-hand))
   > "In a single month nearly 27,000 sets of credentials were sold on the dark web." — Host (~0:37)

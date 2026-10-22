@@ -3,7 +3,7 @@
 - **Video:** [b4_DbNaCeGc](https://www.youtube.com/watch?v=b4_DbNaCeGc) · **Channel:** The Koerner Office · **Uploaded:** 2026-04-02 · **Length:** 11 min · **Transcript:** transcribeyoutube
 - **Speakers:** Chris Koerner (host) · **Format:** tutorial_howto
 - **Evidence quality:** C — Sponsored product demo, not a real operating business. The margin figures come from comparing one supplier listing and one Amazon listing, with no actual orders, shipping, fees, ad costs or sales; the net margin is an unsupported estimate. · Promotional conflict: Sponsored by Accio (host says they support the channel); includes a free-trial link and prompts in the bio.
-- **Extraction:** claude-sonnet-5-5 · quotes verified 17/17
+- **Extraction:** claude-sonnet-5-5 · quotes verified 18/18 · reviewed by claude-opus-5-5
 
 ## Summary
 
@@ -22,7 +22,7 @@ Chris Koerner demonstrates going from a physical product idea to a sourced produ
 - **Offer:** A secure, weatherproof, lockable delivery box styled like outdoor furniture (wood grain, wicker or iron) that looks like it belongs on a porch.
 - **Business model:** One-off product sales at retail markup (buy wholesale, resell)
 - **Pricing:** Retail resale at a markup over landed supplier cost. Supplier cost of top sourced wooden delivery box USD 27 per unit; Amazon retail price of the identical-looking box USD 143 per unit; Cost of a 100-unit minimum order USD 2700 one-off Host claims about 75-80% gross margin and 20-30% net profit after shipping and Amazon fees.
-- **Acquisition:** marketplace_platform: List on Amazon, where the sourced-box lookalikes already sell hundreds per month, and on Facebook Marketplace (listed within 5 minutes, inquiries in 10-15).; paid_social: Own Shopify site pushed with Google, Facebook and Instagram ads.; organic_social_content: Viral content using anger, hilarity and curiosity angles (like Mark Rober's glitter bomb videos); use supplier samples to shoot photos and videos before ordering stock.
+- **Acquisition:** marketplace_platform: List on Amazon, where the sourced-box lookalikes already sell hundreds per month, and on Facebook Marketplace (listed within 5 minutes, inquiries in 10-15).; paid_social: Own Shopify site pushed with Facebook and Instagram ads.; organic_social_content: Viral content using anger, hilarity and curiosity angles (like Mark Rober's glitter bomb videos); use supplier samples to shoot photos and videos before ordering stock.
 - **Delivery:** Supplier on Alibaba or similar manufactures and ships the product; the seller imports, stores and fulfils orders (or uses Amazon fulfilment). Optional custom design via an AI-generated tech pack sent to a manufacturer.
 - **Unit economics (claims):** $27 sourced vs $143 Amazon retail, roughly 75-80% gross margin; Net profit 20-30% after shipping and Amazon fees; Top lookalike listings sold 100-500+ units in the last month; MOQ 100 pieces, about $2,700
 - **Tools:** Accio, Google Trends, Amazon, Alibaba, AliExpress, Facebook Marketplace, Shopify, ChatGPT, Amazon photo search third-party app
@@ -43,9 +43,11 @@ Chris Koerner demonstrates going from a physical product idea to a sourced produ
 - **A 100-piece minimum order would cost about $2,700** (cost, second-hand, hypothetical, claimant: Chris Koerner)
   > "spending $2,700 on a hundred of these things before you really know if there's demand yet." — Chris Koerner (~8:44)
 - **Top identical Amazon listings sold over 400, 100 and 500 units in the last month** (customers, second-hand, claimant: Chris Koerner)
-  > "This one has sold over 400 in the last month and this one over 100." — Chris Koerner (~7:48)
+  > "And then this one sold over 500 in the last month." — Chris Koerner (~8:15)
 - **A sample can be had for free or about a hundred dollars** (cost, second-hand, hypothetical, claimant: Chris Koerner)
   > "Find a vendor that will send you a sample for free or a sample for a h 100red bucks." — Chris Koerner (~8:34)
+- **The top lookalike Amazon listings together represent tens of thousands of dollars of sales in the last month on Amazon alone, from one product** (revenue, second-hand, claimant: Chris Koerner)
+  > "So that's tens of thousands of dollars worth of sales on Amazon alone, not even including Shopify or Facebook Marketplace from one product." — Chris Koerner (~8:17)
 
 ## Tactics and playbook steps
 
@@ -82,7 +84,7 @@ Chris Koerner demonstrates going from a physical product idea to a sourced produ
 ## Lessons
 
 - *validation_testing*: Check demand with search-trend data before investing in a product idea rather than relying on gut feel.
-- *niche_selection*: Ride a rising trend with a narrower product phrase; interest in the specific product term can be exploding even when the broad problem is flat.
+- *niche_selection*: Ride a rising trend with a narrower product phrase; interest in the specific product term ('porch pirate box') can be exploding faster than the broad problem term.
 - *offer_design*: Sourcing an existing product instead of designing and manufacturing one removes the hardest steps for a first physical product.
 - *niche_selection*: Sponsored listings of commercial versions with no ads for residential versions hint at an underserved niche, and advertisers imply the category is profitable.
 - *finance_unit_economics*: Gross margin looks big but net after shipping, fees and ads is much smaller (20-30% claimed), so model net margin before ordering.

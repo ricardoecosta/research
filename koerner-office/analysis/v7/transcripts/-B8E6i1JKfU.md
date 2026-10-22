@@ -3,7 +3,7 @@
 - **Video:** [-B8E6i1JKfU](https://www.youtube.com/watch?v=-B8E6i1JKfU) · **Channel:** Harry's Stealth Wealth · **Uploaded:** 2026-10-12 · **Length:** 39 min · **Transcript:** cached
 - **Speakers:** Narrator (narrator) · **Format:** listicle_roundup
 - **Evidence quality:** C — Second-hand listicle with ranges and some cited examples; composite fictional character; likely scripted/AI-narrated; US-specific data.
-- **Extraction:** grokbot · quotes verified 45/45
+- **Extraction:** grokbot · quotes verified 50/50 · reviewed by claude-opus-5-5
 
 ## Summary
 
@@ -17,13 +17,13 @@ A narrated listicle (with a fictional character 'Harry') combining seven spare-r
 | I2 | **Candles and soap** — Make candles/soap at home, sell at local markets and wholesale to 3-8 gift shops that reorder monthly. | ecommerce_physical | deep | 1/2/1/5/2 | 5 |
 | I3 | **Sticker and product label shop for local makers** — Print labels for breweries, sauce makers, bakeries and boutiques that reorder every production run. | manufacturing | deep | 1/2/2/5/2 | 5 |
 | I4 | **Tumbler and mug press** — Heat-press custom cups for sports leagues, school groups, offices and fundraisers ordering 20-50 at a time. | manufacturing | deep | 2/2/1/5/2 | 5 |
-| I5 | **3D printing service** — Run 3D printers on a shelf for jigs, brackets and obsolete parts for machine shops, manufacturers, contractors and engineers. | manufacturing | mention | 2/2/2/5/2 | 5 |
+| I5 | **3D printing service** — Run 3D printers on a shelf for jigs, brackets and obsolete parts for machine shops, manufacturers, contractors and engineers. | manufacturing | moderate | 2/2/2/5/2 | 5 |
 | I6 | **Custom engraving and laser cutting** — Diode laser in a spare room making wedding favours, corporate awards, signage and employee gifts. | manufacturing | deep | 2/2/1/5/2 | 5 |
 | I7 | **Local shared-mail postcard** — Sell 14-18 exclusive ad slots on one big postcard mailed to 5,000 homes; advertisers pay before printing. | content_media | deep | 2/3/3/4/3 | 4 |
 | I8 | **Lease pasture/cropland for grazing** — Rent idle acres to ranchers/farmers with a written lease tied to the published county cash rent average. | rental_asset | deep | 1/2/3/4/3 | 3 |
 | I9 | **Hunting and fishing access lease** — Lease seasonal hunting/fishing access to clubs and outfitters, stackable with grazing. | rental_asset | deep | 3/2/3/4/3 | 2 |
-| I10 | **Standing timber sale via consulting forester** — Sell mature hardwood timber through a consulting forester taking sealed competitive bids. | rental_asset | mention | 2/2/2/4/3 | 3 |
-| I11 | **Event parking on grass** — Park cars near stadiums, fairgrounds or festivals on event days under a season agreement. | rental_asset | mention | 2/2/1/4/3 | 3 |
+| I10 | **Standing timber sale via consulting forester** — Sell mature hardwood timber through a consulting forester taking sealed competitive bids. | rental_asset | moderate | 2/2/2/4/3 | 3 |
+| I11 | **Event parking on grass** — Park cars near stadiums, fairgrounds or festivals on event days under a season agreement. | rental_asset | moderate | 2/2/1/4/3 | 3 |
 | I12 | **Truck and trailer parking yard** — Gravel acre on a freight corridor renting 30-40 trailer stalls monthly. | rental_asset | deep | 3/4/3/5/3 | 3 |
 | I13 | **Solar land lease** — Lease acreage to solar developers for 20-40 years with an escalator clause. | rental_asset | deep | 1/2/5/4/3 | 3 |
 | I14 | **Sand, gravel and topsoil royalties** — Lease extraction rights to aggregate operators for per-ton royalties indexed to PPI. | rental_asset | deep | 2/2/3/4/3 | 2 |
@@ -101,6 +101,24 @@ A narrated listicle (with a fictional character 'Harry') combining seven spare-r
 - **Automation [E]:** acquisition 2/5 (Not specified; group buyers need contact.); onboarding 2/5 (Orders via marketplace or direct contact; custom specs need human.); delivery 1/5 (Physical production by the owner.); billing 5/5 (Card/marketplace payments.); support 2/5 (Human customer contact.)
 > "A part-timer pressing 25 to 100 cups a month at about $15 of net profit [music] each takes home $375 to $1,500 a month" — Narrator (~9:10)
 
+### I5. 3D printing service
+
+- **Customer:** Machine shops, small manufacturers, contractors, engineers
+- **Problem:** Parts no longer made; need jigs/prototypes
+- **Offer:** 3D printed parts
+- **Business model:** Per-part jobs
+- **Pricing:** per job.  Prototyping shops report $60k-$400k/year at about 48% margins.
+- **Acquisition:** 
+- **Delivery:** Printers run overnight; owner finishes parts.
+- **Unit economics (claims):** Part-time $500-$2,000/month; 4-5 machines $5,000-$10,000
+- **Tools:** Consumer 3D printer, Filament
+- **Startup cost:** $300-$800
+- **Time to first revenue:** not stated
+- **UK applicability [E]:** 5/5 — Works in UK.
+- **Risks:** Design skill needed
+- **Automation [E]:** acquisition 2/5 (Not specified.); onboarding 2/5 (Orders via marketplace or direct contact; custom specs need human.); delivery 2/5 (Machines print unattended; design/finishing human.); billing 5/5 (Card/marketplace payments.); support 2/5 (Human customer contact.)
+> "Prototyping shops report $60,000 to $400,000 a year at roughly 48% margins on exactly that kind of work" — Narrator (~10:56)
+
 ### I6. Custom engraving and laser cutting
 
 - **Customer:** Weddings; corporate HR, real estate offices, gyms, schools, clubs
@@ -173,6 +191,42 @@ A narrated listicle (with a fictional character 'Harry') combining seven spare-r
 - **Risks:** Liability exposure
 - **Automation [E]:** acquisition 3/5 (Listing on matching platforms.); onboarding 2/5 (Lease negotiation and signing need a human, ideally with attorney review.); delivery 3/5 (Club operates.); billing 4/5 (Rent collected by bank transfer; tonnage royalties need ticket checks.); support 3/5 (Little ongoing contact.)
 > "The club carries liability insurance and names you as additional insured in writing before anyone sets foot on the property" — Narrator (~25:25)
+
+### I10. Standing timber sale via consulting forester
+
+- **Customer:** Mills/loggers
+- **Problem:** Loggers who knock work for the mill
+- **Offer:** Marked timber sale
+- **Business model:** One-off timber sale per thousand board feet
+- **Pricing:** per thousand board feet. Illinois black walnut USD 1760 per MBF Forester takes 8-10%.
+- **Acquisition:** partnerships: Consulting forester from state forestry commission list
+- **Delivery:** Forester cruises, marks, bids; logger harvests.
+- **Unit economics (claims):** 40-acre hardwood stand = five-figure event
+- **Tools:** State forestry commission
+- **Startup cost:** Forester fee 8-10% of sale
+- **Time to first revenue:** 2-6 months
+- **UK applicability [E]:** 3/5 — UK timber sales need felling licences from the Forestry Commission.
+- **Risks:** One-off
+- **Automation [E]:** acquisition 2/5 (Forester-led.); onboarding 2/5 (Lease negotiation and signing need a human, ideally with attorney review.); delivery 2/5 (Contracted.); billing 4/5 (Rent collected by bank transfer; tonnage royalties need ticket checks.); support 3/5 (Little ongoing contact.)
+> "A consulting forester works for you, cruises the stand, marks the trees, and takes sealed competitive bids" — Narrator (~27:18)
+
+### I11. Event parking on grass
+
+- **Customer:** Event-goers, promoters, parking management companies
+- **Problem:** not stated
+- **Offer:** Grass parking
+- **Business model:** Per car per event
+- **Pricing:** per car. regular season USD 15-25 per car; concerts/playoffs USD 50-100 per car $750-$1,125 per space per year off ~15 events.
+- **Acquisition:** partnerships: Multi-event annual agreement with promoter or parking management company
+- **Delivery:** Cones, signage, attendants or operator.
+- **Unit economics (claims):** Platforms cite $5,000-$50,000 per event, avg ~$12,500
+- **Tools:** 
+- **Startup cost:** Mowed field, cones; event liability $500-$1,500
+- **Time to first revenue:** Days to weeks
+- **UK applicability [E]:** 3/5 — Possible in UK subject to planning (28-day temporary use rules).
+- **Risks:** Liability; Planning
+- **Automation [E]:** acquisition 2/5 (Promoter deal.); onboarding 2/5 (Lease negotiation and signing need a human, ideally with attorney review.); delivery 1/5 (Event-day staffing.); billing 4/5 (Rent collected by bank transfer; tonnage royalties need ticket checks.); support 3/5 (Little ongoing contact.)
+> "Event parking near a stadium, fairground, or festival site runs 15 to $25 a car" — Narrator (~28:00)
 
 ### I12. Truck and trailer parking yard
 
@@ -266,6 +320,16 @@ A narrated listicle (with a fictional character 'Harry') combining seven spare-r
   > "put 25-year gross income around $2,560,000" — Narrator (~33:14)
 - **Montrose County lease $2,000/year flat plus per-ton royalty** (revenue, second-hand, claimant: Narrator)
   > "a public lease pays a landowner $2,000 a year flat" — Narrator (~19:46)
+- **Rachel Smith and Dalton Joiner documented clearing about $1,000+ per shared-postcard mailing, collecting advertiser payments before paying the printer** (profit, second-hand, claimant: Narrator)
+  > "Rachel Smith and Dalton Joiner run a shared postcard business and have documented clearing $1,000 in upper mailing" — Narrator (~16:21)
+- **A pit moving 20,000-50,000 tons/year at $1.50-$2.50/ton yields $30,000-$125,000/year in royalties** (revenue, second-hand, hypothetical, claimant: Narrator)
+  > "A modestly active pit moving 20,000 to 50,000 tons a year at $150 to $2.50 a ton is 30,000 to $125,000 a year" — Narrator (~35:09)
+- **Nick Fortosis built a cork map shop from a garage to about $2,000/month** (revenue, second-hand, claimant: Narrator)
+  > "Fortosis built a cork map shop out of a garage up to around $2,000 a month" — Narrator (~4:49)
+- **Fictional composite Harry reached about $6,240/month running three postcards a month across two towns** (revenue, second-hand, hypothetical, claimant: Narrator)
+  > "Roughly $6,240 a month worked in the evenings from the same desk in the same room" — Narrator (~18:30)
+- **Landowner platforms advertise $5,000-$50,000 per event for premium parking hosting, with an average of about $12,500** (revenue, second-hand, claimant: Narrator)
+  > "Landowner platforms advertise 5,000 to 50,000 per event for premium hosting with an average per event figure cited around 12,500" — Narrator (~28:10)
 
 ## Tactics and playbook steps
 

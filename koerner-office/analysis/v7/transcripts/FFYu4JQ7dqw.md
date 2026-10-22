@@ -3,7 +3,7 @@
 - **Video:** [FFYu4JQ7dqw](https://www.youtube.com/watch?v=FFYu4JQ7dqw) · **Channel:** The Koerner Office · **Uploaded:** 2026-01-01 · **Length:** 18 min · **Transcript:** transcribeyoutube
 - **Speakers:** Chris Koerner (host), David (other), Braden (other) · **Format:** case_study_profile
 - **Evidence quality:** B — First-hand one-day experiment with real numbers but a tiny sample, and the NZ profit figure is hearsay.
-- **Extraction:** grokbot · quotes verified 20/20
+- **Extraction:** grokbot · quotes verified 22/22 · reviewed by claude-opus-5-5
 
 ## Summary
 
@@ -13,9 +13,9 @@ Chris Koerner tests a disc golf 'ace challenge' inspired by a New Zealand floati
 
 | # | Idea | Category | Depth | Automation [E] A/O/D/B/S | UK [E] |
 |---|---|---|---|---|---|
-| I1 | **Disc golf hole-in-one cash challenge** — Charge $5-10 per throw for a chance to ace a disc golf basket from 65-95 feet and win $1,000. | events_experiences | deep | 2/4/1/4/2 | 3 |
+| I1 | **Disc golf hole-in-one cash challenge** — Charge $5-10 per throw for a chance to ace a disc golf basket from 65-95 feet and win $1,000. | events_experiences | deep | 1/2/1/4/1 | 3 |
 | I2 | **Floating golf green hole-in-one challenge (New Zealand)** — A floating golf green in New Zealand pays $10,000 for a hole-in-one and reportedly nets $500,000 a year. | events_experiences | mention | 3/4/2/4/2 | 3 |
-| I3 | **Carnival-style skill challenges (pull-ups, half-court shots, football through a ring)** — Run paid skill games with prizes, priced from measured success probabilities. | events_experiences | mention | 2/4/1/4/2 | 3 |
+| I3 | **Carnival-style skill challenges (pull-ups, half-court shots, football through a ring)** — Run paid skill games with prizes, priced from measured success probabilities. | events_experiences | mention | 1/2/1/4/1 | 3 |
 
 ### I1. Disc golf hole-in-one cash challenge
 
@@ -32,7 +32,7 @@ Chris Koerner tests a disc golf 'ace challenge' inspired by a New Zealand floati
 - **Time to first revenue:** not stated
 - **UK applicability [E]:** 3/5 — UK: genuine games of skill are generally outside the Gambling Act 2005, but prize competitions need care (a skill test that most cannot pass may be judged chance); public parks need council permission; disc golf is niche in the UK.
 - **Risks:** Venue permission (park security shut it down); Variance: an early ace wipes out revenue; Skilled players ('pool sharks') change odds; Gambling law classification
-- **Automation [E]:** acquisition 2/5 (Needs physical presence at events/partners.); onboarding 4/5 (Pay at the table.); delivery 1/5 (Staffed stand.); billing 4/5 (Card/cash at stand.); support 2/5 (In person.)
+- **Automation [E]:** acquisition 1/5 (Needs physical presence at events/partners.); onboarding 2/5 (Pay at the table.); delivery 1/5 (Staffed stand.); billing 4/5 (Card/cash at stand.); support 1/5 (In person.)
 > "I'm going to charge people $10 for three chances to shoot this disc golf into that disc golf basket from 65 ft. And if they get it, guess what? I'm going to give them a,000 bucks" — Chris Koerner (~0:31)
 > "Asking if this business is viable or not is actually much more simple than asking if almost any other business is viable because this is math" — Chris Koerner (~17:36)
 
@@ -52,6 +52,10 @@ Chris Koerner tests a disc golf 'ace challenge' inspired by a New Zealand floati
   > "Well, how much do I owe you? 780" — Chris Koerner (~14:25)
 - **Nonprofit has fed 18,000+ homeless people and given 6,500 sleeping bags since 2012** (other, first-hand, claimant: David)
   > "since 2012 we start more than 18,000 homeless people feed so far more than 6500 sleeping bag" — David (~7:49)
+- **Shop test pricing: $10 for one throw or $20 for three throws from 95 ft, $1,000 prize** (price, first-hand, claimant: Chris Koerner)
+  > "It's going to be $10 for one throw or $20 for three throws" — Chris Koerner (~7:33)
+- **Recommended pricing after the test: $5 for one throw or $10 for three, at enough distance** (price, second-hand, hypothetical, claimant: Chris Koerner)
+  > "I think that a good price for this is going to be like five bucks for one throw or 10 bucks for three throws at plenty of enough distance" — Chris Koerner (~16:11)
 
 ## Tactics and playbook steps
 

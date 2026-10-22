@@ -2,8 +2,8 @@
 
 - **Video:** [SiRlIMtZygI](https://www.youtube.com/watch?v=SiRlIMtZygI) · **Channel:** The Koerner Office · **Uploaded:** 2025-10-05 · **Length:** 51 min · **Transcript:** ok
 - **Speakers:** Chris Koerner (host), John Rush (guest) · **Format:** operator_interview
-- **Evidence quality:** B — The guest describes his own portfolio, product workflows, and acquisition methods, and gives several revenue and pricing claims. The figures and performance claims are not independently verified, and some product-specific details and costs are omitted. · Promotional conflict: The host promotes the TK Owners community, and the video contains a Design.com sponsor read. The sponsor read was excluded from business ideas.
-- **Extraction:** gpt-6-luna · quotes verified 82/83
+- **Evidence quality:** B — The guest describes his own portfolio, product workflows, and acquisition methods, and gives several revenue and pricing claims. The figures and performance claims are not independently verified, and some product-specific details and costs are omitted. · Promotional conflict: The host promotes the TK Owners community, and the video contains a Design.com sponsor read (excluded from ideas). The guest demos and promotes his own products (SEO Bot, Unicorn Platform, MarsX), so his tool recommendations and SEO claims are self-interested.
+- **Extraction:** gpt-6-luna · quotes verified 85/85 · reviewed by claude-opus-5-5
 
 ## Summary
 
@@ -17,13 +17,13 @@ John Rush describes building a portfolio of small software products and AI agent
 | I2 | **SEO Bot** — An SEO agent that creates articles, guides, small tools, and newsletters, with occasional human input when needed. | ai_automation | deep | 3/4/4/4/3 | 5 |
 | I3 | **Rapify** — A vibe-coding agent that builds small tools when another agent requests them. | ai_automation | moderate | 2/3/4/2/2 | 5 |
 | I4 | **Niche directories** — Build directories that attract search traffic and help users choose among many options. | marketplace_directory | moderate | 4/3/3/2/2 | 5 |
-| I5 | **Dev Hunt** — A launchpad for developer tools, positioned as a developer-focused alternative to Product Hunt. | marketplace_directory | moderate | 4/3/3/2/2 | 5 |
+| I5 | **Dev Hunt** — A launchpad for developer tools, positioned as a developer-focused alternative to Product Hunt. | marketplace_directory | moderate | 3/3/3/2/2 | 5 |
 | I6 | **Listing Bot** — A tool that lists a business on directories. | ai_automation | moderate | 2/3/2/2/2 | 5 |
 | I7 | **CountVisits** — An analytics tool for tracking website visits. | saas_software | moderate | 2/3/4/3/2 | 5 |
-| I8 | **Website builder for artists** — A niche website builder designed for artists. | saas_software | mention | 4/3/4/3/2 | 5 |
+| I8 | **Website builder for artists** — A niche website builder designed for artists. | saas_software | moderate | 4/3/4/3/2 | 5 |
 | I9 | **Free album cover generator** — A free tool for artists that can attract visitors and lead them toward a paid product. | saas_software | mention | 4/4/4/2/3 | 5 |
 | I10 | **Influencer-backed niche directory or tool** — Partner with someone who already has a niche audience to build a directory or small tool for that audience. | marketplace_directory | moderate | 2/3/3/2/2 | 5 |
-| I11 | **Tux Heaven keyword opportunity** — An unexplained niche keyword mentioned as having substantial search demand and low competition. | other | mention | 2/0/0/0/0 | 3 |
+| I11 | **Tax haven keyword opportunity** — A 'tax haven' keyword John tested before the call, which he says has about 100k searches, low competition and wealthy searchers looking to save money. | other | mention | 2/0/0/0/0 | 3 |
 
 ### I1. Portfolio of small software products and AI agents
 
@@ -35,14 +35,14 @@ John Rush describes building a portfolio of small software products and AI agent
 - **Acquisition:** seo_organic_search: Starts SEO work early on products and uses articles, tools, backlinks, directories, and search demand to attract users.; organic_social_content: Uses social content to reach people beyond existing followers and to prompt mentions, links, and recommendations.; affiliates_influencers: Sets up partner links and commissions so others can promote products.; marketplace_platform: Places products in directories, launchpads, forums, Reddit, Quora, and other relevant places.; referrals_word_of_mouth: Friends and early users can share pre-launch pages with others who want the product.
 - **Delivery:** Web-based software and agents. John says he builds and operates products himself, initially using them internally; agents do recurring work and can ask him for decisions when uncertain.
 - **Unit economics (claims):** The projects together generate around 3 million a year in revenue; currency was not stated.; Three products generate most portfolio revenue.; Cross-selling between products accounts for about half of new-user sales in some months.
-- **Tools:** SEO Bot, Rapify, Make, Zapier, Lindy AI, Lovable, Bolt, Cursor, Morse X
+- **Tools:** SEO Bot, Rapify, Make, Zapier, Lindy AI, Lovable, Bolt, Cursor, MarsX
 - **Startup cost:** not stated
 - **Time to first revenue:** not stated
 - **UK applicability [E]:** 5/5 — The model is web software and can serve UK customers. The product niches and prices may need local adjustment.
 - **Risks:** A large portfolio can create support and legacy-maintenance work; John says he limits customer counts to keep support manageable.; Search rankings and SEO results can change over time.; Cold DMs or marketing emails to UK individuals and sole traders require consent under PECR; cold email rules differ for limited companies.; Automating work without enough human review can lead to poor output or a product that does not meet customer needs.
 - **Automation [E]:** acquisition 3/5 (SEO publishing, referral links, and scheduled content can be automated, but product positioning, partnership work, and channel choices need human judgment. Cold direct messages described in the transcript need UK consent and privacy checks.); onboarding 4/5 (Software sign-up and trials can be automated; product-specific setup and edge cases may still need a person.); delivery 4/5 (The products are software and agents that perform recurring work, with the operator asked for decisions when the agent lacks confidence.); billing 4/5 (Subscriptions and online payments can be handled by software, though the transcript does not detail the billing setup.); support 3/5 (Agents can request human input and report progress, but the operator describes handling accounting and user feedback himself.)
 > "I should bootstrap and I should run smaller companies and I should create suffering for myself by not having people to delegate to" — John Rush (~2:12)
-> "I have so many agents and I use agents to grow my other agents." — John Rush (~2:56) [quote not matched verbatim]
+> "I'm here with a lot of agents and I use agents to grow my other agents." — John Rush (~2:55)
 > "So, if people say, "I don't have an audience." Doesn't matter. That's not an excuse." — Chris Koerner (~0:32)
 
 ### I2. SEO Bot
@@ -116,7 +116,7 @@ John Rush describes building a portfolio of small software products and AI agent
 - **Time to first revenue:** not stated
 - **UK applicability [E]:** 5/5 — A developer launchpad is an online service and can serve UK users.
 - **Risks:** Pre-launch sign-ups show interest but do not establish willingness to pay.
-- **Automation [E]:** acquisition 4/5 (A public social post can attract sign-ups automatically, though creating a compelling post and engaging with users need human work.); onboarding 3/5 (Pre-launch sign-ups can be collected with a form; the transcript does not describe later onboarding.); delivery 3/5 (A launchpad is software, but submissions and quality control may need people.); billing 2/5 (No pricing or billing model is stated.); support 2/5 (No support process is stated.)
+- **Automation [E]:** acquisition 3/5 (A public social post can attract sign-ups automatically, though creating a compelling post and engaging with users need human work.); onboarding 3/5 (Pre-launch sign-ups can be collected with a form; the transcript does not describe later onboarding.); delivery 3/5 (A launchpad is software, but submissions and quality control may need people.); billing 2/5 (No pricing or billing model is stated.); support 2/5 (No support process is stated.)
 > "I just shared a tweet where I said that I want to build this new launchpad only for developers because product hunt doesn't serve developers as it serves the marketers" — John Rush (~27:15)
 > "if 100 people signed up for this I will build it." — John Rush (~27:26)
 
@@ -156,6 +156,24 @@ John Rush describes building a portfolio of small software products and AI agent
 - **Automation [E]:** acquisition 2/5 (No acquisition channel is described.); onboarding 3/5 (Analytics software can usually use self-serve setup, but the transcript does not explain this product's onboarding.); delivery 4/5 (Software can collect and display website analytics, though the product details were not given.); billing 3/5 (Both one-off and monthly billing are discussed, but the final model is unclear.); support 2/5 (No support process is stated.)
 > "I had this tool called count visits. is for analytics and I went for a lifetime deal there and people said that I don't want to pay $100 at once" — John Rush (~32:56)
 > "so I rather start with $9 but they told me so and I changed things" — John Rush (~33:08)
+
+### I8. Website builder for artists
+
+- **Customer:** Artists who want a website.
+- **Problem:** General-purpose website builders may not address a specific audience's needs or language.
+- **Offer:** A website builder specifically for artists; no feature set was settled.
+- **Business model:** Not stated; the idea is used as an example for keyword research and pre-launch validation.
+- **Pricing:** not stated.  The transcript gives no price or evidence that this example product was built.
+- **Acquisition:** seo_organic_search: The speakers use Google autocomplete and keyword research to assess search interest in website builders for artists.; organic_social_content: The guest describes sharing a waitlist and contacting relevant people through social posts and replies during product validation.
+- **Delivery:** Would be a web app; the speakers distinguish app products from landing pages. The product was not built in the example.
+- **Unit economics (claims):** The host says the artist example had 92 keywords with over 100,000 searches per month; this is a claim about keyword research, not confirmed customers.
+- **Tools:** Google, Keyword research tools, Perplexity, Similarweb, Google Sheets, Framer, Unicorn Platform, Webflow
+- **Startup cost:** not stated
+- **Time to first revenue:** not stated
+- **UK applicability [E]:** 5/5 — A web-based website builder could serve UK artists; positioning and search terms should be localized.
+- **Risks:** Search volume does not show whether the visitors are the right audience or willing to pay.; The transcript does not establish that this specific product was built or launched.; Cold outreach to individuals needs UK PECR review and consent.
+- **Automation [E]:** acquisition 4/5 (Search content and paid ads can attract inbound traffic, but choosing an audience and developing a trusted product still need human work.); onboarding 3/5 (A web product could use self-serve sign-up, but no onboarding flow is described.); delivery 4/5 (A website builder is software, but the example's product functionality was not defined.); billing 3/5 (Software billing can be automated, but the price and model were not stated.); support 2/5 (No support process or product status is described.)
+> "For example, website builder for artists. And now we can go into the keyword research and and we can see how much traffic is going there." — John Rush (~17:04)
 
 ### I10. Influencer-backed niche directory or tool
 
@@ -245,10 +263,14 @@ John Rush describes building a portfolio of small software products and AI agent
   > "That's why I run for a year or two or sometimes three years internally and then once I kind of like the the whole thing" — John Rush (~3:27)
 - **The guest says 99% of his ideas begin by solving his own problem.** (other, first-hand, claimant: John Rush)
   > "That's what I usually do. 99% of my ideas are born that way." — John Rush (~15:53)
-- **The guest describes his idea-generation framework as finding the 20% of work that gives 80% of the result.** (other, first-hand, claimant: John Rush)
+- **The guest says he applied an 80/20 rule to decide which 20% of his own work to automate with AI first.** (other, first-hand, claimant: John Rush)
   > "I had this ideas for 2080 rule like what can I do like 20% of the work that gives 80% of the result" — John Rush (~2:39)
-- **The guest recommends putting about 50% of new users through cross-selling between products; stated as half in another claim.** (conversion_rate, first-hand, claimant: John Rush)
-  > "That's why when I land one user in any of my tool, like I have some tools that are making like 1K a month" — John Rush (~11:00)
+- **Duplicate of the cross-sell claim: about half of new users come from another tool in the portfolio. This is not a recommendation.** (conversion_rate, first-hand, claimant: John Rush)
+  > "For the new users, half of them come from one tool to the other." — John Rush (~10:56)
+- **John says the 'tax haven' keyword he tested before the call has about 100k searches and low competition.** (traffic, first-hand, claimant: John Rush)
+  > "So I just tested it now before this call and it's a it's like 100k searches. It's a lot of searches. It's low competition." — John Rush (~18:07)
+- **John says he deliberately keeps each agent at about 100 to 1,000 customers rather than scaling further, to limit support and legacy work.** (customers, first-hand, claimant: John Rush)
+  > "I rather want to have them all running like at 100 maybe a thousand customers so that I have enough people to test to ask questions and to AB test things but not more" — John Rush (~10:27)
 
 ## Tactics and playbook steps
 
@@ -361,4 +383,4 @@ John Rush describes building a portfolio of small software products and AI agent
 
 ## Tools mentioned
 
-GPT-2 (Early model John says he used to automate work.), GPT-3 (Early model John says he used to automate work.), GPT-3.5 (Model release that influenced John's decision to focus on AI.), SEO Bot (John's SEO agent for creating articles, guides, mini-tools, news, and newsletters.; About $20 per month is mentioned for a low-cost product in the SEO discussion.), Rapify (John's vibe-coding agent for building small tools.), Morse X (John's AI coding tool for more serious or complicated product development.), Lovable (John's preferred tool for prototyping and experimenting with user interfaces.), Bolt (Alternative vibe-coding and prototyping tool named by John.), Cursor (Alternative coding tool named by John.), Pinser (Alternative prototyping tool; name is transcribed as “pinser”.), Make (Automation tool John uses.), Zapier (Automation tool John uses.), Lindy AI (Automation and AI agent tool John uses.), Google (Autocomplete research and search demand discovery.), Excel (Tracking a list of business ideas during keyword research.), Keyword research tool (Checking keyword volume, competition, and related searches; brand not stated.), Perplexity (The host suggests using a deep research prompt to compare niche website builders and estimated traffic.), Similarweb (The host names it as a possible source for estimated monthly website traffic.), Google Sheets (The host suggests putting competitor and demand research into a table.), Framer (Landing-page builder recommended for simple pre-launch pages; SEO articles can sync with it.), Unicorn Platform (Landing-page builder John uses for simple waitlist pages.), Webflow (Landing-page builder recommended by John; SEO Bot can sync articles with it.), WordPress (Publishing platform that SEO Bot can sync with.), Google Ads (Paid traffic for testing product demand.), Meta ads (Paid traffic for testing product demand.), Twitter/X (Social content and pre-launch validation; John posted the Dev Hunt test there.), Reddit (Community conversations and product discovery; also discussed as a source AI systems may use.), Quora (A place to find relevant questions and share products.), FirstPromoter (Affiliate portal for partner sign-ups, unique links, and codes.), Product Hunt (Comparison point for John’s developer-focused launchpad Dev Hunt.), ChatGPT (Named as a source of traffic to some of John's products.), Claude (Named as a source of traffic to some of John's products.), Grok (Named as a source of traffic to some of John's products.), LinkedIn (A channel where John says people can find him.), Substack (A channel where John says people can find him.)
+GPT-2 (Early model John says he used to automate work.), GPT-3 (Early model John says he used to automate work.), GPT-3.5 (Model release that influenced John's decision to focus on AI.), SEO Bot (John's SEO agent for creating articles, guides, mini-tools, news, and newsletters.; About $20 per month is mentioned for a low-cost product in the SEO discussion.), Rapify (John's vibe-coding agent for building small tools.), MarsX (John's AI coding tool for more serious or complicated product development.), Lovable (John's preferred tool for prototyping and experimenting with user interfaces.), Bolt (Alternative vibe-coding and prototyping tool named by John.), Cursor (Alternative coding tool named by John.), Pinser (Alternative prototyping tool; name is transcribed as “pinser”.), Make (Automation tool John uses.), Zapier (Automation tool John uses.), Lindy AI (Automation and AI agent tool John uses.), Google (Autocomplete research and search demand discovery.), Excel (Tracking a list of business ideas during keyword research.), Keyword research tool (Checking keyword volume, competition, and related searches; brand not stated.), Perplexity (The host suggests using a deep research prompt to compare niche website builders and estimated traffic.), Similarweb (The host names it as a possible source for estimated monthly website traffic.), Google Sheets (The host suggests putting competitor and demand research into a table.), Framer (Landing-page builder recommended for simple pre-launch pages; SEO articles can sync with it.), Unicorn Platform (Landing-page builder John uses for simple waitlist pages.), Webflow (Landing-page builder recommended by John; SEO Bot can sync articles with it.), WordPress (Publishing platform that SEO Bot can sync with.), Google Ads (Paid traffic for testing product demand.), Meta ads (Paid traffic for testing product demand.), Twitter/X (Social content and pre-launch validation; John posted the Dev Hunt test there.), Reddit (Community conversations and product discovery; also discussed as a source AI systems may use.), Quora (A place to find relevant questions and share products.), FirstPromoter (Affiliate portal for partner sign-ups, unique links, and codes.), Product Hunt (Comparison point for John’s developer-focused launchpad Dev Hunt.), ChatGPT (Named as a source of traffic to some of John's products.), Claude (Named as a source of traffic to some of John's products.), Grok (Named as a source of traffic to some of John's products.), LinkedIn (A channel where John says people can find him.), Substack (A channel where John says people can find him.)

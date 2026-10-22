@@ -3,7 +3,7 @@
 - **Video:** [y2f16StJjfE](https://www.youtube.com/watch?v=y2f16StJjfE) · **Channel:** Casper Capital · **Uploaded:** 2026-04-09 · **Length:** 20 min · **Transcript:** cached
 - **Speakers:** Casper Capital host (host) · **Format:** other
 - **Evidence quality:** C — This is a host-led consumer explainer and provider comparison, not a first-hand operator account. It includes detailed fee, rating, complaint, and volume claims, but the transcript provides no source citations or independent verification. Company-specific claims are time-sensitive and are presented as the host's research. · Promotional conflict: The host recommends three companies and says links are in the description. Whether those links are affiliate or paid links is not stated.
-- **Extraction:** gpt-6-luna · quotes verified 103/103
+- **Extraction:** gpt-6-luna · quotes verified 103/103 · reviewed by claude-opus-5-5
 
 ## Summary
 
@@ -137,7 +137,7 @@ Casper Capital's host explains US debt settlement, who may or may not benefit, h
 - **The hypothetical customer can afford $500 in payments.** (other, second-hand, hypothetical, claimant: Casper Capital host)
   > "Her minimum payments are around $900 a month, but this person just lost their job and can only afford $500." — Casper Capital host (~4:00)
 - **The hypothetical customer's credit score is 580.** (other, second-hand, hypothetical, claimant: Casper Capital host)
-  > "Let's say their credit score is already down to 580 because they've missed a few payments." — Casper Capital host (~4:06)
+  > "Let's say their credit score is already down to $580 because they've missed a few payments." — Casper Capital host (~4:06)
 - **The host says the hypothetical $30,000 balance could potentially settle for $15,000 to $18,000.** (price, second-hand, hypothetical, claimant: Casper Capital host)
   > "This person could potentially settle that $30,000 for about 15 to 18,000 dollars over 3 years, and their monthly payment might just be around 500 to 600 dollars." — Casper Capital host (~4:15)
 - **The host says the hypothetical settlement would take three years.** (other, second-hand, hypothetical, claimant: Casper Capital host)
@@ -247,7 +247,7 @@ Casper Capital's host explains US debt settlement, who may or may not benefit, h
 - **The host reports Americor's BBB review score is 4.7 out of 5.** (other, second-hand, claimant: Casper Capital host)
   > "For ratings, they have an A+ BBB rating with a review score of 4.7 out of five, which is solid but slightly lower than the other two companies." — Casper Capital host (~14:24)
 - **The host says Americor had over 500 complaints in the last three years.** (other, second-hand, claimant: Casper Capital host)
-  > "They've had over 500 complaints in the last 3 years." — Casper Capital host (~12:45)
+  > "they've had over 500 complaints in the last 3 years. That's the same as National Debt Relief, but from a smaller customer base" — Casper Capital host (~14:35)
 - **The host says Americor's fees range from 14% to 29% of enrolled debt.** (price, second-hand, claimant: Casper Capital host)
   > "Their fees range from 14 to 29% of enrolled debt with an average weighted fee of about 26.46%, meaning their average fees are higher than the other two companies." — Casper Capital host (~14:46)
 - **The host says Americor's average weighted fee is about 26.46%.** (price, second-hand, claimant: Casper Capital host)
@@ -263,7 +263,7 @@ Casper Capital's host explains US debt settlement, who may or may not benefit, h
 - **The host's consolidation analogy says one piggy bank charges an extra dollar each month and another charges an extra two dollars.** (other, second-hand, hypothetical, claimant: Casper Capital host)
   > "One piggy bank charges you an extra dollar every month, another charges you $2 extra, and so on." — Casper Capital host (~15:32)
 - **The host frames the comparison for the year 2026.** (other, second-hand, claimant: Casper Capital host)
-  > "Today, I'm going to go over everything you need to know about debt relief." — Casper Capital host (~0:01)
+  > "Who it's for, who it's not for, and what the best companies are in 2026." — Casper Capital host (~0:06)
 
 ## Tactics and playbook steps
 

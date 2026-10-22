@@ -96,7 +96,7 @@
    ],
    "delivery": "Founder quotes in person and runs marketing; partner and one employee (300 USD/day) operate two Bobcat machines; partner's retired father-in-law helps part time.",
    "unit_economics_claims": [
-    "First month ~17,000 USD revenue, ~85% margin before repair reserve",
+    "First month ~17,000 USD revenue (Alex; host intro says almost 18,000 USD at 85% net margin); 85% margin excludes the 15% repair reserve",
     "Average job ~3,100 USD; CPL 23 USD; close rate 49%",
     "Gross margin 69.75% after 15% repair reserve",
     "Machine payments 1,400 and 1,900 USD/month",
@@ -115,7 +115,7 @@
    "time_to_first_revenue": "Job on the schedule within two days of starting ads",
    "automation": {
     "acquisition": {
-     "score_e": 3,
+     "score_e": 1,
      "how": "Meta ads targeting and lead capture automate well; content creation needs filming real jobs. Inbound only, legal in UK."
     },
     "onboarding": {
@@ -414,7 +414,7 @@
    "value": {
     "amount": 18000,
     "currency": "USD",
-    "unit": "first month"
+    "unit": "per month"
    },
    "claimant": "Chris Koerner",
    "first_hand": false,
@@ -873,6 +873,74 @@
     "char_offset": 12122,
     "approx_timestamp_s": 741
    }
+  },
+  {
+   "claim": "First month revenue about 17,000 USD (operator's own figure)",
+   "metric": "revenue",
+   "value": {
+    "amount": 17000,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "period": "first month",
+   "claimant": "Alex",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So the first month, I mean, I pulled up before it was like 17,000",
+    "speaker": "Alex",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 36424,
+    "approx_timestamp_s": 2228
+   }
+  },
+  {
+   "claim": "Around 70,000 USD booked on the schedule for each month through October",
+   "metric": "revenue",
+   "value": {
+    "amount": 70000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "booked schedule"
+   },
+   "period": "each month up to October",
+   "claimant": "Alex",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "we've got around 70,000 on the schedule for each month up to October",
+    "speaker": "Alex",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 40738,
+    "approx_timestamp_s": 2492
+   }
+  },
+  {
+   "claim": "Forestry kit on the skid steer costs about 15,000 USD extra",
+   "metric": "cost",
+   "value": {
+    "amount": 15000,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": "forestry kit"
+   },
+   "period": null,
+   "claimant": "Alex",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "the forestry kit is like an additional $15,000 kit",
+    "speaker": "Alex",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18276,
+    "approx_timestamp_s": 1118
+   }
   }
  ],
  "tactics": [
@@ -1116,11 +1184,11 @@
   "model": "grokbot",
   "extracted_at": "2026-10-22T08:58:04",
   "cost_usd": null,
-  "reviewed_by": null,
-  "review_notes": null,
+  "reviewed_by": "claude-opus-5-5",
+  "review_notes": "A thorough, accurate extraction of a numbers-rich operator interview. Prices, financing, CPL, close rate and margins all match the transcript. The main fixes are three missed claims: Alex's own first-month figure of 17,000 USD (only the host's 18,000 USD intro figure was captured), the ~70,000 USD/month booked schedule, and the 15,000 USD forestry kit. The I1 acquisition automation score was also too high, because every sale needs an in-person quote. The 'couple years' in the pricing-test warning is likely a caption mishearing ('couple weeks'), since the business is only 13 months old, but the quote is verbatim.",
   "quote_verification": {
-   "quotes": 39,
-   "verified": 39,
+   "quotes": 42,
+   "verified": 42,
    "rate": 1.0
   },
   "schema_errors": []

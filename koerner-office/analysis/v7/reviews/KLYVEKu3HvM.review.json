@@ -1,0 +1,44 @@
+{
+ "verdict": "minor_issues",
+ "error_counts": {
+  "missed_ideas": 0,
+  "missed_claims": 0,
+  "factual_errors": 4,
+  "unsupported_or_invented": 0,
+  "score_adjustments": 0
+ },
+ "corrections": [
+  {
+   "path": "ideas/1/is_primary",
+   "old": true,
+   "new": false,
+   "reason": "The video is about simulation theory, AI agents, physics and UFOs. The video game companies are mentioned only as the guest's background, so no idea is primary."
+  },
+  {
+   "path": "ideas/1/depth",
+   "old": "deep",
+   "new": "mention",
+   "reason": "Only the host's intro and one line from the guest ('I had sold my last video game company') cover this. There are no specifics on product, customers, revenue or sale."
+  },
+  {
+   "path": "format",
+   "old": "operator_interview",
+   "new": "other",
+   "reason": "This is an interview about simulation theory and philosophy. The host even says 'We haven't even talked much about entrepreneurship. Forget entrepreneurship.' Operating details are almost absent."
+  },
+  {
+   "path": "evidence_quality/rating",
+   "old": "B",
+   "new": "C",
+   "reason": "Business content is incidental anecdote with no numbers or process. The guest also promotes his own books. This fits C (thin, partly promotional) better than B."
+  }
+ ],
+ "add_ideas": [],
+ "add_metric_claims": [],
+ "notes": "The extraction is careful and conservative. It does not invent pricing or economics, and its quotes appear verbatim. The main errors overstate the business relevance: the video game companies idea is marked primary and deep, and the format and evidence rating imply a substantive operator interview. In reality the business mentions are incidental to a simulation-theory discussion. I6 (Second Life bartender) and I5 (teaching a class) are borderline as business ideas but are honestly labelled as mentions. The automation and UK scores are reasonable.",
+ "video_id": "KLYVEKu3HvM",
+ "reviewed_at": "2026-10-22T12:32:58",
+ "cost_usd": 0.25778080000000003,
+ "applied": 4,
+ "failed_to_apply": []
+}

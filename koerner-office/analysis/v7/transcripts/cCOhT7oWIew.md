@@ -3,7 +3,7 @@
 - **Video:** [cCOhT7oWIew](https://www.youtube.com/watch?v=cCOhT7oWIew) · **Channel:** Codie Sanchez · **Uploaded:** 2026-10-11 · **Length:** 17 min · **Transcript:** local_whisper_tiny
 - **Speakers:** Codie Sanchez (host), YouTube team (other) · **Format:** tutorial_howto
 - **Evidence quality:** C — This is a solo instructional video with some first-person business references, but most methods are presented as advice and many statistics are attributed only generally or without citations. The loan example is a reported client result rather than a detailed case study. · Promotional conflict: Codie promotes her Owner Score, Growth Accelerator Workshop, advisory team and book. She also recommends HubSpot and mentions a HubSpot-built scorecard tool.
-- **Extraction:** gpt-6-luna · quotes verified 73/73
+- **Extraction:** gpt-6-luna · quotes verified 73/73 · reviewed by claude-opus-5-5
 
 ## Summary
 
@@ -15,7 +15,7 @@ Codie Sanchez presents seven habits she says reduce entrepreneurs’ focus, team
 |---|---|---|---|---|---|
 | I1 | **Contrarian Thinking advisory business** — Advisory support for business owners, including help identifying savings and a possible P&L review. | b2b_service | mention | 3/1/0/1/1 | 3 |
 | I2 | **Growth Accelerator Workshop** — A live workshop that teaches business owners systems Codie says she used to build her businesses. | education_coaching | mention | 3/1/1/1/1 | 4 |
-| I3 | **Owner Score assessment** — A free self-assessment that asks owners questions and returns feedback about how they work. | digital_products | mention | 3/4/3/0/1 | 5 |
+| I3 | **Owner Score assessment** — A free self-assessment that asks owners questions and returns feedback about how they work. | digital_products | mention | 3/4/3/5/1 | 5 |
 | I4 | **Codie's business book** — A book containing chapters and frameworks about product decisions, profitability and business habits. | digital_products | mention | 3/1/2/1/1 | 4 |
 
 ## Revenue and metric claims (unverified claims)
@@ -28,7 +28,7 @@ Codie Sanchez presents seven habits she says reduce entrepreneurs’ focus, team
   > "Managers live in roughly one hour blocks. So, you know, 10am meeting, 11am interview, 12pm lunch, 1pm review." — Codie Sanchez (~1:18)
 - **Makers may need roughly four-hour blocks for creative and strategic work.** (hours, second-hand, claimant: Codie Sanchez relaying Paul Graham's concept)
   > "Makers tend to think in much larger blocks, think sort of four hour blocks like this" — Codie Sanchez (~1:41)
-- **The presenter describes Hersberg's management theory as 70 years old.** (other, second-hand, claimant: Codie Sanchez)
+- **The presenter describes Herzberg's two-factor theory as about 70 years old.** (other, second-hand, claimant: Codie Sanchez)
   > "There's a 70 year old management array called Hersburg's two factor theory that explains what actually makes people satisfied at work." — Codie Sanchez (~2:21)
 - **Codie says high-quality recognition recipients were 45% less likely to leave after two years.** (conversion_rate, second-hand, claimant: Codie Sanchez citing studies)
   > "those who receive high quality recognition were 45% less likely to leave their company after two years." — Codie Sanchez (~3:27)
@@ -72,7 +72,7 @@ Codie Sanchez presents seven habits she says reduce entrepreneurs’ focus, team
   > "reviewing a $37 expense, and then fixing formatting on your slides." — Codie Sanchez (~10:08)
 - **Codie says Napoleon did not open his mail for three weeks.** (other, second-hand, claimant: Codie Sanchez citing Napoleon)
   > "Napoleon famously wouldn't open his mail for three weeks because most urgent problems resolve themselves." — Codie Sanchez (~11:27)
-- **Codie says she has never had a business loan at a 49% interest rate.** (other, first-hand, claimant: Codie Sanchez)
+- **A business owner (an advisory client) had accepted a business loan at a 49% interest rate. The caption 'I've never had' is likely a mis-transcription.** (other, second-hand, claimant: Codie Sanchez reporting an advisor's client case)
   > "I've never had a business loan at 49% interest rate." — Codie Sanchez (~12:49)
 - **An advisor reportedly negotiated a client's loan rate down to 22%.** (other, second-hand, claimant: Codie Sanchez reporting an advisor's client result)
   > "Within a few days, Jordan, one of our advisors, found him a new loan, negotiated a rate at way less than half the price, 22%." — Codie Sanchez (~12:58)
@@ -86,13 +86,13 @@ Codie Sanchez presents seven habits she says reduce entrepreneurs’ focus, team
   > "Every year, look at the five to 10 highest contracts and expenses that you have, and negotiate a new deal." — Codie Sanchez (~14:27)
 - **Codie says one negotiation question can sometimes save five to 20%.** (other, second-hand, hypothetical, claimant: Codie Sanchez)
   > "Sometimes that one question saves you five, 10, 20%. So create a negotiation schedule." — Codie Sanchez (~14:22)
-- **Codie recommends asking customers who have been with the business for three years about improving terms.** (other, second-hand, hypothetical, claimant: Codie Sanchez)
+- **Codie suggests telling a vendor or lender that you have been their customer for three years and asking for improved terms.** (other, second-hand, hypothetical, claimant: Codie Sanchez)
   > "We've been a customer for three years. What can we do to improve these terms?" — Codie Sanchez (~14:58)
 - **Codie gives a one-year commitment as an example to use when asking for a better price.** (other, second-hand, hypothetical, claimant: Codie Sanchez)
   > "You could say, if we commit for another year, what can you do on price?" — Codie Sanchez (~15:02)
 - **Codie says top customers can generate 180% to 200% of customer profit.** (profit, second-hand, claimant: Codie Sanchez citing Harvard professor Robert Kaplan)
   > "He found, this is shocking to me, that your top customers create anywhere from 180 to 200% of your customer's profit." — Codie Sanchez (~15:48)
-- **Codie says the least profitable customers can account for about 50% of lost profit.** (profit, second-hand, claimant: Codie Sanchez citing Harvard professor Robert Kaplan)
+- **Codie, citing Kaplan's whale curve, says the bottom customers erode about 50% of profit.** (profit, second-hand, claimant: Codie Sanchez citing Harvard professor Robert Kaplan)
   > "It's actually the bottom percentage of customers that you have are actually losing you about 50% of your profit." — Codie Sanchez (~15:59)
 - **Codie recommends reviewing four customer-fit factors once a quarter.** (other, second-hand, claimant: Codie Sanchez)
   > "So once a quarter, I want you to log these four things about all of your customers." — Codie Sanchez (~16:39)
@@ -113,7 +113,7 @@ Codie Sanchez presents seven habits she says reduce entrepreneurs’ focus, team
 3. Protect longer, roughly four-hour blocks for deep creative or strategic work.
 > "So the solution is to give yourself defined time blocks by what mode you are in. Are you in manager mode or are you in maker mode?" — Codie Sanchez (~1:54)
 
-**Recognize staff with the three Cs** (hiring_outsourcing)
+**Recognize staff with the three Cs** (hiring)
 1. Give specific, individual recognition and name the work that was done well.
 2. Connect day-to-day work to a meaningful mission.
 3. Treat well-reasoned failures as calculated bets and recognize the effort when execution was sound.
@@ -125,7 +125,7 @@ Codie Sanchez presents seven habits she says reduce entrepreneurs’ focus, team
 3. Study people who have already solved the problem before creating a new process.
 > "80% of business should build from proven systems benchmarks, templates, and people who have already solved the problem." — Codie Sanchez (~5:38)
 
-**Score ideas and set a kill date** (validation_testing)
+**Score ideas and set a kill date** (product)
 1. Score problem frequency, urgency, current cost and whether customers already pay for a solution from one to five.
 2. Build ideas scoring 16 to 20; pre-sell ideas scoring 11 to 15; treat scores of six to 10 cautiously.
 3. Set a 30-, 60- or 90-day review period and define benchmarks before proceeding.
@@ -146,7 +146,7 @@ Codie Sanchez presents seven habits she says reduce entrepreneurs’ focus, team
 4. Ask what better terms are available for an existing customer, a longer commitment or a credible alternative.
 > "Amateurs negotiate price. Pros negotiate terms." — Codie Sanchez (~13:53)
 
-**Review customer profitability and fit** (finance_unit_economics)
+**Review customer profitability and fit** (finance)
 1. Review customer profitability, including service effort and other costs rather than revenue alone.
 2. Once a quarter, assess economic, behavioral, results and energy fit for each customer.
 3. Prioritize customers who pay reliably, are easy to serve, want the work the business does best and follow its process.

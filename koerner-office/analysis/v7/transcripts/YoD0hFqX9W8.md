@@ -2,8 +2,8 @@
 
 - **Video:** [YoD0hFqX9W8](https://www.youtube.com/watch?v=YoD0hFqX9W8) · **Channel:** The Koerner Office · **Uploaded:** 2026-01-31 · **Length:** 74 min · **Transcript:** transcribeyoutube
 - **Speakers:** Chris Koerner (host), Forest (guest) · **Format:** operator_interview
-- **Evidence quality:** B — First-hand operator with specific, mostly consistent numbers and process detail, but revenue, margins and the pastry history are unverified self-reports with a short (about 16-month) track record. The host extrapolates hypothetical figures ($240k profit, $12M) and the 'better than vending' comparison is opinion. · Promotional conflict: Forest runs a YouTube channel and a paid Skool-style community teaching the business; the host sells the TK Owners community and promotes Beehiiv (sponsor read).
-- **Extraction:** claude-sonnet-5-5 · quotes verified 34/34
+- **Evidence quality:** B — First-hand operator with specific, mostly consistent numbers and process detail, but revenue, margins and the pastry history are unverified self-reports with a short (about 16-month) track record. The host extrapolates hypothetical figures ($240k profit, $12M) and the 'better than vending' comparison is opinion. · Promotional conflict: Forest runs a YouTube channel and a Skool community teaching the business (pricing not stated); the host sells the TK Owners community and promotes Beehiiv (sponsor read).
+- **Extraction:** claude-sonnet-5-5 · quotes verified 36/36 · reviewed by claude-opus-5-5
 
 ## Summary
 
@@ -35,7 +35,7 @@ Chris Koerner interviews Forest, a 34-year-old former Pepsi/Coke/Bang merchandis
 - **Time to first revenue:** About $20,000 in sales in the first month in Billings (claimed, per host)
 - **UK applicability [E]:** 3/5 — Independent convenience stores, farm shops, garages and pubs exist in the UK, and cash-and-carry or van-sales models are established. The UK is much denser and smaller, so competition is higher and the large-radius rural advantage is less relevant. Food labelling, hygiene registration and shelf-life rules apply. Selling to stores is B2B, so PECR is not a barrier to visits, but cold email or call to sole traders needs care. Prices would be in GBP with local British brands.
 - **Risks:** Competing wholesaler can undercut and steal an account (happened once); Perishable or dated goods cause write-offs and buy-backs; Relationships are fragile and scaling needs staff; Heavy physical driving workload, weather (-20°C) and rural distance; Brands may limit territories or terms; Chain stores are hard to enter
-- **Automation [E]:** acquisition 0/5 (Door-to-door walk-in sales to store owners is in-person and relationship-based. Agents could help build target lists from Maps and manage follow-up schedules, but the selling is human.); onboarding 1/5 (Setting up a store means a physical display install and a verbal agreement, with no contracts. Account records could be digitised.); delivery 0/5 (Driving, carrying cases, merchandising shelves, receiving pallets and buy-backs are all physical work done every visit.); billing 3/5 (Net-10 invoices from an app could be automated with accounting software and payment reminders. Stores currently pay by cheque or cash on the next visit.); support 1/5 (Support is an owner relationship on the next visit; order changes could be handled by messaging but the model depends on face time.)
+- **Automation [E]:** acquisition 0/5 (Door-to-door walk-in sales to store owners is in-person and relationship-based. Agents could help build target lists from Maps and manage follow-up schedules, but the selling is human.); onboarding 1/5 (Setting up a store means a physical display install and a verbal agreement, with no contracts. Account records could be digitised.); delivery 0/5 (Driving, carrying cases, merchandising shelves, receiving pallets and buy-backs are all physical work done every visit.); billing 3/5 (Net-10 invoices from an app could be automated with accounting software and payment reminders. Forest says he does not accept card payments; the payment method is otherwise not stated.); support 1/5 (Support is an owner relationship on the next visit; order changes could be handled by messaging but the model depends on face time.)
 > "I will show up every other week. I will place my own order. I will merchandise. I'll put it the product on the shelf. I'll rotate it and I'll buy back all credits." — Forest (~24:46)
 > "an average order, especially in the summer, is like 500 to 900 a delivery." — Forest (~28:54)
 > "most of them I have them on net 10." — Forest (~37:21)
@@ -71,7 +71,7 @@ Chris Koerner interviews Forest, a 34-year-old former Pepsi/Coke/Bang merchandis
 - **A $1,000 order costs about $650-700 and yields almost $400 profit** (margin, first-hand, claimant: Forest)
   > "I usually do 30 30 on the low end to 45. So, on that $1,000 order" — Forest (~30:54)
 - **Markup 30% to 45% on cost** (margin, first-hand, claimant: Forest)
-  > "I would try to be closer to 30." — Forest (~31:31)
+  > "My markup I usually do 30 30 on the low end to 45." — Forest (~30:53)
 - **Warehouse costs about $1,400/month for 1,500 sq ft** (cost, first-hand, claimant: Forest)
   > "I'm about 1,500 square foot and I'm I think my monthly like everything is 1,400." — Forest (~33:27)
 - **Invoice app costs $10-12 per month** (cost, first-hand, claimant: Forest)
@@ -98,6 +98,10 @@ Chris Koerner interviews Forest, a 34-year-old former Pepsi/Coke/Bang merchandis
   > "I would say eight." — Forest (~58:25)
 - **Seven to ten grand revenue and two to three grand profit in one day of deliveries** (profit, second-hand, hypothetical, claimant: Chris Koerner)
   > "Those deliveries are 700 to $1,000 a piece, right? So, seven to 10 grand of revenue in one day of deliveries once you have the accounts." — Chris Koerner (~41:33)
+- **Forest states his current monthly revenue is around $50k** (revenue, first-hand, claimant: Forest)
+  > "And what is your monthly revenue give or take right now? >> Around 50." — Forest (~39:09)
+- **Host extrapolates $240k/yr net profit for a full $800k route run solo at 30% net** (profit, second-hand, hypothetical, claimant: Chris Koerner)
+  > "Theoretically, $240,000 a year net profit would be what you would be looking at at $800,000 at, you know, max efficiency from just you." — Chris Koerner (~47:57)
 
 ## Tactics and playbook steps
 

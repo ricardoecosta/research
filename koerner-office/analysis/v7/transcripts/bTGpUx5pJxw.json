@@ -188,7 +188,7 @@
    "delivery": "The operator sources blank shirts, prepares designs, cuts or applies heat-transfer vinyl, and presses the shirts. The narrator recommends washing a test shirt before accepting the order.",
    "unit_economics_claims": [
     "Vinyl-printed shirts are cited at $8 to $15 each, or about $200 to $360 for one team order.",
-    "A plain blank shirt order is cited at about $250 to $370 wholesale.",
+    "A plain blank shirt is cited at about $2.50 to $3.70 wholesale (rendered '$250 to $370' in transcript).",
     "A 15 by 15 inch heat press costs about $170 to $190; the narrator says one team order covers it."
    ],
    "tools": [
@@ -197,7 +197,7 @@
     "Heat-transfer vinyl",
     "Fancier Studio 15 by 15 inch press"
    ],
-   "startup_cost": "About $170 to $190 for a 15 by 15 inch press, plus blank shirts and supplies. The narrator cites $250 to $370 wholesale for blank shirts.",
+   "startup_cost": "About $170 to $190 for a 15 by 15 inch press, plus blank shirts (about $2.50 to $3.70 each wholesale; transcript renders as '$250 to $370') and supplies.",
    "time_to_first_revenue": "Not stated.",
    "automation": {
     "acquisition": {
@@ -398,7 +398,7 @@
       "label": "Narrator's stated example"
      }
     ],
-    "notes": "The transcript's standard-fence example says 'at $300 or $4 a foot' before estimating $450 to $600; that wording is unclear. Stain for one side is separately estimated at $150 to $230."
+    "notes": "The transcript says 'at $300 or $4 a foot', which is most likely '$3 or $4 a foot' misheard: 150 ft × $3–$4 gives the stated $450 to $600. Stain for one side is separately estimated at $150 to $230."
    },
    "acquisition_channels": [
     {
@@ -515,7 +515,7 @@
    },
    "acquisition_channels": [
     {
-     "channel": "cold_call",
+     "channel": "existing_audience",
      "details": "The narrator suggests calling a contractor to ask what they currently pay, and identifies existing truck-lettering customers as possible hat buyers. Screen UK business calls against CTPS.",
      "quote": {
       "text": "Remember the contractor whose trucks you lettered? His crew wears hats.",
@@ -1076,14 +1076,14 @@
    }
   },
   {
-   "claim": "Plain blank shirts cost about $250 to $370 wholesale.",
+   "claim": "A plain blank shirt costs about $2.50 to $3.70 wholesale (transcript renders this as '$250 to $370', likely a caption error).",
    "metric": "cost",
    "value": {
-    "amount": 250,
-    "amount_max": 370,
+    "amount": 2.5,
+    "amount_max": 3.7,
     "currency": "USD",
-    "unit": "wholesale blank shirt order",
-    "label": "Approximate cost"
+    "unit": "per blank shirt",
+    "label": "Transcript renders as '$250 to $370'; context ('a plain blank shirt') indicates a per-shirt wholesale price of about $2.50 to $3.70"
    },
    "period": null,
    "claimant": "Narrator",
@@ -2705,8 +2705,8 @@
   "model": "gpt-6-luna",
   "extracted_at": "2026-10-22T11:11:33",
   "cost_usd": 0,
-  "reviewed_by": null,
-  "review_notes": null,
+  "reviewed_by": "claude-opus-5-5",
+  "review_notes": "The extraction is thorough and accurate overall. It covers all seven machines, captures nearly every cited figure with verbatim quotes, and handles the source attribution and hypothetical flags sensibly. The main error is the blank-shirt cost: it was carried over as $250–$370 and reinterpreted as an order total, when context shows a per-shirt price of roughly $2.50–$3.70. The fence 'per foot' wording can be resolved arithmetically as $3–$4/ft. The automation scores, the UK scores, and the C evidence rating are reasonable.",
   "quote_verification": {
    "quotes": 106,
    "verified": 104,

@@ -1,0 +1,101 @@
+{
+ "verdict": "minor_issues",
+ "error_counts": {
+  "missed_ideas": 0,
+  "missed_claims": 1,
+  "factual_errors": 1,
+  "unsupported_or_invented": 0,
+  "score_adjustments": 0
+ },
+ "corrections": [
+  {
+   "path": "ideas/0/pricing/price_points",
+   "old": [
+    {
+     "amount": 9.5,
+     "currency": "USD",
+     "unit": "small",
+     "label": "regular"
+    },
+    {
+     "amount": 11.5,
+     "currency": "USD",
+     "unit": "large",
+     "label": "regular"
+    },
+    {
+     "amount": 13.5,
+     "currency": "USD",
+     "unit": "large",
+     "label": "monthly special"
+    },
+    {
+     "amount": 60,
+     "currency": "USD",
+     "unit": "per sweatshirt",
+     "label": "merch"
+    }
+   ],
+   "new": [
+    {
+     "amount": 9.5,
+     "currency": "USD",
+     "unit": "small",
+     "label": "regular"
+    },
+    {
+     "amount": 11.5,
+     "currency": "USD",
+     "unit": "large",
+     "label": "regular"
+    },
+    {
+     "amount": 11.5,
+     "currency": "USD",
+     "unit": "small",
+     "label": "monthly special"
+    },
+    {
+     "amount": 13.5,
+     "currency": "USD",
+     "unit": "large",
+     "label": "monthly special"
+    },
+    {
+     "amount": 60,
+     "currency": "USD",
+     "unit": "per sweatshirt",
+     "label": "merch"
+    }
+   ],
+   "reason": "The $11.50 small monthly-special price point was missing. The transcript says '11.50 for a small one and 13.50 for a larger one'."
+  }
+ ],
+ "add_ideas": [],
+ "add_metric_claims": [
+  {
+   "claim": "Merch is about 20% of revenue, mostly sold in person rather than online",
+   "metric": "revenue",
+   "value": {
+    "amount": 20,
+    "currency": "%",
+    "unit": "share of revenue from merch"
+   },
+   "period": null,
+   "claimant": "Owner (Todd or Stephanie; speaker unclear)",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "It's probably close to 20%",
+    "speaker": null
+   }
+  }
+ ],
+ "notes": "The extraction is thorough and accurate on the P&L figures, prices, staffing, seasonality and startup costs, and its evidence and promotion flags are reasonable. The main gaps were a missing special-tier price point and a merch revenue-share claim that was folded into the margin claim instead of standing alone. Some figures are inconsistent and only approximate. The headline '$40k/month' is above the implied average of about $34k/month from $408.5k a year. Store 85%, truck 15% and merch about 20% do not add up, and the host admits the line items do not reconcile. An A rating is borderline; B would also be defensible.",
+ "video_id": "LfgzWJX6zDE",
+ "reviewed_at": "2026-10-22T12:28:36",
+ "cost_usd": 0.262232,
+ "applied": 1,
+ "failed_to_apply": []
+}

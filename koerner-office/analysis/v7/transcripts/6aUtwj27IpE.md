@@ -3,7 +3,7 @@
 - **Video:** [6aUtwj27IpE](https://www.youtube.com/watch?v=6aUtwj27IpE) · **Channel:** The Koerner Office · **Uploaded:** 2025-06-21 · **Length:** 65 min · **Transcript:** ok
 - **Speakers:** Chris Koerner (host), Nick (co-host) · **Format:** host_solo_ideas
 - **Evidence quality:** C — Mostly second-hand anecdotes and hypothetical ideas; few verifiable numbers, some inconsistent (140 x 50 USD vs 8k). · Promotional conflict: TK newsletter promotion; hosts mention their own projects (One Life Tale).
-- **Extraction:** grokbot · quotes verified 51/51
+- **Extraction:** grokbot · quotes verified 52/52 · reviewed by claude-opus-5-5
 
 ## Summary
 
@@ -13,7 +13,7 @@ Chris Koerner and co-host Nick run an ideas episode on why starting a business h
 
 | # | Idea | Category | Depth | Automation [E] A/O/D/B/S | UK [E] |
 |---|---|---|---|---|---|
-| I1 | **AI automations-as-a-service for Fortune 500 teams** — Sell in-person AI automation of employee tasks to large companies at 7,000 USD/month, framed as giving staff superpowers rather than replacing them. | ai_automation | moderate | 2/1/3/5/2 | 4 |
+| I1 | **AI automations-as-a-service for Fortune 500 teams** — Sell in-person AI automation of employee tasks to large companies at 7,000 USD/month, framed as giving staff superpowers rather than replacing them. | ai_automation | moderate | 1/1/3/5/2 | 4 |
 | I2 | **Automated low-price accounting service for CPA firms / small clients** — A 24-year-old charges 50 USD/month for automated accounting services to 140 clients and upsells automation implementation, spending about an hour a week. | ai_automation | moderate | 3/4/4/5/3 | 3 |
 | I3 | **Fabric ceilings for pergolas via installer partnerships** — Install Mediterranean-style wavy fabric ceilings on pergolas by partnering with pergola installers who upsell it. | home_service | moderate | 2/2/0/4/2 | 4 |
 | I4 | **B2B stump grinding for tree services** — Buy a financed stump grinder and do all stump grinding for tree trimming companies. | b2b_service | moderate | 2/2/0/4/2 | 4 |
@@ -48,7 +48,7 @@ Chris Koerner and co-host Nick run an ideas episode on why starting a business h
 - **Time to first revenue:** not stated
 - **UK applicability [E]:** 4/5 — Large UK companies buy AI consulting; B2B cold email to corporate addresses is allowed under PECR (must offer opt-out and comply with UK GDPR legitimate interest).
 - **Risks:** Second-hand story; unverified; Founder-dependent in-person selling; Charity guarantee cost
-- **Automation [E]:** acquisition 2/5 (Cold email to limited companies is legal under UK PECR and can be agent-written, but closing is in person.); onboarding 1/5 (Employee interviews in person.); delivery 3/5 (Building automations can be agent-assisted but needs bespoke work.); billing 5/5 (Recurring invoicing.); support 2/5 (Ongoing account management.)
+- **Automation [E]:** acquisition 1/5 (Cold email to limited companies is legal under UK PECR and can be agent-written, but closing is in person.); onboarding 1/5 (Employee interviews in person.); delivery 3/5 (Building automations can be agent-assisted but needs bespoke work.); billing 5/5 (Recurring invoicing.); support 2/5 (Ongoing account management.)
 > "I promise you I can find ways to save you so much more money than what my service costs if I can't for whatever reason" — Chris Koerner (~2:02)
 
 ### I2. Automated low-price accounting service for CPA firms / small clients
@@ -149,7 +149,7 @@ Chris Koerner and co-host Nick run an ideas episode on why starting a business h
 - **Offer:** Small group classes with an instructor
 - **Business model:** Per-participant class fees
 - **Pricing:** Per participant. 1-hour intro to welding USD 130 per participant; make a cube USD 250 per participant; steel bowl USD 190 per participant 
-- **Acquisition:** organic_social_content: Found via Twitter; website with class list.
+- **Acquisition:** other: Not stated. The host found the operator on Twitter, and the business has a website listing its classes.
 - **Delivery:** Instructor-led in-person classes.
 - **Unit economics (claims):** 
 - **Tools:** 
@@ -176,8 +176,8 @@ Chris Koerner and co-host Nick run an ideas episode on why starting a business h
 - **UK applicability [E]:** 5/5 — Works globally; children's data rules (UK Age Appropriate Design Code) apply.
 - **Risks:** API costs if it scales; Security of AI-built code; Children's privacy rules
 - **Automation [E]:** acquisition 4/5 (App store and paid social.); onboarding 5/5 (Self-serve.); delivery 5/5 (Software.); billing 5/5 (In-app purchase.); support 4/5 (Minimal.)
-> "someone needs to build build a version of this in a mobile app a wrapper" — Nick (~35:24)
-> "I'm worried that it would do really well and I'd like wake up and I'd have and I'd have like $1,000 in API charges" — Chris Koerner (~36:35)
+> "someone needs to build build a version of this in a mobile app a wrapper" — Chris Koerner (~35:24)
+> "I'm worried that it would do really well and I'd like wake up and I'd have and I'd have like $1,000 in API charges" — Nick (~36:35)
 
 ### I13. AI family story capture (One Life Tale) and elder story phone line
 
@@ -331,6 +331,8 @@ Chris Koerner and co-host Nick run an ideas episode on why starting a business h
   > "He got 3% of them to schedule calls and then 1% of of the hundred that he sent the 1% closed" — Nick (~62:23)
 - **VR HVAC course 8,000-12,000 USD government funded; Oculus ~400 USD** (price, second-hand, claimant: Chris Koerner)
   > "once they pay like eight or 12,000 that's fully funded by the government" — Chris Koerner (~53:37)
+- **A woman who mailed hand-written wedding/baby shower invitations to companies got hundreds to thousands of USD in gifts from about 40 USD of invitations** (revenue, second-hand, claimant: Chris Koerner)
+  > "this woman got hundreds or even thousands of dollars worth of free gifts simply by sending $40 worth of invitations" — Chris Koerner (~59:18)
 
 ## Tactics and playbook steps
 

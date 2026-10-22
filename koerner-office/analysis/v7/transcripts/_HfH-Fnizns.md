@@ -3,7 +3,7 @@
 - **Video:** [_HfH-Fnizns](https://www.youtube.com/watch?v=_HfH-Fnizns) · **Channel:** Johnny & Sergio · **Uploaded:** 2026-09-26 · **Length:** 23 min · **Transcript:** cached
 - **Speakers:** Johnny (host) · **Format:** listicle_roundup
 - **Evidence quality:** C — This is a promotional listicle. Johnny provides process details and says he personally operated holiday-light and remote-cleaning businesses, but most estimates are research-based, attributed to unnamed operators, listings or training programs, and are not independently verified in the transcript. · Promotional conflict: Johnny promotes Home Service Academy, offering free remote-cleaning training and paid one-on-one help.
-- **Extraction:** gpt-6-luna · quotes verified 82/82
+- **Extraction:** gpt-6-luna · quotes verified 82/82 · reviewed by claude-opus-5-5
 
 ## Summary
 
@@ -22,7 +22,7 @@ Johnny ranks ten businesses he says can be started around a full-time job, from 
 | I7 | **Landscape lighting** — Design and install outdoor lighting systems for residential properties. | home_service | moderate | 2/2/0/3/2 | 4 |
 | I8 | **Drone roof imaging and inspections** — Capture aerial roof images and documentation for roofing, insurance and property professionals. | b2b_service | moderate | 2/3/1/3/2 | 3 |
 | I9 | **Parking lot litter cleanup** — Walk commercial parking lots and remove litter before opening or after closing. | b2b_service | moderate | 2/3/0/4/2 | 5 |
-| I10 | **Apartment valet trash** — Collect residents' bagged trash from outside apartment doors and take it to the dumpster or compactor. | local_service | moderate | 1/3/0/4/2 | 3 |
+| I10 | **Apartment valet trash** — Collect residents' bagged trash from outside apartment doors and take it to the dumpster or compactor. | b2b_service | moderate | 1/3/0/4/2 | 3 |
 
 ### I1. Sprinkler startup and winterization
 
@@ -103,7 +103,7 @@ Johnny ranks ten businesses he says can be started around a full-time job, from 
 - **Offer:** Clean dumpster pads and optionally clean the containers, including an initial deep clean before a recurring service plan.
 - **Business model:** Per-visit cleaning fees, with recurring monthly or quarterly service.
 - **Pricing:** Per visit, with recurring monthly or quarterly rates.. USD 50-200 per pad cleaning visit; USD 15-100 per container cleaning; Sometimes charged for a neglected pad USD 300 one-time first clean fee Johnny gives an example of a monthly route of 15 properties at about $150 per visit.
-- **Acquisition:** cold_email: The video says the business takes more B2B outreach but does not specify a particular outreach method. Cold email to limited companies can be automated if UK rules are followed.; partnerships: Build relationships with property managers who may control several commercial properties.
+- **Acquisition:** other: Unspecified B2B outreach to property managers; the video names no method.; partnerships: Build relationships with property managers who may control several commercial properties.
 - **Delivery:** A crew cleans the pad, preferably after close or early in the morning. The service needs hot water and a way to capture and remove wastewater. Technicians can take over route work as the owner sells to more property managers.
 - **Unit economics (claims):** A monthly route of 15 properties at about $150 per visit was estimated to generate $2,250 a month.; Startup equipment was estimated at about $2,000.
 - **Tools:** Hot water equipment, Wastewater capture and haul-off setup
@@ -121,7 +121,7 @@ Johnny ranks ten businesses he says can be started around a full-time job, from 
 - **Offer:** Market and book cleaning jobs, recruit cleaners who bring their own car and supplies, dispatch them to customers and manage the relationship.
 - **Business model:** Keep a share of each customer's payment while independent cleaners perform the cleaning.
 - **Pricing:** The operator keeps a share of the customer's payment; customer cleaning prices are not stated.. Typical share stated by Johnny  40-50 percent of client payment retained Cleaner compensation and exact customer prices are not stated.
-- **Acquisition:** paid_search: Sign up for Google Local Services Ads.; paid_social: Run Facebook ads; Johnny also recommends before-and-after-style local promotion.; facebook_groups_communities: Promote the service in local Facebook groups.; other: Use Nextdoor groups and referrals from existing customers.; referrals_word_of_mouth: Recurring customers can recommend the service to others.
+- **Acquisition:** paid_search: Sign up for Google Local Services Ads.; paid_social: Run Facebook ads.; facebook_groups_communities: Promote the service in local Facebook groups.; other: Use Nextdoor groups and referrals from existing customers.; referrals_word_of_mouth: Recurring customers can recommend the service to others.
 - **Delivery:** Independent cleaners bring their own supplies and cars and do the physical cleaning. The owner initially handles marketing, bookings, recruiting and follow-up, then can add online booking, automated texts and a virtual assistant to answer phones and recruit cleaners.
 - **Unit economics (claims):** The owner typically keeps about 40% to 50% of what the client pays.; Johnny says a cleaning business he built for his mother exceeded $1 million in total sales and did $50,000 in revenue in August.; The speaker says one in three customers tends to become recurring.
 - **Tools:** Booking software, Google Local Services Ads, Facebook, Nextdoor, Automated text messages, Virtual assistant, Insurance
@@ -195,7 +195,7 @@ Johnny ranks ten businesses he says can be started around a full-time job, from 
 - **Offer:** Provide evening trash collection across an apartment property, usually Sunday through Thursday.
 - **Business model:** Recurring property-level contracts priced per unit per month.
 - **Pricing:** Monthly fee per apartment unit paid by the property; the property may separately bill residents.. USD 8-18 per unit per month paid to operator; USD 25-35 per unit per month charged to residents by property; USD 12 per unit per month in the 150-unit example At $12 per unit, Johnny calculates $1,800 monthly from a 150-unit property.
-- **Acquisition:** partnerships: Sell the service to a leasing office, property manager, apartment owner or management company.; cold_email: The video describes a difficult property-manager sales cycle but does not specify the outreach method. Cold email to limited companies can be used if UK rules are followed.
+- **Acquisition:** partnerships: Sell the service to a leasing office, property manager, apartment owner or management company.; other: Long, credibility-dependent B2B sales cycle with property managers or ownership groups; the video names no outreach method.
 - **Delivery:** An evening crew collects bagged trash from outside residents' doors and takes it to a dumpster or compactor. The owner can hire crews and add routes as properties are contracted.
 - **Unit economics (claims):** A 150-unit property at $12 per unit was estimated to generate $1,800 a month.; A business listing with over 1,500 units was described as generating about $15,000 a month in revenue.
 - **Tools:** Golf cart, Dumpster, Compactor
@@ -252,7 +252,7 @@ Johnny ranks ten businesses he says can be started around a full-time job, from 
   > "And you can test this for, you know, as little as 350 bucks." — Johnny (~6:25)
 - **A yard visit can take about 10 minutes.** (hours, second-hand, claimant: Johnny)
   > "You're in and out of a yard in 10 minutes, which means you can run a full evening or Saturday route without knocking on a single door." — Johnny (~6:40)
-- **Johnny says about one in three customers tend to convert to recurring cleaning.** (conversion_rate, second-hand, claimant: Johnny)
+- **Johnny says about one in three customers tend to convert to recurring cleaning.** (conversion_rate, first-hand, claimant: Johnny)
   > "About one in every three customers will tend to convert to a recurring customer, meaning get their home deep cleaned the first time." — Johnny (~13:12)
 - **Johnny says people he knows in pet waste removal are doing $200,000 to $400,000 a month in sales.** (revenue, second-hand, claimant: Johnny citing unnamed operators)
   > "I actually know people in this space that are doing two, three, $400,000 a month in sales, which is ridiculous." — Johnny (~7:26)
@@ -347,7 +347,7 @@ Johnny ranks ten businesses he says can be started around a full-time job, from 
 4. Post before-and-after photos in Meta ads.
 5. Hire installation crews when demand exceeds the owner's weekend capacity.
 
-**Make pet-waste service easy to verify** (offer_design)
+**Make pet-waste service easy to verify** (product)
 1. Offer a recurring weekly yard visit.
 2. Take a before-and-after photo so the customer can see the completed work.
 3. Promote in neighborhood and dog-owner groups and ask satisfied clients for referrals.

@@ -3,7 +3,7 @@
 - **Video:** [uQKVxCQJPoA](https://www.youtube.com/watch?v=uQKVxCQJPoA) · **Channel:** The Koerner Office · **Uploaded:** 2025-09-12 · **Length:** 23 min · **Transcript:** ok
 - **Speakers:** Chris Koerner (host) · **Format:** tutorial_howto
 - **Evidence quality:** C — This is a live product demo rather than a validated business. The host says he does not plan to run the app as a business, there is no customer, revenue or conversion data, and the economics are hypothetical. The tool demo itself is first-hand and credible, but the market 'validation' is only search-trend evidence. · Promotional conflict: Promotes his TK Owners community and Replit (says it is not an ad, but it is a product showcase); asks viewers to subscribe.
-- **Extraction:** claude-sonnet-5-5 · quotes verified 25/25
+- **Extraction:** claude-sonnet-5-5 · quotes verified 25/25 · reviewed by claude-opus-5-5
 
 ## Summary
 
@@ -22,7 +22,7 @@ Chris Koerner demonstrates finding, validating and launching a business idea in 
 - **Problem:** Invoicing software is painful and rarely industry-specific; contractors on a job site do not want to log into a CRM and fill in name, phone, email and address.
 - **Offer:** Free invoicing software where the user types or emails something like 'send an invoice for $800 to Mary Smith for tree trimming services'; the app extracts the details with OpenAI, asks for confirmation, and emails the customer an invoice with a Stripe checkout link. Includes a dashboard of invoices sent, paid and pending.
 - **Business model:** Free software monetised by a markup on Stripe card processing (about 0.5% on top of Stripe's 2.9%).
-- **Pricing:** Free to users; platform earns a processing markup (e.g. 3.4% charged vs Stripe's ~2.9%); users can mark it up or pass it on. Stripe fee (approx.)  2.9 percent Stripe processing fee; Platform markup  0.5 percent markup on each payment; Hypothetical revenue at 100 customers USD 1000 per month The transcript garbles the figure ('3 12%'); read as roughly 3.4%, i.e. about half a percent on top of Stripe. Not a stated price to customers.
+- **Pricing:** Free to users; platform earns a processing markup (e.g. about 3.5% charged vs Stripe's ~2.9%); users can mark it up or pass it on. Stripe fee (approx.)  2.9 percent Stripe processing fee; Platform markup  0.5 percent markup on each payment; Hypothetical revenue at 100 customers USD 1000 per month The transcript garbles the figure ('3 12%'), most likely '3 1/2%' (3.5%). He calls the margin 'half a percent', though 3.5% minus 2.9% is about 0.6%. Not a stated price to customers.
 - **Acquisition:** other: Host plans a lead capture / email capture / lead magnet on the site and exposure from this video; no real acquisition plan stated.; existing_audience: The YouTube audience is expected to try the app after the video goes live.
 - **Delivery:** Software delivered as a web app on a custom domain, built with Replit Agent 3. Uses OpenAI API for natural language parsing, Stripe for payment links and Resend for transactional email. Text/SMS via Twilio was left out of the MVP because of US A2P registration (about 2 weeks).
 - **Unit economics (claims):** Even 100 customers could be $1,000/month with almost no cost (hypothetical); Domain cost $11; Twilio number would cost $1/month; Over 33 million small businesses need invoicing software
@@ -87,7 +87,7 @@ Chris Koerner demonstrates finding, validating and launching a business idea in 
 **Monetise a free tool through payment processing markup** (pricing)
 1. Offer the software free
 2. Process payments through Stripe at about 2.9%
-3. Charge a slightly higher rate (about 3.4%) and keep the difference of about 0.5%
+3. Charge a slightly higher rate (about 3.5%) and keep the difference of roughly half a percent
 4. Let customers pass the fee on or mark it up to their clients
 
 **Vibe-code an MVP with Replit Agent 3** (product)

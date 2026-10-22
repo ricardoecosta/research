@@ -475,8 +475,8 @@
    },
    "acquisition_channels": [
     {
-     "channel": "cold_email",
-     "details": "The video says the business takes more B2B outreach but does not specify a particular outreach method. Cold email to limited companies can be automated if UK rules are followed.",
+     "channel": "other",
+     "details": "Unspecified B2B outreach to property managers; the video names no method.",
      "quote": null
     },
     {
@@ -570,7 +570,7 @@
     },
     {
      "channel": "paid_social",
-     "details": "Run Facebook ads; Johnny also recommends before-and-after-style local promotion.",
+     "details": "Run Facebook ads.",
      "quote": null
     },
     {
@@ -984,7 +984,7 @@
    "local_id": "I10",
    "name": "Apartment valet trash",
    "one_liner": "Collect residents' bagged trash from outside apartment doors and take it to the dumpster or compactor.",
-   "category": "local_service",
+   "category": "b2b_service",
    "business_model": "Recurring property-level contracts priced per unit per month.",
    "customer": "Apartment owners, property managers or management companies; residents receive the collection service.",
    "problem": "Apartment residents generate trash and may value having it collected from outside their doors.",
@@ -1022,8 +1022,8 @@
      "quote": null
     },
     {
-     "channel": "cold_email",
-     "details": "The video describes a difficult property-manager sales cycle but does not specify the outreach method. Cold email to limited companies can be used if UK rules are followed.",
+     "channel": "other",
+     "details": "Long, credibility-dependent B2B sales cycle with property managers or ownership groups; the video names no outreach method.",
      "quote": null
     }
    ],
@@ -1613,9 +1613,9 @@
    },
    "period": null,
    "claimant": "Johnny",
-   "first_hand": false,
+   "first_hand": true,
    "hypothetical": false,
-   "idea_local_id": "I3",
+   "idea_local_id": "I6",
    "quote": {
     "text": "About one in every three customers will tend to convert to a recurring customer, meaning get their home deep cleaned the first time.",
     "speaker": "Johnny",
@@ -2550,7 +2550,7 @@
   },
   {
    "name": "Make pet-waste service easy to verify",
-   "area": "offer_design",
+   "area": "product",
    "steps": [
     "Offer a recurring weekly yard visit.",
     "Take a before-and-after photo so the customer can see the completed work.",
@@ -2895,8 +2895,8 @@
   "model": "gpt-6-luna",
   "extracted_at": "2026-10-22T11:01:38",
   "cost_usd": 0,
-  "reviewed_by": null,
-  "review_notes": null,
+  "reviewed_by": "claude-opus-5-5",
+  "review_notes": "The extraction is thorough and accurate on the numbers across all ten listicle ideas. Uncertain figures, such as the '30 80' holiday-light gross, are handled carefully. The main errors are a remote-cleaning conversion claim misattributed to pet waste, and cold-email acquisition channels for dumpster pads and valet trash that the transcript never mentions. The evidence rating of C and the Home Service Academy promotional conflict are appropriate.",
   "quote_verification": {
    "quotes": 82,
    "verified": 82,

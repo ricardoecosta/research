@@ -1,13 +1,13 @@
 # EXACTLY How I Made $1M/Day Last Month (And What Went Wrong)
 
 - **Video:** [zbqKCF6gkPE](https://www.youtube.com/watch?v=zbqKCF6gkPE) · **Channel:** David Heacock · **Uploaded:** 2026-09-18 · **Length:** 28 min · **Transcript:** cached
-- **Speakers:** David Heacock (host) · **Format:** case_study_profile
-- **Evidence quality:** B — David is a first-hand operator describing his own company, its operating processes and a specific demand surge. He gives many concrete figures, but they are self-reported and the transcript does not independently verify them. · Promotional conflict: No sponsor or paid offer is disclosed. David closes by directing viewers to another video on building boring software.
-- **Extraction:** gpt-6-luna · quotes verified 68/68
+- **Speakers:** David (host) · **Format:** case_study_profile
+- **Evidence quality:** B — David is a first-hand operator describing his own company, its operating processes and a specific demand surge. He gives many concrete figures, but they are self-reported and the transcript does not independently verify them. · Promotional conflict: No sponsor or paid offer is disclosed. David mentions his own podcast and closes by directing viewers to another of his videos on building boring software.
+- **Extraction:** gpt-6-luna · quotes verified 68/68 · reviewed by claude-opus-5-5
 
 ## Summary
 
-David Heacock explains how Filterbuy, his US air filter manufacturing business, reached more than $31 million in July as heat and wildfire smoke drove unexpected demand. The surge exposed weak inventory counts, order routing problems and a management gap after a regional leader resigned. He describes the operational changes that helped Filterbuy keep delivering and sustain sales momentum. His main lesson is to build and understand reliable operating systems before growth outstrips the ability to serve customers.
+David, founder and CEO of Filterbuy, explains how his US air filter manufacturing business reached more than $31 million in July as heat and wildfire smoke drove unexpected demand. The surge exposed weak inventory counts, order routing problems and a management gap after a regional leader resigned. He describes the operational changes that helped Filterbuy keep delivering and sustain sales momentum. His main lesson is to build and understand reliable operating systems before growth outstrips the ability to serve customers.
 
 ## Business ideas
 

@@ -99,11 +99,11 @@
    "time_to_first_revenue": "not stated",
    "automation": {
     "acquisition": {
-     "score_e": 2,
+     "score_e": 1,
      "how": "Needs physical presence at events/partners."
     },
     "onboarding": {
-     "score_e": 4,
+     "score_e": 2,
      "how": "Pay at the table."
     },
     "delivery": {
@@ -115,7 +115,7 @@
      "how": "Card/cash at stand."
     },
     "support": {
-     "score_e": 2,
+     "score_e": 1,
      "how": "In person."
     }
    },
@@ -246,11 +246,11 @@
    "time_to_first_revenue": "not stated",
    "automation": {
     "acquisition": {
-     "score_e": 2,
+     "score_e": 1,
      "how": "Events."
     },
     "onboarding": {
-     "score_e": 4,
+     "score_e": 2,
      "how": "Pay at stand."
     },
     "delivery": {
@@ -262,7 +262,7 @@
      "how": "Payments."
     },
     "support": {
-     "score_e": 2,
+     "score_e": 1,
      "how": "In person."
     }
    },
@@ -293,7 +293,7 @@
    "metric": "profit",
    "value": {
     "amount": 500000,
-    "currency": "USD",
+    "currency": null,
     "unit": "per year"
    },
    "claimant": "Chris Koerner",
@@ -427,6 +427,52 @@
     "verified": true,
     "char_offset": 6726,
     "approx_timestamp_s": 469
+   }
+  },
+  {
+   "claim": "Shop test pricing: $10 for one throw or $20 for three throws from 95 ft, $1,000 prize",
+   "metric": "price",
+   "value": {
+    "amount": 10,
+    "amount_max": 20,
+    "currency": "USD",
+    "unit": "per throw / per 3 throws"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "It's going to be $10 for one throw or $20 for three throws",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6508,
+    "approx_timestamp_s": 453
+   }
+  },
+  {
+   "claim": "Recommended pricing after the test: $5 for one throw or $10 for three, at enough distance",
+   "metric": "price",
+   "value": {
+    "amount": 5,
+    "amount_max": 10,
+    "currency": "USD",
+    "unit": "per throw / per 3 throws"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I think that a good price for this is going to be like five bucks for one throw or 10 bucks for three throws at plenty of enough distance",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13933,
+    "approx_timestamp_s": 971
    }
   }
  ],
@@ -592,11 +638,11 @@
   "model": "grokbot",
   "extracted_at": "2026-10-22T09:10:44",
   "cost_usd": null,
-  "reviewed_by": null,
-  "review_notes": null,
+  "reviewed_by": "claude-opus-5-5",
+  "review_notes": "The extraction is accurate and covers the experiment, the New Zealand inspiration and the generalised skill-game idea well. The main fixes are automation scores, which were too high for an in-person staffed stand, and an assumed USD currency for the New Zealand hearsay figure. The tested and recommended price claims were missing from metric_claims and have been added. The shop revenue was largely notional, since Chris paid the fees to charity and later throws were free, which the B rating with a small-sample caveat reasonably reflects.",
   "quote_verification": {
-   "quotes": 20,
-   "verified": 20,
+   "quotes": 22,
+   "verified": 22,
    "rate": 1.0
   },
   "schema_errors": []

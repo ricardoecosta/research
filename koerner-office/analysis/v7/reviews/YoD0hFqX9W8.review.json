@@ -1,0 +1,79 @@
+{
+ "verdict": "minor_issues",
+ "error_counts": {
+  "missed_ideas": 0,
+  "missed_claims": 2,
+  "factual_errors": 1,
+  "unsupported_or_invented": 2,
+  "score_adjustments": 0
+ },
+ "corrections": [
+  {
+   "path": "ideas/0/automation/billing/how",
+   "old": "Net-10 invoices from an app could be automated with accounting software and payment reminders. Stores currently pay by cheque or cash on the next visit.",
+   "new": "Net-10 invoices from an app could be automated with accounting software and payment reminders. Forest says he does not accept card payments; the payment method is otherwise not stated.",
+   "reason": "The transcript never says stores pay by cheque or cash on the next visit. It only gives net-10 terms and no card payments."
+  },
+  {
+   "path": "metric_claims/5/quote/text",
+   "old": "I would try to be closer to 30.",
+   "new": "My markup I usually do 30 30 on the low end to 45.",
+   "reason": "The cited quote is about the net margin target, not the 30-45% markup."
+  },
+  {
+   "path": "evidence_quality/promotional_conflict",
+   "old": "Forest runs a YouTube channel and a paid Skool-style community teaching the business; the host sells the TK Owners community and promotes Beehiiv (sponsor read).",
+   "new": "Forest runs a YouTube channel and a Skool community teaching the business (pricing not stated); the host sells the TK Owners community and promotes Beehiiv (sponsor read).",
+   "reason": "The transcript does not say the community is paid."
+  }
+ ],
+ "add_ideas": [],
+ "add_metric_claims": [
+  {
+   "claim": "Forest states his current monthly revenue is around $50k",
+   "metric": "revenue",
+   "value": {
+    "amount": 50000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per month",
+    "label": null
+   },
+   "period": "month",
+   "claimant": "Forest",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "And what is your monthly revenue give or take right now? >> Around 50.",
+    "speaker": "Forest"
+   }
+  },
+  {
+   "claim": "Host extrapolates $240k/yr net profit for a full $800k route run solo at 30% net",
+   "metric": "profit",
+   "value": {
+    "amount": 240000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per year",
+    "label": "hypothetical full route"
+   },
+   "period": "year",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Theoretically, $240,000 a year net profit would be what you would be looking at at $800,000 at, you know, max efficiency from just you.",
+    "speaker": "Chris Koerner"
+   }
+  }
+ ],
+ "notes": "The extraction is thorough and mostly accurate. It captures the operator's numbers, the cash-flow structure, the tactics and the secondary ideas well. Issues found: one quote misattached to the markup claim, an invented detail about cheque/cash payments, Forest's own first-hand $50k/month figure missing (only the host's intro version was captured), and an unsupported 'paid' label on the Skool community. Automation and UK scores are reasonable for physical route work.",
+ "video_id": "YoD0hFqX9W8",
+ "reviewed_at": "2026-10-22T12:31:31",
+ "cost_usd": 0.3866128,
+ "applied": 3,
+ "failed_to_apply": []
+}

@@ -160,7 +160,7 @@
      "how": "Checkout."
     },
     "delivery": {
-     "score_e": 3,
+     "score_e": 1,
      "how": "3PL/FBA handles shipping; product sourcing needs human decisions."
     },
     "billing": {
@@ -769,6 +769,28 @@
     "char_offset": 9090,
     "approx_timestamp_s": 546
    }
+  },
+  {
+   "claim": "A simple tool website featured in a separate video is making $43,000 per month",
+   "metric": "revenue",
+   "value": {
+    "amount": 43000,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "period": null,
+   "claimant": "Spencer Haws",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "I recently recorded a video of a simple tool website that is making $43,000 per month",
+    "speaker": "Spencer Haws",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11863,
+    "approx_timestamp_s": 713
+   }
   }
  ],
  "tactics": [
@@ -835,7 +857,7 @@
   {
    "name": "Shopify",
    "purpose": "E-commerce store",
-   "cost_stated": "$1 for first three months via sponsor"
+   "cost_stated": "Free for first three days, then $1 for first three months"
   },
   {
    "name": "Amazon FBA",
@@ -875,7 +897,7 @@
  ],
  "warnings": [
   {
-   "warning": "Don't start a blog or content site reliant on Google search traffic in 2025 if you want $5k/month in 12 months.",
+   "warning": "Don't start a blog or content site reliant on Google or other organic search traffic if you want $5k/month in 12 months, unless you have an alternative traffic source or ad arbitrage.",
    "quote": {
     "text": "I cannot recommend that you start a blog or content website that is reliant on search traffic",
     "speaker": "Spencer Haws",
@@ -974,11 +996,11 @@
   "model": "grokbot",
   "extracted_at": "2026-10-22T09:09:35",
   "cost_usd": null,
-  "reviewed_by": null,
-  "review_notes": null,
+  "reviewed_by": "claude-opus-5-5",
+  "review_notes": "Overall this is a solid extraction. It captures all five recommended website types, the sponsor segment, and the three types to avoid, and most claims are labelled correctly as first-hand or second-hand. The errors are small: an invented year in a warning, a mis-attributed Shopify trial cost, and a delivery automation score for the own-product e-commerce idea that was set too high. One closing metric claim ($43k/month tool site) was missed. The evidence rating of C and the promotional-conflict note are appropriate.",
   "quote_verification": {
-   "quotes": 28,
-   "verified": 28,
+   "quotes": 29,
+   "verified": 29,
    "rate": 1.0
   },
   "schema_errors": []

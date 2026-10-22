@@ -79,7 +79,7 @@
    "time_to_first_revenue": "not stated",
    "automation": {
     "acquisition": {
-     "score_e": 2,
+     "score_e": 1,
      "how": "Cold email to limited companies is legal under UK PECR and can be agent-written, but closing is in person."
     },
     "onboarding": {
@@ -814,8 +814,8 @@
    },
    "acquisition_channels": [
     {
-     "channel": "organic_social_content",
-     "details": "Found via Twitter; website with class list."
+     "channel": "other",
+     "details": "Not stated. The host found the operator on Twitter, and the business has a website listing its classes."
     }
    ],
    "delivery": "Instructor-led in-person classes.",
@@ -948,7 +948,7 @@
    "quotes": [
     {
      "text": "someone needs to build build a version of this in a mobile app a wrapper",
-     "speaker": "Nick",
+     "speaker": "Chris Koerner",
      "match_score": 100.0,
      "verified": true,
      "char_offset": 38725,
@@ -956,7 +956,7 @@
     },
     {
      "text": "I'm worried that it would do really well and I'd like wake up and I'd have and I'd have like $1,000 in API charges",
-     "speaker": "Chris Koerner",
+     "speaker": "Nick",
      "match_score": 100.0,
      "verified": true,
      "char_offset": 40027,
@@ -1670,7 +1670,7 @@
     "amount": 8000,
     "currency": "USD",
     "unit": "per install",
-    "amount_max": 15000
+    "amount_max": 12000
    },
    "claimant": "Chris Koerner",
    "first_hand": false,
@@ -1925,6 +1925,29 @@
     "char_offset": 58659,
     "approx_timestamp_s": 3217
    }
+  },
+  {
+   "claim": "A woman who mailed hand-written wedding/baby shower invitations to companies got hundreds to thousands of USD in gifts from about 40 USD of invitations",
+   "metric": "revenue",
+   "value": {
+    "amount": 40,
+    "currency": "USD",
+    "unit": "total cost of invitations",
+    "label": "cost; return claimed as hundreds to thousands USD of gifts"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I17",
+   "quote": {
+    "text": "this woman got hundreds or even thousands of dollars worth of free gifts simply by sending $40 worth of invitations",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 64872,
+    "approx_timestamp_s": 3558
+   }
   }
  ],
  "tactics": [
@@ -2122,7 +2145,7 @@
    "warning": "AI-built code may have security flaws; audit before adding payments.",
    "quote": {
     "text": "security protocol is missing here flaw here",
-    "speaker": "Chris Koerner",
+    "speaker": "Nick",
     "match_score": 100.0,
     "verified": true,
     "char_offset": 40903,
@@ -2217,11 +2240,11 @@
   "model": "grokbot",
   "extracted_at": "2026-10-22T09:01:26",
   "cost_usd": null,
-  "reviewed_by": null,
-  "review_notes": null,
+  "reviewed_by": "claude-opus-5-5",
+  "review_notes": "The extraction is thorough. It captures nearly every idea and number in a long, two-voice brainstorming episode. The main problems are speaker attribution in the trivia-app segment, which got Chris and Nick reversed, one claim that merged two separate pergola price figures, and an acquisition score that ignores the in-person sales cap. One point in the I2 risk note and the evidence rationale is overstated: 140 x 50 USD is about 7,000 USD, which is roughly consistent with the stated '8 grand'. The C evidence rating and the promotional-conflict note are appropriate.",
   "quote_verification": {
-   "quotes": 51,
-   "verified": 51,
+   "quotes": 52,
+   "verified": 52,
    "rate": 1.0
   },
   "schema_errors": []

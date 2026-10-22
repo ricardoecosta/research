@@ -1,13 +1,13 @@
 # How to Teach Yourself Anything (My System for Making $25M/Month)
 
 - **Video:** [gQ4QQAKspvg](https://www.youtube.com/watch?v=gQ4QQAKspvg) · **Channel:** David Heacock · **Uploaded:** 2026-09-04 · **Length:** 13 min · **Transcript:** cached
-- **Speakers:** David Heacock (host) · **Format:** tutorial_howto
+- **Speakers:** Unnamed speaker (owner of FilterBuy) (host) · **Format:** tutorial_howto
 - **Evidence quality:** B — The speaker describes his own business decisions and gives specific operating examples, including the consultant, loan, revenue claim and failed trucking operation. The figures and business outcomes are self-reported and are not supported with records in the transcript. · Promotional conflict: He promotes FilterBuy as a success case and directs viewers to another video about building a $300 million manufacturer; no paid sponsor, course or software sale is identified.
-- **Extraction:** gpt-6-luna · quotes verified 37/37
+- **Extraction:** gpt-6-luna · quotes verified 37/37 · reviewed by claude-opus-5-5
 
 ## Summary
 
-David Heacock explains how he learned to run FilterBuy, an air-filter manufacturer, by paying experienced people for access, learning on factory floors, and working backward from a concrete goal. He says FilterBuy makes $25 million a month and that he took out a $1.5 million loan to run it. He also describes a failed attempt to build an in-house trucking operation, which exposed costs and operational problems his analysis had missed. His central advice is to act, learn from real feedback, and stay focused long enough for that learning to compound.
+The owner of FilterBuy (not named in the transcript) explains how he learned to run the air-filter manufacturer, which he bought as the family business, by paying experienced people for access, learning on factory floors, and working backward from a concrete goal.
 
 ## Business ideas
 
@@ -88,13 +88,13 @@ David Heacock explains how he learned to run FilterBuy, an air-filter manufactur
 
 ## Tactics and playbook steps
 
-**Find an experienced guide and follow their introductions** (customer_acquisition)
+**Find an experienced guide and follow their introductions** (hiring)
 1. List people who have spent decades working on the problem you need to solve.
 2. Offer to pay for an hour and state exactly what you need to learn.
 3. At the end, ask who else you should speak with, then follow each introduction.
 > "Then, at the end of that hour, ask them who else you should be talking to and follow every introduction that they give you." — David Heacock (~1:55)
 
-**Learn on site from operators** (validation_testing)
+**Learn on site from operators** (operations)
 1. Make a list of people with long experience in the field.
 2. Arrange to visit facilities or work sites and ask operators why they make specific operational choices.
 3. Compare how different operators lay out production, stock parts and ship products.
@@ -118,7 +118,7 @@ David Heacock explains how he learned to run FilterBuy, an air-filter manufactur
 3. Remove most of those distractions and put the time back into customers, products, manufacturing and logistics.
 > "Whatever the answer is, kill about 80% of that list today." — David Heacock (~8:31)
 
-**Learn through a study, act and review loop** (validation_testing)
+**Learn through a study, act and review loop** (mindset)
 1. Study enough to choose a small, low-cost first action.
 2. Take the action before waiting to feel fully ready.
 3. Write down the assumptions and unknowns that become visible, then study those specific gaps and act again.
@@ -143,4 +143,4 @@ David Heacock explains how he learned to run FilterBuy, an air-filter manufactur
 
 ## Tools mentioned
 
-Google (General information search.), ChatGPT (Look up information and help work backward from a business destination to a learning plan.), YouTube (Learning resource; the speaker also cross-promotes another video.), AI (General tool for drafting the first steps of a learning plan from a stated goal.)
+Google (General information search.), ChatGPT (Quick information lookup (mentioned alongside Google).), YouTube (Learning resource; the speaker also cross-promotes another video.), AI (General tool for drafting the first steps of a learning plan from a stated goal.)

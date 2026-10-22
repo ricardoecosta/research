@@ -1,0 +1,32 @@
+{
+ "verdict": "minor_issues",
+ "error_counts": {
+  "missed_ideas": 0,
+  "missed_claims": 0,
+  "factual_errors": 1,
+  "unsupported_or_invented": 0,
+  "score_adjustments": 0
+ },
+ "corrections": [
+  {
+   "path": "lessons/3/theme",
+   "old": "customer_acquisition",
+   "new": "other",
+   "reason": "Lesson is about personal relationships and offending people, not acquiring customers."
+  },
+  {
+   "path": "tactics/1/steps/1",
+   "old": "Huber says he decided to stop criticizing doctors and lawyers on Twitter because many are close to him and positively affect businesses.",
+   "new": "Huber says he decided to stop criticizing doctors and lawyers on Twitter because many are close to him and have a positive impact (lawyers on businesses, doctors on people).",
+   "reason": "The transcript credits lawyers with the impact on businesses and doctors with the impact on people."
+  }
+ ],
+ "add_ideas": [],
+ "add_metric_claims": [],
+ "notes": "The extraction is accurate overall. It correctly has no business ideas, and its quotes are verbatim. The guest name 'Nick Huber' does not appear in the transcript and presumably comes from video metadata, which is plausible. Several metric claims are trivial non-business figures (ages cited, a month-long vacation), but they are not wrong. Evidence rating B is defensible, though C would also be reasonable given the lack of any business content.",
+ "video_id": "fExJijbgWF0",
+ "reviewed_at": "2026-10-22T12:29:22",
+ "cost_usd": 0.058004799999999995,
+ "applied": 2,
+ "failed_to_apply": []
+}

@@ -1,0 +1,136 @@
+{
+ "verdict": "minor_issues",
+ "error_counts": {
+  "missed_ideas": 0,
+  "missed_claims": 5,
+  "factual_errors": 1,
+  "unsupported_or_invented": 0,
+  "score_adjustments": 3
+ },
+ "corrections": [
+  {
+   "path": "ideas/6/is_primary",
+   "old": true,
+   "new": false,
+   "reason": "The video is two 7-item listicles with no single focus. The postcard is only the 'anchor' of the first half, and gravel is called the biggest land ceiling."
+  },
+  {
+   "path": "ideas/4/depth",
+   "old": "mention",
+   "new": "moderate",
+   "reason": "3D printing gets room size, startup cost, repeat customer types and revenue ranges, which is more than a passing mention."
+  },
+  {
+   "path": "ideas/9/depth",
+   "old": "mention",
+   "new": "moderate",
+   "reason": "Timber covers per-MBF prices for several states, the consulting forester process, the 8-10% fee and a timeline."
+  },
+  {
+   "path": "ideas/10/depth",
+   "old": "mention",
+   "new": "moderate",
+   "reason": "Event parking covers per-car rates, per-event and per-space benchmarks, event-day counts, startup costs, the moat and a timeline."
+  }
+ ],
+ "add_ideas": [],
+ "add_metric_claims": [
+  {
+   "claim": "Rachel Smith and Dalton Joiner documented clearing about $1,000+ per shared-postcard mailing, collecting advertiser payments before paying the printer",
+   "metric": "profit",
+   "value": {
+    "amount": 1000,
+    "currency": "USD",
+    "unit": "per mailing"
+   },
+   "period": "per mailing",
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "Rachel Smith and Dalton Joiner run a shared postcard business and have documented clearing $1,000 in upper mailing",
+    "speaker": "Narrator"
+   }
+  },
+  {
+   "claim": "A pit moving 20,000-50,000 tons/year at $1.50-$2.50/ton yields $30,000-$125,000/year in royalties",
+   "metric": "revenue",
+   "value": {
+    "amount": 30000,
+    "amount_max": 125000,
+    "currency": "USD",
+    "unit": "per year"
+   },
+   "period": "per year",
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I14",
+   "quote": {
+    "text": "A modestly active pit moving 20,000 to 50,000 tons a year at $150 to $2.50 a ton is 30,000 to $125,000 a year",
+    "speaker": "Narrator"
+   }
+  },
+  {
+   "claim": "Nick Fortosis built a cork map shop from a garage to about $2,000/month",
+   "metric": "revenue",
+   "value": {
+    "amount": 2000,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "period": "per month",
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Fortosis built a cork map shop out of a garage up to around $2,000 a month",
+    "speaker": "Narrator"
+   }
+  },
+  {
+   "claim": "Fictional composite Harry reached about $6,240/month running three postcards a month across two towns",
+   "metric": "revenue",
+   "value": {
+    "amount": 6240,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "period": "around month 15",
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "Roughly $6,240 a month worked in the evenings from the same desk in the same room",
+    "speaker": "Narrator"
+   }
+  },
+  {
+   "claim": "Landowner platforms advertise $5,000-$50,000 per event for premium parking hosting, with an average of about $12,500",
+   "metric": "revenue",
+   "value": {
+    "amount": 12500,
+    "currency": "USD",
+    "unit": "per event"
+   },
+   "period": "per event",
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I11",
+   "quote": {
+    "text": "Landowner platforms advertise 5,000 to 50,000 per event for premium hosting with an average per event figure cited around 12,500",
+    "speaker": "Narrator"
+   }
+  }
+ ],
+ "notes": "The extraction is thorough: all 14 ideas are captured, and the numbers, currencies and garbled figures (the $161/ton and $150 to $2.50 mis-speaks) are handled sensibly. The main fixes are three items understated as 'mention' depth and the postcard wrongly flagged as the primary idea in a two-part listicle. Several cited metric claims were missed (Rachel Smith/Dalton Joiner, Nick Fortosis, the gravel royalty range, the event-parking average and Harry's fictional result). Evidence rating C is appropriate.",
+ "video_id": "-B8E6i1JKfU",
+ "reviewed_at": "2026-10-22T12:32:35",
+ "cost_usd": 0.2825008,
+ "applied": 4,
+ "failed_to_apply": []
+}

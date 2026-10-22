@@ -1,0 +1,191 @@
+{
+ "verdict": "minor_issues",
+ "error_counts": {
+  "missed_ideas": 0,
+  "missed_claims": 0,
+  "factual_errors": 6,
+  "unsupported_or_invented": 1,
+  "score_adjustments": 0
+ },
+ "corrections": [
+  {
+   "path": "speakers/0/description",
+   "old": "The Koerner Office host; shares most of the business examples and retells Ethan Cohen’s story.",
+   "new": "The Koerner Office host; shares the banana ketchup example and the tkopod.com promo. The Ethan Cohen story is told to him by the co-host.",
+   "reason": "The Ethan story's narrator says 'This is March of 2020 Chris what happens', so it is the co-host speaking. Chris later replies that he plans to have Ethan on his podcast."
+  },
+  {
+   "path": "metric_claims/11/value/amount",
+   "old": 10000000,
+   "new": 1000000,
+   "reason": "'Seven figures' starts at $1,000,000, not $10,000,000."
+  },
+  {
+   "path": "metric_claims/27/quote/text",
+   "old": "it's fun as crap it's an legitimate workout like you break a sweat and think like escape room",
+   "new": "so there's hundreds of different games in this one space for 35 bucks",
+   "reason": "The original quote does not contain the $35 figure."
+  },
+  {
+   "path": "metric_claims/42/claimant",
+   "old": "Ethan Cohen, as retold by Chris Koerner",
+   "new": "Ethan Cohen, as retold by Nick",
+   "reason": "The co-host tells the Ethan story, not Chris."
+  },
+  {
+   "path": "metric_claims/43/claimant",
+   "old": "Ethan Cohen, as retold by Chris Koerner",
+   "new": "Ethan Cohen, as retold by Nick",
+   "reason": "Wrong narrator."
+  },
+  {
+   "path": "metric_claims/44/claimant",
+   "old": "Ethan Cohen, as retold by Chris Koerner",
+   "new": "Ethan Cohen, as retold by Nick",
+   "reason": "Wrong narrator."
+  },
+  {
+   "path": "metric_claims/45/claimant",
+   "old": "Ethan Cohen, as retold by Chris Koerner",
+   "new": "Ethan Cohen, as retold by Nick",
+   "reason": "Wrong narrator."
+  },
+  {
+   "path": "metric_claims/46/claimant",
+   "old": "Ethan Cohen, as retold by Chris Koerner",
+   "new": "Ethan Cohen, as retold by Nick",
+   "reason": "Wrong narrator."
+  },
+  {
+   "path": "metric_claims/47/claimant",
+   "old": "Ethan Cohen, as retold by Chris Koerner",
+   "new": "Ethan Cohen, as retold by Nick",
+   "reason": "Wrong narrator."
+  },
+  {
+   "path": "metric_claims/48/claimant",
+   "old": "Ethan Cohen, as retold by Chris Koerner",
+   "new": "Ethan Cohen, as retold by Nick",
+   "reason": "Wrong narrator."
+  },
+  {
+   "path": "metric_claims/49/claimant",
+   "old": "Ethan Cohen, as retold by Chris Koerner",
+   "new": "Ethan Cohen, as retold by Nick",
+   "reason": "Wrong narrator."
+  },
+  {
+   "path": "metric_claims/50/claimant",
+   "old": "Ethan Cohen, as retold by Chris Koerner",
+   "new": "Ethan Cohen, as retold by Nick",
+   "reason": "Wrong narrator."
+  },
+  {
+   "path": "metric_claims/51/claimant",
+   "old": "Ethan Cohen, as retold by Chris Koerner",
+   "new": "Ethan Cohen, as retold by Nick",
+   "reason": "Wrong narrator."
+  },
+  {
+   "path": "metric_claims/52/claimant",
+   "old": "Ethan Cohen, as retold by Chris Koerner",
+   "new": "Ethan Cohen, as retold by Nick",
+   "reason": "Wrong narrator."
+  },
+  {
+   "path": "metric_claims/53/claimant",
+   "old": "Ethan Cohen, as retold by Chris Koerner",
+   "new": "Ethan Cohen, as retold by Nick",
+   "reason": "Wrong narrator."
+  },
+  {
+   "path": "metric_claims/54/claimant",
+   "old": "Chris Koerner",
+   "new": "Nick",
+   "reason": "Nick is the one speaking when he addresses Chris here."
+  },
+  {
+   "path": "ideas/5/quotes/0/speaker",
+   "old": "Chris Koerner",
+   "new": "Nick",
+   "reason": "Wrong narrator for the Ethan story."
+  },
+  {
+   "path": "ideas/5/quotes/1/speaker",
+   "old": "Chris Koerner",
+   "new": "Nick",
+   "reason": "Wrong narrator for the Ethan story."
+  },
+  {
+   "path": "ideas/5/acquisition_channels/0/quote/speaker",
+   "old": "Chris Koerner",
+   "new": "Nick",
+   "reason": "Wrong narrator for the Ethan story."
+  },
+  {
+   "path": "ideas/6/quotes/0/speaker",
+   "old": "Chris Koerner",
+   "new": "Nick",
+   "reason": "Wrong narrator for the Ethan story."
+  },
+  {
+   "path": "ideas/6/quotes/1/speaker",
+   "old": "Chris Koerner",
+   "new": "Nick",
+   "reason": "Wrong narrator for the Ethan story."
+  },
+  {
+   "path": "ideas/6/acquisition_channels/0/channel",
+   "old": "existing_audience",
+   "new": "organic_social_content",
+   "reason": "Inbound came from a viral video on Barstool Sports, not from an audience Ethan already had."
+  },
+  {
+   "path": "ideas/6/acquisition_channels/0/quote",
+   "old": {
+    "text": "he gets all these DMs people they're like Hey how did you get a a Zen vending machine",
+    "speaker": "Chris Koerner"
+   },
+   "new": {
+    "text": "he starts getting all these DMs people they're like \"Hey how did you get a a Zen vending machine?\"",
+    "speaker": "Nick"
+   },
+   "reason": "The quote was not verbatim, and the speaker was wrong."
+  },
+  {
+   "path": "ideas/1/acquisition_channels",
+   "old": [
+    {
+     "channel": "seo_organic_search",
+     "details": "The hosts checked Google Trends and discussed search demand; no customer acquisition campaign is described.",
+     "quote": {
+      "text": "I go to Google Trends type in banana ketchup look at the last 5 years",
+      "speaker": "Chris Koerner"
+     }
+    }
+   ],
+   "new": [],
+   "reason": "Google Trends was used for market research, not as a way to acquire customers. No channel is discussed."
+  },
+  {
+   "path": "lessons/2/quote/text",
+   "old": "I don't want you pulling a sample size i want you pull pulling all of the lines",
+   "new": "I don't want you pulling a sample size i want you pull pulling all the",
+   "reason": "The quote was not verbatim."
+  },
+  {
+   "path": "lessons/5/quote/text",
+   "old": "you don't have to be in a physical location that you're renting out you can just start on a mobile basis",
+   "new": "it doesn't have to be in a physical location that you're renting out you can just start on a mobile basis",
+   "reason": "The quote was not verbatim."
+  }
+ ],
+ "add_ideas": [],
+ "add_metric_claims": [],
+ "notes": "The extraction is thorough and covers all the ideas discussed. It handles the seller and AI-research caveats well. The main error is attributing the Ethan Cohen story to Chris: the narrator says 'Chris what happens', and Chris then says he will have Ethan on his podcast. Other fixes are a wrong seven-figure lower bound, a mismatched $35 quote, a few non-verbatim quotes, and mislabelled acquisition channels. The scores and the C evidence rating are reasonable.",
+ "video_id": "u7dJlv9bouA",
+ "reviewed_at": "2026-10-22T12:31:30",
+ "cost_usd": 0.3940528,
+ "applied": 26,
+ "failed_to_apply": []
+}

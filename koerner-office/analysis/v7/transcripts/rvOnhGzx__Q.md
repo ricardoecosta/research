@@ -3,7 +3,7 @@
 - **Video:** [rvOnhGzx__Q](https://www.youtube.com/watch?v=rvOnhGzx__Q) · **Channel:** The Koerner Office · **Uploaded:** 2026-05-16 · **Length:** 38 min · **Transcript:** local_whisper_tiny
 - **Speakers:** Chris Koerner (host), Colin Stroud (guest) · **Format:** operator_interview
 - **Evidence quality:** B — The guest is a first-hand operator and describes his offers, acquisition channel, delivery workflow, contractor use and several business figures. The numbers are self-reported, the transcript is local Whisper output with apparent misheard card names and prices, and the interview does not independently verify the claims. · Promotional conflict: Colin says bank affiliate links are a key part of his revenue and that he shares them with clients and his audience. The host also reads a Beehiiv sponsor advertisement with a discount offer.
-- **Extraction:** gpt-6-luna · quotes verified 101/103
+- **Extraction:** gpt-6-luna · quotes verified 103/104 · reviewed by claude-opus-5-5
 
 ## Summary
 
@@ -13,9 +13,9 @@ Colin Stroud describes Go Somewhere, a business that helps owners improve credit
 
 | # | Idea | Category | Depth | Automation [E] A/O/D/B/S | UK [E] |
 |---|---|---|---|---|---|
-| I1 | **Credit card rewards consulting for business owners** — For a fixed fee, review a business owner's spending, recommend a points-earning card strategy, help implement it and include planning for a future trip. | b2b_service | deep | 2/1/1/3/1 | 3 |
-| I2 | **Points-based trip research and booking assistance** — Research award travel options for people with points, then charge a deposit and a flat fee based on the trip's complexity. | b2b_service | deep | 3/4/2/3/2 | 3 |
-| I3 | **Credit-card affiliate referrals** — Share bank or card affiliate links with clients and an audience, earning a commission when someone signs up. | other | moderate | 3/4/4/4/2 | 3 |
+| I1 | **Credit card rewards consulting for business owners** — For a fixed fee, review a business owner's spending, recommend a points-earning card strategy, help implement it and include planning for a future trip. | b2b_service | deep | 2/1/1/3/1 | 2 |
+| I2 | **Points-based trip research and booking assistance** — Research award travel options for people with points, then charge a deposit and a flat fee based on the trip's complexity. | other | deep | 3/4/2/3/2 | 3 |
+| I3 | **Credit-card affiliate referrals** — Share bank or card affiliate links with clients and an audience, earning a commission when someone signs up. | other | moderate | 3/4/4/4/2 | 2 |
 
 ### I1. Credit card rewards consulting for business owners
 
@@ -27,10 +27,10 @@ Colin Stroud describes Go Somewhere, a business that helps owners improve credit
 - **Acquisition:** organic_social_content: LinkedIn is Colin's main source of clients. He posts educational content and examples of points deals; he says client acquisition has been inbound and organic.; existing_audience: He also shares content and affiliate links with clients and his newsletter audience. Most of his email subscribers came from LinkedIn.
 - **Delivery:** Colin conducts a discovery call, researches the client's personal and business spending, writes a recommended card strategy, discusses it on a live consultation, and provides follow-up help by email or text. A future trip plan is included, with the client contacting him when ready to travel.
 - **Unit economics (claims):** Colin charges $875 for the one-time business-owner package.; Colin said his software subscriptions and similar costs were about $100, with almost no other costs at that point.; A consultation client can require a discovery call, research, a 75-minute consultation, follow-up writing and potentially later trip research; he said the trip portion can take from 20 minutes to four hours.; Colin said his revenue reached $13,000 in November 2024, $231,000 gross in 2025, and $89,000 year to date by April 30, 2026.; He said he had about $40,000 in expenses in 2025, including software, travel and contractors.
-- **Tools:** LinkedIn, Claude, ChatGPT, Email, Text messaging, Credit card issuer websites and rewards programmes
+- **Tools:** LinkedIn, Claude, ChatGPT, Email, Text messaging
 - **Startup cost:** Not stated. Colin said ongoing software subscriptions and similar costs were about $100, but did not specify the period.
 - **Time to first revenue:** Not stated. Colin said he first made $1,000 in a month in March 2024 and started the business as a side hustle.
-- **UK applicability [E]:** 3/5 — The online consulting and content model can operate in the UK, but card products, rewards programmes and transfer partners differ by country. UK advice and affiliate promotions may also require careful review of financial-promotion and consumer-credit rules.
+- **UK applicability [E]:** 2/5 — The online consulting and content model can operate in the UK, but card products, rewards programmes and transfer partners differ by country. UK advice and affiliate promotions may also require careful review of financial-promotion and consumer-credit rules.
 - **Risks:** The service relies on specialist knowledge of card terms and rewards programmes that can change.; The included trip-planning support can create open-ended work months after the original sale, making the effective hourly return unpredictable.; Colin says LinkedIn has been his easy source of clients and that he has little outbound-sales experience, creating platform concentration risk.; In the UK, credit-card recommendations and affiliate promotions need careful review for applicable financial-promotion and consumer-credit requirements.; A client may expect a specific award redemption that is not actually available when they are ready to book.
 - **Automation [E]:** acquisition 2/5 (AI could help research and draft posts, but acquiring clients currently depends on Colin creating useful LinkedIn content and building trust with a human audience.); onboarding 1/5 (The client completes a discovery call and shares personal and business spending details; the transcript does not describe automated intake.); delivery 1/5 (The core value is Colin's review, live advice and written recommendations. AI may assist research, but the offer is explicitly sold as a human consultation.); billing 3/5 (A fixed fee is straightforward to charge through routine payment software, but no billing tool or automated process is stated.); support 1/5 (Implementation help comes through email and text, and follow-up trip assistance can require additional human research.)
 > "Offer one is basically a business owner consulting package. I charge $875. It's a one time package." — Colin Stroud (~4:04)
@@ -70,7 +70,7 @@ Colin Stroud describes Go Somewhere, a business that helps owners improve credit
 - **Tools:** Credit card issuer affiliate links, LinkedIn, Email newsletter, Social media
 - **Startup cost:** Not stated.
 - **Time to first revenue:** Not stated.
-- **UK applicability [E]:** 3/5 — Affiliate referrals can operate in the UK, but available card products and issuer programmes differ. UK financial-promotion and affiliate-disclosure requirements need to be reviewed.
+- **UK applicability [E]:** 2/5 — Affiliate referrals can operate in the UK, but available card products and issuer programmes differ. UK financial-promotion and affiliate-disclosure requirements need to be reviewed.
 - **Risks:** Affiliate income depends on card issuer programmes, approval rules and terms that may change.; A commission can create a conflict of interest if recommendations are not clearly separated from commercial incentives.; Colin says card banks dislike the term 'hacking' when he uses affiliate links, so language and issuer rules matter.; UK affiliate links and credit-card recommendations require review for applicable disclosure and financial-promotion rules.
 - **Automation [E]:** acquisition 3/5 (Links can be placed in inbound content and newsletters, but earning attention and trust still requires audience-building.); onboarding 4/5 (A referral link can send applicants to an issuer's online application flow with little manual onboarding.); delivery 4/5 (The issuer handles the card application and product delivery; Colin's role is to choose and share relevant links.); billing 4/5 (Affiliate tracking and commissions are usually handled by the issuer or affiliate platform, but Colin does not name the programme or its process.); support 2/5 (Questions about which card suits a customer may require individual human advice and careful explanation.)
 > "if you get someone to sign up for a premium credit card, you can easily make $400 per card." — Colin Stroud (~9:42)
@@ -110,7 +110,7 @@ Colin Stroud describes Go Somewhere, a business that helps owners improve credit
 - **Colin describes 20 minutes for discovery, 45 minutes of research preparation and an hour and 15 minutes on the call.** (hours, first-hand, claimant: Colin Stroud)
   > "we do a 20 minute discovery calls, 20 minute discovery call, 45 minutes of research prep, an hour and 15 minutes on the call" — Colin Stroud (~10:16)
 - **Colin estimates 40 minutes for a follow-up email.** (hours, first-hand, claimant: Colin Stroud)
-  > "and then helping them with their trip, which could be six months later. It's not always, we don't always know, or sometimes they don't reach out at all, quite frankly." — Colin Stroud (~10:27)
+  > "40 minutes for a follow-up email that takes a lot of thought" — Colin Stroud (~10:23)
 - **Colin says trip help can take from 20 minutes to four hours.** (hours, first-hand, claimant: Colin Stroud)
   > "That trip can be a lot, it could be 20 minutes, it could be four hours, so it depends." — Colin Stroud (~10:36)
 - **Colin says his target business owners spend at least $20,000 a month on credit cards.** (other, first-hand, claimant: Colin Stroud)
@@ -163,7 +163,7 @@ Colin Stroud describes Go Somewhere, a business that helps owners improve credit
   > "I've got 7,000 email subscribers. So I think I could sell there." — Colin Stroud (~33:46)
 - **Colin says his trip research service could eventually generate $30,000-$50,000 a month.** (revenue, second-hand, hypothetical, claimant: Chris Koerner)
   > "Okay, so that could be 50 grand a month. I mean, 30 to 50 grand a month just in research service revenue." — Chris Koerner (~21:09)
-- **Colin says his team could handle 100 or more trips per month if the process were streamlined and the service were promoted.** (customers, second-hand, hypothetical, claimant: Colin Stroud)
+- **Chris estimates the trip research service could generate $30,000-$50,000 a month.** (customers, second-hand, hypothetical, claimant: Colin Stroud)
   > "I think that we could be doing 100 plus trips a month because I think there's almost unlimited demand" — Colin Stroud (~20:39)
 - **Colin says he had not yet run advertising for the trip research service.** (other, first-hand, claimant: Colin Stroud)
   > "I've done zero advertising for that. I haven't even turned on the meta ads or Google ad stuff." — Colin Stroud (~20:20)
@@ -172,7 +172,7 @@ Colin Stroud describes Go Somewhere, a business that helps owners improve credit
 - **Colin says business owners can earn 1.5 points per dollar on the Chase Ink Unlimited when paired with a personal Chase card.** (other, second-hand, claimant: Colin Stroud)
   > "And it earns flat 1.5x on everything. So that's great. If you're spending on ads, the MX school, like you mentioned" — Colin Stroud (~26:28)
 - **Colin says some cards can earn three or four points per dollar on advertising.** (other, second-hand, claimant: Colin Stroud)
-  > "earning three or four X points per dollar on ads is huge." — Colin Stroud (~26:35) [quote not matched verbatim]
+  > "the Sapphire Reserve for business earning three or four X on ads is huge." — Colin Stroud (~26:34)
 - **Colin says Capital One cards earn two points per dollar.** (other, second-hand, claimant: Colin Stroud)
   > "People love them because they earn two points per dollar." — Colin Stroud (~26:42)
 - **Colin says an Amex Platinum annual fee is $895.** (price, second-hand, claimant: Colin Stroud)
@@ -193,7 +193,7 @@ Colin Stroud describes Go Somewhere, a business that helps owners improve credit
   > "It earns uncapped, unlimited three X points on ads. And so right now you're averaging more like 1.2, 1.5" — Colin Stroud (~30:50)
 - **Colin says Amex Travel can provide a value of one cent per point.** (other, second-hand, claimant: Colin Stroud)
   > "you can book through Amex travel and get you a value of one penny per point." — Colin Stroud (~32:10)
-- **Colin says transferring points to airline and hotel partners can yield two to five cents per point.** (other, second-hand, hypothetical, claimant: Colin Stroud)
+- **Colin says the Go Somewhere .com domain was listed for about $11,000.** (other, second-hand, hypothetical, claimant: Colin Stroud)
   > "Transferring points to airline and hotel partners is the way to get more value, to get two, three, four, five cents per point." — Colin Stroud (~32:16)
 - **Colin says points may lose about 20% in value in an illustrative comparison, while saying he did not know the exact figure.** (other, second-hand, hypothetical, claimant: Colin Stroud)
   > "Today, you're going to pick 20% more. I don't know the number, it's actually, it might be worse than that." — Colin Stroud (~31:41)
@@ -211,6 +211,8 @@ Colin Stroud describes Go Somewhere, a business that helps owners improve credit
   > "And you could any domain name for whatever it's listed for, those sellers are used to selling them for 10 to 80% off" — Chris Koerner (~37:14)
 - **The host says a referred guest would receive $100 if they were interviewed.** (price, second-hand, hypothetical, claimant: Chris Koerner)
   > "Tell her your story and we'll give you a hundred bucks if we end up interviewing them." — Chris Koerner (~38:25)
+- **Chris summarises the first full year as about $200,000 net profit, and says Colin is on track to beat it. Colin replies 'Hopefully'.** (profit, second-hand, claimant: Chris Koerner)
+  > "Okay, so then first full year, you do about 200,000 in net profit, net to you, and this year, you're on track to beat that, right?" — Chris Koerner (~9:58)
 
 ## Tactics and playbook steps
 

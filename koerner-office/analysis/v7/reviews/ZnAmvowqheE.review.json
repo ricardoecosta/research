@@ -1,0 +1,185 @@
+{
+ "verdict": "minor_issues",
+ "error_counts": {
+  "missed_ideas": 0,
+  "missed_claims": 7,
+  "factual_errors": 0,
+  "unsupported_or_invented": 3,
+  "score_adjustments": 0
+ },
+ "corrections": [
+  {
+   "path": "speakers/0/name",
+   "old": "Tim Richard",
+   "new": "Host (unnamed)",
+   "reason": "The host is never named in the transcript, so the name is invented. All speaker and claimant fields using 'Tim Richard' should read the same."
+  },
+  {
+   "path": "summary",
+   "old": "Tim Richard, an e-commerce founder, lists nine 'boring' product niches that he says have high Google search volume, low keyword difficulty and few dedicated brands. They are stainless steel litter boxes, hojicha latte, satin sheets, rice water shampoo, key fob covers, beef protein powder, men's crossbody bags, non-tarnish jewelry and floor couches. His method is to use social media and Ahrefs keyword data to find rising search trends, then build a branded site around one specific term. The picks are his own opinion, with no tested sales data for any of them. The video also promotes his paid 'idea book' database.",
+   "new": "An unnamed e-commerce founder lists nine 'boring' product niches that he says have high Google search volume, low keyword difficulty and few dedicated brands. They are stainless steel litter boxes, hojicha latte, satin sheets, rice water shampoo, key fob covers, beef protein powder, men's crossbody bags, non-tarnish jewelry and floor couches. His method is to use social media and Ahrefs keyword data to find rising search trends, then build a branded site around one specific term. The picks are his own opinion and come with no product-specific sales data. He also makes a vague claim that 'one of these products' did $15,000 in its first month. The video promotes his 'idea book' database, linked in the description.",
+   "reason": "Host name is invented. The 'paid' status of the idea book is not stated. The summary should not flatly contradict the ambiguous $15k claim."
+  },
+  {
+   "path": "tools_mentioned/2/purpose",
+   "old": "Host's paid database of 450+ opportunities, promoted in the video",
+   "new": "Host's database of 450+ opportunities (price not stated), linked in the description and promoted twice",
+   "reason": "The transcript never says the database is paid."
+  },
+  {
+   "path": "ideas/0/acquisition_channels/1/details",
+   "old": "Only one sponsored competitor (Less Litter) appears in Google results, implying cheap ads.",
+   "new": "Only one sponsored competitor (Less Litter) appears in Google results.",
+   "reason": "The cheap-ads point is made for rice water shampoo, not for litter boxes."
+  }
+ ],
+ "add_ideas": [],
+ "add_metric_claims": [
+  {
+   "claim": "4,000 monthly searches for hojicha latte, rising, with keyword difficulty 0.",
+   "metric": "traffic",
+   "value": {
+    "amount": 4000,
+    "amount_max": null,
+    "currency": null,
+    "unit": "searches per month",
+    "label": null
+   },
+   "period": "per month",
+   "claimant": "Host (Ahrefs)",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "4,000 people per month right now are searching every month",
+    "speaker": "Host"
+   }
+  },
+  {
+   "claim": "4,600 monthly searches for key fob cover.",
+   "metric": "traffic",
+   "value": {
+    "amount": 4600,
+    "amount_max": null,
+    "currency": null,
+    "unit": "searches per month",
+    "label": null
+   },
+   "period": "per month",
+   "claimant": "Host (Ahrefs)",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "4.6 thousand people are searching for key fob cover every month",
+    "speaker": "Host"
+   }
+  },
+  {
+   "claim": "3,100 monthly searches for beef protein powder.",
+   "metric": "traffic",
+   "value": {
+    "amount": 3100,
+    "amount_max": null,
+    "currency": null,
+    "unit": "searches per month",
+    "label": null
+   },
+   "period": "per month",
+   "claimant": "Host (Ahrefs)",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "3.1 thousand people are searching specifically for beef protein powder",
+    "speaker": "Host"
+   }
+  },
+  {
+   "claim": "7,100 monthly searches for the competitor brand Prime Protein powder.",
+   "metric": "traffic",
+   "value": {
+    "amount": 7100,
+    "amount_max": null,
+    "currency": null,
+    "unit": "searches per month",
+    "label": "competitor brand searches"
+   },
+   "period": "per month",
+   "claimant": "Host (Ahrefs)",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "7.1 thousand people are searching for Prime Protein powder every month",
+    "speaker": "Host"
+   }
+  },
+  {
+   "claim": "8,700 monthly searches for 'men crossbody bag' (without the s).",
+   "metric": "traffic",
+   "value": {
+    "amount": 8700,
+    "amount_max": null,
+    "currency": null,
+    "unit": "searches per month",
+    "label": null
+   },
+   "period": "per month",
+   "claimant": "Host (Ahrefs)",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "men crossbody bag without the S, 8.7 thousand people searching for it",
+    "speaker": "Host"
+   }
+  },
+  {
+   "claim": "3,800 monthly searches for non-tarnish jewelry, with keyword difficulty 3.",
+   "metric": "traffic",
+   "value": {
+    "amount": 3800,
+    "amount_max": null,
+    "currency": null,
+    "unit": "searches per month",
+    "label": null
+   },
+   "period": "per month",
+   "claimant": "Host (Ahrefs)",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I8",
+   "quote": {
+    "text": "3.8 thousand people per month searching for non-tarnish jewelry",
+    "speaker": "Host"
+   }
+  },
+  {
+   "claim": "6,900 monthly searches for floor sofa, with keyword difficulty 0.",
+   "metric": "traffic",
+   "value": {
+    "amount": 6900,
+    "amount_max": null,
+    "currency": null,
+    "unit": "searches per month",
+    "label": null
+   },
+   "period": "per month",
+   "claimant": "Host (Ahrefs)",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I9",
+   "quote": {
+    "text": "Now, 6.9 thousand people per month searching for floor sofa.",
+    "speaker": "Host"
+   }
+  }
+ ],
+ "notes": "Overall the extraction is solid: all nine listicle products are captured, plus the Antler ring example, and the deconstructions, scores and C rating are reasonable. The main problem is the invented host name 'Tim Richard', which also appears in every speaker and claimant field; it should be replaced with 'Host'. Several per-product search-volume claims were missed and are added here. A few small unsupported details were corrected: the idea book being 'paid' and the cheap-ads inference for litter boxes. The $15k first-month claim is ambiguous: it is unclear whether it refers to one of the nine products or to one of the host's own products.",
+ "video_id": "ZnAmvowqheE",
+ "reviewed_at": "2026-10-22T12:28:45",
+ "cost_usd": 0.264524,
+ "applied": 4,
+ "failed_to_apply": []
+}

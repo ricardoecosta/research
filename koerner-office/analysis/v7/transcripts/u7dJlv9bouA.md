@@ -3,7 +3,7 @@
 - **Video:** [u7dJlv9bouA](https://www.youtube.com/watch?v=u7dJlv9bouA) · **Channel:** The Koerner Office · **Uploaded:** 2025-04-04 · **Length:** 34 min · **Transcript:** ok
 - **Speakers:** Chris Koerner (host), Nick (co-host) · **Format:** host_solo_ideas
 - **Evidence quality:** C — The video is a conversational roundup with several speculative business pitches and a second-hand account of Ethan Cohen's ventures. The hosts give some operational details, but several market, revenue, and payback figures are AI-generated, hypothetical, or attributed to a seller. No business is shown to be operating autonomously. · Promotional conflict: The host promotes his own free newsletter and podcast at tkopod.com and recommends paid AI products, but does not disclose an affiliate relationship.
-- **Extraction:** gpt-6-luna · quotes verified 93/94
+- **Extraction:** gpt-6-luna · quotes verified 92/93 · reviewed by claude-opus-5-5
 
 ## Summary
 
@@ -28,7 +28,7 @@ The hosts compare AI agents with current research tools, arguing that deep resea
 - **Offer:** Bottled banana ketchup inspired by the Philippines market.
 - **Business model:** One-off packaged food sales; the transcript does not specify retail, direct-to-consumer, or wholesale mix.
 - **Pricing:** Per bottle.. Suggested price from AI research USD 4-6 per bottle Price was reported by the host as an AI-research result, not as a tested selling price.
-- **Acquisition:** seo_organic_search: The hosts checked Google Trends and discussed search demand; no customer acquisition campaign is described.
+- **Acquisition:** 
 - **Delivery:** Food production, bottling, and distribution would be required; the transcript does not say who would manufacture or deliver it.
 - **Unit economics (claims):** The host says AI research suggested a $4 to $6 bottle price.; The host repeats AI-research claims of a $225 million US market growing about 7% per year.
 - **Tools:** Deep Research, ChatGPT, Google Trends, Google keyword tool
@@ -94,8 +94,8 @@ The hosts compare AI agents with current research tools, arguing that deep resea
 - **UK applicability [E]:** 1/5 — The informal bookie model is not safely transferable as described. UK gambling operations are regulated and would require specialist legal review and appropriate licensing.
 - **Risks:** The host describes payment defaults and threatening behaviour.; Using or threatening to use another person's Social Security number is a serious privacy and legal risk.; The transcript describes gambling losses and escalating bets; it is not a responsible or verified business case.
 - **Automation [E]:** acquisition 0/5 (The story relies on personal relationships. Betting promotion and marketing would also face strict UK gambling rules.); onboarding 0/5 (The story describes friends placing bets through the operator; no automated identity or eligibility process is described.); delivery 0/5 (The operator must manage wagers, settlements, and payment disputes.); billing 0/5 (The host says customers did not pay reliably and the operator had to pursue them.); support 0/5 (The operator personally dealt with non-payers and threats.)
-> "in one month he's like I made 22 grand the first month that I had this this betting book" — Chris Koerner (~29:51)
-> "But people weren't paying me and I had to be like threatening to them" — Chris Koerner (~29:57)
+> "in one month he's like I made 22 grand the first month that I had this this betting book" — Nick (~29:51)
+> "But people weren't paying me and I had to be like threatening to them" — Nick (~29:57)
 
 ### I7. Retrofit vending machines for campus product sales
 
@@ -104,7 +104,7 @@ The hosts compare AI agents with current research tools, arguing that deep resea
 - **Offer:** Vending machines stocked with Zen, retrofitted with card readers, and placed at college locations; the operator also accepted orders for machines.
 - **Business model:** Sell products through owned vending machines; the story also includes orders from others wanting machines retrofitted.
 - **Pricing:** Product sales through vending machines; machine sale price and product price are not stated..  The host gives the cost of an old machine but no selling price for Zen or retrofitted machines.
-- **Acquisition:** existing_audience: A video of a broken machine reportedly went viral, leading people to message Ethan asking how to get one.; partnerships: The host describes using colleges and campus locations as a distribution channel.
+- **Acquisition:** organic_social_content: A video of a broken machine reportedly went viral, leading people to message Ethan asking how to get one.; partnerships: The host describes using colleges and campus locations as a distribution channel.
 - **Delivery:** Buy used machines, retrofit them with electronic payment readers, stock them with Zen, and place them in college locations. This requires physical installation, restocking, and repairs.
 - **Unit economics (claims):** Ethan reportedly bought old vending machines for about $3,000 each.; The host says Ethan received 100 orders, placed 30, and borrowed $250,000 from friends and family.; Ethan reportedly forecast $80,000 per month in profit; the host says the pandemic prevented planned placements.
 - **Tools:** Vending machines, Credit card reader, Zen, Israeli vending payment company (unnamed)
@@ -113,8 +113,8 @@ The hosts compare AI agents with current research tools, arguing that deep resea
 - **UK applicability [E]:** 3/5 — Vending and campus distribution can work in the UK, but the example depends on a US product and campus context. Product regulations, site agreements, and local payment hardware would need adaptation.
 - **Risks:** The machine-breakage incident shows physical damage can interrupt sales.; The operator reportedly committed to many orders and borrowed heavily before a sudden shutdown prevented placements.; Vending requires maintenance, restocking, permission from site owners, and physical distribution.
 - **Automation [E]:** acquisition 2/5 (Viral content and online listings can bring inquiries, but placements may depend on campus relationships and in-person sales.); onboarding 1/5 (A machine placement requires agreements, site checks, and physical setup.); delivery 0/5 (Machines must be installed, stocked, serviced, and repaired in person.); billing 3/5 (Card readers can automate consumer payments and sales records, but cash handling and reconciliation may still require work.); support 1/5 (Someone must respond to broken machines, stockouts, payment failures, and site-owner requests.)
-> "all I did was buy an old vending machine and then I swapped out I took I got rid of the the coin and the and the paper money reader and we just inserted a credit card reader" — Chris Koerner (~31:28)
-> "he starts selling Zen in these vending machines places it in his dorm he's making like $3,000 a month" — Chris Koerner (~30:52)
+> "all I did was buy an old vending machine and then I swapped out I took I got rid of the the coin and the and the paper money reader and we just inserted a credit card reader" — Nick (~31:28)
+> "he starts selling Zen in these vending machines places it in his dorm he's making like $3,000 a month" — Nick (~30:52)
 
 ## Revenue and metric claims (unverified claims)
 
@@ -173,7 +173,7 @@ The hosts compare AI agents with current research tools, arguing that deep resea
 - **The host says the venue has hundreds of different games.** (other, second-hand, claimant: Chris Koerner)
   > "there's like 15 different rooms each room has like five to 15 different games so there's hundreds of different games in this one space" — Chris Koerner (~25:03)
 - **The host says the venue is about $35 per customer.** (price, second-hand, claimant: Chris Koerner)
-  > "it's fun as crap it's an legitimate workout like you break a sweat and think like escape room" — Chris Koerner (~25:11)
+  > "so there's hundreds of different games in this one space for 35 bucks" — Chris Koerner (~25:07)
 - **The host says a full room of floor tiles costs about $15,000.** (cost, second-hand, claimant: Chris Koerner)
   > "they're like these light up tiles they cost like I don't know uh $15,000 you can set up a whole room with the hardware software everything" — Chris Koerner (~25:47)
 - **The host suggests charging $10 to $20 per participant for the mobile games.** (price, second-hand, hypothetical, claimant: Chris Koerner)
@@ -202,31 +202,31 @@ The hosts compare AI agents with current research tools, arguing that deep resea
   > "at 100% occupancy they're doing like 7 million a year" — Chris Koerner (~27:52)
 - **The host's venue estimate assumes 100% occupancy.** (other, second-hand, hypothetical, claimant: Chris Koerner)
   > "at 100% occupancy they're doing like 7 million a year" — Chris Koerner (~27:52)
-- **Ethan reportedly had saved $15,000 before losing it through gambling.** (other, second-hand, claimant: Ethan Cohen, as retold by Chris Koerner)
+- **Ethan reportedly had saved $15,000 before losing it through gambling.** (other, second-hand, claimant: Ethan Cohen, as retold by Nick)
   > "he goes to college he has saved up $15,000 and proceeds to lose it in a four-week period of time" — Chris Koerner (~28:58)
-- **Ethan reportedly lost the savings over four weeks.** (other, second-hand, claimant: Ethan Cohen, as retold by Chris Koerner)
+- **Ethan reportedly lost the savings over four weeks.** (other, second-hand, claimant: Ethan Cohen, as retold by Nick)
   > "he goes to college he has saved up $15,000 and proceeds to lose it in a four-week period of time" — Chris Koerner (~28:58)
-- **Ethan reportedly had $6,000 after an internship six months later.** (other, second-hand, claimant: Ethan Cohen, as retold by Chris Koerner)
+- **Ethan reportedly had $6,000 after an internship six months later.** (other, second-hand, claimant: Ethan Cohen, as retold by Nick)
   > "goes back to college he's doing fine gets an internship six months later he's got six grand" — Chris Koerner (~29:20)
-- **Ethan reportedly lost more than $20,000 through gambling.** (other, second-hand, claimant: Ethan Cohen, as retold by Chris Koerner)
+- **Ethan reportedly lost more than $20,000 through gambling.** (other, second-hand, claimant: Ethan Cohen, as retold by Nick)
   > "loses it all he's lost over $20,000 at this point then he's like Crap I got to tell my dad" — Chris Koerner (~29:29)
-- **Ethan reportedly made $22,000 in the first month of his betting book.** (revenue, second-hand, claimant: Ethan Cohen, as retold by Chris Koerner)
+- **Ethan reportedly made $22,000 in the first month of his betting book.** (revenue, second-hand, claimant: Ethan Cohen, as retold by Nick)
   > "in one month he's like I made 22 grand the first month that I had this this betting book" — Chris Koerner (~29:51)
-- **Ethan was reportedly owed about $10,000 by bettors.** (other, second-hand, claimant: Ethan Cohen, as retold by Chris Koerner)
+- **Ethan was reportedly owed about $10,000 by bettors.** (other, second-hand, claimant: Ethan Cohen, as retold by Nick)
   > "he got he's owed like 10 grand from these other people and they're not paying him" — Chris Koerner (~30:02)
-- **Ethan reportedly earned about $3,000 per month from vending machines in his frat house.** (revenue, second-hand, claimant: Ethan Cohen, as retold by Chris Koerner)
+- **Ethan reportedly earned about $3,000 per month from vending machines in his frat house.** (revenue, second-hand, claimant: Ethan Cohen, as retold by Nick)
   > "he starts selling Zen in these vending machines places it in his dorm he's making like $3,000 a month" — Chris Koerner (~30:52)
-- **A video of Ethan's broken vending machine reportedly reached three million views.** (traffic, second-hand, claimant: Ethan Cohen, as retold by Chris Koerner)
+- **A video of Ethan's broken vending machine reportedly reached three million views.** (traffic, second-hand, claimant: Ethan Cohen, as retold by Nick)
   > "Dude your vending machine's broken Oh crap 2 minutes later also dude that video is trending video's freaking trending three million" — Chris Koerner (~31:03)
-- **Ethan reportedly received 100 orders for vending machines.** (customers, second-hand, claimant: Ethan Cohen, as retold by Chris Koerner)
+- **Ethan reportedly received 100 orders for vending machines.** (customers, second-hand, claimant: Ethan Cohen, as retold by Nick)
   > "He gets a hundred orders he's ordered them he's placing them they're in the process of fulfillment" — Chris Koerner (~31:40)
-- **Ethan had reportedly placed 30 machine orders when he sought financing.** (customers, second-hand, claimant: Ethan Cohen, as retold by Chris Koerner)
+- **Ethan had reportedly placed 30 machine orders when he sought financing.** (customers, second-hand, claimant: Ethan Cohen, as retold by Nick)
   > "he gets a hundred orders he's ordered them he's placing them they're in the process of fulfillment he's placed 30 of them" — Chris Koerner (~31:40)
-- **Ethan reportedly borrowed $250,000 from friends and family.** (cost, second-hand, claimant: Ethan Cohen, as retold by Chris Koerner)
+- **Ethan reportedly borrowed $250,000 from friends and family.** (cost, second-hand, claimant: Ethan Cohen, as retold by Nick)
   > "he gets a loan for $250,000 from friends and family he's looking at this" — Chris Koerner (~31:47)
-- **Ethan reportedly forecast $80,000 per month in profit.** (profit, second-hand, hypothetical, claimant: Ethan Cohen, as retold by Chris Koerner)
+- **Ethan reportedly forecast $80,000 per month in profit.** (profit, second-hand, hypothetical, claimant: Ethan Cohen, as retold by Nick)
   > "Dude I'm going to make freaking $80,000 a month in profit" — Chris Koerner (~31:51)
-- **The vending-machine expansion was affected by the March 2020 shutdowns.** (other, second-hand, claimant: Chris Koerner)
+- **The vending-machine expansion was affected by the March 2020 shutdowns.** (other, second-hand, claimant: Nick)
   > "This is March of 2020 Chris what happens March of 2020 everything shuts down" — Chris Koerner (~31:55)
 
 ## Tactics and playbook steps

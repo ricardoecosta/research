@@ -1,0 +1,62 @@
+{
+ "verdict": "minor_issues",
+ "error_counts": {
+  "missed_ideas": 0,
+  "missed_claims": 0,
+  "factual_errors": 2,
+  "unsupported_or_invented": 2,
+  "score_adjustments": 0
+ },
+ "corrections": [
+  {
+   "path": "speakers/0/name",
+   "old": "David Heacock",
+   "new": "Unnamed speaker (owner of FilterBuy)",
+   "reason": "The speaker is never named in the transcript, so 'David Heacock' is unsupported. The same name in every quote/speaker and claimant field should be replaced the same way."
+  },
+  {
+   "path": "speakers/0/description",
+   "old": "Business owner speaking about FilterBuy and his approach to learning.",
+   "new": "Self-described owner of FilterBuy, an air-filter manufacturer he says he bought as the family business; speaks about his approach to learning.",
+   "reason": "The transcript says he 'bought the family business'; the original description omits how he acquired the company."
+  },
+  {
+   "path": "summary",
+   "old": "David Heacock explains how he learned to run FilterBuy, an air-filter manufacturer, by paying experienced people for access, learning on factory floors, and working backward from a concrete goal.",
+   "new": "The owner of FilterBuy (not named in the transcript) explains how he learned to run the air-filter manufacturer, which he bought as the family business, by paying experienced people for access, learning on factory floors, and working backward from a concrete goal.",
+   "reason": "The speaker's name is not in the transcript, and the summary omits that the company was the family business."
+  },
+  {
+   "path": "tactics/0/area",
+   "old": "customer_acquisition",
+   "new": "hiring",
+   "reason": "This tactic is about paying a consultant or expert to learn, not about acquiring customers. 'customer_acquisition' is also not one of the listed tactic areas."
+  },
+  {
+   "path": "tactics/1/area",
+   "old": "validation_testing",
+   "new": "operations",
+   "reason": "'validation_testing' is not a valid tactic area; the content of this tactic is about operations."
+  },
+  {
+   "path": "tactics/5/area",
+   "old": "validation_testing",
+   "new": "mindset",
+   "reason": "'validation_testing' is not a valid tactic area; this tactic is about a learning loop, which fits 'mindset'."
+  },
+  {
+   "path": "tools_mentioned/1/purpose",
+   "old": "Look up information and help work backward from a business destination to a learning plan.",
+   "new": "Quick information lookup (mentioned alongside Google).",
+   "reason": "ChatGPT is named only for looking things up. The reverse-engineering advice refers generically to 'AI or a mentor', not to ChatGPT."
+  }
+ ],
+ "add_ideas": [],
+ "add_metric_claims": [],
+ "notes": "The extraction is faithful to the transcript overall. The numbers ($1.5M loan, $25M/month revenue, about $1,000/week consultant, 40+ trucks, $300M manufacturer) are correctly captured and consistent with each other. The main problem is the speaker name 'David Heacock', which never appears in the transcript and runs through the summary, speakers, quotes and claimant fields. Several tactic areas use theme values that are not on the allowed list. Several metric_claims are padding drawn from generic advice (1 hour, 100x, 80%, 30 days) but are not wrong. The automation scores, the UK scores and the B evidence rating are reasonable.",
+ "video_id": "gQ4QQAKspvg",
+ "reviewed_at": "2026-10-22T12:32:38",
+ "cost_usd": 0.1591968,
+ "applied": 7,
+ "failed_to_apply": []
+}

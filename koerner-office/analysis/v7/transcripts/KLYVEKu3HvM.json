@@ -25,7 +25,7 @@
    "description": "Entrepreneur, computer scientist, author, and simulation theory researcher; no spoken name is given."
   }
  ],
- "format": "operator_interview",
+ "format": "other",
  "has_business_idea": true,
  "ideas": [
   {
@@ -150,8 +150,8 @@
    "risks": [
     "The transcript gives no game-level performance, customer demand, cost, or sale-price evidence, so the business economics cannot be assessed."
    ],
-   "is_primary": true,
-   "depth": "deep",
+   "is_primary": false,
+   "depth": "mention",
    "quotes": [
     {
      "text": "I had sold my last video game company as an entrepreneur, and I was visiting a VR, a video game company up in South Toledo",
@@ -745,7 +745,7 @@
   }
  ],
  "evidence_quality": {
-  "rating": "B",
+  "rating": "C",
   "rationale": "The guest speaks from first-hand experience about founding an enterprise software startup and selling video game companies, and gives a specific example of a platform product threatening an add-on. However, the business discussion contains almost no pricing, operating process, revenue, or outcome detail. Several technical and industry claims are discussed without verification in the transcript.",
   "promotional_conflict": "HubSpot sponsors the episode and promotes the free MFM Vault. The guest also directs listeners to his books and social profiles."
  },
@@ -753,8 +753,8 @@
   "model": "gpt-6-luna",
   "extracted_at": "2026-10-22T10:20:21",
   "cost_usd": 0,
-  "reviewed_by": null,
-  "review_notes": null,
+  "reviewed_by": "claude-opus-5-5",
+  "review_notes": "The extraction is careful and conservative. It does not invent pricing or economics, and its quotes appear verbatim. The main errors overstate the business relevance: the video game companies idea is marked primary and deep, and the format and evidence rating imply a substantive operator interview. In reality the business mentions are incidental to a simulation-theory discussion. I6 (Second Life bartender) and I5 (teaching a class) are borderline as business ideas but are honestly labelled as mentions. The automation and UK scores are reasonable.",
   "quote_verification": {
    "quotes": 21,
    "verified": 21,

@@ -817,7 +817,7 @@
    "hypothetical": true,
    "idea_local_id": "I1",
    "quote": {
-    "text": "Let's say their credit score is already down to 580 because they've missed a few payments.",
+    "text": "Let's say their credit score is already down to $580 because they've missed a few payments.",
     "speaker": "Casper Capital host",
     "match_score": 100.0,
     "verified": true,
@@ -2093,12 +2093,12 @@
    "hypothetical": false,
    "idea_local_id": "I4",
    "quote": {
-    "text": "They've had over 500 complaints in the last 3 years.",
+    "text": "they've had over 500 complaints in the last 3 years. That's the same as National Debt Relief, but from a smaller customer base",
     "speaker": "Casper Capital host",
     "match_score": 100.0,
     "verified": true,
-    "char_offset": 11969,
-    "approx_timestamp_s": 765
+    "char_offset": 13691,
+    "approx_timestamp_s": 875
    }
   },
   {
@@ -2280,12 +2280,12 @@
    "hypothetical": false,
    "idea_local_id": null,
    "quote": {
-    "text": "Today, I'm going to go over everything you need to know about debt relief.",
+    "text": "Who it's for, who it's not for, and what the best companies are in 2026.",
     "speaker": "Casper Capital host",
     "match_score": 100.0,
     "verified": true,
-    "char_offset": 22,
-    "approx_timestamp_s": 1
+    "char_offset": 95,
+    "approx_timestamp_s": 6
    }
   }
  ],
@@ -2585,8 +2585,8 @@
   "model": "gpt-6-luna",
   "extracted_at": "2026-10-22T12:17:13",
   "cost_usd": 0,
-  "reviewed_by": null,
-  "review_notes": null,
+  "reviewed_by": "claude-opus-5-5",
+  "review_notes": "The extraction is thorough and accurate. It captures nearly every numeric claim, correctly treats all figures as second-hand or hypothetical host statements, and rates evidence C with a reasonable affiliate-link caution. The main defects are quote-anchoring problems: one misquote that drops the '$' caption error, one quote attached to the wrong company's passage, and one quote that lacks the cited figure. The host contradicts himself on Americor: he says its average fees are higher than the other two companies, then recommends it for its 'lower fee range'. This is a speaker inconsistency, not an extraction error, but downstream users should know about it. The automation and UK scores are reasonable for a regulated, human-negotiated US consumer finance service.",
   "quote_verification": {
    "quotes": 103,
    "verified": 103,

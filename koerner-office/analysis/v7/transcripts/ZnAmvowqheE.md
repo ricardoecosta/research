@@ -1,13 +1,13 @@
 # 9 BORING Products I’d Sell If I Needed Money
 
 - **Video:** [ZnAmvowqheE](https://www.youtube.com/watch?v=ZnAmvowqheE) · **Channel:** Tim Richard · **Uploaded:** 2026-06-14 · **Length:** 14 min · **Transcript:** cached
-- **Speakers:** Tim Richard (host) · **Format:** listicle_roundup
+- **Speakers:** Host (unnamed) (host) · **Format:** listicle_roundup
 - **Evidence quality:** C — Listicle of the host's own opinions based on keyword tool data. No first-hand results for any listed product, and the revenue claims are generic and unverified. The search data is useful but probably US-based. · Promotional conflict: Host sells an 'idea book' database of 450+ opportunities and promotes it twice in the video.
-- **Extraction:** claude-sonnet-5-5 · quotes verified 25/25
+- **Extraction:** claude-sonnet-5-5 · quotes verified 32/32 · reviewed by claude-opus-5-5
 
 ## Summary
 
-Tim Richard, an e-commerce founder, lists nine 'boring' product niches that he says have high Google search volume, low keyword difficulty and few dedicated brands. They are stainless steel litter boxes, hojicha latte, satin sheets, rice water shampoo, key fob covers, beef protein powder, men's crossbody bags, non-tarnish jewelry and floor couches. His method is to use social media and Ahrefs keyword data to find rising search trends, then build a branded site around one specific term. The picks are his own opinion, with no tested sales data for any of them. The video also promotes his paid 'idea book' database.
+An unnamed e-commerce founder lists nine 'boring' product niches that he says have high Google search volume, low keyword difficulty and few dedicated brands. They are stainless steel litter boxes, hojicha latte, satin sheets, rice water shampoo, key fob covers, beef protein powder, men's crossbody bags, non-tarnish jewelry and floor couches. His method is to use social media and Ahrefs keyword data to find rising search trends, then build a branded site around one specific term. The picks are his own opinion and come with no product-specific sales data. He also makes a vague claim that 'one of these products' did $15,000 in its first month. The video promotes his 'idea book' database, linked in the description.
 
 ## Business ideas
 
@@ -31,7 +31,7 @@ Tim Richard, an e-commerce founder, lists nine 'boring' product niches that he s
 - **Offer:** A branded stainless steel litter box that differs from the incumbent through features, looks or lower price.
 - **Business model:** One-off product sales of a high-ticket item via a branded website.
 - **Pricing:** High-ticket one-off. Less Litter competitor price USD 358 per unit Only the competitor's price is cited; no own price proposed.
-- **Acquisition:** seo_organic_search: Rank for 'stainless steel litter box' (39,000 searches/month, keyword difficulty 1/100) with a site branded around the product.; paid_search: Only one sponsored competitor (Less Litter) appears in Google results, implying cheap ads.
+- **Acquisition:** seo_organic_search: Rank for 'stainless steel litter box' (39,000 searches/month, keyword difficulty 1/100) with a site branded around the product.; paid_search: Only one sponsored competitor (Less Litter) appears in Google results.
 - **Delivery:** Not stated; physical product that needs sourcing or manufacturing and shipping.
 - **Unit economics (claims):** Competitor sells at $358, implying high ticket per sale.; 39,000 searches/month, keyword difficulty 1/100.
 - **Tools:** Ahrefs, Google
@@ -208,6 +208,20 @@ Tim Richard, an e-commerce founder, lists nine 'boring' product niches that he s
   > "I sold some wedding rings for a little while, and the margins are some of the highest of any product I've ever seen." — Tim Richard (~11:53)
 - **8,600 monthly searches for floor couch at difficulty 0.** (traffic, second-hand, claimant: Tim Richard (Ahrefs))
   > "8.6 thousand people per month are searching for floor couch" — Tim Richard (~12:35)
+- **4,000 monthly searches for hojicha latte, rising, with keyword difficulty 0.** (traffic, second-hand, claimant: Host (Ahrefs))
+  > "4,000 people per month right now are searching every month" — Host (~3:26)
+- **4,600 monthly searches for key fob cover.** (traffic, second-hand, claimant: Host (Ahrefs))
+  > "4.6 thousand people are searching for key fob cover every month" — Host (~7:25)
+- **3,100 monthly searches for beef protein powder.** (traffic, second-hand, claimant: Host (Ahrefs))
+  > "3.1 thousand people are searching specifically for beef protein powder" — Host (~8:47)
+- **7,100 monthly searches for the competitor brand Prime Protein powder.** (traffic, second-hand, claimant: Host (Ahrefs))
+  > "7.1 thousand people are searching for Prime Protein powder every month" — Host (~9:13)
+- **8,700 monthly searches for 'men crossbody bag' (without the s).** (traffic, second-hand, claimant: Host (Ahrefs))
+  > "men crossbody bag without the S, 8.7 thousand people searching for it" — Host (~9:51)
+- **3,800 monthly searches for non-tarnish jewelry, with keyword difficulty 3.** (traffic, second-hand, claimant: Host (Ahrefs))
+  > "3.8 thousand people per month searching for non-tarnish jewelry" — Host (~11:06)
+- **6,900 monthly searches for floor sofa, with keyword difficulty 0.** (traffic, second-hand, claimant: Host (Ahrefs))
+  > "Now, 6.9 thousand people per month searching for floor sofa." — Host (~12:44)
 
 ## Tactics and playbook steps
 
@@ -255,4 +269,4 @@ Tim Richard, an e-commerce founder, lists nine 'boring' product niches that he s
 
 ## Tools mentioned
 
-Ahrefs (Keyword volume, difficulty and trend research), Google Search / Google Ads (Checking competition and running paid ads), Idea Book (host's database) (Host's paid database of 450+ opportunities, promoted in the video; not stated)
+Ahrefs (Keyword volume, difficulty and trend research), Google Search / Google Ads (Checking competition and running paid ads), Idea Book (host's database) (Host's database of 450+ opportunities (price not stated), linked in the description and promoted twice; not stated)

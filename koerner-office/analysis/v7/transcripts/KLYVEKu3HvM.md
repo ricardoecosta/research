@@ -1,9 +1,9 @@
 # There’s proof that we are living in a simulation! (ft. MIT Scientist)
 
 - **Video:** [KLYVEKu3HvM](https://www.youtube.com/watch?v=KLYVEKu3HvM) · **Channel:** My First Million · **Uploaded:** 2026-09-28 · **Length:** 59 min · **Transcript:** local_whisper_tiny
-- **Speakers:** Host (name not stated) (host), Guest (name not stated) (guest) · **Format:** operator_interview
-- **Evidence quality:** B — The guest speaks from first-hand experience about founding an enterprise software startup and selling video game companies, and gives a specific example of a platform product threatening an add-on. However, the business discussion contains almost no pricing, operating process, revenue, or outcome detail. Several technical and industry claims are discussed without verification in the transcript. · Promotional conflict: HubSpot sponsors the episode and promotes the free MFM Vault. The guest also directs listeners to his books and social profiles.
-- **Extraction:** gpt-6-luna · quotes verified 21/21
+- **Speakers:** Host (name not stated) (host), Guest (name not stated) (guest) · **Format:** other
+- **Evidence quality:** C — The guest speaks from first-hand experience about founding an enterprise software startup and selling video game companies, and gives a specific example of a platform product threatening an add-on. However, the business discussion contains almost no pricing, operating process, revenue, or outcome detail. Several technical and industry claims are discussed without verification in the transcript. · Promotional conflict: HubSpot sponsors the episode and promotes the free MFM Vault. The guest also directs listeners to his books and social profiles.
+- **Extraction:** gpt-6-luna · quotes verified 21/21 · reviewed by claude-opus-5-5
 
 ## Summary
 
@@ -14,7 +14,7 @@ The host and an entrepreneur discuss simulation theory, drawing on video games, 
 | # | Idea | Category | Depth | Automation [E] A/O/D/B/S | UK [E] |
 |---|---|---|---|---|---|
 | I1 | **Enterprise software integration startup** — A third-party software company that connected Microsoft products with IBM products. | saas_software | moderate | 1/1/3/3/2 | 5 |
-| I2 | **Video game companies** — The guest says he built and sold multiple companies in the video gaming space; operating and monetization details are not provided. | content_media | deep | 2/3/2/3/2 | 5 |
+| I2 | **Video game companies** — The guest says he built and sold multiple companies in the video gaming space; operating and monetization details are not provided. | content_media | mention | 2/3/2/3/2 | 5 |
 | I3 | **Silly fish mobile game** — The host refers to a mobile game described as a silly fish game that was acquired; the guest does not confirm or explain the example. | content_media | mention | 2/3/2/3/2 | 5 |
 | I4 | **Books on simulation theory and entrepreneurship** — The guest writes books, including titles about simulation theory and Zen entrepreneurship, and directs listeners to his website for them. | digital_products | moderate | 3/3/2/3/2 | 5 |
 | I5 | **Teaching a simulation theory class** — The guest says he taught a class on simulation theory, but does not say whether it was a paid course or where it was taught. | education_coaching | mention | 1/2/0/3/1 | 5 |
@@ -38,24 +38,6 @@ The host and an entrepreneur discuss simulation theory, drawing on video games, 
 - **Automation [E]:** acquisition 1/5 (The transcript gives no acquisition process. Enterprise software sales are likely to require human-led selling and relationship work.); onboarding 1/5 (Connecting two enterprise product environments may require human configuration; the transcript gives no onboarding details.); delivery 3/5 (Software can perform the integration after it is built, but product maintenance and compatibility work would need human oversight.); billing 3/5 (Software billing could be automated, but no billing model or process is described.); support 2/5 (Enterprise integration problems would likely need human troubleshooting; no support process is stated.)
 > "My very first startup was a, was an enterprise software company used to connect Microsoft products with IBM products." — Guest (name not stated) (~51:24)
 > "And today we're announcing it. And I'm just like a curator. I had the dream in the morning." — Guest (name not stated) (~52:45)
-
-### I2. Video game companies
-
-- **Customer:** Not stated.
-- **Problem:** Not stated.
-- **Offer:** Video game businesses; the games and services are not described in detail.
-- **Business model:** Game development; the guest says he sold companies, but does not state how they earned revenue before sale.
-- **Pricing:** Not stated..  No game prices, company sale prices, or other revenue details stated.
-- **Acquisition:** 
-- **Delivery:** Video game products are implied. The guest does not describe development, distribution, staffing, or operations.
-- **Unit economics (claims):** 
-- **Tools:** 
-- **Startup cost:** not stated
-- **Time to first revenue:** not stated
-- **UK applicability [E]:** 5/5 — The transcript gives no US-only dependency for video game businesses.
-- **Risks:** The transcript gives no game-level performance, customer demand, cost, or sale-price evidence, so the business economics cannot be assessed.
-- **Automation [E]:** acquisition 2/5 (No customer acquisition channel is described. Game discovery and promotion would likely need human product and marketing decisions.); onboarding 3/5 (A digital game could provide automated account setup or installation, but the transcript does not say how these games were distributed.); delivery 2/5 (Software can deliver a game, but game design, development, and quality decisions require substantial human work.); billing 3/5 (Digital payment processing could be automated, but no billing model is given.); support 2/5 (The transcript gives no support model; player issues would likely need human review.)
-> "I had sold my last video game company as an entrepreneur, and I was visiting a VR, a video game company up in South Toledo" — Guest (name not stated) (~28:06)
 
 ### I4. Books on simulation theory and entrepreneurship
 

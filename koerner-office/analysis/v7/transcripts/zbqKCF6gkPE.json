@@ -12,10 +12,10 @@
   "transcript_chars": 31550,
   "transcript_is_whisper": false
  },
- "summary": "David Heacock explains how Filterbuy, his US air filter manufacturing business, reached more than $31 million in July as heat and wildfire smoke drove unexpected demand. The surge exposed weak inventory counts, order routing problems and a management gap after a regional leader resigned. He describes the operational changes that helped Filterbuy keep delivering and sustain sales momentum. His main lesson is to build and understand reliable operating systems before growth outstrips the ability to serve customers.",
+ "summary": "David, founder and CEO of Filterbuy, explains how his US air filter manufacturing business reached more than $31 million in July as heat and wildfire smoke drove unexpected demand. The surge exposed weak inventory counts, order routing problems and a management gap after a regional leader resigned. He describes the operational changes that helped Filterbuy keep delivering and sustain sales momentum. His main lesson is to build and understand reliable operating systems before growth outstrips the ability to serve customers.",
  "speakers": [
   {
-   "name": "David Heacock",
+   "name": "David",
    "role": "host",
    "description": "Founder and CEO of Filterbuy; speaks about his own business."
   }
@@ -1284,11 +1284,11 @@
   {
    "warning": "Delegating before learning how the work and systems function can prevent a founder from building a robust, scalable business.",
    "quote": {
-    "text": "people are using that as an excuse to hire somebody to basically do all the work for them and if that's your mentality and your mindset, you're never going to build a robust business that is scalable.",
+    "text": "people are using that as an excuse to hire somebody to basically do all the work for them and if that's your mentality and that's your mindset, you're never going to build a robust business that is scalable.",
     "speaker": "David Heacock",
-    "match_score": 96.5,
+    "match_score": 100.0,
     "verified": true,
-    "char_offset": 28087,
+    "char_offset": 28085,
     "approx_timestamp_s": 1537
    }
   },
@@ -1429,14 +1429,14 @@
  "evidence_quality": {
   "rating": "B",
   "rationale": "David is a first-hand operator describing his own company, its operating processes and a specific demand surge. He gives many concrete figures, but they are self-reported and the transcript does not independently verify them.",
-  "promotional_conflict": "No sponsor or paid offer is disclosed. David closes by directing viewers to another video on building boring software."
+  "promotional_conflict": "No sponsor or paid offer is disclosed. David mentions his own podcast and closes by directing viewers to another of his videos on building boring software."
  },
  "extraction": {
   "model": "gpt-6-luna",
   "extracted_at": "2026-10-22T12:27:24",
   "cost_usd": 0,
-  "reviewed_by": null,
-  "review_notes": null,
+  "reviewed_by": "claude-opus-5-5",
+  "review_notes": "The extraction is thorough and the figures are accurate: revenue, volumes, locations, inventory weeks and the 99.5% on-time target all match the transcript. The main problem is an invented surname (\"Heacock\") for the speaker, who is identified only as David; it should be replaced in the speaker, summary, claimant and quote-speaker fields. One warning quote was not verbatim. The automation and UK scores, the B evidence rating and the idea coverage (the Filterbuy primary idea plus the passing mention of office-supply dropshipping) are reasonable.",
   "quote_verification": {
    "quotes": 68,
    "verified": 68,

@@ -1,0 +1,172 @@
+{
+ "verdict": "minor_issues",
+ "error_counts": {
+  "missed_ideas": 1,
+  "missed_claims": 0,
+  "factual_errors": 7,
+  "unsupported_or_invented": 0,
+  "score_adjustments": 1
+ },
+ "corrections": [
+  {
+   "path": "metric_claims/19/metric",
+   "old": "profit",
+   "new": "revenue",
+   "reason": "Mike said he 'made' $132,000 in 24 days. Only the separate 8-day job was described as profit, so this figure reads as gross, not profit."
+  },
+  {
+   "path": "metric_claims/19/claim",
+   "old": "Mike says he profited $132,000 in 24 days from operating his spray drone.",
+   "new": "Mike says he made $132,000 in 24 days running his spray drone (gross/unspecified; not stated as profit).",
+   "reason": "The transcript says 'made', not 'profited'."
+  },
+  {
+   "path": "ideas/0/unit_economics_claims/1",
+   "old": "Mike claimed a $132,000 profit in 24 days and a separate $65,000 profit in eight days.",
+   "new": "Mike claimed he made $132,000 in 24 days and 'profited' $65,000 on a separate 8-day job, of which he says about $50,000 went to the bank (implying the $65k may be gross).",
+   "reason": "The $132k was not called profit. The $50k banked and the 70-80% margin remark suggest the $65k figure may be gross."
+  },
+  {
+   "path": "metric_claims/17/metric",
+   "old": "customers",
+   "new": "other",
+   "reason": "28 people on payroll is a headcount, not customers."
+  },
+  {
+   "path": "metric_claims/1/idea_local_id",
+   "old": "I2",
+   "new": null,
+   "reason": "The 600x growth refers to the whole business (it lines up with ~$32M total revenue), not deer recovery alone."
+  },
+  {
+   "path": "ideas/2/quotes/1/text",
+   "old": "we're anywhere from 200 to 300 pilots on there. Wow. So, a little back of the napkin math, we're talking six figures a year in memberships.",
+   "new": "So, a little back of the napkin math, we're talking six figures a year in in memberships.",
+   "reason": "The original quote merged Mike's pilot count with Chris's estimate under Mike's name. The napkin math is the host's."
+  },
+  {
+   "path": "ideas/2/quotes/1/speaker",
+   "old": "Mike",
+   "new": "Chris Koerner",
+   "reason": "The six-figure estimate was the host's inference."
+  },
+  {
+   "path": "ideas/1/time_to_first_revenue",
+   "old": "Mike says he reached break-even within a couple of weeks and made $50,000 during his first ten weeks of public deer recovery work.",
+   "new": "Chris suggests break-even came within a couple of weeks (Mike does not state this explicitly); Mike says he made $50,000 in his first ten weeks of public deer recovery work.",
+   "reason": "The break-even statement was the host's framing."
+  },
+  {
+   "path": "ideas/0/uk_applicability/score_e",
+   "old": 3,
+   "new": 2,
+   "reason": "Aerial pesticide application is generally prohibited in the UK except under specific permission, on top of CAA approval for heavy-lift drones. That is a much higher barrier than generic contractor rules."
+  },
+  {
+   "path": "tools_mentioned/24/name",
+   "old": "Newway AG",
+   "new": "NuWay Ag",
+   "reason": "Mike spells it N-U-W-A-Y A-G."
+  },
+  {
+   "path": "ideas/3/tools/5",
+   "old": "Newway AG",
+   "new": "NuWay Ag",
+   "reason": "Same spelling correction."
+  },
+  {
+   "path": "tools_mentioned/11/purpose",
+   "old": "Mentioned by Chris as a possible search route for farmers seeking spray drone businesses.",
+   "new": "Mentioned by Mike: some operators passively hope farmers will Google 'spray drone business near me', which he says does not work well.",
+   "reason": "Mike said this, not Chris, and he said it as a warning."
+  },
+  {
+   "path": "evidence_quality/promotional_conflict",
+   "old": "Mike sells DJI drones and equipment and promotes his 137 Fastpass program. Chris has a HighLevel sponsor read and promotes his TKOowners.com community.",
+   "new": "Mike sells DJI drones, spray rigs and trailers, offers financing, a 137 Fastpass program and a how-to-start booklet promoted via Instagram ads, so his upbeat profit claims also act as sales marketing. Chris has a HighLevel sponsor read and promotes his TKOowners.com community.",
+   "reason": "Mike's equipment sales give him a direct incentive to promote the business opportunity; the booklet was also missed."
+  }
+ ],
+ "add_ideas": [
+  {
+   "local_id": "I12",
+   "name": "Drone deer recovery start-up guide (paid-ads funnel)",
+   "one_liner": "A booklet that helps aspiring drone deer recovery operators research demand in their area, promoted with Instagram ads.",
+   "category": "digital_products",
+   "business_model": "Information product or lead magnet feeding equipment sales; price not stated.",
+   "customer": "Aspiring drone deer recovery entrepreneurs.",
+   "problem": "New operators do not know whether their area has enough demand.",
+   "offer": "A small booklet showing how to estimate local demand by comparing deer tags sold in an area against Ohio's call ratio.",
+   "pricing": {
+    "model": "Not stated",
+    "price_points": [],
+    "notes": "Unclear whether the booklet is paid or a free lead magnet for drone sales."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "paid_social",
+     "details": "Promoted mainly through Instagram ads rather than on the website front page.",
+     "quote": {
+      "text": "So, we usually don't put this on front and center. This is like something that we use uh we run Instagram ads or something.",
+      "speaker": "Mike"
+     }
+    }
+   ],
+   "delivery": "Digital or printed booklet; delivery method not described.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Instagram ads"
+   ],
+   "startup_cost": null,
+   "time_to_first_revenue": null,
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Paid social ads can run with limited human input once set up."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Purchase or download can be self-serve."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "A digital booklet can be delivered automatically."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Online checkout, if the booklet is paid."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Follow-up questions likely route to the sales team."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 2,
+    "notes": "The format transfers, but the UK deer recovery market and its drone and wildlife rules differ."
+   },
+   "risks": [
+    "Likely functions as a funnel for drone sales, so its demand estimates may be optimistic."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "We've just put together um like a a small little booklet that will help you try to research, you know, how many tags might get sold in your area to the ratio of how how many calls we get in Ohio.",
+     "speaker": "Mike"
+    },
+    {
+     "text": "We we spend a lot and lot a lot in marketing now.",
+     "speaker": "Mike"
+    }
+   ]
+  }
+ ],
+ "add_metric_claims": [],
+ "notes": "The extraction is thorough and generally accurate, with good coverage of pricing, acreage and licensing claims and appropriate hypothetical flags on host calculations. The main problems are treating the $132k as profit when Mike only said 'made', a quote that put Chris's six-figure estimate under Mike's name, a few misattributions and misspellings, and a missed booklet/paid-ads product. Mike's equipment-sales interest deserved more weight in the promotional-conflict field. UK applicability for drone crop spraying was overstated given the UK's restrictions on aerial pesticide application.",
+ "video_id": "eD2AMYAR8tA",
+ "reviewed_at": "2026-10-22T12:32:28",
+ "cost_usd": 0.5716808,
+ "applied": 13,
+ "failed_to_apply": []
+}

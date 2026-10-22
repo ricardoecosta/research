@@ -1,0 +1,44 @@
+{
+ "verdict": "minor_issues",
+ "error_counts": {
+  "missed_ideas": 0,
+  "missed_claims": 0,
+  "factual_errors": 4,
+  "unsupported_or_invented": 0,
+  "score_adjustments": 0
+ },
+ "corrections": [
+  {
+   "path": "ideas/9/quotes/0/text",
+   "old": "I know several people that simply apply for jobs as freelancers as an American and then they just hire people on Upwork offshore and outsource all of it to them.",
+   "new": "I know several people that simply apply for jobs as freelancers as an American and then they get a job and then they just hire people on Upwork offshore and outsource all of it to them.",
+   "reason": "The quote dropped words mid-sentence without an ellipsis. Restored the verbatim text."
+  },
+  {
+   "path": "warnings/4/quote/speaker",
+   "old": "Chris Koerner",
+   "new": "Billy Howell",
+   "reason": "From the turn order, 'That can work, but it's hard. I mean, I made a lot of bad hires overseas' is Billy's reply to the host's middleman point."
+  },
+  {
+   "path": "lessons/7/quote/speaker",
+   "old": "Chris Koerner",
+   "new": "Billy Howell",
+   "reason": "Billy continues his 'consulting is selling decisions' point. Chris then answers 'Yeah. Interesting.'"
+  },
+  {
+   "path": "metric_claims/5/metric",
+   "old": "customers",
+   "new": "other",
+   "reason": "Team headcount is not a customer count."
+  }
+ ],
+ "add_ideas": [],
+ "add_metric_claims": [],
+ "notes": "The extraction is thorough and accurate on the main agency idea, the Upwork playbook, the side-project ideas and the key numbers ($50/mo vs $250/mo, $0.15 connects, $150 bounty, $0.25/recipe). The problems are a few speaker misattributions where the transcript has no speaker labels, one quote that silently dropped words, and team size filed under the 'customers' metric. Scores and the B evidence rating are reasonable. The attribution of the '2-3 weeks to a full-time agency' line to Billy is ambiguous in the transcript but is left as is.",
+ "video_id": "tFP7wnWkX4w",
+ "reviewed_at": "2026-10-22T12:31:53",
+ "cost_usd": 0.24939279999999997,
+ "applied": 4,
+ "failed_to_apply": []
+}

@@ -3,7 +3,7 @@
 - **Video:** [6Q6jS1-5pkw](https://www.youtube.com/watch?v=6Q6jS1-5pkw) · **Channel:** The Koerner Office · **Uploaded:** 2025-07-17 · **Length:** 50 min · **Transcript:** ok
 - **Speakers:** Chris Koerner (host), Alex (guest) · **Format:** operator_interview
 - **Evidence quality:** A — First-hand operator with specific, consistent numbers on ads, conversion, margins, financing and revenue. · Promotional conflict: Host promotes TK Owners community and newsletter.
-- **Extraction:** grokbot · quotes verified 39/39
+- **Extraction:** grokbot · quotes verified 42/42 · reviewed by claude-opus-5-5
 
 ## Summary
 
@@ -13,7 +13,7 @@ Chris Koerner interviews Alex, who started Brushworks Co, a forestry mulching (b
 
 | # | Idea | Category | Depth | Automation [E] A/O/D/B/S | UK [E] |
 |---|---|---|---|---|---|
-| I1 | **Forestry mulching / brush clearing service** — Clear overgrown land (honeysuckle, brush, fence lines) for rural and suburban landowners with a skid steer and forestry mulcher head, priced by the day. | home_service | deep | 3/2/0/4/2 | 3 |
+| I1 | **Forestry mulching / brush clearing service** — Clear overgrown land (honeysuckle, brush, fence lines) for rural and suburban landowners with a skid steer and forestry mulcher head, priced by the day. | home_service | deep | 1/2/0/4/2 | 3 |
 | I2 | **Remote-controlled slope mowing (Green Climber) service** — Use a remote-controlled Green Climber mower to clear steep hillsides, ditch lines, paths and commercial parking lot edges, sold door to door. | home_service | moderate | 1/2/0/4/2 | 4 |
 | I3 | **YouTube content marketing for a local tree service** — Run content/YouTube marketing for a large referral-only tree service. | agency | mention | 2/3/2/5/3 | 5 |
 | I4 | **Lake/pond weed cleaning for lakefront homes** — Use specialised equipment to clear seaweed around docks of lakefront homes, selling door to door to neighbours. | home_service | mention | 1/2/0/4/2 | 2 |
@@ -27,13 +27,13 @@ Chris Koerner interviews Alex, who started Brushworks Co, a forestry mulching (b
 - **Pricing:** Day-rate (half day, day, multi-day). USD 2000 per day; average job USD 3100 per job; Green Climber jobs USD 3000 per day Tried per-acre/density pricing; close rate halved, so returned to day pricing.
 - **Acquisition:** paid_social: Meta lead ads with eye-catching local video, targeted by hand-picked rural zip codes, age 35+, interests in Tractor Supply/Rural King, all placements; CPL ~23 USD.; youtube: Organic YouTube channel from day one with local keywords in tags; linked from ads to build trust; ~80% of customers touched YouTube.; referrals_word_of_mouth: Horse community referrals and neighbours seeing cleared property lines.; seo_organic_search: Organic web traffic grew to ~36%; keyword research on lay terms people search.
 - **Delivery:** Founder quotes in person and runs marketing; partner and one employee (300 USD/day) operate two Bobcat machines; partner's retired father-in-law helps part time.
-- **Unit economics (claims):** First month ~17,000 USD revenue, ~85% margin before repair reserve; Average job ~3,100 USD; CPL 23 USD; close rate 49%; Gross margin 69.75% after 15% repair reserve; Machine payments 1,400 and 1,900 USD/month; Last month 54,000 USD; ~70,000 USD/month booked; projecting ~500,000 USD/yr with two machines
+- **Unit economics (claims):** First month ~17,000 USD revenue (Alex; host intro says almost 18,000 USD at 85% net margin); 85% margin excludes the 15% repair reserve; Average job ~3,100 USD; CPL 23 USD; close rate 49%; Gross margin 69.75% after 15% repair reserve; Machine payments 1,400 and 1,900 USD/month; Last month 54,000 USD; ~70,000 USD/month booked; projecting ~500,000 USD/yr with two machines
 - **Tools:** Bobcat skid steer with forestry kit, Meta lead ads, YouTube, SEMrush, Housecall Pro, Telegram, Insta360 Go 3S
 - **Startup cost:** Used machine ~90,000 USD financed at ~7.8%; new machine ~129,000 USD at 0% for 60 months with 5,000 USD down
 - **Time to first revenue:** Job on the schedule within two days of starting ads
 - **UK applicability [E]:** 3/5 — Land clearing demand exists in UK rural areas, but plots are smaller, invasive species differ, and hedgerow/tree felling rules, nesting-bird season and felling licences constrain work; Meta targeting by postcode works similarly.
 - **Risks:** Very capital intensive (90-130k USD machines); Weather: rain stops work; Hard on equipment; used machines cost more in repairs; Quoting accuracy (off by days); Rising CPL as market saturates; Hiring skilled operators
-- **Automation [E]:** acquisition 3/5 (Meta ads targeting and lead capture automate well; content creation needs filming real jobs. Inbound only, legal in UK.); onboarding 2/5 (Every lead is phoned and quoted in person on site.); delivery 0/5 (Heavy machinery operated by people on site.); billing 4/5 (Invoicing via Housecall Pro.); support 2/5 (Customer communication and scheduling by founder; weather rescheduling.)
+- **Automation [E]:** acquisition 1/5 (Meta ads targeting and lead capture automate well; content creation needs filming real jobs. Inbound only, legal in UK.); onboarding 2/5 (Every lead is phoned and quoted in person on site.); delivery 0/5 (Heavy machinery operated by people on site.); billing 4/5 (Invoicing via Housecall Pro.); support 2/5 (Customer communication and scheduling by founder; weather rescheduling.)
 > "I can charge $2,000 a day. You can get the equipment financed" — Chris Koerner (~1:21)
 > "So cost per lead average $23" — Alex (~29:01)
 > "So, yeah, our gross margin is 69.75" — Alex (~33:21)
@@ -104,6 +104,12 @@ Chris Koerner interviews Alex, who started Brushworks Co, a forestry mulching (b
   > "I've been told 150,000 for a machine and I've been told 70,000 for the machine" — Alex (~47:14)
 - **Tree service client ~6M USD/yr, referral only** (revenue, second-hand, claimant: Alex)
   > "I think he's like six million a year" — Alex (~12:21)
+- **First month revenue about 17,000 USD (operator's own figure)** (revenue, first-hand, claimant: Alex)
+  > "So the first month, I mean, I pulled up before it was like 17,000" — Alex (~37:08)
+- **Around 70,000 USD booked on the schedule for each month through October** (revenue, first-hand, claimant: Alex)
+  > "we've got around 70,000 on the schedule for each month up to October" — Alex (~41:32)
+- **Forestry kit on the skid steer costs about 15,000 USD extra** (cost, first-hand, claimant: Alex)
+  > "the forestry kit is like an additional $15,000 kit" — Alex (~18:38)
 
 ## Tactics and playbook steps
 

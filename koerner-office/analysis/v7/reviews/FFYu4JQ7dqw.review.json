@@ -1,0 +1,101 @@
+{
+ "verdict": "minor_issues",
+ "error_counts": {
+  "missed_ideas": 0,
+  "missed_claims": 2,
+  "factual_errors": 1,
+  "unsupported_or_invented": 0,
+  "score_adjustments": 6
+ },
+ "corrections": [
+  {
+   "path": "ideas/0/automation/acquisition/score_e",
+   "old": 2,
+   "new": 1,
+   "reason": "Customers are recruited in person with signs at parks, shops and events, which caps acquisition at 0-1."
+  },
+  {
+   "path": "ideas/0/automation/onboarding/score_e",
+   "old": 4,
+   "new": 2,
+   "reason": "A staffed stand explains the rules and technique and sets up each player, so it is not self-serve."
+  },
+  {
+   "path": "ideas/0/automation/support/score_e",
+   "old": 2,
+   "new": 1,
+   "reason": "Support is fully in person: fetching discs and adjudicating throws."
+  },
+  {
+   "path": "ideas/2/automation/acquisition/score_e",
+   "old": 2,
+   "new": 1,
+   "reason": "Players are recruited in person at events, which caps acquisition at 0-1."
+  },
+  {
+   "path": "ideas/2/automation/onboarding/score_e",
+   "old": 4,
+   "new": 2,
+   "reason": "A staffed stand handles each participant."
+  },
+  {
+   "path": "ideas/2/automation/support/score_e",
+   "old": 2,
+   "new": 1,
+   "reason": "Support is in person only."
+  },
+  {
+   "path": "metric_claims/0/value/currency",
+   "old": "USD",
+   "new": null,
+   "reason": "The New Zealand business's currency is not stated; '$' could be NZD. The figure is hearsay."
+  }
+ ],
+ "add_ideas": [],
+ "add_metric_claims": [
+  {
+   "claim": "Shop test pricing: $10 for one throw or $20 for three throws from 95 ft, $1,000 prize",
+   "metric": "price",
+   "value": {
+    "amount": 10,
+    "amount_max": 20,
+    "currency": "USD",
+    "unit": "per throw / per 3 throws"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "It's going to be $10 for one throw or $20 for three throws",
+    "speaker": "Chris Koerner"
+   }
+  },
+  {
+   "claim": "Recommended pricing after the test: $5 for one throw or $10 for three, at enough distance",
+   "metric": "price",
+   "value": {
+    "amount": 5,
+    "amount_max": 10,
+    "currency": "USD",
+    "unit": "per throw / per 3 throws"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I think that a good price for this is going to be like five bucks for one throw or 10 bucks for three throws at plenty of enough distance",
+    "speaker": "Chris Koerner"
+   }
+  }
+ ],
+ "notes": "The extraction is accurate and covers the experiment, the New Zealand inspiration and the generalised skill-game idea well. The main fixes are automation scores, which were too high for an in-person staffed stand, and an assumed USD currency for the New Zealand hearsay figure. The tested and recommended price claims were missing from metric_claims and have been added. The shop revenue was largely notional, since Chris paid the fees to charity and later throws were free, which the B rating with a small-sample caveat reasonably reflects.",
+ "video_id": "FFYu4JQ7dqw",
+ "reviewed_at": "2026-10-22T12:29:39",
+ "cost_usd": 0.15174880000000002,
+ "applied": 7,
+ "failed_to_apply": []
+}

@@ -3,7 +3,7 @@
 - **Video:** [UApJWuKFtH4](https://www.youtube.com/watch?v=UApJWuKFtH4) · **Channel:** Nick Huber - Sweaty Startup · **Uploaded:** 2026-10-20 · **Length:** 4 min · **Transcript:** local_whisper_tiny
 - **Speakers:** Nick Huber (host), Corey (guest) · **Format:** other
 - **Evidence quality:** C — Personal anecdote about phone habits with no business idea or verifiable metrics; the only figures are self-reported screen time. The transcript is Whisper tiny with some mis-heard words.
-- **Extraction:** claude-sonnet-5-5 · quotes verified 8/8
+- **Extraction:** claude-sonnet-5-5 · quotes verified 8/8 · reviewed by claude-opus-5-5
 
 ## Summary
 
@@ -13,7 +13,7 @@ Nick Huber and a guest (Corey) discuss breaking a phone addiction. Nick turned h
 
 **Phone off 7pm to 7am** (mindset)
 1. Turn the phone off at 7pm and back on at 7am
-2. If a full phone fast is too hard, start with a shorter window such as 7 to 7 or 8 to 8
+2. Corey's version: try a 72-hour phone fast; if that is too long, at least turn the phone off overnight, e.g. 7 to 7 or 8 to 8
 3. Expect discomfort and anxiety at first
 > "I'm going to turn my phone off at seven p.m. I'm going to turn it back on at seven a.m." — Nick Huber (~0:16)
 
@@ -35,7 +35,7 @@ Nick Huber and a guest (Corey) discuss breaking a phone addiction. Nick turned h
 > "Me and my wife can trade phones now." — Nick Huber (~3:43)
 
 **Phone-free morning walk** (mindset)
-1. Walk about 30 minutes each morning without the phone
+1. Walk about 30 minutes each morning, ideally without the phone (Corey admits he usually takes it and ends up checking messages)
 2. Use the time to think about long-term goals
 3. Write down ideas on a notepad
 

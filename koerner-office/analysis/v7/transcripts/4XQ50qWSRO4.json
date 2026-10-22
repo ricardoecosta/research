@@ -66,7 +66,7 @@
    "time_to_first_revenue": "not stated",
    "automation": {
     "acquisition": {
-     "score_e": 4,
+     "score_e": 2,
      "how": "Content-led inbound and email automate well."
     },
     "onboarding": {
@@ -221,7 +221,7 @@
      "details": "YouTube channel."
     }
    ],
-   "delivery": "Content team produces videos and emails.",
+   "delivery": "Content (videos, posts, emails) produced on a growing content budget; team structure not stated.",
    "unit_economics_claims": [
     "Year 1 >$3M revenue on <$10k content spend",
     "Year 2 ~$5M on $200k",
@@ -503,7 +503,7 @@
    "hypothetical": true
   },
   {
-   "claim": "Organic-dominant brands have AOV:CAC ratio better than double paid-dominant brands; SEO ROI 25% higher than ads",
+   "claim": "SEO ROI is 25% higher on average than ad spend (organic-dominant brands' 41% lower CAC is logged separately)",
    "metric": "other",
    "value": {
     "amount": 25,
@@ -647,6 +647,73 @@
     "approx_timestamp_s": 1674
    },
    "hypothetical": true
+  },
+  {
+   "claim": "Studies show organic-dominant brands have 41% lower median CAC than paid-dominant brands",
+   "metric": "cost",
+   "value": {
+    "amount": 41,
+    "currency": null,
+    "unit": "percent lower median CAC"
+   },
+   "period": null,
+   "claimant": "Codie Sanchez",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "Like there's lots of studies that show organic dominant brands running 41% lower median cash on cash percentage than paid dominant brands",
+    "speaker": "Codie Sanchez",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18839,
+    "approx_timestamp_s": 1216
+   }
+  },
+  {
+   "claim": "E-commerce CAC has climbed roughly 60% over five years",
+   "metric": "cost",
+   "value": {
+    "amount": 60,
+    "currency": null,
+    "unit": "percent increase"
+   },
+   "period": "five years",
+   "claimant": "Codie Sanchez",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "The cash across e-commerce has climbed roughly 60%.",
+    "speaker": "Codie Sanchez",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21131,
+    "approx_timestamp_s": 1364
+   }
+  },
+  {
+   "claim": "The average Facebook ad account returns roughly 2:1 ROAS, maybe 3:1 in a great month",
+   "metric": "other",
+   "value": {
+    "amount": 2,
+    "amount_max": 3,
+    "currency": null,
+    "unit": "ROAS ratio"
+   },
+   "period": null,
+   "claimant": "Codie Sanchez",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "the average Facebook ad account at roughly, let's call it a two to one return",
+    "speaker": "Codie Sanchez",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21709,
+    "approx_timestamp_s": 1402
+   }
   }
  ],
  "tactics": [
@@ -875,18 +942,18 @@
  ],
  "evidence_quality": {
   "rating": "C",
-  "rationale": "Mostly framework teaching with cited statistics; her own revenue figures are first-hand but unverified. Whisper transcript has misheard words (CAP/cash for CAC, rocks for ROCS).",
-  "promotional_conflict": "Promotes her new book, Boardroom ($24k/yr) and a free live event with prizes."
+  "rationale": "Mostly framework teaching with cited statistics. Her own revenue and member-ROI figures are first-hand but unverified. The transcript has misheard words (CAP/cash for CAC, rocks for ROCS, JBLIS for JVs).",
+  "promotional_conflict": "Promotes her new book, Boardroom ($24k/yr) with advisor sales calls, Exit Ready advisory, and a free live event with prizes."
  },
  "extraction": {
   "model": "grokbot",
   "extracted_at": "2026-10-22T08:57:49",
   "cost_usd": null,
-  "reviewed_by": null,
-  "review_notes": null,
+  "reviewed_by": "claude-opus-5-5",
+  "review_notes": "The extraction is solid and faithful to this framework-heavy promotional tutorial. Ideas, the plumber example and the media-business figures are captured accurately. The main issues are a garbled merged claim about organic vs paid brands, a few missed benchmark stats, and an overly generous acquisition automation score for an advisor-call-led coaching sale. The C rating is appropriate given the heavy self-promotion and unverified self-reported numbers.",
   "quote_verification": {
-   "quotes": 31,
-   "verified": 31,
+   "quotes": 34,
+   "verified": 34,
    "rate": 1.0
   },
   "schema_errors": []

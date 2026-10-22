@@ -58,6 +58,12 @@
       "label": "regular"
      },
      {
+      "amount": 11.5,
+      "currency": "USD",
+      "unit": "small",
+      "label": "monthly special"
+     },
+     {
       "amount": 13.5,
       "currency": "USD",
       "unit": "large",
@@ -641,6 +647,28 @@
     "char_offset": 17926,
     "approx_timestamp_s": 1034
    }
+  },
+  {
+   "claim": "Merch is about 20% of revenue, mostly sold in person rather than online",
+   "metric": "revenue",
+   "value": {
+    "amount": 20,
+    "currency": "%",
+    "unit": "share of revenue from merch"
+   },
+   "period": null,
+   "claimant": "Owner (Todd or Stephanie; speaker unclear)",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "It's probably close to 20%",
+    "speaker": null,
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 27713,
+    "approx_timestamp_s": 1599
+   }
   }
  ],
  "tactics": [
@@ -903,11 +931,11 @@
   "model": "grokbot",
   "extracted_at": "2026-10-22T09:23:34",
   "cost_usd": null,
-  "reviewed_by": null,
-  "review_notes": null,
+  "reviewed_by": "claude-opus-5-5",
+  "review_notes": "The extraction is thorough and accurate on the P&L figures, prices, staffing, seasonality and startup costs, and its evidence and promotion flags are reasonable. The main gaps were a missing special-tier price point and a merch revenue-share claim that was folded into the margin claim instead of standing alone. Some figures are inconsistent and only approximate. The headline '$40k/month' is above the implied average of about $34k/month from $408.5k a year. Store 85%, truck 15% and merch about 20% do not add up, and the host admits the line items do not reconcile. An A rating is borderline; B would also be defensible.",
   "quote_verification": {
-   "quotes": 35,
-   "verified": 35,
+   "quotes": 36,
+   "verified": 36,
    "rate": 1.0
   },
   "schema_errors": []

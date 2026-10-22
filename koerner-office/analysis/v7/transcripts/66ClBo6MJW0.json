@@ -168,6 +168,29 @@
     "char_offset": 5880,
     "approx_timestamp_s": 396
    }
+  },
+  {
+   "claim": "Shared (commingled) storage for a gold IRA costs around $100 per year",
+   "metric": "cost",
+   "value": {
+    "amount": 100,
+    "currency": "USD",
+    "unit": "per year",
+    "label": "shared storage fee"
+   },
+   "period": "per year",
+   "claimant": "Casper Capital narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "storage fees around $100 per year for shared storage",
+    "speaker": "Casper Capital narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5746,
+    "approx_timestamp_s": 387
+   }
   }
  ],
  "tactics": [
@@ -275,11 +298,11 @@
   "model": "grokbot",
   "extracted_at": "2026-10-22T09:02:27",
   "cost_usd": null,
-  "reviewed_by": null,
-  "review_notes": null,
+  "reviewed_by": "claude-opus-5-5",
+  "review_notes": "The extraction is accurate and complete for a US personal-finance explainer with no business idea. Numbers, purity rules, fees and penalties match the transcript, and the affiliate conflict and C rating are appropriate. The only gap is that the combined fee claim records just the custodian range, so the storage figure is added as a separate claim. 'Thor' may be a caption mis-hearing of a provider name, but it cannot be checked against the transcript.",
   "quote_verification": {
-   "quotes": 11,
-   "verified": 11,
+   "quotes": 12,
+   "verified": 12,
    "rate": 1.0
   },
   "schema_errors": []

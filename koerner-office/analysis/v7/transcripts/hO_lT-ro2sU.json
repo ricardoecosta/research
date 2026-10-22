@@ -26,7 +26,7 @@
  "metric_claims": [
   {
    "claim": "A cybersecurity firm found over 101,000 devices infected with malware built to steal ChatGPT logins.",
-   "metric": "customers",
+   "metric": "other",
    "value": {
     "amount": 101000,
     "amount_max": null,
@@ -210,16 +210,16 @@
   }
  ],
  "evidence_quality": {
-  "rating": "D",
+  "rating": "C",
   "rationale": "A 2-minute promotional teaser with no business idea. Statistics are attributed to an unnamed cybersecurity firm and are second-hand and unverified. Useful only as a general security warning.",
-  "promotional_conflict": "Teaser drives viewers to the full episode linked in the description; the channel sells entrepreneurship content."
+  "promotional_conflict": "Teaser drives viewers to the full episode linked in the description."
  },
  "extraction": {
   "model": "claude-sonnet-5-5",
   "extracted_at": "2026-10-22T02:01:39",
   "cost_usd": 0.026862199999999996,
-  "reviewed_by": null,
-  "review_notes": null,
+  "reviewed_by": "claude-opus-5-5",
+  "review_notes": "The extraction is accurate overall and correctly sets has_business_idea to false for a short security-warning teaser with no business idea. All quotes appear verbatim and the numbers (101,000 devices, about 27,000 credential sets, $47 million, 24 years) match the transcript. The fixes are a wrong metric enum, an unsupported claim about what the channel sells, and a slightly harsh evidence rating. The speaker name 'Dark Horse Entrepreneur' does not appear in the transcript and should be checked against the video metadata.",
   "quote_verification": {
    "quotes": 10,
    "verified": 10,

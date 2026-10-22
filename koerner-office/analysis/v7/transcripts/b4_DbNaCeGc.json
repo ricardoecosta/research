@@ -74,7 +74,7 @@
     },
     {
      "channel": "paid_social",
-     "details": "Own Shopify site pushed with Google, Facebook and Instagram ads.",
+     "details": "Own Shopify site pushed with Facebook and Instagram ads.",
      "quote": null
     },
     {
@@ -255,12 +255,12 @@
    "hypothetical": false,
    "idea_local_id": "I1",
    "quote": {
-    "text": "This one has sold over 400 in the last month and this one over 100.",
+    "text": "And then this one sold over 500 in the last month.",
     "speaker": "Chris Koerner",
     "match_score": 100.0,
     "verified": true,
-    "char_offset": 8640,
-    "approx_timestamp_s": 468
+    "char_offset": 9133,
+    "approx_timestamp_s": 495
    }
   },
   {
@@ -285,6 +285,30 @@
     "verified": true,
     "char_offset": 9491,
     "approx_timestamp_s": 514
+   }
+  },
+  {
+   "claim": "The top lookalike Amazon listings together represent tens of thousands of dollars of sales in the last month on Amazon alone, from one product",
+   "metric": "revenue",
+   "value": {
+    "amount": 10000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "'tens of thousands' (vague, extrapolated from others' listings)"
+   },
+   "period": "last month",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So that's tens of thousands of dollars worth of sales on Amazon alone, not even including Shopify or Facebook Marketplace from one product.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9183,
+    "approx_timestamp_s": 497
    }
   }
  ],
@@ -446,7 +470,7 @@
    "quote": null
   },
   {
-   "lesson": "Ride a rising trend with a narrower product phrase; interest in the specific product term can be exploding even when the broad problem is flat.",
+   "lesson": "Ride a rising trend with a narrower product phrase; interest in the specific product term ('porch pirate box') can be exploding faster than the broad problem term.",
    "theme": "niche_selection",
    "quote": {
     "text": "over the last 9 months, it is exploding in popularity. So, we want to ride a mega trend.",
@@ -512,12 +536,12 @@
   "extracted_at": "2026-10-22T01:59:00",
   "cost_usd": 0.0708802,
   "quote_verification": {
-   "quotes": 17,
-   "verified": 17,
+   "quotes": 18,
+   "verified": 18,
    "rate": 1.0
   },
   "schema_errors": [],
-  "reviewed_by": null,
-  "review_notes": null
+  "reviewed_by": "claude-opus-5-5",
+  "review_notes": "The extraction is accurate and well structured. Prices, MOQ cost, margins, the sponsor conflict and the C rating all match the transcript. There were three real problems: one lesson invented a 'flat' broad trend that the transcript contradicts, one claim quote did not support its 500-unit value, and the 'tens of thousands of dollars' revenue extrapolation was missed. Google ads were also folded into paid_social instead of paid_search. The automation and UK scores are reasonable for an imported physical product."
  }
 }

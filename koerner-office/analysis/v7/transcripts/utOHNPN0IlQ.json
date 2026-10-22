@@ -72,11 +72,7 @@
       "approx_timestamp_s": 876
      }
     },
-    {
-     "channel": "seo_organic_search",
-     "details": "No search strategy is described; discoverability through YouTube search is not stated.",
-     "quote": null
-    }
+    null
    ],
    "delivery": "Claude drafts a script and can generate a thumbnail through the Higgsfield MCP connector. Claude breaks the script into scenes, Higgsfield generates images and clips, and narration can come from Higgsfield Speak 2.0 or ElevenLabs. CapCut is used to assemble clips, narration, and optional royalty-free music. The creator reviews the output, uploads it through YouTube Studio, and may test titles and thumbnails.",
    "unit_economics_claims": [
@@ -616,7 +612,7 @@
     "Client work may require more human review and revisions than the demonstration suggests."
    ],
    "is_primary": false,
-   "depth": "moderate",
+   "depth": "mention",
    "quotes": [
     {
      "text": "And if your videos don't take off, then you can still charge to do this for other people as a service.",
@@ -1689,7 +1685,7 @@
    },
    "period": null,
    "claimant": "Chris Koerner",
-   "first_hand": true,
+   "first_hand": false,
    "hypothetical": false,
    "idea_local_id": "I1",
    "quote": {
@@ -1746,6 +1742,30 @@
     "verified": true,
     "char_offset": 14969,
     "approx_timestamp_s": 841
+   }
+  },
+  {
+   "claim": "Choosing a higher-paying niche such as AI tools and tech predictions can mean $25 instead of $5 per 1,000 views.",
+   "metric": "revenue",
+   "value": {
+    "amount": 5,
+    "amount_max": 25,
+    "currency": "USD",
+    "unit": "per 1,000 views",
+    "label": "RPM range across niches"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "It could be the difference between $5 and $25 per thousand views.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5436,
+    "approx_timestamp_s": 305
    }
   }
  ],
@@ -1853,10 +1873,10 @@
    ],
    "idea_local_id": "I1",
    "quote": {
-    "text": "And then within Cap Cut itself, you choose background music should you want to include that, which I would. Just use royalty-free.",
+    "text": "And then within Cap Cut itself, you choose background music should you want to include that, which I would.",
     "speaker": "Chris Koerner",
-    "match_score": 89.7,
-    "verified": false,
+    "match_score": 100.0,
+    "verified": true,
     "char_offset": 16747,
     "approx_timestamp_s": 941
    }
@@ -2031,7 +2051,7 @@
   },
   {
    "name": "Mercury",
-   "purpose": "Named as a connector example for bank account information.",
+   "purpose": "Named as one of the Claude connectors the speaker uses daily (listed alongside Mercury for bank accounts).",
    "cost_stated": null
   }
  ],
@@ -2050,12 +2070,12 @@
   {
    "warning": "The speaker says to use royalty-free music in the edit.",
    "quote": {
-    "text": "And then within Cap Cut itself, you choose background music should you want to include that, which I would. Just use royalty-free.",
+    "text": "And then background music, you can use Cap Cut. Just use royalty-free.",
     "speaker": "Chris Koerner",
-    "match_score": 89.7,
-    "verified": false,
-    "char_offset": 16747,
-    "approx_timestamp_s": 941
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12977,
+    "approx_timestamp_s": 729
    }
   },
   {
@@ -2193,12 +2213,12 @@
    "lesson": "Use background music only when it is royalty-free.",
    "theme": "legal_risk",
    "quote": {
-    "text": "And then within Cap Cut itself, you choose background music should you want to include that, which I would. Just use royalty-free.",
+    "text": "And then background music, you can use Cap Cut. Just use royalty-free.",
     "speaker": "Chris Koerner",
-    "match_score": 89.7,
-    "verified": false,
-    "char_offset": 16747,
-    "approx_timestamp_s": 941
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12977,
+    "approx_timestamp_s": 729
    }
   }
  ],
@@ -2211,13 +2231,15 @@
   "model": "gpt-6-luna",
   "extracted_at": "2026-10-22T12:07:44",
   "cost_usd": 0,
-  "reviewed_by": null,
-  "review_notes": null,
+  "reviewed_by": "claude-opus-5-5",
+  "review_notes": "The extraction is thorough and mostly accurate. The C rating and the Higgsfield sponsorship conflict are handled appropriately. Three quotes splice two separate transcript passages and needed fixing, and a placeholder SEO channel was removed. One caveat is not flagged: the speaker's 'three times annual profits' figure is really about 2.8x annual AdSense revenue ($100k against $36k a year), so he conflates revenue with profit. Several metric_claims are trivial prompt parameters (word counts, shot counts) rather than business metrics. They are harmless, but they add noise.",
   "quote_verification": {
-   "quotes": 69,
-   "verified": 66,
-   "rate": 0.957
+   "quotes": 70,
+   "verified": 70,
+   "rate": 1.0
   },
-  "schema_errors": []
+  "schema_errors": [
+   "ideas/0/acquisition_channels/1: None is not of type 'object'"
+  ]
  }
 }

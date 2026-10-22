@@ -2,8 +2,8 @@
 
 - **Video:** [4XQ50qWSRO4](https://www.youtube.com/watch?v=4XQ50qWSRO4) · **Channel:** Codie Sanchez · **Uploaded:** 2026-08-21 · **Length:** 28 min · **Transcript:** local_whisper_tiny
 - **Speakers:** Codie Sanchez (host) · **Format:** tutorial_howto
-- **Evidence quality:** C — Mostly framework teaching with cited statistics; her own revenue figures are first-hand but unverified. Whisper transcript has misheard words (CAP/cash for CAC, rocks for ROCS). · Promotional conflict: Promotes her new book, Boardroom ($24k/yr) and a free live event with prizes.
-- **Extraction:** grokbot · quotes verified 31/31
+- **Evidence quality:** C — Mostly framework teaching with cited statistics. Her own revenue and member-ROI figures are first-hand but unverified. The transcript has misheard words (CAP/cash for CAC, rocks for ROCS, JBLIS for JVs). · Promotional conflict: Promotes her new book, Boardroom ($24k/yr) with advisor sales calls, Exit Ready advisory, and a free live event with prizes.
+- **Extraction:** grokbot · quotes verified 34/34 · reviewed by claude-opus-5-5
 
 ## Summary
 
@@ -13,7 +13,7 @@ Codie Sanchez explains her 'AOV to CAC' formula: judge a business by first-order
 
 | # | Idea | Category | Depth | Automation [E] A/O/D/B/S | UK [E] |
 |---|---|---|---|---|---|
-| I1 | **Contrarian Boardroom: tiered business-owner advisory ladder** — Codie's own offer ladder for business owners: free book/event, $24k/year Boardroom coaching, and hands-on exit-ready advisory. | education_coaching | moderate | 4/3/1/5/2 | 4 |
+| I1 | **Contrarian Boardroom: tiered business-owner advisory ladder** — Codie's own offer ladder for business owners: free book/event, $24k/year Boardroom coaching, and hands-on exit-ready advisory. | education_coaching | moderate | 2/3/1/5/2 | 4 |
 | I2 | **Plumber surface-area upsells: checklist, priority subscription, HVAC referral** — Example of raising first-order value for a trades business with a checklist inspection, a $10/month priority-response tier, and a paid partner referral. | home_service | mention | 1/2/0/4/2 | 5 |
 | I3 | **Content-led media business** — Codie's media business that earned revenue mostly from owned content and email rather than ads. | content_media | moderate | 3/5/2/5/3 | 5 |
 
@@ -32,7 +32,7 @@ Codie Sanchez explains her 'AOV to CAC' formula: judge a business by first-order
 - **Time to first revenue:** not stated
 - **UK applicability [E]:** 4/5 — Business coaching works in the UK; US-centric examples and pricing would need adapting.
 - **Risks:** Self-reported ROI claims; Coaching delivery is human-heavy
-- **Automation [E]:** acquisition 4/5 (Content-led inbound and email automate well.); onboarding 3/5 (Sales calls with advisors still human.); delivery 1/5 (Coaching delivered by human advisors.); billing 5/5 (Subscription billing.); support 2/5 (Human advisors.)
+- **Automation [E]:** acquisition 2/5 (Content-led inbound and email automate well.); onboarding 3/5 (Sales calls with advisors still human.); delivery 1/5 (Coaching delivered by human advisors.); billing 5/5 (Subscription billing.); support 2/5 (Human advisors.)
 > "For our growth boardroom, we charge 24K a year to join" — Codie Sanchez (~6:59)
 > "the average boardroom member grows by 130K a year when they pay us 24K a year" — Codie Sanchez (~7:30)
 
@@ -44,7 +44,7 @@ Codie Sanchez explains her 'AOV to CAC' formula: judge a business by first-order
 - **Business model:** Content/media revenue monetised through audience (products, events, sponsors not specified)
 - **Pricing:** not stated.  
 - **Acquisition:** organic_social_content: Organic content and email; email cited as highest ROI channel.; youtube: YouTube channel.
-- **Delivery:** Content team produces videos and emails.
+- **Delivery:** Content (videos, posts, emails) produced on a growing content budget; team structure not stated.
 - **Unit economics (claims):** Year 1 >$3M revenue on <$10k content spend; Year 2 ~$5M on $200k; Year 3 ~$7M on ~$1M
 - **Tools:** Email
 - **Startup cost:** not stated
@@ -78,7 +78,7 @@ Codie Sanchez explains her 'AOV to CAC' formula: judge a business by first-order
   > "Raising prices just 1% with no change in volume on an average operating profit jumps 11%" — Codie Sanchez (~11:08)
 - **Priority tier add-on at $10/month** (price, second-hand, hypothetical, claimant: Codie Sanchez)
   > "It's actually just 10 bucks a month to add on top of it" — Codie Sanchez (~12:32)
-- **Organic-dominant brands have AOV:CAC ratio better than double paid-dominant brands; SEO ROI 25% higher than ads** (other, second-hand, claimant: Codie Sanchez)
+- **SEO ROI is 25% higher on average than ad spend (organic-dominant brands' 41% lower CAC is logged separately)** (other, second-hand, claimant: Codie Sanchez)
   > "the return on investment of SEO was 25% higher on average than ad spend" — Codie Sanchez (~20:35)
 - **Meta average CPM up ~89% since 2020; e-commerce CAC up ~60% over five years** (cost, second-hand, claimant: Codie Sanchez)
   > "metas average CPM is up since then, roughly 89%" — Codie Sanchez (~22:41)
@@ -92,6 +92,12 @@ Codie Sanchez explains her 'AOV to CAC' formula: judge a business by first-order
   > "Year two, we did about five million against 200,000. So that's 25 to one. Year three, seven million on roughly one million invested in content" — Codie Sanchez (~26:21)
 - **Target AOV:CAC 3:1, e.g. $100 AOV -> CAC ~$33** (other, second-hand, hypothetical, claimant: Codie Sanchez)
   > "AOV to CAC is 3 to 1. If the average order value is 100, keep CAC around what? 33" — Codie Sanchez (~27:54)
+- **Studies show organic-dominant brands have 41% lower median CAC than paid-dominant brands** (cost, second-hand, claimant: Codie Sanchez)
+  > "Like there's lots of studies that show organic dominant brands running 41% lower median cash on cash percentage than paid dominant brands" — Codie Sanchez (~20:16)
+- **E-commerce CAC has climbed roughly 60% over five years** (cost, second-hand, claimant: Codie Sanchez)
+  > "The cash across e-commerce has climbed roughly 60%." — Codie Sanchez (~22:44)
+- **The average Facebook ad account returns roughly 2:1 ROAS, maybe 3:1 in a great month** (other, second-hand, claimant: Codie Sanchez)
+  > "the average Facebook ad account at roughly, let's call it a two to one return" — Codie Sanchez (~23:22)
 
 ## Tactics and playbook steps
 

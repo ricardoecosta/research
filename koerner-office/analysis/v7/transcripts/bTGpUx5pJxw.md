@@ -3,7 +3,7 @@
 - **Video:** [bTGpUx5pJxw](https://www.youtube.com/watch?v=bTGpUx5pJxw) · **Channel:** Harry's Stealth Wealth · **Uploaded:** 2026-10-10 · **Length:** 13 min · **Transcript:** cached
 - **Speakers:** Narrator (narrator) · **Format:** listicle_roundup
 - **Evidence quality:** C — This is a host-narrated listicle with prices attributed to guides and listings, but no demonstrated operating results, customer records, or firsthand business process. Several economics are illustrative payback calculations, and at least two transcript figures appear unclear or malformed.
-- **Extraction:** gpt-6-luna · quotes verified 104/106
+- **Extraction:** gpt-6-luna · quotes verified 104/106 · reviewed by claude-opus-5-5
 
 ## Summary
 
@@ -49,9 +49,9 @@ The narrator lays out seven physical machines to buy in sequence, starting with 
 - **Pricing:** Per shirt or team order.. Vinyl-printed shirt price reference USD 8-15 shirt; Approximate order total for two dozen shirts USD 200-360 team order The narrator cites shirt pricing guides and gives a roughly two-dozen-shirt order total. Blank shirt cost is covered under startup and unit economics.
 - **Acquisition:** cold_call: The narrator suggests calling a youth coach to ask what they currently pay. He also names local teams and groups as likely buyers, but gives no broader acquisition method.; other: The narrator suggests selling hometown designs and serving local teams, but does not say how he would find or contact them.
 - **Delivery:** The operator sources blank shirts, prepares designs, cuts or applies heat-transfer vinyl, and presses the shirts. The narrator recommends washing a test shirt before accepting the order.
-- **Unit economics (claims):** Vinyl-printed shirts are cited at $8 to $15 each, or about $200 to $360 for one team order.; A plain blank shirt order is cited at about $250 to $370 wholesale.; A 15 by 15 inch heat press costs about $170 to $190; the narrator says one team order covers it.
+- **Unit economics (claims):** Vinyl-printed shirts are cited at $8 to $15 each, or about $200 to $360 for one team order.; A plain blank shirt is cited at about $2.50 to $3.70 wholesale (rendered '$250 to $370' in transcript).; A 15 by 15 inch heat press costs about $170 to $190; the narrator says one team order covers it.
 - **Tools:** Clamshell heat press, Blank shirts, Heat-transfer vinyl, Fancier Studio 15 by 15 inch press
-- **Startup cost:** About $170 to $190 for a 15 by 15 inch press, plus blank shirts and supplies. The narrator cites $250 to $370 wholesale for blank shirts.
+- **Startup cost:** About $170 to $190 for a 15 by 15 inch press, plus blank shirts (about $2.50 to $3.70 each wholesale; transcript renders as '$250 to $370') and supplies.
 - **Time to first revenue:** Not stated.
 - **UK applicability [E]:** 5/5 — Custom team and workwear orders are viable in the UK. The US dollar prices and wholesale assumptions need local checking.
 - **Risks:** Transfers may peel if the temperature or pressure is too low.; A test shirt should be washed before taking a customer order.; Small batches still require time for artwork, garment sourcing, and size coordination.
@@ -84,7 +84,7 @@ The narrator lays out seven physical machines to buy in sequence, starting with 
 - **Problem:** Fences weather and need maintenance; property managers may have multiple fences that must match.
 - **Offer:** Stain fences and decks using an airless sprayer, with brushing behind the spray for the first coat.
 - **Business model:** Per-fence or per-square-foot staining service.
-- **Pricing:** Per square foot or per job.. Angie's Guide fence staining range USD 1-3 square foot; Home Guide median across more than a hundred real jobs USD 1300 job; Narrator's stated example USD 450-600 standard fence The transcript's standard-fence example says 'at $300 or $4 a foot' before estimating $450 to $600; that wording is unclear. Stain for one side is separately estimated at $150 to $230.
+- **Pricing:** Per square foot or per job.. Angie's Guide fence staining range USD 1-3 square foot; Home Guide median across more than a hundred real jobs USD 1300 job; Narrator's stated example USD 450-600 standard fence The transcript says 'at $300 or $4 a foot', which is most likely '$3 or $4 a foot' misheard: 150 ft × $3–$4 gives the stated $450 to $600. Stain for one side is separately estimated at $150 to $230.
 - **Acquisition:** cold_call: The narrator suggests calling a property manager to ask what they currently pay, and describes property managers as potential buyers with multiple fences. Screen UK business calls against CTPS.; other: Homeowners and property managers are named as target customers, but the narrator does not describe a specific campaign or lead source.
 - **Delivery:** The operator checks the wind, covers nearby items, sprays stain, and brushes the first coat into the wood. The work is done at the fence or deck.
 - **Unit economics (claims):** Fence staining is cited at $1 to $3 per square foot, with a separate cited median job of $1,300.; A new Graco Magnum sprayer is about $310 to $400; used machines are about $150 to $250.; The narrator estimates a standard fence job at $450 to $600 and stain for one side at $150 to $230.
@@ -104,7 +104,7 @@ The narrator lays out seven physical machines to buy in sequence, starting with 
 - **Offer:** Make embroidered hats or stitch logos onto flat patches that can be pressed onto caps using the heat press.
 - **Business model:** Per-hat or per-crew-order custom apparel sales.
 - **Pricing:** Per hat or per crew order.. Custom hat shop price for a two-dozen order USD 21-28 embroidered logo hat; Approximate total for 24 hats USD 500 crew order Prices are the narrator's references for custom hat shops; he does not state his own selling price or embroidery costs.
-- **Acquisition:** cold_call: The narrator suggests calling a contractor to ask what they currently pay, and identifies existing truck-lettering customers as possible hat buyers. Screen UK business calls against CTPS.; other: The idea is to cross-sell to crews already buying truck lettering or shirts; no separate campaign is described.
+- **Acquisition:** existing_audience: The narrator suggests calling a contractor to ask what they currently pay, and identifies existing truck-lettering customers as possible hat buyers. Screen UK business calls against CTPS.; other: The idea is to cross-sell to crews already buying truck lettering or shirts; no separate campaign is described.
 - **Delivery:** The operator runs a single-needle embroidery machine one color at a time. For a stiff structured cap, the narrator recommends embroidering a flat patch and pressing it onto the cap with the heat press.
 - **Unit economics (claims):** Custom hat shops are said to charge about $21 to $28 per hat for a two-dozen order, or about $500 for 24 hats.; A popular new single-needle Brother model is about $755 to $900; used machines start around $450.; The narrator says two or three crew orders of hats could pay back the machine.
 - **Tools:** Home embroidery machine, Brother single-needle embroidery machine, Heat press, Embroidered patches, Caps
@@ -176,7 +176,7 @@ The narrator lays out seven physical machines to buy in sequence, starting with 
   > "Shirt pricing guides put vinyl printed shirts at around $8 to $15 each at that size. So, one team order is roughly $200 to $360." — Narrator (~3:35)
 - **A team order is roughly $200 to $360.** (revenue, second-hand, hypothetical, claimant: Narrator)
   > "Shirt pricing guides put vinyl printed shirts at around $8 to $15 each at that size. So, one team order is roughly $200 to $360." — Narrator (~3:35)
-- **Plain blank shirts cost about $250 to $370 wholesale.** (cost, second-hand, claimant: Narrator)
+- **A plain blank shirt costs about $2.50 to $3.70 wholesale (transcript renders this as '$250 to $370', likely a caption error).** (cost, second-hand, claimant: Narrator)
   > "And a plain blank shirt costs about $250 to $370 wholesale." — Narrator (~3:44) [quote not matched verbatim]
 - **The suggested test-shirt temperature is around 305 to 320 degrees for 10 to 15 seconds.** (other, second-hand, claimant: Narrator)
   > "Press one test shirt at around 305 to 320° for 10 to 15 seconds. Wash it and only then take the job." — Narrator (~4:00)

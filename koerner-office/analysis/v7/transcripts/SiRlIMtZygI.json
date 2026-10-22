@@ -79,7 +79,7 @@
     "Lovable",
     "Bolt",
     "Cursor",
-    "Morse X"
+    "MarsX"
    ],
    "startup_cost": "not stated",
    "time_to_first_revenue": "not stated",
@@ -127,12 +127,12 @@
      "approx_timestamp_s": 132
     },
     {
-     "text": "I have so many agents and I use agents to grow my other agents.",
+     "text": "I'm here with a lot of agents and I use agents to grow my other agents.",
      "speaker": "John Rush",
-     "match_score": 87.1,
-     "verified": false,
-     "char_offset": 2759,
-     "approx_timestamp_s": 176
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 2750,
+     "approx_timestamp_s": 175
     },
     {
      "text": "So, if people say, \"I don't have an audience.\" Doesn't matter. That's not an excuse.",
@@ -441,7 +441,7 @@
    "time_to_first_revenue": "not stated",
    "automation": {
     "acquisition": {
-     "score_e": 4,
+     "score_e": 3,
      "how": "A public social post can attract sign-ups automatically, though creating a compelling post and engaging with users need human work."
     },
     "onboarding": {
@@ -715,7 +715,7 @@
     "Cold outreach to individuals needs UK PECR review and consent."
    ],
    "is_primary": false,
-   "depth": "mention",
+   "depth": "moderate",
    "quotes": [
     {
      "text": "For example, website builder for artists. And now we can go into the keyword research and and we can see how much traffic is going there.",
@@ -873,11 +873,11 @@
   },
   {
    "local_id": "I11",
-   "name": "Tux Heaven keyword opportunity",
-   "one_liner": "An unexplained niche keyword mentioned as having substantial search demand and low competition.",
+   "name": "Tax haven keyword opportunity",
+   "one_liner": "A 'tax haven' keyword John tested before the call, which he says has about 100k searches, low competition and wealthy searchers looking to save money.",
    "category": "other",
    "business_model": "not stated",
-   "customer": "not stated",
+   "customer": "People searching 'tax haven' (described by the host as wealthy people looking to save money)",
    "problem": "not stated",
    "offer": "not stated; the transcript names the keyword but does not explain a product or business around it.",
    "pricing": {
@@ -1736,7 +1736,7 @@
    }
   },
   {
-   "claim": "The guest describes his idea-generation framework as finding the 20% of work that gives 80% of the result.",
+   "claim": "The guest says he applied an 80/20 rule to decide which 20% of his own work to automate with AI first.",
    "metric": "other",
    "value": {
     "amount": 20,
@@ -1760,7 +1760,7 @@
    }
   },
   {
-   "claim": "The guest recommends putting about 50% of new users through cross-selling between products; stated as half in another claim.",
+   "claim": "Duplicate of the cross-sell claim: about half of new users come from another tool in the portfolio. This is not a recommendation.",
    "metric": "conversion_rate",
    "value": {
     "amount": 50,
@@ -1774,12 +1774,59 @@
    "hypothetical": false,
    "idea_local_id": "I1",
    "quote": {
-    "text": "That's why when I land one user in any of my tool, like I have some tools that are making like 1K a month",
+    "text": "For the new users, half of them come from one tool to the other.",
     "speaker": "John Rush",
     "match_score": 100.0,
     "verified": true,
-    "char_offset": 10343,
-    "approx_timestamp_s": 660
+    "char_offset": 10280,
+    "approx_timestamp_s": 656
+   }
+  },
+  {
+   "claim": "John says the 'tax haven' keyword he tested before the call has about 100k searches and low competition.",
+   "metric": "traffic",
+   "value": {
+    "amount": 100000,
+    "currency": null,
+    "unit": "searches (period not stated)",
+    "label": "Tax haven keyword volume"
+   },
+   "period": "Not stated",
+   "claimant": "John Rush",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I11",
+   "quote": {
+    "text": "So I just tested it now before this call and it's a it's like 100k searches. It's a lot of searches. It's low competition.",
+    "speaker": "John Rush",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17031,
+    "approx_timestamp_s": 1087
+   }
+  },
+  {
+   "claim": "John says he deliberately keeps each agent at about 100 to 1,000 customers rather than scaling further, to limit support and legacy work.",
+   "metric": "customers",
+   "value": {
+    "amount": 100,
+    "amount_max": 1000,
+    "currency": null,
+    "unit": "customers per product",
+    "label": "Target customer count per agent"
+   },
+   "period": "Current approach",
+   "claimant": "John Rush",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I rather want to have them all running like at 100 maybe a thousand customers so that I have enough people to test to ask questions and to AB test things but not more",
+    "speaker": "John Rush",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9824,
+    "approx_timestamp_s": 627
    }
   }
  ],
@@ -2065,7 +2112,7 @@
    "cost_stated": null
   },
   {
-   "name": "Morse X",
+   "name": "MarsX",
    "purpose": "John's AI coding tool for more serious or complicated product development.",
    "cost_stated": null
   },
@@ -2410,18 +2457,18 @@
  "evidence_quality": {
   "rating": "B",
   "rationale": "The guest describes his own portfolio, product workflows, and acquisition methods, and gives several revenue and pricing claims. The figures and performance claims are not independently verified, and some product-specific details and costs are omitted.",
-  "promotional_conflict": "The host promotes the TK Owners community, and the video contains a Design.com sponsor read. The sponsor read was excluded from business ideas."
+  "promotional_conflict": "The host promotes the TK Owners community, and the video contains a Design.com sponsor read (excluded from ideas). The guest demos and promotes his own products (SEO Bot, Unicorn Platform, MarsX), so his tool recommendations and SEO claims are self-interested."
  },
  "extraction": {
   "model": "gpt-6-luna",
   "extracted_at": "2026-10-22T10:40:45",
   "cost_usd": 0,
-  "reviewed_by": null,
-  "review_notes": null,
+  "reviewed_by": "claude-opus-5-5",
+  "review_notes": "The extraction is thorough and generally accurate on the main revenue claims (about 3M combined, SEO Bot at 1M ARR and 110k/month, directories at 1K–10K/month) and the validation and growth framework. The main problems are caption errors carried into the analyst's own fields ('Morse X' should be MarsX, 'Tux Heaven' should be tax haven) and one non-verbatim quote. Metric claim 35 is an unsupported duplicate with a mismatched quote. Evidence rating B is reasonable, but the guest's interest in promoting his own tools should be flagged.",
   "quote_verification": {
-   "quotes": 83,
-   "verified": 82,
-   "rate": 0.988
+   "quotes": 85,
+   "verified": 85,
+   "rate": 1.0
   },
   "schema_errors": []
  }

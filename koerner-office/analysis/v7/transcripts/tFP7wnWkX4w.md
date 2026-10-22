@@ -3,7 +3,7 @@
 - **Video:** [tFP7wnWkX4w](https://www.youtube.com/watch?v=tFP7wnWkX4w) · **Channel:** The Koerner Office · **Uploaded:** 2025-04-21 · **Length:** 39 min · **Transcript:** ok
 - **Speakers:** Chris Koerner (host), Billy Howell (guest) · **Format:** operator_interview
 - **Evidence quality:** B — First-hand operator with a credible process (Upwork, demo-first selling) but almost no revenue figures, client counts or build fees; ideas side-discussed are speculative. · Promotional conflict: Billy sells app agency services and has a YouTube channel; says he is not sponsored by Replit. Host promotes his own newsletter/podcast.
-- **Extraction:** claude-sonnet-5-5 · quotes verified 29/30
+- **Extraction:** claude-sonnet-5-5 · quotes verified 30/30 · reviewed by claude-opus-5-5
 
 ## Summary
 
@@ -128,7 +128,7 @@ Billy Howell, a self-taught vibe coder and former defense contractor, explains h
   > "If you're spending, you know, three to four bucks on a proposal, that's a great CPA for a potentially thousand job" — Billy Howell (~22:27)
 - **Replit bounty costs about $150 for three hours of dev time** (price, second-hand, claimant: Billy Howell)
   > "you could pay you could pay like 150 bucks to get three hours of dev time" — Billy Howell (~8:45)
-- **Team of four after the video went viral** (customers, first-hand, claimant: Billy Howell)
+- **Team of four after the video went viral** (other, first-hand, claimant: Billy Howell)
   > "I've got a team of four guys now and we're making stupid simple app" — Billy Howell (~2:10)
 - **40 Replits and 20 local directories built before first sale** (other, first-hand, claimant: Billy Howell)
   > "I had 40 replets I created for fun and 20 directories that I had made with cursor locally" — Billy Howell (~32:39)

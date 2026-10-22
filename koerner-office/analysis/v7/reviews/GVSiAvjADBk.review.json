@@ -1,0 +1,57 @@
+{
+ "verdict": "minor_issues",
+ "error_counts": {
+  "missed_ideas": 0,
+  "missed_claims": 1,
+  "factual_errors": 1,
+  "unsupported_or_invented": 1,
+  "score_adjustments": 1
+ },
+ "corrections": [
+  {
+   "path": "warnings/0/warning",
+   "old": "Don't start a blog or content site reliant on Google search traffic in 2025 if you want $5k/month in 12 months.",
+   "new": "Don't start a blog or content site reliant on Google or other organic search traffic if you want $5k/month in 12 months, unless you have an alternative traffic source or ad arbitrage.",
+   "reason": "The transcript never names a year, only 'this year'. It also explicitly makes an exception for ad arbitrage or other unique traffic sources."
+  },
+  {
+   "path": "ideas/1/automation/delivery/score_e",
+   "old": 3,
+   "new": 1,
+   "reason": "An own-brand physical product needs manufacturing, inventory and physical fulfilment. Physical work caps delivery at 0-1, even when 3PL or FBA is used."
+  },
+  {
+   "path": "tools_mentioned/2/cost_stated",
+   "old": "$1 for first three months via sponsor",
+   "new": "Free for first three days, then $1 for first three months",
+   "reason": "The transcript states the Shopify trial terms as free for three days, then $1 for three months. It does not say this is a sponsor-specific discount."
+  }
+ ],
+ "add_ideas": [],
+ "add_metric_claims": [
+  {
+   "claim": "A simple tool website featured in a separate video is making $43,000 per month",
+   "metric": "revenue",
+   "value": {
+    "amount": 43000,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "period": null,
+   "claimant": "Spencer Haws",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "I recently recorded a video of a simple tool website that is making $43,000 per month",
+    "speaker": "Spencer Haws"
+   }
+  }
+ ],
+ "notes": "Overall this is a solid extraction. It captures all five recommended website types, the sponsor segment, and the three types to avoid, and most claims are labelled correctly as first-hand or second-hand. The errors are small: an invented year in a warning, a mis-attributed Shopify trial cost, and a delivery automation score for the own-product e-commerce idea that was set too high. One closing metric claim ($43k/month tool site) was missed. The evidence rating of C and the promotional-conflict note are appropriate.",
+ "video_id": "GVSiAvjADBk",
+ "reviewed_at": "2026-10-22T12:32:14",
+ "cost_usd": 0.1442608,
+ "applied": 3,
+ "failed_to_apply": []
+}

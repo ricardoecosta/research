@@ -1,0 +1,87 @@
+{
+ "verdict": "minor_issues",
+ "error_counts": {
+  "missed_ideas": 0,
+  "missed_claims": 1,
+  "factual_errors": 3,
+  "unsupported_or_invented": 4,
+  "score_adjustments": 0
+ },
+ "corrections": [
+  {
+   "path": "tactics/5/quote/text",
+   "old": "And then within Cap Cut itself, you choose background music should you want to include that, which I would. Just use royalty-free.",
+   "new": "And then within Cap Cut itself, you choose background music should you want to include that, which I would.",
+   "reason": "Not verbatim. The quote joined two separate passages; 'Just use royalty-free' comes from an earlier recap."
+  },
+  {
+   "path": "warnings/1/quote/text",
+   "old": "And then within Cap Cut itself, you choose background music should you want to include that, which I would. Just use royalty-free.",
+   "new": "And then background music, you can use Cap Cut. Just use royalty-free.",
+   "reason": "The quote spliced two passages together; this is the verbatim source of the royalty-free advice."
+  },
+  {
+   "path": "lessons/8/quote/text",
+   "old": "And then within Cap Cut itself, you choose background music should you want to include that, which I would. Just use royalty-free.",
+   "new": "And then background music, you can use Cap Cut. Just use royalty-free.",
+   "reason": "The quote spliced two passages together; replaced with the verbatim source."
+  },
+  {
+   "path": "metric_claims/27/first_hand",
+   "old": true,
+   "new": false,
+   "reason": "This is a general claim about what a beginner can do. He did not report his own completed production time, and the demo did not finish a full video."
+  },
+  {
+   "path": "ideas/0/acquisition_channels/1",
+   "old": {
+    "channel": "seo_organic_search",
+    "details": "No search strategy is described; discoverability through YouTube search is not stated.",
+    "quote": null
+   },
+   "new": null,
+   "reason": "Placeholder channel the transcript does not support; remove it."
+  },
+  {
+   "path": "ideas/6/depth",
+   "old": "moderate",
+   "new": "mention",
+   "reason": "The transcript covers the service idea in a single sentence with no specifics."
+  },
+  {
+   "path": "tools_mentioned/26/purpose",
+   "old": "Named as a connector example for bank account information.",
+   "new": "Named as one of the Claude connectors the speaker uses daily (listed alongside Mercury for bank accounts).",
+   "reason": "The transcript ties 'bank accounts' to Mercury, not Stripe."
+  }
+ ],
+ "add_ideas": [],
+ "add_metric_claims": [
+  {
+   "claim": "Choosing a higher-paying niche such as AI tools and tech predictions can mean $25 instead of $5 per 1,000 views.",
+   "metric": "revenue",
+   "value": {
+    "amount": 5,
+    "amount_max": 25,
+    "currency": "USD",
+    "unit": "per 1,000 views",
+    "label": "RPM range across niches"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "It could be the difference between $5 and $25 per thousand views.",
+    "speaker": "Chris Koerner"
+   }
+  }
+ ],
+ "notes": "The extraction is thorough and mostly accurate. The C rating and the Higgsfield sponsorship conflict are handled appropriately. Three quotes splice two separate transcript passages and needed fixing, and a placeholder SEO channel was removed. One caveat is not flagged: the speaker's 'three times annual profits' figure is really about 2.8x annual AdSense revenue ($100k against $36k a year), so he conflates revenue with profit. Several metric_claims are trivial prompt parameters (word counts, shot counts) rather than business metrics. They are harmless, but they add noise.",
+ "video_id": "utOHNPN0IlQ",
+ "reviewed_at": "2026-10-22T12:30:03",
+ "cost_usd": 0.2817088,
+ "applied": 7,
+ "failed_to_apply": []
+}

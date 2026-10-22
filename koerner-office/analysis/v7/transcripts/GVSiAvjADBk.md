@@ -3,7 +3,7 @@
 - **Video:** [GVSiAvjADBk](https://www.youtube.com/watch?v=GVSiAvjADBk) · **Channel:** Niche Pursuits · **Uploaded:** 2025-05-08 · **Length:** 12 min · **Transcript:** local_whisper_tiny
 - **Speakers:** Spencer Haws (host) · **Format:** listicle_roundup
 - **Evidence quality:** C — Listicle with a few first-hand claims from the author's own businesses but mostly third-party examples and traffic-based revenue estimates; Whisper transcript. · Promotional conflict: Sponsored by Build Your Store/AutoDS; author owns Link Whisper and Niche Pursuits.
-- **Extraction:** grokbot · quotes verified 28/28
+- **Extraction:** grokbot · quotes verified 29/29 · reviewed by claude-opus-5-5
 
 ## Summary
 
@@ -14,7 +14,7 @@ Spencer Haws of Niche Pursuits lists the five types of websites he would build t
 | # | Idea | Category | Depth | Automation [E] A/O/D/B/S | UK [E] |
 |---|---|---|---|---|---|
 | I1 | **Niche SaaS tool solving your own pain point** — Build a simple software tool for a real pain in a niche (e.g. Link Whisper for WordPress internal linking), using AI coding tools for the MVP. | saas_software | moderate | 3/5/5/5/4 | 5 |
-| I2 | **E-commerce with your own physical product on your own store** — Launch your own product on Shopify, use Amazon and other marketplaces as extra channels, and scale with profitable paid ads. | ecommerce_physical | moderate | 4/5/3/5/4 | 5 |
+| I2 | **E-commerce with your own physical product on your own store** — Launch your own product on Shopify, use Amazon and other marketplaces as extra channels, and scale with profitable paid ads. | ecommerce_physical | moderate | 4/5/1/5/4 | 5 |
 | I3 | **Free tool website monetised by ads** — Build a free web utility (e.g. YouTube thumbnail downloader, AI text detector) that people return to, and earn display ad revenue. | saas_software | moderate | 4/5/5/5/5 | 5 |
 | I4 | **Paid membership community** — Lead a passionate niche community and charge $20-100+ a month for membership. | education_coaching | moderate | 2/5/2/5/3 | 5 |
 | I5 | **Niche newsletter grown with paid ads** — Grow an email list in a niche with paid ads as long as cost per subscriber is below revenue per subscriber, monetised with sponsorships. | content_media | moderate | 4/5/4/4/5 | 5 |
@@ -54,7 +54,7 @@ Spencer Haws of Niche Pursuits lists the five types of websites he would build t
 - **Time to first revenue:** not stated
 - **UK applicability [E]:** 5/5 — Shopify and Amazon UK work; product safety and consumer rights rules apply.
 - **Risks:** Inventory risk; Ad costs can exceed margins; Amazon dependence
-- **Automation [E]:** acquisition 4/5 (Paid ads can be agent-managed with budget approval.); onboarding 5/5 (Checkout.); delivery 3/5 (3PL/FBA handles shipping; product sourcing needs human decisions.); billing 5/5 (Shopify.); support 4/5 (Agent customer service.)
+- **Automation [E]:** acquisition 4/5 (Paid ads can be agent-managed with budget approval.); onboarding 5/5 (Checkout.); delivery 1/5 (3PL/FBA handles shipping; product sourcing needs human decisions.); billing 5/5 (Shopify.); support 4/5 (Agent customer service.)
 > "I launched a pillow business on Amazon and that business was making well over $10,000 per month within the first 12 months" — Spencer Haws (~2:35)
 
 ### I3. Free tool website monetised by ads
@@ -137,6 +137,8 @@ Spencer Haws of Niche Pursuits lists the five types of websites he would build t
   > "he now has over 800,000 email subscribers" — Spencer Haws (~8:41)
 - **MarketBeat has about 5M subscribers and about $40M revenue this year** (revenue, second-hand, claimant: Spencer Haws)
   > "roughly 5 million email subscribers and they will do about $40 million in revenue this year" — Spencer Haws (~9:06)
+- **A simple tool website featured in a separate video is making $43,000 per month** (revenue, second-hand, claimant: Spencer Haws)
+  > "I recently recorded a video of a simple tool website that is making $43,000 per month" — Spencer Haws (~11:53)
 
 ## Tactics and playbook steps
 
@@ -169,11 +171,11 @@ Spencer Haws of Niche Pursuits lists the five types of websites he would build t
 
 ## Warnings and mistakes
 
-- Don't start a blog or content site reliant on Google search traffic in 2025 if you want $5k/month in 12 months.
+- Don't start a blog or content site reliant on Google or other organic search traffic if you want $5k/month in 12 months, unless you have an alternative traffic source or ad arbitrage.
 - Affiliate sites are risky: programs can be taken away and Google dependence is fragile.
 - Websites relying on social traffic (Pinterest, Facebook) fight platforms that keep users on-platform and face algorithm risk.
 - Revenue figures for third-party tool sites are estimates, not verified.
 
 ## Tools mentioned
 
-Link Whisper (Author's WordPress internal linking SaaS), Long Tail Pro (Author's keyword research SaaS), Shopify (E-commerce store; $1 for first three months via sponsor), Amazon FBA (Marketplace fulfilment), Build Your Store (Sponsor: AI-built Shopify stores), AutoDS (Dropshipping automation; $1 for first 30 days), Similarweb (Traffic estimates), MemberPress (Membership site plugin), youtubethumbnaildownloader.com (Example free tool site), ZeroGPT (Example free tool site (AI detection))
+Link Whisper (Author's WordPress internal linking SaaS), Long Tail Pro (Author's keyword research SaaS), Shopify (E-commerce store; Free for first three days, then $1 for first three months), Amazon FBA (Marketplace fulfilment), Build Your Store (Sponsor: AI-built Shopify stores), AutoDS (Dropshipping automation; $1 for first 30 days), Similarweb (Traffic estimates), MemberPress (Membership site plugin), youtubethumbnaildownloader.com (Example free tool site), ZeroGPT (Example free tool site (AI detection))

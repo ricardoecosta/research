@@ -33,7 +33,7 @@
    "problem": "Invoicing software is painful and rarely industry-specific; contractors on a job site do not want to log into a CRM and fill in name, phone, email and address.",
    "offer": "Free invoicing software where the user types or emails something like 'send an invoice for $800 to Mary Smith for tree trimming services'; the app extracts the details with OpenAI, asks for confirmation, and emails the customer an invoice with a Stripe checkout link. Includes a dashboard of invoices sent, paid and pending.",
    "pricing": {
-    "model": "Free to users; platform earns a processing markup (e.g. 3.4% charged vs Stripe's ~2.9%); users can mark it up or pass it on",
+    "model": "Free to users; platform earns a processing markup (e.g. about 3.5% charged vs Stripe's ~2.9%); users can mark it up or pass it on",
     "price_points": [
      {
       "amount": 2.9,
@@ -54,7 +54,7 @@
       "label": "Hypothetical revenue at 100 customers"
      }
     ],
-    "notes": "The transcript garbles the figure ('3 12%'); read as roughly 3.4%, i.e. about half a percent on top of Stripe. Not a stated price to customers."
+    "notes": "The transcript garbles the figure ('3 12%'), most likely '3 1/2%' (3.5%). He calls the margin 'half a percent', though 3.5% minus 2.9% is about 0.6%. Not a stated price to customers."
    },
    "acquisition_channels": [
     {
@@ -450,7 +450,7 @@
    "steps": [
     "Offer the software free",
     "Process payments through Stripe at about 2.9%",
-    "Charge a slightly higher rate (about 3.4%) and keep the difference of about 0.5%",
+    "Charge a slightly higher rate (about 3.5%) and keep the difference of roughly half a percent",
     "Let customers pass the fee on or mark it up to their clients"
    ],
    "idea_local_id": "I1",
@@ -691,7 +691,7 @@
    "rate": 1.0
   },
   "schema_errors": [],
-  "reviewed_by": null,
-  "review_notes": null
+  "reviewed_by": "claude-opus-5-5",
+  "review_notes": "The extraction is accurate and well grounded. It captures the free invoicing app, the processing-markup model, and the host's statement that he will not run it as a business. Evidence rating C and the promotional conflict (TK Owners, Replit showcase) are appropriate. The only real error is reading the garbled '3 12%' as 3.4%; it most likely means 3.5%. Treating the Trends-plus-autocomplete method as idea I2 is a stylistic choice and was left as is."
  }
 }

@@ -3,7 +3,7 @@
 - **Video:** [LfgzWJX6zDE](https://www.youtube.com/watch?v=LfgzWJX6zDE) · **Channel:** UpFlip · **Uploaded:** 2026-07-13 · **Length:** 36 min · **Transcript:** local_whisper_tiny
 - **Speakers:** UpFlip host (Paul, per transcript) (host), Stephanie (guest), Todd (guest) · **Format:** case_study_profile
 - **Evidence quality:** A — First-hand owners sharing a P&L with specific figures, though some line items are approximate and the Whisper transcript garbles words. · Promotional conflict: Sponsor read for Busy; UpFlip promotes its assessment tool.
-- **Extraction:** grokbot · quotes verified 35/35
+- **Extraction:** grokbot · quotes verified 36/36 · reviewed by claude-opus-5-5
 
 ## Summary
 
@@ -22,7 +22,7 @@ UpFlip visits Get Lost Shaved Ice in Virginia Beach, a Hawaiian shave ice shop o
 - **Problem:** No authentic Hawaiian shave ice locally; people want dye-free, preservative-free desserts
 - **Offer:** Shave ice over vanilla ice cream with scratch syrups, condensed milk topping, homemade whipped cream, fresh fruit; monthly specials and local collabs
 - **Business model:** Per-item dessert sales plus merch (~20%) and food truck events (~15% of revenue)
-- **Pricing:** Per bowl. regular USD 9.5 small; regular USD 11.5 large; monthly special USD 13.5 large; merch USD 60 per sweatshirt Card fees now passed on to customers.
+- **Pricing:** Per bowl. regular USD 9.5 small; regular USD 11.5 large; monthly special USD 11.5 small; monthly special USD 13.5 large; merch USD 60 per sweatshirt Card fees now passed on to customers.
 - **Acquisition:** affiliates_influencers: Invite local content creators with concentrated local followings for free product (no payment).; other: Branding and walk-in/tourist foot traffic; local collaborations for monthly specials.
 - **Delivery:** Staffed shop open 12 hours a day, two shifts, seven days in summer; weekly syrup cooking in a kitchen; ice blocks made and tempered in-house; food truck with 3-4 staff per event.
 - **Unit economics (claims):** 2025 revenue $408.5k; net ~$23.5k after owner pay $65k; COGS $79.5k, labour ~$114k, card fees $14k, rent $50k+, payroll tax $15k, repairs $10k, interest $3k, merch COGS $23k; Best month ~$95k; ~$40k/month typical; Store 85% / truck 15% of revenue; Merch ~20% of revenue at 50-60% margin; Buildout doubled from ~$60k; Truck ~$21k plus ~$8k wrap
@@ -74,6 +74,8 @@ UpFlip visits Get Lost Shaved Ice in Virginia Beach, a Hawaiian shave ice shop o
   > "Let's talk about the startup costs. 60K, you spent double that" — Host (~28:36)
 - **Syrup per serving costs maybe five cents** (cost, first-hand, claimant: Guest)
   > "These cereps are going to be maybe five cents or something like that" — Guest (~17:14)
+- **Merch is about 20% of revenue, mostly sold in person rather than online** (revenue, first-hand, claimant: Owner (Todd or Stephanie; speaker unclear))
+  > "It's probably close to 20%" (~26:39)
 
 ## Tactics and playbook steps
 

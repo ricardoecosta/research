@@ -3,7 +3,7 @@
 - **Video:** [fExJijbgWF0](https://www.youtube.com/watch?v=fExJijbgWF0) · **Channel:** Nick Huber - Sweaty Startup · **Uploaded:** 2026-10-11 · **Length:** 4 min · **Transcript:** local_whisper_tiny
 - **Speakers:** Unknown interviewer (host), Nick Huber (guest) · **Format:** operator_interview
 - **Evidence quality:** B — Huber speaks first-hand about his own spending, confidence, and social media behavior, but the discussion offers little business process detail and mostly broad personal opinions.
-- **Extraction:** gpt-6-luna · quotes verified 15/15
+- **Extraction:** gpt-6-luna · quotes verified 15/15 · reviewed by claude-opus-5-5
 
 ## Summary
 
@@ -34,7 +34,7 @@ Nick Huber discusses the confidence that drives him as an entrepreneur and the n
 
 **Consider reputational effects before posting blunt opinions** (mindset)
 1. Consider whether a harsh post targets people who are close to you or important in your business network.
-2. Huber says he decided to stop criticizing doctors and lawyers on Twitter because many are close to him and positively affect businesses.
+2. Huber says he decided to stop criticizing doctors and lawyers on Twitter because many are close to him and have a positive impact (lawyers on businesses, doctors on people).
 > "I'm going to stop talking trash on doctors and lawyers on Twitter. I made that decision because I have so many of them who are close to me" — Nick Huber (~2:14)
 
 ## Lessons
@@ -42,7 +42,7 @@ Nick Huber discusses the confidence that drives him as an entrepreneur and the n
 - *finance_unit_economics*: Making money and keeping it require different skills; treat wealth preservation as a separate discipline.
 - *mindset_execution*: Build confidence through experience while continuing to listen to people who identify your mistakes.
 - *finance_unit_economics*: Check blind spots and control lifestyle spending as wealth grows, since Huber identifies both as ways people lose money.
-- *customer_acquisition*: A forceful social media persona can offend people beyond the platform and affect real relationships.
+- *other*: A forceful social media persona can offend people beyond the platform and affect real relationships.
 - *other*: Huber argues that career and travel priorities can lead people to delay settling down and having children until they regret the delay.
 - *mindset_execution*: Huber says he is grateful for his financial position and wants to enjoy some benefits without becoming careless or entitled.
 

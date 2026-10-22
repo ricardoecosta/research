@@ -206,14 +206,14 @@
     "model": "One-off product sales.",
     "price_points": [
      {
-      "amount": 5,
+      "amount": 5000,
       "amount_max": 8000,
       "currency": "USD",
       "unit": "per tub",
-      "label": "The transcript says \"$5 to $8,000\"."
+      "label": "Transcript reads \"$5 to $8,000\"; read as $5,000–$8,000 given the used-car comparison."
      }
     ],
-    "notes": "The stated lower bound is unusually low; retained as spoken in the transcript."
+    "notes": "Caption reads \"$5 to $8,000\"; the context (\"price of a used Honda Civic\") implies $5,000–$8,000 per tub."
    },
    "acquisition_channels": [
     {
@@ -236,7 +236,7 @@
    ],
    "delivery": "A large physical tub with a water chiller is sold. The transcript does not explain manufacturing, freight, installation, servicing or who handles them.",
    "unit_economics_claims": [
-    "The narrator reports $100 million in revenue in 2024 and a selling price of $5 to $8,000 per tub.",
+    "The narrator reports $100 million in revenue in 2024 and a selling price of about $5,000 to $8,000 per tub.",
     "The narrator reports a $100 damaged-tub prototype and a $10 domain purchase.",
     "No production cost, shipping cost, margin or service cost is stated."
    ],
@@ -275,7 +275,7 @@
     "notes": "The product concept can work in the UK, but bulky freight, electrical and product-safety requirements, installation and after-sales service would need local planning."
    },
    "risks": [
-    "The transcript gives conflicting founder attribution: it names Michael and Ryan, then says Garrett built the prototype.",
+    "The transcript gives founder first names (Michael and Ryan) and then the surname Garrett for the prototype builder, so the full names are only partly stated.",
     "A high-value tub with refrigeration creates shipping, installation, maintenance and product-safety exposure.",
     "The reported $100 million revenue figure has no source or cost breakdown in the video."
    ],
@@ -775,10 +775,10 @@
    }
   },
   {
-   "claim": "Plunge tubs cost $5 to $8,000 each, as stated in the transcript.",
+   "claim": "Plunge tubs cost about $5,000 to $8,000 each (the transcript reads \"$5 to $8,000\").",
    "metric": "price",
    "value": {
-    "amount": 5,
+    "amount": 5000,
     "amount_max": 8000,
     "currency": "USD",
     "unit": "per tub",
@@ -1213,7 +1213,7 @@
   },
   {
    "name": "Sell identity around a commodity product",
-   "area": "offer_design",
+   "area": "product",
    "steps": [
     "Make a low-cost functional product visually distinctive.",
     "Build its meaning around a community and visible identity rather than function alone.",
@@ -1249,7 +1249,7 @@
   },
   {
    "name": "Design for giftability",
-   "area": "offer_design",
+   "area": "product",
    "steps": [
     "Use playful prints that make the product an easy-to-recognize gift.",
     "Position the product for occasions when a buyer wants a humorous reaction from the recipient.",
@@ -1445,15 +1445,15 @@
  ],
  "evidence_quality": {
   "rating": "C",
-  "rationale": "This is a second-hand listicle based on research the narrator says they performed, but the transcript provides no sources for the sales figures or detailed cost data. It also gives inconsistent Plunge founder attribution, naming Michael and Ryan before saying Garrett built the prototype.",
+  "rationale": "This is a second-hand listicle based on research the narrator says they performed, but the transcript provides no sources for the sales figures or detailed cost data. Some numbers are internally loose: $14M to $40M is called \"nearly 300% growth\", and Loop is described as \"1 million to 220 million\" while its stated 2021 revenue was €12M.",
   "promotional_conflict": "The narrator promotes Team Drop, recommends signing up through a link and offers four free coupons."
  },
  "extraction": {
   "model": "gpt-6-luna",
   "extracted_at": "2026-10-22T11:33:31",
   "cost_usd": 0,
-  "reviewed_by": null,
-  "review_notes": null,
+  "reviewed_by": "claude-opus-5-5",
+  "review_notes": "The extraction is thorough and well structured. It covers all five listicle products, and nearly every numeric claim is quoted verbatim, correctly marked second-hand, and the Team Drop promotional conflict is flagged. The main error is that it kept the caption misread \"$5 to $8,000\" as a $5 lower price bound in the pricing and metric fields, despite the used-car context. It also claimed a founder-attribution conflict that the transcript does not support. Automation and UK scores are reasonable for outsourced-fulfilment ecommerce.",
   "quote_verification": {
    "quotes": 55,
    "verified": 55,

@@ -3,7 +3,7 @@
 - **Video:** [uWjU8ctaHIc](https://www.youtube.com/watch?v=uWjU8ctaHIc) · **Channel:** The Koerner Office · **Uploaded:** 2026-02-22 · **Length:** 60 min · **Transcript:** transcribeyoutube
 - **Speakers:** Chris Koerner (host), Jim Row (guest) · **Format:** operator_interview
 - **Evidence quality:** B — Jim is a first-hand operator and gives concrete sourcing, sales, and operating examples. Several claims lack supporting records or clear definitions, and the host's introduction says half of first-month sales were profit while Jim's own account clearly confirms sales but not that profit figure. The hinge purchase cost is also inconsistent in the transcript. · Promotional conflict: Chris Koerner includes a Beehiiv sponsor read and promotes the paid TK Owners community. These promotions are separate from Jim's interview and were excluded as business ideas.
-- **Extraction:** gpt-6-luna · quotes verified 123/123
+- **Extraction:** gpt-6-luna · quotes verified 124/124 · reviewed by claude-opus-5-5
 
 ## Summary
 
@@ -15,7 +15,7 @@ Jim Row describes building a resale business from restaurant equipment and liqui
 |---|---|---|---|---|---|
 | I1 | **Local liquidation and returns resale store** — Buy returned, surplus, and auction goods, then resell them through a local store, online listings, and social media. | arbitrage_reselling | deep | 2/1/0/1/1 | 3 |
 | I2 | **Used restaurant equipment resale** — Source used commercial restaurant equipment from business liquidations and auctions, then sell it to restaurant operators. | arbitrage_reselling | moderate | 2/1/0/1/1 | 3 |
-| I3 | **Replacement window sales and installation** — Sell replacement windows to homeowners, generate appointments with neighbourhood flyers, and fulfil the work with an installation crew. | home_service | deep | 2/1/0/1/1 | 3 |
+| I3 | **Replacement window sales and installation** — Sell replacement windows to homeowners, generate appointments with neighbourhood flyers, and fulfil the work with an installation crew. | home_service | deep | 1/1/0/1/1 | 3 |
 | I4 | **Junk removal with resale of reusable items** — Remove unwanted items from homes, keep usable goods, and resell them instead of discarding everything. | local_service | moderate | 1/1/0/1/1 | 3 |
 | I5 | **Couch flipping** — Collect usable couches, photograph and list them online, then deliver them to buyers. | arbitrage_reselling | mention | 2/1/0/1/1 | 4 |
 | I6 | **Storage unit resale** — Buy storage units and resell their contents. | arbitrage_reselling | mention | 1/1/0/1/1 | 3 |
@@ -33,10 +33,10 @@ Jim Row describes building a resale business from restaurant equipment and liqui
 - **Offer:** A changing selection of returned and surplus goods, displayed in a physical shop and promoted through Facebook lives, posts, and listings; buyers can pick up or arrange delivery.
 - **Business model:** Buy inventory at auction or below retail and resell for a markup through a retail storefront, Facebook Marketplace, and direct local sales.
 - **Pricing:** Per-item retail sales; individual prices vary by product.. shed retail price USD 1500 retail price for a Costco shed; industrial hinge sale price, detailed separately USD 50 per item Most item prices were not stated. The shed price was discussed as the retail price and the winning bid was lower but not specified.
-- **Acquisition:** google_business_profile_maps: A storefront near a major local retailer drew drive-by traffic; the speaker put goods beside the road and used an open sign and blinking reader board.; marketplace_platform: Listed goods on Facebook Marketplace and kept some listings active as a continuing source of customer enquiries.; organic_social_content: Went live on Facebook to show inventory to existing customers, used customer testimonials, and later sold products through Facebook lives.; existing_audience: Used an audience built through his restaurant social media pages and invited current customers to sale events and live videos.; referrals_word_of_mouth: Collected customer information for remarketing and built repeat relationships through deliveries and direct contact.; partnerships: Borrowed other businesses' existing audiences by teaming up with them and making the promotion beneficial to both sides.
+- **Acquisition:** other: A storefront near a major local retailer drew drive-by traffic; the speaker put goods beside the road and used an open sign and blinking reader board.; marketplace_platform: Listed goods on Facebook Marketplace and kept some listings active as a continuing source of customer enquiries.; organic_social_content: Went live on Facebook to show inventory to existing customers, used customer testimonials, and later sold products through Facebook lives.; existing_audience: Used an audience built through his restaurant social media pages and invited current customers to sale events and live videos.; referrals_word_of_mouth: Collected customer information for remarketing and built repeat relationships through deliveries and direct contact.; partnerships: Borrowed other businesses' existing audiences by teaming up with them and making the promotion beneficial to both sides.
 - **Delivery:** Jim and his wife received, sorted, tested, cleaned, displayed, and sold physical inventory. They moved stock inside and outside the store each day, and either the customer collected goods or Jim, his family, or a helper delivered them. Facebook lives and Marketplace listings supported sales, but fulfilment was local and hands-on.
 - **Unit economics (claims):** Jim said the store did $60,000 in sales in its first month and maintained about that sales volume for several months.; A Saturday furniture sale generated about $3,000 in profit, according to Jim.; Jim said a Facebook post hinting he might close brought in the store's biggest day of the year, with $15,000 in sales.; Jim started with a $1,200 purchase and reinvested the proceeds.; The tow-shop rent was about $3,200 a month; the later store rent was $4,500 a month.
-- **Tools:** Facebook, Facebook Marketplace, Facebook Live, Costco, B-Stock, GovDeals, Facebook reader-board promotions
+- **Tools:** Facebook, Facebook Marketplace, Facebook Live, Costco, B-Stock, GovDeals, Blinking reader-board sign
 - **Startup cost:** Not stated as a total. Jim described starting with a $1,200 purchase and later setting a fixed inventory budget.
 - **Time to first revenue:** Not stated. The first reported sale event followed shortly after he began buying and selling returned furniture.
 - **UK applicability [E]:** 3/5 — The retail and resale model could work in the UK, but the speaker's sourcing and suppliers are US-specific, including Costco returns, B-Stock, and GovDeals. A UK operator would need local liquidation sources, suitable premises, and a local audience. Marketing described was inbound social content and listings, rather than unsolicited messages.
@@ -52,10 +52,10 @@ Jim Row describes building a resale business from restaurant equipment and liqui
 - **Problem:** Restaurants need equipment to keep earning revenue, while surplus or unwanted equipment may be available cheaply from closures, replacements, and auctions.
 - **Offer:** Used restaurant equipment, including ovens and other items. Jim advised offering a warranty when a seller has multiple identical units that can serve as backup.
 - **Business model:** Buy surplus and used equipment below replacement cost and resell per item, with referrals from food-distribution salespeople and listings or direct outreach to buyers.
-- **Pricing:** Per-item resale; exact prices depend on the equipment..  Most restaurant-equipment prices were not stated. One buyer's three identical ovens sold after the listing was changed to include a warranty; the sale price was not stated.
+- **Pricing:** Per-item resale; exact prices depend on the equipment..  Most restaurant-equipment prices were not stated. A reseller's oven listing sold within two days after a warranty was added; the price was not stated. A Utah reseller listed one item at about $3,500.
 - **Acquisition:** partnerships: Asked Sysco and US Foods salespeople who already visited restaurant owners to refer customers; offered 10% commission per lead, though some declined payment.; marketplace_platform: Used Facebook Marketplace to list equipment and reach buyers.; other: Bought more equipment through GovDeals and B-Stock auctions after selling equipment already accumulated from restaurant operations.
 - **Delivery:** Jim sourced, stored, cleaned, and sold the equipment, sometimes delivering it himself. Some equipment may need testing or repair; he advised prioritising gas appliances over large electrical appliances because some restaurants cannot install the latter.
-- **Unit economics (claims):** Jim offered distributor salespeople a 10% commission on leads that resulted in sales.; One reseller sold three identical ovens after adding a warranty to the listing; Jim said the sale happened in two days, but did not state the price.
+- **Unit economics (claims):** Jim offered distributor salespeople a 10% commission on leads that resulted in sales.; A Kentucky reseller with three identical unsold ovens added a warranty to the listing, and an oven sold within two days; the price was not stated.
 - **Tools:** GovDeals, B-Stock, Facebook Marketplace, Sysco, US Foods, Warranty
 - **Startup cost:** Not stated. Jim used equipment already accumulated through restaurant operations before buying more at auction.
 - **Time to first revenue:** Not stated.
@@ -73,14 +73,14 @@ Jim Row describes building a resale business from restaurant equipment and liqui
 - **Business model:** Quote and sell replacement windows to homeowners, earning a margin on supplied windows and installation.
 - **Pricing:** Per-window and installation sale; the speaker quoted a fixed price per window in his example.. Jim's quoted selling price USD 1000 per window; supplier cost in the example USD 150 per window; competitor price range described USD 500-1000 per window Prices and costs are historical US claims. Jim said he was expensive relative to most competitors.
 - **Acquisition:** door_to_door_in_person: Jim and his fiancée taped flyers to doors in a neighbourhood with aluminium windows and booked qualified appointments. In a later campaign, he hired crews to distribute flyers door to door.; direct_mail_postcards: Used flyers and a phone-book advertisement to generate local leads; he later described a costly double-page phone-book ad.; paid_social: Chris recommended studying competitors' Facebook ads and copying their before-and-after creative and landing-page flow; he reported a separate operator said leads tripled in a week.
-- **Delivery:** Jim sold in person and initially installed the windows himself, later bringing his brother to help. He said doing installation himself reduced the time available for sales. His earlier employer used installation crews, and he described hiring flyer-distribution crews to generate leads.
-- **Unit economics (claims):** Jim said a friend’s glass company made about $400,000 a year.; In Jim's window example, supplier cost was about $150 per window and his selling price was $1,000 per window.; Jim said he sold six appointments and made $52,000 that week; the transcript does not clarify whether this was revenue or profit.; A competing quote for a 22-window, two-patio-door job was about $5,000 less than Jim's quote of about $17,000.
+- **Delivery:** Jim sold in person and installed the windows himself with his brother's help, and his mother checked the cleanup and collected the balance. He said doing installation himself reduced the time available for sales. He later hired crews to tape flyers in neighbourhoods to generate leads.
+- **Unit economics (claims):** Jim said a friend’s glass company made about $400,000 a year.; In Jim's window example, supplier cost was about $150 per window and his selling price was $1,000 per window.; Jim said he sold six appointments and made $52,000 that week; the transcript does not clarify whether this was revenue or profit.; A competing quote of about $17,000 for a 22-window, two-patio-door job was about $5,000 less than Jim's quote (implying roughly $22,000).
 - **Tools:** Kinko's, Printed business cards, Flyers, Tape, Phone book advertising, Facebook Ads Library, Meta ads, Landing page contact form, Phone camera
 - **Startup cost:** Not stated. Jim printed business cards and flyers, bought windows for jobs, and described phone-book advertising as very expensive.
 - **Time to first revenue:** Jim said he booked and sold the first six appointments during the first week after starting his own window business.
 - **UK applicability [E]:** 3/5 — The service exists in the UK, but local building standards, consumer protections, supplier costs, installation practices, and lead-generation rules differ. Flyers, paid ads, and inbound forms can be adapted; door-to-door sales and in-home selling remain human-led.
 - **Risks:** Installing the windows personally took Jim away from selling and created cash-flow pressure.; Jim described sales tactics at his earlier employer as shady and said they did not align with how he wanted to help customers.; Long travel times can make low-value repair jobs uneconomic.; Printed advertising can be expensive, as his phone-book campaign demonstrated.; In-person sales and installation are difficult to automate and require quality control.
-- **Automation [E]:** acquisition 2/5 (Paid ads and online lead forms can generate inbound appointments, but the speaker's flyers and in-home appointments required human work. In-person selling is capped at a low score.); onboarding 1/5 (A human must assess the property, confirm measurements, select the product, and agree the job details.); delivery 0/5 (Window installation is physical work requiring skilled people and access to the home.); billing 1/5 (No automated quoting, deposits, or billing process was described.); support 1/5 (The operator must manage installation quality, customer concerns, and any follow-up work.)
+- **Automation [E]:** acquisition 1/5 (Paid ads and online lead forms can generate inbound appointments, but the speaker's flyers and in-home appointments required human work. In-person selling is capped at a low score.); onboarding 1/5 (A human must assess the property, confirm measurements, select the product, and agree the job details.); delivery 0/5 (Window installation is physical work requiring skilled people and access to the home.); billing 1/5 (No automated quoting, deposits, or billing process was described.); support 1/5 (The operator must manage installation quality, customer concerns, and any follow-up work.)
 > "I set up six qualified appointments. I sold all six new windows. And that week, every day when I'd get home after an appointment, we would figure out our cost and what I sold them for." — Jim Row (~52:20)
 > "And that week, I made $52,000 selling windows. And I was like," — Jim Row (~52:31)
 > "The mistake that I made cuz I was still new in business was I put the windows in myself. And so when I started installing windows, I wasn't out selling" — Jim Row (~52:42)
@@ -172,7 +172,7 @@ Jim Row describes building a resale business from restaurant equipment and liqui
   > "And they sell for $1,500. So my max bid was 1,500." — Jim Row (~11:13)
 - **Jim said 30 to 40 people came to the sale event.** (customers, first-hand, claimant: Jim Row)
   > "but I know that day we probably had probably had 30 or 40 people come down to the sale." — Jim Row (~13:28)
-- **Jim said his town had a population of about 25,000.** (customers, first-hand, claimant: Jim Row)
+- **Jim said his town had a population of about 25,000.** (customers, first-hand, claimant: Chris Koerner (confirmed by Jim Row))
   > "in your city of 25,000." — Chris Koerner (~14:22)
 - **Chris proposed a hypothetical test for someone with 500 or 1,000 Facebook followers.** (customers, second-hand, hypothetical, claimant: Chris Koerner)
   > "If someone watching or listening to this right now had 500 or a,000 Facebook followers just on their personal page" — Chris Koerner (~15:15)
@@ -192,7 +192,7 @@ Jim Row describes building a resale business from restaurant equipment and liqui
   > "So I think on my restaurant page I probably reached out to oh thousands" — Jim Row (~13:24)
 - **Jim said he sold three digital pianos and a golf bag and netted $1,100.** (profit, first-hand, claimant: Jim Row)
   > "last week, last week I sold uh or about two weeks ago, I sold three digital pianos and a golf bag. I I made I netted in my pocket $1,100." — Jim Row (~50:10)
-- **Jim said he sold 1,000 hinges for $2,800 in one recollection.** (cost, first-hand, claimant: Jim Row)
+- **Jim said the 1,000-hinge auction lot landed at his store for about $2,800 in one recollection.** (cost, first-hand, claimant: Jim Row)
   > "And they landed at my store for like $2,800." — Jim Row (~33:23)
 - **Jim estimated the hinges' retail value at $100,000.** (valuation, first-hand, claimant: Jim Row)
   > "Holy cow. And like retail is 100k for these. >> Yeah. Yeah. Yeah. Nuts." — Chris Koerner (~33:25)
@@ -220,10 +220,10 @@ Jim Row describes building a resale business from restaurant equipment and liqui
   > "And I go, "Greg, how much does a journeyman carpenter make?" And at that time it was like $20 an hour." — Jim Row (~24:40)
 - **Jim said his window supplier charged about $150 per window while he was selling them for $1,000 each.** (cost, first-hand, claimant: Jim Row)
   > "I'm selling you a window for $1,000 that we're paying $150 for." — Jim Row (~51:46)
-- **Jim said he installed 22 windows and two patio doors in one job.** (other, first-hand, claimant: Jim Row)
+- **Jim said that at his former employer he put 22 windows ($150 cost, $1,000 sale each) into one house; separately, his first own sale was a 22-window, two-patio-door job.** (other, first-hand, claimant: Jim Row)
   > "And I just put 22 of them in your house." — Jim Row (~51:50)
 - **Jim said a competitor quoted about $17,000, about $5,000 less than his quote.** (price, first-hand, claimant: Jim Row)
-  > "Well, it was so much it was $17,000. It was like $5,000 less, I think, than where I was at." — Jim Row (~54:35)
+  > "Well, it was so much it was 17,000. It was like $5,000 less, I think, than where I was at." — Jim Row (~54:35)
 - **Jim said he booked six qualified appointments and sold all six.** (customers, first-hand, claimant: Jim Row)
   > "I set up six qualified appointments. I sold all six new windows." — Jim Row (~52:20)
 - **Jim said he made $52,000 selling windows that week; the transcript does not clarify whether this is revenue or profit.** (revenue, first-hand, claimant: Jim Row)
@@ -236,15 +236,15 @@ Jim Row describes building a resale business from restaurant equipment and liqui
   > "I did a three-year lease. My son was a sophomore and I had just planned on let's do this until he graduates as a senior." — Jim Row (~21:36)
 - **Jim said the Sears store's rent was $4,500 per month.** (cost, first-hand, claimant: Jim Row)
   > "So, my rent's 4,500, but I'm in a 6,000 foot space." — Jim Row (~42:27)
-- **Jim said he worked in a construction job building a loading dock at a shopping centre in Bellevue.** (other, first-hand, claimant: Jim Row)
-  > "And we built we ended up building a loading dock at Bell Square Mall, this big shopping center in Belleview, Washington." — Jim Row (~25:16)
+- **Jim said he sold the truck for $14,000 after bidding $100 over an $8,000 bid at auction.** (other, first-hand, claimant: Jim Row)
+  > "a guy reached out to me and bought it for 14,000" — Jim Row (~48:54)
 - **Jim said he sold the truck for $14,000 after buying it at auction for about $8,000.** (sale_price, first-hand, claimant: Jim Row)
   > "And I bid $100 more than the other biders. And there was a lot of bids going on. No one bid. So I win this truck" — Jim Row (~48:30)
 - **Jim said the truck had about 79,000 miles.** (other, first-hand, claimant: Jim Row)
   > "and it had like 79,000 miles and the bid was 8,000." — Jim Row (~48:22)
 - **Jim said he bought the truck with an $8,000 bid and sold it for $14,000.** (cost, first-hand, claimant: Jim Row)
   > "and it had like 79,000 miles and the bid was 8,000." — Jim Row (~48:22)
-- **Jim said his first job selling tools by phone began calling the East Coast at 3 a.m.** (hours, first-hand, claimant: Jim Row)
+- **Jim said a buddy who owned a glass company trained him for about two weeks.** (hours, first-hand, claimant: Jim Row)
   > "we were selling tools from 3:00 a.m. in the morning. We'd start calling people on the East Coast" — Jim Row (~23:10)
 - **Jim said his brother trained him in the glass business for about two weeks.** (hours, first-hand, claimant: Jim Row)
   > "And uh he literally trained me for like two weeks and then he went to Mexico for a month." — Jim Row (~50:52)
@@ -252,6 +252,8 @@ Jim Row describes building a resale business from restaurant equipment and liqui
   > "Greg, I just made $35,000 selling one diamond. Like, I don't I'm not really the hourly type of guy." — Jim Row (~24:47)
 - **Jim said his target was $1,000 made 700 times, then revised it to 1,400 times for taxes and family expenses.** (other, first-hand, claimant: Jim Row)
   > "And I go, "Shan, how about if I make $1,000 700 times doing Jimro stuff and I buy a boat like that?"" — Jim Row (~30:38)
+- **In the cold open, Jim said he paid $228 for the hinge lot, which conflicts with his later $2,800 and $328 figures.** (cost, first-hand, claimant: Jim Row)
+  > "I paid $228 for something like that." — Jim Row (~0:40)
 
 ## Tactics and playbook steps
 

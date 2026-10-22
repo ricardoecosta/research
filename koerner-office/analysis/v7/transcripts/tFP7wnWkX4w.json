@@ -768,10 +768,10 @@
    "depth": "mention",
    "quotes": [
     {
-     "text": "I know several people that simply apply for jobs as freelancers as an American and then they just hire people on Upwork offshore and outsource all of it to them.",
+     "text": "I know several people that simply apply for jobs as freelancers as an American and then they get a job and then they just hire people on Upwork offshore and outsource all of it to them.",
      "speaker": "Chris Koerner",
-     "match_score": 85.0,
-     "verified": false,
+     "match_score": 100.0,
+     "verified": true,
      "char_offset": 28239,
      "approx_timestamp_s": 1650
     }
@@ -961,7 +961,7 @@
   },
   {
    "claim": "Team of four after the video went viral",
-   "metric": "customers",
+   "metric": "other",
    "value": {
     "amount": 4,
     "currency": null,
@@ -1252,7 +1252,7 @@
    "warning": "Offshore hires can be poor; hiring is a muscle to train.",
    "quote": {
     "text": "I made a lot of bad hires overseas. It's just like a muscle you have to train hiring.",
-    "speaker": "Chris Koerner",
+    "speaker": "Billy Howell",
     "match_score": 100.0,
     "verified": true,
     "char_offset": 28856,
@@ -1326,7 +1326,7 @@
    "theme": "scaling",
    "quote": {
     "text": "you're selling decisions made for someone who has limited time and resources",
-    "speaker": "Chris Koerner",
+    "speaker": "Billy Howell",
     "match_score": 100.0,
     "verified": true,
     "char_offset": 35104,
@@ -1348,12 +1348,12 @@
   "model": "claude-sonnet-5-5",
   "extracted_at": "2026-10-22T05:07:59",
   "cost_usd": 0.1670802,
-  "reviewed_by": null,
-  "review_notes": null,
+  "reviewed_by": "claude-opus-5-5",
+  "review_notes": "The extraction is thorough and accurate on the main agency idea, the Upwork playbook, the side-project ideas and the key numbers ($50/mo vs $250/mo, $0.15 connects, $150 bounty, $0.25/recipe). The problems are a few speaker misattributions where the transcript has no speaker labels, one quote that silently dropped words, and team size filed under the 'customers' metric. Scores and the B evidence rating are reasonable. The attribution of the '2-3 weeks to a full-time agency' line to Billy is ambiguous in the transcript but is left as is.",
   "quote_verification": {
    "quotes": 30,
-   "verified": 29,
-   "rate": 0.967
+   "verified": 30,
+   "rate": 1.0
   },
   "schema_errors": []
  }

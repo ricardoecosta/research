@@ -3,7 +3,7 @@
 - **Video:** [66ClBo6MJW0](https://www.youtube.com/watch?v=66ClBo6MJW0) · **Channel:** Casper Capital · **Uploaded:** 2025-10-08 · **Length:** 9 min · **Transcript:** cached
 - **Speakers:** Casper Capital host (narrator) · **Format:** tutorial_howto
 - **Evidence quality:** C — Second-hand educational content, US-only; affiliate promotion of gold IRA dealers. · Promotional conflict: Affiliate links to American Hartford Gold, Thor and Goldco.
-- **Extraction:** grokbot · quotes verified 11/11
+- **Extraction:** grokbot · quotes verified 12/12 · reviewed by claude-opus-5-5
 
 ## Summary
 
@@ -25,6 +25,8 @@ Casper Capital explains US gold IRAs: self-directed retirement accounts holding 
   > "if you put 10 to 15% into gold, around 20 to 30,000, you create a hedge" — Casper Capital narrator (~5:57)
 - **Segregated storage sometimes billed $1.80 per $1,000 of gold** (cost, second-hand, claimant: Casper Capital narrator)
   > "Sometimes the fee is build as $1.80 every $1,000 of gold you own with a minimum charge" — Casper Capital narrator (~6:36)
+- **Shared (commingled) storage for a gold IRA costs around $100 per year** (cost, second-hand, claimant: Casper Capital narrator)
+  > "storage fees around $100 per year for shared storage" — Casper Capital narrator (~6:27)
 
 ## Tactics and playbook steps
 
