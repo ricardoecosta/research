@@ -1,0 +1,3407 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "oaXnY1YExjE",
+  "title": "This Kid Found the Fastest Way to Make Money With AI Apps",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=oaXnY1YExjE",
+  "upload_date": "2026-07-19",
+  "duration_s": 5165,
+  "view_count": 109628,
+  "transcript_provider": "ok_freetranscriptapi",
+  "transcript_chars": 97979,
+  "transcript_is_whisper": false
+ },
+ "summary": "The video is an interview with George, a young founder who built mobile apps using an AI app builder despite having no coding experience. His wrestling app, Wrestle AI, grew through creator partnerships and subscriptions, while newer boxing and workout apps used creator content and Meta ads. He also describes earlier experiments, including Fight AI, a supplement brand, dropshipping, and a failed reaction app. The main takeaway is to pair a clear, easy-to-demo feature with the right audience, then measure whether customers stay and pay rather than relying on views alone.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Host of The Koerner Office."
+  },
+  {
+   "name": "George",
+   "role": "guest",
+   "description": "App founder; surname not stated."
+  }
+ ],
+ "format": "operator_interview",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Fight AI",
+   "one_liner": "A mobile app that analyzes videos of MMA training or matches and suggests ways to improve.",
+   "category": "saas_software",
+   "business_model": "Subscription app.",
+   "customer": "MMA and other fight-sport athletes who want feedback on training or match videos.",
+   "problem": "Athletes want feedback on their form, strengths, weaknesses, and ways to improve.",
+   "offer": "Upload a video of a match, training, or shadow boxing for an AI breakdown. The app was built first as a test for George and then launched as a broader fight-sport app.",
+   "pricing": {
+    "model": "Monthly or annual subscription.",
+    "price_points": [
+     {
+      "amount": 10,
+      "currency": "USD",
+      "unit": "per month",
+      "label": null
+     },
+     {
+      "amount": 60,
+      "currency": "USD",
+      "unit": "per year",
+      "label": null
+     }
+    ],
+    "notes": "The transcript does not say whether these prices are still current."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "organic_social_content",
+     "details": "George and a friend posted videos on a new Instagram account; later, they sponsored meme pages, including one creator with a strong following in the niche.",
+     "quote": {
+      "text": "We just posted about it. Like just post a few dumb videos on just your friends.",
+      "speaker": "George",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 6708,
+      "approx_timestamp_s": 365
+     }
+    },
+    {
+     "channel": "affiliates_influencers",
+     "details": "They sponsored meme pages and a creator whose audience reacted strongly to sponsorship posts.",
+     "quote": null
+    }
+   ],
+   "delivery": "The customer uploads a video in the mobile app and receives an AI-generated breakdown. George built the app with an AI app builder; the transcript does not describe ongoing support or review of analyses.",
+   "unit_economics_claims": [
+    "The app generated about $500 in monthly recurring revenue after launch, according to George.",
+    "George said it made about $1,800 in its first month.",
+    "George later said it still makes over $1,000 per month without active maintenance.",
+    "George estimated monthly churn at about 30%."
+   ],
+   "tools": [
+    "Rork",
+    "Instagram",
+    "GPT"
+   ],
+   "startup_cost": "Not stated. George said he built it himself with an AI app builder.",
+   "time_to_first_revenue": "Revenue arrived in the first month; exact time to the first sale was not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Organic posts and paid promotion can be scheduled or optimized with software, but creator selection and sponsorship coordination require human judgment. Unsolicited DMs to individual creators may not be lawful in the UK without consent."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "The app can guide users through upload and subscription onboarding, with occasional human review for confusing cases."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Video analysis and feedback are software-delivered; a human may still need to review inaccurate or unsafe advice."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Subscription billing can run through an app store with occasional refund or payment exceptions."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Routine support could be handled with automated help, but video-analysis complaints and sport-specific questions may need a knowledgeable person."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "A mobile training-feedback app can serve UK users much as it serves US users. App-store rules, privacy, and consumer subscription requirements still apply."
+   },
+   "risks": [
+    "George said the app's initial growth later fizzled and that it was not actively maintained.",
+    "The app may have limited repeat use if customers run out of useful videos to analyze.",
+    "AI feedback may miss sport-specific details or give unhelpful technique advice."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "you upload a video of your your match or your training and it gives you a breakdown on how to get better.",
+     "speaker": "George",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 5903,
+     "approx_timestamp_s": 322
+    },
+    {
+     "text": "Still to this day, Fight AI does over 1K a month just by itself.",
+     "speaker": "George",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 17231,
+     "approx_timestamp_s": 940
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Wrestle AI",
+   "one_liner": "A subscription app for wrestlers that analyzes technique videos and adds training, weight-management, and practice features.",
+   "category": "saas_software",
+   "business_model": "Subscription app; George and his wrestling-influencer partner split the business 50/50.",
+   "customer": "Wrestlers, including high-school and college athletes and younger wrestlers; some features support training without a coach.",
+   "problem": "Wrestlers need accessible technique feedback and tools to support practice and weight management.",
+   "offer": "The app analyzes uploaded wrestling videos for fundamentals and technique. Other features include calorie tracking, a wrestling calendar, weight tracking, stance-in-motion drills, and practice mode.",
+   "pricing": {
+    "model": "Monthly or annual subscription, with the trial attached to the annual plan and an exit offer for some users.",
+    "price_points": [
+     {
+      "amount": 10,
+      "currency": "USD",
+      "unit": "per month",
+      "label": null
+     },
+     {
+      "amount": 60,
+      "currency": "USD",
+      "unit": "per year",
+      "label": null
+     }
+    ],
+    "notes": "George said most users chose the annual plan because the trial was attached to it. An abandoned-yearly offer could show a discount after a user tapped to exit."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "affiliates_influencers",
+     "details": "George partnered with a wrestling creator, then paid niche creators per video or on CPM deals. He tracked creators and scaled the ones that brought useful customers.",
+     "quote": {
+      "text": "And from there we started just sponsoring a bunch of different creators.",
+      "speaker": "George",
+      "match_score": 97.2,
+      "verified": true,
+      "char_offset": 38574,
+      "approx_timestamp_s": 2104
+     }
+    },
+    {
+     "channel": "organic_social_content",
+     "details": "The partner and other creators posted videos about the app; George also used creator posts as candidates for paid ads.",
+     "quote": null
+    },
+    {
+     "channel": "paid_social",
+     "details": "They later tested paid social, initially optimizing for installs and later learning to optimize campaigns for purchases.",
+     "quote": {
+      "text": "But if you want like like to make your ads 10 times more profitable, you optimize for purchases.",
+      "speaker": "George",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 20585,
+      "approx_timestamp_s": 1123
+     }
+    }
+   ],
+   "delivery": "Users receive automated app analysis and digital tools. George built the app and product systems with an AI app builder; his partner supplied a wrestling audience and promotion. A VA helped find creators, and George described building an internal tool to track the business.",
+   "unit_economics_claims": [
+    "The app made about $8,000 in its first week and about $17,000 in its first month, according to George.",
+    "George said the second month was about $19,000, December was about $30,000, and January was about $40,000.",
+    "George reported about $28,000 in February, $20,000 in March, $15,000 in April, and a current floor of about $10,000.",
+    "George said the most expensive month for tokens was about $2,000.",
+    "George estimated a first purchase averaged about $25, with roughly half choosing the annual plan and half the monthly plan.",
+    "George estimated a $1,000 influencer spend at a $2 CPM could return about $2,500 to $5,000 in revenue."
+   ],
+   "tools": [
+    "Rork",
+    "Instagram",
+    "TikTok",
+    "Meta Ads",
+    "Meta Ads Library",
+    "Fiverr",
+    "Upwork",
+    "Claude",
+    "PostHog",
+    "MCP",
+    "Apple App Store",
+    "RevenueCat"
+   ],
+   "startup_cost": "Not stated. George said Apple-held revenue left him with about $1,000 in the bank to sustain growth during one period.",
+   "time_to_first_revenue": "The first week after launch; George said the app made about $8,000 in that week.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Paid ads and creator content can be managed with software, but choosing creators and negotiating deals required George's judgment. UK outreach by unsolicited DM to individual creators may breach PECR without consent."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "App onboarding, trials, and subscription choices can be automated, subject to clear pricing and compliant consent flows."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Video analysis, calorie tracking, calendar parsing, and practice prompts are software-delivered. Human review may be needed for inaccurate technique or weight guidance."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "App subscriptions and annual trials can be billed automatically, with human handling for refunds, disputes, and app-store issues."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Common app questions can be automated, but sport-specific advice, account problems, and safety-sensitive weight questions may need human support."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Wrestling and app subscriptions translate to the UK. The product would need UK-compliant privacy, subscription disclosures, and careful handling of calorie and weight-management advice."
+   },
+   "risks": [
+    "Demand is seasonal and tied to wrestling season; George said he planned to coast and rebuild the product out of season.",
+    "The video-analysis feature may become less useful after a wrestler has repeated the same fundamentals or run out of matches to analyze.",
+    "Weight-management advice can create safety and regulatory concerns, especially for young athletes.",
+    "George described a competitor threatening legal action, though he said they did not sue.",
+    "George said Apple removed a newer app for two weeks after a public paywall dispute, illustrating app-store review and reputation risk."
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "The one that generated most of it, technically four, but the one that generated almost like almost all of it up to this date has been uh Wrestle AI.",
+     "speaker": "George",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 1228,
+     "approx_timestamp_s": 66
+    },
+    {
+     "text": "So, we did like 8K in the first week. And I was like, \"Holy.\"",
+     "speaker": "George",
+     "match_score": 96.4,
+     "verified": true,
+     "char_offset": 27300,
+     "approx_timestamp_s": 1489
+    },
+    {
+     "text": "The biggest thing I wanted to make sure I got down was the fundamentals",
+     "speaker": "George",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 52412,
+     "approx_timestamp_s": 2859
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Green",
+   "one_liner": "An AI app described as a clone of another AI app, promoted by a creator in the reaction-video space.",
+   "category": "saas_software",
+   "business_model": "Not stated.",
+   "customer": "The creator's audience in the reaction-video and entertainment space; the exact end customer is not stated.",
+   "problem": "Not stated clearly. George described the proposed app as similar to RZGPT.",
+   "offer": "A low-effort app concept modeled on another AI app; its precise features are not stated.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": "Not stated."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "affiliates_influencers",
+     "details": "A reaction-content creator with a large audience promoted the app.",
+     "quote": null
+    },
+    {
+     "channel": "organic_social_content",
+     "details": "The app's launch received social-media views, but George said those views did not translate into meaningful revenue.",
+     "quote": null
+    }
+   ],
+   "delivery": "Not stated beyond being an app. George said it received little of his attention and he stopped it after the launch.",
+   "unit_economics_claims": [
+    "George said Green generated about $35 despite receiving over one million social-media views in its first month."
+   ],
+   "tools": [
+    "Rork",
+    "TikTok",
+    "Instagram"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Social posts and paid creator placements can be coordinated with software, but selecting and contracting creators takes human work. Unsolicited UK DMs to individual creators require care under PECR."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "An app could automate signup and onboarding, but the transcript provides no implementation details."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "The app was software-based, but its specific product and degree of automation are not stated."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Subscription billing could be automated if the app supported it; the transcript does not describe its billing."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Support requirements are not stated; routine app questions could be automated but exceptions would need review."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "A generic AI app could be offered in the UK, but the use case is unclear and would need to meet UK consumer, privacy, and app-store requirements."
+   },
+   "risks": [
+    "George said the app had a low-intent audience and that the offer was a low-value clone.",
+    "The launch's high view count did not produce meaningful revenue.",
+    "George stopped working on it quickly."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "Wrestle AI the first month did 17K. Green did $35.",
+     "speaker": "George",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 30349,
+     "approx_timestamp_s": 1655
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "Boxing opponent-analysis app",
+   "one_liner": "An app that analyzes an opponent's video to identify patterns a boxer can use in a fight.",
+   "category": "saas_software",
+   "business_model": "App revenue with paid social user acquisition; exact subscription terms are not stated.",
+   "customer": "Boxers and fight-sport athletes preparing for an opponent.",
+   "problem": "A fighter may miss repeatable patterns in an opponent's movements and openings.",
+   "offer": "The app analyzes an opponent's video, such as identifying that the opponent drops their hands after a specific exchange.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": "Not stated."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "paid_social",
+     "details": "The team used creator-made ads and Meta ads, with the product demonstrated early in short videos.",
+     "quote": {
+      "text": "And then I started like learning how the meta ads algorithm worked.",
+      "speaker": "George",
+      "match_score": 92.4,
+      "verified": true,
+      "char_offset": 55653,
+      "approx_timestamp_s": 3036
+     }
+    },
+    {
+     "channel": "organic_social_content",
+     "details": "Creators made short demonstration videos; some were posted organically and some were used as paid ads.",
+     "quote": null
+    }
+   ],
+   "delivery": "A user uploads an opponent's video and receives software-generated analysis. A trusted collaborator makes or edits ad videos, while George directs and funds the project.",
+   "unit_economics_claims": [
+    "George said the boxing app spent about $400 per day and returned about $900 to $1,200 on day one.",
+    "George described day-one return as roughly 2x to 4x ad spend, with higher lifetime return expected.",
+    "George said the app had generated about $23,000 lifetime revenue."
+   ],
+   "tools": [
+    "Rork",
+    "Meta Ads",
+    "Meta Ads Library",
+    "RevenueCat",
+    "Instagram",
+    "Facebook"
+   ],
+   "startup_cost": "Not stated. George said he was funding the project himself.",
+   "time_to_first_revenue": "George said the two newer apps reached about $10,000 within 45 days; the specific first-sale time was not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Meta ad delivery and creator ad testing can be automated substantially, with human review of creative and spend. Unsolicited creator DMs in the UK may be restricted by PECR."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "A mobile app can automate account creation, video upload guidance, and subscription onboarding."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "AI video analysis is software-delivered; a human should review performance and handle inaccurate or strategically consequential advice."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Subscription payments can be automated through an app payment provider, with occasional refunds and disputes needing review."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Automated help can handle routine app questions, while analysis quality and account issues may need human support."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "The use case can serve UK boxing users. Privacy and rights to uploaded footage, plus UK consumer subscription rules, need to be addressed."
+   },
+   "risks": [
+    "The transcript gives limited evidence about retention, customer acquisition cost over the full customer lifetime, or the reliability of the analysis.",
+    "Users may upload footage they do not have permission to use.",
+    "Ad performance can change as audiences and creatives fatigue."
+   ],
+   "is_primary": false,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "We spend 400 a day. We make around 9 to 12 back.",
+     "speaker": "George",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 61003,
+     "approx_timestamp_s": 3328
+    },
+    {
+     "text": "He would throw this specific exchange. Bang. Hit him.",
+     "speaker": "George",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 59525,
+     "approx_timestamp_s": 3247
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "Abs-analysis workout app",
+   "one_liner": "A fitness app that rates a user's abs from a photo and suggests workouts to improve them.",
+   "category": "saas_software",
+   "business_model": "App subscriptions with paid social acquisition; exact price is not stated.",
+   "customer": "People seeking a more defined six-pack.",
+   "problem": "Generic fitness apps may feel broad; users want a specific assessment and workout plan for their abs.",
+   "offer": "The user takes a photo of their abs, receives a rating, and can see tailored workouts. George said ads worked better when they showed the rating and the workout rather than just the score.",
+   "pricing": {
+    "model": "Subscription app; exact pricing is not stated.",
+    "price_points": [],
+    "notes": "George discussed a paywall listing monthly and weekly terms, but the transcript does not clearly establish whether this was the same app."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "paid_social",
+     "details": "The team tested Meta ads, learning that creative showing a workout tailored to the user's abs performed better for retention than a rating-only creative.",
+     "quote": {
+      "text": "the best type of videos were the ones that would show the actual it would be rating workout and then them doing the workout.",
+      "speaker": "George",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 67957,
+      "approx_timestamp_s": 3707
+     }
+    },
+    {
+     "channel": "affiliates_influencers",
+     "details": "They initially sponsored creators, but George said the early creator choices did not produce strong results.",
+     "quote": null
+    }
+   ],
+   "delivery": "The customer uploads a photo and receives an AI rating and workout guidance through the app. The transcript does not state who provides ongoing support or reviews results.",
+   "unit_economics_claims": [
+    "George said the workout app had generated about $15,000 lifetime revenue and about $8,000 in the current month.",
+    "George said a co-founder reported a download-to-paid conversion rate above 20%; George cited about 5% as an average."
+   ],
+   "tools": [
+    "Rork",
+    "Meta Ads",
+    "Apple App Store",
+    "X"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated; George said the newer apps reached about $10,000 within 45 days.",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Paid social can automate targeting and delivery, while creative testing and budget decisions still need human oversight."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Photo upload, onboarding, and subscription prompts can run in the app, with checks that pricing is clear and compliant."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Image assessment and workout suggestions can be delivered by software, but fitness and body-image advice needs quality controls."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "App subscriptions can be billed automatically; refunds, disputes, and paywall compliance need review."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Automated support can answer routine questions, while sensitive body-image or exercise-safety concerns may need a person."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "The app concept can serve UK customers, subject to privacy, consumer subscription rules, and careful presentation of body-image and fitness claims."
+   },
+   "risks": [
+    "George said rating-only ads attracted downloads but users churned quickly.",
+    "A high download-to-paid conversion rate does not establish long-term retention or customer satisfaction.",
+    "George said a public post about the paywall preceded a two-week removal from the app store; the exact reason was disputed."
+   ],
+   "is_primary": false,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "Basically, you take a picture of your abs and it tells you how to get a better better six-pack.",
+     "speaker": "George",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 65121,
+     "approx_timestamp_s": 3552
+    },
+    {
+     "text": "When we would just show the ratings, right? What do you mean ratings? So you take a picture and it rates your six pack.",
+     "speaker": "George",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 67294,
+     "approx_timestamp_s": 3671
+    }
+   ]
+  },
+  {
+   "local_id": "I6",
+   "name": "Nootropic supplement brand",
+   "one_liner": "A pill-based nootropic supplement brand that sourced ingredients and used contract manufacturing.",
+   "category": "ecommerce_physical",
+   "business_model": "Physical product sales; exact pricing and sales model are not stated.",
+   "customer": "People interested in nootropic supplements; the transcript does not define a narrower customer.",
+   "problem": "Not stated beyond the founder's personal interest in supplements.",
+   "offer": "A pill product made with sourced ingredients through a contract manufacturer or co-packer. George mentioned cGMP and certificates of analysis.",
+   "pricing": {
+    "model": "One-off physical product sales; exact model not stated.",
+    "price_points": [],
+    "notes": "No price was given."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "paid_social",
+     "details": "George said he ran paid ads that lost money.",
+     "quote": null
+    }
+   ],
+   "delivery": "A contract manufacturer made pills from sourced ingredients; physical inventory had to be managed and shipped. The transcript does not say who fulfilled orders.",
+   "unit_economics_claims": [
+    "George said he spent a lot of money on inventory and that paid ads were losing money.",
+    "George said the supplement company and Fight AI together made about $2,000 within a month, without separating their revenue."
+   ],
+   "tools": [
+    "Ingredient vendors",
+    "Contract manufacturer or co-packer",
+    "cGMP",
+    "Certificates of analysis"
+   ],
+   "startup_cost": "Not stated; George said he spent a lot on inventory.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Paid ads and ecommerce marketing can be automated partly, but product claims and creative need human oversight."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "An ecommerce checkout can automate ordering, but supplement suitability and customer questions may need human review."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Manufacturing, inventory handling, packing, and physical shipping require people or physical-world services."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Online checkout and payment processing can be automated."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Automated replies can handle basic order questions, but ingredient, safety, and adverse-reaction issues need human attention."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "The product model can operate in the UK, but ingredients, labelling, health claims, manufacturing standards, and import requirements need UK-specific compliance."
+   },
+   "risks": [
+    "George said the paid ads lost money and the business had no margin.",
+    "He said he abandoned the brand after spending heavily on inventory.",
+    "Supplements carry product-safety, labelling, and health-claim risks."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "I did like a laser pointer where I was just straight drop shipping. And then I did a supplement company.",
+     "speaker": "George",
+     "match_score": 95.1,
+     "verified": true,
+     "char_offset": 5066,
+     "approx_timestamp_s": 276
+    },
+    {
+     "text": "And the other supplement company I was running paid ads that were like losing me money.",
+     "speaker": "George",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 7364,
+     "approx_timestamp_s": 401
+    }
+   ]
+  },
+  {
+   "local_id": "I7",
+   "name": "Laser-pointer dropshipping",
+   "one_liner": "A dropshipping business selling laser pointers.",
+   "category": "arbitrage_reselling",
+   "business_model": "Dropshipping and one-off product sales.",
+   "customer": "Not stated.",
+   "problem": "Not stated.",
+   "offer": "Laser pointers sold through a dropshipping setup; no further details are given.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": "Not stated."
+   },
+   "acquisition_channels": [],
+   "delivery": "George described it as straight dropshipping. The supplier and order process are not stated.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "An online storefront and ads could be automated partly; the transcript gives no acquisition process."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "An online checkout could handle orders automatically."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "A dropship supplier may ship orders, but supplier coordination and exceptions require human oversight."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Online payment processing can be automated."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Routine order queries could be automated; returns and supplier failures need human handling."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Dropshipping is possible in the UK, but product safety, import, delivery, and consumer-return rules depend on the product and supplier."
+   },
+   "risks": [
+    "The transcript gives no evidence about demand, margins, supplier quality, or whether this business continued."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "I did like a laser pointer where I was just straight drop shipping.",
+     "speaker": "George",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 5065,
+     "approx_timestamp_s": 276
+    }
+   ]
+  },
+  {
+   "local_id": "I8",
+   "name": "Comics YouTube channel",
+   "one_liner": "A YouTube channel about comics that George ran when he was younger.",
+   "category": "content_media",
+   "business_model": "Not stated.",
+   "customer": "Not stated.",
+   "problem": "Not stated.",
+   "offer": "Comics-related video content; format and audience are not stated.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": "No monetization was stated."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "youtube",
+     "details": "George said he had a comics channel when he was young.",
+     "quote": null
+    }
+   ],
+   "delivery": "Video content on YouTube; further details are not stated.",
+   "unit_economics_claims": [],
+   "tools": [
+    "YouTube"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "YouTube discovery and publishing can be supported by software, but content planning and production need human input."
+    },
+    "onboarding": {
+     "score_e": 0,
+     "how": "No customer onboarding model was described."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Videos can be delivered automatically, but creating them requires a person."
+    },
+    "billing": {
+     "score_e": 0,
+     "how": "No billing model was described."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Comments could be triaged automatically, but community engagement needs human judgment."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "A YouTube comics channel can operate from the UK; the transcript gives no market or platform restrictions."
+   },
+   "risks": [
+    "No revenue, audience, or operating details were stated."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": []
+  },
+  {
+   "local_id": "I9",
+   "name": "Prank YouTube channel",
+   "one_liner": "A prank-content channel George made with friends.",
+   "category": "content_media",
+   "business_model": "Not stated.",
+   "customer": "Not stated.",
+   "problem": "Not stated.",
+   "offer": "Prank videos featuring George and friends.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": "No monetization was stated."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "youtube",
+     "details": "George said he and friends tried making prank content.",
+     "quote": null
+    }
+   ],
+   "delivery": "Video content; the transcript does not say whether it was published on YouTube or another channel.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Content platforms can distribute videos, but production and audience building need human work."
+    },
+    "onboarding": {
+     "score_e": 0,
+     "how": "No customer onboarding model was described."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Video distribution can be automated; filming and creating pranks require people."
+    },
+    "billing": {
+     "score_e": 0,
+     "how": "No billing model was described."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Routine comments can be filtered, but audience interaction needs human judgment."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Prank videos can be made in the UK, subject to ordinary safety and platform rules."
+   },
+   "risks": [
+    "No revenue or audience results were stated."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": []
+  },
+  {
+   "local_id": "I10",
+   "name": "Animated story channel",
+   "one_liner": "A channel where George made stories using a pre-made animation tool despite not being able to draw.",
+   "category": "content_media",
+   "business_model": "Not stated.",
+   "customer": "Not stated.",
+   "problem": "Not stated.",
+   "offer": "Story videos made with a pre-made animation tool.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": "No monetization was stated."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "youtube",
+     "details": "George described this as an animation channel he made when he was young.",
+     "quote": null
+    }
+   ],
+   "delivery": "Animated videos made with a pre-made animation tool; the platform is not named.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Pre-made animation tool (name not stated)"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "A video platform can recommend content automatically, but audience growth and content planning require human work."
+    },
+    "onboarding": {
+     "score_e": 0,
+     "how": "No customer onboarding model was described."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "A tool can help assemble animation, but story creation and publishing need human input."
+    },
+    "billing": {
+     "score_e": 0,
+     "how": "No billing model was described."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Comments could be triaged with software, but community interaction needs a person."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "An animated story channel can be run from the UK; no location-specific dependency was described."
+   },
+   "risks": [
+    "No revenue, audience, or tool details were stated."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "I had one animation channel from this like and I can't draw.",
+     "speaker": "George",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 4782,
+     "approx_timestamp_s": 260
+    }
+   ]
+  },
+  {
+   "local_id": "I11",
+   "name": "Basketball AI app",
+   "one_liner": "A hypothetical sports-specific AI app using the creator and app launch playbook discussed in the interview.",
+   "category": "saas_software",
+   "business_model": "Not stated; discussed as a possible app idea.",
+   "customer": "Basketball players; the transcript does not specify a narrower segment.",
+   "problem": "Not stated.",
+   "offer": "A basketball-focused app was used as an example of applying the same niche-app playbook; its features were not specified.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": "Hypothetical idea; no pricing was discussed."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "affiliates_influencers",
+     "details": "The host and guest discussed finding creators in a sport niche and testing creator videos.",
+     "quote": null
+    },
+    {
+     "channel": "paid_social",
+     "details": "The host suggested testing the app's clearest feature in social ads.",
+     "quote": null
+    }
+   ],
+   "delivery": "Not stated; it was a hypothetical app example.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Instagram",
+    "Meta Ads"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Ads and content distribution can be automated partly, but creator outreach and product positioning require human work. UK unsolicited DMs to individual creators may be restricted by PECR."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "An app could automate signup and onboarding; no design was discussed."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Potentially software-delivered, but the product was not specified."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Subscription billing could be automated, but no model was stated."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Routine support could be automated; product-specific questions would need review."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "A basketball app could serve UK players, though the product and its data requirements were not specified."
+   },
+   "risks": [
+    "This was a hypothetical example, not a launched product.",
+    "No customer problem, features, pricing, or demand evidence were stated."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": []
+  },
+  {
+   "local_id": "I12",
+   "name": "Hockey AI app",
+   "one_liner": "A hypothetical sports-specific AI app mentioned as a possible extension into other sports.",
+   "category": "saas_software",
+   "business_model": "Not stated; hypothetical.",
+   "customer": "Hockey players; no narrower customer segment was stated.",
+   "problem": "Not stated.",
+   "offer": "A hockey-focused app was mentioned as a possible expansion, with no features described.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": "Hypothetical idea; no pricing was discussed."
+   },
+   "acquisition_channels": [],
+   "delivery": "Not stated.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Rork"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Digital acquisition may be partly automated, but no channel plan was described. UK unsolicited messages to individual creators need consent under PECR."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "An app could automate onboarding, but no product details were stated."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Potentially software-delivered, but the offer was not specified."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Subscription billing could be automated if used; no billing model was stated."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Routine support could be automated, but the likely product and support needs are unknown."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "A hockey app could operate in the UK, but the product and customer demand were not described."
+   },
+   "risks": [
+    "This was a hypothetical expansion, not a launched app.",
+    "No features, pricing, or validation were stated."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": []
+  },
+  {
+   "local_id": "I13",
+   "name": "AI bloodwork analytics app",
+   "one_liner": "A health app that uploads bloodwork and uses AI to explain results and possible gaps.",
+   "category": "saas_software",
+   "business_model": "Not stated; discussed by George as a possible higher-ticket product.",
+   "customer": "People who want to understand blood-test results; no narrower customer was stated.",
+   "problem": "Bloodwork can be difficult for a consumer to interpret.",
+   "offer": "Upload bloodwork to an app for AI analysis explaining what results mean and what the user may be missing.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": "George said it could be higher ticket but did not state a price."
+   },
+   "acquisition_channels": [],
+   "delivery": "The user uploads bloodwork and receives app-based analysis. George referenced Superpower and Function Health as comparable services.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Superpower",
+    "Function Health"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Digital acquisition could be automated partly, but no channel plan was stated."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Document upload and account onboarding could be software-driven, with checks for sensitive health data."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "AI could summarize bloodwork, but medical interpretation and safety require qualified human oversight."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "A digital subscription or one-off payment could be automated, but no model was stated."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Health questions and concerning results need a human or qualified professional, not unattended automated support."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "The concept can be offered in the UK, but health data handling, medical-device boundaries, privacy, and claims require substantial UK-specific review."
+   },
+   "risks": [
+    "AI may misinterpret test results or give unsafe advice.",
+    "Bloodwork is sensitive personal data and needs strong privacy controls.",
+    "The transcript gives no validated clinical process or regulatory plan."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "it's like a blood work app like you download it. It uploads all your blood work stuff to AI",
+     "speaker": "George",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 81267,
+     "approx_timestamp_s": 4433
+    }
+   ]
+  },
+  {
+   "local_id": "I14",
+   "name": "Flow Wrestling and Flow Sports",
+   "one_liner": "A sports media business filming, streaming, and building a database of overlooked school and college sports.",
+   "category": "content_media",
+   "business_model": "Paid subscription media platform, with events, archives, and later documentaries.",
+   "customer": "Fans of undercovered collegiate and high-school sports, including wrestling.",
+   "problem": "Major sports media companies do not cover many sports with loyal fan bases.",
+   "offer": "Film and livestream events across schools and divisions, build an event database, and produce documentaries about overlooked sports.",
+   "pricing": {
+    "model": "Subscription.",
+    "price_points": [
+     {
+      "amount": 10,
+      "currency": "USD",
+      "unit": "per month",
+      "label": null
+     },
+     {
+      "amount": 120,
+      "currency": "USD",
+      "unit": "per year",
+      "label": null
+     }
+    ],
+    "notes": "The host recalled these prices tentatively, saying 'or whatever it was.'"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "existing_audience",
+     "details": "The host described building around existing passionate fan bases for overlooked sports; no specific acquisition campaign was stated.",
+     "quote": null
+    }
+   ],
+   "delivery": "The host described teams on the ground filming and livestreaming events, maintaining an archive, and producing documentaries. This requires people and cameras at physical events.",
+   "unit_economics_claims": [
+    "The host described the business as a multi-hundred-million-dollar company; this was his characterization, not a verified valuation."
+   ],
+   "tools": [
+    "Flow Wrestling",
+    "Flow Sports",
+    "ESPN",
+    "Netflix"
+   ],
+   "startup_cost": "Not stated; host described boots on the ground and cameras across locations.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Subscriptions and digital discovery can be handled with software, but sports-community growth and rights relationships need people."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "A streaming service can automate account signup and subscription access."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "The host's model depends on people filming and streaming live physical events."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Digital subscriptions can be billed automatically."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Basic account support can be automated, but event, video, and rights issues need human handling."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "A similar service could cover overlooked UK school and university sports, but rights, event access, and a distributed filming operation would need local arrangements."
+   },
+   "risks": [
+    "The model requires on-site filming and live production, so it is not almost entirely software-run.",
+    "Sports rights, event access, and video distribution permissions can be difficult.",
+    "The host's company-scale description and pricing were not independently verified."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "We need to do the hard, tedious thing and get boots on the ground in not just colleges, not just D1, but D2, D3, and high schools to film wrestling matches",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 78435,
+     "approx_timestamp_s": 4279
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "George said the apps had generated $225,000 in revenue over about nine months.",
+   "metric": "revenue",
+   "value": {
+    "amount": 225000,
+    "currency": "USD",
+    "unit": "over about nine months",
+    "label": null
+   },
+   "period": "about nine months",
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "So to date, I think 225,000 in like nine months of building VI coding apps without any coding experience.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 91331,
+    "approx_timestamp_s": 4982
+   }
+  },
+  {
+   "claim": "George's stated goal was $1 million in revenue before age 20.",
+   "metric": "revenue",
+   "value": {
+    "amount": 1000000,
+    "currency": "USD",
+    "unit": "before age 20",
+    "label": "goal"
+   },
+   "period": "before age 20",
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": true,
+   "idea_local_id": null,
+   "quote": {
+    "text": "My goal is to hit a million in revenue before uh 20 before age 20.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 127,
+    "approx_timestamp_s": 6
+   }
+  },
+  {
+   "claim": "George said the supplement company and Fight AI together made about $2,000 in a month.",
+   "metric": "revenue",
+   "value": {
+    "amount": 2000,
+    "currency": "USD",
+    "unit": "combined in a month",
+    "label": null
+   },
+   "period": "within a month",
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "And they both made around 2K total. Like in a month. Within a month.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5387,
+    "approx_timestamp_s": 293
+   }
+  },
+  {
+   "claim": "Fight AI charged $10 per month.",
+   "metric": "price",
+   "value": {
+    "amount": 10,
+    "currency": "USD",
+    "unit": "per month",
+    "label": null
+   },
+   "period": null,
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "10 bucks a month 60 for a year",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6488,
+    "approx_timestamp_s": 353
+   }
+  },
+  {
+   "claim": "Fight AI charged $60 per year.",
+   "metric": "price",
+   "value": {
+    "amount": 60,
+    "currency": "USD",
+    "unit": "per year",
+    "label": null
+   },
+   "period": null,
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "10 bucks a month 60 for a year",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6488,
+    "approx_timestamp_s": 353
+   }
+  },
+  {
+   "claim": "The new Fight AI Instagram account received posts with 40,000 and 30,000 views.",
+   "metric": "traffic",
+   "value": {
+    "amount": 40000,
+    "amount_max": 40000,
+    "currency": null,
+    "unit": "views",
+    "label": "one post"
+   },
+   "period": null,
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "we got like 40,000 views, 30,000.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6998,
+    "approx_timestamp_s": 381
+   }
+  },
+  {
+   "claim": "Fight AI made about $500 in monthly recurring revenue.",
+   "metric": "mrr",
+   "value": {
+    "amount": 500,
+    "currency": "USD",
+    "unit": "per month",
+    "label": null
+   },
+   "period": null,
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "And then from there we made like 500 bucks. It was like 500 MR.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7158,
+    "approx_timestamp_s": 390
+   }
+  },
+  {
+   "claim": "Fight AI made about $1,800 in its first month.",
+   "metric": "revenue",
+   "value": {
+    "amount": 1800,
+    "currency": "USD",
+    "unit": "in the first month",
+    "label": null
+   },
+   "period": "first month",
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So we did like 1,800 in the first month.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15349,
+    "approx_timestamp_s": 837
+   }
+  },
+  {
+   "claim": "Fight AI still made over $1,000 per month without active work, according to George.",
+   "metric": "mrr",
+   "value": {
+    "amount": 1000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "over"
+   },
+   "period": "per month",
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Still to this day, Fight AI does over 1K a month just by itself.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17231,
+    "approx_timestamp_s": 940
+   }
+  },
+  {
+   "claim": "George estimated Fight AI monthly churn at about 30%.",
+   "metric": "other",
+   "value": {
+    "amount": 30,
+    "currency": null,
+    "unit": "percent per month",
+    "label": "estimated churn"
+   },
+   "period": "per month",
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So, I'm guessing it's probably around like 30ish%. Okay. Per month.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17495,
+    "approx_timestamp_s": 954
+   }
+  },
+  {
+   "claim": "George said he had sent Kaden 17 emails and four DMs.",
+   "metric": "other",
+   "value": {
+    "amount": 17,
+    "currency": null,
+    "unit": "emails",
+    "label": null
+   },
+   "period": null,
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "I sent this guy like 17 emails and four DMs on everything.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22339,
+    "approx_timestamp_s": 1218
+   }
+  },
+  {
+   "claim": "George said his dream at the time was $10,000 per month.",
+   "metric": "revenue",
+   "value": {
+    "amount": 10000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "goal"
+   },
+   "period": "at the time",
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": true,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "My like my dream was 10K a month at the time.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22976,
+    "approx_timestamp_s": 1253
+   }
+  },
+  {
+   "claim": "Wrestle AI made about $8,000 in its first week.",
+   "metric": "revenue",
+   "value": {
+    "amount": 8000,
+    "currency": "USD",
+    "unit": "in the first week",
+    "label": null
+   },
+   "period": "first week",
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "So, we did like 8K in the first week. And I was like, \"Holy.\"",
+    "speaker": "George",
+    "match_score": 96.4,
+    "verified": true,
+    "char_offset": 27300,
+    "approx_timestamp_s": 1489
+   }
+  },
+  {
+   "claim": "Wrestle AI made about $17,000 in its first month.",
+   "metric": "revenue",
+   "value": {
+    "amount": 17000,
+    "currency": "USD",
+    "unit": "in the first month",
+    "label": null
+   },
+   "period": "first month",
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "Wrestle AI the first month did 17K.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 30349,
+    "approx_timestamp_s": 1655
+   }
+  },
+  {
+   "claim": "Green received more than one million social-media views in its first month.",
+   "metric": "traffic",
+   "value": {
+    "amount": 1000000,
+    "currency": null,
+    "unit": "views",
+    "label": "over"
+   },
+   "period": "first month",
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "Tik Tok and Instagram, let's say, both got a over a million views in the first month.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 30255,
+    "approx_timestamp_s": 1650
+   }
+  },
+  {
+   "claim": "Green generated $35.",
+   "metric": "revenue",
+   "value": {
+    "amount": 35,
+    "currency": "USD",
+    "unit": "total",
+    "label": null
+   },
+   "period": "first month",
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "Wrestle AI the first month did 17K. Green did $35.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 30349,
+    "approx_timestamp_s": 1655
+   }
+  },
+  {
+   "claim": "George said the latest two apps each reached $10,000 within 45 days.",
+   "metric": "revenue",
+   "value": {
+    "amount": 10000,
+    "currency": "USD",
+    "unit": "per app within 45 days",
+    "label": "each"
+   },
+   "period": "within 45 days",
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "These two latest apps were able to scale both to 10K in 45 days.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 866,
+    "approx_timestamp_s": 47
+   }
+  },
+  {
+   "claim": "George said Wrestle AI had a creator deal for six videos at $400.",
+   "metric": "price",
+   "value": {
+    "amount": 400,
+    "currency": "USD",
+    "unit": "for six videos",
+    "label": null
+   },
+   "period": null,
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "But my first deal between me and him was it was six videos for 400 bucks.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 36923,
+    "approx_timestamp_s": 2014
+   }
+  },
+  {
+   "claim": "George described the first creator video as costing about $70.",
+   "metric": "price",
+   "value": {
+    "amount": 70,
+    "currency": "USD",
+    "unit": "per video",
+    "label": "approximate"
+   },
+   "period": null,
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "So the first video costed us $70, right?",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 37287,
+    "approx_timestamp_s": 2034
+   }
+  },
+  {
+   "claim": "That first creator video received 500,000 views.",
+   "metric": "traffic",
+   "value": {
+    "amount": 500000,
+    "currency": null,
+    "unit": "views",
+    "label": null
+   },
+   "period": null,
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "The video crushed 500k views and we made over 5k off of it",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 37595,
+    "approx_timestamp_s": 2051
+   }
+  },
+  {
+   "claim": "George said the first creator video generated over $5,000.",
+   "metric": "revenue",
+   "value": {
+    "amount": 5000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "attributed to the video",
+    "label": "over"
+   },
+   "period": null,
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "The video crushed 500k views and we made over 5k off of it",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 37595,
+    "approx_timestamp_s": 2051
+   }
+  },
+  {
+   "claim": "George said his early creator CPM was $2.",
+   "metric": "price",
+   "value": {
+    "amount": 2,
+    "currency": "USD",
+    "unit": "per thousand views",
+    "label": "CPM"
+   },
+   "period": null,
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "We were paying like $2 CPM",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18897,
+    "approx_timestamp_s": 1031
+   }
+  },
+  {
+   "claim": "George said he paid one creator more than $5 CPM.",
+   "metric": "price",
+   "value": {
+    "amount": 5,
+    "currency": "USD",
+    "unit": "per thousand views",
+    "label": "over $5 CPM"
+   },
+   "period": null,
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "This one guy we actually pay over a $5 CPM",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 19208,
+    "approx_timestamp_s": 1047
+   }
+  },
+  {
+   "claim": "George said the first-month app-store revenue of $17,000 was held by Apple.",
+   "metric": "revenue",
+   "value": {
+    "amount": 17000,
+    "currency": "USD",
+    "unit": "held by Apple",
+    "label": null
+   },
+   "period": "October revenue paid out in December",
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "So, 17K, second month he's start doing other stuff. What do you do? So that's when I'm sitting there",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 35927,
+    "approx_timestamp_s": 1960
+   }
+  },
+  {
+   "claim": "George said he had about $1,000 available in the bank to sustain growth.",
+   "metric": "other",
+   "value": {
+    "amount": 1000,
+    "currency": "USD",
+    "unit": "available in the bank",
+    "label": "approximate"
+   },
+   "period": "October",
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "So all I had was like a,000 bucks in my bank account that I had to sustain growth with in October.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 39368,
+    "approx_timestamp_s": 2147
+   }
+  },
+  {
+   "claim": "George said the second month generated about $19,000.",
+   "metric": "revenue",
+   "value": {
+    "amount": 19000,
+    "currency": "USD",
+    "unit": "in the second month",
+    "label": "approximate"
+   },
+   "period": "second month",
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "we were able to do like I think it was either like it was like 19 like a little bit 19 and a little bit the second month.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 39695,
+    "approx_timestamp_s": 2165
+   }
+  },
+  {
+   "claim": "George said the app had about 20 influencers promoting it in December.",
+   "metric": "other",
+   "value": {
+    "amount": 20,
+    "currency": null,
+    "unit": "influencers",
+    "label": "about"
+   },
+   "period": "December",
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "Now we got up to like around 20 influencers in December.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 43254,
+    "approx_timestamp_s": 2359
+   }
+  },
+  {
+   "claim": "George said he later kept about six or seven trusted creators.",
+   "metric": "other",
+   "value": {
+    "amount": 6,
+    "amount_max": 7,
+    "currency": null,
+    "unit": "creators",
+    "label": null
+   },
+   "period": null,
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "Then we cut down to like six, seven.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 38704,
+    "approx_timestamp_s": 2111
+   }
+  },
+  {
+   "claim": "George said an average creator video received 100,000 views and was paid $200 a week later at a $2 CPM.",
+   "metric": "price",
+   "value": {
+    "amount": 200,
+    "currency": "USD",
+    "unit": "for a 100,000-view video",
+    "label": "paid one week later"
+   },
+   "period": "one week after the video",
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "An average deal would be like a video that gets 100,000 views, a week later you pay him 200 bucks.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 40654,
+    "approx_timestamp_s": 2218
+   }
+  },
+  {
+   "claim": "George said December revenue was about $30,000.",
+   "metric": "revenue",
+   "value": {
+    "amount": 30000,
+    "currency": "USD",
+    "unit": "in December",
+    "label": null
+   },
+   "period": "December",
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "So December we did 30 and then uh January we did 40.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 46209,
+    "approx_timestamp_s": 2521
+   }
+  },
+  {
+   "claim": "George said January revenue was about $40,000.",
+   "metric": "revenue",
+   "value": {
+    "amount": 40000,
+    "currency": "USD",
+    "unit": "in January",
+    "label": null
+   },
+   "period": "January",
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "So December we did 30 and then uh January we did 40.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 46209,
+    "approx_timestamp_s": 2521
+   }
+  },
+  {
+   "claim": "George said the app's most expensive token-cost month was about $2,000.",
+   "metric": "cost",
+   "value": {
+    "amount": 2000,
+    "currency": "USD",
+    "unit": "in the most expensive month",
+    "label": "token cost"
+   },
+   "period": "January",
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "Token cost was that very high. No, our most expensive month was January was 2K.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 48932,
+    "approx_timestamp_s": 2669
+   }
+  },
+  {
+   "claim": "George said February revenue was about $28,000.",
+   "metric": "revenue",
+   "value": {
+    "amount": 28000,
+    "currency": "USD",
+    "unit": "in February",
+    "label": "approximate"
+   },
+   "period": "February",
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "it was like 28 and it's a shorter month.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 48157,
+    "approx_timestamp_s": 2627
+   }
+  },
+  {
+   "claim": "George said March revenue was about $20,000.",
+   "metric": "revenue",
+   "value": {
+    "amount": 20000,
+    "currency": "USD",
+    "unit": "in March",
+    "label": "approximate"
+   },
+   "period": "March",
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "March was like 20 um April was like 15.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 52896,
+    "approx_timestamp_s": 2885
+   }
+  },
+  {
+   "claim": "George said April revenue was about $15,000.",
+   "metric": "revenue",
+   "value": {
+    "amount": 15000,
+    "currency": "USD",
+    "unit": "in April",
+    "label": "approximate"
+   },
+   "period": "April",
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "March was like 20 um April was like 15.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 52896,
+    "approx_timestamp_s": 2885
+   }
+  },
+  {
+   "claim": "George said the app's current revenue floor was about $10,000.",
+   "metric": "revenue",
+   "value": {
+    "amount": 10000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "floor"
+   },
+   "period": "current",
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "But that's our floor.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 52985,
+    "approx_timestamp_s": 2890
+   }
+  },
+  {
+   "claim": "George estimated the average first purchase at about $25.",
+   "metric": "price",
+   "value": {
+    "amount": 25,
+    "currency": "USD",
+    "unit": "first purchase",
+    "label": "average"
+   },
+   "period": "first purchase",
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "I know our month one LTV is uh like the average the average user purchases is around 25 bucks for their first purchase.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 54543,
+    "approx_timestamp_s": 2975
+   }
+  },
+  {
+   "claim": "George said about half of first purchases were annual at $60 and half monthly at $10.",
+   "metric": "price",
+   "value": {
+    "amount": 10,
+    "amount_max": 60,
+    "currency": "USD",
+    "unit": "per month or per year",
+    "label": "roughly half chose each plan"
+   },
+   "period": "first purchase",
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "Because it's like half are doing 60, half are doing 10.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 54667,
+    "approx_timestamp_s": 2982
+   }
+  },
+  {
+   "claim": "The host estimated the app's user lifetime value at around $50.",
+   "metric": "other",
+   "value": {
+    "amount": 50,
+    "currency": "USD",
+    "unit": "per user",
+    "label": "host estimate"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "So, your LTV is probably closer to like 50, I would think.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 54739,
+    "approx_timestamp_s": 2986
+   }
+  },
+  {
+   "claim": "The host's hypothetical $1,000 influencer spend at $2 CPM would buy about 500,000 views.",
+   "metric": "traffic",
+   "value": {
+    "amount": 500000,
+    "currency": null,
+    "unit": "views for $1,000 spend at $2 CPM",
+    "label": "hypothetical"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "If you spend $1,000 on videos, like $2 RPM for 500,000 views",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 54833,
+    "approx_timestamp_s": 2991
+   }
+  },
+  {
+   "claim": "George estimated that $1,000 in creator spend at a $2 CPM could produce $2,500 to $5,000 in revenue.",
+   "metric": "revenue",
+   "value": {
+    "amount": 2500,
+    "amount_max": 5000,
+    "currency": "USD",
+    "unit": "return on $1,000 spend",
+    "label": "hypothetical"
+   },
+   "period": null,
+   "claimant": "George",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "So we should see back like 2500 to 5k.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 55130,
+    "approx_timestamp_s": 3007
+   }
+  },
+  {
+   "claim": "George described the return on that influencer spend as about 2x to 5x.",
+   "metric": "other",
+   "value": {
+    "amount": 2,
+    "amount_max": 5,
+    "currency": null,
+    "unit": "times return on ad spend",
+    "label": "hypothetical"
+   },
+   "period": null,
+   "claimant": "George",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "So two two to 5x return on ad spend.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 55173,
+    "approx_timestamp_s": 3010
+   }
+  },
+  {
+   "claim": "George said he had about three hours available for the newer app projects.",
+   "metric": "hours",
+   "value": {
+    "amount": 3,
+    "currency": null,
+    "unit": "hours",
+    "label": "available time"
+   },
+   "period": null,
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "since I'm working too, I only have like let's say three hours.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 55495,
+    "approx_timestamp_s": 3027
+   }
+  },
+  {
+   "claim": "George said the boxing app spent about $400 per day.",
+   "metric": "cost",
+   "value": {
+    "amount": 400,
+    "currency": "USD",
+    "unit": "per day",
+    "label": "ad spend"
+   },
+   "period": "per day",
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "We spend 400 a day. We make around 9 to 12 back.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 61003,
+    "approx_timestamp_s": 3328
+   }
+  },
+  {
+   "claim": "George said the boxing app returned about $900 to $1,200 on day one.",
+   "metric": "revenue",
+   "value": {
+    "amount": 900,
+    "amount_max": 1200,
+    "currency": "USD",
+    "unit": "day-one revenue",
+    "label": null
+   },
+   "period": "day one",
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "We spend 400 a day. We make around 9 to 12 back.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 61003,
+    "approx_timestamp_s": 3328
+   }
+  },
+  {
+   "claim": "George described the boxing app's day-one return as about 2x to 4x ad spend.",
+   "metric": "other",
+   "value": {
+    "amount": 2,
+    "amount_max": 4,
+    "currency": null,
+    "unit": "times return on ad spend",
+    "label": null
+   },
+   "period": "day one",
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "day one is like two to 4x return on ad spend.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 61323,
+    "approx_timestamp_s": 3345
+   }
+  },
+  {
+   "claim": "George said RevenueCat could advance up to 80% of day-one proceeds.",
+   "metric": "other",
+   "value": {
+    "amount": 80,
+    "currency": null,
+    "unit": "percent of day-one proceeds",
+    "label": "up to"
+   },
+   "period": null,
+   "claimant": "George",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "it will pay you what you make day one up to 80% of what you made.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 61852,
+    "approx_timestamp_s": 3374
+   }
+  },
+  {
+   "claim": "George said RevenueCat Payments charged 2%.",
+   "metric": "cost",
+   "value": {
+    "amount": 2,
+    "currency": null,
+    "unit": "percent",
+    "label": "fee"
+   },
+   "period": "end of the month",
+   "claimant": "George",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "How much do they take? 2%.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 62094,
+    "approx_timestamp_s": 3387
+   }
+  },
+  {
+   "claim": "George said without the advance, app-store proceeds took about 60 days.",
+   "metric": "other",
+   "value": {
+    "amount": 60,
+    "currency": null,
+    "unit": "days",
+    "label": "payment delay"
+   },
+   "period": null,
+   "claimant": "George",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "Otherwise, you're you're taking 60 days to get that money.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 62021,
+    "approx_timestamp_s": 3383
+   }
+  },
+  {
+   "claim": "George said the boxing app had generated about $23,000 lifetime revenue.",
+   "metric": "revenue",
+   "value": {
+    "amount": 23000,
+    "currency": "USD",
+    "unit": "lifetime",
+    "label": "approximate"
+   },
+   "period": "lifetime",
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "lifetime like 23 is the uh boxing one.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 75734,
+    "approx_timestamp_s": 4132
+   }
+  },
+  {
+   "claim": "George said the workout app had generated about $15,000 lifetime revenue.",
+   "metric": "revenue",
+   "value": {
+    "amount": 15000,
+    "currency": "USD",
+    "unit": "lifetime",
+    "label": "approximate"
+   },
+   "period": "lifetime",
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "And around 15 is the uh the workout workout one.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 75778,
+    "approx_timestamp_s": 4134
+   }
+  },
+  {
+   "claim": "George said one newer app had done about $18,000 in the current month.",
+   "metric": "revenue",
+   "value": {
+    "amount": 18000,
+    "currency": "USD",
+    "unit": "in the current month",
+    "label": "about"
+   },
+   "period": "current month",
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "It's done about 18K this month.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 63008,
+    "approx_timestamp_s": 3437
+   }
+  },
+  {
+   "claim": "George said the workout app had made about $8,000 that month.",
+   "metric": "revenue",
+   "value": {
+    "amount": 8000,
+    "currency": "USD",
+    "unit": "in the current month",
+    "label": "about"
+   },
+   "period": "current month",
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "So the workout ones at like 8 this month.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 69634,
+    "approx_timestamp_s": 3799
+   }
+  },
+  {
+   "claim": "George said the workout app's download-to-paid conversion was over 20%.",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 20,
+    "currency": null,
+    "unit": "percent download-to-paid",
+    "label": "over"
+   },
+   "period": null,
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "on the workout one we have a crazy conversion. We have like a over 20% like download to paid.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 69802,
+    "approx_timestamp_s": 3808
+   }
+  },
+  {
+   "claim": "George cited about 5% as the average download-to-paid conversion.",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 5,
+    "currency": null,
+    "unit": "percent download-to-paid",
+    "label": "average cited"
+   },
+   "period": null,
+   "claimant": "George",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "What what is the average? Average is like five.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 69893,
+    "approx_timestamp_s": 3813
+   }
+  },
+  {
+   "claim": "George said an early version of the workout app's paywall displayed a monthly price of $11.99.",
+   "metric": "price",
+   "value": {
+    "amount": 11.99,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "paywall display"
+   },
+   "period": null,
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "So it'd be like it'd be like month on the top it would say monthly subscription. So it would be like what monthly it was like $11.99.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 70742,
+    "approx_timestamp_s": 3859
+   }
+  },
+  {
+   "claim": "George said the paywall also displayed a weekly equivalent of about $2.40.",
+   "metric": "price",
+   "value": {
+    "amount": 2.4,
+    "currency": "USD",
+    "unit": "per week",
+    "label": "paywall display, approximate"
+   },
+   "period": null,
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "So it's like I don't know like two bucks a week or something or two 2.4.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 70873,
+    "approx_timestamp_s": 3866
+   }
+  },
+  {
+   "claim": "George said Apple removed the app for two weeks.",
+   "metric": "other",
+   "value": {
+    "amount": 2,
+    "currency": null,
+    "unit": "weeks",
+    "label": "app removal"
+   },
+   "period": null,
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "They removed us for two weeks",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 71669,
+    "approx_timestamp_s": 3910
+   }
+  },
+  {
+   "claim": "George said the workout app's ads had moved from about $100 a day to an average of roughly $200 to $300 a day.",
+   "metric": "cost",
+   "value": {
+    "amount": 200,
+    "amount_max": 300,
+    "currency": "USD",
+    "unit": "per day",
+    "label": "ad spend average"
+   },
+   "period": "during ad testing",
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "we would be spending a h 100red bucks a day averaging around like 200 to 300.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 69203,
+    "approx_timestamp_s": 3775
+   }
+  },
+  {
+   "claim": "George said an influencer's account had about 100,000 followers when he described it.",
+   "metric": "other",
+   "value": {
+    "amount": 100000,
+    "currency": null,
+    "unit": "followers",
+    "label": "about"
+   },
+   "period": "at the time described",
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "This guy Tony has died. Absolute killer. Okay. How many followers does he have? He now has 100,000.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15645,
+    "approx_timestamp_s": 853
+   }
+  },
+  {
+   "claim": "George estimated the same creator had about 50,000 followers when they first started working with him.",
+   "metric": "other",
+   "value": {
+    "amount": 50000,
+    "currency": null,
+    "unit": "followers",
+    "label": "approximate"
+   },
+   "period": "when they first started working with him",
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I don't remember when we first started working with him probably 50.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15740,
+    "approx_timestamp_s": 858
+   }
+  },
+  {
+   "claim": "The host said one of his videos generated about 40,000 followers from one million views.",
+   "metric": "other",
+   "value": {
+    "amount": 40000,
+    "currency": null,
+    "unit": "followers from one video",
+    "label": "host claim"
+   },
+   "period": "one video",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "I'll have other videos that get a million views where I'm kind of like trolling and I'm not as serious and I'll get like 40 followers.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 31138,
+    "approx_timestamp_s": 1698
+   }
+  },
+  {
+   "claim": "The host contrasted a video with one million views that gained about 40 followers.",
+   "metric": "other",
+   "value": {
+    "amount": 40,
+    "currency": null,
+    "unit": "followers from one video",
+    "label": "host claim"
+   },
+   "period": "one video",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "I'll have other videos that get a million views where I'm kind of like trolling and I'm not as serious and I'll get like 40 followers.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 31138,
+    "approx_timestamp_s": 1698
+   }
+  },
+  {
+   "claim": "The host said his higher-performing example video received one million views.",
+   "metric": "traffic",
+   "value": {
+    "amount": 1000000,
+    "currency": null,
+    "unit": "views",
+    "label": "host example"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "I've had videos that, let's say, they get a million views and they're so high value and high quality that I'll get 40,000 followers.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 30983,
+    "approx_timestamp_s": 1690
+   }
+  },
+  {
+   "claim": "The host recalled Flow Sports subscriptions at about $10 per month.",
+   "metric": "price",
+   "value": {
+    "amount": 10,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "host recollection"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I14",
+   "quote": {
+    "text": "Paywalled from day one, 10 bucks a month, 120 a year or whatever it was.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 79044,
+    "approx_timestamp_s": 4312
+   }
+  },
+  {
+   "claim": "The host recalled Flow Sports subscriptions at about $120 per year.",
+   "metric": "price",
+   "value": {
+    "amount": 120,
+    "currency": "USD",
+    "unit": "per year",
+    "label": "host recollection"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I14",
+   "quote": {
+    "text": "Paywalled from day one, 10 bucks a month, 120 a year or whatever it was.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 79044,
+    "approx_timestamp_s": 4312
+   }
+  },
+  {
+   "claim": "George said he had run about four YouTube channels while growing up.",
+   "metric": "other",
+   "value": {
+    "amount": 4,
+    "currency": null,
+    "unit": "channels",
+    "label": "approximate"
+   },
+   "period": "growing up",
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "Probably had like four four like YouTube channels like growing up.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4381,
+    "approx_timestamp_s": 239
+   }
+  },
+  {
+   "claim": "George said the supplement brand and Fight AI were started around the same time, with the supplement brand starting about two months earlier.",
+   "metric": "other",
+   "value": {
+    "amount": 2,
+    "currency": null,
+    "unit": "months",
+    "label": "approximate time earlier"
+   },
+   "period": "before Fight AI",
+   "claimant": "George",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "It was like over probably two months old.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15113,
+    "approx_timestamp_s": 824
+   }
+  },
+  {
+   "claim": "The host described Flow Sports as a multi-hundred-million-dollar company.",
+   "metric": "valuation",
+   "value": {
+    "amount": null,
+    "currency": "USD",
+    "unit": "company scale",
+    "label": "multi-hundred-million-dollar characterization"
+   },
+   "period": "not stated",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I14",
+   "quote": {
+    "text": "and now it's flow sports. and it's a multiundred million dollar company",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 79365,
+    "approx_timestamp_s": 4330
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Find niche creators using average views",
+   "area": "acquisition",
+   "steps": [
+    "Use a VA to review the creator feed in the target niche.",
+    "Shortlist creators averaging more than 25,000 views per video, rather than sorting by follower count.",
+    "Send a clear paid-promotion proposal and track replies, views, and resulting sales.",
+    "In the UK, do not send unsolicited marketing DMs to individual creators without the required consent; use consent-based introductions or lawful channels."
+   ],
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "scroll on my for you page and outreach to everyone who has over 25,000 views on average.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18478,
+    "approx_timestamp_s": 1008
+   }
+  },
+  {
+   "name": "Use a VA for creator sourcing",
+   "area": "hiring",
+   "steps": [
+    "After the first $1,000 in revenue, George recommends hiring a virtual assistant.",
+    "He sourced VAs through Fiverr or Upwork.",
+    "Show the VA the target niche, the creator feed to inspect, the view threshold, and the message script."
+   ],
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "After you make your first thousand bucks, hire a VA instantly.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 88786,
+    "approx_timestamp_s": 4844
+   }
+  },
+  {
+   "name": "Use a short creator brief and test deal structures",
+   "area": "pricing",
+   "steps": [
+    "State that the message is a paid promotion in its opening words.",
+    "Explain the app briefly and say why the creator's content is a fit.",
+    "Test flat-fee and CPM deals, then compare the results against attributable sales.",
+    "Keep proven creators and stop spending on creators who do not produce engagement or sales."
+   ],
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "The DM should be paid promo and the paid promo for app name. That should be the first line.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 88151,
+    "approx_timestamp_s": 4809
+   }
+  },
+  {
+   "name": "Choose creators by content skill and audience fit",
+   "area": "acquisition",
+   "steps": [
+    "Compare creators' average views and audience fit, not just their follower totals or athletic reputation.",
+    "Watch comments and engagement to judge whether the audience understands the product.",
+    "Start with a small test; retain creators whose content drives useful outcomes."
+   ],
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "the ROI on like a a really good wrestler that's not that good at content Yeah. isn't really as big as the ROI on even though they have so much accolades.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 44383,
+    "approx_timestamp_s": 2421
+   }
+  },
+  {
+   "name": "Turn successful organic creator videos into paid ads",
+   "area": "acquisition",
+   "steps": [
+    "Find organic creator videos that demonstrate the product clearly.",
+    "Ask the creator to make a separate ad video when the organic integration is too subtle for paid placements.",
+    "Show the app and its result early; George advised putting the product in the first 15 seconds.",
+    "Study competing ads in Meta Ads Library and test creatives on Meta placements."
+   ],
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "you need to show the product within the first 15 seconds",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 58382,
+    "approx_timestamp_s": 3185
+   }
+  },
+  {
+   "name": "Lead with one clear product feature",
+   "area": "product",
+   "steps": [
+    "Choose one visually clear feature that explains the app quickly.",
+    "Use that feature to bring users into the app, even if other features drive repeat use.",
+    "When one feature's content becomes familiar, introduce another useful feature to renew attention."
+   ],
+   "idea_local_id": null,
+   "quote": {
+    "text": "understand your app needs a gotcha feature, right? It needs one feature that you run advertising on.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 84842,
+    "approx_timestamp_s": 4628
+   }
+  },
+  {
+   "name": "Measure customer quality, not just views or downloads",
+   "area": "validation_testing",
+   "steps": [
+    "Track paid conversion, repeat use, churn, and sales alongside social views.",
+    "Compare creatives that generate downloads with creatives that demonstrate how the product helps.",
+    "Stop treating a large view count as success when users do not stay or pay."
+   ],
+   "idea_local_id": null,
+   "quote": {
+    "text": "Both apps got a million views in its first month. Wrestle AI the first month did 17K. Green did $35.",
+    "speaker": "George",
+    "match_score": 84.4,
+    "verified": false,
+    "char_offset": 30301,
+    "approx_timestamp_s": 1653
+   }
+  },
+  {
+   "name": "Make annual plans support growth, but consider monthly plans when growth is not the priority",
+   "area": "pricing",
+   "steps": [
+    "George attached the trial to the annual subscription, encouraging customers to commit to a year.",
+    "He preferred front-loaded annual revenue while aggressively funding growth.",
+    "He suggested monthly plans may suit a business that is not trying to grow as quickly."
+   ],
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "I would always try to frontload revenue this way I had more for your growth",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 35605,
+    "approx_timestamp_s": 1942
+   }
+  },
+  {
+   "name": "Optimize ad campaigns for purchases",
+   "area": "acquisition",
+   "steps": [
+    "Track purchases rather than only app installs.",
+    "Use a purchase event for campaign optimization when the app and tracking setup support it.",
+    "Compare cost per purchase and downstream revenue before increasing spend."
+   ],
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "But if you want like like to make your ads 10 times more profitable, you optimize for purchases.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20585,
+    "approx_timestamp_s": 1123
+   }
+  },
+  {
+   "name": "Use first creator deals to build credibility and referrals",
+   "area": "acquisition",
+   "steps": [
+    "Run a manageable first creator test and review comments, views, and sales.",
+    "Use successful collaborations as social proof when approaching other creators.",
+    "Make the creator relationship and the product's fit clear rather than assuming a large audience alone will convert."
+   ],
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "even on your first it's okay to be unprofitable on your first few influencers because they're going to start spreading your word to other influencers.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 38287,
+    "approx_timestamp_s": 2088
+   }
+  },
+  {
+   "name": "Keep campaign and business data in one place",
+   "area": "operations",
+   "steps": [
+    "Track creator deals, contracts, ad metrics, and business results in an internal dashboard.",
+    "Connect the relevant data sources so the operator can ask consistent questions about daily results and profit and loss.",
+    "Use the data to make decisions, then check attribution against actual performance."
+   ],
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "It tracks I run my entire business on it. my my metads, my creators, like literally dashboard contracts are sent through it.",
+    "speaker": "George",
+    "match_score": 94.2,
+    "verified": true,
+    "char_offset": 42135,
+    "approx_timestamp_s": 2298
+   }
+  },
+  {
+   "name": "Treat app-store and platform relationships carefully",
+   "area": "legal",
+   "steps": [
+    "Make subscription options and terms clear in the paywall.",
+    "Avoid public claims about borderline compliance that could attract review or enforcement.",
+    "If an account or listing is restricted, appeal through the platform and document the issue rather than assuming the first decision is final."
+   ],
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "if you're doing anything that's anything close to being gray, never do that on Twitter cuz Apple's on there like a hawk.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 70469,
+    "approx_timestamp_s": 3844
+   }
+  },
+  {
+   "name": "Protect runway and set a growth budget",
+   "area": "finance",
+   "steps": [
+    "Keep enough operating cash available to continue growth while platform payouts are delayed.",
+    "Decide how much cash can be invested in ads without putting personal runway at risk.",
+    "George said he was more willing to scale once he had money set aside for living costs."
+   ],
+   "idea_local_id": null,
+   "quote": {
+    "text": "I have like this is my like per my personal runway is like six months to a year.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 93495,
+    "approx_timestamp_s": 5101
+   }
+  },
+  {
+   "name": "Test a product's core feature before expanding the feature set",
+   "area": "product",
+   "steps": [
+    "Build the feature that makes the product easy to explain and test whether the audience wants it.",
+    "Use repeated customer behavior to identify where the first feature stops being useful.",
+    "Add adjacent features that solve repeat-use problems, such as Wrestle AI's calorie and weight-management tools."
+   ],
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "the analysis feature gets them in the door, but you can only really use the analysis feature like five times.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 49339,
+    "approx_timestamp_s": 2691
+   }
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Rork (transcribed as “Ror”)",
+   "purpose": "AI app builder George used to make mobile apps, including Fight AI and Wrestle AI.",
+   "cost_stated": null
+  },
+  {
+   "name": "Replit",
+   "purpose": "Reference point used by the host when asking what Rork was like.",
+   "cost_stated": null
+  },
+  {
+   "name": "Swift",
+   "purpose": "Programming language for iPhone apps, mentioned while explaining what Rork builds.",
+   "cost_stated": null
+  },
+  {
+   "name": "Instagram",
+   "purpose": "Organic app promotion, creator posts, creator outreach, and social proof.",
+   "cost_stated": null
+  },
+  {
+   "name": "TikTok",
+   "purpose": "Social-media distribution for app promotion and creator content.",
+   "cost_stated": null
+  },
+  {
+   "name": "Meta Ads",
+   "purpose": "Paid app user acquisition; the team used Meta placements for the newer apps.",
+   "cost_stated": "Boxing app spend was stated as about $400 per day; workout app spend was described as about $100 per day rising to an average of $200–$300 per day."
+  },
+  {
+   "name": "Meta Ads Library",
+   "purpose": "Studying ads to identify effective creative approaches.",
+   "cost_stated": null
+  },
+  {
+   "name": "Facebook",
+   "purpose": "Facebook Reels was discussed as a source of traffic from Meta ads.",
+   "cost_stated": null
+  },
+  {
+   "name": "Fiverr",
+   "purpose": "One of the places George sourced virtual assistants.",
+   "cost_stated": null
+  },
+  {
+   "name": "Upwork",
+   "purpose": "One of the places George sourced virtual assistants.",
+   "cost_stated": null
+  },
+  {
+   "name": "Claude",
+   "purpose": "Used to query business data through an MCP connection and to draft an apology email to Apple.",
+   "cost_stated": null
+  },
+  {
+   "name": "PostHog",
+   "purpose": "A data source connected to George's internal business data and Claude.",
+   "cost_stated": null
+  },
+  {
+   "name": "MCP",
+   "purpose": "Connection method George described for querying business data through Claude.",
+   "cost_stated": null
+  },
+  {
+   "name": "Apple App Store",
+   "purpose": "Distribution and subscription platform for the apps; Apple held app revenue and reviewed the workout app.",
+   "cost_stated": null
+  },
+  {
+   "name": "RevenueCat",
+   "purpose": "App paywall and subscription analytics provider; George discussed its payments advance program.",
+   "cost_stated": "George said the advance fee was 2% and that up to 80% of day-one revenue could be paid early."
+  },
+  {
+   "name": "X (Twitter)",
+   "purpose": "George posted occasionally; a co-founder publicly discussed app conversion and paywall details there.",
+   "cost_stated": null
+  },
+  {
+   "name": "LinkedIn",
+   "purpose": "George said he used LinkedIn to find Meta employees and seek help restoring access to an ads account.",
+   "cost_stated": null
+  },
+  {
+   "name": "MOS SMM",
+   "purpose": "Site George named for buying social-media followers.",
+   "cost_stated": "George said it cost about $1 per thousand followers."
+  },
+  {
+   "name": "YouTube",
+   "purpose": "George's earlier channel experiments and the host's channel.",
+   "cost_stated": null
+  },
+  {
+   "name": "MyFitnessPal",
+   "purpose": "Named as the reported buyer of an app built by George's friend Zach.",
+   "cost_stated": null
+  },
+  {
+   "name": "Superpower",
+   "purpose": "Health analytics and bloodwork app George considered as a reference for a possible app.",
+   "cost_stated": null
+  },
+  {
+   "name": "Function Health",
+   "purpose": "Bloodwork and health analytics service the host said he used as a comparison.",
+   "cost_stated": "The host said he paid $500 for two blood panels a year."
+  },
+  {
+   "name": "OpenAI GPT",
+   "purpose": "Model George said Fight AI used for its video analysis.",
+   "cost_stated": null
+  },
+  {
+   "name": "Google",
+   "purpose": "Mentioned in a joke about having a Gmail account being called a partnership; not described as a business tool.",
+   "cost_stated": null
+  },
+  {
+   "name": "Gmail",
+   "purpose": "Mentioned in a joke about calling an ordinary account a Google partnership.",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "The supplement brand ran paid ads that lost money, had little or no margin, and left inventory that George later abandoned.",
+   "quote": {
+    "text": "There was like this there's zero margin. Yeah. Like what am I doing with this supplement?",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7456,
+    "approx_timestamp_s": 406
+   }
+  },
+  {
+   "warning": "A large audience and high view count did not guarantee sales; the Green app received over a million views but made only $35.",
+   "quote": {
+    "text": "Both apps got a million views in its first month. Wrestle AI the first month did 17K. Green did $35.",
+    "speaker": "George",
+    "match_score": 84.4,
+    "verified": false,
+    "char_offset": 30301,
+    "approx_timestamp_s": 1653
+   }
+  },
+  {
+   "warning": "Rating-only workout ads generated downloads but caused quick churn; showing the actual workout produced better-quality interest.",
+   "quote": {
+    "text": "When we would just show the ratings, right? What do you mean ratings? So you take a picture and it rates your six pack.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 67294,
+    "approx_timestamp_s": 3671
+   }
+  },
+  {
+   "warning": "George said the app-store removal followed a public paywall discussion and a report to Apple; the app was unavailable for two weeks.",
+   "quote": {
+    "text": "They removed us for two weeks and I'm like making fun of the kid.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 71669,
+    "approx_timestamp_s": 3910
+   }
+  },
+  {
+   "warning": "The transcript describes buying fake followers to make an account look established. This can mislead creators and customers, damage trust, and may violate platform rules.",
+   "quote": {
+    "text": "Bought up your Instagram account. Bought it. Yeah. Like when you're a brand, pay for the verification, pay for followers in the beginning.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 85614,
+    "approx_timestamp_s": 4671
+   }
+  },
+  {
+   "warning": "Unsolicited marketing DMs to individual creators may be restricted by UK PECR; the interview's US-based outreach playbook should not be copied into the UK without a lawful basis and appropriate consent."
+  },
+  {
+   "warning": "The host and guest described an app-store pricing presentation that drew scrutiny. Subscription prices, trial terms, and billing intervals should be presented clearly and in the order required by platform rules."
+  },
+  {
+   "warning": "Weight-cutting and calorie-tracking features aimed at young wrestlers can create health and safety risks; the transcript does not describe qualified clinical oversight."
+  },
+  {
+   "warning": "Creator view counts can be manipulated; George said he checked comment quality and engagement, but also acknowledged that much of the sales attribution was intuition."
+  },
+  {
+   "warning": "George described a competitor threatening to sue and discussing an NDA. He chose not to sign an agreement he did not understand."
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Choose a specific audience and a clear problem before chasing broad distribution. George said Wrestle AI had a more engaged niche than the low-intent audience for Green.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "if you're distributing something that no one cares about, no one's going to buy it no matter what.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 30579,
+    "approx_timestamp_s": 1668
+   }
+  },
+  {
+   "lesson": "A product needs a feature people can understand quickly from a video or screenshot.",
+   "theme": "offer_design",
+   "quote": {
+    "text": "the job of it is to explain the entire app in five seconds.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 84958,
+    "approx_timestamp_s": 4635
+   }
+  },
+  {
+   "lesson": "Measure purchases, retention, and useful customer behavior rather than treating views or installs as proof of demand.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "like you're getting these big spikes and you're like, \"This works. This is what we need to do.\" And then you see they churn",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 68463,
+    "approx_timestamp_s": 3735
+   }
+  },
+  {
+   "lesson": "Audience fit and creator skill can matter more than follower count or athletic credentials.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "I honestly don't care about followers. I care about average views.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 89278,
+    "approx_timestamp_s": 4870
+   }
+  },
+  {
+   "lesson": "A creator's organic video may work differently as a paid ad; make ad creative direct and show the product early.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "you need to show the product within the first 15 seconds",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 58382,
+    "approx_timestamp_s": 3185
+   }
+  },
+  {
+   "lesson": "Add features that give customers a reason to keep using the product after the initial hook has done its job.",
+   "theme": "offer_design",
+   "quote": {
+    "text": "the analysis feature gets them in the door, but you can only really use the analysis feature like five times.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 49339,
+    "approx_timestamp_s": 2691
+   }
+  },
+  {
+   "lesson": "Seasonality can shape demand; George timed creator activity and product work around wrestling season.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "I told Kaden like we got to make sure like we're getting this for the peak like the wrestling season.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 46826,
+    "approx_timestamp_s": 2554
+   }
+  },
+  {
+   "lesson": "A 50/50 partnership can make sense to the founder when the partner brings essential audience access and product credibility.",
+   "theme": "hiring_outsourcing",
+   "quote": {
+    "text": "I was nothing without this guy before this guy. Like I literally knew zero.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23897,
+    "approx_timestamp_s": 1303
+   }
+  },
+  {
+   "lesson": "Use a VA to free the founder from repeatable sourcing work once the business has early revenue.",
+   "theme": "hiring_outsourcing",
+   "quote": {
+    "text": "After you make your first thousand bucks, hire a VA instantly.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 88786,
+    "approx_timestamp_s": 4844
+   }
+  },
+  {
+   "lesson": "Keep enough cash and personal runway to fund growth and survive delayed platform payouts.",
+   "theme": "finance_unit_economics",
+   "quote": {
+    "text": "I have money set aside. Like I have money set aside. This is what I'm going to live on.",
+    "speaker": "George",
+    "match_score": 72.6,
+    "verified": false,
+    "char_offset": 93341,
+    "approx_timestamp_s": 5092
+   }
+  },
+  {
+   "lesson": "Keep testing and learn from failed launches, but cut ideas that attract the wrong audience or fail to retain users.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "It's really just don't have limiting beliefs and just keep like keep doing different things until it works.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 93998,
+    "approx_timestamp_s": 5128
+   }
+  },
+  {
+   "lesson": "Treat app-store rules and public claims carefully; a platform relationship can affect whether customers can access the product.",
+   "theme": "legal_risk",
+   "quote": {
+    "text": "if you're doing anything that's anything close to being gray, never do that on Twitter cuz Apple's on there like a hawk.",
+    "speaker": "George",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 70469,
+    "approx_timestamp_s": 3844
+   }
+  }
+ ],
+ "evidence_quality": {
+  "rating": "B",
+  "rationale": "George describes his own apps, creator acquisition process, product features, and revenue with substantial detail. The numbers are self-reported, several are approximate, some timelines and app revenue figures are inconsistent, and no independent records are shown.",
+  "promotional_conflict": "The host included a sponsored GoHighLevel advertisement and promoted his Playmakers AI agency program and paid business-plan membership. Those sponsor and promotional segments were excluded as business ideas."
+ },
+ "extraction": {
+  "model": "gpt-6-luna",
+  "extracted_at": "2026-10-22T11:44:51",
+  "cost_usd": 0,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 121,
+   "verified": 118,
+   "rate": 0.975
+  },
+  "schema_errors": []
+ }
+}

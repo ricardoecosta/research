@@ -1,0 +1,454 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "oBM-m3msUpQ",
+  "title": "The Easiest Way to Build & Host a GPT-6 Astra Website (Full Tutorial)",
+  "channel": "Mikey No Code",
+  "url": "https://www.youtube.com/watch?v=oBM-m3msUpQ",
+  "upload_date": "2026-10-05",
+  "duration_s": 1228,
+  "view_count": 38009,
+  "transcript_provider": "cached",
+  "transcript_chars": 19203,
+  "transcript_is_whisper": false
+ },
+ "summary": "The video walks through building and hosting a sample fitness and wellness website with Codex and GPT-6 Astra, using five prompts, a production build, and an FTP upload to hosting.com. It covers the page structure, images, mobile layout, SEO metadata, and deployment checks. The presenter says the workflow can be reused for another business site, but does not present an operating web-design business or describe how to find clients, price work, or support customers. The demonstrated contact form is only a front-end placeholder and does not send submissions.",
+ "speakers": [
+  {
+   "name": "Mikey No Code",
+   "role": "narrator",
+   "description": "The channel and discount code identify the narrator; no fuller name is stated."
+  }
+ ],
+ "format": "tutorial_howto",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "AI-assisted website creation for businesses",
+   "one_liner": "Use an AI coding assistant to create, build, and host a small business website.",
+   "category": "b2b_service",
+   "business_model": "Not stated; the video teaches a workflow and does not describe selling website services.",
+   "customer": "People or businesses that need a professional website; a specific customer profile is not stated.",
+   "problem": "The presenter says professional websites can involve high developer quotes and long waits, while drag-and-drop builders can produce generic-looking templates.",
+   "offer": "A responsive business website with sections such as services, about, testimonials, gallery, contact, and SEO metadata, created with AI assistance and uploaded to a domain.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": "No price for the demonstrated website service is given. ChatGPT Pro and hosting.com shared hosting are presented as prerequisites, but their prices are not stated."
+   },
+   "acquisition_channels": [],
+   "delivery": "The user gives prompts to Codex with GPT-6 Astra, reviews the generated React/Vite/TypeScript site, runs a production build, then manually uploads the compiled files from the dist folder to public_html through hosting.com's FTP panel. The video does not describe client handoff or ongoing support.",
+   "unit_economics_claims": [
+    "The presenter says people may have been quoted $3,000–$5,000 for a basic website; this is not a price for the demonstrated service."
+   ],
+   "tools": [
+    "Codex",
+    "GPT-6 Astra",
+    "ChatGPT Pro",
+    "React",
+    "Vite",
+    "TypeScript",
+    "Tailwind CSS",
+    "hosting.com shared hosting Pro",
+    "hosting.com Enhanced Panel",
+    "FTP",
+    "npm",
+    "Unsplash"
+   ],
+   "startup_cost": "Not stated. The presenter says a ChatGPT Pro plan and hosting.com shared hosting account are needed; prices are not provided.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "No customer acquisition method is demonstrated. Finding and agreeing a project with a client would require human work."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "AI can scaffold from prompts, but a person must collect the client's content, branding, images, and requirements."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "AI generates much of the code, but the workflow includes human prompting, visual checks, responsive review, and a manual FTP upload."
+    },
+    "billing": {
+     "score_e": 1,
+     "how": "Billing is not covered, so no automated billing process is shown."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Ongoing support is not covered and would need a human unless separately designed."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "The workflow uses general web technologies and static hosting, so it appears usable in the UK. The video gives no UK-specific hosting prices, domain details, or legal guidance."
+   },
+   "risks": [
+    "The tutorial does not establish customer demand, a route to customers, a service price, or recurring revenue.",
+    "The contact form only stores field values in React; without back-end processing it does not deliver enquiries.",
+    "The presenter advises checking mobile layout and deployment behavior, and placing compiled files directly at the root of public_html."
+   ],
+   "is_primary": true,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "And then from here you can go ahead and swap in your own content, images, branding, and domain and use the exact same process for another business site.",
+     "speaker": "Mikey No Code",
+     "match_score": 95.9,
+     "verified": true,
+     "char_offset": 18503,
+     "approx_timestamp_s": 1209
+    },
+    {
+     "text": "And maybe you've probably been quoted three, four, five, $5,000 just for a basic site.",
+     "speaker": "Mikey No Code",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 353,
+     "approx_timestamp_s": 23
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Elevate Studio fitness and wellness concept",
+   "one_liner": "A sample fitness and wellness brand used to demonstrate the website workflow.",
+   "category": "local_service",
+   "business_model": "Not stated.",
+   "customer": "People seeking fitness and wellness services; a specific customer profile is not stated.",
+   "problem": "Not stated.",
+   "offer": "The sample site lists personal training, nutrition coaching, and recovery and wellness. The video does not establish that the studio is a real operating business.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": "No service prices are stated."
+   },
+   "acquisition_channels": [],
+   "delivery": "Not stated; the studio is presented as a website example, not as an operating service.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Codex",
+    "GPT-6 Astra",
+    "React",
+    "Vite",
+    "TypeScript",
+    "Tailwind CSS",
+    "Unsplash"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "No customer acquisition process is described."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "No customer onboarding process is described."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "The listed fitness and wellness services would involve human delivery; the video gives no operating details."
+    },
+    "billing": {
+     "score_e": 1,
+     "how": "Billing is not described."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Customer support is not described."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Fitness and wellness services could operate in the UK, but the video provides no location, regulations, or operating model to assess."
+   },
+   "risks": [
+    "This is a sample brand for a website tutorial, not evidence of a real business or tested demand.",
+    "No costs, prices, customer acquisition, or service delivery details are given."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "Now, in this video, I'm building a complete fitness and wellness brand website, and I'm calling it Elevate Studio with a hero section up top, services, about, testimonials, a gallery, a working contact form, and full SEO metadata",
+     "speaker": "Mikey No Code",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 722,
+     "approx_timestamp_s": 47
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "The presenter says viewers may have received a quote of roughly $3,000 to $5,000 for a basic website.",
+   "metric": "cost",
+   "value": {
+    "amount": 3000,
+    "amount_max": 5000,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": "Basic website quote"
+   },
+   "period": null,
+   "claimant": "Mikey No Code",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "And maybe you've probably been quoted three, four, five, $5,000 just for a basic site.",
+    "speaker": "Mikey No Code",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 353,
+    "approx_timestamp_s": 23
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Set the visual direction before adding sections",
+   "area": "product",
+   "steps": [
+    "Start with a project scaffold and specify the framework, component structure, navigation, and visual palette.",
+    "Build the navigation and hero first, then use that established style as the basis for later sections."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "And there is a reason we're not rushing into the other sections yet either because the design choices that we make here in this first prompt.",
+    "speaker": "Mikey No Code",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6149,
+    "approx_timestamp_s": 401
+   }
+  },
+  {
+   "name": "Build the page in prompt-sized sections",
+   "area": "operations",
+   "steps": [
+    "Add services and about sections after the hero.",
+    "Add testimonials and a gallery, then a contact section and SEO metadata.",
+    "Finish with image URLs, a mobile layout, a hamburger menu, and a footer."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So, for the next one here, we're going to ask Astra to add a services section with three cards for personal training, nutrition, coaching, and recovery and wellness.",
+    "speaker": "Mikey No Code",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6978,
+    "approx_timestamp_s": 456
+   }
+  },
+  {
+   "name": "Build and upload only the production output",
+   "area": "operations",
+   "steps": [
+    "Run npm run build to create the dist folder.",
+    "Check that dist contains the compiled site assets and not development files or node_modules.",
+    "Upload the contents of dist directly into public_html through the hosting panel's FTP section.",
+    "Check the live domain on desktop and mobile after upload."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So let's ask Astra to run the production build to create the dist folder, add the required.htac htac file for spa routing and make sure that the final folder only contains the compiled output we need for deployment.",
+    "speaker": "Mikey No Code",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13887,
+    "approx_timestamp_s": 907
+   }
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Codex",
+   "purpose": "AI coding assistant used to scaffold, edit, and build the website; transcript captions render the name as “codeex” and similar variants.",
+   "cost_stated": null
+  },
+  {
+   "name": "GPT-6 Astra",
+   "purpose": "Selected model for generating and modifying the site.",
+   "cost_stated": null
+  },
+  {
+   "name": "ChatGPT Pro",
+   "purpose": "Plan the presenter says is needed to use Codex with Astra.",
+   "cost_stated": null
+  },
+  {
+   "name": "hosting.com",
+   "purpose": "Shared hosting provider used to host the production site; the video includes a discount code and link.",
+   "cost_stated": null
+  },
+  {
+   "name": "hosting.com shared hosting Pro plan",
+   "purpose": "Plan selected for the site's static production build.",
+   "cost_stated": null
+  },
+  {
+   "name": "hosting.com Enhanced Panel",
+   "purpose": "Account panel used to access FTP and manage hosting.",
+   "cost_stated": null
+  },
+  {
+   "name": "React",
+   "purpose": "Frontend framework used for the sample site.",
+   "cost_stated": null
+  },
+  {
+   "name": "Vite",
+   "purpose": "Project and production build tooling.",
+   "cost_stated": null
+  },
+  {
+   "name": "TypeScript",
+   "purpose": "Language used in the website project.",
+   "cost_stated": null
+  },
+  {
+   "name": "Tailwind CSS",
+   "purpose": "Styling the website and responsive layouts.",
+   "cost_stated": null
+  },
+  {
+   "name": "Unsplash",
+   "purpose": "Source of image URLs used in the hero, about section, and gallery.",
+   "cost_stated": null
+  },
+  {
+   "name": "npm",
+   "purpose": "Runs the production build command.",
+   "cost_stated": null
+  },
+  {
+   "name": "FTP",
+   "purpose": "Used through the hosting panel to upload the compiled files.",
+   "cost_stated": null
+  },
+  {
+   "name": "SSL certificates",
+   "purpose": "The presenter says they are included with the hosting plan.",
+   "cost_stated": "Free, according to the presenter."
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "The contact form is a front-end placeholder and does not send submissions anywhere.",
+   "quote": {
+    "text": "The form itself is only handling the field values in React, so there's no back-end processing connected to it yet.",
+    "speaker": "Mikey No Code",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10825,
+    "approx_timestamp_s": 707
+   }
+  },
+  {
+   "warning": "The presenter says to upload the contents of dist directly into public_html, with index.html at the root, rather than placing the dist folder itself there.",
+   "quote": {
+    "text": "The important part is making sure that the files land directly at the root of public_html. The disc folder itself should not sit inside public_html and index.html HTML needs to be at the root",
+    "speaker": "Mikey No Code",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15774,
+    "approx_timestamp_s": 1030
+   }
+  },
+  {
+   "warning": "The presenter promotes hosting.com with a discount code, so the hosting recommendation has a promotional conflict.",
+   "quote": {
+    "text": "I do have a special discount for you. You can just use the link right here on your screen. And then enter my code Mikey Mi Ky at checkout.",
+    "speaker": "Mikey No Code",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3723,
+    "approx_timestamp_s": 243
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Set the visual direction early so later sections can follow a consistent style.",
+   "theme": "operations",
+   "quote": {
+    "text": "So getting that direction settled early on also saves us from having to go back and then redesign multiple components later on.",
+    "speaker": "Mikey No Code",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6341,
+    "approx_timestamp_s": 414
+   }
+  },
+  {
+   "lesson": "Make it easy for visitors to understand what the business offers without making them search through the site.",
+   "theme": "offer_design",
+   "quote": {
+    "text": "Most people don't stay on a business website for too long. if they can't quickly figure out what's being offered to them or even what kind of business they're dealing with.",
+    "speaker": "Mikey No Code",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6653,
+    "approx_timestamp_s": 434
+   }
+  },
+  {
+   "lesson": "Use testimonials and visual proof to help visitors assess a service.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "Before someone books a fitness service, they usually want some sign that other people have also actually had a good experience.",
+    "speaker": "Mikey No Code",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8806,
+    "approx_timestamp_s": 575
+   }
+  },
+  {
+   "lesson": "A clear contact path matters; showing a form is not enough if it cannot process submissions.",
+   "theme": "operations",
+   "quote": {
+    "text": "The form itself is only handling the field values in React, so there's no back-end processing connected to it yet.",
+    "speaker": "Mikey No Code",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10825,
+    "approx_timestamp_s": 707
+   }
+  },
+  {
+   "lesson": "Check responsive behavior on a small screen and verify the deployed site, not just the development preview.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "This is a separate check from simply resizing the browser during development because here we're confirming that the responsive Tailwind layout still holds up on the live site itself.",
+    "speaker": "Mikey No Code",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17345,
+    "approx_timestamp_s": 1133
+   }
+  }
+ ],
+ "evidence_quality": {
+  "rating": "C",
+  "rationale": "This is a promotional tutorial demonstrating a sample website workflow, not a first-hand account of an operating website business. It contains concrete implementation steps but no customer results, service revenue, or validated business economics.",
+  "promotional_conflict": "The presenter promotes hosting.com, offers a discount code, and directs viewers to a sign-up link."
+ },
+ "extraction": {
+  "model": "gpt-6-luna",
+  "extracted_at": "2026-10-22T11:39:37",
+  "cost_usd": 0,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 15,
+   "verified": 15,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

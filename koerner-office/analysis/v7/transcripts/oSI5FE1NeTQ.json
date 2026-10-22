@@ -1,0 +1,1658 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "oSI5FE1NeTQ",
+  "title": "OpenClaw is BOOMING! Do This to Profit",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=oSI5FE1NeTQ",
+  "upload_date": "2026-02-04",
+  "duration_s": 976,
+  "view_count": 84607,
+  "transcript_provider": "transcribeyoutube",
+  "transcript_chars": 18525,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner introduces the viral Moltbook social network for AI agents and outlines several ways people might build businesses around OpenClaw. He recommends packaged agent setup and managed AI services, then demonstrates building an SEO news site with AI-generated articles, a newsletter signup, and search analytics. He reports 12 unique active users during the first 30 minutes after launch, but gives no revenue results. The main takeaway is to explore practical agent services and use fast, AI-assisted publishing to test interest, while carefully restricting agent permissions.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Host of The Koerner Office; the transcript also spells his name as Chris Kerner."
+  }
+ ],
+ "format": "tutorial_howto",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Packaged OpenClaw installation and AI implementation service",
+   "one_liner": "Set up and configure AI agents for individuals, executives, and business owners, then maintain and service them.",
+   "category": "ai_automation",
+   "business_model": "One-off setup fee followed by an optional monthly maintenance and service fee.",
+   "customer": "Individuals, busy executives, and business owners.",
+   "problem": "Customers may not know how to install, configure, secure, or connect an AI agent to the apps and workflows they use.",
+   "offer": "An agent-in-a-box setup that connects the customer's channels, locks down permissions, and solves practical problems; ongoing maintenance is also offered.",
+   "pricing": {
+    "model": "One-off setup plus recurring maintenance and service.",
+    "price_points": [
+     {
+      "amount": 300,
+      "amount_max": 1000,
+      "currency": "USD",
+      "unit": "one-off setup",
+      "label": null
+     },
+     {
+      "amount": 50,
+      "amount_max": 350,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "maintenance and service"
+     }
+    ],
+    "notes": "The host suggests these as possible charges; he does not report having charged them."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "referrals_word_of_mouth",
+     "details": "The host recommends trying agents personally, then talking about them with friends and people encountered in person, including at church. He says interested people may ask for help.",
+     "quote": {
+      "text": "And then just start talking about it on the internet to your friends, in person, at church, wherever. And people will want help with it.",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 5627,
+      "approx_timestamp_s": 304
+     }
+    }
+   ],
+   "delivery": "Install the agent on the customer's computer or server, connect it to the relevant apps and channels, restrict permissions, and configure it to perform useful tasks. The host says the service should solve problems, not stop at installation. He suggests charging for setup and ongoing maintenance.",
+   "unit_economics_claims": [
+    "The host proposes a USD 300–1,000 setup fee and USD 50–350 per month for maintenance and service; these are hypothetical price suggestions."
+   ],
+   "tools": [
+    "OpenClaw",
+    "Mac Mini",
+    "MacBook or another computer",
+    "iMessage",
+    "Telegram",
+    "Discord",
+    "Email",
+    "Calendar",
+    "ChatGPT"
+   ],
+   "startup_cost": "Not stated. A Mac Mini is not required; the host says an existing computer or old laptop can be used.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "The host's proposed customer discovery relies on personal conversation and in-person word of mouth, which requires human participation."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "An agent may help with setup, but connecting personal apps, configuring permissions, and understanding the customer's workflows need substantial human review."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Agents can perform configured tasks, but installation, integrations, permissions, and proving that the setup solves the customer's problem require human work."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "A standard setup payment and recurring subscription could be billed by software, though no billing system is described."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Routine checks may be automated, but the offered maintenance and service imply human troubleshooting and configuration."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "The setup service can be offered in the UK. It would need careful handling of customer data, account access, security, and privacy; the transcript does not discuss UK-specific compliance."
+   },
+   "risks": [
+    "An agent with broad permissions can spend money or take actions without the customer's awareness.",
+    "The service depends on reliable integration with customers' apps and secure handling of credentials and personal data.",
+    "The proposed prices are suggestions, not evidence of customer demand or achieved sales.",
+    "In-person customer acquisition is difficult to automate and can limit the business's reach."
+   ],
+   "is_primary": false,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "I think there is a massive opportunity right here to figure out how to build openclaw AI agents in a box. How to do it in 30 minutes, 90 minutes, whatever it takes",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 1891,
+     "approx_timestamp_s": 102
+    },
+    {
+     "text": "Make sure their permissions are locked down. Make sure it's tied together to all the right channels and make sure it's actually doing things for them.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 2291,
+     "approx_timestamp_s": 124
+    },
+    {
+     "text": "I think you can charge between 300 and $1,000 to set this up. And then you can charge between 50 and 350 bucks a month to maintain this and service this.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 2635,
+     "approx_timestamp_s": 142
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Hosted AI assistant as a service",
+   "one_liner": "Host and manage dedicated AI assistants for customers as a software-as-a-service product.",
+   "category": "saas_software",
+   "business_model": "The host describes a software-as-a-service offering; pricing is not stated.",
+   "customer": "Real estate agents, lawyers, busy people, and executives.",
+   "problem": "Customers may not want to host or manage an agent on their own computer or server.",
+   "offer": "Dedicated AI assistance hosted on the provider's server and managed for the customer.",
+   "pricing": {
+    "model": "Software as a service; price not stated.",
+    "price_points": [],
+    "notes": "The host describes this as a lower-friction alternative to customer-managed installation."
+   },
+   "acquisition_channels": [],
+   "delivery": "The provider hosts dedicated agents on its own server and manages them for customers, rather than asking customers to run and manage the agents themselves.",
+   "unit_economics_claims": [],
+   "tools": [
+    "OpenClaw",
+    "Server"
+   ],
+   "startup_cost": "Not stated; server and service costs are not given.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "The host names customer groups but no acquisition process. Inbound marketing could be automated, while outbound contact would require legal screening and human oversight."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "A software signup and configuration flow could automate basic onboarding, but connecting customer accounts and setting permissions needs review."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "The agent can perform software tasks on a hosted server, but monitoring, integrations, and exception handling still need human checks."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "A subscription can be billed automatically; no billing setup is described."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Routine agent issues may be handled automatically, but customer-specific integrations and failures likely need human support."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Hosted AI assistants can serve UK customers, subject to appropriate data protection, security, and sector-specific handling. The transcript does not discuss these requirements."
+   },
+   "risks": [
+    "Hosting customer agents creates ongoing infrastructure, security, and support obligations.",
+    "The host gives no pricing, operating costs, or evidence of a working hosted service.",
+    "Agents connected to customer accounts may access or change sensitive information."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "Or you can build these out yourself and offer dedicated AI assistance as a service, right? You host them on your own server and you sell it as like a SAS product, a software as a service product to real estate agents, lawyers, busy people, executives, whatever.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 2786,
+     "approx_timestamp_s": 150
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "AI customer support agent for small businesses",
+   "one_liner": "Connect an agent to a small business's email, support tickets, and FAQs so it can handle customer support across voice, text, and chat.",
+   "category": "ai_automation",
+   "business_model": "Not stated.",
+   "customer": "Small businesses.",
+   "problem": "Businesses need to answer customer support questions across multiple channels.",
+   "offer": "A multimodal customer support agent connected to the business's email, support tickets, and FAQs, potentially available as a voice agent, text agent, or chatbot.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "Connect the agent to the business's email, tickets, support tickets, and FAQs, then make it available through voice, text, or a website chatbot. The transcript does not describe who configures or monitors it.",
+   "unit_economics_claims": [],
+   "tools": [
+    "OpenClaw",
+    "Email",
+    "Support tickets",
+    "FAQs",
+    "Voice agent",
+    "Text agent",
+    "Chatbot"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "No acquisition channel is described. Inbound channels could be automated; the legal basis for any direct outreach would need to be checked."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Connecting knowledge sources and setting response rules requires customer-specific setup and review."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "An agent can answer routine questions across digital channels, but sensitive cases and incorrect answers need escalation and review."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "A subscription could be billed automatically, but no billing model is stated."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "The service itself handles customer support, but the provider would need to manage failures, escalations, and changing business information."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Small businesses in the UK can use the same general service. Customer data, accurate responses, and any regulated-sector content require suitable controls."
+   },
+   "risks": [
+    "An incorrect or out-of-date answer could harm the business or its customers.",
+    "Voice and messaging channels may create privacy, consent, and record-keeping obligations.",
+    "Human escalation is needed for complaints, sensitive matters, and uncertain answers."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "I think installing this as a customer support agent for basically any small business where it's synced to their email, their tickets, their support tickets, their FAQs, and it just does customer support for them.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 3219,
+     "approx_timestamp_s": 174
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "Weekly competitor intelligence reporter",
+   "one_liner": "Provide e-commerce businesses with recurring reports on the ads their direct competitors are running.",
+   "category": "ai_automation",
+   "business_model": "Recurring report service; pricing is not stated.",
+   "customer": "E-commerce businesses, with a supplement seller given as an example.",
+   "problem": "A business wants to keep track of what its direct competitors are advertising.",
+   "offer": "A recurring report that finds and reviews competitors' ads and summarizes what they are doing.",
+   "pricing": {
+    "model": "Recurring service; price not stated.",
+    "price_points": [],
+    "notes": "The host gives a weekly reporting example."
+   },
+   "acquisition_channels": [],
+   "delivery": "An agent would regularly find and review direct competitors' ads, then deliver a report. The host describes it as automatic and recurring but gives no data sources or reporting workflow.",
+   "unit_economics_claims": [],
+   "tools": [
+    "AI agent",
+    "E-commerce advertising platforms (not named)"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "The host names likely customers but no acquisition channel. Inbound marketing could be automated; direct outreach would require legal review."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Competitors and reporting cadence could be collected through a form, with a human checking the initial scope."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Recurring collection and summarization are suited to agents, but source access, data quality, and interpretation need routine checks."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "A recurring report subscription could be billed automatically; no billing system is described."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Automated help may answer routine questions, but clients may need human help when sources fail or reports need interpretation."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "UK e-commerce businesses can use competitor advertising intelligence. The transcript does not explain data sources, platform terms, or local advertising rules."
+   },
+   "risks": [
+    "The transcript does not identify data sources or confirm that automated collection complies with platform terms.",
+    "Ad data may be incomplete or misclassified, reducing the usefulness of reports.",
+    "The host does not demonstrate a working report or paying customers."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "I love the thought of making like a weekly competitor intel reporter, right? where let's say you're an ecom business and you're selling a supplement.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 3574,
+     "approx_timestamp_s": 193
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "Research agent as a service",
+   "one_liner": "Sell research work performed by an AI agent as a service.",
+   "category": "ai_automation",
+   "business_model": "Service; pricing and payment structure are not stated.",
+   "customer": "Not stated.",
+   "problem": "Not stated.",
+   "offer": "Research performed by an agent and provided as a service; the research subject and deliverables are not specified.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "An agent performs research for a customer. The transcript does not specify the research workflow, sources, review, or delivery format.",
+   "unit_economics_claims": [],
+   "tools": [
+    "AI agent"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "No customer acquisition method is stated. Inbound discovery could be automated, while direct outreach would need legal review."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "A customer would need to define the research question and expected output; the transcript describes no automated intake."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Agents can gather and summarize information, but accuracy, source quality, and interpretation call for human checks."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Billing could be automated once a pricing model is chosen, which the transcript does not provide."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Questions about research methods and corrections would likely need human review."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Research services can be offered in the UK. Applicability depends on the subject matter and the sources used."
+   },
+   "risks": [
+    "The transcript gives no target customer, research scope, quality process, or evidence of demand.",
+    "Agent research can produce inaccurate or unsupported findings if sources are not checked."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "How about a research agent as a service or someone scraping leads and cleaning leads and doing outreach to leads as a service.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 3970,
+     "approx_timestamp_s": 215
+    }
+   ]
+  },
+  {
+   "local_id": "I6",
+   "name": "Lead scraping, cleaning, and outreach service",
+   "one_liner": "Find and clean lead lists, then conduct outreach on behalf of customers.",
+   "category": "data_leads",
+   "business_model": "Service; pricing is not stated.",
+   "customer": "Not stated; presumably a business seeking leads, but the transcript does not identify a specific customer.",
+   "problem": "Not stated.",
+   "offer": "Scrape lead data, clean the records, and perform outreach to the leads.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "The service would collect lead data, clean it, and conduct outreach. The transcript does not state how leads are sourced, what outreach channels are used, or who reviews the work.",
+   "unit_economics_claims": [],
+   "tools": [
+    "AI agent"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "No channel for acquiring the service's own customers is stated. Inbound marketing can be automated, but direct prospecting needs legal screening."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Customer targeting and acceptable lead criteria need to be specified and checked."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Lead collection and cleaning can use software, but data quality and lawful outreach require human controls."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Billing could be automated once a pricing model is set; none is stated."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "List quality, exclusions, and outreach issues would need human review."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "The service could operate in the UK with changes to data handling and outreach. PECR restricts unsolicited electronic marketing to individuals and sole traders without consent; cold email to limited companies can be allowed, and cold calls should be screened against TPS and CTPS."
+   },
+   "risks": [
+    "UK PECR and data protection rules constrain how personal data is collected and used for marketing.",
+    "Unsolicited marketing email, SMS, or direct messages to individuals and sole traders generally require consent; cold calls need TPS/CTPS screening.",
+    "Poorly sourced or inaccurate lead data can harm customers and recipients.",
+    "The transcript does not describe any compliance controls."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "How about a research agent as a service or someone scraping leads and cleaning leads and doing outreach to leads as a service.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 3970,
+     "approx_timestamp_s": 215
+    }
+   ]
+  },
+  {
+   "local_id": "I7",
+   "name": "Moltbook SEO news site and newsletter",
+   "one_liner": "Build a news and explainer site around Moltbook, publish AI-written search-focused articles, and collect email subscribers.",
+   "category": "content_media",
+   "business_model": "The site collects newsletter subscribers; eventual monetisation is not stated.",
+   "customer": "People searching for news, explanations, and how-to information about Moltbook.",
+   "problem": "People are searching for information about a new viral AI-agent social network.",
+   "offer": "A news site with articles about Moltbook, search-focused explainers, category tags, and a newsletter signup form.",
+   "pricing": {
+    "model": "Not stated; the host says he wants email addresses and does not describe a paid offer.",
+    "price_points": [],
+    "notes": "The host says he does not expect to monetise a site with ads, but does not state how this site will earn revenue."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "seo_organic_search",
+     "details": "The host used Google Trends to identify search phrases, bought a relevant domain, wrote SEO-focused articles, added keywords and tags, and requested indexing through Google Search Console. He says the site was already receiving organic traffic, though he also speculates that some visitors may have typed the domain directly.",
+     "quote": {
+      "text": "If my blog article entitled, \"What is moltbook?\" has SEO friendly tags and keywords and is published first and starts getting enough of the clicks and starts retaining users",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 10070,
+      "approx_timestamp_s": 545
+     }
+    },
+    {
+     "channel": "other",
+     "details": "The site includes a newsletter signup form integrated with Beehive. The host describes collecting email addresses but does not describe how subscribers are otherwise acquired.",
+     "quote": {
+      "text": "I told Replet, hey, integrate the subscribe form with Beehive. And it said, \"What's your Beehive API key?\"",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 16987,
+      "approx_timestamp_s": 920
+     }
+    }
+   ],
+   "delivery": "The host used an AI coding tool to build and publish a news site on a domain. He prompted it to create and update articles, requested tags and article filtering, connected a signup form to Beehive, and configured a welcome email through Beehive's automation system. He says the articles are AI-written and wants them updated every morning.",
+   "unit_economics_claims": [
+    "The host reports 12 unique active users during the first 30 minutes after the site went live; he reports no revenue.",
+    "The host says the site was created with one prompt, although he also describes follow-up prompts and setup work."
+   ],
+   "tools": [
+    "Moltbook",
+    "Replit",
+    "ChatGPT",
+    "Google Trends",
+    "Google Analytics",
+    "Google Search Console",
+    "Beehive",
+    "DNS settings",
+    "Google",
+    "Reddit",
+    "Tablet Mag"
+   ],
+   "startup_cost": "Not stated. The host bought domain names but gives no domain, hosting, software, or operating costs.",
+   "time_to_first_revenue": "Not stated; the host reports traffic soon after launch but no revenue.",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Search-focused articles and indexing can bring inbound traffic with substantial automation. Keyword selection and content quality still need review, and early traffic may depend on a temporary trend."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "The signup form and welcome email are connected to Beehive automation, so subscriber onboarding can run automatically."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "AI can draft and publish articles and apply tags, but the host describes prompts and publishing steps and does not confirm that daily updates run unattended."
+    },
+    "billing": {
+     "score_e": 0,
+     "how": "No paid product or billing flow is described."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "No support process is described. Subscriber questions or corrections would likely need a human response."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "A UK founder can run the same kind of niche news and SEO site. The transcript's US traffic and PST publishing schedule are examples, not requirements."
+   },
+   "risks": [
+    "Moltbook is described as only a few days old, so search interest could be short-lived.",
+    "The host reports early traffic but no revenue, subscriber totals, or evidence that the site will retain visitors.",
+    "AI-written articles need fact-checking, especially for fast-changing topics and misspelled or ambiguous names.",
+    "SEO results are uncertain; buying exact-match domains and publishing first do not ensure ranking.",
+    "The newsletter collects email addresses, so consent, privacy notices, and secure handling need attention.",
+    "The host's statement that advertising will not monetise a website is an opinion, not demonstrated by this example."
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "I sat down and I wanted to vibe a website. And by vibe code, I mean make a website just by using prompts to an AI tool like Replet in this case.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 6735,
+     "approx_timestamp_s": 364
+    },
+    {
+     "text": "It needs to be auto updated with new articles every morning at 5 a.m. PST. It will be hosted on my domain namebooknews.com.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 7764,
+     "approx_timestamp_s": 420
+    },
+    {
+     "text": "So, I use Beehive right here for my um for my newsletter. I love it obviously. And uh I told Replet, hey, integrate the subscribe form with Beehive.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 16904,
+     "approx_timestamp_s": 915
+    }
+   ]
+  },
+  {
+   "local_id": "I8",
+   "name": "Apps or agents that participate on Moltbook",
+   "one_liner": "Build apps or agents that post and react to content on Moltbook.",
+   "category": "saas_software",
+   "business_model": "Not stated.",
+   "customer": "Not stated.",
+   "problem": "Not stated.",
+   "offer": "An app or agent that visits Moltbook and posts or reacts to posts.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "Build an app or agent and have it post and react to Moltbook content. The transcript does not specify the app's purpose, user, distribution, or controls.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Moltbook",
+    "AI agents"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "No customer acquisition method is given. Inbound discovery could be automated, but the platform and product's demand are untested."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "A software signup could be automated, but agent permissions and account connections need careful setup."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Posting and reacting can be automated by agents, but activity needs safeguards and monitoring."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Software billing could be automated if a paid model were chosen; none is stated."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Automated support could handle simple issues, but agent behavior and platform changes require human oversight."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "The idea could be built from the UK, but it depends on Moltbook remaining available and allowing this behavior. The host presents the platform's future as uncertain."
+   },
+   "risks": [
+    "The transcript does not explain what user problem the app solves or how it would earn money.",
+    "Automated posting may breach platform rules or create spam if not constrained.",
+    "The agent behavior may be unpredictable and could publish inappropriate content."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "You can start apps, build agents and have them go to mol maltbook and start posting and reacting to posts.",
+     "speaker": "Chris Koerner",
+     "match_score": 96.2,
+     "verified": true,
+     "char_offset": 6027,
+     "approx_timestamp_s": 326
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Moltbook had around 30,000 messages during its first 10 hours.",
+   "metric": "other",
+   "value": {
+    "amount": 30000,
+    "currency": null,
+    "unit": "messages",
+    "label": "approximately"
+   },
+   "period": "first 10 hours",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I8",
+   "quote": {
+    "text": "And there were like 30,000 messages in the first 10 hours. Then there was 120,000. And then today when I woke up, 1.3 million messages on moldbook",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 385,
+    "approx_timestamp_s": 20
+   }
+  },
+  {
+   "claim": "Moltbook later had 120,000 messages.",
+   "metric": "other",
+   "value": {
+    "amount": 120000,
+    "currency": null,
+    "unit": "messages",
+    "label": null
+   },
+   "period": "not stated",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I8",
+   "quote": {
+    "text": "And there were like 30,000 messages in the first 10 hours. Then there was 120,000. And then today when I woke up, 1.3 million messages on moldbook",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 385,
+    "approx_timestamp_s": 20
+   }
+  },
+  {
+   "claim": "Moltbook had 1.3 million messages when the host woke up that day.",
+   "metric": "other",
+   "value": {
+    "amount": 1300000,
+    "currency": null,
+    "unit": "messages",
+    "label": null
+   },
+   "period": "that day",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I8",
+   "quote": {
+    "text": "And there were like 30,000 messages in the first 10 hours. Then there was 120,000. And then today when I woke up, 1.3 million messages on moldbook",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 385,
+    "approx_timestamp_s": 20
+   }
+  },
+  {
+   "claim": "The host suggests charging USD 300–1,000 for agent setup.",
+   "metric": "price",
+   "value": {
+    "amount": 300,
+    "amount_max": 1000,
+    "currency": "USD",
+    "unit": "one-off setup",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I think you can charge between 300 and $1,000 to set this up. And then you can charge between 50 and 350 bucks a month to maintain this and service this.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2635,
+    "approx_timestamp_s": 142
+   }
+  },
+  {
+   "claim": "The host suggests charging USD 50–350 per month for agent maintenance and service.",
+   "metric": "price",
+   "value": {
+    "amount": 50,
+    "amount_max": 350,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "maintenance and service"
+   },
+   "period": "per month",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I think you can charge between 300 and $1,000 to set this up. And then you can charge between 50 and 350 bucks a month to maintain this and service this.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2635,
+    "approx_timestamp_s": 142
+   }
+  },
+  {
+   "claim": "The host proposes an agent setup taking 30 to 90 minutes, depending on what it requires.",
+   "metric": "hours",
+   "value": {
+    "amount": 30,
+    "amount_max": 90,
+    "currency": null,
+    "unit": "minutes",
+    "label": "setup time"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I think there is a massive opportunity right here to figure out how to build openclaw AI agents in a box. How to do it in 30 minutes, 90 minutes, whatever it takes",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1891,
+    "approx_timestamp_s": 102
+   }
+  },
+  {
+   "claim": "The host reports 12 unique active users during the first 30 minutes after the news site went live.",
+   "metric": "traffic",
+   "value": {
+    "amount": 12,
+    "currency": null,
+    "unit": "unique active users",
+    "label": null
+   },
+   "period": "first 30 minutes after launch",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "Okay, so I've had 12 unique active users in the last 30 minutes and it just went live 30 minutes ago. Like literally 30 minutes ago.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11563,
+    "approx_timestamp_s": 626
+   }
+  },
+  {
+   "claim": "The host says he created the initial website with one prompt.",
+   "metric": "other",
+   "value": {
+    "amount": 1,
+    "currency": null,
+    "unit": "prompt",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "This just went live minutes ago and strangers all over the world are already on my website. I am flabbergasted. One prompt and I had this website up and I'll show you what my prompt was.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6881,
+    "approx_timestamp_s": 372
+   }
+  },
+  {
+   "claim": "The host asked for the site to update with new articles every morning at 5 a.m. PST.",
+   "metric": "hours",
+   "value": {
+    "amount": 5,
+    "currency": null,
+    "unit": "a.m. PST daily",
+    "label": "requested update schedule"
+   },
+   "period": "daily",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "It needs to be auto updated with new articles every morning at 5 a.m. PST. It will be hosted on my domain namebooknews.com.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7764,
+    "approx_timestamp_s": 420
+   }
+  },
+  {
+   "claim": "In a hypothetical Google Trends example, four people searching for “what is Moltbook” correspond to 100 people searching for Moltbook.",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 4,
+    "currency": null,
+    "unit": "searches per 100 searches",
+    "label": "hypothetical example"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "But phrases like what is Maltbook? Okay. Well, if a 100 people are searching for Moltbook, then four people are searching for what is Moltbook? Not bad.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8750,
+    "approx_timestamp_s": 474
+   }
+  },
+  {
+   "claim": "The host says Moltbook News was being searched for about one-fifth as much as “what is Moltbook.”",
+   "metric": "traffic",
+   "value": {
+    "amount": 20,
+    "currency": null,
+    "unit": "percent of searches",
+    "label": "approximate relative search volume"
+   },
+   "period": "at the time of the search",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "Now moltbook news you could see is only being searched for about a fifth of as much as what is moldbook.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9765,
+    "approx_timestamp_s": 529
+   }
+  },
+  {
+   "claim": "The host says about one-fourth of people searching “what is Moltbook” are searching “what is Moltbook AI.”",
+   "metric": "traffic",
+   "value": {
+    "amount": 25,
+    "currency": null,
+    "unit": "percent of searches",
+    "label": "approximate relative search volume"
+   },
+   "period": "at the time of the search",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "Because you can see that about a fourth of the people that are searching for what is maltbook are searching for what is maltbook AI.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11307,
+    "approx_timestamp_s": 612
+   }
+  },
+  {
+   "claim": "The host says the Google Trends relative score for that day was 100, the highest then observed for the phrase.",
+   "metric": "traffic",
+   "value": {
+    "amount": 100,
+    "currency": null,
+    "unit": "relative Google Trends score",
+    "label": null
+   },
+   "period": "that day",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "Today it's peaking, right? This is a relative score 100. Basically, today more people are searching for maltbook news than have ever searched for that phrase.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9040,
+    "approx_timestamp_s": 489
+   }
+  },
+  {
+   "claim": "The host says the Moltbook site was about three days old at the time.",
+   "metric": "other",
+   "value": {
+    "amount": 3,
+    "currency": null,
+    "unit": "days old",
+    "label": "approximate"
+   },
+   "period": "at the time of recording",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "I mean, guys, this this website, Maltbook, is like 3 days old at this point.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13394,
+    "approx_timestamp_s": 725
+   }
+  },
+  {
+   "claim": "The host says the site can have no more than five article tags.",
+   "metric": "other",
+   "value": {
+    "amount": 5,
+    "currency": null,
+    "unit": "article tags maximum",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "Okay, so my latest prompt is add a tagging feature and automatically tag all articles as whatever you think best. Explainer, news, how-to guide, etc. no more than five",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14031,
+    "approx_timestamp_s": 760
+   }
+  },
+  {
+   "claim": "The host requested that the explainer article use sixth-grade language.",
+   "metric": "other",
+   "value": {
+    "amount": 6,
+    "currency": null,
+    "unit": "grade reading level",
+    "label": "requested writing style"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "It should be very easy to read and have a gripping hook written in sixth grade language so anyone can understand using analogies and the like comparing it to Reddit but for AI agents.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15931,
+    "approx_timestamp_s": 863
+   }
+  },
+  {
+   "claim": "The host says people had been using personal AI assistants like this for a couple of years.",
+   "metric": "other",
+   "value": {
+    "amount": 2,
+    "currency": null,
+    "unit": "years",
+    "label": "couple"
+   },
+   "period": "prior to recording",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Now, we've had these for a couple years, but this one is different because it can sync with all of your apps, your chat apps, iMessage, Telegram, Discord, your email, your inbox.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1409,
+    "approx_timestamp_s": 76
+   }
+  },
+  {
+   "claim": "The host says people started talking about Claudebot about a week earlier.",
+   "metric": "other",
+   "value": {
+    "amount": 1,
+    "currency": null,
+    "unit": "week",
+    "label": "about"
+   },
+   "period": "before recording",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Well, about a week ago, everyone started talking about Claudebot and everyone was buying Mac minis to install them on as like a little server.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1152,
+    "approx_timestamp_s": 62
+   }
+  },
+  {
+   "claim": "The host says an example user spent a few hours installing and playing with a Clawbot.",
+   "metric": "hours",
+   "value": {
+    "amount": null,
+    "currency": null,
+    "unit": "hours",
+    "label": "a few"
+   },
+   "period": "late at night",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "There's this guy on Twitter, his name is Alex Finn. He installed a Clawbot. It was called Claudebot at the time. He spent a few hours late at night playing around with it, installing it.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4181,
+    "approx_timestamp_s": 226
+   }
+  },
+  {
+   "claim": "The host says dozens of people in his AI consultant community have found their first customers.",
+   "metric": "customers",
+   "value": {
+    "amount": null,
+    "currency": null,
+    "unit": "people",
+    "label": "dozens"
+   },
+   "period": "not stated",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "I do have a community where that's all we're doing. We're becoming AI consultants together. Dozens of people have found their first customers and it's called Playmakers.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17743,
+    "approx_timestamp_s": 961
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Package agent setup around a solved problem",
+   "area": "offer_design",
+   "steps": [
+    "Choose a clear customer group such as individuals, executives, or business owners.",
+    "Connect the agent to the channels and apps the customer already uses.",
+    "Lock down permissions before enabling actions.",
+    "Configure the agent to solve a specific problem rather than stopping after installation.",
+    "Offer maintenance and service after the initial setup."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Make sure their permissions are locked down. Make sure it's tied together to all the right channels and make sure it's actually doing things for them.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2291,
+    "approx_timestamp_s": 124
+   }
+  },
+  {
+   "name": "Test an agent on your own work, then talk about the result",
+   "area": "customer_acquisition",
+   "steps": [
+    "Install the agent on a computer you already have; the host says a Mac Mini is not required.",
+    "Tell ChatGPT what you do during a typical day and ask for agent use cases.",
+    "Try one useful workflow yourself.",
+    "Talk about the result with friends and people you meet in person, including at church, and offer help to people who ask."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "And then just start talking about it on the internet to your friends, in person, at church, wherever. And people will want help with it. And you can charge them.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5627,
+    "approx_timestamp_s": 304
+   }
+  },
+  {
+   "name": "Build a low-friction hosted version",
+   "area": "product",
+   "steps": [
+    "Host and manage the agent on your own server.",
+    "Choose a customer group such as real estate agents or lawyers.",
+    "Sell managed AI assistance as a software-as-a-service product so customers do not have to manage their own server or computer."
+   ],
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "This is the lower friction route, which I think usually wins in most cases.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3145,
+    "approx_timestamp_s": 170
+   }
+  },
+  {
+   "name": "Connect support agents to the existing knowledge and channels",
+   "area": "operations",
+   "steps": [
+    "Connect the agent to business email, support tickets, and FAQs.",
+    "Make it available as a voice agent, text agent, chatbot, or a combination.",
+    "Treat it as a customer support system rather than just a website widget."
+   ],
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "But instead of just being one widget on the website, it can be multimodal. It can be a voice agent, a text agent, a chatbot, whatever you want it to be.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3427,
+    "approx_timestamp_s": 185
+   }
+  },
+  {
+   "name": "Turn competitor monitoring into a recurring report",
+   "area": "product",
+   "steps": [
+    "Choose a specific e-commerce customer and product category.",
+    "Identify the customer's direct competitors.",
+    "Collect and review competitor ads on a regular schedule.",
+    "Send a recurring report summarizing what competitors are doing."
+   ],
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "You want to spy on what ads other e-commerce businesses are running, right? It will automatically go scrape and find and spy and look at your direct competitors and tell you on a regular recurring basis what they're doing",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3721,
+    "approx_timestamp_s": 201
+   }
+  },
+  {
+   "name": "Use search demand to plan a niche news site",
+   "area": "validation_testing",
+   "steps": [
+    "Use Google Trends to compare phrases people might search for around a new topic.",
+    "Buy a domain name related to the topic and search phrase.",
+    "Write separate articles for distinct queries, such as an explainer and a news article.",
+    "Use readable writing, relevant tags, and internal links to keep readers on the site.",
+    "Review traffic and search queries in Google Analytics and Google Search Console."
+   ],
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "And then I wanted to do research. So, I went to Google Trends and I typed in some common searches that people are probably searching for around Moltbook, right?",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8449,
+    "approx_timestamp_s": 457
+   }
+  },
+  {
+   "name": "Build and publish a site through iterative prompts",
+   "area": "operations",
+   "steps": [
+    "Find a design reference and provide a screenshot and link to the AI coding tool.",
+    "Prompt the tool to create the site and describe its topic, domain, content schedule, and signup form.",
+    "Publish the site, connect the domain through DNS settings, and add Google Analytics.",
+    "Make one focused change at a time; the host advises against asking for multiple changes at once.",
+    "Republish after making changes."
+   ],
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "One vibe coding tip is you don't want to ask it to do multiple things at once. I kind of did there. I'm kind of breaking my own rule.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14554,
+    "approx_timestamp_s": 788
+   }
+  },
+  {
+   "name": "Capture subscribers and automate the welcome email",
+   "area": "customer_acquisition",
+   "steps": [
+    "Add a newsletter signup form to the site.",
+    "Create an API key in Beehive and connect the form.",
+    "Configure Beehive to record where signups came from and send an automated welcome email."
+   ],
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "And so now every single email address that I acquire from moldbook newsws.com will be routed into Beehive and Beehive will know where it came from and it will send its own welcome email",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17326,
+    "approx_timestamp_s": 938
+   }
+  },
+  {
+   "name": "Request search indexing once and monitor it",
+   "area": "operations",
+   "steps": [
+    "Use Google Search Console to inspect the main URL and subpages.",
+    "Request indexing for a URL.",
+    "Avoid repeatedly requesting indexing; the host says repeated requests may annoy Google and push a page back in the queue."
+   ],
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "Now, I don't want to request indexing again because if you do it too many times that Google gets annoyed and it can put you at the back of the line.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12811,
+    "approx_timestamp_s": 694
+   }
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Moltbook",
+   "purpose": "Social network and forum for AI agents; the host also builds a news site about it.",
+   "cost_stated": null
+  },
+  {
+   "name": "Claudebot",
+   "purpose": "Earlier name used for the personal AI assistant discussed in the transcript.",
+   "cost_stated": null
+  },
+  {
+   "name": "Moltbot",
+   "purpose": "Intermediate name the host gives for the agent before OpenCL.",
+   "cost_stated": null
+  },
+  {
+   "name": "OpenCL / OpenClaw",
+   "purpose": "AI agent product the host suggests installing, hosting, and building services around; the transcript uses both spellings.",
+   "cost_stated": null
+  },
+  {
+   "name": "Mac Mini",
+   "purpose": "Hardware people were buying to run agents as a small server; the host says it is not required.",
+   "cost_stated": null
+  },
+  {
+   "name": "MacBook and old laptops",
+   "purpose": "Existing computers the host says can be used to install the agent.",
+   "cost_stated": null
+  },
+  {
+   "name": "iMessage",
+   "purpose": "Chat app the agent can sync with.",
+   "cost_stated": null
+  },
+  {
+   "name": "Telegram",
+   "purpose": "Chat app the agent can sync with.",
+   "cost_stated": null
+  },
+  {
+   "name": "Discord",
+   "purpose": "Chat app the agent can sync with.",
+   "cost_stated": null
+  },
+  {
+   "name": "Email and inbox",
+   "purpose": "Channels the agent can sync with and, in the support-agent example, use for customer support.",
+   "cost_stated": null
+  },
+  {
+   "name": "Calendar",
+   "purpose": "The host says the agent can manage it.",
+   "cost_stated": null
+  },
+  {
+   "name": "Twilio",
+   "purpose": "Platform Alex Finn's agent reportedly used to create a phone number and messaging app; the agent paid using stored credit-card information.",
+   "cost_stated": null
+  },
+  {
+   "name": "ChatGPT",
+   "purpose": "Suggested for walking users through setup and generating agent use cases and SEO article ideas.",
+   "cost_stated": null
+  },
+  {
+   "name": "Replit (also rendered as Replet)",
+   "purpose": "AI coding tool the host used to build and edit the news site from prompts.",
+   "cost_stated": null
+  },
+  {
+   "name": "Lindy.ai",
+   "purpose": "Vibe coding app the host says is his favorite; he says Replit was the first tool he used for this site.",
+   "cost_stated": null
+  },
+  {
+   "name": "Google Trends",
+   "purpose": "Compared relative search interest for Moltbook-related phrases.",
+   "cost_stated": null
+  },
+  {
+   "name": "Google Analytics",
+   "purpose": "Used to review website traffic, time on site, clicks, purchases, conversions, and search discovery.",
+   "cost_stated": null
+  },
+  {
+   "name": "Google Search Console",
+   "purpose": "Used to inspect URLs, request indexing, and review search queries and site pages.",
+   "cost_stated": null
+  },
+  {
+   "name": "Google",
+   "purpose": "Search engine used for keyword discovery and organic traffic; the host also searched for design examples.",
+   "cost_stated": null
+  },
+  {
+   "name": "DNS settings",
+   "purpose": "Used to connect the site to the host's domain.",
+   "cost_stated": null
+  },
+  {
+   "name": "Beehiiv (spelled Beehive in the transcript)",
+   "purpose": "Newsletter platform connected to the signup form; its automation sends a welcome email and records signup origin.",
+   "cost_stated": null
+  },
+  {
+   "name": "Reddit",
+   "purpose": "Forum used to find a collection of well-designed news websites; also used as a design and product analogy.",
+   "cost_stated": null
+  },
+  {
+   "name": "Tablet Mag",
+   "purpose": "News website the host used as a visual design reference.",
+   "cost_stated": null
+  },
+  {
+   "name": "Twitter",
+   "purpose": "Platform where Alex Finn is described as being known.",
+   "cost_stated": null
+  },
+  {
+   "name": "Instagram",
+   "purpose": "The host says he had not posted Instagram stories about the new site.",
+   "cost_stated": null
+  },
+  {
+   "name": "Playmakers",
+   "purpose": "The host's AI consulting community, promoted near the end of the video.",
+   "cost_stated": null
+  },
+  {
+   "name": "Moltbook-related domain names",
+   "purpose": "The host bought domain names for the topic and used one for the news site; several names are misheard or inconsistently spelled in the transcript.",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Restrict agent permissions. The host gives an example of an agent using stored payment information to register a phone number and then repeatedly calling its owner.",
+   "quote": {
+    "text": "It went to Twilio. It signed up. It had his credit card info. It paid for it. It registered a phone number. And then it started calling him in the morning over and over and over",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4496,
+    "approx_timestamp_s": 243
+   }
+  },
+  {
+   "warning": "The host says the agent behavior is not evidence of AGI and that he cannot explain the science behind that view.",
+   "quote": {
+    "text": "No, they're not. I'm sorry. I just I don't think they are. I think that's going to be a much bigger moment than this.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4751,
+    "approx_timestamp_s": 257
+   }
+  },
+  {
+   "warning": "Repeatedly requesting Google indexing may annoy Google and push a page back in the queue, according to the host.",
+   "quote": {
+    "text": "Now, I don't want to request indexing again because if you do it too many times that Google gets annoyed and it can put you at the back of the line.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12811,
+    "approx_timestamp_s": 694
+   }
+  },
+  {
+   "warning": "The host warns against asking an AI coding tool to make multiple substantial changes in one prompt.",
+   "quote": {
+    "text": "One vibe coding tip is you don't want to ask it to do multiple things at once. I kind of did there. I'm kind of breaking my own rule.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14554,
+    "approx_timestamp_s": 788
+   }
+  },
+  {
+   "warning": "SEO rankings depend on users finding the page relevant and staying on it; the host warns that a bait-and-switch page will not rank highly for long.",
+   "quote": {
+    "text": "Google hates bait and switches. If your site ranks highly and then people click there and then they quickly click off, it will not rank highly for long.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10482,
+    "approx_timestamp_s": 567
+   }
+  },
+  {
+   "warning": "The host promotes his paid AI consulting community, Playmakers, which is a promotional conflict for his recommendations about becoming an AI consultant.",
+   "quote": {
+    "text": "I do have a community where that's all we're doing. We're becoming AI consultants together. Dozens of people have found their first customers and it's called Playmakers.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17743,
+    "approx_timestamp_s": 961
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Configure permissions before giving an agent access to accounts, messaging tools, or payment information.",
+   "theme": "automation_ai",
+   "quote": {
+    "text": "Make sure their permissions are locked down. Make sure it's tied together to all the right channels and make sure it's actually doing things for them.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2291,
+    "approx_timestamp_s": 124
+   }
+  },
+  {
+   "lesson": "Sell a working outcome rather than an installation; show that the agent is solving a real customer problem.",
+   "theme": "offer_design",
+   "quote": {
+    "text": "Not just installed, but actually solving problems for them. And I want you to see the look on their face as it starts to solve problems for them",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2440,
+    "approx_timestamp_s": 132
+   }
+  },
+  {
+   "lesson": "A managed hosted service may be easier for customers than asking them to install and maintain software themselves.",
+   "theme": "offer_design",
+   "quote": {
+    "text": "This is the lower friction route, which I think usually wins in most cases.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3145,
+    "approx_timestamp_s": 170
+   }
+  },
+  {
+   "lesson": "Look for recurring tasks with clear inputs and outputs, such as weekly competitor monitoring, that an agent can repeat.",
+   "theme": "automation_ai",
+   "quote": {
+    "text": "It will automatically go scrape and find and spy and look at your direct competitors and tell you on a regular recurring basis what they're doing",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3795,
+    "approx_timestamp_s": 205
+   }
+  },
+  {
+   "lesson": "Use search trends to find the questions people ask, then publish distinct, useful answers for those queries.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "And then I wanted to do research. So, I went to Google Trends and I typed in some common searches that people are probably searching for around Moltbook, right?",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8449,
+    "approx_timestamp_s": 457
+   }
+  },
+  {
+   "lesson": "Write for the visitor's question and keep the page useful; the host says engagement and relevance affect whether a page retains its search position.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "Because if they're staying there, it means they're getting the answer that they want, that it was a relevant site, right?",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10364,
+    "approx_timestamp_s": 561
+   }
+  },
+  {
+   "lesson": "Collect an audience you can contact again; the host adds a newsletter signup instead of relying only on website visits.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "Like, you're not going to monetize a website with ads anymore in this day and age. You need email addresses.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16798,
+    "approx_timestamp_s": 910
+   }
+  },
+  {
+   "lesson": "Keep prompts focused when making changes to an AI-built product, so the result is easier to review and correct.",
+   "theme": "operations",
+   "quote": {
+    "text": "One vibe coding tip is you don't want to ask it to do multiple things at once.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14554,
+    "approx_timestamp_s": 788
+   }
+  },
+  {
+   "lesson": "A new trend can create a fast test of interest, but early visitors do not prove revenue or lasting demand.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "Okay, so I've had 12 unique active users in the last 30 minutes and it just went live 30 minutes ago. Like literally 30 minutes ago.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11563,
+    "approx_timestamp_s": 626
+   }
+  },
+  {
+   "lesson": "Talk about a useful tool in everyday settings to find people who want help, but expect this kind of customer acquisition to require personal effort.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "And then just start talking about it on the internet to your friends, in person, at church, wherever. And people will want help with it.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5627,
+    "approx_timestamp_s": 304
+   }
+  }
+ ],
+ "evidence_quality": {
+  "rating": "C",
+  "rationale": "The host demonstrates building a website and reports early traffic, but most business ideas are speculative suggestions with no customer, revenue, or cost results. The traffic and search figures are not independently verified, and the transcript contains inconsistent product and domain spellings.",
+  "promotional_conflict": "The host promotes Playmakers, his AI consulting community, while recommending AI consulting as a business."
+ },
+ "extraction": {
+  "model": "gpt-6-luna",
+  "extracted_at": "2026-10-22T11:42:01",
+  "cost_usd": 0,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 60,
+   "verified": 60,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

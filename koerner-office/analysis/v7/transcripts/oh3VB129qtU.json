@@ -1,0 +1,1687 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "oh3VB129qtU",
+  "title": "The Reason You're Not Making More Money",
+  "channel": "Nick Huber - Sweaty Startup",
+  "url": "https://www.youtube.com/watch?v=oh3VB129qtU",
+  "upload_date": "2026-09-29",
+  "duration_s": 536,
+  "view_count": 320,
+  "transcript_provider": "local_whisper_tiny",
+  "transcript_chars": 9931,
+  "transcript_is_whisper": true
+ },
+ "summary": "The interviewer and Nick Huber discuss how to compare business opportunities by estimating revenue per worker-hour, using provider quotes, crew size and job duration. Huber describes pest control and door-to-door sales as examples, then argues that sales is central to entrepreneurship and should not be the first function a founder outsources. The conversation offers examples and rules of thumb rather than a full operating plan for any one business.",
+ "speakers": [
+  {
+   "name": "Unknown interviewer",
+   "role": "host",
+   "description": "The interviewer is not named in the transcript."
+  },
+  {
+   "name": "Nick Huber",
+   "role": "guest",
+   "description": "Discusses businesses he owns or is invested in, along with sales and opportunity selection."
+  }
+ ],
+ "format": "operator_interview",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Lawn care company",
+   "one_liner": "A lawn care business used as an example of a service with low earnings per worker-hour at the stated billing rate.",
+   "category": "home_service",
+   "business_model": "Per-hour service billing; specific customer terms are not stated.",
+   "customer": "Not stated.",
+   "problem": "Not stated.",
+   "offer": "Lawn care; the specific work included is not stated.",
+   "pricing": {
+    "model": "Per man-hour billing",
+    "price_points": [
+     {
+      "amount": 35,
+      "amount_max": 40,
+      "currency": "USD",
+      "unit": "per man-hour billed",
+      "label": "Billing rate discussed"
+     }
+    ],
+    "notes": "Huber says his lawn care company in Athens made very little money at this billing rate."
+   },
+   "acquisition_channels": [],
+   "delivery": "The transcript does not describe the work or crew operations. Lawn care is physical work, so delivery requires a person on site.",
+   "unit_economics_claims": [
+    "Huber says the company billed $35–$40 per man-hour and made very little money.",
+    "He estimates skilled labor costs at more than $30 per hour all-in."
+   ],
+   "tools": [],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "No channel is described. Inbound enquiries could be handled with software, but the transcript gives no automated acquisition process."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Scheduling and collecting job details could use software; no process is stated."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Lawn care requires physical work at the property."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Invoices and payment reminders could be automated, though no billing system is described."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Service problems and changes may need a person to assess the property and respond."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Lawn care is a service that can operate in the UK; local demand, labour costs and pricing would need to be checked."
+   },
+   "risks": [
+    "The stated billing rate leaves little money after loaded labour costs, according to Huber.",
+    "The transcript does not provide a full cost breakdown or confirm the company's margins."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "if you're billing $35 or $40 an hour, like my lawn care company here in Athens, per man, they're making very little money, not a good business.",
+     "speaker": "Nick Huber",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 1520,
+     "approx_timestamp_s": 84
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "HVAC company",
+   "one_liner": "An HVAC business is mentioned as a company type to call when comparing local business opportunities.",
+   "category": "home_service",
+   "business_model": "Not stated.",
+   "customer": "Not stated.",
+   "problem": "Not stated.",
+   "offer": "HVAC services; specific services are not stated.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": "No HVAC quote or price is given."
+   },
+   "acquisition_channels": [],
+   "delivery": "Not stated; HVAC work commonly involves physical installation or repair, but the transcript gives no delivery details.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "No acquisition method is described; inbound leads could be managed with software, but the work still needs a sales and scheduling process."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "A form could collect job details, but the transcript gives no onboarding process."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Installation and repair work requires people at the job site."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Invoices and payment collection could be automated; no system is described."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Diagnosis, access and follow-up for physical work require human handling."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "HVAC services exist in the UK, but operating requirements, qualifications and demand may differ by service and location."
+   },
+   "risks": [
+    "The transcript provides no HVAC prices, costs, staffing details or evidence of margins.",
+    "Skilled labour costs are a constraint in Huber's general comparison of service businesses."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "you call the top five lawn care companies, you call the top five HVAC.",
+     "speaker": "Unknown interviewer",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 323,
+     "approx_timestamp_s": 17
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "House painting",
+   "one_liner": "A house-painting job is used as an example of estimating earnings from a quote and job duration.",
+   "category": "home_service",
+   "business_model": "Per-project service work; the transcript gives one example quote.",
+   "customer": "A homeowner commissioning a house paint job, as implied by the example.",
+   "problem": "Not stated.",
+   "offer": "Painting a house.",
+   "pricing": {
+    "model": "Per project",
+    "price_points": [
+     {
+      "amount": 7000,
+      "currency": "USD",
+      "unit": "per house-painting job",
+      "label": "Example quote"
+     }
+    ],
+    "notes": "The example job is said to take two days; the crew size and costs are not stated."
+   },
+   "acquisition_channels": [],
+   "delivery": "Painters perform the work at the house. The transcript does not say who performs this example job or how many people are on the crew.",
+   "unit_economics_claims": [
+    "An example house-painting job was quoted at $7,000 and expected to take two days."
+   ],
+   "tools": [],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "No acquisition method is described; inbound enquiries could be routed automatically, but quoting is not explained."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "A form could capture property details, while scope and access would need checking."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Painting is physical work at the property."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Invoices and payment reminders could be automated; no system is described."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Changes to scope and quality issues need human assessment."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "House painting can be offered in the UK; the example's US price does not establish a UK price."
+   },
+   "risks": [
+    "The quoted price alone does not reveal labour, materials, travel or other costs.",
+    "Crew size is not given, so the example cannot establish earnings per worker-hour."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "they're going to paint the house. It's going to cost $7,000. It's going to be done in two days, blah, blah, blah",
+     "speaker": "Nick Huber",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 655,
+     "approx_timestamp_s": 36
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "Fence-building company",
+   "one_liner": "A fence-building company is used as an example where materials and crew time must be estimated to assess job economics.",
+   "category": "home_service",
+   "business_model": "Per-project service work; specific payment terms are not stated.",
+   "customer": "A customer commissioning a fence; customer type is not stated.",
+   "problem": "Not stated.",
+   "offer": "Build a fence.",
+   "pricing": {
+    "model": "Per project",
+    "price_points": [
+     {
+      "amount": 7000,
+      "currency": "USD",
+      "unit": "per fence project",
+      "label": "Example quote"
+     }
+    ],
+    "notes": "The transcript says to price lumber and square footage, then ask how many days and crew members the job will take."
+   },
+   "acquisition_channels": [],
+   "delivery": "A crew builds the fence on site. The example does not state the crew size or job duration.",
+   "unit_economics_claims": [
+    "A hypothetical fence quote of $7,000 is discussed, with lumber, square footage, crew size and days needed as inputs to the estimate."
+   ],
+   "tools": [
+    "Lumber"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "No acquisition channel is stated; inbound enquiries could be handled with software."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Software could collect dimensions and site details, but the quote would need human validation."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Fence construction is physical work on site."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Deposits, invoices and reminders could be managed by software; no process is described."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Site changes and workmanship issues require human response."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Fence building is a viable type of UK service; local material and labour prices must replace the US example."
+   },
+   "risks": [
+    "A project quote is not enough to estimate profit without materials, crew time and other costs.",
+    "The transcript explicitly says this business is harder to estimate because lumber and square footage must be priced."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "my quotes seven grand for this fence, how many days is it going to take and how many guys are on your crew?",
+     "speaker": "Nick Huber",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 1027,
+     "approx_timestamp_s": 56
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "Tree service company",
+   "one_liner": "A tree company is cited for a one-day job that generated a high bill relative to the stated crew size.",
+   "category": "home_service",
+   "business_model": "Per-job service work; payment terms are not stated.",
+   "customer": "A customer who hired the tree company; customer type is not stated.",
+   "problem": "Not stated.",
+   "offer": "Tree work; the exact service is not stated.",
+   "pricing": {
+    "model": "Per job",
+    "price_points": [
+     {
+      "amount": 4300,
+      "currency": "USD",
+      "unit": "per one-day job",
+      "label": "Charge reported by Huber"
+     }
+    ],
+    "notes": "The job had two workers. Huber notes that equipment and other costs also matter."
+   },
+   "acquisition_channels": [],
+   "delivery": "Two people performed one day's work. Equipment was involved, but the transcript does not specify what equipment or who supplied it.",
+   "unit_economics_claims": [
+    "Huber says a tree company charged him $4,300 for one day's work with two people.",
+    "He notes that equipment and other costs affect the economics."
+   ],
+   "tools": [
+    "Equipment (unspecified)"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "No channel is described; inbound enquiry handling could be automated."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "A person would likely need to assess the site and job scope; no process is stated."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Tree work requires people and equipment on site."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Invoices and payment follow-up could be automated."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Safety, access and job-scope issues need human handling."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Tree services operate in the UK, though qualifications, safety practices, local rules and pricing may differ."
+   },
+   "risks": [
+    "The $4,300 charge is not profit; equipment, labour and other costs are not quantified.",
+    "Tree work involves physical work and safety risks."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "there's a tree company that charged me $4,300 for one day's work with two guys.",
+     "speaker": "Nick Huber",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 1661,
+     "approx_timestamp_s": 92
+    }
+   ]
+  },
+  {
+   "local_id": "I6",
+   "name": "Pest control company",
+   "one_liner": "Huber describes a pest control company he is invested in, highlighting door-to-door sales as its competitive advantage.",
+   "category": "home_service",
+   "business_model": "Pest-control contracts; the transcript mentions contracts retained for six months or more but does not state the customer's service price.",
+   "customer": "Customers on pest-control contracts; exact customer type is not stated.",
+   "problem": "Pest control; the specific customer problem or service scope is not stated.",
+   "offer": "Pest-control service; specific treatments are not described.",
+   "pricing": {
+    "model": "Contract; customer price not stated.",
+    "price_points": [],
+    "notes": "The stated $700–$1,000 is paid to salespeople or sales teams per qualifying contract, not identified as the customer price."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "door_to_door_in_person",
+     "details": "Huber says door-to-door sales is the company's competitive advantage.",
+     "quote": {
+      "text": "their competitive advantage is door to door sales, door to door sales.",
+      "speaker": "Nick Huber",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 4173,
+      "approx_timestamp_s": 231
+     }
+    },
+    {
+     "channel": "seo_organic_search",
+     "details": "SEO is named as one possible way pest-control businesses can gain a competitive advantage; Huber does not say this company uses it.",
+     "quote": null
+    },
+    {
+     "channel": "referrals_word_of_mouth",
+     "details": "Referrals are named as one possible way pest-control businesses can gain a competitive advantage; use by this company is not stated.",
+     "quote": null
+    },
+    {
+     "channel": "other",
+     "details": "Digital marketing and branded billboard marketing are named as possible competitive advantages; exact campaign methods are not stated.",
+     "quote": null
+    }
+   ],
+   "delivery": "Pest-control service is offered through contracts, but the transcript does not explain treatment delivery, staffing or service frequency.",
+   "unit_economics_claims": [
+    "Huber says the company spends $1–$3 million each year on third-party door-to-door sales companies.",
+    "The company pays $700–$1,000 per contract that remains for six months or more.",
+    "The interviewer suggests a seven-figure business could result within a year or two, but this is a hypothetical."
+   ],
+   "tools": [
+    "Door-to-door sales teams",
+    "Digital marketing",
+    "SEO",
+    "Billboards",
+    "Referrals"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated; the interviewer speculates about a seven-figure business in a year or two.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "The company uses door-to-door sales, which requires people in person. SEO and digital marketing may support inbound acquisition, but use and results are not described."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Contract details and customer records could be collected and processed with software, with human checks for service scope."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Pest treatment is physical work at a property; the transcript does not describe how it is done."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Recurring contract billing and payment checks could be handled by software, with occasional exception review."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Agents could answer routine contract questions, but service problems may need a human visit or decision."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Pest control can operate in the UK, but treatments, qualifications, consumer contracts and advertising practices need to fit UK requirements. Door-to-door selling remains human work."
+   },
+   "risks": [
+    "The service requires physical work and the transcript gives no way to automate treatment.",
+    "The sales channel depends on door-to-door staff, and the stated spend on outside sales teams is substantial.",
+    "The transcript does not state customer prices, service costs, retention rates or margins.",
+    "A UK operator would need to check applicable rules for pest treatments, consumer contracts and marketing."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "I'm invested in a pest control company that is a just phenomenal business, phenomenal business.",
+     "speaker": "Nick Huber",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 3911,
+     "approx_timestamp_s": 216
+    },
+    {
+     "text": "And every year we spend one to three million dollars to third party companies that run door to door sales teams for pest control.",
+     "speaker": "Nick Huber",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 4242,
+     "approx_timestamp_s": 235
+    }
+   ]
+  },
+  {
+   "local_id": "I7",
+   "name": "Third-party door-to-door sales teams for pest control",
+   "one_liner": "A sales provider sends door-to-door teams to acquire pest-control contracts and is paid for contracts that stay active long enough.",
+   "category": "b2b_service",
+   "business_model": "Per qualifying contract, paid by pest-control companies.",
+   "customer": "Pest-control companies that hire third-party sales teams.",
+   "problem": "Pest-control companies want door-to-door customer acquisition; the transcript does not state other customer problems.",
+   "offer": "Door-to-door sales teams that generate pest-control contracts.",
+   "pricing": {
+    "model": "Payment per contract retained for six months or more",
+    "price_points": [
+     {
+      "amount": 700,
+      "amount_max": 1000,
+      "currency": "USD",
+      "unit": "per contract retained six months or more",
+      "label": "Amount paid to salespeople or teams"
+     }
+    ],
+    "notes": "Huber reports his company pays this amount to third-party sales companies; the transcript does not explain the provider's own costs or margin."
+   },
+   "acquisition_channels": [],
+   "delivery": "Sales crews knock on doors and sell pest-control contracts. Huber describes groups of workers travelling to a city for the summer; the transcript does not specify the provider's hiring or management process.",
+   "unit_economics_claims": [
+    "Huber says his company pays $700–$1,000 per contract retained for at least six months.",
+    "The interviewer gives a hypothetical example of 750 contracts producing $750,000.",
+    "Huber says some 18-year-old salespeople make $30,000–$50,000 in a summer."
+   ],
+   "tools": [
+    "Door-to-door sales crews"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "The provider's own method of winning pest-control clients is not stated. The service being sold depends on in-person sales, which cannot be automated."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Contracts and crew assignments could be tracked with software, but client requirements and crew readiness need checks."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "People must knock on doors and speak with prospects in person."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Contract counts and retention periods could be tracked and invoiced automatically, with client verification."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Crew issues, client disputes and field supervision need human involvement."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "A sales agency model could operate in the UK, but doorstep selling, consumer cancellation rights, worker arrangements and sales claims need UK-specific handling."
+   },
+   "risks": [
+    "Delivery is labour-intensive and seasonal in the example.",
+    "Payment depends on contracts staying active for six months or more, creating retention and verification risk.",
+    "The transcript does not explain crew recruitment costs, training, supervision or agency margins.",
+    "Door-to-door selling is not an unattended, agent-run acquisition or delivery channel."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "we pay seven to seven hundred to a thousand dollars per contract that stays on for six months or more",
+     "speaker": "Nick Huber",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 4627,
+     "approx_timestamp_s": 256
+    }
+   ]
+  },
+  {
+   "local_id": "I8",
+   "name": "Restaurant",
+   "one_liner": "Restaurants are used as an example of estimating sales by observing occupancy, seating capacity and table turns.",
+   "category": "local_service",
+   "business_model": "Not stated; the conversation uses table spending and seatings as rough observations.",
+   "customer": "Restaurant diners.",
+   "problem": "Not stated.",
+   "offer": "Food and restaurant service; the transcript does not specify a menu or concept.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [
+     {
+      "amount": 100,
+      "currency": "USD",
+      "unit": "per table",
+      "label": "Interviewer’s illustrative estimate"
+     }
+    ],
+    "notes": "The $100 per table amount is an interviewer’s example, not a reported restaurant price or profit."
+   },
+   "acquisition_channels": [],
+   "delivery": "Restaurant service is provided in person; the transcript discusses table turns but not kitchen or service operations.",
+   "unit_economics_claims": [
+    "The interviewer suggests observing table occupancy and estimates $100 per table.",
+    "The interviewer says a typical table may turn twice in a night, while a Texas Roadhouse could turn three or four times."
+   ],
+   "tools": [],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "No acquisition channel is discussed; online listings and reservations could be automated, but the transcript gives no example."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Reservations could be handled with software, but no process is stated."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Food preparation and in-person service require people."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Point-of-sale payment can be software-managed, but no system is mentioned."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Guest issues and service recovery require human involvement."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Restaurants operate in the UK, but the US table-spend and turnover examples should not be treated as UK benchmarks."
+   },
+   "risks": [
+    "Occupancy and spending per table do not establish profit after food, labour, rent and other costs.",
+    "The interviewer presents the figures as rough observations, not verified restaurant accounts."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "Walk in a restaurant and you're calculating how many people are in there.",
+     "speaker": "Nick Huber",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 2193,
+     "approx_timestamp_s": 121
+    }
+   ]
+  },
+  {
+   "local_id": "I9",
+   "name": "Foundation repair business",
+   "one_liner": "A foundation-repair business is mentioned as a mentor's past company, which he reportedly sold for almost $10 million.",
+   "category": "home_service",
+   "business_model": "Not stated.",
+   "customer": "Not stated.",
+   "problem": "Not stated.",
+   "offer": "Foundation repair; specific services are not stated.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": "The transcript reports a sale price for the business, not customer pricing."
+   },
+   "acquisition_channels": [],
+   "delivery": "Not stated; the specific repair work and staffing are not described.",
+   "unit_economics_claims": [
+    "Huber says his mentor built and sold a foundation-repair business for almost $10 million; this is a second-hand report."
+   ],
+   "tools": [],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "No acquisition channel is given; inbound lead handling could be automated, but no process is described."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "Repair scope would need assessment; the transcript gives no onboarding process."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Foundation repair involves physical work at a property."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Invoices and payment collection could be automated; no system is described."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Site issues and repair questions require human assessment."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Foundation repair is relevant in the UK, but the transcript gives no details about local demand, regulation, pricing or operating requirements."
+   },
+   "risks": [
+    "The reported sale price is second-hand and does not reveal the company's revenue, profit or sale terms.",
+    "The transcript gives no operational detail to assess startup costs or automation potential."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "He built a foundation repair business sold it for almost 10 million bucks. Like he's a badass.",
+     "speaker": "Nick Huber",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 7007,
+     "approx_timestamp_s": 388
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "The interviewer gives $30,000 per month as an example of a business income goal.",
+   "metric": "revenue",
+   "value": {
+    "amount": 30000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "Example goal"
+   },
+   "period": "per month",
+   "claimant": "Unknown interviewer",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": null,
+   "quote": {
+    "text": "reach your goal, whether that's $30,000, a month, $10,000, $100,000, whatever that might be.",
+    "speaker": "Unknown interviewer",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 214,
+    "approx_timestamp_s": 11
+   }
+  },
+  {
+   "claim": "The interviewer gives $10,000 as an example business income goal.",
+   "metric": "revenue",
+   "value": {
+    "amount": 10000,
+    "currency": "USD",
+    "unit": "period not stated",
+    "label": "Example goal"
+   },
+   "period": null,
+   "claimant": "Unknown interviewer",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": null,
+   "quote": {
+    "text": "reach your goal, whether that's $30,000, a month, $10,000, $100,000, whatever that might be.",
+    "speaker": "Unknown interviewer",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 214,
+    "approx_timestamp_s": 11
+   }
+  },
+  {
+   "claim": "The interviewer gives $100,000 as an example business income goal.",
+   "metric": "revenue",
+   "value": {
+    "amount": 100000,
+    "currency": "USD",
+    "unit": "period not stated",
+    "label": "Example goal"
+   },
+   "period": null,
+   "claimant": "Unknown interviewer",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": null,
+   "quote": {
+    "text": "reach your goal, whether that's $30,000, a month, $10,000, $100,000, whatever that might be.",
+    "speaker": "Unknown interviewer",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 214,
+    "approx_timestamp_s": 11
+   }
+  },
+  {
+   "claim": "An example house-painting job was quoted at $7,000.",
+   "metric": "price",
+   "value": {
+    "amount": 7000,
+    "currency": "USD",
+    "unit": "per job",
+    "label": "House-painting quote"
+   },
+   "period": null,
+   "claimant": "Nick Huber",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "they're going to paint the house. It's going to cost $7,000. It's going to be done in two days, blah, blah, blah",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 655,
+    "approx_timestamp_s": 36
+   }
+  },
+  {
+   "claim": "The example house-painting job would take two days.",
+   "metric": "hours",
+   "value": {
+    "amount": 2,
+    "currency": null,
+    "unit": "days",
+    "label": "Job duration"
+   },
+   "period": null,
+   "claimant": "Nick Huber",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "they're going to paint the house. It's going to cost $7,000. It's going to be done in two days, blah, blah, blah",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 655,
+    "approx_timestamp_s": 36
+   }
+  },
+  {
+   "claim": "A hypothetical fence quote is seven grand.",
+   "metric": "price",
+   "value": {
+    "amount": 7000,
+    "currency": "USD",
+    "unit": "per fence project",
+    "label": "Example quote"
+   },
+   "period": null,
+   "claimant": "Nick Huber",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "my quotes seven grand for this fence, how many days is it going to take and how many guys are on your crew?",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1027,
+    "approx_timestamp_s": 56
+   }
+  },
+  {
+   "claim": "Huber says skilled labour cannot be hired for under $30 per hour all-in.",
+   "metric": "cost",
+   "value": {
+    "amount": 30,
+    "currency": "USD",
+    "unit": "per labour hour all-in",
+    "label": "Stated lower bound"
+   },
+   "period": null,
+   "claimant": "Nick Huber",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "you cannot hire skilled labor for under $30 an hour all in.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1274,
+    "approx_timestamp_s": 70
+   }
+  },
+  {
+   "claim": "Huber says workers may make $18 or $20 per hour before downtime and additional employment costs.",
+   "metric": "other",
+   "value": {
+    "amount": 18,
+    "amount_max": 20,
+    "currency": "USD",
+    "unit": "per worker hour",
+    "label": "Wage examples before loaded costs"
+   },
+   "period": null,
+   "claimant": "Nick Huber",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "You know, they're going to make 18 or 20. There's going to be down time. There's going to be travelers and be bonuses.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1332,
+    "approx_timestamp_s": 73
+   }
+  },
+  {
+   "claim": "Huber says his lawn care company bills $35–$40 per man-hour and makes very little money.",
+   "metric": "price",
+   "value": {
+    "amount": 35,
+    "amount_max": 40,
+    "currency": "USD",
+    "unit": "per man-hour billed",
+    "label": "Lawn-care billing rate"
+   },
+   "period": null,
+   "claimant": "Nick Huber",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "if you're billing $35 or $40 an hour, like my lawn care company here in Athens, per man, they're making very little money, not a good business.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1520,
+    "approx_timestamp_s": 84
+   }
+  },
+  {
+   "claim": "Huber says a tree company charged him $4,300 for one day's work.",
+   "metric": "price",
+   "value": {
+    "amount": 4300,
+    "currency": "USD",
+    "unit": "per job",
+    "label": "Tree-service charge"
+   },
+   "period": null,
+   "claimant": "Nick Huber",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "there's a tree company that charged me $4,300 for one day's work with two guys.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1661,
+    "approx_timestamp_s": 92
+   }
+  },
+  {
+   "claim": "The tree-service job took one day.",
+   "metric": "hours",
+   "value": {
+    "amount": 1,
+    "currency": null,
+    "unit": "day",
+    "label": "Job duration"
+   },
+   "period": null,
+   "claimant": "Nick Huber",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "there's a tree company that charged me $4,300 for one day's work with two guys.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1661,
+    "approx_timestamp_s": 92
+   }
+  },
+  {
+   "claim": "Two people worked on the tree-service job.",
+   "metric": "other",
+   "value": {
+    "amount": 2,
+    "currency": null,
+    "unit": "workers",
+    "label": "Crew size"
+   },
+   "period": null,
+   "claimant": "Nick Huber",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "there's a tree company that charged me $4,300 for one day's work with two guys.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1661,
+    "approx_timestamp_s": 92
+   }
+  },
+  {
+   "claim": "The interviewer says a typical restaurant table may be seated twice in a night.",
+   "metric": "other",
+   "value": {
+    "amount": 2,
+    "currency": null,
+    "unit": "seatings per table per night",
+    "label": "Interviewer estimate"
+   },
+   "period": "per night",
+   "claimant": "Unknown interviewer",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I8",
+   "quote": {
+    "text": "It's generally two seedings per table with unless your Texas stroke house can get three or four and you're super efficient.",
+    "speaker": "Unknown interviewer",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2340,
+    "approx_timestamp_s": 129
+   }
+  },
+  {
+   "claim": "The interviewer says a Texas Roadhouse may seat a table three or four times in a night.",
+   "metric": "other",
+   "value": {
+    "amount": 3,
+    "amount_max": 4,
+    "currency": null,
+    "unit": "seatings per table per night",
+    "label": "Interviewer estimate"
+   },
+   "period": "per night",
+   "claimant": "Unknown interviewer",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I8",
+   "quote": {
+    "text": "It's generally two seedings per table with unless your Texas stroke house can get three or four and you're super efficient.",
+    "speaker": "Unknown interviewer",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2340,
+    "approx_timestamp_s": 129
+   }
+  },
+  {
+   "claim": "The interviewer estimates a full restaurant may get $100 per table.",
+   "metric": "revenue",
+   "value": {
+    "amount": 100,
+    "currency": "USD",
+    "unit": "per table",
+    "label": "Illustrative estimate"
+   },
+   "period": null,
+   "claimant": "Unknown interviewer",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I8",
+   "quote": {
+    "text": "this restaurants, this full right now, they're getting $100 per table. Like, this is probably what they're making on profit margins.",
+    "speaker": "Unknown interviewer",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5908,
+    "approx_timestamp_s": 327
+   }
+  },
+  {
+   "claim": "Huber says his company spends $1–$3 million each year on third-party door-to-door sales companies.",
+   "metric": "cost",
+   "value": {
+    "amount": 1000000,
+    "amount_max": 3000000,
+    "currency": "USD",
+    "unit": "per year",
+    "label": "Third-party sales spend"
+   },
+   "period": "per year",
+   "claimant": "Nick Huber",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "And every year we spend one to three million dollars to third party companies that run door to door sales teams for pest control.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4242,
+    "approx_timestamp_s": 235
+   }
+  },
+  {
+   "claim": "Huber says 18-year-old salespeople can make $30,000–$50,000 in a summer.",
+   "metric": "revenue",
+   "value": {
+    "amount": 30000,
+    "amount_max": 50000,
+    "currency": "USD",
+    "unit": "per summer",
+    "label": "Salesperson earnings claim"
+   },
+   "period": "per summer",
+   "claimant": "Nick Huber",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "there's 18 year old kids making 30, 40, 50 grand in a summer because they go door to door.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4505,
+    "approx_timestamp_s": 249
+   }
+  },
+  {
+   "claim": "Huber says salespeople or their teams are paid $700–$1,000 per contract retained for six months or more.",
+   "metric": "price",
+   "value": {
+    "amount": 700,
+    "amount_max": 1000,
+    "currency": "USD",
+    "unit": "per qualifying contract",
+    "label": "Sales payout"
+   },
+   "period": null,
+   "claimant": "Nick Huber",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "we pay seven to seven hundred to a thousand dollars per contract that stays on for six months or more",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4627,
+    "approx_timestamp_s": 256
+   }
+  },
+  {
+   "claim": "Qualifying contracts must stay on for six months or more.",
+   "metric": "other",
+   "value": {
+    "amount": 6,
+    "currency": null,
+    "unit": "months minimum",
+    "label": "Retention threshold"
+   },
+   "period": null,
+   "claimant": "Nick Huber",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "we pay seven to seven hundred to a thousand dollars per contract that stays on for six months or more",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4627,
+    "approx_timestamp_s": 256
+   }
+  },
+  {
+   "claim": "The interviewer calculates that 750 qualifying contracts could generate $750,000 in payments.",
+   "metric": "revenue",
+   "value": {
+    "amount": 750000,
+    "currency": "USD",
+    "unit": "for 750 contracts",
+    "label": "Interviewer’s hypothetical total"
+   },
+   "period": null,
+   "claimant": "Unknown interviewer",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "that might be that might be 750 grand if they do 750 contracts.",
+    "speaker": "Unknown interviewer",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4797,
+    "approx_timestamp_s": 265
+   }
+  },
+  {
+   "claim": "The interviewer suggests an outsourced-call model could become a seven-figure business within a year or two.",
+   "metric": "revenue",
+   "value": {
+    "amount": 1000000,
+    "currency": "USD",
+    "unit": "business size, measure unspecified",
+    "label": "At least seven figures, hypothetical"
+   },
+   "period": "within one or two years",
+   "claimant": "Unknown interviewer",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "And all of a sudden you have, you know, seven figure business and a year or two when I check being checked back in on it.",
+    "speaker": "Unknown interviewer",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5546,
+    "approx_timestamp_s": 307
+   }
+  },
+  {
+   "claim": "Huber says a business owner may make $500–$1,000 per hour on sales calls.",
+   "metric": "other",
+   "value": {
+    "amount": 500,
+    "amount_max": 1000,
+    "currency": "USD",
+    "unit": "per hour",
+    "label": "Potential earnings claim"
+   },
+   "period": "per hour",
+   "claimant": "Nick Huber",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": null,
+   "quote": {
+    "text": "you can make $500 to $1000 an hour or $50,000 an hour if you're selling the right thing.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6630,
+    "approx_timestamp_s": 367
+   }
+  },
+  {
+   "claim": "Huber says a business owner could make $50,000 per hour selling the right thing.",
+   "metric": "other",
+   "value": {
+    "amount": 50000,
+    "currency": "USD",
+    "unit": "per hour",
+    "label": "Potential earnings claim"
+   },
+   "period": "per hour",
+   "claimant": "Nick Huber",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": null,
+   "quote": {
+    "text": "you can make $500 to $1000 an hour or $50,000 an hour if you're selling the right thing.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6630,
+    "approx_timestamp_s": 367
+   }
+  },
+  {
+   "claim": "Huber says his mentor sold a foundation-repair business for almost $10 million.",
+   "metric": "sale_price",
+   "value": {
+    "amount": 10000000,
+    "currency": "USD",
+    "unit": "one-off sale",
+    "label": "Almost $10 million"
+   },
+   "period": null,
+   "claimant": "Nick Huber, reporting Dan Cohen's sale",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I9",
+   "quote": {
+    "text": "He built a foundation repair business sold it for almost 10 million bucks. Like he's a badass.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7007,
+    "approx_timestamp_s": 388
+   }
+  },
+  {
+   "claim": "Huber dates his breakfast conversation with Dan Cohen to 2011.",
+   "metric": "other",
+   "value": {
+    "amount": 2011,
+    "currency": null,
+    "unit": "year",
+    "label": "Year of the conversation"
+   },
+   "period": null,
+   "claimant": "Nick Huber",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "And I was at a breakfast with a mentor in Ithaca, New York in 2011, right? After I started my company, names Dan Cohen, he's at Wake Forest now running the entrepreneurship program.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6802,
+    "approx_timestamp_s": 376
+   }
+  },
+  {
+   "claim": "Huber says entrepreneurship involves 150% sales.",
+   "metric": "other",
+   "value": {
+    "amount": 150,
+    "currency": null,
+    "unit": "percent",
+    "label": "Rhetorical emphasis"
+   },
+   "period": null,
+   "claimant": "Nick Huber",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "if you embrace that and realize that, hey, every part of life is sales and every part of entrepreneurship is 150% sales.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8605,
+    "approx_timestamp_s": 476
+   }
+  },
+  {
+   "claim": "Huber describes entrepreneurship as nonstop sales around the clock.",
+   "metric": "hours",
+   "value": {
+    "amount": 24,
+    "currency": null,
+    "unit": "hours per day",
+    "label": "Rhetorical description"
+   },
+   "period": "per day",
+   "claimant": "Nick Huber",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "So it is non stop 100% 24 seven sales as an entrepreneur.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9349,
+    "approx_timestamp_s": 518
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Estimate service-business earnings per worker-hour",
+   "area": "validation_testing",
+   "steps": [
+    "Call the top five businesses in a target service category and request a quote.",
+    "Write down the quoted price and how long the job will take.",
+    "Ask how many people will be on the crew.",
+    "Estimate labour cost using the full loaded cost, not just the worker's wage.",
+    "Subtract materials, equipment and other hard costs before judging the opportunity."
+   ],
+   "idea_local_id": null,
+   "quote": {
+    "text": "Those two questions allow you to do back of the map, back of the napkin math on what the hourly, you know, earnings for that company is",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1133,
+    "approx_timestamp_s": 62
+   }
+  },
+  {
+   "name": "Account for fence materials before comparing a project quote",
+   "area": "finance_unit_economics",
+   "steps": [
+    "Estimate lumber costs.",
+    "Work out the fence square footage.",
+    "Ask how many days the job takes and how many people are on the crew.",
+    "Use those inputs to estimate job earnings per worker-hour."
+   ],
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "Like a fence building company, you have to price out lumber and do the square footage and like figure out what their hard costs are",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 860,
+    "approx_timestamp_s": 47
+   }
+  },
+  {
+   "name": "Observe businesses during everyday errands",
+   "area": "validation_testing",
+   "steps": [
+    "Notice how busy a business is and how much capacity it has.",
+    "For a restaurant, estimate occupied tables, customers per table and table turns.",
+    "Treat the result as a rough opportunity estimate, not as verified profit."
+   ],
+   "idea_local_id": "I8",
+   "quote": {
+    "text": "when you start to think about business that way, everywhere you go in life, you're just you're prowling for opportunities, you're prowling for opportunities.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2472,
+    "approx_timestamp_s": 136
+   }
+  },
+  {
+   "name": "Use door-to-door sales as a pest-control acquisition channel",
+   "area": "customer_acquisition",
+   "steps": [
+    "Recruit or contract door-to-door sales crews.",
+    "Pay for contracts that remain active for at least six months.",
+    "Track which contracts meet the retention threshold before paying the full commission.",
+    "Compare sales-team cost with the long-term value of the customer."
+   ],
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "We pay it because the long-term value of our business is there. And it's worth it.",
+    "speaker": "Nick Huber",
+    "match_score": 97.5,
+    "verified": true,
+    "char_offset": 4873,
+    "approx_timestamp_s": 270
+   }
+  },
+  {
+   "name": "Keep the founder involved in important sales",
+   "area": "sales",
+   "steps": [
+    "Do not make sales the first function you outsource.",
+    "Stay involved in high-value sales calls even when you are not the CEO or owner handling daily operations.",
+    "Build sales skill through repeated practice."
+   ],
+   "idea_local_id": null,
+   "quote": {
+    "text": "I am not even the CEO on the owner of several companies and I still get involved in really high value sales calls",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6457,
+    "approx_timestamp_s": 357
+   }
+  },
+  {
+   "name": "Use an assistant for call execution while retaining sales ownership",
+   "area": "operations",
+   "steps": [
+    "The interviewer proposes hiring an executive assistant to make calls using a supplied sales script.",
+    "Huber cautions that the founder should not outsource sales first; keep ownership of high-value sales conversations."
+   ],
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "you could hire an EA who just does all you're calling for you and you just give them a sales script.",
+    "speaker": "Unknown interviewer",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5446,
+    "approx_timestamp_s": 301
+   }
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Phone calls",
+   "purpose": "Call local businesses to request quotes and ask about job duration and crew size.",
+   "cost_stated": null
+  },
+  {
+   "name": "Internet",
+   "purpose": "The interviewer describes a hypothetical where the founder has no internet access; no specific online tool is named.",
+   "cost_stated": null
+  },
+  {
+   "name": "Executive assistant (EA)",
+   "purpose": "The interviewer suggests an EA could make calls using a sales script.",
+   "cost_stated": null
+  },
+  {
+   "name": "Sales script",
+   "purpose": "A script for an assistant to use when making calls.",
+   "cost_stated": null
+  },
+  {
+   "name": "Third-party door-to-door sales companies",
+   "purpose": "Run door-to-door sales teams for pest-control businesses.",
+   "cost_stated": "$700–$1,000 per qualifying contract is paid; Huber also reports annual company spend of $1–$3 million."
+  },
+  {
+   "name": "Digital marketing",
+   "purpose": "Named as a possible pest-control competitive advantage; the specific channels are not stated.",
+   "cost_stated": null
+  },
+  {
+   "name": "SEO",
+   "purpose": "Named as a possible pest-control competitive advantage.",
+   "cost_stated": null
+  },
+  {
+   "name": "Billboards",
+   "purpose": "Branded billboard marketing is named as a possible pest-control competitive advantage.",
+   "cost_stated": null
+  },
+  {
+   "name": "Referrals",
+   "purpose": "Named as a possible pest-control competitive advantage.",
+   "cost_stated": null
+  },
+  {
+   "name": "Lumber",
+   "purpose": "A hard cost to estimate when pricing a fence-building job.",
+   "cost_stated": "No amount stated."
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Huber warns against outsourcing sales first and recommends founders stay involved in high-value sales calls.",
+   "quote": {
+    "text": "the first thing that people try to outsource is sales. That's the last thing I recommend outsourcing.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6357,
+    "approx_timestamp_s": 352
+   }
+  },
+  {
+   "warning": "A high job quote does not equal high profit: labour, equipment, materials and other costs need to be considered.",
+   "quote": {
+    "text": "Yes, they had equipment. Yes, there's other things to consider, but there's a massive difference in hourly wage, you know, hourly earnings on a given job.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1764,
+    "approx_timestamp_s": 97
+   }
+  },
+  {
+   "warning": "Huber characterises his lawn care company's stated billing rate as producing very little money.",
+   "quote": {
+    "text": "they're making very little money, not a good business.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1604,
+    "approx_timestamp_s": 88
+   }
+  },
+  {
+   "warning": "The interviewer’s seven-figure business suggestion is hypothetical and does not include evidence about costs, customers or execution.",
+   "quote": {
+    "text": "And all of a sudden you have, you know, seven figure business and a year or two when I check being checked back in on it.",
+    "speaker": "Unknown interviewer",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5546,
+    "approx_timestamp_s": 307
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Compare local service opportunities by estimating revenue per worker-hour, then account for loaded labour and hard costs.",
+   "theme": "finance_unit_economics",
+   "quote": {
+    "text": "Those two questions allow you to do back of the map, back of the napkin math on what the hourly, you know, earnings for that company is",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1133,
+    "approx_timestamp_s": 62
+   }
+  },
+  {
+   "lesson": "Choose an opportunity by how directly it can get you to your goal, rather than by novelty alone.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "figure out which one, which side hustle, which business is going to be the path of least resistance to reach your goal",
+    "speaker": "Unknown interviewer",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 113,
+    "approx_timestamp_s": 6
+   }
+  },
+  {
+   "lesson": "Develop business curiosity by observing customer volume, capacity and likely spending in everyday settings.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "Walk in a restaurant and you're calculating how many people are in there.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2193,
+    "approx_timestamp_s": 121
+   }
+  },
+  {
+   "lesson": "Sales is a core part of entrepreneurship: founders sell customers, employees, partners and vendors on working with them.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "So it is non stop 100% 24 seven sales as an entrepreneur.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9349,
+    "approx_timestamp_s": 518
+   }
+  },
+  {
+   "lesson": "Sales skill can be learned; discomfort with sales is not a fixed limit.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "I hate to burst your bubble and I have good news. Like anybody can become a good salesperson.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7864,
+    "approx_timestamp_s": 435
+   }
+  },
+  {
+   "lesson": "Keep the founder involved in high-value sales rather than outsourcing sales as the first delegation.",
+   "theme": "hiring_outsourcing",
+   "quote": {
+    "text": "the first thing that people try to outsource is sales. That's the last thing I recommend outsourcing.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6357,
+    "approx_timestamp_s": 352
+   }
+  },
+  {
+   "lesson": "A business can stand out through a specific acquisition advantage, such as a sales channel competitors do not use as effectively.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "their competitive advantage is door to door sales, door to door sales.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4173,
+    "approx_timestamp_s": 231
+   }
+  },
+  {
+   "lesson": "Do not judge a service business from its headline job price; estimate labour, equipment and other costs.",
+   "theme": "finance_unit_economics",
+   "quote": {
+    "text": "Yes, they had equipment. Yes, there's other things to consider",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1764,
+    "approx_timestamp_s": 97
+   }
+  },
+  {
+   "lesson": "Business-building experience can help a founder notice opportunities in ordinary surroundings.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "business building is a skill. Once you get the bug, you can just identify opportunities all around you",
+    "speaker": "Unknown interviewer",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5727,
+    "approx_timestamp_s": 317
+   }
+  }
+ ],
+ "evidence_quality": {
+  "rating": "B",
+  "rationale": "Huber speaks from experience and gives specific examples, including a lawn care company and a pest-control investment, with some operating figures. Most examples lack full cost, margin or process detail, and several claims are approximate or second-hand. The transcript is a local Whisper transcript and contains apparent transcription errors.",
+  "promotional_conflict": null
+ },
+ "extraction": {
+  "model": "gpt-6-luna",
+  "extracted_at": "2026-10-22T11:43:51",
+  "cost_usd": 0,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 57,
+   "verified": 57,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}
