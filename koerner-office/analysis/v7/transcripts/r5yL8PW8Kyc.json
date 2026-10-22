@@ -1,0 +1,1607 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "r5yL8PW8Kyc",
+  "title": "Watch Me Build an AI Agency in 24 Minutes",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=r5yL8PW8Kyc",
+  "upload_date": "2025-11-13",
+  "duration_s": 1471,
+  "view_count": 181951,
+  "transcript_provider": "ok",
+  "transcript_chars": 25836,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner builds a sample AI voice agent for roofing contractors, scrapes local business listings, and tests a cold-text campaign to find potential customers. The agent answers common roofing questions and offers to schedule a roof inspection; the video does not show a paying customer or a completed sale. Koerner reports replies and warm leads from a 100-contact experiment, then estimates what those results might mean at larger volumes. He also recommends testing several local-business industries and promotes his AI implementation community.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Host of The Koerner Office; also identifies himself in the video as Chris."
+  }
+ ],
+ "format": "tutorial_howto",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Custom AI voice agents for roofing contractors",
+   "one_liner": "Build and configure a branded phone agent that answers roofing questions and helps callers arrange inspections.",
+   "category": "ai_automation",
+   "business_model": "Recurring monthly service or subscription; Koerner expects customers may pay for the service but reports no closed sale in this experiment.",
+   "customer": "Roofing contractors, initially those in the Dallas–Fort Worth area.",
+   "problem": "Roofers may miss calls and lose quote or inspection opportunities; they already spend on marketing services and want more jobs.",
+   "offer": "A customized, local-number voice agent that answers calls 24/7, responds to common roofing questions, and offers inspection appointments. Koerner first creates a sample, then proposes personalizing it for an interested roofer.",
+   "pricing": {
+    "model": "Potential monthly fee, with a free limited-call demonstration or trial suggested.",
+    "price_points": [
+     {
+      "amount": null,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "Hundreds or thousands of dollars; stated as an expected possible price, not a sale."
+     },
+     {
+      "amount": 1000,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "Hypothetical monthly price used in revenue math."
+     },
+     {
+      "amount": 0,
+      "currency": "USD",
+      "unit": "up to 100 calls per month",
+      "label": "Possible free-call offer."
+     },
+     {
+      "amount": 0,
+      "currency": "USD",
+      "unit": "up to 10 calls per month",
+      "label": "Alternative possible free-call offer."
+     }
+    ],
+    "notes": "No actual customer price, paid contract, or close is shown. Koerner says the free agent could lead to payment for more custom work."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "google_business_profile_maps",
+     "details": "Used Outscraper to search Google Business Profile categories for roofing contractors across Dallas, Fort Worth, Plano, and Frisco, including a less commonly targeted roofing-service category. Filtered for phone numbers and later mobile numbers.",
+     "quote": {
+      "text": "I'm going to look for roofers. Why roofer? Well, they tend to be more tech-savvy.",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 804,
+      "approx_timestamp_s": 47
+     }
+    },
+    {
+     "channel": "cold_sms_dm",
+     "details": "Exported and randomized 100 business contacts, then sent individually customized texts from an iPhone and Mac using Straight Text. The transcript does not establish consent. UK PECR makes this approach unsuitable for unsolicited marketing texts to individuals and sole traders without consent.",
+     "quote": {
+      "text": "I'm going to only text 100 of them. We'll see if that does anything.",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 13753,
+      "approx_timestamp_s": 811
+     }
+    }
+   ],
+   "delivery": "Koerner creates a voice agent in GoHighLevel, selects a voice and local phone number, writes a roofing knowledge base with ChatGPT, and inserts business-specific details after a prospect agrees to test it. The agent handles calls and can offer appointments; the roofer would perform the physical inspection and roofing work. No paid customer onboarding or live customer delivery is demonstrated.",
+   "unit_economics_claims": [
+    "The agent model is quoted at $0.02 per minute, with usage costs passed through.",
+    "The Outscraper lead pull is estimated to cost $1.50–$10.",
+    "Koerner suggests a $1,000 monthly price in a hypothetical revenue calculation; no sale is reported.",
+    "Koerner reports 15 replies and three warm leads from 96 delivered texts in this experiment."
+   ],
+   "tools": [
+    "Outscraper",
+    "Google Business Profile",
+    "Google Sheets",
+    "Microsoft Excel",
+    "GoHighLevel",
+    "ChatGPT",
+    "GPT-4o",
+    "ElevenLabs",
+    "Straight Text",
+    "iPhone",
+    "MacBook",
+    "iMessage"
+   ],
+   "startup_cost": "The lead pull was estimated at $1.50–$10. GoHighLevel voice usage was quoted at $0.02 per minute. Other setup costs were not stated.",
+   "time_to_first_revenue": "No paying customer or revenue is shown. Koerner reports obtaining warm leads during the experiment, but does not report when or whether any paid revenue followed.",
+   "automation": {
+    "acquisition": {
+     "score_e": 0,
+     "how": "The demonstrated channel is unsolicited text outreach, which cannot be automated legally in the UK for individuals and sole traders without consent. A compliant inbound channel or appropriately screened business outreach would be needed."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Lead lists and templates can be prepared with software, but a person still needs to confirm the customer, add accurate business details, and configure the agent."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "The voice agent can answer routine calls and offer appointments on its own, but a person must build and check its knowledge base and the contractor must perform inspections and roofing work."
+    },
+    "billing": {
+     "score_e": 2,
+     "how": "The transcript gives no billing workflow. A recurring charge could be automated, but the service and usage charges would need human setup and oversight."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Call transcripts and ratings can help review performance, but a person would need to handle incorrect answers, customer-specific changes, and escalations."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "The voice-agent service could work for UK roofing firms, with UK-specific business details and call handling. The demonstrated unsolicited SMS prospecting is not suitable for UK individuals and sole traders without consent under PECR; local consent and data-protection requirements would need to shape acquisition."
+   },
+   "risks": [
+    "Unsolicited marketing texts to UK individuals and sole traders without consent create a PECR compliance risk.",
+    "The demo agent gives generic or potentially invented business information, including claiming the company has served the area for years; inaccurate answers could harm a roofer's reputation.",
+    "The sample knowledge base and appointment flow are not shown to be checked against a real contractor's services, availability, or service area.",
+    "Voice usage and model costs can rise with call volume or long calls.",
+    "Roofers may receive heavy marketing outreach; Koerner says competition varies by area.",
+    "The reported campaign produced warm leads, not confirmed sales, so the revenue projections remain unproven."
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "I want to do it in a different industry that sells an even more expensive product",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 256,
+     "approx_timestamp_s": 15
+    },
+    {
+     "text": "I want to be able to easily swap out the name and location of the roofing business",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 6459,
+     "approx_timestamp_s": 381
+    },
+    {
+     "text": "The agent is active 24/7. That's the default. We'll leave it there.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 9364,
+     "approx_timestamp_s": 552
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "AI voice agents for garage door repair businesses",
+   "one_liner": "A previous version of the voice-agent business targeted garage door repair owners.",
+   "category": "ai_automation",
+   "business_model": "Not stated; the video implies a similar AI voice-agent service but gives no specific terms for this earlier experiment.",
+   "customer": "Garage door repair business owners.",
+   "problem": "Not stated.",
+   "offer": "Not stated beyond the implication that the earlier business involved a similar voice-agent concept.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": "The transcript gives no price or sale details for the earlier garage-door experiment."
+   },
+   "acquisition_channels": [],
+   "delivery": "Not stated. Koerner says an earlier episode started a business and found a customer in 56 minutes, and later says that episode involved garage door repair owners.",
+   "unit_economics_claims": [
+    "Koerner says the earlier episode started a business and found a customer in 56 minutes."
+   ],
+   "tools": [],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated. The earlier episode reportedly found a customer within 56 minutes, but the transcript does not say whether that customer paid or when revenue arrived.",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "The acquisition method for the earlier experiment is not described, so an automated channel cannot be established."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "No onboarding process is described."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "The video suggests a voice-agent service, but gives no delivery details for this niche."
+    },
+    "billing": {
+     "score_e": 1,
+     "how": "No billing process is described."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "No support process is described."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Garage door repair is also a UK service market, and voice agents could handle similar calls. The transcript provides no UK-specific validation or operating details."
+   },
+   "risks": [
+    "The transcript provides too little detail to assess customer demand, pricing, or delivery for this earlier niche."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "Last time we did garage door repair owners, which is great",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 1065,
+     "approx_timestamp_s": 62
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Small-business AI implementation consulting",
+   "one_liner": "Help small businesses implement AI and automation, potentially on a recurring monthly basis.",
+   "category": "ai_automation",
+   "business_model": "Consulting or implementation service, with monthly fees suggested but not documented as actual sales.",
+   "customer": "Small businesses seeking help implementing AI; Koerner specifically pitches the opportunity to people starting an AI implementation or automation business.",
+   "problem": "Small businesses may need help choosing and implementing AI tools and automations.",
+   "offer": "AI implementation or automation consulting. The video gives a roofing voice agent as a concrete example, but does not detail a broader consulting package.",
+   "pricing": {
+    "model": "Potential monthly consulting or implementation fees.",
+    "price_points": [
+     {
+      "amount": null,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "Thousands of dollars, suggested as a possible monthly fee."
+     }
+    ],
+    "notes": "This is presented as an opportunity and promotional claim, not as a documented consulting contract."
+   },
+   "acquisition_channels": [],
+   "delivery": "The transcript does not describe a general consulting delivery process. Koerner demonstrates building one AI voice agent and promotes Playmakers AI as a community for people starting an implementation or automation business.",
+   "unit_economics_claims": [
+    "Koerner says small businesses could pay thousands of dollars a month for AI implementation or consulting."
+   ],
+   "tools": [
+    "Playmakers AI",
+    "GoHighLevel"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "The transcript gives no acquisition process for general consulting; inbound content and referrals could be automated partly, but no such channel is demonstrated."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "Consulting needs discovery of each customer's systems and needs, which usually requires human work; the video gives no automated onboarding process."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Some implementation work can use AI tools, but broader consulting needs a person to scope, configure, and validate solutions."
+    },
+    "billing": {
+     "score_e": 2,
+     "how": "No billing workflow is described; recurring invoices could be automated with routine oversight."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "The transcript gives no support model for consulting clients; implementation changes and advice would require human involvement."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "AI implementation consulting can serve UK small businesses, though the transcript provides no UK customer evidence or local compliance detail."
+   },
+   "risks": [
+    "The opportunity and monthly-fee claims are promotional and are not backed here by contracts, customer results, or delivery economics.",
+    "A broad consulting offer can become bespoke, increasing human delivery and support time."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "I genuinely think that is the biggest opportunity right now is to help small businesses implement AI",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 15210,
+     "approx_timestamp_s": 897
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "A previous episode started a business and found a customer in 56 minutes.",
+   "metric": "hours",
+   "value": {
+    "amount": 56,
+    "currency": null,
+    "unit": "minutes",
+    "label": "Elapsed time"
+   },
+   "period": "One earlier episode",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "within 56 minutes I went and started a business and found a customer.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 72,
+    "approx_timestamp_s": 4
+   }
+  },
+  {
+   "claim": "Koerner says roofers are accustomed to paying other agencies hundreds to thousands of dollars per month.",
+   "metric": "price",
+   "value": {
+    "amount": null,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "Hundreds to thousands of dollars"
+   },
+   "period": "Monthly",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Roofers are used to paying other agencies hundreds to thousands of dollars a month for stuff like this",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 917,
+    "approx_timestamp_s": 54
+   }
+  },
+  {
+   "claim": "Koerner estimates there may be about 200 roofing companies per state listed in the less common category.",
+   "metric": "customers",
+   "value": {
+    "amount": 200,
+    "currency": null,
+    "unit": "companies per state",
+    "label": "Possible count"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "There might only be 200 roofing companies per state that mistakenly listed in this category",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2185,
+    "approx_timestamp_s": 128
+   }
+  },
+  {
+   "claim": "Outscraper's lead pull was estimated to cost between $1.50 and $10.",
+   "metric": "cost",
+   "value": {
+    "amount": 1.5,
+    "amount_max": 10,
+    "currency": "USD",
+    "unit": "per data pull",
+    "label": "Estimated range"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "it's going to cost me between a buck 50 and 10 bucks.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3203,
+    "approx_timestamp_s": 189
+   }
+  },
+  {
+   "claim": "The selected GoHighLevel voice setup is quoted at two cents per minute with GPT-4o.",
+   "metric": "cost",
+   "value": {
+    "amount": 0.02,
+    "currency": "USD",
+    "unit": "per minute",
+    "label": "Voice-agent usage cost"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "GPT-4o. Two cents per minute with 4o.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4502,
+    "approx_timestamp_s": 265
+   }
+  },
+  {
+   "claim": "An unattended eight-hour call could cost $100.",
+   "metric": "cost",
+   "value": {
+    "amount": 100,
+    "currency": "USD",
+    "unit": "per 8-hour call",
+    "label": "Hypothetical cost"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "what if the person on the other end of the phone never hangs up for some reason and you have an 8-hour call that cost you 100 bucks.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5401,
+    "approx_timestamp_s": 318
+   }
+  },
+  {
+   "claim": "Koerner says he avoided spending two hours drafting roofing FAQs by asking ChatGPT.",
+   "metric": "hours",
+   "value": {
+    "amount": 2,
+    "currency": null,
+    "unit": "hours",
+    "label": "Time he says he would otherwise spend"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So, we're not going to spend 2 hours thinking up all the FAQs, scraping them from websites.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5969,
+    "approx_timestamp_s": 352
+   }
+  },
+  {
+   "claim": "The knowledge base can contain up to 25,000 characters.",
+   "metric": "other",
+   "value": {
+    "amount": 25000,
+    "currency": null,
+    "unit": "characters",
+    "label": "Stated platform limit"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "It allows up to 25,000 characters. I have 7,600.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8437,
+    "approx_timestamp_s": 497
+   }
+  },
+  {
+   "claim": "The example knowledge base contains 7,600 characters.",
+   "metric": "other",
+   "value": {
+    "amount": 7600,
+    "currency": null,
+    "unit": "characters",
+    "label": "Example knowledge base"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "It allows up to 25,000 characters. I have 7,600.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8437,
+    "approx_timestamp_s": 497
+   }
+  },
+  {
+   "claim": "The example voice agent is set to operate 24/7.",
+   "metric": "hours",
+   "value": {
+    "amount": 24,
+    "currency": null,
+    "unit": "hours per day",
+    "label": "Default agent availability"
+   },
+   "period": "Daily",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "The agent is active 24/7. That's the default. We'll leave it there.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9364,
+    "approx_timestamp_s": 552
+   }
+  },
+  {
+   "claim": "Outscraper showed 947 results at one checkpoint.",
+   "metric": "customers",
+   "value": {
+    "amount": 947,
+    "currency": null,
+    "unit": "scraped results",
+    "label": "Checkpoint count"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "There we go. It's all done. We're at 947 so far.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11709,
+    "approx_timestamp_s": 691
+   }
+  },
+  {
+   "claim": "The experiment was 27 minutes in when Koerner checked the leads.",
+   "metric": "hours",
+   "value": {
+    "amount": 27,
+    "currency": null,
+    "unit": "minutes elapsed",
+    "label": "Elapsed experiment time"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "We're 27 minutes into this. We already have a voice agent.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11755,
+    "approx_timestamp_s": 693
+   }
+  },
+  {
+   "claim": "The spreadsheet cleanup removed 23 duplicate phone numbers.",
+   "metric": "customers",
+   "value": {
+    "amount": 23,
+    "currency": null,
+    "unit": "duplicate phone numbers removed",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "We do not want duplicate phone numbers, okay? So, we're going to click column H, that's where the phone numbers are, remove duplicates. 23 found and removed.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12111,
+    "approx_timestamp_s": 714
+   }
+  },
+  {
+   "claim": "Koerner says 978 leads remained after deduplication.",
+   "metric": "customers",
+   "value": {
+    "amount": 978,
+    "currency": null,
+    "unit": "leads",
+    "label": "After deduplication"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "23 found and removed. All right, 978 leads left.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12241,
+    "approx_timestamp_s": 722
+   }
+  },
+  {
+   "claim": "Filtering for unique mobile numbers left 431 roofing companies.",
+   "metric": "customers",
+   "value": {
+    "amount": 431,
+    "currency": null,
+    "unit": "companies",
+    "label": "Unique mobile-phone leads"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So, these are all unique roofing companies in Dallas, Frisco, Plano, and Fort Worth. There's 431 left",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12566,
+    "approx_timestamp_s": 741
+   }
+  },
+  {
+   "claim": "The cleanup removed 95 business names containing LLC, which Koerner described as about a quarter of the list.",
+   "metric": "customers",
+   "value": {
+    "amount": 95,
+    "currency": null,
+    "unit": "businesses removed",
+    "label": "Businesses with LLC in name"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "95 of them did. Basically a quarter of them.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12879,
+    "approx_timestamp_s": 760
+   }
+  },
+  {
+   "claim": "Koerner selected a randomized sample of 100 leads for texting.",
+   "metric": "customers",
+   "value": {
+    "amount": 100,
+    "currency": null,
+    "unit": "leads",
+    "label": "Randomized text sample"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I'm going to only text 100 of them. We'll see if that does anything.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13753,
+    "approx_timestamp_s": 811
+   }
+  },
+  {
+   "claim": "Sending the 100 texts was expected to take about seven to eight minutes.",
+   "metric": "hours",
+   "value": {
+    "amount": 7,
+    "amount_max": 8,
+    "currency": null,
+    "unit": "minutes",
+    "label": "Sending duration"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "And then it's going to take about 7 to 8 minutes for all of these to send",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16825,
+    "approx_timestamp_s": 993
+   }
+  },
+  {
+   "claim": "Straight Text was set to send roughly one message every five seconds.",
+   "metric": "other",
+   "value": {
+    "amount": 5,
+    "currency": null,
+    "unit": "seconds per message",
+    "label": "Sending cadence"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "It pulled in the business name and it's going to send like one every 5 seconds.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16960,
+    "approx_timestamp_s": 1001
+   }
+  },
+  {
+   "claim": "At one point, nine of 100 contacts had responded, which Koerner characterized as about a 10% response rate.",
+   "metric": "response_rate",
+   "value": {
+    "amount": 10,
+    "currency": null,
+    "unit": "percent",
+    "label": "Rounded response rate; nine replies counted"
+   },
+   "period": "Early campaign result",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Okay, and we are done. Four of them failed for some reason. They were probably bad phone numbers. Now, let's see how many responses I got. 1 2 3 4 5 6 7 8 9. Okay, nine out of 100, which is not great.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18647,
+    "approx_timestamp_s": 1100
+   }
+  },
+  {
+   "claim": "Koerner later says the response rate had risen to 13%.",
+   "metric": "response_rate",
+   "value": {
+    "amount": 13,
+    "currency": null,
+    "unit": "percent",
+    "label": "Campaign response rate at that point"
+   },
+   "period": "During the campaign",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Okay, my response rate is up to 13% by now.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20244,
+    "approx_timestamp_s": 1194
+   }
+  },
+  {
+   "claim": "Koerner suggests an optional free offer capped at 100 calls per month.",
+   "metric": "other",
+   "value": {
+    "amount": 100,
+    "currency": null,
+    "unit": "calls per month",
+    "label": "Possible free call allowance"
+   },
+   "period": "Monthly",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "It will be free. It could be free for 100 calls a month, free for 10 calls a month",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20060,
+    "approx_timestamp_s": 1184
+   }
+  },
+  {
+   "claim": "Koerner suggests an alternative optional free offer capped at 10 calls per month.",
+   "metric": "other",
+   "value": {
+    "amount": 10,
+    "currency": null,
+    "unit": "calls per month",
+    "label": "Possible free call allowance"
+   },
+   "period": "Monthly",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "It will be free. It could be free for 100 calls a month, free for 10 calls a month",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20060,
+    "approx_timestamp_s": 1184
+   }
+  },
+  {
+   "claim": "Koerner describes the demo agent as 100% AI.",
+   "metric": "other",
+   "value": {
+    "amount": 100,
+    "currency": null,
+    "unit": "percent",
+    "label": "Claim about the call"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "It's 100% AI, not me.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22051,
+    "approx_timestamp_s": 1301
+   }
+  },
+  {
+   "claim": "Of the 100 text attempts, 96 were delivered and four failed.",
+   "metric": "customers",
+   "value": {
+    "amount": 96,
+    "currency": null,
+    "unit": "delivered text messages",
+    "label": "Campaign delivery"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "96 text messages were delivered, four failed.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22605,
+    "approx_timestamp_s": 1334
+   }
+  },
+  {
+   "claim": "Four of the 100 text attempts failed.",
+   "metric": "customers",
+   "value": {
+    "amount": 4,
+    "currency": null,
+    "unit": "failed text messages",
+    "label": "Campaign delivery failures"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "96 text messages were delivered, four failed.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22605,
+    "approx_timestamp_s": 1334
+   }
+  },
+  {
+   "claim": "Fifteen recipients had responded by the time Koerner summarized the campaign.",
+   "metric": "customers",
+   "value": {
+    "amount": 15,
+    "currency": null,
+    "unit": "responses",
+    "label": "Text campaign replies"
+   },
+   "period": "At the time of the recap",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Of those 96, 15 have responded to me so far.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22649,
+    "approx_timestamp_s": 1336
+   }
+  },
+  {
+   "claim": "Three of the 15 respondents were warm leads.",
+   "metric": "customers",
+   "value": {
+    "amount": 3,
+    "currency": null,
+    "unit": "warm leads",
+    "label": "Interested prospects"
+   },
+   "period": "At the time of the recap",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Of those 15, three of them are leads, warm leads.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22692,
+    "approx_timestamp_s": 1339
+   }
+  },
+  {
+   "claim": "Koerner says 20% of the 15 people who knew why he was texting were interested.",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 20,
+    "currency": null,
+    "unit": "percent of respondents who heard the pitch",
+    "label": "Warm-lead rate"
+   },
+   "period": "At the time of the recap",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "20% of the people that actually know why I'm texting them, cuz the other 82 people or whatever don't know why I'm texting them yet.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22842,
+    "approx_timestamp_s": 1348
+   }
+  },
+  {
+   "claim": "Koerner says warm leads increased from two to three, a 50% increase.",
+   "metric": "customers",
+   "value": {
+    "amount": 50,
+    "currency": null,
+    "unit": "percent increase, from 2 to 3 leads",
+    "label": "Warm-lead count change"
+   },
+   "period": "During the campaign",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "my warm lead rate went up by 50% from two to three.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22445,
+    "approx_timestamp_s": 1324
+   }
+  },
+  {
+   "claim": "Koerner says his response rate was 15% after one hour and nine minutes.",
+   "metric": "response_rate",
+   "value": {
+    "amount": 15,
+    "currency": null,
+    "unit": "percent",
+    "label": "Response rate at that point"
+   },
+   "period": "One hour and nine minutes into the experiment",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "It's 10:29. I've been doing this for an hour and 9 minutes. My response rate is already 15%.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23306,
+    "approx_timestamp_s": 1375
+   }
+  },
+  {
+   "claim": "Koerner estimates the final response rate might reach 30%, based on his expectation that the first-hour rate is half the final rate.",
+   "metric": "response_rate",
+   "value": {
+    "amount": 30,
+    "currency": null,
+    "unit": "percent",
+    "label": "Projected final response rate"
+   },
+   "period": "Projected campaign total",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "usually my response rate in the first hour is half of the response rate I get once it's all said and done. So, call it a 30% response rate",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23435,
+    "approx_timestamp_s": 1383
+   }
+  },
+  {
+   "claim": "Koerner estimates that 4% of the contacted numbers could become leads if the results extrapolate.",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 4,
+    "currency": null,
+    "unit": "percent of contacted numbers",
+    "label": "Projected lead rate"
+   },
+   "period": "Hypothetical extrapolation",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "If we can extrapolate that out, I'm going to have 4% of these become leads.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23586,
+    "approx_timestamp_s": 1392
+   }
+  },
+  {
+   "claim": "Koerner speculates that he might close one, perhaps two, of the three warm leads, but probably not all three.",
+   "metric": "customers",
+   "value": {
+    "amount": 1,
+    "amount_max": 3,
+    "currency": null,
+    "unit": "possible sales from 3 warm leads",
+    "label": "Speculative close count"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Could I close one of those three? Absolutely. Two? Maybe. Three? Probably not.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23042,
+    "approx_timestamp_s": 1360
+   }
+  },
+  {
+   "claim": "Koerner uses a hypothetical $1,000 monthly service price in his scaling example.",
+   "metric": "price",
+   "value": {
+    "amount": 1000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "Hypothetical price per customer"
+   },
+   "period": "Monthly",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Cuz if this is a thousand dollars a month, then I just know I need to text a thousand people",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24016,
+    "approx_timestamp_s": 1417
+   }
+  },
+  {
+   "claim": "Koerner's hypothetical math says texting 1,000 people could produce $10,000 per month.",
+   "metric": "mrr",
+   "value": {
+    "amount": 10000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "Hypothetical revenue"
+   },
+   "period": "Monthly",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I need to text a thousand people to make ten thousand dollars a month",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24075,
+    "approx_timestamp_s": 1421
+   }
+  },
+  {
+   "claim": "Koerner's hypothetical math says texting 10,000 people could produce $100,000 per month.",
+   "metric": "mrr",
+   "value": {
+    "amount": 100000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "Hypothetical revenue"
+   },
+   "period": "Monthly",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "or ten thousand people to make a hundred thousand dollars a month.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24145,
+    "approx_timestamp_s": 1425
+   }
+  },
+  {
+   "claim": "Koerner recommends testing the approach across three to five industries.",
+   "metric": "other",
+   "value": {
+    "amount": 3,
+    "amount_max": 5,
+    "currency": null,
+    "unit": "industries",
+    "label": "Suggested test range"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I would take exactly what I'm doing and do it across three to five different industries.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18301,
+    "approx_timestamp_s": 1080
+   }
+  },
+  {
+   "claim": "Koerner estimates he could have generated the leads in about 45 minutes without the technical issues.",
+   "metric": "hours",
+   "value": {
+    "amount": 45,
+    "currency": null,
+    "unit": "minutes",
+    "label": "Estimated time without technical issues"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "If I didn't have all these tech issues, I could have gotten these leads in about 45 minutes flat.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24264,
+    "approx_timestamp_s": 1432
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Find a less crowded local-business segment",
+   "area": "customer_acquisition",
+   "steps": [
+    "Use Outscraper to inspect Google Business Profile categories, including less common categories that contractors may have selected by mistake.",
+    "Target multiple nearby cities and zip codes so the outreach list is geographically relevant.",
+    "Check how much marketing competition exists in the chosen niche before committing to it."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "These are categories that other dirty marketers like myself are not targeting.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1426,
+    "approx_timestamp_s": 84
+   }
+  },
+  {
+   "name": "Prepare and clean a local prospect list",
+   "area": "operations",
+   "steps": [
+    "Require a phone number when scraping the listings.",
+    "Remove duplicate phone numbers, then filter to mobile numbers.",
+    "Remove business names that look unprofessional for the planned personalization.",
+    "Fill missing city fields with a local area label.",
+    "Randomize the list before choosing a sample so the contacts do not all come from one city."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I want to perfectly randomize it by doing the formula equals rand open and then close parentheses",
+    "speaker": "Chris Koerner",
+    "match_score": 95.9,
+    "verified": true,
+    "char_offset": 14184,
+    "approx_timestamp_s": 837
+   }
+  },
+  {
+   "name": "Build a reusable voice-agent template, then personalize it after interest",
+   "area": "product",
+   "steps": [
+    "Create a sample agent with a temporary business name and a concise roofing FAQ knowledge base.",
+    "Use ChatGPT to draft the FAQ structure, then add it as rich text in GoHighLevel.",
+    "Keep business name and location as easy-to-replace variables.",
+    "Set call limits and response behavior to manage usage and reduce the risk of unusually long calls.",
+    "After a roofer agrees to test it, add that firm's actual details and a local phone number.",
+    "Test the call, inspect the transcript, and rate the result."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I'm not going to send the roofer the link or the phone number to this AI voice agent until I have a roofer say yes.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4618,
+    "approx_timestamp_s": 272
+   }
+  },
+  {
+   "name": "Use a low-friction demonstration to start the sales conversation",
+   "area": "sales",
+   "steps": [
+    "Tell prospects the agent is custom-built for their business.",
+    "Offer a free demonstration or limited number of calls to get a prospect to try it.",
+    "Use the demo as a path to discuss more customized paid work.",
+    "Respond to requests for company information with the business name and website."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I just want to get them to respond and to try it.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20195,
+    "approx_timestamp_s": 1191
+   }
+  },
+  {
+   "name": "Track the whole outreach funnel and compare niches",
+   "area": "validation_testing",
+   "steps": [
+    "Record the number of contacts, delivered texts, responses, and warm leads.",
+    "Track whether prospects are receptive, angry, or unable to pay.",
+    "Test the same offer in three to five industries, then focus on the one showing the most promise.",
+    "Treat a small sample's response rate as an early signal, not proof of revenue."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Keep track of every single response, what your response rates are, what the sentiment is like.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18389,
+    "approx_timestamp_s": 1085
+   }
+  },
+  {
+   "name": "Adjust the first message to sound like a customer inquiry",
+   "area": "sales",
+   "steps": [
+    "Review whether a highly personalized message makes the sender sound like a marketer.",
+    "Test a shorter question about whether the roofer inspects roofs.",
+    "Where appropriate, use the recipient's actual first name rather than only the business name."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I should have said something like, \"Hey, do you inspect roofs? - Chris.\"",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18934,
+    "approx_timestamp_s": 1117
+   }
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Outscraper",
+   "purpose": "Scrape Google Business Profile listings by category, city, and phone-number availability.",
+   "cost_stated": "Estimated lead pull cost: $1.50–$10."
+  },
+  {
+   "name": "Google Business Profile",
+   "purpose": "Source of contractor listings, categories, business names, and city details.",
+   "cost_stated": null
+  },
+  {
+   "name": "Google Sheets",
+   "purpose": "Open and clean the scraped lead spreadsheet, remove duplicates, filter phone types, and prepare a CSV.",
+   "cost_stated": null
+  },
+  {
+   "name": "Microsoft Excel",
+   "purpose": "Mentioned during spreadsheet formatting problems.",
+   "cost_stated": null
+  },
+  {
+   "name": "GoHighLevel / HighLevel",
+   "purpose": "Create and configure the AI voice agent, knowledge base, phone number, and call settings; also mentioned as capable of sending texts.",
+   "cost_stated": "GPT-4o voice usage quoted at $0.02 per minute; other platform costs not stated."
+  },
+  {
+   "name": "ChatGPT",
+   "purpose": "Draft a prompt and roofing FAQ knowledge base for the voice agent.",
+   "cost_stated": null
+  },
+  {
+   "name": "GPT-4o",
+   "purpose": "Language model selected for the voice agent.",
+   "cost_stated": "$0.02 per minute quoted for the setup."
+  },
+  {
+   "name": "ElevenLabs",
+   "purpose": "Voice options surfaced while selecting a voice in GoHighLevel.",
+   "cost_stated": null
+  },
+  {
+   "name": "Straight Text",
+   "purpose": "Upload the CSV, personalize and send the text campaign from synced Apple devices.",
+   "cost_stated": null
+  },
+  {
+   "name": "iPhone",
+   "purpose": "Send and monitor the text messages and test calls.",
+   "cost_stated": null
+  },
+  {
+   "name": "MacBook",
+   "purpose": "Use Straight Text and sync messages with the iPhone.",
+   "cost_stated": null
+  },
+  {
+   "name": "iMessage",
+   "purpose": "One of the messaging routes used by Straight Text.",
+   "cost_stated": null
+  },
+  {
+   "name": "Playmakers AI",
+   "purpose": "Koerner's community for people starting an AI implementation or automation business; promoted in the video.",
+   "cost_stated": null
+  },
+  {
+   "name": "Repeat Leads",
+   "purpose": "Koerner identifies it as his business and provides its website to a prospect.",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "The demonstrated unsolicited text campaign is not suitable for UK outreach to individuals and sole traders without consent under PECR. The prospect list may include business types for which the approach is unlawful.",
+   "quote": {
+    "text": "I'm going to only text 100 of them. We'll see if that does anything.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13753,
+    "approx_timestamp_s": 811
+   }
+  },
+  {
+   "warning": "Koerner considers having the AI call prospects proactively, whether or not they replied. That tactic can create consent and privacy issues and should not be copied into a UK campaign without a lawful basis and appropriate checks.",
+   "quote": {
+    "text": "I just want to have the AI voice agent call all of these guys proactively and then I will follow up with them whether they text me back or not",
+    "speaker": "Chris Koerner",
+    "match_score": 99.3,
+    "verified": true,
+    "char_offset": 20573,
+    "approx_timestamp_s": 1214
+   }
+  },
+  {
+   "warning": "The sample agent makes claims that were not grounded in verified business information, such as saying the contractor has served the area for years.",
+   "quote": {
+    "text": "We've been serving Dallas Fort Worth homeowners for years with trusted, high-quality roofing work.",
+    "speaker": "AI voice agent in demo",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10849,
+    "approx_timestamp_s": 640
+   }
+  },
+  {
+   "warning": "The first contact message may sound like marketing rather than a customer inquiry; Koerner says he would change the wording and notes that one recipient was angry.",
+   "quote": {
+    "text": "I think that my approach should have been less personalized in this case.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18861,
+    "approx_timestamp_s": 1113
+   }
+  },
+  {
+   "warning": "The campaign's small early sample does not prove that projected response, lead, or revenue rates will hold at larger volumes.",
+   "quote": {
+    "text": "If we can extrapolate that out, I'm going to have 4% of these become leads.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23586,
+    "approx_timestamp_s": 1392
+   }
+  },
+  {
+   "warning": "The transcript reports inconsistent scraped-list counts: 947 at one checkpoint, then 978 after duplicate removal. Treat the figures as the speaker's on-screen claims rather than reconciled totals.",
+   "quote": {
+    "text": "There we go. It's all done. We're at 947 so far.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11709,
+    "approx_timestamp_s": 691
+   }
+  },
+  {
+   "warning": "Koerner notes that competition among marketers targeting roofers may be high and says results depend on the local market.",
+   "quote": {
+    "text": "The question is, is the additional competition worth still going after this industry?",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17878,
+    "approx_timestamp_s": 1055
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Choose a niche using observable signals such as willingness to pay for marketing, then test whether local competition makes it worthwhile.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "The question is, is the additional competition worth still going after this industry?",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17878,
+    "approx_timestamp_s": 1055
+   }
+  },
+  {
+   "lesson": "Make a demo feel specific to the prospect by using the business name, location, and relevant questions, while checking that the generated information is accurate.",
+   "theme": "offer_design",
+   "quote": {
+    "text": "That's what's going to make their minds explode.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4849,
+    "approx_timestamp_s": 286
+   }
+  },
+  {
+   "lesson": "A reusable template can speed up delivery, but customer-specific details and knowledge still need to be verified.",
+   "theme": "operations",
+   "quote": {
+    "text": "I want to be able to easily swap out the name and location of the roofing business",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6459,
+    "approx_timestamp_s": 381
+   }
+  },
+  {
+   "lesson": "Keep the knowledge base sufficient for the job without adding unnecessary material that increases model usage costs.",
+   "theme": "finance_unit_economics",
+   "quote": {
+    "text": "we don't want to put more in there than necessary or else we'll spend more money than necessary.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8857,
+    "approx_timestamp_s": 522
+   }
+  },
+  {
+   "lesson": "Test an offer across several industries and track response counts and prospect sentiment before choosing where to focus.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "Keep track of every single response, what your response rates are, what the sentiment is like.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18389,
+    "approx_timestamp_s": 1085
+   }
+  },
+  {
+   "lesson": "Use early outreach to learn about the market, but do not confuse replies or warm leads with paying customers.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "Right now, before I have zero yeses, zero customers, I need to do whatever I can do just to get them to pay attention to me.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 19877,
+    "approx_timestamp_s": 1173
+   }
+  },
+  {
+   "lesson": "Reduce friction for a prospect to experience the product, then offer more customized paid work if the demonstration is useful.",
+   "theme": "offer_design",
+   "quote": {
+    "text": "It will be free. It could be free for 100 calls a month, free for 10 calls a month",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20060,
+    "approx_timestamp_s": 1184
+   }
+  },
+  {
+   "lesson": "Personalization can improve relevance, but wording that appears overly tailored may reveal a marketing pitch and reduce replies.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "I think that my approach should have been less personalized in this case.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18861,
+    "approx_timestamp_s": 1113
+   }
+  }
+ ],
+ "evidence_quality": {
+  "rating": "B",
+  "rationale": "The host demonstrates his own prospecting and agent-building process and reports concrete campaign counts, but no roofing customer purchase, recurring revenue, or independently verified outcomes are shown. Several revenue and conversion figures are projections from a small sample, and the lead totals are inconsistent.",
+  "promotional_conflict": "Koerner promotes Playmakers AI, his AI implementation community, and an affiliate link for GoHighLevel. He also identifies Repeat Leads as his business."
+ },
+ "extraction": {
+  "model": "gpt-6-luna",
+  "extracted_at": "2026-10-22T11:50:48",
+  "cost_usd": 0,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 67,
+   "verified": 67,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

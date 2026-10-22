@@ -1,0 +1,3630 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "tVbN7XSPnM0",
+  "title": "The Only Playbook You Need to Sell Anything Online",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=tVbN7XSPnM0",
+  "upload_date": "2026-05-11",
+  "duration_s": 5531,
+  "view_count": 70338,
+  "transcript_provider": "local_whisper_tiny",
+  "transcript_chars": 96847,
+  "transcript_is_whisper": true
+ },
+ "summary": "Chris Koerner presents a two-day playbook for growing an audience with short-form content, collecting email addresses, and selling digital products or services. He describes selling recordings from consulting sessions as a $97 Google Drive product and walks through GoHighLevel workflows for Instagram comments, lead magnets, email, and AI voice agents. He also demonstrates building a basic bank-statement-to-P&L app with AI Studio and discusses selling automation services or software. His recurring advice is to test content and offers, build an owned email list, and publish before over-planning.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Koerner Office host and presenter of the playbook."
+  },
+  {
+   "name": "Paulson",
+   "role": "co-host",
+   "description": "Interviewer and GoHighLevel representative, as identified in the conversation."
+  }
+ ],
+ "format": "tutorial_howto",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Recorded social-media playbook sold as a digital product",
+   "one_liner": "Package recorded consulting sessions and tactical material in a Google Drive folder, then sell access to an email list.",
+   "category": "digital_products",
+   "business_model": "One-off digital product sale.",
+   "customer": "People seeking practical advice on growing a brand and creating social content.",
+   "problem": "They want practical guidance on hooks, retention, platform differences, and finding customers.",
+   "offer": "A link to recordings and material in a Google Drive folder; no community or moderators.",
+   "pricing": {
+    "model": "One-off payment for access.",
+    "price_points": [
+     {
+      "amount": 97,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "Google Drive playbook"
+     }
+    ],
+    "notes": "The product grew from recordings of one-on-one consulting."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "existing_audience",
+     "details": "Chris sent A/B-tested emails to segments of his newsletter. He says he did not promote this product on Twitter or elsewhere.",
+     "quote": {
+      "text": "I sent a bunch of AB test emails to my newsletter, and I ended up just selling a link to the Google Drive.",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 4098,
+      "approx_timestamp_s": 241
+     }
+    }
+   ],
+   "delivery": "Chris recorded one-on-one Zoom consulting sessions, saved the recordings in Google Drive, and emailed buyers a link.",
+   "unit_economics_claims": [
+    "Chris says the product made $120,000 profit in roughly 30 or 45 days."
+   ],
+   "tools": [
+    "Google Drive",
+    "Zoom",
+    "Email newsletter"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated; the recordings already existed when he sold them.",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Segmented email sends and A/B tests can be scheduled, but list building and offer decisions need human work."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "A payment and automated email can deliver the folder link."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "The buyer receives a digital link without ongoing human fulfillment."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Checkout and receipts can be automated; refunds and unusual cases need review."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Routine access questions can be handled with help pages or an agent, with human review for edge cases."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Digital files and email sales can work in the UK; UK privacy, consumer and tax obligations still apply."
+   },
+   "risks": [
+    "Sales depend on having an email audience and a relevant offer.",
+    "A platform ban can disrupt audience access if the seller has not built an owned list."
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "I ended up just selling a link to the Google Drive. That's it, not like a community with moderators, just a link to a Google Drive for 97 bucks",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 4152,
+     "approx_timestamp_s": 244
+    },
+    {
+     "text": "it made $120,000 profit in like 30 or 45 days.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 4297,
+     "approx_timestamp_s": 253
+    },
+    {
+     "text": "I never post about on Twitter or anywhere, I just sent this to segments of my email list.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 4661,
+     "approx_timestamp_s": 274
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "One-on-one social-media brand consulting",
+   "one_liner": "Sell private Zoom advice on growing a brand and record the sessions for later use.",
+   "category": "education_coaching",
+   "business_model": "One-off consulting fee; price not stated.",
+   "customer": "A person who wants help growing their brand.",
+   "problem": "They need tailored advice on brand growth and content.",
+   "offer": "One-on-one Zoom consulting, with the client agreeing that sessions could be recorded and shared.",
+   "pricing": {
+    "model": "One-off consulting payment.",
+    "price_points": [],
+    "notes": "Chris says the client paid him a lot, but gives no amount."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "How the consulting client found Chris is not stated.",
+     "quote": null
+    }
+   ],
+   "delivery": "Chris delivers the advice himself on Zoom and records the sessions.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Zoom",
+    "Google Drive"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Content and a booking page could generate enquiries, but the method used to find this client is not stated."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Scheduling and intake can be automated, while tailoring the engagement needs human input."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "The consulting is delivered live by Chris."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Payment collection can be automated, but no billing system is described."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "The work is personal consulting and follow-up would likely need Chris."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Remote consulting can be delivered in the UK; no US-specific dependency is described."
+   },
+   "risks": [
+    "Chris says one-on-one consulting is not very efficient.",
+    "The service depends on the consultant's time."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "we just did one-on-one zooms, he paid me a bunch of money",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 3640,
+     "approx_timestamp_s": 214
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Short-form content creator business",
+   "one_liner": "Publish short videos to attract an audience and monetize through products, services, affiliate offers, or email leads.",
+   "category": "content_media",
+   "business_model": "Audience monetization through digital products, services, affiliates, or lead generation.",
+   "customer": "Viewers in a chosen niche, and eventually customers for a related offer.",
+   "problem": "Viewers want useful, engaging information or entertainment; the creator needs reach and a way to turn attention into revenue.",
+   "offer": "Short-form videos with strong hooks, retention, and a clear call to action.",
+   "pricing": {
+    "model": "Revenue comes from downstream offers; the content itself is free.",
+    "price_points": [],
+    "notes": "Offer price depends on what is sold."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "organic_social_content",
+     "details": "Post short-form videos on platforms such as Instagram, TikTok, YouTube, and Facebook. Test concepts and formats, then double down on content that gets positive signals and that the creator enjoys making.",
+     "quote": {
+      "text": "every single time you hit post, it's a lottery ticket.",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 5586,
+      "approx_timestamp_s": 328
+     }
+    },
+    {
+     "channel": "youtube",
+     "details": "Chris discusses platform-specific short-form distribution and longer tutorial videos as ways to reach valuable viewers.",
+     "quote": null
+    }
+   ],
+   "delivery": "The creator makes and posts video content, personally or with content tools. Chris recommends authentic on-camera content, while acknowledging faceless content is possible.",
+   "unit_economics_claims": [
+    "Chris says one video brought him over 40,000 followers in a week for no spend.",
+    "He says another video received eight million views and 40,000 followers.",
+    "He reports a half-percent view-to-follow rate for one video."
+   ],
+   "tools": [
+    "Instagram",
+    "TikTok",
+    "YouTube",
+    "Facebook",
+    "Twitter",
+    "Snapchat",
+    "HeyGen",
+    "Claude"
+   ],
+   "startup_cost": "Chris presents posting as free apart from the creator's time and phone.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Platforms distribute posts automatically, but people must develop, record, and publish content and interpret performance."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "A follow or lead capture can be automated, but a creator must decide what audience and offer to serve."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Publishing tools can assist, but creating authentic content and maintaining quality require substantial human work."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Payments for downstream products can be automated; monetization setup is not described for content alone."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Basic replies can be assisted by software, but audience relationships and moderation need human judgment."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "The social platforms and content model are available in the UK; platform reach and monetization may vary."
+   },
+   "risks": [
+    "Platform accounts can be banned or reach can change.",
+    "Results are uncertain and depend on repeated testing and platform algorithms.",
+    "A large but poorly matched audience may not buy."
+   ],
+   "is_primary": false,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "You would wait in line, you would get these tickets 'cause you had no downside other than your time, which is relevant.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 5153,
+     "approx_timestamp_s": 303
+    },
+    {
+     "text": "you need to create a separate Instagram account that is completely separate from the one where you're posting.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 11647,
+     "approx_timestamp_s": 685
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "Perfume and cologne vending machine",
+   "one_liner": "Place a vending machine that sprays cologne for a small payment.",
+   "category": "vending_machines_kiosks",
+   "business_model": "Per-spray vending revenue; an affiliate purchase path is discussed separately.",
+   "customer": "People at locations where they want a quick cologne spray.",
+   "problem": "Customers want a convenient way to use cologne while out.",
+   "offer": "A vending machine that dispenses a cologne spray.",
+   "pricing": {
+    "model": "Per spray.",
+    "price_points": [
+     {
+      "amount": 1,
+      "currency": "USD",
+      "unit": "per spray",
+      "label": "Cologne spray"
+     }
+    ],
+    "notes": "The price is described in the example video Chris reacted to."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "The machine needs a suitable physical location; specific placement or customer-acquisition steps are not stated.",
+     "quote": null
+    }
+   ],
+   "delivery": "A physical machine dispenses a cologne spray; stocking, placement, and maintenance are not described.",
+   "unit_economics_claims": [
+    "The example video claims a 92% profit margin."
+   ],
+   "tools": [
+    "Perfume vending machine"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "A machine location may attract passers-by, but finding and securing locations is human work."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Customers can use the machine without onboarding."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "The physical machine must be installed, stocked, and maintained by a person."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "A payment terminal could automate payment, but the payment setup is not described."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Faults, refunds, and restocking require physical checks."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "A vending machine could operate in the UK, but locations, product rules, permissions, and economics would need local validation."
+   },
+   "risks": [
+    "The margin figure comes from a video Chris saw and is not independently substantiated in the transcript.",
+    "Physical location access, stocking, maintenance, and payment failures are not addressed."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "This guy invented a vending machine that sprays cologne for a dollar. Then profit margin is 92%.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 16688,
+     "approx_timestamp_s": 982
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "Affiliate sales linked from a cologne vending machine",
+   "one_liner": "Put QR codes by vending-machine cologne bottles and earn affiliate commission on larger purchases.",
+   "category": "arbitrage_reselling",
+   "business_model": "Affiliate commission on purchases made through a QR-code link.",
+   "customer": "People who have tried a cologne spray and want to buy a bottle.",
+   "problem": "A customer may want the full-size product after trying a spray.",
+   "offer": "QR codes linking to an affiliate purchase, with the item drop-shipped by another seller.",
+   "pricing": {
+    "model": "Affiliate commission; commission amount not stated.",
+    "price_points": [],
+    "notes": "The example compares the affiliate return with the proceeds from one spray."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "affiliates_influencers",
+     "details": "Place a QR code by each bottle or fragrance in the vending machine and link to a seller's product page.",
+     "quote": {
+      "text": "you'd put a QR code by each bottle of cologne where you can scan and buy it with an affiliate link.",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 16824,
+      "approx_timestamp_s": 990
+     }
+    }
+   ],
+   "delivery": "The supplier's website handles product fulfillment; the operator places the QR code and receives affiliate attribution.",
+   "unit_economics_claims": [
+    "Chris says the affiliate sale could return 15 times what one spray earns."
+   ],
+   "tools": [
+    "QR code",
+    "Affiliate link",
+    "Drop-shipping supplier website"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "A QR code can passively direct interested customers, but a physical machine and placement are required."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "The customer follows a product link without a manual onboarding step."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "The supplier handles shipping; supplier and customer service exceptions still need attention."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "The merchant and affiliate network can process payment and attribution, subject to their systems."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Product, delivery, and refund questions may need referral to the merchant."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Affiliate links and QR codes work in the UK, but the supplier, products, disclosures, and commission arrangements need UK-specific checks."
+   },
+   "risks": [
+    "The return multiple is a hypothetical claim, not a verified result.",
+    "The operator depends on a physical location and a third-party merchant."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "You do no work and you make 15 times what you'd make on one spray.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 16964,
+     "approx_timestamp_s": 999
+    }
+   ]
+  },
+  {
+   "local_id": "I6",
+   "name": "Lawn-care content and fertilizer offer",
+   "one_liner": "Build an audience around lawn care, ask followers what problems they have, then sell a relevant fertilizer or guide.",
+   "category": "ecommerce_physical",
+   "business_model": "Potential sales of a physical lawn-care product, a digital guide, or an affiliate product.",
+   "customer": "People interested in lawn care, especially those with grass or weed problems.",
+   "problem": "Customers may have bare spots, crab grass, or grass that is not green.",
+   "offer": "A product such as fertilizer or crab-grass granules, selected after asking the audience about its needs.",
+   "pricing": {
+    "model": "Product sale; price not stated.",
+    "price_points": [],
+    "notes": "The examples of fertilizer, granules, and lawn-care guides are hypothetical."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "organic_social_content",
+     "details": "Post lawn-care content, then use Instagram story polls to ask about problems and follow-up questions to learn which solution followers want.",
+     "quote": {
+      "text": "You just post Instagram polls to your story. You say, hey, what problems are you having in your lawn mowing?",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 15001,
+      "approx_timestamp_s": 883
+     }
+    }
+   ],
+   "delivery": "A physical product would need to be sourced and shipped; a PDF guide could be delivered digitally. No actual fulfillment process is described.",
+   "unit_economics_claims": [
+    "Chris gives a hypothetical example in which 1,000 people convert instead of 10 after testing for product-audience fit."
+   ],
+   "tools": [
+    "Instagram",
+    "Alibaba",
+    "Home Depot",
+    "Lowe's",
+    "Claude",
+    "ChatGPT"
+   ],
+   "startup_cost": "Not stated; importing or developing a product is mentioned without costs.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Social content and polls can be scheduled, but creating content and interpreting responses require human work."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "An online store can automate order intake; audience research and product choice need human judgment."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical products require sourcing, packing, shipping, or supplier oversight."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Online checkout can automate payment."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Agents can handle routine questions, but product and shipping issues need oversight."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Lawn-care products can be sold in the UK, but the transcript's specific example targets the south-eastern United States and names US retailers. Product choice and seasonal advice need local adaptation."
+   },
+   "risks": [
+    "Chris warns against assuming followers want a product without testing product-audience fit.",
+    "The lawn-care example is hypothetical and geographically specific.",
+    "Physical product sourcing and fulfillment are not automated by the content funnel."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "you take that. Oh, CD3% said this the next day. Tell me about your crab grass.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 15360,
+     "approx_timestamp_s": 904
+    }
+   ]
+  },
+  {
+   "local_id": "I7",
+   "name": "AI audit templates and business plans",
+   "one_liner": "Offer an AI audit template and business plan as a lead magnet to attract interested business owners.",
+   "category": "digital_products",
+   "business_model": "Free lead magnet that can feed a later paid offer; paid offer not specified for this example.",
+   "customer": "People interested in an AI audit or related business plan.",
+   "problem": "They want a usable audit template and a plan for a business idea.",
+   "offer": "A downloadable template and business plan delivered after the user comments a trigger word and submits an email.",
+   "pricing": {
+    "model": "Free lead magnet; later monetization not stated.",
+    "price_points": [],
+    "notes": "The post shown asks people to comment audit for the template and business plans."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "organic_social_content",
+     "details": "Publish a post and invite viewers to comment audit; an Instagram automation sends a link to a landing page.",
+     "quote": {
+      "text": "comment audit, and I'll send you the full template and biz plans.",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 43068,
+      "approx_timestamp_s": 2536
+     }
+    }
+   ],
+   "delivery": "A workflow replies to the comment, sends a DM button to a landing page, captures an email, and sends the lead magnet.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Instagram",
+    "GoHighLevel",
+    "Email",
+    "AI tools"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Organic posts and comment triggers can attract and route leads; creating the content remains human work."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "A landing page and email workflow collect and tag leads automatically."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "A generated digital template and plan can be delivered by automated email."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "This example is free; any later paid offer would need a checkout flow."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Routine delivery questions can be automated, while plan-specific questions need human review."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "A digital lead magnet and email funnel work in the UK; use appropriate privacy notices and marketing consent."
+   },
+   "risks": [
+    "The lead magnet's quality and relevance determine whether it attracts useful prospects.",
+    "The transcript does not describe the AI audit service itself or a paid price."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "comment audit, and I'll send you the full template and biz plans.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 43068,
+     "approx_timestamp_s": 2536
+    }
+   ]
+  },
+  {
+   "local_id": "I8",
+   "name": "Instagram comment automation setup and maintenance",
+   "one_liner": "Set up comment-triggered DMs and lead capture for small businesses, then charge a monthly maintenance fee.",
+   "category": "ai_automation",
+   "business_model": "Setup service plus recurring maintenance retainer.",
+   "customer": "Small businesses and local service firms such as HVAC and tree-trimming companies.",
+   "problem": "They want to respond quickly to social engagement, capture leads, and deliver offers or information.",
+   "offer": "Configure an Instagram comment workflow that likes comments, replies publicly with varied messages, sends a DM button to a landing page, and captures email contacts.",
+   "pricing": {
+    "model": "Monthly maintenance; setup price not stated.",
+    "price_points": [
+     {
+      "amount": null,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "Hundreds of dollars a month, amount unspecified"
+     }
+    ],
+    "notes": "Chris says a provider could charge hundreds of dollars a month to maintain the connection."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "organic_social_content",
+     "details": "The client's social post asks people to comment a keyword to receive a coupon or lead magnet; the automation handles the response.",
+     "quote": {
+      "text": "Like they should have comment on Instagram notifications.",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 52928,
+      "approx_timestamp_s": 3117
+     }
+    },
+    {
+     "channel": "cold_call",
+     "details": "No outbound acquisition method is described. If cold calling UK businesses, screen numbers against TPS/CTPS and follow applicable rules.",
+     "quote": null
+    }
+   ],
+   "delivery": "The provider connects the client's Instagram through GoHighLevel, builds the workflow and landing page, tests it, and maintains the connection. Setup involves platform configuration and client coordination.",
+   "unit_economics_claims": [
+    "Chris says a provider could set the workflow up in five minutes and charge hundreds of dollars a month to maintain it."
+   ],
+   "tools": [
+    "GoHighLevel",
+    "Instagram",
+    "Facebook",
+    "Facebook integrations",
+    "Social Planner",
+    "Landing pages",
+    "Workflows"
+   ],
+   "startup_cost": "Not stated; GoHighLevel subscription cost is separately discussed.",
+   "time_to_first_revenue": "Chris says the example setup could take five minutes; time to win a client is not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "The service could be marketed with inbound content; the transcript does not show a repeatable client-acquisition system."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Account connection, permissions, offer details, and testing require client cooperation and human checks."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Templates can be copied and adapted, while setup, troubleshooting, and platform changes need human oversight."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "A recurring invoice can be automated once the client is set up."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Routine workflow alerts can be monitored automatically, but account connection and platform problems need human help."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "The software workflow is usable in the UK, but UK direct-marketing, privacy, platform, and consent rules must be followed. The transcript describes people commenting to opt into a response; unsolicited DMs to individuals or sole traders require particular care."
+   },
+   "risks": [
+    "Chris and Paulson warn that repetitive automated replies or DMs can trigger platform spam filters.",
+    "The transcript says the user must comment to show an opt-in before the DM is sent.",
+    "Platform integrations, permissions, and policies can change."
+   ],
+   "is_primary": false,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "you could set this up in five minutes for your client.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 53252,
+     "approx_timestamp_s": 3136
+    },
+    {
+     "text": "you could charge hundreds of dollars a month to maintain that connection.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 53429,
+     "approx_timestamp_s": 3146
+    }
+   ]
+  },
+  {
+   "local_id": "I9",
+   "name": "AI voice receptionist for HVAC businesses",
+   "one_liner": "Install and configure a voice agent that answers HVAC calls, handles questions, and books appointments.",
+   "category": "ai_automation",
+   "business_model": "Agency setup or software service for small businesses; price not stated.",
+   "customer": "Small HVAC businesses, especially owner-operators who cannot answer calls while working or after hours.",
+   "problem": "They miss calls or want to stop handling calls while off duty, but still need to answer questions and book jobs.",
+   "offer": "A trained AI voice receptionist connected to the business information and calendar, with call transcripts and notifications.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": "Chris says he would explain the cost in a human demo but gives no price."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "organic_social_content",
+     "details": "Chris proposes using a short-form content lead magnet, then calling a consenting lead with a live voice-agent demo and inviting them to a human sales call.",
+     "quote": {
+      "text": "This is Chris from Instagram. I know this is random, but just yesterday, you asked for a PDF on how to grow your landscaping business.",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 80134,
+      "approx_timestamp_s": 4719
+     }
+    },
+    {
+     "channel": "other",
+     "details": "Chris demonstrates the voice agent to orthodontists at a conference and describes a potential agency offer to HVAC owners.",
+     "quote": null
+    }
+   ],
+   "delivery": "The provider installs a template, changes the business details, voice, goals, and availability, connects the client's calendar, and trains the agent. The AI handles calls; the owner can review transcripts and correct gaps.",
+   "unit_economics_claims": [
+    "Chris says the agent can work 95% of the time after a little training."
+   ],
+   "tools": [
+    "GoHighLevel Voice AI",
+    "GoHighLevel marketplace",
+    "Calendar integration",
+    "ChatGPT",
+    "Claude"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated; Chris says he created and spoke with a conference demo agent in about seven minutes.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Inbound content and automated demos can help, but qualifying and closing business clients still needs human judgment."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Templates speed setup, but business facts, call goals, calendar connections, and regulatory settings need client-specific review."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "The agent can answer routine calls and book appointments; a human must handle exceptions and correct errors."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Recurring billing can be automated, though no pricing or billing workflow is shown."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Call logs and transcripts support monitoring, but the provider must tune the agent and handle failures."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Voice reception is useful in the UK, but the provider must adapt the voice, business information, phone setup, data handling, and applicable rules. The transcript's example business is US HVAC."
+   },
+   "risks": [
+    "A voice agent can give incorrect answers or fail to find appointment slots.",
+    "Outbound calls and use of personal data require appropriate consent and compliance; a lead magnet comment alone should not be assumed to authorize marketing calls.",
+    "Chris says phone-related compliance requirements and A2P verification matter."
+   ],
+   "is_primary": false,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "I think high levels, the AI voice agent creator is one of the best voice agents out there.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 41032,
+     "approx_timestamp_s": 2416
+    },
+    {
+     "text": "after a little bit of training works 95% of the time and we'll make the clients more.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 78966,
+     "approx_timestamp_s": 4650
+    }
+   ]
+  },
+  {
+   "local_id": "I10",
+   "name": "AI voice-agent agency for local service businesses",
+   "one_liner": "Sell configured voice agents to service businesses and reuse a proven template across clients.",
+   "category": "agency",
+   "business_model": "Agency implementation and potentially recurring service; amount and billing terms not stated.",
+   "customer": "Small businesses such as HVAC contractors and landscapers.",
+   "problem": "Owners want to answer calls, book appointments, or capture leads without being on the phone all day.",
+   "offer": "Configure a voice agent for a client, train it on their business, connect their calendar, and maintain it.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": "Chris describes selling the service but provides no price."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "organic_social_content",
+     "details": "Use content and a lead magnet to identify business owners, then demonstrate the voice agent and offer a follow-up call with a human.",
+     "quote": {
+      "text": "Go ahead and stress test me. Like this is, we're dogfooding it here.",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 80378,
+      "approx_timestamp_s": 4733
+     }
+    }
+   ],
+   "delivery": "Build and tune one agent configuration, duplicate it for another client, then replace the business details and connect the new client's systems.",
+   "unit_economics_claims": [
+    "Chris says a successful agent can be duplicated and adapted for the next client."
+   ],
+   "tools": [
+    "GoHighLevel Voice AI",
+    "GoHighLevel marketplace",
+    "Calendar integration",
+    "ChatGPT",
+    "Claude"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Content can bring inbound interest, but business sales and qualification still need human involvement."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "A reusable template helps, but client-specific configuration and testing require review."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Agents handle routine calls after installation; humans handle setup, monitoring, and exceptions."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Recurring invoices could be automated, though the transcript does not describe a billing setup."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "The agency must review call logs and tune agent behavior when clients report problems."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "The service can be offered to UK businesses, subject to adapting phone, privacy, data, and marketing compliance. The examples focus on US service firms."
+   },
+   "risks": [
+    "Agent performance depends on accurate business information and testing.",
+    "Phone and marketing compliance requirements can apply.",
+    "The service still needs human onboarding and ongoing exception handling."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "Then you swap out the big and same with your new client. Now like you do this work once basically.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 79580,
+     "approx_timestamp_s": 4686
+    }
+   ]
+  },
+  {
+   "local_id": "I11",
+   "name": "QuickBooks alternative built with AI Studio",
+   "one_liner": "Build an app that turns uploaded bank statements into profit-and-loss statements, then sell access.",
+   "category": "saas_software",
+   "business_model": "The example proposes a one-off lifetime payment; subscription pricing is also discussed as an alternative.",
+   "customer": "Small businesses or users who need basic financial statements.",
+   "problem": "They want to generate P&Ls from bank statements and may dislike paying for QuickBooks.",
+   "offer": "A web app to upload bank statements and generate profit-and-loss statements; the demonstration uses dummy data.",
+   "pricing": {
+    "model": "Hypothetical one-off lifetime access; a subscription alternative is also mentioned.",
+    "price_points": [
+     {
+      "amount": 97,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "Hypothetical lifetime price"
+     },
+     {
+      "amount": 49,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "QuickBooks price cited for comparison"
+     }
+    ],
+    "notes": "The app is a demo; Chris says a real QuickBooks alternative is complex and not something to vibe-code without limits."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "organic_social_content",
+     "details": "Use short-form content to attract an audience and test whether a free tool, lead magnet, or paid product converts.",
+     "quote": {
+      "text": "the whole thesis this day thing is build an audience, even if it's a hundred people build an audience",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 88260,
+      "approx_timestamp_s": 5197
+     }
+    },
+    {
+     "channel": "existing_audience",
+     "details": "Chris proposes sending a Stripe payment link to leads in an existing workflow.",
+     "quote": null
+    }
+   ],
+   "delivery": "Chris prompts AI Studio to build a web app, uploads dummy bank-statement data, and iterates on the interface with screenshots and prompts. A real financial product would require more engineering and review.",
+   "unit_economics_claims": [
+    "Chris suggests charging $97 once for unlimited access compared with a $49 monthly QuickBooks subscription.",
+    "He says 80 to 90 percent of tools or apps may be buildable with AI after trial and error."
+   ],
+   "tools": [
+    "GoHighLevel AI Studio",
+    "QuickBooks",
+    "Stripe",
+    "Claude",
+    "ChatGPT",
+    "PDF bank statement"
+   ],
+   "startup_cost": "Chris says AI Studio was included in a $97 monthly GoHighLevel subscription at the time of the recording; other costs are not stated.",
+   "time_to_first_revenue": "Not stated. The demonstration creates a prototype from one prompt, not a production-ready product.",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Content and an email list can bring leads, but trust, product positioning, and distribution require human decisions."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "An upload flow can be automated, but sensitive financial data and product setup require careful review."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "The prototype automates statement-to-report generation, but accuracy, security, accounting edge cases, and support need substantial human oversight."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "A Stripe payment link and automated access could handle ordinary purchases."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "AI can assist with support, but financial-report errors and user data issues need human escalation."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "A financial reporting app could serve UK users, but it would need UK accounting, tax, data protection, and security adaptation. The transcript's demo is not a production accounting system."
+   },
+   "risks": [
+    "Chris says a real QuickBooks alternative is regulated and complex and is not the kind of product to rely on vibe coding alone.",
+    "Generated financial statements can be inaccurate; dummy data in a demo does not validate the product.",
+    "Handling bank statements creates sensitive data-security obligations.",
+    "Chris warns that an app anyone can quickly vibe-code may have little value unless it substantially over-delivers."
+   ],
+   "is_primary": false,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "make an app where I can upload bank statements and generate P&Ls, profit and loss statements.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 83989,
+     "approx_timestamp_s": 4946
+    },
+    {
+     "text": "I would just send a Stripe link and say, hey, I know you're a landscaping business owner. You probably use QuickBooks.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 85653,
+     "approx_timestamp_s": 5044
+    }
+   ]
+  },
+  {
+   "local_id": "I12",
+   "name": "Fractional CFO or fractional CMO service",
+   "one_liner": "Sell a specialized fractional executive service to a small number of highly relevant clients.",
+   "category": "b2b_service",
+   "business_model": "Monthly service retainer.",
+   "customer": "Businesses needing part-time finance or marketing leadership.",
+   "problem": "They need experienced CFO or CMO support without hiring a full-time executive.",
+   "offer": "Fractional CFO or CMO services marketed through niche-relevant posts.",
+   "pricing": {
+    "model": "Monthly retainer.",
+    "price_points": [
+     {
+      "amount": 2000,
+      "amount_max": 5000,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "Example service price range"
+     }
+    ],
+    "notes": "Chris describes examples of other operators, not his own service."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "organic_social_content",
+     "details": "Post a handful of niche-relevant tweets each week; the examples have small follower counts and low view counts but highly relevant viewers.",
+     "quote": {
+      "text": "They have like one offer, one service that they charge $2,000 to $5,000 a month for.",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 35789,
+      "approx_timestamp_s": 2107
+     }
+    }
+   ],
+   "delivery": "A human expert delivers the finance or marketing service; precise scope and fulfillment are not described.",
+   "unit_economics_claims": [
+    "Chris says he knows eight to ten operators with businesses making $30,000 to $70,000 a month."
+   ],
+   "tools": [
+    "Twitter",
+    "LinkedIn"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Content and lead qualification can be partly automated, but trust-building and sales require human work."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Intake can be automated; understanding each client's business and scope requires a person."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Executive finance or marketing work is delivered by a human expert."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "A monthly retainer can be billed automatically."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Clients expect ongoing expert access and judgment."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Fractional finance and marketing services can operate in the UK, but credentials, tax context, and client expectations may differ."
+   },
+   "risks": [
+    "The revenue examples are anecdotal and second-hand.",
+    "The service depends heavily on the operator's expertise and time."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "I can think of eight to 10 guys that have built $30 to $70,000 a month businesses on Twitter",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 35610,
+     "approx_timestamp_s": 2097
+    }
+   ]
+  },
+  {
+   "local_id": "I13",
+   "name": "YouTube marketing management service",
+   "one_liner": "Use long tutorial videos to demonstrate expertise, qualify viewers, and sell managed marketing.",
+   "category": "b2b_service",
+   "business_model": "Monthly marketing management retainer.",
+   "customer": "Businesses seeking help with marketing, Google Business Profile, funnels, or Google Ads.",
+   "problem": "They need someone to manage or improve their marketing.",
+   "offer": "Detailed walkthrough videos followed by a qualification call and a managed marketing service.",
+   "pricing": {
+    "model": "Monthly management fee.",
+    "price_points": [
+     {
+      "amount": 3500,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "Marketing management example"
+     }
+    ],
+    "notes": "This is an anecdote about Chris's friend Marcus, not Chris's own business."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "youtube",
+     "details": "Publish detailed screen-sharing tutorials about Google Business Profile, funnels, and Google Ads; qualify viewers with questions before booking calls.",
+     "quote": {
+      "text": "they have to answer questions. So he knows they're qualified",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 36963,
+      "approx_timestamp_s": 2176
+     }
+    }
+   ],
+   "delivery": "The operator personally manages the client's marketing; exact scope and team are not stated.",
+   "unit_economics_claims": [
+    "Chris reports Marcus has 1,700 subscribers, videos with 400 views and up to 1,100 on a good day, and a claimed 100% close rate on qualified calls.",
+    "Chris says Marcus charges $3,500 per month for managed marketing."
+   ],
+   "tools": [
+    "YouTube",
+    "Google Business Profile",
+    "Google Ads",
+    "Funnels"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Videos can attract viewers and qualification forms can filter leads, but content and sales calls require human work."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Qualification and client intake can be partly automated; marketing access and goals need human review."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Managing marketing strategy and accounts requires human expertise."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "A monthly fee can be billed automatically."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "The client pays for ongoing management and access to an expert."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "The model works in the UK, but Google products, local search, and client markets need UK-specific knowledge."
+   },
+   "risks": [
+    "The close-rate and business-performance claims are anecdotal and not independently verifiable.",
+    "Marketing management is people-intensive and results depend on the client's market and execution."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "he does qualify them before he books a call. They have to answer questions.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 36919,
+     "approx_timestamp_s": 2174
+    }
+   ]
+  },
+  {
+   "local_id": "I14",
+   "name": "HVAC inspection promotion with a comment-triggered coupon",
+   "one_liner": "Promote a seasonal HVAC inspection coupon and send it to people who comment on a social post.",
+   "category": "local_service",
+   "business_model": "Local inspection service sold using a discount coupon; coupon details are an example.",
+   "customer": "Local homeowners with HVAC units.",
+   "problem": "Homeowners may delay inspection and face a costly replacement if the unit is not maintained.",
+   "offer": "A 20% off coupon for an HVAC inspection, delivered through an Instagram comment automation.",
+   "pricing": {
+    "model": "Discounted inspection; base price not stated.",
+    "price_points": [
+     {
+      "amount": 20,
+      "currency": "%",
+      "unit": "discount",
+      "label": "Example coupon"
+     }
+    ],
+    "notes": "The transcript gives this as a sample campaign, not an operating business."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "organic_social_content",
+     "details": "Publish a post about an HVAC spring sale and ask viewers to comment a keyword to receive the coupon.",
+     "quote": {
+      "text": "we've got a spring sale 20% off coupon for HVAC inspections.",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 53020,
+      "approx_timestamp_s": 3122
+     }
+    }
+   ],
+   "delivery": "A local technician performs the physical inspection; the automated workflow distributes the coupon.",
+   "unit_economics_claims": [
+    "Chris uses a $10,000 HVAC replacement as an illustrative reason to get an inspection."
+   ],
+   "tools": [
+    "Instagram",
+    "GoHighLevel"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "The social post and coupon delivery can be automated, but local service demand and campaign setup need human effort."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "The coupon can be sent automatically; booking and property details may require staff."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "A person must travel to and inspect the physical HVAC unit."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Online booking and payment can be automated, but they are not shown in the example."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Scheduling, inspection results, and customer questions need human service."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "The campaign pattern can be used in the UK, but HVAC terminology, seasonality, pricing, and local service rules need adaptation."
+   },
+   "risks": [
+    "The coupon and replacement-cost example are illustrative, not verified business results.",
+    "Inspection delivery is physical work and cannot be fully automated."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "we've got a spring sale 20% off coupon for HVAC inspections.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 53020,
+     "approx_timestamp_s": 3122
+    }
+   ]
+  },
+  {
+   "local_id": "I15",
+   "name": "Small-niche digital marketing agency",
+   "one_liner": "Focus a marketing service on a narrow trade or local niche and build trust with highly relevant content.",
+   "category": "agency",
+   "business_model": "Service fees or retainers; exact offer and price not stated.",
+   "customer": "A narrow industry or community, such as plumbers in a particular place.",
+   "problem": "Businesses need relevant marketing help, while broad marketing messages may not reach the right buyers.",
+   "offer": "A niche-specific marketing service or advice, promoted through content for that audience.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": "The transcript discusses niche choice but does not give a specific agency price."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "organic_social_content",
+     "details": "Create content specifically for a niche or a personal brand; Chris says even very narrow audiences can be valuable if loyal.",
+     "quote": {
+      "text": "Just plumbers or just whatever plumbers in Omaha, Nebraska. Yes, you can win at that.",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 33600,
+      "approx_timestamp_s": 1978
+     }
+    }
+   ],
+   "delivery": "Marketing delivery is not described; any agency work would be performed for the client's business.",
+   "unit_economics_claims": [],
+   "tools": [
+    "LinkedIn",
+    "Instagram",
+    "GoHighLevel"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Niche content can attract inbound prospects, but content production and trust-building require people."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Forms can collect details; a person must understand the client's industry and needs."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Marketing strategy and client work require human judgment."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Invoices or retainers can be collected automatically."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Client service depends on communication and tailored work."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Niche marketing can be adapted to UK trades and regions; no US-only dependency is necessary."
+   },
+   "risks": [
+    "A narrow niche can limit the reachable market if it is not validated.",
+    "The transcript gives no specific agency offer or delivery process."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "no niche is too small, right? There's eight billion of us.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 33177,
+     "approx_timestamp_s": 1953
+    }
+   ]
+  },
+  {
+   "local_id": "I16",
+   "name": "Paid business-owner community",
+   "one_liner": "Run a community where business builders can attend Q&As and find accountability partners.",
+   "category": "education_coaching",
+   "business_model": "Community membership; price and payment terms not stated.",
+   "customer": "People starting, building, or growing businesses.",
+   "problem": "Members want answers, accountability, and contact with other builders.",
+   "offer": "A community with weekly live AMAs and Q&As and accountability partners.",
+   "pricing": {
+    "model": "Membership; price not stated.",
+    "price_points": [],
+    "notes": "Chris promotes TK Owners; the transcript does not specify whether it is paid or its price."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "existing_audience",
+     "details": "Chris promotes the community to the webinar audience.",
+     "quote": {
+      "text": "That's my community where people are building businesses. I do AMAs Q and A's every week live.",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 51844,
+      "approx_timestamp_s": 3053
+     }
+    }
+   ],
+   "delivery": "Chris says he hosts live Q&As; members can have accountability partners.",
+   "unit_economics_claims": [],
+   "tools": [
+    "TK Owners",
+    "TKOwners.com"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "An existing audience can be directed to the community, but the transcript shows a personal promotion."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Membership access can be automated, but member matching and expectations may need moderation."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Weekly live Q&As and accountability depend on people."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "If membership is paid, recurring billing can be automated; no billing flow is described."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Community moderation and live member support require human attention."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "An online business community can serve UK members, though this specific community's membership and market are not described."
+   },
+   "risks": [
+    "The community requires regular live participation.",
+    "Price, membership size, and retention are not established in the transcript."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "That's my community where people are building businesses.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 51844,
+     "approx_timestamp_s": 3053
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Chris says his Facebook account had been providing $35,000 a month in profit before it was banned.",
+   "metric": "profit",
+   "value": {
+    "amount": 35000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "Profit from Facebook account"
+   },
+   "period": "per month",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "my Facebook account banned and that was providing 35 grand a month to me in profit.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 901,
+    "approx_timestamp_s": 53
+   }
+  },
+  {
+   "claim": "Chris says his digital product sold for $97.",
+   "metric": "price",
+   "value": {
+    "amount": 97,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": "Digital product"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I ended up just selling a link to the Google Drive. That's it, not like a community with moderators, just a link to a Google Drive for 97 bucks",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4152,
+    "approx_timestamp_s": 244
+   }
+  },
+  {
+   "claim": "Chris says the digital product made $120,000 profit in about 30 to 45 days.",
+   "metric": "profit",
+   "value": {
+    "amount": 120000,
+    "currency": "USD",
+    "unit": "profit",
+    "label": "Digital product profit"
+   },
+   "period": "about 30 to 45 days",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "it made $120,000 profit in like 30 or 45 days.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4297,
+    "approx_timestamp_s": 253
+   }
+  },
+  {
+   "claim": "Chris says his catchphrase attracted over 40,000 followers in a week without spend.",
+   "metric": "customers",
+   "value": {
+    "amount": 40000,
+    "currency": null,
+    "unit": "followers in a week",
+    "label": "Over 40,000 followers"
+   },
+   "period": "one week",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "the catchphrase that pulled in over 40,000 followers in a week for only $0.00.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 444,
+    "approx_timestamp_s": 26
+   }
+  },
+  {
+   "claim": "Chris says the follower growth described cost $0.00.",
+   "metric": "cost",
+   "value": {
+    "amount": 0,
+    "currency": "USD",
+    "unit": "spend",
+    "label": "Cost of follower growth"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "the catchphrase that pulled in over 40,000 followers in a week for only $0.00.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 444,
+    "approx_timestamp_s": 26
+   }
+  },
+  {
+   "claim": "Chris says he taught over 1,000 affiliate internet marketers.",
+   "metric": "customers",
+   "value": {
+    "amount": 1000,
+    "currency": null,
+    "unit": "people trained, over",
+    "label": "Affiliate internet marketers"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "So I just taught a two-day training to over 1,000 savvy affiliate internet marketers.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 0,
+    "approx_timestamp_s": 0
+   }
+  },
+  {
+   "claim": "Chris says he consulted for one person and was paid a substantial but unspecified amount.",
+   "metric": "customers",
+   "value": {
+    "amount": 1,
+    "currency": null,
+    "unit": "consulting client",
+    "label": "One-on-one client"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "we just did one-on-one zooms, he paid me a bunch of money, and I never ever do one-on-one consulting",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3640,
+    "approx_timestamp_s": 214
+   }
+  },
+  {
+   "claim": "Chris gives an illustrative lottery example of a $100 million prize.",
+   "metric": "other",
+   "value": {
+    "amount": 100000000,
+    "currency": "USD",
+    "unit": "hypothetical lottery prize",
+    "label": "Analogy"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": null,
+   "quote": {
+    "text": "It's like, imagine you had the power of all, $100 million lottery and the lottery tickets were free.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4867,
+    "approx_timestamp_s": 286
+   }
+  },
+  {
+   "claim": "Chris says a person may need to post 10, 100, 1,000, or 10,000 videos before one succeeds.",
+   "metric": "other",
+   "value": {
+    "amount": 10,
+    "amount_max": 10000,
+    "currency": null,
+    "unit": "videos",
+    "label": "Illustrative possible posting counts"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "It might take you posting 10 of them or 100 or 1,000 or 10,000, but if you keep learning every time you post, you will eventually win.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5839,
+    "approx_timestamp_s": 343
+   }
+  },
+  {
+   "claim": "Chris gives an example of an account with 300 Instagram followers.",
+   "metric": "customers",
+   "value": {
+    "amount": 300,
+    "currency": null,
+    "unit": "followers",
+    "label": "Illustrative account"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "you have 300 Instagram followers. These are your friends from high school.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8597,
+    "approx_timestamp_s": 506
+   }
+  },
+  {
+   "claim": "Chris gives an example of 100 friends who like lawn mowing.",
+   "metric": "customers",
+   "value": {
+    "amount": 100,
+    "currency": null,
+    "unit": "people",
+    "label": "Illustrative audience"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "And it just so happens that 100 of those friends also like mowing the lawn.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8730,
+    "approx_timestamp_s": 514
+   }
+  },
+  {
+   "claim": "Chris illustrates algorithmic reach widening from 1,000 to 10,000 strangers.",
+   "metric": "traffic",
+   "value": {
+    "amount": 1000,
+    "amount_max": 10000,
+    "currency": null,
+    "unit": "viewers",
+    "label": "Illustrative audience expansion"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "Let's show it to a thousand strangers that also like mowing the lawn. And it does, it goes a little more broad.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8973,
+    "approx_timestamp_s": 528
+   }
+  },
+  {
+   "claim": "Chris says a lawn-mowing video might cap out at one million views.",
+   "metric": "traffic",
+   "value": {
+    "amount": 1000000,
+    "currency": null,
+    "unit": "views",
+    "label": "Illustrative reach ceiling"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "A lot of mowing video might cap out at a million views 'cause there are only so many people that go to Instagram to watch lawn mowing videos.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9455,
+    "approx_timestamp_s": 556
+   }
+  },
+  {
+   "claim": "Chris contrasts that with a broad food video that could be seen by 100 million people.",
+   "metric": "traffic",
+   "value": {
+    "amount": 100000000,
+    "currency": null,
+    "unit": "viewers",
+    "label": "Illustrative reach"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "whereas a video of like, you know, something more broad, like eating food could be seen by 100 million people.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9596,
+    "approx_timestamp_s": 565
+   }
+  },
+  {
+   "claim": "Chris gives an example of a viewer with 13-minute Instagram sessions who watches 20-second videos on average.",
+   "metric": "hours",
+   "value": {
+    "amount": 13,
+    "currency": null,
+    "unit": "minutes per Instagram session",
+    "label": "Illustrative viewer session"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "let's say Suzy in Omaha, Nebraska typically has 13 minute Instagram sessions and our video, like let's say Suzy watches on average a 20 second Instagram video",
+    "speaker": "Chris Koerner",
+    "match_score": 96.2,
+    "verified": true,
+    "char_offset": 10064,
+    "approx_timestamp_s": 592
+   }
+  },
+  {
+   "claim": "Chris says the hypothetical viewer watches 20-second Instagram videos on average.",
+   "metric": "other",
+   "value": {
+    "amount": 20,
+    "currency": null,
+    "unit": "seconds per video",
+    "label": "Illustrative average"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "Suzy watches on average a 20 second Instagram video and our video keeps her there for 28 seconds",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10169,
+    "approx_timestamp_s": 598
+   }
+  },
+  {
+   "claim": "Chris says the hypothetical video keeps Suzy for 28 seconds.",
+   "metric": "other",
+   "value": {
+    "amount": 28,
+    "currency": null,
+    "unit": "seconds",
+    "label": "Illustrative watch time"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "our video keeps her there for 28 seconds, then it's like, all right, this is raising Suzy's average consumption time",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10225,
+    "approx_timestamp_s": 602
+   }
+  },
+  {
+   "claim": "Chris says a product launch could convert 1,000 followers instead of 10 after audience testing.",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 10,
+    "amount_max": 1000,
+    "currency": null,
+    "unit": "conversions",
+    "label": "Illustrative launch outcomes"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "So then when you have a big launch a month later, you'll get 1,000 people to convert instead of 10, right?",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15697,
+    "approx_timestamp_s": 924
+   }
+  },
+  {
+   "claim": "Chris says he posted 20 or 30 times in 2024 before starting a new account.",
+   "metric": "other",
+   "value": {
+    "amount": 20,
+    "amount_max": 30,
+    "currency": null,
+    "unit": "posts",
+    "label": "Posts before success"
+   },
+   "period": "2024",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "I was posting, I posted 20 or 30 times back in 2024. I had no success. I started a brand new account.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16134,
+    "approx_timestamp_s": 950
+   }
+  },
+  {
+   "claim": "Chris says the perfume-machine video received about 20 million views across platforms.",
+   "metric": "traffic",
+   "value": {
+    "amount": 20000000,
+    "currency": null,
+    "unit": "views",
+    "label": "Video views across platforms"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "So then across platforms, it got like 20 million views, which I was getting like 200 views.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17315,
+    "approx_timestamp_s": 1019
+   }
+  },
+  {
+   "claim": "Chris says his videos had been getting about 200 views before that viral post.",
+   "metric": "traffic",
+   "value": {
+    "amount": 200,
+    "currency": null,
+    "unit": "views",
+    "label": "Earlier video views"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "it got like 20 million views, which I was getting like 200 views.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17340,
+    "approx_timestamp_s": 1021
+   }
+  },
+  {
+   "claim": "Chris says the example cologne spray costs $1.",
+   "metric": "price",
+   "value": {
+    "amount": 1,
+    "currency": "USD",
+    "unit": "per spray",
+    "label": "Cologne vending example"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "This guy invented a vending machine that sprays cologne for a dollar. Then profit margin is 92%.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16688,
+    "approx_timestamp_s": 982
+   }
+  },
+  {
+   "claim": "The example video claims a 92% profit margin for the cologne vending machine.",
+   "metric": "margin",
+   "value": {
+    "amount": 92,
+    "currency": "%",
+    "unit": "profit margin",
+    "label": "Claim from the example video"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "This guy invented a vending machine that sprays cologne for a dollar. Then profit margin is 92%.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16688,
+    "approx_timestamp_s": 982
+   }
+  },
+  {
+   "claim": "Chris says the affiliate purchase could earn 15 times what one spray earns.",
+   "metric": "other",
+   "value": {
+    "amount": 15,
+    "currency": null,
+    "unit": "times the earnings per spray",
+    "label": "Affiliate sale comparison"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "You do no work and you make 15 times what you'd make on one spray.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16964,
+    "approx_timestamp_s": 999
+   }
+  },
+  {
+   "claim": "Chris says a poll result in his hypothetical example was 72%.",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 72,
+    "currency": "%",
+    "unit": "poll respondents",
+    "label": "Example poll response"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "And like 72% said my grass isn't green.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15155,
+    "approx_timestamp_s": 892
+   }
+  },
+  {
+   "claim": "Chris says this audience research could be done over four days.",
+   "metric": "other",
+   "value": {
+    "amount": 4,
+    "currency": null,
+    "unit": "days",
+    "label": "Audience research example"
+   },
+   "period": "four days",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "Like at the end of four days, now you know exactly what they need.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15462,
+    "approx_timestamp_s": 910
+   }
+  },
+  {
+   "claim": "Chris says his TikTok account has about 670,000 followers from about 2,000 videos.",
+   "metric": "customers",
+   "value": {
+    "amount": 670000,
+    "currency": null,
+    "unit": "followers",
+    "label": "TikTok account"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "I have like 670,000 on TikTok total out of like 2,000 videos posted.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 26085,
+    "approx_timestamp_s": 1536
+   }
+  },
+  {
+   "claim": "Chris says his TikTok account took about 2,000 videos to reach its follower total.",
+   "metric": "other",
+   "value": {
+    "amount": 2000,
+    "currency": null,
+    "unit": "videos posted",
+    "label": "TikTok posts"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "I have like 670,000 on TikTok total out of like 2,000 videos posted.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 26085,
+    "approx_timestamp_s": 1536
+   }
+  },
+  {
+   "claim": "Chris says one video brought him from 200 followers to 40,200.",
+   "metric": "customers",
+   "value": {
+    "amount": 40200,
+    "currency": null,
+    "unit": "followers",
+    "label": "After one video"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "This video can bring you from 200 followers to 40,200 followers because the call to action is so strong.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 27167,
+    "approx_timestamp_s": 1599
+   }
+  },
+  {
+   "claim": "Chris says the example video had eight million views and gained 40,000 followers.",
+   "metric": "traffic",
+   "value": {
+    "amount": 8000000,
+    "currency": null,
+    "unit": "views",
+    "label": "Video views"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "And so that video had eight million views and got 40,000 followers.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 27611,
+    "approx_timestamp_s": 1626
+   }
+  },
+  {
+   "claim": "Chris says half a percent of people who watched one video followed him.",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 0.5,
+    "currency": "%",
+    "unit": "viewers who followed",
+    "label": "View-to-follow rate"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "Yeah. So half a percent of people that watch this follow me.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 27898,
+    "approx_timestamp_s": 1642
+   }
+  },
+  {
+   "claim": "Chris says YouTube receives eight billion hours of Shorts uploads every day.",
+   "metric": "traffic",
+   "value": {
+    "amount": 8000000000,
+    "currency": null,
+    "unit": "hours uploaded per day",
+    "label": "YouTube Shorts"
+   },
+   "period": "per day",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "there's like eight billion hours of shorts uploaded every single day to YouTube.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 30566,
+    "approx_timestamp_s": 1800
+   }
+  },
+  {
+   "claim": "Chris says YouTube likes a short-form video when the chance viewers do not swipe away is at least 70%.",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 70,
+    "currency": "%",
+    "unit": "viewers not swiping away",
+    "label": "Platform threshold claim"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "If people have a 70% chance of not swiping away, then YouTube will keep showing it to a broader and broader audience.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 30716,
+    "approx_timestamp_s": 1808
+   }
+  },
+  {
+   "claim": "Chris says a high Instagram share rate would be 2% of unique viewers.",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 2,
+    "currency": "%",
+    "unit": "unique viewers sharing",
+    "label": "Instagram share-rate example"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "And so if you have watch time and a high share rate and on Instagram a high share rate, it would be 2%.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 30975,
+    "approx_timestamp_s": 1824
+   }
+  },
+  {
+   "claim": "Chris says Twitter has 200 million daily active users.",
+   "metric": "customers",
+   "value": {
+    "amount": 200000000,
+    "currency": null,
+    "unit": "daily active users",
+    "label": "Twitter"
+   },
+   "period": "per day",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "They only have 200 million daily active users, which is the lowest of everything we're talking about.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 31788,
+    "approx_timestamp_s": 1872
+   }
+  },
+  {
+   "claim": "Chris cites the 1,000 True Fans calculation of 1,000 fans spending $100 a year for $100,000 revenue.",
+   "metric": "revenue",
+   "value": {
+    "amount": 100000,
+    "currency": "USD",
+    "unit": "per year",
+    "label": "Illustrative 1,000 True Fans calculation"
+   },
+   "period": "per year",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": null,
+   "quote": {
+    "text": "his math is that 1,000 fans spending $100 a year is a 100,000 in revenue.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 34957,
+    "approx_timestamp_s": 2058
+   }
+  },
+  {
+   "claim": "Chris says 100 true fans paying $1,000 a year also yields $100,000.",
+   "metric": "revenue",
+   "value": {
+    "amount": 100000,
+    "currency": "USD",
+    "unit": "per year",
+    "label": "Illustrative 100 True Fans calculation"
+   },
+   "period": "per year",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": null,
+   "quote": {
+    "text": "She said you actually only need 100 True Fans paying you $1,000 a year. It's the same math, you end up at $100,000.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 35495,
+    "approx_timestamp_s": 2090
+   }
+  },
+  {
+   "claim": "Chris says eight to ten people he knows built businesses making $30,000 to $70,000 per month.",
+   "metric": "revenue",
+   "value": {
+    "amount": 30000,
+    "amount_max": 70000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "Reported business revenue range"
+   },
+   "period": "per month",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I12",
+   "quote": {
+    "text": "I can think of eight to 10 guys that have built $30 to $70,000 a month businesses on Twitter",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 35610,
+    "approx_timestamp_s": 2097
+   }
+  },
+  {
+   "claim": "Chris says those operators had about 2,000 to 3,000 followers.",
+   "metric": "customers",
+   "value": {
+    "amount": 2000,
+    "amount_max": 3000,
+    "currency": null,
+    "unit": "followers",
+    "label": "Example audience size"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I12",
+   "quote": {
+    "text": "with like two to 3,000 followers talking about being fractional CFOs or fractional CMOs.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 35701,
+    "approx_timestamp_s": 2102
+   }
+  },
+  {
+   "claim": "Chris says the fractional services were priced at $2,000 to $5,000 per month.",
+   "metric": "price",
+   "value": {
+    "amount": 2000,
+    "amount_max": 5000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "Fractional CFO or CMO service"
+   },
+   "period": "per month",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I12",
+   "quote": {
+    "text": "They have like one offer, one service that they charge $2,000 to $5,000 a month for.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 35789,
+    "approx_timestamp_s": 2107
+   }
+  },
+  {
+   "claim": "Chris says the example posts received 40, 120, or 13 views.",
+   "metric": "traffic",
+   "value": {
+    "amount": 13,
+    "amount_max": 120,
+    "currency": null,
+    "unit": "views per tweet, examples",
+    "label": "Niche-relevant tweets"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I12",
+   "quote": {
+    "text": "These tweets get like 40 views, 120 views, 13 views.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 35990,
+    "approx_timestamp_s": 2119
+   }
+  },
+  {
+   "claim": "Chris says his friend Marcus had 1,700 YouTube subscribers.",
+   "metric": "customers",
+   "value": {
+    "amount": 1700,
+    "currency": null,
+    "unit": "subscribers",
+    "label": "Marcus's YouTube channel"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I13",
+   "quote": {
+    "text": "I have a friend named Marcus, who has a YouTube channel with 1700 subscribers.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 36084,
+    "approx_timestamp_s": 2125
+   }
+  },
+  {
+   "claim": "Chris says Marcus's videos received 400 views and up to 1,100 on a good day.",
+   "metric": "traffic",
+   "value": {
+    "amount": 400,
+    "amount_max": 1100,
+    "currency": null,
+    "unit": "views per video",
+    "label": "Marcus's video views"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I13",
+   "quote": {
+    "text": "This videos get 400 views, you know, 1100 on a good day.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 36161,
+    "approx_timestamp_s": 2129
+   }
+  },
+  {
+   "claim": "Chris says Marcus's tutorial videos are about 50 minutes long.",
+   "metric": "hours",
+   "value": {
+    "amount": 50,
+    "currency": null,
+    "unit": "minutes per video",
+    "label": "Tutorial duration, approximately"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I13",
+   "quote": {
+    "text": "they're like 50 minutes of like how to optimize your Google business profile",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 36219,
+    "approx_timestamp_s": 2133
+   }
+  },
+  {
+   "claim": "Chris says Marcus claimed a 100% close rate on calls with qualified viewers.",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 100,
+    "currency": "%",
+    "unit": "qualified calls closed",
+    "label": "Marcus's reported close rate"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I13",
+   "quote": {
+    "text": "his clothes rate when he gets on calls with his viewers is 100%.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 36424,
+    "approx_timestamp_s": 2145
+   }
+  },
+  {
+   "claim": "Chris says Marcus quoted $3,500 a month for managed marketing.",
+   "metric": "price",
+   "value": {
+    "amount": 3500,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "Marketing management"
+   },
+   "period": "per month",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I13",
+   "quote": {
+    "text": "they say, where do I sign? And I'll also say like, he does qualify them before he books a call.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 36871,
+    "approx_timestamp_s": 2171
+   }
+  },
+  {
+   "claim": "Chris says a lead welcome sequence should last about a week, followed by one high-value email a week.",
+   "metric": "other",
+   "value": {
+    "amount": 1,
+    "currency": null,
+    "unit": "email per week after the welcome sequence",
+    "label": "Newsletter cadence"
+   },
+   "period": "weekly",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "That's going to last like a week. And then after that, you just want to send them one thing a week.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 39372,
+    "approx_timestamp_s": 2318
+   }
+  },
+  {
+   "claim": "Chris says adding a first-name field could reduce landing-page conversion by 20% to 30%.",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 20,
+    "amount_max": 30,
+    "currency": "%",
+    "unit": "conversion-rate reduction",
+    "label": "Adding a name field"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "if you just want their first name, you're going to drop your conversion rate by 20 to 30%.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 56096,
+    "approx_timestamp_s": 3303
+   }
+  },
+  {
+   "claim": "Chris says a lead magnet campaign had 40 people go through it after being set up that morning.",
+   "metric": "customers",
+   "value": {
+    "amount": 40,
+    "currency": null,
+    "unit": "contacts",
+    "label": "Lead magnet workflow"
+   },
+   "period": "same morning",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "So you can see I just said this up this morning and 40 people have already gone through it.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 61284,
+    "approx_timestamp_s": 3609
+   }
+  },
+  {
+   "claim": "Chris says he has hundreds, roughly 500 to 1,000, active lead magnets.",
+   "metric": "other",
+   "value": {
+    "amount": 500,
+    "amount_max": 1000,
+    "currency": null,
+    "unit": "active lead magnets",
+    "label": "Chris's campaigns"
+   },
+   "period": "at the time of speaking",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "I have hundreds, five hundred to a thousand active lead magnets today.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 65162,
+    "approx_timestamp_s": 3837
+   }
+  },
+  {
+   "claim": "Chris says some old lead magnets continue to bring in a few leads each day.",
+   "metric": "customers",
+   "value": {
+    "amount": null,
+    "currency": null,
+    "unit": "a few leads per day",
+    "label": "Ongoing lead trickle"
+   },
+   "period": "per day",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "There aren't people seeing them, but they still trickle in a few every day.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 65312,
+    "approx_timestamp_s": 3846
+   }
+  },
+  {
+   "claim": "Chris says he would charge hundreds of dollars per month to maintain a client's comment automation.",
+   "metric": "price",
+   "value": {
+    "amount": null,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "Hundreds of dollars; exact amount not stated"
+   },
+   "period": "per month",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I8",
+   "quote": {
+    "text": "you could charge hundreds of dollars a month to maintain that connection.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 53429,
+    "approx_timestamp_s": 3146
+   }
+  },
+  {
+   "claim": "Chris says the sample HVAC unit could cost $10,000 to replace.",
+   "metric": "cost",
+   "value": {
+    "amount": 10000,
+    "currency": "USD",
+    "unit": "replacement cost",
+    "label": "Illustrative HVAC replacement"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I14",
+   "quote": {
+    "text": "did you know your HVAC unit is $10,000 to replace?",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 53084,
+    "approx_timestamp_s": 3126
+   }
+  },
+  {
+   "claim": "Chris says an orthodontist voice-agent demonstration took about seven minutes.",
+   "metric": "hours",
+   "value": {
+    "amount": 7,
+    "currency": null,
+    "unit": "minutes",
+    "label": "Voice-agent demo build time"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I9",
+   "quote": {
+    "text": "I created and trained and spoke to a voice agent all within the course of like seven minutes from scratch.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 41298,
+    "approx_timestamp_s": 2432
+   }
+  },
+  {
+   "claim": "Chris says phone-number compliance violations can incur a $5,000 fine per number called.",
+   "metric": "cost",
+   "value": {
+    "amount": 5000,
+    "currency": "USD",
+    "unit": "fine per number called",
+    "label": "Claim about bypassing A2P verification"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I9",
+   "quote": {
+    "text": "it's a $5,000 per number called fine. And it is enforced.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 75637,
+    "approx_timestamp_s": 4454
+   }
+  },
+  {
+   "claim": "Chris says AI Studio was included in a $97 monthly subscription at the time.",
+   "metric": "cost",
+   "value": {
+    "amount": 97,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "GoHighLevel subscription"
+   },
+   "period": "per month",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I11",
+   "quote": {
+    "text": "for now, it's included in your $97 month subscription.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 74677,
+    "approx_timestamp_s": 4397
+   }
+  },
+  {
+   "claim": "Chris says comparable vibe-coding tools can cost hundreds of dollars a month in credits.",
+   "metric": "cost",
+   "value": {
+    "amount": null,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "Hundreds of dollars; exact amount not stated"
+   },
+   "period": "per month",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I11",
+   "quote": {
+    "text": "For comparable vibe coding apps, if it just in credits alone, you're often spending hundreds of dollars a month",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 74443,
+    "approx_timestamp_s": 4384
+   }
+  },
+  {
+   "claim": "Chris estimates that 80% to 90% of tools or apps can be built with AI after trial and error.",
+   "metric": "other",
+   "value": {
+    "amount": 80,
+    "amount_max": 90,
+    "currency": "%",
+    "unit": "tools or apps",
+    "label": "Chris's estimate"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I11",
+   "quote": {
+    "text": "I would say 80 to 90 percent of tools or apps that you want, whether it's literally a mobile app on Android or iPhone or a web app",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 87918,
+    "approx_timestamp_s": 5177
+   }
+  },
+  {
+   "claim": "Chris gives $49 a month as the QuickBooks comparison price.",
+   "metric": "price",
+   "value": {
+    "amount": 49,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "QuickBooks comparison"
+   },
+   "period": "per month",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I11",
+   "quote": {
+    "text": "And instead of paying $49 a month, they get, they pay $97 once for unlimited access to this tool",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 85338,
+    "approx_timestamp_s": 5025
+   }
+  },
+  {
+   "claim": "Chris proposes $97 once for unlimited access to the hypothetical alternative.",
+   "metric": "price",
+   "value": {
+    "amount": 97,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": "Hypothetical lifetime app price"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I11",
+   "quote": {
+    "text": "they pay $97 once for unlimited access to this tool that I just created",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 85380,
+    "approx_timestamp_s": 5028
+   }
+  },
+  {
+   "claim": "Chris says the AI Studio feature had launched five days before the demonstration.",
+   "metric": "other",
+   "value": {
+    "amount": 5,
+    "currency": null,
+    "unit": "days since launch",
+    "label": "AI Studio launch age"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I11",
+   "quote": {
+    "text": "This tool I'm about to show you is only five days old and almost no one has touched it yet.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 83081,
+    "approx_timestamp_s": 4892
+   }
+  },
+  {
+   "claim": "Chris says the funnel-generation feature took about five to ten seconds.",
+   "metric": "hours",
+   "value": {
+    "amount": 5,
+    "amount_max": 10,
+    "currency": null,
+    "unit": "seconds",
+    "label": "Funnel generation time"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I8",
+   "quote": {
+    "text": "Generate more leads friendly. It takes about five, 10 seconds.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 53857,
+    "approx_timestamp_s": 3171
+   }
+  },
+  {
+   "claim": "Chris says the automation setup could take five minutes.",
+   "metric": "hours",
+   "value": {
+    "amount": 5,
+    "currency": null,
+    "unit": "minutes",
+    "label": "Example workflow setup"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I8",
+   "quote": {
+    "text": "you could set this up in five minutes for your client.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 53252,
+    "approx_timestamp_s": 3136
+   }
+  },
+  {
+   "claim": "Chris says a HighLevel free trial through his link lasts 30 days, compared with 14 days elsewhere.",
+   "metric": "other",
+   "value": {
+    "amount": 30,
+    "currency": null,
+    "unit": "trial days",
+    "label": "Promotional HighLevel trial"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "if you want to try them for 30 days for free. Instead of 14 days like everyone else offers",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17921,
+    "approx_timestamp_s": 1055
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Turn existing expertise into a low-friction digital product",
+   "area": "product",
+   "steps": [
+    "Review existing recordings, notes, and files for material that solves a customer problem.",
+    "Package the useful material in a simple digital format, such as a Google Drive folder.",
+    "Test subject lines with A/B emails to relevant newsletter segments.",
+    "Deliver the link directly after purchase."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I ended up just selling a link to the Google Drive. That's it, not like a community with moderators",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4152,
+    "approx_timestamp_s": 244
+   }
+  },
+  {
+   "name": "Test content formats and keep separate research and posting accounts",
+   "area": "acquisition",
+   "steps": [
+    "Test formats such as carousels, infographics, picture posts, and talking-head videos.",
+    "Track both positive platform signals and whether you enjoy making the content.",
+    "Use a separate research account to train the feed toward your niche and collect content examples.",
+    "Keep the posting account focused; use a separate personal account for unrelated viewing."
+   ],
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "I have like a consumption Instagram account for research. And then I have a posting Instagram account from posting",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11760,
+    "approx_timestamp_s": 692
+   }
+  },
+  {
+   "name": "Use a hook and withhold the promised payoff until the end",
+   "area": "content",
+   "steps": [
+    "Open with a visual or verbal hook that identifies the audience and promises a specific payoff.",
+    "Explain the situation and what you tried without revealing the key answer immediately.",
+    "Show evidence or a result, then deliver what the opening promised.",
+    "Use a call to action that fits the platform and the offer."
+   ],
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "And the whole time they're like, what is the thing? What, why are you hiding the idea?",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 19462,
+    "approx_timestamp_s": 1146
+   }
+  },
+  {
+   "name": "Ask followers what they need before building a product",
+   "area": "validation_testing",
+   "steps": [
+    "Use an Instagram story poll to ask what problem followers have.",
+    "Follow up with another poll or question about the leading problem.",
+    "Repeat for several days to learn the specific product or solution they want.",
+    "Test the offer before making a large product investment."
+   ],
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "You don't have to guess what they want. So then when you have a big launch a month later",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15658,
+    "approx_timestamp_s": 922
+   }
+  },
+  {
+   "name": "Send social viewers to one simple email landing page",
+   "area": "acquisition",
+   "steps": [
+    "Use a single focused landing page instead of a link page with many choices.",
+    "Ask for an email address first; collect additional details later if needed.",
+    "Use a clear lead magnet that is more valuable than the short video preview.",
+    "Send a short welcome sequence, then one relevant, valuable email each week."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "The more there is for them to click on the landing page, the more likely they are to get distracted and to never convert at all.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 38813,
+    "approx_timestamp_s": 2285
+   }
+  },
+  {
+   "name": "Build a comment-to-lead workflow",
+   "area": "operations",
+   "steps": [
+    "Connect the Instagram account in GoHighLevel through Facebook integrations.",
+    "Choose the specific post and use a trigger phrase with a contains-phrase filter.",
+    "Track first-level comments only.",
+    "Like the comment and rotate several public replies to reduce repetitive-looking responses.",
+    "DM a clickable button to the landing page, then capture the email and deliver the lead magnet."
+   ],
+   "idea_local_id": "I8",
+   "quote": {
+    "text": "you want to be sure it's just contains and not exact match.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 45003,
+    "approx_timestamp_s": 2650
+   }
+  },
+  {
+   "name": "Keep a simple lead workflow and add tags",
+   "area": "operations",
+   "steps": [
+    "Start with the trigger and one useful response instead of adding unnecessary complexity.",
+    "Tag each contact by the lead magnet or topic they requested.",
+    "Use tags later to send relevant offers to the right subset of contacts.",
+    "Build a thank-you page and a short delivery email, with a backup link on the page."
+   ],
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "If you have 30 different PDF lead magnets over the course of a year, and you tag all of those people that buy it as PDF",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 51536,
+    "approx_timestamp_s": 3035
+   }
+  },
+  {
+   "name": "Demonstrate the voice agent as part of a qualified lead journey",
+   "area": "sales",
+   "steps": [
+    "Collect a phone number only when needed and include the required consent language.",
+    "Set an appropriate delay and condition in the workflow before an outbound call.",
+    "Train the voice agent for a narrow job, such as demonstrating itself to a business owner.",
+    "Invite interested prospects to a follow-up call with a real person.",
+    "Check applicable phone and marketing rules before using automated calls."
+   ],
+   "idea_local_id": "I9",
+   "quote": {
+    "text": "your express goal is to get them on a call with me, a real human to further answer questions",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 81458,
+    "approx_timestamp_s": 4797
+   }
+  },
+  {
+   "name": "Reuse a voice-agent template across clients",
+   "area": "operations",
+   "steps": [
+    "Start from a marketplace template.",
+    "Replace the business name, voice, goals, availability, and knowledge base.",
+    "Connect the client's calendar and notifications.",
+    "Review call transcripts and update the prompt when the agent fails on repeated questions.",
+    "Duplicate a working configuration for the next client, then test the client-specific version."
+   ],
+   "idea_local_id": "I10",
+   "quote": {
+    "text": "you literally just duplicate it. You just click that. Okay. Then you swap out the big and same with your new client.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 79523,
+    "approx_timestamp_s": 4683
+   }
+  },
+  {
+   "name": "Let AI improve a rough prompt and iterate on the prototype",
+   "area": "product",
+   "steps": [
+    "Write the idea in plain language, even if the prompt is rough.",
+    "Ask a separate AI tool to improve the prompt for the specific builder.",
+    "Build a first version and test it with dummy data.",
+    "Show the builder a screenshot and describe the specific change needed.",
+    "Do not treat a working prototype as proof that a regulated product is production-ready."
+   ],
+   "idea_local_id": "I11",
+   "quote": {
+    "text": "the shortcut is to ask the AI, what to ask the AI.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 84448,
+    "approx_timestamp_s": 4973
+   }
+  },
+  {
+   "name": "Keep testing growth and offer variations",
+   "area": "validation_testing",
+   "steps": [
+    "Test different lead magnets, formats, offers, and workflow variations.",
+    "Keep successful versions running while testing new ones.",
+    "Make small changes and monitor what happens.",
+    "Do not assume a growth tactic will work indefinitely."
+   ],
+   "idea_local_id": null,
+   "quote": {
+    "text": "Test all of it. Like, never ever ever stop testing.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 91208,
+    "approx_timestamp_s": 5371
+   }
+  },
+  {
+   "name": "Publish and learn through execution",
+   "area": "mindset",
+   "steps": [
+    "Build a small version of the offer.",
+    "Publish it and observe real customer behavior.",
+    "Use the results to improve instead of spending too long researching or waiting for a mentor."
+   ],
+   "idea_local_id": null,
+   "quote": {
+    "text": "You just have to ship the thing. You got to press publish.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 92964,
+    "approx_timestamp_s": 5474
+   }
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "GoHighLevel",
+   "purpose": "Landing pages, funnels, forms, workflows, contacts, social planning, comment automation, Voice AI, and AI Studio.",
+   "cost_stated": "$97/month subscription stated; Chris also promotes a 30-day trial link."
+  },
+  {
+   "name": "GoHighLevel AI Studio",
+   "purpose": "Vibe-code web apps inside GoHighLevel.",
+   "cost_stated": "Included in the stated $97/month subscription at the time of speaking."
+  },
+  {
+   "name": "GoHighLevel Voice AI",
+   "purpose": "Create and train voice agents for reception, questions, and appointment booking.",
+   "cost_stated": null
+  },
+  {
+   "name": "GoHighLevel Social Planner",
+   "purpose": "Connect social accounts and view content performance; Chris says he uses it as a dashboard, not for posting.",
+   "cost_stated": null
+  },
+  {
+   "name": "Instagram",
+   "purpose": "Short-form content, polls, comments, DMs, lead capture, and audience building.",
+   "cost_stated": null
+  },
+  {
+   "name": "Facebook",
+   "purpose": "Creator distribution, ads, account integrations, and audience monetization.",
+   "cost_stated": null
+  },
+  {
+   "name": "TikTok",
+   "purpose": "Short-form content and audience growth.",
+   "cost_stated": null
+  },
+  {
+   "name": "YouTube",
+   "purpose": "Short-form distribution and long tutorial videos.",
+   "cost_stated": null
+  },
+  {
+   "name": "Twitter",
+   "purpose": "Content distribution and examples of niche service acquisition.",
+   "cost_stated": null
+  },
+  {
+   "name": "LinkedIn",
+   "purpose": "Professional content distribution and networking; engagement groups are mentioned.",
+   "cost_stated": null
+  },
+  {
+   "name": "Snapchat",
+   "purpose": "Named as a short-form platform.",
+   "cost_stated": null
+  },
+  {
+   "name": "HeyGen",
+   "purpose": "AI video creation for faceless content; name is rendered as “hey Jen” in the transcript.",
+   "cost_stated": null
+  },
+  {
+   "name": "Claude",
+   "purpose": "Generate lead magnets and knowledge bases, improve prompts, and create dummy bank-statement data.",
+   "cost_stated": null
+  },
+  {
+   "name": "ChatGPT",
+   "purpose": "Generate lead magnets, prompts, and voice-agent knowledge bases; transcript spellings include “Chaji BT” and similar mis-hearings.",
+   "cost_stated": null
+  },
+  {
+   "name": "Google Drive",
+   "purpose": "Store and deliver the recorded digital playbook and other downloadable material.",
+   "cost_stated": null
+  },
+  {
+   "name": "Google Docs",
+   "purpose": "Mentioned as a possible place to host a lead magnet.",
+   "cost_stated": null
+  },
+  {
+   "name": "Zoom",
+   "purpose": "Deliver one-on-one consulting sessions that Chris recorded.",
+   "cost_stated": null
+  },
+  {
+   "name": "QuickBooks",
+   "purpose": "Accounting software used as the comparison for the proposed bank-statement-to-P&L app.",
+   "cost_stated": "$49/month cited as a comparison."
+  },
+  {
+   "name": "Stripe",
+   "purpose": "Send a payment link for the proposed app offer.",
+   "cost_stated": null
+  },
+  {
+   "name": "Zapier",
+   "purpose": "Named as a third-party automation tool that a built-in GoHighLevel app could avoid.",
+   "cost_stated": null
+  },
+  {
+   "name": "LeadConnector",
+   "purpose": "Named as a third-party tool that a built-in GoHighLevel app could avoid.",
+   "cost_stated": null
+  },
+  {
+   "name": "Shopify",
+   "purpose": "Used as an example label while explaining how to connect a social account.",
+   "cost_stated": null
+  },
+  {
+   "name": "Alibaba",
+   "purpose": "Example supplier for importing a lawn mower.",
+   "cost_stated": null
+  },
+  {
+   "name": "Home Depot",
+   "purpose": "Example retailer in the lawn-care product discussion.",
+   "cost_stated": null
+  },
+  {
+   "name": "Lowe's",
+   "purpose": "Example retailer in the lawn-care product discussion.",
+   "cost_stated": null
+  },
+  {
+   "name": "Google Business Profile",
+   "purpose": "Subject of Marcus's YouTube marketing tutorials.",
+   "cost_stated": null
+  },
+  {
+   "name": "Google Ads",
+   "purpose": "Subject of Marcus's tutorials and marketing service.",
+   "cost_stated": null
+  },
+  {
+   "name": "TK Owners",
+   "purpose": "Chris's business-building community with live Q&As and accountability partners.",
+   "cost_stated": null
+  },
+  {
+   "name": "Airbnb",
+   "purpose": "Example website used as a design reference for the AI-built app.",
+   "cost_stated": null
+  },
+  {
+   "name": "Facebook Ads",
+   "purpose": "Mentioned as a channel Chris tested extensively for lead-form conversion.",
+   "cost_stated": "Spend amount not stated."
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "A platform ban can remove a major revenue source overnight; build an email list and landing-page path that you control.",
+   "quote": {
+    "text": "And it disappeared overnight because I didn't own that audience, I don't own Facebook.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 984,
+    "approx_timestamp_s": 57
+   }
+  },
+  {
+   "warning": "Repeated identical automated replies or unsolicited DMs can trigger spam filters or account restrictions. The speakers advise varied replies and an explicit comment-based opt-in.",
+   "quote": {
+    "text": "if this post were to absolutely go viral, and I just comment, thanks, thanks, thanks, thanks, thanks, thanks, thanks, thanks",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 46435,
+    "approx_timestamp_s": 2734
+   }
+  },
+  {
+   "warning": "The presenters are not compliance experts; phone collection and automated calls have additional regulatory requirements. Do not treat this demonstration as legal advice.",
+   "quote": {
+    "text": "And we're not giving you legal or compliance advice. We're just telling you best practices.",
+    "speaker": "Paulson",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 75809,
+    "approx_timestamp_s": 4464
+   }
+  },
+  {
+   "warning": "Chris warns that bypassing A2P verification can lead to a $5,000 per-number-called fine, and says verification should not be skipped.",
+   "quote": {
+    "text": "So don't skip a 2p verification.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 75773,
+    "approx_timestamp_s": 4462
+   }
+  },
+  {
+   "warning": "Do not add phone-number collection casually; the transcript says consent language is needed and describes additional phone-related regulation.",
+   "quote": {
+    "text": "Keep in mind, when you do ask for their phone number, you need this consent in there.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 71274,
+    "approx_timestamp_s": 4197
+   }
+  },
+  {
+   "warning": "Do not assume a large audience will buy a product. Ask the audience what it needs and validate product-audience fit.",
+   "quote": {
+    "text": "You don't have to guess what they want.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15658,
+    "approx_timestamp_s": 922
+   }
+  },
+  {
+   "warning": "Do not put too many choices on the landing page; extra clicks and fields can reduce conversion.",
+   "quote": {
+    "text": "The more there is for them to click on the landing page, the more likely they are to get distracted and to never convert at all.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 38813,
+    "approx_timestamp_s": 2285
+   }
+  },
+  {
+   "warning": "Do not assume an AI-generated prototype is safe or accurate enough to replace accounting software; Chris says a real QuickBooks alternative is complex and involves regulation.",
+   "quote": {
+    "text": "I'm building a quick books alternative right now. And we're not vibe coding it because there's regulation and it's super complex",
+    "speaker": "Chris Koerner",
+    "match_score": 97.6,
+    "verified": true,
+    "char_offset": 87659,
+    "approx_timestamp_s": 5162
+   }
+  },
+  {
+   "warning": "A simple app may not be worth a high price if others can quickly build the same thing; the offer must over-deliver.",
+   "quote": {
+    "text": "So just because you have an app doesn't mean it's worth $97. Like if anyone can vibe code this, it's probably worth less today",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 89934,
+    "approx_timestamp_s": 5296
+   }
+  },
+  {
+   "warning": "Cross-posting tools may underperform native posting on some platforms, according to Chris's own observation.",
+   "quote": {
+    "text": "I've tried it. But that's just what I've noticed.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 40337,
+    "approx_timestamp_s": 2375
+   }
+  },
+  {
+   "warning": "Growth hacks can stop working; keep testing new ideas while monitoring existing winners.",
+   "quote": {
+    "text": "The more of a cheat, your cheat code is the smaller it's lifespan.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 91722,
+    "approx_timestamp_s": 5401
+   }
+  },
+  {
+   "warning": "Chris warns against spending too long researching, planning, and looking for mentors instead of publishing and learning from real execution.",
+   "quote": {
+    "text": "You just have to ship the thing. You got to press publish.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 92964,
+    "approx_timestamp_s": 5474
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Treat content as repeated experiments: publish, learn from the signals, and keep improving rather than expecting one post to work.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "if you keep learning every time you post, you will eventually win.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5906,
+    "approx_timestamp_s": 347
+   }
+  },
+  {
+   "lesson": "Optimize short-form content for retention and a promised payoff, not just views or likes.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "If we publish a video that prevents people from swiping away to the next video and keeps people on our video for as long as possible",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7717,
+    "approx_timestamp_s": 454
+   }
+  },
+  {
+   "lesson": "Keep an account focused on the audience it has built; test a different niche with a new account if needed.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "You're the lawn mowing guy in their head now. It doesn't matter if they also like it",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13468,
+    "approx_timestamp_s": 793
+   }
+  },
+  {
+   "lesson": "Ask an audience about its problems before investing in a product.",
+   "theme": "offer_design",
+   "quote": {
+    "text": "You don't have to guess what they want.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15658,
+    "approx_timestamp_s": 922
+   }
+  },
+  {
+   "lesson": "A small, loyal audience can be more valuable than a large, weakly engaged one.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "it's not about who you know, it's about who knows you and who trusts you.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 37223,
+    "approx_timestamp_s": 2192
+   }
+  },
+  {
+   "lesson": "Use a focused landing page with a single clear next step to reduce friction.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "every piece of friction between you and the end goal, whether it's a free subscription to a newsletter or a $97, whatever",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21940,
+    "approx_timestamp_s": 1292
+   }
+  },
+  {
+   "lesson": "Own an email relationship because a social platform can remove access to an audience.",
+   "theme": "operations",
+   "quote": {
+    "text": "it's never been more important than ever to get emails, get people off the platform through landing pages, funnels",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1076,
+    "approx_timestamp_s": 63
+   }
+  },
+  {
+   "lesson": "Use audience engagement to earn permission for a response; keep automation compliant with platform rules and applicable law.",
+   "theme": "legal_risk",
+   "quote": {
+    "text": "this middle step right here is the key to all of this being compliant. They have to comment",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 48324,
+    "approx_timestamp_s": 2845
+   }
+  },
+  {
+   "lesson": "Use AI to get a first version made, then test it with real inputs and correct specific problems.",
+   "theme": "automation_ai",
+   "quote": {
+    "text": "any prompt is better than no prompt. You can level up your prompts after a while.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 83822,
+    "approx_timestamp_s": 4936
+   }
+  },
+  {
+   "lesson": "Publishing and selling teach faster than extended planning and research.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "you're going to learn 10 times faster by actually like selling and building than by like planning and researching and reading.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 92838,
+    "approx_timestamp_s": 5467
+   }
+  },
+  {
+   "lesson": "Keep successful experiments running while testing new variations; a tactic's performance may not last.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "don't just like rest on your laurels ... Keep moving. Keep testing.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 91863,
+    "approx_timestamp_s": 5410
+   }
+  }
+ ],
+ "evidence_quality": {
+  "rating": "B",
+  "rationale": "Chris describes his own digital-product sales, audience growth, and workflows with concrete examples and some specific numbers, but many platform metrics are anecdotal or unsupported, and several product ideas are hypothetical. Paulson's comments add software-promotion context rather than independent verification.",
+  "promotional_conflict": "GoHighLevel supports the channel, Chris says he uses it, promotes a trial link, and demonstrates its paid features. Chris also promotes TK Owners. The video includes a GoHighLevel trial promotion."
+ },
+ "extraction": {
+  "model": "gpt-6-luna",
+  "extracted_at": "2026-10-22T12:01:24",
+  "cost_usd": 0,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 135,
+   "verified": 135,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

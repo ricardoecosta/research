@@ -1,0 +1,1609 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "tKTlzugGgYw",
+  "title": "I Built an AI Agent in 5 Minutes (And Sold It Live)",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=tKTlzugGgYw",
+  "upload_date": "2026-02-17",
+  "duration_s": 2214,
+  "view_count": 42330,
+  "transcript_provider": "transcribeyoutube",
+  "transcript_chars": 39397,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner demonstrates a campaign to sell AI voice agents to local service businesses, using ringless voicemail drops to contact tree-care companies. He shows lead selection, campaign setup, several callbacks, and a GoHighLevel voice-agent build. The campaign generated calls and conversations, but the transcript does not report a sale. His main takeaway is that the agent is quick to build; finding customers and handling follow-up are the harder parts.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Demonstrates the campaign and voice-agent build."
+  },
+  {
+   "name": "Unnamed audience participants",
+   "role": "other",
+   "description": "Ask questions and comment during the live demonstration."
+  },
+  {
+   "name": "Unnamed tree-service prospect",
+   "role": "other",
+   "description": "Receives one of the callbacks and discusses how their business gets work."
+  }
+ ],
+ "format": "tutorial_howto",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "AI voice-agent setup for local service businesses",
+   "one_liner": "Build and install AI voice agents that answer calls and collect job details for local service businesses.",
+   "category": "ai_automation",
+   "business_model": "Recurring monthly service fee for setting up and providing AI voice agents; the agent can answer calls, gather details, and notify the business team.",
+   "customer": "Local service business owners, especially operators who are often driving or working on jobs and may miss calls. Examples discussed include tree-trimming, HVAC, pool-service, and similar businesses.",
+   "problem": "Businesses can miss valuable calls when owners or staff are out working, driving, or otherwise unable to answer.",
+   "offer": "Create an AI agent that answers inbound calls, uses a business knowledge base to respond to questions, collects contact and job information, and passes the details to the team. Chris also proposes selling a trained template through the HighLevel app marketplace.",
+   "pricing": {
+    "model": "Monthly recurring fee; Chris also offers to set up an agent for one prospect for free.",
+    "price_points": [
+     {
+      "amount": 500,
+      "amount_max": 2000,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "Price Chris says business owners may pay for an AI voice agent"
+     },
+     {
+      "amount": 0,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "Free setup offered to a prospect during the live call"
+     }
+    ],
+    "notes": "No customer accepted a paid offer in the transcript. The monthly price is stated as a potential price, not a closed sale."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Chris uploaded a brief recorded pitch and a list of tree-service phone numbers to Slide Broadcast, which sent ringless voicemail drops. He used Google Voice for callbacks. He reports calls from recipients, including some who had not heard the voicemail. UK legal applicability of this outbound method is a concern.",
+     "quote": {
+      "text": "I'm going to show you my phone, my Google Voice account, and I'm going to send ringless voicemail drops to 500 business owners, wait for them to call me back, and try to close a deal for an AI voice agent.",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 675,
+      "approx_timestamp_s": 39
+     }
+    },
+    {
+     "channel": "cold_call",
+     "details": "Chris mentions cold calls as one possible additional touch, but does not demonstrate making outbound cold calls in this campaign. He answers calls from prospects who call him back.",
+     "quote": null
+    },
+    {
+     "channel": "cold_email",
+     "details": "Chris recommends email as one possible additional touch in a multi-channel campaign; he does not send email in the demonstrated campaign.",
+     "quote": null
+    },
+    {
+     "channel": "outbound_linkedin",
+     "details": "Chris lists LinkedIn outreach as another possible touch; he does not demonstrate using it in the campaign.",
+     "quote": null
+    }
+   ],
+   "delivery": "Configure a voice agent in GoHighLevel, choose its voice and response settings, and give it a knowledge base built from a business website or generated and edited with ChatGPT. The agent answers inbound calls, collects details such as name, address, phone number, and issue, then emails the information to the business team. The provider handles setup and may connect a new or ported-in phone number. Any physical service work and on-site quotes remain with the client business.",
+   "unit_economics_claims": [
+    "Chris says businesses may pay USD 500–2,000 per month for an AI voice agent; no paid customer or margin is reported.",
+    "Chris says he can build the agent in about five minutes or less, and later says the demonstration took about three minutes.",
+    "Chris offered one prospect a free setup, but the prospect did not accept a definite project."
+   ],
+   "tools": [
+    "Slide Broadcast",
+    "Outscraper",
+    "Google Voice",
+    "GoHighLevel",
+    "ChatGPT",
+    "Google Maps",
+    "Google Sheets",
+    "Google Trends",
+    "Google Keyword Tool",
+    "Typeform",
+    "FastTreeCare.com",
+    "HighLevel app marketplace"
+   ],
+   "startup_cost": "Not stated for launching the agent service. Chris says a self-run Outscraper scrape cost about USD 4; free lead lists were also available through his group.",
+   "time_to_first_revenue": "Not stated. The campaign produced callbacks and conversations, but no sale is reported.",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Lead scraping and voicemail sending can be software-assisted, but list selection, offer creation, callbacks, and closing were human-led. Chris's demonstrated cold voicemail method would need a legally compliant alternative in the UK; inbound marketing or compliant outreach to corporate subscribers could be more automatable."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "A web crawler or AI can draft the knowledge base, and templates can speed configuration. A person still needs to check the client's services, contact details, phone routing, and agent behavior."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "The agent can handle routine inbound calls and collect details without a person on each call. A human is still needed to review edge cases, confirm availability, and perform any on-site quoting or service work."
+    },
+    "billing": {
+     "score_e": 1,
+     "how": "The transcript does not describe billing or an automated subscription setup, so recurring billing would need to be arranged and checked by a person."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Routine questions may be handled by the agent, but the transcript does not show a support process for client issues, failures, or changes to the agent."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "The core voice-agent service can work for UK trades and other local businesses. The US ringless voicemail campaign should not be copied without legal review: UK rules restrict unsolicited automated marketing calls, and contact data and call handling also need appropriate privacy compliance. Pricing, phone-number setup, and the chosen outreach channels may need adaptation."
+   },
+   "risks": [
+    "The demonstrated ringless voicemail campaign is not shown to close a paid sale; callbacks can be accidental or low-intent.",
+    "Some recipients may be angry or confused by unsolicited outreach, and Chris reports that some people were angry.",
+    "UK rules restrict unsolicited automated marketing calls; screening against a do-not-call list alone does not establish compliance.",
+    "The agent can sound robotic or provide inappropriate answers if its voice, knowledge base, or settings are poorly chosen.",
+    "A business may still need human follow-up to confirm availability, quote jobs, and perform physical work.",
+    "Chris says a single standalone marketing touch may not produce strong results; multiple touches may help, but those channels have their own legal requirements."
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "This is one that business owners are actually paying for today, and that's AI voice agents.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 217,
+     "approx_timestamp_s": 12
+    },
+    {
+     "text": "So, the hard part here is finding the customers, finding who to actually pay you $500 to $2,000 a month for these AI voice agents that you can build in 5 minutes.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 428,
+     "approx_timestamp_s": 24
+    },
+    {
+     "text": "This is the service that people are selling. This is like the actual AI thing that is changing the game for small businesses, whereas a lot of the other things are just too early.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 36126,
+     "approx_timestamp_s": 2107
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "CRM for pool cleaners",
+   "one_liner": "A CRM aimed at pool-cleaning businesses.",
+   "category": "saas_software",
+   "business_model": "Not stated.",
+   "customer": "Pool cleaners.",
+   "problem": "Not stated.",
+   "offer": "Chris mentions having made a CRM for pool cleaners, but gives no feature or product details.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": "No pricing or sales information is given."
+   },
+   "acquisition_channels": [],
+   "delivery": "Not stated.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "The transcript gives no acquisition process. Software could support promotion, but no automated channel is described."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "A CRM could potentially use guided software onboarding, but the transcript gives no product details."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "If delivered as software, access could be provided automatically; the transcript does not describe how this CRM was delivered."
+    },
+    "billing": {
+     "score_e": 2,
+     "how": "No billing process is described."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "No support process is described."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "A CRM for pool-cleaning firms could be used in the UK, though the size and shape of the local pool-service market may differ. The transcript gives too little product detail to assess further."
+   },
+   "risks": [
+    "The transcript does not explain what the CRM does, whether it was sold, or whether it is still available."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "I made a CRM for pool cleaners. Yeah. So, something like that. And then I think I just went on the thesis",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 9464,
+     "approx_timestamp_s": 552
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Buying RV parks",
+   "one_liner": "Acquire RV parks; Chris mentions having used outreach in connection with buying them.",
+   "category": "acquisition_buy_business",
+   "business_model": "Acquire an RV park; ownership and revenue model are not described.",
+   "customer": "Not stated.",
+   "problem": "Not stated.",
+   "offer": "Not stated. Chris uses buying RV parks as a contrast to selling AI voice agents: a callback only shows that a number is reachable, not that the owner wants to sell.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": "No purchase price, revenue, or operating details are given."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Chris says he has used the same outreach strategy when buying RV parks, but does not explain the campaign or deal process.",
+     "quote": null
+    }
+   ],
+   "delivery": "Not stated.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "The transcript gives no detailed sourcing or acquisition process. Finding and evaluating a real estate business would require substantial human review."
+    },
+    "onboarding": {
+     "score_e": 0,
+     "how": "Not described; an acquisition would require human due diligence and transaction work."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Not described; operating a physical park involves people and property."
+    },
+    "billing": {
+     "score_e": 1,
+     "how": "Not described; some payments might be software-managed, but no process is given."
+    },
+    "support": {
+     "score_e": 0,
+     "how": "Not described; guest and property issues at a physical park would need human handling."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "The transcript concerns RV parks in a US context. The UK has related holiday-park and caravan-park businesses, but the asset type, market, and operating details may differ."
+   },
+   "risks": [
+    "The transcript gives no acquisition price, financials, financing, due diligence, or operating details.",
+    "A callback does not indicate that an owner is interested in selling."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "Now, if I were like using this same strategy to buy RV parks, which I've done, then call back doesn't necessarily mean anything, right?",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 26196,
+     "approx_timestamp_s": 1528
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Chris says business owners may pay USD 500 to USD 2,000 per month for AI voice agents.",
+   "metric": "price",
+   "value": {
+    "amount": 500,
+    "amount_max": 2000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "Potential monthly fee"
+   },
+   "period": "per month",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So, the hard part here is finding the customers, finding who to actually pay you $500 to $2,000 a month for these AI voice agents that you can build in 5 minutes.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 428,
+    "approx_timestamp_s": 24
+   }
+  },
+  {
+   "claim": "Chris says voice agents can be built in five minutes or less.",
+   "metric": "hours",
+   "value": {
+    "amount": 5,
+    "currency": null,
+    "unit": "minutes or less",
+    "label": "Claimed build time"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "They're really good. They're really realistic, and you can use drag and drop easy tools to build them in 5 minutes or less.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 307,
+    "approx_timestamp_s": 17
+   }
+  },
+  {
+   "claim": "Chris says the agent build takes about three minutes.",
+   "metric": "hours",
+   "value": {
+    "amount": 3,
+    "currency": null,
+    "unit": "minutes",
+    "label": "Claimed build time"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Also, at the end of this, I'm going to show you exactly how to build an AI voice agent. You'll see for yourself. It only takes like 3 minutes.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1024,
+    "approx_timestamp_s": 59
+   }
+  },
+  {
+   "claim": "Chris says he would set up the prospect's agent for free.",
+   "metric": "price",
+   "value": {
+    "amount": 0,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": "Free setup offer"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I could for sure set it up for free. Like, in full transparency, the hope would the hope would be that like",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 27156,
+    "approx_timestamp_s": 1584
+   }
+  },
+  {
+   "claim": "Chris says his self-run scrape costs about USD 4.",
+   "metric": "cost",
+   "value": {
+    "amount": 4,
+    "currency": "USD",
+    "unit": "per scrape",
+    "label": "Outscraper lead scrape"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "It costs like $4 to scrape these leads. So, if you don't want to wait however long it takes us to get them, which could be 24 or 72 hours if it's over the weekend, then you can do it yourself.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6796,
+    "approx_timestamp_s": 396
+   }
+  },
+  {
+   "claim": "Chris set the scrape maximum to 1,400 results.",
+   "metric": "customers",
+   "value": {
+    "amount": 1400,
+    "currency": null,
+    "unit": "leads",
+    "label": "Maximum scrape results"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "And then I set my max results at 1400. The reason 1400 is because I have 500 credits.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5099,
+    "approx_timestamp_s": 297
+   }
+  },
+  {
+   "claim": "Chris had 500 credits for the scrape.",
+   "metric": "other",
+   "value": {
+    "amount": 500,
+    "currency": null,
+    "unit": "credits",
+    "label": "Outscraper credits"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "And then I set my max results at 1400. The reason 1400 is because I have 500 credits.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5099,
+    "approx_timestamp_s": 297
+   }
+  },
+  {
+   "claim": "Chris estimates that a third to half of scraped numbers are valid cell-phone numbers.",
+   "metric": "other",
+   "value": {
+    "amount": 33.3,
+    "amount_max": 50,
+    "currency": null,
+    "unit": "percent",
+    "label": "Estimated share of valid cell numbers"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "And in my experience, usually a third to half of your scraped numbers will be like valid cell phone numbers.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5183,
+    "approx_timestamp_s": 302
+   }
+  },
+  {
+   "claim": "Chris says the scrape estimate showed one to five hours.",
+   "metric": "hours",
+   "value": {
+    "amount": 1,
+    "amount_max": 5,
+    "currency": null,
+    "unit": "hours",
+    "label": "Estimated scrape time"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "1 to five hours. Anyway, so confirm. That's what I would do if I was doing this, but I already did this.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6264,
+    "approx_timestamp_s": 365
+   }
+  },
+  {
+   "claim": "Chris says free lead requests may take 24 or 72 hours when the request falls over a weekend.",
+   "metric": "hours",
+   "value": {
+    "amount": 24,
+    "amount_max": 72,
+    "currency": null,
+    "unit": "hours",
+    "label": "Possible wait for free leads"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "It costs like $4 to scrape these leads. So, if you don't want to wait however long it takes us to get them, which could be 24 or 72 hours if it's over the weekend, then you can do it yourself.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6796,
+    "approx_timestamp_s": 396
+   }
+  },
+  {
+   "claim": "Chris says his group provides requested scraped leads for free.",
+   "metric": "price",
+   "value": {
+    "amount": 0,
+    "currency": "USD",
+    "unit": "per lead list",
+    "label": "Free lead list through the group"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "We scrape all the leads for free. You can get the link to the type form to request any leads you want for free.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6560,
+    "approx_timestamp_s": 382
+   }
+  },
+  {
+   "claim": "Chris says he set the scrape at 100 places per search query.",
+   "metric": "other",
+   "value": {
+    "amount": 100,
+    "currency": null,
+    "unit": "places per query",
+    "label": "Scrape setting"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Places per one query search. I've never really noticed a difference. I just set it at 100.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5965,
+    "approx_timestamp_s": 347
+   }
+  },
+  {
+   "claim": "Chris says he planned to send the campaign to 500 business owners.",
+   "metric": "customers",
+   "value": {
+    "amount": 500,
+    "currency": null,
+    "unit": "business owners targeted",
+    "label": "Planned campaign size"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I'm going to show you my phone, my Google Voice account, and I'm going to send ringless voicemail drops to 500 business owners, wait for them to call me back, and try to close a deal for an AI voice agent.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 675,
+    "approx_timestamp_s": 39
+   }
+  },
+  {
+   "claim": "Chris uploaded a list of 475 phone numbers after removing invalid entries.",
+   "metric": "customers",
+   "value": {
+    "amount": 475,
+    "currency": null,
+    "unit": "phone numbers",
+    "label": "Uploaded recipient list"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "My list does not contain names. Upload 475 numbers. Why 475 instead of 500? Because 25 were probably invalid.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15867,
+    "approx_timestamp_s": 925
+   }
+  },
+  {
+   "claim": "Chris estimates that 25 of the 500 numbers were probably invalid.",
+   "metric": "customers",
+   "value": {
+    "amount": 25,
+    "currency": null,
+    "unit": "phone numbers",
+    "label": "Estimated invalid numbers"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "My list does not contain names. Upload 475 numbers. Why 475 instead of 500? Because 25 were probably invalid.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15867,
+    "approx_timestamp_s": 925
+   }
+  },
+  {
+   "claim": "Chris recorded an 18-second voicemail pitch.",
+   "metric": "hours",
+   "value": {
+    "amount": 18,
+    "currency": null,
+    "unit": "seconds",
+    "label": "Voicemail length"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "This is a real person, but I will give you an an AI voice agent. Okay, bye. 18 seconds. It's a little long, but we're going to roll with it.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14374,
+    "approx_timestamp_s": 838
+   }
+  },
+  {
+   "claim": "Chris estimates most recipients give a voicemail about two or five seconds of attention, and that about 10% will listen to a ten-second message.",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 10,
+    "currency": null,
+    "unit": "percent of recipients",
+    "label": "Estimated listeners for a ten-second voicemail"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "For most people I probably have two seconds. For most other people I probably have five and maybe 10% of people will listen to a 10-second voicemail.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13656,
+    "approx_timestamp_s": 796
+   }
+  },
+  {
+   "claim": "Chris estimates a callback rate of one to eight percent.",
+   "metric": "response_rate",
+   "value": {
+    "amount": 1,
+    "amount_max": 8,
+    "currency": null,
+    "unit": "percent of numbers",
+    "label": "Estimated callback rate"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I would say like I don't know 1 to 8% of these numbers will will call back and then of those maybe 20 to 60% will actually have heard the voicemail",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20224,
+    "approx_timestamp_s": 1179
+   }
+  },
+  {
+   "claim": "Chris estimates that 20 to 60 percent of callbacks will have heard the voicemail.",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 20,
+    "amount_max": 60,
+    "currency": null,
+    "unit": "percent of callbacks",
+    "label": "Estimated share who heard the voicemail"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I would say like I don't know 1 to 8% of these numbers will will call back and then of those maybe 20 to 60% will actually have heard the voicemail",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20224,
+    "approx_timestamp_s": 1179
+   }
+  },
+  {
+   "claim": "Chris says the campaign sent about 50 messages per minute.",
+   "metric": "other",
+   "value": {
+    "amount": 50,
+    "currency": null,
+    "unit": "messages per minute",
+    "label": "Inferred send rate"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "There are 16 instances of this being sent at 428, 50 at 429. I bet you anything it's 50 per minute is kind of what they're doing.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21114,
+    "approx_timestamp_s": 1231
+   }
+  },
+  {
+   "claim": "Chris estimates the campaign should finish sending within five or seven minutes.",
+   "metric": "hours",
+   "value": {
+    "amount": 5,
+    "amount_max": 7,
+    "currency": null,
+    "unit": "minutes",
+    "label": "Estimated campaign send time"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So theoretically, all of these should be sent within the next five or seven minutes.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21328,
+    "approx_timestamp_s": 1244
+   }
+  },
+  {
+   "claim": "Chris reports 86 successful sends at an early campaign check.",
+   "metric": "customers",
+   "value": {
+    "amount": 86,
+    "currency": null,
+    "unit": "successful sends",
+    "label": "Interim campaign status"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So if we look at the stats down here. So 86 have been successful.",
+    "speaker": "Chris Koerner",
+    "match_score": 90.5,
+    "verified": true,
+    "char_offset": 21415,
+    "approx_timestamp_s": 1249
+   }
+  },
+  {
+   "claim": "Chris reports 177 successful sends at a later campaign check.",
+   "metric": "customers",
+   "value": {
+    "amount": 177,
+    "currency": null,
+    "unit": "successful sends",
+    "label": "Interim campaign status"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So, and I just got another one, two others. This is Marcus from Austin Tree Specialist. Sorry, missed your call yet.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23146,
+    "approx_timestamp_s": 1350
+   }
+  },
+  {
+   "claim": "Chris reports 282 successful sends, which he describes as 56 percent.",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 56,
+    "currency": null,
+    "unit": "percent of recipient list",
+    "label": "Successful-send share"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So these have all sent. I just did a control find for pending 00 successful 282. So 56% of these were successful.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 29646,
+    "approx_timestamp_s": 1729
+   }
+  },
+  {
+   "claim": "Chris says he had two calls in two minutes after changing his Google Voice settings.",
+   "metric": "customers",
+   "value": {
+    "amount": 2,
+    "currency": null,
+    "unit": "calls in two minutes",
+    "label": "Callbacks received"
+   },
+   "period": "two minutes",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So that was like two calls in two minutes. And now keep in mind even if they're calling and they didn't hear the voicemail, they have no idea why I'm calling.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25829,
+    "approx_timestamp_s": 1506
+   }
+  },
+  {
+   "claim": "An unnamed prospect says about 90 percent of their work comes through word of mouth and that they do not really advertise.",
+   "metric": "other",
+   "value": {
+    "amount": 90,
+    "currency": null,
+    "unit": "percent of work",
+    "label": "Prospect's estimate of word-of-mouth work"
+   },
+   "period": null,
+   "claimant": "Unnamed tree-service prospect",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "You know, it's a little complicated because that's really how I really I'll say like you know 90% of my work actually I don't advertise really nothing.",
+    "speaker": "Unnamed tree-service prospect",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 27693,
+    "approx_timestamp_s": 1615
+   }
+  },
+  {
+   "claim": "Chris says the HighLevel referral link gives a 30-day free trial instead of the usual 14-day trial.",
+   "metric": "other",
+   "value": {
+    "amount": 30,
+    "amount_max": 14,
+    "currency": null,
+    "unit": "days",
+    "label": "Referral trial length versus standard trial"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "You're going to go to this domain name, gohighlevel.com/tkopod. It's linked below because this is going to give you a 30-day free trial to High Level instead of a 14-day free trial that you can get everywhere else.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 30361,
+    "approx_timestamp_s": 1771
+   }
+  },
+  {
+   "claim": "Chris leaves the demo agent's maximum call time at five minutes.",
+   "metric": "hours",
+   "value": {
+    "amount": 5,
+    "currency": null,
+    "unit": "minutes",
+    "label": "Maximum call-time setting"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Maximum call time doesn't really matter. They're not usually going to get to be over a few minutes. We'll leave it at five.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 31811,
+    "approx_timestamp_s": 1855
+   }
+  },
+  {
+   "claim": "Chris says the agent usually will not have calls longer than a few minutes.",
+   "metric": "hours",
+   "value": {
+    "amount": 3,
+    "currency": null,
+    "unit": "minutes or fewer",
+    "label": "Typical call length, stated approximately"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Maximum call time doesn't really matter. They're not usually going to get to be over a few minutes. We'll leave it at five.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 31811,
+    "approx_timestamp_s": 1855
+   }
+  },
+  {
+   "claim": "Chris sets the voice speed to 1.2 times normal.",
+   "metric": "other",
+   "value": {
+    "amount": 1.2,
+    "currency": null,
+    "unit": "times normal speed",
+    "label": "Voice-speed setting"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "And I like to speed up my voices a little bit just to keep things moving. So instead of 1x, I'll do 1.2x volume.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 32562,
+    "approx_timestamp_s": 1899
+   }
+  },
+  {
+   "claim": "Chris leaves the voice volume at 100 percent.",
+   "metric": "other",
+   "value": {
+    "amount": 100,
+    "currency": null,
+    "unit": "percent",
+    "label": "Voice-volume setting"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So instead of 1x, I'll do 1.2x volume. Keep it at 100%. Background sound.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 32635,
+    "approx_timestamp_s": 1903
+   }
+  },
+  {
+   "claim": "Chris says the knowledge-base field accepts up to 25,000 characters.",
+   "metric": "other",
+   "value": {
+    "amount": 25000,
+    "currency": null,
+    "unit": "characters",
+    "label": "Knowledge-base text limit"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "It will accept up to 25,000 characters. can upload PDFs, files, tables, spreadsheets, FAQs.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 34335,
+    "approx_timestamp_s": 2002
+   }
+  },
+  {
+   "claim": "Chris says the web crawler built a knowledge base in about 25 seconds.",
+   "metric": "hours",
+   "value": {
+    "amount": 25,
+    "currency": null,
+    "unit": "seconds",
+    "label": "Web-crawler processing time"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "There's the web crawler. Boom. In like 25 seconds, it trained itself based on this URL right here, which is my tree trimming business.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 34421,
+    "approx_timestamp_s": 2007
+   }
+  },
+  {
+   "claim": "Chris uses an example of gutter replacement being done about every 20 years to explain why search demand may differ from cleaning demand.",
+   "metric": "other",
+   "value": {
+    "amount": 20,
+    "currency": null,
+    "unit": "years",
+    "label": "Illustrative replacement interval"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": null,
+   "quote": {
+    "text": "And it makes sense that people don't search for gutter replace or gutter replacement as often because that's something you might do every 20 years whereas a cleaning might be once a year.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10291,
+    "approx_timestamp_s": 600
+   }
+  },
+  {
+   "claim": "Chris uses a hypothetical USD 3,000 tree-trimming job in the voicemail script.",
+   "metric": "price",
+   "value": {
+    "amount": 3000,
+    "currency": "USD",
+    "unit": "per job",
+    "label": "Hypothetical job value"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "How do you even watch Netflix with your wife and ignore your phone when you could have a $3,000 job on the end of the line?",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14182,
+    "approx_timestamp_s": 827
+   }
+  },
+  {
+   "claim": "Chris says the opening campaign was a recorded call from his private community.",
+   "metric": "other",
+   "value": {
+    "amount": 1,
+    "currency": null,
+    "unit": "recorded call",
+    "label": "Disclosure about the campaign footage"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I have to spill a little secret. This call was actually a recorded call from a private community I have called Playmakers.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 29761,
+    "approx_timestamp_s": 1736
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Choose a niche and check demand",
+   "area": "niche_selection",
+   "steps": [
+    "Start with a service niche that has a clear missed-call problem; Chris considered pool-service and tree-trimming businesses.",
+    "Use Google Trends to compare search interest for related services over time.",
+    "Compare related terms, such as gutter cleaning and gutter repair, and use the Google Keyword Tool to check local search demand and keyword bidding competition.",
+    "Treat higher search interest as a clue about demand, not proof of profit or low competition."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "No, it's like there could be even more um supply to meet this demand. And this could be the most saturated category.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10097,
+    "approx_timestamp_s": 589
+   }
+  },
+  {
+   "name": "Scrape and prepare a focused lead list",
+   "area": "acquisition",
+   "steps": [
+    "Search for relevant business categories and locations in Outscraper; Chris selected three pool-related categories for one example, then used already-cleaned tree-trimming leads for the live campaign.",
+    "Filter for businesses with phone numbers and set a maximum results count based on the number of campaign credits available.",
+    "Use existing free lead lists when available; Chris says his group lets members request them through Typeform.",
+    "If scraping directly, compare the estimate with the stated cost and turnaround time; Chris reports paying about USD 4 for the displayed list.",
+    "Keep only the fields needed for the campaign, then remove blanks and invalid numbers.",
+    "Randomize lead order in Google Sheets before taking a sample, to reduce location or alphabetical-order bias."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "And so whatever I'm doing, even if it's probably already randomized, I like taking 10 seconds and randomizing them again just in case.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12342,
+    "approx_timestamp_s": 719
+   }
+  },
+  {
+   "name": "Keep lead cleaning proportional to the value of the data",
+   "area": "operations",
+   "steps": [
+    "Prioritize the first phone number in the scrape rather than spending extensive time checking every extra phone-number column.",
+    "Upload lists to Slide Broadcast's list manager to add a cell-versus-landline column, even without running a campaign.",
+    "Treat the added classification as a second check; Chris says the scrape data and validation are not perfectly accurate."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "because like if you can scrape unlimited leads for next to nothing, like why spend a bunch of time cleaning and scrubbing and validating a bunch of stuff.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8648,
+    "approx_timestamp_s": 504
+   }
+  },
+  {
+   "name": "Write a short voicemail around one customer pain",
+   "area": "sales",
+   "steps": [
+    "Keep the message brief because Chris expects many recipients to listen for only a few seconds.",
+    "Lead with a problem that fits the niche, such as missing calls while working on a tree job.",
+    "Personalize only with information actually known about the prospect; in this example Chris knew they owned a tree-trimming business in Texas.",
+    "Give a clear callback instruction and use a callback voicemail greeting that matches the offer."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "We want to speak to a painoint. We want to solve a problem. We want to personalize as much as we can.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13835,
+    "approx_timestamp_s": 807
+   }
+  },
+  {
+   "name": "Prepare to answer callbacks",
+   "area": "sales",
+   "steps": [
+    "Set the callback number and voicemail greeting before sending the campaign.",
+    "Turn off call screening and check that the number will ring as intended.",
+    "Avoid sending all messages at once if the operator cannot answer the callbacks; Chris says he would normally throttle the campaign.",
+    "Treat callbacks as an opening for a conversation, not proof that a prospect heard the pitch or wants to buy."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Now, if I were being like responsive and dutiful, I would not let these go to voicemail. I would answer all of them and I would throttle them to not send 500 all at once because I want to be able to answer these calls because that's how you're going to close it.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15265,
+    "approx_timestamp_s": 890
+   }
+  },
+  {
+   "name": "Test a multi-touch sequence",
+   "area": "acquisition",
+   "steps": [
+    "Use a voicemail drop as one touch rather than assuming a single message will produce strong results.",
+    "Test other appropriate channels, such as email, a call, or LinkedIn, and track which combination produces meaningful conversations.",
+    "The audience participant reports a sequence of voice note, email, then text; Chris says he would test it, but the transcript does not establish UK legal compliance for those touches."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "But like like any marketing, you want multiple touches and preferably you want multiple touches in different mediums.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2289,
+    "approx_timestamp_s": 133
+   }
+  },
+  {
+   "name": "Build an initial voice-agent knowledge base quickly",
+   "area": "product",
+   "steps": [
+    "Create an agent with a clear name, language, voice, and initial greeting.",
+    "Use ChatGPT to draft a simple knowledge base for common questions and the intended next step, such as arranging an on-site quote.",
+    "Add the client's website to the HighLevel web crawler to pull in existing FAQs and business information.",
+    "Review the generated material, connect the knowledge base, choose the information to collect, and test the agent with a realistic call.",
+    "Use an email notification to pass completed call details to the business team."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I'm building a simple AI voice agent to receive inbound calls at a tree trimming business called Chris's tree trimming. It needs to answer typical questions about scheduling an on-site quote for a trimming or removal job.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 33128,
+    "approx_timestamp_s": 1932
+   }
+  },
+  {
+   "name": "Use a template or marketplace to reduce setup friction",
+   "area": "product",
+   "steps": [
+    "Start from a tested agent template when one fits the client rather than building every configuration from scratch.",
+    "For clients already using HighLevel, consider selling or installing the agent through the HighLevel app marketplace.",
+    "Use a new HighLevel number or port the business's existing number, depending on the client's setup."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "And it, let's say you want to sell what I just built to other treeing business owners that are using High Level for themselves. You can sell it on the uh Highle um app marketplace.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 36611,
+    "approx_timestamp_s": 2135
+   }
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Slide Broadcast",
+   "purpose": "Sends ringless voicemail campaigns, reports campaign status, screens numbers against a do-not-call list, and can add cell-versus-landline information to an uploaded list.",
+   "cost_stated": "Chris describes it as cheap but gives no price."
+  },
+  {
+   "name": "Outscraper",
+   "purpose": "Scrapes local business leads and phone numbers from Google Maps searches.",
+   "cost_stated": "Chris says his scrape cost about USD 4; he also says members of his group can request lead lists for free."
+  },
+  {
+   "name": "Google Maps",
+   "purpose": "Source of business categories and local listings used for lead scraping.",
+   "cost_stated": null
+  },
+  {
+   "name": "Google Sheets",
+   "purpose": "Displays, cleans, sorts, and randomizes lead lists.",
+   "cost_stated": null
+  },
+  {
+   "name": "Microsoft Excel",
+   "purpose": "Spreadsheet software Chris briefly uses while cleaning the lead list.",
+   "cost_stated": null
+  },
+  {
+   "name": "Google Trends",
+   "purpose": "Compares search interest over time for service niches and related terms.",
+   "cost_stated": null
+  },
+  {
+   "name": "Google Keyword Tool",
+   "purpose": "Checks local search demand and keyword bidding competition.",
+   "cost_stated": null
+  },
+  {
+   "name": "Google Voice",
+   "purpose": "Provides a campaign callback number and voicemail greeting.",
+   "cost_stated": null
+  },
+  {
+   "name": "iPhone Voice Memos",
+   "purpose": "Records the ringless voicemail campaign audio.",
+   "cost_stated": null
+  },
+  {
+   "name": "AirDrop",
+   "purpose": "Transfers the audio recording from Chris's phone to his computer.",
+   "cost_stated": null
+  },
+  {
+   "name": "GoHighLevel",
+   "purpose": "Builds and configures AI voice agents, knowledge bases, notifications, and phone-number connections; the transcript also mentions voice-note automation and an app marketplace.",
+   "cost_stated": "Chris promotes a referral link offering a 30-day free trial instead of a 14-day trial and says he receives a small kickback if users become paying customers."
+  },
+  {
+   "name": "ChatGPT",
+   "purpose": "Drafts a knowledge base for the AI voice agent.",
+   "cost_stated": null
+  },
+  {
+   "name": "OpenAI GPT-4o",
+   "purpose": "Named as a selectable model powering the voice agent.",
+   "cost_stated": null
+  },
+  {
+   "name": "ElevenLabs",
+   "purpose": "Mentioned in a brief comment about AI voices; no specific use in the build is established.",
+   "cost_stated": null
+  },
+  {
+   "name": "Typeform",
+   "purpose": "Form used by Playmakers members to request scraped lead lists.",
+   "cost_stated": null
+  },
+  {
+   "name": "Twilio",
+   "purpose": "Mentioned by an audience participant in a discussion about phone-number and messaging setup.",
+   "cost_stated": null
+  },
+  {
+   "name": "Playmakers",
+   "purpose": "Chris's private community for people building AI implementation businesses; it also supplies free requested lead lists and tutorials.",
+   "cost_stated": "Not stated."
+  },
+  {
+   "name": "FastTreeCare.com",
+   "purpose": "Chris's tree-trimming business website, used as a source for the agent's knowledge base.",
+   "cost_stated": null
+  },
+  {
+   "name": "HighLevel app marketplace",
+   "purpose": "Potential channel for selling or distributing a voice-agent template to businesses already using HighLevel.",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Chris says one ringless voicemail drop used as a standalone marketing effort may produce poor results; he recommends testing multiple touches and channels.",
+   "quote": {
+    "text": "What I don't like about them is if you do it once as a standalone marketing effort, your results will not be great.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2030,
+    "approx_timestamp_s": 118
+   }
+  },
+  {
+   "warning": "Callbacks can come from people who did not hear the voicemail, so they may have little buying intent.",
+   "quote": {
+    "text": "A lot, maybe even most of the call backs will be people that did not hear the voicemail. And so, there'll be very low intent.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 19818,
+    "approx_timestamp_s": 1156
+   }
+  },
+  {
+   "warning": "Chris reports some recipients were angry, and some callback conversations ended quickly or with a refusal.",
+   "quote": {
+    "text": "Some people were very angry. It's not all roses. You probably saw how bad I am at sales.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 37320,
+    "approx_timestamp_s": 2177
+   }
+  },
+  {
+   "warning": "The campaign and its results are not proof of a sale: Chris demonstrates callbacks and conversations but does not report closing a paid AI-agent customer.",
+   "quote": null
+  },
+  {
+   "warning": "UK legal review is needed before using ringless voicemail for unsolicited marketing. Automated marketing calls are restricted under UK PECR rules; the transcript's US do-not-call screening does not establish UK compliance.",
+   "quote": null
+  },
+  {
+   "warning": "A prospect who calls back may not know why the number called; Chris notes that this can make the follow-up conversation awkward.",
+   "quote": {
+    "text": "And now keep in mind even if they're calling and they didn't hear the voicemail, they have no idea why I'm calling.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25871,
+    "approx_timestamp_s": 1509
+   }
+  },
+  {
+   "warning": "The live callback number initially had a voicemail greeting for a different business, so verify the greeting and call-routing settings before launch.",
+   "quote": {
+    "text": "I should probably set my voicemail when they call me back to not mention anything about pet cremation.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14725,
+    "approx_timestamp_s": 858
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Choose a service with a clear, costly customer problem. Chris frames missed calls as potential lost jobs for tradespeople who are out working.",
+   "theme": "offer_design",
+   "quote": {
+    "text": "Why would you actually own a tree trimming business in Texas and not have a voice agent?",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14094,
+    "approx_timestamp_s": 822
+   }
+  },
+  {
+   "lesson": "Use search trends and keyword competition to form a niche hypothesis, then validate it; search interest alone does not prove that a category is profitable or underserved.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "No, it's like there could be even more um supply to meet this demand. And this could be the most saturated category.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10097,
+    "approx_timestamp_s": 589
+   }
+  },
+  {
+   "lesson": "Keep outreach messages short and focused on a relevant problem, because many recipients will give a voicemail only a few seconds.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "We want to speak to a painoint. We want to solve a problem. We want to personalize as much as we can.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13835,
+    "approx_timestamp_s": 807
+   }
+  },
+  {
+   "lesson": "A callback is a signal that the number is reachable, not proof that the person heard the message or is interested in the offer.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "That is better than you cold calling them. It's better. It's something. It shows you that they value getting phone calls, that they take them seriously.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25985,
+    "approx_timestamp_s": 1515
+   }
+  },
+  {
+   "lesson": "Plan campaign volume around the ability to handle responses; Chris says he would normally throttle sends so he could answer calls.",
+   "theme": "operations",
+   "quote": {
+    "text": "I would answer all of them and I would throttle them to not send 500 all at once because I want to be able to answer these calls because that's how you're going to close it.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15351,
+    "approx_timestamp_s": 895
+   }
+  },
+  {
+   "lesson": "Use multiple marketing touches where appropriate, and test which mix produces useful responses rather than assuming one channel will work by itself.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "But like like any marketing, you want multiple touches and preferably you want multiple touches in different mediums.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2289,
+    "approx_timestamp_s": 133
+   }
+  },
+  {
+   "lesson": "Start the AI agent with a simple, narrow job and a practical knowledge base; test it with a realistic caller before relying on it.",
+   "theme": "automation_ai",
+   "quote": {
+    "text": "And guys, don't overthink this. We're going to make this very, very simple.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 32990,
+    "approx_timestamp_s": 1924
+   }
+  },
+  {
+   "lesson": "Randomize a lead sample before outreach when the original list is ordered by area or alphabetically, so early results are less skewed.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "And so whatever I'm doing, even if it's probably already randomized, I like taking 10 seconds and randomizing them again just in case.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12342,
+    "approx_timestamp_s": 719
+   }
+  },
+  {
+   "lesson": "Do not over-invest time in cleaning low-cost leads; focus on the fields and validation that affect the campaign.",
+   "theme": "finance_unit_economics",
+   "quote": {
+    "text": "because like if you can scrape unlimited leads for next to nothing, like why spend a bunch of time cleaning and scrubbing and validating a bunch of stuff.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8648,
+    "approx_timestamp_s": 504
+   }
+  },
+  {
+   "lesson": "Show the customer how the automation handles a real task, but maintain trust by being transparent that the caller is speaking with AI.",
+   "theme": "other",
+   "quote": {
+    "text": "I'm an AI, but I'm designed to sound as natural and humanlike as possible.",
+    "speaker": "AI voice agent in Chris's demo",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 35716,
+    "approx_timestamp_s": 2083
+   }
+  },
+  {
+   "lesson": "Check legal requirements for the chosen outreach method in the target country; a US phone-number filter is not a substitute for UK marketing compliance.",
+   "theme": "legal_risk",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "B",
+  "rationale": "Chris gives a detailed first-hand walkthrough of lead preparation, campaign setup, callbacks, and an agent build. The campaign results are anecdotal, some send statistics are interim or inferred, and no paid sale or customer outcome is reported.",
+  "promotional_conflict": "Chris promotes Playmakers, his private community, and GoHighLevel. He says GoHighLevel supports the channel and that he receives a small kickback from users who become paying customers through his referral link."
+ },
+ "extraction": {
+  "model": "gpt-6-luna",
+  "extracted_at": "2026-10-22T11:59:10",
+  "cost_usd": 0,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 65,
+   "verified": 65,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}
