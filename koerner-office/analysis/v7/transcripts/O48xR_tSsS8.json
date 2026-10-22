@@ -1,0 +1,1044 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "O48xR_tSsS8",
+  "title": "Everyone Ignores This Boring Business, But It Makes Him $10M/Year",
+  "channel": "David Heacock",
+  "url": "https://www.youtube.com/watch?v=O48xR_tSsS8",
+  "upload_date": "2026-10-13",
+  "duration_s": 4009,
+  "view_count": 33277,
+  "transcript_provider": "cached",
+  "transcript_chars": 71430,
+  "transcript_is_whisper": false
+ },
+ "summary": "David Heacock (founder of Filterbuy, a DTC air filter maker) interviews Jake, the 31-year-old president of a second/third-generation family business in Boyertown, Pennsylvania that converts parent rolls into toilet paper, paper towels and dry wipes. Jake's company has about 135 employees, 600 distribution partners in 15 countries and mid-eight-figure revenue, selling bulk truckloads to food-service, janitorial and industrial distributors. David coaches him on growth: model how operations, cash flow, receivables and inventory change before investing in sales, map every target distributor by industry segment and track touch points, and consider selling direct to end users within 200 miles using same-day delivery partners like Roadie. David contrasts this with Filterbuy's vertically integrated model (make for $2, sell for $13, 70% repeat customers). They close on family business advice: split responsibilities cleanly and surface expectations with tools like the 'same page exercise'.",
+ "speakers": [
+  {
+   "name": "David Heacock",
+   "role": "host",
+   "description": "Founder of Filterbuy air filters; former Wall Street; bought family distributor in 2012"
+  },
+  {
+   "name": "Jake",
+   "role": "guest",
+   "description": "President of a family tissue/wipes converting business, 31"
+  }
+ ],
+ "format": "operator_interview",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Tissue and wipes converter selling through distributors",
+   "one_liner": "Family business that buys parent rolls from global mills and converts them into toilet paper, paper towels and dry wipes, sold in bulk to food-service, janitorial and industrial distributors.",
+   "category": "manufacturing",
+   "business_model": "B2B bulk product sales to distributors (half and full truckloads), plus private label",
+   "customer": "Distributors: food service (e.g. Sysco), jan-san, industrial; increasingly regional/national distributors and some end users like hotels",
+   "problem": "Distributors need flexible suppliers with broad product lines, private label and competitive pricing versus rigid multi-billion-dollar competitors",
+   "offer": "About 300 stock SKUs plus about 150 private-label SKUs; delivered pricing with freight built in",
+   "pricing": {
+    "model": "Delivered price per order (freight included)",
+    "price_points": [
+     {
+      "amount": 15000,
+      "currency": "USD",
+      "unit": "per half/full truckload order",
+      "amount_max": 50000
+     }
+    ],
+    "notes": "No fuel surcharge; freight built into price so they keep the upside when freight falls. Largest-ever price increase this year due to freight."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "cold_call",
+     "details": "Account executives call distributors with value prop (flexibility, breadth, private label, price) to replace incumbent suppliers.",
+     "quote": null
+    },
+    {
+     "channel": "networking_events",
+     "details": "Trade shows and industry associations suggested as touch points.",
+     "quote": null
+    },
+    {
+     "channel": "referrals_word_of_mouth",
+     "details": "Small local mom-and-pop distributors built the base; account exec with national distributor experience opened bigger accounts.",
+     "quote": null
+    }
+   ],
+   "delivery": "Converted in an owned factory in Boyertown, Pennsylvania with domestic partner converters in New York and Miami filling gaps; sales team of 5-6 AEs, a customer loyalty specialist and a sales assistant on HubSpot.",
+   "unit_economics_claims": [
+    "About 135 employees",
+    "600 distribution partners in 15 countries",
+    "Mid-eight-figure revenue",
+    "Orders of $15k-50k per half or full truck"
+   ],
+   "tools": [
+    "Sage 100",
+    "HubSpot CRM",
+    "monday.com"
+   ],
+   "startup_cost": "High: machinery, building and inventory (not stated)",
+   "time_to_first_revenue": "Business built over decades (not stated)",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Relationship-driven B2B selling to distributors. UK: cold email to limited-company distributors is allowed under PECR with opt-out; calls must screen CTPS. Trade shows are in person."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Account setup, quoting and private-label specs handled by a sales assistant and CRM."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical converting of 2,000 lb parent rolls on machines in a factory, plus freight."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "ERP invoicing (Sage 100); credit terms and collections need people."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Customer loyalty specialist calls accounts; human relationship work."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Tissue converting and distribution exists in the UK, but freight-heavy low-margin commodity favours regional density; capital intensive."
+   },
+   "risks": [
+    "Thin margins on a commodity product; freight is a large share of cost",
+    "Growth consumes cash via receivables and inventory",
+    "Competing against huge public-company incumbents",
+    "Overcapacity in back-office departments during fast growth"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "We manufacture toilet paper, paper towels, and dry cleaning wipes",
+     "speaker": "Jake",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 1895,
+     "approx_timestamp_s": 109
+    },
+    {
+     "text": "we have about 135 employees, 600 distribution partners across 15 different countries, and I I'd say we're a a mid-eight-figure company",
+     "speaker": "Jake",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 19677,
+     "approx_timestamp_s": 1142
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Vertically integrated DTC air filter brand (Filterbuy)",
+   "one_liner": "David's company manufactures air filters for about $2 and sells them for about $13 direct to consumers online, plus a fast-growing direct B2B arm.",
+   "category": "ecommerce_physical",
+   "business_model": "Direct-to-consumer e-commerce (paid up front) plus direct B2B and retail (Walmart)",
+   "customer": "Homeowners online; hospitals, hotels and school systems for B2B",
+   "problem": "Recurring need for many exact filter sizes that general distributors cannot stock",
+   "offer": "300 SKUs in four MERV ratings (1,200 variants), custom sizes, next-day delivery to 80% of the US",
+   "pricing": {
+    "model": "Per filter",
+    "price_points": [
+     {
+      "amount": 13,
+      "currency": "USD",
+      "unit": "per filter",
+      "label": "sale price vs $2 manufacturing cost"
+     }
+    ],
+    "notes": "About 90% of revenue from e-commerce channels; 70% of last month's business from repeat customers."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "marketplace_platform",
+     "details": "Amazon and Walmart marketplaces plus own site filterbuy.com.",
+     "quote": null
+    },
+    {
+     "channel": "retail_placement",
+     "details": "In about 550 Walmart stores and expanding.",
+     "quote": null
+    },
+    {
+     "channel": "existing_audience",
+     "details": "Brand built for 14 years; over 10 million end-customer relationships with high repeat rate.",
+     "quote": null
+    },
+    {
+     "channel": "cold_call",
+     "details": "About 30 outside salespeople for direct B2B; mapping every target by segment.",
+     "quote": null
+    }
+   ],
+   "delivery": "Manufactured in-house; nine distribution points (eight US, one Canada); filters stacked rather than boxed until shipping; partners like Roadie for same-day delivery.",
+   "unit_economics_claims": [
+    "Manufactures for $2 and sells for $13",
+    "$30-35M direct B2B this year growing 50-80% a year",
+    "90% revenue from e-commerce",
+    "70% repeat customers last month"
+   ],
+   "tools": [
+    "filterbuy.com",
+    "Amazon",
+    "Walmart",
+    "Roadie"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "Started white-labelling filters bought by the truckload; manufacturing within about 6 months",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Marketplaces and repeat ordering are largely software-driven; B2B needs salespeople."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Online checkout."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Physical manufacturing and logistics network."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Paid up front online."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Customer service partly automatable."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "DTC replenishment of consumables works in the UK; UK homes use fewer HVAC filters, so the category is smaller. Distance-selling regulations apply."
+   },
+   "risks": [
+    "Requires heavy logistics infrastructure",
+    "Retail partners and marketplaces control part of distribution"
+   ],
+   "is_primary": false,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "we manufacture our air filter for $2 and sell it for 13",
+     "speaker": "David Heacock",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 48214,
+     "approx_timestamp_s": 2798
+    },
+    {
+     "text": "we'll do about 30 or 35 million dollars direct B2B this year and that's you know, growing at you know, 50 to 80% year over year",
+     "speaker": "David Heacock",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 11195,
+     "approx_timestamp_s": 649
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Start as a distributor or private-label reseller before manufacturing",
+   "one_liner": "Build a book of business selling someone else's product (or private label) with little capital before buying machinery.",
+   "category": "arbitrage_reselling",
+   "business_model": "Resale margin on bought-in product",
+   "customer": "Businesses buying consumables (toilet paper, filters)",
+   "problem": "Manufacturing needs capital and expertise; selling is harder than making",
+   "offer": "Distribute another manufacturer's product or white-label it, then later move to own manufacturing",
+   "pricing": {
+    "model": "Resale margin",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "cold_call",
+     "details": "Build a book of business selling to businesses that already have a supplier.",
+     "quote": null
+    }
+   ],
+   "delivery": "Buy by the truckload from a manufacturer (e.g. Airflow in North Carolina), relabel, customise sizes, ship.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Private label suppliers"
+   ],
+   "startup_cost": "Lower than manufacturing (not stated)",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "B2B relationship selling; UK cold email to limited companies allowed with opt-out."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Quoting and onboarding can be systemised."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Physical stock and logistics."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Invoicing software."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Account management."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Works the same in the UK."
+   },
+   "risks": [
+    "Everyone already has a supplier, so winning share is hard",
+    "Distribution growth consumes cash"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "my advice is become a distributor first",
+     "speaker": "Jake",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 8275,
+     "approx_timestamp_s": 480
+    },
+    {
+     "text": "most people that get into manufacturing underestimate how difficult the sales process is",
+     "speaker": "David Heacock",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 9397,
+     "approx_timestamp_s": 545
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "Reclaimed t-shirt rag boxes for mechanics",
+   "one_liner": "Jake's grandfather bought bales of reclaimed t-shirts, cut them into 20 lb boxes of rags and sold them to auto body shops and mechanics for recurring revenue.",
+   "category": "ecommerce_physical",
+   "business_model": "Recurring consumable sales",
+   "customer": "Auto body shops and mechanics",
+   "problem": "Shops need a constant supply of rags",
+   "offer": "20 lb boxes of cut rags",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "door_to_door_in_person",
+     "details": "Family drove a truck and delivered boxes to shops.",
+     "quote": null
+    }
+   ],
+   "delivery": "Family members cut and delivered rags; later moved to non-woven wipers on machinery.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "In-person delivery sales."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "Manual."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Manual cutting and delivery."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Standard invoicing."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Personal relationships."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Rag and wiper supply exists in the UK; textile waste rules apply."
+   },
+   "risks": [
+    "Low margin, labour intensive"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "he wanted to sell a product that people would use and then have to buy again",
+     "speaker": "Jake",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 4469,
+     "approx_timestamp_s": 259
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "Industrial supply distributor (Talladega Machinery & Supply)",
+   "one_liner": "David bought his family's industrial supply distributor in 2012, serving sawmills; he found growth consumed cash.",
+   "category": "b2b_service",
+   "business_model": "Distribution margin",
+   "customer": "Sawmill and wood products industry",
+   "problem": "Supplies needed to keep sawmills running",
+   "offer": "Stocked industrial supplies",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "Stocked warehouse and delivery.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Relationship selling."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Account setup."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Physical stock."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Invoicing."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Human service."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Distribution businesses exist in the UK."
+   },
+   "risks": [
+    "Undercapitalised distributors cannot fund growth"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "I actually bought that family business in 2012. We were an industrial supply distributor",
+     "speaker": "David Heacock",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 37261,
+     "approx_timestamp_s": 2162
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Jake's company has about 135 employees and 600 distribution partners in 15 countries",
+   "metric": "customers",
+   "value": {
+    "amount": 600,
+    "currency": null,
+    "unit": "distribution partners"
+   },
+   "period": null,
+   "claimant": "Jake",
+   "first_hand": true,
+   "hypothetical": null,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "we have about 135 employees, 600 distribution partners across 15 different countries",
+    "speaker": "Jake",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 19677,
+    "approx_timestamp_s": 1142
+   }
+  },
+  {
+   "claim": "Mid-eight-figure revenue",
+   "metric": "revenue",
+   "value": {
+    "amount": null,
+    "currency": "USD",
+    "unit": "per year",
+    "label": "mid-eight figures"
+   },
+   "period": "annual",
+   "claimant": "Jake",
+   "first_hand": true,
+   "hypothetical": null,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I I'd say we're a a mid-eight-figure company. I can't disclose exact numbers",
+    "speaker": "Jake",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 19765,
+    "approx_timestamp_s": 1147
+   }
+  },
+  {
+   "claim": "Distributor orders of 13 or 26 pallets are $15k-50k",
+   "metric": "price",
+   "value": {
+    "amount": 15000,
+    "currency": "USD",
+    "unit": "per order",
+    "amount_max": 50000
+   },
+   "period": null,
+   "claimant": "Jake",
+   "first_hand": true,
+   "hypothetical": null,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "13 or 26 pallets of product. Um, I I like to say that could be, you know, 15 to $50,000",
+    "speaker": "Jake",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12720,
+    "approx_timestamp_s": 738
+   }
+  },
+  {
+   "claim": "About 300 stock SKUs and 150 private-label SKUs",
+   "metric": "other",
+   "value": {
+    "amount": 450,
+    "currency": null,
+    "unit": "SKUs"
+   },
+   "period": null,
+   "claimant": "Jake",
+   "first_hand": true,
+   "hypothetical": null,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "We have about 300 stock SKUs that we sell, like standard items, and then probably another 150",
+    "speaker": "Jake",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14567,
+    "approx_timestamp_s": 845
+   }
+  },
+  {
+   "claim": "Filterbuy makes filters for $2 and sells for $13",
+   "metric": "margin",
+   "value": {
+    "amount": 2,
+    "currency": "USD",
+    "unit": "cost per filter",
+    "label": "sells for $13"
+   },
+   "period": null,
+   "claimant": "David Heacock",
+   "first_hand": true,
+   "hypothetical": null,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "we manufacture our air filter for $2 and sell it for 13",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 48214,
+    "approx_timestamp_s": 2798
+   }
+  },
+  {
+   "claim": "Filterbuy direct B2B will do $30-35M this year, growing 50-80% a year",
+   "metric": "revenue",
+   "value": {
+    "amount": 30000000,
+    "currency": "USD",
+    "unit": "per year",
+    "amount_max": 35000000
+   },
+   "period": "this year",
+   "claimant": "David Heacock",
+   "first_hand": true,
+   "hypothetical": null,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "we'll do about 30 or 35 million dollars direct B2B this year",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11195,
+    "approx_timestamp_s": 649
+   }
+  },
+  {
+   "claim": "90% of Filterbuy revenue comes from e-commerce channels",
+   "metric": "revenue",
+   "value": {
+    "amount": 90,
+    "currency": null,
+    "unit": "percent of revenue"
+   },
+   "period": null,
+   "claimant": "David Heacock",
+   "first_hand": true,
+   "hypothetical": null,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "still still today 90% of our our revenue comes from um you know, e-commerce channels",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10982,
+    "approx_timestamp_s": 637
+   }
+  },
+  {
+   "claim": "Over 10 million end-customer relationships; 70% of last month's business from repeat customers",
+   "metric": "customers",
+   "value": {
+    "amount": 10000000,
+    "currency": null,
+    "unit": "customers"
+   },
+   "period": "last month",
+   "claimant": "David Heacock",
+   "first_hand": true,
+   "hypothetical": null,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "70% of our um, business last month um, is from repeat customers",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 47384,
+    "approx_timestamp_s": 2750
+   }
+  },
+  {
+   "claim": "Filterbuy is in 550 Walmart stores",
+   "metric": "other",
+   "value": {
+    "amount": 550,
+    "currency": null,
+    "unit": "stores"
+   },
+   "period": null,
+   "claimant": "David Heacock",
+   "first_hand": true,
+   "hypothetical": null,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "we're in 550 Walmart's and we're about to expand with them",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 56047,
+    "approx_timestamp_s": 3252
+   }
+  },
+  {
+   "claim": "Nine distribution points reach 80% of the US next day",
+   "metric": "other",
+   "value": {
+    "amount": 9,
+    "currency": null,
+    "unit": "distribution points"
+   },
+   "period": null,
+   "claimant": "David Heacock",
+   "first_hand": true,
+   "hypothetical": null,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "we have nine different distribution points, eight in the US, one in Canada",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 49216,
+    "approx_timestamp_s": 2856
+   }
+  },
+  {
+   "claim": "Filterbuy has about 30 outside salespeople",
+   "metric": "other",
+   "value": {
+    "amount": 30,
+    "currency": null,
+    "unit": "salespeople"
+   },
+   "period": null,
+   "claimant": "David Heacock",
+   "first_hand": true,
+   "hypothetical": null,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "we have um 30 outside sales people",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 42258,
+    "approx_timestamp_s": 2452
+   }
+  },
+  {
+   "claim": "Books close in the third week after month end",
+   "metric": "hours",
+   "value": {
+    "amount": 3,
+    "currency": null,
+    "unit": "weeks to close books"
+   },
+   "period": null,
+   "claimant": "Jake",
+   "first_hand": true,
+   "hypothetical": null,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Books close, I would say third week after the prior month",
+    "speaker": "Jake",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 35168,
+    "approx_timestamp_s": 2041
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Model the business before scaling sales",
+   "area": "finance",
+   "steps": [
+    "Ask: if sales doubled tomorrow, which departments break (purchasing, customer service, production)?",
+    "Financially model margin, equipment, receivables, inventory and cash position at the higher volume",
+    "Decide capital allocation (new building, second shift) before hiring salespeople",
+    "Commit to the plan so early missteps do not cause you to back off"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "you need to have a plan for all of that before you get too excited about investing in the sales sales piece",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 30823,
+    "approx_timestamp_s": 1788
+   }
+  },
+  {
+   "name": "Master target map with tracked touch points",
+   "area": "acquisition",
+   "steps": [
+    "Pick industry segments (hospitals, janitorial, industrial, food service)",
+    "Build a master list of every distributor in each segment",
+    "Assign a specialist rep per segment",
+    "Track calls, emails, trade show meetings per target per quarter in the CRM",
+    "Analyse which segments give the most gross profit and pay on time, then staff up there"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "you need to figure out how you're going to track how many touch points each of those each of those targets have with you",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 43527,
+    "approx_timestamp_s": 2526
+   }
+  },
+  {
+   "name": "Delivered pricing without surcharges",
+   "area": "pricing",
+   "steps": [
+    "Quote all prices delivered to the customer's location",
+    "Do not show fuel/freight surcharges on invoices (customers expect them to go away)",
+    "Keep the margin when freight falls to offset unpassed material increases"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "You put that on an invoice that there's a freight surcharge, they expect it to go away at some point",
+    "speaker": "Jake",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17378,
+    "approx_timestamp_s": 1008
+   }
+  },
+  {
+   "name": "Regional direct-to-end-user delivery",
+   "area": "operations",
+   "steps": [
+    "Target end users (hotels, gyms) within about 200 miles of the factory",
+    "Truck product daily to a same-day courier sort centre (e.g. Roadie) outside the city",
+    "Get it there by 2pm for same-day van delivery",
+    "Hire distributor sales reps who already have the relationships"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "if you get product there by um 2:00 p.m., it gets delivered same day",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 52652,
+    "approx_timestamp_s": 3055
+   }
+  },
+  {
+   "name": "Same page exercise for family businesses",
+   "area": "mindset",
+   "steps": [
+    "Bring in a high-EQ consultant",
+    "Each family member answers the same ~10 questions on paper separately (revenue target, exit amount, timing)",
+    "Read answers to each other to expose misalignment",
+    "Then plan how to engineer the outcome the senior generation wants (buyouts, partners)"
+   ],
+   "idea_local_id": null,
+   "quote": {
+    "text": "It's called the same page exercise",
+    "speaker": "Jake",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22846,
+    "approx_timestamp_s": 1325
+   }
+  },
+  {
+   "name": "Touch product as few times as possible",
+   "area": "operations",
+   "steps": [
+    "Stack filters off the production line; box only when shipping to the end customer",
+    "Use multiple distribution points to reach most customers next day"
+   ],
+   "idea_local_id": "I2",
+   "quote": null
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Sage 100",
+   "purpose": "ERP for invoicing and inventory",
+   "cost_stated": null
+  },
+  {
+   "name": "HubSpot CRM",
+   "purpose": "Sales team pipeline and tracking",
+   "cost_stated": null
+  },
+  {
+   "name": "monday.com",
+   "purpose": "Project management and cross-department process automation",
+   "cost_stated": null
+  },
+  {
+   "name": "Roadie (UPS)",
+   "purpose": "Same-day regional delivery from a sort centre",
+   "cost_stated": null
+  },
+  {
+   "name": "DoorDash",
+   "purpose": "Also offers aggregated delivery",
+   "cost_stated": null
+  },
+  {
+   "name": "Amazon",
+   "purpose": "Filterbuy sales channel",
+   "cost_stated": null
+  },
+  {
+   "name": "Walmart",
+   "purpose": "Retail and online channel for Filterbuy",
+   "cost_stated": null
+  },
+  {
+   "name": "Airflow (North Carolina)",
+   "purpose": "Filter manufacturer Filterbuy initially white-labelled",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Selling a business to buyers who do not understand it can see it run into the ground; knowing your business does not mean you can run someone else's.",
+   "quote": {
+    "text": "just because you know how to run your business doesn't mean you know how to run someone else's business",
+    "speaker": "Jake",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6681,
+    "approx_timestamp_s": 387
+   }
+  },
+  {
+   "warning": "Do not start with manufacturing; it needs capital and the sales process is the harder part.",
+   "quote": {
+    "text": "I want to start a manufacturing business. I want to do what you're doing. And my advice is is is not to",
+    "speaker": "Jake",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7667,
+    "approx_timestamp_s": 444
+   }
+  },
+  {
+   "warning": "In distribution, growth consumes cash as receivables and inventory grow, which can force you to back off.",
+   "quote": {
+    "text": "the more you grow, the less cash you're going to have",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 35628,
+    "approx_timestamp_s": 2067
+   }
+  },
+  {
+   "warning": "Fast sales growth overloaded back-office departments and caused mistakes.",
+   "quote": {
+    "text": "They're over capacity and mistakes are happening cuz they're over capacity",
+    "speaker": "Jake",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 34510,
+    "approx_timestamp_s": 2002
+   }
+  },
+  {
+   "warning": "Price increases on a commodity product risk losing business and create heavy admin and negotiation work.",
+   "quote": null
+  },
+  {
+   "warning": "Avoiding tough conversations about expectations in a family business sets everyone up for misery.",
+   "quote": null
+  },
+  {
+   "warning": "Leaving estate planning until later is costlier and more painful, especially before a change of control.",
+   "quote": null
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Boring, unchanging products (toilet paper, filters) offer stability because demand will exist in 50 years regardless of AI.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "Doesn't matter what AI model you're on",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3453,
+    "approx_timestamp_s": 200
+   }
+  },
+  {
+   "lesson": "Choose products customers use up and rebuy so you are not hunting for a new customer each sale.",
+   "theme": "offer_design",
+   "quote": {
+    "text": "He hated having to go find a new customer every time he sold it",
+    "speaker": "Jake",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4551,
+    "approx_timestamp_s": 264
+   }
+  },
+  {
+   "lesson": "Revenue alone does not make you more money; business model and quality of revenue do.",
+   "theme": "finance_unit_economics",
+   "quote": {
+    "text": "the revenue doesn't make you more money more money. It's your business model that makes you more money",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 67452,
+    "approx_timestamp_s": 3914
+   }
+  },
+  {
+   "lesson": "Middlemen face compressed margins; owning the end-customer relationship compounds.",
+   "theme": "offer_design",
+   "quote": null
+  },
+  {
+   "lesson": "In freight-heavy low-margin products, business density clusters near the factory.",
+   "theme": "operations",
+   "quote": {
+    "text": "the closer you are to our factory, the more business we have. Cuz freight is such a big component on a small margin item",
+    "speaker": "Jake",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15761,
+    "approx_timestamp_s": 914
+   }
+  },
+  {
+   "lesson": "Segment customers by profitability and payment behaviour; you could fire 10% of customers and make more money.",
+   "theme": "finance_unit_economics",
+   "quote": {
+    "text": "you could fire 10% of your customers, have less sales, have more money in your pocket",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 66492,
+    "approx_timestamp_s": 3859
+   }
+  },
+  {
+   "lesson": "In family businesses, split responsibilities cleanly and define final decision rights.",
+   "theme": "hiring_outsourcing",
+   "quote": {
+    "text": "Split your responsibilities very cleanly amongst family members",
+    "speaker": "Jake",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 59063,
+    "approx_timestamp_s": 3427
+   }
+  },
+  {
+   "lesson": "Get clarity on the outcome you want, then reverse engineer the business plan; keep refining it like polishing a marble.",
+   "theme": "mindset_execution",
+   "quote": null
+  },
+  {
+   "lesson": "Partner with channels that have a genuine advantage (e.g. Walmart pickup) and serve directly where they do not.",
+   "theme": "customer_acquisition",
+   "quote": null
+  },
+  {
+   "lesson": "Do estate planning early to minimise tax and control problems at succession.",
+   "theme": "legal_risk",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "A",
+  "rationale": "Two first-hand operators with specific numbers (Filterbuy figures detailed; Jake's revenue only as a range). Host coaches guest; no product promotion beyond Filterbuy mention.",
+  "promotional_conflict": null
+ },
+ "extraction": {
+  "model": "grokbot",
+  "extracted_at": "2026-10-22T09:18:38",
+  "cost_usd": null,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 35,
+   "verified": 35,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

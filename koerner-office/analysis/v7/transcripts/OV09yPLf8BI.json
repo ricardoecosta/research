@@ -1,0 +1,619 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "OV09yPLf8BI",
+  "title": "How I Built This $160K/Month Gym App",
+  "channel": "Starter Story",
+  "url": "https://www.youtube.com/watch?v=OV09yPLf8BI",
+  "upload_date": "2026-09-09",
+  "duration_s": 1050,
+  "view_count": 72129,
+  "transcript_provider": "local_whisper_tiny",
+  "transcript_chars": 21015,
+  "transcript_is_whisper": true
+ },
+ "summary": "Starter Story's Pat Walls interviews Mauro, a 22-23-year-old founder of Symmetry, a gym tracking app localised for Spain and Mexico that reports about $160k monthly revenue and about $3 million total after one year. Growth came from UGC rather than their YouTube audience or influencers: nearly 80,000 videos across 500+ accounts, almost a billion views, with nearly half of revenue paid to creators. The core of the interview is his product method: set ambitious quarterly OKRs, instrument every onboarding screen, use interviews for the 'why', start from problems, and A/B test everything for at least two weeks with guardrail metrics. A single commitment screen added 3% retention while redesigns of the home screen moved nothing. Key takeaway: localise into an underserved market and let experiments, not instinct, decide what to build.",
+ "speakers": [
+  {
+   "name": "Pat Walls",
+   "role": "host",
+   "description": "Founder of Starter Story"
+  },
+  {
+   "name": "Gus",
+   "role": "co-host",
+   "description": "Starter Story producer, first on-camera interview"
+  },
+  {
+   "name": "Mauro",
+   "role": "guest",
+   "description": "Co-founder of Symmetry gym app, former fitness YouTuber"
+  }
+ ],
+ "format": "operator_interview",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Localised gym tracking app for the Spanish-speaking market (Symmetry)",
+   "one_liner": "A gym workout tracker with ranks, streaks and a social feed, localised for Spain and Mexico, grown with UGC to about $160k a month in one year.",
+   "category": "saas_software",
+   "business_model": "Consumer app subscriptions via App Store and Google Play paywall",
+   "customer": "Gym-goers in Spanish-speaking markets (mainly Spain and Mexico), including beginners",
+   "problem": "Tracking workouts, weights and reps; staying motivated to train",
+   "offer": "Workout plans, set/rep/weight tracking, exercise videos, per-muscle and per-exercise ranks, streaks, social feed of friends' workouts",
+   "pricing": {
+    "model": "Subscription behind a paywall (prices not stated)",
+    "price_points": [],
+    "notes": "Paywall is A/B tested with Superwall; about half of revenue goes to UGC creators."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "organic_social_content",
+     "details": "UGC network: nearly 80,000 short videos in a year across 500+ accounts, nearly a billion views; formats segmented and tracked (e.g. iPhone lock-screen notification format; one video hit 17 million views). Creators paid nearly half of revenue.",
+     "quote": {
+      "text": "In the last year we have posted nearly 80,000 videos. We have more than 500 accounts",
+      "speaker": "Mauro",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 4435,
+      "approx_timestamp_s": 227
+     }
+    },
+    {
+     "channel": "existing_audience",
+     "details": "Founders' prior fitness YouTube channel gave a small launch spike but was not a scalable channel.",
+     "quote": {
+      "text": "we had this YouTube community that we thought it was going to be really good for growing the app. It wasn't",
+      "speaker": "Mauro",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 4089,
+      "approx_timestamp_s": 209
+     }
+    },
+    {
+     "channel": "affiliates_influencers",
+     "details": "Influencer marketing was tried and did not work.",
+     "quote": null
+    },
+    {
+     "channel": "app_store",
+     "details": "Distributed on iOS and Android app stores.",
+     "quote": null
+    }
+   ],
+   "delivery": "Small founding team (former fitness YouTubers) builds and iterates the app using quarterly OKRs, event analytics, user interviews and A/B tests of at least two weeks.",
+   "unit_economics_claims": [
+    "About $160k monthly revenue",
+    "About $3 million total revenue across iOS and Android",
+    "Nearly half of revenue paid to creators",
+    "One onboarding commitment screen increased retention by 3%"
+   ],
+   "tools": [
+    "RevenueCat",
+    "PostHog",
+    "Superwall",
+    "Claude with MCPs",
+    "Wispr Flow",
+    "Notion",
+    "Slack"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "Launched about a year ago; company started two years ago",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "UGC video production and posting can be heavily templated and partly AI-assisted, but they rely on 500+ accounts run with paid human creators."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Self-serve app onboarding."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "Software app; content and features maintained by the team."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "App store subscriptions."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "In-app and community support; some human input."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Consumer fitness apps work the same in the UK; localisation to an underserved language/region is the key lesson. UK GDPR applies to health/fitness data; mass multi-account posting may breach platform rules."
+   },
+   "risks": [
+    "Very saturated fitness app market",
+    "UGC economics depend on revenue per download; paying ~50% of revenue to creators squeezes margin",
+    "Running 500+ social accounts risks platform bans",
+    "Seasonal demand (January spike)"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "You can see we're currently at around 160k monthly revenue, and we currently have around $3 million, both across IS and Android",
+     "speaker": "Mauro",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 2028,
+     "approx_timestamp_s": 103
+    },
+    {
+     "text": "basically we give nearly half of the revenue to the creators",
+     "speaker": "Mauro",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 5134,
+     "approx_timestamp_s": 263
+    },
+    {
+     "text": "It's increased 3% retention, adding one screen. That is why you have to A/B test everything",
+     "speaker": "Mauro",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 14544,
+     "approx_timestamp_s": 745
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Symmetry makes about $160k in monthly revenue",
+   "metric": "mrr",
+   "value": {
+    "amount": 160000,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "period": "last 30 days",
+   "claimant": "Mauro",
+   "first_hand": true,
+   "hypothetical": null,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "You can see we're currently at around 160k monthly revenue",
+    "speaker": "Mauro",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2028,
+    "approx_timestamp_s": 103
+   }
+  },
+  {
+   "claim": "About $3 million total revenue across iOS and Android",
+   "metric": "revenue",
+   "value": {
+    "amount": 3000000,
+    "currency": "USD",
+    "unit": "lifetime"
+   },
+   "period": "since launch",
+   "claimant": "Mauro",
+   "first_hand": true,
+   "hypothetical": null,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "we currently have around $3 million, both across IS and Android",
+    "speaker": "Mauro",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2091,
+    "approx_timestamp_s": 107
+   }
+  },
+  {
+   "claim": "Barely 30k downloads early on",
+   "metric": "customers",
+   "value": {
+    "amount": 30000,
+    "currency": null,
+    "unit": "downloads"
+   },
+   "period": null,
+   "claimant": "Mauro",
+   "first_hand": true,
+   "hypothetical": null,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "we barely were at around 30k downloads",
+    "speaker": "Mauro",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3653,
+    "approx_timestamp_s": 187
+   }
+  },
+  {
+   "claim": "Nearly 80,000 videos posted across 500+ accounts in a year",
+   "metric": "other",
+   "value": {
+    "amount": 80000,
+    "currency": null,
+    "unit": "videos"
+   },
+   "period": "last year",
+   "claimant": "Mauro",
+   "first_hand": true,
+   "hypothetical": null,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "In the last year we have posted nearly 80,000 videos. We have more than 500 accounts",
+    "speaker": "Mauro",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4435,
+    "approx_timestamp_s": 227
+   }
+  },
+  {
+   "claim": "Nearly a billion views in the last year",
+   "metric": "traffic",
+   "value": {
+    "amount": 1000000000,
+    "currency": null,
+    "unit": "views"
+   },
+   "period": "last year",
+   "claimant": "Mauro",
+   "first_hand": true,
+   "hypothetical": null,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "we have done nearly a billion views in the last year",
+    "speaker": "Mauro",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4523,
+    "approx_timestamp_s": 231
+   }
+  },
+  {
+   "claim": "One viral video reached 17 million views",
+   "metric": "traffic",
+   "value": {
+    "amount": 17000000,
+    "currency": null,
+    "unit": "views"
+   },
+   "period": null,
+   "claimant": "Mauro",
+   "first_hand": true,
+   "hypothetical": null,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "And this video went extremely viral. You can see 17 million views",
+    "speaker": "Mauro",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4996,
+    "approx_timestamp_s": 256
+   }
+  },
+  {
+   "claim": "Nearly half of revenue paid to creators",
+   "metric": "cost",
+   "value": {
+    "amount": 50,
+    "currency": null,
+    "unit": "percent of revenue"
+   },
+   "period": null,
+   "claimant": "Mauro",
+   "first_hand": true,
+   "hypothetical": null,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "basically we give nearly half of the revenue to the creators",
+    "speaker": "Mauro",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5134,
+    "approx_timestamp_s": 263
+   }
+  },
+  {
+   "claim": "A single commitment screen increased retention by 3%",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 3,
+    "currency": null,
+    "unit": "percent retention uplift"
+   },
+   "period": null,
+   "claimant": "Mauro",
+   "first_hand": true,
+   "hypothetical": null,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "It's increased 3% retention, adding one screen",
+    "speaker": "Mauro",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14544,
+    "approx_timestamp_s": 745
+   }
+  },
+  {
+   "claim": "Typical apps reach $30-50k a month in a year, per Pat",
+   "metric": "mrr",
+   "value": {
+    "amount": 30000,
+    "currency": "USD",
+    "unit": "per month",
+    "amount_max": 50000
+   },
+   "period": null,
+   "claimant": "Pat Walls",
+   "first_hand": false,
+   "hypothetical": null,
+   "idea_local_id": null,
+   "quote": {
+    "text": "usually you'll see, you know, maybe get to 30 or 50K within a year",
+    "speaker": "Pat Walls",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5834,
+    "approx_timestamp_s": 299
+   }
+  },
+  {
+   "claim": "Dark/light theme might affect only about 2% of daily active users",
+   "metric": "other",
+   "value": {
+    "amount": 2,
+    "currency": null,
+    "unit": "percent of DAU"
+   },
+   "period": null,
+   "claimant": "Mauro",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Let's say you build a dark theme or a light theme, this may affect like 2% of your daily active users",
+    "speaker": "Mauro",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6841,
+    "approx_timestamp_s": 350
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "UGC format factory",
+   "area": "acquisition",
+   "steps": [
+    "Run hundreds of social accounts posting short videos",
+    "Segment every video into formats and sub-formats and track performance",
+    "Double down on winners, e.g. fake iPhone lock-screen notifications ending with an app notification to go to the gym",
+    "Pay creators a large revenue share (about half) so they keep producing long term",
+    "Use average revenue per download (varies by country) to set what you can pay creators"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "we segment the videos into formats",
+    "speaker": "Mauro",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4614,
+    "approx_timestamp_s": 236
+   }
+  },
+  {
+   "name": "Experiment policy for product decisions",
+   "area": "product",
+   "steps": [
+    "Set ambitious quarterly OKRs (more ambitious when the app is new) and review metrics weekly or daily",
+    "Find high-leverage screens (paywall, onboarding, search) instead of cosmetic features",
+    "Track every onboarding screen with analytics for the 'what'",
+    "Interview users and read Discord/Reddit for the 'why'",
+    "Start from a validated problem, write hypotheses with expected metric impact and guardrail metrics",
+    "A/B test against control for at least two weeks, then analyse; log all tests in a database"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "after at least two weeks of running the experiment, you then analyze the data",
+    "speaker": "Mauro",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13383,
+    "approx_timestamp_s": 686
+   }
+  },
+  {
+   "name": "Pick the right activation metric",
+   "area": "product",
+   "steps": [
+    "Define activation for your product (for a gym app: going to the gym and tracking a workout)",
+    "Treat activation as the lead indicator for retention",
+    "Track first-week and 30-day retention and revenue per download"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "if you move activation for attention, follows",
+    "speaker": "Mauro",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9352,
+    "approx_timestamp_s": 479
+   }
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "RevenueCat",
+   "purpose": "Revenue dashboard for app subscriptions",
+   "cost_stated": null
+  },
+  {
+   "name": "PostHog (transcribed 'possible'/'postdoc')",
+   "purpose": "Product analytics and A/B testing",
+   "cost_stated": null
+  },
+  {
+   "name": "Superwall",
+   "purpose": "Paywall A/B testing",
+   "cost_stated": null
+  },
+  {
+   "name": "Claude with MCPs",
+   "purpose": "Querying analytics data via MCP connections",
+   "cost_stated": null
+  },
+  {
+   "name": "Wispr Flow (transcribed 'whisper flow')",
+   "purpose": "Voice dictation for faster input",
+   "cost_stated": null
+  },
+  {
+   "name": "Notion",
+   "purpose": "Documentation and experiment tracking",
+   "cost_stated": null
+  },
+  {
+   "name": "Slack",
+   "purpose": "Team communication",
+   "cost_stated": null
+  },
+  {
+   "name": "Starter Story iOS app database",
+   "purpose": "Sponsor-style plug: free database of app ideas",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Building what you want, or literally what users request, gives terrible to mediocre results.",
+   "quote": {
+    "text": "First we built what we wanted, terrible idea. Second, we built what users wanted",
+    "speaker": "Mauro",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6264,
+    "approx_timestamp_s": 321
+   }
+  },
+  {
+   "warning": "The most common mistake is having no analytics events at all, so you cannot see where users drop off.",
+   "quote": {
+    "text": "the most common error I see everybody is not tracking anything like they don't have any events at all in their app",
+    "speaker": "Mauro",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11351,
+    "approx_timestamp_s": 582
+   }
+  },
+  {
+   "warning": "An existing YouTube audience and influencer marketing did not produce scalable growth.",
+   "quote": null
+  },
+  {
+   "warning": "Most tests move nothing; completely different redesigns of the home screen had zero metric impact.",
+   "quote": {
+    "text": "they moved nothing to the matrix. Absolutely nothing. And they were completely different designs",
+    "speaker": "Mauro",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14115,
+    "approx_timestamp_s": 723
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Localising a proven app category for an underserved language market can win even in a saturated category.",
+   "theme": "niche_selection",
+   "quote": null
+  },
+  {
+   "lesson": "Focus on high-leverage screens like the paywall, onboarding and search; cosmetic features affect few users.",
+   "theme": "offer_design",
+   "quote": null
+  },
+  {
+   "lesson": "Use analytics for where users drop off and conversations for why.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "For the why, you need qualitative data",
+    "speaker": "Mauro",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11857,
+    "approx_timestamp_s": 608
+   }
+  },
+  {
+   "lesson": "Come from the problem space, not the solution space, before designing experiments.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "you're not coming from a solution place. You must come from a problem space",
+    "speaker": "Mauro",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12719,
+    "approx_timestamp_s": 652
+   }
+  },
+  {
+   "lesson": "Revenue per download decides how much you can pay for acquisition, and it varies a lot by country.",
+   "theme": "finance_unit_economics",
+   "quote": null
+  },
+  {
+   "lesson": "Paying creators generously keeps them producing content long term.",
+   "theme": "customer_acquisition",
+   "quote": null
+  },
+  {
+   "lesson": "Most changes do not move metrics; knowing this pushes you to focus more on marketing than product.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "So most things don't make a difference",
+    "speaker": "Pat Walls",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20160,
+    "approx_timestamp_s": 1033
+   }
+  },
+  {
+   "lesson": "Play long-term games with long-term people; the company started a year before launch and they were bad at first.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "I would say to play long-term games with long-term people",
+    "speaker": "Mauro",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17178,
+    "approx_timestamp_s": 880
+   }
+  }
+ ],
+ "evidence_quality": {
+  "rating": "A",
+  "rationale": "First-hand operator showing revenue dashboard and experiment database with specific numbers; Whisper tiny transcript garbles names. Starter Story promotes its own app database.",
+  "promotional_conflict": "Starter Story plugs its free iOS app idea database."
+ },
+ "extraction": {
+  "model": "grokbot",
+  "extracted_at": "2026-10-22T09:17:26",
+  "cost_usd": null,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 25,
+   "verified": 25,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}
