@@ -1,6 +1,6 @@
 # 9 BORING Local Side Hustles Making People Rich
 
-- **Video:** [zlr9A2zQtUU](https://www.youtube.com/watch?v=zlr9A2zQtUU) · **Channel:** Johnny & Sergio · **Uploaded:** unknown · **Length:** 25 min · **Transcript:** cached
+- **Video:** [zlr9A2zQtUU](https://www.youtube.com/watch?v=zlr9A2zQtUU) · **Channel:** Johnny & Sergio · **Uploaded:** 2026-06-21 · **Length:** 25 min · **Transcript:** cached
 - **Speakers:** Johnny Robinson (host) · **Format:** listicle_roundup
 - **Evidence quality:** C — Second-hand listicle with rounded, unverified figures and named companies given as examples; only the cleaning segment is first-hand and it is promotional. Host admits guessing one revenue number. · Promotional conflict: Host sells Home Service Academy coaching for remote cleaning businesses; the video includes a Northwest Registered Agent sponsor read.
 - **Extraction:** claude-sonnet-5-5 · quotes verified 30/30

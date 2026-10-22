@@ -1,6 +1,6 @@
 # Top 5 Best Pet Insurance Companies in 2025
 
-- **Video:** [x61rvtMcJrE](https://www.youtube.com/watch?v=x61rvtMcJrE) · **Channel:** Casper Capital · **Uploaded:** unknown · **Length:** 8 min · **Transcript:** cached
+- **Video:** [x61rvtMcJrE](https://www.youtube.com/watch?v=x61rvtMcJrE) · **Channel:** Casper Capital · **Uploaded:** 2025-09-30 · **Length:** 8 min · **Transcript:** cached
 - **Speakers:** Casper Capital presenter (host) · **Format:** listicle_roundup
 - **Evidence quality:** C — Second-hand consumer listicle with US-centric average prices and no first-hand operator data; the one anecdote is about a friend. No business model is analysed. · Promotional conflict: Links to the insurers in the description are likely affiliate links, which may bias rankings.
 - **Extraction:** claude-sonnet-5-5 · quotes verified 17/17

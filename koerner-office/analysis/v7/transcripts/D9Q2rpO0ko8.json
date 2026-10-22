@@ -1,0 +1,557 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "D9Q2rpO0ko8",
+  "title": "The Best Low Budget Online Business To Start Right Now",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=D9Q2rpO0ko8",
+  "upload_date": "2025-12-11",
+  "duration_s": 735,
+  "view_count": 47388,
+  "transcript_provider": "ok",
+  "transcript_chars": 13121,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner explains how to sell database reactivation as a service to small businesses using GoHighLevel templates. He proposes a no-brainer, performance-based offer (10% of revenue generated from emailing/texting a client's past-customer list), walks through importing contacts, triggering a workflow, auto-replies, and A/B testing offers. He then suggests upselling other services (AI voice agents, missed-call text back, review automation, chatbots). The video is promotional for GoHighLevel via his affiliate link, and the revenue maths is hypothetical.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Host of Koerner Office; says he owns a tree trimming business and uses GoHighLevel daily"
+  }
+ ],
+ "format": "tutorial_howto",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Database reactivation agency",
+   "one_liner": "Email/text a small business's old customer list with an offer using GoHighLevel templates, taking a share of revenue generated.",
+   "category": "agency",
+   "business_model": "Performance fee (10% of revenue generated) or flat fee (about $1,000) whichever is less; possible recurring retainer",
+   "customer": "Local small businesses with a past-customer list (e.g. tree trimming, roofing)",
+   "problem": "Businesses hold lists of past customers but do not market to them, and do not know how to run or A/B test campaigns",
+   "offer": "Done-for-you reactivation campaign by email and/or SMS to their past customers, free upfront, paid 10% of revenue generated",
+   "pricing": {
+    "model": "Percentage of revenue, or flat fee, whichever is less; could be done free as a foot-in-the-door",
+    "price_points": [
+     {
+      "amount": 10,
+      "amount_max": null,
+      "currency": null,
+      "unit": "percent of revenue generated",
+      "label": "revenue share"
+     },
+     {
+      "amount": 1000,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "flat fee (cap alternative)",
+      "label": "flat fee or 10%, whichever is less"
+     }
+    ],
+    "notes": "Tracking the client's revenue is hard, hence the flat-fee fallback. Reactivation can be free to get in the door and sell other services."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Approach local business owners directly with a no-brainer, zero-risk offer (pitch example given for a tree trimming owner); specific outreach method not stated",
+     "quote": {
+      "text": "this is what's called a no-brainer offer",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 1589,
+      "approx_timestamp_s": 92
+     }
+    }
+   ],
+   "delivery": "Agency owner gets the client's customer list (from QuickBooks, Xero, Stripe, Square, POS), imports a CSV into GoHighLevel, tags contacts to trigger the Recipe List Reactivation workflow, which sends emails/SMS, auto-replies to positive responses with a booking link, follows up, and A/B tests offers. Screenshots of analytics are sent to the client. Client does the actual jobs.",
+   "unit_economics_claims": [
+    "4,000 emails x 2% = 80 quote requests; half close = 40 jobs x $1,000 = $40,000; 10% = $4,000 (hypothetical)",
+    "1,000 roofing customers might yield 1-3 jobs worth $20-50k"
+   ],
+   "tools": [
+    "GoHighLevel",
+    "Calendly",
+    "Tidycal",
+    "QuickBooks",
+    "Xero",
+    "Stripe",
+    "Square",
+    "Google Sheets"
+   ],
+   "startup_cost": "GoHighLevel subscription (price not stated); 30-day free trial via his affiliate link",
+   "time_to_first_revenue": "not stated; results within about an hour of sending to see which A/B variant wins",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Finding and pitching local business owners is mostly human. Cold email to limited companies is legal in the UK, but cold SMS/email to sole traders is not, and many local trades are sole traders."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Needs the client to supply the list and agree on an offer. Import and mapping are tool-driven but need a human to collect and check data."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "The workflow, auto-replies, follow-ups, A/B splits and analytics run automatically from a template. Agents could draft offers and copy; a human reviews."
+    },
+    "billing": {
+     "score_e": 2,
+     "how": "Revenue share needs trust and manual verification of the client's jobs; a flat fee is easier to automate with invoicing."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Reporting by screenshot can be automated. Client questions and reply handling by agents with occasional human checks."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "The model works, but UK PECR/GDPR require consent or a valid soft opt-in for marketing emails/SMS to past customers of individuals and sole traders. The client must own the relationship and supply lawful data, with unsubscribe handling. Tree trimming seasonality and ZIP/US tools differ; GHL is available in the UK."
+   },
+   "risks": [
+    "Emailing/texting old customers without valid consent breaches UK PECR/GDPR",
+    "Cannot verify client's revenue under a rev-share deal",
+    "Client could lie about results",
+    "Deliverability, spam complaints and stale lists",
+    "Clients may find out it is just a template and cut you out"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "it's taking a customer list from a small business and reactivating them to drive more revenue or just emailing and/or texting them to drive more revenue",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 451,
+     "approx_timestamp_s": 26
+    },
+    {
+     "text": "any revenue that we generate from that list, you just give us 10% of. If we generate zero revenue, you don't give us anything.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 1424,
+     "approx_timestamp_s": 82
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "AI and automation upsell services for local businesses",
+   "one_liner": "Upsell clients on additional automation services after reactivation delivers value.",
+   "category": "ai_automation",
+   "business_model": "Recurring or one-off service fees on top of reactivation",
+   "customer": "Local small business clients already won through the reactivation campaign",
+   "problem": "Small businesses miss calls, lack review processes, and respond slowly to leads",
+   "offer": "After-hours AI voice agents, missed-call text back, review requests, review response automation, AI appointment setting, lead nurturing sequences, chatbots",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "Said to be sold 'for a lot more money' but no figures given"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "existing_audience",
+     "details": "Upsell to existing reactivation clients"
+    }
+   ],
+   "delivery": "Built inside GoHighLevel for each client; details not stated",
+   "unit_economics_claims": [],
+   "tools": [
+    "GoHighLevel"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Upselling existing clients is low-volume, with a human conversation and agent-assisted reporting."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Template-based setup with agents plus human check."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Software-driven workflows and voice agents run unattended with occasional approval."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Recurring subscriptions can be billed automatically."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Agents handle routine questions; humans handle edge cases."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Works in the UK; AI voice calls and automated SMS must comply with PECR/GDPR and call recording rules."
+   },
+   "risks": [
+    "Regulatory compliance for automated calls and messages",
+    "Reliability of AI voice agents"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "After hours, AI voice agents, mis call text back, review requests, review response automation, AI appointment setting, lead nurturing sequences, building a chatbot for them",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 10774,
+     "approx_timestamp_s": 624
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "2% of a 4,000-person tree trimming list asking for a quote equals 80 people",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 2,
+    "amount_max": null,
+    "currency": null,
+    "unit": "percent"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Let's say 2% of the list says yes, come give me a quote. That's 80 people.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2010,
+    "approx_timestamp_s": 116
+   }
+  },
+  {
+   "claim": "Half of quotes close, an average close rate for his tree business",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 50,
+    "amount_max": null,
+    "currency": null,
+    "unit": "percent close rate"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "you close half of them, which is an average close rate for us, so that's realistic",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2100,
+    "approx_timestamp_s": 121
+   }
+  },
+  {
+   "claim": "40 jobs at $1,000 each gives $40,000 revenue; 10% equals $4,000 for the agency",
+   "metric": "revenue",
+   "value": {
+    "amount": 4000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "agency commission per campaign"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "That's $40,000 in revenue. You take 10% of that as the agency owner, and you make four grand",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2253,
+    "approx_timestamp_s": 130
+   }
+  },
+  {
+   "claim": "Email to 1,000 past roofing customers might yield 1-3 jobs worth $20-50k",
+   "metric": "revenue",
+   "value": {
+    "amount": 20000,
+    "amount_max": 50000,
+    "currency": "USD",
+    "unit": "per campaign"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "an email to a thousand previous roofing customers might only generate one to three jobs, but that could be 20 to $50,000 in revenue",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10462,
+    "approx_timestamp_s": 606
+   }
+  },
+  {
+   "claim": "Flat fee alternative of about $1,000 or 10% of revenue, whichever is less",
+   "metric": "price",
+   "value": {
+    "amount": 1000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "flat fee"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I charge a,000 bucks for this or 10% of any revenue I bring you or whichever is less",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10057,
+    "approx_timestamp_s": 582
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "No-brainer performance offer",
+   "area": "sales",
+   "steps": [
+    "Ask the owner if they have a customer list and roughly how many emails",
+    "Offer to email the whole list with a seasonal special for free",
+    "Take 10% of any revenue generated; nothing if zero",
+    "Alternative: charge $1,000 or 10%, whichever is less, to guarantee some payment"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I charge a,000 bucks for this or 10% of any revenue I bring you or whichever is less",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10057,
+    "approx_timestamp_s": 582
+   }
+  },
+  {
+   "name": "Build the reactivation workflow in GoHighLevel",
+   "area": "operations",
+   "steps": [
+    "Automation > Create workflow > From template > search 'reactivation' > Recipe List Reactivation",
+    "Import client CSV via Contacts > Import, map fields, apply a tag",
+    "Set the tag as the workflow trigger",
+    "Edit the email/SMS offer with first-name personalisation",
+    "Wait for reply up to 1 hour, check if positive, auto-reply with booking link",
+    "Add follow-up steps and publish",
+    "Review delivery, bounce, unsubscribe, spam, open, click, reply stats under Marketing > Emails"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "A/B test offers across the same list",
+   "area": "sales",
+   "steps": [
+    "Add a random split (e.g. 50/50) in the workflow",
+    "Copy all actions into the second branch",
+    "Change the offer (e.g. free quote vs discount vs buy two get third free)",
+    "Check per-branch statistics to find the winner within about an hour",
+    "Reuse the winning offer for similar businesses in the same niche"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "you can know within an hour of sending this email which one crushes the best",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12325,
+    "approx_timestamp_s": 714
+   }
+  },
+  {
+   "name": "Ongoing triggers beyond one-off blast",
+   "area": "operations",
+   "steps": [
+    "Birthday emails with a 10% coupon",
+    "Customer anniversary messages",
+    "Stripe payment processed, delay 365 days, then reactivation sequence"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Find the client's list",
+   "area": "acquisition",
+   "steps": [
+    "Suggest sources: QuickBooks, Xero, Stripe, Square, POS email capture",
+    "Request a spreadsheet export of past customers"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Prove value with analytics screenshots",
+   "area": "sales",
+   "steps": [
+    "Run the campaign in-house without mentioning GoHighLevel",
+    "Send the client screenshots of the stats",
+    "Use the success to upsell other services"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "GoHighLevel",
+   "purpose": "CRM, workflows, email/SMS, A/B testing, reporting",
+   "cost_stated": "30 days free via host's link; others 14 days"
+  },
+  {
+   "name": "Calendly",
+   "purpose": "Booking link",
+   "cost_stated": null
+  },
+  {
+   "name": "Tidycal",
+   "purpose": "Booking link (transcribed 'Tidycow')",
+   "cost_stated": null
+  },
+  {
+   "name": "QuickBooks",
+   "purpose": "Source of customer list",
+   "cost_stated": null
+  },
+  {
+   "name": "Xero",
+   "purpose": "Source of customer list (transcribed 'Zero')",
+   "cost_stated": null
+  },
+  {
+   "name": "Stripe",
+   "purpose": "Source of customer list and trigger",
+   "cost_stated": null
+  },
+  {
+   "name": "Square",
+   "purpose": "Source of customer list",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Rev-share is hard to track because you cannot see the client's quotes or payments; use a flat fee floor.",
+   "quote": {
+    "text": "you don't have any visibility into them going out and performing quotes and saying yay or nay or even getting paid on those quotes",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9880,
+    "approx_timestamp_s": 572
+   }
+  },
+  {
+   "warning": "You cannot run this without a customer list.",
+   "quote": {
+    "text": "You can't do this without a list. So, this part is key.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2751,
+    "approx_timestamp_s": 159
+   }
+  },
+  {
+   "warning": "Offers proven for one niche may not transfer to regions with different seasonality.",
+   "quote": null
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Lead with a zero-risk, performance-based offer to remove the buyer's objections and get a foot in the door.",
+   "theme": "offer_design",
+   "quote": {
+    "text": "The best way to make money is to make money for other people first.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 0,
+    "approx_timestamp_s": 0
+   }
+  },
+  {
+   "lesson": "Spend effort on the client's offer to their customers, not just your pitch to the owner; the offer drives results.",
+   "theme": "offer_design",
+   "quote": null
+  },
+  {
+   "lesson": "A/B testing is a differentiator small business owners rarely do; reuse winning offers across similar clients in the same niche.",
+   "theme": "validation_testing",
+   "quote": null
+  },
+  {
+   "lesson": "Use a free or cheap first campaign to land and expand into higher-value recurring services.",
+   "theme": "scaling",
+   "quote": null
+  },
+  {
+   "lesson": "Prebuilt templates let a non-expert deliver a seemingly complex service quickly, so the value is in sales and offers rather than tech.",
+   "theme": "automation_ai",
+   "quote": null
+  },
+  {
+   "lesson": "Choose niches where outcomes are visible (e.g. roofing) so performance fees are verifiable.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "in some businesses, it's a lot easier to see if that job actually went through",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10294,
+    "approx_timestamp_s": 596
+   }
+  },
+  {
+   "lesson": "Keep sequences simple rather than complex.",
+   "theme": "operations",
+   "quote": {
+    "text": "in my experience, it doesn't need to be complex. Simple is better.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12451,
+    "approx_timestamp_s": 721
+   }
+  }
+ ],
+ "evidence_quality": {
+  "rating": "C",
+  "rationale": "Mostly a promotional tutorial with hypothetical revenue maths; the only first-hand data point is his claimed close rate for his tree business. No real client results are given.",
+  "promotional_conflict": "Host promotes GoHighLevel with an affiliate link (30 days free) and says he uses it daily."
+ },
+ "extraction": {
+  "model": "claude-sonnet-5-5",
+  "extracted_at": "2026-10-22T04:54:33",
+  "cost_usd": 0.099948,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 16,
+   "verified": 16,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

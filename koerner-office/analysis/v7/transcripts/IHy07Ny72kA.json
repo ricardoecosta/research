@@ -1,0 +1,682 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "IHy07Ny72kA",
+  "title": "Stop Guessing. Here’s How to Build What People Will Actually Pay For",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=IHy07Ny72kA",
+  "upload_date": "2025-12-21",
+  "duration_s": 838,
+  "view_count": 52804,
+  "transcript_provider": "ok",
+  "transcript_chars": 15627,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner demonstrates a 'validate before you build' workflow: he polls 100 US small business owners via PickFu on which website feature they'd pay for, then uses the Mocha vibe-coding app to build an appointment booking widget (BookFlow) in under 20 minutes. Appointment booking tied with chatbot for first place; ChatGPT analysis of the written responses suggests bundling booking, forms, price calculator and a chatbot layer, leading with scheduling in ads. Key takeaway: poll your target buyer first, mine the free-text answers with an LLM, then prototype quickly with AI and sell before fully building. Mocha is described as a 'friend of the pod' (promotional link).",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Host of The Koerner Office; runs the poll and builds the prototype live"
+  }
+ ],
+ "format": "tutorial_howto",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Embeddable appointment booking widget (BookFlow), niche-rebrandable",
+   "one_liner": "A white-label booking widget for small business websites, vibe-coded with Mocha and sold into specific verticals such as dog groomers.",
+   "category": "saas_software",
+   "business_model": "Software sold to small businesses (pricing not stated; implied subscription/widget licence)",
+   "customer": "Small business owners with websites (dog groomers, tree trimmers, home service businesses, tarot readers, etc.)",
+   "problem": "Businesses need clients to see their calendar and book appointments without messy email back-and-forth.",
+   "offer": "An embeddable widget where visitors pick a service, date and time and enter their details; branding, colours and name are easy to swap per industry.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "No price for the widget is given; only the demo's dog-grooming service prices (45, 75, 15 dollars) which are example content, not product pricing."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "paid_social",
+     "details": "Suggests running ads to a specific industry, with the top-of-funnel ad pitching scheduling and the other modules shown once they are inside.",
+     "quote": {
+      "text": "the top of the funnel ad should always pitch scheduling. That's where the strongest pain point in is.",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 11428,
+      "approx_timestamp_s": 632
+     }
+    }
+   ],
+   "delivery": "Software built by Mocha from prompts; multi-tenant app hosted at bookflow.mocha.app with custom domain option. Swapping to a new niche reportedly takes one prompt.",
+   "unit_economics_claims": [
+    "Build took about 5 minutes for first version and about 18-20 minutes for the full site and demo",
+    "Agency build quoted at 10,000 USD in the US or 5,000 USD overseas, taking weeks"
+   ],
+   "tools": [
+    "Mocha",
+    "ChatGPT",
+    "PickFu"
+   ],
+   "startup_cost": "Mocha 20 USD per month plus PickFu poll cost (hundreds of dollars, exact not stated)",
+   "time_to_first_revenue": "not stated (no sales made in the video)",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Paid ads to a niche landing page are inbound and can be run and optimised largely by agents with occasional human approval."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Self-serve signup and widget embed code can be fully software-driven; per-niche rebranding is a prompt."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "The widget is software running unattended once built; fixes and new niches are done via prompts."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Standard subscription billing (e.g. Stripe) is unattended."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "AI support can answer most install and config questions, but bugs in vibe-coded software need human review."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Software works the same in the UK; need GDPR/UK data handling for bookings and PECR compliance for outbound. Competes with Calendly and similar tools."
+   },
+   "risks": [
+    "Crowded market with established free/cheap booking tools",
+    "Vibe-coded app quality, security and reliability are unproven",
+    "Demo only; no customers or willingness-to-pay validated beyond a poll",
+    "Poll answers are stated preference, not purchase behaviour"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "I want to build a widget that small businesses can easily add to their websites that will enable potential customers to book an appointment with them.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 5150,
+     "approx_timestamp_s": 285
+    },
+    {
+     "text": "Just make one really good appointment booking widget for dog groomers and nothing else.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 12198,
+     "approx_timestamp_s": 675
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Multi-module 'super widget' (booking + forms + price calculator + chatbot)",
+   "one_liner": "A bundle of website modules sold as 'the last widget your business ever needs', with a chatbot layer to make the offer feel premium.",
+   "category": "saas_software",
+   "business_model": "Bundled software sold to small businesses; pricing not stated",
+   "customer": "Small business owners wanting a website feature set",
+   "problem": "Businesses need scheduling, structured lead capture and quoting on their sites.",
+   "offer": "Appointment booking, contact form intake, price calculator builder and a simple chatbot answering from the site's pages; forms bundled free-feeling inside the main product.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "ChatGPT analysis suggests the chatbot signals higher value and willingness to pay a lot."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "paid_social",
+     "details": "Lead ads with scheduling pain point, then upsell other modules once inside.",
+     "quote": null
+    }
+   ],
+   "delivery": "Built by Mocha via phased prompts; the host then scaled back to booking only.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Mocha",
+    "ChatGPT"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Ads and landing pages can be agent-run."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Self-serve setup flows."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Software product; chatbot requires ongoing model costs but runs unattended."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Subscription billing is automatic."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Chatbot-related complaints and edge cases need some human checks."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Same in the UK; chatbot must handle UK GDPR and disclose AI use."
+   },
+   "risks": [
+    "Chatbot opinion is split (half find them annoying)",
+    "Scope creep; host himself scaled back to a single widget",
+    "Analysis relies on LLM interpretation of 100 responses"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "You're basically selling the last widget your business ever needs.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 11342,
+     "approx_timestamp_s": 628
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Audience-poll validation service/workflow via PickFu",
+   "one_liner": "Using PickFu to poll a targeted audience on what they'd pay for before building.",
+   "category": "other",
+   "business_model": "Not a business sold in the video; a validation method costing the founder money",
+   "customer": "Founders validating ideas",
+   "problem": "Founders build things nobody will pay for.",
+   "offer": "Pay PickFu to poll 100 targeted respondents with written explanations.",
+   "pricing": {
+    "model": "pay per poll, per audience trait and per option",
+    "price_points": [],
+    "notes": "Host says it costs hundreds of dollars for 100 respondents with targeting and five options; exact price not given."
+   },
+   "acquisition_channels": [],
+   "delivery": "PickFu panel returned 27 responses in a short time and 100 later (same day).",
+   "unit_economics_claims": [
+    "PickFu poll costs hundreds of dollars"
+   ],
+   "tools": [
+    "PickFu",
+    "ChatGPT"
+   ],
+   "startup_cost": "hundreds of dollars per poll",
+   "time_to_first_revenue": "not applicable",
+   "automation": {
+    "acquisition": {
+     "score_e": 0,
+     "how": "Not a customer-facing business."
+    },
+    "onboarding": {
+     "score_e": 0,
+     "how": "Not applicable."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Poll set-up and LLM analysis can be scripted; platform does the respondent work."
+    },
+    "billing": {
+     "score_e": 0,
+     "how": "Not applicable."
+    },
+    "support": {
+     "score_e": 0,
+     "how": "Not applicable."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "PickFu supports other audiences; UK business-owner panels may be smaller or pricier."
+   },
+   "risks": [
+    "Respondents are paid panelists, so stated willingness to pay may be inflated",
+    "Cost can add up with targeting and multiple options"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "What one website feature does your business need the most right now that you would be willing to pay for?",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 1450,
+     "approx_timestamp_s": 80
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Agency would charge at least 10,000 USD in the US to build something like this",
+   "metric": "cost",
+   "value": {
+    "amount": 10000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": "US dev team"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "If you hire them here in the States, it's going to cost you at least $10,000.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13751,
+    "approx_timestamp_s": 761
+   }
+  },
+  {
+   "claim": "Overseas dev team would cost at least 5,000 USD",
+   "metric": "cost",
+   "value": {
+    "amount": 5000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": "Philippines/Ukraine dev team"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Overseas, like the Philippines or Ukraine, at least $5,000.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13826,
+    "approx_timestamp_s": 765
+   }
+  },
+  {
+   "claim": "Mocha subscription costs 20 USD per month",
+   "metric": "cost",
+   "value": {
+    "amount": 20,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "Mocha"
+   },
+   "period": "monthly",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I'm paying for the $20 a month account, and I'm going to click create new app.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5059,
+    "approx_timestamp_s": 280
+   }
+  },
+  {
+   "claim": "Poll results after 27 responses: 11 appointment booking, 2 contact forms, 6 testimonials, 6 chatbot, 2 pricing calculator",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 27,
+    "amount_max": null,
+    "currency": null,
+    "unit": "responses",
+    "label": "early poll count"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "we have 11 votes for appointment booking, two for contact forms, six for testimonials, six for chatbot, two for pricing calculator.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3341,
+    "approx_timestamp_s": 185
+   }
+  },
+  {
+   "claim": "First build took 4 minutes 47 seconds, 12 changes, 10 files",
+   "metric": "hours",
+   "value": {
+    "amount": 4.78,
+    "amount_max": null,
+    "currency": null,
+    "unit": "minutes",
+    "label": "first build time"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "it took 4 minutes and 47 seconds to make 12 changes and deliver 10 files.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7467,
+    "approx_timestamp_s": 413
+   }
+  },
+  {
+   "claim": "Whole expanded build took about 18 minutes",
+   "metric": "hours",
+   "value": {
+    "amount": 18,
+    "amount_max": null,
+    "currency": null,
+    "unit": "minutes",
+    "label": "full build"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "That's a wrap. It took about 18 minutes flat.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12290,
+    "approx_timestamp_s": 680
+   }
+  },
+  {
+   "claim": "Final poll: 100 responses, appointment booking tied first with chatbot",
+   "metric": "customers",
+   "value": {
+    "amount": 100,
+    "amount_max": null,
+    "currency": null,
+    "unit": "responses",
+    "label": "final poll size"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "appointment booking was clearly number one, but it ended as tied for first with a chatbot",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8140,
+    "approx_timestamp_s": 450
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Poll your target buyer before building",
+   "area": "product",
+   "steps": [
+    "Pick a platform like PickFu and target e.g. 100 US small business owners",
+    "Ask 'what one feature does your business need most that you would be willing to pay for?'",
+    "Offer 5 concrete options and require a written explanation",
+    "Optionally poll only ~20 people to save money, or ask friends, Twitter, Reddit or Facebook groups for free"
+   ],
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "What one website feature does your business need the most right now that you would be willing to pay for?",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1450,
+    "approx_timestamp_s": 80
+   }
+  },
+  {
+   "name": "Mine free-text poll answers with an LLM",
+   "area": "product",
+   "steps": [
+    "Paste the written responses and vote totals into ChatGPT",
+    "Ask 'what can I learn from this that will help me make money?'",
+    "Look for gaps between what people want and what they'd pay for, and for bundling signals"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I posted a survey to business owners asking what features they would pay to have on their website.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8982,
+    "approx_timestamp_s": 497
+   }
+  },
+  {
+   "name": "Ask the AI to rewrite your prompt",
+   "area": "product",
+   "steps": [
+    "Write a rough prompt for the vibe-coding tool",
+    "Ask ChatGPT to rewrite it better, and to ask you questions if needed",
+    "Paste the long prompt as an attachment into Mocha",
+    "Trade-off: longer prompts cost more credits but may need fewer iterations"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "ask it what to ask it",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6048,
+    "approx_timestamp_s": 334
+   }
+  },
+  {
+   "name": "Lead with the strongest pain point in ads, upsell modules inside",
+   "area": "acquisition",
+   "steps": [
+    "Run top-of-funnel ads pitching scheduling only",
+    "Once the customer is inside, show other modules (forms, calculator, chatbot)",
+    "Bundle forms rather than selling them alone",
+    "Target a single industry per campaign by swapping branding via one prompt"
+   ],
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "the top of the funnel ad should always pitch scheduling.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11428,
+    "approx_timestamp_s": 632
+   }
+  },
+  {
+   "name": "Sell before you build",
+   "area": "mindset",
+   "steps": [
+    "Poll, prototype in minutes, then pitch the prototype",
+    "Scale scope back to one niche widget (e.g. dog groomers) for a working demo",
+    "Clone to other niches with one prompt"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Poll, build, launch. Sell it before you have it. Ready, fire, aim.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14175,
+    "approx_timestamp_s": 784
+   }
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "PickFu",
+   "purpose": "Paid audience polling with targeted respondents and written explanations",
+   "cost_stated": "hundreds of dollars for 100 targeted responses with 5 options (not exact)"
+  },
+  {
+   "name": "Mocha (getmocha.com)",
+   "purpose": "Vibe-coding app that builds and hosts apps from natural-language prompts",
+   "cost_stated": "20 USD per month"
+  },
+  {
+   "name": "ChatGPT",
+   "purpose": "Rewriting prompts and analysing poll responses",
+   "cost_stated": null
+  },
+  {
+   "name": "Twitter / Instagram story / Reddit / Facebook groups",
+   "purpose": "Free alternatives to poll an audience",
+   "cost_stated": "free"
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Being needed is not the same as being willing to pay; sell painkillers not vitamins.",
+   "quote": {
+    "text": "a lot of us need stuff all the time, but it doesn't mean that we're willing to pay for it.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1579,
+    "approx_timestamp_s": 87
+   }
+  },
+  {
+   "warning": "Stated popularity (votes) can differ from willingness to pay; chatbot ranked high partly because respondents think it is hard and expensive, and nobody will pay for testimonials.",
+   "quote": {
+    "text": "what people want the most and what people are willing to pay for are not always the same thing.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10744,
+    "approx_timestamp_s": 594
+   }
+  },
+  {
+   "warning": "Don't assume 'build it and they will come'.",
+   "quote": {
+    "text": "If you build it, they will probably not come.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 129,
+    "approx_timestamp_s": 7
+   }
+  },
+  {
+   "warning": "Long AI-generated prompts may cost more credits in vibe-coding tools.",
+   "quote": {
+    "text": "the downside to prompts like this is it's probably going to cost me more in credits.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6805,
+    "approx_timestamp_s": 376
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Ask the target buyer what they would pay for before building anything, instead of assuming demand.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "Most people go about starting a business all wrong.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 0,
+    "approx_timestamp_s": 0
+   }
+  },
+  {
+   "lesson": "You can validate without an audience by renting one (PickFu) or using free communities, friends and family.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "Ask your friends and family, go to Twitter, go to Reddit, go to a Facebook group",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14544,
+    "approx_timestamp_s": 805
+   }
+  },
+  {
+   "lesson": "Free-text reasons in a poll are often more valuable than the vote count, especially when analysed by an LLM for pricing and bundling signals.",
+   "theme": "validation_testing",
+   "quote": null
+  },
+  {
+   "lesson": "Bundle commodity features (contact forms) into the main product rather than selling them standalone, since buyers expect them to be free.",
+   "theme": "offer_design",
+   "quote": null
+  },
+  {
+   "lesson": "A feature perceived as hard to build (chatbot) can raise the perceived value of an entire bundle even if few need it.",
+   "theme": "offer_design",
+   "quote": null
+  },
+  {
+   "lesson": "Vibe-coding collapses prototype time from weeks and thousands of dollars to minutes, so speed to market becomes the advantage.",
+   "theme": "automation_ai",
+   "quote": {
+    "text": "You can have an idea at 9:00 a.m. and have a working product ready to sell by noon",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14047,
+    "approx_timestamp_s": 777
+   }
+  },
+  {
+   "lesson": "White-label a single codebase for multiple verticals so one product can be tested across niches cheaply.",
+   "theme": "niche_selection",
+   "quote": null
+  },
+  {
+   "lesson": "Execution matters more than watching; act on the information.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "this video is cool, but it's only cool in so far as you actually do something about it.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14975,
+    "approx_timestamp_s": 829
+   }
+  }
+ ],
+ "evidence_quality": {
+  "rating": "C",
+  "rationale": "A live demo of a validation and build workflow, not a running business: no sales, customers or revenue; poll is from paid US panelists; the product is a prototype with unproven quality. Process details (times, tools, poll results) are first-hand and consistent.",
+  "promotional_conflict": "Mocha is a 'friend of the pod' with a link in the description; host denies PickFu sponsorship but recommends it."
+ },
+ "extraction": {
+  "model": "claude-sonnet-5-5",
+  "extracted_at": "2026-10-22T04:57:08",
+  "cost_usd": 0.0878082,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 25,
+   "verified": 25,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

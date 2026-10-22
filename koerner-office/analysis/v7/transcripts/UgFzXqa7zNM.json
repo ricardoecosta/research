@@ -1,0 +1,1151 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "UgFzXqa7zNM",
+  "title": "The Easiest Way To Start A Business That Almost Never Fails",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=UgFzXqa7zNM",
+  "upload_date": "2025-12-09",
+  "duration_s": 3052,
+  "view_count": 69938,
+  "transcript_provider": "ok",
+  "transcript_chars": 59403,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner interviews Spencer (Lonear Trash, Texas), a software founder who started a residential trash subscription business by pre-selling 3-month service to ~150-200 neighbours on Facebook after the incumbent hauler degraded. He bought a used under-CDL side-loader truck 100% financed, sourced used bins, and grew via referrals (free month per referral), Facebook ads (CAC $35-100), and branded bins. Claimed ~$50-60k/month revenue, ~$300k first-year revenue and ~40% margin on rough maths, with very low churn. They also discuss municipal truck auctions as a flip or list-selling side hustle, city contracts, and starting cheaper with bulk junk pickup.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Host of The Koerner Office"
+  },
+  {
+   "name": "Spencer Scott",
+   "role": "guest",
+   "description": "Founder of Lonear Trash, a Texas residential trash subscription business; also runs software companies"
+  }
+ ],
+ "format": "operator_interview",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Neighbourhood trash subscription (Lonear Trash)",
+   "one_liner": "Pre-sell residential trash pickup subscriptions to a neighbourhood abandoned by a bad incumbent, then serve it with a financed used side-loader truck.",
+   "category": "home_service",
+   "business_model": "Subscription billed in 3-month increments per household",
+   "customer": "Households in neighbourhoods (HOA/utility districts) in Texas unhappy with their existing trash hauler",
+   "problem": "Incumbent hauler sold to private equity, service and billing got worse, and missed pickups",
+   "offer": "Weekly trash pickup with provided branded bins; pre-sale with full refund if the 200-customer target is not hit",
+   "pricing": {
+    "model": "Recurring subscription, billed quarterly",
+    "price_points": [
+     {
+      "amount": 105,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per 3 months (pre-sale)",
+      "label": "Initial pre-sale payment"
+     },
+     {
+      "amount": 35,
+      "amount_max": 60,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "Typical monthly range per house"
+     },
+     {
+      "amount": 9,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per house per week",
+      "label": "Used in revenue-per-pickup maths"
+     }
+    ],
+    "notes": "Referrers get a free month per referred neighbour; refund guarantee on pre-sale."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "facebook_groups_communities",
+     "details": "Posted a no-risk pre-sale offer to the neighbourhood Facebook group; got ~150 sign-ups in 10-15 days and ~200 over about 45 days.",
+     "quote": {
+      "text": "we ended up getting I think in 15 days something like 150 people and then ended up getting like in the first year about 200",
+      "speaker": "Spencer",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 4643,
+      "approx_timestamp_s": 252
+     }
+    },
+    {
+     "channel": "referrals_word_of_mouth",
+     "details": "Free month of trash for each referral; one customer referred 16 houses and got a year free. Branded bins on the street act as billboards.",
+     "quote": {
+      "text": "we created a referral system that gave someone a free month of trash every single time they refer a neighbor",
+      "speaker": "Spencer",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 19242,
+      "approx_timestamp_s": 1046
+     }
+    },
+    {
+     "channel": "paid_social",
+     "details": "Facebook ads sending to Stripe checkout with a success page so the pixel tracks conversions; needed ~$300/day for about a week to train the algorithm; CAC ~$100 early, down to ~$35 some months.",
+     "quote": null
+    },
+    {
+     "channel": "paid_search",
+     "details": "Google pay-per-click; Spencer says he should have used Google Local Services Ads at ~$50/day (pay per lead) and collected Google reviews earlier.",
+     "quote": null
+    },
+    {
+     "channel": "partnerships",
+     "details": "Presence in HOA and utility district recommendations as new residents ask neighbours who to use.",
+     "quote": null
+    }
+   ],
+   "delivery": "Driver(s) collect bins weekly with an automated side-loader arm; ~400 houses in ~4 hours per truck with one dump trip. Two employees (a salaried main driver and a part-time driver). Trucks stored at an RV storage facility; bins in a storage unit.",
+   "unit_economics_claims": [
+    "~$50-60k/month revenue vs ~$30k costs, ~40% margin (Koerner's rough calc)",
+    "CAC $35-100 vs customer lifetime value ~$3,500 (Koerner estimate)",
+    "~1% monthly churn estimated, no cancellations due to service",
+    "First-year revenue ~$300k, little profit due to capex"
+   ],
+   "tools": [
+    "Stripe",
+    "Facebook Ads",
+    "Facebook Marketplace",
+    "Facebook groups",
+    "Google Ads",
+    "Google Local Services Ads",
+    "Samsara GPS/OBD tracker",
+    "Dash cams",
+    "CRM"
+   ],
+   "startup_cost": "Effectively no cash out of pocket: $15k pre-sales covered ~$10k used bins plus dump fees and fuel for 3 months; truck $35k + $5k shipping financed via a $40k Amex personal loan at ~7% over 10 years ($700/month).",
+   "time_to_first_revenue": "Pre-sale cash within days of posting (about 10-15 days for 150 sign-ups)",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Facebook/Google ads and referral credits can be run by agents; community posting needs light human presence and Facebook group rules."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Stripe checkout and CRM automation; address-based setup and bin delivery needs a human."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical trash collection with trucks and drivers; a human must do it each time."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Stripe recurring quarterly billing is fully automatic."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Agents can handle missed-pickup and billing queries; physical fixes need humans."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 2,
+    "notes": "UK household waste is collected by councils or licensed contractors under council contracts, so private residential subscription collection is not a standard market. Commercial waste needs a waste carrier licence and waste transfer notes. The pre-sale and referral mechanics transfer, but the specific business largely does not."
+   },
+   "risks": [
+    "Incumbent is not always bad; customers rarely switch without a trigger",
+    "Truck breakdowns, tyre wear, insurance cost",
+    "HOA complaints about parking trucks",
+    "Sole reliance on drivers showing up",
+    "Personal-guarantee loan tied to founder",
+    "Requires an opportunistic trigger (incumbent failure)"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "if I can get 200 customers to sign up, there's 400 people who live in here... And if you don't if we don't hit that number, 100% refund. There's no risk.",
+     "speaker": "Spencer",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 3644,
+     "approx_timestamp_s": 198
+    },
+    {
+     "text": "I bought the truck, started making payments on it, never took a dollar out of my pocket.",
+     "speaker": "Spencer",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 175,
+     "approx_timestamp_s": 9
+    },
+    {
+     "text": "I can't win business just to win business... You have to mess up for me to win the business.",
+     "speaker": "Spencer",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 17756,
+     "approx_timestamp_s": 966
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Municipal garbage truck auction sourcing and flipping",
+   "one_liner": "Buy used trash trucks cheaply at in-person city auctions, financing them, to use or resell.",
+   "category": "arbitrage_reselling",
+   "business_model": "Buy low at auction, keep or resell for profit",
+   "customer": "Trash companies and operators wanting used trucks",
+   "problem": "Used trucks are expensive; municipalities replace fleets on a schedule and sell them at auction",
+   "offer": "Trucks purchased far below market and resold or refurbished",
+   "pricing": {
+    "model": "One-off resale",
+    "price_points": [
+     {
+      "amount": 60000,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "Spencer's winning bid for a 2020 truck"
+     },
+     {
+      "amount": 190000,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "Comparable Facebook Marketplace price"
+     }
+    ],
+    "notes": "Auction pay-in-cash requirement caught Spencer out; he used an equipment financing preapproval."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "facebook_groups_communities",
+     "details": "Municipal truck auctions found in trash truck Facebook groups and Marketplace.",
+     "quote": null
+    }
+   ],
+   "delivery": "Attend in-person auctions, transport, optionally refurbish via dealer, and list for sale.",
+   "unit_economics_claims": [
+    "Bought a ~$190k truck for $60k at auction",
+    "Financed at ~$1,700/month, ~8%"
+   ],
+   "tools": [
+    "Facebook Marketplace",
+    "Facebook groups",
+    "Equipment financing"
+   ],
+   "startup_cost": "About $10k cash suggested to attend an auction",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Auction discovery could be scraped by agents but buyers must attend in person."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Buyer negotiation is mostly manual."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical attendance, transport and refurb."
+    },
+    "billing": {
+     "score_e": 2,
+     "how": "One-off payments handled manually."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Occasional buyer queries."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "UK councils and fleet operators sell vehicles via auction and online auction houses; discounts are likely smaller and the market is thinner."
+   },
+   "risks": [
+    "Need cash on the day",
+    "Predatory equipment financiers",
+    "Truck condition and repair costs",
+    "Competition from pro buyers"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "We got it for $60,000.",
+     "speaker": "Spencer",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 38516,
+     "approx_timestamp_s": 2095
+    },
+    {
+     "text": "if I would have just taken it right there and put it on Facebook Marketplace, it would have been worth 190.",
+     "speaker": "Spencer",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 38587,
+     "approx_timestamp_s": 2099
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Municipal truck auction list",
+   "one_liner": "Pay people to call municipalities for auction schedules and sell the compiled list of trucks.",
+   "category": "data_leads",
+   "business_model": "Sell lists or subscription of auction inventory",
+   "customer": "Trash operators and flippers wanting cheap used trucks",
+   "problem": "Municipal auction information is scattered",
+   "offer": "Compiled list of upcoming municipal auctions and trucks",
+   "pricing": {
+    "model": "One-off list sale",
+    "price_points": [
+     {
+      "amount": 1000,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per list",
+      "label": "Koerner's guess"
+     }
+    ],
+    "notes": "Idea only, not tested."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "facebook_groups_communities",
+     "details": "Sell into trash truck Facebook groups (implied).",
+     "quote": null
+    }
+   ],
+   "delivery": "Offshore VAs call municipalities and compile auction lists.",
+   "unit_economics_claims": [
+    "Could charge ~$1,000 per list (hypothetical)"
+   ],
+   "tools": [],
+   "startup_cost": "Low; VA labour",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Listing sold via community posts and SEO."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Self-serve purchase."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Agents can scrape council auction notices; some phone checks needed."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Online checkout."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "Light support."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "UK equivalents exist via council auction pages and auction houses; market smaller."
+   },
+   "risks": [
+    "Niche demand",
+    "Information is public so easy to copy"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "You just list it do the listing inventory listing. You don't even buy them, right? And then you sell the list.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 41194,
+     "approx_timestamp_s": 2241
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "Bulk junk and trash pickup with truck and trailer",
+   "one_liner": "Start a junk-removal business with a pickup and trailer via Facebook, then upgrade to bag pickup and dumpsters.",
+   "category": "home_service",
+   "business_model": "Per-job fees",
+   "customer": "Homeowners with bulk junk",
+   "problem": "People need junk hauled to the landfill",
+   "offer": "Bulk trash pickup",
+   "pricing": {
+    "model": "Per job",
+    "price_points": [
+     {
+      "amount": 600,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per job",
+      "label": "Example bulk pickup bill"
+     }
+    ],
+    "notes": "Spencer suggests the path: bulk pickup, trailer, drop-in dumpsters, then branded subscription bins."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "facebook_groups_communities",
+     "details": "Offer pickup on Facebook.",
+     "quote": null
+    }
+   ],
+   "delivery": "Owner drives truck and trailer to the landfill.",
+   "unit_economics_claims": [
+    "~$600 per job (illustrative)"
+   ],
+   "tools": [
+    "Facebook"
+   ],
+   "startup_cost": "Next to nothing if you own a pickup truck",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Ads and listings automate."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Online booking."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical hauling."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Online payment."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Agent handles queries."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Man-with-van and waste clearance is common in the UK but needs a waste carrier licence and licensed tip disposal."
+   },
+   "risks": [
+    "Hard physical work",
+    "Fly-tipping liability",
+    "Licence compliance"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "I would start with bulk pickup. Facebook will pick up your trash. Then I would go to trailer.",
+     "speaker": "Spencer",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 29509,
+     "approx_timestamp_s": 1605
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "Wheelie bin cleaning service",
+   "one_liner": "Power-wash customers' trash bins on a schedule, sold via Facebook ads.",
+   "category": "home_service",
+   "business_model": "Recurring cleaning service",
+   "customer": "Homeowners",
+   "problem": "Dirty bins",
+   "offer": "Bin cleaning",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "Low-ticket"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "paid_social",
+     "details": "Facebook ads with properly set-up conversion tracking; unit economics work according to Kade.",
+     "quote": null
+    }
+   ],
+   "delivery": "Power washing by staff.",
+   "unit_economics_claims": [
+    "Kade reportedly does ~$50k/month"
+   ],
+   "tools": [
+    "Facebook Ads"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Paid ads."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Online sign up."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical work."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Online."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Agents."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Bin cleaning businesses exist in the UK; water discharge rules apply."
+   },
+   "risks": [
+    "Commodity service"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "I met a kid who was doing 50 grand a month power washing trash cans.",
+     "speaker": "Spencer",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 19798,
+     "approx_timestamp_s": 1077
+    }
+   ]
+  },
+  {
+   "local_id": "I6",
+   "name": "Municipal waste contracts",
+   "one_liner": "Scale up to winning city waste collection contracts with many thousands of homes.",
+   "category": "b2b_service",
+   "business_model": "Municipal contract per household",
+   "customer": "City governments",
+   "problem": "Cities need reliable trash service",
+   "offer": "Contract collection",
+   "pricing": {
+    "model": "Per household monthly",
+    "price_points": [
+     {
+      "amount": 40,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per home per month",
+      "label": "Hypothetical"
+     }
+    ],
+    "notes": "Hypothetical: 20,000 homes x $40 = $800k/month."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Formal bids; only a few large firms typically win; Spencer has one micro-city contract.",
+     "quote": null
+    }
+   ],
+   "delivery": "Fleet of trucks and drivers.",
+   "unit_economics_claims": [
+    "Two trucks serve ~20,000 homes per the former city manager",
+    "McKinney order of 300,000 bins"
+   ],
+   "tools": [],
+   "startup_cost": "Large fleet",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Relationship-based bidding."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Contract admin."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Invoice city."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Contract management."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 1,
+    "notes": "UK council waste contracts go through formal procurement and are dominated by large firms."
+   },
+   "risks": [
+    "Cities cannot tolerate outages",
+    "Needs scale and track record"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "If you got the whole city of Wy 20,000 homes, 40 bucks, we're talking 800,000 a month.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 46412,
+     "approx_timestamp_s": 2525
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Spencer says the business does about $50,000 a month",
+   "metric": "revenue",
+   "value": {
+    "amount": 50000,
+    "amount_max": 60000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": null
+   },
+   "period": "monthly",
+   "claimant": "Chris Koerner / Spencer",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So 50 $50 to $60,000 a month in revenue and about $30,000 in costs including your salaries.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 54077,
+    "approx_timestamp_s": 2942
+   }
+  },
+  {
+   "claim": "Pre-sale: ~200 customers paid $105 for 3 months",
+   "metric": "revenue",
+   "value": {
+    "amount": 15000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": "First ~150 pre-sales"
+   },
+   "period": "first 10-15 days",
+   "claimant": "Spencer",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "we got basically 200 or 200 people to send us $105.",
+    "speaker": "Spencer",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5114,
+    "approx_timestamp_s": 278
+   }
+  },
+  {
+   "claim": "First-year revenue around $300k",
+   "metric": "revenue",
+   "value": {
+    "amount": 300000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per year",
+    "label": null
+   },
+   "period": "year 1",
+   "claimant": "Spencer",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "revenue I know we were in the 300 ballpark.",
+    "speaker": "Spencer",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 48588,
+    "approx_timestamp_s": 2643
+   }
+  },
+  {
+   "claim": "Facebook CAC about $100 early, down to $35",
+   "metric": "cost",
+   "value": {
+    "amount": 35,
+    "amount_max": 100,
+    "currency": "USD",
+    "unit": "per customer",
+    "label": "CAC"
+   },
+   "period": null,
+   "claimant": "Spencer",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "we've gotten it on certain months down to like $35 to get a customer.",
+    "speaker": "Spencer",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23533,
+    "approx_timestamp_s": 1280
+   }
+  },
+  {
+   "claim": "Truck cost $35k plus $5k shipping, financed at $700/month",
+   "metric": "cost",
+   "value": {
+    "amount": 40000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": "Truck and shipping"
+   },
+   "period": null,
+   "claimant": "Spencer",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "it's $700 a month payment.",
+    "speaker": "Spencer",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10569,
+    "approx_timestamp_s": 575
+   }
+  },
+  {
+   "claim": "200 used bins cost about $10k delivered",
+   "metric": "cost",
+   "value": {
+    "amount": 10000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": "200 used bins"
+   },
+   "period": null,
+   "claimant": "Spencer",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I bought 200 of them and I want to say they were it was all in for like 10 grand.",
+    "speaker": "Spencer",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14683,
+    "approx_timestamp_s": 798
+   }
+  },
+  {
+   "claim": "Second truck: $60k auction price, ~$1,700/month payment at ~8%",
+   "metric": "cost",
+   "value": {
+    "amount": 60000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": "Auction truck"
+   },
+   "period": null,
+   "claimant": "Spencer",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "We got it for $60,000.",
+    "speaker": "Spencer",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 38516,
+    "approx_timestamp_s": 2095
+   }
+  },
+  {
+   "claim": "Driver can do 400 houses in about 4 hours",
+   "metric": "hours",
+   "value": {
+    "amount": 400,
+    "amount_max": null,
+    "currency": "houses",
+    "unit": "per 4 hours",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Spencer",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I would say he could probably do 400 houses in 4 hours.",
+    "speaker": "Spencer",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 52259,
+    "approx_timestamp_s": 2843
+   }
+  },
+  {
+   "claim": "Main driver salary $50k; part-timer $17-18/hour",
+   "metric": "cost",
+   "value": {
+    "amount": 50000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per year",
+    "label": "Main driver"
+   },
+   "period": null,
+   "claimant": "Spencer",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So we pay um 25 right now uh for our main driver who drives a big truck.",
+    "speaker": "Spencer",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 49432,
+    "approx_timestamp_s": 2689
+   }
+  },
+  {
+   "claim": "Insurance about $800 per truck per month; fuel about $200/day; storage $200/month",
+   "metric": "cost",
+   "value": {
+    "amount": 1600,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "Truck insurance"
+   },
+   "period": "monthly",
+   "claimant": "Spencer",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "right now I think we're at like $1,600, like $800 a truck.",
+    "speaker": "Spencer",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 52957,
+    "approx_timestamp_s": 2881
+   }
+  },
+  {
+   "claim": "Hypothetical max revenue of one full truck is $210,000/month",
+   "metric": "revenue",
+   "value": {
+    "amount": 210000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "Max potential"
+   },
+   "period": "monthly",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "$210,000 a month >> in like max potential revenue if you're running and gunning.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 44661,
+    "approx_timestamp_s": 2429
+   }
+  },
+  {
+   "claim": "Estimated customer lifetime value $3,500",
+   "metric": "other",
+   "value": {
+    "amount": 3500,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per customer",
+    "label": "LTV"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "the lifetime value of one of your customers is $3,500",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 27615,
+    "approx_timestamp_s": 1502
+   }
+  },
+  {
+   "claim": "Could charge about $1,000 for an auction list",
+   "metric": "price",
+   "value": {
+    "amount": 1000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per list",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "you could probably charge $1,000 for a list",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 41420,
+    "approx_timestamp_s": 2253
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Risk-free neighbourhood pre-sale",
+   "area": "acquisition",
+   "steps": [
+    "Identify a neighbourhood with a failing incumbent",
+    "Post a transparent offer on the local Facebook group with a target (e.g. 200 customers)",
+    "Offer 100% refund if the target is missed",
+    "Charge 3 months upfront ($105)",
+    "Extend Stripe payout hold to cover refunds",
+    "Use the cash to buy equipment"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "We put in Stripe, you can extend the escrow before the money gets transferred to you.",
+    "speaker": "Spencer",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4236,
+    "approx_timestamp_s": 230
+   }
+  },
+  {
+   "name": "Facebook ads conversion tracking setup",
+   "area": "acquisition",
+   "steps": [
+    "Hire a Fiverr specialist to install the pixel",
+    "Send buyers to Stripe checkout, then to a success page",
+    "Optimise for conversions not clicks",
+    "Budget about $300/day for a week to train the algorithm",
+    "Scale spend as CAC falls"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Referral credits",
+   "area": "acquisition",
+   "steps": [
+    "Give a free month for each neighbour referred",
+    "Credit the account when the name is submitted"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Leave branded bins at addresses",
+   "area": "operations",
+   "steps": [
+    "Keep the address open when customers cancel",
+    "New residents call the number on the bin",
+    "Use branded bins as street billboards"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Seed local Facebook groups",
+   "area": "acquisition",
+   "steps": [
+    "Join 10-20 neighbourhood Facebook groups",
+    "Search for complaints about trash",
+    "Plant seeds, then launch when a contract fails"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Find trucks in operator Facebook groups",
+   "area": "operations",
+   "steps": [
+    "Join the Mom and Pop Trash group and truck Marketplace groups",
+    "Look for under-CDL side-loaders",
+    "Buy from a brand with local dealer support"
+   ],
+   "idea_local_id": "I2",
+   "quote": null
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Stripe",
+   "purpose": "Payments, pre-sale checkout, extended payout hold",
+   "cost_stated": null
+  },
+  {
+   "name": "Facebook Ads",
+   "purpose": "Customer acquisition",
+   "cost_stated": "$300/day for first week; CAC $35-100"
+  },
+  {
+   "name": "Facebook Marketplace",
+   "purpose": "Finding trucks",
+   "cost_stated": null
+  },
+  {
+   "name": "Amex personal loan",
+   "purpose": "Financing first truck",
+   "cost_stated": "$40k at ~7% over 10 years"
+  },
+  {
+   "name": "Fiverr",
+   "purpose": "Pixel installation",
+   "cost_stated": null
+  },
+  {
+   "name": "Google Local Services Ads",
+   "purpose": "Pay-per-lead ads",
+   "cost_stated": "~$50/day"
+  },
+  {
+   "name": "Samsara",
+   "purpose": "GPS and OBD tracking",
+   "cost_stated": null
+  },
+  {
+   "name": "Cascade",
+   "purpose": "Polycart manufacturer",
+   "cost_stated": null
+  },
+  {
+   "name": "BNG Sales",
+   "purpose": "Used bin supplier",
+   "cost_stated": "200 bins ~$10k"
+  },
+  {
+   "name": "Heil",
+   "purpose": "Truck brand with local service",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Equipment financiers can be sharky: no early payoff, truck repossessed if you miss payments.",
+   "quote": {
+    "text": "it's a little sharky. Like, I would say be careful cuz I talked to like four other people.",
+    "speaker": "Spencer",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 43212,
+    "approx_timestamp_s": 2351
+   }
+  },
+  {
+   "warning": "Auction requires cash on the day.",
+   "quote": null
+  },
+  {
+   "warning": "Parking a garbage truck at home triggers HOA letters.",
+   "quote": null
+  },
+  {
+   "warning": "Spencer did not collect Google reviews for the first 1.5 years, which he regards as a mistake.",
+   "quote": null
+  },
+  {
+   "warning": "Customers do not switch just because of the story or reviews; they switch when the incumbent errs.",
+   "quote": null
+  },
+  {
+   "warning": "Spent the pre-sale cash on bins rather than financing them.",
+   "quote": null
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Pre-sales with a refund guarantee de-risk a physical business and fund equipment.",
+   "theme": "validation_testing",
+   "quote": null
+  },
+  {
+   "lesson": "Ignorance of an industry can be a superpower; industry insiders often discourage.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "Ignorance can be bliss. Naity can be a superpower.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13159,
+    "approx_timestamp_s": 715
+   }
+  },
+  {
+   "lesson": "Route density drives profitability in route-based services.",
+   "theme": "finance_unit_economics",
+   "quote": null
+  },
+  {
+   "lesson": "Subscription businesses are more sellable and have lower churn than per-job service businesses.",
+   "theme": "exit_acquisition",
+   "quote": null
+  },
+  {
+   "lesson": "Let customers' recurring payments finance bulk purchases to preserve cash for marketing.",
+   "theme": "finance_unit_economics",
+   "quote": null
+  },
+  {
+   "lesson": "Switching depends on timing; be present when the incumbent fails.",
+   "theme": "customer_acquisition",
+   "quote": null
+  },
+  {
+   "lesson": "Stop operating in the business and hire a driver to work on growth.",
+   "theme": "hiring_outsourcing",
+   "quote": null
+  },
+  {
+   "lesson": "Branded physical assets at customers' homes work as ongoing marketing.",
+   "theme": "customer_acquisition",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "B",
+  "rationale": "First-hand operator with many specifics (prices, loan terms, truck costs), but revenue and profit are loosely stated, margin is Koerner's rough maths, and churn is estimated rather than measured; the business is under 2 years old.",
+  "promotional_conflict": "Koerner promotes his TK Owners community; Spencer sells merch and uses a landing page redirect."
+ },
+ "extraction": {
+  "model": "claude-sonnet-5-5",
+  "extracted_at": "2026-10-22T04:57:40",
+  "cost_usd": 0.18268420000000002,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 27,
+   "verified": 27,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

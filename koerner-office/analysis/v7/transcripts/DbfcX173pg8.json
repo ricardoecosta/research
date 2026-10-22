@@ -1,0 +1,820 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "DbfcX173pg8",
+  "title": "6 signs natural moneymakers have. Do you?",
+  "channel": "My First Million",
+  "url": "https://www.youtube.com/watch?v=DbfcX173pg8",
+  "upload_date": "2026-10-16",
+  "duration_s": 2236,
+  "view_count": 33518,
+  "transcript_provider": "local_whisper_tiny",
+  "transcript_chars": 41447,
+  "transcript_is_whisper": true
+ },
+ "summary": "A My First Million episode where the host (Sean Puri) coins the term 'natural money maker' and lists its attributes: unemotional about money, high hit rate, instinctive 'nose' for deals, maximizer mindset, comfort with complexity. Examples include a trader friend who made a ~$100M ETF arbitrage and built a top restaurant, Syed Balkhi, Carl Icahn, Jay Gould and Charlie Munger. The hosts then sketch other entrepreneur archetypes (missionary, extreme balancer, tank, trickster, fierce nerd, deep student, sniffer) and argue for working with your nature. It is mostly a personality and mindset discussion; the business examples are anecdotal and second-hand.",
+ "speakers": [
+  {
+   "name": "Sean Puri",
+   "role": "host",
+   "description": "Coined 'natural money maker'; co-host of My First Million"
+  },
+  {
+   "name": "Shaan Puri / co-host",
+   "role": "co-host",
+   "description": "Co-host who tells the trader, factory and spending-rule stories; speaker names are not clearly marked in the transcript"
+  }
+ ],
+ "format": "panel_discussion",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "ETF-to-futures/options arbitrage trading",
+   "one_liner": "A trader exploited the pricing gap between ETFs and their underlying stocks using futures/options and fast price data via fibre between New York and Chicago.",
+   "category": "other",
+   "business_model": "Proprietary trading profits from arbitrage spread",
+   "customer": "not stated (market counterparties)",
+   "problem": "Early ETFs priced differently from their underlying baskets, and most traders got quotes slowly via phone and paper slips.",
+   "offer": "Risk-free arbitrage between ETF price and underlying futures/options positions.",
+   "pricing": {
+    "model": "Trading spread/slippage capture",
+    "price_points": [],
+    "notes": "not stated"
+   },
+   "acquisition_channels": [],
+   "delivery": "Trading firm executes trades using low-latency data link (fibre from New York to Chicago exchange).",
+   "unit_economics_claims": [
+    "Company made $100M profit in best year off one arbitrage",
+    "Trader won or lost about $300k in a day"
+   ],
+   "tools": [
+    "Fibre link NY to Chicago",
+    "Futures contracts",
+    "Options"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 5,
+     "how": "No customers; opportunity is market-based."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "No onboarding needed."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Algorithmic execution is automatable but needs capital, infrastructure and risk oversight."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "P&L settles automatically."
+    },
+    "support": {
+     "score_e": 5,
+     "how": "No customers."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 1,
+    "notes": "Edge was an early-2000s latency gap that has since been arbitraged away; needs large capital and regulatory authorisation (FCA)."
+   },
+   "risks": [
+    "Edge disappears once competitors copy",
+    "Large daily swings",
+    "Needs significant capital and infrastructure"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "His best year, his company made 100 million in profit off of one arbitrage that he found.",
+     "speaker": "Host",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 4578,
+     "approx_timestamp_s": 255
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Fine-dining restaurant (Alinea-style)",
+   "one_liner": "Same trader built a top-ranked restaurant aiming for three Michelin stars, reaching ~$26M revenue and ~20% profit.",
+   "category": "events_experiences",
+   "business_model": "Restaurant sales, with COVID pivot to takeaway dinners",
+   "customer": "High-end diners",
+   "problem": "Restaurants are generally poor businesses.",
+   "offer": "Best restaurant in America with a star chef partner.",
+   "pricing": {
+    "model": "Fine dining; $35 takeaway dinners during COVID",
+    "price_points": [
+     {
+      "amount": 35,
+      "currency": "USD",
+      "unit": "per takeaway dinner",
+      "label": "COVID takeaway"
+     }
+    ],
+    "notes": "Fine-dining prices not stated"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Public declaration on a forum of the goal to be the best restaurant in America; reputation and press.",
+     "quote": null
+    }
+   ],
+   "delivery": "Chef partner and restaurant staff in physical restaurant.",
+   "unit_economics_claims": [
+    "Peak revenue $26M a year with almost 20% profit"
+   ],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Reputation-driven, press and word of mouth."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Reservations can be software-driven."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical cooking and service."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Card payments and booking deposits."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Front-of-house staff."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Restaurants exist in the UK but need a star chef partner, capital and licensing."
+   },
+   "risks": [
+    "Restaurants have slim margins",
+    "Pandemic shutdowns"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "at its peak, Alenia was doing, you know, 26 million a year in revenue with almost 20% profit even during COVID",
+     "speaker": "Host",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 7086,
+     "approx_timestamp_s": 394
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Wine collection arbitrage",
+   "one_liner": "Buying wine collections far below market value and reselling.",
+   "category": "arbitrage_reselling",
+   "business_model": "Buy low, sell at market value",
+   "customer": "Wine buyers/collectors",
+   "problem": "Collections are sometimes sold well below value.",
+   "offer": "Resale of discounted collection.",
+   "pricing": {
+    "model": "Buy-low resale margin",
+    "price_points": [
+     {
+      "amount": 150000,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "purchase price of collection"
+     },
+     {
+      "amount": 1000000,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "claimed value"
+     }
+    ],
+    "notes": "Claimed in passing"
+   },
+   "acquisition_channels": [],
+   "delivery": "not stated",
+   "unit_economics_claims": [
+    "Bought a $1M wine collection for $150k"
+   ],
+   "tools": [],
+   "startup_cost": "$150,000 for the one deal",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Deal sourcing needs judgement; some scraping of listings possible."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Buyers via marketplaces."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Physical storage and shipping."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Online payments."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Routine."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Wine resale works in the UK; valuation and authenticity expertise needed."
+   },
+   "risks": [
+    "Authenticity/valuation risk",
+    "Illiquid"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "I just bought this million dollar wine collection for $150,000.",
+     "speaker": "Trader friend (via host)",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 7593,
+     "approx_timestamp_s": 423
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "Buying defaulted credit card debt",
+   "one_liner": "Buy defaulted credit card debt and hire a firm to collect, targeting ~14% return.",
+   "category": "other",
+   "business_model": "Debt purchase and collection spread",
+   "customer": "Debtors (collected by agency)",
+   "problem": "Banks sell distressed debt.",
+   "offer": "Purchase debt portfolios and outsource collections.",
+   "pricing": {
+    "model": "Return on purchased debt",
+    "price_points": [],
+    "notes": "~14% return claimed"
+   },
+   "acquisition_channels": [],
+   "delivery": "Hired collections firm does the work.",
+   "unit_economics_claims": [
+    "About 14% return"
+   ],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Debt portfolios sourced through brokers."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Outsourced."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Outsourced to collection agency."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Agency remits."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Handled by agency."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "UK debt purchase is FCA-regulated and consumer-credit rules apply."
+   },
+   "risks": [
+    "Regulatory and conduct risk",
+    "Reputational risk",
+    "Low return for effort"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "you could buy defaulted or soon to be defaulted credit cards. Meaning you could buy the debt.",
+     "speaker": "Friend (via host)",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 8070,
+     "approx_timestamp_s": 449
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "Buying gas stations (triple net lease)",
+   "one_liner": "Syed Balkhi buys small gas stations on hard corners with triple net leases, so there's nothing to manage.",
+   "category": "real_estate",
+   "business_model": "Rental income from triple-net lease",
+   "customer": "Operator tenant",
+   "problem": "Passive returns on real estate.",
+   "offer": "Own a gas station property leased to an operator.",
+   "pricing": {
+    "model": "Lease income",
+    "price_points": [
+     {
+      "amount": 200000,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "example gas station price"
+     }
+    ],
+    "notes": "Rent not stated"
+   },
+   "acquisition_channels": [],
+   "delivery": "Tenant operates; owner collects rent.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "~$200,000 per station (claimed)",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Deal sourcing and due diligence are human."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Legal work."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "Tenant runs it."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Rent collected."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "Minimal."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "UK commercial property with leases exists, but gas station economics and prices differ and environmental liabilities apply."
+   },
+   "risks": [
+    "Environmental liability",
+    "Tenant default"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "it's a triple net lease. There's nothing to manage.",
+     "speaker": "Host",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 19019,
+     "approx_timestamp_s": 1059
+    }
+   ]
+  },
+  {
+   "local_id": "I6",
+   "name": "D2C brand with own manufacturing plant",
+   "one_liner": "A friend running a profitable D2C product brand built his own factory when COGS rose, cutting costs by half.",
+   "category": "ecommerce_physical",
+   "business_model": "DTC product sales",
+   "customer": "not stated",
+   "problem": "Rising cost of goods eroded margins.",
+   "offer": "Own-manufactured product.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "not stated"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "paid_social",
+     "details": "Facebook ad platform mentioned as dependency.",
+     "quote": null
+    }
+   ],
+   "delivery": "Bought machines from European manufacturers and had them set up the plant in the US.",
+   "unit_economics_claims": [
+    "Typical e-commerce EBIT margins of 6-14%",
+    "Machine payback in about two months",
+    "Costs dropped in half after factory"
+   ],
+   "tools": [
+    "Facebook ads"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "Factory up about a year later",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Paid ads."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Checkout."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Manufacturing and fulfilment are physical."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Online payments."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Standard e-commerce support."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Works in the UK with different tariffs and VAT."
+   },
+   "risks": [
+    "Inventory",
+    "Ad platform dependence",
+    "Tariffs"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "the cogs kept going up, so then we built our own manufacturing plant.",
+     "speaker": "Friend (via host)",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 16321,
+     "approx_timestamp_s": 909
+    }
+   ]
+  },
+  {
+   "local_id": "I7",
+   "name": "Novelty product tricksters (name-a-star registry, Calm, weighted blanket)",
+   "one_liner": "Trickster archetype creating novelty or viral products, e.g. a name-a-star registry sold for about $30.",
+   "category": "digital_products",
+   "business_model": "One-off novelty sales",
+   "customer": "Gift buyers",
+   "problem": "Gifts disconnected from utility.",
+   "offer": "Star naming registry certificate.",
+   "pricing": {
+    "model": "One-off",
+    "price_points": [
+     {
+      "amount": 30,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "name a star"
+     }
+    ],
+    "notes": "Claimed millions of dollars total"
+   },
+   "acquisition_channels": [],
+   "delivery": "Registry entry or certificate.",
+   "unit_economics_claims": [
+    "Name-a-star guy made millions at $30 each"
+   ],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "SEO and ads for gift searches."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Online checkout."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "Digital certificate."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Online payment."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "FAQ and email."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Works in the UK, but 'official' naming claims can raise advertising-standards issues."
+   },
+   "risks": [
+    "Misleading claims (stars are not officially named)"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "people were paying 30 bucks to name some of the name a star after someone for their birthday.",
+     "speaker": "Host",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 32665,
+     "approx_timestamp_s": 1820
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Trader's company made $100M profit in best year from one arbitrage",
+   "metric": "profit",
+   "value": {
+    "amount": 100000000,
+    "currency": "USD",
+    "unit": "per year",
+    "label": null
+   },
+   "period": "best year",
+   "claimant": "Host (about guest)",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "His best year, his company made 100 million in profit off of one arbitrage that he found.",
+    "speaker": "Host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4578,
+    "approx_timestamp_s": 255
+   }
+  },
+  {
+   "claim": "Restaurant peaked at $26M revenue with almost 20% profit",
+   "metric": "revenue",
+   "value": {
+    "amount": 26000000,
+    "currency": "USD",
+    "unit": "per year",
+    "label": null
+   },
+   "period": "peak",
+   "claimant": "Host (about guest)",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "at its peak, Alenia was doing, you know, 26 million a year in revenue with almost 20% profit",
+    "speaker": "Host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7086,
+    "approx_timestamp_s": 394
+   }
+  },
+  {
+   "claim": "Bought million-dollar wine collection for $150,000",
+   "metric": "cost",
+   "value": {
+    "amount": 150000,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Trader friend (via host)",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "I just bought this million dollar wine collection for $150,000.",
+    "speaker": "Host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7593,
+    "approx_timestamp_s": 423
+   }
+  },
+  {
+   "claim": "Defaulted debt purchase yields about 14% return",
+   "metric": "margin",
+   "value": {
+    "amount": 14,
+    "currency": null,
+    "unit": "percent return",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Friend (via host)",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "I could bake like a 14% return or something like that.",
+    "speaker": "Host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8226,
+    "approx_timestamp_s": 458
+   }
+  },
+  {
+   "claim": "Name-a-star sold at about $30",
+   "metric": "price",
+   "value": {
+    "amount": 30,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Host (about a third party)",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "people were paying 30 bucks to name some of the name a star after someone for their birthday.",
+    "speaker": "Host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 32665,
+    "approx_timestamp_s": 1820
+   }
+  },
+  {
+   "claim": "Typical e-commerce EBIT margins 6-14%",
+   "metric": "margin",
+   "value": {
+    "amount": 6,
+    "amount_max": 14,
+    "currency": null,
+    "unit": "percent EBIT",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Host",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "You might be like a 10%, 6%, 14% e-bit margins.",
+    "speaker": "Host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15807,
+    "approx_timestamp_s": 880
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Only spend the investment returns on income",
+   "area": "finance",
+   "steps": [
+    "Invest income rather than upgrading lifestyle",
+    "Spend only the gains the investments generate",
+    "Keep annual budget under about 3% of liquid net worth (one host's version)"
+   ],
+   "idea_local_id": null,
+   "quote": {
+    "text": "you only spend the second derivative.",
+    "speaker": "Host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 19835,
+    "approx_timestamp_s": 1105
+   }
+  },
+  {
+   "name": "Make complex projects simple by copying those who've done it",
+   "area": "operations",
+   "steps": [
+    "Find companies already doing it",
+    "Ask cost and payback of equipment",
+    "Check scale needed to pay back",
+    "Pay them well to help set it up"
+   ],
+   "idea_local_id": "I6",
+   "quote": null
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Facebook ads",
+   "purpose": "Customer acquisition for D2C brands",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "E-commerce and restaurants are low-margin businesses living on a knife's edge (inventory, ad platform, tariffs).",
+   "quote": {
+    "text": "you're always buying inventory, and you're always kind of living on a knife's edge with the Facebook ad platform and tariffs",
+    "speaker": "Host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15908,
+    "approx_timestamp_s": 886
+   }
+  },
+  {
+   "warning": "Don't dismiss people who plan money tightly as miserly; getting curious is better than a defensive reaction.",
+   "quote": null
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Treat unfamiliarity as different from complexity; people who succeed often confuse uncertainty with risk less than others do.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "I'm confusing uncertainty with risk. I'm confusing unfamiliarity with complexity.",
+    "speaker": "Host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 19251,
+    "approx_timestamp_s": 1072
+   }
+  },
+  {
+   "lesson": "Diminishing returns are still returns: maximizers keep hunting small edges others skip as too much trouble.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "They say diminishing returns are still returns.",
+    "speaker": "Host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8999,
+    "approx_timestamp_s": 501
+   }
+  },
+  {
+   "lesson": "Cut costs unemotionally based on the numbers (Icahn firing 12 floors with no visible impact).",
+   "theme": "finance_unit_economics",
+   "quote": null
+  },
+  {
+   "lesson": "A simple rationale can drive a hard execution: the logic should fit on a fortune cookie.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "The logic fits on a fortune cookie.",
+    "speaker": "Host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18298,
+    "approx_timestamp_s": 1019
+   }
+  },
+  {
+   "lesson": "Work with your nature rather than against it; identify your archetype and borrow attributes from others.",
+   "theme": "niche_selection",
+   "quote": null
+  },
+  {
+   "lesson": "Beyond a point, extra money buys little; trade some hours toward areas you're weak at (health, marriage, new skills).",
+   "theme": "mindset_execution",
+   "quote": null
+  },
+  {
+   "lesson": "Early conviction (the 'sniffer') can be an investing edge: believing in trends before the market does.",
+   "theme": "validation_testing",
+   "quote": null
+  },
+  {
+   "lesson": "Vertical integration (own manufacturing) can fix rising COGS if payback is quick and a template exists.",
+   "theme": "scaling",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "C",
+  "rationale": "Mostly anecdotal, second-hand stories about friends and famous investors, with an opinion-based personality framework. No first-hand business with verifiable numbers; transcript is Whisper tiny so names are garbled.",
+  "promotional_conflict": "Promotes a podcast archetype quiz; host sells newsletter and media products."
+ },
+ "extraction": {
+  "model": "claude-sonnet-5-5",
+  "extracted_at": "2026-10-22T04:59:57",
+  "cost_usd": 0.12159020000000001,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 18,
+   "verified": 18,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

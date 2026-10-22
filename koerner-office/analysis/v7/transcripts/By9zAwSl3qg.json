@@ -1,0 +1,1019 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "By9zAwSl3qg",
+  "title": "The Most Useful AI Skill You Can Learn Today",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=By9zAwSl3qg",
+  "upload_date": "2025-07-08",
+  "duration_s": 2550,
+  "view_count": 15870,
+  "transcript_provider": "ok",
+  "transcript_chars": 41859,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner interviews a Canadian developer/YouTuber (Mike, X handle 'Rasmiki') about how non-technical people can use AI automation and vibe-coding tools. He urges viewers to build at least one automation, shares his AI pizza-ordering agent, and explains n8n webhooks for packaging automations into web apps. The key advice is to solve problems from your own industry (outside the tech bubble), use UX/design taste as a moat, pick LLMs by task (Claude for code, OpenAI for consumer chat, Gemini for cost), and keep learning tools. Business ideas are mostly illustrative and unvalidated.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Host of The Koerner Office; also promotes his TK Owners community."
+  },
+  {
+   "name": "Mike (Rasmiki)",
+   "role": "guest",
+   "description": "Canadian software developer and YouTuber who builds AI automations and apps; uses Tempo as a vibe-coding tool."
+  }
+ ],
+ "format": "operator_interview",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Industry-specific AI app built by an insider (e.g. pharmacy software)",
+   "one_liner": "Domain insiders use AI/vibe-coding tools to build software for the boring, compliance-heavy pain points of their own industry.",
+   "category": "saas_software",
+   "business_model": "Software subscription or sales to businesses in a niche industry (not specified in detail).",
+   "customer": "Professionals and businesses in a specific industry, e.g. pharmacies.",
+   "problem": "Annoying billing, medication-registration software and compliance burdens that tech-bubble builders find boring and ignore.",
+   "offer": "A tailored app or wrapper solving a specific workflow pain point in the builder's own industry.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "No pricing given."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "referrals_word_of_mouth",
+     "details": "Distribute wrappers to friends and co-workers in the industry to test and gather feedback, then iterate.",
+     "quote": {
+      "text": "I'm gonna take the top three and build rappers from these three and distribute them to my friends and co-workers just to test and play around with",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 21321,
+      "approx_timestamp_s": 1331
+     }
+    }
+   ],
+   "delivery": "Built with AI/vibe-coding tools by the industry insider; hosted software.",
+   "unit_economics_claims": [],
+   "tools": [
+    "ChatGPT deep research",
+    "vibe-coding tools",
+    "Tempo"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Outreach to personal network is human; later marketing in niche could use content/SEO with tooling."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Self-serve SaaS onboarding can be largely automated."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Software product runs itself once built; agents can maintain it with occasional human review."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Subscription billing via Stripe-type tools."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "AI support with human escalation for compliance questions."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Approach is general; UK pharmacy or other regulated sectors have their own compliance (e.g. NHS, GDPR) requiring adaptation."
+   },
+   "risks": [
+    "Regulated industries (pharmacy) carry compliance and data-protection obligations",
+    "Builder needs real domain knowledge and distribution",
+    "No validation or revenue evidence given"
+   ],
+   "is_primary": true,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "I have a a friend who works with works at a pharmacy and he's having fun building things forarmacies",
+     "speaker": "Mike (Rasmiki)",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 19753,
+     "approx_timestamp_s": 1233
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "AI-first bookkeeping app",
+   "one_liner": "A bookkeeping/receipt app built AI-first, ideally by an accountant or bookkeeper who knows the pain points.",
+   "category": "saas_software",
+   "business_model": "Software subscription (implied).",
+   "customer": "Individuals and small businesses handling tax season and receipts.",
+   "problem": "Receipt tracking is annoying and existing apps (QuickBooks, Xero) miscategorise transactions, e.g. rent as business.",
+   "offer": "AI-first bookkeeping that categorises transactions and receipts correctly.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "No pricing given."
+   },
+   "acquisition_channels": [],
+   "delivery": "Software app with AI categorisation.",
+   "unit_economics_claims": [],
+   "tools": [
+    "QuickBooks",
+    "Xero"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Inbound SEO/content and app-store listings can be agent-driven."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Self-serve connection of bank feeds and receipt uploads."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "AI categorisation runs automatically; occasional human review of errors."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Standard subscription billing."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "AI support with human handling of tax-related edge cases."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "UK needs HMRC Making Tax Digital compatibility and UK VAT/tax categories; crowded with Xero, FreeAgent, QuickBooks."
+   },
+   "risks": [
+    "Crowded market with strong incumbents",
+    "Accuracy errors in tax contexts carry liability",
+    "Speaker did not build it"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "I really wanted to build an AI bookkeeping app. Tax season is hell. Keeping up with receipts is annoying.",
+     "speaker": "Mike (Rasmiki)",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 17683,
+     "approx_timestamp_s": 1104
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Church / charity payment solution",
+   "one_liner": "Cheaper donation-payment software for churches and charities, built by an insider who knew the problem.",
+   "category": "saas_software",
+   "business_model": "Software with fairer fees than competitors (payment processing / subscription).",
+   "customer": "Churches and charities in Canada.",
+   "problem": "Existing charity payment software is terrible and charges very high percentages; Stripe alone needs a website to be built.",
+   "offer": "A payment solution priced more fairly than competitors.",
+   "pricing": {
+    "model": "Priced below competitors (not specified)",
+    "price_points": [],
+    "notes": "No numbers given."
+   },
+   "acquisition_channels": [],
+   "delivery": "Software built by the speaker for his own church; not commercialised.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Stripe"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Church/charity buyers often need trust and relationships."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Payment onboarding and KYC partly automatable."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Payment software runs unattended with occasional approvals."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Fees taken automatically via payment processor."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "AI first-line support, human for payment disputes."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "UK has Gift Aid, Charity Commission rules and FCA/payment regulations; competitors like GoCardless, Stripe, Give.Br exist."
+   },
+   "risks": [
+    "Payments regulation and security",
+    "Speaker has not turned it into a business and has no time"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "I was like, \"Huh, I'm going to build a payment solution for my church.\" And I did that.",
+     "speaker": "Mike (Rasmiki)",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 22380,
+     "approx_timestamp_s": 1397
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "AI pizza-ordering agent (Domino's)",
+   "one_liner": "Chatbot web app with an AI agent that converses with the user and places a Domino's order via an unofficial API.",
+   "category": "ai_automation",
+   "business_model": "Personal project; not monetised.",
+   "customer": "The builder himself.",
+   "problem": "Convenience of ordering pizza through chat.",
+   "offer": "Chat interface with agent that gathers order details, stores them in a DB, then calls the Domino's API and pays.",
+   "pricing": {
+    "model": "not applicable",
+    "price_points": [],
+    "notes": "Not sold."
+   },
+   "acquisition_channels": [],
+   "delivery": "Software agent calling an unofficial Domino's API.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Domino's API (unofficial)",
+    "n8n",
+    "database"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 0,
+     "how": "Not a commercial product."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Chat handles it."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Agent places the order; real-world pizza made by Domino's."
+    },
+    "billing": {
+     "score_e": 2,
+     "how": "Payment handled via insecure unofficial API."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Not designed."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 2,
+    "notes": "Depends on an unofficial Domino's Canada API; UK would need a different integration and it is not a viable business."
+   },
+   "risks": [
+    "Unofficial API with no secure payment handling",
+    "Breach of terms of service",
+    "Never published by the builder"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "the API that it used to interact with Domino's was like not an official API. It was like some guy who built it six years ago",
+     "speaker": "Mike (Rasmiki)",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 4939,
+     "approx_timestamp_s": 308
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "Packaged n8n automation as web app (webhooks + vibe coding)",
+   "one_liner": "Wrap an n8n automation behind a simple web front-end using webhooks, e.g. a shoe price-drop alert service.",
+   "category": "ai_automation",
+   "business_model": "Sell an easy interface to an automation (e.g. subscription); not specified.",
+   "customer": "Consumers or users who want simple tools (e.g. shoe price alerts).",
+   "problem": "Automations are hard for non-technical users to use; they need a simple interface.",
+   "offer": "A web app where the user enters their email, and the automation scrapes for a shoe price and notifies them when it drops.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "Speaker asks how to package and sell it but gives no price."
+   },
+   "acquisition_channels": [],
+   "delivery": "n8n workflow triggered by webhook from a vibe-coded front end.",
+   "unit_economics_claims": [],
+   "tools": [
+    "n8n",
+    "Gumloop",
+    "Tempo",
+    "webhooks"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Inbound SEO/ads can be automated."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "User just enters an email."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Scraping and notification run automatically, with occasional fixes for broken scrapers."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Stripe subscription."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "AI support with human check."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Works in the UK; marketing emails to subscribers need consent under PECR/GDPR and scraping must respect site terms."
+   },
+   "risks": [
+    "Scraping may breach retailer terms",
+    "Low willingness to pay for price alerts",
+    "Idea is illustrative only"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "how do you package that? How do you sell that? Or how do you build an interface that makes it very very simple for someone to use that automation",
+     "speaker": "Mike (Rasmiki)",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 7122,
+     "approx_timestamp_s": 444
+    }
+   ]
+  },
+  {
+   "local_id": "I6",
+   "name": "Thumbnail-request email auto-responder",
+   "one_liner": "Automation that reads emails, detects thumbnail inquiries, and asks the sender for their price.",
+   "category": "ai_automation",
+   "business_model": "Personal productivity automation; not monetised.",
+   "customer": "A YouTuber (the speaker).",
+   "problem": "Back-and-forth with freelancers who email about thumbnails.",
+   "offer": "Automation that auto-asks price and can notify via WhatsApp or Telegram.",
+   "pricing": {
+    "model": "not applicable",
+    "price_points": [],
+    "notes": "Not sold."
+   },
+   "acquisition_channels": [],
+   "delivery": "n8n-style workflow with LLM.",
+   "unit_economics_claims": [],
+   "tools": [
+    "n8n",
+    "WhatsApp",
+    "Telegram"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 0,
+     "how": "Not a business."
+    },
+    "onboarding": {
+     "score_e": 0,
+     "how": "Not applicable."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "Fully automated workflow."
+    },
+    "billing": {
+     "score_e": 0,
+     "how": "Not applicable."
+    },
+    "support": {
+     "score_e": 0,
+     "how": "Not applicable."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works the same; example of a personal automation."
+   },
+   "risks": [
+    "Not a business"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "maybe I have an automation that, you know, read all my emails and if someone mentions thumbnails, ask how much, right?",
+     "speaker": "Mike (Rasmiki)",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 6288,
+     "approx_timestamp_s": 392
+    }
+   ]
+  },
+  {
+   "local_id": "I7",
+   "name": "AI-first clone of an incumbent app (Cal AI model)",
+   "one_liner": "Take an established app category and rebuild it AI-first, as Cal AI did against MyFitnessPal.",
+   "category": "saas_software",
+   "business_model": "Consumer/B2B app subscription.",
+   "customer": "Users of incumbent apps (fitness tracking, accounting, etc.).",
+   "problem": "Incumbents bolt AI onto old products rather than being AI-native.",
+   "offer": "Same product as an incumbent but AI-first.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "No pricing given."
+   },
+   "acquisition_channels": [],
+   "delivery": "Software app.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Cal AI",
+    "MyFitnessPal",
+    "QuickBooks"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "App store, content and paid ads are automatable."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "In-app onboarding."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Software runs unattended with maintenance."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "App store subscriptions."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "AI support with human escalation."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "App-store products work the same in the UK."
+   },
+   "risks": [
+    "Incumbents can add AI",
+    "Highly competitive",
+    "Cal AI revenue claims are hearsay"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "MyFitnessPal has hundreds of millions of users. It's a nine figure company or it has $100 million plus of revenue.",
+     "speaker": "Chris Koerner",
+     "match_score": 98.2,
+     "verified": true,
+     "char_offset": 23679,
+     "approx_timestamp_s": 1478
+    }
+   ]
+  },
+  {
+   "local_id": "I8",
+   "name": "Beautiful-UX version of an ugly incumbent (Linear vs Jira)",
+   "one_liner": "Compete by building a much better-designed version of an established but ugly tool, as Linear did to Jira.",
+   "category": "saas_software",
+   "business_model": "SaaS subscription.",
+   "customer": "Teams using clunky incumbent software.",
+   "problem": "Existing tools work but are ugly and unpleasant to use.",
+   "offer": "Same functionality with elegant, fast, thoughtful UX.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "Argued customers may pay more for better design."
+   },
+   "acquisition_channels": [],
+   "delivery": "Software; design taste developed by studying sites and using vibe-coding with screenshot workflow.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Linear",
+    "Jira",
+    "Magic UI",
+    "Tempo"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Content and product-led growth."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Self-serve."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "AI can build UI but design judgement needs human taste."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Subscription billing."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "AI support."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Software design competition is global."
+   },
+   "risks": [
+    "Hard to displace entrenched incumbents",
+    "Design alone may not be enough"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "Jira except pretty that's their their business model.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 26033,
+     "approx_timestamp_s": 1625
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "A company raised upwards of $10 million for something the speaker and a colleague thought would take 2-3 days to build.",
+   "metric": "valuation",
+   "value": {
+    "amount": 10000000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": "funding raised"
+   },
+   "period": null,
+   "claimant": "Mike (Rasmiki)",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "raised so much money, like I think upwards to like $10 million for something that honestly would have probably taken us maybe two to three days to build",
+    "speaker": "Mike (Rasmiki)",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16380,
+    "approx_timestamp_s": 1022
+   }
+  },
+  {
+   "claim": "MyFitnessPal has $100M+ revenue (hearsay).",
+   "metric": "revenue",
+   "value": {
+    "amount": 100000000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per year",
+    "label": "MyFitnessPal revenue"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "It's a nine figure company or it has $100 million plus of revenue.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23728,
+    "approx_timestamp_s": 1481
+   }
+  },
+  {
+   "claim": "Airbnb is a hundred-billion-dollar company that used design as its strategy.",
+   "metric": "valuation",
+   "value": {
+    "amount": 100000000000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": "Airbnb valuation"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "look at Airbnb. They were designed first from day one and it's a hundred billion dollar company.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 29445,
+    "approx_timestamp_s": 1838
+   }
+  },
+  {
+   "claim": "TK Owners community costs $99 per month.",
+   "metric": "price",
+   "value": {
+    "amount": 99,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "TK Owners"
+   },
+   "period": "monthly",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "And it's 99 bucks a month, about the cost of an energy drink per day.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8902,
+    "approx_timestamp_s": 555
+   }
+  },
+  {
+   "claim": "Speaker fixed a cousin's API issue in 30 seconds after the cousin spent 2-3 days stuck.",
+   "metric": "hours",
+   "value": {
+    "amount": 30,
+    "amount_max": null,
+    "currency": null,
+    "unit": "seconds",
+    "label": "fix time"
+   },
+   "period": null,
+   "claimant": "Mike (Rasmiki)",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "he like spent two three days. So guess what I did Chris? I hopped in. I fixed it for him. It was a 30-cond fix for me.",
+    "speaker": "Mike (Rasmiki)",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 32511,
+    "approx_timestamp_s": 2030
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Mine industry pain points with ChatGPT deep research",
+   "area": "product",
+   "steps": [
+    "Tell ChatGPT your profession and ask for common pain points in that industry",
+    "Use deep research to scan Reddit, message boards and social media for gripes and complaints",
+    "Take the 7 most relevant of the 20 returned and ask for 20 more like them",
+    "Repeat until you have 30-50 problems that ring true",
+    "Pick the top three, build wrappers, share with friends and co-workers, and iterate on feedback"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Pretty soon, you'll have 30 to 50 problems, and all of them will ring true to you as someone in the industry.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21174,
+    "approx_timestamp_s": 1322
+   }
+  },
+  {
+   "name": "Package an n8n automation as a product via webhooks",
+   "area": "product",
+   "steps": [
+    "Build the automation in n8n",
+    "Search 'n8n webhooks' and read the first doc",
+    "Create a webhook trigger so a web app can send user input (e.g. email) to the workflow",
+    "Use a vibe-coding tool (e.g. Tempo) to build the front end",
+    "Expect several attempts and debugging"
+   ],
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "I can connect this automation with a web app and that's when it becomes interesting.",
+    "speaker": "Mike (Rasmiki)",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6752,
+    "approx_timestamp_s": 421
+   }
+  },
+  {
+   "name": "Recreate a site's design with screenshot-to-AI workflow",
+   "area": "product",
+   "steps": [
+    "Screenshot the target site",
+    "Feed the screenshot to a vibe-coding tool and ask it to copy the design",
+    "Expect roughly 40% fidelity",
+    "Go section by section telling the model what is off (button roundness, gradients, spacing)",
+    "Iterate until pixel-close"
+   ],
+   "idea_local_id": "I8",
+   "quote": {
+    "text": "The way you get the 40% to 100 is by going through every section of the site that doesn't look pixel perfect and telling it.",
+    "speaker": "Mike (Rasmiki)",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 33516,
+    "approx_timestamp_s": 2093
+   }
+  },
+  {
+   "name": "Debug by screenshotting errors into ChatGPT",
+   "area": "mindset",
+   "steps": [
+    "Screenshot each error or stuck point",
+    "Ask ChatGPT what happened and how to learn from it",
+    "Retry, or return the next day"
+   ],
+   "idea_local_id": null,
+   "quote": {
+    "text": "I will literally either screenshot whatever error I've experienced or where I've got stuck at and let's chat GBT what happened and how do I learn from this?",
+    "speaker": "Mike (Rasmiki)",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3540,
+    "approx_timestamp_s": 221
+   }
+  },
+  {
+   "name": "Build design taste",
+   "area": "product",
+   "steps": [
+    "Collect sites and apps you wish you had built",
+    "Study frameworks and component libraries such as Magic UI",
+    "Analyse what makes Apple's style work: fonts, spacing, bento grid",
+    "Use that taste to guide AI tools"
+   ],
+   "idea_local_id": "I8",
+   "quote": null
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "n8n",
+   "purpose": "No-code automation platform with webhooks",
+   "cost_stated": "free trial mentioned"
+  },
+  {
+   "name": "Gumloop",
+   "purpose": "No-code AI automation platform",
+   "cost_stated": null
+  },
+  {
+   "name": "Zapier",
+   "purpose": "Automation platform",
+   "cost_stated": null
+  },
+  {
+   "name": "Lindy",
+   "purpose": "AI agent/automation platform",
+   "cost_stated": null
+  },
+  {
+   "name": "Tempo",
+   "purpose": "Vibe-coding tool",
+   "cost_stated": null
+  },
+  {
+   "name": "Claude (Claude 4)",
+   "purpose": "Coding, agentic and complex tasks",
+   "cost_stated": "more expensive"
+  },
+  {
+   "name": "OpenAI / ChatGPT",
+   "purpose": "User-facing chatbots, personality, deep research",
+   "cost_stated": "mid-priced"
+  },
+  {
+   "name": "Gemini",
+   "purpose": "Cost-effective all-rounder, image generation, 2.5 Pro for coding",
+   "cost_stated": "cheapest"
+  },
+  {
+   "name": "MCP (Model Context Protocol)",
+   "purpose": "Standard for LLMs to connect to third-party services",
+   "cost_stated": null
+  },
+  {
+   "name": "Linear",
+   "purpose": "Ticketing tool cited as UX example",
+   "cost_stated": null
+  },
+  {
+   "name": "Magic UI",
+   "purpose": "React component library for design inspiration",
+   "cost_stated": null
+  },
+  {
+   "name": "Perplexity",
+   "purpose": "Search; speaker no longer uses it",
+   "cost_stated": null
+  },
+  {
+   "name": "Grok",
+   "purpose": "Used to explain tweets; not for API",
+   "cost_stated": null
+  },
+  {
+   "name": "Stripe",
+   "purpose": "Payments",
+   "cost_stated": null
+  },
+  {
+   "name": "TK Owners",
+   "purpose": "Host's paid community (promotional)",
+   "cost_stated": "$99/month"
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "The Domino's agent was never published because it relied on an unofficial API with no secure payment handling.",
+   "quote": {
+    "text": "there's no really secure way to handle payment. So, it's a little sus, which is why I only built it for myself.",
+    "speaker": "Mike (Rasmiki)",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5072,
+    "approx_timestamp_s": 316
+   }
+  },
+  {
+   "warning": "Don't start in the crowded tech bubble as a beginner; competition is intense.",
+   "quote": {
+    "text": "This tech bubble we're in is not the best place to start, especially if you're a beginner.",
+    "speaker": "Mike (Rasmiki)",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17097,
+    "approx_timestamp_s": 1067
+   }
+  },
+  {
+   "warning": "Don't prompt a vibe-coding tool with no plan or understanding; expect failures, especially with databases and back ends.",
+   "quote": {
+    "text": "most people don't even know the different types of databases and are frustrated when after one prompt",
+    "speaker": "Mike (Rasmiki)",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3184,
+    "approx_timestamp_s": 198
+   }
+  },
+  {
+   "warning": "Model recommendations go stale quickly; Claude 3.7 was previously dropped as a waste of money before Claude 4 changed his mind.",
+   "quote": null
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Build at least one small automation for a task you do regularly; learning by doing beats watching.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "build at least one after this episode, at least one automation that does something that you do on a regular basis",
+    "speaker": "Mike (Rasmiki)",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1899,
+    "approx_timestamp_s": 118
+   }
+  },
+  {
+   "lesson": "The best opportunities are in industries you already know, where you understand customers' problems and how to reach them.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "the best problems to solve are your own. Number two, the best problems are to solve are the ones that you're in that industry",
+    "speaker": "Mike (Rasmiki)",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 19113,
+    "approx_timestamp_s": 1193
+   }
+  },
+  {
+   "lesson": "Boring, compliance-heavy industry problems are where money is because tech-bubble builders ignore them.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "It sounds boring, but that's where the money is.",
+    "speaker": "Mike (Rasmiki)",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20336,
+    "approx_timestamp_s": 1270
+   }
+  },
+  {
+   "lesson": "Building is only part one; marketing is a separate challenge, easier if you are inside the industry.",
+   "theme": "customer_acquisition",
+   "quote": null
+  },
+  {
+   "lesson": "UX and design taste can be a moat; customers will pay more for polished experiences.",
+   "theme": "offer_design",
+   "quote": {
+    "text": "I think UX becomes a moat.",
+    "speaker": "Mike (Rasmiki)",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 26512,
+    "approx_timestamp_s": 1655
+   }
+  },
+  {
+   "lesson": "Choose LLMs per task: Claude for code/agentic, OpenAI for consumer chat and personality, Gemini for cost; beginners should default to OpenAI. Cost matters little at the prototyping stage.",
+   "theme": "automation_ai",
+   "quote": null
+  },
+  {
+   "lesson": "Stay flexible and switch tools when better models launch; knowledge from failed experiments still compounds.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "Part of the game is being able to know, okay, what's out, what's popping, which one's doing great, and then being able to move over",
+    "speaker": "Mike (Rasmiki)",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15171,
+    "approx_timestamp_s": 947
+   }
+  },
+  {
+   "lesson": "Non-technical founders should learn base technical concepts (front end, back end, auth, database) and keep developer friends.",
+   "theme": "hiring_outsourcing",
+   "quote": null
+  },
+  {
+   "lesson": "MCP standardises LLM access to third-party services, reducing custom API integration work.",
+   "theme": "automation_ai",
+   "quote": null
+  },
+  {
+   "lesson": "Beginners may build a landing page first for momentum, but experienced builders should build the product first and treat design separately.",
+   "theme": "validation_testing",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "C",
+  "rationale": "Mostly general advice and illustrative ideas; the guest's only concrete builds (pizza agent, church payments) are unmonetised, and no first-hand revenue figures are given. Third-party numbers are hearsay.",
+  "promotional_conflict": "Host promotes TK Owners ($99/month community) and his newsletter; guest uses and mentions Tempo (a vibe-coding tool) and admits bias."
+ },
+ "extraction": {
+  "model": "claude-sonnet-5-5",
+  "extracted_at": "2026-10-22T04:54:56",
+  "cost_usd": 0.17373,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 26,
+   "verified": 26,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

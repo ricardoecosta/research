@@ -1,6 +1,6 @@
 # Most Will Fail to Earn Money From AI Made Apps (Unless You Use This Strategy)
 
-- **Video:** [t9yFAJzsOkE](https://www.youtube.com/watch?v=t9yFAJzsOkE) · **Channel:** Side Hustle Nation · **Uploaded:** unknown · **Length:** 55 min · **Transcript:** local_whisper_tiny
+- **Video:** [t9yFAJzsOkE](https://www.youtube.com/watch?v=t9yFAJzsOkE) · **Channel:** Side Hustle Nation · **Uploaded:** 2026-06-15 · **Length:** 55 min · **Transcript:** local_whisper_tiny
 - **Speakers:** Nick Loper (host), Steve (guest) · **Format:** operator_interview
 - **Evidence quality:** B — First-hand operator with many specific figures, but shown on screen and unverifiable in this transcript; Whisper tiny transcript with some mis-heard names (Endel, Indie/Lipa). Survivorship bias is partly acknowledged. · Promotional conflict: Steve runs App Masters (an agency/podcast) and sells services; sponsor reads (Gusto, Indeed, Quo, Shopify) are ignored.
 - **Extraction:** claude-sonnet-5-5 · quotes verified 20/20

@@ -1,0 +1,1043 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "wD-PkHYxsgY",
+  "title": "Make $20K/Month Selling to Clients Who Don’t Flinch at Price",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=wD-PkHYxsgY",
+  "upload_date": "2025-11-01",
+  "duration_s": 1959,
+  "view_count": 123205,
+  "transcript_provider": "ok",
+  "transcript_chars": 33971,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner and regular guest Sam discuss one-person businesses that can reach $20K/month profit without employees. Sam describes testing an AI-written divorce book ($29 ebook, $17 bump, $300 back-end) sold via Facebook ads at roughly break-even CAC, then printing 300 physical copies until Facebook restricted the ads as 'personal hardship' targeting. Chris adds the idea of monetising the book buyers by referring them to divorce lawyers for pay-per-lead or consulting/referral fees, and extends it to niche legal books (DUI, car accident, etc.). The key takeaway is to test quickly rather than over-research, start with the simple pay-per-lead model, and that $20K/month solo is far easier than scaling to a million-dollar team business.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Host of The Koerner Office"
+  },
+  {
+   "name": "Sam",
+   "role": "guest",
+   "description": "Recurring guest, runs the Grow Faster community, ecommerce/ads operator; tested the divorce book funnel"
+  }
+ ],
+ "format": "operator_interview",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Divorce self-help book funnel (ebook + bump + back-end)",
+   "one_liner": "Sell an AI-assisted 'how to win your divorce' ebook/printed book via Facebook ads with a $17 bump and $300 back-end programme.",
+   "category": "digital_products",
+   "business_model": "One-off product sales (ebook/print book) plus order bump and back-end programme; possible lead resale",
+   "customer": "People going through or facing a divorce (US)",
+   "problem": "Divorce is expensive, emotional and people dislike their divorce attorneys; little non-lawyer material targets them",
+   "offer": "$29 ebook 'How to Win Your Divorce', $17 negotiation training toolkit bump, $300 Financial Protection Protocol back-end; later a 200-page printed copy",
+   "pricing": {
+    "model": "Low-ticket front end with bump and back-end upsell",
+    "price_points": [
+     {
+      "amount": 29,
+      "currency": "USD",
+      "unit": "per ebook",
+      "label": "Front-end book"
+     },
+     {
+      "amount": 17,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "Negotiation training toolkit bump"
+     },
+     {
+      "amount": 300,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "Financial Protection Protocol back-end"
+     }
+    ],
+    "notes": "AOV around $42 with bump; about 70% of buyers took the bump per Sam"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "paid_social",
+     "details": "Facebook/Meta ads, broad targeting, automatic placements, optimised for purchases using a pixel on the thank-you page; about $100/day; first week $500-700 spend. Ads later blocked from purchase optimisation as 'personal hardship' targeting.",
+     "quote": {
+      "text": "I do automatic placements, broad targeting. Facebook is smarter than us and will dictate the spend based on what you're trying to optimize for.",
+      "speaker": "Sam",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 4586,
+      "approx_timestamp_s": 276
+     }
+    },
+    {
+     "channel": "organic_social_content",
+     "details": "Idea of theme pages about divorce or crazy divorce stories to move inventory for free (not tested).",
+     "quote": null
+    }
+   ],
+   "delivery": "Ebook delivered digitally (zero COGS); physical books printed (300 copies at about $6 each, about $8.50 landed with shipping) and shipped to customers; book written with ChatGPT then about 5 hours of refinement.",
+   "unit_economics_claims": [
+    "Ebook $29, CAC about $40 at first, then about $40-45 CAC at break-even with AOV about $42",
+    "About $5-6K in sales, roughly break-even",
+    "300 printed books cost about $6 each, about $8.50 shipped",
+    "Spent about $3,000 on printed books"
+   ],
+   "tools": [
+    "ChatGPT",
+    "Perspective",
+    "ClickFunnels",
+    "Facebook Ads / Meta pixel",
+    "Printivity (print-on-demand)",
+    "Canva"
+   ],
+   "startup_cost": "About $500-700 initial ads plus about $3,000 for printed books; ebook version near zero",
+   "time_to_first_revenue": "First week of ads (sales within days)",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Paid Meta ads with creative refresh are largely automatable, but needs human creative and policy-compliance handling; ad category restrictions are a risk."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Funnel checkout with bump and upsell is automated software."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Ebook is instant; print-on-demand fulfilment can be automated, though Sam printed stock himself."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Checkout processor handles payment automatically."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Order and shipping queries can be handled by an agent with a human check; a VA suggested for email."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Funnel works in UK but divorce law, lawyer market, pricing and Meta ad restrictions on personal hardship differ; the 50% divorce stat is US-framed (UK roughly 40%+)."
+   },
+   "risks": [
+    "Facebook classified ads as targeting personal hardship, blocking purchase optimisation",
+    "Low-quality AI-written content (V1 was 'AI slop')",
+    "Break-even CAC leaves no margin without upsells or lead resale",
+    "Unsold physical inventory in the garage",
+    "Giving legal-adjacent advice"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "I'm selling this thing for 29 bucks it's costing me 40 bucks to get that purchase and so then you just play the math game",
+     "speaker": "Sam",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 5382,
+     "approx_timestamp_s": 324
+    },
+    {
+     "text": "I put a $300 program on the back, which is very much it's the financial protection protocol.",
+     "speaker": "Sam",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 11291,
+     "approx_timestamp_s": 680
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Divorce lead generation sold to lawyers",
+   "one_liner": "Use book buyers as leads and sell them or referrals to divorce attorneys on pay-per-lead, per-signed-client or revenue-share terms.",
+   "category": "data_leads",
+   "business_model": "Pay per lead, per signed client, or percentage of legal fees (framed as consulting fee)",
+   "customer": "Divorce attorneys (and other personal-injury/legal practices)",
+   "problem": "Lawyers pay very high costs per lead on Google and are burned out on poor-quality leads",
+   "offer": "Pre-qualified leads from people who bought a niche book, delivered to lawyers at a fixed price per lead or per signed contract",
+   "pricing": {
+    "model": "Pay per lead, per signed contract, or revenue share",
+    "price_points": [
+     {
+      "amount": 100,
+      "currency": "USD",
+      "unit": "per lead",
+      "label": "Illustrative pay-per-lead"
+     },
+     {
+      "amount": 1000,
+      "currency": "USD",
+      "unit": "per signed contract",
+      "label": "Illustrative"
+     },
+     {
+      "amount": 1200,
+      "currency": "USD",
+      "unit": "per signed contract",
+      "label": "Illustrative if close rate is 16%"
+     },
+     {
+      "amount": 150,
+      "currency": "USD",
+      "unit": "per lead",
+      "label": "Illustrative later price"
+     }
+    ],
+    "notes": "Chris suggests 30% of fees collected (fees between $7K and $23K, attorney about $270/hr); a quarter of invoices is an alternative; all hypothetical"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "cold_call",
+     "details": "Phone two or three lawyers beforehand to agree terms, then build relationships and share close data to set pricing for other lawyers.",
+     "quote": null
+    },
+    {
+     "channel": "paid_social",
+     "details": "Book funnel ads act as the lead source, aiming for break-even on the book so leads cost nearly nothing.",
+     "quote": null
+    }
+   ],
+   "delivery": "Refer or send buyer details to lawyers; track which leads close by staying close to 2-3 lawyers; or just sell leads upfront and not worry about closing.",
+   "unit_economics_claims": [
+    "3% take rate on 300 back-end puts you at $900/day profit (Sam's hypothetical)",
+    "100 leads, 8 close at $1,000 = $8K",
+    "Lead costs could drop to about $10 net if book revenue offsets CAC",
+    "Legal Google clicks can cost up to $5,000 per lead (trucking accident)"
+   ],
+   "tools": [
+    "ChatGPT",
+    "Facebook Ads",
+    "Google"
+   ],
+   "startup_cost": "Not stated beyond ad spend",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Ad funnel automated; lawyer partnership sourcing via cold email to firms (limited companies, PECR-allowed) is possible but relationship building needs a human."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Agreeing terms and getting lawyers to share data needs human negotiation."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Lead routing by software is straightforward once buyers are opted in."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Invoicing per lead is automatable; revenue-share tracking is harder."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Lawyer relationship follow-up on closed deals is mostly human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 2,
+    "notes": "UK solicitors are regulated by the SRA, which restricts referral fees and requires disclosure; the 'consultant' workaround is US-state specific. Lead data needs UK GDPR consent to pass on. Possible with lead-gen compliant structure but heavily changed."
+   },
+   "risks": [
+    "US state rules on non-lawyers taking referral fees",
+    "Lawyers may run away without paying on revenue-share",
+    "Lawyers poor at closing leads will stop buying",
+    "Data-sharing consent and privacy",
+    "Trade-off between hands-on trust and profitability"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "you're a consultant that happens to refer them customers and he's paying a consulting fee 30% of the total fees that he collects",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 10293,
+     "approx_timestamp_s": 620
+    },
+    {
+     "text": "develop a good relationship with like two to three lawyers that's that you feel good about that's willing to pass all the data back to you",
+     "speaker": "Sam",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 22629,
+     "approx_timestamp_s": 1363
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Niche legal-problem books as lead magnets (DUI, accident, abuse)",
+   "one_liner": "Write highly niche books (e.g. erase your DUI, mom of four divorcing in New Hampshire) to generate targeted leads for specialist lawyers.",
+   "category": "data_leads",
+   "business_model": "Book sales plus lead resale to lawyers",
+   "customer": "DUI, car accident, slip-and-fall, domestic abuse lawyers",
+   "problem": "Lawyers pay very high costs per lead and distrust generic lead vendors",
+   "offer": "Targeted leads sourced through niche books",
+   "pricing": {
+    "model": "Book sale plus lead fee",
+    "price_points": [
+     {
+      "amount": 20,
+      "currency": "USD",
+      "unit": "per book",
+      "label": "Illustrative AOV"
+     }
+    ],
+    "notes": "Hypothetical: $100 of ads with $20 AOV makes an $80 lead versus $1,000"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "paid_social",
+     "details": "Facebook ads to niche book funnels with mockups made in Canva.",
+     "quote": null
+    }
+   ],
+   "delivery": "ChatGPT-written books and funnels; leads passed to lawyers.",
+   "unit_economics_claims": [
+    "Niche book conversion to lawyer client might be 20% versus 2% for generic",
+    "$80 lead vs $1,000 lead"
+   ],
+   "tools": [
+    "Canva",
+    "ChatGPT",
+    "Facebook Ads"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Ads and funnel automated with human creative oversight."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Funnel handles it."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Digital book and lead routing."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Software invoicing."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Agent handles buyer and lawyer queries."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 2,
+    "notes": "SRA referral fee rules, claims-management regulation for accident leads (FCA/CMC rules) and ad restrictions apply."
+   },
+   "risks": [
+    "Regulated claims-management lead rules",
+    "Ad platform restrictions on sensitive categories",
+    "Unvalidated conversion assumptions"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "You can make a book for what to do after your car accident. What do I do after my slip and fall?",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 30491,
+     "approx_timestamp_s": 1836
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "Divorce community and follow-on products",
+   "one_liner": "Monetise the divorce audience with a paid support group, a second book on dating after divorce and other back-end offers.",
+   "category": "digital_products",
+   "business_model": "Membership and additional book sales",
+   "customer": "People post-divorce",
+   "problem": "Financial recovery and dating after divorce",
+   "offer": "Support group with annual fee; 'dating after divorce' book",
+   "pricing": {
+    "model": "Annual membership; book",
+    "price_points": [],
+    "notes": "No prices stated"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "existing_audience",
+     "details": "Sell to existing book buyers.",
+     "quote": null
+    }
+   ],
+   "delivery": "not stated",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Cross-sell by email."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Automated sign-up."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Community needs moderation."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Subscription billing."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Agent moderation with human checks."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Works in UK with local content."
+   },
+   "risks": [
+    "Not tested",
+    "Emotional topic moderation"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "You could pretty easily launch like a support group with an annual fee.",
+     "speaker": "Sam",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 11777,
+     "approx_timestamp_s": 709
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "Pay-per-call lead generation (payercall.io)",
+   "one_liner": "Generate calls for local businesses and charge per call; Sam's team bet on this and bought a domain but avoided running a call centre.",
+   "category": "data_leads",
+   "business_model": "Pay per call / pay per appointment",
+   "customer": "Service businesses",
+   "problem": "Businesses want inbound calls without managing marketing",
+   "offer": "Calls delivered; pay per call or appointment",
+   "pricing": {
+    "model": "Pay per call",
+    "price_points": [],
+    "notes": "Pay per appointment would have paid more but required a call centre"
+   },
+   "acquisition_channels": [],
+   "delivery": "Generate calls; declined to book appointments themselves.",
+   "unit_economics_claims": [
+    "Spent thousands of dollars on the domain"
+   ],
+   "tools": [],
+   "startup_cost": "Thousands of dollars on a domain",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Ads/SEO."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Agreement setup."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Call tracking automated; call centre would be human."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Per-call billing."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Dispute handling."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Works in UK; call recording consent and TPS rules apply."
+   },
+   "risks": [
+    "Managing a call centre was the headache they declined"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "we made a massive bet on the payer lead model. I spent thousands and thousands and thousands of dollars on a domain payer call.io",
+     "speaker": "Sam",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 24440,
+     "approx_timestamp_s": 1472
+    }
+   ]
+  },
+  {
+   "local_id": "I6",
+   "name": "Divorce lawyer directory / programmatic lead site",
+   "one_liner": "Chris once considered a divorce directory or programmatic site sending leads to lawyers.",
+   "category": "marketplace_directory",
+   "business_model": "Lead fees from lawyers",
+   "customer": "Divorce lawyers",
+   "problem": "Lawyers need clients",
+   "offer": "Directory leads",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "seo_organic_search",
+     "details": "Programmatic SEO directory.",
+     "quote": null
+    }
+   ],
+   "delivery": "not stated",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Programmatic SEO is automatable."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Lawyer signup."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Lead routing."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Automated."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Agents with checks."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "SRA referral rules apply."
+   },
+   "risks": [
+    "Referral fee legality"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "I almost bought the domain name international.com because I was going to have a directory or, you know, programmatic site where I brought leads to lawyers.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 9806,
+     "approx_timestamp_s": 590
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Ebook priced at $29",
+   "metric": "price",
+   "value": {
+    "amount": 29,
+    "currency": "USD",
+    "unit": "per ebook",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Sam",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "priced the book at 29 for an ebook, digital copy, which is awesome. Zero COGS, phenomenal.",
+    "speaker": "Sam",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3927,
+    "approx_timestamp_s": 236
+   }
+  },
+  {
+   "claim": "About $500-700 ad spend in first week yielding about $400 sales",
+   "metric": "revenue",
+   "value": {
+    "amount": 400,
+    "currency": "USD",
+    "unit": "first week",
+    "label": null
+   },
+   "period": "first week",
+   "claimant": "Sam",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I spent five 500 600 whatever it was in the first week. probably made I think I did like 400ish in sales",
+    "speaker": "Sam",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5213,
+    "approx_timestamp_s": 314
+   }
+  },
+  {
+   "claim": "Bump offer taken by about 70% of buyers",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 70,
+    "currency": null,
+    "unit": "percent",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Sam",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I think it's like 70% of people are saying yes.",
+    "speaker": "Sam",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6057,
+    "approx_timestamp_s": 364
+   }
+  },
+  {
+   "claim": "CAC 40-45 dollars, roughly break-even",
+   "metric": "cost",
+   "value": {
+    "amount": 45,
+    "currency": "USD",
+    "unit": "per customer",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Sam",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Basically running at break even right now. like it sits at 40 to 45 on the CAC",
+    "speaker": "Sam",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6388,
+    "approx_timestamp_s": 384
+   }
+  },
+  {
+   "claim": "About five or six grand in sales",
+   "metric": "revenue",
+   "value": {
+    "amount": 6000,
+    "currency": "USD",
+    "unit": "total",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Sam",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "This thing's done, you know, five or six grand in sales at this point",
+    "speaker": "Sam",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6496,
+    "approx_timestamp_s": 391
+   }
+  },
+  {
+   "claim": "300 printed copies about $6 each",
+   "metric": "cost",
+   "value": {
+    "amount": 6,
+    "currency": "USD",
+    "unit": "per book",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Sam",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I ordered 300 copies of it. It came out to like maybe six bucks a book.",
+    "speaker": "Sam",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7324,
+    "approx_timestamp_s": 441
+   }
+  },
+  {
+   "claim": "Divorce attorney fees $7K-$23K at $270/hour",
+   "metric": "price",
+   "value": {
+    "amount": 7000,
+    "amount_max": 23000,
+    "currency": "USD",
+    "unit": "per divorce",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "30% of the total fees that he collects, which are between seven and $23,000.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10383,
+    "approx_timestamp_s": 625
+   }
+  },
+  {
+   "claim": "3% take rate on $300 back-end gives $900 per day profit",
+   "metric": "profit",
+   "value": {
+    "amount": 900,
+    "currency": "USD",
+    "unit": "per day",
+    "label": null
+   },
+   "period": "day",
+   "claimant": "Sam",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "3% take rate on the back at 300 puts you at 900 bucks a day in profit, right?",
+    "speaker": "Sam",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21090,
+    "approx_timestamp_s": 1270
+   }
+  },
+  {
+   "claim": "Legal trucking accident lead could cost $5,000 on Google",
+   "metric": "cost",
+   "value": {
+    "amount": 5000,
+    "currency": "USD",
+    "unit": "per lead",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "you might spend like legitimately $5,000 for that lead.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 32193,
+    "approx_timestamp_s": 1939
+   }
+  },
+  {
+   "claim": "A VA costs $1,200 a month",
+   "metric": "cost",
+   "value": {
+    "amount": 1200,
+    "currency": "USD",
+    "unit": "per month",
+    "label": null
+   },
+   "period": "month",
+   "claimant": "Sam",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "go hire a VA for 1,200 bucks a month and like you could run a very smooth operation",
+    "speaker": "Sam",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 28105,
+    "approx_timestamp_s": 1693
+   }
+  },
+  {
+   "claim": "Going from $20K/month solo to $1M/year team means four times revenue for about two times profit and six times work",
+   "metric": "other",
+   "value": {
+    "amount": null,
+    "currency": null,
+    "unit": null,
+    "label": "4x revenue, 2x profit, 6x work"
+   },
+   "period": null,
+   "claimant": "Sam",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "It's four times more revenue for maybe two times more profit and like six times more work",
+    "speaker": "Sam",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 26680,
+    "approx_timestamp_s": 1607
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Fast test of a book funnel",
+   "area": "acquisition",
+   "steps": [
+    "Spot a big painful market and check keywords briefly",
+    "Have ChatGPT write the book",
+    "Build a two-step funnel on Perspective",
+    "Run broad Meta ads, automatic placements, about $100/day, optimise for purchases with a pixel on the thank-you page",
+    "Read signal from CAC versus price",
+    "Move to ClickFunnels for bump and upsell offers"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I just want purchases.\" And then I just kind of let it ride.",
+    "speaker": "Sam",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4832,
+    "approx_timestamp_s": 291
+   }
+  },
+  {
+   "name": "Raise AOV with bump and back-end",
+   "area": "pricing",
+   "steps": [
+    "Add a $17 bump at checkout before payment",
+    "Add a $300 back-end programme",
+    "Aim to bring AOV near CAC so ads break even"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Improve conversion by upgrading to a physical book",
+   "area": "product",
+   "steps": [
+    "Rewrite the AI draft with about 5 hours of work",
+    "Order 300 print copies",
+    "Market it as a real shipped book to lift conversion"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Start lead gen with the simplest pay-per-lead deal",
+   "area": "sales",
+   "steps": [
+    "Sell leads upfront at a low price (e.g. $100) to avoid babysitting lawyers",
+    "Build relationships with 2-3 lawyers who share close data",
+    "After about 3 months use data to price for lawyers you do not know",
+    "Raise prices or move to revenue share once close rates are proven"
+   ],
+   "idea_local_id": "I2",
+   "quote": null
+  },
+  {
+   "name": "Benchmark against your own past performance",
+   "area": "mindset",
+   "steps": [
+    "Ignore industry averages",
+    "Compare cost per click and conversion to your own history",
+    "Ask whether you can make your own math work"
+   ],
+   "idea_local_id": null,
+   "quote": null
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "ChatGPT",
+   "purpose": "Write the book, quick market research",
+   "cost_stated": null
+  },
+  {
+   "name": "Perspective",
+   "purpose": "Build funnels/landing pages with conversion tracking",
+   "cost_stated": null
+  },
+  {
+   "name": "ClickFunnels",
+   "purpose": "Upsell, downsell and bump offers",
+   "cost_stated": null
+  },
+  {
+   "name": "Facebook / Meta Ads",
+   "purpose": "Paid acquisition",
+   "cost_stated": "About $100/day"
+  },
+  {
+   "name": "Printivity",
+   "purpose": "Print copies of the book",
+   "cost_stated": "About $6/book"
+  },
+  {
+   "name": "Canva",
+   "purpose": "Book mockups",
+   "cost_stated": null
+  },
+  {
+   "name": "Beehiiv",
+   "purpose": "Newsletter platform (sponsor read)",
+   "cost_stated": null
+  },
+  {
+   "name": "TK Owners",
+   "purpose": "Chris's paid community (promo)",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Facebook may classify divorce-related ads as targeting personal hardship and block purchase optimisation, which hit Sam right after spending $3,000 on books.",
+   "quote": {
+    "text": "it got classified as targeting personal hardship",
+    "speaker": "Sam",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7589,
+    "approx_timestamp_s": 457
+   }
+  },
+  {
+   "warning": "Certain US states require you to be a lawyer to accept referral fees; structure as consulting.",
+   "quote": {
+    "text": "Certain states require you to be a lawyer to accept a referral fee from another lawyer.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10069,
+    "approx_timestamp_s": 606
+   }
+  },
+  {
+   "warning": "Doing too much too early in lead gen (high touch revenue share) can cause burnout and failure; start simple.",
+   "quote": null
+  },
+  {
+   "warning": "Revenue-share deals risk lawyers not paying.",
+   "quote": {
+    "text": "the risk there is that lawyer could run away",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21841,
+    "approx_timestamp_s": 1315
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Test with a quick funnel instead of over-researching; first-party data beats industry averages.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "They like go so deep into like figuring out if it's a good business idea instead of just testing it.",
+    "speaker": "Sam",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14150,
+    "approx_timestamp_s": 852
+   }
+  },
+  {
+   "lesson": "Running one funnel teaches copywriting, landing pages and ads, skills reusable across any market.",
+   "theme": "mindset_execution",
+   "quote": null
+  },
+  {
+   "lesson": "Break-even customer acquisition via a low-ticket product, with profit from a back-end or lead sale, is a strong model.",
+   "theme": "finance_unit_economics",
+   "quote": null
+  },
+  {
+   "lesson": "Choose the lower-touch, lower-profit version first so you do not burn out before learning.",
+   "theme": "scaling",
+   "quote": null
+  },
+  {
+   "lesson": "Sell the same lead to the buyer, not the vulnerable consumer: monetising lawyers with money to spend.",
+   "theme": "offer_design",
+   "quote": null
+  },
+  {
+   "lesson": "Going from a $20K/month solo business to a million-dollar team business adds disproportionate work, stress and people for modest extra profit.",
+   "theme": "scaling",
+   "quote": {
+    "text": "It's four times more revenue for maybe two times more profit and like six times more work",
+    "speaker": "Sam",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 26680,
+    "approx_timestamp_s": 1607
+   }
+  },
+  {
+   "lesson": "Pay-per-lead is an arbitrage between wholesale and retail lead cost, and a front-end product can subsidise lead cost.",
+   "theme": "customer_acquisition",
+   "quote": null
+  },
+  {
+   "lesson": "Shrink goals to a quarter million a year solo rather than chasing yachts; doubling income and halving stress.",
+   "theme": "mindset_execution",
+   "quote": null
+  },
+  {
+   "lesson": "Execution matters more than ideas; people given a good idea often do nothing.",
+   "theme": "mindset_execution",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "B",
+  "rationale": "Sam gives first-hand but partial numbers on a break-even test with no profit proven; the lead-resale economics and $20K/month path are hypothetical.",
+  "promotional_conflict": "Sam runs the Grow Faster community; Chris sells TK Owners; Beehiiv sponsor read; both promote Perspective."
+ },
+ "extraction": {
+  "model": "claude-sonnet-5-5",
+  "extracted_at": "2026-10-22T04:58:06",
+  "cost_usd": 0.1412842,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 26,
+   "verified": 26,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

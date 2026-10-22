@@ -1,0 +1,999 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "WydE1wzv2_Y",
+  "title": "Make $1K an Hour With This Simple Side Hustle",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=WydE1wzv2_Y",
+  "upload_date": "2025-10-22",
+  "duration_s": 1463,
+  "view_count": 27320,
+  "transcript_provider": "ok",
+  "transcript_chars": 37274,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner interviews Wesley, owner of a Grounds Guys franchise in Keller, Texas (DFW), about adding a Christmas lights installation line to a lawn business. They cover pricing by linear foot, a leasing model where the operator keeps and stores the lights, rising margins in repeat years, labour and time per job, insurance, marketing (door hangers, Facebook, yard signs) and low startup costs. Wesley claims one Grounds Guys owner does $1.25M in Christmas lights alone. Key takeaway: recurring, route-dense, leased holiday lighting can have high repeat-year margins, but it is physical, risky work that agents cannot do.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Host of The Koerner Office"
+  },
+  {
+   "name": "Wesley",
+   "role": "guest",
+   "description": "Owner of Grounds Guys of Keller (DFW, Texas), three years into holiday lighting"
+  },
+  {
+   "name": "Jeremy",
+   "role": "guest",
+   "description": "Production manager at Grounds Guys, manages crews and customer communication"
+  }
+ ],
+ "format": "operator_interview",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Residential Christmas light installation (leased lights, recurring annual)",
+   "one_liner": "Install, store and remove custom-fit Christmas lights on homes each year, leasing the lights to customers and earning higher margins on repeat years.",
+   "category": "home_service",
+   "business_model": "Annual per-job install fee priced per linear foot; lights leased and owned by the operator; yearly recurring with 10% discounts in years 2 and 3.",
+   "customer": "Homeowners in larger homes (example 3-4,000 sq ft house) wanting roofline lights without doing it themselves.",
+   "problem": "Hanging lights is risky, time-consuming and fiddly; homeowners must store and fix lights and replace bulbs.",
+   "offer": "Professional measured, custom-cut roofline lighting, timer included, installed, serviced if bulbs fail, taken down and stored by the company.",
+   "pricing": {
+    "model": "Per linear foot of roofline, with a minimum job; 10% discount in year 2 and again in year 3, then flat.",
+    "price_points": [
+     {
+      "amount": 1500,
+      "amount_max": 2000,
+      "currency": "USD",
+      "unit": "per install, average large home",
+      "label": "first year"
+     },
+     {
+      "amount": 800,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "minimum job",
+      "label": "small single-level home, 150-200 linear ft"
+     }
+    ],
+    "notes": "Permanent lighting is 2-3x the price. Customer-owned lights model priced differently. No extra charge for colour changes (Wesley says they could charge)."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "direct_mail_postcards",
+     "details": "Door hangers delivered by install crews to a 'box nine' of nearby homes (2 each side plus 5 opposite) while working, creating two touch points.",
+     "quote": {
+      "text": "we call it box nine. So, we'll do the two homes on each side, two homes on that side, and the five homes opposite side of the street.",
+      "speaker": "Wesley",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 9687,
+      "approx_timestamp_s": 400
+     }
+    },
+    {
+     "channel": "paid_social",
+     "details": "Facebook posts with before and afters plus Facebook marketing are the main lead generation.",
+     "quote": {
+      "text": "Facebook posts or Facebook we'll do our own posts, you know, before and afters as well as the Facebook marketing.",
+      "speaker": "Wesley",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 8974,
+      "approx_timestamp_s": 370
+     }
+    },
+    {
+     "channel": "other",
+     "details": "Yard signs (now technically illegal in Texas this year per Wesley); another franchisee put out about 80 signs a month and accepted complaints for the leads.",
+     "quote": null
+    },
+    {
+     "channel": "existing_audience",
+     "details": "Marketing to the internal CRM of existing lawn customers and taking over commercial customers from another Grounds Guys; campaigns start in July (early-bird discounts) and again late September/early October.",
+     "quote": null
+    },
+    {
+     "channel": "referrals_word_of_mouth",
+     "details": "Repeat customers rarely reshop if communication is good; idea of knocking on doors of new owners of homes where lights are already cut to fit (not yet tried).",
+     "quote": null
+    }
+   ],
+   "delivery": "Measure with a measuring wheel, pre-bulb and pre-clip socket wire in the shop (30-60 min), two-person crew (one on ladder/roof, one on ground) installs in 1-1.5 hours for a large house; takedown takes about 10 minutes with painter's pole; strands labelled and stored indoors; service calls for failures. Employees do installs.",
+   "unit_economics_claims": [
+    "Year-one margin about 20-25%, year three about 50-60%",
+    "Material about $200 on a $1,500 house",
+    "Insurance about $12,000 per year",
+    "Takedown 10 minutes, install 1-1.5 hours"
+   ],
+   "tools": [
+    "Measuring wheel",
+    "Socket wire rolls",
+    "Duck bill clips",
+    "Wire clippers",
+    "Zip ties",
+    "Timers",
+    "Cougar Paws boots",
+    "Pitch wedge",
+    "30ft ladder",
+    "Painters pole",
+    "Lightream colour-changing lights",
+    "CRM"
+   ],
+   "startup_cost": "$400-500 minimum for materials plus safety gear/ladders; $2-3k typical first year; Wesley spent $4.5-5k on material for about 15 homes.",
+   "time_to_first_revenue": "Same season; marketing starts July, installs in Oct-Nov (supply ships around September).",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Facebook ads, before/after posts, seasonal email/CRM to existing customers can be agent-run. Door hangers and yard signs are physical and legally awkward."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Quotes need physical measuring of the roofline on site (could be approximated with satellite imagery tools, not stated)."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Two people on ladders and roofs install, service and take down lights; entirely physical."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Annual invoicing and renewal with fixed discount schedule is easily automated."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Scheduling updates and enquiries can be agent-handled, but service call dispatch is physical."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 2,
+    "notes": "Demand is strong in the US where big house Christmas displays are a norm; UK is much smaller market and lower display culture, houses often smaller with fewer large rooflines, shorter ladders work and Work at Height Regulations, public liability insurance and PAT/electrical safety apply. UK PECR would restrict cold targeting but door hangers/leaflets are fine."
+   },
+   "risks": [
+    "Falls from roofs and ladders, serious injury",
+    "Higher insurance rates for risky activity",
+    "Hard to find staff willing to go on roofs",
+    "Seasonal revenue only",
+    "Squirrel damage, service calls on single bulbs",
+    "Poor route density kills margins",
+    "Customers moving away"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "An average home of this size is $1,500 to $2,000 for an install. And it's by the linear foot.",
+     "speaker": "Wesley",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 5179,
+     "approx_timestamp_s": 214
+    },
+    {
+     "text": "Year one will probably be in the 20% range cuz you're paying for that material for the first year and then year three uh will be around 50 to 60%.",
+     "speaker": "Wesley",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 7115,
+     "approx_timestamp_s": 294
+    },
+    {
+     "text": "We cut the lights and we keep the lights and we're essentially leasing them to them.",
+     "speaker": "Wesley",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 4280,
+     "approx_timestamp_s": 176
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Commercial Christmas lighting",
+   "one_liner": "Install holiday lights on commercial properties, where single customers can be worth tens of thousands.",
+   "category": "b2b_service",
+   "business_model": "Per-job annual commercial contracts for installation and removal.",
+   "customer": "Commercial property owners.",
+   "problem": "Commercial properties need large displays installed safely each season.",
+   "offer": "Holiday lighting installation for commercial properties.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [
+     {
+      "amount": 40000,
+      "amount_max": 50000,
+      "currency": "USD",
+      "unit": "per customer revenue",
+      "label": "one commercial customer taken over from another Grounds Guys"
+     }
+    ],
+    "notes": "A million-dollar operation might have 200-400 commercial customers, per Wesley's guess."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "partnerships",
+     "details": "Took over commercial customers from nearby Grounds Guys franchisee.",
+     "quote": null
+    }
+   ],
+   "delivery": "Same crew-based roof/ladder installs at larger scale.",
+   "unit_economics_claims": [
+    "One commercial customer worth about $40-50k",
+    "Another owner reportedly does $1.25M in Christmas lights"
+   ],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Cold email to limited companies is legal, but commercial lighting contracts need quotes and site visits."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "Site surveys needed."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical installation."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Invoicing is automatable."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Service callouts are physical."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Commercial seasonal lighting (shops, hotels, pubs) exists in the UK; scale smaller, work-at-height and insurance rules apply."
+   },
+   "risks": [
+    "Same safety risks at larger scale",
+    "Seasonality"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "So a commercial customer can be worth 100 times more than a home like this.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 480,
+     "approx_timestamp_s": 19
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Permanent lighting installation",
+   "one_liner": "Install permanent lights on homes at 2-3x the price of seasonal install.",
+   "category": "home_service",
+   "business_model": "One-off install fee.",
+   "customer": "Homeowners wanting year-round lighting.",
+   "problem": "Annual hanging of lights is a hassle.",
+   "offer": "Permanent roofline lighting.",
+   "pricing": {
+    "model": "2-3x seasonal install price",
+    "price_points": [],
+    "notes": "A Pennsylvania friend dislikes it since it is one-time, not recurring."
+   },
+   "acquisition_channels": [],
+   "delivery": "Physical install on roofs.",
+   "unit_economics_claims": [
+    "Installs cost two to three times more than seasonal"
+   ],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Inbound ads."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Quote needs measurement."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Standard invoicing."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Warranty queries via agent."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Similar product exists in UK, smaller market."
+   },
+   "risks": [
+    "No recurring revenue"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": []
+  },
+  {
+   "local_id": "I4",
+   "name": "Lawn mowing / grounds maintenance (Grounds Guys franchise)",
+   "one_liner": "Franchise lawn care business with thin margins that the Christmas lighting line complements.",
+   "category": "franchise",
+   "business_model": "Recurring mowing and grounds service, franchise.",
+   "customer": "Residential and commercial properties.",
+   "problem": "Property maintenance.",
+   "offer": "Mowing, irrigation, landscape lighting, ice melt.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "Crews on site.",
+   "unit_economics_claims": [
+    "Mowing margins 10-15%, lower commercial due to competition"
+   ],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Local SEO and ads."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Online quoting."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Subscription billing."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Scheduling bots."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Gardening services work in UK."
+   },
+   "risks": [
+    "Low margins",
+    "Competition"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "Margins for mowing is 10 to 15%. Particularly commercial.",
+     "speaker": "Wesley",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 1195,
+     "approx_timestamp_s": 49
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "Landscape lighting",
+   "one_liner": "Installing landscape lighting as a second lighting line.",
+   "category": "home_service",
+   "business_model": "Per-job install.",
+   "customer": "Homeowners and commercial properties.",
+   "problem": "not stated",
+   "offer": "Landscape lighting installation.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "Physical installation.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Ads."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Site survey."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Invoicing."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Agent."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Works in UK; electrical regs (Part P) may apply."
+   },
+   "risks": [],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": []
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Average large-home install costs $1,500-2,000",
+   "metric": "price",
+   "value": {
+    "amount": 1500,
+    "amount_max": 2000,
+    "currency": "USD",
+    "unit": "per install",
+    "label": null
+   },
+   "period": "year 1",
+   "claimant": "Wesley",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "An average home of this size is $1,500 to $2,000 for an install.",
+    "speaker": "Wesley",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5179,
+    "approx_timestamp_s": 214
+   }
+  },
+  {
+   "claim": "Minimum job about $800",
+   "metric": "price",
+   "value": {
+    "amount": 800,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "minimum job",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Wesley",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Yes, we do. We our typically about $800 is a minimum",
+    "speaker": "Wesley",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 19204,
+    "approx_timestamp_s": 793
+   }
+  },
+  {
+   "claim": "Year 1 margin about 20%, year 3 about 50-60%",
+   "metric": "margin",
+   "value": {
+    "amount": 20,
+    "amount_max": 60,
+    "currency": null,
+    "unit": "percent",
+    "label": null
+   },
+   "period": "year 1 to year 3",
+   "claimant": "Wesley",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Year one will probably be in the 20% range cuz you're paying for that material for the first year and then year three uh will be around 50 to 60%.",
+    "speaker": "Wesley",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7115,
+    "approx_timestamp_s": 294
+   }
+  },
+  {
+   "claim": "Insurance about $12,000 per year including vehicles, GL, workers comp",
+   "metric": "cost",
+   "value": {
+    "amount": 12000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per year",
+    "label": null
+   },
+   "period": "year",
+   "claimant": "Wesley",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "we're paying about $12,000 a year for our vehicles, for our general liability, workers comp.",
+    "speaker": "Wesley",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7831,
+    "approx_timestamp_s": 323
+   }
+  },
+  {
+   "claim": "Material about $200 on a $1,500 house",
+   "metric": "cost",
+   "value": {
+    "amount": 200,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per job",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Wesley",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "for $1,500, it might be $200 worth of material.",
+    "speaker": "Wesley",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16369,
+    "approx_timestamp_s": 676
+   }
+  },
+  {
+   "claim": "Another Grounds Guys owner does $1.25M in Christmas lights",
+   "metric": "revenue",
+   "value": {
+    "amount": 1250000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per year",
+    "label": null
+   },
+   "period": "year",
+   "claimant": "Wesley",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "One of the grounds guys that we were speaking with, he does a million and a quarter.",
+    "speaker": "Wesley",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 146,
+    "approx_timestamp_s": 6
+   }
+  },
+  {
+   "claim": "Commercial customer worth $40-50k",
+   "metric": "revenue",
+   "value": {
+    "amount": 40000,
+    "amount_max": 50000,
+    "currency": "USD",
+    "unit": "per customer",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Wesley",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "they have a big commercial customer around 40 to 50,000",
+    "speaker": "Wesley",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3269,
+    "approx_timestamp_s": 135
+   }
+  },
+  {
+   "claim": "Startup materials cost $4.5-5k for about 15 homes in first year",
+   "metric": "cost",
+   "value": {
+    "amount": 4500,
+    "amount_max": 5000,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": null
+   },
+   "period": "first year",
+   "claimant": "Wesley",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "the first year we spent about $4500 $5,000 on all the material that we were kind of expecting to do about 15 homes.",
+    "speaker": "Wesley",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 32356,
+    "approx_timestamp_s": 1337
+   }
+  },
+  {
+   "claim": "Could start with $400-500 of material plus equipment",
+   "metric": "cost",
+   "value": {
+    "amount": 400,
+    "amount_max": 500,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Wesley",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "you might only be $400 or $500 as far as material and then a couple pieces of equipment",
+    "speaker": "Wesley",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 32704,
+    "approx_timestamp_s": 1351
+   }
+  },
+  {
+   "claim": "Goal of $500k to $1M a year in holiday lighting within 2-3 years",
+   "metric": "revenue",
+   "value": {
+    "amount": 500000,
+    "amount_max": 1000000,
+    "currency": "USD",
+    "unit": "per year",
+    "label": null
+   },
+   "period": "2-3 years",
+   "claimant": "Wesley",
+   "first_hand": true,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "for holiday lighting, we'd like to do half a million to a million a year within the next two or three years.",
+    "speaker": "Wesley",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 34345,
+    "approx_timestamp_s": 1419
+   }
+  },
+  {
+   "claim": "Mowing margins 10-15%",
+   "metric": "margin",
+   "value": {
+    "amount": 10,
+    "amount_max": 15,
+    "currency": null,
+    "unit": "percent",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Wesley",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "Margins for mowing is 10 to 15%.",
+    "speaker": "Wesley",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1195,
+    "approx_timestamp_s": 49
+   }
+  },
+  {
+   "claim": "Install takes 1-1.5 hours, takedown 10 minutes",
+   "metric": "hours",
+   "value": {
+    "amount": 1,
+    "amount_max": 1.5,
+    "currency": null,
+    "unit": "hours install",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Wesley",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "the install for a house about this size, uh, an hour to an hour and a half.",
+    "speaker": "Wesley",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23410,
+    "approx_timestamp_s": 967
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Lease-and-store lights for repeat revenue",
+   "area": "pricing",
+   "steps": [
+    "Cut lights to fit the house and keep ownership",
+    "Store lights indoors between seasons",
+    "Discount 10% in year 2 and 3, then hold flat",
+    "Reuse material for new customers if one cancels",
+    "Margin rises from about 20% to 50-60% by year 3"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "We cut the lights and we keep the lights and we're essentially leasing them to them.",
+    "speaker": "Wesley",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4280,
+    "approx_timestamp_s": 176
+   }
+  },
+  {
+   "name": "Price by linear foot after wheel measurement",
+   "area": "pricing",
+   "steps": [
+    "Measure roof lines from the ground with a measuring wheel",
+    "Account for roof pitch with simple maths",
+    "Apply a per-linear-foot price",
+    "Apply minimum job around $800"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "We use a measuring wheel. So we'll just basically walk it off from here.",
+    "speaker": "Wesley",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5583,
+    "approx_timestamp_s": 230
+   }
+  },
+  {
+   "name": "Pre-bulb in the shop and design for easy takedown",
+   "area": "operations",
+   "steps": [
+    "Pre-bulb and pre-clip wire on spools in the shop",
+    "Use minimal time on site",
+    "Install so takedown can use a painter's pole without ladders",
+    "Label strands and keep a sketch of runs",
+    "Mark peaks with coloured zip ties"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Box nine door hanger marketing",
+   "area": "acquisition",
+   "steps": [
+    "When installing at one home, hang door hangers on 2 homes each side and 5 opposite",
+    "Neighbours see the crew and get a second touch point"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Seasonal marketing calendar",
+   "area": "acquisition",
+   "steps": [
+    "Run campaigns in July with early-booking discounts",
+    "Restart marketing late September/early October",
+    "Take down from second week of January"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Route density scheduling",
+   "area": "operations",
+   "steps": [
+    "Give customers a one-week install window",
+    "Route areas together for install and takedown",
+    "Cluster to avoid driving time exceeding job time"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Proactive communication on mistakes",
+   "area": "operations",
+   "steps": [
+    "Crews call immediately after incidents like hitting a mailbox",
+    "Manager calls the customer first",
+    "Be available any time of day"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Target new owners of homes with pre-cut lights",
+   "area": "acquisition",
+   "steps": [
+    "When a customer moves, knock on the new owner's door",
+    "Offer lights already fit to the house at a deeper discount"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Measuring wheel",
+   "purpose": "Measuring rooflines",
+   "cost_stated": null
+  },
+  {
+   "name": "Cougar Paws boots",
+   "purpose": "Roof grip safety",
+   "cost_stated": null
+  },
+  {
+   "name": "Pitch wedge",
+   "purpose": "Level platform on roof",
+   "cost_stated": null
+  },
+  {
+   "name": "Lightream",
+   "purpose": "Colour-changeable lights",
+   "cost_stated": null
+  },
+  {
+   "name": "Facebook",
+   "purpose": "Lead generation posts and ads",
+   "cost_stated": null
+  },
+  {
+   "name": "Internal CRM",
+   "purpose": "Marketing to leads",
+   "cost_stated": null
+  },
+  {
+   "name": "Grounds Guys franchise",
+   "purpose": "Franchise brand and network",
+   "cost_stated": null
+  },
+  {
+   "name": "Home Depot",
+   "purpose": "Not recommended; lights not made for custom fit",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Falling from roofs is a serious risk; prioritise safety training and equipment.",
+   "quote": {
+    "text": "watch videos on safety. Um, because that's the number one thing.",
+    "speaker": "Jeremy",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 27814,
+    "approx_timestamp_s": 1149
+   }
+  },
+  {
+   "warning": "Make sure staff will actually go on roofs before hiring; several hires backed out.",
+   "quote": {
+    "text": "hire someone to get on the roof.",
+    "speaker": "Wesley",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 29738,
+    "approx_timestamp_s": 1229
+   }
+  },
+  {
+   "warning": "Never hire uninsured roof workers; insurance classes this as higher risk.",
+   "quote": null
+  },
+  {
+   "warning": "Texas recently made yard signs technically illegal; neighbours may complain.",
+   "quote": null
+  },
+  {
+   "warning": "Avoid installing high up where adjustments or timers need a ladder; each service call for one bulb is costly.",
+   "quote": null
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Recurring, repeat-year work increases margin because material is already paid for and install time drops.",
+   "theme": "finance_unit_economics",
+   "quote": null
+  },
+  {
+   "lesson": "Route density determines profit: drive time can exceed on-site time.",
+   "theme": "operations",
+   "quote": null
+  },
+  {
+   "lesson": "Communication and proactive honesty keep customers from reshopping.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "communication covers a multitude of sins.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 29026,
+    "approx_timestamp_s": 1199
+   }
+  },
+  {
+   "lesson": "Seasonal add-on lines can diversify a thin-margin base business like mowing.",
+   "theme": "niche_selection",
+   "quote": null
+  },
+  {
+   "lesson": "Owning the asset (leasing lights) creates switching costs and lets you resell to new owners.",
+   "theme": "offer_design",
+   "quote": null
+  },
+  {
+   "lesson": "Start small and test on your own house; the downside is a ladder.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "The worst you could do is have a ladder that you get to keep for your house now.",
+    "speaker": "Wesley",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 31048,
+    "approx_timestamp_s": 1283
+   }
+  },
+  {
+   "lesson": "Commercial customers can be worth far more than residential ones.",
+   "theme": "scaling",
+   "quote": null
+  },
+  {
+   "lesson": "Price in risk and insurance cost; the liability is part of what the customer pays for.",
+   "theme": "pricing",
+   "quote": null
+  },
+  {
+   "lesson": "Physical risky field work is a poor fit for agent-run businesses, but pricing, scheduling and marketing parts can be automated.",
+   "theme": "automation_ai",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "B",
+  "rationale": "First-hand operator with specific prices, margins and costs, but only three years in, no revenue totals for his own lights business, and the $1.25M claim is hearsay. Setting is a Grounds Guys franchise in Texas.",
+  "promotional_conflict": "Host promotes his paid community (tkowners.com); guest promotes Grounds Guys franchise."
+ },
+ "extraction": {
+  "model": "claude-sonnet-5-5",
+  "extracted_at": "2026-10-22T04:58:20",
+  "cost_usd": 0.1374222,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 25,
+   "verified": 25,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

@@ -1,0 +1,392 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "83IZgzkJDNs",
+  "title": "Gemini 4 Argon vs Claude Opus 5.5 (Which Is Better for Business?)",
+  "channel": "George McConnell",
+  "url": "https://www.youtube.com/watch?v=83IZgzkJDNs",
+  "upload_date": "2026-10-20",
+  "duration_s": 1887,
+  "view_count": 1709,
+  "transcript_provider": "cached",
+  "transcript_chars": 34487,
+  "transcript_is_whisper": false
+ },
+ "summary": "George McConnell compares Google's Gemini 4 Argon and Claude Opus 5.5 across five basic-prompt tests: redesigning a mobile car-spa website, diagnosing an underperforming TikTok, generating a product video ad, building a 3D chess game, and building a music app. Gemini wins the website, TikTok analysis and video ad (the video test used Higgsfield via a Claude connector); Opus wins the chess game and guitar/drum app, though it is much slower in several tests. He ends with a tie and stresses that detailed prompts (e.g. a 13-page prompt) matter far more than the model choice. There is no real business idea; it is a tool comparison with some marketing commentary.",
+ "speakers": [
+  {
+   "name": "George McConnell",
+   "role": "host",
+   "description": "AI/marketing YouTuber with 20+ years of marketing experience who builds websites and ads with AI"
+  }
+ ],
+ "format": "tool_review",
+ "has_business_idea": false,
+ "ideas": [],
+ "metric_claims": [
+  {
+   "claim": "Gemini finished the TikTok analysis in 38 seconds",
+   "metric": "hours",
+   "value": {
+    "amount": 38,
+    "amount_max": null,
+    "currency": null,
+    "unit": "seconds",
+    "label": "Gemini TikTok analysis time"
+   },
+   "period": null,
+   "claimant": "George McConnell",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "It took 9 minutes and 47 seconds to pull this off, where Gemini was done in 38 [music] seconds",
+    "speaker": "George McConnell",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16867,
+    "approx_timestamp_s": 964
+   }
+  },
+  {
+   "claim": "Claude Opus 5.5 took 9 minutes 47 seconds on the TikTok analysis",
+   "metric": "hours",
+   "value": {
+    "amount": 587,
+    "amount_max": null,
+    "currency": null,
+    "unit": "seconds",
+    "label": "Opus TikTok analysis time"
+   },
+   "period": null,
+   "claimant": "George McConnell",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "It took 9 minutes and 47 seconds to pull this off",
+    "speaker": "George McConnell",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16867,
+    "approx_timestamp_s": 964
+   }
+  },
+  {
+   "claim": "Opus built the website in about 3.5 minutes vs Gemini about 5.5 minutes",
+   "metric": "hours",
+   "value": {
+    "amount": 210,
+    "amount_max": 330,
+    "currency": null,
+    "unit": "seconds",
+    "label": "website build times (Opus / Gemini)"
+   },
+   "period": null,
+   "claimant": "George McConnell",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "Opus, did it in about what was it? 3 minutes and 30 seconds. And this was about 5 minutes and 30 seconds.",
+    "speaker": "George McConnell",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2519,
+    "approx_timestamp_s": 144
+   }
+  },
+  {
+   "claim": "Chess game: Gemini took about 2 minutes, Opus about 10.5 minutes",
+   "metric": "hours",
+   "value": {
+    "amount": 2,
+    "amount_max": 10.5,
+    "currency": null,
+    "unit": "minutes",
+    "label": "chess build times (Gemini / Opus)"
+   },
+   "period": null,
+   "claimant": "George McConnell",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "Gemini over here on the right took about 2 minutes. Right here on the left, Opus 5.5 took about 10 and a half minutes.",
+    "speaker": "George McConnell",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25296,
+    "approx_timestamp_s": 1446
+   }
+  },
+  {
+   "claim": "TikTok creator's similar videos got 151 to 745 views, showing variance driven by hook",
+   "metric": "traffic",
+   "value": {
+    "amount": 745,
+    "amount_max": null,
+    "currency": null,
+    "unit": "views",
+    "label": "best of the sampled videos"
+   },
+   "period": null,
+   "claimant": "George McConnell",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "this only had 151 views. This one had 291. This one had 745, 718, and even this one had 653.",
+    "speaker": "George McConnell",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10549,
+    "approx_timestamp_s": 603
+   }
+  },
+  {
+   "claim": "Suggested a middle website pricing tier at $250 as the 'most popular' option",
+   "metric": "price",
+   "value": {
+    "amount": 250,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per service",
+    "label": "suggested mid tier"
+   },
+   "period": null,
+   "claimant": "George McConnell",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": null,
+   "quote": {
+    "text": "In this case, what I would have did for this one is I would have did this at 250 and I would have did that as the most popular choice",
+    "speaker": "George McConnell",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6333,
+    "approx_timestamp_s": 362
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Three-tier pricing with highlighted 'most popular' tier",
+   "area": "pricing",
+   "steps": [
+    "Offer three options rather than four",
+    "Mark the higher-priced middle or best option as 'most popular'",
+    "Place an upsell tier (e.g. a membership at about $320 or a flagship package) above it to anchor price"
+   ],
+   "idea_local_id": null,
+   "quote": {
+    "text": "Having three options is kind of good. But if you do have the fourth option, you always want to have something as the third as your best",
+    "speaker": "George McConnell",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5870,
+    "approx_timestamp_s": 335
+   }
+  },
+  {
+   "name": "Fix underperforming short-form video with a verbal hook",
+   "area": "acquisition",
+   "steps": [
+    "Compare against the creator's winning videos to see what differs in the first seconds",
+    "Add a verbal hook in the first 1-2 seconds instead of starting cold on item one",
+    "Open with a real sales-call objection or show the wrong way vs the right way",
+    "Keep fast pacing and end with a comment-to-get-free-stuff CTA, which builds an audience for retargeting"
+   ],
+   "idea_local_id": null,
+   "quote": {
+    "text": "Don't say X, say Y. I do agree with this one. All right, that is a good way to actually introduce things.",
+    "speaker": "George McConnell",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17826,
+    "approx_timestamp_s": 1019
+   }
+  },
+  {
+   "name": "Use richer prompts for better AI output",
+   "area": "product",
+   "steps": [
+    "Give detailed instructions rather than 1-2 sentences",
+    "Include source info, images, camera angles and structure",
+    "Expect large quality gains, e.g. a 13-page website prompt vs a two-sentence prompt"
+   ],
+   "idea_local_id": null,
+   "quote": {
+    "text": "That's what a 13-page prompt does versus a two sentence prompt.",
+    "speaker": "George McConnell",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 32111,
+    "approx_timestamp_s": 1835
+   }
+  },
+  {
+   "name": "Run the same prompt on both models with the same effort setting",
+   "area": "operations",
+   "steps": [
+    "Set both models to the same reasoning level (medium)",
+    "Use identical minimal prompts",
+    "Time each run and compare output side by side"
+   ],
+   "idea_local_id": null,
+   "quote": null
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Gemini 4 Argon",
+   "purpose": "Google LLM tested for website, video analysis, video generation and app builds",
+   "cost_stated": null
+  },
+  {
+   "name": "Claude Opus 5.5",
+   "purpose": "Anthropic LLM tested on the same tasks",
+   "cost_stated": null
+  },
+  {
+   "name": "Fable 5.1",
+   "purpose": "Model the host normally uses with Higgsfield for scripts, hooks and video generation",
+   "cost_stated": null
+  },
+  {
+   "name": "Higgsfield",
+   "purpose": "Third-party AI video/image generation connector for Claude",
+   "cost_stated": null
+  },
+  {
+   "name": "Seedance 2.5 / Kling",
+   "purpose": "Video models used through Higgsfield for the ad",
+   "cost_stated": null
+  },
+  {
+   "name": "TikTok / Instagram",
+   "purpose": "Platforms where creators post and repurpose winning videos",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Vague one-line prompts give generic results; AI output quality depends heavily on prompting.",
+   "quote": {
+    "text": "if any of you get frustrated out there wondering why you're not getting the results you want or why you're not getting something that you can see in your head, it's all about the prompting.",
+    "speaker": "George McConnell",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 32177,
+    "approx_timestamp_s": 1839
+   }
+  },
+  {
+   "warning": "AI design defaults (overused turquoise/black palettes, broken links, buttons that do nothing, missing images) need human review before shipping.",
+   "quote": null
+  },
+  {
+   "warning": "Claude cannot generate video or images natively; third-party connectors are required and can glitch (the Opus + Higgsfield run produced a weak, off-brief video).",
+   "quote": {
+    "text": "you cannot create videos and pictures inside Claude. You need to connect a third party connector",
+    "speaker": "George McConnell",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22406,
+    "approx_timestamp_s": 1280
+   }
+  },
+  {
+   "warning": "Do not blindly follow AI marketing advice; the host disagreed with several suggestions (e.g. slowing down speech, 'putting the money aside' sales line).",
+   "quote": null
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Model leadership changes week to week, so pick tools by task fit and your own workflow rather than loyalty to one model.",
+   "theme": "automation_ai",
+   "quote": {
+    "text": "AI is always racing. One's going to be better than the other, and then the next week, another one's going to be better",
+    "speaker": "George McConnell",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 32574,
+    "approx_timestamp_s": 1862
+   }
+  },
+  {
+   "lesson": "For short-form video, a spoken hook in the first 1-2 seconds is the main determinant of retention; cold-open list videos underperform.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "you literally only have 1 to two seconds to catch somebody. So, you have to talk really fast.",
+    "speaker": "George McConnell",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13400,
+    "approx_timestamp_s": 766
+   }
+  },
+  {
+   "lesson": "Domain expertise lets you judge AI output; the host rejected AI advice that was wrong for the context, so use AI as a draft and apply your own judgement.",
+   "theme": "mindset_execution",
+   "quote": null
+  },
+  {
+   "lesson": "Pricing page design drives revenue: three tiers, a highlighted 'most popular' option and an upsell tier anchor spend upward.",
+   "theme": "pricing",
+   "quote": null
+  },
+  {
+   "lesson": "Interactive booking elements (popup with service, size, add-ons, location, confirmation, and a live price calculator) make a service website convert better than a plain contact link.",
+   "theme": "offer_design",
+   "quote": {
+    "text": "Select your service, size, and add-on, your location, and your confirmation. That right there, game changer.",
+    "speaker": "George McConnell",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7320,
+    "approx_timestamp_s": 418
+   }
+  },
+  {
+   "lesson": "Speed matters in agent workflows: Opus took 10 minutes where Gemini took under a minute on analysis tasks, which affects iteration cost and throughput.",
+   "theme": "operations",
+   "quote": null
+  },
+  {
+   "lesson": "Using the same top-performing content across platforms (e.g. TikTok winners reposted to Instagram) is a common creator tactic.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "they take the winner and they throw it on Instagram. That's literally what they do.",
+    "speaker": "George McConnell",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10374,
+    "approx_timestamp_s": 593
+   }
+  },
+  {
+   "lesson": "Single minimal-prompt comparisons are weak evidence; results vary with settings, connectors and test selection (some tests used the model's own suggested demos).",
+   "theme": "validation_testing",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "C",
+  "rationale": "Informal, subjective side-by-side comparison with minimal prompts, single runs and the host's own opinions; no business-idea evidence or financial data. Useful only as a rough tool-selection signal.",
+  "promotional_conflict": "Host runs an AI/marketing channel, sells website/prompt content and is building an AI community; he also favours Higgsfield and Fable, which he uses daily."
+ },
+ "extraction": {
+  "model": "claude-sonnet-5-5",
+  "extracted_at": "2026-10-22T05:02:31",
+  "cost_usd": 0.08363219999999999,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 15,
+   "verified": 15,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

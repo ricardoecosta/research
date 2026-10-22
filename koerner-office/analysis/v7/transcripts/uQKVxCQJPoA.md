@@ -1,6 +1,6 @@
 # Watch This Overlooked AI Tool Build Me a Business in 23 Minutes
 
-- **Video:** [uQKVxCQJPoA](https://www.youtube.com/watch?v=uQKVxCQJPoA) · **Channel:** The Koerner Office · **Uploaded:** unknown · **Length:** 23 min · **Transcript:** ok
+- **Video:** [uQKVxCQJPoA](https://www.youtube.com/watch?v=uQKVxCQJPoA) · **Channel:** The Koerner Office · **Uploaded:** 2025-09-12 · **Length:** 23 min · **Transcript:** ok
 - **Speakers:** Chris Koerner (host) · **Format:** tutorial_howto
 - **Evidence quality:** C — This is a live product demo rather than a validated business. The host says he does not plan to run the app as a business, there is no customer, revenue or conversion data, and the economics are hypothetical. The tool demo itself is first-hand and credible, but the market 'validation' is only search-trend evidence. · Promotional conflict: Promotes his TK Owners community and Replit (says it is not an ad, but it is a product showcase); asks viewers to subscribe.
 - **Extraction:** claude-sonnet-5-5 · quotes verified 25/25

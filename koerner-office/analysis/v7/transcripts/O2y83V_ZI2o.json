@@ -1,0 +1,976 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "O2y83V_ZI2o",
+  "title": "6 BORING Rental Businesses That Quietly Make Millionaires (Nobody Wants to Own One)",
+  "channel": "Harry's Stealth Wealth",
+  "url": "https://www.youtube.com/watch?v=O2y83V_ZI2o",
+  "upload_date": "2026-10-13",
+  "duration_s": 1081,
+  "view_count": 9132,
+  "transcript_provider": "cached",
+  "transcript_chars": 16600,
+  "transcript_is_whisper": false
+ },
+ "summary": "A listicle-style video presenting six 'boring' rental businesses: dumpsters, portable restrooms/luxury trailers, medical and mobility equipment, prop rental, peer-to-peer car rental (Turo) and self-storage. Each is framed around the 'short need rent' idea: customers need an item briefly, so one owner rents it repeatedly. Figures come from third-party price trackers, trade sources and illustrative arithmetic, plus a possibly fictional narrator persona ('Harry') whose dumpster story and earnings are presented as personal anecdote. Key takeaway: start with the cheapest asset-light door (dumpster or mobility scooters), get contracts right (weight limits, deposits, mileage caps) and reinvest to scale.",
+ "speakers": [
+  {
+   "name": "Harry (Harry's Stealth Wealth narrator)",
+   "role": "narrator",
+   "description": "Presents himself as a county permit clerk who built a dumpster and restroom rental side business; persona may be scripted."
+  }
+ ],
+ "format": "listicle_roundup",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Dumpster rental (roll-off)",
+   "one_liner": "Buy 20-yard dumpsters and rent them weekly to roofers, remodelers and homeowners.",
+   "category": "rental_asset",
+   "business_model": "Per-rental weekly fee with overage charges for weight",
+   "customer": "Roofers, remodelers, contractors, homeowners doing cleanouts",
+   "problem": "Renovation and cleanout debris must be removed for a short time only",
+   "offer": "20-yard dumpster dropped before 7am, collected after about a week",
+   "pricing": {
+    "model": "Weekly rental with included tonnage (about 2 tons) plus per-ton overage",
+    "price_points": [
+     {
+      "amount": 275,
+      "amount_max": 700,
+      "currency": "USD",
+      "unit": "per week",
+      "label": "20-yd dumpster range"
+     },
+     {
+      "amount": 419,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per week",
+      "label": "national median (USA Superior)"
+     },
+     {
+      "amount": 76,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per ton over",
+      "label": "median overage"
+     }
+    ],
+    "notes": "Big haulers include about 7 days"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "google_business_profile_maps",
+     "details": "Google Business Profile with clear photos and clear price",
+     "quote": null
+    },
+    {
+     "channel": "partnerships",
+     "details": "First calls typically come from contractors; Harry cold-called roofers from permit stack",
+     "quote": null
+    },
+    {
+     "channel": "cold_call",
+     "details": "Called 10 roofers from permit records and booked three drops",
+     "quote": null
+    }
+   ],
+   "delivery": "Owner trucks the dumpster out with a roll-off trailer or hook truck, collects, empties at landfill and redeploys",
+   "unit_economics_claims": [
+    "~$600/week top line per dumpster, owner keeps 30-50%",
+    "5 dumpsters at $450, 60% utilisation = ~$5,800/month before costs (narrator arithmetic)",
+    "Dumpsters cost $3,500-$6,500 each"
+   ],
+   "tools": [
+    "Google Business Profile",
+    "Roll-off trailer/hook truck"
+   ],
+   "startup_cost": "Dumpsters $3,500-$6,500 each; roll-off trailer from ~$30,000 new; hook truck $120,000+",
+   "time_to_first_revenue": "First couple of months slow while permits, landfill account and insurance are sorted (Harry's first paid drop in month two)",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Google Business Profile, local SEO and ads are automatable; contractor relationships need some human touch."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Online booking, quote and e-sign contract with weight terms can be automated."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physically trucking, dropping and emptying bins requires a human driver every time."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Card on file, automatic overage invoicing from landfill tickets."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Chatbot/phone agent can handle scheduling and pickup requests."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "UK equivalent is skip hire; requires waste carrier licence, permits for skips on public highway, and waste transfer notes; market is dominated by established skip firms."
+   },
+   "risks": [
+    "Weight overage can erase margin if contract silent",
+    "Permits, landfill account and insurance required",
+    "Casual competitors and big haulers",
+    "Truck and delivery are physical and time-bound"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "A 20-yd dumpster rents for roughly $275 to $700 a week.",
+     "speaker": "Harry",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 892,
+     "approx_timestamp_s": 60
+    },
+    {
+     "text": "Harry's contract didn't mention weight at all. The landfill charged by the ton, and that one drop earned him almost nothing.",
+     "speaker": "Harry",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 9255,
+     "approx_timestamp_s": 624
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Portable restroom and luxury restroom trailer rental",
+   "one_liner": "Rent portable toilets to job sites and luxury restroom trailers to weddings and events.",
+   "category": "rental_asset",
+   "business_model": "Per-event or per-weekend rental",
+   "customer": "Wedding planners, event organisers, venues without plumbing, contractors",
+   "problem": "Events and job sites lack plumbing",
+   "offer": "Clean standard units or luxury trailers delivered and serviced",
+   "pricing": {
+    "model": "Per weekend/event; separate wedding rate card",
+    "price_points": [
+     {
+      "amount": 75,
+      "amount_max": 150,
+      "currency": "USD",
+      "unit": "per weekend",
+      "label": "standard unit"
+     },
+     {
+      "amount": 500,
+      "amount_max": 1500,
+      "currency": "USD",
+      "unit": "per event",
+      "label": "luxury trailer"
+     }
+    ],
+    "notes": "Use separate wedding rate card"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "partnerships",
+     "details": "Venues such as barns and vineyards; same contractors as dumpster customers",
+     "quote": null
+    },
+    {
+     "channel": "paid_search",
+     "details": "Guide budgets about $800/month marketing to keep four wedding weekends booked",
+     "quote": null
+    }
+   ],
+   "delivery": "Tow trailers to site, service, water, pumping and clean between events",
+   "unit_economics_claims": [
+    "Two-station trailer ~$769/event, ~$619 kept",
+    "4 weddings/month ≈ $2,475 per trailer",
+    "Fleet owners keep 20-25% after everything"
+   ],
+   "tools": [
+    "TapGoods (event rental software)"
+   ],
+   "startup_cost": "New trailer about $30,000-$50,000 all in",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "SEO, ads and venue directories can be automated."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Online booking and deposit collection."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Towing, servicing and cleaning are physical."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Automated deposits and invoices."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Agent handles enquiries; humans handle on-site issues."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Strong UK event and festival market; needs waste carrier licensing and disposal arrangements."
+   },
+   "risks": [
+    "High capex per trailer",
+    "Servicing and disposal logistics",
+    "Seasonality of weddings"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "Michael Vera Montes started The Lavatory in 2018 with two trailers. By 2023, he had about 100",
+     "speaker": "Harry",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 4086,
+     "approx_timestamp_s": 275
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Medical and mobility equipment rental",
+   "one_liner": "Rent mobility scooters, wheelchairs and hospital beds to tourists and post-surgery families.",
+   "category": "rental_asset",
+   "business_model": "Per-week rental with free delivery",
+   "customer": "Tourists at hotels and cruise ports, post-surgery families",
+   "problem": "Short-term mobility need not worth buying",
+   "offer": "Delivered, sanitised scooters/wheelchairs/beds",
+   "pricing": {
+    "model": "Weekly rental",
+    "price_points": [
+     {
+      "amount": 250,
+      "amount_max": 335,
+      "currency": "USD",
+      "unit": "per 4-7 days",
+      "label": "Walker Mobility scooter"
+     }
+    ],
+    "notes": "Keep card on file for damage"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "partnerships",
+     "details": "Hotel concierges and hospital discharge planners; leave cards",
+     "quote": null
+    }
+   ],
+   "delivery": "Van delivery, pickup and cleaning between renters",
+   "unit_economics_claims": [
+    "10 scooters x 2 weeks/month at $250/week ≈ $5,000/month (illustration)"
+   ],
+   "tools": [],
+   "startup_cost": "A few thousand to ~$10,000 for starter fleet",
+   "time_to_first_revenue": "When first concierge says yes",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Relies on personal relationships with concierges and discharge planners."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Online booking forms."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical delivery, pickup, cleaning."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Card on file."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Agent for queries."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "UK tourist hubs exist (London, Edinburgh) with existing mobility hire; medical device and hygiene rules apply."
+   },
+   "risks": [
+    "Damage disputes",
+    "Hygiene liability",
+    "Seasonal demand"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "You don't need the whole city. You need a handful of hotel concierges and one or two hospital discharge planners who know your number.",
+     "speaker": "Harry",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 6051,
+     "approx_timestamp_s": 408
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "Prop and furniture rental",
+   "one_liner": "Rent vintage furniture and props to film crews, photographers and event planners.",
+   "category": "rental_asset",
+   "business_model": "Weekly rental, 15-20% of replacement value",
+   "customer": "Film crews, photographers, event planners",
+   "problem": "Need a look briefly, not long-term storage",
+   "offer": "Catalogued props rented by the week",
+   "pricing": {
+    "model": "Weekly rental at 15-20% of replacement value, discounts for long rentals, deposit",
+    "price_points": [
+     {
+      "amount": 75,
+      "amount_max": 100,
+      "currency": "USD",
+      "unit": "per week",
+      "label": "vintage sideboard worth ~$500"
+     },
+     {
+      "amount": 1000,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "deposit minimum",
+      "label": "one prop house"
+     }
+    ],
+    "notes": "Prop Room: full price week one, half price weeks 2-4"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "seo_organic_search",
+     "details": "Browsable photographed catalogue",
+     "quote": null
+    }
+   ],
+   "delivery": "Customer collects or delivery; store in dry space",
+   "unit_economics_claims": [
+    "Pays for itself in 5-7 rented weeks"
+   ],
+   "tools": [],
+   "startup_cost": "A few thousand dollars of estate sale finds",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Online catalogue SEO."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Online booking and deposit."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Handling and moving furniture is physical."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Automated invoices."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Agent answers availability."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "UK has a large film and TV industry and prop houses; works similarly."
+   },
+   "risks": [
+    "Storage space",
+    "Damage/loss",
+    "Sourcing inventory"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "Weekly rent typically runs 15 to 20% of the item's replacement value.",
+     "speaker": "Harry",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 7898,
+     "approx_timestamp_s": 533
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "Peer-to-peer car rental (Turo)",
+   "one_liner": "List one or more cars on Turo and scale the fleet with profits and loans.",
+   "category": "rental_asset",
+   "business_model": "Per-trip rental via platform, host keeps 70-90%",
+   "customer": "Travellers, couples wanting a weekend car",
+   "problem": "Need a car for a few days without ownership",
+   "offer": "Cars listed below rental counter prices, with mileage limits",
+   "pricing": {
+    "model": "Daily rate",
+    "price_points": [
+     {
+      "amount": 75,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per day",
+      "label": "cheapest Zarena cars"
+     }
+    ],
+    "notes": "Daily mileage limit with overage rate"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "marketplace_platform",
+     "details": "Turo listing",
+     "quote": null
+    }
+   ],
+   "delivery": "Hand-over, cleaning and maintenance of the car",
+   "unit_economics_claims": [
+    "Average Turo car earns ~$906/month",
+    "Zarena earned $922,225 in a year with 69 cars",
+    "Echeverria up to $14,000/month from six cars"
+   ],
+   "tools": [
+    "Turo"
+   ],
+   "startup_cost": "Used luxury car from ~$30,000",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Platform supplies demand; listing and pricing tools can be automated."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Platform handles renter verification."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Cleaning, key hand-off and maintenance need humans or contractors."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Platform pays out."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Messaging automatable; incidents need humans."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Turo launched in the UK but later closed to UK hosts; alternatives (Getaround, Hiyacar) exist and insurance/MOT/hire-and-reward rules are stricter."
+   },
+   "risks": [
+    "Damage and wear",
+    "Insurance",
+    "Platform fees 10-30%",
+    "Capital tied up in cars"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "Business Insider reported she earned $922,225 in 1 year verified with documents.",
+     "speaker": "Harry",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 10976,
+     "approx_timestamp_s": 741
+    }
+   ]
+  },
+  {
+   "local_id": "I6",
+   "name": "Self-storage facility",
+   "one_liner": "Own a self-storage facility, ideally by buying a small existing one.",
+   "category": "real_estate",
+   "business_model": "Monthly unit rent",
+   "customer": "Families moving, couples combining homes, inheritors",
+   "problem": "Need space for a few months",
+   "offer": "Storage units",
+   "pricing": {
+    "model": "Monthly rent per unit",
+    "price_points": [
+     {
+      "amount": 100,
+      "amount_max": 200,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "10x10 unit"
+     }
+    ],
+    "notes": "Review rates quarterly and raise gently"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "seo_organic_search",
+     "details": "Search and location near movers",
+     "quote": null
+    }
+   ],
+   "delivery": "Customers use units; owner maintains facility",
+   "unit_economics_claims": [
+    "Break-even ~80% occupancy",
+    "100 units at 90% x $150 ≈ $13,500/month",
+    "Operating costs 35-50% of revenue"
+   ],
+   "tools": [],
+   "startup_cost": "$2-5 million to build 200-400 units; buy small existing with partners or bank loan",
+   "time_to_first_revenue": "Tenants on day one if buying existing",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Local SEO and ads."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Online lease and keypad access."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Passive space; occasional site maintenance."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Auto-billing."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "Agent support with occasional site visits."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "UK self-storage is established (Safestore, Big Yellow); planning and land cost high; capital requirement large."
+   },
+   "risks": [
+    "Huge capital",
+    "Zoning and land cost",
+    "Occupancy"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "In 1972, Wayne Hughes and Ken Volk each put in $25,000 and opened one storage facility in El Cajon, California.",
+     "speaker": "Harry",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 13310,
+     "approx_timestamp_s": 898
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "20-yard dumpster rents for $275-$700 per week",
+   "metric": "price",
+   "value": {
+    "amount": 275,
+    "amount_max": 700,
+    "currency": "USD",
+    "unit": "per week",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Harry citing USA Superior/HomeAdvisor",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "A 20-yd dumpster rents for roughly $275 to $700 a week.",
+    "speaker": "Harry",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 892,
+    "approx_timestamp_s": 60
+   }
+  },
+  {
+   "claim": "Five dumpsters at $450, 60% rented, about $5,800/month before costs",
+   "metric": "revenue",
+   "value": {
+    "amount": 5800,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per month",
+    "label": null
+   },
+   "period": "month",
+   "claimant": "Harry",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Five dumpsters at about $450, each rented 60% of the weeks, comes to roughly $5,800 a month before costs.",
+    "speaker": "Harry",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1551,
+    "approx_timestamp_s": 104
+   }
+  },
+  {
+   "claim": "Owner keeps 30-50% of dumpster revenue",
+   "metric": "margin",
+   "value": {
+    "amount": 30,
+    "amount_max": 50,
+    "currency": null,
+    "unit": "percent",
+    "label": null
+   },
+   "period": null,
+   "claimant": "The Base Station via Harry",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "with the owner keeping 30 to 50% of it",
+    "speaker": "Harry",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1424,
+    "approx_timestamp_s": 96
+   }
+  },
+  {
+   "claim": "Luxury restroom trailers fleet owners keep 20-25% of revenue",
+   "metric": "margin",
+   "value": {
+    "amount": 20,
+    "amount_max": 25,
+    "currency": null,
+    "unit": "percent",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Harry",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "fleet owners typically keep around 20 to 25% of revenue after everything",
+    "speaker": "Harry",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4864,
+    "approx_timestamp_s": 328
+   }
+  },
+  {
+   "claim": "Mobility scooter rents $250-$335 for 4-7 days",
+   "metric": "price",
+   "value": {
+    "amount": 250,
+    "amount_max": 335,
+    "currency": "USD",
+    "unit": "per 4-7 days",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Harry about Walker Mobility",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "rents a mobility scooter for about 250 to 335 dollars for four to seven days",
+    "speaker": "Harry",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5315,
+    "approx_timestamp_s": 358
+   }
+  },
+  {
+   "claim": "Natalia Zarena earned $922,225 in one year from 69 cars",
+   "metric": "revenue",
+   "value": {
+    "amount": 922225,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per year",
+    "label": null
+   },
+   "period": "year",
+   "claimant": "Business Insider via Harry",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "Business Insider reported she earned $922,225 in 1 year verified with documents.",
+    "speaker": "Harry",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10976,
+    "approx_timestamp_s": 741
+   }
+  },
+  {
+   "claim": "Average Turo car earns about $906/month",
+   "metric": "revenue",
+   "value": {
+    "amount": 906,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per month",
+    "label": null
+   },
+   "period": "month",
+   "claimant": "Turo via Harry",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "Turo says an average car [music] on its platform earns about $906 a month.",
+    "speaker": "Harry",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10508,
+    "approx_timestamp_s": 709
+   }
+  },
+  {
+   "claim": "100 self-storage units at 90% and $150 yields about $13,500/month",
+   "metric": "revenue",
+   "value": {
+    "amount": 13500,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per month",
+    "label": null
+   },
+   "period": "month",
+   "claimant": "Harry",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "100 units at 90% full at about $150 a month is around $13,500 a month in rent.",
+    "speaker": "Harry",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13038,
+    "approx_timestamp_s": 880
+   }
+  },
+  {
+   "claim": "Harry's dumpsters and two restroom units earn about $4,617 in a good month at 18 months",
+   "metric": "revenue",
+   "value": {
+    "amount": 4617,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per month",
+    "label": null
+   },
+   "period": "month",
+   "claimant": "Harry",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "18 months in, his dumpsters and two restroom units bringing in about $4,617 a month in a good month.",
+    "speaker": "Harry",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15148,
+    "approx_timestamp_s": 1022
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Weight limit clause in dumpster contract",
+   "area": "operations",
+   "steps": [
+    "Include about 2 tons in the rental price",
+    "Charge a per-ton overage (national median about $76/ton)",
+    "Put weight limit in writing for every drop"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "A line in the contract with the included tonnage, usually about two tons, and a price for every ton over.",
+    "speaker": "Harry",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9402,
+    "approx_timestamp_s": 634
+   }
+  },
+  {
+   "name": "Prospect contractors from building permits",
+   "area": "acquisition",
+   "steps": [
+    "Review local permit records",
+    "Call roofers named on permits",
+    "Book drops for next month"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Prop rental catalogue and deposit",
+   "area": "operations",
+   "steps": [
+    "Photograph and tag every piece on purchase day",
+    "Take a deposit before items leave",
+    "Discount long rentals (half price weeks 2-4)"
+   ],
+   "idea_local_id": "I4",
+   "quote": null
+  },
+  {
+   "name": "Turo mileage cap and protection plan choice",
+   "area": "pricing",
+   "steps": [
+    "Set daily mileage limit with overage rate in listing",
+    "Start on safer protection plan, move up once trusting renters"
+   ],
+   "idea_local_id": "I5",
+   "quote": null
+  },
+  {
+   "name": "Quarterly rate reviews for storage",
+   "area": "pricing",
+   "steps": [
+    "Review rates every quarter",
+    "Raise gently"
+   ],
+   "idea_local_id": "I6",
+   "quote": null
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Turo",
+   "purpose": "Peer-to-peer car rental marketplace",
+   "cost_stated": "Platform keeps 10-30% of each trip"
+  },
+  {
+   "name": "Google Business Profile",
+   "purpose": "Local lead generation for dumpsters",
+   "cost_stated": null
+  },
+  {
+   "name": "TapGoods",
+   "purpose": "Event rental software; source of trailer cost data",
+   "cost_stated": null
+  },
+  {
+   "name": "USA Superior",
+   "purpose": "Dumpster price tracker",
+   "cost_stated": null
+  },
+  {
+   "name": "RecNation",
+   "purpose": "Storage operator source of pricing/occupancy data",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Dumpster contract without weight limits can wipe out profit because landfills charge by the ton.",
+   "quote": {
+    "text": "The landfill charged by the ton, and that one drop earned him almost nothing.",
+    "speaker": "Harry",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9301,
+    "approx_timestamp_s": 627
+   }
+  },
+  {
+   "warning": "Check city rules, permits and landfill requirements before first drop.",
+   "quote": null
+  },
+  {
+   "warning": "Higher Turo host share means carrying more damage risk yourself.",
+   "quote": null
+  },
+  {
+   "warning": "Setting storage prices once and forgetting them loses revenue.",
+   "quote": null
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Assets that customers need only briefly create repeat revenue from the same owner and customers rarely want to compete.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "Each renter needs the thing for a short time.",
+    "speaker": "Harry",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9839,
+    "approx_timestamp_s": 664
+   }
+  },
+  {
+   "lesson": "Start with the cheapest asset and let early rental income fund the next asset.",
+   "theme": "scaling",
+   "quote": {
+    "text": "Start where the money is small and let the first asset pay for the next one.",
+    "speaker": "Harry",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15020,
+    "approx_timestamp_s": 1014
+   }
+  },
+  {
+   "lesson": "Regulatory friction (permits, landfill accounts, zoning) acts as a moat against casual competitors.",
+   "theme": "niche_selection",
+   "quote": null
+  },
+  {
+   "lesson": "Reliability and punctuality is the main brand against big incumbents in local rentals.",
+   "theme": "offer_design",
+   "quote": null
+  },
+  {
+   "lesson": "Write contract terms (weight, mileage, deposits) to protect against asset wear and disputes.",
+   "theme": "legal_risk",
+   "quote": null
+  },
+  {
+   "lesson": "Validate your local market by counting competitors and checking their prices.",
+   "theme": "validation_testing",
+   "quote": null
+  },
+  {
+   "lesson": "Physical rental assets limit automation because delivery and cleaning need humans; storage is the most automatable.",
+   "theme": "automation_ai",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "C",
+  "rationale": "Listicle with third-party figures and narrator arithmetic; Harry's personal story appears scripted/persona and uncorroborated. Case studies (Public Storage, Turo hosts) cite outlets but are second-hand.",
+  "promotional_conflict": "Channel appears to be content-driven with no product named; Harry persona may be fictionalised."
+ },
+ "extraction": {
+  "model": "claude-sonnet-5-5",
+  "extracted_at": "2026-10-22T05:00:53",
+  "cost_usd": 0.10908419999999999,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 20,
+   "verified": 20,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

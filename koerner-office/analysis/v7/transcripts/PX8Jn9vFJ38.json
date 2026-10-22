@@ -1,0 +1,926 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "PX8Jn9vFJ38",
+  "title": "Companies Are Panic Paying for This Skill. Here’s How to Get In",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=PX8Jn9vFJ38",
+  "upload_date": "2026-01-08",
+  "duration_s": 3326,
+  "view_count": 46886,
+  "transcript_provider": "transcribeyoutube",
+  "transcript_chars": 70839,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner interviews Brandon Gdosc, a Dallas-based former corporate 'AI operations' lead who five months earlier started a solo AI consulting and services business. He claims roughly $30k of small projects in the first six weeks, then growth to an ~$800k annual run rate (about $60-80k/month). He sells audits ($10-15k), fractional AI-executive retainers ($20-35k/month) and custom builds, mainly to 400-6,000 employee companies. Key takeaways: price high, ask discovery questions instead of solutioning, use a three-level solution framework, and build solutions yourself rather than just advising. The host promotes his own Playmakers community.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Host of The Koerner Office podcast; sells the Playmakers AI community"
+  },
+  {
+   "name": "Brandon Gdosc",
+   "role": "guest",
+   "description": "Founder of Gdosc Consulting, AI consultant in North Dallas, ex-financial adviser and corporate AI operations lead"
+  }
+ ],
+ "format": "operator_interview",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Fractional AI consulting and implementation for mid/large companies",
+   "one_liner": "Solo consultant with a small contractor team sells AI audits, fractional AI-executive retainers and custom-built AI/automation solutions to companies of hundreds to thousands of employees.",
+   "category": "ai_automation",
+   "business_model": "One-off audit fees, monthly fractional retainers, and project fees for built point solutions; follow-on work from discovered use cases.",
+   "customer": "Mid-size (400-500 employee) and large (~6,000 employee) companies, plus some 40-50 person agencies and startups; executives under pressure to 'do something with AI'.",
+   "problem": "Leadership has an AI mandate but no budget, no strategy, no in-house skills, and needs proof of ROI; employees have workflow pain points and unused ideas.",
+   "offer": "AI readiness survey and report with chatbot, workshops, use-case discovery, a framework (AI operators, AI solutions briefs, three solution levels), a fractional AI executive role, and hands-on building of custom apps and agent automations.",
+   "pricing": {
+    "model": "Audit one-off fee; fractional monthly retainer; project-based builds; early hourly/retainer pricing",
+    "price_points": [
+     {
+      "amount": 10000,
+      "amount_max": 15000,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "AI audit for ~400-person company"
+     },
+     {
+      "amount": 20000,
+      "amount_max": 35000,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "Fractional AI executive / operations framework"
+     },
+     {
+      "amount": 4000,
+      "amount_max": 5000,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "First few projects"
+     }
+    ],
+    "notes": "He raised prices with each new deal, researching market rates via ChatGPT/Claude, which mostly surfaced big-consultancy rates. Point solutions after the audit are priced against a monthly spend budget."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "referrals_word_of_mouth",
+     "details": "Inbound interest from the start due to his reputation; referrals now exceed capacity; only one prospect got a sales follow-up.",
+     "quote": {
+      "text": "I have received more referrals uh than I've been able to service at this point",
+      "speaker": "Brandon Gdosc",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 38339,
+      "approx_timestamp_s": 1863
+     }
+    },
+    {
+     "channel": "existing_audience",
+     "details": "Leveraged his existing network and reputation from prior AI operations work (e.g. a retainer from Rachel Woods as an early gig).",
+     "quote": null
+    },
+    {
+     "channel": "networking_events",
+     "details": "Executives ask him to talk with them as an 'AI expert'; discovery calls with warm contacts.",
+     "quote": null
+    }
+   ],
+   "delivery": "Brandon does discovery, then builds solutions himself with Claude Code (Next.js, MongoDB, Tailwind, Heroku) and no-code tools (Zapier, Relevance AI), with a developer and one other person helping. First 30 days often deliver 3-5 working solutions. He also runs workshops and acts as a fractional executive.",
+   "unit_economics_claims": [
+    "About $30k of small projects in the first ~6 weeks",
+    "Grew to ~$800k annual run rate / roughly $60-80k a month by month 5",
+    "Income tripled vs. historical earnings",
+    "Team is himself, a developer, one other person, and tiny overhead"
+   ],
+   "tools": [
+    "Claude Code",
+    "ChatGPT",
+    "Claude",
+    "Zapier",
+    "Relevance AI",
+    "Make",
+    "n8n",
+    "OpenAI AgentKit",
+    "Next.js",
+    "MongoDB",
+    "Tailwind CSS",
+    "Heroku",
+    "Miro",
+    "Lucid",
+    "Salesforce"
+   ],
+   "startup_cost": "not stated (tiny overhead; computer and internet)",
+   "time_to_first_revenue": "Early projects within the first weeks/months; about $30k in the first six weeks",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Relies on reputation, referrals and personal calls; cold outreach to named execs is partly possible but trust-based sales need a human."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "The survey/readiness report and chatbot are automated, but discovery conversations and stakeholder alignment need a human."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Claude Code builds most apps, but a human must scope, supervise, handle security and change management, and be the trusted face."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Invoicing and CRM are software; he built his own invoice tooling."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Clients want a personal relationship and handholding through adoption fear."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Demand for AI adoption is global. UK needs GDPR, data-protection and procurement awareness, and prices would likely be lower (GBP). Credibility and network are needed."
+   },
+   "risks": [
+    "AI hype bubble could cool",
+    "Heavy dependence on founder's reputation and personal presence",
+    "Enterprise security, PII and procurement hurdles",
+    "Lumpy revenue and client concentration",
+    "Capacity limits: already turning away work",
+    "NDAs limit publishable case studies"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "$10 to $15,000 usually depending on you know how deep we want to go onetime fee",
+     "speaker": "Brandon Gdosc",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 17484,
+     "approx_timestamp_s": 850
+    },
+    {
+     "text": "I'll come in as a fractional rate somewhere in the 20 to $35,000 a month range.",
+     "speaker": "Brandon Gdosc",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 21223,
+     "approx_timestamp_s": 1031
+    },
+    {
+     "text": "I think we have a lot of use cases inside these companies",
+     "speaker": "Brandon Gdosc",
+     "match_score": 75.4,
+     "verified": false,
+     "char_offset": 23099,
+     "approx_timestamp_s": 1123
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "AI readiness survey and report product",
+   "one_liner": "A survey sent to managers and employees, auto-summarised by AI into a 15-page AI readiness report plus a chatbot, delivered within hours.",
+   "category": "ai_automation",
+   "business_model": "Part of the audit fee",
+   "customer": "Mid/large companies starting AI adoption",
+   "problem": "Leaders don't know their staff's AI readiness, attitudes or use cases.",
+   "offer": "Survey, instantly summarised insights and charts, 15-page report, chatbot to query the results.",
+   "pricing": {
+    "model": "Bundled in the $10-15k audit",
+    "price_points": [
+     {
+      "amount": 10000,
+      "amount_max": 15000,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "Audit"
+     }
+    ],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "Software he built generates insights and charts within 2-3 hours of survey completion.",
+   "unit_economics_claims": [],
+   "tools": [
+    "custom survey app",
+    "AI summarisation"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Sold within consulting engagements."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Survey distribution can be templated."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "AI analysis and report generation are largely automated."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Standard invoicing."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Needs human interpretation and follow-up."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works the same; mind GDPR for employee survey data."
+   },
+   "risks": [
+    "Employee data privacy"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "I can actually instantly summarize and give AI insights and charts",
+     "speaker": "Brandon Gdosc",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 14316,
+     "approx_timestamp_s": 696
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Rapid custom app / workflow automation point solutions",
+   "one_liner": "Build bespoke apps (e.g. training app proof of concept in 10 days) and agent workflows (Salesforce research to CSV in 1-3 minutes instead of 90) for specific teams.",
+   "category": "ai_automation",
+   "business_model": "Project fees per point solution",
+   "customer": "Teams inside mid/large companies",
+   "problem": "Manual, time-consuming processes and lack of dev resources.",
+   "offer": "Custom AI/agent-based or AI-built software for a small group.",
+   "pricing": {
+    "model": "Per project; early ones $4-5k",
+    "price_points": [
+     {
+      "amount": 4000,
+      "amount_max": 5000,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "First projects"
+     }
+    ],
+    "notes": "Later pricing not stated."
+   },
+   "acquisition_channels": [],
+   "delivery": "Receive document dump and SME dictation, use Claude Code to research and build, deliver in days. About 70% of solutions use AI, 30% just use AI to build conventional software.",
+   "unit_economics_claims": [
+    "Task time cut from 1.5 hours to 1-3 minutes",
+    "Training app built in about 10 days"
+   ],
+   "tools": [
+    "Claude Code",
+    "Salesforce",
+    "AI agents"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Comes from audits and referrals."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Requires discovery and information intake."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Agents write most code; human review and deployment needed."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Standard."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Maintenance and fixes need a human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Same in UK."
+   },
+   "risks": [
+    "Security reviews",
+    "Maintaining bespoke software",
+    "Vibe-coded apps breaking without engineering knowledge"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "within a minute to three minutes >> instead of an hour and a half, they have that",
+     "speaker": "Brandon Gdosc",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 47621,
+     "approx_timestamp_s": 2315
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "AI voice agent / chatbot for local business (host example)",
+   "one_liner": "Host's illustrative ladder: sell an AI voice agent to an HVAC owner, then a $500 website chatbot, then a $3,000 project.",
+   "category": "ai_automation",
+   "business_model": "Per-project fees",
+   "customer": "Local service business owners such as HVAC",
+   "problem": "Missed calls and manual customer handling",
+   "offer": "AI voice agent, website chatbot and further automations",
+   "pricing": {
+    "model": "Per project",
+    "price_points": [
+     {
+      "amount": 500,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "Chatbot"
+     },
+     {
+      "amount": 3000,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "Follow-on project"
+     }
+    ],
+    "notes": "Hypothetical example by the host."
+   },
+   "acquisition_channels": [],
+   "delivery": "not stated",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Local SMB outreach is limited by PECR for sole traders; mostly relationship-based."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Needs setup per client."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Tooling does most of it."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Standard."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Owners need hand-holding."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Works in UK; PECR limits cold outreach to sole traders."
+   },
+   "risks": [],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": []
+  },
+  {
+   "local_id": "I5",
+   "name": "Free-first case study for first AI customer",
+   "one_liner": "Advice: solve a real problem for someone for free to build confidence, then raise price.",
+   "category": "education_coaching",
+   "business_model": "n/a (advice)",
+   "customer": "Aspiring AI consultants",
+   "problem": "Hardest part is the first customer",
+   "offer": "Do free work to gain proof, then increase prices",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "not stated",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": null,
+   "time_to_first_revenue": null,
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Human conversations."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "Human."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Tooling-assisted."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Standard."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Universal."
+   },
+   "risks": [],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": []
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Went from zero to $80,000 a month within 5 months",
+   "metric": "revenue",
+   "value": {
+    "amount": 80000,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "period": "month 5",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "within 5 months, he went from zero to $80,000 a month",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 263,
+    "approx_timestamp_s": 12
+   }
+  },
+  {
+   "claim": "About $30,000 of small projects in about six weeks",
+   "metric": "revenue",
+   "value": {
+    "amount": 30000,
+    "currency": "USD",
+    "unit": "one-off"
+   },
+   "period": "six weeks",
+   "claimant": "Brandon Gdosc",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I think I did about $30,000 worth of small projects in about a six week period.",
+    "speaker": "Brandon Gdosc",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 44996,
+    "approx_timestamp_s": 2187
+   }
+  },
+  {
+   "claim": "Annual run rate around $800,000",
+   "metric": "revenue",
+   "value": {
+    "amount": 800000,
+    "currency": "USD",
+    "unit": "per year"
+   },
+   "period": "by month 5",
+   "claimant": "Brandon Gdosc",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "quickly grew to annual run rate of around 800,000 through different engagements",
+    "speaker": "Brandon Gdosc",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 45086,
+    "approx_timestamp_s": 2191
+   }
+  },
+  {
+   "claim": "Audit price $10-15k",
+   "metric": "price",
+   "value": {
+    "amount": 10000,
+    "amount_max": 15000,
+    "currency": "USD",
+    "unit": "one-off"
+   },
+   "period": null,
+   "claimant": "Brandon Gdosc",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "$10 to $15,000 usually depending on you know how deep we want to go onetime fee",
+    "speaker": "Brandon Gdosc",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17484,
+    "approx_timestamp_s": 850
+   }
+  },
+  {
+   "claim": "Fractional rate $20-35k a month",
+   "metric": "price",
+   "value": {
+    "amount": 20000,
+    "amount_max": 35000,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "period": null,
+   "claimant": "Brandon Gdosc",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "somewhere in the 20 to $35,000 a month range",
+    "speaker": "Brandon Gdosc",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21257,
+    "approx_timestamp_s": 1033
+   }
+  },
+  {
+   "claim": "First projects were $4,000-$5,000 one-time",
+   "metric": "price",
+   "value": {
+    "amount": 4000,
+    "amount_max": 5000,
+    "currency": "USD",
+    "unit": "one-off"
+   },
+   "period": null,
+   "claimant": "Brandon Gdosc",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "the first few projects that I did were probably in the $4,000 to $5,000 range",
+    "speaker": "Brandon Gdosc",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25710,
+    "approx_timestamp_s": 1249
+   }
+  },
+  {
+   "claim": "Income has tripled vs. historical earnings",
+   "metric": "other",
+   "value": {
+    "amount": 3,
+    "currency": null,
+    "unit": "x multiple"
+   },
+   "period": null,
+   "claimant": "Brandon Gdosc",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "it's it's tripled what I have historically been making at this point.",
+    "speaker": "Brandon Gdosc",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 59312,
+    "approx_timestamp_s": 2883
+   }
+  },
+  {
+   "claim": "Research process task took 1.5 hours, now 1-3 minutes",
+   "metric": "hours",
+   "value": {
+    "amount": 1.5,
+    "currency": null,
+    "unit": "hours per task"
+   },
+   "period": null,
+   "claimant": "Brandon Gdosc",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "it takes, you know, an hour and a half to do each one.",
+    "speaker": "Brandon Gdosc",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 47175,
+    "approx_timestamp_s": 2293
+   }
+  },
+  {
+   "claim": "About 70% of solutions use AI, 30% are conventional software built with AI",
+   "metric": "other",
+   "value": {
+    "amount": 70,
+    "currency": null,
+    "unit": "percent"
+   },
+   "period": null,
+   "claimant": "Brandon Gdosc",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "about 70% of the solutions that I'm building actually are using AI in the solution and 30% are just being built",
+    "speaker": "Brandon Gdosc",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 35999,
+    "approx_timestamp_s": 1750
+   }
+  },
+  {
+   "claim": "Audit survey surfaces about 40 use cases",
+   "metric": "other",
+   "value": {
+    "amount": 40,
+    "currency": null,
+    "unit": "use cases"
+   },
+   "period": null,
+   "claimant": "Brandon Gdosc",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "we're pulling out 40 use cases just from that",
+    "speaker": "Brandon Gdosc",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 36759,
+    "approx_timestamp_s": 1787
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Ratchet pricing upward deal by deal",
+   "area": "pricing",
+   "steps": [
+    "Research market rates using ChatGPT/Claude, noting big-consultancy premiums",
+    "Price the first jobs low ($4-5k) for proof",
+    "Raise the price on each next proposal while you're confident of delivering value",
+    "Stop raising when value no longer justifies it"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I would do one at a at a certain price and the next one I would price a little bit.",
+    "speaker": "Brandon Gdosc",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24251,
+    "approx_timestamp_s": 1179
+   }
+  },
+  {
+   "name": "Discovery calls that ask, not solution",
+   "area": "sales",
+   "steps": [
+    "Intro and rapport",
+    "Ask about their journey and feelings about AI",
+    "Ask about workflows and pain points ('where does that happen, how long')",
+    "Use SPIN-style implication questions",
+    "Do not offer solutions on the call",
+    "Return later with several engagement options"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I try to never solution on those calls.",
+    "speaker": "Brandon Gdosc",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 49774,
+    "approx_timestamp_s": 2419
+   }
+  },
+  {
+   "name": "Three-level solution laddering",
+   "area": "operations",
+   "steps": [
+    "Level 1: existing features in ChatGPT etc.",
+    "Level 2: stitch tools together (Zapier, Relevance AI)",
+    "Level 3: custom orchestrated builds mixing deterministic code and AI",
+    "Always start at level 1 and move up only if needed; level 2 often gives 80% of the benefit"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Install internal AI operators",
+   "area": "operations",
+   "steps": [
+    "Ask who in the client wants to work with you (5-10% are already keen)",
+    "Train them in discovery",
+    "Have them submit templated AI solutions briefs on a platform",
+    "Aggregate briefs for leadership to compute ROI and prioritise"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Capture baseline time during discovery to prove ROI",
+   "area": "sales",
+   "steps": [
+    "Ask how many hours each task takes",
+    "Log time saved per run on a dashboard",
+    "Point to savings later (e.g. 92 hours, $2,455)"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Workflow-first mapping",
+   "area": "sales",
+   "steps": [
+    "Use Miro or Lucid with the client",
+    "Map each box and what happens next",
+    "Find workflow opportunities before app ideas"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Claude Code",
+   "purpose": "Custom development and rapid app building",
+   "cost_stated": null
+  },
+  {
+   "name": "ChatGPT",
+   "purpose": "Level 1 AI operating system for companies; research",
+   "cost_stated": null
+  },
+  {
+   "name": "Zapier",
+   "purpose": "Level 2 automation",
+   "cost_stated": null
+  },
+  {
+   "name": "Relevance AI",
+   "purpose": "Level 2 agent building",
+   "cost_stated": null
+  },
+  {
+   "name": "Make",
+   "purpose": "Automation",
+   "cost_stated": null
+  },
+  {
+   "name": "n8n",
+   "purpose": "Automation (he doesn't really use it)",
+   "cost_stated": null
+  },
+  {
+   "name": "OpenAI AgentKit",
+   "purpose": "Agent building (planning to use)",
+   "cost_stated": null
+  },
+  {
+   "name": "Next.js / MongoDB / Tailwind CSS / Heroku",
+   "purpose": "Custom dev stack",
+   "cost_stated": null
+  },
+  {
+   "name": "Miro / Lucid",
+   "purpose": "Workflow mapping with clients",
+   "cost_stated": null
+  },
+  {
+   "name": "Playmakers (playmakersai.com)",
+   "purpose": "Host's paid AI community (promo)",
+   "cost_stated": null
+  },
+  {
+   "name": "website.online",
+   "purpose": "Sponsor: domain names",
+   "cost_stated": "$0.99 first year with code"
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Don't solution on discovery calls; it ends discovery and risks offering something undoable.",
+   "quote": {
+    "text": "as soon as you start solutioning then the discovery is done",
+    "speaker": "Brandon Gdosc",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 50648,
+    "approx_timestamp_s": 2462
+   }
+  },
+  {
+   "warning": "Vibe coding without understanding models, databases and connections leads to apps that break and can't be fixed.",
+   "quote": {
+    "text": "you've got to know how to how to fly the plane in order to, you know, sort of put it on auto",
+    "speaker": "Brandon Gdosc",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 63315,
+    "approx_timestamp_s": 3078
+   }
+  },
+  {
+   "warning": "Companies with heavy PII (fintech, healthcare) are harder due to clearances and security.",
+   "quote": null
+  },
+  {
+   "warning": "Agentic AI promises are not yet fulfilled; be honest with clients about hype.",
+   "quote": null
+  },
+  {
+   "warning": "Staff may see consultant as threat to jobs; address fear and concerns.",
+   "quote": null
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "A broad skill set plus AI leverage lets a technical generalist deliver work much faster; being able to build matters more than only advising.",
+   "theme": "automation_ai",
+   "quote": {
+    "text": "All my normal skill sets plus AI equaled like superpowers",
+    "speaker": "Brandon Gdosc",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5821,
+    "approx_timestamp_s": 283
+   }
+  },
+  {
+   "lesson": "People tend to underprice; hot demand lets you ratchet price up until value is questionable.",
+   "theme": "pricing",
+   "quote": null
+  },
+  {
+   "lesson": "Sell outcomes tied to revenue or cost savings; executives need proof AI isn't hype.",
+   "theme": "offer_design",
+   "quote": null
+  },
+  {
+   "lesson": "Consultants who build solutions, not just recommend, remove client friction and win more.",
+   "theme": "offer_design",
+   "quote": null
+  },
+  {
+   "lesson": "Start small projects, deliver, then expand; each project uncovers follow-on work.",
+   "theme": "scaling",
+   "quote": null
+  },
+  {
+   "lesson": "Closing larger companies is not necessarily harder than small ones, but delivery involves more bureaucracy.",
+   "theme": "customer_acquisition",
+   "quote": null
+  },
+  {
+   "lesson": "Credibility and honesty are a differentiator in a hype-filled market.",
+   "theme": "mindset_execution",
+   "quote": null
+  },
+  {
+   "lesson": "Hybrid deterministic code plus probabilistic AI is the most reliable agentic pattern right now.",
+   "theme": "automation_ai",
+   "quote": null
+  },
+  {
+   "lesson": "Timing of a hot market plus matched skills makes the work hard but not complicated; reputation reduced the need to hustle for leads.",
+   "theme": "niche_selection",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "B",
+  "rationale": "First-hand operator with specific price points and revenue trajectory, but only five months in, self-reported, unverified, lumpy revenue, a pre-existing network and background; the host's 'zero to $80k/month' framing is stronger than Brandon's own numbers (~$800k run rate).",
+  "promotional_conflict": "Host sells the Playmakers AI community and reads a website.online sponsor ad."
+ },
+ "extraction": {
+  "model": "claude-sonnet-5-5",
+  "extracted_at": "2026-10-22T05:02:51",
+  "cost_usd": 0.1711702,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 21,
+   "verified": 20,
+   "rate": 0.952
+  },
+  "schema_errors": []
+ }
+}

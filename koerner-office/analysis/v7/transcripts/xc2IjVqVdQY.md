@@ -1,6 +1,6 @@
 # From Nothing to $20k/month with Email Newsletters: Full Tutorial
 
-- **Video:** [xc2IjVqVdQY](https://www.youtube.com/watch?v=xc2IjVqVdQY) · **Channel:** The Koerner Office · **Uploaded:** unknown · **Length:** 55 min · **Transcript:** ok
+- **Video:** [xc2IjVqVdQY](https://www.youtube.com/watch?v=xc2IjVqVdQY) · **Channel:** The Koerner Office · **Uploaded:** 2025-09-05 · **Length:** 55 min · **Transcript:** ok
 - **Speakers:** Chris Koerner (host), Jazz (guest) · **Format:** operator_interview
 - **Evidence quality:** B — First-hand operator with specific figures on sponsorship pricing, subscriber growth and costs, but the numbers are unverified and the Christmas lights projections are early and hypothetical. Sponsor revenue figures are internally inconsistent in places and currency is ambiguous (CAD vs USD). · Promotional conflict: Host promotes GoHighLevel (sponsor read) and his paid TK Owners community; guest is active on Twitter and positions himself as a local newsletter advisor.
 - **Extraction:** claude-sonnet-5-5 · quotes verified 43/43
@@ -38,8 +38,8 @@ Chris Koerner interviews Jazz, who runs Winnipeg Digest, a local events/communit
 - **UK applicability [E]:** 4/5 — Local newsletters work in UK towns and cities. The Beehiiv survey is fine under GDPR with consent. Use opt-in signups only. Pick a market without an existing local newsletter. The population of 100-150k+ rule of thumb transfers to UK towns and boroughs.
 - **Risks:** Selling local businesses on newsletter advertising is hard; Sponsors can run out; revenue caps around $500k per year; Subscriber acquisition cost rises as the market saturates; Open rates can drop; aggressive list cleaning can remove real readers; Founder face association makes the asset harder to sell
 - **Automation [E]:** acquisition 3/5 (Facebook ads and Instagram carousels are largely automatable. Sponsor sales still need calls and relationships, which drag this down.); onboarding 4/5 (A subscriber survey in Beehiiv is automated. Sponsor onboarding and ad drafts are manual but template-able.); delivery 3/5 (Agents can draft the content. Events research, editing and final review currently need VAs and a human, though full automation is being explored.); billing 4/5 (Annual invoices could be automated with standard tools. Jazz tracks sponsors in a semi-custom Notion CRM.); support 3/5 (Little support is needed. Sponsor relationship management is mostly human.)
-> "We sell annual spots. Like that's kind of our business model is we sell exclusivity." — Jazz (~24:35)
-> "So right now we're charging about $12,000 for 12 newsletter ads. So one per month." — Jazz (~25:38)
+> "We sell annual spots. Like that's kind of our business model is we sell exclusivity." — Jazz (~24:34)
+> "So right now we're charging about $12,000 for 12 newsletter ads. So one per month." — Jazz (~25:37)
 > "I think the biggest problem that local newsletters run into is not is not building the audience. Anyone can build the audience." — Jazz (~6:15)
 
 ### I2. Christmas lights leasing business marketed through the newsletter
@@ -58,7 +58,7 @@ Chris Koerner interviews Jazz, who runs Winnipeg Digest, a local events/communit
 - **UK applicability [E]:** 3/5 — Christmas light installation is a real UK market. Needs public liability insurance, working at height safety and fitting UK electrical standards. Regional demand and pricing differ.
 - **Risks:** Seasonal, only about 10 weeks; Physical labour and safety at height; Quoting and close rate was poor early on; Cold leads from Facebook ads will convert worse than newsletter leads; Permanent lights are disliked by an experienced operator because of one-time sales and maintenance
 - **Automation [E]:** acquisition 3/5 (Newsletter promotion and Facebook ads can be automated. The design consult sales visit is in-person, which caps this.); onboarding 1/5 (In-home design consults and mockups are done by a human.); delivery 0/5 (Physical installation on ladders by people.); billing 4/5 (Standard invoicing and payment tools can handle it.); support 1/5 (Mid-season repairs and customer service are physical or human.)
-> "So we started running some ads in the Winnipeg Digest have already sold like five, six jobs before the season has even started" — Jazz (~33:51)
+> "So we started running some ads in the Winnipeg Digest have already sold like five, six jobs before the season has even started" — Jazz (~33:50)
 > "We've booked five job the last week. About $1,400 is our average job right now." — Jazz (~38:01)
 
 ## Revenue and metric claims (unverified claims)
@@ -72,35 +72,35 @@ Chris Koerner interviews Jazz, who runs Winnipeg Digest, a local events/communit
 - **Revenue ranges from 12 to 15 thousand per month** (revenue, first-hand, claimant: Jazz)
   > "today it's about it can range from 12 to 15,000 currently." — Jazz (~15:00)
 - **Annual sponsors pay about $12,000 for 12 newsletter ads** (price, first-hand, claimant: Jazz)
-  > "right now we're charging about $12,000 for 12 newsletter ads. So one per month." — Jazz (~25:38)
+  > "right now we're charging about $12,000 for 12 newsletter ads. So one per month." — Jazz (~25:37)
 - **Newsletter CPM about $75 for local advertisers** (price, first-hand, claimant: Jazz)
-  > "We're about $70 something dollars, like probably $75 CPM." — Jazz (~24:28)
+  > "We're about $70 something dollars, like probably $75 CPM." — Jazz (~24:27)
 - **Instagram post costs $2,800** (price, first-hand, claimant: Jazz)
-  > "our u Instagram it's double. So it's $2800 for one for one post." — Jazz (~25:25)
+  > "our u Instagram it's double. So it's $2800 for one for one post." — Jazz (~25:24)
 - **Newsletter ads bring in about $144,000 a year** (revenue, first-hand, claimant: Jazz)
-  > "So that's I think $144,000 a year in revenue just on our newsletter ads." — Jazz (~25:56)
+  > "So that's I think $144,000 a year in revenue just on our newsletter ads." — Jazz (~25:55)
 - **Total business revenue about $200k including other sources** (revenue, first-hand, claimant: Jazz)
   > "we're kind of looking at in the ballpark of about 200k when when you kind of combine everything together" — Jazz (~26:43)
 - **An event venue sponsor will spend $40,000 this year** (revenue, first-hand, claimant: Jazz)
   > "this year they're going to be spending $40,000 a year with us, right?" — Jazz (~27:37)
 - **Subscriber survey completion rate is 87%** (conversion_rate, first-hand, claimant: Jazz)
-  > "About a 87% uh like completion rate." — Jazz (~29:03)
+  > "About a 87% uh like completion rate." — Jazz (~29:02)
 - **Open rate about 56-60%, click-through 8-12%** (conversion_rate, first-hand, claimant: Jazz)
   > "So open today is about 56 to 60%." — Jazz (~11:34)
 - **Ad spend about $3,000 a month for about 2,000 subs a month now** (cost, first-hand, claimant: Jazz)
-  > "Now it's decreased to like 2ishk give or take where, you know, we're still spending the same amount of money. So it's about $3,000." — Jazz (~46:35)
+  > "Now it's decreased to like 2ishk give or take where, you know, we're still spending the same amount of money. So it's about $3,000." — Jazz (~46:34)
 - **Time involvement about 20 hours a week** (hours, first-hand, claimant: Jazz)
   > "it ends up being probably close to 20 hours a week." — Jazz (~14:35)
 - **Christmas lights average job about $1,400** (price, first-hand, claimant: Jazz)
-  > "About $1,400 is our average job right now." — Jazz (~38:04)
+  > "About $1,400 is our average job right now." — Jazz (~38:03)
 - **Cost per Christmas lights job about $300 for lights** (cost, first-hand, claimant: Jazz)
-  > "$300 is it just includes the lights." — Jazz (~38:35)
+  > "$300 is it just includes the lights." — Jazz (~38:34)
 - **Expects $100,000 revenue in year one of Christmas lights** (revenue, first-hand, hypothetical, claimant: Jazz)
-  > "I think I am very safely saying that we'll hit $100,000 in revenue in the first year." — Jazz (~41:16)
+  > "I think I am very safely saying that we'll hit $100,000 in revenue in the first year." — Jazz (~41:15)
 - **About 85% of Christmas light customers stay year over year** (customers, second-hand, hypothetical, claimant: Jazz)
-  > "the average is about 85% for the amount of uh customers that stay on year-over-year." — Jazz (~38:25)
+  > "the average is about 85% for the amount of uh customers that stay on year-over-year." — Jazz (~38:24)
 - **Christmas lights took $10,000 of initial capital** (cost, first-hand, claimant: Jazz)
-  > "Christmas lights took $10,000 of initial capital to start." — Jazz (~47:43)
+  > "Christmas lights took $10,000 of initial capital to start." — Jazz (~47:42)
 - **Newsletter revenue cap about $500,000 a year with perfect execution** (revenue, second-hand, hypothetical, claimant: Jazz)
   > "you will cap out at lacks $500,000 a year." — Jazz (~8:15)
 
@@ -111,7 +111,7 @@ Chris Koerner interviews Jazz, who runs Winnipeg Digest, a local events/communit
 2. Offer exclusivity by category (one HVAC company per year)
 3. Price at about $12,000 for 12 monthly ads
 4. Pitch it as a monopoly over the local audience
-> "you want to sell annual sponsorships on a exclusivity basis." — Jazz (~24:46)
+> "you want to sell annual sponsorships on a exclusivity basis." — Jazz (~24:45)
 
 **Sell sponsors on lifetime value** (sales)
 1. Ask the business what a customer is worth

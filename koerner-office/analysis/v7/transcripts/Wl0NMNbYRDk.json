@@ -1,0 +1,931 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "Wl0NMNbYRDk",
+  "title": "The Most Passive Online Side Hustle I've Ever Seen",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=Wl0NMNbYRDk",
+  "upload_date": "2026-04-10",
+  "duration_s": 957,
+  "view_count": 125760,
+  "transcript_provider": "transcribeyoutube",
+  "transcript_chars": 17835,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner argues that simple AI-vibe-coded calculator or tool websites (paycheck, calorie, mortgage, etc.) can earn passive ad and email-lead income because they capture large search volume. He cites big examples (paycheck calculator, calorie calculator, Omni Calculator) and his own pet cremation directory calculators. He then builds an AI token cost calculator in Hostinger Horizons in about 6 minutes, picks the niche with Google Trends, adds email gating and AdSense, and publishes it. Key takeaway: build many cheap niche tool sites, validate with trends and keyword data, and monetise beyond AdSense with email capture and lead sales. The video is sponsored by Hostinger, so the ease claims are promotional.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Host of The Koerner Office; serial entrepreneur who says he has started over 80 businesses."
+  }
+ ],
+ "format": "tutorial_howto",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "AI-built niche calculator website (AI token cost calculator)",
+   "one_liner": "Vibe-code a simple calculator site around a growing search term, monetise with AdSense and email capture, and leave it running.",
+   "category": "saas_software",
+   "business_model": "Ads (Google AdSense), email list monetisation (newsletter, affiliate links), possible lead sales.",
+   "customer": "People searching Google or AI for a calculator; in the demo, vibe coders and people building with AI tools.",
+   "problem": "People want a quick answer (e.g. what AI prompts cost in tokens) and find it hard to work out themselves.",
+   "offer": "Free calculator that estimates AI model cost from input and output tokens, with a token counter and tips to cut usage; results unlock after entering an email.",
+   "pricing": {
+    "model": "Free to users; revenue from ads and email value",
+    "price_points": [
+     {
+      "amount": null,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "AdSense at about 10,000 page views a month: 30 to 100 USD"
+     },
+     {
+      "amount": 10,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per email",
+      "label": "Claimed value of an email address"
+     }
+    ],
+    "notes": "Hypothetical figures only; the demo site has no revenue yet."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "seo_organic_search",
+     "details": "Pick high or growing search-volume keywords (core and long-tail) using Semrush, Ahrefs or an AI tool, check Google Trends, and add SEO content such as token-reduction tips.",
+     "quote": {
+      "text": "Best tool sites solve a very specific problem that have high andor growing search volume.",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 5155,
+      "approx_timestamp_s": 284
+     }
+    }
+   ],
+   "delivery": "Site is built by prompting Hostinger Horizons (AI app builder), published on a custom domain, and needs about an hour a week afterwards (claimed). Further calculators can be cloned from the same template.",
+   "unit_economics_claims": [
+    "AdSense at 10,000 monthly page views yields about 30 to 100 USD a month",
+    "Email at 1% of 10,000 visitors gives 100 emails, hypothetically about 1,000 USD a month at 10 USD each",
+    "Hostinger starter plan allows up to 25 websites"
+   ],
+   "tools": [
+    "Hostinger Horizons",
+    "Cody (Hostinger AI assistant)",
+    "Google Trends",
+    "Semrush",
+    "Ahrefs",
+    "Google AdSense",
+    "Claude"
+   ],
+   "startup_cost": "Hostinger starter plan, 12-month, 10% off with code; the domain is about a cent for year one or a free .cloud domain; the transcript states no total. Builder credits used: 4 of 70 for the month.",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Organic SEO traffic is inbound; keyword research and content can be done by agents. Rankings take time and are uncertain."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "There are no customers to onboard; the visitor just uses the tool."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "A static or serverless calculator runs unattended once built; occasional price-data updates can be agent-driven."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Ad networks pay out automatically; there are no invoices."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "Low support needs; occasional bug reports or data corrections can be handled by an agent."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Works in the UK. Email capture needs UK GDPR and PECR consent for marketing, and cookie consent is required for AdSense. UK-relevant calculators (tax, mortgage, student loan) are available. UK ad RPMs may differ."
+   },
+   "risks": [
+    "AdSense revenue is low without large traffic",
+    "Rankings are uncertain and AI search or Google AI answers may cut calculator traffic",
+    "Easy to copy, so competition is rising",
+    "Email gating may reduce usage and hurt SEO",
+    "Vibe-coded output can have bugs, e.g. results shown before the email gate",
+    "Token pricing data goes stale",
+    "Hostinger sponsorship bias"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "non-coders such as myself can vibe code simple sites like these, forget about it entirely, and maybe hopefully possibly make hundreds or thousands or tens of thousands of dollars a month almost perfectly passively",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 434,
+     "approx_timestamp_s": 23
+    },
+    {
+     "text": "Everything I've done so far to build the final product here cost me four credits on Hostinger. I have 70 for the month and I have 66 left.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 15976,
+     "approx_timestamp_s": 881
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Pet and horse cremation directory with cost calculators",
+   "one_liner": "A directory of pet and horse cremation and euthanasia facilities that uses AI-built calculators to attract traffic and generate leads to sell.",
+   "category": "marketplace_directory",
+   "business_model": "Lead generation, selling leads to veterinarians and cremation facilities.",
+   "customer": "Veterinarians and horse cremation facilities (lead buyers); pet owners (searchers).",
+   "problem": "Pet owners want to know cremation costs; providers want leads.",
+   "offer": "A pet cremation cost calculator (pet type, weight, cremation type, location) that generates leads.",
+   "pricing": {
+    "model": "Lead sales",
+    "price_points": [],
+    "notes": "not stated"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "seo_organic_search",
+     "details": "Added AI-built calculators to the directory to get more traffic.",
+     "quote": {
+      "text": "we added a bunch of calculators, all built with AI, to our website to get more traffic.",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 3220,
+      "approx_timestamp_s": 177
+     }
+    }
+   ],
+   "delivery": "Website with calculators; leads passed to providers.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "SEO and calculators are inbound."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Provider listings and lead-buyer setup need some human work."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Lead routing can be automated."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Lead invoicing can be automated, but buyers may need chasing."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Provider questions and lead disputes need occasional human input."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Pet cremation exists in the UK. Lead data needs UK GDPR consent from the pet owner before sharing."
+   },
+   "risks": [
+    "Lead quality disputes",
+    "Data-protection consent for passing on leads",
+    "Sensitive niche"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "This helps us generate leads that we can sell to veterinarians and horse cremation facilities.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 3395,
+     "approx_timestamp_s": 187
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Omni Calculator (example)",
+   "one_liner": "A Polish-founded site with thousands of custom calculators, held up as the large-scale example.",
+   "category": "saas_software",
+   "business_model": "Ad-supported calculator network.",
+   "customer": "General web searchers.",
+   "problem": "People want quick calculations across many topics.",
+   "offer": "Over 3,700 custom calculators.",
+   "pricing": {
+    "model": "Free; ad-supported",
+    "price_points": [],
+    "notes": "not stated"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "seo_organic_search",
+     "details": "Organic traffic of over 17 million visitors a month (claimed).",
+     "quote": null
+    }
+   ],
+   "delivery": "Website with 70 employees.",
+   "unit_economics_claims": [
+    "17 million visitors a month",
+    "over 500,000 USD a month revenue, mostly profit"
+   ],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "SEO-led."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "No onboarding."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Needs a team of 70 for calculator accuracy."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Ad payouts."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "Low support."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Operates globally."
+   },
+   "risks": [
+    "Not a realistic outcome, as the host admits"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "So now he has over 3,700 custom calculators and he gets over 17 million visitors per month.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 3928,
+     "approx_timestamp_s": 216
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "Paycheck, calorie and other popular calculator sites (examples)",
+   "one_liner": "Examples of high-traffic single-purpose calculators: paycheck, calorie, compound interest, ovulation, pregnancy, percentage, mortgage.",
+   "category": "saas_software",
+   "business_model": "Ad-supported.",
+   "customer": "General searchers.",
+   "problem": "People want to know their take-home pay, calories and so on.",
+   "offer": "Free single-purpose calculators.",
+   "pricing": {
+    "model": "Free; ad-supported",
+    "price_points": [],
+    "notes": "not stated"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "seo_organic_search",
+     "details": "700,000 unique visitors a month for the paycheck site; 456,000 organic visitors a month for the calorie site.",
+     "quote": null
+    }
+   ],
+   "delivery": "Website.",
+   "unit_economics_claims": [
+    "Paycheck site is worth about 1.1 million USD",
+    "Calorie site is worth six figures"
+   ],
+   "tools": [
+    "Ahrefs"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "SEO."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "None."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "Software."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Ads."
+    },
+    "support": {
+     "score_e": 5,
+     "how": "Minimal."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Needs localisation, e.g. UK tax and pay rules."
+   },
+   "risks": [
+    "Valuation figures are unverified"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "This simple paycheck calculator website gets over 700,000 unique visitors per month",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 1243,
+     "approx_timestamp_s": 68
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "Side hustle profit calculator (rejected)",
+   "one_liner": "Calculator considered as a niche but dropped after Google Trends showed little search volume.",
+   "category": "saas_software",
+   "business_model": "Ads and email.",
+   "customer": "Aspiring side hustlers.",
+   "problem": "Estimating side hustle profit.",
+   "offer": "Profit calculator.",
+   "pricing": {
+    "model": "Free",
+    "price_points": [],
+    "notes": "not stated"
+   },
+   "acquisition_channels": [],
+   "delivery": "Website.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Google Trends"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Would depend on SEO, but demand is low."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "None."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "Software."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Ads."
+    },
+    "support": {
+     "score_e": 5,
+     "how": "Minimal."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Generic."
+   },
+   "risks": [
+    "Very little search volume"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "Side Hustle Profit Calculator is not really growing. In fact, there's very little search volume whatsoever.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 7586,
+     "approx_timestamp_s": 418
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Paycheck calculator site gets over 700,000 unique visitors a month and is worth about 1.1 million USD with ads.",
+   "metric": "traffic",
+   "value": {
+    "amount": 700000,
+    "amount_max": null,
+    "currency": null,
+    "unit": "unique visitors per month",
+    "label": null
+   },
+   "period": "monthly",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "This simple paycheck calculator website gets over 700,000 unique visitors per month, which if you just host ads on the site and do nothing else, makes it worth about $1.1 million.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1243,
+    "approx_timestamp_s": 68
+   }
+  },
+  {
+   "claim": "Calorie calculator gets 456,000 organic visitors a month and would be worth six figures.",
+   "metric": "traffic",
+   "value": {
+    "amount": 456000,
+    "amount_max": null,
+    "currency": null,
+    "unit": "visitors per month",
+    "label": null
+   },
+   "period": "monthly",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "Here's a simple calorie calculator. 456,000 organic visitors a month.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1602,
+    "approx_timestamp_s": 88
+   }
+  },
+  {
+   "claim": "Almost 36,000 keyword clusters contain the word calculator.",
+   "metric": "other",
+   "value": {
+    "amount": 36000,
+    "amount_max": null,
+    "currency": null,
+    "unit": "keyword clusters",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Chris Koerner citing Ahrefs",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "there's almost 36,000 different keyword clusters that have the word calculator in it.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2448,
+    "approx_timestamp_s": 135
+   }
+  },
+  {
+   "claim": "Omni Calculator has over 3,700 calculators and over 17 million visitors a month.",
+   "metric": "traffic",
+   "value": {
+    "amount": 17000000,
+    "amount_max": null,
+    "currency": null,
+    "unit": "visitors per month",
+    "label": null
+   },
+   "period": "monthly",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "So now he has over 3,700 custom calculators and he gets over 17 million visitors per month.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3928,
+    "approx_timestamp_s": 216
+   }
+  },
+  {
+   "claim": "Omni Calculator has 70 employees and over 500,000 USD a month in revenue, mostly profit.",
+   "metric": "revenue",
+   "value": {
+    "amount": 500000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per month",
+    "label": null
+   },
+   "period": "monthly",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "He has 70 employees and they bring in over $500,000 a month of revenue, most of that profit.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4019,
+    "approx_timestamp_s": 221
+   }
+  },
+  {
+   "claim": "10,000 page views a month on AdSense gives about 30 to 100 USD a month.",
+   "metric": "revenue",
+   "value": {
+    "amount": 30,
+    "amount_max": 100,
+    "currency": "USD",
+    "unit": "per month",
+    "label": null
+   },
+   "period": "monthly",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "if you're getting like, let's say, 10,000 page views a month, that's going to be like 30 to 100 bucks a month.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14669,
+    "approx_timestamp_s": 809
+   }
+  },
+  {
+   "claim": "Emails could be worth 10 USD each; 1% of 10,000 visitors gives 100 emails, about 1,000 USD a month.",
+   "metric": "revenue",
+   "value": {
+    "amount": 1000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per month",
+    "label": null
+   },
+   "period": "monthly",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "those emails could be worth 10 bucks each, right? Each. How many emails could you get from 10,000 visitors a month? If you get 1%, that's 100 emails.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14839,
+    "approx_timestamp_s": 818
+   }
+  },
+  {
+   "claim": "Building the calculator took about 6 minutes.",
+   "metric": "hours",
+   "value": {
+    "amount": 6,
+    "amount_max": null,
+    "currency": null,
+    "unit": "minutes",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "It's been a total of 6 minutes and we have what we're looking for. An AI token cost calculator.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8643,
+    "approx_timestamp_s": 476
+   }
+  },
+  {
+   "claim": "The build used 4 Hostinger credits, leaving 66 of 70 for the month.",
+   "metric": "cost",
+   "value": {
+    "amount": 4,
+    "amount_max": null,
+    "currency": null,
+    "unit": "credits",
+    "label": null
+   },
+   "period": "monthly",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "cost me four credits on Hostinger. I have 70 for the month and I have 66 left.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16036,
+    "approx_timestamp_s": 884
+   }
+  },
+  {
+   "claim": "A built calculator needs no more than about an hour a week.",
+   "metric": "hours",
+   "value": {
+    "amount": 1,
+    "amount_max": null,
+    "currency": null,
+    "unit": "hours per week",
+    "label": null
+   },
+   "period": "weekly",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "You don't even need to invest more than an hour a week in this once it's built and running.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1815,
+    "approx_timestamp_s": 100
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Pick the calculator niche with Google Trends",
+   "area": "product",
+   "steps": [
+    "Shortlist two candidate calculators",
+    "Compare them side by side in Google Trends over 5 years",
+    "Build the one with growing search interest",
+    "Favour a niche you know and like"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So, what I'm going to do is go to Google Trends and I'm going to put these two finalists for my calculator side by side and see which one wins.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7340,
+    "approx_timestamp_s": 405
+   }
+  },
+  {
+   "name": "Find supply and demand imbalances in keywords",
+   "area": "acquisition",
+   "steps": [
+    "Use Semrush, Ahrefs or an AI tool to list core and long-tail keywords",
+    "Look for terms with higher volume but fewer competitors",
+    "Target rising trends such as AI, GLP-1s, solar, protein and side hustles"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Which term or terms have more volume but fewer competitors?",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5810,
+    "approx_timestamp_s": 320
+   }
+  },
+  {
+   "name": "Gate results behind an email",
+   "area": "acquisition",
+   "steps": [
+    "Prompt the builder to blur results until an email is entered",
+    "Test that the gate works, since the first build leaked results",
+    "Use the emails for a newsletter and affiliate links"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "don't display the result for the end user until I get their email address",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8199,
+    "approx_timestamp_s": 452
+   }
+  },
+  {
+   "name": "Iterate with screenshots and the AI helper",
+   "area": "product",
+   "steps": [
+    "Screenshot the part to change and reprompt",
+    "Make wording simple for laymen",
+    "Add a token counter tool for engagement",
+    "Add tips content at the bottom for SEO",
+    "Ask the helper assistant (Cody) to write a better fix prompt when something breaks"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Clone the template into more niches",
+   "area": "operations",
+   "steps": [
+    "Use a domain name with a plural such as calculators",
+    "Copy the calculator and swap its functions for a new niche",
+    "Use the starter plan's up to 25 sites"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Layer monetisation beyond AdSense",
+   "area": "finance",
+   "steps": [
+    "Enable AdSense first with a one-line prompt",
+    "Then add other ad tools",
+    "Collect emails and monetise them via a newsletter or affiliate offers"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Hostinger Horizons",
+   "purpose": "AI vibe-coding site builder and hosting (sponsor)",
+   "cost_stated": "Starter plan, 12 months, 10% off with code kerner office; 70 credits a month"
+  },
+  {
+   "name": "Cody",
+   "purpose": "Hostinger's AI assistant that writes fix prompts",
+   "cost_stated": null
+  },
+  {
+   "name": "Google Trends",
+   "purpose": "Compare search interest over time",
+   "cost_stated": null
+  },
+  {
+   "name": "Semrush",
+   "purpose": "Keyword research",
+   "cost_stated": null
+  },
+  {
+   "name": "Ahrefs",
+   "purpose": "Keyword research and traffic data",
+   "cost_stated": null
+  },
+  {
+   "name": "Google AdSense",
+   "purpose": "Display ad monetisation",
+   "cost_stated": null
+  },
+  {
+   "name": "Claude",
+   "purpose": "Used to test token output; also named for keyword ideas",
+   "cost_stated": null
+  },
+  {
+   "name": "Omni Calculator",
+   "purpose": "Example of a large calculator site",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "AdSense alone earns little; do not stop there. Without ads the site never monetises.",
+   "quote": {
+    "text": "Google AdSense is a great starting point. It is a very low friction way of making money on the internet, but it should not be what you end with.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14296,
+    "approx_timestamp_s": 788
+   }
+  },
+  {
+   "warning": "Vibe-coded builds will have hang-ups; test that the email gate actually works.",
+   "quote": {
+    "text": "anytime you're using a vibe coding tool like Hostinger, you're going to have some hang-ups.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12230,
+    "approx_timestamp_s": 674
+   }
+  },
+  {
+   "warning": "The host says the opportunity may disappear in 2 to 5 years, and older calculators can lose traffic.",
+   "quote": {
+    "text": "2 to 5 years from now, this won't be an opportunity.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 369,
+    "approx_timestamp_s": 20
+   }
+  },
+  {
+   "warning": "Omni Calculator's scale is not a realistic expectation.",
+   "quote": {
+    "text": "Am I saying that's realistic? Absolutely not.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4109,
+    "approx_timestamp_s": 226
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Cheap, fast experiments suit small web tools: the downside is a few dollars and a few hours, so ship more and overthink less.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "your downside is a few bucks and a couple hours of tinkering around.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1076,
+    "approx_timestamp_s": 59
+   }
+  },
+  {
+   "lesson": "Validate demand with search-trend data before building, not by guessing.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "I don't want to guess. I want data to show me.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6822,
+    "approx_timestamp_s": 376
+   }
+  },
+  {
+   "lesson": "Single-purpose utility sites can earn from traffic with no customers, sales or support, which makes them well suited to agent-run operations.",
+   "theme": "automation_ai",
+   "quote": null
+  },
+  {
+   "lesson": "Ride rising trends (AI, GLP-1s, solar, protein, side hustles) where supply of tools lags demand.",
+   "theme": "niche_selection",
+   "quote": null
+  },
+  {
+   "lesson": "Capture emails as well as ad revenue, since a subscriber list can be worth far more than AdSense per visitor (a hypothetical claim).",
+   "theme": "finance_unit_economics",
+   "quote": null
+  },
+  {
+   "lesson": "Pair calculators with a lead-gen directory: a calculator can pull in traffic and capture leads that are sold to providers.",
+   "theme": "customer_acquisition",
+   "quote": null
+  },
+  {
+   "lesson": "Choose a niche you know and love so the project is more sustainable.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "it's important that you choose a niche that you love and that you know.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6414,
+    "approx_timestamp_s": 353
+   }
+  },
+  {
+   "lesson": "Use the sunk-cost effect carefully: the more effort a user invests before the email ask, the more likely they are to give it.",
+   "theme": "offer_design",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "C",
+  "rationale": "Sponsored tutorial. Traffic and valuation figures for third-party sites are unsourced hearsay, revenue projections are hypothetical, and the demo site has no revenue yet. The build process is shown first-hand, but the 'passive' income claim is unproven.",
+  "promotional_conflict": "Sponsored by Hostinger (Horizons); the host promotes the code kerner office for 10% off and likely earns affiliate income."
+ },
+ "extraction": {
+  "model": "claude-sonnet-5-5",
+  "extracted_at": "2026-10-22T04:57:56",
+  "cost_usd": 0.10981020000000001,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 28,
+   "verified": 28,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

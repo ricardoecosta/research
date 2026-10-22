@@ -1,0 +1,809 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "ZBVYDM8K8tA",
+  "title": "Stop Wasting Money on Bad Ideas. Do This Instead.",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=ZBVYDM8K8tA",
+  "upload_date": "2025-12-17",
+  "duration_s": 974,
+  "view_count": 36484,
+  "transcript_provider": "ok",
+  "transcript_chars": 18368,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner argues that a low-effort way to build a product business is to take a proven product and change its form factor (e.g. gummy vs pill, caffeine in gum). He demonstrates how to use Higgsfield (AI image/video platform, with Nano Banana Pro and Kling 2.5 Turbo) to produce realistic ad creative before building the product, so demand can be tested with Facebook/Instagram ads. He pitches several product ideas: a feminine/colourful rucking vest, nose filters repackaged for cyclists, and niche-targeted creatine gummies. Key takeaway: validate before investing by generating AI ad creative, and reverse-engineer winning Amazon products using Jungle Scout, then niche them down. The video is partly a sponsored/affiliate demo of Higgsfield.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Host of The Koerner Office; demonstrates Higgsfield and pitches product ideas."
+  }
+ ],
+ "format": "host_solo_ideas",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Feminine / attractive rucking vests and backpacks",
+   "one_liner": "Sell colourful, cute weighted rucking vests and backpacks aimed at women, as existing products are black, tactical and expensive.",
+   "category": "ecommerce_physical",
+   "business_model": "One-off product sales (DTC), likely via paid social ads",
+   "customer": "Women (and men) who ruck for fitness and dislike tactical-looking gear",
+   "problem": "Existing rucking vests/backpacks are all black, ugly, tactical-looking and very expensive; nothing cute or feminine.",
+   "offer": "Attractive, colourful (e.g. pink) rucking vests and backpacks with the tagline 'Start rucking without looking like a sniper'.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "Host says existing products are very expensive; no price proposed."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "paid_social",
+     "details": "Test with Facebook ads using AI-generated images (Nano Banana Pro) and videos before building the product; host says he is doing exactly this.",
+     "quote": {
+      "text": "it doesn't look like some janky thing that I'm testing with Facebook ads, which is exactly what I'm doing",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 3997,
+      "approx_timestamp_s": 218
+     }
+    }
+   ],
+   "delivery": "Physical product that would need to be sourced/manufactured; not detailed in the transcript.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Higgsfield",
+    "Nano Banana Pro",
+    "Google Trends",
+    "Facebook ads"
+   ],
+   "startup_cost": "not stated (host notes physical product businesses are not cheap to start)",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Paid social with AI-generated creative can be mostly run by agents with periodic human review."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "DTC checkout is self-serve."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Physical goods need manufacturing, inventory and shipping, though 3PL/dropship can reduce handling."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Shopify/Stripe checkout is automatic."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "AI can handle FAQs; returns and defects need humans."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Rucking is growing in the UK too; physical product needs UK product safety/consumer law compliance and import VAT/duty."
+   },
+   "risks": [
+    "Trend may fade",
+    "Physical product development and sourcing cost",
+    "Ad-creative demand test only shows click interest, not purchase",
+    "Competition from larger fitness brands"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "the problem that I see with rucking as a business is that they all are black and they're ugly and they're very expensive",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 3337,
+     "approx_timestamp_s": 182
+    },
+    {
+     "text": "I'm not seeing any rucking vests or backpacks that are, for lack of a better word, cute, attractive, great for women, pink, colorful.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 3605,
+     "approx_timestamp_s": 196
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Cyclist-branded nose filters",
+   "one_liner": "Repackage generic nasal filter plugs as a health product for road cyclists, sold on a recurring basis.",
+   "category": "ecommerce_physical",
+   "business_model": "Recurring/repeat product sales (consumables) via DTC",
+   "customer": "Road cyclists worried about breathing exhaust fumes at traffic lights",
+   "problem": "Cycling health benefits allegedly negated by exhaust fumes; existing nose filters are sold in sterile, band-aid style packaging for flying and not marketed to cyclists.",
+   "offer": "Nose filter plugs repackaged and branded for cyclists with a 'Breathe clean while you ride' message.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "Recurring purchase implied."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "partnerships",
+     "details": "Put free sample packs in race packets at cycling events so cyclists try them and buy on repeat.",
+     "quote": {
+      "text": "you went to a race and you got one of those race packets and you got a sample pack of these for free",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 7484,
+      "approx_timestamp_s": 408
+     }
+    },
+    {
+     "channel": "paid_social",
+     "details": "Validate demand with AI-generated video ads (Kling 2.5 Turbo in Higgsfield) before sourcing.",
+     "quote": null
+    }
+   ],
+   "delivery": "Source from existing manufacturers via Thomasnet, Alibaba or AliExpress and just change the packaging; no patent or R&D needed.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Amazon",
+    "Thomasnet",
+    "Alibaba",
+    "AliExpress",
+    "Higgsfield",
+    "Kling 2.5 Turbo"
+   ],
+   "startup_cost": "Low relative to new product development: only new packaging and a first inventory order (amount not stated)",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Ads can be automated but race-packet sampling needs physical presence and event partnerships."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Self-serve online ordering."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Physical sourcing, packaging and shipping, though a 3PL could handle fulfilment."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Online checkout/subscription billing."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Mostly FAQs; defects/returns need a human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "UK cycling market is large, but nasal filters may be regulated as medical devices or subject to health-claim rules (ASA/MHRA); health claims need care."
+   },
+   "risks": [
+    "Health claims about filtering fumes may be unsubstantiated and regulated",
+    "Product may not actually be effective or comfortable",
+    "Others can copy easily (no patent)",
+    "Cyclists may find product odd-looking"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "No one is changing the form factor of this to be sold to cyclists as a health benefit.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 7274,
+     "approx_timestamp_s": 396
+    },
+    {
+     "text": "We don't need a patent. We don't need to reinvent the wheel, research and development. We just need new packaging",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 7887,
+     "approx_timestamp_s": 430
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Niche-targeted creatine gummies (form-factor and audience unbundling)",
+   "one_liner": "Copy best-selling Amazon supplements like creatine gummies and rebrand them for a narrow niche (e.g. female ultra-marathoners, endurance cyclists, elderly CrossFitters).",
+   "category": "ecommerce_physical",
+   "business_model": "One-off/repeat supplement sales via Amazon and DTC",
+   "customer": "Niche athletic groups such as female ultra-marathon runners, endurance cyclists, male tennis players, 30-something golfers, CrossFit community",
+   "problem": "Generic supplements target the general population; niche buyers pay more for products speaking to them.",
+   "offer": "Same ingredients, different form factor (gummy) and niche branding, tested with 3-5 ad variants per niche.",
+   "pricing": {
+    "model": "premium positioning",
+    "price_points": [],
+    "notes": "Host picked a 'luxury' ad style because he wants to charge a lot; says the more niche, the more you can charge."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "paid_social",
+     "details": "Post 3-5 AI-generated video ad versions to Facebook/Instagram, each aimed at a different niche, varying colours, messaging or pricing.",
+     "quote": {
+      "text": "I want three to five different versions of the video. Maybe each version is just that niche that I'm targeting.",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 14466,
+      "approx_timestamp_s": 789
+     }
+    },
+    {
+     "channel": "marketplace_platform",
+     "details": "Use Amazon and Jungle Scout to find products with high monthly sales to reverse-engineer.",
+     "quote": null
+    }
+   ],
+   "delivery": "Supplement manufacturing/private label (not detailed); ads generated via Higgsfield click-to-ad from an Amazon URL.",
+   "unit_economics_claims": [
+    "Example: a generic creatine gummy brand selling a million dollars a month (hypothetical) could be rebranded for endurance cyclists"
+   ],
+   "tools": [
+    "Higgsfield",
+    "Jungle Scout",
+    "Amazon"
+   ],
+   "startup_cost": "not stated (host says these businesses are not cheap to start)",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "AI-generated ad variants and paid social testing are largely automatable with human review of spend and compliance."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Self-serve ecommerce."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Physical supplements need manufacturing, inventory and fulfilment."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Standard checkout."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "AI handles FAQs; complaints and returns need humans."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "UK food supplement rules (labelling, permitted claims, FSA/ASA) apply; Amazon UK and Jungle Scout work in the UK. AI-generated testimonials and fake UGC may breach ASA/CMA rules."
+   },
+   "risks": [
+    "Supplement regulation and health claim rules",
+    "AI-generated fake UGC testimonials may be misleading advertising",
+    "Crowded category dominated by big brands",
+    "Inventory and manufacturing minimums"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "if I see a brand is selling a million dollars a month of a generic creatine gummy, I'm going to take that and just brand it towards endurance cyclists",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 14237,
+     "approx_timestamp_s": 776
+    },
+    {
+     "text": "the more niche you go, the more you can charge and the more you can stand out",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 13696,
+     "approx_timestamp_s": 747
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "Form-factor swap products (general concept)",
+   "one_liner": "Take a proven product and change its form (pill to gummy, powder to gummy, caffeine in gum/drink/jerky) to create a differentiated product.",
+   "category": "ecommerce_physical",
+   "business_model": "Product sales",
+   "customer": "People who dislike the existing format (e.g. swallowing pills)",
+   "problem": "Proven products are only available in one form factor that some buyers dislike.",
+   "offer": "Same ingredients in a new format.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "Manufacturing by suppliers; not detailed.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Ad-based demand testing."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Self-serve."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Physical production and fulfilment."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Checkout automation."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "AI for FAQs."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Concept applies; product regulation varies by category."
+   },
+   "risks": [
+    "Easy to copy",
+    "Manufacturing costs"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "One of the most genius ways of making money is taking a proven product and changing the form factor.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 0,
+     "approx_timestamp_s": 0
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "AI-generated ad creative for pre-launch demand testing",
+   "one_liner": "Use Higgsfield's AI image/video generation to make realistic ads for products that do not exist yet and see if people click before investing.",
+   "category": "ai_automation",
+   "business_model": "Method used by the host himself to validate products; Higgsfield is sponsor/affiliate tool (no service pricing given).",
+   "customer": "Founders of DTC/e-commerce products",
+   "problem": "Producing professional ad images/videos used to cost hundreds or thousands of dollars per video before testing demand.",
+   "offer": "Generate images and videos via Nano Banana Pro, Kling 2.5 Turbo and click-to-ad from a product URL, then run ads and track clicks.",
+   "pricing": {
+    "model": "credit-based",
+    "price_points": [
+     {
+      "amount": 2,
+      "currency": "credits",
+      "unit": "per Nano Banana Pro image",
+      "label": "image generation"
+     },
+     {
+      "amount": 6,
+      "currency": "credits",
+      "unit": "per 5s 1080p Kling 2.5 Turbo video",
+      "label": "video generation"
+     }
+    ],
+    "notes": "Credit price in money not stated."
+   },
+   "acquisition_channels": [],
+   "delivery": "Software platform; team collaboration with comments and version history.",
+   "unit_economics_claims": [
+    "Traditional testing cost hundreds or thousands of dollars per video"
+   ],
+   "tools": [
+    "Higgsfield",
+    "Nano Banana Pro",
+    "Kling 2.5 Turbo",
+    "Facebook ads",
+    "Instagram ads"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Creative generation and ad launch can be agent-driven."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Self-serve tool."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Image/video generation is software."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Credit/subscription billing."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Standard SaaS support."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works the same in the UK; ad disclosure rules apply to synthetic UGC."
+   },
+   "risks": [
+    "Sponsored demo, claims promotional",
+    "AI voices sound artificial",
+    "AI product likeness may differ from real product",
+    "Click interest is not purchase intent"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "I'm generating a video of a product that does not even exist yet. This is validation before investment.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 8835,
+     "approx_timestamp_s": 482
+    },
+    {
+     "text": "if we create professional images or videos, then it provides us with instant credibility.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 3909,
+     "approx_timestamp_s": 213
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Traditional ad creative testing costs hundreds or thousands of dollars per video",
+   "metric": "cost",
+   "value": {
+    "amount": null,
+    "currency": "USD",
+    "unit": "per video",
+    "label": "hundreds to thousands"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "traditionally you would have to spend hundreds or thousands of dollars for every video",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 875,
+    "approx_timestamp_s": 47
+   }
+  },
+  {
+   "claim": "Nano Banana Pro image costs 2 credits and took about 8 seconds",
+   "metric": "cost",
+   "value": {
+    "amount": 2,
+    "currency": "credits",
+    "unit": "per image"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "It's going to cost us two credits to generate this",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4562,
+    "approx_timestamp_s": 248
+   }
+  },
+  {
+   "claim": "Kling 2.5 Turbo 5-second 1080p video costs 6 credits",
+   "metric": "cost",
+   "value": {
+    "amount": 6,
+    "currency": "credits",
+    "unit": "per video"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "5 seconds, 1080p. We're going to generate it for six credits",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8492,
+    "approx_timestamp_s": 463
+   }
+  },
+  {
+   "claim": "A generic creatine gummy brand selling $1M per month (hypothetical example) could be rebranded for a niche",
+   "metric": "revenue",
+   "value": {
+    "amount": 1000000,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "period": "monthly",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "if I see a brand is selling a million dollars a month of a generic creatine gummy",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14237,
+    "approx_timestamp_s": 776
+   }
+  },
+  {
+   "claim": "Each Force Factor creatine gummy serving contains 5 g of creatine",
+   "metric": "other",
+   "value": {
+    "amount": 5,
+    "currency": null,
+    "unit": "grams creatine per serving"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "each serving gives me 5 g of creatine",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15682,
+    "approx_timestamp_s": 855
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Validate a product with AI-generated ads before building",
+   "area": "product",
+   "steps": [
+    "Pick a proven product and decide on a new form factor or niche",
+    "Generate realistic images or video with Nano Banana Pro or Kling in Higgsfield",
+    "Upload a reference image of the real product so the AI shows it accurately",
+    "Run Facebook/Instagram ads and measure clicks and reactions",
+    "Only move to R&D/manufacturing if demand shows"
+   ],
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "This is validation before investment. This is saving a lot of money is what it is.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8900,
+    "approx_timestamp_s": 485
+   }
+  },
+  {
+   "name": "Reverse-engineer winning Amazon products and niche them down",
+   "area": "product",
+   "steps": [
+    "Search best-selling Amazon products (e.g. creatine gummies)",
+    "Use Jungle Scout's Chrome extension to see units and dollars sold monthly per brand",
+    "Paste the Amazon URL into Higgsfield click-to-ad to build a product kit and ad",
+    "Rebrand for a narrower audience (e.g. female ultra-marathoners)",
+    "Create 3-5 ad versions, one per niche, changing audience, colours, messaging or pricing"
+   ],
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "the point of doing this is to try to reverse engineer other winning products",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13106,
+    "approx_timestamp_s": 715
+   }
+  },
+  {
+   "name": "Repackage generic sourced products for a niche",
+   "area": "product",
+   "steps": [
+    "Find a generic product on Amazon",
+    "Locate manufacturers on Thomasnet, Alibaba or AliExpress",
+    "Change only the packaging and branding for the niche",
+    "Seed with free samples at niche events such as race packets"
+   ],
+   "idea_local_id": "I2",
+   "quote": null
+  },
+  {
+   "name": "Test ad visual styles",
+   "area": "acquisition",
+   "steps": [
+    "Switch Higgsfield visual style from general to iPhone/selfie style",
+    "Compare results, since iPhone-style creative is performing well in paid ads",
+    "Run UGC and 'viral chaos' variants and compare"
+   ],
+   "idea_local_id": "I5",
+   "quote": null
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Higgsfield",
+   "purpose": "AI image/video generation platform with multiple models, team collaboration and click-to-ad",
+   "cost_stated": "Credit-based; money cost not stated"
+  },
+  {
+   "name": "Nano Banana Pro",
+   "purpose": "Google image model used for ad images",
+   "cost_stated": "2 credits per image"
+  },
+  {
+   "name": "Kling 2.5 Turbo",
+   "purpose": "AI video generation model",
+   "cost_stated": "6 credits per 5s 1080p video"
+  },
+  {
+   "name": "Jungle Scout",
+   "purpose": "Amazon sales estimates via Chrome extension",
+   "cost_stated": "Expensive but has 30-day free trial"
+  },
+  {
+   "name": "Google Trends",
+   "purpose": "Check popularity of rucking",
+   "cost_stated": null
+  },
+  {
+   "name": "Amazon",
+   "purpose": "Product research and demand signals",
+   "cost_stated": null
+  },
+  {
+   "name": "Thomasnet",
+   "purpose": "Find manufacturers",
+   "cost_stated": null
+  },
+  {
+   "name": "Alibaba",
+   "purpose": "Find manufacturers/suppliers",
+   "cost_stated": null
+  },
+  {
+   "name": "AliExpress",
+   "purpose": "Find suppliers",
+   "cost_stated": null
+  },
+  {
+   "name": "Facebook/Instagram ads",
+   "purpose": "Test demand with paid ads",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "AI video may not show the real product accurately unless you upload a reference image.",
+   "quote": {
+    "text": "the nose filtration doesn't look anything like the actual product. And why would it? Cuz I didn't upload a reference image.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9401,
+    "approx_timestamp_s": 512
+   }
+  },
+  {
+   "warning": "Building physical products is costly, so test demand first rather than adopting an 'if you build it, they'll come' attitude.",
+   "quote": {
+    "text": "it is not cheap to start these businesses",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 828,
+    "approx_timestamp_s": 45
+   }
+  },
+  {
+   "warning": "AI-generated spokesperson voices still sound artificial.",
+   "quote": {
+    "text": "She kind of has that AI voice, which is my only complaint",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16090,
+    "approx_timestamp_s": 877
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Copy what already works and add a small upgrade, such as a new form factor, instead of inventing something new.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "I'm not about reinventing the wheel on this show. I want to take what's working and copy and paste it.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 197,
+    "approx_timestamp_s": 10
+   }
+  },
+  {
+   "lesson": "Test demand with realistic ad creative before committing money to manufacturing.",
+   "theme": "validation_testing",
+   "quote": null
+  },
+  {
+   "lesson": "Narrower niches allow higher prices and better differentiation than general-population products.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "the more niche you go, the more you can charge and the more you can stand out",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13696,
+    "approx_timestamp_s": 747
+   }
+  },
+  {
+   "lesson": "Professional-looking creative gives instant credibility to a test and avoids a 'janky' impression.",
+   "theme": "customer_acquisition",
+   "quote": null
+  },
+  {
+   "lesson": "Use marketplace sales data (Jungle Scout) to size demand for a category before entering it.",
+   "theme": "finance_unit_economics",
+   "quote": null
+  },
+  {
+   "lesson": "Rising search trends (Google Trends) plus a visible product gap, such as no feminine rucking gear, signal an early market opportunity.",
+   "theme": "niche_selection",
+   "quote": null
+  },
+  {
+   "lesson": "Shared AI workspaces with comments and version history let an ads person and the founder iterate in parallel.",
+   "theme": "automation_ai",
+   "quote": null
+  },
+  {
+   "lesson": "Sampling at niche events can convert users to recurring buyers of consumables.",
+   "theme": "customer_acquisition",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "C",
+  "rationale": "Host solo demo and idea pitching; no first-hand sales results or validated demand data. Ideas are speculative and the video is essentially a tool walkthrough.",
+  "promotional_conflict": "Higgsfield link in description (likely sponsored/affiliate); host also notes Jungle Scout is not an ad."
+ },
+ "extraction": {
+  "model": "claude-sonnet-5-5",
+  "extracted_at": "2026-10-22T04:59:17",
+  "cost_usd": 0.1053142,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 24,
+   "verified": 24,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

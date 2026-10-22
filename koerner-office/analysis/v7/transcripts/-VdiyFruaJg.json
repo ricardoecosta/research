@@ -1,0 +1,1015 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "-VdiyFruaJg",
+  "title": "Nobody Knows You Own These BORING Businesses, Level by Level",
+  "channel": "Harry's Stealth Wealth",
+  "url": "https://www.youtube.com/watch?v=-VdiyFruaJg",
+  "upload_date": "2026-10-17",
+  "duration_s": 926,
+  "view_count": 2447,
+  "transcript_provider": "cached",
+  "transcript_chars": 14377,
+  "transcript_is_whisper": false
+ },
+ "summary": "A dramatised, level-by-level narrative about acquiring retiring owners' small service businesses (pest control route, pest company, HVAC company, plumbing company) while keeping the founder's name and staff, and staying in the background. It uses market-range figures (BizBuySell medians, multiples, SBA 7(a) 10% down with seller standby notes) to show how a holding company could reach roughly $740k a year of owner earnings in 11 years. Key takeaway: buy what someone is ready to leave, keep the name and people, retain key technicians, and make sure the business doesn't live in the owner's head. It is an illustrative, US-centric story, not a first-hand operator account.",
+ "speakers": [
+  {
+   "name": "Harry (Harry's Stealth Wealth)",
+   "role": "narrator",
+   "description": "Narrator of a second-person fictional story; name inferred from channel"
+  }
+ ],
+ "format": "case_study_profile",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Buy a retiring exterminator's pest control route",
+   "one_liner": "Buy a solo operator's recurring-customer pest route with seller financing and run it yourself to learn the trade.",
+   "category": "acquisition_buy_business",
+   "business_model": "Recurring quarterly pest control plans paid by homeowners",
+   "customer": "Homeowners on recurring pest plans",
+   "problem": "Retiring solo exterminator has no successor and customers who need continued service",
+   "offer": "Continuation of recurring pest treatments under the original owner's name",
+   "pricing": {
+    "model": "Recurring plan per home",
+    "price_points": [
+     {
+      "amount": 400,
+      "amount_max": 700,
+      "currency": "USD",
+      "unit": "per home per year",
+      "label": "Recurring pest plan"
+     }
+    ],
+    "notes": "Route of about 120 homes gives roughly $60,000 a year revenue"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "referrals_word_of_mouth",
+     "details": "Seller Hal writes a letter introducing the buyer to each customer and rides along on the first round; business keeps the original name.",
+     "quote": {
+      "text": "He writes a short letter to every customer, in his own words, introducing you. Then he rides along for your next round.",
+      "speaker": "Narrator",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 3898,
+      "approx_timestamp_s": 261
+     }
+    }
+   ],
+   "delivery": "Owner-operator physically visits homes (garages, porches, back steps) every 3 months to treat them.",
+   "unit_economics_claims": [
+    "Route about 120 homes, ~$60,000/yr revenue",
+    "Solo operator keeps around half of revenue",
+    "Routes sell for 1-2x yearly recurring revenue",
+    "$20,000 down, remainder in seller monthly payments",
+    "About a dozen homes (1 in 10) churned in first 3 months"
+   ],
+   "tools": [
+    "State pest control applicator exam/license"
+   ],
+   "startup_cost": "About $20,000 down plus exam fee of roughly $25 to a couple hundred dollars",
+   "time_to_first_revenue": "Immediate on takeover (existing recurring customers)",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Deal sourcing from retiring owners is relationship-led; customers come with the route."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Customer intro letters and scheduling can be templated, but the seller handover is personal."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical pest treatments at homes require a licensed human every visit."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Recurring plan billing can be automated with card on file/invoicing software."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Scheduling and basic queries can be handled by agents; complaints need a human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Pest control routes exist in the UK, but there is no SBA loan, US licensing exam differs, and UK pest control is typically commercial-heavy; seller finance still possible."
+   },
+   "risks": [
+    "Customers loyal to the old owner cancel (about 1 in 10 did)",
+    "Physical solo labour limits scale",
+    "Low income from a single route"
+   ],
+   "is_primary": false,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "Homes on a recurring pest plan commonly pay somewhere between four and $700 a year.",
+     "speaker": "Narrator",
+     "match_score": 92.6,
+     "verified": true,
+     "char_offset": 2579,
+     "approx_timestamp_s": 172
+    },
+    {
+     "text": "Customers don't buy a company. They buy the person they trust.",
+     "speaker": "Narrator",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 4182,
+     "approx_timestamp_s": 280
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Buy a small pest control company (3 technicians)",
+   "one_liner": "Acquire a 3-truck pest company with an SBA 7(a) loan, fold the route in, add routing software, keep the senior tech.",
+   "category": "acquisition_buy_business",
+   "business_model": "Recurring quarterly pest control customers",
+   "customer": "Homeowners with recurring quarterly pest plans",
+   "problem": "70-year-old owner retiring with no successor",
+   "offer": "Continuation of an established pest company with the same staff and name",
+   "pricing": {
+    "model": "Recurring plan",
+    "price_points": [
+     {
+      "amount": 264000,
+      "currency": "USD",
+      "unit": "per year",
+      "label": "Median pest company revenue on BizBuySell"
+     },
+     {
+      "amount": 124000,
+      "currency": "USD",
+      "unit": "per year",
+      "label": "Median owner earnings"
+     },
+     {
+      "amount": 250000,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "Purchase price"
+     }
+    ],
+    "notes": "Sold at about 2.5x owner earnings"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "referrals_word_of_mouth",
+     "details": "Deal came because retiring owner Ron asked Hal who bought his route.",
+     "quote": null
+    }
+   ],
+   "delivery": "Three technicians in trucks run routes; owner folds own route into the same trucks to cut mileage.",
+   "unit_economics_claims": [
+    "Median pest company revenue ~$264,000",
+    "Owner keeps ~$124,000",
+    "Price ~$250,000 at ~2.5x earnings",
+    "Cash in about $12,500 plus closing costs",
+    "Loan payment a little over $3,000/month paid by the company",
+    "Pest workers median pay ~ $44,000"
+   ],
+   "tools": [
+    "SBA 7(a) loan",
+    "Routing software"
+   ],
+   "startup_cost": "About $12,500 cash plus closing costs (10% down, half as seller standby note)",
+   "time_to_first_revenue": "Immediate on takeover",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Sourcing owners and negotiating deals is relationship-based."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "New customers arrive via existing book; routing setup is tool-based."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Technicians physically treat properties; scheduling/routing can be tooled."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Recurring billing software."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Scheduling and FAQs via agents; staff issues need humans."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "UK has no SBA 7(a); financing would be bank loans/seller notes. Business brokers and similar multiples exist."
+   },
+   "risks": [
+    "Senior tech (Luis) leaving could take half the customers",
+    "Owner dependency on transition",
+    "Debt service"
+   ],
+   "is_primary": false,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "Pest companies like this have sold for around two and a half times what the owner earns.",
+     "speaker": "Narrator",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 5135,
+     "approx_timestamp_s": 344
+    },
+    {
+     "text": "If Luis walks, half the customers might follow him.",
+     "speaker": "Narrator",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 5727,
+     "approx_timestamp_s": 384
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Buy an HVAC company (14 trucks)",
+   "one_liner": "Acquire a 45-year-old HVAC firm with SBA financing, keeping the founder's name and key techs.",
+   "category": "acquisition_buy_business",
+   "business_model": "Service calls plus maintenance plan memberships",
+   "customer": "Homeowners with HVAC maintenance plans and emergency repair needs",
+   "problem": "74-year-old owner wants a buyer who keeps his name and people",
+   "offer": "Continuity of the established HVAC company",
+   "pricing": {
+    "model": "Maintenance plan membership plus service calls",
+    "price_points": [
+     {
+      "amount": 200,
+      "amount_max": 330,
+      "currency": "USD",
+      "unit": "per year",
+      "label": "Maintenance plan"
+     },
+     {
+      "amount": 1500000,
+      "currency": "USD",
+      "unit": "per year",
+      "label": "Median HVAC company revenue"
+     },
+     {
+      "amount": 300000,
+      "currency": "USD",
+      "unit": "per year",
+      "label": "Median owner earnings"
+     },
+     {
+      "amount": 750000,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "Purchase price"
+     }
+    ],
+    "notes": "Sold at about 2.75x owner earnings"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "referrals_word_of_mouth",
+     "details": "Seller heard about the buyer through Ron at church.",
+     "quote": null
+    }
+   ],
+   "delivery": "Technicians service and install HVAC systems; seller stays up to a year under SBA rules.",
+   "unit_economics_claims": [
+    "Median HVAC revenue ~$1.5M, owner earnings ~$300k",
+    "Price ~$750,000",
+    "~$37,500 down, ~$9,000/month payment",
+    "HVAC tech median ~ $60,000",
+    "Maintenance plans $200-330/yr"
+   ],
+   "tools": [
+    "SBA 7(a) loan"
+   ],
+   "startup_cost": "About $37,500 down (10%, half via seller standby note)",
+   "time_to_first_revenue": "Immediate on takeover",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Deal sourcing and relationship-based."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Plan sign-ups can be tooled; transition needs founder."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical HVAC work on site."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Recurring plan billing and invoicing software."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Dispatch and customer comms partly automated; heat waves need humans."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "UK equivalents are boiler/heating firms; Gas Safe registration, different climate (less AC demand), no SBA."
+   },
+   "risks": [
+    "PE-backed competitors poach key techs",
+    "Customers worry about new ownership",
+    "Peak-season capacity strain",
+    "Debt payments of ~$9,000/month"
+   ],
+   "is_primary": false,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "HVAC companies have sold for around two and three quarter times what the owner earns.",
+     "speaker": "Narrator",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 6906,
+     "approx_timestamp_s": 463
+    },
+    {
+     "text": "Keeping the people isn't kindness. It's the whole business.",
+     "speaker": "Narrator",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 10162,
+     "approx_timestamp_s": 681
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "Buy a plumbing company (third-generation)",
+   "one_liner": "Acquire a ~$1.2M plumbing firm using cash flow from owned companies for the down payment, winning on keeping name and crew.",
+   "category": "acquisition_buy_business",
+   "business_model": "Plumbing service and repair revenue",
+   "customer": "Homeowners needing plumbing service",
+   "problem": "Third-generation owner choosing between a PE platform and a legacy-preserving buyer",
+   "offer": "Same name, same crew, same phone number",
+   "pricing": {
+    "model": "Service calls",
+    "price_points": [
+     {
+      "amount": 1200000,
+      "currency": "USD",
+      "unit": "per year",
+      "label": "Median plumbing company revenue"
+     },
+     {
+      "amount": 310000,
+      "currency": "USD",
+      "unit": "per year",
+      "label": "Owner earnings"
+     },
+     {
+      "amount": 800000,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "Purchase price (a little under)"
+     }
+    ],
+    "notes": "About 2.5x owner earnings; ~$80k down funded by existing companies"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Winning the deal by letting the seller meet your technicians (Luis and Danny) and offering continuity versus a PE platform.",
+     "quote": null
+    }
+   ],
+   "delivery": "Existing plumbing crew performs on-site work.",
+   "unit_economics_claims": [
+    "Revenue ~$1.2M, owner earnings ~$310k",
+    "Price a little under $800k",
+    "Down payment close to $80k funded from existing companies"
+   ],
+   "tools": [
+    "SBA 7(a) loan"
+   ],
+   "startup_cost": "Close to $80,000 down, funded by existing businesses",
+   "time_to_first_revenue": "Immediate on takeover",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Seller relationship and trust."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Handover is human-led."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical plumbing work."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Standard invoicing software."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Dispatch can be tooled; emergencies need humans."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Plumbing firms are sold in the UK; financing differs (no SBA), and Gas Safe/other registrations apply."
+   },
+   "risks": [
+    "PE competition for deals",
+    "Large debt",
+    "Owner-dependent business"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "The businesses are buying the businesses now.",
+     "speaker": "Narrator",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 11940,
+     "approx_timestamp_s": 800
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "Holding company roll-up of boring trade businesses",
+   "one_liner": "Combine pest, HVAC and plumbing acquisitions under one holding company, keeping legacy names and funding new deals from existing cash flow.",
+   "category": "acquisition_buy_business",
+   "business_model": "Holding company owning multiple service businesses",
+   "customer": "Retiring owners of small trade companies (as sellers) and their local customers",
+   "problem": "About 2.3M boomer-owned small businesses lack succession plans",
+   "offer": "A buyer who keeps the name and people and stays in the background",
+   "pricing": {
+    "model": "Acquisition multiples of 1-2.75x owner earnings",
+    "price_points": [
+     {
+      "amount": 740000,
+      "currency": "USD",
+      "unit": "per year",
+      "label": "Combined owner earnings of three median companies before loans and managers"
+     },
+     {
+      "amount": 2000000,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "Estimated group value"
+     }
+    ],
+    "notes": "Three companies brought in a little under $3M revenue"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "referrals_word_of_mouth",
+     "details": "Reputation among retiring owners generates inbound sellers.",
+     "quote": null
+    }
+   ],
+   "delivery": "Managers and technicians run each company; the owner stays in the background.",
+   "unit_economics_claims": [
+    "~$740k/yr owner earnings across three companies pre-debt",
+    "Group worth ~ $2M",
+    "70% of owners lack succession plan",
+    "61% prioritise finding the right next owner"
+   ],
+   "tools": [
+    "Holding company",
+    "SBA 7(a) loans",
+    "BizBuySell"
+   ],
+   "startup_cost": "Savings of ~$20k then ~$12.5k, ~$37.5k, ~$80k for subsequent deals",
+   "time_to_first_revenue": "Immediate on first acquisition",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Deal sourcing and seller relationships need a human."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "Each integration is human-led."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical trades work."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Standard recurring billing."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Dispatch tooling with human oversight."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "UK has similar succession dynamics; financing, licensing, and legal setup differ and a UK holdco is straightforward."
+   },
+   "risks": [
+    "Owner-dependent businesses that collapse after sale",
+    "Key-employee departures",
+    "PE competition",
+    "Debt leverage"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "Buy what someone's ready to leave. Keep the name and the people. Stay in the background.",
+     "speaker": "Narrator",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 1840,
+     "approx_timestamp_s": 123
+    },
+    {
+     "text": "Millions of good boring companies and most of their owners have no idea who takes over.",
+     "speaker": "Narrator",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 1513,
+     "approx_timestamp_s": 101
+    }
+   ]
+  },
+  {
+   "local_id": "I6",
+   "name": "Jared Pierce HVAC acquisition (example)",
+   "one_liner": "Real buyer purchased an HVAC firm in 2017 with an SBA loan and grew it from $3.5M to about $35M revenue in five years.",
+   "category": "acquisition_buy_business",
+   "business_model": "HVAC service company growth",
+   "customer": "Homeowners and commercial HVAC customers",
+   "problem": "Not stated",
+   "offer": "Not stated",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [
+     {
+      "amount": 1750000,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "Purchase price 2017"
+     }
+    ],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "not stated",
+   "unit_economics_claims": [
+    "Bought for $1.75M in 2017 with SBA loan",
+    "Revenue from $3.5M to ~$35M in five years",
+    "Shared more than $2M of sale with key employees"
+   ],
+   "tools": [
+    "SBA loan"
+   ],
+   "startup_cost": "SBA loan, amount not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Not described."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "Not described."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical trades."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Standard software."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Not described."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Concept transfers; SBA does not."
+   },
+   "risks": [
+    "Rapid growth is rare; narrator calls it 'loud, fast'"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "He learned sales riding along with the old owner.",
+     "speaker": "Narrator",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 12466,
+     "approx_timestamp_s": 835
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "About 2.3 million baby-boomer-owned small businesses are getting ready to retire",
+   "metric": "customers",
+   "value": {
+    "amount": 2300000,
+    "currency": null,
+    "unit": "businesses",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Project Equity (via narrator)",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "One research group, Project Equity, counts about 2.3 million small businesses owned by baby boomers getting ready to retire.",
+    "speaker": "Narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1263,
+    "approx_timestamp_s": 84
+   }
+  },
+  {
+   "claim": "About 70% of small business owners have no formal succession plan",
+   "metric": "other",
+   "value": {
+    "amount": 70,
+    "currency": null,
+    "unit": "percent",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Chase survey (via narrator)",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "about 70% said they don't have a formal succession plan.",
+    "speaker": "Narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1442,
+    "approx_timestamp_s": 96
+   }
+  },
+  {
+   "claim": "Recurring pest plan homes pay $400-$700 a year",
+   "metric": "price",
+   "value": {
+    "amount": 400,
+    "amount_max": 700,
+    "currency": "USD",
+    "unit": "per year",
+    "label": null
+   },
+   "period": "year",
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "commonly pay somewhere between four and $700 a year.",
+    "speaker": "Narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2615,
+    "approx_timestamp_s": 175
+   }
+  },
+  {
+   "claim": "Pest route of 120 homes brings roughly $60,000 a year",
+   "metric": "revenue",
+   "value": {
+    "amount": 60000,
+    "currency": "USD",
+    "unit": "per year",
+    "label": null
+   },
+   "period": "year",
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So, Hal's route brings in roughly 60,000 a year.",
+    "speaker": "Narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2666,
+    "approx_timestamp_s": 178
+   }
+  },
+  {
+   "claim": "Median pest company on BizBuySell takes in ~$264,000 and owner keeps ~$124,000",
+   "metric": "revenue",
+   "value": {
+    "amount": 264000,
+    "currency": "USD",
+    "unit": "per year",
+    "label": null
+   },
+   "period": "year",
+   "claimant": "Narrator citing BizBuySell",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "the middle one takes in about $264,000 a year. And the owner keeps about 124,000 of that.",
+    "speaker": "Narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4603,
+    "approx_timestamp_s": 308
+   }
+  },
+  {
+   "claim": "Median HVAC company revenue ~$1.5M with owner keeping ~$300,000",
+   "metric": "revenue",
+   "value": {
+    "amount": 1500000,
+    "currency": "USD",
+    "unit": "per year",
+    "label": null
+   },
+   "period": "year",
+   "claimant": "Narrator citing BizBuySell",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "the middle one takes in about $1.5 million a year, and the owner keeps about 300,000.",
+    "speaker": "Narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6618,
+    "approx_timestamp_s": 443
+   }
+  },
+  {
+   "claim": "Group of three companies likely worth around $2 million",
+   "metric": "valuation",
+   "value": {
+    "amount": 2000000,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "the whole group would likely be worth somewhere around $2 million.",
+    "speaker": "Narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12236,
+    "approx_timestamp_s": 820
+   }
+  },
+  {
+   "claim": "Jared Pierce grew HVAC revenue from $3.5M to about $35M in five years",
+   "metric": "revenue",
+   "value": {
+    "amount": 35000000,
+    "currency": "USD",
+    "unit": "per year",
+    "label": null
+   },
+   "period": "five years after 2017",
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "Five years later, revenue had grown from 3 and 1/2 million to about 35 million.",
+    "speaker": "Narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12515,
+    "approx_timestamp_s": 839
+   }
+  },
+  {
+   "claim": "Apex Service Partners valued close to $10 billion",
+   "metric": "valuation",
+   "value": {
+    "amount": 10000000000,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "One platform, Apex Service Partners, was valued close to 10 billion dollars.",
+    "speaker": "Narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10777,
+    "approx_timestamp_s": 722
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Seller introduction letter and ride-along",
+   "area": "operations",
+   "steps": [
+    "Ask the retiring owner to write a short personal letter to every customer introducing you",
+    "Have the owner ride along on your first round",
+    "Keep the original business name on trucks and branding"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "He writes a short letter to every customer, in his own words, introducing you.",
+    "speaker": "Narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3898,
+    "approx_timestamp_s": 261
+   }
+  },
+  {
+   "name": "Retain key technicians with their wants, not just money",
+   "area": "hiring",
+   "steps": [
+    "Sit with the tech and ask what he actually wants",
+    "Offer a four-day schedule, lead trainer title and a two-year retention bonus",
+    "Keep senior tech pay unchanged on acquisition"
+   ],
+   "idea_local_id": "I3",
+   "quote": null
+  },
+  {
+   "name": "Fund acquisitions with SBA 7(a) plus seller standby note",
+   "area": "finance",
+   "steps": [
+    "Put 10% down",
+    "Have the seller carry half of the 10% as a standby note",
+    "Keep seller on for up to a year for transition",
+    "Use existing company cash flow to fund later down payments"
+   ],
+   "idea_local_id": "I5",
+   "quote": null
+  },
+  {
+   "name": "Win sellers by letting them meet your people",
+   "area": "sales",
+   "steps": [
+    "Offer same name, same crew, same phone number",
+    "Bring your technicians to meet the seller's crew",
+    "Do not pitch; talk shop"
+   ],
+   "idea_local_id": "I4",
+   "quote": null
+  },
+  {
+   "name": "Consolidate routes and move scheduling to software",
+   "area": "operations",
+   "steps": [
+    "Fold nearby acquired routes into the same trucks",
+    "Move paper schedule into routing software over a weekend",
+    "Reduce cross-town driving"
+   ],
+   "idea_local_id": "I2",
+   "quote": null
+  },
+  {
+   "name": "Prioritise members during peak demand",
+   "area": "operations",
+   "steps": [
+    "Text maintenance-plan members first each day",
+    "Give non-members honest arrival windows and callbacks",
+    "Owner answers phones during crunch"
+   ],
+   "idea_local_id": "I3",
+   "quote": null
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "BizBuySell",
+   "purpose": "Source of median financials for small businesses for sale",
+   "cost_stated": null
+  },
+  {
+   "name": "SBA 7(a) loan",
+   "purpose": "Acquisition financing with 10% down",
+   "cost_stated": "10% down"
+  },
+  {
+   "name": "Routing software",
+   "purpose": "Schedule and route technicians",
+   "cost_stated": null
+  },
+  {
+   "name": "State pest control applicator exam",
+   "purpose": "Licensing",
+   "cost_stated": "$25 to a couple hundred dollars"
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Do not buy a business that lives entirely in the owner's head (phone, customers, techs); get the seller to stay through the handoff and plan for key people inside the deal.",
+   "quote": {
+    "text": "They buy a business that lives entirely in the owner's head. His phone, his customers, his techs.",
+    "speaker": "Narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13140,
+    "approx_timestamp_s": 881
+   }
+  },
+  {
+   "warning": "Private equity platforms are acquiring and poaching techs; you cannot outbid them, so retention must rely on non-price factors.",
+   "quote": null
+  },
+  {
+   "warning": "Customers may leave after an ownership change; about 1 in 10 left in the first 3 months of the pest route.",
+   "quote": null
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Succession gap creates deal flow: many boomer owners lack a plan and want the right successor, not only the highest bid.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "finding the right next owner was a priority. Not just the highest bidder. The right one.",
+    "speaker": "Narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1676,
+    "approx_timestamp_s": 112
+   }
+  },
+  {
+   "lesson": "Keeping the original brand and people reduces churn in acquisitions of trust-based businesses.",
+   "theme": "operations",
+   "quote": null
+  },
+  {
+   "lesson": "Start small (a solo route) to learn the trade before buying larger companies.",
+   "theme": "scaling",
+   "quote": null
+  },
+  {
+   "lesson": "Recurring-revenue service businesses are valued on multiples of owner earnings, usually 1x to 2.75x in the story.",
+   "theme": "finance_unit_economics",
+   "quote": null
+  },
+  {
+   "lesson": "Cash flow from acquired companies can fund the down payments for the next acquisitions.",
+   "theme": "scaling",
+   "quote": null
+  },
+  {
+   "lesson": "Retention of key employees is cheaper than replacing them; ask what they actually want.",
+   "theme": "hiring_outsourcing",
+   "quote": null
+  },
+  {
+   "lesson": "Holding a licence yourself means the company does not depend on one employee's credentials.",
+   "theme": "legal_risk",
+   "quote": null
+  },
+  {
+   "lesson": "Building this takes years (11 in the story); the quiet approach beats the fast, loud one for most people.",
+   "theme": "mindset_execution",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "C",
+  "rationale": "Dramatised second-person fictional narrative with market-range figures and survey citations; not a first-hand operator account. Only Jared Pierce is a real example and is given briefly. Heavily US-specific and no AI-agent angle.",
+  "promotional_conflict": "None stated; channel may promote related content but nothing disclosed in the transcript."
+ },
+ "extraction": {
+  "model": "claude-sonnet-5-5",
+  "extracted_at": "2026-10-22T04:57:36",
+  "cost_usd": 0.1119562,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 23,
+   "verified": 23,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

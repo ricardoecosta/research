@@ -1,0 +1,1235 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "8XEXkWAxPAQ",
+  "title": "AI Is Replacing Content Creators (Here’s How to Profit)",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=8XEXkWAxPAQ",
+  "upload_date": "2025-05-21",
+  "duration_s": 2044,
+  "view_count": 21074,
+  "transcript_provider": "ok",
+  "transcript_chars": 32706,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner chats with Sam (an agency operator, Service Scalers) about AI-generated content. Topics: licensing your cloned voice on ElevenLabs for passive income, AI-generated 'boomer bait' animal videos on Facebook monetised by impressions, and Sam's stack for AI-cloned spokesperson video ads (ChatGPT, Photoshop, face swap, ElevenLabs voice-to-voice, HeyGen Avatar 4) that he says already book calls at about $10. Chris also shares a Houston billboard test for his podcast versus Facebook ads. Key takeaway: AI video is good enough to run as ad creative, and unconventional channels can be tested if you track the maths (CAC/LTV, hit rate).",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Host of The Koerner Office; ran a billboard test to grow his podcast in Houston"
+  },
+  {
+   "name": "Sam",
+   "role": "guest",
+   "description": "Runs Service Scalers (lead-gen agency), builds AI video ad creative systems, launched a hummingbird nectar e-commerce business and a community"
+  }
+ ],
+ "format": "operator_interview",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "License your cloned voice on ElevenLabs",
+   "one_liner": "Upload your voice to ElevenLabs so other users can select it and you earn a proportional rev share.",
+   "category": "digital_products",
+   "business_model": "Revenue share on usage of your licensed voice",
+   "customer": "ElevenLabs users who need voices for ads, videos, narration",
+   "problem": "Users want non-studio, natural, varied voices rather than default polished ones",
+   "offer": "A cloned voice listed in the ElevenLabs voice library",
+   "pricing": {
+    "model": "Proportional revenue share from ElevenLabs",
+    "price_points": [
+     {
+      "amount": null,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "a few hundred bucks a month (claimed)"
+     }
+    ],
+    "notes": "Exact rev share not stated"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "marketplace_platform",
+     "details": "Discovery happens inside the ElevenLabs voice library; users pick voices.",
+     "quote": null
+    }
+   ],
+   "delivery": "Record or upload audio once; ElevenLabs hosts and serves the voice",
+   "unit_economics_claims": [
+    "Could make a few hundred bucks a month (Chris, loose claim)"
+   ],
+   "tools": [
+    "ElevenLabs"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 5,
+     "how": "Marketplace listing; discovery handled by the platform."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "One-time voice upload and consent steps."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "Platform serves the voice automatically."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "ElevenLabs pays out rev share."
+    },
+    "support": {
+     "score_e": 5,
+     "how": "Essentially none needed."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Works in the UK; check ElevenLabs payout eligibility, tax on income, and voice-rights/consent terms."
+   },
+   "risks": [
+    "Low, unproven income",
+    "Your voice can be misused or cloned elsewhere",
+    "Platform controls terms and payouts"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "They're like basically licensing out the rights to their voice.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 1419,
+     "approx_timestamp_s": 91
+    },
+    {
+     "text": "They pay out like a proportional rev share of that.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 1593,
+     "approx_timestamp_s": 102
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "AI-generated viral animal videos on Facebook (impression farming)",
+   "one_liner": "Post 5-10 realistic AI videos daily (e.g. animals saving babies) to Facebook and get paid for views.",
+   "category": "content_media",
+   "business_model": "Platform payouts for impressions/views",
+   "customer": "Facebook viewers, often older users; Facebook as payer",
+   "problem": "Need high-volume viral content cheaply",
+   "offer": "Entertainment micro-movies built from stitched AI video scenes",
+   "pricing": {
+    "model": "Ad/impression-based payouts from Facebook",
+    "price_points": [],
+    "notes": "Chris guesses six figures; unverified"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "organic_social_content",
+     "details": "Daily posting of AI videos; shares by viewers drive millions of views.",
+     "quote": null
+    }
+   ],
+   "delivery": "Generate scenes in Kling and chain them into longer videos",
+   "unit_economics_claims": [
+    "Facebook is probably paying them six figures (speculation)"
+   ],
+   "tools": [
+    "Kling AI",
+    "Facebook"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Content posted by scheduler; algorithm distribution."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "No customers."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Agents can generate prompts and videos; format selection needs checks."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Platform payouts."
+    },
+    "support": {
+     "score_e": 5,
+     "how": "None needed."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Facebook monetisation eligibility varies by country and rules on AI/unoriginal content are tightening."
+   },
+   "risks": [
+    "Platform policy changes/demonetisation of AI or repetitive content",
+    "Copycat saturation",
+    "Deceptive content concerns, only impression-based income"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "It's this Facebook account that posts 100% AI generated videos. They post like 5 to 10 a day",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 4151,
+     "approx_timestamp_s": 267
+    },
+    {
+     "text": "Facebook is probably paying them six.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 200,
+     "approx_timestamp_s": 12
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "AI cloned-spokesperson video ads for lead gen",
+   "one_liner": "Build an 'AI army of faces' with ChatGPT, face swap, ElevenLabs and HeyGen Avatar 4 to produce unlimited video ad creatives.",
+   "category": "ai_automation",
+   "business_model": "Internal tool to cut ad creative cost for Sam's lead-gen agency; potential service",
+   "customer": "Sam's own agency ads targeting service businesses",
+   "problem": "Real humans are slow to shoot 15 hook variations; out-of-the-box AI video has tells",
+   "offer": "Reliable, realistic AI talking-head ad videos on demand",
+   "pricing": {
+    "model": "Internal use",
+    "price_points": [],
+    "notes": "Example ad promotes a $399/month SEO blog service"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "paid_social",
+     "details": "AI videos run as Facebook ads; headline testing; subtitles used to hide mouth tells.",
+     "quote": null
+    }
+   ],
+   "delivery": "Pipeline: ChatGPT image, Photoshop generative expand, AI face swap, record script and voice-to-voice in ElevenLabs, then HeyGen Avatar 4.",
+   "unit_economics_claims": [
+    "One ad getting $10 booked calls",
+    "Show rate generally about 60% across ads"
+   ],
+   "tools": [
+    "ChatGPT",
+    "Photoshop",
+    "AI face swap tool",
+    "ElevenLabs",
+    "HeyGen Avatar 4",
+    "Flora Fauna AI",
+    "Kling AI"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated (ads launched the day before)",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Paid ads with automated creative testing."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Calls booked, handled by sales team."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Pipeline mostly tooling, but needs human recording and review of outputs; hit rate not 100%."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Standard invoicing."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Agents plus human checks."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Works in the UK; ensure ASA/CAP disclosure for synthetic people and consent for likeness and voice cloning."
+   },
+   "risks": [
+    "AI tells reduce trust",
+    "Likeness and voice-consent issues",
+    "Tool/model dependency and per-render cost",
+    "Ad platform AI-disclosure rules"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "I need an AI army of faces that I trust to like actually go and say exactly what I need them to say when I need them to say it so I can go make these ads.",
+     "speaker": "Sam",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 245,
+     "approx_timestamp_s": 15
+    },
+    {
+     "text": "This one specifically is getting me uh $10 booked calls",
+     "speaker": "Sam",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 13912,
+     "approx_timestamp_s": 896
+    },
+    {
+     "text": "generating leads without my face or without a real human needing to shoot content. And that answer is yes.",
+     "speaker": "Sam",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 14812,
+     "approx_timestamp_s": 954
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "AI ad automation / creative OS tools (Icon, Makec.ai, Flora Fauna)",
+   "one_liner": "Tools that let AI generate and A/B test thousands of Meta ad creatives.",
+   "category": "saas_software",
+   "business_model": "SaaS",
+   "customer": "Advertisers and e-commerce brands",
+   "problem": "Producing and iterating ad creatives at scale",
+   "offer": "AI-run ad campaigns and creative generation",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "Sam says tools charge a premium over underlying models"
+   },
+   "acquisition_channels": [],
+   "delivery": "Software",
+   "unit_economics_claims": [
+    "Icon raised $24 million and reportedly spent half on the icon.com domain"
+   ],
+   "tools": [
+    "Icon.com",
+    "Makec.ai",
+    "Flora Fauna AI"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Not detailed."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Not stated."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Software."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Subscription."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Not stated."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Software sold globally."
+   },
+   "risks": [
+    "Low hit rate with out-of-the-box tools",
+    "Most use the same underlying models, so low moat"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "they're just putting AI in the meta ads library. Like so you basically let AI run all of your ad campaigns.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 19211,
+     "approx_timestamp_s": 1238
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "Translate and dub content into other languages with ElevenLabs",
+   "one_liner": "Publish your content first in other languages (e.g. Hindi) using AI dubbing before copycats do.",
+   "category": "content_media",
+   "business_model": "Audience growth/ads",
+   "customer": "Foreign-language audiences",
+   "problem": "Copycats translate and repost creator content; copyright claims are hard in other languages",
+   "offer": "AI-dubbed versions of existing videos",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "organic_social_content",
+     "details": "Post Hindi versions on Instagram.",
+     "quote": null
+    }
+   ],
+   "delivery": "ElevenLabs overdub/dubbing",
+   "unit_economics_claims": [],
+   "tools": [
+    "ElevenLabs"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Scheduled posting."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "None."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Automated dubbing and posting."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Platform payouts."
+    },
+    "support": {
+     "score_e": 5,
+     "how": "None."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works anywhere."
+   },
+   "risks": [
+    "Copycats; posting first is the only IP defence"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "I'm going to beat him to the bunch and publish everything in Hindi before he can.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 16885,
+     "approx_timestamp_s": 1088
+    }
+   ]
+  },
+  {
+   "local_id": "I6",
+   "name": "Billboard advertising to grow a podcast",
+   "one_liner": "Rent a Houston billboard (about $20/day) and test creatives via Facebook ads, boosting local podcast downloads.",
+   "category": "content_media",
+   "business_model": "Audience growth for podcast monetisation",
+   "customer": "Drivers in the Houston area",
+   "problem": "Growing podcast listeners cost-effectively",
+   "offer": "A billboard with the 'get rich' headline pointing to the podcast",
+   "pricing": {
+    "model": "Billboard rental, 3-month contract",
+    "price_points": [
+     {
+      "amount": 20,
+      "currency": "USD",
+      "unit": "per day",
+      "label": "billboard cost"
+     },
+     {
+      "amount": 260,
+      "currency": "USD",
+      "unit": "per day",
+      "label": "Facebook ads test spend for 2 days"
+     }
+    ],
+    "notes": "Billboard about 20,000 cars/day"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Outdoor billboard on a rural-outskirts road, plus Facebook ads to test 30 billboard variations.",
+     "quote": null
+    }
+   ],
+   "delivery": "Billboard booked via account manager; downloads tracked per episode in a spreadsheet",
+   "unit_economics_claims": [
+    "Billboard about $20/day for nearly as many new downloads as $260/day ads",
+    "Billboard accounts for about 30 extra downloads per episode"
+   ],
+   "tools": [
+    "Facebook Ads",
+    "Blip Billboards",
+    "Spreadsheets"
+   ],
+   "startup_cost": "about $20/day on a 3-month contract",
+   "time_to_first_revenue": "No bump for the first month until billboard moved",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Billboard booking is manual; creative testing via ads is automatable."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "No onboarding."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Placement negotiation and physical site visits."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Invoiced."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "None."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "UK digital and static billboards available; costs differ."
+   },
+   "risks": [
+    "Hard to track LTV and retention",
+    "Frequency saturation",
+    "Placement matters greatly"
+   ],
+   "is_primary": false,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "I spent $260 a day for two days to get these downloads.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 22560,
+     "approx_timestamp_s": 1454
+    },
+    {
+     "text": "here I'm spending $20 a day for the billboard and getting almost as many new downloads.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 23253,
+     "approx_timestamp_s": 1498
+    }
+   ]
+  },
+  {
+   "local_id": "I7",
+   "name": "Hummingbird nectar e-commerce business",
+   "one_liner": "Sam's public-launch hummingbird nectar e-commerce store; promoted via Twitter to feed his community.",
+   "category": "ecommerce_physical",
+   "business_model": "One-off product sales",
+   "customer": "Hummingbird feeder owners",
+   "problem": "not stated",
+   "offer": "Hummingbird nectar",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "organic_social_content",
+     "details": "Tweeting about hummingbirds attracts people to Sam's paid community.",
+     "quote": null
+    }
+   ],
+   "delivery": "not stated",
+   "unit_economics_claims": [
+    "Thousands of dollars in sales in the first few weeks (host intro)",
+    "Not super profitable on its own"
+   ],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "first few weeks",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Content and ads."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "E-commerce."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Physical product fulfilment."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Checkout."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Standard e-com support."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 2,
+    "notes": "Hummingbirds do not live in the UK; the product would not sell there."
+   },
+   "risks": [
+    "Not very profitable standalone"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "even though hummingbirds isn't necessarily like super profitable, I'm still picking up secondary benefit on the other side.",
+     "speaker": "Sam",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 31245,
+     "approx_timestamp_s": 2014
+    }
+   ]
+  },
+  {
+   "local_id": "I8",
+   "name": "AI UGC creatives for physical products",
+   "one_liner": "Using a similar AI flow to generate user-generated-content style videos for e-commerce.",
+   "category": "ai_automation",
+   "business_model": "Ad creative production",
+   "customer": "E-commerce brands",
+   "problem": "UGC creatives are slow and costly",
+   "offer": "AI-generated UGC video",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "AI tooling",
+   "unit_economics_claims": [],
+   "tools": [
+    "Flora Fauna AI"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Not stated."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Not stated."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Mostly AI tooling."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Standard."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Not stated."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Works in the UK with ad disclosure rules."
+   },
+   "risks": [
+    "Not yet built"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "I'm getting there on UGC creatives as well, user generated content.",
+     "speaker": "Sam",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 18279,
+     "approx_timestamp_s": 1178
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Sam's AI ad is getting $10 booked calls",
+   "metric": "cost",
+   "value": {
+    "amount": 10,
+    "currency": "USD",
+    "unit": "per booked call",
+    "label": null
+   },
+   "period": "launched the day before",
+   "claimant": "Sam",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "This one specifically is getting me uh $10 booked calls, which is wow, unheard.",
+    "speaker": "Sam",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13912,
+    "approx_timestamp_s": 896
+   }
+  },
+  {
+   "claim": "Show rate across ads about 60%",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 60,
+    "currency": null,
+    "unit": "percent",
+    "label": "show rate"
+   },
+   "period": null,
+   "claimant": "Sam",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "Generally, our show rates been like 60% across all of the ads that are both of me and others.",
+    "speaker": "Sam",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14068,
+    "approx_timestamp_s": 906
+   }
+  },
+  {
+   "claim": "Avatar 3 hit rate about 60%",
+   "metric": "other",
+   "value": {
+    "amount": 60,
+    "currency": null,
+    "unit": "percent",
+    "label": "hit rate Avatar 3"
+   },
+   "period": null,
+   "claimant": "Sam",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "on Avatar 3 maybe 60 60%. So 6 out of 10.",
+    "speaker": "Sam",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12263,
+    "approx_timestamp_s": 790
+   }
+  },
+  {
+   "claim": "Example ad service priced at $399/month",
+   "metric": "price",
+   "value": {
+    "amount": 399,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "SEO blog service in ad"
+   },
+   "period": null,
+   "claimant": "Sam",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "For only $399 a month, we'll handle everything from keywords to publishing",
+    "speaker": "Sam",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12696,
+    "approx_timestamp_s": 818
+   }
+  },
+  {
+   "claim": "Facebook ad spend of $260/day for two days",
+   "metric": "cost",
+   "value": {
+    "amount": 260,
+    "currency": "USD",
+    "unit": "per day",
+    "label": "podcast ads"
+   },
+   "period": "2 days",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "I spent $260 a day for two days to get these downloads.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22560,
+    "approx_timestamp_s": 1454
+   }
+  },
+  {
+   "claim": "Billboard costs $20 a day",
+   "metric": "cost",
+   "value": {
+    "amount": 20,
+    "currency": "USD",
+    "unit": "per day",
+    "label": "billboard"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "here I'm spending $20 a day for the billboard and getting almost as many new downloads.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23253,
+    "approx_timestamp_s": 1498
+   }
+  },
+  {
+   "claim": "Billboard sees 20,000 cars per day",
+   "metric": "traffic",
+   "value": {
+    "amount": 20000,
+    "currency": null,
+    "unit": "cars per day",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "it gets 20,000 cars driving by a day.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23044,
+    "approx_timestamp_s": 1485
+   }
+  },
+  {
+   "claim": "Billboard adds about 30 downloads per episode",
+   "metric": "traffic",
+   "value": {
+    "amount": 30,
+    "currency": null,
+    "unit": "downloads per episode",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "I think the billboard accounts for like 30 extra downloads per episode.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 29283,
+    "approx_timestamp_s": 1887
+   }
+  },
+  {
+   "claim": "Houston podcast share rose from 1.5% to about 2.5% during ads",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 2.5,
+    "currency": null,
+    "unit": "percent",
+    "label": "Houston listener share"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "it was consistently 1 and a.5%. Okay? While I was running Facebook ads, it was about 2 and a half%.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22187,
+    "approx_timestamp_s": 1430
+   }
+  },
+  {
+   "claim": "Moving billboard 300 yards raised the ratio from 65% to 95% to 120%",
+   "metric": "other",
+   "value": {
+    "amount": 120,
+    "currency": null,
+    "unit": "percent",
+    "label": "download ratio"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "went from the ratio which higher is better in this case went from 65% to 95 to 120%.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 26281,
+    "approx_timestamp_s": 1694
+   }
+  },
+  {
+   "claim": "Facebook ads worked 10x worse than the billboard",
+   "metric": "other",
+   "value": {
+    "amount": 10,
+    "currency": null,
+    "unit": "x",
+    "label": "billboard vs ads efficiency"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "it worked, but it worked 10x worse than the billboard does, right?",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23762,
+    "approx_timestamp_s": 1531
+   }
+  },
+  {
+   "claim": "Icon raised $24 million and spent half on the domain",
+   "metric": "other",
+   "value": {
+    "amount": 24000000,
+    "currency": "USD",
+    "unit": "raised",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "They raised $24 million. They spent half of it on the domain name icon.com.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18935,
+    "approx_timestamp_s": 1220
+   }
+  },
+  {
+   "claim": "Voice cloning could earn a few hundred bucks a month",
+   "metric": "revenue",
+   "value": {
+    "amount": 300,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "loose estimate"
+   },
+   "period": "month",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "you want to make a few hundred bucks a month, go clone your voice on 11 Labs.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2633,
+    "approx_timestamp_s": 169
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "High-fidelity AI spokesperson ad pipeline",
+   "area": "product",
+   "steps": [
+    "Generate base image in ChatGPT",
+    "Expand the frame with Photoshop generative expand to leave room for text",
+    "Face-swap the target person onto the image",
+    "Record the script yourself with desired pauses, then convert via ElevenLabs voice-to-voice (not text-to-speech)",
+    "Feed image and audio into HeyGen Avatar 4",
+    "Add subtitles to draw attention away from mouth tells",
+    "Use podcast-style setting since studio-quality audio fits"
+   ],
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "everybody's just being lazy with 11 Labs because they are doing text to speech.",
+    "speaker": "Sam",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10844,
+    "approx_timestamp_s": 699
+   }
+  },
+  {
+   "name": "Test many ad hooks/headlines with AI video",
+   "area": "acquisition",
+   "steps": [
+    "Produce about 15 variations of hooks and headlines",
+    "Run them as ads and track booked-call cost",
+    "Keep the winners and measure show rate"
+   ],
+   "idea_local_id": "I3",
+   "quote": null
+  },
+  {
+   "name": "Billboard creative and placement testing",
+   "area": "acquisition",
+   "steps": [
+    "Run Facebook ads with 30 variations of billboard creative to a local non-follower audience for two days",
+    "Pick the winning headline ('get rich')",
+    "Book the billboard for three months",
+    "Track per-episode downloads in the area in a spreadsheet",
+    "Move to a better-visibility spot if there's no lift"
+   ],
+   "idea_local_id": "I6",
+   "quote": null
+  },
+  {
+   "name": "Publish first in other languages to protect content",
+   "area": "legal",
+   "steps": [
+    "Dub your content into target languages with ElevenLabs",
+    "Post it first so you can file copyright claims against copycats"
+   ],
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "if you post it first in that language, then you can.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3379,
+    "approx_timestamp_s": 217
+   }
+  },
+  {
+   "name": "Use less polished voices in ads",
+   "area": "product",
+   "steps": [
+    "Pick non-studio, everyday-sounding voices instead of deep announcer voices"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I don't want Morgan Freeman reading my ads.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2187,
+    "approx_timestamp_s": 140
+   }
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "ElevenLabs",
+   "purpose": "Voice cloning, voice-to-voice, dubbing, voice licensing",
+   "cost_stated": null
+  },
+  {
+   "name": "HeyGen (Avatar 4)",
+   "purpose": "AI avatar talking-head video",
+   "cost_stated": null
+  },
+  {
+   "name": "Kling AI (2.0)",
+   "purpose": "AI video generation",
+   "cost_stated": "most expensive, slowest, best"
+  },
+  {
+   "name": "ChatGPT",
+   "purpose": "Image generation and scripts",
+   "cost_stated": null
+  },
+  {
+   "name": "Photoshop",
+   "purpose": "Generative expand to reframe images",
+   "cost_stated": null
+  },
+  {
+   "name": "Flora Fauna AI",
+   "purpose": "Creative workflow tool using underlying video models",
+   "cost_stated": null
+  },
+  {
+   "name": "Icon.com",
+   "purpose": "AI ad campaign management on Meta",
+   "cost_stated": null
+  },
+  {
+   "name": "Makec.ai",
+   "purpose": "Out-of-the-box AI ad creative",
+   "cost_stated": null
+  },
+  {
+   "name": "Blip Billboards",
+   "purpose": "Digital billboard booking",
+   "cost_stated": null
+  },
+  {
+   "name": "Facebook Ads",
+   "purpose": "Paid acquisition and creative testing",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Out-of-the-box AI video tools have low hit rates and charge a premium; Sam went direct to underlying models.",
+   "quote": {
+    "text": "spending the money for 10 videos knowing only two of them are going to be good",
+    "speaker": "Sam",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20490,
+    "approx_timestamp_s": 1320
+   }
+  },
+  {
+   "warning": "Text-to-speech in ElevenLabs creates unnatural inflection; studio-quality audio in a selfie-style video is a tell.",
+   "quote": {
+    "text": "all of the AI voices are studio quality and so like when you're listening to like what is a fake selfie video and it's podcast quality audio it's a tell.",
+    "speaker": "Sam",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10373,
+    "approx_timestamp_s": 668
+   }
+  },
+  {
+   "warning": "Anyone can clone your voice from your published podcasts anyway.",
+   "quote": {
+    "text": "They just download all your podcasts, upload them all into 11 Labs, and clone your anyway.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3025,
+    "approx_timestamp_s": 194
+   }
+  },
+  {
+   "warning": "Facebook ads for podcasts fail mainly from cash conversion cycle and payback issues, not the channel itself.",
+   "quote": null
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Judge AI content tools by hit rate: what share of generated outputs is good enough to trust.",
+   "theme": "automation_ai",
+   "quote": {
+    "text": "you create 10 versions of something what percentage of them is good enough",
+    "speaker": "Sam",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 19824,
+    "approx_timestamp_s": 1277
+   }
+  },
+  {
+   "lesson": "Good enough to convert beats perfect: judge AI creative by ad performance, not nitpicks.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "Here's my barometer. They are converting on ads, right?",
+    "speaker": "Sam",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14676,
+    "approx_timestamp_s": 946
+   }
+  },
+  {
+   "lesson": "Unconventional channels (billboards) can beat Facebook ads on cost per download, but placement can swing results a lot.",
+   "theme": "customer_acquisition",
+   "quote": null
+  },
+  {
+   "lesson": "Business is a maths equation: understand people and track the right metrics (CAC, LTV, payback).",
+   "theme": "finance_unit_economics",
+   "quote": {
+    "text": "business is a ma like business is a math equation at the end of the day",
+    "speaker": "Sam",
+    "match_score": 91.5,
+    "verified": true,
+    "char_offset": 30454,
+    "approx_timestamp_s": 1963
+   }
+  },
+  {
+   "lesson": "Ads that look like they fail often fail because of cash conversion cycle, not the channel.",
+   "theme": "finance_unit_economics",
+   "quote": null
+  },
+  {
+   "lesson": "Do interesting public things: secondary benefits (community, audience) can justify a project that isn't itself very profitable.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "just do interesting things because you'll get the secondary benefit even if the thing independently isn't profitable.",
+    "speaker": "Sam",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 31492,
+    "approx_timestamp_s": 2030
+   }
+  },
+  {
+   "lesson": "Repetition matters in advertising, but frequent repeat viewers waste spend; consider frequency and unique reach.",
+   "theme": "customer_acquisition",
+   "quote": null
+  },
+  {
+   "lesson": "Test many creative variants (30 billboard designs) cheaply with ads before committing to expensive media.",
+   "theme": "validation_testing",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "C",
+  "rationale": "Conversational, with some first-hand numbers (billboard test, ad cost per call) but largely unverified, early results (ads launched the day before) and speculation about third-party earnings. The hummingbird business is not covered in this part.",
+  "promotional_conflict": "Sam runs Service Scalers and a paid community; Chris promotes his newsletter and podcast (tkopod.com)."
+ },
+ "extraction": {
+  "model": "claude-sonnet-5-5",
+  "extracted_at": "2026-10-22T05:01:29",
+  "cost_usd": 0.1474962,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 36,
+   "verified": 36,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

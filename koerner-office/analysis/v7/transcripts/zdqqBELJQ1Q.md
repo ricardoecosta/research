@@ -1,6 +1,6 @@
 # The 4 Best Rural Side Hustles for 2026
 
-- **Video:** [zdqqBELJQ1Q](https://www.youtube.com/watch?v=zdqqBELJQ1Q) · **Channel:** The Koerner Office · **Uploaded:** unknown · **Length:** 33 min · **Transcript:** ok
+- **Video:** [zdqqBELJQ1Q](https://www.youtube.com/watch?v=zdqqBELJQ1Q) · **Channel:** The Koerner Office · **Uploaded:** 2025-10-19 · **Length:** 33 min · **Transcript:** ok
 - **Speakers:** Chris Koerner (host), Kyler (co-host), Danny Rayburn (other), Leah (other) · **Format:** case_study_profile
 - **Evidence quality:** C — An entertaining stunt/challenge with small, real, on-camera numbers but no sustained business; the 'best side hustles' title is not delivered, and the smoker/tractor outcomes are deferred. Income extrapolations are hypothetical. · Promotional conflict: Promotes the TK Owners paid community; monetised through YouTube views.
 - **Extraction:** claude-sonnet-5-5 · quotes verified 20/20
