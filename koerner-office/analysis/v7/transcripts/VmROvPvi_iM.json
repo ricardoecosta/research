@@ -1,0 +1,2156 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "VmROvPvi_iM",
+  "title": "Start an Online Business With Just a Prompt",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=VmROvPvi_iM",
+  "upload_date": "2025-07-05",
+  "duration_s": 3317,
+  "view_count": 32148,
+  "transcript_provider": "ok",
+  "transcript_chars": 66397,
+  "transcript_is_whisper": false
+ },
+ "summary": "The Koerner Office host Chris Koerner interviews Bolt.new co-founder and CEO Eric Simons about the product, how customers use it, and how to build with AI coding tools. Simons describes Bolt as a browser-based tool for turning prompts into web and mobile apps, with payments and APIs, and shares examples including client dashboards, CRMs, course sites, and niche apps. He explains Bolt’s launch, organic growth, and prompting practices such as starting with the interface, then adding functionality in smaller steps. The key takeaway is that fast, low-cost software creation makes it easier to test ideas, but more complex products still require planning, debugging, and technical understanding.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Host of The Koerner Office."
+  },
+  {
+   "name": "Eric Simons",
+   "role": "guest",
+   "description": "Co-founder and CEO of Bolt.new."
+  }
+ ],
+ "format": "operator_interview",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Bolt.new AI app-building platform",
+   "one_liner": "An AI agent that turns ideas into web and mobile applications in a browser.",
+   "category": "saas_software",
+   "business_model": "Not stated.",
+   "customer": "Entrepreneurs, non-developers, developers, designers, product managers, sales and marketing teams, and existing businesses.",
+   "problem": "Building software has required coding knowledge and work to set up development environments, functionality, payments, and APIs.",
+   "offer": "A browser-based AI agent for building web and mobile applications, including websites, SaaS applications, APIs, and payment functionality.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [
+     {
+      "amount": 0,
+      "currency": "USD",
+      "unit": null,
+      "label": "Bolt can be tried for free, according to Eric."
+     }
+    ],
+    "notes": "The transcript does not state Bolt's regular pricing."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "organic_social_content",
+     "details": "The launch was announced with a carefully revised tweet thread and a demo video.",
+     "quote": {
+      "text": "We put together a tweet. Like that was I was hoping you'd say that.",
+      "speaker": "Eric Simons",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 21025,
+      "approx_timestamp_s": 1074
+     }
+    },
+    {
+     "channel": "existing_audience",
+     "details": "The team had built a community and a following on its account before the product launch."
+    },
+    {
+     "channel": "referrals_word_of_mouth",
+     "details": "Users shared apps they had built and deployed, which Eric described as the main way people still discover Bolt."
+    }
+   ],
+   "delivery": "The user enters a prompt in the browser. Bolt generates an application, which can be edited, deployed, and connected to payments and APIs. Mobile apps can be previewed on a device through Expo.",
+   "unit_economics_claims": [
+    "Eric says the company reached $700,000 in ARR with its earlier developer IDE after seven years.",
+    "Eric says Bolt went from zero to $20 million ARR in its first two months.",
+    "Before launch, the team hoped to add $100,000 ARR within a year.",
+    "Eric says the launch used zero dollars of paid marketing.",
+    "Eric says the project took about 90 days from development start to launch."
+   ],
+   "tools": [
+    "Bolt.new",
+    "StackBlitz",
+    "Stripe",
+    "Expo",
+    "React Native",
+    "X"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Eric says users could go from no website to accepting payments in five or ten minutes; time to the company's first revenue is not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Product demos, public posts, and users sharing deployed apps can bring in users with little routine manual work; people still create the launch content and maintain the community."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Users can start in the prompt box and generate an app without a human onboarding call."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "The software agent creates and deploys most of the product; users may need to guide it, check results, or debug."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Software subscription billing could be automated, but Bolt's billing process is not described."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "The team receives customer support emails and runs a Discord community; debugging and user questions can require people."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "A browser-based software product can serve UK users in the same way. No UK-specific regulatory dependency is discussed."
+   },
+   "risks": [
+    "Generated software can break or produce the wrong result; Eric describes debugging as a real part of building.",
+    "Complex, uncommon features such as real-time driver dispatch require planning and may exceed what a prompt alone can handle.",
+    "The growth and ARR figures are the founder's claims and are not independently verified."
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "the fastest way to take an idea and turn it into a real web or mobile application.",
+     "speaker": "Eric Simons",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 2149,
+     "approx_timestamp_s": 109
+    },
+    {
+     "text": "you can literally go from not even having a website to accepting payments on your app in like five or 10 minutes",
+     "speaker": "Eric Simons",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 3716,
+     "approx_timestamp_s": 189
+    },
+    {
+     "text": "the first two months we went from zero to 20 million of ARR which is insane",
+     "speaker": "Eric Simons",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 13876,
+     "approx_timestamp_s": 709
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Custom software and dashboard agency",
+   "one_liner": "Build custom web apps and reporting dashboards for clients using Bolt.",
+   "category": "agency",
+   "business_model": "Client project fees; a client dashboard was reportedly built for a $9,000 fee.",
+   "customer": "Businesses that need custom web applications or consolidated reporting dashboards.",
+   "problem": "Clients may need bespoke reporting or product interfaces that their existing software does not provide.",
+   "offer": "Consult on a client's needs and build a web application or dashboard that combines data through APIs.",
+   "pricing": {
+    "model": "Client project fee.",
+    "price_points": [
+     {
+      "amount": 9000,
+      "currency": "USD",
+      "unit": "per client project",
+      "label": "Reported fee for CJ's dashboard project."
+     }
+    ],
+    "notes": "The transcript does not give a general agency rate."
+   },
+   "acquisition_channels": [],
+   "delivery": "The agency consults with the client and builds a custom application with Bolt. The transcript does not describe the full delivery or support process.",
+   "unit_economics_claims": [
+    "CJ reportedly spent $9 on Bolt to build an application for a client and charged the client $9,000."
+   ],
+   "tools": [
+    "Bolt.new"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "The transcript gives no repeatable acquisition process; winning a custom client project likely requires human qualification and sales."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "An agent can collect routine project details, but scoping a bespoke dashboard requires human discussion and review."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Bolt can generate much of the application, but the agency must understand the client's reporting needs and check the result."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Invoices and payment reminders can use software, though no agency billing workflow is described."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Client questions and changes to a bespoke application require ongoing human judgement."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Custom web-app and dashboard services can be sold to UK businesses. No US-only dependency is described."
+   },
+   "risks": [
+    "A dashboard needs to show the right data and connect reliably to the client's systems.",
+    "Project scope, data access, and ongoing maintenance are not discussed."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "People will pay so much money for a dashboard that is simply just aggregating together data via APIs through an interface that you build with something like Bolt.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 35847,
+     "approx_timestamp_s": 1831
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Sell courses through an owned course website",
+   "one_liner": "Create a course website and sell courses directly through a site you own.",
+   "category": "digital_products",
+   "business_model": "Course sales through an owned website; the transcript does not state the course price.",
+   "customer": "Course creators and people selling educational content.",
+   "problem": "Hosted platforms can take a substantial share of course revenue, and setting up payments and logins can take time.",
+   "offer": "A course-selling website with payment and login functionality, built with Bolt.",
+   "pricing": {
+    "model": "Course sales; exact pricing model and price points are not stated.",
+    "price_points": [],
+    "notes": "The transcript discusses avoiding platform revenue cuts but does not give a course price."
+   },
+   "acquisition_channels": [],
+   "delivery": "The creator builds a website, adds course content, and sells access through the site. The transcript does not describe course fulfilment in detail.",
+   "unit_economics_claims": [
+    "Eric says hosted platforms may take 10%, 30%, or 50% of earnings.",
+    "Eric says his previous course business took a month or two to set up payment and login infrastructure.",
+    "Eric says his previous course business faced a 30% or 40% platform cut."
+   ],
+   "tools": [
+    "Bolt.new",
+    "Stripe"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated. Eric says setting up payment and login infrastructure for his previous course business took a month or two.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "A course site can accept inbound traffic, but no audience-building or sales process is described."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Payment and account creation can be automated, while course setup and content decisions remain with the creator."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "A website can deliver course materials and access automatically after purchase; the transcript does not describe the course's teaching or support."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Payments and access can be handled by software once configured."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Learner questions and course issues may need a human response; no support setup is stated."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Selling courses through an owned website works in the UK; local tax and consumer requirements would need to be handled."
+   },
+   "risks": [
+    "The creator still needs to produce useful course material and attract buyers.",
+    "The transcript does not discuss refunds, consumer terms, or course support."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "So instead of going to, you know, one of these other platforms, you can actually own all of your revenue and have your own site to do it",
+     "speaker": "Eric Simons",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 34063,
+     "approx_timestamp_s": 1740
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "AI-integrated CRM",
+   "one_liner": "Build and sell a CRM with AI features as a subscription application.",
+   "category": "saas_software",
+   "business_model": "Monthly subscriptions are mentioned for apps of this kind, but no CRM price is stated.",
+   "customer": "People who need a CRM; Eric says the builder was aiming at a general market and hoped others would want it.",
+   "problem": "The transcript does not specify a particular CRM pain point or target industry.",
+   "offer": "A CRM built with Bolt that has AI integrated into it.",
+   "pricing": {
+    "model": "Monthly subscription is mentioned generally for apps built with Bolt.",
+    "price_points": [],
+    "notes": "No CRM subscription price or terms are stated."
+   },
+   "acquisition_channels": [],
+   "delivery": "The CRM is built as a web application with Bolt and offered for users to sign up. Details of its AI features and operations are not stated.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Bolt.new"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "A subscription app can use inbound marketing, but the transcript gives no actual CRM acquisition process."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Account setup can be automated, but CRM configuration and migration may need user guidance."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "The software can deliver CRM features automatically; the transcript does not explain the AI or data workflows."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Recurring software billing can be automated once configured."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "CRM setup and data issues may need human support; no support model is stated."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "A CRM can serve UK customers, but handling personal data requires attention to UK data-protection requirements."
+   },
+   "risks": [
+    "The transcript does not identify a differentiated target market or specific customer problem.",
+    "CRM products handle customer data and may require careful security and privacy practices."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "built an entire CRM with bolt that had AI integrated into it and so you can literally industry specific.",
+     "speaker": "Eric Simons",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 34610,
+     "approx_timestamp_s": 1768
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "Emergency-services access app",
+   "one_liner": "Build an app to help people in South Africa find where to go for emergency medical services.",
+   "category": "saas_software",
+   "business_model": "Not stated.",
+   "customer": "People in South Africa who need emergency medical care.",
+   "problem": "Eric says people may lack reliable infrastructure or know-how for finding where to go for hospital care, including when they lack internet access.",
+   "offer": "An app intended to help users access emergency services and find where to go.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "An application is being built with Bolt. The transcript does not explain how emergency information is sourced or maintained.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Bolt.new"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "An app could be found through inbound channels, but no acquisition method is stated."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Basic app onboarding can be automated, though users may need clear guidance in stressful situations."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "The app can display information automatically, but the accuracy and currency of emergency-service information need human oversight."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "The transcript does not state whether the app charges users or how billing would work."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Users seeking emergency help may need human escalation; the transcript gives no support process."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "The need to find emergency care exists in the UK, but emergency-service routes, providers, and local information would need to be adapted."
+   },
+   "risks": [
+    "Incorrect or outdated emergency information could cause serious harm.",
+    "The transcript describes a South African need and gives no evidence of the app's accuracy or operation."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "there's an app that someone's building in South Africa for giving access to like emergency services down there",
+     "speaker": "Eric Simons",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 37251,
+     "approx_timestamp_s": 1903
+    }
+   ]
+  },
+  {
+   "local_id": "I6",
+   "name": "AI app for new mothers",
+   "one_liner": "An AI app that answers new parents' questions about feeding and sleep schedules.",
+   "category": "saas_software",
+   "business_model": "Not stated.",
+   "customer": "New mothers and parents of babies.",
+   "problem": "New parents have questions about feeding amounts and helping a baby develop a sleep schedule.",
+   "offer": "An AI app that answers questions about baby feeding and sleep.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "The app provides AI-generated answers to users' questions. The transcript does not describe its medical review or sources.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Bolt.new"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "The app could use inbound marketing, but no customer acquisition method is described."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "A user can likely enter questions in the app without manual onboarding; the transcript does not describe setup."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "AI can answer routine questions, but feeding and sleep guidance for babies needs careful human review and safe boundaries."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "No pricing or billing method is stated."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "A human escalation route is important for health-related questions, but the transcript does not describe one."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "New parents in the UK have similar questions, but health guidance and signposting would need to fit UK practice and services."
+   },
+   "risks": [
+    "Incorrect infant-feeding or sleep advice could harm a baby.",
+    "The transcript does not state how answers are reviewed, sourced, or escalated to healthcare professionals."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "built an AI app for new moms that helps you like, you know, you can ask it questions about, you know, what do you do?",
+     "speaker": "Eric Simons",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 41307,
+     "approx_timestamp_s": 2110
+    }
+   ]
+  },
+  {
+   "local_id": "I7",
+   "name": "Teleprompter app for iPad",
+   "one_liner": "Build a custom teleprompter app as an alternative to an unsatisfactory paid app.",
+   "category": "saas_software",
+   "business_model": "Not stated; the example was built for personal use and was not described as a business.",
+   "customer": "People recording videos who need a teleprompter on an iPad.",
+   "problem": "Chris says a teleprompter app he knew of cost $30 per month and did not work well on iPad.",
+   "offer": "A teleprompter app made with Bolt, described by Eric as better for his friend's use.",
+   "pricing": {
+    "model": "Not stated for the new app.",
+    "price_points": [
+     {
+      "amount": 30,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "Price Chris cited for the existing app."
+     }
+    ],
+    "notes": "The new app was described as a personal replacement, not a priced product."
+   },
+   "acquisition_channels": [],
+   "delivery": "A user prompted Bolt to make the app. The transcript does not describe app-store release or support.",
+   "unit_economics_claims": [
+    "Chris cited an existing teleprompter app priced at $30 per month.",
+    "Eric said the custom app cost about two cents to generate."
+   ],
+   "tools": [
+    "Bolt.new"
+   ],
+   "startup_cost": "Not stated; Eric said generating the app cost about two cents.",
+   "time_to_first_revenue": "Not stated; the transcript does not describe revenue from the app.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "A released app could be found through app stores, but no distribution or acquisition is described."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "A simple app can provide instructions in-product, but no onboarding was described."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "The app can display a script automatically once built; maintenance and device compatibility still need checking."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "The new app's billing model is not stated."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "App bugs and device issues can require a person; no support setup is described."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "An iPad teleprompter app has the same basic use in the UK."
+   },
+   "risks": [
+    "The transcript describes a personal replacement, not a validated product with paying customers.",
+    "Compatibility and distribution requirements for an iPad app are not discussed."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "I went to Bolt and just one shot said, \"Make me a teleprompter app.\" And it did and it's better",
+     "speaker": "Eric Simons",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 44725,
+     "approx_timestamp_s": 2285
+    }
+   ]
+  },
+  {
+   "local_id": "I8",
+   "name": "Sell digital materials directly",
+   "one_liner": "Sell materials or digital content directly through a platform the creator owns.",
+   "category": "digital_products",
+   "business_model": "Direct sales; exact payment model and prices are not stated.",
+   "customer": "People who want to buy digital materials or content from a creator.",
+   "problem": "Hosted tools may take a substantial cut of the creator's earnings.",
+   "offer": "A creator-owned site or platform for selling materials directly.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": "The transcript gives examples of platform cuts but no material prices."
+   },
+   "acquisition_channels": [],
+   "delivery": "The creator sells and provides access to materials through a platform built with Bolt. Details are not stated.",
+   "unit_economics_claims": [
+    "Eric says some hosted platforms may take 10%, 30%, or 50% of earnings."
+   ],
+   "tools": [
+    "Bolt.new"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "A sales site can receive inbound traffic, but the transcript gives no audience or acquisition process."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Checkout and digital access can be automated after the creator configures the product."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Digital files or materials can be delivered automatically, though content production remains human work."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Checkout and payment confirmation can be automated once configured."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Customer questions and access problems may need human support."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Digital materials can be sold to UK customers; the transcript gives no country-specific limitation."
+   },
+   "risks": [
+    "The creator must produce the materials and attract buyers.",
+    "The transcript does not discuss rights, refunds, or customer support."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "whether they're selling courses, whether they're selling, you know, materials or access to community or, you know, etc.",
+     "speaker": "Eric Simons",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 42900,
+     "approx_timestamp_s": 2192
+    }
+   ]
+  },
+  {
+   "local_id": "I9",
+   "name": "Paid online community",
+   "one_liner": "Sell access to a community through a creator-owned platform.",
+   "category": "digital_products",
+   "business_model": "Paid access; recurring or one-off pricing is not stated.",
+   "customer": "People who want access to a creator-led community.",
+   "problem": "Third-party tools may take a share of community revenue.",
+   "offer": "A platform that sells and grants access to a community.",
+   "pricing": {
+    "model": "Paid access; exact model not stated.",
+    "price_points": [],
+    "notes": "No community price is given."
+   },
+   "acquisition_channels": [],
+   "delivery": "A creator builds a platform and grants access to a community. The transcript does not describe moderation or operations.",
+   "unit_economics_claims": [
+    "Eric says some hosted platforms may take 10%, 30%, or 50% of earnings."
+   ],
+   "tools": [
+    "Bolt.new"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Community membership can use inbound content and referrals, but no acquisition process is stated."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Payment and access can be automated, but community expectations and setup need human decisions."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Software can provide access, but a useful community needs people to participate and moderate it."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Membership billing can be automated if configured as a subscription."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Member questions and moderation require human attention; no support system is described."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "A paid online community can be offered in the UK using the same basic model."
+   },
+   "risks": [
+    "A community needs ongoing participation and moderation.",
+    "The transcript does not describe member retention or the platform's rules."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "whether they're selling courses, whether they're selling, you know, materials or access to community or, you know, etc.",
+     "speaker": "Eric Simons",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 42900,
+     "approx_timestamp_s": 2192
+    }
+   ]
+  },
+  {
+   "local_id": "I10",
+   "name": "Clone and resell a niche software tool",
+   "one_liner": "Recreate a costly or cumbersome software tool, first for yourself and potentially for other customers.",
+   "category": "saas_software",
+   "business_model": "Potential resale of a software product; no price or sales terms are stated.",
+   "customer": "People or businesses paying for software that is more expensive or less useful than they need.",
+   "problem": "Some tools are costly, take a large revenue cut, or do not fit a user's needs.",
+   "offer": "A custom replacement built with Bolt, which might be resold to others.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": "The transcript presents this as a strategy, not a priced product."
+   },
+   "acquisition_channels": [],
+   "delivery": "Use Bolt to reproduce the needed software, customize it, and potentially sell it to others.",
+   "unit_economics_claims": [
+    "The transcript gives the teleprompter example of a replacement generated for about two cents and an existing app costing $30 per month."
+   ],
+   "tools": [
+    "Bolt.new"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "A niche software product can use inbound marketing or marketplaces, but no acquisition method is described."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Self-serve setup may work for simple tools, while customer migration and configuration may need help."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Software can deliver the core tool automatically, but the product needs testing, maintenance, and security review."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Software subscriptions or purchases can be billed automatically once set up."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Users may need help when the replacement breaks or lacks features."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "The general approach works in the UK, but a replacement must respect software licences, intellectual property, and data rules."
+   },
+   "risks": [
+    "A similar product may be protected by intellectual-property rights or contractual restrictions.",
+    "The replacement must be reliable enough to justify switching from an existing tool.",
+    "The transcript describes a personal-use example, not a validated resale business."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "Whatever software tool you use, replicate that in bolt. Worst case, you save money for yourself. Best case, you resell that to others.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 363,
+     "approx_timestamp_s": 18
+    }
+   ]
+  },
+  {
+   "local_id": "I11",
+   "name": "AI data-pipeline startup",
+   "one_liner": "Build a startup application for AI data pipelines using Bolt.",
+   "category": "saas_software",
+   "business_model": "Not stated.",
+   "customer": "Not stated.",
+   "problem": "The transcript only says the startup works around AI data pipelines.",
+   "offer": "An application for AI data pipelines; specific functionality is not stated.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "The startup used Bolt to build its application. The transcript does not explain product delivery.",
+   "unit_economics_claims": [
+    "Eric says the YC startup Denormaliz had raised a couple of million dollars.",
+    "Eric says some products launched by scaleups and Fortune 500 companies are responsible for tens of millions of dollars in annual revenue; no specific company or product is identified."
+   ],
+   "tools": [
+    "Bolt.new",
+    "Y Combinator"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "No customer acquisition method is stated; a technical B2B product may require human sales and onboarding."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "The transcript gives no onboarding detail; data-pipeline setup can require customer-specific work."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Software can run pipeline functions, but the product's actual technical and operational requirements are not described."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "No pricing or billing model is stated."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Technical data products may need human troubleshooting; the transcript does not describe support."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "An AI data-pipeline product could serve UK businesses, but the specific product, data use, and compliance needs are not described."
+   },
+   "risks": [
+    "The transcript provides little detail to assess the startup's product, customers, or business model.",
+    "The fundraising and revenue examples are reported by Eric and are not independently verified."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "there's a YC startup called Denormaliz that used us to build their application and they're doing stuff around AI data pipelines etc",
+     "speaker": "Eric Simons",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 45714,
+     "approx_timestamp_s": 2335
+    }
+   ]
+  },
+  {
+   "local_id": "I12",
+   "name": "Developer browser IDE",
+   "one_liner": "A browser-based development environment for developers to build web applications.",
+   "category": "saas_software",
+   "business_model": "Not stated.",
+   "customer": "Developers.",
+   "problem": "The transcript does not state a specific customer problem.",
+   "offer": "A browser-based IDE and development environment; it was the company's product before Bolt.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "A browser-based developer environment. Eric says the company had worked on the technology for seven years before launching Bolt.",
+   "unit_economics_claims": [
+    "Eric says the company had reached $700,000 ARR after seven years and was considering winding down before Bolt launched."
+   ],
+   "tools": [
+    "StackBlitz"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "The transcript does not describe how the earlier IDE found developers."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "A browser product can provide self-serve setup, but no onboarding details are given."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "The product provides a software development environment in the browser."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "The billing model is not stated."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "The transcript does not describe support for the earlier product."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "A developer IDE can serve UK users in the same way."
+   },
+   "risks": [
+    "The company nearly wound down after seven years with the earlier developer-focused product.",
+    "The transcript gives no pricing, customer count, or acquisition details for the IDE."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "we'd gotten the company to 700,000 of ARR and so Bolt was the last experiment we ran",
+     "speaker": "Eric Simons",
+     "match_score": 97.6,
+     "verified": true,
+     "char_offset": 13618,
+     "approx_timestamp_s": 695
+    }
+   ]
+  },
+  {
+   "local_id": "I13",
+   "name": "Website contracting",
+   "one_liner": "Build websites for clients as a technical contracting service.",
+   "category": "b2b_service",
+   "business_model": "Hourly contracting; Eric says he and his co-founder earned about $50 per hour.",
+   "customer": "Not stated.",
+   "problem": "Not stated.",
+   "offer": "Website-building contracting work.",
+   "pricing": {
+    "model": "Hourly rate.",
+    "price_points": [
+     {
+      "amount": 50,
+      "currency": "USD",
+      "unit": "per hour",
+      "label": "Rate Eric says he and his co-founder earned."
+     }
+    ],
+    "notes": "No client type or project scope is stated."
+   },
+   "acquisition_channels": [],
+   "delivery": "Eric and his co-founder built websites for clients. The transcript does not describe their workflow.",
+   "unit_economics_claims": [
+    "Eric says he and his co-founder were making about $50 per hour from website contracting."
+   ],
+   "tools": [],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "The transcript does not say how they found clients; contracting sales and scoping are likely human-led."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "Website requirements and client communication need human input."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "AI can help produce websites, but the transcript's contracting work was delivered by the founders."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Hourly tracking and invoicing can use software, though no billing system is stated."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Client changes and troubleshooting need human attention."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Website contracting is a location-independent service that can be offered in the UK."
+   },
+   "risks": [
+    "The transcript gives no information about how clients were acquired or whether the hourly rate covered all costs."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "we were already making like 50 bucks an hour doing website contracting work or whatever",
+     "speaker": "Eric Simons",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 6764,
+     "approx_timestamp_s": 345
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Bolt went from zero to $20 million in ARR during its first two months.",
+   "metric": "arr",
+   "value": {
+    "amount": 20000000,
+    "currency": "USD",
+    "unit": "ARR"
+   },
+   "period": "First two months after Bolt launched.",
+   "claimant": "Eric Simons",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "the first two months we went from zero to 20 million of ARR which is insane",
+    "speaker": "Eric Simons",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13876,
+    "approx_timestamp_s": 709
+   }
+  },
+  {
+   "claim": "The host also says Bolt went from zero to $20 million in annual recurring revenue in its first two months.",
+   "metric": "arr",
+   "value": {
+    "amount": 20000000,
+    "currency": "USD",
+    "unit": "ARR"
+   },
+   "period": "First two months after Bolt launched.",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "They went from zero to $20 million in annual recurring revenue in their first two months because people like me are building really cool things on top of it.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1668,
+    "approx_timestamp_s": 85
+   }
+  },
+  {
+   "claim": "Before Bolt, the company had reached $700,000 ARR after seven years.",
+   "metric": "arr",
+   "value": {
+    "amount": 700000,
+    "currency": "USD",
+    "unit": "ARR"
+   },
+   "period": "After seven years.",
+   "claimant": "Eric Simons",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I12",
+   "quote": {
+    "text": "we gotten the company to 700,000 of ARR and so Bolt was the last experiment we ran",
+    "speaker": "Eric Simons",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13620,
+    "approx_timestamp_s": 695
+   }
+  },
+  {
+   "claim": "The team's pre-launch hope was to add $100,000 ARR within a year.",
+   "metric": "arr",
+   "value": {
+    "amount": 100000,
+    "currency": "USD",
+    "unit": "ARR"
+   },
+   "period": "Within a year of launch.",
+   "claimant": "Eric Simons",
+   "first_hand": true,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "our expectations when we launched Bolt is that we were like this would be incredible if we added 100K of ARR right by like within a year",
+    "speaker": "Eric Simons",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20309,
+    "approx_timestamp_s": 1037
+   }
+  },
+  {
+   "claim": "CJ reportedly spent $9 on Bolt to build an application for a client.",
+   "metric": "cost",
+   "value": {
+    "amount": 9,
+    "currency": "USD",
+    "unit": "one-off app build cost"
+   },
+   "period": null,
+   "claimant": "CJ, as reported by Eric Simons",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "it cost me nine bucks on Vault to do this.",
+    "speaker": "Eric Simons",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 33255,
+    "approx_timestamp_s": 1699
+   }
+  },
+  {
+   "claim": "CJ reportedly charged his client $9,000 for the application.",
+   "metric": "sale_price",
+   "value": {
+    "amount": 9000,
+    "currency": "USD",
+    "unit": "per client project"
+   },
+   "period": null,
+   "claimant": "CJ, as reported by Eric Simons",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "and then someone asked the question I was going to ask had they not which is how much did you build a client? He was like $9,000.",
+    "speaker": "Eric Simons",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 33349,
+    "approx_timestamp_s": 1704
+   }
+  },
+  {
+   "claim": "Eric and his co-founder were earning about $50 per hour from website contracting.",
+   "metric": "revenue",
+   "value": {
+    "amount": 50,
+    "currency": "USD",
+    "unit": "per hour"
+   },
+   "period": null,
+   "claimant": "Eric Simons",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I13",
+   "quote": {
+    "text": "we were already making like 50 bucks an hour doing website contracting work or whatever",
+    "speaker": "Eric Simons",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6764,
+    "approx_timestamp_s": 345
+   }
+  },
+  {
+   "claim": "Eric says in-state college would have cost about $100,000 for four years.",
+   "metric": "cost",
+   "value": {
+    "amount": 100000,
+    "currency": "USD",
+    "unit": "four years of in-state college"
+   },
+   "period": "Four years.",
+   "claimant": "Eric Simons",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": null,
+   "quote": {
+    "text": "it was going to be like 100 grand instate for four years and we're like this doesn't make any sense",
+    "speaker": "Eric Simons",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6596,
+    "approx_timestamp_s": 337
+   }
+  },
+  {
+   "claim": "The host says some hosted platforms take 10%, 30%, or 50% of earnings.",
+   "metric": "margin",
+   "value": {
+    "amount": 10,
+    "amount_max": 50,
+    "currency": null,
+    "unit": "percent of earnings",
+    "label": "Eric lists 10%, 30%, or 50% as examples."
+   },
+   "period": null,
+   "claimant": "Eric Simons",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "you can actually own all of your revenue and have your own site to do it, etc. instead of giving a 10 or 30 or 50% cut or whatever it is",
+    "speaker": "Eric Simons",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 34124,
+    "approx_timestamp_s": 1743
+   }
+  },
+  {
+   "claim": "Eric says his previous course business faced a 30% or 40% platform cut.",
+   "metric": "margin",
+   "value": {
+    "amount": 30,
+    "amount_max": 40,
+    "currency": null,
+    "unit": "percent of earnings",
+    "label": "Platform cut described as 30% or 40%."
+   },
+   "period": null,
+   "claimant": "Eric Simons",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "we're bootstrapping. We a 30 or 40% cut is brutal. Like, we got to pay rent.",
+    "speaker": "Eric Simons",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 43722,
+    "approx_timestamp_s": 2234
+   }
+  },
+  {
+   "claim": "Eric says setting up payments and login for his previous course business took a month or two.",
+   "metric": "other",
+   "value": {
+    "amount": 1,
+    "amount_max": 2,
+    "currency": null,
+    "unit": "months",
+    "label": "A month or two."
+   },
+   "period": null,
+   "claimant": "Eric Simons",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "it took you know him and I like a month or two to get just the infrastructure set up with payments and login",
+    "speaker": "Eric Simons",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 43466,
+    "approx_timestamp_s": 2220
+   }
+  },
+  {
+   "claim": "Chris cites an existing teleprompter app costing $30 per month.",
+   "metric": "price",
+   "value": {
+    "amount": 30,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "you've been using this app that's like 30 bucks a month and it sucks on the iPad.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 44637,
+    "approx_timestamp_s": 2280
+   }
+  },
+  {
+   "claim": "Eric says his teleprompter app generation cost him about two cents.",
+   "metric": "cost",
+   "value": {
+    "amount": 0.02,
+    "currency": "USD",
+    "unit": "one-off generation cost"
+   },
+   "period": null,
+   "claimant": "Eric Simons",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "it, you know, cost basically, you know, two cents or something to me.",
+    "speaker": "Eric Simons",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 44821,
+    "approx_timestamp_s": 2290
+   }
+  },
+  {
+   "claim": "Eric says Bolt's hackathon had more than 100,000 participants.",
+   "metric": "customers",
+   "value": {
+    "amount": 100000,
+    "currency": null,
+    "unit": "participants",
+    "label": "More than 100,000."
+   },
+   "period": "During the hackathon.",
+   "claimant": "Eric Simons",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "we have over 100,000 people that are participating in this at this point.",
+    "speaker": "Eric Simons",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 36311,
+    "approx_timestamp_s": 1855
+   }
+  },
+  {
+   "claim": "Eric says the hackathon crossed a prior world-record participation count of 66,000.",
+   "metric": "customers",
+   "value": {
+    "amount": 66000,
+    "currency": null,
+    "unit": "participants",
+    "label": "Prior world-record count cited."
+   },
+   "period": null,
+   "claimant": "Eric Simons",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "We crossed the world record which was like 66,000. Guinness is like officially going to market",
+    "speaker": "Eric Simons",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 36384,
+    "approx_timestamp_s": 1859
+   }
+  },
+  {
+   "claim": "Eric says the hackathon offered over a million dollars in prizes.",
+   "metric": "other",
+   "value": {
+    "amount": 1000000,
+    "currency": "USD",
+    "unit": "prize pool",
+    "label": "Over a million dollars."
+   },
+   "period": null,
+   "claimant": "Eric Simons",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "over a million dollars in prizes. You do not need to be technical.",
+    "speaker": "Eric Simons",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 36960,
+    "approx_timestamp_s": 1888
+   }
+  },
+  {
+   "claim": "Eric says the Bolt account had about 20,000 followers when the product launched.",
+   "metric": "traffic",
+   "value": {
+    "amount": 20000,
+    "currency": null,
+    "unit": "followers"
+   },
+   "period": "At launch.",
+   "claimant": "Eric Simons",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I don't maybe 20,000 people were following our account or whatever at the time.",
+    "speaker": "Eric Simons",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21574,
+    "approx_timestamp_s": 1102
+   }
+  },
+  {
+   "claim": "Eric says Bolt used zero dollars of paid marketing for its launch.",
+   "metric": "cost",
+   "value": {
+    "amount": 0,
+    "currency": "USD",
+    "unit": "paid launch marketing"
+   },
+   "period": "At launch.",
+   "claimant": "Eric Simons",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "there's no paid acquisition. Like there's zero zero dollars, you know, on the marketing for the launch of the thing.",
+    "speaker": "Eric Simons",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24468,
+    "approx_timestamp_s": 1250
+   }
+  },
+  {
+   "claim": "Eric says Bolt's development began in July and launched in October, which he describes as 90 days.",
+   "metric": "other",
+   "value": {
+    "amount": 90,
+    "currency": null,
+    "unit": "days"
+   },
+   "period": "Development start to launch.",
+   "claimant": "Eric Simons",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "we started Bolt's development in July and we launched it in October. So there's 90 days",
+    "speaker": "Eric Simons",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 54273,
+    "approx_timestamp_s": 2773
+   }
+  },
+  {
+   "claim": "Eric says users can go from no website to accepting payments in five or ten minutes.",
+   "metric": "other",
+   "value": {
+    "amount": 5,
+    "amount_max": 10,
+    "currency": null,
+    "unit": "minutes",
+    "label": "Five or ten minutes."
+   },
+   "period": null,
+   "claimant": "Eric Simons",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "you can literally go from not even having a website to accepting payments on your app in like five or 10 minutes",
+    "speaker": "Eric Simons",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3716,
+    "approx_timestamp_s": 189
+   }
+  },
+  {
+   "claim": "Eric says discussion-mode messages cost about one-tenth of a normal agent message.",
+   "metric": "cost",
+   "value": {
+    "amount": 0.1,
+    "currency": null,
+    "unit": "of a normal agent message price"
+   },
+   "period": null,
+   "claimant": "Eric Simons",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "every message of discussion mode takes like onetenth of the price of a normal agent message right",
+    "speaker": "Eric Simons",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 53273,
+    "approx_timestamp_s": 2722
+   }
+  },
+  {
+   "claim": "Eric says the Airbnb-inspired website demo took about 90 seconds.",
+   "metric": "hours",
+   "value": {
+    "amount": 90,
+    "currency": null,
+    "unit": "seconds"
+   },
+   "period": null,
+   "claimant": "Eric Simons",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Yeah. You know, obviously when pulled the exact color scheme, this is like, you know, took exact inspiration, you know, from for those listening, it looks like Airbnb.",
+    "speaker": "Eric Simons",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 53674,
+    "approx_timestamp_s": 2742
+   }
+  },
+  {
+   "claim": "The host says people can lose 80% of potential readers if a link is put in the first comment.",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 80,
+    "currency": null,
+    "unit": "percent of people",
+    "label": "Host's estimate of people lost."
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Like you lose 80% of people if you put the link in even the first comment.",
+    "speaker": "Chris Koerner",
+    "match_score": 93.1,
+    "verified": true,
+    "char_offset": 30740,
+    "approx_timestamp_s": 1570
+   }
+  },
+  {
+   "claim": "Eric says the company had spent seven years building its earlier product.",
+   "metric": "other",
+   "value": {
+    "amount": 7,
+    "currency": null,
+    "unit": "years"
+   },
+   "period": "Before Bolt launched.",
+   "claimant": "Eric Simons",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I12",
+   "quote": {
+    "text": "because we've been around for seven years we gotten the company to 700,000 of ARR",
+    "speaker": "Eric Simons",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13578,
+    "approx_timestamp_s": 693
+   }
+  },
+  {
+   "claim": "Eric says the YC startup Denormaliz had raised a couple of million dollars.",
+   "metric": "other",
+   "value": {
+    "amount": null,
+    "currency": "USD",
+    "unit": "funding raised",
+    "label": "A couple of million dollars."
+   },
+   "period": "By the interview.",
+   "claimant": "Eric Simons",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I11",
+   "quote": {
+    "text": "they're doing stuff around AI data pipelines etc and they've raised a couple million dollars at this point",
+    "speaker": "Eric Simons",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 45797,
+    "approx_timestamp_s": 2340
+   }
+  },
+  {
+   "claim": "Eric says some products launched by scaleups and Fortune 500 companies are responsible for tens of millions of dollars in annual revenue.",
+   "metric": "revenue",
+   "value": {
+    "amount": null,
+    "currency": "USD",
+    "unit": "per year",
+    "label": "Tens of millions of dollars; no exact amount stated."
+   },
+   "period": "Per year.",
+   "claimant": "Eric Simons",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I11",
+   "quote": {
+    "text": "existing scaleups and fortune 500s they're like you know launching new products out of this thing that are you know doing responsible for tens of millions of dollars in revenue per year sort of thing.",
+    "speaker": "Eric Simons",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 46472,
+    "approx_timestamp_s": 2374
+   }
+  },
+  {
+   "claim": "Chris says his tweet's first post took a dozen or two revisions.",
+   "metric": "other",
+   "value": {
+    "amount": 12,
+    "amount_max": 24,
+    "currency": null,
+    "unit": "revisions",
+    "label": "A dozen or two revisions."
+   },
+   "period": "Before launch.",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "It took like maybe a dozen or two revisions just for the first tweet to get it to where we were like within 280 characters",
+    "speaker": "Eric Simons",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 26363,
+    "approx_timestamp_s": 1347
+   }
+  },
+  {
+   "claim": "Chris says he has two college degrees.",
+   "metric": "other",
+   "value": {
+    "amount": 2,
+    "currency": null,
+    "unit": "college degrees"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "I've got two college degrees. I've never used either one of them.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7824,
+    "approx_timestamp_s": 399
+   }
+  },
+  {
+   "claim": "Chris says he could have bought Bitcoin at five cents.",
+   "metric": "price",
+   "value": {
+    "amount": 0.05,
+    "currency": "USD",
+    "unit": "per Bitcoin"
+   },
+   "period": "Hypothetical past purchase.",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": null,
+   "quote": {
+    "text": "I could have bought Bitcoin at 5 cents, you know?",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8322,
+    "approx_timestamp_s": 425
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Launch with a clear tweet-thread FAQ",
+   "area": "acquisition",
+   "steps": [
+    "Write a concise explanation of what the product is, why it is different, and which problem it solves.",
+    "Lead with a short demo and a hook that answers the first question prospective users are likely to ask.",
+    "Put supporting detail in later posts in the thread so interested readers can keep going.",
+    "Talk to friends and prospective customers to find their first objections before writing the launch message.",
+    "Revise the lead post until every phrase earns its place."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "the first tweet is the thing that needs to grab people's attention and be like, \"Hey, this is a thing that sounds dope and is relevant and it's something you would want, right?\"",
+    "speaker": "Eric Simons",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 27248,
+    "approx_timestamp_s": 1392
+   }
+  },
+  {
+   "name": "Build community before the product that works",
+   "area": "customer_acquisition",
+   "steps": [
+    "Build an audience around the company while developing and testing products.",
+    "Keep the community so it can help distribute a future launch that finds a strong fit.",
+    "Use the audience to seed the first users; then let users share what they built."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "when you're building like a startup, you should always be building community around it because you never know which of your iterations is going to be the one that clicks.",
+    "speaker": "Eric Simons",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21209,
+    "approx_timestamp_s": 1083
+   }
+  },
+  {
+   "name": "Make the first product experience easy to share",
+   "area": "product",
+   "steps": [
+    "Let new users start directly in the product instead of making them work through a long marketing page.",
+    "Make it quick to produce and deploy something users can show other people.",
+    "Encourage users to share their live result through their existing channels."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "And so, people would deploy that URL. They' be like, \"Wow, I have a website live on the internet.\"",
+    "speaker": "Eric Simons",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24079,
+    "approx_timestamp_s": 1230
+   }
+  },
+  {
+   "name": "Build the interface before layering on complex functionality",
+   "area": "product",
+   "steps": [
+    "Start with a relatively simple prompt for the main page and static parts.",
+    "Adjust the layout, colours, and user experience until the general flow is right.",
+    "Add functionality in separate prompts so each change is easier to inspect or roll back.",
+    "Use discussion mode to plan a difficult feature or debug issue before asking the agent to change code."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "start with like something, you know, relatively simple like you start with like the homepage and start with maybe some of the, you know, just static parts of the application",
+    "speaker": "Eric Simons",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 47681,
+    "approx_timestamp_s": 2436
+   }
+  },
+  {
+   "name": "Use references and broad prompts for design",
+   "area": "product",
+   "steps": [
+    "Give the agent a concrete visual reference by attaching a screenshot.",
+    "Describe the desired theme or outcome in plain language.",
+    "For non-specialist design work, let the model propose an initial version rather than specifying every detail."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "if you have specific examples, you can actually just take screenshots, drop them into the chat, and it'll use that as reference then",
+    "speaker": "Eric Simons",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 50642,
+    "approx_timestamp_s": 2587
+   }
+  },
+  {
+   "name": "Plan and test when the agent gets stuck",
+   "area": "operations",
+   "steps": [
+    "Use discussion mode to work through a debugging problem rather than repeatedly asking the build agent to guess.",
+    "Provide the information the agent asks for and test proposed explanations.",
+    "Use logs and codebase instrumentation when the problem persists.",
+    "Break down complicated features, discuss trade-offs, and clarify the intended user experience before implementation."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "it'll actually start instrumenting the codebase if things are still going wrong it'll start adding logs and etc",
+    "speaker": "Eric Simons",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 52995,
+    "approx_timestamp_s": 2707
+   }
+  },
+  {
+   "name": "Test a business idea and iterate quickly",
+   "area": "validation_testing",
+   "steps": [
+    "Use software generation to launch an initial version.",
+    "Get feedback from users as soon as possible.",
+    "Iterate based on what users actually do and say."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "you want to just be able to go and launch things, get feedback as fast as possible and iterate and adapt.",
+    "speaker": "Eric Simons",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5529,
+    "approx_timestamp_s": 282
+   }
+  },
+  {
+   "name": "Clone an expensive or awkward tool for a real need",
+   "area": "product",
+   "steps": [
+    "Look at software you already use that costs more or takes a bigger percentage cut than you think it should.",
+    "Try rebuilding the needed workflow for your own use.",
+    "If the replacement works for you, consider reselling it to others with the same need."
+   ],
+   "idea_local_id": "I10",
+   "quote": {
+    "text": "Whatever software tool you use, replicate that in bolt. Worst case, you save money for yourself. Best case, you resell that to others.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 363,
+    "approx_timestamp_s": 18
+   }
+  },
+  {
+   "name": "Sell digital content on an owned site",
+   "area": "pricing",
+   "steps": [
+    "Compare the revenue share of hosted platforms with selling from a site you own.",
+    "Build a course or content site with payments and user logins.",
+    "Sell course or material access directly through that site."
+   ],
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "previous company I ran before this was you know we were selling courses online kind of like proite and for my co-founder I was just him and I",
+    "speaker": "Eric Simons",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 43269,
+    "approx_timestamp_s": 2210
+   }
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Bolt.new",
+   "purpose": "AI app-building platform discussed in the interview.",
+   "cost_stated": "Eric says it can be tried for free; CJ reportedly spent $9 on a client app, and Eric says his teleprompter app generation cost about two cents. Regular pricing is not stated."
+  },
+  {
+   "name": "StackBlitz",
+   "purpose": "Company behind Bolt; also associated with the earlier browser-based developer environment.",
+   "cost_stated": null
+  },
+  {
+   "name": "Cursor",
+   "purpose": "Named as a vibe-coding app.",
+   "cost_stated": null
+  },
+  {
+   "name": "Replit",
+   "purpose": "Named as a vibe-coding app.",
+   "cost_stated": null
+  },
+  {
+   "name": "Lovable",
+   "purpose": "Named as a vibe-coding app.",
+   "cost_stated": null
+  },
+  {
+   "name": "Windsurf",
+   "purpose": "Named as a vibe-coding app.",
+   "cost_stated": null
+  },
+  {
+   "name": "Vercel",
+   "purpose": "Named in the comparison of AI app-building products.",
+   "cost_stated": null
+  },
+  {
+   "name": "ChatGPT",
+   "purpose": "Used for generating code snippets and discussed as a coding tool.",
+   "cost_stated": null
+  },
+  {
+   "name": "Claude",
+   "purpose": "Named among AI development products used as a comparison in the launch tweet.",
+   "cost_stated": null
+  },
+  {
+   "name": "v0",
+   "purpose": "Named among AI development products used as a comparison in the launch tweet.",
+   "cost_stated": null
+  },
+  {
+   "name": "OpenAI",
+   "purpose": "Its models were tested for code generation.",
+   "cost_stated": null
+  },
+  {
+   "name": "Anthropic Sonnet 3.5",
+   "purpose": "Model whose improved code generation prompted the team to restart and launch Bolt.",
+   "cost_stated": null
+  },
+  {
+   "name": "Stripe",
+   "purpose": "Payment service referenced for course websites and users' own accounts.",
+   "cost_stated": null
+  },
+  {
+   "name": "GitHub",
+   "purpose": "A place the host says he exported a repository to while debugging.",
+   "cost_stated": null
+  },
+  {
+   "name": "Expo",
+   "purpose": "Integration used to build and preview native mobile apps.",
+   "cost_stated": null
+  },
+  {
+   "name": "React Native",
+   "purpose": "Framework referenced for building mobile apps through Bolt's Expo integration.",
+   "cost_stated": null
+  },
+  {
+   "name": "X (Twitter)",
+   "purpose": "Used for the launch announcement, sharing deployed apps, and finding the founders.",
+   "cost_stated": null
+  },
+  {
+   "name": "iMessage",
+   "purpose": "Example channel users used to share their deployed apps.",
+   "cost_stated": null
+  },
+  {
+   "name": "Google Docs",
+   "purpose": "Referenced through the docs.new shortcut as an example of a domain that starts an action.",
+   "cost_stated": null
+  },
+  {
+   "name": "Canva",
+   "purpose": "Used as a comparison for making full-stack apps as easy to start as a browser-based design product.",
+   "cost_stated": null
+  },
+  {
+   "name": "Figma",
+   "purpose": "Used as a comparison for making full-stack apps as easy to start as a browser-based design product.",
+   "cost_stated": null
+  },
+  {
+   "name": "Discord",
+   "purpose": "Community where Bolt users can get help.",
+   "cost_stated": null
+  },
+  {
+   "name": "Airbnb",
+   "purpose": "Visual design reference used in the course-site demo.",
+   "cost_stated": null
+  },
+  {
+   "name": "Spotify",
+   "purpose": "Example prompt for a native mobile app clone.",
+   "cost_stated": null
+  },
+  {
+   "name": "WhatsApp",
+   "purpose": "Example of a complex app idea involving encrypted chat.",
+   "cost_stated": null
+  },
+  {
+   "name": "Uber",
+   "purpose": "Example of a complex app involving GPS and dispatching algorithms.",
+   "cost_stated": null
+  },
+  {
+   "name": "Y Combinator",
+   "purpose": "Referenced as the accelerator for a startup built using Bolt.",
+   "cost_stated": null
+  },
+  {
+   "name": "Guinness World Records",
+   "purpose": "Referenced in connection with the Bolt hackathon's participation record.",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "AI-generated apps can break or produce poor results. The guest says early code-generation models did not work reliably and describes debugging as a normal part of using the tool.",
+   "quote": {
+    "text": "you would tell it to build something. It would just break. It was ugly. What would come out?",
+    "speaker": "Eric Simons",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 19185,
+    "approx_timestamp_s": 980
+   }
+  },
+  {
+   "warning": "Do not pile many complex changes into one prompt if you need fine control; separate tasks make changes easier to roll back.",
+   "quote": {
+    "text": "you don't want to like completely jam a ton of stuff, you know, into the chat just because you might end up with results that are hard to roll back",
+    "speaker": "Eric Simons",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 48829,
+    "approx_timestamp_s": 2495
+   }
+  },
+  {
+   "warning": "Complex products with uncommon functionality, real-time systems, or sophisticated algorithms require planning and may be difficult to build with a prompt alone.",
+   "quote": {
+    "text": "Now you're dealing with real-time systems where you have to have, you know, servers that are doing sophisticated algorithms that you have to invent",
+    "speaker": "Eric Simons",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 61200,
+    "approx_timestamp_s": 3127
+   }
+  },
+  {
+   "warning": "Do not add AI features just because the market is doing so; Eric says many additions in the hype cycle did not add value.",
+   "quote": {
+    "text": "They and they didn't make any sense for a lot of these. There's like AI AI like a classic hype bubble thing.",
+    "speaker": "Eric Simons",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17235,
+    "approx_timestamp_s": 880
+   }
+  },
+  {
+   "warning": "Apps giving advice about baby feeding or sleep need safeguards and suitable expert review; the transcript does not describe any.",
+   "quote": {
+    "text": "built an AI app for new moms that helps you like, you know, you can ask it questions about, you know, what do you do?",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 41307,
+    "approx_timestamp_s": 2110
+   }
+  },
+  {
+   "warning": "Emergency-service information must be reliable and current; the transcript does not explain how the South African app verifies it.",
+   "quote": {
+    "text": "there's an app that someone's building in South Africa for giving access to like emergency services down there",
+    "speaker": "Eric Simons",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 37251,
+    "approx_timestamp_s": 1903
+   }
+  },
+  {
+   "warning": "Bolt's ARR and customer examples are founder or host claims; the transcript does not provide independent verification."
+  },
+  {
+   "warning": "Chris recommends that creators consider placing a link in the main post, but his claim about losing 80% of readers by putting it in a comment is not substantiated in the transcript."
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Treat entrepreneurship as repeated cycles of launching, getting feedback, and iterating; more attempts can accelerate learning.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "you want to just be able to go and launch things, get feedback as fast as possible and iterate and adapt.",
+    "speaker": "Eric Simons",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5529,
+    "approx_timestamp_s": 282
+   }
+  },
+  {
+   "lesson": "Start with a customer problem and a clear reason the product should exist; ask prospective users what they would question.",
+   "theme": "offer_design",
+   "quote": {
+    "text": "you have to talk to people to kind of get a sense of like what is that? What's the first thing people are going to ask you?",
+    "speaker": "Eric Simons",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 28516,
+    "approx_timestamp_s": 1457
+   }
+  },
+  {
+   "lesson": "A concise launch message should explain the product's difference and value, with the most useful hook up front.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "having, you know, a very wellthoughtout hook and explanation of, you know, what this thing is, why it deserves to exist, why it's going to solve your problems.",
+    "speaker": "Eric Simons",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 29065,
+    "approx_timestamp_s": 1485
+   }
+  },
+  {
+   "lesson": "Build a community before you know which product iteration will succeed, so there is an audience ready to hear about it.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "you should always be building community around it because you never know which of your iterations is going to be the one that clicks.",
+    "speaker": "Eric Simons",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21245,
+    "approx_timestamp_s": 1085
+   }
+  },
+  {
+   "lesson": "For many products, launch a useful version and improve it from real feedback instead of waiting for every feature to be polished.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "If the value you're providing is actually insanely great, which it should be, like that's the that's what you have to do, right?",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 54709,
+    "approx_timestamp_s": 2795
+   }
+  },
+  {
+   "lesson": "Solve a problem you understand or are curious about; the guest says his strongest work came from a real need he wanted to address.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "the best things that I've ever done in my career have always been things where it's been like intrinsically I'm like this would be kind of cool.",
+    "speaker": "Eric Simons",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 19933,
+    "approx_timestamp_s": 1018
+   }
+  },
+  {
+   "lesson": "Keep technical knowledge where it helps you guide agents and understand how services fit together, especially as projects become more complex.",
+   "theme": "automation_ai",
+   "quote": {
+    "text": "understanding how this how software works, how to build software gives you just so much more leverage on how to actually control and use AI tools and agents",
+    "speaker": "Eric Simons",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12203,
+    "approx_timestamp_s": 623
+   }
+  },
+  {
+   "lesson": "Use discussion and planning for complex functionality; software projects need a clear design for how the product should work.",
+   "theme": "operations",
+   "quote": {
+    "text": "you have to do a lot of planning to kind of really think through okay how is this going to work what's the actual you know intended you know experience we're delivering here",
+    "speaker": "Eric Simons",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 62514,
+    "approx_timestamp_s": 3194
+   }
+  },
+  {
+   "lesson": "Focus effort on the core customer value; design polish is useful, but it should match the reason the product will win.",
+   "theme": "offer_design",
+   "quote": {
+    "text": "you should be just be focusing on solving the end user's problems, you know.",
+    "speaker": "Eric Simons",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 55643,
+    "approx_timestamp_s": 2843
+   }
+  },
+  {
+   "lesson": "Making software easier to build can help people closest to a problem test solutions without needing to be experienced developers.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "it connects people that are directly exposed and feeling the problem to with the tools to actually solve it",
+    "speaker": "Eric Simons",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 41882,
+    "approx_timestamp_s": 2140
+   }
+  }
+ ],
+ "evidence_quality": {
+  "rating": "B",
+  "rationale": "The guest is the founder describing his own company, product decisions, launch process, and user examples, with specific figures and operating details. The ARR, customer, and user-business claims are not independently verified, and some examples are second-hand or lack detail.",
+  "promotional_conflict": "Chris Koerner says he is an affiliate for Bolt and asks viewers to use his link. He also promotes his paid TK Owners community during the interview. Eric says Bolt did not pay him for the interview."
+ },
+ "extraction": {
+  "model": "gpt-6-luna",
+  "extracted_at": "2026-10-22T10:49:24",
+  "cost_usd": 0,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 70,
+   "verified": 70,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

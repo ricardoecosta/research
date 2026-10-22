@@ -1,0 +1,646 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "YyXiP_8_lo8",
+  "title": "Decisions API Full Tutorial for Beginners: How to Use & Set up Decisions API",
+  "channel": "Mikey No Code",
+  "url": "https://www.youtube.com/watch?v=YyXiP_8_lo8",
+  "upload_date": "2026-10-12",
+  "duration_s": 1252,
+  "view_count": 16525,
+  "transcript_provider": "cached",
+  "transcript_chars": 20065,
+  "transcript_is_whisper": false
+ },
+ "summary": "This is a beginner tutorial for OpenAI’s Decisions API, which returns probabilities for text and image decisions instead of generating a written response. The host demonstrates predicate checks, urgency scores and category choices using hypothetical bakery messages and product photos. The examples show how software could sort and prioritize requests, while routing uncertain cases to a person. The tutorial also promotes the host’s master class, but does not describe a validated standalone business built around these examples.",
+ "speakers": [
+  {
+   "name": "Mikey No Code",
+   "role": "host",
+   "description": "Tutorial host; a personal name is not stated."
+  }
+ ],
+ "format": "tutorial_howto",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Bakery delivery-issue message detection",
+   "one_liner": "Use a predicate check to identify bakery messages that describe delivery problems.",
+   "category": "ai_automation",
+   "business_model": "not stated; the transcript presents this as an illustrative workflow, not a commercial offer.",
+   "customer": "A bakery receiving customer messages.",
+   "problem": "Staff may need to read each message to determine whether it describes a delivery problem.",
+   "offer": "Evaluate each message against a clear statement about delivery problems and return a probability that the condition is true. An application can use a threshold to flag messages.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "No customer-facing price is given. The Decisions API input cost is stated separately as a provider usage cost."
+   },
+   "acquisition_channels": [],
+   "delivery": "The Decisions API evaluates text and returns a probability. The application would need to apply a threshold and flag messages; the tutorial does not show a production integration.",
+   "unit_economics_claims": [
+    "The tutorial states a general input cost for the Decisions API; it gives no per-bakery revenue or operating margin."
+   ],
+   "tools": [
+    "OpenAI Decisions API",
+    "OpenAI Decisions playground"
+   ],
+   "startup_cost": "API usage cost stated as USD 0.10 per 1,000,000 input tokens; other setup costs not stated.",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "No customer acquisition process is described; finding bakery customers would require founder-led work unless an inbound channel were built."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "A person would need to define and configure a clear predicate and threshold; the playground can help with experiments."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "After integration, software can score each message and flag those over the chosen threshold; uncertain or consequential cases can go to a person."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "No customer billing flow is described. API usage is metered by input tokens, but customer invoicing would need a separate setup."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "People may need to review uncertain classifications and handle exceptions; no support process is described."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "The workflow is not tied to a US-specific market. A UK bakery could use it, subject to appropriate handling of customer message data, which the tutorial does not cover."
+   },
+   "risks": [
+    "A probability does not itself trigger an action; the application needs a suitable threshold.",
+    "A poorly chosen threshold could miss delivery complaints or flag ordinary messages.",
+    "The tutorial does not demonstrate a deployed bakery integration or measured results."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "whether a customer is reporting a delivery problem, whether a message contains spam or whether someone actually needs urgent assistance.",
+     "speaker": "Mikey No Code",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 6752,
+     "approx_timestamp_s": 431
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Bakery customer-message urgency scoring",
+   "one_liner": "Score bakery messages by urgency so staff can prioritize replies.",
+   "category": "ai_automation",
+   "business_model": "not stated; the transcript presents this as an illustrative workflow, not a commercial offer.",
+   "customer": "A bakery handling customer messages and requests.",
+   "problem": "Messages differ in urgency, but staff may otherwise treat them equally or need to read each one to prioritize it.",
+   "offer": "Score messages against ordered urgency levels. The example uses level zero for items that can wait, level one for replies due today and level two for issues needing a response now.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "No customer-facing price is given. The Decisions API input cost is stated separately as a provider usage cost."
+   },
+   "acquisition_channels": [],
+   "delivery": "The API returns probabilities for the urgency levels and a probability-weighted score. An application could prioritize messages based on the score; the tutorial does not show a production integration.",
+   "unit_economics_claims": [
+    "The tutorial states a general input cost for the Decisions API; it gives no per-bakery revenue or operating margin."
+   ],
+   "tools": [
+    "OpenAI Decisions API",
+    "OpenAI Decisions playground"
+   ],
+   "startup_cost": "API usage cost stated as USD 0.10 per 1,000,000 input tokens; other setup costs not stated.",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "No customer acquisition process is described; finding bakery customers would require founder-led work unless an inbound channel were built."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "A person would need to define and configure ordered levels and descriptions; the playground can help with experiments."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "After integration, software can score and sort messages. People can review uncertain cases or messages where a wrong priority could have serious consequences."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "No customer billing flow is described. API usage is metered by input tokens, but customer invoicing would need a separate setup."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "People may need to review uncertain scores and tune urgency definitions; no support process is described."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "The workflow is not tied to a US-specific market. A UK bakery could use it, subject to appropriate handling of customer message data, which the tutorial does not cover."
+   },
+   "risks": [
+    "The result is a weighted score and may fall between the configured levels.",
+    "Poorly described urgency levels could lead to inconsistent priorities.",
+    "Thresholds should reflect the consequences of a missed or delayed response."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "It's useful when we need to say measure how urgent, severe or important something is rather than just simply checking whether a condition has been met or not.",
+     "speaker": "Mikey No Code",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 10144,
+     "approx_timestamp_s": 648
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Bakery customer-message category routing",
+   "one_liner": "Classify bakery messages as new orders, order changes, complaints or general questions.",
+   "category": "ai_automation",
+   "business_model": "not stated; the transcript presents this as an illustrative workflow, not a commercial offer.",
+   "customer": "A bakery receiving customer requests throughout the day.",
+   "problem": "Staff may need to read and sort each message to identify what the customer wants.",
+   "offer": "Use a choice decision to select one category from a provided list and return probabilities for the options. The example categories are new order, change in order, complaint and general question.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "No customer-facing price is given. The Decisions API input cost is stated separately as a provider usage cost."
+   },
+   "acquisition_channels": [],
+   "delivery": "The API selects a category and returns probabilities. An application could route the request; the tutorial does not show a production integration. Vague messages may be sent for human review.",
+   "unit_economics_claims": [
+    "The tutorial states a general input cost for the Decisions API; it gives no per-bakery revenue or operating margin."
+   ],
+   "tools": [
+    "OpenAI Decisions API",
+    "OpenAI Decisions playground"
+   ],
+   "startup_cost": "API usage cost stated as USD 0.10 per 1,000,000 input tokens; other setup costs not stated.",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "No customer acquisition process is described; finding bakery customers would require founder-led work unless an inbound channel were built."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "A person would need to define the categories and configure the choice prompt; the playground can help test examples."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "After integration, software can classify and route clear messages. People can review cases where probabilities are spread across categories."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "No customer billing flow is described. API usage is metered by input tokens, but customer invoicing would need a separate setup."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "People may need to resolve ambiguous messages and adjust categories; no support process is described."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "The workflow is not tied to a US-specific market. A UK bakery could use it, subject to appropriate handling of customer message data, which the tutorial does not cover."
+   },
+   "risks": [
+    "Overlapping categories can split probabilities and make routing harder to interpret.",
+    "Vague messages may not have one dominant category and may need human review.",
+    "The tutorial does not show how category decisions are connected to a live order system."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "Rather, it selects exactly one option from a list that we define, making it useful for sorting messages or routing requests into categories that don't have a particular order.",
+     "speaker": "Mikey No Code",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 13818,
+     "approx_timestamp_s": 883
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "Bakery product-photo classification",
+   "one_liner": "Classify bakery product photos as bread, pastry, cake, cookie or something else.",
+   "category": "ai_automation",
+   "business_model": "not stated; the transcript presents this as an illustrative workflow, not a commercial offer.",
+   "customer": "An online bakery handling product photos, customer uploads or images of damaged orders.",
+   "problem": "Someone may otherwise have to review and organize uploaded images manually.",
+   "offer": "Use a choice decision on an image to select the closest product category. Include a something-else option for images outside the categories.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "No customer-facing price is given. The Decisions API input cost is stated separately as a provider usage cost."
+   },
+   "acquisition_channels": [],
+   "delivery": "The API evaluates the image and returns probabilities for the categories. An application could use the result to organize or route the image; the tutorial tests examples in the playground but does not show a production integration.",
+   "unit_economics_claims": [
+    "The tutorial states a general input cost for the Decisions API; it gives no per-bakery revenue or operating margin."
+   ],
+   "tools": [
+    "OpenAI Decisions API",
+    "OpenAI Decisions playground"
+   ],
+   "startup_cost": "API usage cost stated as USD 0.10 per 1,000,000 input tokens; other setup costs not stated.",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "No customer acquisition process is described; finding bakery customers would require founder-led work unless an inbound channel were built."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "A person would need to define the image categories and configure the prompt; the playground can help test examples."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "After integration, software can classify images. People may need to review uncertain images or cases where image quality makes classification difficult."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "No customer billing flow is described. API usage is metered by input tokens, but customer invoicing would need a separate setup."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "People may need to review uncertain or unexpected images and update categories; no support process is described."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "The workflow is not tied to a US-specific market. A UK bakery could use it, subject to appropriate handling of customer-uploaded images and any personal data, which the tutorial does not cover."
+   },
+   "risks": [
+    "The model may be uncertain or misclassify an image.",
+    "A something-else option helps avoid forcing every image into a known product category, but does not guarantee correct classification.",
+    "The tutorial does not show results from a live image workflow."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "And the good thing is that the API works with images as well as text. And all three question types support image inputs.",
+     "speaker": "Mikey No Code",
+     "match_score": 94.9,
+     "verified": true,
+     "char_offset": 16333,
+     "approx_timestamp_s": 1044
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "The Decisions API costs 10 cents per million input tokens and charges for input only.",
+   "metric": "cost",
+   "value": {
+    "amount": 0.1,
+    "currency": "USD",
+    "unit": "per 1,000,000 input tokens",
+    "label": "API input cost"
+   },
+   "period": null,
+   "claimant": "Mikey No Code, describing OpenAI API pricing",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "The API cost 10 cents per million input tokens, and you're only charged for the input.",
+    "speaker": "Mikey No Code",
+    "match_score": 92.9,
+    "verified": true,
+    "char_offset": 3629,
+    "approx_timestamp_s": 232
+   }
+  },
+  {
+   "claim": "OpenAI says the Decisions API is around 10 times faster than the Responses API.",
+   "metric": "other",
+   "value": {
+    "amount": 10,
+    "currency": null,
+    "unit": "times faster",
+    "label": "relative speed claim"
+   },
+   "period": null,
+   "claimant": "Mikey No Code, attributing the claim to OpenAI",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "And according to OpenAI, this makes it around 10 times faster.",
+    "speaker": "Mikey No Code",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2916,
+    "approx_timestamp_s": 186
+   }
+  },
+  {
+   "claim": "The host's master class normally costs $499 to join.",
+   "metric": "price",
+   "value": {
+    "amount": 499,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": "usual master class price"
+   },
+   "period": null,
+   "claimant": "Mikey No Code",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "Now, my master class normally costs $499 to join, but since you are watching this video, you can join completely free.",
+    "speaker": "Mikey No Code",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1775,
+    "approx_timestamp_s": 113
+   }
+  },
+  {
+   "claim": "The host offers viewers of the video free access to his master class.",
+   "metric": "price",
+   "value": {
+    "amount": 0,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": "promotional viewer price"
+   },
+   "period": "for viewers of this video, as stated",
+   "claimant": "Mikey No Code",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "but since you are watching this video, you can join completely free. I appreciate you and your time.",
+    "speaker": "Mikey No Code",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1822,
+    "approx_timestamp_s": 116
+   }
+  },
+  {
+   "claim": "An example predicate threshold could be set at 80% to flag delivery issues.",
+   "metric": "other",
+   "value": {
+    "amount": 80,
+    "currency": null,
+    "unit": "percent probability threshold",
+    "label": "illustrative flag threshold"
+   },
+   "period": null,
+   "claimant": "Mikey No Code",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So for example, we could set that threshold at say 80%, meaning messages that receive a probability of 80% or higher would then be flagged as delivery issues.",
+    "speaker": "Mikey No Code",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8795,
+    "approx_timestamp_s": 562
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Test a one-condition predicate and set a consequence-aware threshold",
+   "area": "product",
+   "steps": [
+    "Write the predicate as a clear statement rather than a question.",
+    "Test it on one message that clearly matches and another that clearly does not.",
+    "Choose a threshold for the action; the host gives 80% as an example for flagging delivery issues.",
+    "Use a lower threshold when a person will review the flag and a higher threshold when a mistake could have bigger consequences."
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Define urgency levels with descriptions",
+   "area": "operations",
+   "steps": [
+    "Create ordered levels from low to high urgency.",
+    "Describe what qualifies for each level instead of relying on names alone.",
+    "The example uses level zero for items that can wait, level one for replies due today and level two for responses needed now.",
+    "Use the returned score and probabilities to prioritize messages, with people reviewing uncertain cases."
+   ],
+   "idea_local_id": "I2",
+   "quote": null
+  },
+  {
+   "name": "Keep routing categories distinct",
+   "area": "product",
+   "steps": [
+    "List the possible customer intents, such as new order, change in order, complaint and general question.",
+    "Make each option distinct to reduce overlap.",
+    "Inspect the probabilities: a dominant option suggests a clearer classification, while spread probabilities may call for human review."
+   ],
+   "idea_local_id": "I3",
+   "quote": null
+  },
+  {
+   "name": "Add a fallback category and test unexpected images",
+   "area": "product",
+   "steps": [
+    "Define image categories such as bread, pastry, cake and cookie.",
+    "Add a something-else option for images that do not fit.",
+    "Test both expected products and an unrelated image, as the host does with a croissant, a sourdough loaf and a pizza.",
+    "Review probabilities to spot uncertain classifications."
+   ],
+   "idea_local_id": "I4",
+   "quote": null
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "OpenAI Decisions API",
+   "purpose": "Evaluates text, images or both against predicates, ordered levels or choices and returns probabilities.",
+   "cost_stated": "USD 0.10 per 1,000,000 input tokens; input only, as stated by the host."
+  },
+  {
+   "name": "OpenAI Responses API",
+   "purpose": "Compared with the Decisions API as an API that generates text.",
+   "cost_stated": null
+  },
+  {
+   "name": "GPT6 Luna",
+   "purpose": "The single model the host says the Decisions API currently runs on.",
+   "cost_stated": null
+  },
+  {
+   "name": "OpenAI Decisions playground",
+   "purpose": "Used to configure and test decisions without writing code.",
+   "cost_stated": null
+  },
+  {
+   "name": "platform.openai.com/decisions",
+   "purpose": "The address the host gives for opening the Decisions playground.",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "The host says the Decisions API is in public beta and that some details may change.",
+   "quote": {
+    "text": "The decisions API is currently in public beta, so some details may still change.",
+    "speaker": "Mikey No Code",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3842,
+    "approx_timestamp_s": 245
+   }
+  },
+  {
+   "warning": "A returned probability does not decide the application's next action by itself; the application needs a threshold.",
+   "quote": {
+    "text": "An application still does need a sort of threshold to determine when to take action.",
+    "speaker": "Mikey No Code",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8711,
+    "approx_timestamp_s": 557
+   }
+  },
+  {
+   "warning": "Overlapping choice categories can spread probabilities across answers and make results harder to interpret.",
+   "quote": {
+    "text": "Overlapping categories can split the probabilities between multiple answers, making then the result just harder to interpret.",
+    "speaker": "Mikey No Code",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14404,
+    "approx_timestamp_s": 921
+   }
+  },
+  {
+   "warning": "The tutorial promotes the host's master class, stating a usual price of $499 and offering viewers free access.",
+   "quote": {
+    "text": "Now, my master class normally costs $499 to join, but since you are watching this video, you can join completely free.",
+    "speaker": "Mikey No Code",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1775,
+    "approx_timestamp_s": 113
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Use a probability output when software needs a decision it can act on, rather than generating text that someone must inspect.",
+   "theme": "automation_ai",
+   "quote": {
+    "text": "Instead of asking AI to write something and then digging through the response yourself to find the actually useful part, it just hands your software a probability it can act on immediately.",
+    "speaker": "Mikey No Code",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 789,
+    "approx_timestamp_s": 50
+   }
+  },
+  {
+   "lesson": "Write predicates as clear statements about one condition, then test them against examples where the condition is both met and not met.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "predicate prompts should be written as clear statements, not questions, and should focus on one condition at a time.",
+    "speaker": "Mikey No Code",
+    "match_score": 94.7,
+    "verified": true,
+    "char_offset": 7193,
+    "approx_timestamp_s": 459
+   }
+  },
+  {
+   "lesson": "Set action thresholds according to the consequences of a false positive or false negative.",
+   "theme": "operations",
+   "quote": {
+    "text": "The appropriate threshold also depends on what happens afterward.",
+    "speaker": "Mikey No Code",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8949,
+    "approx_timestamp_s": 572
+   }
+  },
+  {
+   "lesson": "Describe each level in an ordered score so the model has context for what qualifies as urgent.",
+   "theme": "offer_design",
+   "quote": {
+    "text": "The descriptions are particularly important here because they help the model distinguish between the levels.",
+    "speaker": "Mikey No Code",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11035,
+    "approx_timestamp_s": 705
+   }
+  },
+  {
+   "lesson": "Keep choice options distinct so probabilities are easier to interpret.",
+   "theme": "other",
+   "quote": {
+    "text": "one thing to keep in mind when setting up these options is to make them as distinct as possible.",
+    "speaker": "Mikey No Code",
+    "match_score": 93.7,
+    "verified": true,
+    "char_offset": 14307,
+    "approx_timestamp_s": 914
+   }
+  },
+  {
+   "lesson": "Route unclear or low-confidence cases to a person instead of forcing automatic handling.",
+   "theme": "automation_ai",
+   "quote": {
+    "text": "A clear message will usually have one dominant option, while a vague message might have probabilities spread across several categories.",
+    "speaker": "Mikey No Code",
+    "match_score": 95.5,
+    "verified": true,
+    "char_offset": 15408,
+    "approx_timestamp_s": 985
+   }
+  },
+  {
+   "lesson": "Give classifiers an option for inputs that do not fit the known categories.",
+   "theme": "other",
+   "quote": {
+    "text": "And that last option is particularly important because it gives the model a way to classify images that don't belong in any of our bakery categories",
+    "speaker": "Mikey No Code",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16923,
+    "approx_timestamp_s": 1082
+   }
+  }
+ ],
+ "evidence_quality": {
+  "rating": "C",
+  "rationale": "This is a promotional tutorial with hypothetical bakery examples, not a first-hand business case study. It explains configuration steps but gives no customer, revenue or deployment results. API performance and pricing are attributed to OpenAI rather than demonstrated independently.",
+  "promotional_conflict": "The host promotes his master class, says it normally costs $499 and offers viewers free access."
+ },
+ "extraction": {
+  "model": "gpt-6-luna",
+  "extracted_at": "2026-10-22T10:54:14",
+  "cost_usd": 0,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 20,
+   "verified": 20,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

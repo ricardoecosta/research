@@ -1,0 +1,2012 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "WpZE-vfLHuA",
+  "title": "I Asked 5 AI Tools to Make Me Rich. Then THIS Happened…",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=WpZE-vfLHuA",
+  "upload_date": "2025-08-10",
+  "duration_s": 2453,
+  "view_count": 141082,
+  "transcript_provider": "ok",
+  "transcript_chars": 38085,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner compares ChatGPT 5, Claude Opus 4.1, Grok 4 and Gemini 2.5 Pro on business-building prompts, then tests three models with real options trades. The models suggest several consulting offers, including paid ads, AI implementation, custom GPTs and no-code automation, but Koerner does not test those businesses with customers. He prefers Claude’s practical consultant plan and Gemini’s detailed automation plan, while criticizing Gemini’s length and ChatGPT’s brevity. In the trading segment, he reports a net $187 profit from three trades, while stressing that the result is a one-day sample and not investment advice.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Host of The Koerner Office; narrates the tests and reads or summarizes AI outputs."
+  }
+ ],
+ "format": "tool_review",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Paid ads consulting for local service businesses",
+   "one_liner": "Set up and optimize basic Facebook or Google ad campaigns for local service businesses.",
+   "category": "agency",
+   "business_model": "Hourly consulting or ad setup and optimization; Grok also suggests an hourly initial offer.",
+   "customer": "Local service businesses; Grok suggests targeting businesses found through Google Maps.",
+   "problem": "The plan frames the result as generating measurable leads; the transcript does not specify a more detailed customer problem.",
+   "offer": "Learn basic campaign setup and optimization, then offer an ad setup or optimization service.",
+   "pricing": {
+    "model": "Hourly consulting; exact package structure not stated.",
+    "price_points": [
+     {
+      "amount": 100,
+      "currency": "USD",
+      "unit": "per hour",
+      "label": "Initial offer for ad setup and optimization"
+     }
+    ],
+    "notes": "This is Grok's suggested price, not a tested sale."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "google_business_profile_maps",
+     "details": "Grok suggests building a target list with Google Maps.",
+     "quote": null
+    },
+    {
+     "channel": "door_to_door_in_person",
+     "details": "Grok recommends door-to-door outreach and supplies a script. This requires a person in the field.",
+     "quote": null
+    }
+   ],
+   "delivery": "The founder would learn basic Facebook and Google campaign setup, then set up or optimize ads for a client. Grok suggests Google Skillshop, Facebook Blueprint and tutorials as learning resources; delivery was not tested.",
+   "unit_economics_claims": [
+    "Grok proposes an initial price of $100 per hour for ad setup and optimization."
+   ],
+   "tools": [
+    "Google Maps",
+    "Google Skillshop",
+    "Facebook Blueprint",
+    "YouTube",
+    "Google Sheets",
+    "Facebook ads",
+    "Google ads"
+   ],
+   "startup_cost": "Not stated; the $500 figure is the prompt's available budget, not a stated startup cost.",
+   "time_to_first_revenue": "The plan schedules outreach and closing for day 3 of a 72-hour exercise; no sale was made or reported.",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "A software agent could build a prospect list, but the described door-to-door selling is in person and needs a human. Any digital outreach would need to follow UK marketing rules."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Forms and scheduling could collect account details, but a human would need to confirm access, budget and goals."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Software can help with campaign setup and reporting, but planning and optimizing ads for a client's business need human review."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Invoicing and recurring payment collection could be automated after the service and billing terms are set."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Agents could answer routine questions from campaign reports, but a human should handle budget and performance decisions."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "The service and ad platforms can be used in the UK, with local market and campaign adjustments. Door-to-door sales still require a person; UK marketing outreach must follow PECR and call-screening rules."
+   },
+   "risks": [
+    "The plan's learning and closing timeline is ambitious and no paying client or campaign result is demonstrated.",
+    "The proposed outreach volume and scripts do not establish that prospects will convert.",
+    "In the UK, unsolicited marketing messages to individuals and sole traders require consent; cold email to limited companies is allowed, and cold calls must be screened against TPS/CTPS."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "It's selected digital marketing, consulting, specializing in paid ads for local service businesses.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 6243,
+     "approx_timestamp_s": 417
+    },
+    {
+     "text": "Initial offer. $100 an hour for ad setup optimization. Delivers measurable leads.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 6922,
+     "approx_timestamp_s": 463
+    },
+    {
+     "text": "If no client by hour 70, extend research research shows 200 touches yield one to two wins.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 7401,
+     "approx_timestamp_s": 495
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "AI implementation consulting for local service businesses",
+   "one_liner": "Help local service businesses implement AI tools and workflows, with contractor-focused positioning.",
+   "category": "ai_automation",
+   "business_model": "Consulting with proposed hourly, fixed-package and monthly-retainer pricing.",
+   "customer": "Local service businesses, especially contractors. Claude frames the founder as an AI implementation consultant who speaks contractors' language.",
+   "problem": "The plan implies contractors could save time and money with AI; specific operational problems are not detailed.",
+   "offer": "Implement AI for contractors, build working demos, and sell a small initial project. Claude suggests free beta setups, case studies, association talks and a showcase contractor partner as credibility tactics.",
+   "pricing": {
+    "model": "Hourly consulting, fixed-price packages and monthly retainer.",
+    "price_points": [
+     {
+      "amount": 100,
+      "currency": "USD",
+      "unit": "per hour",
+      "label": "Hourly consulting target"
+     },
+     {
+      "amount": 500,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "Starter package"
+     },
+     {
+      "amount": 2000,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "Transformation package"
+     },
+     {
+      "amount": 1000,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "Monthly retainer"
+     },
+     {
+      "amount": 0,
+      "currency": "USD",
+      "unit": "per setup",
+      "label": "Proposed free beta setup for three businesses"
+     }
+    ],
+    "notes": "These are Claude's suggested prices and offer terms, not validated sales."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Claude recommends digital outreach and a free value offer. The transcript does not specify the outreach platform or message type.",
+     "quote": {
+      "text": "Claude wants me to start doing outreach on day one, which I love.",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 226,
+      "approx_timestamp_s": 15
+     }
+    },
+    {
+     "channel": "partnerships",
+     "details": "Partner with an established contractor as a showcase client.",
+     "quote": {
+      "text": "The partner power move. Partner with one established contractor as your showcase client.",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 10240,
+      "approx_timestamp_s": 685
+     }
+    },
+    {
+     "channel": "networking_events",
+     "details": "Offer to speak at a local PHCC plumbing, heating and cooling contractors meeting about AI.",
+     "quote": {
+      "text": "Offer to speak at local PHCC plumbing, heating, cooling contractors meeting about AI.",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 10061,
+      "approx_timestamp_s": 673
+     }
+    },
+    {
+     "channel": "referrals_word_of_mouth",
+     "details": "After landing a first client, Claude recommends asking for referrals and a success story.",
+     "quote": null
+    }
+   ],
+   "delivery": "The founder would learn AI tools, create demos and implement systems for contractors. Claude suggests free trials of Zapier, Make, Voiceflow or Botpress and Cal.com, then industry-specific research and demo building. No client delivery is shown.",
+   "unit_economics_claims": [
+    "Claude proposes a $500 starter package, a $2,000 transformation package and a $1,000 monthly retainer.",
+    "Claude proposes three free setups in exchange for video testimonials."
+   ],
+   "tools": [
+    "Zapier",
+    "Make",
+    "Voiceflow",
+    "Botpress",
+    "Cal.com",
+    "ServiceTitan",
+    "Housecall Pro",
+    "Facebook groups",
+    "Carrd.co",
+    "Google Business Profile"
+   ],
+   "startup_cost": "Not stated; Claude recommends using free trials and free tools, but gives no total cost.",
+   "time_to_first_revenue": "Claude's checklist targets a first paying client by day 3; this was a proposed milestone, not an achieved result.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Agents could research companies and prepare outreach, but the unspecified outreach channels need legal review and contractor partnerships or event speaking require human involvement."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Forms, scheduling and data collection can be automated, with a human confirming the client's workflow and access."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Agents can draft workflows and configure some integrations, but client-specific implementation and testing need human oversight."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "A billing system could invoice fixed packages and collect retainers automatically once terms are agreed."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Agents can handle routine how-to support; a human should resolve broken workflows and consequential business issues."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "The consulting offer can transfer to UK contractors, though the suggested DFW framing and PHCC route need local equivalents. UK outbound must respect PECR; cold calls must be screened against TPS/CTPS."
+   },
+   "risks": [
+    "The plan proposes fictional but realistic case studies; presenting fictional examples as real client results would mislead prospects. Use clearly labelled demos instead.",
+    "The 72-hour targets for contacts, demos and a paying client are AI-generated targets, not proven conversion rates.",
+    "Avoid promising savings or outcomes that have not been measured.",
+    "Unsolicited marketing messages to UK individuals and sole traders require consent; cold email to limited companies is allowed, and cold calls must be screened against TPS/CTPS."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "Your niche AI implementation consultant for local service businesses.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 7616,
+     "approx_timestamp_s": 509
+    },
+    {
+     "text": "These are four credibility shortcuts that he gave me that I really, really like.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 9856,
+     "approx_timestamp_s": 659
+    },
+    {
+     "text": "Don't overpromise. Don't talk tech. Talk time and money saved.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 10346,
+     "approx_timestamp_s": 692
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Custom GPTs for small local businesses",
+   "one_liner": "Create and sell custom GPTs or AI assistants for small businesses.",
+   "category": "ai_automation",
+   "business_model": "One-off custom assistant creation; pricing and ongoing fees are not stated.",
+   "customer": "The AI suggestion names realtors, therapists, coffee shops and other local businesses.",
+   "problem": "The transcript does not establish a general customer need. Koerner speculates that a business chatbot might answer simple questions such as operating hours, and questions whether every small business needs its own GPT.",
+   "offer": "Launch a custom AI assistant for a business within 72 hours; ChatGPT's idea is described as creating and selling custom GPTs.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": "No price is given."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "ChatGPT provides an outreach template and a client acquisition plan, but the transcript does not identify the channel.",
+     "quote": null
+    }
+   ],
+   "delivery": "The founder would create a custom GPT using information supplied by a client. The transcript does not describe the setup steps, maintenance or a completed customer deployment.",
+   "unit_economics_claims": [
+    "ChatGPT claims there were 3 million published GPTs by January 2024; Koerner says the source quality did not satisfy him."
+   ],
+   "tools": [
+    "ChatGPT",
+    "Custom GPTs"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "The suggested launch target is 72 hours; time to a first sale is not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Agents could research prospects and draft materials, but the suggested outreach channel is unspecified and still requires compliant targeting and human sales judgment."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "A form could collect business details and FAQs, with a human checking that the supplied information is accurate."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Software can create and host a GPT, but prompts, source information and answers need client-specific testing."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "A checkout and automated delivery process could handle fixed-price builds, but no price or billing system is described."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "An agent could answer basic usage questions, but incorrect business information or unexpected answers need human review."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "The concept could serve UK businesses, but demand is unproven and the named customer examples are not UK-specific. The host explicitly questions whether many small businesses need a custom GPT."
+   },
+   "risks": [
+    "The host questions whether a coffee shop or other small business would pay for a custom GPT and compares the idea to past claims that every business needed an app.",
+    "The host says the cited GPT publication figure used sources he did not trust.",
+    "A client-facing assistant could provide incorrect business information unless it is tested and maintained."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "The niche Chad recommends for me is create and sell custom GPTs. Many chat GPTs for small local businesses.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 11633,
+     "approx_timestamp_s": 778
+    },
+    {
+     "text": "So GPTs hit 3 million published by January 2024. Small Biz demand is soaring.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 13147,
+     "approx_timestamp_s": 880
+    },
+    {
+     "text": "Maybe any business that needs a chatbot could use its own GPT.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 12957,
+     "approx_timestamp_s": 867
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "No-code automation and productivity consulting",
+   "one_liner": "Automate repetitive tasks for service-based small and medium businesses, starting with one quick-win workflow.",
+   "category": "ai_automation",
+   "business_model": "Consulting or project-based automation work; specific pricing is not stated.",
+   "customer": "Service-based SMBs, with Upwork buyers and businesses reached through LinkedIn or online communities as potential prospects.",
+   "problem": "The example problem is manually transferring website-form leads into a CRM or spreadsheet.",
+   "offer": "Use a small, low-friction project as an entry point, such as automating lead transfer from a web form to a CRM or spreadsheet, then potentially expand into broader process work.",
+   "pricing": {
+    "model": "Consulting and project pricing; exact model is not stated.",
+    "price_points": [],
+    "notes": "The prompt's $100/hour goal is not a specific price recommendation from Gemini."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "marketplace_platform",
+     "details": "Gemini recommends an Upwork blitz and positioning the profile around business outcomes rather than the title 'Zapier developer'.",
+     "quote": {
+      "text": "Do not use the title Zapier developer. Use a valueoriented title like productivity consultant. I automate repetitive tasks for service-based businesses.",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 16066,
+      "approx_timestamp_s": 1075
+     }
+    },
+    {
+     "channel": "outbound_linkedin",
+     "details": "Gemini proposes a LinkedIn-focused prospecting channel; the transcript does not describe individual messages or a completed campaign.",
+     "quote": null
+    },
+    {
+     "channel": "facebook_groups_communities",
+     "details": "Gemini suggests researching communities and forums; the exact platforms are not stated.",
+     "quote": null
+    }
+   ],
+   "delivery": "The founder would use no-code tools such as Zapier and Airtable to build a small automation, then test it with the client's workflow. Gemini presents a crash course and acquisition plan, but no project is completed.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Zapier",
+    "Airtable",
+    "Upwork",
+    "LinkedIn"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "The overall prompt asks for consulting status within 72 hours; Gemini describes an Upwork blitz but gives no verified time to revenue.",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Marketplace discovery and prospect research can be partly automated, but winning Upwork work and contacting people on LinkedIn require human judgment. Do not automate unsolicited DMs to individuals or sole traders."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Forms can collect workflow details and access requirements, with a human confirming scope and permissions."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Agents and no-code tools can build much of a routine workflow, but each automation needs testing against the client's actual systems."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Marketplace payments or online invoices can be handled mostly by software once scope and price are agreed."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Agents can triage routine issues, but broken integrations and data-handling problems need human escalation."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "No-code automation and Upwork can serve UK clients; the example is generic. LinkedIn outreach and forum posting need to follow platform rules and UK marketing requirements."
+   },
+   "risks": [
+    "The transcript does not report a completed project, paying client or validated price.",
+    "Automation can fail when client forms, CRMs or spreadsheets change; plan for monitoring and support.",
+    "Unsolicited marketing DMs or emails to individuals and sole traders in the UK require consent under the rule supplied for this extraction."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "And it says the noode automation and productivity consultant for service-based SMBs.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 14764,
+     "approx_timestamp_s": 988
+    },
+    {
+     "text": "The initial offer will focus on solving one specific, highly painful, and easily automated task for the client.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 15330,
+     "approx_timestamp_s": 1026
+    },
+    {
+     "text": "This could be something as simple as automating the transfer of leads from a website form to a CRM or spreadsheet.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 15439,
+     "approx_timestamp_s": 1033
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "Flip high-value items",
+   "one_liner": "Buy and resell valuable items through online classifieds or marketplaces.",
+   "category": "arbitrage_reselling",
+   "business_model": "Buy low and resell at a higher price; the transcript gives no sourcing or margin details.",
+   "customer": "Not stated.",
+   "problem": "Not stated.",
+   "offer": "Find and flip high-value items on Craigslist, Facebook Marketplace or similar listings.",
+   "pricing": {
+    "model": "Resale; purchase and sale prices are not stated.",
+    "price_points": [],
+    "notes": "No item prices or margins are provided."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "marketplace_platform",
+     "details": "ChatGPT suggests Craigslist and Facebook Marketplace as places to list or find items.",
+     "quote": null
+    }
+   ],
+   "delivery": "The founder would source and resell physical items. The transcript does not specify inspection, collection, shipping or who handles delivery.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Craigslist",
+    "Facebook Marketplace"
+   ],
+   "startup_cost": "Not stated; the second prompt sets a $200 budget across possible money paths, not a specific cost for flipping.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Agents could monitor listings and draft responses, but finding, evaluating and negotiating for physical goods requires human checks."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "A software flow could record item details, but seller identity, condition and collection arrangements need human review."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Inspecting, collecting, packing and handing over physical goods require a person."
+    },
+    "billing": {
+     "score_e": 2,
+     "how": "Marketplace payment tools may reduce manual work, but safe payment and handover still need oversight."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Agents can draft replies, but disputes about item condition or collection require a human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Reselling can work in the UK, but the transcript's Craigslist example is US-oriented; UK marketplaces and local prices would need to be chosen."
+   },
+   "risks": [
+    "No sourcing method, item category, resale price, margin or demand test is given.",
+    "Physical inventory requires human inspection, storage and handover."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "Okay, it's telling me to flip stuff on Craigslist, Facebook Marketplace, etc. Not super detailed.",
+     "speaker": "Chris Koerner",
+     "match_score": 96.7,
+     "verified": true,
+     "char_offset": 21374,
+     "approx_timestamp_s": 1430
+    }
+   ]
+  },
+  {
+   "local_id": "I6",
+   "name": "Rapid freelance work",
+   "one_liner": "Earn quickly by selling freelance services, with the service type and route to customers left unspecified.",
+   "category": "b2b_service",
+   "business_model": "Freelance service fees; service, price and billing terms are not stated.",
+   "customer": "Not stated.",
+   "problem": "Not stated.",
+   "offer": "ChatGPT lists rapid freelance as a money path but does not define a skill, deliverable or niche.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": "No service or price is specified."
+   },
+   "acquisition_channels": [],
+   "delivery": "Not stated; the founder would presumably perform the unspecified freelance work, but the transcript gives no delivery process.",
+   "unit_economics_claims": [],
+   "tools": [
+    "ChatGPT"
+   ],
+   "startup_cost": "Not stated; the second prompt sets a $200 total budget across possible paths.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "No acquisition channel is described, so a software-led customer path is not established."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "A standard intake form could collect requirements if the service were defined, but no process is given."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "The suggested path is freelance work, which normally depends on a person's skill and output; the transcript does not identify an automatable task."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Online invoicing could automate payment collection, but the transcript gives no payment setup."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "No support process or service boundary is described."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Freelancing is a general model that can operate in the UK, but the transcript does not specify a service, market or platform."
+   },
+   "risks": [
+    "The recommendation is too vague to assess demand, price, delivery effort or customer acquisition.",
+    "The $10,000-in-seven-days prompt is a target, not a forecast or result for freelance work."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "Three to five money paths to start today. Flip highv value stuff. Rapid freelance.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 21200,
+     "approx_timestamp_s": 1419
+    }
+   ]
+  },
+  {
+   "local_id": "I7",
+   "name": "Decluttering or cleanup gigs",
+   "one_liner": "Earn from local decluttering or cleanup jobs.",
+   "category": "local_service",
+   "business_model": "Per-job service fees; pricing is not stated.",
+   "customer": "Not stated.",
+   "problem": "Not stated.",
+   "offer": "Perform decluttering or cleanup work as a local service.",
+   "pricing": {
+    "model": "Per-job fees; no amount is stated.",
+    "price_points": [],
+    "notes": "No job size, price or scope is given."
+   },
+   "acquisition_channels": [],
+   "delivery": "The work is performed at a location and involves physical cleanup or decluttering; the transcript gives no operating details.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "Not stated; the second prompt sets a $200 total budget across possible paths.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "No channel is named; local service selling would need human customer contact unless an inbound booking channel were added."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Online forms could collect job details, but scope and site conditions need human confirmation."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Decluttering and cleanup are physical tasks that require a person."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Online booking and payment could automate collection after a human assesses and agrees the job."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Questions about access, scope or completion require human handling."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Local cleanup services are geographically portable to the UK; the transcript gives no US-specific dependency."
+   },
+   "risks": [
+    "Physical delivery prevents near-unattended operation.",
+    "The transcript gives no job pricing, transport, disposal or customer-acquisition details."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "Rapid freelance. Local service like declutter or cleanup gigs. Affiliate promotion.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 21264,
+     "approx_timestamp_s": 1423
+    }
+   ]
+  },
+  {
+   "local_id": "I8",
+   "name": "Affiliate promotion",
+   "one_liner": "Promote other companies' products or services for affiliate income.",
+   "category": "content_media",
+   "business_model": "Affiliate promotion; commission terms and payment model are not stated.",
+   "customer": "Not stated.",
+   "problem": "Not stated.",
+   "offer": "Promote affiliate products or services; the transcript does not say what to promote or how.",
+   "pricing": {
+    "model": "Affiliate income; commission rate and product price are not stated.",
+    "price_points": [],
+    "notes": "No affiliate program, channel or payout is named."
+   },
+   "acquisition_channels": [],
+   "delivery": "Not stated; no content format or promotional process is described.",
+   "unit_economics_claims": [],
+   "tools": [
+    "ChatGPT"
+   ],
+   "startup_cost": "Not stated; the second prompt sets a $200 total budget across possible paths.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "No traffic or audience channel is named. Inbound content could be automated in part, but the transcript does not describe such a system."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Affiliate signup may be handled online, but no program or enrollment process is mentioned."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Links and promotional content could be distributed with software, but no delivery process or audience is given."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Affiliate commissions could be tracked and paid by a platform, but no platform is identified."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "No customer or affiliate support process is described."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Affiliate promotion is possible in the UK, but the transcript does not identify a program, market or disclosure approach."
+   },
+   "risks": [
+    "The suggestion provides no product, traffic source, commission rate or evidence of likely earnings.",
+    "Any promotion would need to disclose affiliate relationships and follow platform rules."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "Rapid freelance. Local service like declutter or cleanup gigs. Affiliate promotion.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 21264,
+     "approx_timestamp_s": 1423
+    }
+   ]
+  },
+  {
+   "local_id": "I9",
+   "name": "Pet sitting or dog walking",
+   "one_liner": "Provide pet-sitting or dog-walking services.",
+   "category": "local_service",
+   "business_model": "Per-service or per-visit fees; price and billing terms are not stated.",
+   "customer": "Pet owners are implied by the service, but the transcript does not specify a customer segment.",
+   "problem": "Not stated.",
+   "offer": "Pet sitting or dog walking; no service area, schedule or care scope is specified.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": "No price or fee basis is given."
+   },
+   "acquisition_channels": [],
+   "delivery": "The service involves looking after or walking pets in the physical world; the transcript gives no operating details.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "Not stated; the second prompt sets a $200 total budget across possible paths.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "No channel is named; building trust with local pet owners requires human interaction."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Forms and scheduling can collect basic information, but pet needs, access and safety details need human confirmation."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Pet sitting and dog walking are physical-world services that require a person."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Online booking and payment could automate billing after the person agrees the schedule and service."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Care questions and incidents require human handling."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Pet sitting and dog walking are geographically portable to the UK; the transcript gives no US-specific dependency."
+   },
+   "risks": [
+    "The work requires physical attendance and direct responsibility for animals.",
+    "The transcript gives no customer-acquisition plan, price or operating procedures."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "Rapid freelance. Local service like declutter or cleanup gigs. Affiliate promotion. Pet sitting or dog walking.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 21264,
+     "approx_timestamp_s": 1423
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "The prompt's goal was to become a $100-per-hour consultant within 72 hours, without prior experience in the field.",
+   "metric": "price",
+   "value": {
+    "amount": 100,
+    "currency": "USD",
+    "unit": "per hour",
+    "label": "Prompt target"
+   },
+   "period": "within 72 hours",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": null,
+   "quote": {
+    "text": "My goal, become a $100 an hour consultant in the next 72 hours in a field I currently have no experience in.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1019,
+    "approx_timestamp_s": 68
+   }
+  },
+  {
+   "claim": "The prompt specified a $500 budget and availability to work 12 hours per day for three days.",
+   "metric": "cost",
+   "value": {
+    "amount": 500,
+    "currency": "USD",
+    "unit": "available budget",
+    "label": "Prompt constraint"
+   },
+   "period": "three days",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": null,
+   "quote": {
+    "text": "I have 500 bucks and I can work 12 hours per day for the next three days.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1346,
+    "approx_timestamp_s": 90
+   }
+  },
+  {
+   "claim": "Grok proposed $100 per hour for ad setup and optimization.",
+   "metric": "price",
+   "value": {
+    "amount": 100,
+    "currency": "USD",
+    "unit": "per hour",
+    "label": "Initial offer"
+   },
+   "period": null,
+   "claimant": "Grok (as reported by Chris Koerner)",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Initial offer. $100 an hour for ad setup optimization. Delivers measurable leads.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6922,
+    "approx_timestamp_s": 463
+   }
+  },
+  {
+   "claim": "Grok's plan says 200 outreach touches could yield one to two clients.",
+   "metric": "customers",
+   "value": {
+    "amount": 1,
+    "amount_max": 2,
+    "currency": null,
+    "unit": "clients per 200 touches"
+   },
+   "period": null,
+   "claimant": "Grok (as reported by Chris Koerner)",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "If no client by hour 70, extend research research shows 200 touches yield one to two wins.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7401,
+    "approx_timestamp_s": 495
+   }
+  },
+  {
+   "claim": "Claude claims DFW has 50,000 service businesses.",
+   "metric": "customers",
+   "value": {
+    "amount": 50000,
+    "currency": null,
+    "unit": "service businesses"
+   },
+   "period": null,
+   "claimant": "Claude (as reported by Chris Koerner)",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "DFW has 50,000 service businesses. They'll pay $100 an hour to someone who speaks their language.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7690,
+    "approx_timestamp_s": 514
+   }
+  },
+  {
+   "claim": "Claude claims local service businesses already pay $1 to $200 per hour for basic business consultants.",
+   "metric": "price",
+   "value": {
+    "amount": 1,
+    "amount_max": 200,
+    "currency": "USD",
+    "unit": "per hour",
+    "label": "Claimed existing consultant rates"
+   },
+   "period": null,
+   "claimant": "Claude (as reported by Chris Koerner)",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "They're already paying $1 to $200 an hour for basic business consultants.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8224,
+    "approx_timestamp_s": 550
+   }
+  },
+  {
+   "claim": "Claude proposes a $500 starter package, a $2,000 transformation package and a $1,000 monthly retainer.",
+   "metric": "price",
+   "value": {
+    "amount": 500,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": "Starter package"
+   },
+   "period": null,
+   "claimant": "Claude (as reported by Chris Koerner)",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "Starter package 500, transformation package 2,000, monthly retainer 1,000 a month, credibility shortcuts, the beta tester play.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9733,
+    "approx_timestamp_s": 651
+   }
+  },
+  {
+   "claim": "Claude proposes a $2,000 transformation package.",
+   "metric": "price",
+   "value": {
+    "amount": 2000,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": "Transformation package"
+   },
+   "period": null,
+   "claimant": "Claude (as reported by Chris Koerner)",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "Starter package 500, transformation package 2,000, monthly retainer 1,000 a month, credibility shortcuts, the beta tester play.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9733,
+    "approx_timestamp_s": 651
+   }
+  },
+  {
+   "claim": "Claude proposes a $1,000 monthly retainer.",
+   "metric": "price",
+   "value": {
+    "amount": 1000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "Monthly retainer"
+   },
+   "period": "monthly",
+   "claimant": "Claude (as reported by Chris Koerner)",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "Starter package 500, transformation package 2,000, monthly retainer 1,000 a month, credibility shortcuts, the beta tester play.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9733,
+    "approx_timestamp_s": 651
+   }
+  },
+  {
+   "claim": "Claude proposes offering free setups to three businesses in exchange for video testimonials.",
+   "metric": "customers",
+   "value": {
+    "amount": 3,
+    "currency": null,
+    "unit": "businesses"
+   },
+   "period": null,
+   "claimant": "Claude (as reported by Chris Koerner)",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "The beta tester play is offer three businesses free setup in exchange for video testimonials.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9935,
+    "approx_timestamp_s": 665
+   }
+  },
+  {
+   "claim": "Claude's day-one checklist targets three demos, a live website and more than 10 contractor connections.",
+   "metric": "customers",
+   "value": {
+    "amount": 10,
+    "currency": null,
+    "unit": "contractor connections or more"
+   },
+   "period": "day one",
+   "claimant": "Claude (as reported by Chris Koerner)",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "Day one is only complete when three working demos are created, website is live, 10 plus contractor connections made.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10540,
+    "approx_timestamp_s": 705
+   }
+  },
+  {
+   "claim": "Claude's day-two checklist targets more than 30 outreach messages, more than 10 engaged businesses and five or more demos scheduled.",
+   "metric": "customers",
+   "value": {
+    "amount": 10,
+    "currency": null,
+    "unit": "businesses engaged or more"
+   },
+   "period": "day two",
+   "claimant": "Claude (as reported by Chris Koerner)",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "Day two is complete when 30 plus outreach messages sent, 10 plus businesses engaged, five plus demos scheduled.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10721,
+    "approx_timestamp_s": 717
+   }
+  },
+  {
+   "claim": "Claude's day-three checklist targets three demos, a first paying client and a pipeline of more than 10 prospects.",
+   "metric": "customers",
+   "value": {
+    "amount": 10,
+    "currency": null,
+    "unit": "prospects or more"
+   },
+   "period": "day three",
+   "claimant": "Claude (as reported by Chris Koerner)",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "Day three is complete when three demos delivered. First paying client secured and pipeline of 10 plus prospects.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10835,
+    "approx_timestamp_s": 725
+   }
+  },
+  {
+   "claim": "ChatGPT's cited figure was 3 million GPTs published by January 2024.",
+   "metric": "other",
+   "value": {
+    "amount": 3000000,
+    "currency": null,
+    "unit": "published GPTs"
+   },
+   "period": "by January 2024",
+   "claimant": "ChatGPT (as reported by Chris Koerner)",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "So GPTs hit 3 million published by January 2024. Small Biz demand is soaring.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13147,
+    "approx_timestamp_s": 880
+   }
+  },
+  {
+   "claim": "A later ChatGPT prompt set a target of $10,000 net in seven days with a $200 starting budget.",
+   "metric": "profit",
+   "value": {
+    "amount": 10000,
+    "currency": "USD",
+    "unit": "net profit target over seven days"
+   },
+   "period": "seven days",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": null,
+   "quote": {
+    "text": "Goal: $10,000 net in seven days starting with $200 in a laptop.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20394,
+    "approx_timestamp_s": 1365
+   }
+  },
+  {
+   "claim": "The second prompt set a $200 starting budget.",
+   "metric": "cost",
+   "value": {
+    "amount": 200,
+    "currency": "USD",
+    "unit": "starting budget"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": null,
+   "quote": {
+    "text": "Goal: $10,000 net in seven days starting with $200 in a laptop.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20394,
+    "approx_timestamp_s": 1365
+   }
+  },
+  {
+   "claim": "Koerner reports an Apple call purchase cost of $325, sale proceeds of $596 and profit of $271.",
+   "metric": "profit",
+   "value": {
+    "amount": 271,
+    "currency": "USD",
+    "unit": "profit on one trade"
+   },
+   "period": "about two business hours for the reported overall result",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "I bought the Apple call for 325. I sold it for $596. I made $271 of profit.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 35388,
+    "approx_timestamp_s": 2368
+   }
+  },
+  {
+   "claim": "Koerner reports the Apple call cost $325.",
+   "metric": "cost",
+   "value": {
+    "amount": 325,
+    "currency": "USD",
+    "unit": "trade cost"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "I bought the Apple call for 325. I sold it for $596. I made $271 of profit.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 35388,
+    "approx_timestamp_s": 2368
+   }
+  },
+  {
+   "claim": "Koerner reports selling the Apple call for $596.",
+   "metric": "sale_price",
+   "value": {
+    "amount": 596,
+    "currency": "USD",
+    "unit": "trade proceeds"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "I bought the Apple call for 325. I sold it for $596. I made $271 of profit.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 35388,
+    "approx_timestamp_s": 2368
+   }
+  },
+  {
+   "claim": "Grok's initial Apple call suggestion was a $217.5 strike with a $345 ask and total cost.",
+   "metric": "price",
+   "value": {
+    "amount": 345,
+    "currency": "USD",
+    "unit": "one contract premium"
+   },
+   "period": "expiration the next day",
+   "claimant": "Grok (as reported by Chris Koerner)",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": null,
+   "quote": {
+    "text": "call, strike price 217.5, expiration date tomorrow, current ask 345, total cost 345.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 26778,
+    "approx_timestamp_s": 1792
+   }
+  },
+  {
+   "claim": "Koerner reports losing $440 on the QQQ put.",
+   "metric": "profit",
+   "value": {
+    "amount": -440,
+    "currency": "USD",
+    "unit": "loss on the QQQ put"
+   },
+   "period": "one day",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "I lost $440 on my QQQ put. Okay, on my QQQ call, I made $633.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 35220,
+    "approx_timestamp_s": 2357
+   }
+  },
+  {
+   "claim": "Koerner reports $633 in proceeds from the QQQ call and $356 profit after its $277 cost.",
+   "metric": "profit",
+   "value": {
+    "amount": 356,
+    "currency": "USD",
+    "unit": "profit on the QQQ call"
+   },
+   "period": "one day",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "Okay, on my QQQ call, I made $633. It cost $277. Total profit of $356.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 35245,
+    "approx_timestamp_s": 2359
+   }
+  },
+  {
+   "claim": "Koerner reports that the QQQ call cost $277.",
+   "metric": "cost",
+   "value": {
+    "amount": 277,
+    "currency": "USD",
+    "unit": "trade cost"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "Okay, on my QQQ call, I made $633. It cost $277. Total profit of $356.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 35245,
+    "approx_timestamp_s": 2359
+   }
+  },
+  {
+   "claim": "Koerner reports investing $1,057 and having $1,244 after the trades, a reported 17.69% return.",
+   "metric": "profit",
+   "value": {
+    "amount": 187,
+    "currency": "USD",
+    "unit": "net gain"
+   },
+   "period": "one day",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "So, I invested $1,057 and now I have $1,244, which is a return of exactly $17.69%.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 35589,
+    "approx_timestamp_s": 2382
+   }
+  },
+  {
+   "claim": "Koerner reports $1,057 invested across the three trades.",
+   "metric": "cost",
+   "value": {
+    "amount": 1057,
+    "currency": "USD",
+    "unit": "total investment"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "So, I invested $1,057 and now I have $1,244, which is a return of exactly $17.69%.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 35589,
+    "approx_timestamp_s": 2382
+   }
+  },
+  {
+   "claim": "Koerner reports a 17.69% day-over-day return.",
+   "metric": "other",
+   "value": {
+    "amount": 17.69,
+    "currency": null,
+    "unit": "percent return"
+   },
+   "period": "day over day",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "So, I invested $1,057 and now I have $1,244, which is a return of exactly $17.69%.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 35589,
+    "approx_timestamp_s": 2382
+   }
+  },
+  {
+   "claim": "Koerner says the QQQ put involved five contracts and about $500 in the review screen, then later reports $475 invested in that position.",
+   "metric": "cost",
+   "value": {
+    "amount": 475,
+    "currency": "USD",
+    "unit": "reported QQQ put investment"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "You know what? Let's buy five contracts. ... Five contracts. $500. Review. If QQQ shares aren't lower than 565 on August 8th, these options will expire worthless.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 30779,
+    "approx_timestamp_s": 2060
+   }
+  },
+  {
+   "claim": "Koerner says that without following Gemini's trade, the Grok and ChatGPT trades would have made $627 profit and a 60% day-over-day return.",
+   "metric": "profit",
+   "value": {
+    "amount": 627,
+    "currency": "USD",
+    "unit": "hypothetical profit"
+   },
+   "period": "one day",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": null,
+   "quote": {
+    "text": "If it weren't for you, if I only would have listened to Grock and Chat GBT, I would have made $627 of profit.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 35870,
+    "approx_timestamp_s": 2401
+   }
+  },
+  {
+   "claim": "Koerner says ChatGPT 5 made him about $400 profit on a $277 investment over about two business hours.",
+   "metric": "profit",
+   "value": {
+    "amount": 400,
+    "currency": "USD",
+    "unit": "approximate profit"
+   },
+   "period": "about two business hours",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "Chat GPT5 made me $400 profit on my $277 investment over the course of about two business hours.",
+    "speaker": "Chris Koerner",
+    "match_score": 98.9,
+    "verified": true,
+    "char_offset": 36339,
+    "approx_timestamp_s": 2432
+   }
+  },
+  {
+   "claim": "Koerner says his TK Owners community has about 400 people building with AI.",
+   "metric": "customers",
+   "value": {
+    "amount": 400,
+    "currency": null,
+    "unit": "community members, approximate"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "I do have a community called TK Owners with about 400 other people building with AI.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17765,
+    "approx_timestamp_s": 1189
+   }
+  },
+  {
+   "claim": "Koerner says his newsletter sends one email per week.",
+   "metric": "other",
+   "value": {
+    "amount": 1,
+    "currency": null,
+    "unit": "email per week"
+   },
+   "period": "weekly",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "Go there to subscribe for free to my newsletter. It's one email a week.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 27438,
+    "approx_timestamp_s": 1836
+   }
+  },
+  {
+   "claim": "Koerner says his audio podcast publishes three episodes per week.",
+   "metric": "other",
+   "value": {
+    "amount": 3,
+    "currency": null,
+    "unit": "episodes per week"
+   },
+   "period": "weekly",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "And then go to my audio podcast. Three episodes a week. Stuff like this.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 27522,
+    "approx_timestamp_s": 1842
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Give the model context before asking for a plan",
+   "area": "validation_testing",
+   "steps": [
+    "Ask the model to ask targeted questions before it recommends a business.",
+    "Answer questions about skills, comfort with sales, location, experience, available resources and constraints.",
+    "Tell the model to produce specific steps and avoid vague recommendations."
+   ],
+   "idea_local_id": null,
+   "quote": {
+    "text": "Ask it to ask you the right questions that it needs to get the most context that it needs to give you the best output.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1488,
+    "approx_timestamp_s": 99
+   }
+  },
+  {
+   "name": "Use a small automation project as an entry offer",
+   "area": "offer_design",
+   "steps": [
+    "Choose one painful task that is easy to explain and automate.",
+    "Use a small project such as transferring web-form leads into a CRM or spreadsheet.",
+    "Demonstrate value before proposing a larger operational project."
+   ],
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "The initial offer will focus on solving one specific, highly painful, and easily automated task for the client.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15330,
+    "approx_timestamp_s": 1026
+   }
+  },
+  {
+   "name": "Build credibility with early demonstrations and real proof",
+   "area": "sales",
+   "steps": [
+    "Create working demos before broad outreach.",
+    "Offer a limited number of free beta setups in exchange for video testimonials.",
+    "Document completed work as case studies and seek one established contractor as a showcase client.",
+    "Do not present fictional case studies as actual customer results."
+   ],
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "The beta tester play is offer three businesses free setup in exchange for video testimonials.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9935,
+    "approx_timestamp_s": 665
+   }
+  },
+  {
+   "name": "Position services around the outcome",
+   "area": "offer_design",
+   "steps": [
+    "Use a value-focused profile title rather than a tool-specific title.",
+    "Lead the first lines with the business problem and the result.",
+    "Describe time or money saved instead of talking only about technology."
+   ],
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "Do not use the title Zapier developer. Use a valueoriented title like productivity consultant. I automate repetitive tasks for service-based businesses.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16066,
+    "approx_timestamp_s": 1075
+   }
+  },
+  {
+   "name": "Start customer outreach early and track activity",
+   "area": "customer_acquisition",
+   "steps": [
+    "Claude's plan starts outreach on day one.",
+    "Track messages, engaged businesses, demos and prospects in a Google Sheet.",
+    "Treat the model's day-by-day targets as targets to test, not as proven conversion benchmarks."
+   ],
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "Day two is complete when 30 plus outreach messages sent, 10 plus businesses engaged, five plus demos scheduled.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10721,
+    "approx_timestamp_s": 717
+   }
+  },
+  {
+   "name": "Compare model outputs with consistent criteria",
+   "area": "validation_testing",
+   "steps": [
+    "Give each model the same prompt and relevant context.",
+    "Compare usefulness, clarity, likely feasibility and answer length.",
+    "Treat the host's scores as subjective, and test recommendations with customers before relying on them."
+   ],
+   "idea_local_id": null,
+   "quote": {
+    "text": "I'm going to judge these by overall, which is just like a gut feel, and then density of quality, how many words, how likely is it to work",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16990,
+    "approx_timestamp_s": 1137
+   }
+  },
+  {
+   "name": "Verify time-sensitive information before acting",
+   "area": "finance_unit_economics",
+   "steps": [
+    "Check current prices and market data independently before placing a trade.",
+    "Compare the model's suggested strike and premium with the live order ticket.",
+    "Do not treat a model's trading recommendation as reliable just because it gives a confident explanation."
+   ],
+   "idea_local_id": null,
+   "quote": {
+    "text": "The price was outdated. It was using an outdated price because the current share price is 5.56.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25517,
+    "approx_timestamp_s": 1708
+   }
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "ChatGPT / ChatGPT 5",
+   "purpose": "Compared on consulting and money-making prompts; later asked for options trade suggestions.",
+   "cost_stated": null
+  },
+  {
+   "name": "Claude / Claude Opus 4.1",
+   "purpose": "Generated an AI implementation consulting plan and was compared with other models.",
+   "cost_stated": null
+  },
+  {
+   "name": "Grok / Grok 4",
+   "purpose": "Generated a paid ads consulting plan and an Apple options suggestion.",
+   "cost_stated": null
+  },
+  {
+   "name": "Gemini / Gemini 2.5 Pro",
+   "purpose": "Generated a no-code automation consulting plan and a QQQ options suggestion.",
+   "cost_stated": "The host says Google AI Pro usage was exhausted after four prompts; no subscription price is stated."
+  },
+  {
+   "name": "Google AI Pro",
+   "purpose": "Google subscription tier mentioned when Gemini usage was exhausted.",
+   "cost_stated": "Subscription mentioned; price not stated."
+  },
+  {
+   "name": "Zapier",
+   "purpose": "Suggested for learning and building AI or no-code automations.",
+   "cost_stated": "Free trials suggested; exact cost not stated."
+  },
+  {
+   "name": "Make",
+   "purpose": "Suggested for learning and building automations.",
+   "cost_stated": "Free trials suggested; exact cost not stated."
+  },
+  {
+   "name": "Voiceflow",
+   "purpose": "Suggested as a chatbot builder for the AI implementation consulting plan.",
+   "cost_stated": "Free trials suggested; exact cost not stated."
+  },
+  {
+   "name": "Botpress",
+   "purpose": "Suggested as a chatbot builder for the AI implementation consulting plan.",
+   "cost_stated": "Free trials suggested; exact cost not stated."
+  },
+  {
+   "name": "Cal.com",
+   "purpose": "Suggested for AI scheduling.",
+   "cost_stated": "Free trials suggested; exact cost not stated."
+  },
+  {
+   "name": "ServiceTitan",
+   "purpose": "Suggested for learning about home-service operations.",
+   "cost_stated": null
+  },
+  {
+   "name": "Housecall Pro",
+   "purpose": "Suggested for learning about home-service operations.",
+   "cost_stated": null
+  },
+  {
+   "name": "Facebook groups",
+   "purpose": "Suggested for industry-specific learning about HVAC business owners.",
+   "cost_stated": null
+  },
+  {
+   "name": "Carrd.co",
+   "purpose": "Suggested for building a simple consulting website.",
+   "cost_stated": null
+  },
+  {
+   "name": "Google Business Profile / Google My Business",
+   "purpose": "Suggested for creating a profile as an AI consultant.",
+   "cost_stated": null
+  },
+  {
+   "name": "Google Skillshop",
+   "purpose": "Suggested as a learning resource for ad campaigns.",
+   "cost_stated": "Included in a free or cheap resource plan; exact cost not stated."
+  },
+  {
+   "name": "Facebook Blueprint",
+   "purpose": "Suggested as a learning resource for Facebook ads.",
+   "cost_stated": "Included in a free or cheap resource plan; exact cost not stated."
+  },
+  {
+   "name": "Google Maps",
+   "purpose": "Suggested for building a list of local service business prospects.",
+   "cost_stated": null
+  },
+  {
+   "name": "Google Sheets",
+   "purpose": "Suggested for tracking outreach and progress.",
+   "cost_stated": null
+  },
+  {
+   "name": "YouTube",
+   "purpose": "Suggested as a source of crash courses and tutorials.",
+   "cost_stated": "No cost stated."
+  },
+  {
+   "name": "Upwork",
+   "purpose": "Suggested by Gemini as a marketplace for finding automation clients.",
+   "cost_stated": null
+  },
+  {
+   "name": "LinkedIn",
+   "purpose": "Suggested by Gemini as a prospecting channel.",
+   "cost_stated": null
+  },
+  {
+   "name": "Airtable",
+   "purpose": "Named as a tool for no-code automation and workflow examples.",
+   "cost_stated": null
+  },
+  {
+   "name": "Craigslist",
+   "purpose": "Named as a possible place to find or list items for flipping.",
+   "cost_stated": null
+  },
+  {
+   "name": "Facebook Marketplace",
+   "purpose": "Named as a possible place to find or list items for flipping.",
+   "cost_stated": null
+  },
+  {
+   "name": "Wordcounter.net",
+   "purpose": "Used by the host to compare the length of model outputs.",
+   "cost_stated": null
+  },
+  {
+   "name": "Robinhood Web",
+   "purpose": "Used by the host to place and close options trades.",
+   "cost_stated": null
+  },
+  {
+   "name": "TK Owners / tkowners.com",
+   "purpose": "Host's promoted community for people building with AI, with support, growth tips and weekly AMAs.",
+   "cost_stated": null
+  },
+  {
+   "name": "TKOPod / tkopod.com",
+   "purpose": "Host's promoted newsletter and audio podcast.",
+   "cost_stated": "The newsletter and podcast are described as free; no other price is stated."
+  },
+  {
+   "name": "Twitter Premium",
+   "purpose": "Host says the reported trade profit covered a year of his subscription.",
+   "cost_stated": "Price not stated."
+  },
+  {
+   "name": "Reddit",
+   "purpose": "Appears among sources Gemini used in its research.",
+   "cost_stated": null
+  },
+  {
+   "name": "Wikipedia",
+   "purpose": "Appears among sources ChatGPT used for its custom GPT recommendation.",
+   "cost_stated": null
+  },
+  {
+   "name": "Business Insider",
+   "purpose": "Appears among sources ChatGPT used for its custom GPT recommendation.",
+   "cost_stated": null
+  },
+  {
+   "name": "PHCC",
+   "purpose": "Suggested professional association meeting where Claude's plan proposes speaking about AI.",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "The host says the options data from Gemini was outdated and its first suggested QQQ strike was not viable at the current price."
+  },
+  {
+   "warning": "The host had little options-trading experience, placed real trades based on model suggestions and notes that options can expire worthless."
+  },
+  {
+   "warning": "The host says the trading result is from a sample of one day, tells viewers to do their own research and says it is not investment advice."
+  },
+  {
+   "warning": "The host questions whether small businesses need custom GPTs and whether coffee shops would pay for one."
+  },
+  {
+   "warning": "Claude's plan suggests fictional but realistic case studies. Do not present fictional examples as real client work."
+  },
+  {
+   "warning": "AI-generated consulting prices, market-size claims and outreach targets are not verified sales data; no consulting business was tested in the video."
+  },
+  {
+   "warning": "For UK acquisition, unsolicited marketing SMS, WhatsApp, DMs and emails to individuals and sole traders require consent under PECR; cold email to limited companies is allowed, and cold calls must be screened against TPS/CTPS."
+  },
+  {
+   "warning": "The host promotes his own TK Owners community and TKOPod newsletter and podcast; he says he has no affiliate links and is not sponsored by the AI companies."
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Give a model relevant context about your skills, constraints and preferences, and ask it to clarify before recommending a plan.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "Ask it to ask you the right questions that it needs to get the most context that it needs to give you the best output.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1488,
+    "approx_timestamp_s": 99
+   }
+  },
+  {
+   "lesson": "A detailed prompt can produce more actionable steps, but a longer answer is not automatically better.",
+   "theme": "other",
+   "quote": {
+    "text": "Okay, more does not always equal better, but I'm going to call it quality density.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16863,
+    "approx_timestamp_s": 1128
+   }
+  },
+  {
+   "lesson": "Start customer outreach early instead of spending the whole launch window learning and preparing.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "Claude wants me to start doing outreach on day one, which I love.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 226,
+    "approx_timestamp_s": 15
+   }
+  },
+  {
+   "lesson": "A small project that fixes one clear, painful task can be an easier first sale than a broad transformation proposal.",
+   "theme": "offer_design",
+   "quote": {
+    "text": "The initial offer will focus on solving one specific, highly painful, and easily automated task for the client.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15330,
+    "approx_timestamp_s": 1026
+   }
+  },
+  {
+   "lesson": "Explain the value in customer terms such as time and money saved, and avoid promising results that have not been demonstrated.",
+   "theme": "other",
+   "quote": {
+    "text": "Don't overpromise. Don't talk tech. Talk time and money saved.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10346,
+    "approx_timestamp_s": 692
+   }
+  },
+  {
+   "lesson": "Use real demonstrations, testimonials and documented client results to build credibility.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "The beta tester play is offer three businesses free setup in exchange for video testimonials.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9935,
+    "approx_timestamp_s": 665
+   }
+  },
+  {
+   "lesson": "Do not assume that a new technology is a must-have for every small business; test whether a specific customer will pay for it.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "I don't know if a coffee shop needs their own GPT. Maybe in the future that'll be a thing, but I feel like that's like saying 15 years ago, every coffee shop's going to have their own app.",
+    "speaker": "Chris Koerner",
+    "match_score": 98.4,
+    "verified": true,
+    "char_offset": 12330,
+    "approx_timestamp_s": 825
+   }
+  },
+  {
+   "lesson": "Check live, primary information before acting on an AI response when prices or conditions can change quickly.",
+   "theme": "finance_unit_economics",
+   "quote": {
+    "text": "The price was outdated. It was using an outdated price because the current share price is 5.56.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25517,
+    "approx_timestamp_s": 1708
+   }
+  },
+  {
+   "lesson": "Confident AI explanations do not remove the need to understand the downside of a decision.",
+   "theme": "legal_risk",
+   "quote": {
+    "text": "If QQQ shares aren't 564 or lower on August 8th, this option will expire worthless.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 26339,
+    "approx_timestamp_s": 1763
+   }
+  },
+  {
+   "lesson": "Treat a one-day investment result as a single observation, not proof that a strategy works.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "So, sample size of one day, results not guaranteed. Do your own research.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 36099,
+    "approx_timestamp_s": 2416
+   }
+  }
+ ],
+ "evidence_quality": {
+  "rating": "C",
+  "rationale": "The consulting ideas and their prices, customer counts and timelines are AI-generated recommendations that the host did not test with customers. The options trades and outcomes are presented as first-hand, but cover one day and include an acknowledged stale-price error and conflicting trade-cost figures.",
+  "promotional_conflict": "The host promotes his TK Owners community and TKOPod newsletter and podcast. He says he has no affiliate links and is not sponsored by the AI companies."
+ },
+ "extraction": {
+  "model": "gpt-6-luna",
+  "extracted_at": "2026-10-22T10:51:28",
+  "cost_usd": 0,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 70,
+   "verified": 70,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

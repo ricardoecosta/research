@@ -1,0 +1,2505 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "WwR35MbyOMY",
+  "title": "This Little AI Device Will Print Millionaires",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=WwR35MbyOMY",
+  "upload_date": "2025-04-09",
+  "duration_s": 1960,
+  "view_count": 12803,
+  "transcript_provider": "ok",
+  "transcript_chars": 37796,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner and Nick discuss ways to build AI implementation services around a voice-recording pendant, especially for physicians and sales teams. They brainstorm other uses in assisted living, therapy, retail, remote work and coaching, while noting that integrations, consent and privacy create real barriers. The conversation also explores AI-powered background research and a possible pay-per-use Deep Research website. Most of the business ideas are hypotheses rather than tested operations.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Host of The Koerner Office; the transcript does not label individual turns, so some quote attribution is uncertain."
+  },
+  {
+   "name": "Nick",
+   "role": "guest",
+   "description": "Guest; no surname is stated in the transcript."
+  }
+ ],
+ "format": "operator_interview",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "AI implementation agency for small businesses",
+   "one_liner": "Help business owners choose and implement AI tools, then keep improving their workflows as the technology changes.",
+   "category": "agency",
+   "business_model": "Implementation projects with ongoing service or retainer revenue; exact model not established.",
+   "customer": "Business owners who need AI but do not know how to choose or implement the tools.",
+   "problem": "Owners are unfamiliar with AI models and automation tools, and the available technology keeps changing.",
+   "offer": "Assess workflows, implement suitable AI and automations, and continue iterating with the business.",
+   "pricing": {
+    "model": "Not established; the conversation suggests ongoing implementation and management.",
+    "price_points": [],
+    "notes": "The $1,500 monthly example is for a physician scribe-replacement offer, not a stated general agency rate."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "networking_events",
+     "details": "The guest found an opening by talking with his bishop and the bishop's wife about the clinic's work.",
+     "quote": null
+    }
+   ],
+   "delivery": "A human consultant finds suitable workflows and configures tools and automations; the service would need continued human intervention as systems change.",
+   "unit_economics_claims": [],
+   "tools": [
+    "ChatGPT",
+    "Claude",
+    "Make",
+    "Zapier",
+    "Gumloop",
+    "Lindy"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "The transcript offers no repeatable automated acquisition system; the example lead came from a personal conversation."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Forms and agents could collect workflows and requirements, but a person would need to confirm access, process details and priorities."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Agents can handle routine workflow steps, but a person must scope, configure and maintain changing business systems."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "A recurring fee could be collected by standard subscription software after a human agrees the scope."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Agents can answer routine questions, but implementation failures and workflow changes need human review."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "The service model transfers to UK businesses, with adjustments for local systems, privacy obligations and sector-specific regulation."
+   },
+   "risks": [
+    "The conversation gives no proven offer, repeatable sales process or operating results for a general AI agency.",
+    "Clients may expect automations to work with software that has limited integration support."
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "Every week it's like I fall more and more in love with the idea of an agency business that is helping business owners implement artificial intelligence.",
+     "speaker": null,
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 1592,
+     "approx_timestamp_s": 85
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "AI pendant physician documentation service",
+   "one_liner": "Provide a wearable recorder and managed workflow to turn physician-patient conversations into notes and record updates.",
+   "category": "ai_automation",
+   "business_model": "Managed service with a proposed monthly fee; possibly includes the device and automation setup.",
+   "customer": "Physicians and clinics that use scribes or spend time documenting patient visits.",
+   "problem": "Physicians lose time documenting visits, while employing human scribes adds cost.",
+   "offer": "Pilot a voice-recording pendant, produce visit summaries and configure automations to put information into the correct patient record.",
+   "pricing": {
+    "model": "Proposed monthly managed service.",
+    "price_points": [
+     {
+      "amount": 1500,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "Proposed scribe-replacement service"
+     },
+     {
+      "amount": 100,
+      "currency": "USD",
+      "unit": "per device",
+      "label": "Suggested pendant purchase cost"
+     }
+    ],
+    "notes": "The monthly service price and device cost are suggestions in the discussion, not reported sales."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "door_to_door_in_person",
+     "details": "The hosts propose taking devices into physicians' offices, explaining the use and offering a short trial.",
+     "quote": null
+    },
+    {
+     "channel": "referrals_word_of_mouth",
+     "details": "The opportunity arose through a personal relationship with an optometrist, who was introduced by his wife.",
+     "quote": null
+    }
+   ],
+   "delivery": "The provider supplies and explains the pendant, configures storage and automations, and manages the workflow that turns recordings into notes or record updates. The clinic's existing electronic health record may require manual configuration or review.",
+   "unit_economics_claims": [
+    "The proposed service price is $1,500 per month.",
+    "A pendant was estimated at $100 each; the transcript does not state total implementation or support costs."
+   ],
+   "tools": [
+    "Limitless pendant",
+    "Zapier",
+    "Gumloop",
+    "Lindy",
+    "Electronic health record system"
+   ],
+   "startup_cost": "$100 per device was suggested; other startup costs are not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "The proposed sale involves visiting a clinic and explaining a physical device in person."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Accounts and basic setup may be automated, but consent, clinical workflow mapping and EHR access need human handling."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Transcription and summarization can be automated, but mapping notes to patient records and checking accuracy require human oversight."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "A monthly service fee can be billed by subscription software once the clinic is onboarded."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Routine device help can be automated, but privacy issues, clinical errors and integration failures need prompt human attention."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "The service concept transfers, but UK patient-data protection, clinical governance and NHS or private EHR integrations would require adaptation."
+   },
+   "risks": [
+    "The hosts identify privacy and HIPAA compliance as concerns; a UK service would also need appropriate patient consent and health-data safeguards.",
+    "One clinic's EHR was built around clicking individual findings and diagnoses, making automated note insertion difficult.",
+    "A recording could capture sensitive patient information or conversations without adequate consent."
+   ],
+   "is_primary": false,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "I think there's a big opportunity for somebody in the healthcare space to go to physicians and help them document faster by giving them these these wearable devices.",
+     "speaker": null,
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 8987,
+     "approx_timestamp_s": 481
+    },
+    {
+     "text": "It's $1,500 a month and you won't need a scribe anymore. I'll just manage all this for you.",
+     "speaker": null,
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 153,
+     "approx_timestamp_s": 8
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Optometry clinic admin automation",
+   "one_liner": "Automate repetitive data entry in an optometry practice's office workflow.",
+   "category": "ai_automation",
+   "business_model": "Potential AI implementation project for a clinic; pricing and payment model not stated.",
+   "customer": "Optometry clinics with staff manually transferring information into spreadsheets or practice software.",
+   "problem": "The business office manager was manually looking at information and keying it into a computer.",
+   "offer": "Identify automatable steps in the clinic's administrative process and connect the source information to the relevant system.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "networking_events",
+     "details": "The conversation began through the guest's personal connection with the optometrist and his wife.",
+     "quote": null
+    }
+   ],
+   "delivery": "A consultant would map the workflow and configure automation. The transcript says the EHR's click-based findings and diagnosis workflow made some automation difficult.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Excel",
+    "Electronic health record system"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "The only described access came from a personal introduction."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "A workflow audit can use forms and AI, but staff must explain the current process and approve access."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Simple data transfer may be automated, but the clinic's click-based EHR workflow limits unattended execution."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Once scoped, project or subscription billing can be handled by software."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "An agent can triage issues, but a human must handle clinical-system changes and failed automations."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "The workflow problem is common to UK clinics, but health-data protection and local clinical software integrations require adaptation."
+   },
+   "risks": [
+    "The transcript does not show that an automation was implemented or that the clinic agreed to buy one.",
+    "Click-based EHR systems may not support reliable automated updates."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": []
+  },
+  {
+   "local_id": "I4",
+   "name": "Assisted-living daily family updates",
+   "one_liner": "Give residents a recorder and send families a daily account of activities and care events.",
+   "category": "b2b_service",
+   "business_model": "Potential facility service or resident-family upsell; payment structure not stated.",
+   "customer": "Assisted-living facilities and families of residents who have memory or communication difficulties.",
+   "problem": "Families may not know what a resident did, ate, or when they received medication.",
+   "offer": "Use a pendant to capture daily events and provide a summary to the resident's family.",
+   "pricing": {
+    "model": "Possible facility upsell; price not stated.",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "partnerships",
+     "details": "The pitch would be made to a facility, which could offer it to residents or families.",
+     "quote": null
+    }
+   ],
+   "delivery": "A resident wears a device; recordings are summarized and sent to family. Human setup and care-provider involvement would be needed.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Limitless pendant"
+   ],
+   "startup_cost": "Device costs are discussed elsewhere as an estimate of $100 each; a startup budget for this use is not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "A facility partnership requires human outreach and agreement."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Device setup and family permissions require staff or provider involvement."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Summaries can be generated automatically, but a human must check consent, accuracy and care-sensitive details."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "A recurring family or facility charge could be automated after the payer and plan are agreed."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Questions about missed care, resident wellbeing or inaccurate records require people to respond."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "The need exists in the UK, but care-home rules, health-data handling, resident capacity and consent need careful local design."
+   },
+   "risks": [
+    "Recording residents and staff raises consent, dignity and sensitive-data concerns.",
+    "Families could mistake an AI summary for a complete or verified care record."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "at the end of every day, their family is getting a summary of their day. This is what they did. This is what they ate.",
+     "speaker": null,
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 14915,
+     "approx_timestamp_s": 799
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "Pendant-based executive relationship lead magnet",
+   "one_liner": "Gift an AI pendant to a senior contact to demonstrate its value and open a conversation about workflow setup.",
+   "category": "b2b_service",
+   "business_model": "Lead generation for later automation or advisory work; no fee stated.",
+   "customer": "Executives or other high-value business contacts who could benefit from conversation capture and reminders.",
+   "problem": "Potential clients may not understand the device or know how to organize its recordings and use them in workflows.",
+   "offer": "Give a short no-charge trial, then offer help setting up processes around the device.",
+   "pricing": {
+    "model": "Free device trial as a relationship-building offer; follow-on service pricing not stated.",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "direct_mail_postcards",
+     "details": "The speaker describes sending a pendant to an executive, but does not describe a postcard.",
+     "quote": null
+    },
+    {
+     "channel": "other",
+     "details": "Direct personal gifting to a desired contact was proposed.",
+     "quote": null
+    }
+   ],
+   "delivery": "The provider supplies a pendant for a few days, then may configure reminders or other automated processes.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Limitless pendant"
+   ],
+   "startup_cost": "Device cost was estimated elsewhere at $100 each; other costs are not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Selecting and approaching a senior contact and delivering a physical gift requires human effort."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Account setup can be partly automated, but personal relationship and workflow discovery are human-led."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "The device records automatically; a person would configure how the recipient uses the output."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "A later service could be billed automatically, but the follow-on offer is unspecified."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Routine device guidance can be automated, while relationship-led consulting remains human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Gifting a device to build a business relationship works in the UK, though the value and cultural fit depend on the recipient."
+   },
+   "risks": [
+    "The device may be seen as intrusive or as an inappropriate gift.",
+    "The transcript gives no evidence that the approach converts into paid work."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "Hey Mark, I'm a big fan of you. Here's this AI pendant. It's called Limitless. Try it for 5 days.",
+     "speaker": null,
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 15750,
+     "approx_timestamp_s": 843
+    }
+   ]
+  },
+  {
+   "local_id": "I6",
+   "name": "AI conversation coaching for field sales teams",
+   "one_liner": "Record sales conversations, identify effective interactions and give managers faster coaching material.",
+   "category": "ai_automation",
+   "business_model": "Proposed flat fee or a share of sales improvement.",
+   "customer": "Sales organizations with in-person reps, including pest-control and home-service teams.",
+   "problem": "Managers cannot ride along with every salesperson, and field sales conversations are hard to review at scale.",
+   "offer": "Equip reps with pendants, transcribe conversations, surface strong examples and generate coaching recommendations.",
+   "pricing": {
+    "model": "Flat fee or percentage of increased sales; amounts not stated.",
+    "price_points": [],
+    "notes": "The speakers suggest linking payment to sales growth but provide no tested rate."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "networking_events",
+     "details": "The proposed first customer is an existing business contact from the speaker's former pest-control work.",
+     "quote": null
+    },
+    {
+     "channel": "door_to_door_in_person",
+     "details": "The service could be pitched to local sales businesses, but the transcript only describes approaching a known owner.",
+     "quote": null
+    }
+   ],
+   "delivery": "A provider distributes devices, collects recordings, uses AI to transcribe and analyze interactions, then gives managers examples and recommendations. Managers still coach reps and validate conclusions.",
+   "unit_economics_claims": [
+    "The speaker describes a past pest-control sales job where reps spent part of their day selling and part fulfilling service orders.",
+    "The proposed fee could be fixed or tied to increased sales; no amount or measured uplift is given."
+   ],
+   "tools": [
+    "Limitless pendant",
+    "ChatGPT"
+   ],
+   "startup_cost": "The speakers suggest buying five or ten devices; a device was estimated at $100 each. Other startup costs are not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "The example depends on getting permission to meet a sales owner and explain the pilot in person."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Devices and accounts can be prepared in batches, but employee instructions, consent and sales definitions require people."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Transcription and pattern finding can be automated, while interpreting sales context and coaching need human review."
+    },
+    "billing": {
+     "score_e": 2,
+     "how": "A flat fee can be automated; calculating a share of sales uplift requires agreed attribution and human verification."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Device questions can be triaged by software, but recording issues and disputes about coaching need human support."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "The sales-coaching use transfers, but employee monitoring, customer recording, data protection and lawful collection require UK-specific policies and consent."
+   },
+   "risks": [
+    "The speakers explicitly raise whether people being recorded must opt in and say recording laws vary by state.",
+    "UK deployment would need a lawful basis, appropriate notice and careful handling of employee and customer recordings.",
+    "Word counts or AI assessments may not reliably explain sales performance and could create misleading coaching."
+   ],
+   "is_primary": false,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "Now, in an eight hour day you could have written along with one guy and given them feedback.",
+     "speaker": null,
+     "match_score": 92.2,
+     "verified": true,
+     "char_offset": 17702,
+     "approx_timestamp_s": 948
+    },
+    {
+     "text": "I want you to pull out the five things he did best, like specific conversations, word for word, verbatim.",
+     "speaker": null,
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 19868,
+     "approx_timestamp_s": 1064
+    }
+   ]
+  },
+  {
+   "local_id": "I7",
+   "name": "Retail employee conversation and sales analysis",
+   "one_liner": "Use recorded customer interactions to find patterns and coach staff at a retail location.",
+   "category": "ai_automation",
+   "business_model": "Flat fee or percentage of sales uplift, as proposed for sales analytics generally.",
+   "customer": "Retail store owners with frontline employees and slow or inconsistent sales.",
+   "problem": "Owners may not know how staff actually interact with customers or why sales vary.",
+   "offer": "Have opted-in staff wear devices, analyze conversations and identify coaching or operational improvements.",
+   "pricing": {
+    "model": "Possibly flat fee or share of sales increase; no retail-specific price stated.",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "referrals_word_of_mouth",
+     "details": "The speaker suggests approaching a Crumbl owner they already know.",
+     "quote": null
+    }
+   ],
+   "delivery": "Staff wear recorders; AI analyzes transcripts and a provider reports patterns to the owner. Human review is needed before acting on recommendations.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Limitless pendant",
+    "ChatGPT"
+   ],
+   "startup_cost": "Device cost was estimated at $100 each; other costs are not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "The example begins with a personal approach to a known local owner."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Staff setup can be guided by software, but owner approval, staff notice and permissions require human coordination."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Transcription and pattern reports can be automated, with human review needed for context and accuracy."
+    },
+    "billing": {
+     "score_e": 2,
+     "how": "Fixed billing is easy to automate; revenue-share billing would need validated sales attribution."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Software can answer routine questions, but staff and customer recording concerns need human handling."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Retail sales analytics transfers, but customer and employee recording, privacy notices and workplace monitoring need UK-specific handling."
+   },
+   "risks": [
+    "Staff or customers may object to recording, and consent and transparency are essential.",
+    "An owner could misread correlations in conversation data as proof of cause."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": []
+  },
+  {
+   "local_id": "I8",
+   "name": "Remote employee productivity monitoring",
+   "one_liner": "Use a pendant to capture work conversations and generate performance or efficiency recommendations for remote staff.",
+   "category": "ai_automation",
+   "business_model": "Potential employer-paid monitoring and analytics service; pricing not stated.",
+   "customer": "Employers managing remote employees.",
+   "problem": "The speaker says employers are looking for ways to track productivity, efficiency and performance when staff work remotely.",
+   "offer": "Provide a recording device and AI-generated summaries or recommendations about employee activity.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": "A $100 device purchase is suggested as an example of employer equipment spending."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "The transcript proposes mailing a pendant to employees; it does not describe customer acquisition for the service.",
+     "quote": null
+    }
+   ],
+   "delivery": "Employees would wear a device and software would summarize or assess work conversations; employer review would follow.",
+   "unit_economics_claims": [
+    "A $100 pendant is contrasted with a $1,000 laptop as an illustrative equipment cost."
+   ],
+   "tools": [
+    "Limitless pendant"
+   ],
+   "startup_cost": "$100 per device was proposed as an example; other costs are not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Employer leads could be handled online, but no acquisition method is described."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Enrollment can be automated, but the employer must define policy and inform staff."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Transcripts and summaries can be generated automatically, but judgments about performance need human review."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "A per-seat subscription could be billed automatically once set up."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Routine technical support can be automated, but complaints and workplace disputes require people."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "The concept transfers, but UK employee-monitoring, privacy and workplace consultation requirements need careful adaptation."
+   },
+   "risks": [
+    "Continuous recording at work can damage trust and create serious privacy concerns.",
+    "The transcript provides no validation for the remote-work productivity statistic."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": []
+  },
+  {
+   "local_id": "I9",
+   "name": "Couples therapy conversation analysis",
+   "one_liner": "Offer consenting couples recorded-session analysis to help a therapist understand communication patterns.",
+   "category": "ai_automation",
+   "business_model": "Therapist charges clients an added hourly amount and shares a portion with the service provider.",
+   "customer": "Marriage therapists and couples who agree to record sessions or conversations.",
+   "problem": "A therapist may receive biased or incomplete accounts of interactions between sessions.",
+   "offer": "Record agreed conversations and use AI to summarize tone, speaking balance and communication patterns for the therapist.",
+   "pricing": {
+    "model": "Therapist upcharge with revenue share.",
+    "price_points": [
+     {
+      "amount": 50,
+      "currency": "USD",
+      "unit": "per hour increase",
+      "label": "Proposed client price increase"
+     },
+     {
+      "amount": 50,
+      "currency": null,
+      "unit": "percent of the increase",
+      "label": "Proposed provider share"
+     },
+     {
+      "amount": 150,
+      "currency": "USD",
+      "unit": "per hour",
+      "label": "Friend's stated current therapy rate"
+     }
+    ],
+    "notes": "The $150 rate is described as a friend's existing price; the $50 increase and half-share are hypothetical."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "referrals_word_of_mouth",
+     "details": "The speaker proposes approaching a friend who works as a marriage therapist.",
+     "quote": null
+    }
+   ],
+   "delivery": "The therapist invites consenting clients to use the device; recordings are analyzed and summarized for clinical discussion. A human therapist interprets results.",
+   "unit_economics_claims": [
+    "The therapist friend is said to charge $150 per hour.",
+    "The proposed offer adds $50 per hour, with half of the increase going to the service provider."
+   ],
+   "tools": [
+    "Limitless pendant",
+    "AI conversation analysis"
+   ],
+   "startup_cost": "Device cost was estimated at $100 each elsewhere; other costs are not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "The proposed initial sale relies on a personal relationship with a therapist."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "Each couple needs clear informed consent and therapist-led setup."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Summaries can be generated by software, but clinical interpretation and safeguarding require a therapist."
+    },
+    "billing": {
+     "score_e": 2,
+     "how": "The therapist could bill clients normally, but calculating and reconciling a revenue share needs agreed reporting."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Sensitive relationship or mental-health concerns require human support."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "The service could be used in UK private therapy, but sensitive personal data, informed consent, clinical ethics and professional standards require adaptation."
+   },
+   "risks": [
+    "Recording intimate conversations creates high privacy and confidentiality risks.",
+    "AI labels such as aggressive or passive could be harmful or misleading without clinical interpretation.",
+    "The proposed price uplift and revenue share have not been tested."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "I've got this thing. I want you to give it to your patients that agree to it that that opt in for it, and it can enable you to charge $50 an hour more",
+     "speaker": null,
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 24200,
+     "approx_timestamp_s": 1296
+    }
+   ]
+  },
+  {
+   "local_id": "I10",
+   "name": "Missionary performance coaching",
+   "one_liner": "Analyze opted-in missionaries' conversations and daily activity to identify practices associated with stronger outcomes.",
+   "category": "ai_automation",
+   "business_model": "Potential organization-paid analytics or coaching; pricing not stated.",
+   "customer": "A mission president or similar organization leader responsible for field teams.",
+   "problem": "Leaders may not know which behaviors distinguish high-performing team members.",
+   "offer": "Collect recordings and use AI to compare activities and surface practices for coaching.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "partnerships",
+     "details": "The proposal depends on a mission leader authorizing a pilot.",
+     "quote": null
+    }
+   ],
+   "delivery": "Participants wear devices; AI analyzes conversations and activity; a human leader reviews comparisons and coaches the group.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Limitless pendant",
+    "ChatGPT"
+   ],
+   "startup_cost": "Device cost was estimated at $100 each elsewhere; total costs are not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "A leader must approve and sponsor the program."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "Participants need instructions, notice and agreement before recording."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Analysis can be automated, but human review is necessary before drawing conclusions about people."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "An organizational contract could be billed automatically after manual approval."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Questions about surveillance, consent and individual performance need human handling."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "The coaching concept transfers, but religious and organizational context, consent and recording rules vary."
+   },
+   "risks": [
+    "The transcript itself raises whether people being recorded must opt in.",
+    "Comparisons between individuals could be unfair if activities, routes or circumstances differ."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": []
+  },
+  {
+   "local_id": "I11",
+   "name": "AI OSINT and background research service",
+   "one_liner": "Use AI research tools to gather publicly available information about prospective hires or business counterparties.",
+   "category": "b2b_service",
+   "business_model": "Possible monthly research subscription or paid investigation service.",
+   "customer": "Companies screening new hires, or businesses researching people they may negotiate with.",
+   "problem": "Manual searches across public records and social media take time and make it difficult to reconcile names and records.",
+   "offer": "Run AI-assisted searches and produce an organized report from public information.",
+   "pricing": {
+    "model": "A monthly service was suggested; price not validated.",
+    "price_points": [
+     {
+      "amount": 200,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "Hypothetical company background-research subscription"
+     }
+    ],
+    "notes": "The $200 monthly amount is a speaker's hypothetical willingness-to-pay example."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "The transcript proposes selling research to companies but gives no customer acquisition process.",
+     "quote": null
+    }
+   ],
+   "delivery": "AI searches and summarizes information; a human should verify identities, sources and relevance before a report is used.",
+   "unit_economics_claims": [
+    "A speaker suggests a company might pay $200 per month for research on new hires."
+   ],
+   "tools": [
+    "OpenAI Deep Research",
+    "Google",
+    "Facebook",
+    "Twitter",
+    "Secretary of State website"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "A service could market through a website, but no working acquisition channel is described."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Clients can submit names and research questions through forms, with human review of purpose and scope."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "AI can gather and summarize public information, but identity matching and source verification need human checks."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "A subscription or per-report fee can be collected automatically."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Agents can handle routine questions, but disputes about personal data or inaccurate reports need human review."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Public-source research can be done in the UK, but personal-data processing, employment screening and data accuracy require UK-specific legal and procedural safeguards."
+   },
+   "risks": [
+    "The speaker describes using an OSINT prompt to get around a tool's initial refusal; this raises platform-policy and privacy concerns.",
+    "Incorrect identity matches or unverified allegations could harm a person or lead to unfair hiring decisions.",
+    "UK employment screening and personal-data rules require a clear purpose and careful handling."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "Why would you not pay 200 bucks a month to have this and do research on new hires?",
+     "speaker": null,
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 30265,
+     "approx_timestamp_s": 1621
+    }
+   ]
+  },
+  {
+   "local_id": "I12",
+   "name": "Pay-per-use Deep Research website",
+   "one_liner": "Let users run Deep Research prompts through a website and pay per query instead of subscribing.",
+   "category": "saas_software",
+   "business_model": "Pay per query, with possible unlimited subscription plans.",
+   "customer": "People who need occasional deep research and do not want a full monthly subscription.",
+   "problem": "Many users may not need a research tool often enough to justify a recurring subscription.",
+   "offer": "A website that accepts prompts and returns Deep Research results using an API.",
+   "pricing": {
+    "model": "Per-use charge, with possible unlimited plans.",
+    "price_points": [
+     {
+      "amount": 1,
+      "currency": "USD",
+      "unit": "per prompt",
+      "label": "Proposed query price"
+     },
+     {
+      "amount": 0.3,
+      "amount_max": 0.5,
+      "currency": "USD",
+      "unit": "estimated cost per prompt",
+      "label": "Speaker's estimated API cost"
+     },
+     {
+      "amount": 5,
+      "currency": "USD",
+      "unit": "trial purchase",
+      "label": "Example amount a user might pay to try it"
+     }
+    ],
+    "notes": "The speaker says the Deep Research API was not yet available, so this was a future concept rather than a launched service."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "seo_organic_search",
+     "details": "A public website is proposed, but no search or marketing plan is stated.",
+     "quote": null
+    }
+   ],
+   "delivery": "A user submits a prompt through a site; the service would call an API, return results and charge per use. The speaker says the required API was not available yet.",
+   "unit_economics_claims": [
+    "The proposed charge is $1 per prompt.",
+    "The speaker estimates API cost at $0.30 to $0.50 per prompt."
+   ],
+   "tools": [
+    "OpenAI Deep Research",
+    "OpenAI API",
+    "Website"
+   ],
+   "startup_cost": "Not stated; API availability was described as a blocker.",
+   "time_to_first_revenue": "Not stated; the speaker says the Deep Research API is not available yet.",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "A public website and inbound search could attract users, but the transcript gives no proven channel."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "A form and payment flow can collect prompts and payment automatically."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "The proposed product is software-mediated API delivery, subject to API availability and safeguards."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Per-use payments can be processed automatically."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Automated help can handle common issues, while failed research results and billing disputes need review."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "A paid research website can serve UK users, subject to data protection, consumer terms, tax and platform availability."
+   },
+   "risks": [
+    "The required API was stated to be unavailable, so the service could not be built as described at the time of the discussion.",
+    "The estimated per-query cost leaves a limited margin before payment fees, support and other operating costs.",
+    "Research prompts may involve sensitive personal information or harmful uses."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "anyone can use my pro version API to run deep research prompts on anything they want for a buck.",
+     "speaker": null,
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 30576,
+     "approx_timestamp_s": 1638
+    }
+   ]
+  },
+  {
+   "local_id": "I13",
+   "name": "Voice-based personal context for AI assistants",
+   "one_liner": "Use recorded conversations to build a personal context archive that helps an AI give more tailored advice.",
+   "category": "ai_automation",
+   "business_model": "Potential personal data or AI-context service; no paying customer or price is specified.",
+   "customer": "People who want AI tools to understand their background, preferences and experience.",
+   "problem": "AI tools often lack enough personal context to make tailored recommendations.",
+   "offer": "Capture and summarize a person's conversations, then make the resulting context available to an AI assistant.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "No customer acquisition method is proposed.",
+     "quote": null
+    }
+   ],
+   "delivery": "A pendant records speech, software creates a personal summary or data archive, and the user uploads it to an AI assistant.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Limitless pendant",
+    "OpenAI",
+    "ChatGPT",
+    "Custom GPT"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "The product could be sold online, but no acquisition method or audience is described."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "A user could connect recordings and preferences through software, with human choices about what to retain."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Summarizing recordings and providing context to an AI could be automated after the user configures permissions."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "A subscription could be billed automatically if a product and plan were created."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Routine help can be automated, but privacy and data-deletion requests need human oversight."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "The use case transfers, but personal recordings and profile data need strong UK privacy, consent and deletion controls."
+   },
+   "risks": [
+    "A personal data archive could expose highly sensitive information if stored or uploaded insecurely.",
+    "The transcript describes a use case, not a validated commercial offer."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "it reduces the amount of time it takes for you to get AI up to speed on who you are",
+     "speaker": null,
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 35155,
+     "approx_timestamp_s": 1883
+    }
+   ]
+  },
+  {
+   "local_id": "I14",
+   "name": "AI-assisted business and property acquisition research",
+   "one_liner": "Use deep research to find owners and gather public information for people searching for businesses or properties to buy.",
+   "category": "b2b_service",
+   "business_model": "Potential research service for acquisition entrepreneurs; no fee or provider model stated.",
+   "customer": "Business buyers, real-estate investors and searchers trying to identify or contact an owner.",
+   "problem": "Buyers may struggle to find owners and reconcile names and public records.",
+   "offer": "Use AI research to identify businesses, owners and contact information from public sources.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "The transcript describes research examples, not customer acquisition for a research service.",
+     "quote": null
+    }
+   ],
+   "delivery": "The user supplies a target description; a research tool searches public information and returns leads that need manual verification.",
+   "unit_economics_claims": [],
+   "tools": [
+    "OpenAI Deep Research",
+    "Secretary of State website"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Potential customers could be reached online, but no customer channel is described."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "A form could collect a target business, location and acquisition criteria."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "AI can search and compile information, but identity matching and contact accuracy need human verification."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "A research report or subscription could be billed automatically."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "A human should handle errors, ambiguous records and data-source questions."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "The research service transfers, but UK company records, privacy rules and data sources differ from US state records."
+   },
+   "risks": [
+    "The transcript's examples rely on US locations and Secretary of State records.",
+    "AI may confuse people with similar names or return inaccurate contact details."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": []
+  },
+  {
+   "local_id": "I15",
+   "name": "RV park acquisition",
+   "one_liner": "Buy an RV park after identifying and contacting its owner.",
+   "category": "acquisition_buy_business",
+   "business_model": "Acquire and operate a property or park; operating model and economics are not discussed.",
+   "customer": "RV park guests, if the buyer operates the property.",
+   "problem": "Not stated.",
+   "offer": "Not stated; the transcript only mentions helping someone find an RV park to buy.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "A buyer was having trouble reaching a specific park owner; the transcript does not state the outreach method.",
+     "quote": null
+    }
+   ],
+   "delivery": "Not stated.",
+   "unit_economics_claims": [],
+   "tools": [
+    "OpenAI Deep Research"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Finding and buying a physical property requires negotiation and human due diligence."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "Not stated; property transfer and operator setup would be human-led."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Operating a physical RV park requires on-site services and maintenance."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Reservations and payments may be handled by software, but the transcript gives no operating details."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Guest and property issues require human response."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 1,
+    "notes": "The example is an RV park in the US; UK holiday parks differ in property rules, operating context and market structure."
+   },
+   "risks": [
+    "No purchase price, operating figures, financing plan or due-diligence process is given."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": []
+  },
+  {
+   "local_id": "I16",
+   "name": "Wholesale souvenir distributor acquisition",
+   "one_liner": "Acquire a B2B distributor that sells souvenirs to parks and souvenir shops.",
+   "category": "acquisition_buy_business",
+   "business_model": "Buy an established wholesale distributor and earn recurring B2B sales.",
+   "customer": "State parks, national parks and souvenir shops.",
+   "problem": "Not stated; the searcher in the story views the market as durable and relatively concentrated.",
+   "offer": "Wholesale souvenirs to retail locations and parks; product and operating details are not stated.",
+   "pricing": {
+    "model": "B2B wholesale sales; prices not stated.",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "A business buyer proposed finding distributors near his home and contacting them; no specific method was given.",
+     "quote": null
+    }
+   ],
+   "delivery": "Not stated; the transcript identifies the target as a wholesale distributor serving parks and shops.",
+   "unit_economics_claims": [
+    "The searcher described the margins as high and sales as recurring, without figures."
+   ],
+   "tools": [
+    "OpenAI Deep Research"
+   ],
+   "startup_cost": "Acquisition cost not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Acquiring a distributor requires human sourcing, due diligence and negotiation."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "Not stated; taking over supplier and customer relationships would be human-led."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Wholesale orders, inventory and shipping involve physical products and people."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Invoices and payment reminders could be automated, but the operating system is not discussed."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Retail and supplier relationship issues require human support."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "A UK wholesale souvenir distributor could serve parks and shops, but the transcript's stated market and target count are US-specific."
+   },
+   "risks": [
+    "The durability, market size and high-margin claims are second-hand and unsupported by operating figures.",
+    "Inventory, supplier concentration and seasonality are not discussed."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "They never go out of business. There's not a lot of them. The margins are high. It's B2B. It's very recurring.",
+     "speaker": null,
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 33855,
+     "approx_timestamp_s": 1813
+    }
+   ]
+  },
+  {
+   "local_id": "I17",
+   "name": "Off-the-shelf home security reseller",
+   "one_liner": "Resell and install an off-the-shelf security system, then charge a recurring fee for ongoing help.",
+   "category": "home_service",
+   "business_model": "Device resale, installation, monthly fee and repair support.",
+   "customer": "Homeowners who want a security system installed and maintained.",
+   "problem": "Homeowners may want an alarm system without choosing and managing all the technology themselves.",
+   "offer": "Install an off-the-shelf system and provide ongoing support.",
+   "pricing": {
+    "model": "Device or setup fee plus monthly charge; amounts not stated.",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "A person installs equipment and returns to fix problems; this was used as an analogy for the pendant service.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Off-the-shelf alarm system"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "The transcript gives no acquisition process; selling home installation usually needs local human selling."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "A home survey and installation details require a person."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical installation and repair work must be performed by a person."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Monthly payments can be collected automatically after installation."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "The described model includes people fixing equipment when it breaks."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "The reseller model can operate in the UK, with local product standards, installation practices and security requirements."
+   },
+   "risks": [
+    "This was an analogy rather than a business the speakers said they operate.",
+    "Installation, maintenance and service calls prevent the business from being fully unattended."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": []
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "A physician who previously saw ten people per day could potentially see fifteen or twenty with a scribe.",
+   "metric": "customers",
+   "value": {
+    "amount": 10,
+    "amount_max": 20,
+    "currency": null,
+    "unit": "patients per day",
+    "label": "Before and after scribe comparison"
+   },
+   "period": "per day",
+   "claimant": "Speaker unclear",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "So a physician who could have seen 10 people per day is now all of a sudden able to see 15 or 20 people per day, right?",
+    "speaker": null,
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7693,
+    "approx_timestamp_s": 412
+   }
+  },
+  {
+   "claim": "A pendant was estimated to cost $100 each.",
+   "metric": "cost",
+   "value": {
+    "amount": 100,
+    "currency": "USD",
+    "unit": "per device",
+    "label": "Estimated pendant cost"
+   },
+   "period": null,
+   "claimant": "Speaker unclear",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "I think there's a world where someone could just buy a dozen of these, 100 bucks a piece, and walk into doctor's office",
+    "speaker": null,
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9845,
+    "approx_timestamp_s": 527
+   }
+  },
+  {
+   "claim": "A dozen devices could be purchased as an initial batch.",
+   "metric": "customers",
+   "value": {
+    "amount": 12,
+    "currency": null,
+    "unit": "devices",
+    "label": "Suggested initial batch"
+   },
+   "period": null,
+   "claimant": "Speaker unclear",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "I think there's a world where someone could just buy a dozen of these, 100 bucks a piece, and walk into doctor's office",
+    "speaker": null,
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9845,
+    "approx_timestamp_s": 527
+   }
+  },
+  {
+   "claim": "The proposed physician service price is $1,500 per month.",
+   "metric": "price",
+   "value": {
+    "amount": 1500,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "Proposed service fee"
+   },
+   "period": "per month",
+   "claimant": "Speaker unclear",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "It's $1,500 a month and you won't need a scribe anymore. I'll just manage all this for you.",
+    "speaker": null,
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 153,
+    "approx_timestamp_s": 8
+   }
+  },
+  {
+   "claim": "A suggested physician pilot would provide five or ten pendants.",
+   "metric": "customers",
+   "value": {
+    "amount": 5,
+    "amount_max": 10,
+    "currency": null,
+    "unit": "devices",
+    "label": "Suggested pilot batch"
+   },
+   "period": null,
+   "claimant": "Speaker unclear",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "I would buy like five or 10 of these and I would take them to physicians and just give it to them and be like, just wear this for two days.",
+    "speaker": null,
+    "match_score": 97.1,
+    "verified": true,
+    "char_offset": 10653,
+    "approx_timestamp_s": 570
+   }
+  },
+  {
+   "claim": "The physician pilot would last two days.",
+   "metric": "other",
+   "value": {
+    "amount": 2,
+    "currency": null,
+    "unit": "days",
+    "label": "Suggested trial length"
+   },
+   "period": null,
+   "claimant": "Speaker unclear",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "I would buy like five or 10 of these and I would take them to physicians and just give it to them and be like, just wear this for two days.",
+    "speaker": null,
+    "match_score": 97.1,
+    "verified": true,
+    "char_offset": 10653,
+    "approx_timestamp_s": 570
+   }
+  },
+  {
+   "claim": "The speaker predicts that 90 percent of doctors would quickly see a use for the device.",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 90,
+    "currency": null,
+    "unit": "percent",
+    "label": "Speaker's prediction"
+   },
+   "period": null,
+   "claimant": "Speaker unclear",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "I think 90% of doctors would wear it once and immediately be like, I know exactly how I would use this.",
+    "speaker": null,
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11289,
+    "approx_timestamp_s": 604
+   }
+  },
+  {
+   "claim": "The speaker describes wearing a Limitless pendant every day for three weeks.",
+   "metric": "other",
+   "value": {
+    "amount": 3,
+    "currency": null,
+    "unit": "weeks",
+    "label": "Reported device use"
+   },
+   "period": "three weeks",
+   "claimant": "Chris Koerner, likely",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "I've been wearing it all day every day for the last 3 weeks since I got it and it's getting better",
+    "speaker": null,
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9673,
+    "approx_timestamp_s": 518
+   }
+  },
+  {
+   "claim": "The proposed assisted-living pilot would provide devices to two residents.",
+   "metric": "customers",
+   "value": {
+    "amount": 2,
+    "currency": null,
+    "unit": "residents",
+    "label": "Suggested pilot"
+   },
+   "period": null,
+   "claimant": "Speaker unclear",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "give this to two of your residents and this could, you know, potentially be an upsell for them",
+    "speaker": null,
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14814,
+    "approx_timestamp_s": 793
+   }
+  },
+  {
+   "claim": "An executive could be given a pendant to try for five days.",
+   "metric": "other",
+   "value": {
+    "amount": 5,
+    "currency": null,
+    "unit": "days",
+    "label": "Suggested trial length"
+   },
+   "period": null,
+   "claimant": "Speaker unclear",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "Here's this AI pendant. It's called Limitless. Try it for 5 days. I just want to see, you know, as a thank you on me.",
+    "speaker": null,
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15780,
+    "approx_timestamp_s": 845
+   }
+  },
+  {
+   "claim": "A sales manager could spend an eight-hour day riding along with one salesperson.",
+   "metric": "hours",
+   "value": {
+    "amount": 8,
+    "currency": null,
+    "unit": "hours",
+    "label": "Illustrative workday"
+   },
+   "period": "per day",
+   "claimant": "Speaker unclear",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "Now, in an eight hour day you could have written along with one guy and given them feedback.",
+    "speaker": null,
+    "match_score": 92.2,
+    "verified": true,
+    "char_offset": 17702,
+    "approx_timestamp_s": 948
+   }
+  },
+  {
+   "claim": "A speaker says remote work resulted in one lost day of productivity per week.",
+   "metric": "other",
+   "value": {
+    "amount": 1,
+    "currency": null,
+    "unit": "day per week",
+    "label": "Reported productivity claim"
+   },
+   "period": "per week",
+   "claimant": "Speaker unclear",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I8",
+   "quote": {
+    "text": "One of the stats that I've heard is remote work actually resulted in a in one lost day a week of productivity.",
+    "speaker": null,
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21216,
+    "approx_timestamp_s": 1136
+   }
+  },
+  {
+   "claim": "The remote-work comparison says a five-day home worker does the work of someone in the office in four days.",
+   "metric": "other",
+   "value": {
+    "amount": 5,
+    "amount_max": 5,
+    "currency": null,
+    "unit": "workdays per week, compared with four office days",
+    "label": "Unverified productivity comparison"
+   },
+   "period": "per week",
+   "claimant": "Speaker unclear",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I8",
+   "quote": {
+    "text": "So anybody who works from home 5 days a week is actually doing what somebody in the office would do in 4 days a week.",
+    "speaker": null,
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21329,
+    "approx_timestamp_s": 1142
+   }
+  },
+  {
+   "claim": "A pendant is described as a $100 equipment investment, compared with a $1,000 laptop.",
+   "metric": "cost",
+   "value": {
+    "amount": 100,
+    "currency": "USD",
+    "unit": "per pendant",
+    "label": "Illustrative employee equipment cost"
+   },
+   "period": null,
+   "claimant": "Speaker unclear",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I8",
+   "quote": {
+    "text": "A $100 investment. You're going to buy a $1,000 laptop for them and whatever else equipment they need at home",
+    "speaker": null,
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21698,
+    "approx_timestamp_s": 1162
+   }
+  },
+  {
+   "claim": "A laptop was described as a $1,000 employee equipment purchase.",
+   "metric": "cost",
+   "value": {
+    "amount": 1000,
+    "currency": "USD",
+    "unit": "per laptop",
+    "label": "Illustrative equipment cost"
+   },
+   "period": null,
+   "claimant": "Speaker unclear",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I8",
+   "quote": {
+    "text": "A $100 investment. You're going to buy a $1,000 laptop for them and whatever else equipment they need at home",
+    "speaker": null,
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21698,
+    "approx_timestamp_s": 1162
+   }
+  },
+  {
+   "claim": "The therapist friend is said to charge $150 per hour.",
+   "metric": "price",
+   "value": {
+    "amount": 150,
+    "currency": "USD",
+    "unit": "per hour",
+    "label": "Reported current therapy rate"
+   },
+   "period": "per hour",
+   "claimant": "Speaker unclear, describing a friend",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I9",
+   "quote": {
+    "text": "I have a friend that's a a marriage therapist, okay? And he charges 150 an hour.",
+    "speaker": null,
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24085,
+    "approx_timestamp_s": 1290
+   }
+  },
+  {
+   "claim": "The proposed therapy service would allow a $50 per-hour price increase.",
+   "metric": "price",
+   "value": {
+    "amount": 50,
+    "currency": "USD",
+    "unit": "per hour increase",
+    "label": "Hypothetical price increase"
+   },
+   "period": "per hour",
+   "claimant": "Speaker unclear",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I9",
+   "quote": {
+    "text": "it can enable you to charge $50 an hour more because you're going to have an inside peak into their life.",
+    "speaker": null,
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24304,
+    "approx_timestamp_s": 1302
+   }
+  },
+  {
+   "claim": "The proposed provider would receive half of the therapy price increase.",
+   "metric": "margin",
+   "value": {
+    "amount": 50,
+    "currency": null,
+    "unit": "percent of the increase",
+    "label": "Proposed revenue share"
+   },
+   "period": null,
+   "claimant": "Speaker unclear",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I9",
+   "quote": {
+    "text": "And of that $50 an hour more, you're going to give me half of it, and I'm just going to manage this whole process.",
+    "speaker": null,
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24418,
+    "approx_timestamp_s": 1308
+   }
+  },
+  {
+   "claim": "A pest-control service order included 30 seconds of spraying powder, according to the speaker's account of a former job.",
+   "metric": "hours",
+   "value": {
+    "amount": 30,
+    "currency": null,
+    "unit": "seconds per service order",
+    "label": "Speaker's description of fulfillment work"
+   },
+   "period": null,
+   "claimant": "Speaker unclear",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "which we learned on a previous episode is 30 seconds of spraying one can of powder around a house.",
+    "speaker": null,
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16786,
+    "approx_timestamp_s": 899
+   }
+  },
+  {
+   "claim": "A hypothetical retail sales example assigns 3,400 words to one employee.",
+   "metric": "other",
+   "value": {
+    "amount": 3400,
+    "currency": null,
+    "unit": "spoken words",
+    "label": "Illustrative employee example"
+   },
+   "period": "per day",
+   "claimant": "Speaker unclear",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "John spoke 3,400 words. Peter spoke 2100 and Mary spoke 400.",
+    "speaker": null,
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22481,
+    "approx_timestamp_s": 1204
+   }
+  },
+  {
+   "claim": "A hypothetical retail sales example assigns 2,100 words to one employee.",
+   "metric": "other",
+   "value": {
+    "amount": 2100,
+    "currency": null,
+    "unit": "spoken words",
+    "label": "Illustrative employee example"
+   },
+   "period": "per day",
+   "claimant": "Speaker unclear",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "John spoke 3,400 words. Peter spoke 2100 and Mary spoke 400.",
+    "speaker": null,
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22481,
+    "approx_timestamp_s": 1204
+   }
+  },
+  {
+   "claim": "A hypothetical retail sales example assigns 400 words to one employee.",
+   "metric": "other",
+   "value": {
+    "amount": 400,
+    "currency": null,
+    "unit": "spoken words",
+    "label": "Illustrative employee example"
+   },
+   "period": "per day",
+   "claimant": "Speaker unclear",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "John spoke 3,400 words. Peter spoke 2100 and Mary spoke 400.",
+    "speaker": null,
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22481,
+    "approx_timestamp_s": 1204
+   }
+  },
+  {
+   "claim": "A hypothetical route comparison gives one salesperson a 45-minute drive between houses.",
+   "metric": "hours",
+   "value": {
+    "amount": 45,
+    "currency": null,
+    "unit": "minutes between houses",
+    "label": "Illustrative route comparison"
+   },
+   "period": null,
+   "claimant": "Speaker unclear",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "Well, my route isn't really efficient. I'm driving 45 minutes in between houses. John's only driving five minutes between houses.",
+    "speaker": null,
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22716,
+    "approx_timestamp_s": 1216
+   }
+  },
+  {
+   "claim": "A hypothetical route comparison gives another salesperson a five-minute drive between houses.",
+   "metric": "hours",
+   "value": {
+    "amount": 5,
+    "currency": null,
+    "unit": "minutes between houses",
+    "label": "Illustrative route comparison"
+   },
+   "period": null,
+   "claimant": "Speaker unclear",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "Well, my route isn't really efficient. I'm driving 45 minutes in between houses. John's only driving five minutes between houses.",
+    "speaker": null,
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22716,
+    "approx_timestamp_s": 1216
+   }
+  },
+  {
+   "claim": "A suggested company background-research service could cost $200 per month.",
+   "metric": "price",
+   "value": {
+    "amount": 200,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "Hypothetical subscription price"
+   },
+   "period": "per month",
+   "claimant": "Speaker unclear",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I11",
+   "quote": {
+    "text": "Why would you not pay 200 bucks a month to have this and do research on new hires?",
+    "speaker": null,
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 30265,
+    "approx_timestamp_s": 1621
+   }
+  },
+  {
+   "claim": "The Deep Research website was proposed to charge $1 per prompt.",
+   "metric": "price",
+   "value": {
+    "amount": 1,
+    "currency": "USD",
+    "unit": "per prompt",
+    "label": "Proposed pay-per-use price"
+   },
+   "period": null,
+   "claimant": "Speaker unclear",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I12",
+   "quote": {
+    "text": "anyone can use my pro version API to run deep research prompts on anything they want for a buck.",
+    "speaker": null,
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 30576,
+    "approx_timestamp_s": 1638
+   }
+  },
+  {
+   "claim": "Estimated API cost for a Deep Research prompt was 30 to 50 cents.",
+   "metric": "cost",
+   "value": {
+    "amount": 0.3,
+    "amount_max": 0.5,
+    "currency": "USD",
+    "unit": "per prompt",
+    "label": "Speaker's estimated API cost"
+   },
+   "period": null,
+   "claimant": "Speaker unclear",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I12",
+   "quote": {
+    "text": "And my cost on that based on token usage would be 30 to 50 cents. So not like a huge margin, but that's fine.",
+    "speaker": null,
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 30710,
+    "approx_timestamp_s": 1645
+   }
+  },
+  {
+   "claim": "A user might pay $5 to try Deep Research a couple of times.",
+   "metric": "price",
+   "value": {
+    "amount": 5,
+    "currency": "USD",
+    "unit": "trial purchase",
+    "label": "Hypothetical user payment"
+   },
+   "period": null,
+   "claimant": "Speaker unclear",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I12",
+   "quote": {
+    "text": "but they'll pay five bucks to try it a couple times. You know what I mean?",
+    "speaker": null,
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 31536,
+    "approx_timestamp_s": 1689
+   }
+  },
+  {
+   "claim": "The speaker says a user would need 200 prompts to reach the cited $200 monthly subscription threshold.",
+   "metric": "other",
+   "value": {
+    "amount": 200,
+    "currency": null,
+    "unit": "prompts",
+    "label": "Hypothetical monthly usage comparison"
+   },
+   "period": "per month",
+   "claimant": "Speaker unclear",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I12",
+   "quote": {
+    "text": "And in order to hit the threshold, they'd have to do 200 prompts, which is a lot of prompts, right?",
+    "speaker": null,
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 31327,
+    "approx_timestamp_s": 1678
+   }
+  },
+  {
+   "claim": "The speaker says it took ten minutes for Deep Research to return information about a person.",
+   "metric": "hours",
+   "value": {
+    "amount": 10,
+    "currency": null,
+    "unit": "minutes",
+    "label": "Reported research wait"
+   },
+   "period": null,
+   "claimant": "Speaker unclear",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I11",
+   "quote": {
+    "text": "10 minutes go by. It's Yeah, that's it. It's like processing.",
+    "speaker": null,
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 27993,
+    "approx_timestamp_s": 1499
+   }
+  },
+  {
+   "claim": "The speaker says the research returned a record of an arrest in 2023.",
+   "metric": "other",
+   "value": {
+    "amount": 2023,
+    "currency": null,
+    "unit": "year",
+    "label": "Year mentioned in research example"
+   },
+   "period": null,
+   "claimant": "Speaker unclear",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I11",
+   "quote": {
+    "text": "It's like processing. It's like, okay, he owns these businesses. He was arrested in 2023 for this.",
+    "speaker": null,
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 28030,
+    "approx_timestamp_s": 1501
+   }
+  },
+  {
+   "claim": "A searcher said there were about 150 wholesale souvenir distributors in the US.",
+   "metric": "customers",
+   "value": {
+    "amount": 150,
+    "currency": null,
+    "unit": "distributors",
+    "label": "Searcher's estimate of US market size"
+   },
+   "period": null,
+   "claimant": "Speaker unclear, recounting a searcher's claim",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I16",
+   "quote": {
+    "text": "There's only like 150 of them in the US. How do I find them?",
+    "speaker": null,
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 33971,
+    "approx_timestamp_s": 1819
+   }
+  },
+  {
+   "claim": "A speaker says ten missionaries in the example baptize ten people per month.",
+   "metric": "customers",
+   "value": {
+    "amount": 10,
+    "currency": null,
+    "unit": "people baptized per month",
+    "label": "Illustrative high-performance example"
+   },
+   "period": "per month",
+   "claimant": "Speaker unclear",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I10",
+   "quote": {
+    "text": "Imagine if all 100 missionaries were wearing these. That would actually be really cool. That would be very cool. Like, hey, these guys are baptizing 10 people a month.",
+    "speaker": null,
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25515,
+    "approx_timestamp_s": 1366
+   }
+  },
+  {
+   "claim": "The missionary example gives an average of two baptisms per month.",
+   "metric": "customers",
+   "value": {
+    "amount": 2,
+    "currency": null,
+    "unit": "people baptized per month",
+    "label": "Illustrative average"
+   },
+   "period": "per month",
+   "claimant": "Speaker unclear",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I10",
+   "quote": {
+    "text": "these guys are baptizing 10 people a month. The average is two a month. What are you doing?",
+    "speaker": null,
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25634,
+    "approx_timestamp_s": 1373
+   }
+  },
+  {
+   "claim": "The missionary example refers to a group of 100 people.",
+   "metric": "customers",
+   "value": {
+    "amount": 100,
+    "currency": null,
+    "unit": "missionaries",
+    "label": "Illustrative group size"
+   },
+   "period": null,
+   "claimant": "Speaker unclear",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I10",
+   "quote": {
+    "text": "Imagine if all 100 missionaries were wearing these. That would actually be really cool.",
+    "speaker": null,
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25515,
+    "approx_timestamp_s": 1366
+   }
+  },
+  {
+   "claim": "The speaker proposes a five- or ten-device pilot for a sales team.",
+   "metric": "customers",
+   "value": {
+    "amount": 5,
+    "amount_max": 10,
+    "currency": null,
+    "unit": "devices",
+    "label": "Suggested team pilot"
+   },
+   "period": null,
+   "claimant": "Speaker unclear",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "I would go to Danny. I would buy five or 10 of these. I would say, can I sit in on your meetings with you?",
+    "speaker": null,
+    "match_score": 96.1,
+    "verified": true,
+    "char_offset": 19069,
+    "approx_timestamp_s": 1021
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Pilot the physician workflow with loaner devices",
+   "area": "validation_testing",
+   "steps": [
+    "Buy a small set of devices and approach a physician or clinic in person.",
+    "Offer a short trial and explain what is recorded, where it is stored and how to turn it off.",
+    "Show the physician a sample summary, then map any approved note workflow to the clinic's systems.",
+    "Confirm privacy, consent and EHR constraints before promising automated record updates."
+   ],
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "wear it for two days and then I'm going to show you what it does and if you like it, we can implement it",
+    "speaker": null,
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11075,
+    "approx_timestamp_s": 593
+   }
+  },
+  {
+   "name": "Start with a workflow the customer already understands",
+   "area": "offer_design",
+   "steps": [
+    "Target businesses that already use scribes or routinely capture conversations.",
+    "Position the device as a way to improve an existing process rather than asking staff to invent a new one.",
+    "Begin with a summary or transcript before attempting deeper software integration.",
+    "Expand into structured record updates only after the first workflow is accepted."
+   ],
+   "idea_local_id": "I2",
+   "quote": null
+  },
+  {
+   "name": "Turn field sales recordings into repeatable coaching",
+   "area": "operations",
+   "steps": [
+    "Get the sales manager's approval and explain the recording indicator and controls to staff.",
+    "Collect recordings and transcripts from the team.",
+    "Ask AI to identify strong interactions and quote specific examples verbatim.",
+    "Use the examples in the next team meeting and let a manager verify recommendations."
+   ],
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "I want you to pull out the five things he did best, like specific conversations, word for word, verbatim.",
+    "speaker": null,
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 19868,
+    "approx_timestamp_s": 1064
+   }
+  },
+  {
+   "name": "Test a pay-per-use research price",
+   "area": "pricing",
+   "steps": [
+    "Offer an occasional-use option for customers who do not need a monthly plan.",
+    "Compare a $1 prompt price with the stated estimated API cost of 30 to 50 cents.",
+    "Measure actual usage, processing costs, payment fees and support before offering unlimited plans."
+   ],
+   "idea_local_id": "I12",
+   "quote": {
+    "text": "And my cost on that based on token usage would be 30 to 50 cents. So not like a huge margin, but that's fine.",
+    "speaker": null,
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 30710,
+    "approx_timestamp_s": 1645
+   }
+  },
+  {
+   "name": "Use deep research to locate hard-to-find business owners",
+   "area": "customer_acquisition",
+   "steps": [
+    "Start with the facts the buyer knows about the person or target business.",
+    "Ask the research tool to identify public records and related businesses.",
+    "Cross-check names and details against primary public records before making contact.",
+    "Use the result to guide the buyer's own outreach and due diligence."
+   ],
+   "idea_local_id": "I14",
+   "quote": null
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Limitless pendant",
+   "purpose": "Physical voice-recording device proposed for documentation, coaching and other conversation-based workflows.",
+   "cost_stated": "A speaker estimates $100 per device; an affiliate link is disclosed but no discount amount is stated."
+  },
+  {
+   "name": "Zapier",
+   "purpose": "Automation tool suggested for connecting pendant outputs to other workflows.",
+   "cost_stated": null
+  },
+  {
+   "name": "Gumloop",
+   "purpose": "Automation tool suggested for connecting and processing workflows.",
+   "cost_stated": null
+  },
+  {
+   "name": "Lindy",
+   "purpose": "Automation agent or workflow tool suggested for implementing the service.",
+   "cost_stated": null
+  },
+  {
+   "name": "Make",
+   "purpose": "Automation platform mentioned while discussing tools business owners may not know.",
+   "cost_stated": null
+  },
+  {
+   "name": "ChatGPT",
+   "purpose": "Used or proposed for transcript analysis, spreadsheet analysis and research.",
+   "cost_stated": null
+  },
+  {
+   "name": "Claude",
+   "purpose": "Named as an AI model business owners may not know how to use.",
+   "cost_stated": null
+  },
+  {
+   "name": "Otter AI",
+   "purpose": "Meeting recording, note-taking and summarization.",
+   "cost_stated": null
+  },
+  {
+   "name": "Fathom",
+   "purpose": "Meeting recording, note-taking and summarization.",
+   "cost_stated": null
+  },
+  {
+   "name": "Air AI",
+   "purpose": "Recording device or AI product mentioned in the physician conversation; exact product is unclear in the transcript.",
+   "cost_stated": null
+  },
+  {
+   "name": "Excel",
+   "purpose": "Spreadsheet used by the optometry clinic's business office manager.",
+   "cost_stated": null
+  },
+  {
+   "name": "Electronic health record system",
+   "purpose": "Clinic software that stores findings and diagnoses; the described system uses individual click-based selections.",
+   "cost_stated": null
+  },
+  {
+   "name": "OpenAI Deep Research",
+   "purpose": "Research tool used in examples involving people, businesses and acquisition targets.",
+   "cost_stated": "A speaker refers to paying $200 per month for access; this is not stated as a verified current price."
+  },
+  {
+   "name": "OpenAI API",
+   "purpose": "Proposed backend for a pay-per-use Deep Research website.",
+   "cost_stated": "Estimated at $0.30 to $0.50 per prompt by a speaker; the transcript says the Deep Research API was not available yet."
+  },
+  {
+   "name": "Google",
+   "purpose": "General web search used as a comparison for Deep Research.",
+   "cost_stated": null
+  },
+  {
+   "name": "Facebook",
+   "purpose": "Social-media source mentioned in the context of researching job candidates.",
+   "cost_stated": null
+  },
+  {
+   "name": "Twitter",
+   "purpose": "Social-media source mentioned in the context of researching job candidates.",
+   "cost_stated": null
+  },
+  {
+   "name": "Secretary of State website",
+   "purpose": "Public records source used to identify and cross-check business owners in the US.",
+   "cost_stated": null
+  },
+  {
+   "name": "AirPods",
+   "purpose": "Used by people in the story to listen to a church training and summarize it.",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "The speakers raise consent and recording-law questions for people captured by a pendant, and say the rules vary by state. UK implementations need clear notice, a lawful basis and safeguards for personal data.",
+   "quote": {
+    "text": "Here's the problem with the door-to-d dooror sale sales, right? And missionaries in the same breath is the people that they're recording. Do they have to opt in?",
+    "speaker": null,
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25785,
+    "approx_timestamp_s": 1381
+   }
+  },
+  {
+   "warning": "The optometrist's EHR workflow may not accept an automatically generated note because it requires clicking individual findings and diagnoses.",
+   "quote": {
+    "text": "what AI would be really good at is summarizing the note and then through an automation pasting it in. But his system is not set up for a summarized note.",
+    "speaker": null,
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6782,
+    "approx_timestamp_s": 363
+   }
+  },
+  {
+   "warning": "The speakers describe using an OSINT prompt after Deep Research refused a request. That raises privacy and platform-policy concerns; public information can still be sensitive or inaccurate.",
+   "quote": {
+    "text": "But if you say, I want you to run an osint, it will bypass that.",
+    "speaker": null,
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 29597,
+    "approx_timestamp_s": 1585
+   }
+  },
+  {
+   "warning": "The pay-per-use research site depends on an API that the speaker says is not available yet.",
+   "quote": {
+    "text": "The problem is right now deep research is too early. Their deep research API is not available yet.",
+    "speaker": null,
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 31852,
+    "approx_timestamp_s": 1706
+   }
+  },
+  {
+   "warning": "The sales-coaching proposals rely on recordings and AI interpretation; recordings may capture customers or employees who have not agreed, and analysis may be misleading.",
+   "quote": {
+    "text": "It depends on the state. In the state of Texas, only one person needs to know that you're being recorded.",
+    "speaker": null,
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25997,
+    "approx_timestamp_s": 1392
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Look for business processes where AI can improve a customer's existing workflow, especially when the customer already pays people to perform the task.",
+   "theme": "offer_design",
+   "quote": {
+    "text": "many of them already have scribes and this is effectively replacing a scribe.",
+    "speaker": null,
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13567,
+    "approx_timestamp_s": 726
+   }
+  },
+  {
+   "lesson": "Start with a concrete use case and verify the customer's software supports it before promising an automation.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "His system is not set up for a summarized note. It's set up for you to click different findings and diagnosis",
+    "speaker": null,
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6887,
+    "approx_timestamp_s": 368
+   }
+  },
+  {
+   "lesson": "Use a small pilot to let a buyer experience the product and judge its value before asking for a full implementation.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "wear it for two days and then I'm going to show you what it does and if you like it, we can implement it",
+    "speaker": null,
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11075,
+    "approx_timestamp_s": 593
+   }
+  },
+  {
+   "lesson": "Ongoing AI implementation may create repeat work because tools and workflows keep changing.",
+   "theme": "automation_ai",
+   "quote": {
+    "text": "So this isn't going to be a one-time thing like, Okay, I set you up. My hands are clean. It's just going to continue to iterate over time.",
+    "speaker": null,
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2613,
+    "approx_timestamp_s": 139
+   }
+  },
+  {
+   "lesson": "For AI analysis to be useful, collect enough context and compare outputs with real business outcomes rather than relying on generic summaries.",
+   "theme": "operations",
+   "quote": {
+    "text": "And then you add a column of sales and it's like, all right, run an regression analysis and tell me whether or not it's correlated",
+    "speaker": null,
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23401,
+    "approx_timestamp_s": 1253
+   }
+  },
+  {
+   "lesson": "Recurring pricing is not automatically suitable for occasional-use software; pay per use may better fit customers with infrequent needs.",
+   "theme": "pricing",
+   "quote": {
+    "text": "things are trending towards this like a pay-per-use model because the vast majority of people have no need to spend $200 a month",
+    "speaker": null,
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 30952,
+    "approx_timestamp_s": 1658
+   }
+  },
+  {
+   "lesson": "AI research can speed up finding leads and public information, but names and records still need checking.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "It's Alyssa M. Rasmmanson. It's not Alyssa Rasmusen. Okay. Is that the same person?",
+    "speaker": null,
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 33292,
+    "approx_timestamp_s": 1783
+   }
+  },
+  {
+   "lesson": "Recording people creates consent and privacy obligations that must be designed into the offer.",
+   "theme": "legal_risk",
+   "quote": {
+    "text": "Do they have to opt in? Like what are the rules around recording other people?",
+    "speaker": null,
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25920,
+    "approx_timestamp_s": 1388
+   }
+  },
+  {
+   "lesson": "A business built around useful work can give an owner more control over schedule and working life, but the transcript does not show that the proposed agency has achieved this.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "You can be your own boss. You can control your own schedule. You can have the quality of life that you want",
+    "speaker": null,
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3,
+    "approx_timestamp_s": 0
+   }
+  }
+ ],
+ "evidence_quality": {
+  "rating": "C",
+  "rationale": "The speakers provide a few first-hand examples of using a pendant and AI research, plus specific workflow observations. Most business models, prices and earnings are hypothetical, with no customer results or validated unit economics.",
+  "promotional_conflict": "The host discloses an affiliate link for the Limitless pendant that gives a discount on the monthly and upfront costs."
+ },
+ "extraction": {
+  "model": "gpt-6-luna",
+  "extracted_at": "2026-10-22T10:53:08",
+  "cost_usd": 0,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 65,
+   "verified": 65,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}
