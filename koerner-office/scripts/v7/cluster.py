@@ -3,7 +3,7 @@
 Pass A: per category (chunks of <=260), Pass B: cross-category merge of cluster labels.
 Writes analysis/v7/clusters/{passA_*.json, passB.json, membership.json}."""
 import concurrent.futures as cf, json, sys
-from collections import defaultdict
+from collections import Counter, defaultdict
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 from common import *
@@ -12,9 +12,10 @@ CDIR = V7 / "clusters"; CDIR.mkdir(exist_ok=True)
 MODEL = sys.argv[1] if len(sys.argv) > 1 else "opus"
 SYS_A = """You deduplicate business-idea mentions extracted from many podcast transcripts into canonical ideas.
 Two mentions belong to the same canonical idea when a founder would run essentially the same business: same core offer to the same kind of customer with the same way of making money. Variations in niche (e.g. different city, slightly different customer sub-segment) stay together when the playbook is the same; split when the delivery or revenue model is materially different (e.g. 'done-for-you agency' vs 'self-serve SaaS' for the same problem are DIFFERENT ideas; 'vending machines' vs 'claw machines' can be one idea 'vending/amusement machines on location' only if the playbook is the same).
+Each line ends with its source video tag [v:ID]. Idea granularity varies by extractor: some transcripts were mined by an extractor that splits one business into several near-variants from the SAME video. Near-variants of the same business from one video belong in ONE cluster; never merge genuinely different businesses just because they share a video.
 Be careful: prefer precise clusters of 1-15 members over giant vague buckets. Every input index must appear in exactly one cluster.
 OUTPUT JSON only: {"clusters":[{"name":"short canonical idea name","description":"one sentence: offer, customer, revenue model","members":[indices]}]}"""
-SYS_B = """You merge duplicate canonical business-idea clusters produced separately per category. Input: clusters with id, category, name, description, size.
+SYS_B = """You merge duplicate canonical business-idea clusters produced separately per category. Input: clusters with id, category, name, description, and support as videos=<distinct source videos> mentions=<raw idea mentions>. Mention counts are inflated by extractor granularity; judge sameness by content, not size.
 Merge clusters that are the SAME business (same offer, customer, revenue model) even if they were filed under different categories. Do not merge merely related ideas.
 OUTPUT JSON only: {"merges":[{"keep":"id","merge":["id",...],"name":"final name","description":"final one sentence"}]} (only list groups that change; clusters not listed stay as they are)."""
 
@@ -46,7 +47,7 @@ def main():
         size = -(-len(idxs) // n)
         for c in range(n):
             chunk = idxs[c * size:(c + 1) * size]
-            lines = [f"{i} | {flat[i]['name']} — {flat[i]['one_liner']} | customer: {flat[i]['customer'][:100]} | model: {flat[i]['business_model'][:80]}" for i in chunk]
+            lines = [f"{i} | {flat[i]['name']} — {flat[i]['one_liner']} | customer: {flat[i]['customer'][:100]} | model: {flat[i]['business_model'][:80]} [v:{flat[i]['video_id']}]" for i in chunk]
             jobs.append((f"passA_{cat}_{c}", cat, chunk, "CATEGORY: " + cat + "\n\n" + "\n".join(lines)))
     clusters = []
     with cf.ThreadPoolExecutor(4) as ex:
@@ -64,7 +65,7 @@ def main():
             print(tag, len(chunk), "->", len(data["clusters"]), flush=True)
     clusters.sort(key=lambda c: c["id"])
     # Pass B over labels, chunked by size to keep prompts manageable
-    lines = [f"{c['id']} | {c['category']} | {c['name']} — {c['description']} | n={len(c['members'])}" for c in clusters]
+    lines = [f"{c['id']} | {c['category']} | {c['name']} — {c['description']} | videos={len({flat[m]['video_id'] for m in c['members']})} mentions={len(c['members'])}" for c in clusters]
     merged = call("CLUSTERS:\n" + "\n".join(lines), SYS_B, "passB")
     byid = {c["id"]: c for c in clusters}
     for g in merged.get("merges", []):
@@ -75,12 +76,17 @@ def main():
             if mid in byid and mid != g["keep"]:
                 k["members"] += byid.pop(mid)["members"]
         k["name"], k["description"] = g.get("name", k["name"]), g.get("description", k["description"])
-    final = sorted(byid.values(), key=lambda c: -len(c["members"]))
+    # Support = distinct source videos (n_videos), not raw mentions: extractors differ in per-video granularity.
+    for c in byid.values():
+        c["n_videos"] = len({flat[m]["video_id"] for m in c["members"]})
+        c["n_mentions"] = len(c["members"])
+        c["extractor_mix_videos"] = dict(Counter(ex for _, ex in {(flat[m]["video_id"], flat[m].get("extractor")) for m in c["members"]}).most_common())
+    final = sorted(byid.values(), key=lambda c: (-c["n_videos"], -c["n_mentions"], c["id"]))
     for n, c in enumerate(final, 1):
         c["cid"] = f"C{n:04d}"
         c["member_keys"] = [flat[m]["key"] for m in c["members"]]
     (CDIR / "membership.json").write_text(json.dumps(final, ensure_ascii=False, indent=1))
-    print(len(flat), "mentions ->", len(clusters), "pass A ->", len(final), "final clusters")
+    print(len(flat), "mentions from", len({x["video_id"] for x in flat}), "videos ->", len(clusters), "pass A ->", len(final), "final clusters")
 
 
 if __name__ == "__main__":

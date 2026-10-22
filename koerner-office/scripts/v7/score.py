@@ -42,7 +42,9 @@ def build():
                     claims.append({"video": r["video"]["id"], "claim": m["claim"], "first_hand": m["first_hand"],
                                    "hypothetical": m.get("hypothetical"), "quote": m["quote"]["text"], "verified": m["quote"].get("verified")})
         fh = [x for x in claims if x["first_hand"] and not x.get("hypothetical")]
-        E = min(5, best + (0.5 if len(fh) >= 2 else 0)) if subst else 1
+        fh_vids = {x["video"] for x in fh}
+        # corroboration bonus needs first-hand claims from >=2 DISTINCT videos (one video's variants are one source)
+        E = min(5, best + (0.5 if len(fh_vids) >= 2 else 0)) if subst else 1
         S = src_score(len(vids))
         med = lambda xs: round(st.median(xs), 1) if xs else None
         pool = subst or mem
@@ -50,20 +52,29 @@ def build():
         uk = med([i["uk_applicability"]["score_e"] for _, i in pool])
         auto_pct = round(100 * sum(W[p] * auto[p] / 5 for p in PARTS))
         acq = Counter(ch["channel"] for _, i in mem for ch in i["acquisition_channels"])
+        vid_model = {r["video"]["id"]: (r.get("extraction") or {}).get("model") or "unknown" for r, _ in mem}
+        ex_mix_v = dict(Counter(vid_model.values()).most_common())
+        ex_mix_m = dict(Counter((r.get("extraction") or {}).get("model") or "unknown" for r, _ in mem).most_common())
+        # examples: one per distinct video first, so a single video's split variants can't crowd out other sources
+        _seen, _first, _rest = set(), [], []
+        for r, i in (subst or mem):
+            (_rest if r["video"]["id"] in _seen else _first).append((r, i)); _seen.add(r["video"]["id"])
+        examples = _first + _rest
         d = {"cid": c["cid"], "name": c["name"], "description": c["description"], "category": c["category"],
-             "n_videos": len(vids), "n_channels": len(chans), "videos": vids, "channels": chans,
+             "n_videos": len(vids), "n_mentions": len(mem), "n_first_hand_claim_videos": len(fh_vids),
+             "extractor_mix_videos": ex_mix_v, "extractor_mix_mentions": ex_mix_m, "n_channels": len(chans), "videos": vids, "channels": chans,
              "depth": dict(Counter(i["depth"] for _, i in mem)), "best_evidence": best,
              "E_evidence": E, "S_sources": S, "auto_parts_extractor_median": auto, "auto_pct_prelim": auto_pct,
              "uk_extractor_median": uk, "acquisition_channels": dict(acq.most_common()),
              "claims": claims[:40], "n_first_hand_claims": len(fh),
              "members": [{"key": f"{r['video']['id']}:{i['local_id']}", "name": i["name"], "depth": i["depth"],
                           "evidence": (r.get("evidence_quality") or {}).get("rating"), "title": r["video"]["title"],
-                          "channel": r["video"]["channel"]} for r, i in mem],
+                          "channel": r["video"]["channel"], "extractor": vid_model[r["video"]["id"]]} for r, i in mem],
              "detail": [{"video": r["video"]["id"], "customer": i["customer"], "offer": i["offer"], "pricing": i["pricing"],
                          "acquisition": [f"{x['channel']}: {x['details']}" for x in i["acquisition_channels"]],
                          "delivery": i["delivery"], "startup_cost": i["startup_cost"], "tools": i["tools"],
                          "risks": i["risks"], "uk_notes": i["uk_applicability"]["notes"],
-                         "auto_how": {p: i["automation"][p]["how"] for p in PARTS}} for r, i in (subst or mem)[:8]]}
+                         "auto_how": {p: i["automation"][p]["how"] for p in PARTS}} for r, i in examples[:8]]}
         d["prelim_success"] = round(100 * (0.30 * E + 0.20 * S + 0.30 * (uk or 0) + 0.20 * 3) / 5)
         cat.append(d)
     return cat
@@ -76,6 +87,7 @@ For each idea dossier (aggregated from podcast transcripts; all money figures ar
 - R_realism 0-5: realistic for this person in the UK (capital, hours, skills, regulation, UK market/demand, AI substitutes).
 - M_headroom 0-5: market and competition headroom in 2026 (saturation, AI commoditisation, platform risk).
 - E_adjust: -1, 0 or +1 adjustment to the computed evidence score if the claims look inflated, promotional, hypothetical (-1) or unusually well-corroborated (+1).
+- EVIDENCE/FREQUENCY: judge support by n_videos (distinct source videos), NOT n_mentions. Transcripts were mined by different extractors with different granularity (one splits a single business into several near-variants per video, others give ~5 ideas per video), so many mentions from one video are still ONE source. extractor_mix_videos shows which extractor mined the supporting videos. Use n_first_hand_claim_videos, not the raw claim count, when weighing corroboration for E_adjust.
 - one_line: why it is or is not attractive for an agent-run UK business. Mark your own estimates [E].
 OUTPUT JSON only: {"scores":[{"cid":"...","automation":{"acquisition":{"score":n,"why":"..."},"onboarding":{...},"delivery":{...},"billing":{...},"support":{...}},"legal_acquisition":"...","R_realism":n,"R_why":"...","M_headroom":n,"M_why":"...","E_adjust":n,"one_line":"..."}]}"""
 
@@ -84,7 +96,8 @@ def dossier_text(d):
     det = d["detail"][:4]
     claims = [c for c in d["claims"] if c["first_hand"]][:6] or d["claims"][:4]
     return json.dumps({"cid": d["cid"], "name": d["name"], "description": d["description"], "category": d["category"],
-                       "n_videos": d["n_videos"], "channels": d["channels"], "evidence_score_computed": d["E_evidence"],
+                       "n_videos": d["n_videos"], "n_mentions": d["n_mentions"], "n_first_hand_claim_videos": d["n_first_hand_claim_videos"],
+                       "extractor_mix_videos": d["extractor_mix_videos"], "channels": d["channels"], "evidence_score_computed": d["E_evidence"],
                        "acquisition_channels_seen": d["acquisition_channels"],
                        "claims": [{"claim": c["claim"], "first_hand": c["first_hand"], "hypothetical": c["hypothetical"]} for c in claims],
                        "examples": [{k: (v if k not in ("pricing",) else {"model": v.get("model"), "points": v.get("price_points", [])[:3]}) for k, v in x.items() if k != "auto_how"} for x in det],
@@ -125,7 +138,7 @@ def finalize_scores(cat):
         else:
             d["automation_pct"] = d["auto_pct_prelim"]; d["success"] = d["prelim_success"]
             d["combined"] = round(0.55 * d["success"] + 0.45 * d["automation_pct"], 1); d["scored_by"] = "prelim"
-    cat.sort(key=lambda d: (-(d["scored_by"] == "judge"), -d["combined"]))
+    cat.sort(key=lambda d: (-(d["scored_by"] == "judge"), -d["combined"], -d["n_videos"]))
     return cat
 
 
@@ -134,7 +147,7 @@ def main():
     cat = build()
     (V7 / "clusters" / "dossiers.json").write_text(json.dumps(cat, ensure_ascii=False, indent=1))
     short = [d for d in cat if d["auto_pct_prelim"] >= 50 and (d["n_videos"] >= 2 or d["E_evidence"] >= 4)]
-    short.sort(key=lambda d: -(d["auto_pct_prelim"] + d["prelim_success"]))
+    short.sort(key=lambda d: (-(d["auto_pct_prelim"] + d["prelim_success"]), -d["n_videos"]))
     print(len(cat), "clusters;", len(short), "shortlisted for judging", flush=True)
     if stage in ("all", "judge"):
         batches = [short[i:i + 8] for i in range(0, len(short), 8)]
@@ -145,13 +158,14 @@ def main():
     with open(V7 / "ideas_scored.csv", "w", newline="") as f:
         w = csv.writer(f)
         w.writerow(["rank", "cid", "name", "category", "combined", "success", "automation_pct", "scored_by", "n_videos", "n_channels",
-                    "E", "S", "R", "M", "legal_acquisition", "acq", "onb", "del", "bill", "sup", "videos"])
+                    "E", "S", "R", "M", "legal_acquisition", "acq", "onb", "del", "bill", "sup", "videos", "n_mentions", "extractor_mix_videos"])
         for n, d in enumerate(cat, 1):
             j = d.get("judge") or {}
             a = {k: (j.get("automation", {}).get(k, {}).get("score") if j else d["auto_parts_extractor_median"][k]) for k in PARTS}
             w.writerow([n, d["cid"], d["name"], d["category"], d["combined"], d["success"], d["automation_pct"], d["scored_by"],
                         d["n_videos"], d["n_channels"], d["E_evidence"], d["S_sources"], j.get("R_realism"), j.get("M_headroom"),
-                        j.get("legal_acquisition"), *[a[k] for k in PARTS], " ".join(d["videos"])])
+                        j.get("legal_acquisition"), *[a[k] for k in PARTS], " ".join(d["videos"]), d["n_mentions"],
+                        " ".join(f"{k}:{v}" for k, v in d["extractor_mix_videos"].items())])
     print("scored", sum(1 for d in cat if d["scored_by"] == "judge"))
 
 

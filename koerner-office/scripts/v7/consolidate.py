@@ -34,7 +34,8 @@ def main():
                          "is_primary": i["is_primary"], "auto_pct_e": auto_pct(i["automation"]),
                          **{f"auto_{k}": i["automation"][k]["score_e"] for k in AUTO_W},
                          "uk_e": i["uk_applicability"]["score_e"],
-                         "channels": "|".join(c["channel"] for c in i["acquisition_channels"])})
+                         "channels": "|".join(c["channel"] for c in i["acquisition_channels"]),
+                         "extractor": (r.get("extraction") or {}).get("model")})
     with open(V7 / "ideas_flat.jsonl", "w") as f:
         for x in flat:
             f.write(json.dumps(x, ensure_ascii=False) + "\n")
