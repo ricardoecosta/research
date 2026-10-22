@@ -1,0 +1,1843 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "GER_aZkQQ_0",
+  "title": "9 Beginner-Friendly Ways to Make $10K",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=GER_aZkQQ_0",
+  "upload_date": "2025-10-21",
+  "duration_s": 2480,
+  "view_count": 187649,
+  "transcript_provider": "ok",
+  "transcript_chars": 43061,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner and his business partner Brandon brainstorm ideas to make $10k in a year, month, week or day. Ideas include vibe-coded apps for die-hard hobby communities (board games, quilting, gardening), Chris's NEFL screener for founder-led network-effect stocks, local AI bootcamps with high-ticket upsells (Brandon has 27 sign-ups), shipping-container storage, luxury garage sales, buying estate-sale leftovers, and pop-up headshot booths. Chris also shows Backyard Fun House, a sport-court business that subs out every trade and gets leads from selfie-video Meta ads at $23-36 each, which he expects to turn $2,500 of ad spend into $25-45k net profit. Key takeaway: cheap AI-built apps and lead ads let you test ideas fast, and you should track ads through to closed deals.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Host of The Koerner Office"
+  },
+  {
+   "name": "Brandon",
+   "role": "co-host",
+   "description": "Chris's friend and business partner; runs a local newsletter in Utah"
+  }
+ ],
+ "format": "host_solo_ideas",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Vibe-coded tracker app for board game enthusiasts",
+   "one_liner": "A personal 'CRM' app for die-hard board gamers to log plays, scores, ratings and schedule game nights, charged at $10/month.",
+   "category": "saas_software",
+   "business_model": "subscription",
+   "customer": "Board game hobbyists in large subreddits and Facebook groups",
+   "problem": "Tracking who played, who won and ratings is messy",
+   "offer": "Web/iOS tracking app built with AI coding tools",
+   "pricing": {
+    "model": "monthly subscription",
+    "price_points": [
+     {
+      "amount": 10,
+      "currency": "USD",
+      "unit": "per month"
+     }
+    ],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "paid_social",
+     "details": "Reddit ads in board game subreddits with relatable copy ('I hate it when my friends don't remember the score').",
+     "quote": {
+      "text": "this could be your opportunity to find two subreddits like these and just go hard on ads",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 4108,
+      "approx_timestamp_s": 248
+     }
+    }
+   ],
+   "delivery": "App built with Replit/Claude/ChatGPT by a non-coder.",
+   "unit_economics_claims": [
+    "Subreddit with 533,000 members plus 54,000 weekly visitors in another",
+    "$10/month needs ~84 subscribers for $10k/year"
+   ],
+   "tools": [
+    "Replit",
+    "Claude",
+    "ChatGPT",
+    "Reddit ads"
+   ],
+   "startup_cost": "Low (AI coding tools)",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Reddit/Facebook ads and community content are inbound and automatable."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Self-serve app sign-up."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "Software."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "App store/Stripe subscriptions."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "AI support with occasional human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works from the UK; app stores and Reddit ads are global."
+   },
+   "risks": [
+    "Niche willingness to pay",
+    "Competing free apps (e.g. BG Stats)"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "It wouldn't be hard to vibe code this app and, you know, charge 10 bucks a month",
+     "speaker": "Brandon",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 2451,
+     "approx_timestamp_s": 148
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Gardening journal app",
+   "one_liner": "Tracking app for gardeners to log what they planted, yields and soil mixes year to year.",
+   "category": "saas_software",
+   "business_model": "subscription",
+   "customer": "Die-hard gardeners",
+   "problem": "Remembering what worked last season",
+   "offer": "Garden journal app",
+   "pricing": {
+    "model": "subscription",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "paid_social",
+     "details": "Same community ads approach."
+    }
+   ],
+   "delivery": "Vibe-coded app.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Replit"
+   ],
+   "startup_cost": "Low",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Reddit/Facebook ads and community content are inbound and automatable."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Self-serve app sign-up."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "Software."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "App store/Stripe subscriptions."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "AI support with occasional human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "UK has a large gardening hobby market."
+   },
+   "risks": [
+    "Seasonal engagement"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "You could do this for gardeners, a gardening journal where people are tracking, you know, how well did their tomatoes grow this year",
+     "speaker": "Brandon",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 5269,
+     "approx_timestamp_s": 318
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Quilting app and 'Quilting Companion' AI chatbot",
+   "one_liner": "An app for quilters to track patterns, wish lists and shops, plus a ChatGPT-wrapper quilting assistant, at $10-20/month.",
+   "category": "saas_software",
+   "business_model": "subscription",
+   "customer": "Quilters, often ~65-year-old women reachable via Facebook ads with discretionary income",
+   "problem": "Finding patterns, colour choices and quilt shops",
+   "offer": "Pattern tracker, AI quilting chatbot, shop directory, pattern of the day, meetup organiser",
+   "pricing": {
+    "model": "monthly subscription",
+    "price_points": [
+     {
+      "amount": 10,
+      "currency": "USD",
+      "unit": "per month",
+      "amount_max": 20
+     }
+    ],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "paid_social",
+     "details": "Facebook ads targeting the older female demographic."
+    },
+    {
+     "channel": "facebook_groups_communities",
+     "details": "Many quilting Facebook groups and 100k-member subreddits."
+    }
+   ],
+   "delivery": "Vibe-coded app plus GPT wrapper.",
+   "unit_economics_claims": [],
+   "tools": [
+    "ChatGPT",
+    "Facebook ads"
+   ],
+   "startup_cost": "Low",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Reddit/Facebook ads and community content are inbound and automatable."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Self-serve app sign-up."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "Software."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "App store/Stripe subscriptions."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "AI support with occasional human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "UK quilting/sewing community exists; works the same."
+   },
+   "risks": [
+    "Older users may distrust AI",
+    "Content quality"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "charge 10, 20 bucks a month, I think that's a money printer",
+     "speaker": "Brandon",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 14161,
+     "approx_timestamp_s": 856
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "Investment-thesis stock screener web app (NEFL)",
+   "one_liner": "Build a web app around one investment thesis (network-effects, founder-led stocks) with sliders and backtests vs the S&P 500; sell alerts and access.",
+   "category": "saas_software",
+   "business_model": "subscription or lifetime access",
+   "customer": "Retail investors",
+   "problem": "Hard to screen for a specific thesis",
+   "offer": "Screener scoring S&P 500 companies on network effects and founder-led, backtesting and IPO alerts",
+   "pricing": {
+    "model": "subscription",
+    "price_points": [
+     {
+      "amount": 5,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "alerts"
+     },
+     {
+      "amount": 10,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "after $1 trial"
+     }
+    ],
+    "notes": "Suggested $1 trial then $10/month, or lifetime access."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "existing_audience",
+     "details": "Shared on the podcast; landing page neflstocks.com."
+    }
+   ],
+   "delivery": "Vibe-coded with Yahoo Finance data.",
+   "unit_economics_claims": [
+    "Backtest: 29% vs 8.4% S&P (host's own app)"
+   ],
+   "tools": [
+    "Yahoo Finance",
+    "Replit",
+    "Lindy",
+    "Bolt",
+    "ChatGPT"
+   ],
+   "startup_cost": "Low",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Reddit/Facebook ads and community content are inbound and automatable."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Self-serve app sign-up."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "Software."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "App store/Stripe subscriptions."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "AI support with occasional human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "UK: providing personalised investment recommendations is FCA-regulated; generic screeners/data tools are safer but financial promotions rules apply."
+   },
+   "risks": [
+    "Not investment advice; regulatory risk",
+    "Backtest survivorship bias (current founder-led winners)"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "use Replit, Lindy, or whatever, Bolt, build a web app with your investment thesis, and sell access to it",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 10694,
+     "approx_timestamp_s": 647
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "Local in-person AI bootcamp for business owners with high-ticket upsell",
+   "one_liner": "Run geo-targeted Facebook ads for a $75-100 local AI seminar in a hotel conference room, then upsell $1-5k implementation packages or a $10k shadow-and-automate day.",
+   "category": "education_coaching",
+   "business_model": "ticket sales plus back-of-room consulting packages",
+   "customer": "Local small business owners (landscaping to HVAC)",
+   "problem": "Owners don't know how to implement AI",
+   "offer": "2-hour or 7-hour seminar (AI voice agents etc.) and done-for-you AI systems",
+   "pricing": {
+    "model": "tickets + packages",
+    "price_points": [
+     {
+      "amount": 75,
+      "currency": "USD",
+      "unit": "per ticket",
+      "amount_max": 100
+     },
+     {
+      "amount": 1000,
+      "currency": "USD",
+      "unit": "one-off package",
+      "amount_max": 5000
+     },
+     {
+      "amount": 2500,
+      "currency": "USD",
+      "unit": "per month, 12-month contract"
+     },
+     {
+      "amount": 10000,
+      "currency": "USD",
+      "unit": "one-off shadow-and-automate"
+     }
+    ],
+    "notes": "Venue ~$400 an afternoon; ad spend may take half of ticket revenue."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "paid_social",
+     "details": "Geo-targeted Facebook ads to local business owners; brand as '[City] AI Experts'.",
+     "quote": {
+      "text": "I think you could run geo-targeted Facebook ads in your local area to business owners only and host a an in-person AI boot camp",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 15892,
+      "approx_timestamp_s": 961
+     }
+    },
+    {
+     "channel": "existing_audience",
+     "details": "Brandon added a Google Form to his local newsletter and got 27 sign-ups for a $100 Saturday seminar.",
+     "quote": {
+      "text": "I have like 27 responses so far saying that they're in for the $100 on a Saturday",
+      "speaker": "Brandon",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 21881,
+      "approx_timestamp_s": 1323
+     }
+    }
+   ],
+   "delivery": "Presenter delivers PowerPoint and Q&A; follow-on implementation by the operator.",
+   "unit_economics_claims": [
+    "100 x $75 = $7,500; 50 = ~$3k",
+    "Close 5-10 at ~$3k each",
+    "27 interest responses to newsletter form"
+   ],
+   "tools": [
+    "Facebook ads",
+    "Holiday Inn conference rooms",
+    "Google Forms",
+    "Beehiiv",
+    "ChatGPT"
+   ],
+   "startup_cost": "Venue ~$400 plus ad spend",
+   "time_to_first_revenue": "One event",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Paid ads and newsletter inbound automate."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Ticketing automated."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "In-person teaching and consulting."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Payments."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works in UK; inbound ads fine under PECR; consulting is unregulated."
+   },
+   "risks": [
+    "Ad costs eat ticket revenue",
+    "Delivering implementation at scale"
+   ],
+   "is_primary": false,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "the real idea here is the meet my friend at the back of the room for the high-ticket offer",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 16711,
+     "approx_timestamp_s": 1011
+    }
+   ]
+  },
+  {
+   "local_id": "I6",
+   "name": "Shipping container storage rental",
+   "one_liner": "Buy used 20/40ft shipping containers on Facebook Marketplace for $2-5k and rent them as storage, whole or split into quarters.",
+   "category": "rental_asset",
+   "business_model": "monthly rent",
+   "customer": "People needing storage",
+   "problem": "10x10 storage units are small and cost $85-185/month",
+   "offer": "Container storage, portable",
+   "pricing": {
+    "model": "monthly rent",
+    "price_points": [
+     {
+      "amount": 150,
+      "currency": "USD",
+      "unit": "per month per 40ft container"
+     },
+     {
+      "amount": 75,
+      "currency": "USD",
+      "unit": "per month per quarter"
+     }
+    ],
+    "notes": "Can charge a year upfront for a discount."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Not stated."
+    }
+   ],
+   "delivery": "Containers placed on leased land; customers access their unit.",
+   "unit_economics_claims": [
+    "Containers cost $2-5k",
+    "40ft container ~320 sq ft vs 100 sq ft unit",
+    "Payback 2-2.5 years whole or ~1 year split in quarters"
+   ],
+   "tools": [
+    "Facebook Marketplace"
+   ],
+   "startup_cost": "$2-5k per container plus land",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Online listings/SEO for storage."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Online booking and contracts."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Access control can be automated."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Recurring billing."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Limited."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "UK: container storage is common; planning permission and business rates may apply to land use."
+   },
+   "risks": [
+    "Land/zoning",
+    "Theft and damp"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "You buy them for two to $5,000 each and you rent them out as storage as an alternative to a 10 by 10 storage unit",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 23259,
+     "approx_timestamp_s": 1407
+    }
+   ]
+  },
+  {
+   "local_id": "I7",
+   "name": "Lease-option land for portable storage",
+   "one_liner": "Lease busy-road land for 12 months with an agreed purchase price to prove a portable storage facility before buying.",
+   "category": "real_estate",
+   "business_model": "storage rents; option to buy land",
+   "customer": "Landowners on busy roads",
+   "problem": "Risk of buying land before proving demand",
+   "offer": "$2,000/month lease with a $400,000 purchase option",
+   "pricing": {
+    "model": "lease",
+    "price_points": [
+     {
+      "amount": 2000,
+      "currency": "USD",
+      "unit": "per month lease"
+     },
+     {
+      "amount": 400000,
+      "currency": "USD",
+      "unit": "purchase price"
+     }
+    ],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Direct negotiation with landowner."
+    }
+   ],
+   "delivery": "Operator places portable containers; raises investors/bank finance during the year.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "$2,000/month",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Storage marketing online."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Online."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Site ops."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Billing."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Some."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "UK lease-options exist; planning permission needed for storage use."
+   },
+   "risks": [
+    "Planning/zoning"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "I'll pay you $2,000 a month for the next 12 months. If my business goes well, let's agree that you'll sell it to me today for $400,000",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 24299,
+     "approx_timestamp_s": 1470
+    }
+   ]
+  },
+  {
+   "local_id": "I8",
+   "name": "Luxury garage sale as a service",
+   "one_liner": "Run garage sales for wealthy households who won't do it themselves, for a fee plus commission, and build a buyer email/text list.",
+   "category": "local_service",
+   "business_model": "fee plus commission",
+   "customer": "Upper-income households in affluent neighbourhoods",
+   "problem": "Valuable clutter and no time; alternative is a $500 dumpster",
+   "offer": "Collect items, price, market and run the sale at home or offsite",
+   "pricing": {
+    "model": "fee + commission",
+    "price_points": [],
+    "notes": "Offsite sale costs extra."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "door_to_door_in_person",
+     "details": "Pitch in luxury neighbourhoods."
+    },
+    {
+     "channel": "existing_audience",
+     "details": "Own email/text list of luxury garage sale buyers."
+    }
+   ],
+   "delivery": "Operator collects, prices and sells.",
+   "unit_economics_claims": [
+    "Worst sale made $40k (hypothetical pitch line)"
+   ],
+   "tools": [
+    "Email list"
+   ],
+   "startup_cost": "Minimal",
+   "time_to_first_revenue": "One week",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Door-to-door in affluent areas; UK PECR restricts cold texts/calls to individuals."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "In person."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Card payments."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "UK car-boot/house clearance culture; texting buyers requires their consent (PECR) so build opt-in lists."
+   },
+   "risks": [
+    "Rare service, unproven locally"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "I promise you, like the worst one I've done made 40 grand",
+     "speaker": "Brandon",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 28065,
+     "approx_timestamp_s": 1698
+    }
+   ]
+  },
+  {
+   "local_id": "I9",
+   "name": "Buying estate sale leftovers for resale",
+   "one_liner": "Travel to estate sales on their final night and buy all leftovers for pennies on the dollar, then resell.",
+   "category": "arbitrage_reselling",
+   "business_model": "resale margin",
+   "customer": "Heirs facing dumpster costs",
+   "problem": "Leftovers must go before house sale",
+   "offer": "Cash offer to clear everything overnight",
+   "pricing": {
+    "model": "bulk buyout",
+    "price_points": [
+     {
+      "amount": 500,
+      "currency": "USD",
+      "unit": "per buyout (example)"
+     }
+    ],
+    "notes": "Example: $5,000 of tagged leftovers bought for $500."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Visits estate sales on Sunday night."
+    }
+   ],
+   "delivery": "Buyer hauls and resells.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "Buyout cash plus transport",
+   "time_to_first_revenue": "Immediate",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "In person."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "In person."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Marketplaces."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Buyer messages."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "UK house clearance buyers do this; waste carrier licence for disposal."
+   },
+   "risks": [
+    "Unsellable stock"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "He comes in and says, \"I'll give you 500 bucks for it. I'll have it gone by the morning.\"",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 30502,
+     "approx_timestamp_s": 1845
+    }
+   ]
+  },
+  {
+   "local_id": "I10",
+   "name": "Pop-up headshot and content booth",
+   "one_liner": "Set up a one-day studio at office lobbies, conferences or studios for 10-15 minute headshots, product shots and quick UGC videos.",
+   "category": "local_service",
+   "business_model": "per session or sponsor-paid",
+   "customer": "Professionals, e-commerce brands, conference attendees and sponsors",
+   "problem": "Outdated LinkedIn headshots; no studio access",
+   "offer": "Quick professionally edited headshots and content",
+   "pricing": {
+    "model": "per session",
+    "price_points": [
+     {
+      "amount": 25,
+      "currency": "USD",
+      "unit": "per headshot via Venmo"
+     }
+    ],
+    "notes": "Conference sponsors (e.g. OpenPhone at Main Street) may pay for free headshots."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "partnerships",
+     "details": "Conferences and office buildings; sponsors pay."
+    }
+   ],
+   "delivery": "Photographer with portable setup.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Camera kit",
+    "Venmo"
+   ],
+   "startup_cost": "Camera setup",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Partnerships."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Online booking."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Photographer on site."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "QR payments."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works the same in the UK."
+   },
+   "risks": [
+    "Venue permissions"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "It's a pop-up headshot booth. You do You do this at either at business events or at like a office",
+     "speaker": "Brandon",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 31677,
+     "approx_timestamp_s": 1916
+    }
+   ]
+  },
+  {
+   "local_id": "I11",
+   "name": "Backyard sport court and play installation via subcontractors (Backyard Fun House)",
+   "one_liner": "Sell backyard sport courts, in-ground trampolines and putting greens with selfie video Meta lead ads and sub out all five trades.",
+   "category": "home_service",
+   "business_model": "project price, margin over subcontractor costs",
+   "customer": "Homeowners with kids in DFW",
+   "problem": "Sport courts quoted at $50-60k; kids on screens",
+   "offer": "Managed sport court build (concrete, surfacing, fence, hoop, electrical) via vetted subs",
+   "pricing": {
+    "model": "per project",
+    "price_points": [],
+    "notes": "Host's own court cost ~$29k via subs vs $50-60k quotes."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "paid_social",
+     "details": "Six unscripted selfie videos as Meta ads, each its own ad set at $100/day, Meta instant form (name and phone) to Zapier to Google Sheet.",
+     "quote": {
+      "text": "I posted six videos to Facebook ads, $100 a day budget per video, each ad in its own ad set",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 36399,
+      "approx_timestamp_s": 2202
+     }
+    }
+   ],
+   "delivery": "Partner James manages subcontractors and quotes; leads scored 1-10.",
+   "unit_economics_claims": [
+    "Lead cost $23-36 after 7 days (one ad at $150 turned off)",
+    "80% of leads ghost",
+    "$2,500 ad spend expected to yield $25-45k net profit"
+   ],
+   "tools": [
+    "Meta lead ads",
+    "CapCut",
+    "ChatGPT",
+    "Zapier",
+    "Google Sheets",
+    "Vercel"
+   ],
+   "startup_cost": "Ad spend (~$2,500 so far)",
+   "time_to_first_revenue": "Weeks",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Meta lead ads automate; inbound so PECR-safe."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Quotes and site visits."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Subcontracted physical construction."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Invoicing."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Project management."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "UK garden sports courts and trampolines are a market; consent for follow-up calls given by form; ad-led model works."
+   },
+   "risks": [
+    "Lead ghosting",
+    "Subcontractor quality and liability",
+    "Weather"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "this $2,500 in ad spend thus far will probably bring us between 25 and 45,000 dollars of net profit. And we're subbing everything out",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 38635,
+     "approx_timestamp_s": 2337
+    },
+    {
+     "text": "after 7 days of data, I'm spending between $23 and $36 per lead",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 36698,
+     "approx_timestamp_s": 2220
+    }
+   ]
+  },
+  {
+   "local_id": "I12",
+   "name": "Vetted contractor referral flat fee",
+   "one_liner": "Share vetted subcontractor picks for backyard projects for a $1,000 flat fee and take referral cuts from subs.",
+   "category": "marketplace_directory",
+   "business_model": "flat fee plus referral commissions",
+   "customer": "Homeowners planning backyard projects",
+   "problem": "Finding affordable, reliable contractors",
+   "offer": "Curated list of best-value subs per trade",
+   "pricing": {
+    "model": "flat fee",
+    "price_points": [
+     {
+      "amount": 1000,
+      "currency": "USD",
+      "unit": "flat fee"
+     }
+    ],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "paid_social",
+     "details": "Meta lead ads."
+    }
+   ],
+   "delivery": "Operator shares contacts.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Meta lead ads"
+   ],
+   "startup_cost": "Low",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Ads."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Self-serve."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Digital list."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Payments."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Some."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Works in UK; referral fees should be disclosed."
+   },
+   "risks": [
+    "Quality liability"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "Just pay me a flat fee of a thousand bucks, and then I'll separately try to get those subs to pay me a cut",
+     "speaker": "Brandon",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 39714,
+     "approx_timestamp_s": 2403
+    }
+   ]
+  },
+  {
+   "local_id": "I13",
+   "name": "Daily-deals email list for local resellers",
+   "one_liner": "Run local Facebook ads to build an email list and send daily deals to reduce reliance on Facebook Marketplace.",
+   "category": "ecommerce_physical",
+   "business_model": "product sales",
+   "customer": "Local deal seekers",
+   "problem": "Platform dependence",
+   "offer": "Daily deal emails",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "paid_social",
+     "details": "Local Facebook ads to collect emails."
+    }
+   ],
+   "delivery": "Reseller emails deals.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Beehiiv",
+    "Facebook ads"
+   ],
+   "startup_cost": "Ad spend",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Ads."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Opt-in."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Physical items."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Payments."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Opt-in email complies with PECR."
+   },
+   "risks": [
+    "List growth cost"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "Build an email list and send out daily deals",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 28449,
+     "approx_timestamp_s": 1721
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Board game subreddit has 533,000 members",
+   "metric": "traffic",
+   "value": {
+    "amount": 533000,
+    "currency": null,
+    "unit": "members"
+   },
+   "claimant": "Brandon",
+   "first_hand": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I pulled up a subreddit for board games that has 533,000 members",
+    "speaker": "Brandon",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3252,
+    "approx_timestamp_s": 196
+   }
+  },
+  {
+   "claim": "NEFL backtest returned 29% vs 8.4% for the S&P",
+   "metric": "other",
+   "value": {
+    "amount": 29,
+    "currency": null,
+    "unit": "percent return"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "So, 29% return versus 8.4",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9576,
+    "approx_timestamp_s": 579
+   }
+  },
+  {
+   "claim": "25 S&P companies match 7+/10 on both filters",
+   "metric": "other",
+   "value": {
+    "amount": 25,
+    "currency": null,
+    "unit": "companies"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "it says 25 companies match your filters",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9377,
+    "approx_timestamp_s": 567
+   }
+  },
+  {
+   "claim": "Venue costs $400 per afternoon",
+   "metric": "cost",
+   "value": {
+    "amount": 400,
+    "currency": "USD",
+    "unit": "per afternoon"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "You rent it out for $400 for an afternoon",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16068,
+    "approx_timestamp_s": 972
+   },
+   "hypothetical": true
+  },
+  {
+   "claim": "100 owners x $75 = $7,500",
+   "metric": "revenue",
+   "value": {
+    "amount": 7500,
+    "currency": "USD",
+    "unit": "per event"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "You get business owners to pay 75 bucks to show up. You get 100 of them",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16109,
+    "approx_timestamp_s": 974
+   },
+   "hypothetical": true
+  },
+  {
+   "claim": "HVAC business could pay $2,500/month on a 12-month contract",
+   "metric": "price",
+   "value": {
+    "amount": 2500,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "it could be 2,500 a month for 12-month contract",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17062,
+    "approx_timestamp_s": 1032
+   },
+   "hypothetical": true
+  },
+  {
+   "claim": "$10k one-time shadow-and-automate offer",
+   "metric": "price",
+   "value": {
+    "amount": 10000,
+    "currency": "USD",
+    "unit": "one-off"
+   },
+   "claimant": "Brandon",
+   "first_hand": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "10 grand one-time fee",
+    "speaker": "Brandon",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18446,
+    "approx_timestamp_s": 1116
+   },
+   "hypothetical": true
+  },
+  {
+   "claim": "27 newsletter responses committing to a $100 Saturday seminar",
+   "metric": "customers",
+   "value": {
+    "amount": 27,
+    "currency": null,
+    "unit": "sign-ups"
+   },
+   "claimant": "Brandon",
+   "first_hand": true,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "I have like 27 responses so far",
+    "speaker": "Brandon",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21881,
+    "approx_timestamp_s": 1323
+   }
+  },
+  {
+   "claim": "33 million US business owners (~10% of population)",
+   "metric": "other",
+   "value": {
+    "amount": 33000000,
+    "currency": null,
+    "unit": "business owners"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "There's 33 million business owners, 33 330 million people",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20276,
+    "approx_timestamp_s": 1226
+   }
+  },
+  {
+   "claim": "10x10 storage units rent for $85-185",
+   "metric": "price",
+   "value": {
+    "amount": 85,
+    "currency": "USD",
+    "unit": "per month",
+    "amount_max": 185
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "a 10 by 10 storage unit in any market is going to go between 85 and $185",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23434,
+    "approx_timestamp_s": 1417
+   }
+  },
+  {
+   "claim": "Containers bought for $2-5k",
+   "metric": "cost",
+   "value": {
+    "amount": 2000,
+    "currency": "USD",
+    "unit": "per container",
+    "amount_max": 5000
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "You buy them for two to $5,000 each",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23259,
+    "approx_timestamp_s": 1407
+   }
+  },
+  {
+   "claim": "Split container rents 4 x $75 = $300/month, payback in a year",
+   "metric": "revenue",
+   "value": {
+    "amount": 300,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "you rent it out for 75 bucks a month and you're effectively making $300 a month and making your money back in a year",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23854,
+    "approx_timestamp_s": 1443
+   },
+   "hypothetical": true
+  },
+  {
+   "claim": "Dumpster rental alternative costs $500",
+   "metric": "cost",
+   "value": {
+    "amount": 500,
+    "currency": "USD",
+    "unit": "per dumpster"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I8",
+   "quote": {
+    "text": "They're going to rent a dumpster for $500 and throw it all away",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 27077,
+    "approx_timestamp_s": 1638
+   }
+  },
+  {
+   "claim": "Worst luxury garage sale made $40k (pitch line)",
+   "metric": "revenue",
+   "value": {
+    "amount": 40000,
+    "currency": "USD",
+    "unit": "per sale"
+   },
+   "claimant": "Brandon",
+   "first_hand": false,
+   "idea_local_id": "I8",
+   "quote": {
+    "text": "the worst one I've done made 40 grand",
+    "speaker": "Brandon",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 66,
+    "approx_timestamp_s": 3
+   },
+   "hypothetical": true
+  },
+  {
+   "claim": "Main Street conference tickets about $1,500",
+   "metric": "price",
+   "value": {
+    "amount": 1500,
+    "currency": "USD",
+    "unit": "per ticket"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I10",
+   "quote": {
+    "text": "the tickets were like $1,500",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 32795,
+    "approx_timestamp_s": 1984
+   }
+  },
+  {
+   "claim": "Sport court quotes $50-60k vs $29k doing it via subs",
+   "metric": "cost",
+   "value": {
+    "amount": 29000,
+    "currency": "USD",
+    "unit": "per project"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "idea_local_id": "I11",
+   "quote": {
+    "text": "I'm paying like 29,000 dollars for it, for everything",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 35074,
+    "approx_timestamp_s": 2122
+   }
+  },
+  {
+   "claim": "Lead cost $23-36 after 7 days",
+   "metric": "cost",
+   "value": {
+    "amount": 23,
+    "currency": "USD",
+    "unit": "per lead",
+    "amount_max": 36
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "idea_local_id": "I11",
+   "quote": {
+    "text": "I'm spending between $23 and $36 per lead",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 36719,
+    "approx_timestamp_s": 2221
+   }
+  },
+  {
+   "claim": "Worst ad cost $150 per lead and was turned off",
+   "metric": "cost",
+   "value": {
+    "amount": 150,
+    "currency": "USD",
+    "unit": "per lead"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "idea_local_id": "I11",
+   "quote": {
+    "text": "I was spending $150 per lead",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 36654,
+    "approx_timestamp_s": 2217
+   }
+  },
+  {
+   "claim": "80% of leads ghost",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 80,
+    "currency": null,
+    "unit": "percent ghost"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "idea_local_id": "I11",
+   "quote": {
+    "text": "80% of these ghost us",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 38296,
+    "approx_timestamp_s": 2317
+   }
+  },
+  {
+   "claim": "$2,500 ad spend expected to bring $25-45k net profit",
+   "metric": "profit",
+   "value": {
+    "amount": 25000,
+    "currency": "USD",
+    "unit": "projected",
+    "amount_max": 45000
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "idea_local_id": "I11",
+   "quote": {
+    "text": "will probably bring us between 25 and 45,000 dollars of net profit",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 38667,
+    "approx_timestamp_s": 2339
+   },
+   "hypothetical": true
+  },
+  {
+   "claim": "TK Owners has about 550 members",
+   "metric": "customers",
+   "value": {
+    "amount": 550,
+    "currency": null,
+    "unit": "members"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "idea_local_id": null,
+   "quote": {
+    "text": "550 people in there",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 40803,
+    "approx_timestamp_s": 2468
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Selfie-video Meta lead ads for home projects",
+   "steps": [
+    "Record six unscripted selfie videos at the project site",
+    "Edit captions in CapCut (~5 minutes each)",
+    "Write headlines/primary text with ChatGPT",
+    "Run each ad in its own ad set at $100/day",
+    "Use a Meta instant form asking only name and phone",
+    "Push leads via Zapier to a Google Sheet with ad name",
+    "Score leads 1-10 and track close rate per ad; cut ads with high cost per lead"
+   ],
+   "idea_local_id": "I11",
+   "area": "acquisition",
+   "quote": {
+    "text": "my leads are pushing through to a Google Sheet through Zapier",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 37725,
+    "approx_timestamp_s": 2282
+   }
+  },
+  {
+   "name": "Pre-sell an event via newsletter form",
+   "steps": [
+    "Add a Google Form to your newsletter announcing a $100 Saturday AI seminar",
+    "Collect topic and length preferences",
+    "Book a venue only once ~100 sign up",
+    "Plan seminar and upsells with ChatGPT"
+   ],
+   "idea_local_id": "I5",
+   "area": "validation_testing",
+   "quote": {
+    "text": "I'll just have that link in my newsletter until I get to 100, and then that'll be the trigger",
+    "speaker": "Brandon",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22178,
+    "approx_timestamp_s": 1341
+   }
+  },
+  {
+   "name": "Back-of-room upsell tiers",
+   "steps": [
+    "Low-cost seminar ticket covers ads/venue",
+    "Offer one-time ~$1k packages for small firms",
+    "Offer $2-3k/month 12-month contracts for larger firms",
+    "Offer a $10k shadow-for-a-day then automate offer",
+    "Brand locally ('Minneapolis AI Experts')"
+   ],
+   "idea_local_id": "I5",
+   "area": "sales"
+  },
+  {
+   "name": "Niche community app ads",
+   "steps": [
+    "Find large subreddits/Facebook groups for a passion hobby",
+    "Build a simple tracker app with AI coding",
+    "Run Reddit ads with a pain-point line that resonates"
+   ],
+   "idea_local_id": "I1",
+   "area": "acquisition"
+  },
+  {
+   "name": "Use BATNA framing in buyouts",
+   "steps": [
+    "Identify the seller's alternative (e.g. a $500 dumpster)",
+    "Offer a quick cash buyout that beats it",
+    "Promise to clear by morning"
+   ],
+   "idea_local_id": "I9",
+   "area": "sales",
+   "quote": {
+    "text": "So that's your that's your BATNA, your best alternative to a negotiated agreement",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 27145,
+    "approx_timestamp_s": 1642
+   }
+  },
+  {
+   "name": "Lease-option to de-risk a land business",
+   "steps": [
+    "Lease land on a busy road for 12 months",
+    "Agree a purchase price upfront",
+    "Prove the model and line up investors/banks during the lease"
+   ],
+   "idea_local_id": "I7",
+   "area": "finance"
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Replit / Claude / ChatGPT / Bolt / Lindy",
+   "purpose": "Vibe coding apps"
+  },
+  {
+   "name": "Reddit ads",
+   "purpose": "Target hobby subreddits"
+  },
+  {
+   "name": "Yahoo Finance",
+   "purpose": "Stock data for NEFL app"
+  },
+  {
+   "name": "Fidelity Founders Fund",
+   "purpose": "Comparable fund"
+  },
+  {
+   "name": "Robinhood",
+   "purpose": "Investing"
+  },
+  {
+   "name": "Facebook ads / Meta instant forms",
+   "purpose": "Lead gen"
+  },
+  {
+   "name": "Holiday Inn conference rooms",
+   "purpose": "Seminar venue",
+   "cost_stated": "~$400 per afternoon"
+  },
+  {
+   "name": "Google Forms",
+   "purpose": "Seminar interest"
+  },
+  {
+   "name": "Beehiiv",
+   "purpose": "Newsletter platform (sponsor; affiliate)"
+  },
+  {
+   "name": "Facebook Marketplace",
+   "purpose": "Buy containers"
+  },
+  {
+   "name": "Venmo",
+   "purpose": "Headshot payments"
+  },
+  {
+   "name": "OpenPhone",
+   "purpose": "Sponsored conference headshots"
+  },
+  {
+   "name": "Vercel",
+   "purpose": "Website build"
+  },
+  {
+   "name": "CapCut",
+   "purpose": "Edit ad videos"
+  },
+  {
+   "name": "Zapier",
+   "purpose": "Push leads to Google Sheets"
+  },
+  {
+   "name": "Google Sheets",
+   "purpose": "Lead tracking"
+  },
+  {
+   "name": "Meta Ads Library",
+   "purpose": "See their live ads"
+  },
+  {
+   "name": "TK Owners",
+   "purpose": "Host's community"
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Social platforms can ban you; own your audience with email.",
+   "quote": {
+    "text": "YouTube just banned me for a week because they didn't like one of my videos even though it was perfectly compliant",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18991,
+    "approx_timestamp_s": 1149
+   }
+  },
+  {
+   "warning": "Most leads ghost; that's normal.",
+   "quote": {
+    "text": "80% of these ghost us. And that's the game",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 38296,
+    "approx_timestamp_s": 2317
+   }
+  },
+  {
+   "warning": "Stock screener is not investment advice (UK: FCA rules on advice/financial promotions).",
+   "quote": {
+    "text": "this is not investment advice",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11144,
+    "approx_timestamp_s": 674
+   }
+  },
+  {
+   "warning": "Ad spend can eat half of seminar ticket revenue.",
+   "quote": null
+  },
+  {
+   "warning": "Local trust matters; don't look like a travelling salesman.",
+   "quote": {
+    "text": "They don't want to think you're some traveling salesman rolling in and rolling out of town with everyone's money",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 19910,
+    "approx_timestamp_s": 1204
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Target die-hard hobby communities, especially in-person 'anti-AI' hobbies.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "It's simple and it has a very, very passionate audience",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3532,
+    "approx_timestamp_s": 213
+   }
+  },
+  {
+   "lesson": "Side features can become the main product (Slack started as a game chat).",
+   "theme": "validation_testing",
+   "quote": null
+  },
+  {
+   "lesson": "Any investment thesis can be productised as a web app.",
+   "theme": "offer_design",
+   "quote": null
+  },
+  {
+   "lesson": "Use a low-priced event to fund acquisition and profit on the high-ticket upsell.",
+   "theme": "pricing",
+   "quote": null
+  },
+  {
+   "lesson": "Value-of-time arguments only hold if your time is fully optimised; doing it yourself can save $21k.",
+   "theme": "finance_unit_economics",
+   "quote": {
+    "text": "It's just headaches plus 21,000 extra dollars",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 35628,
+    "approx_timestamp_s": 2155
+   }
+  },
+  {
+   "lesson": "Track ad performance through to closes, not just cost per lead.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "I want to know which ads are are converting and to leads and which leads are converting to closes",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 38113,
+    "approx_timestamp_s": 2306
+   }
+  },
+  {
+   "lesson": "Pre-sell with a form before booking anything.",
+   "theme": "validation_testing",
+   "quote": null
+  },
+  {
+   "lesson": "Buy others' 'sawdust': leftovers people would pay to dump.",
+   "theme": "niche_selection",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "C",
+  "rationale": "Mostly brainstormed hypothetical ideas; the sport-court ad results and newsletter sign-ups are first-hand but early and projected.",
+  "promotional_conflict": "Beehiiv sponsor read and affiliate link; TK Owners; selling Fast Tree Care; promoting Backyard Fun USA."
+ },
+ "extraction": {
+  "model": "grokbot",
+  "extracted_at": "2026-10-22T09:13:21",
+  "cost_usd": null,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 49,
+   "verified": 49,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

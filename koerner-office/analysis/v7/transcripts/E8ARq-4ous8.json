@@ -1,0 +1,1785 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "E8ARq-4ous8",
+  "title": "8 Best ChatGPT Tools to Make Money With (Ranked)",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=E8ARq-4ous8",
+  "upload_date": "2025-08-08",
+  "duration_s": 1453,
+  "view_count": 70195,
+  "transcript_provider": "ok",
+  "transcript_chars": 26926,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner ranks eight ChatGPT models/products from worst to best (GPT-4.1, GPT-4o, Sora, GPT-4.5, Deep Research, o3/o4-mini, ChatGPT Agent, gpt-oss), explains each and suggests ways to monetise them, then adds GPT-5 as a 'number 0.5'. Cheap models suit commoditised wrapper services (bulk descriptions, captions, chatbots, cold email), while more specialised capabilities (deep research consulting, technical services, agent implementations) command higher prices. His top pick is implementing the open-weight gpt-oss privately on company servers for big setup fees plus monthly maintenance, because data privacy is what stops companies adopting AI. Key takeaway: specialised, measurable-ROI AI implementation beats low-skill wrapper services.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Host of The Koerner Office"
+  }
+ ],
+ "format": "listicle_roundup",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Bulk AI product descriptions for e-commerce brands",
+   "one_liner": "Use a cheap GPT model (4.1/mini) to generate thousands of product descriptions and sell them to e-commerce brands.",
+   "category": "ai_automation",
+   "business_model": "one-off project fees per batch",
+   "customer": "E-commerce brands with large catalogues",
+   "problem": "Writing thousands of product descriptions is slow and costly",
+   "offer": "Bulk generated product descriptions",
+   "pricing": {
+    "model": "per batch",
+    "price_points": [
+     {
+      "amount": null,
+      "currency": "USD",
+      "unit": "per batch",
+      "label": "a couple hundred bucks for thousands of descriptions (cost side)"
+     }
+    ],
+    "notes": "Chris frames 'a couple hundred bucks' as the cost to generate thousands; selling price not stated."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Not stated; sell to e-commerce brands."
+    }
+   ],
+   "delivery": "Operator runs prompts through GPT-4.1 in bulk and delivers files.",
+   "unit_economics_claims": [
+    "Thousands of product descriptions for a couple hundred dollars of model cost"
+   ],
+   "tools": [
+    "ChatGPT GPT-4.1"
+   ],
+   "startup_cost": "not stated (API usage only)",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Inbound content/SEO and marketplaces automate; cold email to UK limited companies allowed with opt-out, not to sole traders (PECR)."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Self-serve brief form."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "LLM generates output in bulk; light QA."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Stripe/marketplace checkout."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Agent handles revisions with human spot checks."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works the same in the UK; B2B outreach to limited companies is legal by cold email under PECR."
+   },
+   "risks": [
+    "Commoditised; low skill so heavy competition (host's own warning)",
+    "Generic AI copy may hurt SEO/brand voice"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "you generate thousands of product descriptions for a couple hundred bucks. You could sell those product descriptions to e-commerce brands",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 3590,
+     "approx_timestamp_s": 198
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Website chatbots for small businesses",
+   "one_liner": "Build ChatGPT-wrapper chatbots that small businesses place in the corner of their website to cut customer service costs.",
+   "category": "ai_automation",
+   "business_model": "setup fee and/or monthly fee (not stated)",
+   "customer": "Small businesses with websites",
+   "problem": "Customer service costs",
+   "offer": "Branded chatbot widget built on a cheap GPT model",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Not stated."
+    }
+   ],
+   "delivery": "Operator builds a GPT wrapper chatbot and embeds it on the client site.",
+   "unit_economics_claims": [],
+   "tools": [
+    "ChatGPT GPT-4.1"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Selling to small businesses; cold DMs/SMS to sole traders illegal in UK under PECR, cold email only to limited companies."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Ingest site content automatically."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Bot runs unattended once built."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Recurring billing software."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Agent fixes most issues."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Same in the UK; mind PECR for outreach to sole-trader small businesses."
+   },
+   "risks": [
+    "Commoditised, many competitors",
+    "Widget platforms let owners do it themselves"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "You could build chat bots for small businesses that they implement in the corner of their website to help them save on customer service costs",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 3770,
+     "approx_timestamp_s": 208
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Bulk social media captions for SMM agencies",
+   "one_liner": "Generate hundreds or thousands of social captions with GPT-4.1 as a white-label service for social media management agencies.",
+   "category": "ai_automation",
+   "business_model": "service fees (not stated)",
+   "customer": "Social media management agencies",
+   "problem": "Need large volumes of captions",
+   "offer": "Bulk captions",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Not stated; sell to social media management agencies."
+    }
+   ],
+   "delivery": "GPT-4.1 bulk generation.",
+   "unit_economics_claims": [],
+   "tools": [
+    "ChatGPT GPT-4.1"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Inbound content/SEO and marketplaces automate; cold email to UK limited companies allowed with opt-out, not to sole traders (PECR)."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Self-serve brief form."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "LLM generates output in bulk; light QA."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Stripe/marketplace checkout."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Agent handles revisions with human spot checks."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works the same in the UK."
+   },
+   "risks": [
+    "Agencies can do it themselves with the same tools"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "You could generate hundreds or thousands of captions for social media posts with 4.1. And you could do that as a service for social media management agencies",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 3942,
+     "approx_timestamp_s": 217
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "AI-written cold email / email marketing agency",
+   "one_liner": "Run a cold email or email marketing agency where GPT-4.1 writes thousands of personalised emails cheaply.",
+   "category": "agency",
+   "business_model": "agency retainer (not stated)",
+   "customer": "Businesses wanting outbound or email marketing",
+   "problem": "Personalised outreach is expensive to write",
+   "offer": "Personalised email copy at scale",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "10,000 personalised emails cost about $100 to write."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Not stated."
+    }
+   ],
+   "delivery": "GPT-4.1 writes personalised emails in bulk.",
+   "unit_economics_claims": [
+    "10,000 personalised emails for about $100"
+   ],
+   "tools": [
+    "ChatGPT GPT-4.1"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Selling to limited companies by cold email is legal in UK."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Brief intake can be automated."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Generation automated; deliverability needs care."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Software billing."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Agent reporting."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "In the UK, client campaigns must follow PECR: cold marketing email only to corporate subscribers (limited companies/LLPs), not to individuals or sole traders without consent; UK GDPR legitimate-interest assessment needed."
+   },
+   "risks": [
+    "PECR/UK GDPR compliance for client campaigns",
+    "Deliverability and domain reputation",
+    "Heavy competition"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "You could write 10,000 individualized personalized emails for about a hundred bucks",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 4188,
+     "approx_timestamp_s": 231
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "AI-assisted virtual assistant services",
+   "one_liner": "Offer virtual assistant services at $15-30/hour leveraging GPT-4o.",
+   "category": "b2b_service",
+   "business_model": "hourly",
+   "customer": "Businesses and busy professionals",
+   "problem": "Need admin help",
+   "offer": "Virtual assistant hours",
+   "pricing": {
+    "model": "hourly",
+    "price_points": [
+     {
+      "amount": 15,
+      "currency": "USD",
+      "unit": "per hour",
+      "amount_max": 30
+     }
+    ],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Not stated."
+    }
+   ],
+   "delivery": "A human VA using ChatGPT.",
+   "unit_economics_claims": [
+    "$15-30 an hour"
+   ],
+   "tools": [
+    "ChatGPT GPT-4o"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Marketplaces like Upwork possible."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Human onboarding calls."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Billed by hour, human does the work."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Invoicing software."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works in the UK; rates must compete with offshore VAs."
+   },
+   "risks": [
+    "Hourly model caps income and is human-bound"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "Virtual assistant services at $15 to 30 bucks an hour",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 6324,
+     "approx_timestamp_s": 349
+    }
+   ]
+  },
+  {
+   "local_id": "I6",
+   "name": "Customer service automation retainer",
+   "one_liner": "Set up GPT-4o customer service automation for clients at $200-500/month each.",
+   "category": "ai_automation",
+   "business_model": "monthly retainer",
+   "customer": "Small and mid-size businesses",
+   "problem": "Customer service workload",
+   "offer": "AI customer service automation",
+   "pricing": {
+    "model": "monthly retainer",
+    "price_points": [
+     {
+      "amount": 200,
+      "currency": "USD",
+      "unit": "per month per client",
+      "amount_max": 500
+     }
+    ],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Not stated."
+    }
+   ],
+   "delivery": "Operator configures AI support automation and maintains it.",
+   "unit_economics_claims": [
+    "$200-500 a month per client"
+   ],
+   "tools": [
+    "ChatGPT GPT-4o"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "B2B selling; cold email only to limited companies in the UK."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Knowledge ingestion automated."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Bot runs unattended."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Recurring billing."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Agent monitors, human escalations."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Same in the UK."
+   },
+   "risks": [
+    "Commoditised by off-the-shelf helpdesk AI",
+    "Liability for wrong answers"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "You could do customer service automation for $200 to $500 a month per client",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 6434,
+     "approx_timestamp_s": 355
+    }
+   ]
+  },
+  {
+   "local_id": "I7",
+   "name": "AI property listing videos from photos",
+   "one_liner": "Turn real estate listing photos into walkthrough marketing videos with Sora and automate the process.",
+   "category": "content_media",
+   "business_model": "per-video fee (not stated)",
+   "customer": "Real estate agents and property sellers",
+   "problem": "Most listings have professional photos but no video",
+   "offer": "Generated walkthrough videos from listing photos",
+   "pricing": {
+    "model": "premium while it is novel",
+    "price_points": [],
+    "notes": "Host advises charging as much as you can while you can because prices will fall."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Not stated; sell to real estate agents."
+    }
+   ],
+   "delivery": "Upload listing pictures to Sora and convert to video; can be automated.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Sora",
+    "Google Veo 3"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Scrape new listings and email limited-company estate agencies; UK PECR allows cold email to corporate subscribers only."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Pull photos from listing automatically."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Sora pipeline, human QA."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Stripe."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Agent handles revisions."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "UK estate agents also use video; Property Ombudsman/CPRs mean videos must not misrepresent the property (material information rules)."
+   },
+   "risks": [
+    "Commoditises quickly",
+    "AI video can misrepresent property, consumer protection risk",
+    "Viewers spot AI video"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "Taking pictures of a real estate listing, uploading them to Sora, and converting them to a video. Almost every property has professional pictures nowadays, but very few of them have professional videos",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 8221,
+     "approx_timestamp_s": 454
+    }
+   ]
+  },
+  {
+   "local_id": "I8",
+   "name": "Discount AI-assisted brand strategy consultant",
+   "one_liner": "Act as a brand strategy consultant charging 90-95% less than traditional firms, using GPT-4.5 to prepare questions and answers.",
+   "category": "b2b_service",
+   "business_model": "per engagement",
+   "customer": "Businesses needing brand strategy",
+   "problem": "Traditional brand strategy engagements cost $10-50k",
+   "offer": "Zoom interview with pre-planned AI questions and a well-formatted AI-assisted deliverable",
+   "pricing": {
+    "model": "per engagement, 90-95% below $10k-50k",
+    "price_points": [
+     {
+      "amount": 10000,
+      "currency": "USD",
+      "unit": "per engagement",
+      "amount_max": 50000,
+      "label": "incumbent brand strategy consultant price"
+     }
+    ],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Not stated."
+    }
+   ],
+   "delivery": "Operator runs a Zoom using ChatGPT-prepared questions, then uses ChatGPT to answer and formats a deliverable.",
+   "unit_economics_claims": [
+    "Incumbent consultants charge $10-50k per engagement",
+    "GPT-4.5 is about 70-80% as good"
+   ],
+   "tools": [
+    "ChatGPT GPT-4.5",
+    "Zoom"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Consulting sales are relationship-led."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Human call."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "AI drafts, human presents."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Invoicing."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works the same in the UK."
+   },
+   "risks": [
+    "Subjective results make pricing hard to defend (host's point)",
+    "Credibility without track record"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "why not become a brand strategy consultant that charges 90 to 95% less. And you hop on a Zoom with someone, you ask them pre-planned questions that ChatGpt fed you in advance",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 10190,
+     "approx_timestamp_s": 563
+    }
+   ]
+  },
+  {
+   "local_id": "I9",
+   "name": "Deep-research consulting and market research reports",
+   "one_liner": "Use deep research tools plus clients' proprietary data to deliver market research, competitive intelligence and due diligence at a fraction of consulting prices.",
+   "category": "b2b_service",
+   "business_model": "per report / per study",
+   "customer": "Small businesses, companies doing M&A or market entry",
+   "problem": "Consulting research is expensive and slow",
+   "offer": "AI-powered research reports, enriched by uploading the client's internal data (e.g. sales data)",
+   "pricing": {
+    "model": "per report",
+    "price_points": [
+     {
+      "amount": 2500,
+      "currency": "USD",
+      "unit": "per market research report",
+      "amount_max": 250000,
+      "label": "incumbent market research"
+     },
+     {
+      "amount": 10000,
+      "currency": "USD",
+      "unit": "per competitive intelligence study",
+      "amount_max": 100000,
+      "label": "incumbent"
+     },
+     {
+      "amount": 50000,
+      "currency": "USD",
+      "unit": "per M&A due diligence deal",
+      "amount_max": 500000,
+      "label": "incumbent"
+     }
+    ],
+    "notes": "Pitch: 80% cheaper, 80% as good."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Not stated."
+    }
+   ],
+   "delivery": "Run the same prompt on ChatGPT, Perplexity and Claude deep research and cross-reference; upload client data for proprietary insight; human packages results.",
+   "unit_economics_claims": [
+    "Replaces $5k-$500k consulting engagements (host claim)"
+   ],
+   "tools": [
+    "ChatGPT Deep Research",
+    "Perplexity",
+    "Claude"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "B2B, track record needed; cold email to limited companies legal in UK."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Data upload portal."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Agents research, human verifies."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Invoicing."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Human client handling."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works in the UK."
+   },
+   "risks": [
+    "Accuracy and hallucination liability",
+    "Clients can run deep research themselves",
+    "Data protection when uploading client data (UK GDPR)"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "I rank this highly because it can literally replace $5,000 to $500,000 consulting engagements",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 11836,
+     "approx_timestamp_s": 654
+    },
+    {
+     "text": "Market research reports can cost between $2500 and $250,000 per report",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 12989,
+     "approx_timestamp_s": 717
+    }
+   ]
+  },
+  {
+   "local_id": "I10",
+   "name": "Technical services with reasoning models",
+   "one_liner": "Use o3/o4-mini to deliver code audits, technical documentation, data science consulting, patent research and trading algorithms.",
+   "category": "b2b_service",
+   "business_model": "project fees (thousands)",
+   "customer": "Companies with costly technical problems",
+   "problem": "Technical problems costing millions",
+   "offer": "Code audits, documentation, data science, patent analysis, trading algorithms",
+   "pricing": {
+    "model": "project",
+    "price_points": [
+     {
+      "amount": null,
+      "currency": "USD",
+      "unit": "per project",
+      "label": "thousands"
+     }
+    ],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Not stated."
+    }
+   ],
+   "delivery": "Operator uses reasoning models for accurate technical work.",
+   "unit_economics_claims": [
+    "Can charge thousands for code audit services"
+   ],
+   "tools": [
+    "ChatGPT o3",
+    "o4-mini"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "B2B selling."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Scoping calls."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Model heavy, human review."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Invoicing."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works in the UK."
+   },
+   "risks": [
+    "Errors in technical/financial work carry liability",
+    "Needs real expertise to verify"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "You could charge thousands for code audit services, technical documentation, data science consulting, patent research and analysis, trading algorithms",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 14881,
+     "approx_timestamp_s": 822
+    }
+   ]
+  },
+  {
+   "local_id": "I11",
+   "name": "Agent-powered executive travel booking agency",
+   "one_liner": "Executives email trip requests; ChatGPT Agent books flights automatically while you supervise and fix failures.",
+   "category": "ai_automation",
+   "business_model": "service fee (not stated)",
+   "customer": "Executives",
+   "problem": "Booking travel takes time",
+   "offer": "Email-in travel booking handled by an AI agent",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Not stated."
+    }
+   ],
+   "delivery": "ChatGPT Agent books; operator plays 'air traffic control' fixing breakages and tuning automations.",
+   "unit_economics_claims": [],
+   "tools": [
+    "ChatGPT Agent"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Not stated."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Email intake."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Agent books, human fixes."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Software."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Human for exceptions."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "UK: selling package travel/flights may trigger ATOL and Package Travel Regulations obligations."
+   },
+   "risks": [
+    "Agent unreliability (host says it still breaks a lot)",
+    "ATOL/package travel regulation",
+    "Payment card handling"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "You could just start a travel booking agency where executives email you where they want to go and when they want to go",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 17233,
+     "approx_timestamp_s": 952
+    }
+   ]
+  },
+  {
+   "local_id": "I12",
+   "name": "Automated retail arbitrage",
+   "one_liner": "Use ChatGPT Agent to automate buying products cheaper on one marketplace (e.g. Lego on Amazon) to resell where they sell for 50% more.",
+   "category": "arbitrage_reselling",
+   "business_model": "resale margin",
+   "customer": "Marketplace shoppers",
+   "problem": "Price gaps between marketplaces",
+   "offer": "Resold goods",
+   "pricing": {
+    "model": "resale price",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "marketplace_platform",
+     "details": "Sell on Walmart.com when Amazon is 50% cheaper."
+    }
+   ],
+   "delivery": "AI agent finds and buys; fulfilment not described.",
+   "unit_economics_claims": [
+    "Lego set sells for 50% more on Walmart than Amazon"
+   ],
+   "tools": [
+    "ChatGPT Agent",
+    "Amazon",
+    "Walmart"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Marketplace demand is inbound."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "No onboarding."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Physical goods handling."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Marketplace payouts."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Returns handling."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Walmart marketplace is US-only; UK equivalents (Amazon UK, eBay) exist; marketplace rules on dropshipping apply."
+   },
+   "risks": [
+    "Marketplace policies against retail arbitrage/dropshipping",
+    "Thin margins"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "buying a Lego set on Amazon.com because on walmart.com it sells for 50% more. You can automate all of that",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 17749,
+     "approx_timestamp_s": 980
+    }
+   ]
+  },
+  {
+   "local_id": "I13",
+   "name": "Competitor price-monitoring implementation service",
+   "one_liner": "Implement ChatGPT Agent automations that track competitor/vendor prices into a Google Sheet nightly, for a setup fee plus ongoing fee.",
+   "category": "ai_automation",
+   "business_model": "setup fee plus ongoing fee",
+   "customer": "Product companies (e.g. a brand selling 3,000 products)",
+   "problem": "Constant manual cross-referencing of competitor prices",
+   "offer": "Nightly automated competitor price sheet",
+   "pricing": {
+    "model": "setup fee plus ongoing fee",
+    "price_points": [],
+    "notes": "Pitch: companies paying $100k/yr for an employee would pay $20k/yr to replace that role."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Consulting relationships; he consulted with a brand last month."
+    }
+   ],
+   "delivery": "ChatGPT Agent fills a Google Sheet with competitor prices as the client sleeps.",
+   "unit_economics_claims": [
+    "Pay you $20,000 a year to replace a $100,000 employee (hypothetical)"
+   ],
+   "tools": [
+    "ChatGPT Agent",
+    "Google Sheets"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "B2B; cold email to UK limited companies legal."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Configure product list."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Agent runs nightly."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Recurring billing."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Fix breakages."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works in the UK; respect site terms when scraping."
+   },
+   "risks": [
+    "Agents still break a lot; implementation varies by system (Salesforce, NetSuite, Shopify)",
+    "Scraping terms of service"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "It will literally make a Google sheet for them as they're sleeping and put down the price of all the 40oz tumblers that all their competitors are selling",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 18031,
+     "approx_timestamp_s": 996
+    }
+   ]
+  },
+  {
+   "local_id": "I14",
+   "name": "Private on-premise company GPT implementation (gpt-oss)",
+   "one_liner": "Implement OpenAI's open-weight gpt-oss models on companies' own servers so their data never leaves the building; charge a big setup fee plus monthly maintenance.",
+   "category": "ai_automation",
+   "business_model": "large upfront fee plus monthly retainer",
+   "customer": "Companies, especially healthcare and finance, up to Fortune 500",
+   "problem": "Firms want a GPT over their own data but distrust sending data to OpenAI",
+   "offer": "Locally hosted company GPT trained/indexed on their data, with ongoing updates and help desk",
+   "pricing": {
+    "model": "upfront fee + monthly",
+    "price_points": [
+     {
+      "amount": null,
+      "currency": "USD",
+      "unit": "upfront",
+      "label": "thousands or tens of thousands"
+     },
+     {
+      "amount": null,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "hundreds or thousands for updates and help desk"
+     }
+    ],
+    "notes": "Could also price per gigabyte/terabyte. Custom model training reportedly costs $400k-$2M+ per project at incumbents."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Walk into companies (start with healthcare/finance); partner with someone with networking/hardware experience."
+    }
+   ],
+   "delivery": "Operator installs gpt-oss locally, ingests data, then maintains and adds data; practise on own emails first.",
+   "unit_economics_claims": [
+    "Upfront thousands to tens of thousands",
+    "Hundreds to thousands a month",
+    "Incumbents charge $400k-$2M+ per custom model project"
+   ],
+   "tools": [
+    "gpt-oss",
+    "ChatGPT"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Enterprise sales, in person."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "On-site install."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Technical work with heavy tooling."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Invoicing."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Help desk human-led."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works in the UK; strong demand from UK GDPR-sensitive sectors (NHS suppliers, FCA-regulated finance), though enterprise procurement is slow."
+   },
+   "risks": [
+    "Enterprise sales cycles and security requirements",
+    "Hardware and support burden",
+    "Model quality vs hosted frontier models"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "You can charge a fat upfront fee, thousands or tens of thousands of dollars depending on how complex it is. Maybe you charge per gigabyte, per terabyte",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 21911,
+     "approx_timestamp_s": 1211
+    },
+    {
+     "text": "All you got to do is walk into a Fortune 500 company and say, \"Hey, I can implement a company GPT for you, and it will never leave your servers.\"",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 22361,
+     "approx_timestamp_s": 1235
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Generating thousands of product descriptions costs a couple hundred dollars",
+   "metric": "cost",
+   "value": {
+    "amount": 200,
+    "currency": "USD",
+    "unit": "per batch of thousands"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "you generate thousands of product descriptions for a couple hundred bucks",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3590,
+    "approx_timestamp_s": 198
+   },
+   "hypothetical": true
+  },
+  {
+   "claim": "10,000 personalised emails can be written for about $100 with GPT-4.1",
+   "metric": "cost",
+   "value": {
+    "amount": 100,
+    "currency": "USD",
+    "unit": "per 10,000 emails"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "You could write 10,000 individualized personalized emails for about a hundred bucks",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4188,
+    "approx_timestamp_s": 231
+   },
+   "hypothetical": true
+  },
+  {
+   "claim": "VA services priced at $15-30/hour",
+   "metric": "price",
+   "value": {
+    "amount": 15,
+    "currency": "USD",
+    "unit": "per hour",
+    "amount_max": 30
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "Virtual assistant services at $15 to 30 bucks an hour",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6324,
+    "approx_timestamp_s": 349
+   }
+  },
+  {
+   "claim": "Customer service automation at $200-500/month per client",
+   "metric": "price",
+   "value": {
+    "amount": 200,
+    "currency": "USD",
+    "unit": "per month per client",
+    "amount_max": 500
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "You could do customer service automation for $200 to $500 a month per client",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6434,
+    "approx_timestamp_s": 355
+   }
+  },
+  {
+   "claim": "Brand strategy consultants charge $10-50k per engagement",
+   "metric": "price",
+   "value": {
+    "amount": 10000,
+    "currency": "USD",
+    "unit": "per engagement",
+    "amount_max": 50000
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I8",
+   "quote": {
+    "text": "if you're like a brand strategy consultant today, you're probably charging $10 to $50,000 per engagement",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10046,
+    "approx_timestamp_s": 555
+   }
+  },
+  {
+   "claim": "Deep research can replace $5k-$500k consulting engagements",
+   "metric": "price",
+   "value": {
+    "amount": 5000,
+    "currency": "USD",
+    "unit": "per engagement",
+    "amount_max": 500000
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I9",
+   "quote": {
+    "text": "it can literally replace $5,000 to $500,000 consulting engagements",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11863,
+    "approx_timestamp_s": 655
+   }
+  },
+  {
+   "claim": "M&A due diligence costs $50k-$500k per deal",
+   "metric": "price",
+   "value": {
+    "amount": 50000,
+    "currency": "USD",
+    "unit": "per deal",
+    "amount_max": 500000
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I9",
+   "quote": {
+    "text": "Due diligence for mergers and acquisitions cost $50 to $500,000 per deal",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12918,
+    "approx_timestamp_s": 713
+   }
+  },
+  {
+   "claim": "Market research reports cost $2,500-$250,000",
+   "metric": "price",
+   "value": {
+    "amount": 2500,
+    "currency": "USD",
+    "unit": "per report",
+    "amount_max": 250000
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I9",
+   "quote": {
+    "text": "Market research reports can cost between $2500 and $250,000 per report",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12989,
+    "approx_timestamp_s": 717
+   }
+  },
+  {
+   "claim": "Competitive intelligence analysis costs $10k-$100k per study",
+   "metric": "price",
+   "value": {
+    "amount": 10000,
+    "currency": "USD",
+    "unit": "per study",
+    "amount_max": 100000
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I9",
+   "quote": {
+    "text": "A competitive intelligence analysis can cost $10 to $100,000 per study",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13058,
+    "approx_timestamp_s": 721
+   }
+  },
+  {
+   "claim": "Only about 2% of businesses know ChatGPT Agent exists",
+   "metric": "other",
+   "value": {
+    "amount": 2,
+    "currency": null,
+    "unit": "percent of businesses"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I13",
+   "quote": {
+    "text": "what percentage of businesses even know that it exists? 2%",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16039,
+    "approx_timestamp_s": 886
+   }
+  },
+  {
+   "claim": "A company paying $100k/yr for an employee would pay $20k/yr to replace that role",
+   "metric": "price",
+   "value": {
+    "amount": 20000,
+    "currency": "USD",
+    "unit": "per year"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I13",
+   "quote": {
+    "text": "If companies pay $100,000 a year for an employee, why wouldn't they pay you $20,000 a year to replace that employee",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18674,
+    "approx_timestamp_s": 1032
+   },
+   "hypothetical": true
+  },
+  {
+   "claim": "Companies charge $400k-$2M+ per project to train custom AI models",
+   "metric": "price",
+   "value": {
+    "amount": 400000,
+    "currency": "USD",
+    "unit": "per project",
+    "amount_max": 2000000
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I14",
+   "quote": {
+    "text": "Do you know how much companies are charging today to train custom AI models for other companies? Between a4 million and $2 million plus per project",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22831,
+    "approx_timestamp_s": 1261
+   }
+  },
+  {
+   "claim": "Hiring plan of 100 people might shrink to 10 with agents",
+   "metric": "other",
+   "value": {
+    "amount": null,
+    "currency": null,
+    "unit": "headcount",
+    "label": "100 to 10 people"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "they might be able to shrink that 100 to 10 people",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16422,
+    "approx_timestamp_s": 907
+   },
+   "hypothetical": true
+  },
+  {
+   "claim": "GPT-5 context window of a million tokens, five times Claude Opus 4.1",
+   "metric": "other",
+   "value": {
+    "amount": 1000000,
+    "currency": null,
+    "unit": "tokens"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "The context window is a million tokens, which is five times more than Claude Opus 4.1",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24659,
+    "approx_timestamp_s": 1362
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Task log to find automation opportunities",
+   "steps": [
+    "Keep a notepad at your computer for a day",
+    "Write down every non-complex task with a timestamp",
+    "At the end of the day photograph the list and upload it to ChatGPT",
+    "Ask it to help automate or outsource every task"
+   ],
+   "idea_local_id": null,
+   "area": "operations",
+   "quote": {
+    "text": "every time they perform a task that's not very complex, which are most of our tasks, they need to just write it down with a timestamp",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16861,
+    "approx_timestamp_s": 931
+   }
+  },
+  {
+   "name": "Cross-reference deep research across three AIs",
+   "steps": [
+    "Run the identical deep research prompt in ChatGPT, Perplexity and Claude",
+    "Compare answers to catch errors",
+    "Upload proprietary client data (e.g. sales data) for insight the internet lacks"
+   ],
+   "idea_local_id": "I9",
+   "area": "operations",
+   "quote": {
+    "text": "I always run the same prompt across at least three different AI companies so I can cross reference between the three",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11265,
+    "approx_timestamp_s": 622
+   }
+  },
+  {
+   "name": "Learn private GPT implementation on yourself first",
+   "steps": [
+    "Ask ChatGPT how to run gpt-oss locally",
+    "Do it on your own data/emails as practice",
+    "Then sell to companies, starting with healthcare or finance",
+    "Partner with someone with networking/hardware experience"
+   ],
+   "idea_local_id": "I14",
+   "area": "product",
+   "quote": {
+    "text": "Do it for your own data. Do it for your emails. Practice on yourself",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21779,
+    "approx_timestamp_s": 1203
+   }
+  },
+  {
+   "name": "Charge premium while a capability is novel",
+   "steps": [
+    "Launch services on new AI capabilities (e.g. Sora video) early",
+    "Price as high as possible before commoditisation",
+    "Expect prices to fall and plan to move on"
+   ],
+   "idea_local_id": "I7",
+   "area": "pricing",
+   "quote": {
+    "text": "I highly encourage you to charge as much as you can while you can because I do think prices will continue going down in this industry",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9195,
+    "approx_timestamp_s": 508
+   }
+  },
+  {
+   "name": "Supervise agent automations as 'air traffic control'",
+   "steps": [
+    "Connect inbound requests to an AI agent",
+    "Watch runs and fix breakages",
+    "Tweak automations after each fix so they break less over time"
+   ],
+   "idea_local_id": "I11",
+   "area": "operations",
+   "quote": {
+    "text": "you're just playing air traffic control and watching all these things happen and fixing things as they inevitably break",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17486,
+    "approx_timestamp_s": 966
+   }
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "ChatGPT GPT-4.1 / mini / nano",
+   "purpose": "Cheap fast model for wrappers and bulk content"
+  },
+  {
+   "name": "ChatGPT GPT-4o",
+   "purpose": "Multimodal voice/vision assistant"
+  },
+  {
+   "name": "Sora",
+   "purpose": "Text/image-to-video generation"
+  },
+  {
+   "name": "Google Veo 3",
+   "purpose": "Video generation (better but more expensive)"
+  },
+  {
+   "name": "ChatGPT GPT-4.5",
+   "purpose": "Creative/big-picture model"
+  },
+  {
+   "name": "ChatGPT Deep Research",
+   "purpose": "Research reports"
+  },
+  {
+   "name": "Perplexity",
+   "purpose": "Deep research cross-check"
+  },
+  {
+   "name": "Claude",
+   "purpose": "Deep research cross-check; Opus 4.1 context comparison"
+  },
+  {
+   "name": "ChatGPT o3 / o4-mini",
+   "purpose": "Reasoning models for coding and technical analysis"
+  },
+  {
+   "name": "ChatGPT Agent",
+   "purpose": "Autonomous web task agent"
+  },
+  {
+   "name": "gpt-oss",
+   "purpose": "Open-weight model runnable locally"
+  },
+  {
+   "name": "GPT-5",
+   "purpose": "Combined model router"
+  },
+  {
+   "name": "Google Sheets",
+   "purpose": "Competitor price output"
+  },
+  {
+   "name": "Robinhood",
+   "purpose": "Example options trading data"
+  },
+  {
+   "name": "Replit / Bolt / Lovable",
+   "purpose": "AI coding tools GPT-5 is compared against"
+  },
+  {
+   "name": "Gemini 2.5 Pro",
+   "purpose": "Model he dislikes"
+  },
+  {
+   "name": "Grok 4",
+   "purpose": "Model for planned comparison"
+  },
+  {
+   "name": "TK Owners",
+   "purpose": "Host's paid community (self-promotion)"
+  },
+  {
+   "name": "Salesforce / NetSuite / Shopify",
+   "purpose": "Client systems that complicate agent implementations"
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Low-skill wrapper businesses (descriptions, captions, emails) face heavy competition.",
+   "quote": {
+    "text": "the problem with these business models is you will compete with a lot of people because there's just not a lot of skill involved",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4276,
+    "approx_timestamp_s": 236
+   }
+  },
+  {
+   "warning": "Medical consultation support with AI needs care with regulations.",
+   "quote": {
+    "text": "You could even do medical consultation support, but you do have to be careful with the regulations with stuff like that",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6509,
+    "approx_timestamp_s": 359
+   }
+  },
+  {
+   "warning": "AI video commoditises fast and audiences spot AI clips.",
+   "quote": {
+    "text": "It's still kind of a party trick. It's incredibly powerful, but it's going to get commoditized much quicker than you think",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7589,
+    "approx_timestamp_s": 419
+   }
+  },
+  {
+   "warning": "ChatGPT Agent still breaks often and implementations vary by platform.",
+   "quote": {
+    "text": "There's still some technical uncertainty. It still breaks a lot. It's still young and implementation can be all over the map",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18851,
+    "approx_timestamp_s": 1041
+   }
+  },
+  {
+   "warning": "Voice mode in GPT-4o gives shallower answers than typed prompts.",
+   "quote": {
+    "text": "When you're having voice conversations with it, it's going to give you much shallower answers",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5060,
+    "approx_timestamp_s": 279
+   }
+  },
+  {
+   "warning": "UK note (extractor): cold email/SMS outreach for client campaigns is restricted by PECR; only corporate subscribers may be cold emailed.",
+   "quote": null
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Specialisation earns more: more specialised models (and services) command higher prices, like a heart surgeon vs a pediatrician.",
+   "theme": "pricing",
+   "quote": {
+    "text": "Who makes more money, the heart surgeon or the pediatrician? The heart surgeon, he's more specialized",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5997,
+    "approx_timestamp_s": 331
+   }
+  },
+  {
+   "lesson": "Services whose ROI is clear and measurable (coding, labour replacement) are easier to price than subjective ones like strategy.",
+   "theme": "pricing",
+   "quote": {
+    "text": "how do you charge someone for better big picture thinking? Results here can be subjective, which kind of makes it harder to defend your pricing",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9900,
+    "approx_timestamp_s": 547
+   }
+  },
+  {
+   "lesson": "The 80/20 pitch: 80% cheaper and 80% as good is an easy bet for companies.",
+   "theme": "offer_design",
+   "quote": {
+    "text": "80% cheaper, 80% is good. What company wouldn't take a flyer on that bet",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13264,
+    "approx_timestamp_s": 733
+   }
+  },
+  {
+   "lesson": "Proprietary client data is what makes AI research uniquely valuable.",
+   "theme": "automation_ai",
+   "quote": {
+    "text": "if you really want to have it do magical things, you upload it proprietary data from you or from a business owner",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12688,
+    "approx_timestamp_s": 701
+   }
+  },
+  {
+   "lesson": "Data privacy is the blocker for enterprise AI adoption; local models remove it and create an implementation market.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "If they do know how to implement it, they're probably not implementing it because of these data privacy concerns that are now gone",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20797,
+    "approx_timestamp_s": 1149
+   }
+  },
+  {
+   "lesson": "Being embedded with a client creates high switching costs and repeat AI work.",
+   "theme": "scaling",
+   "quote": {
+    "text": "once you're embedded with these companies, they're going to go for you for everything AI because the switching costs for them are very, very high",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23279,
+    "approx_timestamp_s": 1286
+   }
+  },
+  {
+   "lesson": "Use the cheapest adequate model for wrappers; extra cost of premium models is not proportional to quality.",
+   "theme": "finance_unit_economics",
+   "quote": {
+    "text": "the additional expense is not proportional to the additional quality that you get out of it",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6738,
+    "approx_timestamp_s": 372
+   }
+  },
+  {
+   "lesson": "Agents will make existing staff superhuman rather than cause mass layoffs, cutting future hiring.",
+   "theme": "automation_ai",
+   "quote": {
+    "text": "I think it's the thing that's going to turn all of their employees into superhumans",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16571,
+    "approx_timestamp_s": 915
+   }
+  },
+  {
+   "lesson": "Thinking on your feet becomes more valuable as everyone relies on AI answers.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "I think a lot of these models are going to make people that can think on their feet a lot more valuable",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10482,
+    "approx_timestamp_s": 579
+   }
+  }
+ ],
+ "evidence_quality": {
+  "rating": "C",
+  "rationale": "Solo host listicle of hypothetical monetisation ideas; price figures are industry hearsay, not first-hand operator results.",
+  "promotional_conflict": "Promotes his paid TK Owners community and newsletter/podcast."
+ },
+ "extraction": {
+  "model": "grokbot",
+  "extracted_at": "2026-10-22T09:05:41",
+  "cost_usd": null,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 49,
+   "verified": 49,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

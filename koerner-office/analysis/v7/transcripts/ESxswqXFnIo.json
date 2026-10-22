@@ -1,0 +1,517 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "ESxswqXFnIo",
+  "title": "I Helped a Subscriber to Build an App in 24 Hours",
+  "channel": "Mikey No Code",
+  "url": "https://www.youtube.com/watch?v=ESxswqXFnIo",
+  "upload_date": "2026-10-20",
+  "duration_s": 1696,
+  "view_count": 18571,
+  "transcript_provider": "cached",
+  "transcript_chars": 28661,
+  "transcript_is_whisper": false
+ },
+ "summary": "Mikey No Code documents building a custom client-tracking app in Base44 for Priya, a one-person interior styling business (Willow Lane Interiors, Manchester), within 24 hours of her community post. The video focuses on scoping: workflow interviews, a one-sentence goal, prioritising four version-one features and parking five, then a single complete build prompt with a visual direction and avoid list. Feedback was routed via AI-generated client questions and screenshots in discussion mode, and real-day use exposed a missing required follow-up date. Key takeaway: with AI builders, deciding what not to build is the hard part.",
+ "speakers": [
+  {
+   "name": "Mikey",
+   "role": "host",
+   "description": "Mikey No Code, YouTube creator teaching Base44/no-code app building"
+  },
+  {
+   "name": "Priya",
+   "role": "other",
+   "description": "Community member, owner of Willow Lane Interiors (via DMs, not speaking)"
+  }
+ ],
+ "format": "tutorial_howto",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Custom micro-CRM apps for solo service businesses built with Base44",
+   "one_liner": "Interview a small business owner about their workflow and build a tailored lightweight client tracker with an AI app builder in under 24 hours.",
+   "category": "saas_software",
+   "business_model": "not stated (built free for a community member; implied as a service or DIY)",
+   "customer": "Solo service businesses such as a one-person interior styling firm in Manchester",
+   "problem": "Leads scattered across WhatsApp, notebooks and spreadsheets; lost jobs from missed follow-ups; off-the-shelf CRMs force a new process",
+   "offer": "Version-one app with client records, a stage board matching the owner's own pipeline, quote values and follow-up dates with a 'needs chasing' list, and a dated activity log",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "Base44 hosts the app on a free yourapp.base44.app URL; custom domain costs extra."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "existing_audience",
+     "details": "Request came from a member post in the creator's Skool community.",
+     "quote": {
+      "text": "Priya's post in the school community here was basically that exact situation",
+      "speaker": "Mikey",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 2977,
+      "approx_timestamp_s": 180
+     }
+    }
+   ],
+   "delivery": "Builder runs a discovery DM, writes one complete Base44 prompt, publishes, routes Base44's clarifying questions to the client, applies screenshotted feedback in discussion mode, removes test data, renames the URL and runs a security scan.",
+   "unit_economics_claims": [
+    "Idea to live URL within 24 hours"
+   ],
+   "tools": [
+    "Base44",
+    "WhatsApp",
+    "Skool"
+   ],
+   "startup_cost": "Base44 subscription (cost not stated)",
+   "time_to_first_revenue": "Same day",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Community/inbound requests; selling to UK sole traders by cold DM or SMS would breach PECR."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Discovery interview is human-led, though question generation can be AI-assisted."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "AI builder generates and revises the app from one prompt plus client screenshots."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Subscription billing software."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Client can self-serve changes by prompting; builder handles edge cases."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Example client is in Manchester with pounds pricing; works the same in the UK."
+   },
+   "risks": [
+    "Low barrier lets clients DIY or use cheap CRMs",
+    "Hidden requirements only surface in real use",
+    "Platform lock-in to Base44"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "Coding is rarely the part that kills these projects anymore",
+     "speaker": "Mikey",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 3320,
+     "approx_timestamp_s": 201
+    },
+    {
+     "text": "when building gets this fast, deciding what not to build becomes the hardest part of the whole job",
+     "speaker": "Mikey",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 1716,
+     "approx_timestamp_s": 104
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Base44 masterclass / AI app-building course",
+   "one_liner": "Course teaching people to build SaaS apps, websites, agents and mobile apps with Base44.",
+   "category": "education_coaching",
+   "business_model": "course (stated $499 list price, offered free via link)",
+   "customer": "Aspiring AI/no-code builders",
+   "problem": "Don't know how to use AI builders profitably",
+   "offer": "Masterclass with templates, prompts and real builds",
+   "pricing": {
+    "model": "one-off",
+    "price_points": [
+     {
+      "amount": 499,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "stated list price"
+     }
+    ],
+    "notes": "Offered free via description link (likely a funnel)."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "youtube",
+     "details": "YouTube videos funnel to the masterclass link."
+    }
+   ],
+   "delivery": "Pre-recorded course plus community.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Base44"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 5,
+     "how": "YouTube content inbound."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Self-serve sign-up."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "Pre-recorded."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Checkout."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Community support."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Online course works from the UK; consumer protection rules on 'free' claims apply."
+   },
+   "risks": [
+    "Promotional claims",
+    "Possibly a Base44 affiliate funnel"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "My masterclass normally costs $499 to join, but since you are taking the time to watch this video",
+     "speaker": "Mikey",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 2264,
+     "approx_timestamp_s": 137
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Masterclass list price $499 offered free",
+   "metric": "price",
+   "value": {
+    "amount": 499,
+    "currency": "USD",
+    "unit": "one-off"
+   },
+   "claimant": "Mikey",
+   "first_hand": true,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "My masterclass normally costs $499 to join",
+    "speaker": "Mikey",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2264,
+    "approx_timestamp_s": 137
+   }
+  },
+  {
+   "claim": "Sample client quote values between £600 and £9,000",
+   "metric": "price",
+   "value": {
+    "amount": 600,
+    "currency": "GBP",
+    "unit": "per project",
+    "amount_max": 9000
+   },
+   "claimant": "Mikey",
+   "first_hand": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "quote values between 600 and 9,000 pounds",
+    "speaker": "Mikey",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14649,
+    "approx_timestamp_s": 888
+   }
+  },
+  {
+   "claim": "Renaming the Base44 URL takes about 30 seconds",
+   "metric": "hours",
+   "value": {
+    "amount": 30,
+    "currency": null,
+    "unit": "seconds"
+   },
+   "claimant": "Mikey",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "It only took about 30 seconds, but it makes a surprisingly big difference to the handoff",
+    "speaker": "Mikey",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25975,
+    "approx_timestamp_s": 1575
+   }
+  },
+  {
+   "claim": "£8,000 vs £800 in 'quote sent' means very different months, so show stage value not counts",
+   "metric": "other",
+   "value": {
+    "amount": 8000,
+    "currency": "GBP",
+    "unit": "pipeline value"
+   },
+   "claimant": "Mikey",
+   "first_hand": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "£8,000 sitting in quote sent means something completely different for her month than £800",
+    "speaker": "Mikey",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22460,
+    "approx_timestamp_s": 1362
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Workflow-first discovery instead of feature lists",
+   "steps": [
+    "Ask the owner to walk through the business from first inquiry to finished job, including annoying parts",
+    "Ask who will use the app and the one recent problem they wish hadn't happened",
+    "Have them finish one sentence: what the app should keep in one place and why",
+    "Use that sentence as the rule: features that serve it stay, others are parked"
+   ],
+   "idea_local_id": "I1",
+   "area": "product",
+   "quote": {
+    "text": "rather than asking her what features she wanted, we started somewhere much more useful",
+    "speaker": "Mikey",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4719,
+    "approx_timestamp_s": 286
+   }
+  },
+  {
+   "name": "Monday-morning prioritisation",
+   "steps": [
+    "Ask which feature they'd miss first if it wasn't there on Monday morning",
+    "Order version one by the answers",
+    "Park features with a reason (invoicing, auto emails, client portal, calendar sync, multiple logins)"
+   ],
+   "idea_local_id": "I1",
+   "area": "product",
+   "quote": {
+    "text": "We asked her which thing she would miss first if she opened up the app on Monday morning and they weren't there",
+    "speaker": "Mikey",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7541,
+    "approx_timestamp_s": 457
+   }
+  },
+  {
+   "name": "One complete build prompt with an avoid list",
+   "steps": [
+    "Describe business, single user, the core question the app answers",
+    "Specify fields, pipeline stages, money and follow-up logic and the only screens allowed",
+    "Give a concrete visual direction and an explicit avoid list (no purple/blue gradients, dark mode, glassy cards, stock illustrations)",
+    "Ask for 12 realistic sample clients across all stages"
+   ],
+   "idea_local_id": "I1",
+   "area": "product",
+   "quote": {
+    "text": "describing what you do not want is one of the most reliable ways to stop an AI-generated app from falling back into the same default look",
+    "speaker": "Mikey",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10917,
+    "approx_timestamp_s": 662
+   }
+  },
+  {
+   "name": "Let the AI generate client questions",
+   "steps": [
+    "After the first build, ask Base44 to list the 3-4 decisions it had to guess",
+    "Turn them into plain-language questions for the client",
+    "Screenshot client replies and paste into Base44 discussion mode",
+    "Agree the plan before applying changes"
+   ],
+   "idea_local_id": "I1",
+   "area": "operations",
+   "quote": {
+    "text": "identify the three or four decisions it had been forced to guess at",
+    "speaker": "Mikey",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16407,
+    "approx_timestamp_s": 995
+   }
+  },
+  {
+   "name": "Polished handoff",
+   "steps": [
+    "Remove test data",
+    "Rename the app URL to the business name",
+    "Confirm it works on the client's phone",
+    "Run the security scan before handing over"
+   ],
+   "idea_local_id": "I1",
+   "area": "operations",
+   "quote": {
+    "text": "A random URL still feels like something you're testing",
+    "speaker": "Mikey",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 26063,
+    "approx_timestamp_s": 1581
+   }
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Base44",
+   "purpose": "AI no-code app builder with hosting and discussion mode"
+  },
+  {
+   "name": "Skool",
+   "purpose": "Community where the request came in"
+  },
+  {
+   "name": "WhatsApp",
+   "purpose": "Client's previous lead tracking"
+  },
+  {
+   "name": "Base44 Masterclass",
+   "purpose": "Creator's course (promotion)",
+   "cost_stated": "$499 list, offered free"
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Building the final version on day one causes overwhelm and abandoned projects.",
+   "quote": {
+    "text": "someone tries to build the final version on day one, adds everything they can think of, gets overwhelmed",
+    "speaker": "Mikey",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3404,
+    "approx_timestamp_s": 206
+   }
+  },
+  {
+   "warning": "The requested feature is often a symptom: a reminders tool would have become a fourth place to check.",
+   "quote": {
+    "text": "A separate reminder tool would have simply just become a fourth place to check",
+    "speaker": "Mikey",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5615,
+    "approx_timestamp_s": 340
+   }
+  },
+  {
+   "warning": "Unstated requirements (e.g. making follow-up date compulsory) only surface in real use.",
+   "quote": {
+    "text": "we simply never told it that a follow-up date had to be required",
+    "speaker": "Mikey",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21554,
+    "approx_timestamp_s": 1307
+   }
+  },
+  {
+   "warning": "Adding features one prompt at a time makes AI builders guess at structure.",
+   "quote": null
+  },
+  {
+   "warning": "Renaming a Base44 URL kills the old address immediately.",
+   "quote": null
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Understand the workflow before talking software; the first ask is usually a symptom.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "the first thing someone asks an app to solve is often only the symptom",
+    "speaker": "Mikey",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5233,
+    "approx_timestamp_s": 317
+   }
+  },
+  {
+   "lesson": "Fit the app to the client's existing process so they keep using it; off-the-shelf CRMs force change and get abandoned.",
+   "theme": "offer_design",
+   "quote": null
+  },
+  {
+   "lesson": "Scope is the bottleneck when AI makes building fast.",
+   "theme": "automation_ai",
+   "quote": {
+    "text": "deciding what not to build becomes the hardest part of the whole job",
+    "speaker": "Mikey",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1745,
+    "approx_timestamp_s": 105
+   }
+  },
+  {
+   "lesson": "Real-day usage finds bugs a demo click-through never will.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "there was almost no chance we would have caught that just by clicking through the screens once after the build",
+    "speaker": "Mikey",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21311,
+    "approx_timestamp_s": 1292
+   }
+  },
+  {
+   "lesson": "Show money values, not counts, on pipeline views for small businesses.",
+   "theme": "offer_design",
+   "quote": null
+  },
+  {
+   "lesson": "Small handoff touches (branded URL) make a build feel like a real product.",
+   "theme": "offer_design",
+   "quote": null
+  },
+  {
+   "lesson": "Use AI builders' discussion/plan mode before changes to avoid unrequested redesigns.",
+   "theme": "automation_ai",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "C",
+  "rationale": "First-hand build walkthrough but no revenue or business numbers; promotional for Base44 and the creator's course.",
+  "promotional_conflict": "Promotes his Base44 Masterclass ($499 list) and Base44 itself."
+ },
+ "extraction": {
+  "model": "grokbot",
+  "extracted_at": "2026-10-22T09:08:01",
+  "cost_usd": null,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 19,
+   "verified": 19,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

@@ -1,0 +1,1053 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "FNMNQrCbHnk",
+  "title": "She Makes $10M/Year and Doesn’t Even Exist (AI Influencers Explained)",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=FNMNQrCbHnk",
+  "upload_date": "2025-10-14",
+  "duration_s": 2449,
+  "view_count": 40733,
+  "transcript_provider": "ok",
+  "transcript_chars": 39571,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner interviews Romain (Roma) Torres, founder of Arcads, an AI tool for generating talking AI actors for video ads and AI influencers. He shows examples (an AI influencer reportedly making $10M/year, a language app that reached $12-20M ARR on AI ads, disability-benefit lead gen) and explains which audiences tolerate AI ads. His fastest path to $10-15k/month is an AI UGC agency: find advertisers in the Facebook Ads Library, send the CEO a free AI recreation of one of their ads, and sell $2k/20-ad packages or $3-5k monthly retainers, later automating production via API. Key takeaway: AI video makes creative volume cheap; money is in selling it to companies already spending on ads, or building niche AI personas with consistent creative.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Host of The Koerner Office"
+  },
+  {
+   "name": "Romain Torres",
+   "role": "guest",
+   "description": "Founder of Arcads (arcads.ai), AI video ad generation"
+  }
+ ],
+ "format": "operator_interview",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "AI UGC video ad agency for companies already running Meta ads",
+   "one_liner": "Find companies running many ads in the Facebook Ads Library, send a free AI-generated UGC ad copying one of theirs, and sell monthly ad packages.",
+   "category": "agency",
+   "business_model": "monthly retainer / per-ad package",
+   "customer": "Small-to-mid companies (apps, e-commerce, lead-gen services) already spending heavily on Meta ads, reachable CEOs",
+   "problem": "UGC creator ads cost ~$500 each and take weeks; brands need many creatives to test",
+   "offer": "20 AI UGC ads a month made with Arcads, cheaper and faster than human UGC creators",
+   "pricing": {
+    "model": "monthly package",
+    "price_points": [
+     {
+      "amount": 2000,
+      "currency": "USD",
+      "unit": "per month for 20 ads",
+      "label": "$100 per ad"
+     },
+     {
+      "amount": 3000,
+      "currency": "USD",
+      "unit": "per month",
+      "amount_max": 5000,
+      "label": "retainer"
+     }
+    ],
+    "notes": "Pitched as <1% of a $500k/month ad budget."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "outbound_linkedin",
+     "details": "Find the CEO of each advertiser on LinkedIn and send a free sample ad recreating one of their existing UGC ads; 100 companies -> 20-30 calls -> about a third pay.",
+     "quote": {
+      "text": "I will just do that for a 100 companies. And then if I do that for 100 companies, I will probably get calls like phone calls with 20 30 of them",
+      "speaker": "Romain Torres",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 34807,
+      "approx_timestamp_s": 2215
+     }
+    },
+    {
+     "channel": "other",
+     "details": "Prospect list from the public Facebook Ads Library; revenue estimates from Sensor Tower for apps (ad spend ~60-70% of revenue)."
+    }
+   ],
+   "delivery": "Operator scripts and generates videos in Arcads (AI actors, emotion tags, gestures, visual hooks); advanced: pipeline via Zapier/Make/n8n/Gumloop and the Arcads API to produce 100-500 ads a day.",
+   "unit_economics_claims": [
+    "$100 per ad",
+    "100 outreach -> 20-30 calls -> ~1/3 close at $3-5k/month -> ~$15k/month in a month",
+    "Targets spend $500k/month on Meta"
+   ],
+   "tools": [
+    "Arcads",
+    "Facebook Ads Library",
+    "LinkedIn",
+    "Sensor Tower",
+    "Foreplay",
+    "ChatGPT",
+    "Zapier",
+    "Make.com",
+    "n8n",
+    "Gumloop"
+   ],
+   "startup_cost": "About $1,000 (Arcads subscription)",
+   "time_to_first_revenue": "About one month (claimed)",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Prospecting from Ads Library and LinkedIn messaging can be agent-driven; UK PECR allows unsolicited B2B messages to limited-company decision makers but not sole traders, and LinkedIn limits automation."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Brief and brand assets intake automated."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "AI generates ads; human creative judgement on hooks."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Recurring billing."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Agent handles revisions."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works in the UK; ASA/CAP code requires ads not to mislead, and AI-generated testimonials presented as real customers can breach CAP and the DMCC Act fake review rules."
+   },
+   "risks": [
+    "AI testimonial ads can be misleading (ASA/FTC)",
+    "Commoditising as tools get easier",
+    "Platform ad policy on synthetic media",
+    "Clients can bring it in-house"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "I will create 20 ads a month for you for two $2,000. So, you'll pay me basically $100 per ad",
+     "speaker": "Romain Torres",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 21115,
+     "approx_timestamp_s": 1343
+    },
+    {
+     "text": "a third of them will pay for my services and I will sell them the services 3 to 5K per month",
+     "speaker": "Romain Torres",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 34958,
+     "approx_timestamp_s": 2224
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "AI influencer accounts monetised by brand deals",
+   "one_liner": "Create a consistent AI-generated influencer persona in a niche, post daily on Instagram/TikTok, then sell sponsorships.",
+   "category": "content_media",
+   "business_model": "sponsorships",
+   "customer": "Brands buying influencer posts; followers",
+   "problem": "Brands want reach; creators don't want to show their face",
+   "offer": "AI persona content in a niche found via TikTok Creator Search Insights",
+   "pricing": {
+    "model": "per sponsored post",
+    "price_points": [],
+    "notes": "Example AI influencer reportedly makes $10M/year."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "organic_social_content",
+     "details": "Daily posts on TikTok/Instagram in trending niches; replicate outliers."
+    }
+   ],
+   "delivery": "AI generates images/videos with consistent character; human picks niche and scripts.",
+   "unit_economics_claims": [
+    "Example AI influencer making $10M/year",
+    "VC's experiment got hundreds of thousands of views in weeks"
+   ],
+   "tools": [
+    "Arcads",
+    "TikTok Creator Search Insights",
+    "Instagram",
+    "TikTok"
+   ],
+   "startup_cost": "Tool subscription",
+   "time_to_first_revenue": "Months (audience first)",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Organic content inbound."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Brand inbound."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "AI-generated content."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Platform/invoice."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "DMs with brands."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "UK: ASA requires sponsored posts to be labelled #ad; disclosure of AI personas advisable; works the same."
+   },
+   "risks": [
+    "Survivorship bias; most fail",
+    "Platform policies on AI content",
+    "Audience backlash"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "Apparently, she's making $10 million per year in revenue and she doesn't exist",
+     "speaker": "Romain Torres",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 1666,
+     "approx_timestamp_s": 106
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "AI avatar content service for existing creators",
+   "one_liner": "Clone a creator's avatar and produce their videos from scripts they approve, so they post more without filming.",
+   "category": "agency",
+   "business_model": "monthly fee (lower budgets than brands)",
+   "customer": "Influencers and content creators",
+   "problem": "Recording to camera takes time",
+   "offer": "Avatar videos (e.g. clone at bottom, b-roll at top)",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "Influencers pay less than brands."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Approach existing creators directly."
+    }
+   ],
+   "delivery": "Operator writes scripts, creator approves, AI avatar renders.",
+   "unit_economics_claims": [
+    "Example clone-avatar reels got ~2M views"
+   ],
+   "tools": [
+    "Arcads"
+   ],
+   "startup_cost": "Tool subscription",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Outreach to creators who are often individuals/sole traders: cold DMs breach UK PECR without consent; inbound better."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Avatar creation self-serve."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "AI rendering."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Recurring billing."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Agent."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works in UK with consent for likeness."
+   },
+   "risks": [
+    "Likeness rights and consent",
+    "Lower budgets"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "instead of having to record yourself, I'll just like create the content with your avatar for you",
+     "speaker": "Romain Torres",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 8692,
+     "approx_timestamp_s": 553
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "AI voice receptionist service for dentists and hairdressers",
+   "one_liner": "Package an AI voice agent that books appointments and replace a receptionist for a tenth of the cost; sell via AI-generated ads.",
+   "category": "ai_automation",
+   "business_model": "monthly service fee",
+   "customer": "Dentists, hairdressers, appointment-based businesses",
+   "problem": "Paying a receptionist to answer calls and book",
+   "offer": "Done-for-you AI voice agent for bookings",
+   "pricing": {
+    "model": "monthly",
+    "price_points": [],
+    "notes": "Priced at a tenth of a receptionist (no figure)."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "paid_social",
+     "details": "Run AI-generated video ads, which is 'dogfooding' since the product is AI."
+    }
+   ],
+   "delivery": "Operator configures a third-party voice agent platform for each client.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Arcads",
+    "AI voice agent platforms"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Paid ads inbound."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Calendar integration setup."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Voice agent runs unattended."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Recurring."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Escalations."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works in UK; inbound paid ads avoid PECR problems; call recording/data under UK GDPR."
+   },
+   "risks": [
+    "Crowded market",
+    "Errors with bookings"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "I will just replace your secretary for like a half like not even half like a tenth of the cost",
+     "speaker": "Romain Torres",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 19320,
+     "approx_timestamp_s": 1229
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "Lead generation for disability benefit and insurance services via AI ads",
+   "one_liner": "Run AI-actor ads to over-50 audiences and sell leads to firms that handle disability claims (also insurance, salons, dentists).",
+   "category": "data_leads",
+   "business_model": "sell leads",
+   "customer": "Disability claims firms, insurers, local service businesses",
+   "problem": "Need sign-ups from specific demographics",
+   "offer": "Leads from AI UGC ads targeting over-50s",
+   "pricing": {
+    "model": "per lead",
+    "price_points": [
+     {
+      "amount": 4180,
+      "currency": "USD",
+      "unit": "per month benefit claimed in ad"
+     }
+    ],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "paid_social",
+     "details": "Meta ads with AI actors aged 50+."
+    }
+   ],
+   "delivery": "AI ad creation and lead forms.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Arcads",
+    "Meta ads"
+   ],
+   "startup_cost": "Ad spend",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Paid ads."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Forms."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Automated lead delivery."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Billing."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Some."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 2,
+    "notes": "UK: lead generation for benefits/claims management is FCA-regulated (claims management activity); misleading benefit claims breach CAP; selling leads requires valid consent under PECR/UK GDPR."
+   },
+   "risks": [
+    "Misleading targeting of vulnerable people",
+    "Regulatory risk"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "these people, they basically sell leads to these disability companies",
+     "speaker": "Romain Torres",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 11639,
+     "approx_timestamp_s": 740
+    }
+   ]
+  },
+  {
+   "local_id": "I6",
+   "name": "AI language learning app scaled with AI ads",
+   "one_liner": "An English-learning app went from zero to $12-20M ARR in 12 months via AI influencer ads, testing ~650 ads.",
+   "category": "saas_software",
+   "business_model": "subscription",
+   "customer": "International English learners",
+   "problem": "Learning English",
+   "offer": "AI language tutor app",
+   "pricing": {
+    "model": "subscription",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "paid_social",
+     "details": "Meta ads with AI influencers, ~650 live ads."
+    }
+   ],
+   "delivery": "App plus AI ad creative at volume.",
+   "unit_economics_claims": [
+    "$12-20M ARR in 12 months"
+   ],
+   "tools": [
+    "Arcads",
+    "Meta ads"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Paid ads."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "App onboarding."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "App."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "App store billing."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "Automated."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works from the UK."
+   },
+   "risks": [
+    "Ad dependence (60-70% of revenue)"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "They scaled from 0 to 20 million in annual recurring revenue just with AI ads. The app didn't exist 12 months ago",
+     "speaker": "Romain Torres",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 76,
+     "approx_timestamp_s": 4
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "AI influencer making $10M/year",
+   "metric": "revenue",
+   "value": {
+    "amount": 10000000,
+    "currency": "USD",
+    "unit": "per year"
+   },
+   "claimant": "Romain Torres",
+   "first_hand": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "she's making $10 million per year in revenue and she doesn't exist",
+    "speaker": "Romain Torres",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 0,
+    "approx_timestamp_s": 0
+   }
+  },
+  {
+   "claim": "App scaled to $12-20M ARR in 12 months with AI ads",
+   "metric": "arr",
+   "value": {
+    "amount": 12000000,
+    "currency": "USD",
+    "unit": "ARR",
+    "amount_max": 20000000
+   },
+   "claimant": "Romain Torres",
+   "first_hand": false,
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "they scale from zero to I think like 12 or 20 million in annual recurring revenue",
+    "speaker": "Romain Torres",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9935,
+    "approx_timestamp_s": 632
+   }
+  },
+  {
+   "claim": "App testing about 650 ads",
+   "metric": "other",
+   "value": {
+    "amount": 650,
+    "currency": null,
+    "unit": "active ads"
+   },
+   "claimant": "Romain Torres",
+   "first_hand": false,
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "they are like testing 650 ads right now",
+    "speaker": "Romain Torres",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10385,
+    "approx_timestamp_s": 660
+   }
+  },
+  {
+   "claim": "20 AI ads a month for $2,000 ($100 per ad)",
+   "metric": "price",
+   "value": {
+    "amount": 2000,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Romain Torres",
+   "first_hand": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I will create 20 ads a month for you for two $2,000",
+    "speaker": "Romain Torres",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21115,
+    "approx_timestamp_s": 1343
+   },
+   "hypothetical": true
+  },
+  {
+   "claim": "Target companies spend $500k/month on Meta ads",
+   "metric": "cost",
+   "value": {
+    "amount": 500000,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Romain Torres",
+   "first_hand": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "they already spend 500k per months on meta ads",
+    "speaker": "Romain Torres",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21336,
+    "approx_timestamp_s": 1357
+   }
+  },
+  {
+   "claim": "Apps spend 60-70% of monthly revenue on paid ads",
+   "metric": "cost",
+   "value": {
+    "amount": 60,
+    "currency": null,
+    "unit": "percent of revenue",
+    "amount_max": 70
+   },
+   "claimant": "Romain Torres",
+   "first_hand": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "people are spending 70% 60 to 70% of their re monthly revenue in paid ads",
+    "speaker": "Romain Torres",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22163,
+    "approx_timestamp_s": 1410
+   }
+  },
+  {
+   "claim": "Human UGC ad costs about $500 and three weeks",
+   "metric": "cost",
+   "value": {
+    "amount": 500,
+    "currency": "USD",
+    "unit": "per ad"
+   },
+   "claimant": "Romain Torres",
+   "first_hand": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "this UC ad that you probably paid $500 for and that took you three weeks to to get",
+    "speaker": "Romain Torres",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 34535,
+    "approx_timestamp_s": 2197
+   }
+  },
+  {
+   "claim": "Outreach to 100 companies -> 20-30 calls -> a third pay $3-5k/month",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 3000,
+    "currency": "USD",
+    "unit": "per month per client",
+    "amount_max": 5000
+   },
+   "claimant": "Romain Torres",
+   "first_hand": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I will sell them the services 3 to 5K per month",
+    "speaker": "Romain Torres",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 35003,
+    "approx_timestamp_s": 2227
+   },
+   "hypothetical": true
+  },
+  {
+   "claim": "About $15k revenue in one month",
+   "metric": "revenue",
+   "value": {
+    "amount": 15000,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Romain Torres",
+   "first_hand": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "In one month I can me be making 15k in revenue doing that",
+    "speaker": "Romain Torres",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 35141,
+    "approx_timestamp_s": 2236
+   },
+   "hypothetical": true
+  },
+  {
+   "claim": "Clone avatar videos got 2 million views",
+   "metric": "traffic",
+   "value": {
+    "amount": 2000000,
+    "currency": null,
+    "unit": "views"
+   },
+   "claimant": "Romain Torres",
+   "first_hand": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "2 million views here 2 million views and all of these videos were created using his AI avatar",
+    "speaker": "Romain Torres",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2671,
+    "approx_timestamp_s": 169
+   }
+  },
+  {
+   "claim": "Disability ad promises $4,180 a month",
+   "metric": "other",
+   "value": {
+    "amount": 4180,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Romain Torres",
+   "first_hand": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "$4,18 a month to cover your grocery bills",
+    "speaker": "Romain Torres",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11457,
+    "approx_timestamp_s": 729
+   }
+  },
+  {
+   "claim": "Automated pipeline can make 100-500 ads a day",
+   "metric": "other",
+   "value": {
+    "amount": 100,
+    "currency": null,
+    "unit": "ads per day",
+    "amount_max": 500
+   },
+   "claimant": "Romain Torres",
+   "first_hand": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "instead of like making one to five a day, I might be doing 100 to 500 a day",
+    "speaker": "Romain Torres",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 36734,
+    "approx_timestamp_s": 2337
+   }
+  },
+  {
+   "claim": "80% of host's YouTube viewers aren't subscribed",
+   "metric": "other",
+   "value": {
+    "amount": 80,
+    "currency": null,
+    "unit": "percent"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "idea_local_id": null,
+   "quote": {
+    "text": "80% of the people that watch my YouTube videos are not subscribed to me",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7180,
+    "approx_timestamp_s": 456
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Free-sample AI UGC outreach",
+   "steps": [
+    "Browse the Facebook Ads Library for companies running many ads",
+    "Prefer smaller companies so you can reach the CEO",
+    "Estimate app ad budgets from Sensor Tower revenue x 0.6-0.7",
+    "Recreate one of their existing UGC ads with Arcads",
+    "Send it free to the CEO on LinkedIn",
+    "Repeat for 100 companies; sell 20-ad packages or $3-5k/month retainers"
+   ],
+   "idea_local_id": "I1",
+   "area": "acquisition",
+   "quote": {
+    "text": "I will tell them, okay, this UC ad that you probably paid $500 for and that took you three weeks to to get, I will do it for you",
+    "speaker": "Romain Torres",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 34513,
+    "approx_timestamp_s": 2196
+   }
+  },
+  {
+   "name": "Automated ad factory",
+   "steps": [
+    "Collect high-performing existing ads (longest-running first) in a Google Sheet",
+    "Have ChatGPT read the transcripts and write new scripts for your offer",
+    "Call the Arcads API through Zapier/Make/n8n/Gumloop",
+    "Generate 100-500 ads a day and test for winners"
+   ],
+   "idea_local_id": "I1",
+   "area": "operations",
+   "quote": {
+    "text": "connect to our API through an automation tool like Zapier, Make.com, NA10, Gumloop and create these ads automatically",
+    "speaker": "Romain Torres",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 36615,
+    "approx_timestamp_s": 2330
+   }
+  },
+  {
+   "name": "Visual hooks in AI ads",
+   "steps": [
+    "Add a gesture in the first second (pointing at camera)",
+    "Put the actor in an odd costume or setting (cosmonaut, Indiana Jones, skateboard)",
+    "A/B test hooks",
+    "Use emotion and accent tags so the voice is not robotic"
+   ],
+   "idea_local_id": "I1",
+   "area": "product",
+   "quote": {
+    "text": "that's what we call a visual hook",
+    "speaker": "Romain Torres",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24180,
+    "approx_timestamp_s": 1538
+   }
+  },
+  {
+   "name": "Niche finding for AI influencers",
+   "steps": [
+    "Use TikTok Creator Search Insights to find searches with few videos",
+    "Pick a trending niche",
+    "Find outlier videos (10x others) on accounts, log them in a Google Sheet and replicate",
+    "Post consistently and iterate with emotional scripts"
+   ],
+   "idea_local_id": "I2",
+   "area": "acquisition",
+   "quote": {
+    "text": "It will literally tell you which pieces of content are lacking from the platform",
+    "speaker": "Romain Torres",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 32366,
+    "approx_timestamp_s": 2059
+   }
+  },
+  {
+   "name": "Match AI ads to less AI-sensitive audiences",
+   "steps": [
+    "Prefer audiences less likely to notice AI (older, non-native English)",
+    "Or sell AI products where AI ads are 'dogfooding'",
+    "Avoid sophisticated categories where AI looks low effort"
+   ],
+   "idea_local_id": "I1",
+   "area": "acquisition"
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Arcads",
+   "purpose": "AI actor/UGC video ad generation (guest's company)"
+  },
+  {
+   "name": "Facebook Ads Library",
+   "purpose": "Find active advertisers and ad ideas"
+  },
+  {
+   "name": "Foreplay",
+   "purpose": "Save competitor ads to boards"
+  },
+  {
+   "name": "Sensor Tower",
+   "purpose": "App revenue estimates"
+  },
+  {
+   "name": "TikTok Creator Search Insights",
+   "purpose": "Find under-served search topics"
+  },
+  {
+   "name": "LinkedIn",
+   "purpose": "Reach CEOs"
+  },
+  {
+   "name": "ChatGPT",
+   "purpose": "Rewrite ad scripts"
+  },
+  {
+   "name": "Zapier / Make.com / n8n / Gumloop",
+   "purpose": "Automate ad production via API"
+  },
+  {
+   "name": "Lovable",
+   "purpose": "Build apps that then need ads"
+  },
+  {
+   "name": "Google Sheets",
+   "purpose": "Track outlier videos"
+  },
+  {
+   "name": "AutoDS",
+   "purpose": "Sponsor read: dropshipping"
+  },
+  {
+   "name": "TK Owners",
+   "purpose": "Host's community"
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Most AI influencer attempts fail from lack of consistency and creativity (survivorship bias).",
+   "quote": {
+    "text": "I can guarantee that there is 99% chance that they will not perform",
+    "speaker": "Romain Torres",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 28914,
+    "approx_timestamp_s": 1840
+   }
+  },
+  {
+   "warning": "Consistency alone isn't enough without improving hooks and learning.",
+   "quote": {
+    "text": "there's a lot of accounts out there with thousands of videos and 82 followers",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 31663,
+    "approx_timestamp_s": 2014
+   }
+  },
+  {
+   "warning": "AI ads can turn off sophisticated audiences in competitive categories.",
+   "quote": null
+  },
+  {
+   "warning": "Target small companies; large ones hide the decision maker.",
+   "quote": null
+  },
+  {
+   "warning": "UK note (extractor): AI-generated testimonials and benefits-claim ads risk ASA/CMA action; claims-management lead gen is FCA-regulated; cold LinkedIn/DM outreach only to limited-company decision makers under PECR.",
+   "quote": null
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Pick audiences and categories where AI-generated creative is accepted or irrelevant.",
+   "theme": "niche_selection",
+   "quote": null
+  },
+  {
+   "lesson": "Relevance beats realism: AI is fine if it solves the viewer's problem, like any ad spokesperson.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "I think that's the whole story of advertising",
+    "speaker": "Romain Torres",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14248,
+    "approx_timestamp_s": 906
+   }
+  },
+  {
+   "lesson": "Sell to companies that already spend budget on the problem; your fee is a rounding error.",
+   "theme": "pricing",
+   "quote": {
+    "text": "for them spending 2K is like less than 1% of the ad budget they have",
+    "speaker": "Romain Torres",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21386,
+    "approx_timestamp_s": 1360
+   }
+  },
+  {
+   "lesson": "A free, personalised sample is a strong opener for creative services.",
+   "theme": "customer_acquisition",
+   "quote": null
+  },
+  {
+   "lesson": "Volume testing finds viral ads; AI makes 100x creative output possible.",
+   "theme": "automation_ai",
+   "quote": {
+    "text": "I would like really increase the chances of finding this viral ad that will bring a lot of profit not by brainstorming",
+    "speaker": "Romain Torres",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 36818,
+    "approx_timestamp_s": 2343
+   }
+  },
+  {
+   "lesson": "Unscalable services can be scaled with agents rather than hiring.",
+   "theme": "scaling",
+   "quote": {
+    "text": "that's how you can scale services have the repetition of not being scalable",
+    "speaker": "Romain Torres",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 37849,
+    "approx_timestamp_s": 2408
+   }
+  },
+  {
+   "lesson": "Replicate outlier content that already worked.",
+   "theme": "validation_testing",
+   "quote": null
+  },
+  {
+   "lesson": "$10k/month via service is easy; $100k+ needs a product or owned audience.",
+   "theme": "scaling",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "C",
+  "rationale": "Guest is a tool founder citing customers' and third parties' results; agency numbers are hypothetical.",
+  "promotional_conflict": "Guest sells Arcads, the tool recommended throughout; sponsor read for AutoDS; host promotes TK Owners."
+ },
+ "extraction": {
+  "model": "grokbot",
+  "extracted_at": "2026-10-22T09:11:50",
+  "cost_usd": null,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 31,
+   "verified": 31,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}
