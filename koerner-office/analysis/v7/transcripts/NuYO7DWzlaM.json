@@ -1,0 +1,648 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "NuYO7DWzlaM",
+  "title": "This app is making $2,000 PER DAY",
+  "channel": "Starter Story",
+  "url": "https://www.youtube.com/watch?v=NuYO7DWzlaM",
+  "upload_date": "2026-10-18",
+  "duration_s": 907,
+  "view_count": 121458,
+  "transcript_provider": "local_whisper_tiny",
+  "transcript_chars": 17041,
+  "transcript_is_whisper": true
+ },
+ "summary": "Starter Story interviews a former Google engineer and serial founder (transcribed as Rastie Turek) who built an encrypted on-device file and photo vault iPhone app (transcribed 'Voltaire') in about three weeks entirely with coding agents. It made 66 USD in month one and 41,000 USD in month six, now ~2,000-3,000 USD a day, with lifetime purchases (39.99 USD) making most revenue. Growth came from SEO, not ads: Claude runs each morning to find keywords with impressions but no clicks, writes one quality guide a day and adds internal links, and web visitors convert ~10% to the app. Takeaway: a simple app in a proven category plus an agent-run SEO loop can be almost fully automated.",
+ "speakers": [
+  {
+   "name": "Pat Walls",
+   "role": "host",
+   "description": "Starter Story founder"
+  },
+  {
+   "name": "Gus",
+   "role": "co-host",
+   "description": "Starter Story co-host/producer"
+  },
+  {
+   "name": "Rastie Turek",
+   "role": "guest",
+   "description": "Founder of the encrypted vault app; ex-Google, prior exits (name as transcribed by Whisper)"
+  }
+ ],
+ "format": "operator_interview",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Encrypted on-device file and photo vault iOS app",
+   "one_liner": "A simple Dropbox-like iPhone app that encrypts files and photos on device with no servers or shared keys, monetised by freemium upgrades, mostly lifetime purchases.",
+   "category": "saas_software",
+   "business_model": "Freemium iOS app: weekly, annual and lifetime in-app purchases; lifetime is ~60% of purchases and 80%+ of revenue.",
+   "customer": "Privacy-conscious iPhone users storing IDs, birth certificates, crypto wallet keys and sensitive photos",
+   "problem": "Need to keep sensitive files close to the device but private; incumbent vault apps are old and neglected",
+   "offer": "Pattern-unlocked encrypted vaults (~52 billion possible) with no recovery and no way to tell what is stored",
+   "pricing": {
+    "model": "Freemium with subscriptions and lifetime purchase",
+    "price_points": [
+     {
+      "amount": 1.99,
+      "currency": "USD",
+      "unit": "per week"
+     },
+     {
+      "amount": 19.99,
+      "currency": "USD",
+      "unit": "per year"
+     },
+     {
+      "amount": 39.99,
+      "currency": "USD",
+      "unit": "lifetime"
+     }
+    ],
+    "notes": "Whisper transcript gives weekly '1 99' and annual '1999'; read as 1.99/week and 19.99/year. Conversion is lowest on day 1 (5.47%) and rises by day 35-60."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "seo_organic_search",
+     "details": "Agent-written marketing site and how-to guides targeting every keyword that points to the App Store category on the web; one high-quality guide a day; web is the majority of traffic and converts ~10% to the app.",
+     "quote": {
+      "text": "what if I try to pull in every keyword that is out there, that essentially points to the same thing as an app store, but on the web",
+      "speaker": "Rastie Turek",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 7107,
+      "approx_timestamp_s": 389
+     }
+    },
+    {
+     "channel": "app_store",
+     "details": "Apple Search (App Store search) is a major download source."
+    }
+   ],
+   "delivery": "Solo founder; app built in ~3 weeks entirely with coding agents; Claude runs each morning to find impression-but-no-click keywords via Google Search Console/Keyword Planner MCP tools, writes and publishes a guide and adds internal links.",
+   "unit_economics_claims": [
+    "First month 66 USD",
+    "41,000 USD in a single month six months later",
+    "~2,000-3,000 USD per day revenue",
+    "60,000+ downloads",
+    "~10% web-to-app conversion",
+    "Built in about 3 weeks"
+   ],
+   "tools": [
+    "Claude / Claude Code",
+    "OpenAI Codex",
+    "gum (his open-source CLI/MCP over Google services)",
+    "Google Search Console",
+    "Google Keyword Planner",
+    "PostHog",
+    "iCloud",
+    "Swift/SwiftUI"
+   ],
+   "startup_cost": "Minimal (coding agents, Apple developer account; not stated)",
+   "time_to_first_revenue": "First month (66 USD); scaled over ~6 months",
+   "automation": {
+    "acquisition": {
+     "score_e": 5,
+     "how": "Agent-run daily SEO loop: keyword discovery, guide writing, publishing and internal linking; App Store search is inbound. Fully legal in the UK."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Self-serve App Store download and onboarding."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "On-device software, no servers."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Apple in-app purchases."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "Few support needs; a paid tier was added partly to reduce feature requests."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works the same in the UK: App Store is global; no servers means minimal UK GDPR data-processing exposure. Note law-enforcement requests (he was contacted by the FBI) and UK Investigatory Powers Act notices could be a consideration for encryption apps."
+   },
+   "risks": [
+    "Crowded category with large old competitors",
+    "Dependence on Google rankings and App Store policies",
+    "No data recovery may cause unhappy users",
+    "Law-enforcement pressure on encryption apps",
+    "Low MRR since most buy lifetime"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "It's my first iOS app, mostly thanks to the coding agents. It took roughly three weeks. The first month, it made $66",
+     "speaker": "Rastie Turek",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 1324,
+     "approx_timestamp_s": 72
+    },
+    {
+     "text": "I literally haven't written single line either of code or the text on the web. Everything is done by one of the coding agents",
+     "speaker": "Rastie Turek",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 7443,
+     "approx_timestamp_s": 407
+    },
+    {
+     "text": "majority of my purchases are for lifetime. I will say good 60% at this point, they also account for majority of the revenue, north of 80% I think",
+     "speaker": "Rastie Turek",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 2311,
+     "approx_timestamp_s": 126
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "First month revenue 66 USD",
+   "metric": "revenue",
+   "value": {
+    "amount": 66,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Rastie Turek",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "The first month, it made $66, got a couple of downloads",
+    "speaker": "Rastie Turek",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1409,
+    "approx_timestamp_s": 77
+   },
+   "period": "first month"
+  },
+  {
+   "claim": "Made 41,000 USD in a single month six months later",
+   "metric": "revenue",
+   "value": {
+    "amount": 41000,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Pat Walls",
+   "first_hand": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "six months later, it made $41,000 in a single month",
+    "speaker": "Pat Walls",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 284,
+    "approx_timestamp_s": 15
+   },
+   "period": "month 6"
+  },
+  {
+   "claim": "Averaging about 2,000-3,000 USD per day",
+   "metric": "revenue",
+   "value": {
+    "amount": 2000,
+    "currency": "USD",
+    "unit": "per day",
+    "amount_max": 3000
+   },
+   "claimant": "Rastie Turek",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "It's currently averaging around $2,000 to $3,000 a day",
+    "speaker": "Rastie Turek",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1462,
+    "approx_timestamp_s": 80
+   },
+   "period": "current"
+  },
+  {
+   "claim": "Lifetime is ~60% of purchases and 80%+ of revenue",
+   "metric": "revenue",
+   "value": {
+    "amount": 80,
+    "currency": null,
+    "unit": "percent of revenue"
+   },
+   "claimant": "Rastie Turek",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "majority of my purchases are for lifetime. I will say good 60% at this point",
+    "speaker": "Rastie Turek",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2311,
+    "approx_timestamp_s": 126
+   }
+  },
+  {
+   "claim": "Passed 60,000 downloads",
+   "metric": "customers",
+   "value": {
+    "amount": 60000,
+    "currency": null,
+    "unit": "downloads"
+   },
+   "claimant": "Rastie Turek",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I just passed 60,000 overall downloads",
+    "speaker": "Rastie Turek",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2461,
+    "approx_timestamp_s": 134
+   }
+  },
+  {
+   "claim": "Download-to-paid 5.47% on day one, rising by day 35",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 5.47,
+    "currency": null,
+    "unit": "percent day one"
+   },
+   "claimant": "Rastie Turek",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "my download to paid is only 5.47% on day one, but day 35. It actually grows",
+    "speaker": "Rastie Turek",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4324,
+    "approx_timestamp_s": 236
+   }
+  },
+  {
+   "claim": "Pricing: weekly 1.99, annual 19.99, lifetime 39.99 USD (Whisper-garbled)",
+   "metric": "price",
+   "value": {
+    "amount": 39.99,
+    "currency": "USD",
+    "unit": "lifetime"
+   },
+   "claimant": "Rastie Turek",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "It's weekly is one 99 annual is 1999 and lifetime is $39.99",
+    "speaker": "Rastie Turek",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4397,
+    "approx_timestamp_s": 240
+   }
+  },
+  {
+   "claim": "About 10% conversion from web traffic to the app",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 10,
+    "currency": null,
+    "unit": "percent"
+   },
+   "claimant": "Rastie Turek",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I have around 10% conversion from the web and the web is the majority of traffic at this point",
+    "speaker": "Rastie Turek",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7918,
+    "approx_timestamp_s": 433
+   }
+  },
+  {
+   "claim": "Example: site shown 16,000 times for a keyword with no clicks",
+   "metric": "traffic",
+   "value": {
+    "amount": 16000,
+    "currency": null,
+    "unit": "impressions"
+   },
+   "claimant": "Rastie Turek",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "your site was showed 16,000 times for this keyword, but no clicks because you are like number 50",
+    "speaker": "Rastie Turek",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8717,
+    "approx_timestamp_s": 477
+   }
+  },
+  {
+   "claim": "New guides take 3-4 days for Google to register",
+   "metric": "other",
+   "value": {
+    "amount": 3,
+    "currency": null,
+    "unit": "days",
+    "amount_max": 4
+   },
+   "claimant": "Rastie Turek",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "It takes roughly three to four days for Google to register",
+    "speaker": "Rastie Turek",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8913,
+    "approx_timestamp_s": 487
+   }
+  },
+  {
+   "claim": "About 52 billion possible vault patterns",
+   "metric": "other",
+   "value": {
+    "amount": 52000000000,
+    "currency": null,
+    "unit": "patterns"
+   },
+   "claimant": "Rastie Turek",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "there's roughly 52 billion potential volts",
+    "speaker": "Rastie Turek",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11706,
+    "approx_timestamp_s": 640
+   }
+  },
+  {
+   "claim": "Previous company acquired by Amazon; last venture-funded startup sold last year",
+   "metric": "sale_price",
+   "value": {
+    "amount": null,
+    "currency": null,
+    "unit": null
+   },
+   "claimant": "Rastie Turek",
+   "first_hand": true,
+   "idea_local_id": null,
+   "quote": {
+    "text": "I built a company, a company got acquired by Amazon and they used some of the tech to this day",
+    "speaker": "Rastie Turek",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5514,
+    "approx_timestamp_s": 301
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Daily agent SEO loop",
+   "steps": [
+    "Each morning an agent queries Google Search Console/Keyword Planner via MCP tools",
+    "Find keywords with impressions but no clicks (e.g. 16,000 impressions at position ~50)",
+    "Write one high-quality guide targeting that keyword",
+    "Publish and add internal links from existing high-traffic pages",
+    "Wait 3-4 days for indexing and watch traffic and conversions"
+   ],
+   "idea_local_id": "I1",
+   "area": "acquisition",
+   "quote": {
+    "text": "it runs through keyboard planner every single morning, looks at all the traffic, it identifies keywords that are being surfaced, but not essentially being driven to the site",
+    "speaker": "Rastie Turek",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8526,
+    "approx_timestamp_s": 466
+   }
+  },
+  {
+   "name": "Place CTAs where readers stop",
+   "steps": [
+    "Have agents analyse where readers commonly end in an article",
+    "Put App Store CTAs at those points",
+    "Track web-to-app conversion (~10%)"
+   ],
+   "idea_local_id": "I1",
+   "area": "acquisition",
+   "quote": {
+    "text": "wherever people are like, commonly ending, I want them to be able to go through the app",
+    "speaker": "Rastie Turek",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7825,
+    "approx_timestamp_s": 428
+   }
+  },
+  {
+   "name": "Attack neglected incumbents' web keywords",
+   "steps": [
+    "Pick a proven App Store category whose incumbents are 15+ years old",
+    "Accept you cannot outrank them in the App Store",
+    "Capture the same intent on the open web with guides"
+   ],
+   "idea_local_id": "I1",
+   "area": "acquisition",
+   "quote": {
+    "text": "Most of the apps in this area are 15 years or older. They have millions of users",
+    "speaker": "Rastie Turek",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6806,
+    "approx_timestamp_s": 372
+   }
+  },
+  {
+   "name": "Monetise to filter feature requests",
+   "steps": [
+    "Launch free with a few paid advanced features",
+    "Offer weekly, annual and lifetime tiers",
+    "Expect conversion to rise over 30-60 days for utility apps"
+   ],
+   "idea_local_id": "I1",
+   "area": "pricing",
+   "quote": {
+    "text": "if users are sending me separate requests, I just don't want to be bothered as much",
+    "speaker": "Rastie Turek",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2161,
+    "approx_timestamp_s": 118
+   }
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Claude / Claude Code",
+   "purpose": "Builds the app and runs the daily SEO agent"
+  },
+  {
+   "name": "OpenAI Codex",
+   "purpose": "Coding agent"
+  },
+  {
+   "name": "gum (open-source library, name as transcribed)",
+   "purpose": "CLI tools with MCP over Google services incl. Search and Keyword Planner"
+  },
+  {
+   "name": "Google Search Console / Keyword Planner",
+   "purpose": "Keyword impression and click data"
+  },
+  {
+   "name": "PostHog",
+   "purpose": "Analytics",
+   "cost_stated": "Free"
+  },
+  {
+   "name": "iCloud",
+   "purpose": "Native app features"
+  },
+  {
+   "name": "Local LLMs",
+   "purpose": "Personal use"
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Avoid AI 'slop' volume; he publishes only one high-quality guide a day.",
+   "quote": {
+    "text": "Google likes the fact that there's like not a lot of content coming, but the content is like high quality",
+    "speaker": "Rastie Turek",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9307,
+    "approx_timestamp_s": 509
+   }
+  },
+  {
+   "warning": "True end-to-end encryption means no recovery and can draw law-enforcement requests.",
+   "quote": {
+    "text": "on a Friday, I go to call from FBI",
+    "speaker": "Rastie Turek",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11941,
+    "approx_timestamp_s": 653
+   }
+  },
+  {
+   "warning": "Unlaunched projects don't exist; starting is the hardest part.",
+   "quote": {
+    "text": "I have at least 2,000 projects that are somewhere in me ready, but they're not out there",
+    "speaker": "Rastie Turek",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12935,
+    "approx_timestamp_s": 708
+   }
+  },
+  {
+   "warning": "Whisper transcript: some numbers/names garbled (intro '$23,000 a day' vs stated 2,000-3,000/day).",
+   "quote": null
+  },
+  {
+   "warning": "Episode promotes Starter Story's app idea database.",
+   "quote": null
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Proven, simple app categories with neglected incumbents are winnable; no new idea needed.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "An app like this and a founder like Rasti is proof that you do not need a brand new or complicated idea to win",
+    "speaker": "Pat Walls",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3024,
+    "approx_timestamp_s": 165
+   }
+  },
+  {
+   "lesson": "SEO still works for niche intent when content is high quality and internally linked.",
+   "theme": "customer_acquisition",
+   "quote": null
+  },
+  {
+   "lesson": "Utility apps can convert late (day 35-60) unlike hype apps that must convert on day one.",
+   "theme": "pricing",
+   "quote": {
+    "text": "I have the lowest conversion day one and I have the highest conversion like day 60",
+    "speaker": "Rastie Turek",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2749,
+    "approx_timestamp_s": 150
+   }
+  },
+  {
+   "lesson": "Coding agents let a domain outsider ship a paid iOS app in weeks.",
+   "theme": "automation_ai",
+   "quote": null
+  },
+  {
+   "lesson": "A one-person app with free tooling can run with near-zero costs and nothing to break.",
+   "theme": "finance_unit_economics",
+   "quote": {
+    "text": "you can really run things for free. You know, there's like nothing to break",
+    "speaker": "Rastie Turek",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11200,
+    "approx_timestamp_s": 613
+   }
+  },
+  {
+   "lesson": "Lifetime pricing can dominate revenue for privacy/utility apps.",
+   "theme": "pricing",
+   "quote": null
+  },
+  {
+   "lesson": "Get better slightly every day rather than overthinking how things should be done.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "every day just be slightly better than they they before",
+    "speaker": "Rastie Turek",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13423,
+    "approx_timestamp_s": 734
+   }
+  }
+ ],
+ "evidence_quality": {
+  "rating": "A",
+  "rationale": "First-hand founder showing revenue dashboard with specific pricing, conversion and SEO process; Whisper transcript garbles some names/numbers.",
+  "promotional_conflict": "Starter Story promotes its app idea database."
+ },
+ "extraction": {
+  "model": "grokbot",
+  "extracted_at": "2026-10-22T09:21:46",
+  "cost_usd": null,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 27,
+   "verified": 27,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}
