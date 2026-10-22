@@ -1,0 +1,1101 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "5TZylaKGWUE",
+  "title": "Everyone Overlooks This Simple Side Hustle",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=5TZylaKGWUE",
+  "upload_date": "2026-06-18",
+  "duration_s": 1722,
+  "view_count": 62025,
+  "transcript_provider": "transcribeyoutube",
+  "transcript_chars": 32406,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner interviews Don, who runs a family fresh-squeezed lemonade business at the Frisco and Dallas farmers markets in Texas. It made about $250k last year over about 8 months, selling 32oz cups at $7 that cost about $1.25 to make. Don explains the recipe, equipment (about $1,500 to start), warehouse prep, staffing with his kids, a $300 booth fee, and expansion into $1,000-3,000 caterings, $500 cart rentals via Facebook Marketplace, venue concessions and a $19k frozen-banana trade-show job. His advice is to stop overthinking and just post up with a quality fresh product.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": null
+  },
+  {
+   "name": "Don",
+   "role": "guest",
+   "description": "Owner of Boo's Lemonade, family lemonade business in Dallas-Frisco, Texas"
+  }
+ ],
+ "format": "operator_interview",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Fresh-squeezed lemonade stand at farmers markets (Boo's Lemonade)",
+   "one_liner": "Family-run fresh-squeezed lemonade booth at Dallas and Frisco farmers markets selling 32oz cups at $7.",
+   "category": "events_experiences",
+   "business_model": "Per-cup retail sales at markets",
+   "customer": "Farmers market and festival visitors in Dallas-Frisco, Texas",
+   "problem": "People want genuinely fresh lemonade; rivals sell Country Time or Milo's dressed up as fresh",
+   "offer": "32oz fresh-squeezed lemonade (one lemon, 3oz 1:1 simple syrup, ~1lb ice, filtered water) made to order with a theatrical pneumatic smasher; optional purée flavours",
+   "pricing": {
+    "model": "Fixed anchor price per cup",
+    "price_points": [
+     {
+      "amount": 7,
+      "currency": "USD",
+      "unit": "per 32oz cup",
+      "label": "anchor price"
+     },
+     {
+      "amount": 10,
+      "currency": "USD",
+      "unit": "per cup",
+      "label": "partner venues"
+     }
+    ],
+    "notes": "$7 anchor never moves; $10 at partner venues because of up to 40% commission."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Booths at Frisco Fresh Market and Dallas Farmers Market; no direct lemonade competitor there."
+    },
+    {
+     "channel": "existing_audience",
+     "details": "Markets used to promote catering."
+    }
+   ],
+   "delivery": "Don's family (kids aged 10, 12, 17) and a hired couple staff two markets; warehouse processes lemons and makes 60-70 gallons of simple syrup at a time; converted trailer bar in Dallas.",
+   "unit_economics_claims": [
+    "~$250k sales last year over ~8 months, mostly profit",
+    "Cost per cup ~$1.25 incl. packaging",
+    "Frisco $1,200-1,500/day; Dallas ~$2,500/day",
+    "Booth fee $300 total per weekend incl. electricity",
+    "First year ~$25-30k"
+   ],
+   "tools": [
+    "Restaurant Depot",
+    "Ben E. Keith",
+    "Sunkist wedger",
+    "Pneumatic smasher",
+    "Emergency Ice"
+   ],
+   "startup_cost": "About $1,500 in equipment",
+   "time_to_first_revenue": "Year 1 revenue ~$25-30k",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Market pitches, festival applications and catering sales are human; SEO and Marketplace listings help with inbound."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "Event booking can be partly automated with forms."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Fresh-squeezed lemonade is made and served in person."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Card payments and invoicing."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Human on site."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Farmers markets and fresh lemonade work in the UK, but the season and weather are weaker; food hygiene registration with the local council and market trader permissions are needed."
+   },
+   "risks": [
+    "Weather and seasonality (market closes two months)",
+    "No exclusivity at markets",
+    "Physical labour",
+    "Ice cost"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "Last year we hit about 250. 250,000? Yes. At farmers markets. Yes. Selling lemonade",
+     "speaker": "Don",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 4693,
+     "approx_timestamp_s": 259
+    },
+    {
+     "text": "So what do you sell a just a plain jane 32 ounce lemonade for? $7. And what's your cost on that? Um $125",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 5039,
+     "approx_timestamp_s": 278
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Lemonade catering for corporate, HOA, school and graduation events",
+   "one_liner": "Pre-batched lemonade service with 'squeezologist' servers and bar rental for 2-4 hour events.",
+   "category": "events_experiences",
+   "business_model": "Per-event catering fee",
+   "customer": "Corporate events, HOAs, schools, graduation parties, weddings",
+   "problem": "Event hosts want a drinks attraction",
+   "offer": "On-site lemonade bar with servers, travel and bar rental",
+   "pricing": {
+    "model": "Per event",
+    "price_points": [
+     {
+      "amount": 1000,
+      "currency": "USD",
+      "unit": "per event",
+      "amount_max": 3000
+     },
+     {
+      "amount": 2900,
+      "currency": "USD",
+      "unit": "per 4-hour event",
+      "label": "example 300 cups at $5"
+     }
+    ],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "seo_organic_search",
+     "details": "Working on SEO for catering.",
+     "quote": {
+      "text": "right now I'm working on just SEO",
+      "speaker": "Don",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 18255,
+      "approx_timestamp_s": 1008
+     }
+    },
+    {
+     "channel": "existing_audience",
+     "details": "Promoted at market booths; graduation push."
+    }
+   ],
+   "delivery": "Squeezologists serve; Don handles weekday caterings.",
+   "unit_economics_claims": [
+    "Typical catering $1,000-3,000",
+    "Example: 300 cups at $5 + fees = $2,900 for 4 hours"
+   ],
+   "tools": [
+    "Website"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "SEO inbound and quote forms automate."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Event planning calls."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical service."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Invoicing."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "On site."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Event drinks catering works in the UK with food hygiene registration."
+   },
+   "risks": [
+    "Labour scheduling",
+    "Weather for outdoor events"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "It'll be anywhere from minimum of like about $1,000 to $3,000 usually per",
+     "speaker": "Don",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 18122,
+     "approx_timestamp_s": 1000
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Lemonade cart rental for weddings and events",
+   "one_liner": "Rent a branded lemonade cart, delivered to venues for bartending companies or cocktail hours.",
+   "category": "rental_asset",
+   "business_model": "Daily rental fee plus delivery",
+   "customer": "Wedding hosts, bartending companies, car shows",
+   "problem": "Event aesthetic and drink station",
+   "offer": "Cart dropped off at venue, optional lemonade add-on",
+   "pricing": {
+    "model": "Per day",
+    "price_points": [
+     {
+      "amount": 500,
+      "currency": "USD",
+      "unit": "per day"
+     },
+     {
+      "amount": 250,
+      "currency": "USD",
+      "unit": "delivery and pickup fee"
+     }
+    ],
+    "notes": "$500 is a Facebook Marketplace special; usually +$250 delivery."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "marketplace_platform",
+     "details": "Facebook Marketplace listings, no boosting needed."
+    },
+    {
+     "channel": "referrals_word_of_mouth",
+     "details": "Personal network."
+    }
+   ],
+   "delivery": "Don drops off the cart; no staff needed.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Facebook Marketplace"
+   ],
+   "startup_cost": "Cost of cart (not stated)",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Marketplace listing and replies partly automatable."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Booking/calendar."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Drop-off and pickup physical."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Payments."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works in the UK."
+   },
+   "risks": [
+    "Damage to cart",
+    "Logistics"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "We'll do that for $500. Yeah. Just straight up rental for four. I drop it off",
+     "speaker": "Don",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 18910,
+     "approx_timestamp_s": 1044
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "Frozen bananas and apple nachos dessert catering",
+   "one_liner": "Chocolate-dipped frozen banana and apple nacho stations for trade shows and events.",
+   "category": "events_experiences",
+   "business_model": "Per-event catering",
+   "customer": "Trade show and event organisers",
+   "problem": "Unique dessert attraction",
+   "offer": "Frozen bananas and apple nachos for up to 1,500 people",
+   "pricing": {
+    "model": "Per event",
+    "price_points": [
+     {
+      "amount": 19000,
+      "currency": "USD",
+      "unit": "per event (1,500 people)"
+     }
+    ],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "referrals_word_of_mouth",
+     "details": "Upsold to a lemonade catering lead who asked 'what else do you do?'"
+    }
+   ],
+   "delivery": "Family dipped ~900 bananas; bananas from Ben E. Keith; warmers.",
+   "unit_economics_claims": [
+    "$19,000 event, ~$12,000 profit",
+    "Leftover frozen bananas resold at Oktoberfest"
+   ],
+   "tools": [
+    "Ben E. Keith"
+   ],
+   "startup_cost": "Warmers and freezers",
+   "time_to_first_revenue": "First event",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Upsell to inbound catering leads."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Human."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical prep."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Invoicing."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "On site."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works in the UK with food hygiene registration."
+   },
+   "risks": [
+    "Labour intensive",
+    "Harder to sell walk-up than lemonade ('you have to explain bananas')"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "We did it for 1500 people. We did frozen bananas",
+     "speaker": "Don",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 25184,
+     "approx_timestamp_s": 1391
+    },
+    {
+     "text": "How much of that was profit of your 19,000? A lot. 12 probably",
+     "speaker": "Don",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 25847,
+     "approx_timestamp_s": 1427
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "Retail lemonade storefront and stadium/venue concessions",
+   "one_liner": "Planned first retail store in Frisco plus concession partnerships in convention centers and stadiums.",
+   "category": "events_experiences",
+   "business_model": "Retail and venue concessions with commission",
+   "customer": "Venue attendees",
+   "problem": "Venue drinks",
+   "offer": "Branded lemonade at venues",
+   "pricing": {
+    "model": "Per cup",
+    "price_points": [
+     {
+      "amount": 10,
+      "currency": "USD",
+      "unit": "per cup"
+     }
+    ],
+    "notes": "Venue partner takes commission up to 40% and supplies labour."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "partnerships",
+     "details": "Concession company partnerships."
+    }
+   ],
+   "delivery": "Partner provides labour; Don provides product and brand.",
+   "unit_economics_claims": [
+    "Goal: $500k revenue in 1-2 years"
+   ],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Venue deals human."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "Human."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Partner labour."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Commission reconciliation."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Venue concessions exist in the UK."
+   },
+   "risks": [
+    "Commission up to 40%"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "even at the partner venues that we have, we charge 10. Wow. Because we have to give a commission. Oh, like to the sometimes 40",
+     "speaker": "Don",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 24314,
+     "approx_timestamp_s": 1343
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "~$250k lemonade sales last year at two farmers markets (about 8 months)",
+   "metric": "revenue",
+   "value": {
+    "amount": 250000,
+    "currency": "USD",
+    "unit": "per year"
+   },
+   "claimant": "Don",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Last year we hit about 250. 250,000? Yes",
+    "speaker": "Don",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1549,
+    "approx_timestamp_s": 85
+   },
+   "period": "last year"
+  },
+  {
+   "claim": "First year sales ~$25-30k",
+   "metric": "revenue",
+   "value": {
+    "amount": 25000,
+    "currency": "USD",
+    "unit": "per year",
+    "amount_max": 30000
+   },
+   "claimant": "Don",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "for our first year, we probably did maybe like 25 30,000",
+    "speaker": "Don",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4573,
+    "approx_timestamp_s": 252
+   },
+   "period": "year 1"
+  },
+  {
+   "claim": "$7 per 32oz cup; cost ~$1.25 incl. packaging",
+   "metric": "price",
+   "value": {
+    "amount": 7,
+    "currency": "USD",
+    "unit": "per cup"
+   },
+   "claimant": "Don",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So what do you sell a just a plain jane 32 ounce lemonade for? $7",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5039,
+    "approx_timestamp_s": 278
+   }
+  },
+  {
+   "claim": "Cost per cup ~$1.25",
+   "metric": "cost",
+   "value": {
+    "amount": 1.25,
+    "currency": "USD",
+    "unit": "per cup"
+   },
+   "claimant": "Don",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "And what's your cost on that? Um $125",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5103,
+    "approx_timestamp_s": 281
+   }
+  },
+  {
+   "claim": "One lemon per cup costing ~20 cents",
+   "metric": "cost",
+   "value": {
+    "amount": 0.2,
+    "currency": "USD",
+    "unit": "per lemon"
+   },
+   "claimant": "Don",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "one lemon and that cost 20 cents",
+    "speaker": "Don",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5791,
+    "approx_timestamp_s": 319
+   }
+  },
+  {
+   "claim": "Delivered ice ~ $1 per pound, ~1lb per cup",
+   "metric": "cost",
+   "value": {
+    "amount": 1,
+    "currency": "USD",
+    "unit": "per pound of ice"
+   },
+   "claimant": "Don",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "it's really about a dollar a pound that we we pay for that",
+    "speaker": "Don",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5347,
+    "approx_timestamp_s": 295
+   }
+  },
+  {
+   "claim": "Frisco averages $1,200-1,500 per day (8am-4pm)",
+   "metric": "revenue",
+   "value": {
+    "amount": 1200,
+    "currency": "USD",
+    "unit": "per market day",
+    "amount_max": 1500
+   },
+   "claimant": "Don",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "we're averaging about like $1,200 to $1,500 a day",
+    "speaker": "Don",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7780,
+    "approx_timestamp_s": 429
+   }
+  },
+  {
+   "claim": "Dallas ~$2,500/day; ~$5,000 per weekend",
+   "metric": "revenue",
+   "value": {
+    "amount": 2500,
+    "currency": "USD",
+    "unit": "per market day"
+   },
+   "claimant": "Don",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Dallas, it's going to be like right around $2,500 a day",
+    "speaker": "Don",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7897,
+    "approx_timestamp_s": 436
+   }
+  },
+  {
+   "claim": "Dallas booth fee $300 total with electricity",
+   "metric": "cost",
+   "value": {
+    "amount": 300,
+    "currency": "USD",
+    "unit": "per weekend"
+   },
+   "claimant": "Don",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "What is your booth fee there? $300 a day. Uh, no. For total",
+    "speaker": "Don",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8081,
+    "approx_timestamp_s": 446
+   }
+  },
+  {
+   "claim": "Eclipse popup: ~$6,000 in 3 hours, ~$5,000 profit",
+   "metric": "revenue",
+   "value": {
+    "amount": 6000,
+    "currency": "USD",
+    "unit": "per 3-hour event"
+   },
+   "claimant": "Don",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "in three hours we did almost like $6,000",
+    "speaker": "Don",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16909,
+    "approx_timestamp_s": 933
+   }
+  },
+  {
+   "claim": "Equipment startup cost ~$1,500",
+   "metric": "cost",
+   "value": {
+    "amount": 1500,
+    "currency": "USD",
+    "unit": "one-off"
+   },
+   "claimant": "Don",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "other than the equipment, you know, probably about like $1,500",
+    "speaker": "Don",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14650,
+    "approx_timestamp_s": 809
+   }
+  },
+  {
+   "claim": "Sunkist wedger ~$350; handheld smasher ~$120",
+   "metric": "cost",
+   "value": {
+    "amount": 350,
+    "currency": "USD",
+    "unit": "per wedger"
+   },
+   "claimant": "Don",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "it's a sun-kissed wedger. Those run around like $350",
+    "speaker": "Don",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13979,
+    "approx_timestamp_s": 772
+   }
+  },
+  {
+   "claim": "Catering example $2,900 for 4 hours (300 cups at $5)",
+   "metric": "revenue",
+   "value": {
+    "amount": 2900,
+    "currency": "USD",
+    "unit": "per event"
+   },
+   "claimant": "Don",
+   "first_hand": true,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "that came out to like $2,900 for a 4 hour event",
+    "speaker": "Don",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17850,
+    "approx_timestamp_s": 985
+   }
+  },
+  {
+   "claim": "Catering typically $1,000-3,000 per event",
+   "metric": "revenue",
+   "value": {
+    "amount": 1000,
+    "currency": "USD",
+    "unit": "per event",
+    "amount_max": 3000
+   },
+   "claimant": "Don",
+   "first_hand": true,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "minimum of like about $1,000 to $3,000 usually per",
+    "speaker": "Don",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18145,
+    "approx_timestamp_s": 1002
+   }
+  },
+  {
+   "claim": "Cart rental $500/day plus usual $250 delivery",
+   "metric": "price",
+   "value": {
+    "amount": 500,
+    "currency": "USD",
+    "unit": "per day"
+   },
+   "claimant": "Don",
+   "first_hand": true,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "normally there's a $250 like delivery and pickup fee along with that as well",
+    "speaker": "Don",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 19461,
+    "approx_timestamp_s": 1074
+   }
+  },
+  {
+   "claim": "Frozen banana trade show catering for 1,500 people: $19,000, ~$12,000 profit",
+   "metric": "profit",
+   "value": {
+    "amount": 12000,
+    "currency": "USD",
+    "unit": "per event"
+   },
+   "claimant": "Don",
+   "first_hand": true,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "How much of that was profit of your 19,000? A lot. 12 probably",
+    "speaker": "Don",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25847,
+    "approx_timestamp_s": 1427
+   }
+  },
+  {
+   "claim": "Venue partners charge $10/cup with commission up to 40%",
+   "metric": "price",
+   "value": {
+    "amount": 10,
+    "currency": "USD",
+    "unit": "per cup"
+   },
+   "claimant": "Don",
+   "first_hand": true,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "we charge 10. Wow. Because we have to give a commission",
+    "speaker": "Don",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24354,
+    "approx_timestamp_s": 1345
+   }
+  },
+  {
+   "claim": "Goal: $500k in a year or two",
+   "metric": "revenue",
+   "value": {
+    "amount": 500000,
+    "currency": "USD",
+    "unit": "per year"
+   },
+   "claimant": "Don",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I think we can get it to half a million",
+    "speaker": "Don",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1756,
+    "approx_timestamp_s": 96
+   },
+   "hypothetical": true
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Theatrical fresh-squeeze process",
+   "steps": [
+    "Wedge the lemon with a Sunkist wedger",
+    "Smash with a pneumatic smasher customers can hear",
+    "Add 3oz 1:1 simple syrup, ~1lb ice, filtered water and shake",
+    "Squeeze a lemon in front of sceptics to prove freshness"
+   ],
+   "idea_local_id": "I1",
+   "area": "product",
+   "quote": {
+    "text": "you can hear it like in our markets, you can hear it and you walk in, you hear the sounds like money",
+    "speaker": "Don",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14434,
+    "approx_timestamp_s": 797
+   }
+  },
+  {
+   "name": "Batch prep at warehouse",
+   "steps": [
+    "Buy 140-count lemons and 50lb sugar bags from Restaurant Depot / Ben E. Keith",
+    "Wash lemons centrally",
+    "Make 60-70 gallons of 1:1 simple syrup at a time by volume"
+   ],
+   "idea_local_id": "I1",
+   "area": "operations"
+  },
+  {
+   "name": "Anchor price",
+   "steps": [
+    "Research what others charge",
+    "Set a value price ($7 for 32oz) and never move it",
+    "Charge more ($10) where commissions apply"
+   ],
+   "idea_local_id": "I1",
+   "area": "pricing"
+  },
+  {
+   "name": "Upsell rentals with product",
+   "steps": [
+    "List cart rental on Facebook Marketplace at $500",
+    "Suggest adding lemonade to the rental"
+   ],
+   "idea_local_id": "I3",
+   "area": "sales"
+  },
+  {
+   "name": "Ask 'what else?' on catering leads",
+   "steps": [
+    "When a client asks what else you do, offer a novel item (frozen bananas)",
+    "Freeze leftovers and sell at the next event"
+   ],
+   "idea_local_id": "I4",
+   "area": "sales"
+  },
+  {
+   "name": "Multi-market staffing",
+   "steps": [
+    "Older kids run one market",
+    "Hired couple runs Dallas",
+    "Owner drops trailer Friday night and restocks Sunday",
+    "Owner does weekday caterings"
+   ],
+   "idea_local_id": "I1",
+   "area": "operations"
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Restaurant Depot",
+   "purpose": "Lemons and sugar"
+  },
+  {
+   "name": "Ben E. Keith",
+   "purpose": "Restaurant supplier for bulk and bananas"
+  },
+  {
+   "name": "Sunkist wedger",
+   "purpose": "Cutting lemons",
+   "cost_stated": "~$350"
+  },
+  {
+   "name": "Pneumatic lemon smasher",
+   "purpose": "Theatrical juicing"
+  },
+  {
+   "name": "Handheld smashers (Amazon)",
+   "purpose": "Juicing",
+   "cost_stated": "~$120"
+  },
+  {
+   "name": "Emergency Ice",
+   "purpose": "Ice delivery",
+   "cost_stated": "~$1/lb"
+  },
+  {
+   "name": "Facebook Marketplace",
+   "purpose": "Cart rentals"
+  },
+  {
+   "name": "beehiiv",
+   "purpose": "Sponsor read"
+  },
+  {
+   "name": "Koerner Office business plans",
+   "purpose": "Chris's $19 plans / $5 month membership (promo)"
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Competitors sell Country Time or store-bought lemonade as 'fresh'; customers notice.",
+   "quote": {
+    "text": "it was just gallons of Milo's lemonade from Walmart. Yep. Y but they were selling it for seven bucks",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13555,
+    "approx_timestamp_s": 748
+   }
+  },
+  {
+   "warning": "Weather and seasonality hurt markets (bad April, two-month closure).",
+   "quote": {
+    "text": "April's been horrible as far as like weather",
+    "speaker": "Don",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17142,
+    "approx_timestamp_s": 946
+   }
+  },
+  {
+   "warning": "Hand muddling at volume will wreck your hands.",
+   "quote": {
+    "text": "you'll have arthritis after a few weeks",
+    "speaker": "Don",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15339,
+    "approx_timestamp_s": 847
+   }
+  },
+  {
+   "warning": "Fresh fruit add-ins add complexity and spoilage.",
+   "quote": {
+    "text": "It does adds complexity. Also shelf stable",
+    "speaker": "Don",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10849,
+    "approx_timestamp_s": 599
+   }
+  },
+  {
+   "warning": "Many markets require an application process.",
+   "quote": {
+    "text": "a lot of times you have to go through application process",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22578,
+    "approx_timestamp_s": 1247
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Overlooked 'kid' businesses can be very lucrative because people think they're too good for them.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "people overlook it like I'm I'm too good for that",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 533,
+    "approx_timestamp_s": 29
+   }
+  },
+  {
+   "lesson": "Stop overthinking setup (LLC etc.); get a table, a tent and a recipe and post up.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "get a table, get a tent. Yeah. You know, like get your recipe right. Yeah. And then just post up",
+    "speaker": "Don",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22089,
+    "approx_timestamp_s": 1220
+   }
+  },
+  {
+   "lesson": "Authenticity (real fresh product) beats gimmicky competitors and removes competition worry.",
+   "theme": "offer_design",
+   "quote": null
+  },
+  {
+   "lesson": "Theatre and sound at the stall attract crowds.",
+   "theme": "customer_acquisition",
+   "quote": null
+  },
+  {
+   "lesson": "Events and catering have much higher ticket sizes than walk-up sales.",
+   "theme": "pricing",
+   "quote": null
+  },
+  {
+   "lesson": "A family business with kids involved looks wholesome and helps the brand.",
+   "theme": "customer_acquisition",
+   "quote": null
+  },
+  {
+   "lesson": "Simple products are easier to sell walk-up; novel ones need explaining.",
+   "theme": "offer_design",
+   "quote": {
+    "text": "Lemonade's easy. You have to explain bananas",
+    "speaker": "Don",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 29787,
+    "approx_timestamp_s": 1645
+   }
+  },
+  {
+   "lesson": "Ideas from YouTube can be copied successfully with no experience.",
+   "theme": "validation_testing",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "A",
+  "rationale": "First-hand operator with specific per-cup costs, daily revenue and event figures.",
+  "promotional_conflict": "beehiiv sponsor read; Chris promotes his business plans membership."
+ },
+ "extraction": {
+  "model": "grokbot",
+  "extracted_at": "2026-10-22T09:02:10",
+  "cost_usd": null,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 35,
+   "verified": 35,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}
