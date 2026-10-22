@@ -1,0 +1,2307 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "bAzg8BugEVY",
+  "title": "The Most Profitable Solo Business You've Never Heard Of",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=bAzg8BugEVY",
+  "upload_date": "2026-04-21",
+  "duration_s": 2168,
+  "view_count": 344993,
+  "transcript_provider": "local_whisper_tiny",
+  "transcript_chars": 39939,
+  "transcript_is_whisper": true
+ },
+ "summary": "Brett describes DesignJoy, a solo productized design subscription that he says he launched on Product Hunt and grew while keeping his full-time job. He explains its self-serve offer, rapid delivery, pricing increases, workload, and use of AI tools. The conversation also covers possible productized services, including AI-first development, branding, copywriting, video clipping, thumbnails, and podcast editing. A key takeaway is that AI can speed up digital service work, while distribution, client demand, design judgment, and human delivery still matter.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Host of The Koerner Office."
+  },
+  {
+   "name": "Brett",
+   "role": "guest",
+   "description": "DesignJoy founder; surname is not stated clearly in the transcript."
+  }
+ ],
+ "format": "operator_interview",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "DesignJoy productized design subscription",
+   "one_liner": "A self-serve subscription for digital design work, delivered by a solo designer.",
+   "category": "agency",
+   "business_model": "Monthly subscription or retainer; clients can pause and resume.",
+   "customer": "Companies and startups that need branding, websites, social media assets, presentation decks, or other digital design.",
+   "problem": "Traditional agencies can be expensive and slow, and hiring contractors can mean paying when there is no work.",
+   "offer": "Clients subscribe through the website, pay without calls or proposals, and receive design work, often with a homepage returned the next day. Work is handled one request at a time.",
+   "pricing": {
+    "model": "Monthly subscription per client.",
+    "price_points": [
+     {
+      "amount": 449,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "Initial price for unlimited design"
+     },
+     {
+      "amount": 849,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "First increase"
+     },
+     {
+      "amount": 1299,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "Later price"
+     },
+     {
+      "amount": 2500,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "Later price"
+     },
+     {
+      "amount": 3200,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "Later price"
+     },
+     {
+      "amount": 4000,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "Later price"
+     },
+     {
+      "amount": 5000,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "Later price"
+     },
+     {
+      "amount": 6000,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "Later price"
+     },
+     {
+      "amount": 8000,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "Later price, later dialed back"
+     }
+    ],
+    "notes": "Brett says clients can pause their subscription. He does not give the current exact price after dialing it back."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "marketplace_platform",
+     "details": "Brett submitted DesignJoy to Product Hunt and reached number four on the daily list.",
+     "quote": {
+      "text": "Usually, you get instant customers with it. And it's totally free. You just have to have the network of people to upvoted",
+      "speaker": "Brett",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 5591,
+      "approx_timestamp_s": 314
+     }
+    },
+    {
+     "channel": "facebook_groups_communities",
+     "details": "He asked friends and family from his hometown school network on Facebook to upvote the Product Hunt submission.",
+     "quote": {
+      "text": "My personal network was my friends and family I went to school with on Facebook. That was all I had at the time.",
+      "speaker": "Brett",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 5732,
+      "approx_timestamp_s": 322
+     }
+    },
+    {
+     "channel": "other",
+     "details": "He says he shared his story on forums while anonymous and without an audience.",
+     "quote": {
+      "text": "No, no audience, I literally shared my story on forums. That's it.",
+      "speaker": "Brett",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 4728,
+      "approx_timestamp_s": 266
+     }
+    }
+   ],
+   "delivery": "Brett does the design work himself. Clients submit digital requests through the service; work includes branding, logos, website design and development, social media material, and presentation decks. Requests are handled one at a time. He says AI now helps with requirements, UX thinking, and producing some kinds of assets.",
+   "unit_economics_claims": [
+    "Brett says DesignJoy has generated about USD 1 million a year.",
+    "He says monthly expenses are about USD 1,000, excluding taxes.",
+    "He says net profit has averaged USD 60,000 to USD 80,000 per month, with a peak of USD 200,000 and a low of USD 40,000.",
+    "He says he has handled as many as 50 clients at a time."
+   ],
+   "tools": [
+    "Webflow",
+    "Product Hunt",
+    "Facebook",
+    "Claude",
+    "Figma",
+    "DesignJoy"
+   ],
+   "startup_cost": "Brett says there were very little costs beyond the time he invested; no amount is stated.",
+   "time_to_first_revenue": "Brett says he had the idea Friday, built it Saturday, launched Sunday, and saw about USD 10,000 on the first day. The exact elapsed time from launch to payment is not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Product Hunt submission and a self-serve site can be prepared and monitored with software. The launch still depended on a personal network and the service needs ongoing distribution. In the UK, favor inbound channels and consent-based promotion; do not automate unsolicited marketing to individuals or sole traders."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "A website can take payment and accept requests without a sales call, with occasional human review for fit, scope, or unclear briefs."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "A designer must make and review each client deliverable. AI can assist with requirements, UX, and assets, but the transcript describes Brett personally doing the design work."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Recurring subscriptions and pause or resume billing can be handled by billing software, with a person resolving exceptions."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Routine request intake can be structured, but client feedback, judgment, and design decisions still need human attention."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "A digital design subscription can serve UK businesses in the same basic way. Pricing, tax handling, and contract terms would need to suit the local market."
+   },
+   "risks": [
+    "Brett says rapid revenue growth and a large client load led him to work himself nearly to death and into hospital.",
+    "He says increasing prices did not reduce demand as he expected; it sometimes increased demand by moving the offer into another category.",
+    "He says monthly recurring revenue swings with churn and clients pausing.",
+    "The business remains dependent on Brett's personal design capacity, so it is not close to unattended delivery."
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "So I run what is now, you know, call the productized design agency. So basically selling design services, via subscription",
+     "speaker": "Brett",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 3522,
+     "approx_timestamp_s": 198
+    },
+    {
+     "text": "on a Friday, I had the idea on a Saturday, I built the thing in Webflow on a Sunday launching on product time and on Monday",
+     "speaker": "Brett",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 4402,
+     "approx_timestamp_s": 247
+    },
+    {
+     "text": "I do design work for software product, branding, like, you know, you name it, I do it.",
+     "speaker": "Brett",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 3906,
+     "approx_timestamp_s": 220
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Productized marketing service",
+   "one_liner": "A fixed-scope, self-serve marketing service sold off the shelf.",
+   "category": "agency",
+   "business_model": "Not stated; the guest describes productized services generally as an off-the-shelf service.",
+   "customer": "Not stated; the guest gives marketing as an example of a digital skill that could be productized.",
+   "problem": "Not stated.",
+   "offer": "A marketing service that a customer can buy through a website without first requesting a quote or attending several sales meetings.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": "No price is given."
+   },
+   "acquisition_channels": [],
+   "delivery": "Not stated.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Inbound content or paid acquisition could be automated, but the transcript gives no acquisition method for a marketing service. UK outbound must respect PECR and call-screening rules."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "A fixed package could use an online form and payment, with human review for unusual requirements."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Marketing strategy and execution usually need a person to make decisions and review work; the transcript does not describe automation for this example."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "If sold as a subscription, billing could run through recurring-payment software with occasional exception handling."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "A knowledge base can answer routine questions, but campaign decisions and customer-specific requests likely need human input."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Marketing services can be sold to UK businesses. The transcript gives no market-specific constraints; UK data protection and marketing rules would apply."
+   },
+   "risks": [
+    "The guest gives this as a possible category, not a tested business with stated customers, pricing, or results."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "whether it's marketing, copywriting, you know, maybe you're running social media for a brand or something like that is small.",
+     "speaker": "Brett",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 2453,
+     "approx_timestamp_s": 138
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Productized copywriting agency",
+   "one_liner": "A fixed-offer copywriting service that uses AI to produce work at scale.",
+   "category": "agency",
+   "business_model": "Not stated; productized service, possibly recurring, is discussed.",
+   "customer": "Businesses needing copy; the host says everyone needs copywriting.",
+   "problem": "Businesses need copy, and AI makes it possible to produce it with less hiring.",
+   "offer": "Copywriting sold through a productized agency. The transcript mentions blog post copy as an example, and the host says Alex Lieberman discussed building this type of agency.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": "No price is stated for this copywriting agency."
+   },
+   "acquisition_channels": [],
+   "delivery": "The transcript says AI is good at copywriting and could reduce the number of people needed; the specific workflow and operator are not stated.",
+   "unit_economics_claims": [],
+   "tools": [
+    "AI language models"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Inbound content and paid advertising can be automated; no actual channel is described. UK cold outreach to individuals and sole traders requires consent under PECR."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "A brief and payment could be collected online, but brand context and client review need checks."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "AI can draft copy and reduce production time, but human editing and factual review are needed to protect quality and accuracy."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Recurring subscriptions or fixed packages can be billed automatically, with human handling of scope changes."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Routine questions can be handled with templates; revisions and brand-specific questions need human review."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Copywriting is a digital service that can be sold in the UK. Local language, claims, and advertising standards may require review."
+   },
+   "risks": [
+    "The host's claim that AI makes the model easy to scale is a prediction, not an operator's documented result in this transcript.",
+    "AI-generated copy still needs factual and brand review."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "they were like, hey, can we hop on and think about building like a productized copywriting agency? And then we had that chat",
+     "speaker": "Chris Koerner",
+     "match_score": 95.9,
+     "verified": true,
+     "char_offset": 35906,
+     "approx_timestamp_s": 2022
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "Productized social media management",
+   "one_liner": "A packaged service managing social media for a brand.",
+   "category": "agency",
+   "business_model": "Not stated.",
+   "customer": "A brand that wants its social media managed.",
+   "problem": "Not stated.",
+   "offer": "Social media work offered as a packaged digital service rather than a custom agency engagement.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": "No price or billing frequency is stated."
+   },
+   "acquisition_channels": [],
+   "delivery": "The guest gives social media management as an example of a skill that could be productized, but does not describe the work or operator.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Inbound search, content, and ads could be automated, but no actual channel is given. Avoid unsolicited UK DMs and messages to individuals or sole traders."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "An online intake form can collect brand details and access requirements, with human verification."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Content choices, brand judgment, and publishing review usually need a human; no automated workflow is described."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "A subscription can be billed automatically, subject to human handling of changes and failed payments."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Routine status questions can be automated, while creative feedback and account issues need a person."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "A digital social media service can operate in the UK; no US-only dependency is mentioned."
+   },
+   "risks": [
+    "The transcript offers this only as an example and gives no proof of demand or operating details."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "maybe you're running social media for a brand or something like that is small.",
+     "speaker": "Brett",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 2497,
+     "approx_timestamp_s": 140
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "AI-first design and development agency",
+   "one_liner": "An agency that uses AI to build and launch software for clients, with developers handling complex implementation.",
+   "category": "ai_automation",
+   "business_model": "The guest suggests a monthly retainer or one-off project pricing, depending on scope.",
+   "customer": "Non-technical founders or companies that want a digital product built and launched.",
+   "problem": "Non-technical clients may get stuck connecting a prototype to a database or Stripe, hosting it, resolving AI coding loops, or ensuring security and payment management.",
+   "offer": "Use AI to accelerate product design and development, while developers and other in-house resources handle integrations, deployment, security, payment management, and support.",
+   "pricing": {
+    "model": "The guest suggests a retainer or one-off pricing based on scope.",
+    "price_points": [
+     {
+      "amount": 10000,
+      "amount_max": 20000,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "Guest's hypothetical retainer range if he ran this agency"
+     }
+    ],
+    "notes": "The guest says one-off pricing could vary with scope; no amount is given for that model."
+   },
+   "acquisition_channels": [],
+   "delivery": "The agency would use AI to build more quickly, with developers available for technical work and in-house resources overseeing security, payment management, hosting, and fixes.",
+   "unit_economics_claims": [
+    "The guest suggests a hypothetical retainer of USD 10,000 to USD 20,000 per month.",
+    "He says some non-technical users spend thousands of dollars a month on tokens."
+   ],
+   "tools": [
+    "Claude",
+    "Stripe",
+    "Databases",
+    "Hosting services"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "A B2B agency can use inbound content and paid ads, but trust-based sales and project scoping need people. Use lawful UK channels; screen cold calls and avoid unsolicited electronic messages to individuals and sole traders."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "A form can collect requirements, but discovery, scope, and technical risk assessment need human review."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "AI can accelerate coding and design, but developers must handle integrations, security, deployment, and failures."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Retainers and milestone invoices can be automated, with human review of scope and disputes."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "The guest explicitly proposes a human resource to go to when something breaks; support cannot be unattended."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "The service model works for UK businesses. UK privacy, security, consumer, and payment requirements need to be included in project delivery."
+   },
+   "risks": [
+    "The guest says token costs can be high and non-technical users can get stuck in repeated troubleshooting loops.",
+    "Security, payment handling, hosting, and ongoing support create real technical and liability work.",
+    "The guest's price range is hypothetical; no operating results are supplied."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "The one is more general. It's AI first design and development. That is the big thing, right?",
+     "speaker": "Brett",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 29124,
+     "approx_timestamp_s": 1640
+    }
+   ]
+  },
+  {
+   "local_id": "I6",
+   "name": "Branding agency",
+   "one_liner": "A focused agency selling brand identity and visual direction.",
+   "category": "agency",
+   "business_model": "Not stated; the guest describes branding work as potentially one-off.",
+   "customer": "Companies and startups that want to distinguish their product and brand.",
+   "problem": "A product can be copied quickly, and generic design may make it harder to stand out.",
+   "offer": "Branding rather than general product or website design, with visual direction and a cohesive set of brand assets.",
+   "pricing": {
+    "model": "Not stated; the guest says branding is often a one-off project.",
+    "price_points": [],
+    "notes": "No branding price is stated."
+   },
+   "acquisition_channels": [],
+   "delivery": "A designer establishes the brand's aesthetic and can set up AI to generate supporting images in a consistent style. Human taste and judgment remain important according to the guest.",
+   "unit_economics_claims": [],
+   "tools": [
+    "AI image generation tools"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Portfolio content and inbound search could attract clients, but the transcript gives no actual channel. UK outbound must follow PECR and call-screening rules."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "A digital brief can collect inputs, but positioning and aesthetic decisions need human discussion and judgment."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "The guest says taste matters and describes a designer setting direction; AI can produce supporting assets but not replace the full branding judgment."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "A fixed project can be invoiced and paid online, with human handling of scope changes."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Routine updates can be automated, but visual revisions and approval require a person."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Branding services can be delivered to UK businesses in the same way; no geography-specific dependency is mentioned."
+   },
+   "risks": [
+    "The guest says AI output depends on taste and may not satisfy higher design standards.",
+    "Branding can be a one-off sale, so repeat revenue may be less predictable than subscription services."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "The other thing on a biased front would be branding. So not product design, not website design, just branding.",
+     "speaker": "Brett",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 29971,
+     "approx_timestamp_s": 1688
+    }
+   ]
+  },
+  {
+   "local_id": "I7",
+   "name": "Short-form video clipping service",
+   "one_liner": "Turn clients' long-form videos into short-form clips for social channels.",
+   "category": "content_media",
+   "business_model": "Not stated; the guest describes it as a recurring service.",
+   "customer": "Content creators with long-form videos.",
+   "problem": "Creators need short clips to reuse and distribute their long-form content.",
+   "offer": "Cut long-form videos into short-form clips that creators can use across platforms.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": "The guest says the work can be a recurring need but gives no price."
+   },
+   "acquisition_channels": [],
+   "delivery": "A service provider edits clients' long-form videos into short clips. The guest names Viral Cuts as an example, but does not describe its workflow or team.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Viral Cuts"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Creator-focused inbound content and marketplace listings could be automated; no actual acquisition channel is stated. UK cold DMs to individuals require consent."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Clients can upload source files and provide a brief online, with a human checking the edit requirements."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "AI can help find and prepare clips, but editing choices, captions, and quality control need human review."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "A recurring package can be billed automatically, with human handling of pauses and scope changes."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Routine upload and status questions can be automated; edits and creative feedback need people."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Video editing is location-independent and can serve UK creators."
+   },
+   "risks": [
+    "The transcript does not give customer counts, pricing, costs, or measured results for this service."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "So they do it for short videos or content creators like yourself, which is obviously a huge industry right now.",
+     "speaker": "Brett",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 36309,
+     "approx_timestamp_s": 2045
+    }
+   ]
+  },
+  {
+   "local_id": "I8",
+   "name": "YouTube thumbnail subscription",
+   "one_liner": "A recurring service producing thumbnails for video creators.",
+   "category": "content_media",
+   "business_model": "Subscription for ongoing thumbnail design; exact billing terms are not stated.",
+   "customer": "YouTube creators who need thumbnails for their videos.",
+   "problem": "Creators need multiple thumbnail options and may want to test or replace thumbnails after publishing.",
+   "offer": "Design thumbnails as an ongoing service. The host notes that creators can test alternatives and change thumbnails after a video has been live.",
+   "pricing": {
+    "model": "Subscription, according to the host.",
+    "price_points": [],
+    "notes": "No price is stated."
+   },
+   "acquisition_channels": [],
+   "delivery": "A designer creates thumbnail options for each video. The host says a small team could produce many thumbnails; the specific provider's workflow is not described.",
+   "unit_economics_claims": [
+    "The host says a team of two or three people could produce hundreds of thumbnails a day."
+   ],
+   "tools": [
+    "YouTube"
+   ],
+   "startup_cost": "The host calls thumbnail design low cost, but gives no amount.",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Creator content, inbound search, and marketplace listings could generate leads. Avoid unsolicited UK messages to individual creators without consent."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "A form can collect the video, brand rules, and references; human review is needed to understand the creative brief."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "AI can generate or adapt concepts, but thumbnail choices need human creative judgment and client approval."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Subscription billing can be automated, with human handling of pauses, extra requests, or failed payments."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Automate routine status updates, but revisions and performance discussions require a person."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Creators in the UK use YouTube and can buy remote design services."
+   },
+   "risks": [
+    "The transcript gives no evidence for the unnamed thumbnail provider's results or pricing.",
+    "High output volume may require a team or extensive quality controls."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "YouTube thumbnails, I can't think of the name, but there's somebody that does YouTube thumbnails as a subscription, which is one of the best use cases for it",
+     "speaker": "Brett",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 36564,
+     "approx_timestamp_s": 2059
+    }
+   ]
+  },
+  {
+   "local_id": "I9",
+   "name": "Podcast editing service",
+   "one_liner": "A recurring editing service for podcasts.",
+   "category": "content_media",
+   "business_model": "Not stated; the guest names podcast editing as a recurring service need.",
+   "customer": "Podcast creators.",
+   "problem": "Not stated.",
+   "offer": "Podcast editing delivered as an ongoing service.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": "No price is stated."
+   },
+   "acquisition_channels": [],
+   "delivery": "Not stated.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Inbound content and creator directories could be automated, but the transcript gives no actual acquisition channel. Avoid unsolicited UK outreach to individuals without consent."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "A client can submit audio and an editing brief online; unusual requests need a human check."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "AI can assist with transcription and cleanup, but editing decisions and final quality checks need human review."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Recurring billing can be automated if offered as a subscription."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Automate routine file and status questions; revisions and technical problems need a person."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Podcast editing is a location-independent digital service."
+   },
+   "risks": [
+    "The transcript gives no pricing, acquisition method, or operating results."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "things like short-term video, short-form videos, podcast editing, or thumbnail design is a reoccurring need.",
+     "speaker": "Brett",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 36838,
+     "approx_timestamp_s": 2075
+    }
+   ]
+  },
+  {
+   "local_id": "I10",
+   "name": "AI-generated brand asset service",
+   "one_liner": "Set up AI workflows that generate consistent branded images and supporting assets.",
+   "category": "ai_automation",
+   "business_model": "Not stated; described as a capability that could be provided to technology companies.",
+   "customer": "Technology companies that want a consistent aesthetic for blog posts and other supporting content.",
+   "problem": "Companies need cohesive photography, backgrounds, illustrations, or icons without commissioning each asset individually.",
+   "offer": "Establish an aesthetic and a repeatable AI image generation system for use in blog posts and other brand materials.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": "No pricing is stated."
+   },
+   "acquisition_channels": [],
+   "delivery": "The guest says he can set up a system for a company so it can generate assets in a consistent style. Human setup and brand direction are implied by his description.",
+   "unit_economics_claims": [],
+   "tools": [
+    "AI image generation tools"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Inbound portfolio content could demonstrate the service, but no channel is stated. UK outbound to individuals and sole traders must follow PECR."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "A client can provide references and brand assets online, but a person must define and approve the visual system."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Once configured, image generation can be automated with routine human review for style, accuracy, and rights concerns."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "A setup fee or ongoing service could be invoiced automatically, though no model is stated."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Routine usage questions can be documented; style drift and model changes require human adjustment."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "AI asset production can be delivered remotely in the UK; client-specific intellectual property and image-use terms would need attention."
+   },
+   "risks": [
+    "The guest describes this as an ability within his design work, not as a proven standalone business.",
+    "The output depends on a human setting a coherent aesthetic and reviewing the generated assets."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "I can set up a system for them and AI to be able to replicate and build images out in that style for them to use on their blog posts.",
+     "speaker": "Brett",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 31653,
+     "approx_timestamp_s": 1783
+    }
+   ]
+  },
+  {
+   "local_id": "I11",
+   "name": "Tea dating app",
+   "one_liner": "A dating app mentioned as a successful client project that later suffered a data leak.",
+   "category": "saas_software",
+   "business_model": "not stated",
+   "customer": "Dating app users.",
+   "problem": "Not stated.",
+   "offer": "A dating app; the transcript focuses on Brett's design work and the app's reported popularity, not its product features.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "No pricing or revenue model is stated."
+   },
+   "acquisition_channels": [],
+   "delivery": "The app was available on the iOS App Store and Google Play Store. Brett says he designed the brand and app; the app's operator and delivery process are not described.",
+   "unit_economics_claims": [
+    "Brett says it became number one on the iOS App Store and had millions of users on day one, though the transcript's exact wording is unclear."
+   ],
+   "tools": [
+    "iOS App Store",
+    "Google Play Store"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "App store discovery can support software distribution, but the transcript does not describe how users were acquired."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "App registration can be handled in software, with human review for abuse and account problems."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "The app can deliver digital functionality through software, though ongoing moderation and incident handling may need people."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "No billing model is stated, so automation is only an estimate for a typical app."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Routine support can be automated, but privacy incidents and user complaints need human handling."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "A dating app can operate in the UK, but the transcript does not describe its model or compliance. UK privacy and data protection requirements would matter."
+   },
+   "risks": [
+    "The guest says the app had a data leak.",
+    "The transcript does not establish its business model, pricing, or user figures independently."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "And then all of a sudden it's number one on app stores, number one on the Google Play Store, but they had a date of leak and it was not good.",
+     "speaker": "Brett",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 23713,
+     "approx_timestamp_s": 1335
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Brett says he makes about one million dollars a year from DesignJoy.",
+   "metric": "revenue",
+   "value": {
+    "amount": 1000000,
+    "currency": "USD",
+    "unit": "per year",
+    "label": "about"
+   },
+   "period": "per year",
+   "claimant": "Brett",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Do about a million dollars a year, just myself.",
+    "speaker": "Brett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 0,
+    "approx_timestamp_s": 0
+   }
+  },
+  {
+   "claim": "The host says Brett had ten thousand dollars in recurring revenue by Monday after launching on Sunday.",
+   "metric": "mrr",
+   "value": {
+    "amount": 10000,
+    "currency": "USD",
+    "unit": "recurring revenue by Monday",
+    "label": "host's description"
+   },
+   "period": "by Monday after launch",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "This guy launched an agency on a Sunday and had 10 grand in recurring revenue by Monday.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1568,
+    "approx_timestamp_s": 88
+   }
+  },
+  {
+   "claim": "Brett estimates about ten thousand dollars on the first day.",
+   "metric": "revenue",
+   "value": {
+    "amount": 10000,
+    "currency": "USD",
+    "unit": "first day",
+    "label": "about"
+   },
+   "period": "first day",
+   "claimant": "Brett",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I think it was about $10,000 the first day when it was signing up for me.",
+    "speaker": "Brett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 610,
+    "approx_timestamp_s": 34
+   }
+  },
+  {
+   "claim": "The Product Hunt launch received about 36,000 unique website visits.",
+   "metric": "traffic",
+   "value": {
+    "amount": 36000,
+    "currency": null,
+    "unit": "unique website visits",
+    "label": "about"
+   },
+   "period": "launch day",
+   "claimant": "Brett",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Total numbers from that day, the the unique website visits were about 36,000, which for me from starting just the day before was insane.",
+    "speaker": "Brett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6124,
+    "approx_timestamp_s": 344
+   }
+  },
+  {
+   "claim": "Brett says DesignJoy reached number four on Product Hunt that day.",
+   "metric": "other",
+   "value": {
+    "amount": 4,
+    "currency": null,
+    "unit": "rank on Product Hunt",
+    "label": "number"
+   },
+   "period": "launch day",
+   "claimant": "Brett",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Number four, yeah.",
+    "speaker": "Brett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6053,
+    "approx_timestamp_s": 340
+   }
+  },
+  {
+   "claim": "Brett says his hometown had about 500 people.",
+   "metric": "customers",
+   "value": {
+    "amount": 500,
+    "currency": null,
+    "unit": "people in hometown",
+    "label": "about"
+   },
+   "period": null,
+   "claimant": "Brett",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Yeah, 36,000 unique. Also, it's from your friends and family from a hometown in Newburg, Missouri, 500 people.",
+    "speaker": "Brett",
+    "match_score": 97.1,
+    "verified": true,
+    "char_offset": 6291,
+    "approx_timestamp_s": 354
+   }
+  },
+  {
+   "claim": "Brett says he held his full-time job until DesignJoy was making eighty thousand dollars a month.",
+   "metric": "revenue",
+   "value": {
+    "amount": 80000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "when he quit his job"
+   },
+   "period": "per month",
+   "claimant": "Brett",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I held my full-time job until I was making $80,000 a month and then I quit.",
+    "speaker": "Brett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 682,
+    "approx_timestamp_s": 38
+   }
+  },
+  {
+   "claim": "Brett says his full-time job paid seventy-five thousand dollars a year.",
+   "metric": "revenue",
+   "value": {
+    "amount": 75000,
+    "currency": "USD",
+    "unit": "per year",
+    "label": "salary"
+   },
+   "period": "per year",
+   "claimant": "Brett",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Yeah, and I was making $75,000 a year at the other job.",
+    "speaker": "Brett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6944,
+    "approx_timestamp_s": 391
+   }
+  },
+  {
+   "claim": "Brett kept his full-time job for four years while running DesignJoy.",
+   "metric": "hours",
+   "value": {
+    "amount": 4,
+    "currency": null,
+    "unit": "years",
+    "label": "full-time job overlap"
+   },
+   "period": "four years",
+   "claimant": "Brett",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So yeah, I kept the full-time job for four years while running design joy.",
+    "speaker": "Brett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7428,
+    "approx_timestamp_s": 418
+   }
+  },
+  {
+   "claim": "Brett says he took on as many as fifty DesignJoy clients at a time.",
+   "metric": "customers",
+   "value": {
+    "amount": 50,
+    "currency": null,
+    "unit": "clients at a time",
+    "label": "as many as"
+   },
+   "period": "at a time",
+   "claimant": "Brett",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I mean, I took on as fit much as 50 clients at a time in design joy.",
+    "speaker": "Brett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7248,
+    "approx_timestamp_s": 408
+   }
+  },
+  {
+   "claim": "Brett says revenue doubled from eighty thousand to one hundred sixty thousand dollars two months after he quit.",
+   "metric": "revenue",
+   "value": {
+    "amount": 80000,
+    "amount_max": 160000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "doubled"
+   },
+   "period": "two months after quitting",
+   "claimant": "Brett",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "And then two months later, revenue doubles from 80 to 160K.",
+    "speaker": "Brett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7887,
+    "approx_timestamp_s": 444
+   }
+  },
+  {
+   "claim": "Brett says he worked about thirty hours a week at the time of the interview.",
+   "metric": "hours",
+   "value": {
+    "amount": 30,
+    "currency": null,
+    "unit": "hours per week",
+    "label": "about"
+   },
+   "period": "per week",
+   "claimant": "Brett",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Now it's about probably 30.",
+    "speaker": "Brett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9282,
+    "approx_timestamp_s": 522
+   }
+  },
+  {
+   "claim": "Brett says monthly recurring revenue can swing by fifty thousand dollars.",
+   "metric": "mrr",
+   "value": {
+    "amount": 50000,
+    "currency": "USD",
+    "unit": "monthly swings",
+    "label": "can swing by"
+   },
+   "period": "monthly",
+   "claimant": "Brett",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Like I could have $50,000 a month swings.",
+    "speaker": "Brett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9460,
+    "approx_timestamp_s": 532
+   }
+  },
+  {
+   "claim": "Brett says DesignJoy expenses are about one thousand dollars a month, excluding taxes.",
+   "metric": "cost",
+   "value": {
+    "amount": 1000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "expenses excluding taxes"
+   },
+   "period": "per month",
+   "claimant": "Brett",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Outside of taxes, it's probably about 1,000 a month in expenses.",
+    "speaker": "Brett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9787,
+    "approx_timestamp_s": 551
+   }
+  },
+  {
+   "claim": "Brett says monthly profit has been as low as forty thousand dollars.",
+   "metric": "profit",
+   "value": {
+    "amount": 40000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "low"
+   },
+   "period": "per month",
+   "claimant": "Brett",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "It's been as low as 40, 40,000 per month.",
+    "speaker": "Brett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10020,
+    "approx_timestamp_s": 564
+   }
+  },
+  {
+   "claim": "Brett says the monthly profit peak was two hundred thousand dollars.",
+   "metric": "profit",
+   "value": {
+    "amount": 200000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "peak"
+   },
+   "period": "per month",
+   "claimant": "Brett",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "It's been as high, I think the peak was 200,000 a month, but it usually averages somewhere in the 60 to 80,000 a month",
+    "speaker": "Brett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10060,
+    "approx_timestamp_s": 566
+   }
+  },
+  {
+   "claim": "Brett says monthly profit usually averages sixty thousand to eighty thousand dollars.",
+   "metric": "profit",
+   "value": {
+    "amount": 60000,
+    "amount_max": 80000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "usual average range"
+   },
+   "period": "per month",
+   "claimant": "Brett",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "it usually averages somewhere in the 60 to 80,000 a month, but you'll get those peaks and valleys.",
+    "speaker": "Brett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10119,
+    "approx_timestamp_s": 570
+   }
+  },
+  {
+   "claim": "Brett's initial DesignJoy price was four hundred forty-nine dollars a month.",
+   "metric": "price",
+   "value": {
+    "amount": 449,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "initial unlimited design subscription"
+   },
+   "period": null,
+   "claimant": "Brett",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So I started out, had a measly $449 a month. For unlimited design.",
+    "speaker": "Brett",
+    "match_score": 93.5,
+    "verified": true,
+    "char_offset": 8774,
+    "approx_timestamp_s": 494
+   }
+  },
+  {
+   "claim": "DesignJoy's next stated price was eight hundred forty-nine dollars a month.",
+   "metric": "price",
+   "value": {
+    "amount": 849,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "subscription price"
+   },
+   "period": null,
+   "claimant": "Brett",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I hit my first big wave, that increased to $849 a month. And then I went from that to 1299 to 2,500",
+    "speaker": "Brett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8871,
+    "approx_timestamp_s": 499
+   }
+  },
+  {
+   "claim": "DesignJoy later charged one thousand two hundred ninety-nine dollars a month.",
+   "metric": "price",
+   "value": {
+    "amount": 1299,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "subscription price"
+   },
+   "period": null,
+   "claimant": "Brett",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I hit my first big wave, that increased to $849 a month. And then I went from that to 1299 to 2,500",
+    "speaker": "Brett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8871,
+    "approx_timestamp_s": 499
+   }
+  },
+  {
+   "claim": "DesignJoy later charged two thousand five hundred dollars a month.",
+   "metric": "price",
+   "value": {
+    "amount": 2500,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "subscription price"
+   },
+   "period": null,
+   "claimant": "Brett",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I hit my first big wave, that increased to $849 a month. And then I went from that to 1299 to 2,500",
+    "speaker": "Brett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8871,
+    "approx_timestamp_s": 499
+   }
+  },
+  {
+   "claim": "DesignJoy later charged three thousand two hundred dollars a month.",
+   "metric": "price",
+   "value": {
+    "amount": 3200,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "subscription price"
+   },
+   "period": null,
+   "claimant": "Brett",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "to 2,500 to 3,200 to 4,000 to 5,000 to 6,000. I went to 8,000 and then I kind of dialed it back a little bit.",
+    "speaker": "Brett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8968,
+    "approx_timestamp_s": 505
+   }
+  },
+  {
+   "claim": "DesignJoy later charged four thousand dollars a month.",
+   "metric": "price",
+   "value": {
+    "amount": 4000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "subscription price"
+   },
+   "period": null,
+   "claimant": "Brett",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "to 2,500 to 3,200 to 4,000 to 5,000 to 6,000. I went to 8,000 and then I kind of dialed it back a little bit.",
+    "speaker": "Brett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8968,
+    "approx_timestamp_s": 505
+   }
+  },
+  {
+   "claim": "DesignJoy later charged five thousand dollars a month.",
+   "metric": "price",
+   "value": {
+    "amount": 5000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "subscription price"
+   },
+   "period": null,
+   "claimant": "Brett",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "to 2,500 to 3,200 to 4,000 to 5,000 to 6,000. I went to 8,000 and then I kind of dialed it back a little bit.",
+    "speaker": "Brett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8968,
+    "approx_timestamp_s": 505
+   }
+  },
+  {
+   "claim": "DesignJoy later charged six thousand dollars a month.",
+   "metric": "price",
+   "value": {
+    "amount": 6000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "subscription price"
+   },
+   "period": null,
+   "claimant": "Brett",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "to 2,500 to 3,200 to 4,000 to 5,000 to 6,000. I went to 8,000 and then I kind of dialed it back a little bit.",
+    "speaker": "Brett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8968,
+    "approx_timestamp_s": 505
+   }
+  },
+  {
+   "claim": "DesignJoy reached a price of eight thousand dollars a month before Brett dialed it back.",
+   "metric": "price",
+   "value": {
+    "amount": 8000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "later subscription price"
+   },
+   "period": null,
+   "claimant": "Brett",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "to 2,500 to 3,200 to 4,000 to 5,000 to 6,000. I went to 8,000 and then I kind of dialed it back a little bit.",
+    "speaker": "Brett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8968,
+    "approx_timestamp_s": 505
+   }
+  },
+  {
+   "claim": "The host says Brett's clients pay six thousand dollars a month before speaking with him.",
+   "metric": "price",
+   "value": {
+    "amount": 6000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "host's summary of client price"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "and his clients pay him six grand a month before they ever talk to him.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1933,
+    "approx_timestamp_s": 108
+   }
+  },
+  {
+   "claim": "The guest says a productized design subscription can return a homepage by the next day.",
+   "metric": "hours",
+   "value": {
+    "amount": 1,
+    "currency": null,
+    "unit": "day",
+    "label": "by tomorrow"
+   },
+   "period": "after subscribing",
+   "claimant": "Brett",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "you would have a, you know, let's say a homepage back tomorrow.",
+    "speaker": "Brett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11680,
+    "approx_timestamp_s": 657
+   }
+  },
+  {
+   "claim": "The host says the Tea app reached number one on app stores and Google Play.",
+   "metric": "other",
+   "value": {
+    "amount": 1,
+    "currency": null,
+    "unit": "rank",
+    "label": "number one"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I11",
+   "quote": {
+    "text": "This was like a gum road vibe. Yeah, so these guys, I designed this literally like three years ago and crinkets. I thought it was dead as I'll get out. And then all of a sudden it's number one on app stores",
+    "speaker": "Brett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23566,
+    "approx_timestamp_s": 1327
+   }
+  },
+  {
+   "claim": "Brett says the Tea app had millions of users on day one.",
+   "metric": "customers",
+   "value": {
+    "amount": 1000000,
+    "currency": null,
+    "unit": "users on day one",
+    "label": "millions, transcript does not state an exact count"
+   },
+   "period": "day one",
+   "claimant": "Brett",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I11",
+   "quote": {
+    "text": "I mean, they got millions of users on like day one.",
+    "speaker": "Brett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24080,
+    "approx_timestamp_s": 1356
+   }
+  },
+  {
+   "claim": "The guest suggests a hypothetical retainer of ten thousand to twenty thousand dollars a month for an AI-first agency.",
+   "metric": "price",
+   "value": {
+    "amount": 10000,
+    "amount_max": 20000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "hypothetical retainer range"
+   },
+   "period": "per month",
+   "claimant": "Brett",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "If I were to give a range, it would be somewhere, like if I were to do it, it'd be somewhere in the 10 to $20,000 a month range.",
+    "speaker": "Brett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 34713,
+    "approx_timestamp_s": 1955
+   }
+  },
+  {
+   "claim": "The guest says some people spend thousands of dollars a month on tokens.",
+   "metric": "cost",
+   "value": {
+    "amount": 1000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "thousands; exact amount not stated"
+   },
+   "period": "per month",
+   "claimant": "Brett",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "a lot of people are spending thousands of dollars a month on tokens and running into the limits and stuff.",
+    "speaker": "Brett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 34576,
+    "approx_timestamp_s": 1947
+   }
+  },
+  {
+   "claim": "The guest says a team of two or three people could produce hundreds of thumbnails a day.",
+   "metric": "other",
+   "value": {
+    "amount": 2,
+    "amount_max": 3,
+    "currency": null,
+    "unit": "people on a team",
+    "label": "team size"
+   },
+   "period": "per day",
+   "claimant": "Brett",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I8",
+   "quote": {
+    "text": "Like a team of two or three people could crank out hundreds of thumbnails a day if they needed to, right?",
+    "speaker": "Brett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 37603,
+    "approx_timestamp_s": 2118
+   }
+  },
+  {
+   "claim": "The guest says that team could produce hundreds of thumbnails a day.",
+   "metric": "other",
+   "value": {
+    "amount": 100,
+    "currency": null,
+    "unit": "thumbnails per day",
+    "label": "hundreds; exact count not stated"
+   },
+   "period": "per day",
+   "claimant": "Brett",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I8",
+   "quote": {
+    "text": "Like a team of two or three people could crank out hundreds of thumbnails a day if they needed to, right?",
+    "speaker": "Brett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 37603,
+    "approx_timestamp_s": 2118
+   }
+  },
+  {
+   "claim": "The host says his team makes ten to twenty thumbnails per video.",
+   "metric": "other",
+   "value": {
+    "amount": 10,
+    "amount_max": 20,
+    "currency": null,
+    "unit": "thumbnails per video",
+    "label": "host's team practice"
+   },
+   "period": "per video",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I8",
+   "quote": {
+    "text": "But there's a lot of justification for making 10 to 20 thumbnails per video 'cause finally, A/B testing is now native to YouTube.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 37027,
+    "approx_timestamp_s": 2085
+   }
+  },
+  {
+   "claim": "The host says his team may make new thumbnails a month after a video is published.",
+   "metric": "other",
+   "value": {
+    "amount": 1,
+    "currency": null,
+    "unit": "month after publication",
+    "label": "timing"
+   },
+   "period": "after publication",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I8",
+   "quote": {
+    "text": "Like we might make new ones a month after it's been published, just to see if you can fire it back up again.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 37227,
+    "approx_timestamp_s": 2097
+   }
+  },
+  {
+   "claim": "The guest gives two to three weeks as a possible delivery time for an AI-assisted build.",
+   "metric": "hours",
+   "value": {
+    "amount": 2,
+    "amount_max": 3,
+    "currency": null,
+    "unit": "weeks",
+    "label": "a couple of weeks"
+   },
+   "period": "project duration",
+   "claimant": "Brett",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "they can do that but they know how to leverage AI to get that thing up in like a month, right? Or like a couple of weeks.",
+    "speaker": "Brett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 33253,
+    "approx_timestamp_s": 1873
+   }
+  },
+  {
+   "claim": "The host says his business community has about one thousand members.",
+   "metric": "customers",
+   "value": {
+    "amount": 1000,
+    "currency": null,
+    "unit": "community members",
+    "label": "about"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "It's about a thousand people in there building, starting, growing businesses.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18132,
+    "approx_timestamp_s": 1021
+   }
+  },
+  {
+   "claim": "The host says the show will pay a one-hundred-dollar referral bounty if it interviews someone introduced by a viewer.",
+   "metric": "other",
+   "value": {
+    "amount": 100,
+    "currency": "USD",
+    "unit": "if a referral leads to an interview",
+    "label": "referral bounty"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "Tell her your story and we'll give you a hundred bucks if we end up interviewing them.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 28689,
+    "approx_timestamp_s": 1616
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Launch through Product Hunt with a small existing network",
+   "area": "acquisition",
+   "steps": [
+    "Build a simple service site and make the offer clear enough to buy without a call.",
+    "Submit the product to Product Hunt on launch day.",
+    "Ask friends and family to support the launch; Brett used his school network on Facebook to request upvotes.",
+    "Share the founder story on forums, even without an established audience.",
+    "Treat marketplace exposure as a launch spike, then build a repeatable acquisition channel."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "My personal network was my friends and family I went to school with on Facebook. That was all I had at the time.",
+    "speaker": "Brett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5732,
+    "approx_timestamp_s": 322
+   }
+  },
+  {
+   "name": "Make a service purchasable without a sales process",
+   "area": "offer_design",
+   "steps": [
+    "Turn a broad custom service into a clearly described package.",
+    "Let customers select and pay on the website instead of requesting a quote and attending several meetings.",
+    "Set an expected turnaround so the customer knows when value will arrive.",
+    "Offer pausing and resuming when demand is intermittent."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So instead of filling in a form on a website, getting a quote, jumping on a call, having three or four meetings discussed pricing and proposals and estimates and all sorts of stuff",
+    "speaker": "Brett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2699,
+    "approx_timestamp_s": 152
+   }
+  },
+  {
+   "name": "Raise prices when demand exceeds capacity",
+   "area": "pricing",
+   "steps": [
+    "When demand becomes hard to manage, test a higher price rather than immediately shutting down the offer.",
+    "Watch what happens to demand and customer fit after each increase.",
+    "Do not assume a price increase will reduce demand; Brett says each increase sometimes moved the offer into a new category and increased demand."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Every time I felt like I was hitting a wall and wanted to shut things down, I just, my gut reaction was just like, just gonna increase prices and see what happens.",
+    "speaker": "Brett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9079,
+    "approx_timestamp_s": 511
+   }
+  },
+  {
+   "name": "Use AI to prepare design requirements and flows",
+   "area": "operations",
+   "steps": [
+    "Start from the client's supplied description and materials.",
+    "Use Claude to help generate requirements, features, and user flows.",
+    "Bring the result into Figma and begin designing.",
+    "Review the output because the guest still acts as the designer and retains responsibility for the result."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I work with Claude to come up with all the requirements, all the features, all the flows, just myself, and isolation from even the client.",
+    "speaker": "Brett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 19228,
+    "approx_timestamp_s": 1083
+   }
+  },
+  {
+   "name": "Write prompts with an LLM that knows the target tool",
+   "area": "operations",
+   "steps": [
+    "Ask ChatGPT to write a prompt for the specific image or video tool being used.",
+    "Name the target model and describe the intended output.",
+    "For repeat work, create a reusable rule sheet with style, camera, lens, and color requirements.",
+    "Check the generated result and refine the brief."
+   ],
+   "idea_local_id": null,
+   "quote": {
+    "text": "So anytime I prompt a runway thing, it'll reference all that, include all of those parameters inside of that.",
+    "speaker": "Brett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 28207,
+    "approx_timestamp_s": 1588
+   }
+  },
+  {
+   "name": "Use visual references to guide website components",
+   "area": "product",
+   "steps": [
+    "Choose a reference component, such as a testimonial section, from a site with a design you like.",
+    "Attach a screenshot to Claude and state which section you want it to guide.",
+    "Review the generated section; the guest says this is a simple starting point rather than a finished expert design."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "All oftentimes just screenshot a testimonial section and a like and reference that inside of Claude.",
+    "speaker": "Brett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22308,
+    "approx_timestamp_s": 1256
+   }
+  },
+  {
+   "name": "Keep recurring content work available for ongoing changes",
+   "area": "offer_design",
+   "steps": [
+    "Favor services that creators need repeatedly, such as short-form editing, podcast editing, or thumbnail design.",
+    "For thumbnail work, produce multiple options when the creator wants to test variants.",
+    "Consider a later replacement when an older video needs renewed attention."
+   ],
+   "idea_local_id": "I8",
+   "quote": {
+    "text": "Like we might make new ones a month after it's been published, just to see if you can fire it back up again.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 37227,
+    "approx_timestamp_s": 2097
+   }
+  },
+  {
+   "name": "Sell the technical completion around AI prototypes",
+   "area": "offer_design",
+   "steps": [
+    "Identify where a non-technical client gets stuck, such as database or Stripe integration, hosting, or persistent coding errors.",
+    "Use AI to accelerate the build, but have developers available for integrations and implementation.",
+    "Include security, payment management, hosting, and a person to contact when something breaks.",
+    "Set a retainer or project price that accounts for scope and token usage."
+   ],
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "So when they actually need developers to plug in to the AI, they can do that but they know how to leverage AI",
+    "speaker": "Brett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 33194,
+    "approx_timestamp_s": 1869
+   }
+  },
+  {
+   "name": "Build distribution and brand distinction into the moat",
+   "area": "scaling",
+   "steps": [
+    "Assume a successful digital product can be copied quickly.",
+    "Invest in distribution so customers can find the product.",
+    "Use brand and design to help the product stand out from similar tools."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "One of those moats is distribution, of course, you know, you understand that.",
+    "speaker": "Brett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14041,
+    "approx_timestamp_s": 790
+   }
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "DesignJoy",
+   "purpose": "Brett's productized design subscription business.",
+   "cost_stated": null
+  },
+  {
+   "name": "Webflow",
+   "purpose": "Used to build the DesignJoy launch website.",
+   "cost_stated": null
+  },
+  {
+   "name": "Product Hunt",
+   "purpose": "Product launch and discovery marketplace; Brett submitted DesignJoy and sought upvotes.",
+   "cost_stated": "Brett says submitting was free."
+  },
+  {
+   "name": "Facebook",
+   "purpose": "Brett asked friends and family from his school network to upvote his Product Hunt launch.",
+   "cost_stated": null
+  },
+  {
+   "name": "X (Twitter)",
+   "purpose": "Brett says he began tweeting several years after launching DesignJoy; he also says people can find him on X.",
+   "cost_stated": null
+  },
+  {
+   "name": "Claude",
+   "purpose": "Used for requirements, features, flows, design work, coding, and prototyping.",
+   "cost_stated": null
+  },
+  {
+   "name": "Figma",
+   "purpose": "Brett brings AI-assisted requirements and flows into Figma to start designing.",
+   "cost_stated": null
+  },
+  {
+   "name": "Midjourney",
+   "purpose": "Image generation and creative artwork; Brett says he uses it frequently.",
+   "cost_stated": null
+  },
+  {
+   "name": "Krea",
+   "purpose": "Connects to image and video generation models; transcript caption renders the name as “Korea.”",
+   "cost_stated": null
+  },
+  {
+   "name": "Photoshop",
+   "purpose": "Design software with AI features.",
+   "cost_stated": null
+  },
+  {
+   "name": "Loom",
+   "purpose": "Video tool with AI features, as named by the guest.",
+   "cost_stated": null
+  },
+  {
+   "name": "ChatGPT",
+   "purpose": "Used to write prompts for other AI tools; also mentioned for general design and AI tasks.",
+   "cost_stated": null
+  },
+  {
+   "name": "Magic Path",
+   "purpose": "Suggested as a tool that can help non-designers get closer to a designer's output; exact product name is unclear in the transcript.",
+   "cost_stated": null
+  },
+  {
+   "name": "Magic Patterns",
+   "purpose": "Suggested as a tool that can help non-designers get closer to a designer's output.",
+   "cost_stated": null
+  },
+  {
+   "name": "Nano Banana Pro",
+   "purpose": "Image generation, especially for specific subjects such as a model holding an object.",
+   "cost_stated": null
+  },
+  {
+   "name": "Replit",
+   "purpose": "Named as a vibe-coding app for building websites or apps.",
+   "cost_stated": null
+  },
+  {
+   "name": "Claude Code",
+   "purpose": "Named as a coding tool and vibe-coding option.",
+   "cost_stated": null
+  },
+  {
+   "name": "Runway",
+   "purpose": "Video generation; the guest uses ChatGPT to prepare prompts and reusable rules for it.",
+   "cost_stated": null
+  },
+  {
+   "name": "Bolt",
+   "purpose": "Described as a text-to-app platform.",
+   "cost_stated": null
+  },
+  {
+   "name": "Stripe",
+   "purpose": "Example of a payment integration that non-technical app builders may struggle to connect.",
+   "cost_stated": null
+  },
+  {
+   "name": "Viral Cuts",
+   "purpose": "Example service cutting long-form videos into short-form clips.",
+   "cost_stated": null
+  },
+  {
+   "name": "YouTube",
+   "purpose": "Creator platform discussed in relation to thumbnails, A/B testing, and video distribution.",
+   "cost_stated": null
+  },
+  {
+   "name": "iOS App Store",
+   "purpose": "Distribution platform where the guest says the Tea dating app ranked number one.",
+   "cost_stated": null
+  },
+  {
+   "name": "Google Play Store",
+   "purpose": "App store where the guest says Tea remained available and was highly ranked.",
+   "cost_stated": null
+  },
+  {
+   "name": "Buy Me a Coffee",
+   "purpose": "Creator support product for which Brett says he did design work.",
+   "cost_stated": null
+  },
+  {
+   "name": "Gumroad",
+   "purpose": "Used as a comparison for the Tea app's visual style; transcript caption spells it “gum road.”",
+   "cost_stated": null
+  },
+  {
+   "name": "Fiverr",
+   "purpose": "Comparison for the speed and convenience of the productized design service; transcript caption renders it as “fiber.”",
+   "cost_stated": null
+  },
+  {
+   "name": "Uber",
+   "purpose": "The guest says Uber disrupted the transportation company where he worked.",
+   "cost_stated": null
+  },
+  {
+   "name": "Airbnb",
+   "purpose": "The host cites it as an example of design-led growth.",
+   "cost_stated": null
+  },
+  {
+   "name": "Apple",
+   "purpose": "The host cites Apple as a design-led company.",
+   "cost_stated": null
+  },
+  {
+   "name": "Tesla",
+   "purpose": "The host cites Tesla as a design-led company.",
+   "cost_stated": null
+  },
+  {
+   "name": "Craigslist",
+   "purpose": "Mentioned by the host as an example people use to argue design is overrated; he disputes the example.",
+   "cost_stated": null
+  },
+  {
+   "name": "Amazon",
+   "purpose": "Mentioned by the host alongside Craigslist as an example people use to argue design is overrated.",
+   "cost_stated": null
+  },
+  {
+   "name": "Similarweb",
+   "purpose": "The host says he used it to check Craigslist traffic.",
+   "cost_stated": null
+  },
+  {
+   "name": "TKO Pod",
+   "purpose": "The host promotes The Koerner Office audio podcast.",
+   "cost_stated": null
+  },
+  {
+   "name": "Apple Podcasts",
+   "purpose": "Podcast listening platform named in the host's promotion.",
+   "cost_stated": null
+  },
+  {
+   "name": "Spotify",
+   "purpose": "Podcast listening platform named in the host's promotion.",
+   "cost_stated": null
+  },
+  {
+   "name": "tkowners.com",
+   "purpose": "The host's business community, promoted in the video.",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Brett says the business grew to a workload that nearly killed him and led to a hospital stay. He later improved his systems, became more selective with clients, and reduced his hours."
+  },
+  {
+   "warning": "Raising prices did not reliably curb demand; Brett says price increases sometimes increased demand by moving the service into a different category."
+  },
+  {
+   "warning": "Monthly recurring revenue is volatile because clients churn or pause subscriptions."
+  },
+  {
+   "warning": "The Tea dating app suffered a data leak, according to the guest."
+  },
+  {
+   "warning": "The guest says AI output can fall short when the user lacks design taste, and the tools are not yet equivalent to an experienced designer."
+  },
+  {
+   "warning": "AI-first development can lead non-technical users into repeated troubleshooting loops and high token bills; security, payments, hosting, and support still require capable people."
+  },
+  {
+   "warning": "The host promotes his own community and podcast and offers a referral payment for people whose story is selected for an interview. This is a promotional conflict for the host, not evidence about the guest's business results."
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Make it possible to buy a clearly defined service without a quote request, sales call, or several meetings.",
+   "theme": "offer_design",
+   "quote": {
+    "text": "So instead of filling in a form on a website, getting a quote, jumping on a call, having three or four meetings discussed pricing and proposals and estimates and all sorts of stuff",
+    "speaker": "Brett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2699,
+    "approx_timestamp_s": 152
+   }
+  },
+  {
+   "lesson": "Customers may value speed and a short time to value, even when a slower process offers more customization.",
+   "theme": "offer_design",
+   "quote": {
+    "text": "You know, a lot of companies value speed over quality as weird as that is to say.",
+    "speaker": "Brett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3359,
+    "approx_timestamp_s": 189
+   }
+  },
+  {
+   "lesson": "A small personal network can help seed a marketplace launch, but the launch itself does not remove the need for ongoing distribution.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "My personal network was my friends and family I went to school with on Facebook. That was all I had at the time.",
+    "speaker": "Brett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5732,
+    "approx_timestamp_s": 322
+   }
+  },
+  {
+   "lesson": "When a digital product is easy to build and copy, distribution and brand distinction become more important.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "More so than ever, right? Because now it's easy to build the thing, it's harder than ever to sell the thing.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14115,
+    "approx_timestamp_s": 795
+   }
+  },
+  {
+   "lesson": "Test price increases against demand and customer fit; a higher price may change the market category rather than simply reduce demand.",
+   "theme": "pricing",
+   "quote": {
+    "text": "Every time I would double my price, I thought, this will finally like curb the demand but it just exponentially increased it",
+    "speaker": "Brett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8090,
+    "approx_timestamp_s": 455
+   }
+  },
+  {
+   "lesson": "Recurring services are more attractive when customers have a repeated need, rather than a one-time project.",
+   "theme": "offer_design",
+   "quote": {
+    "text": "So those type of things do really well, and you can keep going on and on and on.",
+    "speaker": "Brett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 36948,
+    "approx_timestamp_s": 2081
+   }
+  },
+  {
+   "lesson": "Do not confuse using AI with removing the need for human expertise: the guest still relies on taste, developers, and review.",
+   "theme": "automation_ai",
+   "quote": {
+    "text": "So if you take somebody with actually good taste and good taste is obviously subjective, but there's generally this in the higher tier these industries as agreed upon what good taste is",
+    "speaker": "Brett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 30775,
+    "approx_timestamp_s": 1733
+   }
+  },
+  {
+   "lesson": "Use AI to help prepare prompts for the specific tool that will receive them, and save reusable rules for repeated work.",
+   "theme": "automation_ai",
+   "quote": {
+    "text": "So anytime I prompt a runway thing, it'll reference all that, include all of those parameters inside of that.",
+    "speaker": "Brett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 28207,
+    "approx_timestamp_s": 1588
+   }
+  },
+  {
+   "lesson": "Set workload and client limits before growth turns a low-cost solo service into an unsustainable job.",
+   "theme": "operations",
+   "quote": {
+    "text": "And then I had breakdowns, I had price increases. Every time I would double my price, I thought, this will finally like curb the demand",
+    "speaker": "Brett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8042,
+    "approx_timestamp_s": 453
+   }
+  },
+  {
+   "lesson": "Flexible pause-and-resume service terms can fit customers whose workload changes over time.",
+   "theme": "offer_design",
+   "quote": {
+    "text": "You can subscribe and pause anytime you want to, meaning if work dries up and you don't really have a need for it, you could just pause your subscription",
+    "speaker": "Brett",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12257,
+    "approx_timestamp_s": 690
+   }
+  }
+ ],
+ "evidence_quality": {
+  "rating": "B",
+  "rationale": "The guest describes his own business and gives operating details, launch tactics, pricing history, expenses, workload, and revenue claims. The figures are self-reported, some are approximate, and the local Whisper transcript contains misheard words and possible caption errors.",
+  "promotional_conflict": "The host promotes his own TKO Pod podcast and tkowners.com community, and offers a USD 100 referral payment for an interview lead. The guest does not appear to sell a course or software in this transcript."
+ },
+ "extraction": {
+  "model": "gpt-6-luna",
+  "extracted_at": "2026-10-22T11:10:39",
+  "cost_usd": 0,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 74,
+   "verified": 74,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

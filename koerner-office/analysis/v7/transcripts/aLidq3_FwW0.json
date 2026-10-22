@@ -1,0 +1,1376 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "aLidq3_FwW0",
+  "title": "I Make $13K/Month From (Yet Another) Fitness App",
+  "channel": "Starter Story",
+  "url": "https://www.youtube.com/watch?v=aLidq3_FwW0",
+  "upload_date": "2026-10-07",
+  "duration_s": 756,
+  "view_count": 78772,
+  "transcript_provider": "local_whisper_tiny",
+  "transcript_chars": 15260,
+  "transcript_is_whisper": true
+ },
+ "summary": "Max describes building Max AI, a mobile lifting and fitness app, after noticing that lifters used several separate apps without one unified platform. He had little coding experience and used AI coding tools, then charged an upfront annual fee and grew through founder-led social content and paid ads. He says the app brought in nearly $14,000 over the prior 28 days, with growth from X, app downloads, and subscribers. His main advice is to launch around a problem you care about, learn which features and videos work, and share the building process publicly.",
+ "speakers": [
+  {
+   "name": "Gus",
+   "role": "host",
+   "description": "Starter Story host and interviewer."
+  },
+  {
+   "name": "Pat",
+   "role": "co-host",
+   "description": "Starter Story co-host."
+  },
+  {
+   "name": "Max",
+   "role": "guest",
+   "description": "Founder and CEO of Max AI."
+  },
+  {
+   "name": "Starter Story narrator",
+   "role": "narrator",
+   "description": "Voice in the opening introduction; not identified by name."
+  }
+ ],
+ "format": "operator_interview",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Max AI fitness app",
+   "one_liner": "A mobile fitness app combining lifting logs, tailored workout programs, nutrition, sleep, supplement tracking, and an AI coach.",
+   "category": "saas_software",
+   "business_model": "Upfront annual app fee; the founder says it is charged yearly rather than relying on users to forget to cancel.",
+   "customer": "People who lift and want a unified health and fitness app; the founder says he and his college friends lifted and that users seek a lifting app.",
+   "problem": "Lifters were using different apps, without one unified platform for training and related health tracking.",
+   "offer": "A mobile app with workout scheduling and tracking, nutrition and supplement and peptide tracking, sleep information, workout tutorials, saved templates, a leaderboard, a social feed, and a chat coach that adjusts workouts and can create recipes.",
+   "pricing": {
+    "model": "Upfront yearly fee for the app; renewal terms beyond the stated yearly charge are not explained.",
+    "price_points": [
+     {
+      "amount": 24.99,
+      "currency": "USD",
+      "unit": "per year",
+      "label": "Upfront yearly fee"
+     },
+     {
+      "amount": 2,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "Founder’s rounded monthly equivalent"
+     }
+    ],
+    "notes": "The founder says the app was not intended to rely on users forgetting to cancel a subscription."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "organic_social_content",
+     "details": "Max filmed his own short videos daily, studied their hold and skip rates, and used founder-led content to share his journey. He also tweeted about the business on X; he says people following him there contributed roughly a third of revenue. He says clipping has brought international exposure and organic downloads.",
+     "quote": {
+      "text": "So I started filming every day, five videos, 10 videos, getting over kind of that initial cringe and fear of your friend sending you around and laughing at you.",
+      "speaker": "Max",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 8064,
+      "approx_timestamp_s": 409
+     }
+    },
+    {
+     "channel": "paid_social",
+     "details": "He ran better-performing videos as paid ads, started with a low budget, and raised spend as he saw product-market fit. He says Meta performed better than TikTok for his app and that views there had higher intent and willingness to pay.",
+     "quote": {
+      "text": "I started on a low budget at first. But as I started to see that there really was product market fit. I started to still be up to budget and now we're spending around $250 a day on paid ads.",
+      "speaker": "Max",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 8498,
+      "approx_timestamp_s": 431
+     }
+    },
+    {
+     "channel": "other",
+     "details": "He planned a campaign to recruit five other people to make videos every day. The transcript does not identify the campaign platform.",
+     "quote": {
+      "text": "And finally, starting a side shift campaign to get, you know, five other people like me that can make videos every single day as well.",
+      "speaker": "Max",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 8685,
+      "approx_timestamp_s": 441
+     }
+    }
+   ],
+   "delivery": "The app is delivered on iOS. Users access tracking, workout schedules, saved templates, leaderboards, a social feed, and an AI chat coach in the app. Max says the coach can adjust workouts and generate a recipe from ingredients the user has. The founder builds and updates the software; the transcript does not describe customer support or a human coaching service.",
+   "unit_economics_claims": [
+    "Max says the app generated nearly USD 14,000 in revenue over the prior 28 days.",
+    "Max describes monthly revenue as roughly USD 14,000 to USD 15,000.",
+    "Max says he charged USD 24.99 upfront for a yearly fee, which he described as about USD 2 per month.",
+    "Max reports 1,000 active subscribers, more than 20,000 new customers in 28 days, more than 40,000 all-time, and 20,000 iOS downloads.",
+    "Max says paid ads were costing around USD 250 per day.",
+    "Max says roughly one-third of revenue came from people on X.",
+    "Max says Supabase cost USD 20 per month; he does not give a total operating cost."
+   ],
+   "tools": [
+    "Claude Code",
+    "Claude (transcribed as “called 20X”)",
+    "Supabase",
+    "Vercel",
+    "Expo",
+    "RevenueCat",
+    "App Store",
+    "X",
+    "Instagram",
+    "Meta",
+    "TikTok",
+    "Strava",
+    "Nike Run Club"
+   ],
+   "startup_cost": "Total startup cost not stated. Max describes the stack as inexpensive, mentions a USD 15 Claude Code membership and Supabase at USD 20 per month, and gives no prices for Vercel, Expo, or RevenueCat.",
+   "time_to_first_revenue": "Not stated as an interval from launch. Max says he got his first paying customer four months before the interview and describes building the app over roughly six months.",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Agents could help draft, edit, clip, schedule, and analyze social posts and manage ad reporting. A founder or creator still needs to provide credible fitness content and approve claims and creative; Max’s approach depended on filming himself."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "App sign-up and collection of user preferences could be handled in software, with occasional review of onboarding problems. The transcript does not describe the actual onboarding flow."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "The app automates tracking and the coach can adjust workout plans and produce recipes. Human review remains useful for potentially unsafe training, nutrition, supplement, or peptide guidance."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "App Store and RevenueCat can handle payments and access to the paid app. The transcript does not explain renewals, refunds, or billing support."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Automated help could answer routine app questions, but fitness and health-related questions may need human review. The founder does not describe a support process."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Lifting, workout tracking, and mobile fitness apps can serve UK users. Pricing, privacy handling for health-related data, and safety review for nutrition and supplement features would need suitable UK localisation."
+   },
+   "risks": [
+    "The founder acknowledges a crowded market, including many existing lifting apps.",
+    "Growth depends partly on founder-led content and paid social ads; ad costs or platform performance could change.",
+    "Workout, nutrition, sleep, supplement, and peptide features can create user-safety and privacy risks. The transcript does not describe safeguards or clinical review.",
+    "The founder says he is reinvesting earnings into growth, but gives no profit, retention, refund, or customer acquisition cost figures."
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "Max AI is really your all-in-one health and fitness coach. It knows exactly how much you slept last night. It feels a workout program tailored just for you and your goals.",
+     "speaker": "Max",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 1548,
+     "approx_timestamp_s": 78
+    },
+    {
+     "text": "So we just charged an upfront $24.99 a yearly fee, which is just really $2 a month.",
+     "speaker": "Max",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 2214,
+     "approx_timestamp_s": 112
+    },
+    {
+     "text": "I think building this agenda coach is a step in the right direction to differentiate us. So the max coach is wired to every component of the app.",
+     "speaker": "Max",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 2866,
+     "approx_timestamp_s": 145
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Dish Rate food review app",
+   "one_liner": "A food review app Max started considering before abandoning the project because he did not know how to build it.",
+   "category": "saas_software",
+   "business_model": "Not stated; the app was not launched.",
+   "customer": "Not stated beyond the implied audience for a food review app.",
+   "problem": "Not stated.",
+   "offer": "A food review app called Dish Rate; features and scope are not stated.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": "Max says he gave up on the project before building it."
+   },
+   "acquisition_channels": [],
+   "delivery": "Not stated; Max says the app was not built or launched.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "Max believed development would require tens of thousands of dollars, but this was an estimate before he gave up; no amount was actually spent or confirmed.",
+   "time_to_first_revenue": "Not stated; Max says he gave up before launch.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "An app could use inbound discovery and social content, but the transcript gives no acquisition plan or target market."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "A basic review app could likely automate account creation, but the proposed product and user flow are not described."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Software could display and collect reviews, but no features or operating process are stated."
+    },
+    "billing": {
+     "score_e": 0,
+     "how": "No monetisation or billing method is stated."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "No support process is stated; review moderation could require human handling."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "A food review app could serve UK users, but the intended market, coverage, and any localisation are not stated."
+   },
+   "risks": [
+    "Max abandoned the idea because he did not know how to build it and expected development to be expensive.",
+    "The target user, differentiation, acquisition plan, monetisation, and review moderation needs are not discussed."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "So I started building a food review app called Dish Rate. And then I realized I have no idea how to build this.",
+     "speaker": "Max",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 4725,
+     "approx_timestamp_s": 239
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "The narrator says Max's app was at about USD 14,000 a month over the last 28 days.",
+   "metric": "revenue",
+   "value": {
+    "amount": 14000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "Approximate revenue described over the last 28 days"
+   },
+   "period": "last 28 days",
+   "claimant": "Starter Story narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Over the last 28 days, we're at like $14,000 a month.",
+    "speaker": "Starter Story narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 0,
+    "approx_timestamp_s": 0
+   }
+  },
+  {
+   "claim": "The narrator says Max had never built a mobile app six months earlier.",
+   "metric": "other",
+   "value": {
+    "amount": 6,
+    "currency": null,
+    "unit": "months before interview",
+    "label": "Time before he had built a mobile app"
+   },
+   "period": null,
+   "claimant": "Starter Story narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Six months ago, I had never built a mobile app.",
+    "speaker": "Starter Story narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 190,
+    "approx_timestamp_s": 9
+   }
+  },
+  {
+   "claim": "The narrator says the app grew to over USD 13,000 a month.",
+   "metric": "revenue",
+   "value": {
+    "amount": 13000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "Over USD 13,000"
+   },
+   "period": null,
+   "claimant": "Starter Story narrator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "With just an idea and his phone, he grew this simple app to over $13,000 a month.",
+    "speaker": "Starter Story narrator",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 236,
+    "approx_timestamp_s": 11
+   }
+  },
+  {
+   "claim": "Max says he had never built a mobile app six months earlier and had very little coding experience.",
+   "metric": "other",
+   "value": {
+    "amount": 6,
+    "currency": null,
+    "unit": "months before interview",
+    "label": "Time before first mobile app"
+   },
+   "period": null,
+   "claimant": "Max",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Six months ago, I had never built a mobile app and had very minimal coding experience.",
+    "speaker": "Max",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1056,
+    "approx_timestamp_s": 53
+   }
+  },
+  {
+   "claim": "Max says the App Store listing had 164 ratings.",
+   "metric": "other",
+   "value": {
+    "amount": 164,
+    "currency": null,
+    "unit": "ratings",
+    "label": null
+   },
+   "period": "at interview",
+   "claimant": "Max",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So this is kind of an overview of the app store here. We're up to 164 ratings, which is really exciting.",
+    "speaker": "Max",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1829,
+    "approx_timestamp_s": 92
+   }
+  },
+  {
+   "claim": "Max says the app earned nearly USD 14,000 over 28 days.",
+   "metric": "revenue",
+   "value": {
+    "amount": 14000,
+    "currency": "USD",
+    "unit": "over 28 days",
+    "label": "Nearly"
+   },
+   "period": "last 28 days",
+   "claimant": "Max",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So looking at our revenue cat here over the last 28 days, we're nearly $14,000 in revenue over an entire month",
+    "speaker": "Max",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1931,
+    "approx_timestamp_s": 98
+   }
+  },
+  {
+   "claim": "Max describes the app's monthly revenue as about USD 14,000 to USD 15,000.",
+   "metric": "revenue",
+   "value": {
+    "amount": 14000,
+    "amount_max": 15000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "Approximate range"
+   },
+   "period": null,
+   "claimant": "Max",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "we're at like $14,000, $15,000 a month.",
+    "speaker": "Max",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2040,
+    "approx_timestamp_s": 103
+   }
+  },
+  {
+   "claim": "Max says the yearly fee is USD 24.99 upfront.",
+   "metric": "price",
+   "value": {
+    "amount": 24.99,
+    "currency": "USD",
+    "unit": "per year",
+    "label": "Upfront yearly fee"
+   },
+   "period": null,
+   "claimant": "Max",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So we just charged an upfront $24.99 a yearly fee, which is just really $2 a month.",
+    "speaker": "Max",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2214,
+    "approx_timestamp_s": 112
+   }
+  },
+  {
+   "claim": "Max describes the yearly fee as roughly USD 2 a month.",
+   "metric": "price",
+   "value": {
+    "amount": 2,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "Founder’s rounded equivalent"
+   },
+   "period": null,
+   "claimant": "Max",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So we just charged an upfront $24.99 a yearly fee, which is just really $2 a month.",
+    "speaker": "Max",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2214,
+    "approx_timestamp_s": 112
+   }
+  },
+  {
+   "claim": "Max says the app reached 1,000 active subscribers.",
+   "metric": "customers",
+   "value": {
+    "amount": 1000,
+    "currency": null,
+    "unit": "active subscribers",
+    "label": null
+   },
+   "period": "at interview",
+   "claimant": "Max",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So looking at some of the other statistics here, we actually hit 1,000 active subscribers, which is super exciting.",
+    "speaker": "Max",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2294,
+    "approx_timestamp_s": 116
+   }
+  },
+  {
+   "claim": "Max reports new customer growth of more than 20,000 in the last 28 days.",
+   "metric": "customers",
+   "value": {
+    "amount": 20000,
+    "currency": null,
+    "unit": "new customers in 28 days",
+    "label": "Over"
+   },
+   "period": "last 28 days",
+   "claimant": "Max",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "And the new customer growths over 20,000 in the last 28 days, over 40,000 all-time.",
+    "speaker": "Max",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2407,
+    "approx_timestamp_s": 122
+   }
+  },
+  {
+   "claim": "Max reports more than 40,000 customers all-time.",
+   "metric": "customers",
+   "value": {
+    "amount": 40000,
+    "currency": null,
+    "unit": "all-time customers",
+    "label": "Over"
+   },
+   "period": "all-time",
+   "claimant": "Max",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "And the new customer growths over 20,000 in the last 28 days, over 40,000 all-time.",
+    "speaker": "Max",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2407,
+    "approx_timestamp_s": 122
+   }
+  },
+  {
+   "claim": "Max says the app reached 20,000 iOS downloads.",
+   "metric": "other",
+   "value": {
+    "amount": 20000,
+    "currency": null,
+    "unit": "iOS downloads",
+    "label": null
+   },
+   "period": "at interview",
+   "claimant": "Max",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "We just hit 20,000 iOS downloads as well. So really scaling and we're reinvesting every single set or earning into growing the business.",
+    "speaker": "Max",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2489,
+    "approx_timestamp_s": 126
+   }
+  },
+  {
+   "claim": "Max says Strava and Nike Run Club are the two dominant running apps.",
+   "metric": "other",
+   "value": {
+    "amount": 2,
+    "currency": null,
+    "unit": "apps",
+    "label": "Dominant running apps named"
+   },
+   "period": null,
+   "claimant": "Max",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Trauma and Nike Run Club are really the two dominant players when it comes to running.",
+    "speaker": "Max",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5977,
+    "approx_timestamp_s": 303
+   }
+  },
+  {
+   "claim": "Max says there were 100 other competitors when he started.",
+   "metric": "other",
+   "value": {
+    "amount": 100,
+    "currency": null,
+    "unit": "competitors",
+    "label": "Approximate count as stated"
+   },
+   "period": "when he started",
+   "claimant": "Max",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I wasn't naive to the fact that there were 100 other competitors already out there. But I wanted to build something I was actually passionate about.",
+    "speaker": "Max",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5702,
+    "approx_timestamp_s": 289
+   }
+  },
+  {
+   "claim": "Max says he spent two summers in finance internships, one in venture capital and one in sales and trading.",
+   "metric": "other",
+   "value": {
+    "amount": 2,
+    "currency": null,
+    "unit": "summers in finance internships",
+    "label": null
+   },
+   "period": "before the app",
+   "claimant": "Max",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "I spent two summers in finance, one in venture capital, one in sales and trading.",
+    "speaker": "Max",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4531,
+    "approx_timestamp_s": 230
+   }
+  },
+  {
+   "claim": "Max thought building Dish Rate would require tens of thousands of dollars in development.",
+   "metric": "cost",
+   "value": {
+    "amount": null,
+    "currency": "USD",
+    "unit": "development cost",
+    "label": "Tens of thousands, estimated"
+   },
+   "period": null,
+   "claimant": "Max",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "This isn't possible I have to pay tens of thousands of dollars in development to get this thing live.",
+    "speaker": "Max",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4835,
+    "approx_timestamp_s": 245
+   }
+  },
+  {
+   "claim": "Max says he signed up for a USD 15 Claude Code membership.",
+   "metric": "cost",
+   "value": {
+    "amount": 15,
+    "currency": "USD",
+    "unit": "membership; billing period not stated",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Max",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So one day I got set up with a cloud code $15 membership and just started typing.",
+    "speaker": "Max",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5119,
+    "approx_timestamp_s": 259
+   }
+  },
+  {
+   "claim": "Max says he paid USD 20 per month for Supabase.",
+   "metric": "cost",
+   "value": {
+    "amount": 20,
+    "currency": "USD",
+    "unit": "per month",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Max",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I have super-based, which I'm paying $20 a month for. I'm paying for Vercel and Expo to help deploy my app and submit updates and all of that sort of stuff.",
+    "speaker": "Max",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6733,
+    "approx_timestamp_s": 341
+   }
+  },
+  {
+   "claim": "The host frames the growth target as going from zero to USD 10,000 a month.",
+   "metric": "revenue",
+   "value": {
+    "amount": 10000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "Host’s framing of the growth target"
+   },
+   "period": null,
+   "claimant": "Gus",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So let's talk a little bit about how you go from zero to $10,000 a month.",
+    "speaker": "Gus",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7285,
+    "approx_timestamp_s": 369
+   }
+  },
+  {
+   "claim": "Max says he lacked the budget to pay 50 UGC creators at that stage.",
+   "metric": "other",
+   "value": {
+    "amount": 50,
+    "currency": null,
+    "unit": "UGC creators",
+    "label": "Hypothetical hiring quantity"
+   },
+   "period": null,
+   "claimant": "Max",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I didn't have a big budget to go pay 50 UGC creators to go make videos for me like a lot of the other big lifting apps.",
+    "speaker": "Max",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7878,
+    "approx_timestamp_s": 400
+   }
+  },
+  {
+   "claim": "Max says he filmed five to ten videos a day.",
+   "metric": "other",
+   "value": {
+    "amount": 5,
+    "amount_max": 10,
+    "currency": null,
+    "unit": "videos per day",
+    "label": "Range as stated"
+   },
+   "period": "during his early content effort",
+   "claimant": "Max",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So I started filming every day, five videos, 10 videos, getting over kind of that initial cringe and fear of your friend sending you around and laughing at you.",
+    "speaker": "Max",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8064,
+    "approx_timestamp_s": 409
+   }
+  },
+  {
+   "claim": "Max says he spent around USD 250 per day on paid ads.",
+   "metric": "cost",
+   "value": {
+    "amount": 250,
+    "currency": "USD",
+    "unit": "per day",
+    "label": "Around"
+   },
+   "period": "at interview",
+   "claimant": "Max",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I started on a low budget at first. But as I started to see that there really was product market fit. I started to still be up to budget and now we're spending around $250 a day on paid ads.",
+    "speaker": "Max",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8498,
+    "approx_timestamp_s": 431
+   }
+  },
+  {
+   "claim": "Max planned to recruit five other people to make videos daily.",
+   "metric": "other",
+   "value": {
+    "amount": 5,
+    "currency": null,
+    "unit": "video creators",
+    "label": "Planned"
+   },
+   "period": "at interview",
+   "claimant": "Max",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "And finally, starting a side shift campaign to get, you know, five other people like me that can make videos every single day as well.",
+    "speaker": "Max",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8685,
+    "approx_timestamp_s": 441
+   }
+  },
+  {
+   "claim": "Max says he started tweeting three months before the interview.",
+   "metric": "other",
+   "value": {
+    "amount": 3,
+    "currency": null,
+    "unit": "months before interview",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Max",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So three months ago started tweeting and it's unbelievable. I mean, I'd say roughly a third of my revenue is from people on X, which is so crazy that are just following my journey.",
+    "speaker": "Max",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10343,
+    "approx_timestamp_s": 525
+   }
+  },
+  {
+   "claim": "Max estimates roughly one-third of his revenue came from people on X.",
+   "metric": "revenue",
+   "value": {
+    "amount": 0.333,
+    "currency": null,
+    "unit": "share of revenue",
+    "label": "Roughly one-third"
+   },
+   "period": "at interview",
+   "claimant": "Max",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So three months ago started tweeting and it's unbelievable. I mean, I'd say roughly a third of my revenue is from people on X, which is so crazy that are just following my journey.",
+    "speaker": "Max",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10343,
+    "approx_timestamp_s": 525
+   }
+  },
+  {
+   "claim": "Max says his leaderboard rank was 78 and he had lifted twice that week.",
+   "metric": "other",
+   "value": {
+    "amount": 78,
+    "currency": null,
+    "unit": "leaderboard rank",
+    "label": null
+   },
+   "period": "that week",
+   "claimant": "Max",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "You can see your leaderboard rank here. I'm unfortunately 78 and I've already lifted twice this week.",
+    "speaker": "Max",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11459,
+    "approx_timestamp_s": 581
+   }
+  },
+  {
+   "claim": "Max says he had lifted twice that week.",
+   "metric": "other",
+   "value": {
+    "amount": 2,
+    "currency": null,
+    "unit": "workouts in the week",
+    "label": null
+   },
+   "period": "that week",
+   "claimant": "Max",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "You can see your leaderboard rank here. I'm unfortunately 78 and I've already lifted twice this week.",
+    "speaker": "Max",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11459,
+    "approx_timestamp_s": 581
+   }
+  },
+  {
+   "claim": "Max says he got his first paying customer four months before the interview.",
+   "metric": "other",
+   "value": {
+    "amount": 4,
+    "currency": null,
+    "unit": "months before interview",
+    "label": "Time to first paying customer as recalled"
+   },
+   "period": null,
+   "claimant": "Max",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "That some of the most rewarding things I've done here is just being able to look back at videos from four months ago when I got my first paying customer and being all excited to now doing, you know, $14,000 a month.",
+    "speaker": "Max",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13025,
+    "approx_timestamp_s": 661
+   }
+  },
+  {
+   "claim": "Max says the app was doing about USD 14,000 a month at the time of the interview.",
+   "metric": "revenue",
+   "value": {
+    "amount": 14000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "Approximate"
+   },
+   "period": "at interview",
+   "claimant": "Max",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "That some of the most rewarding things I've done here is just being able to look back at videos from four months ago when I got my first paying customer and being all excited to now doing, you know, $14,000 a month.",
+    "speaker": "Max",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13025,
+    "approx_timestamp_s": 661
+   }
+  },
+  {
+   "claim": "The host says Starter Story has interviewed hundreds of people who built businesses and made money online.",
+   "metric": "other",
+   "value": {
+    "amount": null,
+    "currency": null,
+    "unit": "people interviewed",
+    "label": "Hundreds"
+   },
+   "period": "to date",
+   "claimant": "Gus",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "And we've interviewed hundreds of people that have done this.",
+    "speaker": "Gus",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14482,
+    "approx_timestamp_s": 735
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Find a familiar problem in a fragmented category",
+   "area": "validation_testing",
+   "steps": [
+    "Start with a category you care about and already use.",
+    "Ask whether customers are using several separate apps for one job.",
+    "Build a unified product if the gap is meaningful, even if competitors already exist."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "There were a few different apps that people were using. There wasn't really one unified platform, so I just went out and built it.",
+    "speaker": "Max",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6116,
+    "approx_timestamp_s": 310
+   }
+  },
+  {
+   "name": "Charge for the app instead of relying on forgotten cancellations",
+   "area": "pricing",
+   "steps": [
+    "Set an upfront yearly fee.",
+    "Explain the annual charge as a simple monthly equivalent.",
+    "Max says this avoids depending on users forgetting to cancel."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So we just charged an upfront $24.99 a yearly fee, which is just really $2 a month.",
+    "speaker": "Max",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2214,
+    "approx_timestamp_s": 112
+   }
+  },
+  {
+   "name": "Use founder-made videos to test creative",
+   "area": "acquisition",
+   "steps": [
+    "Film several short videos every day rather than paying creators before the product and message are clear.",
+    "Track hold rate and skip rate for each video.",
+    "Use the strongest formats as the basis for further promotion."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I was looking at all of the videos I posted and analyzed what's the hold rate? What's the skip rate? And then I started running the best performers as paid ads.",
+    "speaker": "Max",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8337,
+    "approx_timestamp_s": 423
+   }
+  },
+  {
+   "name": "Scale ad spend after signs of product-market fit",
+   "area": "finance_unit_economics",
+   "steps": [
+    "Start paid promotion with a low budget.",
+    "Watch for evidence that the product and creative are working.",
+    "Increase spend once performance supports it; Max reported spending around USD 250 a day at the time of the interview."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I started on a low budget at first. But as I started to see that there really was product market fit. I started to still be up to budget and now we're spending around $250 a day on paid ads.",
+    "speaker": "Max",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8498,
+    "approx_timestamp_s": 431
+   }
+  },
+  {
+   "name": "Delay hiring UGC creators until the message is clear",
+   "area": "hiring_outsourcing",
+   "steps": [
+    "First define the app's scope and learn which features drive downloads.",
+    "Identify the angles and formats that work.",
+    "Only then consider paying UGC creators, to avoid burning money on unproven creative."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I would say we don't really have the scope defined of your app yet. And you don't understand what features are going to drive downloads. It's very early on, I would avoid hiring UGC creators.",
+    "speaker": "Max",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9154,
+    "approx_timestamp_s": 464
+   }
+  },
+  {
+   "name": "Prioritise Meta over TikTok based on the app’s results",
+   "area": "acquisition",
+   "steps": [
+    "Compare paid results across platforms instead of assuming they perform alike.",
+    "For this app, Max preferred Meta because he believed its views were more valuable and its buyers had higher intent and willingness to pay."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I would say right now, met as much better than TikTok. I think the views are more valuable. I think they're higher intent buyers.",
+    "speaker": "Max",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9482,
+    "approx_timestamp_s": 481
+   }
+  },
+  {
+   "name": "Share the founder journey publicly",
+   "area": "acquisition",
+   "steps": [
+    "Post progress and lessons on X consistently.",
+    "Share what is working, what is not, and vulnerabilities rather than hiding the business.",
+    "Use founder-led content to help prospective customers follow the product's development."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Be as public about it as possible. Show everyone what's working, what's not. Tell them about your vulnerabilities. People are really supportive.",
+    "speaker": "Max",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10735,
+    "approx_timestamp_s": 545
+   }
+  },
+  {
+   "name": "Use clipping to widen organic reach",
+   "area": "acquisition",
+   "steps": [
+    "Turn existing video material into clips for broader distribution.",
+    "Max says clipping can bring international exposure and organic app downloads."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "This is a great way to get international exposure and a great way to get organic downloads.",
+    "speaker": "Max",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9840,
+    "approx_timestamp_s": 499
+   }
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Max AI",
+   "purpose": "The guest’s fitness app and business.",
+   "cost_stated": null
+  },
+  {
+   "name": "Dish Rate",
+   "purpose": "Max’s abandoned food review app idea.",
+   "cost_stated": null
+  },
+  {
+   "name": "Claude Code",
+   "purpose": "AI-assisted coding; Max says he used a membership to start building.",
+   "cost_stated": "USD 15 membership; billing period not stated"
+  },
+  {
+   "name": "Claude (transcribed as “called 20X”)",
+   "purpose": "Tool in Max’s app-building stack; exact product and purpose are unclear in the transcript.",
+   "cost_stated": null
+  },
+  {
+   "name": "Supabase",
+   "purpose": "Backend service in Max’s app stack.",
+   "cost_stated": "USD 20 per month"
+  },
+  {
+   "name": "Vercel",
+   "purpose": "Deployment support for Max’s app.",
+   "cost_stated": null
+  },
+  {
+   "name": "Expo",
+   "purpose": "Deploying the app and submitting updates.",
+   "cost_stated": null
+  },
+  {
+   "name": "RevenueCat",
+   "purpose": "Payment and revenue tracking for Max’s app.",
+   "cost_stated": null
+  },
+  {
+   "name": "App Store",
+   "purpose": "Max shows the app listing and its ratings; he reports iOS downloads.",
+   "cost_stated": null
+  },
+  {
+   "name": "X",
+   "purpose": "Founder-led updates and a reported source of app revenue.",
+   "cost_stated": null
+  },
+  {
+   "name": "Instagram",
+   "purpose": "Max says he met someone with app-building experience through Instagram.",
+   "cost_stated": null
+  },
+  {
+   "name": "Meta",
+   "purpose": "Paid ads; Max says it worked better than TikTok for his app.",
+   "cost_stated": null
+  },
+  {
+   "name": "TikTok",
+   "purpose": "Paid video platform compared with Meta for app advertising.",
+   "cost_stated": null
+  },
+  {
+   "name": "Strava",
+   "purpose": "Running app named as a comparison; the transcript mishears the name as “Trauma.”",
+   "cost_stated": null
+  },
+  {
+   "name": "Nike Run Club",
+   "purpose": "Running app named as a comparison.",
+   "cost_stated": null
+  },
+  {
+   "name": "Starter Story",
+   "purpose": "Interview channel publishing the founder story.",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Max advises against paying UGC creators before the app’s scope, download-driving features, and effective marketing angles are understood, because early spending can be wasted.",
+   "quote": {
+    "text": "It's very early on, I would avoid hiring UGC creators. You're going to need to know the exact direction. I'm in the angles that are going to work before you want to burn money doing that.",
+    "speaker": "Max",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9289,
+    "approx_timestamp_s": 471
+   }
+  },
+  {
+   "warning": "Max says he initially hesitated to market the app or attach his name to it, and recommends committing to promotion and documenting the work.",
+   "quote": {
+    "text": "I built an app, but I was too afraid to market it and I didn't want to attach my name to it. And I was too afraid to fill myself.",
+    "speaker": "Max",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12649,
+    "approx_timestamp_s": 642
+   }
+  },
+  {
+   "warning": "The app touches sleep, exercise, nutrition, supplements, and peptides. The transcript does not describe safety review, privacy practices, or boundaries for health-related advice.",
+   "quote": {
+    "text": "It allows you to track your lifts, track your nutrition, and even track all your supplement and peptide protocols.",
+    "speaker": "Max",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1717,
+    "approx_timestamp_s": 87
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "A crowded market can still have room for a product that makes a fragmented user experience feel unified.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "There were a few different apps that people were using. There wasn't really one unified platform, so I just went out and built it.",
+    "speaker": "Max",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6116,
+    "approx_timestamp_s": 310
+   }
+  },
+  {
+   "lesson": "A founder’s personal brand and visible journey can help attract users and build support around a product.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "I think building your personal brand is one of the most powerful things you can do.",
+    "speaker": "Max",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10899,
+    "approx_timestamp_s": 553
+   }
+  },
+  {
+   "lesson": "Use your own content to discover which messages work before hiring creators to repeat them.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "I was looking at all of the videos I posted and analyzed what's the hold rate? What's the skip rate?",
+    "speaker": "Max",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8337,
+    "approx_timestamp_s": 423
+   }
+  },
+  {
+   "lesson": "Start paid marketing at a small scale and increase spending when there is evidence that the product and creative are working.",
+   "theme": "finance_unit_economics",
+   "quote": {
+    "text": "I started on a low budget at first. But as I started to see that there really was product market fit.",
+    "speaker": "Max",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8498,
+    "approx_timestamp_s": 431
+   }
+  },
+  {
+   "lesson": "Do not assume that an idea needs to be completely new; passion and a useful execution can matter in an established category.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "I wasn't naive to the fact that there were 100 other competitors already out there. But I wanted to build something I was actually passionate about.",
+    "speaker": "Max",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5702,
+    "approx_timestamp_s": 289
+   }
+  },
+  {
+   "lesson": "Share what is working and what is not; Max says people can be supportive rather than simply copying the idea.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "Be as public about it as possible. Show everyone what's working, what's not. Tell them about your vulnerabilities. People are really supportive.",
+    "speaker": "Max",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10735,
+    "approx_timestamp_s": 545
+   }
+  },
+  {
+   "lesson": "AI coding tools can lower the barrier to building a first app for someone without much coding experience.",
+   "theme": "automation_ai",
+   "quote": {
+    "text": "People that I knew if they could build apps, I could build apps. So one day I got set up with a cloud code $15 membership and just started typing.",
+    "speaker": "Max",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5056,
+    "approx_timestamp_s": 256
+   }
+  },
+  {
+   "lesson": "A founder who is reluctant to market may delay learning; Max recommends making promotion part of the work from the start.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "So the best advice I could give you is go all in, film yourself, annoy the crap out of everyone around you because you're so obsessed with this and document your journey.",
+    "speaker": "Max",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12776,
+    "approx_timestamp_s": 648
+   }
+  },
+  {
+   "lesson": "Charging upfront can avoid relying on customers forgetting to cancel, though the interview does not give retention or renewal data.",
+   "theme": "pricing",
+   "quote": {
+    "text": "So we just charged an upfront $24.99 a yearly fee, which is just really $2 a month.",
+    "speaker": "Max",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2214,
+    "approx_timestamp_s": 112
+   }
+  },
+  {
+   "lesson": "Compare platforms using the business’s own audience and purchase results; Max preferred Meta to TikTok for this app.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "I would say right now, met as much better than TikTok. I think the views are more valuable. I think they're higher intent buyers.",
+    "speaker": "Max",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9482,
+    "approx_timestamp_s": 481
+   }
+  }
+ ],
+ "evidence_quality": {
+  "rating": "B",
+  "rationale": "The guest is the first-hand founder and gives specific product details, growth metrics, prices, tools, and marketing steps. The numbers are self-reported and the transcript provides little evidence about profit, retention, acquisition costs, or independent verification. The transcript is local Whisper output and contains apparent recognition errors, including software and platform names.",
+  "promotional_conflict": "The video includes a sponsored HubSpot CRM read. Max does not appear to sell a course or software in the interview."
+ },
+ "extraction": {
+  "model": "gpt-6-luna",
+  "extracted_at": "2026-10-22T11:06:38",
+  "cost_usd": 0,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 59,
+   "verified": 59,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

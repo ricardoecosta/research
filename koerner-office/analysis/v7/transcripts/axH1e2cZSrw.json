@@ -1,0 +1,1089 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "axH1e2cZSrw",
+  "title": "This app replaced my 9-5 ($155K/year)",
+  "channel": "Starter Story",
+  "url": "https://www.youtube.com/watch?v=axH1e2cZSrw",
+  "upload_date": "2026-09-13",
+  "duration_s": 872,
+  "view_count": 117618,
+  "transcript_provider": "local_whisper_tiny",
+  "transcript_chars": 17629,
+  "transcript_is_whisper": true
+ },
+ "summary": "Ken describes building Harpagia, a free-to-play idle mobile RPG, alongside a full-time tech job and later leaving Meta after Reddit posts brought a sharp increase in revenue. He says the game earns through optional in-app purchases, with average monthly revenue around $13,000 and no ad spend. He built it with a small software stack and used Reddit, player feedback, and freelance creative work to grow and improve it. His main advice is to launch early, learn from potential customers, and prioritize retention before monetization.",
+ "speakers": [
+  {
+   "name": "Gus",
+   "role": "host",
+   "description": "Starter Story host; says he is filling in for Pat."
+  },
+  {
+   "name": "Ken",
+   "role": "guest",
+   "description": "Builder of the Harpagia mobile game."
+  }
+ ],
+ "format": "operator_interview",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Harpagia idle mobile RPG",
+   "one_liner": "A free-to-play, text-based incremental RPG where players collect resources and progress while away, with optional in-app purchases.",
+   "category": "other",
+   "business_model": "Free-to-play mobile game monetized through optional in-app purchases for premium features or faster progression.",
+   "customer": "Fans of incremental and idle RPG games.",
+   "problem": "Players want to make meaningful progress while away from the game, then return to collect rewards and choose what to do next.",
+   "offer": "A text-based mobile game with skills, resource gathering, upgrades, combat, monsters, loot, and character progression.",
+   "pricing": {
+    "model": "Free download with optional one-off in-app purchases.",
+    "price_points": [
+     {
+      "amount": 2,
+      "amount_max": 10,
+      "currency": "USD",
+      "unit": "per in-app purchase",
+      "label": "Stated purchase range"
+     },
+     {
+      "amount": 4.99,
+      "amount_max": 9.99,
+      "currency": "USD",
+      "unit": "per in-app purchase",
+      "label": "Range Ken says players are generally willing to spend"
+     },
+     {
+      "amount": 9.99,
+      "currency": "USD",
+      "unit": "per in-app purchase",
+      "label": "Above this, Ken says conversion is harder"
+     }
+    ],
+    "notes": "Purchases unlock premium features or speed progression. The game is free to play."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Organic Reddit posts were Ken's main marketing tactic. He shared screenshots, explained the game and its free-to-play approach, and posted major updates every few months because many subreddits limit developer promotion. He reports that posts often brought new players, including posts that drew criticism.",
+     "quote": {
+      "text": "Almost every single time that I posted on there, I'd receive a significant jump in new players.",
+      "speaker": "Ken",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 9520,
+      "approx_timestamp_s": 481
+     }
+    },
+    {
+     "channel": "app_store",
+     "details": "The game is available on iOS and Android. The transcript does not say how many players discovered it through either store.",
+     "quote": null
+    }
+   ],
+   "delivery": "Players access the game as a free-to-play mobile app on iOS and Android. The software runs idle combat and progression, while Ken builds and updates the product. He uses Discord Nitro for community management and freelancers for screenshots, icons, and videos.",
+   "unit_economics_claims": [
+    "In-app purchases are stated to range from $2 to $10, with $4.99 to $9.99 described as a more comfortable range for players.",
+    "Ken says revenue per active user averaged over $3 during the past year.",
+    "Ken reports average monthly revenue around $13,000 and over $150,000 in revenue during the past year.",
+    "Ken reports 3,500 to 4,000 monthly active users and around 5,600 daily active users; the transcript includes a dollar sign before the daily active user figure.",
+    "The transcript says the game reached over 50,000 combined across iOS and Android, but does not make clear what that figure measures.",
+    "Ken reports a roughly 6% conversion rate and cites 2% to 5% as typical for games.",
+    "Ken reports ongoing operating expenses of roughly $500 per month and zero ad spend.",
+    "Ken says his first sale was $10, first-month sales were about $150, and total sales by the end of the second month were about $1,500.",
+    "Ken says monthly revenue rose from roughly $1,000 to $10,000 after one Reddit post, later reaching a peak around $18,000 per month.",
+    "Ken says a small audience of a few hundred active users can generate over $100,000 in annual revenue."
+   ],
+   "tools": [
+    "Cursor",
+    "ChatGPT",
+    "React Native",
+    "Firebase",
+    "Discord Nitro",
+    "Vercel",
+    "Unity Asset Store",
+    "GameDev Market",
+    "Fiverr",
+    "Upwork",
+    "Reddit",
+    "iOS App Store",
+    "Android"
+   ],
+   "startup_cost": "Not stated. Ken reports ongoing operating expenses of roughly $500 per month, including assets, freelance art, and subscriptions.",
+   "time_to_first_revenue": "Ken says he made his first sale a few days after launch.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Agents could help draft posts and review feedback, but effective Reddit participation requires human judgment, community-specific rule checks, and responses to players. Ken posted only occasionally because some subreddits limit promotion."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "App download and access can be handled by the platforms. The transcript does not describe account setup, tutorials, or onboarding workflows."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "The game and its idle progression are software delivered through mobile apps. Gameplay can run without a person delivering each session; product development and updates still require work."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "In-app purchases are processed through the mobile game platforms. Ken describes optional purchases but does not specify payment operations."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Ken uses Discord Nitro for community management. Agents could answer routine questions, but player feedback, complaints, and game issues need human review."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "A mobile game distributed on iOS and Android can serve UK players. The transcript gives no UK-specific localization or operating details."
+   },
+   "risks": [
+    "Subreddits may restrict how often developers can promote a product, limiting posting frequency.",
+    "Reddit responses can be strongly critical; Ken says criticism generated discussion, but the transcript does not establish that this will work for every game.",
+    "Ken says purchases above $9.99 are harder to convert.",
+    "The business depends on ongoing product quality and player retention; Ken says he prioritized retention before monetization.",
+    "The transcript's figures for daily active users and the combined iOS/Android total are unclear and may reflect Whisper transcription errors.",
+    "The game requires continued development and updates, which limits the extent to which the founder can leave it unattended."
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "The game generates revenue through optional in-app purchases that unlock premium features or speed of progression.",
+     "speaker": "Ken",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 3069,
+     "approx_timestamp_s": 155
+    },
+    {
+     "text": "The average monthly revenue has been around $13,000 a month, which totaled over $150,000 in past year.",
+     "speaker": "Ken",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 3513,
+     "approx_timestamp_s": 177
+    },
+    {
+     "text": "My revenue jumped from roughly 1,000 a month to 10,000 a month almost overnight from that one single post and I hit my goal.",
+     "speaker": "Ken",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 8304,
+     "approx_timestamp_s": 419
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Be Too Wild card game app",
+   "one_liner": "A simple card game app Ken built as a first project to learn AI-assisted development and shipping a product.",
+   "category": "other",
+   "business_model": "Not stated.",
+   "customer": "Not stated; Ken chose the game because he and his friends had played the card game in high school.",
+   "problem": "Not stated.",
+   "offer": "A simple app version of the Be Too Wild card game.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": "The transcript does not say whether the app was monetized."
+   },
+   "acquisition_channels": [],
+   "delivery": "Ken built the app with AI assistance. He says the project taught him about end-to-end product building, App Store approvals, and shipping; specific platforms and delivery details are not stated.",
+   "unit_economics_claims": [
+    "Ken says the app took about six weeks to build."
+   ],
+   "tools": [
+    "AI tools"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "No customer acquisition channel is stated. Any app-store discovery would depend on store listing work and is not described."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "The app is software, but the transcript gives no onboarding details."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "A card game app can deliver gameplay through software, but the transcript does not describe how it was distributed or operated."
+    },
+    "billing": {
+     "score_e": 1,
+     "how": "No payment or monetization approach is stated."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "No support process is stated."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "A simple mobile card game could be offered to UK users. The transcript gives no location-specific constraints or customer details."
+   },
+   "risks": [
+    "The transcript presents this as a learning project and gives no evidence of demand, revenue, or a repeatable business model."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "I built my first app, which was a simple card game called Be Too Wild in about six weeks.",
+     "speaker": "Ken",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 4789,
+     "approx_timestamp_s": 241
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Ken says in-app purchase prices range from $2 to $10.",
+   "metric": "price",
+   "value": {
+    "amount": 2,
+    "amount_max": 10,
+    "currency": "USD",
+    "unit": "per in-app purchase",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Ken",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "A lot of the pricing ranges anywhere from the $2 to $10 range.",
+    "speaker": "Ken",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3183,
+    "approx_timestamp_s": 160
+   }
+  },
+  {
+   "claim": "Ken says players are generally willing to spend $4.99 to $9.99.",
+   "metric": "price",
+   "value": {
+    "amount": 4.99,
+    "amount_max": 9.99,
+    "currency": "USD",
+    "unit": "per in-app purchase",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Ken",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "What I've learned through a lot of monetization experimentation is anything around $4.99 to $9.99. Players will generally be okay to spend.",
+    "speaker": "Ken",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3243,
+    "approx_timestamp_s": 163
+   }
+  },
+  {
+   "claim": "Ken says purchases above $9.99 are harder to convert.",
+   "metric": "price",
+   "value": {
+    "amount": 9.99,
+    "currency": "USD",
+    "unit": "price threshold per in-app purchase",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Ken",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Anything that's above $9.99, it's a little bit harder to convert.",
+    "speaker": "Ken",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3379,
+    "approx_timestamp_s": 170
+   }
+  },
+  {
+   "claim": "Ken says revenue averaged over $3 per active user during the past year.",
+   "metric": "other",
+   "value": {
+    "amount": 3,
+    "currency": "USD",
+    "unit": "revenue per active user",
+    "label": "over"
+   },
+   "period": "past year",
+   "claimant": "Ken",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Over the past year, the game averaged over $3 in revenue per active user.",
+    "speaker": "Ken",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3442,
+    "approx_timestamp_s": 173
+   }
+  },
+  {
+   "claim": "Ken reports average monthly revenue around $13,000.",
+   "metric": "revenue",
+   "value": {
+    "amount": 13000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "around"
+   },
+   "period": "average monthly revenue",
+   "claimant": "Ken",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "The average monthly revenue has been around $13,000 a month, which totaled over $150,000 in past year.",
+    "speaker": "Ken",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3513,
+    "approx_timestamp_s": 177
+   }
+  },
+  {
+   "claim": "Ken reports over $150,000 in revenue during the past year.",
+   "metric": "revenue",
+   "value": {
+    "amount": 150000,
+    "currency": "USD",
+    "unit": "per year",
+    "label": "over"
+   },
+   "period": "past year",
+   "claimant": "Ken",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "The average monthly revenue has been around $13,000 a month, which totaled over $150,000 in past year.",
+    "speaker": "Ken",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3513,
+    "approx_timestamp_s": 177
+   }
+  },
+  {
+   "claim": "Ken reports 3,500 to 4,000 monthly active users.",
+   "metric": "customers",
+   "value": {
+    "amount": 3500,
+    "amount_max": 4000,
+    "currency": null,
+    "unit": "monthly active users",
+    "label": null
+   },
+   "period": "monthly",
+   "claimant": "Ken",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "The monthly active users ranges anywhere from $3,500 to $4,000 with daily active users around $5,600.",
+    "speaker": "Ken",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3612,
+    "approx_timestamp_s": 182
+   }
+  },
+  {
+   "claim": "Ken reports around 5,600 daily active users; the transcript includes a dollar sign before the count.",
+   "metric": "customers",
+   "value": {
+    "amount": 5600,
+    "currency": null,
+    "unit": "daily active users",
+    "label": "around; transcript includes a dollar sign"
+   },
+   "period": "daily",
+   "claimant": "Ken",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "The monthly active users ranges anywhere from $3,500 to $4,000 with daily active users around $5,600.",
+    "speaker": "Ken",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3612,
+    "approx_timestamp_s": 182
+   }
+  },
+  {
+   "claim": "The transcript says the game reached over 50,000 combined across iOS and Android, but does not identify what the figure measures.",
+   "metric": "other",
+   "value": {
+    "amount": 50000,
+    "currency": null,
+    "unit": "unspecified combined iOS and Android total",
+    "label": "over; transcript includes a dollar sign"
+   },
+   "period": null,
+   "claimant": "Ken",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "The game has reached over $50,000 combined with both iOS and Android, with roughly a 6% conversion rate",
+    "speaker": "Ken",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3710,
+    "approx_timestamp_s": 187
+   }
+  },
+  {
+   "claim": "Ken reports a roughly 6% conversion rate.",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 6,
+    "currency": "%",
+    "unit": "conversion rate",
+    "label": "roughly"
+   },
+   "period": null,
+   "claimant": "Ken",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "The game has reached over $50,000 combined with both iOS and Android, with roughly a 6% conversion rate",
+    "speaker": "Ken",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3710,
+    "approx_timestamp_s": 187
+   }
+  },
+  {
+   "claim": "Ken cites a typical game conversion rate of 2% to 5%.",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 2,
+    "amount_max": 5,
+    "currency": "%",
+    "unit": "conversion rate",
+    "label": "typical, according to Ken"
+   },
+   "period": null,
+   "claimant": "Ken",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "the typical conversion rate for games is anywhere from 2 to 5%.",
+    "speaker": "Ken",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3860,
+    "approx_timestamp_s": 195
+   }
+  },
+  {
+   "claim": "Ken reports ongoing operating expenses of roughly $500 per month.",
+   "metric": "cost",
+   "value": {
+    "amount": 500,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "roughly"
+   },
+   "period": "ongoing",
+   "claimant": "Ken",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "My ongoing operating expenses, such as purchasing assets, freelancing art, subscriptions, and so on, is roughly $500 a month.",
+    "speaker": "Ken",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3922,
+    "approx_timestamp_s": 198
+   }
+  },
+  {
+   "claim": "Ken says he spent zero on ads.",
+   "metric": "cost",
+   "value": {
+    "amount": 0,
+    "currency": "USD",
+    "unit": "ad spend",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Ken",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "And I did not spend anything on ads, so my ad spend was zero.",
+    "speaker": "Ken",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4041,
+    "approx_timestamp_s": 204
+   }
+  },
+  {
+   "claim": "Ken says his first sale was $10.",
+   "metric": "sale_price",
+   "value": {
+    "amount": 10,
+    "currency": "USD",
+    "unit": "one-off sale",
+    "label": null
+   },
+   "period": "a few days after launch",
+   "claimant": "Ken",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "It proved to me that even though my game was in an incredibly early alpha version, someone enjoyed it enough to spend $10 for something that I had built.",
+    "speaker": "Ken",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7581,
+    "approx_timestamp_s": 383
+   }
+  },
+  {
+   "claim": "Ken says he made about $150 in sales by the end of the first month.",
+   "metric": "revenue",
+   "value": {
+    "amount": 150,
+    "currency": "USD",
+    "unit": "sales by end of first month",
+    "label": "about"
+   },
+   "period": "first month",
+   "claimant": "Ken",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "By the end of my first month, I made about $150 in sales.",
+    "speaker": "Ken",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7732,
+    "approx_timestamp_s": 390
+   }
+  },
+  {
+   "claim": "Ken says total sales were about $1,500 by the end of the second month.",
+   "metric": "revenue",
+   "value": {
+    "amount": 1500,
+    "currency": "USD",
+    "unit": "total sales by end of second month",
+    "label": "about"
+   },
+   "period": "second month",
+   "claimant": "Ken",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "By the end of my second month, I made about 1500 in total sales.",
+    "speaker": "Ken",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7787,
+    "approx_timestamp_s": 393
+   }
+  },
+  {
+   "claim": "Ken reports monthly revenue rose from roughly $1,000 to $10,000 after one Reddit post.",
+   "metric": "revenue",
+   "value": {
+    "amount": 1000,
+    "amount_max": 10000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "roughly; before and after one post"
+   },
+   "period": "monthly",
+   "claimant": "Ken",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "My revenue jumped from roughly 1,000 a month to 10,000 a month almost overnight from that one single post and I hit my goal.",
+    "speaker": "Ken",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8304,
+    "approx_timestamp_s": 419
+   }
+  },
+  {
+   "claim": "Ken reports monthly revenue later peaked at roughly $18,000 after Reddit posts.",
+   "metric": "revenue",
+   "value": {
+    "amount": 18000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "roughly; peak"
+   },
+   "period": "peak monthly revenue",
+   "claimant": "Ken",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Over time, revenue grew from around 10,000 a month to a peak of roughly 18,000 a month just posting on Reddit.",
+    "speaker": "Ken",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10688,
+    "approx_timestamp_s": 540
+   }
+  },
+  {
+   "claim": "Ken says a few hundred active users could generate over $100,000 in annual revenue.",
+   "metric": "revenue",
+   "value": {
+    "amount": 100000,
+    "currency": "USD",
+    "unit": "per year",
+    "label": "over"
+   },
+   "period": "annual",
+   "claimant": "Ken",
+   "first_hand": true,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Whenever I started building Harpagia, I never would have believed that only a few hundred active users could generate over a hundred thousand in revenue each year.",
+    "speaker": "Ken",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12185,
+    "approx_timestamp_s": 615
+   }
+  },
+  {
+   "claim": "Ken says building the Be Too Wild card game app took about six weeks.",
+   "metric": "other",
+   "value": {
+    "amount": 6,
+    "currency": null,
+    "unit": "weeks to build",
+    "label": "about"
+   },
+   "period": null,
+   "claimant": "Ken",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "I built my first app, which was a simple card game called Be Too Wild in about six weeks.",
+    "speaker": "Ken",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4789,
+    "approx_timestamp_s": 241
+   }
+  },
+  {
+   "claim": "Ken says the gaming industry is worth one hundred billion dollars.",
+   "metric": "other",
+   "value": {
+    "amount": 100000000000,
+    "currency": "USD",
+    "unit": "industry size",
+    "label": "one hundred billion"
+   },
+   "period": null,
+   "claimant": "Ken",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "The gaming industry is a hundred billion dollar industry and I think one misconception is that you need to have hundreds of thousands or millions of players to have a sustainable business.",
+    "speaker": "Ken",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11831,
+    "approx_timestamp_s": 597
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Use Reddit posts to get early players and feedback",
+   "area": "acquisition",
+   "steps": [
+    "Post screenshots and explain what the game is, including its free-to-play approach.",
+    "Share major updates every few months when subreddit rules restrict developer promotion.",
+    "Treat critical discussion as feedback and engage with the conversation.",
+    "Track whether posts lead to new players and revenue."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "The very first post that I made just showed some screenshots of the game and kind of just explaining a little bit about what the game is and a few metrics about, you know, how to free to play it is",
+    "speaker": "Ken",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10064,
+    "approx_timestamp_s": 508
+   }
+  },
+  {
+   "name": "Launch early and learn from potential customers",
+   "area": "validation_testing",
+   "steps": [
+    "Set a launch deadline; Ken chose to launch after six months regardless of whether the larger vision was complete.",
+    "Put the product in front of potential customers or playtesters, not only friends and family.",
+    "Use feedback to shape the product and improve later versions."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "One of the best decisions I made was forcing myself to launch the game after six months, no matter what.",
+    "speaker": "Ken",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15121,
+    "approx_timestamp_s": 764
+   }
+  },
+  {
+   "name": "Prioritize retention before monetization",
+   "area": "product",
+   "steps": [
+    "Build a game people want to keep playing before focusing on monetization.",
+    "Use early player feedback to improve the experience."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I also didn't worry much about monetization in the beginning. My focus was retention first and building a game that people wanted to keep playing.",
+    "speaker": "Ken",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15597,
+    "approx_timestamp_s": 788
+   }
+  },
+  {
+   "name": "Experiment with in-app purchase prices",
+   "area": "pricing",
+   "steps": [
+    "Test different purchase prices rather than assuming a price will convert.",
+    "Ken says players were generally comfortable around $4.99 to $9.99 and that higher prices were harder to convert."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "What I've learned through a lot of monetization experimentation is anything around $4.99 to $9.99. Players will generally be okay to spend.",
+    "speaker": "Ken",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3243,
+    "approx_timestamp_s": 163
+   }
+  },
+  {
+   "name": "Use asset stores and freelancers to save build time",
+   "area": "operations",
+   "steps": [
+    "Buy pre-packaged game assets from Unity Asset Store or GameDev Market.",
+    "Hire freelancers through Fiverr or Upwork for screenshots, icons, and videos.",
+    "Keep the founder focused on building the game."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "For purchasing assets, I use Unity Asset Store or Game Dev Market, which have a lot of pre-packaged assets that you can purchase and save a lot of time on making part.",
+    "speaker": "Ken",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14476,
+    "approx_timestamp_s": 731
+   }
+  },
+  {
+   "name": "Start with a small project to learn the full shipping process",
+   "area": "validation_testing",
+   "steps": [
+    "Choose a project with a small enough scope to finish quickly.",
+    "Use the first build to learn AI-assisted development, product delivery, store approvals, and launch operations.",
+    "Apply those lessons to the next project."
+   ],
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "I also wanted to make sure that the scope was small enough for me to complete in a short amount of time to gain experience of actually shipping something.",
+    "speaker": "Ken",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4991,
+    "approx_timestamp_s": 252
+   }
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Cursor",
+   "purpose": "Code editor.",
+   "cost_stated": null
+  },
+  {
+   "name": "ChatGPT",
+   "purpose": "Brainstorming and icon touch-ups.",
+   "cost_stated": null
+  },
+  {
+   "name": "React Native",
+   "purpose": "Game front end.",
+   "cost_stated": null
+  },
+  {
+   "name": "Firebase",
+   "purpose": "Back end, authentication, and analytics.",
+   "cost_stated": null
+  },
+  {
+   "name": "Discord Nitro",
+   "purpose": "Community management.",
+   "cost_stated": null
+  },
+  {
+   "name": "Vercel",
+   "purpose": "Web hosting.",
+   "cost_stated": null
+  },
+  {
+   "name": "Unity Asset Store",
+   "purpose": "Purchasing pre-packaged game assets.",
+   "cost_stated": null
+  },
+  {
+   "name": "GameDev Market",
+   "purpose": "Purchasing pre-packaged game assets.",
+   "cost_stated": null
+  },
+  {
+   "name": "Fiverr",
+   "purpose": "Hiring freelancers to create screenshots, icons, and videos.",
+   "cost_stated": null
+  },
+  {
+   "name": "Upwork",
+   "purpose": "Hiring freelancers to create screenshots, icons, and videos.",
+   "cost_stated": null
+  },
+  {
+   "name": "Reddit",
+   "purpose": "Organic game promotion, player feedback, and discussion.",
+   "cost_stated": null
+  },
+  {
+   "name": "iOS App Store",
+   "purpose": "Mobile game distribution and app approval process.",
+   "cost_stated": null
+  },
+  {
+   "name": "Android",
+   "purpose": "Mobile game distribution.",
+   "cost_stated": null
+  },
+  {
+   "name": "AI tools",
+   "purpose": "Assistance with development; specific tools used for the first app are not stated.",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Some subreddits limit developers to promoting their product no more than once a month, so Reddit posting frequency may be constrained.",
+   "quote": {
+    "text": "many subreddits don't allow developers to promote their product more than once a month.",
+    "speaker": "Ken",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9746,
+    "approx_timestamp_s": 492
+   }
+  },
+  {
+   "warning": "Ken says purchases above $9.99 are harder to convert.",
+   "quote": {
+    "text": "Anything that's above $9.99, it's a little bit harder to convert.",
+    "speaker": "Ken",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3379,
+    "approx_timestamp_s": 170
+   }
+  },
+  {
+   "warning": "Ken advises getting feedback from potential customers rather than relying on friends and family.",
+   "quote": {
+    "text": "Not from friends and family, but from your potential customers.",
+    "speaker": "Ken",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15059,
+    "approx_timestamp_s": 760
+   }
+  },
+  {
+   "warning": "Ken says delaying launch until the game matches a larger vision would have deprived it of player feedback that improved the product.",
+   "quote": {
+    "text": "there's no way the game would have improved the way it did without getting it into the hands of real players.",
+    "speaker": "Ken",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15293,
+    "approx_timestamp_s": 772
+   }
+  },
+  {
+   "warning": "The transcript includes unclear Whisper-rendered figures for active users and the combined iOS and Android total; those quantities should not be treated as verified measures.",
+   "quote": {
+    "text": "The game has reached over $50,000 combined with both iOS and Android, with roughly a 6% conversion rate",
+    "speaker": "Ken",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3710,
+    "approx_timestamp_s": 187
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Build in a niche you understand well so you can recognize the audience and make something you care enough to keep improving.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "Build something that you understand well and get real feedback as early as possible.",
+    "speaker": "Ken",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14975,
+    "approx_timestamp_s": 756
+   }
+  },
+  {
+   "lesson": "Ship an early version on a deadline and use real user feedback to decide what to improve.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "One of the best decisions I made was forcing myself to launch the game after six months, no matter what.",
+    "speaker": "Ken",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15121,
+    "approx_timestamp_s": 764
+   }
+  },
+  {
+   "lesson": "Ask potential customers and playtesters for feedback rather than relying only on friends and family.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "Not from friends and family, but from your potential customers.",
+    "speaker": "Ken",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15059,
+    "approx_timestamp_s": 760
+   }
+  },
+  {
+   "lesson": "A small, engaged audience can support a business; a mass-market hit is not the only viable outcome.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "The opportunity isn't necessarily building the next big hit like Flappy Bird or Clash of Clans.",
+    "speaker": "Ken",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12426,
+    "approx_timestamp_s": 627
+   }
+  },
+  {
+   "lesson": "Build something people want to keep using before optimizing monetization.",
+   "theme": "offer_design",
+   "quote": {
+    "text": "My focus was retention first and building a game that people wanted to keep playing.",
+    "speaker": "Ken",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15658,
+    "approx_timestamp_s": 791
+   }
+  },
+  {
+   "lesson": "A smaller first project can teach the full product cycle, including development, approvals, and shipping.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "Building that game taught me a lot about air assisted development, building a product end-to-end, handling App Store approvals, and what it actually takes to launch a product to the world.",
+    "speaker": "Ken",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5145,
+    "approx_timestamp_s": 259
+   }
+  },
+  {
+   "lesson": "Test prices with actual buyers; Ken's own experiments suggested a more comfortable in-app purchase range and weaker conversion above it.",
+   "theme": "pricing",
+   "quote": {
+    "text": "What I've learned through a lot of monetization experimentation is anything around $4.99 to $9.99. Players will generally be okay to spend.",
+    "speaker": "Ken",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3243,
+    "approx_timestamp_s": 163
+   }
+  },
+  {
+   "lesson": "Set personal decision thresholds before making a major career change; Ken chose an organic revenue target before leaving his job.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "I decided that if my game could reach 10,000 a month organically, I'd leave my job and go all it.",
+    "speaker": "Ken",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7961,
+    "approx_timestamp_s": 402
+   }
+  }
+ ],
+ "evidence_quality": {
+  "rating": "B",
+  "rationale": "Ken describes his own product, acquisition approach, development tools, and revenue figures with specific process details. The figures are self-reported, and the local Whisper transcript contains apparent transcription errors, including unclear user and platform totals.",
+  "promotional_conflict": "No commercial conflict from Ken is stated. The host includes promotions for a free Starter Story database during the video."
+ },
+ "extraction": {
+  "model": "gpt-6-luna",
+  "extracted_at": "2026-10-22T11:08:29",
+  "cost_usd": 0,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 45,
+   "verified": 45,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

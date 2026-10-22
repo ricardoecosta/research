@@ -1,0 +1,1309 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "_mWhcH41Mxw",
+  "title": "Google’s New AI Tool Is Crazy Powerful (Here’s How to Profit)",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=_mWhcH41Mxw",
+  "upload_date": "2025-09-03",
+  "duration_s": 1101,
+  "view_count": 43866,
+  "transcript_provider": "ok",
+  "transcript_chars": 19762,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner demonstrates a proposed AI photo editing service for real estate agents: use Gemini’s Nano Banana to improve listing photos or stage empty rooms, then offer the edits to listing agents. He builds a simple app with Lindy and a lead workflow with Outscraper, Google Sheets, and HighLevel, but shows no paying customer or confirmed revenue. His suggested prices range from $1 per photo to a hypothetical $500 monthly plan; the claimed 96% margin conflicts with the stated per-photo API cost. The demonstrated outreach texts scraped mobile numbers without permission, which would need a different, UK-compliant acquisition approach.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "The Koerner Office host; presents and demonstrates the business idea."
+  }
+ ],
+ "format": "tutorial_howto",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "AI-enhanced real estate listing photos",
+   "one_liner": "Use AI to improve or virtually stage property photos and sell the edits to listing agents.",
+   "category": "b2b_service",
+   "business_model": "Per-photo service, with a proposed recurring monthly plan for unlimited revisions.",
+   "customer": "Real estate agents listing homes for sale.",
+   "problem": "Some listings have poor-quality photos or show empty, unstaged rooms, which the host says can make homes less appealing to buyers.",
+   "offer": "Improve listing photo lighting and appearance, or add furniture and decor to empty rooms using Nano Banana. The host proposes making free sample edits to open a conversation with the listing agent.",
+   "pricing": {
+    "model": "Per photo, with a possible monthly subscription.",
+    "price_points": [
+     {
+      "amount": 1,
+      "currency": "USD",
+      "unit": "per photo",
+      "label": "Proposed introductory price"
+     },
+     {
+      "amount": 500,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "Hypothetical plan for unlimited revisions to unstaged photos"
+     }
+    ],
+    "notes": "These are proposals, not demonstrated sales. The host says the $1 per-photo price is to test willingness to pay before charging more."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "google_business_profile_maps",
+     "details": "The host uses Outscraper to collect Oklahoma City real estate agent contact details from Google Maps, then filters the results for mobile numbers.",
+     "quote": null
+    },
+    {
+     "channel": "cold_sms_dm",
+     "details": "The host proposes sending a free edited listing image by SMS to a scraped mobile number without permission, with a link and an invitation to discuss more edits. This approach is not suitable for UK automation without the required consent.",
+     "quote": {
+      "text": "scrape leads of potential customers and text them pictures that you edited for them on their behalf without their permission to get your foot in the door",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 478,
+      "approx_timestamp_s": 27
+     }
+    },
+    {
+     "channel": "marketplace_platform",
+     "details": "He searches Zillow listings for homes with poor or unstaged photos, identifies the listing agent, and creates a sample edit from a listing photo.",
+     "quote": null
+    }
+   ],
+   "delivery": "The host builds a web app intended to accept up to 30 photos and an editing prompt, then return downloadable edited images. He demonstrates uploading a photo and asking Nano Banana to add furniture. He also suggests making sample edits manually early on. No customer delivery or quality-control process is shown.",
+   "unit_economics_claims": [
+    "The host claims a simple prompt costs about $3.90 to edit one picture.",
+    "For a hypothetical listing with 10 interior photos, he says editing those photos would cost $39.",
+    "He proposes charging $1 per photo, but that price is below the stated $3.90 per-photo cost.",
+    "He claims a 96% profit margin while also saying the cost is about $3.90 per photo; those figures do not reconcile.",
+    "He suggests a hypothetical $500 monthly plan for unlimited revisions, without estimating its usage costs."
+   ],
+   "tools": [
+    "Gemini Nano Banana API",
+    "Lindy",
+    "Google AI Studio",
+    "Zillow",
+    "Redfin",
+    "Realtor.com",
+    "Outscraper",
+    "Google Maps",
+    "Google Sheets",
+    "HighLevel"
+   ],
+   "startup_cost": "No fixed startup cost stated. The host says Google API billing had to be enabled. He claims an edit costs about $3.90 per image for a simple prompt.",
+   "time_to_first_revenue": "not stated; no paying customer is shown.",
+   "automation": {
+    "acquisition": {
+     "score_e": 0,
+     "how": "The demonstrated method scrapes mobile numbers and sends unsolicited marketing texts. Under the stated UK PECR constraint, software cannot legally automate this outreach to individuals and sole traders without consent. The transcript does not demonstrate a compliant acquisition channel."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "A web app can accept uploaded photos and a prompt, but a person would still need to gather the listing images, confirm the requested edits, and check that the result matches the property."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "AI performs the image edits and the app can return downloads. Human review is prudent because the output could change property details or make an image misleading."
+    },
+    "billing": {
+     "score_e": 2,
+     "how": "The transcript proposes per-photo and monthly pricing but does not show billing or payment collection. A subscription or invoice flow could be automated after setup, with exceptions handled by a person."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Routine delivery could be automated, but the proposed revisions and image-specific feedback would likely need human review."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "The service could work for UK estate agents, but the demonstrated unsolicited SMS outreach to scraped mobile numbers would need consent or a different lawful channel under the stated PECR constraint. Virtually staged images also need clear handling so buyers are not misled about the property's actual condition."
+   },
+   "risks": [
+    "The claimed 96% margin conflicts with the stated $3.90 API cost per image and $1 selling price.",
+    "The host acknowledges that virtually staging an actually empty property can be a bait and switch, then dismisses the concern. Misleading listing images could damage trust and create regulatory or complaint risks.",
+    "The demonstrated SMS campaign uses scraped mobile numbers without permission; that approach is not suitable for UK marketing to individuals and sole traders without consent.",
+    "The first app version returned unchanged images because the API billing was not enabled; output quality and actual API use need checking.",
+    "The host places an API key in an app field while acknowledging that it should not be publicly exposed.",
+    "No paying customer, conversion rate, retention, or actual revenue is demonstrated."
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "There are 2 million real estate agents in America and about 70% of them list homes for sale that either have bad pictures or pictures of homes that aren't staged.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 756,
+     "approx_timestamp_s": 43
+    },
+    {
+     "text": "Hey, what if I could charge you a buck per photo to make your home look staged or to make the photos look like they were taken with a DSLR camera?",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 2616,
+     "approx_timestamp_s": 150
+    },
+    {
+     "text": "Now, this is a little manual, but we can automate this later. As much as I love showing videos how to automate everything, it's really not important in the early stages",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 13865,
+     "approx_timestamp_s": 796
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "There are 2 million real estate agents in America.",
+   "metric": "customers",
+   "value": {
+    "amount": 2000000,
+    "currency": null,
+    "unit": "real estate agents",
+    "label": "US market estimate"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "There are 2 million real estate agents in America and about 70% of them list homes for sale that either have bad pictures or pictures of homes that aren't staged.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 756,
+    "approx_timestamp_s": 43
+   }
+  },
+  {
+   "claim": "About 70% of agents list homes with bad pictures or pictures of homes that are not staged.",
+   "metric": "other",
+   "value": {
+    "amount": 70,
+    "currency": null,
+    "unit": "percent",
+    "label": "Share of agents"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "There are 2 million real estate agents in America and about 70% of them list homes for sale that either have bad pictures or pictures of homes that aren't staged.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 756,
+    "approx_timestamp_s": 43
+   }
+  },
+  {
+   "claim": "Staged homes sell for 6 to 10% more.",
+   "metric": "other",
+   "value": {
+    "amount": 6,
+    "amount_max": 10,
+    "currency": null,
+    "unit": "percent more",
+    "label": "Claimed sale-price increase"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Furthermore, homes that are staged when they're listed for sale sell for 6 to 10% more.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1114,
+    "approx_timestamp_s": 64
+   }
+  },
+  {
+   "claim": "Staging can add tens and hundreds of thousands of dollars of value.",
+   "metric": "other",
+   "value": {
+    "amount": null,
+    "currency": "USD",
+    "unit": "additional home value",
+    "label": "Tens and hundreds of thousands; no exact amount stated"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "We're talking about tens and hundreds of thousands of dollars of additional value for staging a home.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1199,
+    "approx_timestamp_s": 68
+   }
+  },
+  {
+   "claim": "A simple prompt costs about $3.90 to edit one picture.",
+   "metric": "cost",
+   "value": {
+    "amount": 3.9,
+    "currency": "USD",
+    "unit": "per picture",
+    "label": "Approximate image-editing cost"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Now, as long as your prompt is not too complex, which mine will not be, it costs about 3.9 to edit one picture.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2319,
+    "approx_timestamp_s": 133
+   }
+  },
+  {
+   "claim": "A hypothetical listing has 30 photos, 10 of them interior photos, and editing those costs $39.",
+   "metric": "cost",
+   "value": {
+    "amount": 39,
+    "currency": "USD",
+    "unit": "per hypothetical listing",
+    "label": "Editing cost for 10 interior photos"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "If a listing has 30 pictures, 10 of them are interior photos, it's going to cost me 39 to edit all of those pictures for the real estate agent.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2427,
+    "approx_timestamp_s": 139
+   }
+  },
+  {
+   "claim": "The proposed charge is $1 per photo.",
+   "metric": "price",
+   "value": {
+    "amount": 1,
+    "currency": "USD",
+    "unit": "per photo",
+    "label": "Proposed price"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Hey, what if I could charge you a buck per photo to make your home look staged or to make the photos look like they were taken with a DSLR camera?",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2616,
+    "approx_timestamp_s": 150
+   }
+  },
+  {
+   "claim": "The host claims a 96% profit margin.",
+   "metric": "margin",
+   "value": {
+    "amount": 96,
+    "currency": null,
+    "unit": "percent",
+    "label": "Claimed profit margin"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "You've got a 96% profit margin cuz you're charging a dollar and you're paying 4.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2803,
+    "approx_timestamp_s": 161
+   }
+  },
+  {
+   "claim": "The host says the cost is 4 while describing the proposed $1 photo price.",
+   "metric": "cost",
+   "value": {
+    "amount": 4,
+    "currency": "USD",
+    "unit": "unclear",
+    "label": "Cost figure stated alongside the margin claim"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "You've got a 96% profit margin cuz you're charging a dollar and you're paying 4.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2803,
+    "approx_timestamp_s": 161
+   }
+  },
+  {
+   "claim": "The host uses $20 as an illustrative amount an agent might pay.",
+   "metric": "price",
+   "value": {
+    "amount": 20,
+    "currency": "USD",
+    "unit": "illustrative amount",
+    "label": "Hypothetical customer payment"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "They're only paying you $20 to increase the likelihood of their home selling faster and or for more money.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2882,
+    "approx_timestamp_s": 165
+   }
+  },
+  {
+   "claim": "The Nano Banana demonstration took 4 seconds to produce an edited picture.",
+   "metric": "other",
+   "value": {
+    "amount": 4,
+    "currency": null,
+    "unit": "seconds",
+    "label": "Image generation time"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I know you didn't see it happen. You're going to have to trust me. It took 4 seconds to spit out this picture.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4292,
+    "approx_timestamp_s": 246
+   }
+  },
+  {
+   "claim": "The requested app feature was uploading up to 30 photos with a prompt.",
+   "metric": "other",
+   "value": {
+    "amount": 30,
+    "currency": null,
+    "unit": "photos per upload",
+    "label": "Requested app capacity"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "use Gemini's Nano Banana API to build a very simple web app where I can upload up to 30 photos plus a prompt to have the pictures edited and then I can download the photos to my computer.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3561,
+    "approx_timestamp_s": 204
+   }
+  },
+  {
+   "claim": "The first app test used two photos.",
+   "metric": "other",
+   "value": {
+    "amount": 2,
+    "currency": null,
+    "unit": "photos",
+    "label": "First app test"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Okay, so we'll try it with two pictures because our app is supposed to do it with up to 30.",
+    "speaker": "Chris Koerner",
+    "match_score": 83.1,
+    "verified": false,
+    "char_offset": 8196,
+    "approx_timestamp_s": 470
+   }
+  },
+  {
+   "claim": "The first app test took about one second per photo and two seconds total, but returned unchanged images.",
+   "metric": "other",
+   "value": {
+    "amount": 2,
+    "currency": null,
+    "unit": "seconds total",
+    "label": "Initial app test time"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Okay, it went really fast. It took about a second per photo. 2 seconds total.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8963,
+    "approx_timestamp_s": 515
+   }
+  },
+  {
+   "claim": "After he connected billing, a later app image edit took about 12 seconds.",
+   "metric": "other",
+   "value": {
+    "amount": 12,
+    "currency": null,
+    "unit": "seconds",
+    "label": "Later app edit time"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Okay, took about 12 seconds. And look what it spit out.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10605,
+    "approx_timestamp_s": 609
+   }
+  },
+  {
+   "claim": "The scraper estimate was 7 to 25 minutes.",
+   "metric": "other",
+   "value": {
+    "amount": 7,
+    "amount_max": 25,
+    "currency": null,
+    "unit": "minutes",
+    "label": "Scrape duration estimate"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "All I care about is the phone number here. Okay. Says it should take 7 to 25 minutes.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6341,
+    "approx_timestamp_s": 364
+   }
+  },
+  {
+   "claim": "The scrape returned 562 Oklahoma City real estate agents with cell phone numbers before duplicate removal.",
+   "metric": "customers",
+   "value": {
+    "amount": 562,
+    "currency": null,
+    "unit": "agent leads",
+    "label": "Scraped records with cell phone numbers"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "We are left with 562 real estate agents in Oklahoma City that have cell phone numbers.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11383,
+    "approx_timestamp_s": 654
+   }
+  },
+  {
+   "claim": "After removing duplicates, 542 records remained.",
+   "metric": "customers",
+   "value": {
+    "amount": 542,
+    "currency": null,
+    "unit": "agent leads",
+    "label": "Records after duplicate removal"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Remove duplicates. Data as header row. Boom. Cool. 542 left. Awesome.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11577,
+    "approx_timestamp_s": 665
+   }
+  },
+  {
+   "claim": "The host says he imported about 450-something leads into HighLevel.",
+   "metric": "customers",
+   "value": {
+    "amount": 450,
+    "currency": null,
+    "unit": "leads",
+    "label": "Approximate import count; speaker says '450 something'"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Remember I uploaded about 450 something. Here they are.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13352,
+    "approx_timestamp_s": 767
+   }
+  },
+  {
+   "claim": "The selected home listing showed a $60,000 price cut.",
+   "metric": "sale_price",
+   "value": {
+    "amount": 60000,
+    "currency": "USD",
+    "unit": "price reduction",
+    "label": "Listing price cut"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "There was a $60,000 price cut, which means this probably isn't selling.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13588,
+    "approx_timestamp_s": 780
+   }
+  },
+  {
+   "claim": "The host says 67% of people who watch his YouTube videos do not subscribe.",
+   "metric": "other",
+   "value": {
+    "amount": 67,
+    "currency": null,
+    "unit": "percent",
+    "label": "Claimed share of viewers who do not subscribe"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "Believe it or not, 67% of the people that watch my YouTube videos don't subscribe to me.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9883,
+    "approx_timestamp_s": 567
+   }
+  },
+  {
+   "claim": "The host says over 90% of viewers think they are subscribed.",
+   "metric": "other",
+   "value": {
+    "amount": 90,
+    "currency": null,
+    "unit": "percent",
+    "label": "More than 90%"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "And over 90% think that they're subscribed to me. So, do me a quick favor and check that you're subscribed to me.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9969,
+    "approx_timestamp_s": 572
+   }
+  },
+  {
+   "claim": "The host proposes a $500 monthly plan for unlimited revisions to unstaged photos.",
+   "metric": "price",
+   "value": {
+    "amount": 500,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "Hypothetical subscription price"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Maybe I sell her a few pictures. Maybe she joins a monthly recurring plan for 500 bucks a month for unlimited revisions to unstaged photos.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16865,
+    "approx_timestamp_s": 969
+   }
+  },
+  {
+   "claim": "The host refers to a planet with 8 billion people.",
+   "metric": "customers",
+   "value": {
+    "amount": 8000000000,
+    "currency": null,
+    "unit": "people",
+    "label": "Global population claim"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "Nothing is too niche. Nothing is too small anymore. We're on a planet with 8 billion people, and we're all connected by the internet.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17883,
+    "approx_timestamp_s": 1027
+   }
+  },
+  {
+   "claim": "The host says a town may have a dozen auto repair shops.",
+   "metric": "other",
+   "value": {
+    "amount": 12,
+    "currency": null,
+    "unit": "auto repair shops",
+    "label": "Rhetorical example"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": null,
+   "quote": {
+    "text": "But just like in your hometown, there's a dozen auto repair shops. There could, should, and will be hundreds, if not thousands of agencies out there one day",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17701,
+    "approx_timestamp_s": 1017
+   }
+  },
+  {
+   "claim": "The host says there could be hundreds or thousands of small agencies doing niche tasks.",
+   "metric": "customers",
+   "value": {
+    "amount": 100,
+    "amount_max": 1000,
+    "currency": null,
+    "unit": "agencies",
+    "label": "Rhetorical scale claim; says hundreds, if not thousands"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": null,
+   "quote": {
+    "text": "There could, should, and will be hundreds, if not thousands of agencies out there one day doing little tasks like these.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17766,
+    "approx_timestamp_s": 1020
+   }
+  },
+  {
+   "claim": "The host says there could be a thousand agencies focused on editing real estate photos.",
+   "metric": "customers",
+   "value": {
+    "amount": 1000,
+    "currency": null,
+    "unit": "agencies",
+    "label": "Hypothetical market capacity"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "There could be a thousand of these agencies that just edits photos for real estate agents, and there'd still be room for everyone.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18013,
+    "approx_timestamp_s": 1035
+   }
+  },
+  {
+   "claim": "The host says Google API billing took three clicks to connect.",
+   "metric": "other",
+   "value": {
+    "amount": 3,
+    "currency": null,
+    "unit": "clicks",
+    "label": "Billing setup"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "It wasn't using my API because my API wasn't ready to use yet. I had to connect billing. Took three clicks. Now everything's working.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10247,
+    "approx_timestamp_s": 588
+   }
+  },
+  {
+   "claim": "TK Owners includes a HighLevel account the host values at $97 per month.",
+   "metric": "price",
+   "value": {
+    "amount": 97,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "Promotional HighLevel account price"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "It's called TK Owners. You can find us at tkowners.com. And it includes a $97 a month highle account.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18429,
+    "approx_timestamp_s": 1058
+   }
+  },
+  {
+   "claim": "The host says TK Owners costs $99 per month.",
+   "metric": "price",
+   "value": {
+    "amount": 99,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "Promotional community membership"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "So for $99 a month to be in TK owners, 97 of that is paid for if you use any of these highle features.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18603,
+    "approx_timestamp_s": 1068
+   }
+  },
+  {
+   "claim": "The host says $97 of the $99 monthly membership is covered if members use the HighLevel features.",
+   "metric": "price",
+   "value": {
+    "amount": 97,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "Promotional claim about included account value"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "So for $99 a month to be in TK owners, 97 of that is paid for if you use any of these highle features.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18603,
+    "approx_timestamp_s": 1068
+   }
+  },
+  {
+   "claim": "The host says the community has a Slack group with over 400 founders and prospective founders.",
+   "metric": "customers",
+   "value": {
+    "amount": 400,
+    "currency": null,
+    "unit": "founders and prospective founders",
+    "label": "More than 400"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "In addition, you get weekly AMAs with me, weekly AMAs with podcast guests that have had a Slack group with over 400 founders and founders to be in it",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18703,
+    "approx_timestamp_s": 1074
+   }
+  },
+  {
+   "claim": "The TK Owners promotion includes weekly AMAs with the host and podcast guests.",
+   "metric": "other",
+   "value": {
+    "amount": 1,
+    "currency": null,
+    "unit": "per week",
+    "label": "Promotional AMA frequency"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "In addition, you get weekly AMAs with me, weekly AMAs with podcast guests that have had a Slack group with over 400 founders and founders to be in it",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18703,
+    "approx_timestamp_s": 1074
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Find listings that make a useful before-and-after sample",
+   "area": "acquisition",
+   "steps": [
+    "Search local property listings for poor-quality or unstaged photos.",
+    "Save a listing photo and use a simple prompt to improve lighting, tidy a room, or add furniture.",
+    "Identify the listing agent and prepare a sample edit for that specific listing."
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Build a narrow photo-editing app before adding extra features",
+   "area": "product",
+   "steps": [
+    "Prompt Lindy to make a simple web app for uploading photos and an editing prompt, then downloading the results.",
+    "Connect the Gemini Nano Banana API and enable billing.",
+    "Test the app on real listing photos and verify that the images actually change before using it with prospects."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "It just appears that it's not actually using the API cuz nothing changed.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9257,
+    "approx_timestamp_s": 531
+   }
+  },
+  {
+   "name": "Clean and import local leads into a CRM",
+   "area": "operations",
+   "steps": [
+    "Scrape local agent contact listings using Outscraper and Google Maps.",
+    "Keep mobile numbers, discard unclassified numbers, remove duplicates, and standardize phone formats in Google Sheets.",
+    "Export a CSV and import it into HighLevel, mapping the name, phone, and address fields.",
+    "Apply a dedicated tag and add the contacts to the relevant pipeline or workflow."
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Use a sample upload to trigger CRM follow-up",
+   "area": "operations",
+   "steps": [
+    "Add a custom field for the edited real estate image to the agent contact record.",
+    "Set a workflow trigger for a change to that field.",
+    "Use the trigger to create an opportunity, send a text with a sample-image link, and move the lead through response and follow-up stages."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "That is also a trigger. When I upload a photo to this real estate save staging section, it will trigger an automation to text that person.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15109,
+    "approx_timestamp_s": 868
+   }
+  },
+  {
+   "name": "Start manually and automate after launch",
+   "area": "mindset",
+   "steps": [
+    "Handle the first listing search and image upload manually.",
+    "Use the manual process to find friction and learn what customers value.",
+    "Automate repetitive steps after the offer is live instead of delaying launch to perfect the system."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Now, this is a little manual, but we can automate this later. As much as I love showing videos how to automate everything, it's really not important in the early stages",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13865,
+    "approx_timestamp_s": 796
+   }
+  },
+  {
+   "name": "Use a low per-photo price to test willingness to pay",
+   "area": "pricing",
+   "steps": [
+    "Offer an initial price of $1 per photo as a proposed test.",
+    "Use a free sample to start the discussion with the listing agent.",
+    "Consider a monthly plan only after confirming that agents will pay for the service."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Hey, what if I could charge you a buck per photo to make your home look staged or to make the photos look like they were taken with a DSLR camera?",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2616,
+    "approx_timestamp_s": 150
+   }
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Google Gemini",
+   "purpose": "AI provider for the image-editing model.",
+   "cost_stated": null
+  },
+  {
+   "name": "Nano Banana",
+   "purpose": "Image-editing model used to improve photos and virtually stage rooms; accessed through an API.",
+   "cost_stated": "About 3.9 per image for a simple prompt; the speaker does not state a currency symbol."
+  },
+  {
+   "name": "Lindy",
+   "purpose": "Vibe-coding tool used to build the photo-editing web app.",
+   "cost_stated": null
+  },
+  {
+   "name": "Google AI Studio",
+   "purpose": "Used to create a Gemini API key.",
+   "cost_stated": null
+  },
+  {
+   "name": "Gemini API",
+   "purpose": "Backend API requested for the photo-editing app.",
+   "cost_stated": "The speaker says billing must be connected and separately claims about 3.9 to edit one picture."
+  },
+  {
+   "name": "Redfin",
+   "purpose": "Named as a source for listing photos.",
+   "cost_stated": null
+  },
+  {
+   "name": "Realtor.com",
+   "purpose": "Named as a source for listing photos.",
+   "cost_stated": null
+  },
+  {
+   "name": "Zillow",
+   "purpose": "Used to find homes and listing photos for sample edits.",
+   "cost_stated": null
+  },
+  {
+   "name": "Outscraper",
+   "purpose": "Used to scrape Google Maps data for real estate agent contact details.",
+   "cost_stated": null
+  },
+  {
+   "name": "Google Maps",
+   "purpose": "Source queried through Outscraper to find real estate agents.",
+   "cost_stated": null
+  },
+  {
+   "name": "Google Sheets",
+   "purpose": "Used to filter, deduplicate, and standardize scraped lead data.",
+   "cost_stated": null
+  },
+  {
+   "name": "HighLevel",
+   "purpose": "CRM used for contact imports, custom fields, SMS workflows, and the sales pipeline.",
+   "cost_stated": "The speaker says a HighLevel account is $97 per month in the TK Owners promotion."
+  },
+  {
+   "name": "HubSpot",
+   "purpose": "CRM named as a more expensive comparison to HighLevel.",
+   "cost_stated": null
+  },
+  {
+   "name": "Trello",
+   "purpose": "Named as an example of a kanban board.",
+   "cost_stated": null
+  },
+  {
+   "name": "Pipedrive",
+   "purpose": "Named as an example of a kanban board and CRM.",
+   "cost_stated": null
+  },
+  {
+   "name": "ChatGPT 5",
+   "purpose": "Asked which real estate website has the easiest API to use.",
+   "cost_stated": null
+  },
+  {
+   "name": "Google Sheets CSV import",
+   "purpose": "Used to export cleaned contact records for CRM import.",
+   "cost_stated": null
+  },
+  {
+   "name": "YouTube",
+   "purpose": "The host's video platform; also referenced in a subscription appeal.",
+   "cost_stated": null
+  },
+  {
+   "name": "Instagram",
+   "purpose": "Mentioned as something someone might turn to instead of working through launch friction.",
+   "cost_stated": null
+  },
+  {
+   "name": "TK Owners",
+   "purpose": "The host's paid business community, promoted near the end of the video.",
+   "cost_stated": "$99 per month, with a claimed $97 per month HighLevel account included if used."
+  },
+  {
+   "name": "Slack",
+   "purpose": "Named as the platform for a community group promoted by the host.",
+   "cost_stated": null
+  },
+  {
+   "name": "tkowners.com",
+   "purpose": "Website for the host's paid TK Owners community.",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "The demonstrated lead-generation workflow scrapes mobile numbers and sends marketing texts without permission. Under the stated UK PECR constraint, software cannot automate unsolicited marketing SMS to individuals or sole traders without consent.",
+   "quote": {
+    "text": "scrape leads of potential customers and text them pictures that you edited for them on their behalf without their permission to get your foot in the door",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 478,
+    "approx_timestamp_s": 27
+   }
+  },
+  {
+   "warning": "The host acknowledges that virtually staging an unstaged property may mislead buyers, then says not to worry about it. Altered listing images should be handled transparently and approved by the agent.",
+   "quote": {
+    "text": "And yes, potential buyers of these homes are going to be looking at pictures that make the home appear staged with furniture and artwork and it is not actually staged in real life.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4607,
+    "approx_timestamp_s": 264
+   }
+  },
+  {
+   "warning": "The first app test did not apply edits because API billing was not enabled. Confirm that the app is using the API and producing real edits before relying on it.",
+   "quote": {
+    "text": "It just appears that it's not actually using the API cuz nothing changed.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9257,
+    "approx_timestamp_s": 531
+   }
+  },
+  {
+   "warning": "The host acknowledges that placing the API key in a public app is unsafe, but proceeds for the video demonstration.",
+   "quote": {
+    "text": "Obviously, this is not long-term scalable. I don't want it out there in the public. This is literally a private password that should never be shared.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7065,
+    "approx_timestamp_s": 405
+   }
+  },
+  {
+   "warning": "The stated unit economics do not support the claimed margin: the stated image cost is about $3.90 while the proposed selling price is $1 per photo; the later 'paying 4' figure is also unclear.",
+   "quote": {
+    "text": "You've got a 96% profit margin cuz you're charging a dollar and you're paying 4.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2803,
+    "approx_timestamp_s": 161
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "A personalized free sample can make a service concrete for a prospect and open a sales conversation.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "And then I'm going to proactively give these pictures for free to the listing agent. That's my foot in the door to get his or her business for all of their listings, both present and future.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2131,
+    "approx_timestamp_s": 122
+   }
+  },
+  {
+   "lesson": "Test whether customers will pay before assuming a proposed service or price has demand; the video does not show a customer accepting the offer.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "But I just want to prove that realtors are willing to pay for this service.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3198,
+    "approx_timestamp_s": 183
+   }
+  },
+  {
+   "lesson": "Work through early friction with a basic manual process, then automate steps once the service is moving.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "You can find a plan B, a workaround, something not as good, not as scalable, but it keeps the momentum going, keeps the progress.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9631,
+    "approx_timestamp_s": 553
+   }
+  },
+  {
+   "lesson": "Do not let automation work delay a launch; the speaker recommends doing some early work manually.",
+   "theme": "automation_ai",
+   "quote": {
+    "text": "Now, this is a little manual, but we can automate this later. As much as I love showing videos how to automate everything, it's really not important in the early stages",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13865,
+    "approx_timestamp_s": 796
+   }
+  },
+  {
+   "lesson": "Check unit economics carefully: the speaker's stated cost, price, and margin do not agree with each other.",
+   "theme": "finance_unit_economics",
+   "quote": {
+    "text": "You've got a 96% profit margin cuz you're charging a dollar and you're paying 4.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2803,
+    "approx_timestamp_s": 161
+   }
+  },
+  {
+   "lesson": "A narrow service can be built around one recurring task for one customer group, but broad claims about market capacity are not evidence of demand.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "There could be a thousand of these agencies that just edits photos for real estate agents, and there'd still be room for everyone.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18013,
+    "approx_timestamp_s": 1035
+   }
+  },
+  {
+   "lesson": "Connect CRM tags, custom fields, and workflow triggers so lead status and follow-up can be tracked in one pipeline.",
+   "theme": "operations",
+   "quote": {
+    "text": "So this tag is not just to keep me organized but to trigger an automation which I'll show you here in just a sec.",
+    "speaker": "Chris Koerner",
+    "match_score": 95.5,
+    "verified": true,
+    "char_offset": 13047,
+    "approx_timestamp_s": 749
+   }
+  },
+  {
+   "lesson": "Keep customer-facing images accurate and clearly handled; the host recognizes the possibility of a bait and switch but dismisses it.",
+   "theme": "legal_risk",
+   "quote": {
+    "text": "And yes, that's a bait and switch. But you know what? It doesn't matter.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4786,
+    "approx_timestamp_s": 275
+   }
+  }
+ ],
+ "evidence_quality": {
+  "rating": "B",
+  "rationale": "The host demonstrates a prototype, lead scraping, and CRM workflow, but does not show a paying customer, revenue, conversion, or retention. Market statistics are not sourced in the transcript, and the stated cost, price, and margin conflict.",
+  "promotional_conflict": "The host promotes TK Owners, a $99-per-month community that includes a HighLevel account, and offers related automation and website services."
+ },
+ "extraction": {
+  "model": "gpt-6-luna",
+  "extracted_at": "2026-10-22T11:05:07",
+  "cost_usd": 0,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 54,
+   "verified": 53,
+   "rate": 0.981
+  },
+  "schema_errors": []
+ }
+}

@@ -1,0 +1,2193 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "_uHy0zY9hgk",
+  "title": "Sell These $3.5K AI Pitch Decks Built in 12 Min (+4 More Ideas)",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=_uHy0zY9hgk",
+  "upload_date": "2025-06-11",
+  "duration_s": 2188,
+  "view_count": 29273,
+  "transcript_provider": "ok",
+  "transcript_chars": 39852,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner and Nick discuss ways to turn AI tools into services, lead magnets, and software, with AI-generated pitch decks as the central example. They brainstorm a gated community for sharing AI use cases, quizzes for AI recommendations and hiring, automated deck redesigns, and AI-generated market reports. Most concepts are early-stage or hypothetical; the video gives more detail on workflows and possible customer acquisition than on proven revenue. A recurring theme is to use AI to synthesize information and produce useful starting points, then have people refine the result.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "The Koerner Office host."
+  },
+  {
+   "name": "Nick",
+   "role": "guest",
+   "description": "Addressed as Nick; the transcript does not establish his surname."
+  }
+ ],
+ "format": "panel_discussion",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "AI-generated pitch decks for newly launched funds",
+   "one_liner": "Find new funds in SEC filings, generate a tailored pitch deck, and offer it to the fund manager.",
+   "category": "ai_automation",
+   "business_model": "One-off pitch deck sales, with AI-assisted production and outbound prospecting.",
+   "customer": "People launching investment funds, including funds buying single-family homes.",
+   "problem": "New funds need a polished deck to explain their investment proposition.",
+   "offer": "Create a pitch deck using fund information and examples of the desired design; the automated outreach concept offers the first five slides before asking the prospect to buy.",
+   "pricing": {
+    "model": "One-off fee per deck.",
+    "price_points": [
+     {
+      "amount": 3500,
+      "currency": "USD",
+      "unit": "per deck",
+      "label": "Price attributed to the pitch deck guy"
+     }
+    ],
+    "notes": "The $3,500 price is reported about another operator, not claimed as the speakers' own price."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "cold_email",
+     "details": "The pitch deck operator reportedly scrapes SEC filings for newly launched funds and emails prospects at the right time with a portfolio. The proposed automation would email a watermarked deck and offer the first five slides. UK automation should target corporate subscribers and verify recipient type and consent requirements.",
+     "quote": {
+      "text": "he will do cold outreach to them in the right time, the right moment, and say, \"Hey, I saw you launched a fund for buying single family homes. Congratulations. I'd love to make a pitch deck for you. Here's my portfolio.\"",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 20648,
+      "approx_timestamp_s": 1170
+     }
+    }
+   ],
+   "delivery": "A person or AI agent gathers fund information and creates a PowerPoint deck. The proposed workflow sends source information and design examples to Manus through its API, then returns a watermarked deck to the prospect. A human would likely need to check accuracy and visual quality before sale.",
+   "unit_economics_claims": [
+    "A pitch deck operator reportedly charges $3,500 per deck."
+   ],
+   "tools": [
+    "SEC filings",
+    "Manus API",
+    "Gumloop",
+    "Lindy",
+    "Zapier",
+    "Apollo"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "SEC filing monitoring and corporate contact research could be automated. Cold email to limited companies can be automated with checks; the target's legal status and message compliance need review."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "An agent could collect public fund details and request missing information, with a human checking the brief."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "An API could create a draft deck from fund data and design examples; a human should review claims, source accuracy, and slide quality."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "A checkout and file-delivery workflow could collect payment and release the finished deck after approval."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Agents could answer routine questions, but revisions and bespoke design requests would need human judgment."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "The service can target UK funds and use UK company filings, but the transcript's prospecting example relies on SEC filings and US funds. Adapt the research source and check UK electronic-marketing rules for each recipient."
+   },
+   "risks": [
+    "Generated decks may contain inaccurate financial or market claims, so a human must verify the content.",
+    "The process depends on identifying a fund at the right launch moment and finding an appropriate contact.",
+    "Automated cold outreach to individuals or sole traders may breach UK PECR; confirm the recipient is a corporate subscriber and handle personal data appropriately.",
+    "The transcript notes uncertainty about how Manus handles data."
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "What does he charge? 3500 bucks. Love it. And they look really good. They're really good.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 20859,
+     "approx_timestamp_s": 1182
+    },
+    {
+     "text": "Mannis has an API. Who's stopping you or anyone from building an agent or an app or anything?",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 20952,
+     "approx_timestamp_s": 1187
+    },
+    {
+     "text": "That could be fully automated as of today.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 385,
+     "approx_timestamp_s": 21
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Gated community for sharing AI use cases",
+   "one_liner": "Let people share an AI use case before browsing and voting on other submissions, then email the most popular ideas.",
+   "category": "other",
+   "business_model": "Potential newsletter and audience business; monetisation beyond email subscriptions is not stated.",
+   "customer": "People who want practical ideas for using AI in their work or personal lives.",
+   "problem": "People find it difficult to decide how to apply AI and which tools to start with.",
+   "offer": "A website where visitors submit an AI use case to unlock other submissions, upvote ideas, and optionally subscribe to a weekly email of the top-voted ideas.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": "The transcript discusses email capture, not a stated price."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "seo_organic_search",
+     "details": "The domain was chosen after looking up the phrase in Google Trends, but a search strategy or organic traffic plan is not stated."
+    },
+    {
+     "channel": "existing_audience",
+     "details": "The idea arose from an existing podcast conversation about how people use AI. A launch or audience promotion plan is not stated."
+    }
+   ],
+   "delivery": "A website accepts a text submission, unlocks the use-case list and voting, and collects email addresses for a weekly newsletter. Replit was building the initial website during the discussion.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Namecheap",
+    "Google Trends",
+    "Replit"
+   ],
+   "startup_cost": "Not stated; the speaker says he bought the domain, but gives no cost.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Search traffic and sharing could bring submissions automatically after launch; no acquisition system is described."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "A form can collect use cases and email addresses, then unlock the site automatically."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Software can display submissions, collect votes, rank ideas, and send a weekly digest, with moderation checks for spam and quality."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "No paid product is specified; paid newsletter billing would need to be added if introduced."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Automated help can cover account and submission questions, while abuse reports and moderation need human review."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "A web community and email newsletter can operate in the UK. Collecting emails requires appropriate privacy and marketing consent practices."
+   },
+   "risks": [
+    "The idea was only minutes old in the discussion and had no validation or revenue evidence.",
+    "Gating all content behind a submission could discourage visitors or lead to low-quality submissions.",
+    "The value depends on steady, useful contributions and moderation."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "I want to build a website where people can merely submit ideas to others of how they are using AI.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 3005,
+     "approx_timestamp_s": 170
+    },
+    {
+     "text": "you can only see everyone else's use cases once you submit your own use case.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 3123,
+     "approx_timestamp_s": 177
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "AI model recommendation quiz",
+   "one_liner": "Use a quiz to recommend which AI model and implementation approach best fits a business owner.",
+   "category": "digital_products",
+   "business_model": "Not stated; the example gates the result behind an email address and could generate leads.",
+   "customer": "Entrepreneurs or business owners trying to choose an AI model for their needs.",
+   "problem": "Users may not know which AI tool fits their goals, skills, or intended use.",
+   "offer": "An online quiz asks about a user's business goals and comfort with technology, then recommends an AI model and implementation approach.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": "The example asks for an email to reveal the quiz score; no paid offer is described."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "existing_audience",
+     "details": "The quiz uses insights from podcast interviews, but the transcript does not state how it was promoted or how many users took it."
+    }
+   ],
+   "delivery": "The creator gathered interview data, asked an LLM to help create a quiz, built it in Lovable, and gated results behind an email address. The LLM generates a result profile and explanation.",
+   "unit_economics_claims": [
+    "The creator says the first version took a couple of hours and that a repeat build would take about an hour."
+   ],
+   "tools": [
+    "ChatGPT",
+    "Lovable",
+    "Claude",
+    "Perplexity",
+    "Grok"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "A quiz can be shared through an existing audience or search traffic, but the transcript gives no tested acquisition process."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "The quiz collects answers and an email address through a form."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "An LLM can score answers and generate a recommendation, with periodic human checks for accuracy."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "No billing is described; payment could be added if the quiz becomes a paid product."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Automated FAQs could handle basic questions, while disputed or confusing recommendations need human review."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "A software recommendation quiz can serve UK businesses. The quiz would need accurate, current information about the models it recommends."
+   },
+   "risks": [
+    "The quiz result is a general recommendation and may not reflect a user's complete needs.",
+    "Model features and products change, so the quiz needs regular review.",
+    "Email gating may reduce completion and requires clear consent for follow-up marketing."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "I went to chatbt and I was like, \"Help me create this quiz based off of all of this data.\"",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 6817,
+     "approx_timestamp_s": 386
+    },
+    {
+     "text": "I went then to lovable and here it is, right? This is the entrepreneurs guide to LLMs.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 6941,
+     "approx_timestamp_s": 393
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "Personality-based job matching and placement",
+   "one_liner": "Match employers and job seekers using quizzes that describe company culture and candidate preferences.",
+   "category": "marketplace_directory",
+   "business_model": "Potential placement fees, job-board services, or employer subscriptions; only a recruiter placement comparison is discussed.",
+   "customer": "Employers and job seekers, especially companies that value culture fit and want compatible applicants.",
+   "problem": "Employers may lose candidates because of poor culture fit even when candidates can be trained for the role.",
+   "offer": "Create a company profile from a culture quiz, assess job seekers with a related quiz, then show employers candidates with similar scores or preferences.",
+   "pricing": {
+    "model": "Potential recruiter-style placement fee; no price for the proposed service is set.",
+    "price_points": [
+     {
+      "amount": 10,
+      "amount_max": 30,
+      "currency": "%",
+      "unit": "of first-year salary",
+      "label": "Recruiter fee range mentioned"
+     }
+    ],
+    "notes": "The speakers discuss recruiter fees as a comparison, not as a validated price for this product."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "outbound_linkedin",
+     "details": "The proposed approach is to contact HR and hiring people on LinkedIn and offer a company culture quiz. Automated unsolicited messages to individuals may be restricted under UK electronic-marketing rules."
+    },
+    {
+     "channel": "cold_email",
+     "details": "The speakers describe collecting candidate emails through quizzes and notifying hiring managers about matches. UK cold email automation should be limited to eligible corporate subscribers and checked for compliance."
+    },
+    {
+     "channel": "existing_audience",
+     "details": "A company or creator could use an existing following to promote a hiring quiz and build a candidate list."
+    }
+   ],
+   "delivery": "Employers and job seekers complete separate quizzes. Software calculates or compares profiles and notifies hiring managers of candidates with matching scores. Human recruiters or hiring managers would still make placement and hiring decisions.",
+   "unit_economics_claims": [
+    "The speakers compare the idea with recruiter fees of 10% to 30% of first-year salary.",
+    "A $150,000 salary and a $10,000 placement fee are used as an example.",
+    "A quiz might take 10 to 20 minutes to complete.",
+    "A creator with 800,000 to 1 million views and 1% completion could gather 8,000 to 10,000 email-address submissions."
+   ],
+   "tools": [
+    "LinkedIn",
+    "Typeform",
+    "ChatGPT"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "The suggested direct LinkedIn outreach targets individual HR staff and job seekers; automated unsolicited messages may not be lawful in the UK. Inbound employer and candidate acquisition could score higher."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Forms can collect employer and candidate preferences and build profiles automatically, with checks for misleading or incomplete answers."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Software can compare quiz results and notify employers; human review is needed to assess suitability and make hiring decisions."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Placement or subscription billing could be automated, but the proposed pricing and terms are not established."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Automated support can handle quiz and profile questions, while disputes, accessibility needs, and hiring concerns require people."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "The model can operate in the UK, but hiring assessments and personal data handling need careful review. The suggested automated outreach to individuals also raises PECR compliance concerns."
+   },
+   "risks": [
+    "Personality quizzes may be biased, easy to game, or weak predictors of job performance.",
+    "Employers could mistake a compatibility score for a reliable hiring assessment.",
+    "Handling candidate data requires clear privacy, retention, and access controls.",
+    "Automated unsolicited LinkedIn messages or emails to individuals may breach UK rules."
+   ],
+   "is_primary": false,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "you could match job seekers and job offerers, employers with each other that's personality based and not necessarily skill or background based",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 10560,
+     "approx_timestamp_s": 598
+    },
+    {
+     "text": "And then on the other side of that equation, you you send a similar quiz that matches it up with job seekers.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 13392,
+     "approx_timestamp_s": 759
+    },
+    {
+     "text": "Hey, your perfect score of a perfect candidate is an 87. Look at these 87s that we just found that just filled out the same form",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 13612,
+     "approx_timestamp_s": 771
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "Company-specific culture quiz for recruiting",
+   "one_liner": "Help a company make a custom hiring quiz that captures its culture and builds a list of potential candidates.",
+   "category": "b2b_service",
+   "business_model": "Not stated; the quiz is described as a company lead magnet and internal recruiting tool.",
+   "customer": "Companies that want to attract and identify people likely to fit their culture.",
+   "problem": "A company may struggle to explain its culture or find candidates who prefer its working style.",
+   "offer": "Create a custom quiz from company data and interview preferences; let candidates take it in exchange for their email and use results to search a candidate list when a role opens.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": "The transcript describes an internal tool and lead magnet, not a paid service price."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "existing_audience",
+     "details": "The speakers suggest that a company or creator could promote its quiz to followers and collect candidate emails."
+    },
+    {
+     "channel": "other",
+     "details": "The quiz itself is proposed as a lead magnet that attracts job seekers; no other tested channel is stated."
+    }
+   ],
+   "delivery": "An LLM uses company information and interview preferences to generate a quiz. Candidates complete it and submit an email to receive results; the employer searches the resulting list when a role opens.",
+   "unit_economics_claims": [
+    "A 20-minute build is given as an example for a quiz promoted by a creator."
+   ],
+   "tools": [
+    "ChatGPT",
+    "Typeform",
+    "LinkedIn"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated; the example is an internal recruiting tool and lead magnet.",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "An employer can promote the quiz through its own audience and hiring pages; direct automated messaging to individuals needs UK compliance review."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Candidate answers and email capture can be handled by a form."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "An LLM can generate a draft quiz and software can score responses, but humans should validate questions and evaluate applicants."
+    },
+    "billing": {
+     "score_e": 2,
+     "how": "No commercial billing is described."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Automated help can answer basic quiz questions, while candidate concerns and hiring decisions need human handling."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Custom recruiting quizzes can be used by UK employers, but candidate data, fairness, accessibility, and employment law need careful handling."
+   },
+   "risks": [
+    "A quiz can create unfair or discriminatory filters if questions or scoring encode unsuitable preferences.",
+    "Candidate email collection needs a clear purpose, privacy notice, and retention policy.",
+    "A large list does not guarantee qualified applicants or a successful hire."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "It's a lead magnet. People start taking it and then they're just they're just building in order to get the quiz results, you've got to put your email in.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 14125,
+     "approx_timestamp_s": 800
+    }
+   ]
+  },
+  {
+   "local_id": "I6",
+   "name": "Automated redesign of uploaded slide decks",
+   "one_liner": "Find public slide decks, redesign them with AI, and offer the improved version back to the original creator.",
+   "category": "ai_automation",
+   "business_model": "One-off sales of redesigned decks.",
+   "customer": "People or organisations that upload decks to SlideShare.",
+   "problem": "Existing presentations may be useful but visually dated or poorly designed.",
+   "offer": "Redesign a public deck and send the creator a preview, then charge if they want to use the improved version.",
+   "pricing": {
+    "model": "One-off deck redesign fee.",
+    "price_points": [
+     {
+      "amount": 20,
+      "currency": "USD",
+      "unit": "per redesigned deck",
+      "label": "Lower example price"
+     },
+     {
+      "amount": 200,
+      "currency": "USD",
+      "unit": "per redesigned deck",
+      "label": "Higher example price"
+     }
+    ],
+    "notes": "The speakers give these as possible prices, not proven sales."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "marketplace_platform",
+     "details": "Monitor decks uploaded to SlideShare, redesign them, then contact the original creator with a preview. Check platform terms and rights before reuse or outreach."
+    }
+   ],
+   "delivery": "An automated workflow detects a deck, uses AI to redesign it, and sends a preview to the original creator. Human review should check the deck and ensure the source material can be reused.",
+   "unit_economics_claims": [
+    "The speakers suggest charging $20 or $200 for a redesigned deck."
+   ],
+   "tools": [
+    "SlideShare",
+    "LinkedIn",
+    "Manus"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Finding public uploads can be automated, but unsolicited messages to individual creators may not be allowed in the UK without consent."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "A creator could approve the source deck and choose a style through a form, but the proposal does not define this flow."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "AI can create a redesign draft; a human should check the content, rights, and final design."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Checkout and digital file delivery could be automated after a creator approves the preview."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Agents can answer basic purchase questions, but custom revisions and rights concerns need human attention."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "The service could target UK creators, but platform terms, copyright, and UK marketing rules affect automated discovery and outreach."
+   },
+   "risks": [
+    "Redesigning a deck without permission could infringe copyright or violate platform terms.",
+    "Automated unsolicited direct messages to individual creators raise UK PECR concerns.",
+    "Creators may not value or trust a redesign they did not request."
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "create a permissionless thing that anytime a new slide is uploaded to Slides Share, you revamp it, you redesign it",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 24067,
+     "approx_timestamp_s": 1364
+    },
+    {
+     "text": "If you do, buy it for 20 bucks, 200 bucks, whatever, and automate it and automate it.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 24361,
+     "approx_timestamp_s": 1380
+    }
+   ]
+  },
+  {
+   "local_id": "I7",
+   "name": "Pitch deck add-on for teacher lesson plans",
+   "one_liner": "Offer teachers a presentation deck alongside an existing lesson plan.",
+   "category": "digital_products",
+   "business_model": "Potential add-on sale or conversion service for existing lesson-plan products.",
+   "customer": "Teachers who sell lesson plans on Teachers Pay Teachers.",
+   "problem": "A lesson plan may be more useful or appealing when accompanied by presentation slides.",
+   "offer": "Create a pitch deck or slide presentation to accompany a lesson plan and offer it as a paid add-on or bundle.",
+   "pricing": {
+    "model": "Possible one-off conversion fee; the quoted $20 or $200 range is suggested for deck redesign generally.",
+    "price_points": [],
+    "notes": "No specific price for teacher lesson-plan decks is stated."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "marketplace_platform",
+     "details": "Identify teachers selling lesson plans on Teachers Pay Teachers and propose adding a deck. The transcript suggests mass direct messages; unsolicited marketing to individual teachers may be restricted under UK PECR."
+    }
+   ],
+   "delivery": "An AI tool turns a lesson plan or outline into a presentation. A person should check the lesson content and suitability before it is sold.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Teachers Pay Teachers",
+    "Manus"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Marketplace discovery could be automated, but the proposed mass direct messaging targets individual sellers and is unsuitable for automated UK marketing without consent."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "A seller could submit a lesson plan and specify a presentation style through a form."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "AI can draft slides from a plan, but a teacher should check accuracy, age suitability, and teaching quality."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "A digital marketplace can collect payment and deliver a file automatically if sellers and buyers agree to the arrangement."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Automated support can cover file access; content corrections and marketplace disputes need human review."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "The digital service could be adapted for UK teachers, though the named marketplace and its audience are US-oriented and curriculum content must be localised."
+   },
+   "risks": [
+    "The named marketplace may have rules against unsolicited seller contact or derivative products.",
+    "Lesson content must be accurate, age-appropriate, and aligned with the relevant curriculum.",
+    "Automated direct messages to individual teachers may breach UK marketing rules."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "why don't you sell a pitch deck alongside the lesson plan? Like a lesson plan is great, but you'll probably sell even more if you have a pitch deck version.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 24781,
+     "approx_timestamp_s": 1404
+    }
+   ]
+  },
+  {
+   "local_id": "I8",
+   "name": "AI presentations for church lessons",
+   "one_liner": "Turn a church lesson outline into a presentation for use during a service or class.",
+   "category": "digital_products",
+   "business_model": "Not stated; could be a one-off presentation service or digital tool.",
+   "customer": "People preparing church lessons or Sunday teaching.",
+   "problem": "Preparing visual materials from a lesson outline takes time or is not part of the usual process.",
+   "offer": "Upload an outline and generate a PowerPoint presentation from it.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "A user supplies an outline or notes, and an AI system generates slides. A person should review the religious content and presentation before use.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Manus"
+   ],
+   "startup_cost": "Not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "No acquisition process is stated; a searchable self-serve tool could automate inbound discovery."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "A user could upload an outline and select a style through a form."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "AI can create a draft deck, but a person should check doctrine, context, and accuracy."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "No payment model is described."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Automated support could handle file issues; content concerns need human attention."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Churches and lesson groups exist in the UK; content and terminology can be adapted to the customer's denomination and context."
+   },
+   "risks": [
+    "Generated religious material may misrepresent the source outline or denomination.",
+    "The transcript does not establish demand, pricing, or a route to customers."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "We could just easily upload an outline and be like, \"Hey, create a PowerPoint presentation based off of this.\"",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 25178,
+     "approx_timestamp_s": 1427
+    }
+   ]
+  },
+  {
+   "local_id": "I9",
+   "name": "AI-generated market research reports for decision makers",
+   "one_liner": "Use an AI research tool to assemble sourced market information into reports that help business decision makers.",
+   "category": "b2b_service",
+   "business_model": "Potential research service or consulting support for decision makers; no price is set.",
+   "customer": "Business owners, consultants, and decision makers who need market information to make choices.",
+   "problem": "Researching market size, competitors, pricing, downloads, revenue, and customer trends takes time.",
+   "offer": "Generate a researched report with charts, summaries, and downloadable files using an AI research platform.",
+   "pricing": {
+    "model": "Not stated.",
+    "price_points": [],
+    "notes": "A $2,000 report is discussed as an IBISWorld comparison, not as a price for this proposed service."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "The speakers suggest a business built around serving decision makers with research. A concrete customer acquisition channel is not stated."
+    }
+   ],
+   "delivery": "Perplexity Labs can research a prompt and present information through text, charts, PDFs, or CSV files with sources. A human should validate the data and conclusions before clients rely on them.",
+   "unit_economics_claims": [
+    "The speakers say a Perplexity plan costs $20 per month.",
+    "They cite IBISWorld charging $2,000 for reports as a comparison.",
+    "A keto-app market research task is said to return results in 11 minutes and include 37 sources."
+   ],
+   "tools": [
+    "Perplexity Labs",
+    "Perplexity",
+    "ChatGPT",
+    "IBISWorld"
+   ],
+   "startup_cost": "The speakers state a Perplexity plan costs $20 per month; other startup costs are not stated.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "No proven acquisition method is described. Inbound content and a research portfolio could automate discovery, while selling to larger businesses would need human relationship work."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "A form could collect a research brief, though a human should clarify scope and verify that the question is answerable."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "The platform can assemble research and visual outputs; human checks are needed for source quality, data accuracy, and interpretation."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "A fixed report fee could be collected through checkout, but the transcript does not describe payment operations."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Agents can explain report contents, but questions about sources and business implications need human review."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Market research is applicable to UK businesses, but the examples focus on US data and may need UK sources, currency, and market-specific validation."
+   },
+   "risks": [
+    "AI-generated research may contain inaccurate, stale, or weakly supported data.",
+    "Charts can imply correlations that do not establish causation.",
+    "Clients may rely on unsupported claims when making consequential decisions.",
+    "The video does not show a paid customer or demonstrated willingness to pay for these reports."
+   ],
+   "is_primary": false,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "So to me, it would be a business built around servicing decision makers, people who who have high leverage positions that are making decisions all day.",
+     "speaker": "Nick",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 35347,
+     "approx_timestamp_s": 2003
+    },
+    {
+     "text": "This would be like if if I got in this ideation frenzy late at night, as I often do, and wanted to I really wanted to launch this keto app, I would stay up all night like just doing this research that it did for me in 11 minutes.",
+     "speaker": "Nick",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 35811,
+     "approx_timestamp_s": 2029
+    }
+   ]
+  },
+  {
+   "local_id": "I10",
+   "name": "Industry research report as an agency lead magnet",
+   "one_liner": "Give a target business a tailored industry report to start a sales conversation for an agency or consultancy.",
+   "category": "agency",
+   "business_model": "Agency or consulting services acquired through a free research report; paid service pricing is not stated.",
+   "customer": "Digital agencies, consultants, and B2B suppliers seeking business customers.",
+   "problem": "Agencies need a useful reason to start a conversation with prospects and build trust.",
+   "offer": "Generate a specific market report for a prospect's industry and send it as a lead magnet, then follow up about the agency's service.",
+   "pricing": {
+    "model": "Not stated; the report is positioned as a free lead magnet for a separate agency service.",
+    "price_points": [],
+    "notes": "The $2,000 report price mentioned is an external comparison, not a stated agency price."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "cold_email",
+     "details": "The proposed tactic is to send a tailored report to target companies and follow up later. UK cold email should be restricted to eligible corporate subscribers and compliant contact data."
+    }
+   ],
+   "delivery": "An agency uses Perplexity Labs to build a report from available market data, sends it as a useful prospecting asset, tracks whether the recipient opens it, and follows up. A person should validate claims before sending.",
+   "unit_economics_claims": [
+    "The speakers compare such a report with reports that IBISWorld reportedly sells for $2,000."
+   ],
+   "tools": [
+    "Perplexity Labs",
+    "IBISWorld",
+    "automationlabs.com"
+   ],
+   "startup_cost": "Not stated; the speakers mention a $20 per month Perplexity plan elsewhere.",
+   "time_to_first_revenue": "Not stated.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Research and contact-list preparation can be automated, but the suggested email follow-up must meet UK rules and should be reviewed for relevance."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "No paying client onboarding is described; an agency would need a human to scope any follow-on work."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "AI can draft the report and charts, but a human should check the sources, conclusions, and prospect-specific details."
+    },
+    "billing": {
+     "score_e": 2,
+     "how": "The lead magnet is free; billing for later agency work is not described."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "An agent could handle simple follow-ups, but interpreting the report and discussing consulting work would need human involvement."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "A UK agency can use tailored research to open B2B conversations, but must use appropriate UK data sources and comply with PECR when emailing prospects."
+   },
+   "risks": [
+    "The report may be inaccurate or irrelevant, damaging trust instead of building it.",
+    "Open tracking and follow-up must be handled consistently with privacy and marketing rules.",
+    "This is a lead-generation tactic, not evidence that prospects will buy the agency's services."
+   ],
+   "is_primary": false,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "You generate that report one time and you email it to them as a lead magnet to get your foot in the door.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 36519,
+     "approx_timestamp_s": 2069
+    },
+    {
+     "text": "You're just like giving value to them right away. And who are they going to call the next time?",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 38188,
+     "approx_timestamp_s": 2164
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "A pitch deck operator charges $3,500 for a deck.",
+   "metric": "price",
+   "value": {
+    "amount": 3500,
+    "currency": "USD",
+    "unit": "per deck",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Chris Koerner, describing another operator",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "What does he charge? 3500 bucks. Love it. And they look really good. They're really good.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20859,
+    "approx_timestamp_s": 1182
+   }
+  },
+  {
+   "claim": "The sample deck generation took 12 minutes and 31 seconds.",
+   "metric": "hours",
+   "value": {
+    "amount": 12.5167,
+    "currency": null,
+    "unit": "minutes",
+    "label": "12 minutes 31 seconds"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "It worked for 12 minutes and 31 seconds and it spit out this 12 slides.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18750,
+    "approx_timestamp_s": 1062
+   }
+  },
+  {
+   "claim": "The generated presentation contained 12 slides.",
+   "metric": "other",
+   "value": {
+    "amount": 12,
+    "currency": null,
+    "unit": "slides",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "It worked for 12 minutes and 31 seconds and it spit out this 12 slides.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18750,
+    "approx_timestamp_s": 1062
+   }
+  },
+  {
+   "claim": "The gated AI-use website idea was about 10 minutes old when described.",
+   "metric": "hours",
+   "value": {
+    "amount": 10,
+    "currency": null,
+    "unit": "minutes since idea/domain purchase",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "I have one that's literally 10 minutes old. Like, I just bought the domain name 10 minutes ago",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 697,
+    "approx_timestamp_s": 39
+   }
+  },
+  {
+   "claim": "The first AI recommendation quiz took a couple of hours to create.",
+   "metric": "hours",
+   "value": {
+    "amount": null,
+    "currency": null,
+    "unit": "a couple of hours",
+    "label": "First build"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "So, this was the first time I did it. So, it took a couple of hours.",
+    "speaker": "Chris Koerner",
+    "match_score": 95.3,
+    "verified": true,
+    "char_offset": 9303,
+    "approx_timestamp_s": 527
+   }
+  },
+  {
+   "claim": "A repeat build of the quiz would take about an hour.",
+   "metric": "hours",
+   "value": {
+    "amount": 1,
+    "currency": null,
+    "unit": "hour",
+    "label": "Estimated repeat build time"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "If I were to do it now, probably an hour because what you have to do is I have to take all the data",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9368,
+    "approx_timestamp_s": 530
+   }
+  },
+  {
+   "claim": "Recruiters may charge 10% to 30% of first-year salary.",
+   "metric": "price",
+   "value": {
+    "amount": 10,
+    "amount_max": 30,
+    "currency": "%",
+    "unit": "of first-year salary",
+    "label": "Recruiter placement fee range"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "Dude, dude, what are you going to pay a recruiter to place someone? Like we're talking 30% of first year salary, 10 to 30%.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12349,
+    "approx_timestamp_s": 699
+   }
+  },
+  {
+   "claim": "The example candidate salary is $150,000 per year.",
+   "metric": "other",
+   "value": {
+    "amount": 150000,
+    "currency": "USD",
+    "unit": "per year",
+    "label": "Example salary"
+   },
+   "period": "per year",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "$150,000 a year salary, $10,000 to place someone. Let's say you set up an automation to message everyone on LinkedIn",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12524,
+    "approx_timestamp_s": 709
+   }
+  },
+  {
+   "claim": "The example placement fee is $10,000.",
+   "metric": "price",
+   "value": {
+    "amount": 10000,
+    "currency": "USD",
+    "unit": "per placement",
+    "label": "Example placement fee"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "$150,000 a year salary, $10,000 to place someone. Let's say you set up an automation to message everyone on LinkedIn",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12524,
+    "approx_timestamp_s": 709
+   }
+  },
+  {
+   "claim": "An employer quiz might take 10 to 20 minutes.",
+   "metric": "hours",
+   "value": {
+    "amount": 10,
+    "amount_max": 20,
+    "currency": null,
+    "unit": "minutes",
+    "label": "Estimated quiz completion time"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "decision maker they fill this and it might take 10 20 minutes it's like a type form you don't know when it ends",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13035,
+    "approx_timestamp_s": 738
+   }
+  },
+  {
+   "claim": "The matching example uses a score from 1 to 100.",
+   "metric": "other",
+   "value": {
+    "amount": 100,
+    "currency": null,
+    "unit": "score scale maximum",
+    "label": "Scale starts at 1"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "And then you can send notifications to the hiring managers of saying, \"Hey, hey, let's say it's a scale of 1 to 100.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13500,
+    "approx_timestamp_s": 765
+   }
+  },
+  {
+   "claim": "The illustrative ideal candidate score is 87.",
+   "metric": "other",
+   "value": {
+    "amount": 87,
+    "currency": null,
+    "unit": "quiz score",
+    "label": "Example score"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "Hey, your perfect score of a perfect candidate is an 87. Look at these 87s that we just found that just filled out the same form",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13612,
+    "approx_timestamp_s": 771
+   }
+  },
+  {
+   "claim": "The example matching range is 85 to 88.",
+   "metric": "other",
+   "value": {
+    "amount": 85,
+    "amount_max": 88,
+    "currency": null,
+    "unit": "quiz score range",
+    "label": "Example candidate scores"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "Look at these 85 to 88s that we just found that just filled out the same form, right?",
+    "speaker": "Chris Koerner",
+    "match_score": 91.6,
+    "verified": true,
+    "char_offset": 13662,
+    "approx_timestamp_s": 774
+   }
+  },
+  {
+   "claim": "The speaker says he has 3 million followers across platforms.",
+   "metric": "customers",
+   "value": {
+    "amount": 3000000,
+    "currency": null,
+    "unit": "followers",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Nick",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "How many followers do you have across platforms now? 3 million. 3 million.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14648,
+    "approx_timestamp_s": 830
+   }
+  },
+  {
+   "claim": "The speaker says his videos receive 800,000 views.",
+   "metric": "traffic",
+   "value": {
+    "amount": 800000,
+    "currency": null,
+    "unit": "views per video",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Nick",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "For every video that you post, how many views do you get? 800,000. Okay, 800,000 to to a million",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14942,
+    "approx_timestamp_s": 846
+   }
+  },
+  {
+   "claim": "The example assumes 1% of viewers complete the survey.",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 1,
+    "currency": "%",
+    "unit": "of views",
+    "label": "Hypothetical survey completion"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "and let's just say 1% of those people. So 8,000 people to 10,000 people actually go and fill out the survey.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15035,
+    "approx_timestamp_s": 852
+   }
+  },
+  {
+   "claim": "At the assumed reach and completion rate, the example predicts 8,000 to 10,000 survey submissions.",
+   "metric": "customers",
+   "value": {
+    "amount": 8000,
+    "amount_max": 10000,
+    "currency": null,
+    "unit": "survey submissions",
+    "label": "Hypothetical"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "and let's just say 1% of those people. So 8,000 people to 10,000 people actually go and fill out the survey.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15035,
+    "approx_timestamp_s": 852
+   }
+  },
+  {
+   "claim": "SlideShare receives either five or ten million visits per month.",
+   "metric": "traffic",
+   "value": {
+    "amount": 5000000,
+    "amount_max": 10000000,
+    "currency": null,
+    "unit": "visits per month",
+    "label": "Speaker is uncertain between the two figures"
+   },
+   "period": "per month",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "They get it's either five or 10 million visits a month. What the freak? It's just a website for uploading your slides",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23287,
+    "approx_timestamp_s": 1319
+   }
+  },
+  {
+   "claim": "The cited Netflix presentation has 125 slides.",
+   "metric": "other",
+   "value": {
+    "amount": 125,
+    "currency": null,
+    "unit": "slides",
+    "label": "Netflix culture presentation"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "you can see like Netflix's famous 125 slide presentation on culture there.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23485,
+    "approx_timestamp_s": 1331
+   }
+  },
+  {
+   "claim": "SlideShare sold to LinkedIn in 2012 for $112 million.",
+   "metric": "sale_price",
+   "value": {
+    "amount": 112000000,
+    "currency": "USD",
+    "unit": "one-off sale",
+    "label": "Reported sale price"
+   },
+   "period": "2012",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "This company sold to LinkedIn in 2012 for 112 million and then they sold from LinkedIn to Scribed",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23823,
+    "approx_timestamp_s": 1350
+   }
+  },
+  {
+   "claim": "A deck redesign might be sold for $20.",
+   "metric": "price",
+   "value": {
+    "amount": 20,
+    "currency": "USD",
+    "unit": "per deck",
+    "label": "Example price"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "If you do, buy it for 20 bucks, 200 bucks, whatever, and automate it and automate it.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24361,
+    "approx_timestamp_s": 1380
+   }
+  },
+  {
+   "claim": "A deck redesign might be sold for $200.",
+   "metric": "price",
+   "value": {
+    "amount": 200,
+    "currency": "USD",
+    "unit": "per deck",
+    "label": "Example price"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "If you do, buy it for 20 bucks, 200 bucks, whatever, and automate it and automate it.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24361,
+    "approx_timestamp_s": 1380
+   }
+  },
+  {
+   "claim": "Perplexity's plan costs $20 per month.",
+   "metric": "cost",
+   "value": {
+    "amount": 20,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "Perplexity plan"
+   },
+   "period": "per month",
+   "claimant": "Nick",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I9",
+   "quote": {
+    "text": "You do have to have the $20 a month Perplexity plan, but at first I was like, \"Oh, this is just deep research.\"",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 31898,
+    "approx_timestamp_s": 1808
+   }
+  },
+  {
+   "claim": "IBISWorld is said to charge $2,000 for reports.",
+   "metric": "price",
+   "value": {
+    "amount": 2000,
+    "currency": "USD",
+    "unit": "per report",
+    "label": "Reported IBISWorld report price"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I10",
+   "quote": {
+    "text": "We talked about this before, IBIS World, where I work, they're charging $2,000 reports.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 37235,
+    "approx_timestamp_s": 2110
+   }
+  },
+  {
+   "claim": "The example market research task returned 37 sources.",
+   "metric": "other",
+   "value": {
+    "amount": 37,
+    "currency": null,
+    "unit": "sources",
+    "label": "Sources in report"
+   },
+   "period": null,
+   "claimant": "Nick",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I9",
+   "quote": {
+    "text": "Like, and it has 37 different sources for this data. Like, this is crazy.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 35741,
+    "approx_timestamp_s": 2025
+   }
+  },
+  {
+   "claim": "The example research task took 11 minutes.",
+   "metric": "hours",
+   "value": {
+    "amount": 11,
+    "currency": null,
+    "unit": "minutes",
+    "label": "Research task time"
+   },
+   "period": null,
+   "claimant": "Nick",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I9",
+   "quote": {
+    "text": "I would stay up all night like just doing this research that it did for me in 11 minutes.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 35948,
+    "approx_timestamp_s": 2037
+   }
+  },
+  {
+   "claim": "The host promotes one newsletter email per week.",
+   "metric": "other",
+   "value": {
+    "amount": 1,
+    "currency": null,
+    "unit": "email per week",
+    "label": "Newsletter frequency"
+   },
+   "period": "per week",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "Go there to subscribe for free to my newsletter. It's one email a week. Very tactical.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17116,
+    "approx_timestamp_s": 970
+   }
+  },
+  {
+   "claim": "The host promotes three podcast episodes per week.",
+   "metric": "other",
+   "value": {
+    "amount": 3,
+    "currency": null,
+    "unit": "episodes per week",
+    "label": "Podcast frequency"
+   },
+   "period": "per week",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "And then go to my audio podcast. Three episodes a week. Stuff like this.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17200,
+    "approx_timestamp_s": 974
+   }
+  },
+  {
+   "claim": "The quiz was described as something the creator could build in 20 minutes.",
+   "metric": "hours",
+   "value": {
+    "amount": 20,
+    "currency": null,
+    "unit": "minutes",
+    "label": "Example build time"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "Let's say that you decided next week that you're like, \"Hey guys, I built this cool quiz with AI. It only took me 20 minutes.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14720,
+    "approx_timestamp_s": 834
+   }
+  },
+  {
+   "claim": "The prompt-generation method asks for five examples.",
+   "metric": "other",
+   "value": {
+    "amount": 5,
+    "currency": null,
+    "unit": "examples",
+    "label": "Prompt context"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "and the role might look like book author, software developers, customer support, whatever. And then he pastes in five examples of how I want my prompt to work.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 26926,
+    "approx_timestamp_s": 1526
+   }
+  },
+  {
+   "claim": "The described prompt workflow asks for three improved alternative prompts.",
+   "metric": "other",
+   "value": {
+    "amount": 3,
+    "currency": null,
+    "unit": "alternative prompts",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "and then he tells it generate three improved alternative prompts based on this based on the evaluation of the prompt",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 29762,
+    "approx_timestamp_s": 1686
+   }
+  },
+  {
+   "claim": "The speaker calls the basic prompt approach level one and the more involved approach level seven.",
+   "metric": "other",
+   "value": {
+    "amount": 7,
+    "currency": null,
+    "unit": "level on an informal scale",
+    "label": "The comparison starts at level one"
+   },
+   "period": null,
+   "claimant": "Nick",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "That's like level one. And this is like level seven of that.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 30902,
+    "approx_timestamp_s": 1751
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Find pitch deck prospects from new fund filings",
+   "area": "acquisition",
+   "steps": [
+    "Monitor filings and announcements for newly launched funds.",
+    "Prioritise funds whose launch suggests an immediate need for investor-facing material.",
+    "Prepare a relevant sample deck or portfolio and contact the prospect with a tailored message.",
+    "For an automated version, generate a watermarked preview and offer only the first five slides before purchase.",
+    "Check that the recipient is an eligible corporate contact before sending automated marketing in the UK."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "he goes and he scrapes like the filings, SEC filings, when people launch a new fund or anything, you know, people that are about to need a really nice pitch deck.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20486,
+    "approx_timestamp_s": 1161
+   }
+  },
+  {
+   "name": "Prototype the AI-use community before adding monetisation",
+   "area": "product",
+   "steps": [
+    "Use a clear phrase as the domain and check its search interest.",
+    "Build a simple submission box as the first screen.",
+    "Require a submission before visitors can browse or vote on use cases.",
+    "Rank submissions by votes and offer a weekly email with the top five.",
+    "Validate whether people submit useful examples and return before adding paid features."
+   ],
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "you have to give to the system before you get back from the system. You got to give. Did you give?",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3293,
+    "approx_timestamp_s": 186
+   }
+  },
+  {
+   "name": "Build a recommendation quiz from interview data",
+   "area": "product",
+   "steps": [
+    "Collect real answers from people about how they use AI.",
+    "Ask an LLM to turn that material into a quiz with questions and recommendation logic.",
+    "Build the quiz in a no-code site builder.",
+    "Gate the result behind an email form and explain why the recommended model fits.",
+    "Check the recommendations and update them as model products change."
+   ],
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "I interviewed a bunch of people for my podcast and I was just like trying to figure out what what do they do with AI.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6593,
+    "approx_timestamp_s": 373
+   }
+  },
+  {
+   "name": "Use job-specific preference questions instead of obvious self-ratings",
+   "area": "hiring",
+   "steps": [
+    "Ask about real situations that reveal preferences, such as an unplanned trip versus a fully scheduled one.",
+    "Avoid questions like whether the candidate considers themselves a team player, because candidates can guess the desired answer.",
+    "Use quiz results as one source of context, not as an automatic hiring decision."
+   ],
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "It's not going to be like, \"How would you rate yourself as a team player?\" F because everybody's going to answer that question the way that they think the employer wants to hear it.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16838,
+    "approx_timestamp_s": 954
+   }
+  },
+  {
+   "name": "Use company-specific quizzes to build a candidate pool",
+   "area": "acquisition",
+   "steps": [
+    "Use company information and interview questions to define the working preferences the company values.",
+    "Create a quiz that tests realistic preferences rather than asking candidates to rate themselves.",
+    "Offer the quiz as a lead magnet and explain the email collection clearly.",
+    "When a role opens, search the consented candidate list for likely matches."
+   ],
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "So let's think of a company that has a really it's like they could white label it from us, right? Like they would use it internally.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14479,
+    "approx_timestamp_s": 820
+   }
+  },
+  {
+   "name": "Offer a redesigned deck as a preview",
+   "area": "sales",
+   "steps": [
+    "Find a public deck that could benefit from a redesign.",
+    "Check ownership and platform terms before using the content.",
+    "Create a preview that makes the proposed improvement clear.",
+    "Ask the creator to buy the finished redesign if they want to use it."
+   ],
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "So instead of making one from scratch for the SEC filings, you're just redesigning them, sending them back to the original creator and saying, \"Hey, you may like this better, you may not.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24180,
+    "approx_timestamp_s": 1370
+   }
+  },
+  {
+   "name": "Add presentation slides to lesson plans",
+   "area": "product",
+   "steps": [
+    "Find lesson-plan products that currently lack a presentation deck.",
+    "Create a matching deck from the outline or lesson material.",
+    "Offer it as a bundle or add-on through a permitted marketplace workflow.",
+    "Check curriculum and age suitability before delivery."
+   ],
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "Hey, why don't you sell a pitch deck alongside the lesson plan? Like a lesson plan is great, but you'll probably sell even more if you have a pitch deck version.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24777,
+    "approx_timestamp_s": 1404
+   }
+  },
+  {
+   "name": "Use examples to improve LLM prompts",
+   "area": "operations",
+   "steps": [
+    "Give the LLM the role and audience for the task.",
+    "Provide examples of outputs that match the desired result.",
+    "Ask the LLM to reverse-engineer a prompt that could produce those examples.",
+    "Ask for an evaluation guide and alternative prompts, then test the best option against real outputs."
+   ],
+   "idea_local_id": null,
+   "quote": {
+    "text": "Generate a prompt that could have generated the examples outputs and include a better set of examples.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 27456,
+    "approx_timestamp_s": 1556
+   }
+  },
+  {
+   "name": "Use a sourced research report as a B2B opening offer",
+   "area": "acquisition",
+   "steps": [
+    "Choose a narrowly defined prospect type and research the market information that matters to it.",
+    "Generate a report with sources and useful charts.",
+    "Review the report for accuracy before sending it to a prospect.",
+    "Use a compliant B2B email to share the report as a free lead magnet.",
+    "Follow up with a relevant question about the prospect's needs."
+   ],
+   "idea_local_id": "I10",
+   "quote": {
+    "text": "Thought you might like this for your market. Hope you enjoy. Let me know if you have any questions.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 38091,
+    "approx_timestamp_s": 2159
+   }
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Twitter",
+   "purpose": "Source where the pitch deck operator was found.",
+   "cost_stated": null
+  },
+  {
+   "name": "SEC filings",
+   "purpose": "Identify new funds that may need pitch decks.",
+   "cost_stated": null
+  },
+  {
+   "name": "Manus",
+   "purpose": "Generate pitch decks and presentations; an API is proposed for automating deck creation.",
+   "cost_stated": null
+  },
+  {
+   "name": "Gumloop",
+   "purpose": "Example automation platform for connecting filing research and deck generation.",
+   "cost_stated": null
+  },
+  {
+   "name": "Lindy",
+   "purpose": "Example automation platform for connecting filing research and deck generation.",
+   "cost_stated": null
+  },
+  {
+   "name": "Zapier",
+   "purpose": "Example automation platform for connecting filing research and deck generation.",
+   "cost_stated": null
+  },
+  {
+   "name": "Apollo",
+   "purpose": "Find contact information for fund prospects.",
+   "cost_stated": null
+  },
+  {
+   "name": "Namecheap",
+   "purpose": "Domain registrar used to check and buy the AI-use website domain.",
+   "cost_stated": null
+  },
+  {
+   "name": "Google Trends",
+   "purpose": "Check interest in the phrase used for the AI-use website.",
+   "cost_stated": null
+  },
+  {
+   "name": "Replit",
+   "purpose": "Build the AI-use website.",
+   "cost_stated": null
+  },
+  {
+   "name": "ChatGPT",
+   "purpose": "Create quiz questions, prompts, and other AI outputs.",
+   "cost_stated": null
+  },
+  {
+   "name": "Lovable",
+   "purpose": "Build the AI model recommendation quiz website.",
+   "cost_stated": null
+  },
+  {
+   "name": "Claude",
+   "purpose": "One of the AI models included in the recommendation quiz.",
+   "cost_stated": null
+  },
+  {
+   "name": "Perplexity",
+   "purpose": "One of the AI models in the recommendation quiz and a research tool; the speakers state that a plan is $20 per month.",
+   "cost_stated": "$20 per month"
+  },
+  {
+   "name": "Grok",
+   "purpose": "One of the AI models included in the recommendation quiz.",
+   "cost_stated": null
+  },
+  {
+   "name": "Dribbble",
+   "purpose": "Example of a niche job board for designers.",
+   "cost_stated": null
+  },
+  {
+   "name": "Wellfound",
+   "purpose": "Example of a niche job board for startup roles.",
+   "cost_stated": null
+  },
+  {
+   "name": "Contra",
+   "purpose": "Example of a niche job board or professional platform.",
+   "cost_stated": null
+  },
+  {
+   "name": "AngelList",
+   "purpose": "Referenced as a source of startup and VC-related job listings.",
+   "cost_stated": null
+  },
+  {
+   "name": "LinkedIn",
+   "purpose": "Proposed channel for reaching HR staff and hiring managers; also acquired SlideShare.",
+   "cost_stated": null
+  },
+  {
+   "name": "Typeform",
+   "purpose": "Example of the form experience for an employer culture quiz.",
+   "cost_stated": null
+  },
+  {
+   "name": "SlideShare",
+   "purpose": "Presentation hosting platform and potential source of decks to redesign.",
+   "cost_stated": null
+  },
+  {
+   "name": "Scribd",
+   "purpose": "Company that later acquired SlideShare from LinkedIn, according to the speaker.",
+   "cost_stated": null
+  },
+  {
+   "name": "Teachers Pay Teachers",
+   "purpose": "Marketplace where teachers sell lesson plans; proposed source of potential deck customers.",
+   "cost_stated": null
+  },
+  {
+   "name": "Perplexity Labs",
+   "purpose": "Generate research reports, charts, and downloadable files.",
+   "cost_stated": "Requires a $20 per month Perplexity plan"
+  },
+  {
+   "name": "IBISWorld",
+   "purpose": "Market research provider cited as charging $2,000 for reports; Chris says he works there.",
+   "cost_stated": "$2,000 per report, as stated by the speaker"
+  },
+  {
+   "name": "Reddit",
+   "purpose": "Source of the prompt-engineering post discussed by the speakers.",
+   "cost_stated": null
+  },
+  {
+   "name": "Google",
+   "purpose": "Referenced as an AI provider/model in the quiz discussion.",
+   "cost_stated": null
+  },
+  {
+   "name": "Facebook Ads",
+   "purpose": "Example of a channel the research report could investigate for keto apps.",
+   "cost_stated": null
+  },
+  {
+   "name": "automationlabs.com",
+   "purpose": "Example name used for a digital agency offering automation services.",
+   "cost_stated": null
+  },
+  {
+   "name": "tkopod.com",
+   "purpose": "Host's website for subscribing to his newsletter and podcast.",
+   "cost_stated": null
+  },
+  {
+   "name": "YouTube",
+   "purpose": "The host promotes video content and subscriber sign-ups.",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "The speakers say they do not know how Manus handles user data and describe its ownership as a concern to watch.",
+   "quote": {
+    "text": "It's a Chinese-owned company and so kind of TBD on what's happening with our data here, but we'll see.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20087,
+    "approx_timestamp_s": 1138
+   }
+  },
+  {
+   "warning": "The recruiting quiz idea may overvalue personality or culture-fit scores; the transcript does not establish that these scores predict job performance.",
+   "quote": {
+    "text": "Many times you get into a position, it's like, oh, they just didn't match mesh. They weren't a cultural fit.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10710,
+    "approx_timestamp_s": 607
+   }
+  },
+  {
+   "warning": "The transcript proposes mass direct messages to teachers and automated LinkedIn outreach. In the UK, unsolicited marketing messages to individuals and sole traders can be restricted by PECR.",
+   "quote": {
+    "text": "You could go on there and like DM, mass DM all the teachers that are selling lesson plans",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24680,
+    "approx_timestamp_s": 1398
+   }
+  },
+  {
+   "warning": "The speakers note that candidates may answer obvious self-assessment questions in the way they think an employer wants.",
+   "quote": {
+    "text": "because everybody's going to answer that question the way that they think the employer wants to hear it.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16911,
+    "approx_timestamp_s": 958
+   }
+  },
+  {
+   "warning": "The Perplexity chart example reports a weak negative correlation, but the transcript does not show evidence that one trend causes the other.",
+   "quote": {
+    "text": "It's negative. Z4 weak negative correlation suggests inverse relationship during certain periods.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 33913,
+    "approx_timestamp_s": 1922
+   }
+  },
+  {
+   "warning": "The AI-use community idea had just been conceived and the speaker says it could be a bad idea; no validation is presented.",
+   "quote": {
+    "text": "And so I started thinking, and this is literally 10 minutes old, so this is probably a bad idea at this point",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2599,
+    "approx_timestamp_s": 147
+   }
+  },
+  {
+   "warning": "The host inserts a promotional segment for his newsletter and podcast during the conversation.",
+   "quote": {
+    "text": "Go there to subscribe for free to my newsletter. It's one email a week. Very tactical.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17116,
+    "approx_timestamp_s": 970
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Offer a prospect something useful before asking for a sale; a tailored deck or research report can make the first contact more relevant.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "You're just like giving value to them right away.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 427,
+    "approx_timestamp_s": 24
+   }
+  },
+  {
+   "lesson": "Use AI to synthesise existing information and produce a useful starting point; the speakers see it as less reliable at producing genuinely novel ideas.",
+   "theme": "automation_ai",
+   "quote": {
+    "text": "It's not yet good at creating novel ideas, but it's really good at taking a lot of information and synthesizing it",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7670,
+    "approx_timestamp_s": 434
+   }
+  },
+  {
+   "lesson": "When a task is vague, give the LLM context and examples of the output you want before asking it to generate a result.",
+   "theme": "operations",
+   "quote": {
+    "text": "You got to give it more context. No matter what, got to give it more context.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 27273,
+    "approx_timestamp_s": 1545
+   }
+  },
+  {
+   "lesson": "Reverse-engineer a prompt from examples you like, then test and refine it rather than expecting the first prompt to be perfect.",
+   "theme": "automation_ai",
+   "quote": {
+    "text": "What's a prompt that you would have written in order to get this output?",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 31363,
+    "approx_timestamp_s": 1777
+   }
+  },
+  {
+   "lesson": "A quiz can make an abstract recommendation feel personal and can collect structured information as people engage.",
+   "theme": "offer_design",
+   "quote": {
+    "text": "How do you get AI to reach into you and your insights and give you a recommendation of what might or might not be useful to you?",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9061,
+    "approx_timestamp_s": 513
+   }
+  },
+  {
+   "lesson": "Choose a focused niche rather than trying to serve every job seeker or business with one general product.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "they found a niche. They're not everything to everybody.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10448,
+    "approx_timestamp_s": 592
+   }
+  },
+  {
+   "lesson": "Questions about real past choices and preferences may reveal more than asking someone to rate themselves.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "Like I just want to hear what they nerd out about? Like what are you obsessed with?",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17733,
+    "approx_timestamp_s": 1005
+   }
+  },
+  {
+   "lesson": "Build a small working version and learn from it; the speakers describe buying a domain and starting a prototype immediately.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "I just bought the domain name 10 minutes ago and Replet is building it literally as I speak",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 745,
+    "approx_timestamp_s": 42
+   }
+  },
+  {
+   "lesson": "Treat AI research outputs as material to verify and interpret, especially when charts show correlations or source data is incomplete.",
+   "theme": "operations",
+   "quote": {
+    "text": "The sources on everything. H So, how do we use this? How do we make money on this?",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 34515,
+    "approx_timestamp_s": 1956
+   }
+  }
+ ],
+ "evidence_quality": {
+  "rating": "C",
+  "rationale": "The discussion is mainly a brainstorm with second-hand examples and hypothetical revenue arithmetic. It includes a first-hand account of building an AI recommendation quiz and a live deck-generation demo, but no verified sales or operating results for the proposed businesses.",
+  "promotional_conflict": "Chris Koerner promotes his newsletter and podcast during the video. No paid course or software sponsorship is stated."
+ },
+ "extraction": {
+  "model": "gpt-6-luna",
+  "extracted_at": "2026-10-22T11:06:20",
+  "cost_usd": 0,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 77,
+   "verified": 77,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}
