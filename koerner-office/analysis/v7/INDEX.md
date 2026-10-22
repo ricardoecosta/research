@@ -1,16 +1,17 @@
 # v7 transcript learnings: index
 
-428 transcripts mined · 2995 idea mentions · 9764 metric claims · 3642 lessons · 2695 tactics · quotes verified verbatim 20591/20699 (99.5%) · reviewed by Opus: 1
+435 transcripts mined · 3044 idea mentions · 10046 metric claims · 3704 lessons · 2749 tactics · quotes verified verbatim 21111/21221 (99.5%) · reviewed by Opus: 1
 
-Evidence quality: A: 24, B: 194, C: 206, D: 4  
+Evidence quality: A: 24, B: 198, C: 209, D: 4  
 (A = first-hand operator with specific numbers; B = first-hand but vague; C = second-hand/listicle/promotional; D = speculative or poor transcript)
 
-Channels: The Koerner Office (241), Side Hustle Nation (19), David Heacock (14), Harry's Stealth Wealth (13), Nick Huber - Sweaty Startup (12), Mikey No Code (12), UpFlip (12), Starter Story (12), Johnny & Sergio (12), Dark Horse Entrepreneur (12), Tim Richard (12), Niche Pursuits (12), Casper Capital (12), My First Million (11), George McConnell (11), Codie Sanchez (11)
+Channels: The Koerner Office (242), Side Hustle Nation (20), David Heacock (15), Harry's Stealth Wealth (14), My First Million (12), Nick Huber - Sweaty Startup (12), Mikey No Code (12), George McConnell (12), UpFlip (12), Codie Sanchez (12), Starter Story (12), Johnny & Sergio (12), Dark Horse Entrepreneur (12), Tim Richard (12), Niche Pursuits (12), Casper Capital (12)
 
 Each row links to the readable note (`transcripts/<id>.md`); the structured record is `transcripts/<id>.json` (schema: `schema/transcript_learnings.schema.json`).
 
 | Uploaded | Channel | Title | Ideas (deep/moderate/mention) | Top idea | Ev. | Quotes ✓ | Note |
 |---|---|---|---|---|---|---|---|
+| 2026-10-20 | Harry's Stealth Wealth | [6 BORING Home-Based Businesses Anyone Can Run (Customers Mail You the Work)](https://www.youtube.com/watch?v=yrbH5R-j5DI) | 6 (2/4/0) | Mail-in tape, photo and slide digitisation | C | 91/91 | [note](transcripts/yrbH5R-j5DI.md) |
 | 2026-10-20 | My First Million | [we need to talk about the Elizabeth Holmes doc (unfiltered review)](https://www.youtube.com/watch?v=VVw5m7IA0no) | 3 (1/0/2) | Theranos small-sample blood testing | C | 31/31 | [note](transcripts/VVw5m7IA0no.md) |
 | 2026-10-20 | Nick Huber - Sweaty Startup | [The Phone Habit That Was Ruining My Life](https://www.youtube.com/watch?v=UApJWuKFtH4) | 0 (0/0/0) | — | C | 8/8 | [note](transcripts/UApJWuKFtH4.md) |
 | 2026-10-20 | Mikey No Code | [I Helped a Subscriber to Build an App in 24 Hours](https://www.youtube.com/watch?v=ESxswqXFnIo) | 2 (1/0/1) | Custom micro-CRM apps for solo service businesses built with Base44 | C | 19/19 | [note](transcripts/ESxswqXFnIo.md) |
@@ -103,10 +104,12 @@ Each row links to the readable note (`transcripts/<id>.md`); the structured reco
 | 2026-09-28 | The Koerner Office | [I Thought I Understood Credit Cards Until I Talked to This Guy](https://www.youtube.com/watch?v=lN9HGQhiGgM) | 6 (1/4/1) | Credit-card and bank funding advisory | C | 109/111 | [note](transcripts/lN9HGQhiGgM.md) |
 | 2026-09-28 | My First Million | [There’s proof that we are living in a simulation! (ft. MIT Scientist)](https://www.youtube.com/watch?v=KLYVEKu3HvM) | 6 (1/2/3) | Video game companies | B | 21/21 | [note](transcripts/KLYVEKu3HvM.md) |
 | 2026-09-28 | UpFlip | [Forget Storage Units. He Rents Out Empty Dirt Instead?!](https://www.youtube.com/watch?v=EHiyxR6TwWE) | 5 (1/2/2) | Contractor storage yards (Long Yards) | C | 33/33 | [note](transcripts/EHiyxR6TwWE.md) |
+| 2026-09-27 | The Koerner Office | [The Most Profitable AI Business You've Never Heard Of](https://www.youtube.com/watch?v=zEmmeIWMNvQ) | 6 (2/1/3) | AI-assisted email list reactivation and monetization service | B | 79/79 | [note](transcripts/zEmmeIWMNvQ.md) |
 | 2026-09-27 | Starter Story | [I built this website in 8 hours with Claude. Now it makes $40K/month](https://www.youtube.com/watch?v=s9aLA4IOSZE) | 3 (1/0/2) | Geogames (Geosports and spin-offs): daily geography trivia web game | B | 32/32 | [note](transcripts/s9aLA4IOSZE.md) |
 | 2026-09-27 | Codie Sanchez | [The Psychology of Sales (How We Sell $100M)](https://www.youtube.com/watch?v=kMV3vvZPk6Q) | 2 (0/1/1) | Sales advisory for business owners | B | 64/64 | [note](transcripts/kMV3vvZPk6Q.md) |
 | 2026-09-27 | George McConnell | [Claude Opus 5.5 + Higgsfield AI: 7 CRAZY Use Cases](https://www.youtube.com/watch?v=Mo3nUK9S8tI) | 2 (0/1/1) | AI brand-content studio for e-commerce brands | C | 17/17 | [note](transcripts/Mo3nUK9S8tI.md) |
 | 2026-09-26 | Johnny & Sergio | [10 Boring Businesses You Can Start Without Quitting Your Job](https://www.youtube.com/watch?v=_HfH-Fnizns) | 10 (1/9/0) | Remote cleaning | C | 82/82 | [note](transcripts/_HfH-Fnizns.md) |
+| 2026-09-25 | My First Million | [Do this and you’ll thank yourself on Jan 1st](https://www.youtube.com/watch?v=ymXF_yT1unQ) | 9 (3/3/3) | Hoop Group basketball event | B | 81/81 | [note](transcripts/ymXF_yT1unQ.md) |
 | 2026-09-25 | The Koerner Office | [The Most Overlooked $1K/Hour Business Anyone Can Start](https://www.youtube.com/watch?v=qUORStgkuzc) | 9 (1/0/8) | Children's woodworking and shop skills classes | B | 105/107 | [note](transcripts/qUORStgkuzc.md) |
 | 2026-09-24 | George McConnell | [The End Of Monthly AI Subscriptions?](https://www.youtube.com/watch?v=Ngzy_aFlS_0) | 0 (0/0/0) | — | C | 10/10 | [note](transcripts/Ngzy_aFlS_0.md) |
 | 2026-09-23 | The Koerner Office | [The Most Overlooked $1M Business Every Town Needs](https://www.youtube.com/watch?v=-S2DPfEDRU4) | 4 (2/0/2) | Modern large-format laundromat (Laundry Spot) | A | 46/46 | [note](transcripts/-S2DPfEDRU4.md) |
@@ -116,7 +119,9 @@ Each row links to the readable note (`transcripts/<id>.md`); the structured reco
 | 2026-09-22 | Dark Horse Entrepreneur | [Stop Using ChatGPT for This: The Rise of AI Fraud](https://www.youtube.com/watch?v=3oWmy7F-Ja0) | 1 (0/1/0) | Authenticity and voice-protection services for creators and small businesses | D | 10/10 | [note](transcripts/3oWmy7F-Ja0.md) |
 | 2026-09-21 | UpFlip | [Knew Nothing About Bees and Now Makes $20K/Month. HOW?!](https://www.youtube.com/watch?v=cob8P3mZ8y8) | 5 (2/2/1) | Local honey production and sales | B | 82/82 | [note](transcripts/cob8P3mZ8y8.md) |
 | 2026-09-21 | My First Million | [People are doing $100M+ in sales on this app (ft. Whatnot founder)](https://www.youtube.com/watch?v=TAHAlGH_DK0) | 5 (1/1/3) | Whatnot live-shopping marketplace (started as Funko Pop marketplace) | B | 28/28 | [note](transcripts/TAHAlGH_DK0.md) |
+| 2026-09-20 | George McConnell | [I Built a Luxury Brand in 30 Minutes with GPT-6 Astra](https://www.youtube.com/watch?v=zK12R4Edm6k) | 1 (1/0/0) | Premium lifestyle water bottle brand | C | 56/56 | [note](transcripts/zK12R4Edm6k.md) |
 | 2026-09-20 | Starter Story | [This Simple Widget Makes $50K/Month](https://www.youtube.com/watch?v=mr4YV-9MY0Q) | 4 (1/1/2) | Avenue website widget for trades | B | 42/42 | [note](transcripts/mr4YV-9MY0Q.md) |
+| 2026-09-18 | David Heacock | [EXACTLY How I Made $1M/Day Last Month (And What Went Wrong)](https://www.youtube.com/watch?v=zbqKCF6gkPE) | 2 (1/0/1) | Filterbuy air filters | B | 68/68 | [note](transcripts/zbqKCF6gkPE.md) |
 | 2026-09-18 | The Koerner Office | [The Side Hustle AI Was Supposed to Kill Is Booming](https://www.youtube.com/watch?v=tK5Ivv_3sEA) | 8 (1/1/6) | Freelance writing for technology companies | B | 59/60 | [note](transcripts/tK5Ivv_3sEA.md) |
 | 2026-09-18 | My First Million | [Sam Altman's coach destroys your limiting beliefs for 86 minutes straight](https://www.youtube.com/watch?v=bi23y0x-MhA) | 1 (1/0/0) | Art of Accomplishment executive coaching and programmes | C | 16/16 | [note](transcripts/bi23y0x-MhA.md) |
 | 2026-09-18 | Side Hustle Nation | [8 Weird Side Hustles That Are Actually Making Money](https://www.youtube.com/watch?v=Wvwt9CB6uKI) | 14 (1/9/4) | Facebook content monetisation pages (Well Kept Wallet) | C | 24/24 | [note](transcripts/Wvwt9CB6uKI.md) |
@@ -170,11 +175,13 @@ Each row links to the readable note (`transcripts/<id>.md`); the structured reco
 | 2026-08-15 | Tim Richard | [100% REMOTE Boring Businesses (That Almost Never Fail)](https://www.youtube.com/watch?v=TR5bJ083igY) | 24 (5/3/16) | Remote junk removal | C | 82/83 | [note](transcripts/TR5bJ083igY.md) |
 | 2026-08-14 | The Koerner Office | [Watch Me Clone a $200K/Month Business in 5 Minutes](https://www.youtube.com/watch?v=VOo3M3ZHUoA) | 7 (3/3/1) | White-label GoHighLevel SaaS reseller for a local-service niche | C | 37/37 | [note](transcripts/VOo3M3ZHUoA.md) |
 | 2026-08-12 | The Koerner Office | [I Tried to Make $10K in 10 Days With Costco Returns](https://www.youtube.com/watch?v=kEV86fy-Rvc) | 1 (1/0/0) | Costco return pallet flipping via B-Stock auctions | C | 19/19 | [note](transcripts/kEV86fy-Rvc.md) |
+| 2026-08-11 | Codie Sanchez | [Once You Get Money, Buy These 10 Things Immediately](https://www.youtube.com/watch?v=yveLqk3DCNs) | 20 (2/6/12) | Premium wardrobe accessories and clothing | C | 88/88 | [note](transcripts/yveLqk3DCNs.md) |
 | 2026-08-10 | Side Hustle Nation | [Why Gourmet Mushrooms Are the Most Profitable Small-Space Business](https://www.youtube.com/watch?v=MvDzoUFQBWQ) | 9 (2/2/5) | Gourmet mushroom farm (fresh mushrooms at farmers markets, CSAs, restaurants) | B | 25/25 | [note](transcripts/MvDzoUFQBWQ.md) |
 | 2026-08-10 | UpFlip | [Here's How to Start a $10K/Month Mushroom Business from Home](https://www.youtube.com/watch?v=6WS5C9u-ak0) | 4 (1/1/2) | Gourmet mushroom farm selling at farmers markets and to restaurants | B | 32/32 | [note](transcripts/6WS5C9u-ak0.md) |
 | 2026-08-09 | The Koerner Office | [The Most Underrated Side Hustle You Can Start With $0](https://www.youtube.com/watch?v=E9baszgY3J8) | 8 (3/3/2) | Estate sale company | A | 67/67 | [note](transcripts/E9baszgY3J8.md) |
 | 2026-08-07 | The Koerner Office | [The Most Overlooked $3K/Day Side Hustle Anyone Can Start (with $0)](https://www.youtube.com/watch?v=vvtsOOGn6Io) | 2 (1/0/1) | Porch pumpkin delivery and decorating | B | 78/79 | [note](transcripts/vvtsOOGn6Io.md) |
 | 2026-08-06 | Johnny & Sergio | [You Don’t Need to Start a Business, Buy One of These 10 Instead](https://www.youtube.com/watch?v=6ykPP-PS35w) | 10 (1/7/2) | Buy a small local cleaning company (residential/commercial) | C | 19/19 | [note](transcripts/6ykPP-PS35w.md) |
+| 2026-08-04 | Side Hustle Nation | [Inside the $2 Billion Side Hustle Paying People to Eat Out & Drive Around](https://www.youtube.com/watch?v=zjp8fRfqZ5c) | 5 (2/1/2) | iShop mystery shopper training and recruitment | B | 57/59 | [note](transcripts/zjp8fRfqZ5c.md) |
 | 2026-08-04 | Tim Richard | [12 Ways People Are Making $10K+/Month (That Nobody's Talking About)](https://www.youtube.com/watch?v=Zq50owQuuIw) | 19 (12/0/7) | Wholesale bakery supplying cafés | C | 119/119 | [note](transcripts/Zq50owQuuIw.md) |
 | 2026-08-04 | Codie Sanchez | [If You Don't Understand Debt, You Don't Understand Business](https://www.youtube.com/watch?v=DZNhrv5sv_0) | 3 (1/0/2) | Buy an existing small business with SBA or seller financing | C | 29/29 | [note](transcripts/DZNhrv5sv_0.md) |
 | 2026-08-02 | Tim Richard | [This Niche Business Makes $20,000/Job](https://www.youtube.com/watch?v=liw7LVwgGhI) | 28 (1/7/20) | Remote junk removal with subcontractors | C | 77/77 | [note](transcripts/liw7LVwgGhI.md) |

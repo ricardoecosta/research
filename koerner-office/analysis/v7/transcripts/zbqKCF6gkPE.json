@@ -1,0 +1,1447 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "zbqKCF6gkPE",
+  "title": "EXACTLY How I Made $1M/Day Last Month (And What Went Wrong)",
+  "channel": "David Heacock",
+  "url": "https://www.youtube.com/watch?v=zbqKCF6gkPE",
+  "upload_date": "2026-09-18",
+  "duration_s": 1693,
+  "view_count": 29309,
+  "transcript_provider": "cached",
+  "transcript_chars": 31550,
+  "transcript_is_whisper": false
+ },
+ "summary": "David Heacock explains how Filterbuy, his US air filter manufacturing business, reached more than $31 million in July as heat and wildfire smoke drove unexpected demand. The surge exposed weak inventory counts, order routing problems and a management gap after a regional leader resigned. He describes the operational changes that helped Filterbuy keep delivering and sustain sales momentum. His main lesson is to build and understand reliable operating systems before growth outstrips the ability to serve customers.",
+ "speakers": [
+  {
+   "name": "David Heacock",
+   "role": "host",
+   "description": "Founder and CEO of Filterbuy; speaks about his own business."
+  }
+ ],
+ "format": "case_study_profile",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Filterbuy air filters",
+   "one_liner": "Manufacture air filters in the US and sell them directly to consumers.",
+   "category": "manufacturing",
+   "business_model": "Direct-to-consumer physical product sales.",
+   "customer": "End consumers buying air filters; the transcript does not specify customer segments.",
+   "problem": "Customers need air filters. The transcript says filters are bulky and expensive to ship, making imports less practical.",
+   "offer": "Manufactured pleated air filters sold directly to consumers.",
+   "pricing": {
+    "model": "Product sales; price points not stated.",
+    "price_points": [],
+    "notes": "The transcript gives company revenue figures but no product prices."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "marketplace_platform",
+     "details": "Amazon Prime Day is discussed as a sales period for Filterbuy. The transcript does not describe its listings, ads or other acquisition activity.",
+     "quote": {
+      "text": "Prime Day was actually down for us, basically flat to Prime Day last year, which was a little bit disappointing.",
+      "speaker": "David Heacock",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 5839,
+      "approx_timestamp_s": 319
+     }
+    }
+   ],
+   "delivery": "Filterbuy manufactures filters across multiple facilities, stores finished goods at nine locations, routes orders among centers and ships them to customers. David says orders that arrive by 2:00 are shipped the same day; manufacturing, inventory handling and physical shipping require staff.",
+   "unit_economics_claims": [
+    "David says Filterbuy usually makes about $25 million per month.",
+    "David says July sales exceeded $31 million.",
+    "David says the business manufactures about 150,000 filters per day and ships 20,000 to 25,000 orders per day.",
+    "David says average finished-goods inventory is less than two weeks."
+   ],
+   "tools": [
+    "Filterbuy's custom ERP system",
+    "Operational dashboards",
+    "Slack",
+    "Amazon"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Amazon can provide marketplace discovery, but the transcript gives no repeatable acquisition process or information about how much staff work it requires."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Online product orders can be captured and routed by software, though the transcript does not describe the checkout or onboarding flow."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Manufacturing, counting stock, packing and shipping are physical tasks that need people; software helps schedule and route the work."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "E-commerce payment collection can run through software with routine exception handling, but Filterbuy's billing setup is not described."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Dashboards can flag delivery risks, but resolving stock discrepancies and keeping delivery promises requires staff judgment and operational action."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "The direct-to-consumer manufacturing model can work in the UK. Product standards, manufacturing costs and the economics of shipping bulky filters would need local adaptation."
+   },
+   "risks": [
+    "Keeping less than two weeks of stock leaves little room for forecast errors or inventory-count mistakes.",
+    "Fast sales growth can overwhelm production, routing and delivery capacity.",
+    "Bad counts and missed process steps can compound across manufacturing and distribution locations.",
+    "The business depends on experienced managers and institutional knowledge; a key leader resigned without notice.",
+    "Physical production and shipping limit how much of delivery can be automated."
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "I run Filterbuy, an air filter manufacturer that usually makes about 25 million dollars a month.",
+     "speaker": "David Heacock",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 179,
+     "approx_timestamp_s": 9
+    },
+    {
+     "text": "I wanted to own a product that I could manufacture competitively in the US and sell direct to consumer in the US.",
+     "speaker": "David Heacock",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 2023,
+     "approx_timestamp_s": 110
+    },
+    {
+     "text": "July sales closed at over $31 million, which means that we averaged a million dollars a day for the month of July",
+     "speaker": "David Heacock",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 8405,
+     "approx_timestamp_s": 460
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "My Office Delivered office-supplies dropshipping",
+   "one_liner": "Sell office supplies online using dropshipping as a side hustle.",
+   "category": "ecommerce_physical",
+   "business_model": "Online product sales using dropshipping.",
+   "customer": "Online buyers of office supplies; the transcript does not specify the customer segment.",
+   "problem": "The transcript does not state a specific customer problem.",
+   "offer": "Office supplies sold online and dropshipped; the supplier and delivery arrangements are not stated.",
+   "pricing": {
+    "model": "Product sales; pricing not stated.",
+    "price_points": [],
+    "notes": "No product prices or margins are given."
+   },
+   "acquisition_channels": [],
+   "delivery": "David says he dropshipped office supplies while working at Goldman. The supplier, order process and delivery details are not stated.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "The transcript says the products were sold online but does not describe a customer acquisition channel or whether it could run automatically."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Online orders could be captured with software, but the transcript gives no details about the storefront or order process."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Dropshipping can delegate fulfillment to a supplier, but the supplier and amount of human coordination are not stated."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Online payment collection could be handled by software, though the payment setup is not described."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "The transcript gives no support process; customer and supplier issues would likely need human handling."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Online dropshipping of office supplies can work in the UK, subject to finding suitable suppliers and adjusting products, shipping and costs for the UK market."
+   },
+   "risks": [
+    "The transcript gives no information about supplier reliability, margins, customer acquisition or how the side hustle performed."
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "I was drop shipping them as like a side hustle when I worked at Goldman with a company called My Office Delivered.",
+     "speaker": "David Heacock",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 2417,
+     "approx_timestamp_s": 132
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "David says he had spent 15 years building Filterbuy before reaching the stated sales milestone.",
+   "metric": "other",
+   "value": {
+    "amount": 15,
+    "currency": null,
+    "unit": "years"
+   },
+   "period": null,
+   "claimant": "David Heacock",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "After 15 years of building my company, we had finally hit a million dollars a day.",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 28,
+    "approx_timestamp_s": 1
+   }
+  },
+  {
+   "claim": "Filterbuy usually makes about $25 million per month.",
+   "metric": "revenue",
+   "value": {
+    "amount": 25000000,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "period": "usual",
+   "claimant": "David Heacock",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I'm David. I run Filterbuy, an air filter manufacturer that usually makes about 25 million dollars a month.",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 169,
+    "approx_timestamp_s": 9
+   }
+  },
+  {
+   "claim": "Filterbuy was on track to reach $31 million in July.",
+   "metric": "revenue",
+   "value": {
+    "amount": 31000000,
+    "currency": "USD",
+    "unit": "July target"
+   },
+   "period": "July forecast",
+   "claimant": "David Heacock",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "But, back in July, we were on track to hit 31 million. A million dollars a day.",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 274,
+    "approx_timestamp_s": 15
+   }
+  },
+  {
+   "claim": "David says competitors had a 40-year head start when he started Filterbuy.",
+   "metric": "other",
+   "value": {
+    "amount": 40,
+    "currency": null,
+    "unit": "years"
+   },
+   "period": null,
+   "claimant": "David Heacock",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "The day I decided to start Filterbuy, I was going up against competitors with a 40-year head start.",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 770,
+    "approx_timestamp_s": 42
+   }
+  },
+  {
+   "claim": "Filterbuy keeps less than two weeks of finished-goods inventory across nine locations.",
+   "metric": "other",
+   "value": {
+    "amount": 2,
+    "currency": null,
+    "unit": "weeks maximum; inventory is less"
+   },
+   "period": "at any given time",
+   "claimant": "David Heacock",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "We keep less than two weeks of finished goods inventory across nine locations, and depending on how you look at it, that's either brilliant or insane.",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2932,
+    "approx_timestamp_s": 160
+   }
+  },
+  {
+   "claim": "Filterbuy manufactures about 150,000 pleated air filters per day.",
+   "metric": "other",
+   "value": {
+    "amount": 150000,
+    "currency": null,
+    "unit": "filters per day"
+   },
+   "period": "daily",
+   "claimant": "David Heacock",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "We manufacture about 150,000 pleated air filters every single day, seven days a week.",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3119,
+    "approx_timestamp_s": 170
+   }
+  },
+  {
+   "claim": "Filterbuy manufactures seven days per week.",
+   "metric": "other",
+   "value": {
+    "amount": 7,
+    "currency": null,
+    "unit": "days per week"
+   },
+   "period": "weekly",
+   "claimant": "David Heacock",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "We manufacture about 150,000 pleated air filters every single day, seven days a week.",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3119,
+    "approx_timestamp_s": 170
+   }
+  },
+  {
+   "claim": "Filterbuy ships filters in boxes averaging four or five filters each.",
+   "metric": "other",
+   "value": {
+    "amount": 4,
+    "amount_max": 5,
+    "currency": null,
+    "unit": "filters per box"
+   },
+   "period": "average",
+   "claimant": "David Heacock",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "And we ship those in an average of four or five a box. So we're shipping about 20 to 25,000 orders every single day",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3203,
+    "approx_timestamp_s": 175
+   }
+  },
+  {
+   "claim": "Filterbuy ships about 20,000 to 25,000 orders per day.",
+   "metric": "other",
+   "value": {
+    "amount": 20000,
+    "amount_max": 25000,
+    "currency": null,
+    "unit": "orders per day"
+   },
+   "period": "daily",
+   "claimant": "David Heacock",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So we're shipping about 20 to 25,000 orders every single day from nine different shipping locations, three of which are manufacturing facilities.",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3257,
+    "approx_timestamp_s": 178
+   }
+  },
+  {
+   "claim": "Filterbuy ships from nine locations.",
+   "metric": "other",
+   "value": {
+    "amount": 9,
+    "currency": null,
+    "unit": "shipping locations"
+   },
+   "period": null,
+   "claimant": "David Heacock",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So we're shipping about 20 to 25,000 orders every single day from nine different shipping locations, three of which are manufacturing facilities.",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3257,
+    "approx_timestamp_s": 178
+   }
+  },
+  {
+   "claim": "Three of Filterbuy's shipping locations are manufacturing facilities.",
+   "metric": "other",
+   "value": {
+    "amount": 3,
+    "currency": null,
+    "unit": "manufacturing facilities"
+   },
+   "period": null,
+   "claimant": "David Heacock",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So we're shipping about 20 to 25,000 orders every single day from nine different shipping locations, three of which are manufacturing facilities.",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3257,
+    "approx_timestamp_s": 178
+   }
+  },
+  {
+   "claim": "Filterbuy delivers an average of 80% of orders the next day.",
+   "metric": "other",
+   "value": {
+    "amount": 80,
+    "currency": null,
+    "unit": "percent next-day delivery"
+   },
+   "period": "average",
+   "claimant": "David Heacock",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "These orders get delivered on average 80% next day, and basically 100% in two days.",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3401,
+    "approx_timestamp_s": 186
+   }
+  },
+  {
+   "claim": "David says basically 100% of orders are delivered within two days.",
+   "metric": "other",
+   "value": {
+    "amount": 100,
+    "currency": null,
+    "unit": "percent within two days"
+   },
+   "period": null,
+   "claimant": "David Heacock",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "These orders get delivered on average 80% next day, and basically 100% in two days.",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3401,
+    "approx_timestamp_s": 186
+   }
+  },
+  {
+   "claim": "Orders received by 2:00 are shipped the same day.",
+   "metric": "other",
+   "value": {
+    "amount": 2,
+    "currency": null,
+    "unit": "o'clock cutoff time"
+   },
+   "period": "daily",
+   "claimant": "David Heacock",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "And if we're getting orders, you know, we're shipping them same day if they come in by 2:00.",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3481,
+    "approx_timestamp_s": 190
+   }
+  },
+  {
+   "claim": "David says distribution companies typically average six to eight weeks of inventory.",
+   "metric": "other",
+   "value": {
+    "amount": 6,
+    "amount_max": 8,
+    "currency": null,
+    "unit": "weeks of inventory"
+   },
+   "period": "typical",
+   "claimant": "David Heacock",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "And most companies that are in distribution average six to eight weeks of inventory, just to put it in a perspective.",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3811,
+    "approx_timestamp_s": 208
+   }
+  },
+  {
+   "claim": "David started building Filterbuy's ERP system from scratch 14 years before the video.",
+   "metric": "other",
+   "value": {
+    "amount": 14,
+    "currency": null,
+    "unit": "years"
+   },
+   "period": "before filming",
+   "claimant": "David Heacock",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "And I started that from scratch 14 years ago. Um, and it's evolved into the system that keeps all of our operations going today.",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4995,
+    "approx_timestamp_s": 273
+   }
+  },
+  {
+   "claim": "Filterbuy made about $23 million to $24 million in May.",
+   "metric": "revenue",
+   "value": {
+    "amount": 23000000,
+    "amount_max": 24000000,
+    "currency": "USD",
+    "unit": "May revenue"
+   },
+   "period": "May",
+   "claimant": "David Heacock",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "We did 23 to 24 million dollars or so in May, which is about what we expected kind of ramping up into the summer season.",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5442,
+    "approx_timestamp_s": 297
+   }
+  },
+  {
+   "claim": "Sales grew for three consecutive weeks, each week bigger than the last, without promotions.",
+   "metric": "other",
+   "value": {
+    "amount": 3,
+    "currency": null,
+    "unit": "consecutive weeks"
+   },
+   "period": "June",
+   "claimant": "David Heacock",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "3 weeks in a row, bigger every time with zero promotion.",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6301,
+    "approx_timestamp_s": 345
+   }
+  },
+  {
+   "claim": "July sales were about 15% above forecast.",
+   "metric": "other",
+   "value": {
+    "amount": 15,
+    "currency": null,
+    "unit": "percent above forecast"
+   },
+   "period": "July",
+   "claimant": "David Heacock",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "July sales came in like 15% more than we had forecasted coming into it.",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7083,
+    "approx_timestamp_s": 387
+   }
+  },
+  {
+   "claim": "Filterbuy had about 1,000 employees.",
+   "metric": "other",
+   "value": {
+    "amount": 1000,
+    "currency": null,
+    "unit": "employees"
+   },
+   "period": "at the time described",
+   "claimant": "David Heacock",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "At our scale, we have about 1,000 employees. Like I said, we make about 150,000 filters every single day.",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7288,
+    "approx_timestamp_s": 399
+   }
+  },
+  {
+   "claim": "David estimates that 15% extra demand required the equivalent work of another 150 to 200 people.",
+   "metric": "other",
+   "value": {
+    "amount": 150,
+    "amount_max": 200,
+    "currency": null,
+    "unit": "people-equivalent workload"
+   },
+   "period": "overnight demand increase",
+   "claimant": "David Heacock",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "That's the equivalent of the work of another 150 to 200 people that you have to figure out how to basically make happen overnight.",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7461,
+    "approx_timestamp_s": 408
+   }
+  },
+  {
+   "claim": "Filterbuy's July sales closed above $31 million.",
+   "metric": "revenue",
+   "value": {
+    "amount": 31000000,
+    "currency": "USD",
+    "unit": "July revenue, above"
+   },
+   "period": "July",
+   "claimant": "David Heacock",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "July sales closed at over $31 million, which means that we averaged a million dollars a day for the month of July",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8405,
+    "approx_timestamp_s": 460
+   }
+  },
+  {
+   "claim": "Filterbuy averaged $1 million in sales per day during July.",
+   "metric": "revenue",
+   "value": {
+    "amount": 1000000,
+    "currency": "USD",
+    "unit": "per day"
+   },
+   "period": "July",
+   "claimant": "David Heacock",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "July sales closed at over $31 million, which means that we averaged a million dollars a day for the month of July",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8405,
+    "approx_timestamp_s": 460
+   }
+  },
+  {
+   "claim": "Filterbuy previously had a single day with $2.5 million in sales.",
+   "metric": "revenue",
+   "value": {
+    "amount": 2500000,
+    "currency": "USD",
+    "unit": "one day"
+   },
+   "period": "past",
+   "claimant": "David Heacock",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "we've actually believe it or not had a two and a half million dollar day in the past, but we never averaged a million dollars a day over a month.",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8598,
+    "approx_timestamp_s": 470
+   }
+  },
+  {
+   "claim": "David says the intense period consumed about six weeks.",
+   "metric": "hours",
+   "value": {
+    "amount": 6,
+    "currency": null,
+    "unit": "weeks"
+   },
+   "period": "July operational surge",
+   "claimant": "David Heacock",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "For about 6 weeks, my entire life ran through one screen.",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9773,
+    "approx_timestamp_s": 535
+   }
+  },
+  {
+   "claim": "David says he monitored the business from about 5:30 in the morning to 10:00 at night, a 16.5-hour span.",
+   "metric": "hours",
+   "value": {
+    "amount": 16.5,
+    "currency": null,
+    "unit": "hours per day, calculated from stated times"
+   },
+   "period": "during the surge",
+   "claimant": "David Heacock",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "The only thing I could do was keep my eyes glued to the numbers on the dashboard from about 5:30 in the morning to 10:00 at night, it fully consumed me.",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9622,
+    "approx_timestamp_s": 526
+   }
+  },
+  {
+   "claim": "The final shipping center typically got its last orders out around 7:00 or 8:00 p.m. Eastern.",
+   "metric": "other",
+   "value": {
+    "amount": 7,
+    "amount_max": 8,
+    "currency": null,
+    "unit": "p.m. Eastern"
+   },
+   "period": "daily",
+   "claimant": "David Heacock",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Every day about 7:00 or 8:00 p.m. Eastern when our last center got the last orders out of the day, then I would take a little breather",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11728,
+    "approx_timestamp_s": 642
+   }
+  },
+  {
+   "claim": "The New Jersey and Toronto locations had opened within the prior six months.",
+   "metric": "other",
+   "value": {
+    "amount": 6,
+    "currency": null,
+    "unit": "months"
+   },
+   "period": "before the described events",
+   "claimant": "David Heacock",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "And both New Jersey and Toronto, Canada were actually locations that have been opened up in the last 6 months.",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14527,
+    "approx_timestamp_s": 795
+   }
+  },
+  {
+   "claim": "Filterbuy's stated on-time delivery requirement was 99.5%.",
+   "metric": "other",
+   "value": {
+    "amount": 99.5,
+    "currency": null,
+    "unit": "percent on-time delivery"
+   },
+   "period": null,
+   "claimant": "David Heacock",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "And by the way, you have to deliver your product or ship your product with a 99.5% on-time delivery, you can understand how it can get out of hand pretty quick.",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20701,
+    "approx_timestamp_s": 1133
+   }
+  },
+  {
+   "claim": "David built the business for its first eight years with one manufacturing plant and one shipping location.",
+   "metric": "other",
+   "value": {
+    "amount": 8,
+    "currency": null,
+    "unit": "years"
+   },
+   "period": "early years",
+   "claimant": "David Heacock",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "In Talladega, I built the business for the first eight years with only one manufacturing plant, only one shipping location",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22354,
+    "approx_timestamp_s": 1224
+   }
+  },
+  {
+   "claim": "David spent about three months getting the New Kensington site running.",
+   "metric": "hours",
+   "value": {
+    "amount": 3,
+    "currency": null,
+    "unit": "months"
+   },
+   "period": "site opening",
+   "claimant": "David Heacock",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I go to New Kensington in Pennsylvania where I probably spent the first three months getting it up and running and then handed off",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22932,
+    "approx_timestamp_s": 1255
+   }
+  },
+  {
+   "claim": "The operational surge involved $8 million in extra demand.",
+   "metric": "revenue",
+   "value": {
+    "amount": 8000000,
+    "currency": "USD",
+    "unit": "extra demand"
+   },
+   "period": "summer surge",
+   "claimant": "David Heacock",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "You would think that it takes something massive to break a nine-plant operation, but it doesn't. $8 million in extra demand, nine plants, and what nearly broke us was one bad number.",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 19386,
+    "approx_timestamp_s": 1061
+   }
+  },
+  {
+   "claim": "Filterbuy makes about 150,000 units per day across hundreds of sizes.",
+   "metric": "other",
+   "value": {
+    "amount": 150000,
+    "currency": null,
+    "unit": "units per day"
+   },
+   "period": "daily",
+   "claimant": "David Heacock",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "we manufacture 150,000 units a day across hundreds of sizes and multiple MERV ratings.",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20244,
+    "approx_timestamp_s": 1108
+   }
+  },
+  {
+   "claim": "The product range spans hundreds of sizes.",
+   "metric": "other",
+   "value": {
+    "amount": null,
+    "currency": null,
+    "unit": "sizes; described as hundreds",
+    "label": "hundreds"
+   },
+   "period": null,
+   "claimant": "David Heacock",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "we manufacture 150,000 units a day across hundreds of sizes and multiple MERV ratings.",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20244,
+    "approx_timestamp_s": 1108
+   }
+  },
+  {
+   "claim": "David's stated milestone goal is $365 million per year, corresponding to $1 million per day.",
+   "metric": "revenue",
+   "value": {
+    "amount": 365000000,
+    "currency": "USD",
+    "unit": "per year, stated goal"
+   },
+   "period": "future goal",
+   "claimant": "David Heacock",
+   "first_hand": true,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "It's been my goal for a while, at least from an ego perspective, to get to a million dollars a day, $365 million dollars a year.",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23820,
+    "approx_timestamp_s": 1304
+   }
+  },
+  {
+   "claim": "Two other locations had excess production capacity while Northeast locations were overloaded.",
+   "metric": "other",
+   "value": {
+    "amount": 2,
+    "currency": null,
+    "unit": "locations"
+   },
+   "period": "during the surge",
+   "claimant": "David Heacock",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "But, we had two other locations that still had excess capacity on the margin.",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25453,
+    "approx_timestamp_s": 1393
+   }
+  },
+  {
+   "claim": "Three operational fixes followed the worst operational month.",
+   "metric": "other",
+   "value": {
+    "amount": 3,
+    "currency": null,
+    "unit": "fixes"
+   },
+   "period": "after the summer surge",
+   "claimant": "David Heacock",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Three fixes came out of our worst operational month ever. Only one of them changed anything long term.",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24755,
+    "approx_timestamp_s": 1355
+   }
+  },
+  {
+   "claim": "David says one of the three fixes changed something long term.",
+   "metric": "other",
+   "value": {
+    "amount": 1,
+    "currency": null,
+    "unit": "fix"
+   },
+   "period": "long term",
+   "claimant": "David Heacock",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Three fixes came out of our worst operational month ever. Only one of them changed anything long term.",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24755,
+    "approx_timestamp_s": 1355
+   }
+  },
+  {
+   "claim": "Filterbuy continued averaging over $1 million per day through mid-August.",
+   "metric": "revenue",
+   "value": {
+    "amount": 1000000,
+    "currency": "USD",
+    "unit": "per day, over"
+   },
+   "period": "through mid-August",
+   "claimant": "David Heacock",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "we've been continuing to average over a million dollars a day up to mid-August as I'm filming this.",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 26176,
+    "approx_timestamp_s": 1433
+   }
+  },
+  {
+   "claim": "David says he understands the business better than he did 60 days earlier.",
+   "metric": "other",
+   "value": {
+    "amount": 60,
+    "currency": null,
+    "unit": "days"
+   },
+   "period": "comparison to filming",
+   "claimant": "David Heacock",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I understand my own business better than I did 60 days ago because I spent six weeks with my hands all the way inside it instead of just looking at a summary.",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 30376,
+    "approx_timestamp_s": 1663
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Choose a product suited to direct-to-consumer manufacturing",
+   "area": "niche_selection",
+   "steps": [
+    "Look for a product you can manufacture competitively in your home market.",
+    "Consider how product size and shipping costs affect the feasibility of importing it.",
+    "Use direct sales to the end customer to remove intermediaries."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I wanted to own a product that I could manufacture competitively in the US and sell direct to consumer in the US.",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2023,
+    "approx_timestamp_s": 110
+   }
+  },
+  {
+   "name": "Use daily operational dashboards and intervene early",
+   "area": "operations",
+   "steps": [
+    "Build dashboards that show the health of each part of the operation.",
+    "Check them every morning and identify overloaded locations, stock problems and risks to delivery promises.",
+    "Shift eligible orders to centers that can still meet promised dates.",
+    "Add a delivery buffer when a center risks missing its promise."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I was waking up at 5:30 in the morning. I was looking at the dashboards that we had built letting me know what's happening in any part of the business.",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10323,
+    "approx_timestamp_s": 565
+   }
+  },
+  {
+   "name": "Rebalance production and inventory across locations",
+   "area": "operations",
+   "steps": [
+    "Identify which centers are exceeding their production capacity and which have spare capacity.",
+    "Make additional product at centers with room to produce it.",
+    "Ship that product to the overloaded region.",
+    "Fix order routing so orders can move to locations with more capacity."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "We had a few centers, particularly in the Northeast, that got absolutely slammed. And when that happened, they were selling more than their production capabilities.",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25293,
+    "approx_timestamp_s": 1384
+   }
+  },
+  {
+   "name": "Treat inventory counts as an operating process",
+   "area": "operations",
+   "steps": [
+    "Check that people follow the inventory-counting process consistently.",
+    "Investigate discrepancies quickly instead of treating them as a software-only problem.",
+    "Correct the counts and combine that work with routing and replenishment changes."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Ultimately, the root cause here was a breakdown in our inventory system. Not from a software perspective, but from like the system of the people that are responsible for taking part in each of it.",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21324,
+    "approx_timestamp_s": 1167
+   }
+  },
+  {
+   "name": "Learn critical jobs and create a daily promise dashboard",
+   "area": "hiring",
+   "steps": [
+    "Write down every job in the business.",
+    "Mark the jobs you personally could not cover if the employee quit tomorrow.",
+    "Learn those jobs well enough to act as a fail-safe.",
+    "Build one dashboard around the key customer promise and check it every morning."
+   ],
+   "idea_local_id": null,
+   "quote": {
+    "text": "Number one, write down every job in your business and mark the ones you personally could not do tomorrow if that person quit overnight.",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 28804,
+    "approx_timestamp_s": 1577
+   }
+  },
+  {
+   "name": "Check delivery capacity before increasing demand",
+   "area": "operations",
+   "steps": [
+    "Before spending more on ads or accepting more customers, assess whether the team can serve the orders already sold.",
+    "Fix service capacity and delivery reliability before pursuing more growth."
+   ],
+   "idea_local_id": null,
+   "quote": {
+    "text": "Before you spend more on ads or take on more customers, be straight with yourself about whether you can service what you've already sold.",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 29448,
+    "approx_timestamp_s": 1612
+   }
+  },
+  {
+   "name": "Visit newer locations to reinforce culture",
+   "area": "operations",
+   "steps": [
+    "Identify newer locations, teams and hires where culture and process knowledge may be less established.",
+    "Spend time there in person, observe the work and discuss why the processes matter."
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "If you've got a location, a team, or a hire that's newer than the rest, go spend time there in person",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 29709,
+    "approx_timestamp_s": 1626
+   }
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Filterbuy custom ERP system",
+   "purpose": "Internal system for organizing bills, inventory and production schedules and directing employees' daily work.",
+   "cost_stated": null
+  },
+  {
+   "name": "Operational dashboards",
+   "purpose": "Monitor business health and operational metrics across the company.",
+   "cost_stated": null
+  },
+  {
+   "name": "Slack",
+   "purpose": "Internal messages and a huddle between the COO and David.",
+   "cost_stated": null
+  },
+  {
+   "name": "Amazon",
+   "purpose": "Marketplace and Prime Day sales period discussed in relation to Filterbuy.",
+   "cost_stated": null
+  },
+  {
+   "name": "Uber",
+   "purpose": "Transport David used on his way to meet the Toronto operations manager.",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "More sales can create operational problems if the business cannot deliver what it promised.",
+   "quote": {
+    "text": "If you don't do that delivery, your sales are ultimately going to go to zero because people are going to stop buying from you.",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9376,
+    "approx_timestamp_s": 513
+   }
+  },
+  {
+   "warning": "Keeping very little inventory leaves little margin for forecasting or counting errors.",
+   "quote": {
+    "text": "We keep less than two weeks of finished goods inventory across nine locations, and depending on how you look at it, that's either brilliant or insane.",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2932,
+    "approx_timestamp_s": 160
+   }
+  },
+  {
+   "warning": "A robust software system can still fail when people do not follow the operating process.",
+   "quote": {
+    "text": "When you get pressure on a system like ours, you start to see weaknesses and weaknesses of maybe certain people were not following the process in the way that that process should be followed.",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21517,
+    "approx_timestamp_s": 1178
+   }
+  },
+  {
+   "warning": "A key employee can resign without notice, so the business should not depend on one person being the only fail-safe.",
+   "quote": {
+    "text": "Somebody will quit overnight. Mine did in the middle of the best month we'd ever had.",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 28938,
+    "approx_timestamp_s": 1584
+   }
+  },
+  {
+   "warning": "Delegating before learning how the work and systems function can prevent a founder from building a robust, scalable business.",
+   "quote": {
+    "text": "people are using that as an excuse to hire somebody to basically do all the work for them and if that's your mentality and your mindset, you're never going to build a robust business that is scalable.",
+    "speaker": "David Heacock",
+    "match_score": 96.5,
+    "verified": true,
+    "char_offset": 28087,
+    "approx_timestamp_s": 1537
+   }
+  },
+  {
+   "warning": "Culture can weaken as a company adds locations if leaders do not spend time aligning people on the work and its purpose.",
+   "quote": {
+    "text": "the reality is that it's harder and harder to export that culture the larger that you get and the bigger that you get.",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22809,
+    "approx_timestamp_s": 1248
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Choose a business where the product and market give you a structural advantage, such as manufacturing locally when shipping makes imports less practical.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "the person with the cost advantage ultimately is going to win.",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1707,
+    "approx_timestamp_s": 93
+   }
+  },
+  {
+   "lesson": "Growth only helps when the business can keep the promises it makes to customers.",
+   "theme": "operations",
+   "quote": {
+    "text": "sales is only one side of the equation. You have to also be able to deliver on whatever promise you're making to a customer.",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9253,
+    "approx_timestamp_s": 506
+   }
+  },
+  {
+   "lesson": "Unexpected demand can reveal weaknesses in staffing, inventory, routing and management processes.",
+   "theme": "scaling",
+   "quote": {
+    "text": "when you get into stretch moments, a lot of times your first instinct is going to be to retreat.",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12402,
+    "approx_timestamp_s": 679
+   }
+  },
+  {
+   "lesson": "Use operational metrics to spot problems early, then make specific changes such as rerouting orders or buffering delivery promises.",
+   "theme": "operations",
+   "quote": {
+    "text": "we have operational dashboards that basically give us the health of every aspect of our business.",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10083,
+    "approx_timestamp_s": 552
+   }
+  },
+  {
+   "lesson": "When a serious operational failure happens, look for root causes and process gaps rather than assuming the software is at fault.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "Ultimately, the root cause here was a breakdown in our inventory system. Not from a software perspective",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21324,
+    "approx_timestamp_s": 1167
+   }
+  },
+  {
+   "lesson": "A founder can delegate more effectively after learning the work, documenting processes and building systems that can be handed to a capable steward.",
+   "theme": "hiring_outsourcing",
+   "quote": {
+    "text": "your job to build the systems, build the frameworks, get to escape velocity in those systems and frameworks, then that's when you earn the right to pass it off",
+    "speaker": "David Heacock",
+    "match_score": 96.2,
+    "verified": true,
+    "char_offset": 27441,
+    "approx_timestamp_s": 1502
+   }
+  },
+  {
+   "lesson": "Newer teams and locations need direct attention because dashboards cannot show whether culture and process understanding are taking hold.",
+   "theme": "operations",
+   "quote": {
+    "text": "that's where your culture is thinest, that's where it'll break, and you can't see it coming on any dashboard.",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 29816,
+    "approx_timestamp_s": 1632
+   }
+  },
+  {
+   "lesson": "Treat business momentum as something to protect, while still fixing the operational issues that could undermine it.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "when you have momentum in business or you have momentum in life, that's when you want to double down, triple down.",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13883,
+    "approx_timestamp_s": 760
+   }
+  },
+  {
+   "lesson": "Build inventory, routing and delivery systems by testing them under pressure, then making them more robust.",
+   "theme": "automation_ai",
+   "quote": {
+    "text": "the only way you're going to build those systems is by ultimately testing them, seeing where they're weak, and making them more robust",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24498,
+    "approx_timestamp_s": 1341
+   }
+  },
+  {
+   "lesson": "Use the CEO role to support employees, understand root problems and remove blockers instead of simply taking over the work.",
+   "theme": "operations",
+   "quote": {
+    "text": "Showing up as a CEO doesn't mean taking over.",
+    "speaker": "David Heacock",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16969,
+    "approx_timestamp_s": 929
+   }
+  }
+ ],
+ "evidence_quality": {
+  "rating": "B",
+  "rationale": "David is a first-hand operator describing his own company, its operating processes and a specific demand surge. He gives many concrete figures, but they are self-reported and the transcript does not independently verify them.",
+  "promotional_conflict": "No sponsor or paid offer is disclosed. David closes by directing viewers to another video on building boring software."
+ },
+ "extraction": {
+  "model": "gpt-6-luna",
+  "extracted_at": "2026-10-22T12:27:24",
+  "cost_usd": 0,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 68,
+   "verified": 68,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}
