@@ -1,0 +1,662 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "apdZbtQjSCI",
+  "title": "The Day I Almost Quit Entrepreneurship",
+  "channel": "Nick Huber - Sweaty Startup",
+  "url": "https://www.youtube.com/watch?v=apdZbtQjSCI",
+  "upload_date": "2026-10-17",
+  "duration_s": 341,
+  "view_count": 289,
+  "transcript_provider": "local_whisper_tiny",
+  "transcript_chars": 5967,
+  "transcript_is_whisper": true
+ },
+ "summary": "Nick Huber (Sweaty Startup) is interviewed about the two times he nearly quit entrepreneurship. The first was in Boston at Storage Squad, a student pick-up and delivery storage business, where a run of truck accidents and a customer-service overload caused a breakdown. The second was his first ground-up self-storage development in New York, which ran about 44% over its $1.7M budget and seven months late. He also describes his path from being broke after investing $500K into storage to about $30K/month by 2020, and says entrepreneurship is not right for 95% of people.",
+ "speakers": [
+  {
+   "name": "Nick Huber",
+   "role": "guest",
+   "description": "Founder of Sweaty Startup, Both Storage, Somewhere.com and RE Cost Seg; self-storage developer and operator"
+  },
+  {
+   "name": "Unnamed host",
+   "role": "host",
+   "description": "Interviewer, name not stated in transcript"
+  }
+ ],
+ "format": "career_story",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Student pick-up and delivery storage (Storage Squad)",
+   "one_liner": "Box-truck pick-up, storage and return of college students' belongings over summer breaks.",
+   "category": "local_service",
+   "business_model": "Per-student seasonal storage and delivery fees",
+   "customer": "College students going home for the summer",
+   "problem": "Students need somewhere to store belongings between semesters without hauling them home.",
+   "offer": "Pick up students' belongings when they leave, store them, and deliver them back.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "Prices not stated in transcript."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "organic_social_content",
+     "details": "Painted the town with sidewalk chalk in Boston, which he says produced about 3,000 customers there.",
+     "quote": {
+      "text": "I painted the town with sidewalk chalk and we got 3,000 customers in Boston.",
+      "speaker": "Nick Huber",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 2008,
+      "approx_timestamp_s": 118
+     }
+    }
+   ],
+   "delivery": "Part-time employees drove box trucks to pick up and deliver items; storage was in rented warehouses (7,000 sq ft plus 20,000 extra sq ft in Boston). It operated across 25 major colleges in 12 states.",
+   "unit_economics_claims": [
+    "Peak of 7,000 students across 12 states and 25 colleges",
+    "200+ part-time employees",
+    "Each accident cost about $5K out of pocket"
+   ],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Sidewalk chalk is physical marketing. Online student-targeted ads or campus partnerships could be added but were not described."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Booking and scheduling could be handled by software, though this wasn't described."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Driving box trucks, loading and warehousing is physical work that needs humans every time."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Seasonal payments could be automated online."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Founder answered calls himself. Chatbots could handle routine queries but peak season delivery problems need humans."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "UK has large university populations and similar student summer storage demand; would need van insurance, a warehouse and staff compliance."
+   },
+   "risks": [
+    "Logistical nightmare with synchronized peak-season demand",
+    "Vehicle accidents and driver errors (wrong fuel, roof ripped off, sideswipe) cost about $5K each",
+    "Refund requests and daily bad Google reviews",
+    "Founder did not know how to delegate",
+    "Geographic spread (e.g. customer in Ithaca, belongings elsewhere) multiplies complexity"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "what we did was pick up and delivery storage for students. So when the students went home, we picked up their stuff.",
+     "speaker": "Nick Huber",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 1363,
+     "approx_timestamp_s": 80
+    },
+    {
+     "text": "We did 7,000 students at our peak in 12 states at 25 major colleges.",
+     "speaker": "Nick Huber",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 1572,
+     "approx_timestamp_s": 92
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Ground-up self-storage development",
+   "one_liner": "Developing self-storage facilities from scratch using investor and bank funding.",
+   "category": "real_estate",
+   "business_model": "Develop and own self-storage facilities, funded by investors and bank debt",
+   "customer": "Self-storage renters; investors as capital partners",
+   "problem": "not stated",
+   "offer": "Self-storage facilities built from the ground up.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "Rental rates not stated."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Investor capital raised for development; the transcript does not describe how tenants were found.",
+     "quote": null
+    }
+   ],
+   "delivery": "Construction and operation of a physical storage facility.",
+   "unit_economics_claims": [
+    "Budget $1.7M, actual cost about $2.45M",
+    "Seven months over schedule",
+    "Borrowed over $1M from bank",
+    "Both Storage now has 65 properties, up from six in 2020"
+   ],
+   "tools": [],
+   "startup_cost": "$1.7M budgeted, about $2.45M actual for first New York facility",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Self-storage tenant acquisition is largely online, but not described in the transcript."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Online rental and contracts are possible."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Development and construction are physical and human-managed; operations can be partly remote."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Recurring rent can be automated."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Routine tenant queries can be handled by software."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Self-storage exists in the UK but planning permission, land costs, business rates and financing differ."
+   },
+   "risks": [
+    "Construction cost overrun of about 44% needing 20% more capital from both investors and bank",
+    "Seven-month delay",
+    "Personal stress from investor and bank exposure"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "we raised a bunch of money on a $1.7 million budget to build a building. And by the time we were done, we spent like $2.45 million.",
+     "speaker": "Nick Huber",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 3788,
+     "approx_timestamp_s": 223
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Cost segregation company (RE Cost Seg)",
+   "one_liner": "Company founded in 2022 offering cost segregation services for real estate.",
+   "category": "b2b_service",
+   "business_model": "not stated",
+   "customer": "not stated",
+   "problem": "not stated",
+   "offer": "Cost segregation (inferred from the name only).",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "not stated",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Not described."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Not described."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Not described."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Not described."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Not described."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 2,
+    "notes": "Cost segregation is a US tax depreciation strategy; the UK has a different capital allowances regime."
+   },
+   "risks": [],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": []
+  },
+  {
+   "local_id": "I4",
+   "name": "Somewhere.com",
+   "one_liner": "A company Huber owns that did not exist in 2020.",
+   "category": "other",
+   "business_model": "not stated",
+   "customer": "not stated",
+   "problem": "not stated",
+   "offer": "not stated",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "not stated",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Not described."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Not described."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Not described."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Not described."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Not described."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Nothing described in the transcript; unknown."
+   },
+   "risks": [],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": []
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Had $500K in the bank in 2016 after five years of the sweaty startup, and put almost all of it into the first self-storage development.",
+   "metric": "other",
+   "value": {
+    "amount": 500000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": "cash invested in first storage development"
+   },
+   "period": "2016",
+   "claimant": "Nick Huber",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "2016, me and my partner had 500K in the bank from running our sweaty startup.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14,
+    "approx_timestamp_s": 0
+   }
+  },
+  {
+   "claim": "Personal income of roughly $30K per month by 2020.",
+   "metric": "revenue",
+   "value": {
+    "amount": 30000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "personal income"
+   },
+   "period": "2020",
+   "claimant": "Nick Huber",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "I would say I was making 30 grand a month or so",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 472,
+    "approx_timestamp_s": 27
+   }
+  },
+  {
+   "claim": "Storage Squad reached 7,000 students at peak.",
+   "metric": "customers",
+   "value": {
+    "amount": 7000,
+    "amount_max": null,
+    "currency": null,
+    "unit": "students",
+    "label": "peak customers"
+   },
+   "period": "peak",
+   "claimant": "Nick Huber",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "We did 7,000 students at our peak in 12 states at 25 major colleges.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1572,
+    "approx_timestamp_s": 92
+   }
+  },
+  {
+   "claim": "About 3,000 customers in Boston from sidewalk chalk marketing.",
+   "metric": "customers",
+   "value": {
+    "amount": 3000,
+    "amount_max": null,
+    "currency": null,
+    "unit": "customers",
+    "label": "Boston customers"
+   },
+   "period": "growth season",
+   "claimant": "Nick Huber",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I painted the town with sidewalk chalk and we got 3,000 customers in Boston.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2008,
+    "approx_timestamp_s": 118
+   }
+  },
+  {
+   "claim": "Each truck accident cost about $5K out of pocket.",
+   "metric": "cost",
+   "value": {
+    "amount": 5000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per accident",
+    "label": "accident cost"
+   },
+   "period": null,
+   "claimant": "Nick Huber",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "each of those accidents cost me five grand out of pocket.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3103,
+    "approx_timestamp_s": 183
+   }
+  },
+  {
+   "claim": "First storage development cost about $2.45M versus a $1.7M budget.",
+   "metric": "cost",
+   "value": {
+    "amount": 2450000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": "actual development cost"
+   },
+   "period": null,
+   "claimant": "Nick Huber",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "by the time we were done, we spent like $2.45 million.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3863,
+    "approx_timestamp_s": 228
+   }
+  },
+  {
+   "claim": "Borrowed over $1M from a bank for the development.",
+   "metric": "cost",
+   "value": {
+    "amount": 1000000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": "bank loan (over)"
+   },
+   "period": null,
+   "claimant": "Nick Huber",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "I had borrowed over a million bucks from a bank.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4138,
+    "approx_timestamp_s": 244
+   }
+  },
+  {
+   "claim": "Both Storage had six properties in 2020 and 65 now.",
+   "metric": "other",
+   "value": {
+    "amount": 65,
+    "amount_max": null,
+    "currency": null,
+    "unit": "properties",
+    "label": "current property count"
+   },
+   "period": "2020 vs now",
+   "claimant": "Nick Huber",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "Both storage had six properties instead of 65 that they have now",
+    "speaker": "Interviewer",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 733,
+    "approx_timestamp_s": 43
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Hyperlocal chalk marketing to students",
+   "area": "acquisition",
+   "steps": [
+    "Use sidewalk chalk around the target city/campus to advertise the service",
+    "Target the period when students are leaving for summer",
+    "Claimed result: about 3,000 customers in Boston"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I painted the town with sidewalk chalk and we got 3,000 customers in Boston.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2008,
+    "approx_timestamp_s": 118
+   }
+  },
+  {
+   "name": "Raise capital in stages and prepare for overruns",
+   "area": "finance",
+   "steps": [
+    "Raise investor money against a build budget",
+    "Expect overruns: this project needed about 20% more from investors and about 20% more from the bank",
+    "Communicate directly with investors by Zoom when going back for more money"
+   ],
+   "idea_local_id": "I2",
+   "quote": null
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Zoom",
+   "purpose": "Calls with investors and for staff terminations",
+   "cost_stated": null
+  },
+  {
+   "name": "Google reviews",
+   "purpose": "Customer reviews that turned negative during the operational failures",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Seasonal logistics businesses with 200+ part-time drivers can fail badly at peak when everything happens at once; delegation and systems are needed before scaling.",
+   "quote": {
+    "text": "I didn't know how to delegate, I didn't know how to run a company.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2854,
+    "approx_timestamp_s": 168
+   }
+  },
+  {
+   "warning": "Construction budgets can overrun heavily (about 44% here) and force going back to investors and banks for more money.",
+   "quote": {
+    "text": "I had to go back to my investors and ask for 20% more money. I had to go back to the bank and ask for 20% more money.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3918,
+    "approx_timestamp_s": 231
+   }
+  },
+  {
+   "warning": "Public stories hide the failures and stress; entrepreneurship is not right for most people.",
+   "quote": {
+    "text": "entrepreneurship is not the right path for 95% of people.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5718,
+    "approx_timestamp_s": 337
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Founders who cannot delegate or build systems become the bottleneck, answering customer service themselves, and growth amplifies the breakdowns.",
+   "theme": "operations",
+   "quote": {
+    "text": "I'm the one answering customer service calls. I didn't know how to delegate, I didn't know how to run a company.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2809,
+    "approx_timestamp_s": 165
+   }
+  },
+  {
+   "lesson": "Physical, seasonal, high-headcount logistics businesses are fragile: a few operational errors in days can threaten the whole business and its reputation.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "it was a logistical nightmare business.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1533,
+    "approx_timestamp_s": 90
+   }
+  },
+  {
+   "lesson": "Reinvesting nearly all cash into one big project can return you to zero financial cushion and raise the stakes of any overrun.",
+   "theme": "finance_unit_economics",
+   "quote": {
+    "text": "we put every bit of it into that first self-storage development. So then we were broke again, totally broke.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 123,
+    "approx_timestamp_s": 7
+   }
+  },
+  {
+   "lesson": "Budget a contingency for construction or development; a first project can exceed budget by over 40% and run months late.",
+   "theme": "finance_unit_economics",
+   "quote": null
+  },
+  {
+   "lesson": "Earnings correlate with the stress you can endure; building resilience for hard decisions such as firing long-time staff is part of the job.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "the amount of money that you make is directly correlated to the amount of stress that you can endure.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5015,
+    "approx_timestamp_s": 296
+   }
+  },
+  {
+   "lesson": "Success compounds slowly over many years: from broke in 2016 to about $30K/month in 2020 and a much larger portfolio later.",
+   "theme": "scaling",
+   "quote": null
+  },
+  {
+   "lesson": "Public narratives skew toward wins; expect the unglamorous and traumatic parts and be honest about whether you want them.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "people talk about all the good stuff that they've done. But I've been humbled by entrepreneurship.",
+    "speaker": "Nick Huber",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4321,
+    "approx_timestamp_s": 255
+   }
+  }
+ ],
+ "evidence_quality": {
+  "rating": "B",
+  "rationale": "First-hand account from an operator with specific figures (budget, overrun, accident costs, customer counts), but it is a short, anecdotal interview with no process detail, little unit economics, and Whisper-tiny transcription may have errors. Little actionable business-model detail.",
+  "promotional_conflict": "Huber sells courses and runs Sweaty Startup, Somewhere.com and other businesses, and references selling courses online."
+ },
+ "extraction": {
+  "model": "claude-sonnet-5-5",
+  "extracted_at": "2026-10-22T05:07:05",
+  "cost_usd": 0.0681822,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 21,
+   "verified": 21,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

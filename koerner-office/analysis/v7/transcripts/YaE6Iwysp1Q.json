@@ -1,0 +1,879 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "YaE6Iwysp1Q",
+  "title": "I Built a Clothing Brand From $0 in One Weekend (FREE COURSE)",
+  "channel": "George McConnell",
+  "url": "https://www.youtube.com/watch?v=YaE6Iwysp1Q",
+  "upload_date": "2026-09-16",
+  "duration_s": 3061,
+  "view_count": 46024,
+  "transcript_provider": "cached",
+  "transcript_chars": 53739,
+  "transcript_is_whisper": false
+ },
+ "summary": "George McConnell, a seller who claims 800,000+ products sold online, demonstrates building a clothing brand ('Unloved') in a weekend using TapStitch print-on-demand apparel (sponsor/partner) and Claude plus ChatGPT/Gemini to generate a landing page and imagery. He argues that lifestyle aesthetics and target audience set price points, and that TapStitch's heavyweight, custom-label and denim products give better margins than typical POD. The workflow outputs HTML files that can be migrated to Shopify/BigCommerce/Wix and linked to TapStitch for pay-per-order fulfilment. The key takeaway is that a branded store can be launched near-free, but the video is largely a promotion for TapStitch and no sales results are shown.",
+ "speakers": [
+  {
+   "name": "George McConnell",
+   "role": "host",
+   "description": "E-commerce seller and media company owner; claims 800,000+ products sold and past work for Samsung and Sharp."
+  }
+ ],
+ "format": "tutorial_howto",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Lifestyle clothing brand on TapStitch print-on-demand",
+   "one_liner": "Launch a premium apparel brand with TapStitch fulfilling heavyweight custom pieces on demand, sold through a Claude-built storefront.",
+   "category": "ecommerce_physical",
+   "business_model": "One-off product sales of branded apparel; margin between TapStitch cost and retail price; no inventory held.",
+   "customer": "Style-led consumers in a chosen lifestyle niche (streetwear, gifting buyers, athletic/fitness), US-focused in examples.",
+   "problem": "Generic print-on-demand products are low quality, unbranded and low margin; most new brands focus on logos instead of lifestyle positioning.",
+   "offer": "Premium heavyweight apparel (polo, quarter-zip, fleece hoodie, tees, shorts, denim) with custom tags, necklines and packaging inserts, sold under a lifestyle-led brand.",
+   "pricing": {
+    "model": "Retail price set by lifestyle positioning, with tees possibly $30 or $300 depending on brand image.",
+    "price_points": [
+     {
+      "amount": 80,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per unit",
+      "label": "Heavyweight polo suggested retail"
+     },
+     {
+      "amount": 100,
+      "amount_max": 120,
+      "currency": "USD",
+      "unit": "per unit",
+      "label": "Custom denim jeans suggested retail"
+     },
+     {
+      "amount": 30,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per unit",
+      "label": "Young LA shirt (example)"
+     },
+     {
+      "amount": 130,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per unit",
+      "label": "Aloe leggings (example)"
+     },
+     {
+      "amount": 8,
+      "amount_max": 12,
+      "currency": "USD",
+      "unit": "per unit",
+      "label": "TapStitch activewear cost"
+     },
+     {
+      "amount": 15,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per unit",
+      "label": "TapStitch leggings one-piece price shown"
+     }
+    ],
+    "notes": "TapStitch wholesale prices for the featured items are not stated; retail prices are the host's suggestions."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "organic_social_content",
+     "details": "Lifestyle imagery and lookbook photos for Instagram/TikTok scrolling; the brand vibe is meant to get customers posting and talking about it.",
+     "quote": {
+      "text": "That's what's going to get the person into your store and that's what's going to get you that purchase.",
+      "speaker": "George McConnell",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 17663,
+      "approx_timestamp_s": 1041
+     }
+    },
+    {
+     "channel": "marketplace_platform",
+     "details": "TapStitch integrates with Shopify, TikTok, Etsy, Squarespace, BigCommerce, ShopLazza, WooCommerce and Wix, so products can be sold on Etsy and TikTok Shop as well as an own site.",
+     "quote": null
+    },
+    {
+     "channel": "existing_audience",
+     "details": "Insert cards in packages to capture emails and drive repeat purchases (VIP marketing).",
+     "quote": null
+    }
+   ],
+   "delivery": "TapStitch ships each order directly to the customer, paid only when a customer buys, with optional US fulfilment, custom hang tags, necklines and branded packaging; the seller builds the storefront and links products.",
+   "unit_economics_claims": [
+    "Heavyweight polo can sell for about $80 (cost not stated)",
+    "Custom denim sells for around $100-120 with a better margin",
+    "Activewear cost of $8-$12 vs Aloe retail of $130 per leggings",
+    "Brand can be launched for $0 using free tiers"
+   ],
+   "tools": [
+    "TapStitch",
+    "Claude",
+    "ChatGPT",
+    "Gemini",
+    "Wix",
+    "Shopify",
+    "BigCommerce",
+    "Etsy",
+    "TikTok Shop"
+   ],
+   "startup_cost": "Claimed $0 using free Claude, Wix free tier and TapStitch pay-per-order; sample orders and domain/store fees not counted.",
+   "time_to_first_revenue": "not stated (store build claimed to take one weekend; no sales shown)",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Content, ads and marketplace listings are largely agent-producible (image prompts, copy, lookbook posts), but brand taste and social posting need routine human checks."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Shopper checkout and TapStitch order sync are automatic once the store is linked; only initial product setup needs a human."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "TapStitch prints and ships on demand with no inventory; the seller only handles exceptions and quality issues."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Storefront payments and TapStitch charging per order are automated software flows."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "An agent can handle order status and FAQs, but returns, defects and shipping problems with a POD supplier need occasional human escalation."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "TapStitch lets sellers deliver to the UK and the platforms are global; UK sellers need to handle VAT, UK consumer returns rules, and likely UK/EU shipping times and duties; examples and prices are US-centric."
+   },
+   "risks": [
+    "Heavy reliance on a single sponsor/supplier whose quality claims are unverified by the viewer",
+    "Saturated apparel market with high ad costs; no sales proof shown",
+    "Brand-name and trademark clashes (e.g. 'Unloved') were not checked",
+    "Returns, sizing and quality control sit with the seller",
+    "Shipping times and duties from overseas fulfilment centres"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "What matters is the aesthetics that you're showcasing to your customer. The vibe, the lifestyle, that's actually what sells the product.",
+     "speaker": "George McConnell",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 1382,
+     "approx_timestamp_s": 81
+    },
+    {
+     "text": "you don't have to pay for a bulk amount of items. You could pay as people actually purchase.",
+     "speaker": "George McConnell",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 18266,
+     "approx_timestamp_s": 1077
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "AI-built custom storefront landing page (Claude)",
+   "one_liner": "Use Claude with a detailed prompt and references to generate an HTML brand landing page and export files for Shopify/BigCommerce/Wix.",
+   "category": "ai_automation",
+   "business_model": "Workflow technique to avoid paying for themes or developers; not sold as a product in the video.",
+   "customer": "Brand owners launching an online store.",
+   "problem": "Generic templates (e.g. ThemeForest) make stores look the same, and hiring developers costs money.",
+   "offer": "Prompt Claude with brand colours, typography, product links and reference sites; iterate in the live preview; generate AI images via ChatGPT/Gemini; export HTML/CSS/JS plus a PDF build guide.",
+   "pricing": {
+    "model": "Free Claude tier suggested (host pays $100-200 per month for his own plan).",
+    "price_points": [
+     {
+      "amount": 100,
+      "amount_max": 200,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "Host's Claude plan"
+     }
+    ],
+    "notes": "The host also offers his prompt for free via comments."
+   },
+   "acquisition_channels": [],
+   "delivery": "Claude generates code and image prompts; user generates images in ChatGPT/Gemini, uploads them and iterates; export files are handed to a media team or uploaded to the store platform.",
+   "unit_economics_claims": [
+    "Free tier means $0 website cost"
+   ],
+   "tools": [
+    "Claude",
+    "ChatGPT",
+    "Gemini",
+    "Wix",
+    "BigCommerce"
+   ],
+   "startup_cost": "$0 on free tiers",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 0,
+     "how": "No customer acquisition; it is a build technique."
+    },
+    "onboarding": {
+     "score_e": 0,
+     "how": "Not applicable."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Agents generate the site and images, but a human has to review the design, upload assets and fix links."
+    },
+    "billing": {
+     "score_e": 0,
+     "how": "Not applicable."
+    },
+    "support": {
+     "score_e": 0,
+     "how": "Not applicable."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Tools are available in the UK and the technique is location-independent."
+   },
+   "risks": [
+    "Output needs many corrections and manual asset handling on the free tier",
+    "Landing page alone is not a working store; catalogue pages and checkout links must still be built"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "It's like having a beta site without needing to go through all the work of knowing how to create a beta site.",
+     "speaker": "George McConnell",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 28045,
+     "approx_timestamp_s": 1654
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Custom denim line via TapStitch",
+   "one_liner": "Sell custom-printed/branded heavyweight denim jeans, which the host says no other POD supplier fulfils.",
+   "category": "ecommerce_physical",
+   "business_model": "One-off product sales at a higher margin.",
+   "customer": "Style-conscious buyers wanting premium jeans.",
+   "problem": "Few brands offer custom jeans via print on demand, so there is little competition.",
+   "offer": "Heavyweight straight-leg denim with the brand's logo.",
+   "pricing": {
+    "model": "Retail $100-120+ suggested",
+    "price_points": [
+     {
+      "amount": 100,
+      "amount_max": 120,
+      "currency": "USD",
+      "unit": "per unit",
+      "label": "Suggested jeans retail"
+     }
+    ],
+    "notes": "Supplier cost not stated."
+   },
+   "acquisition_channels": [],
+   "delivery": "Fulfilled by TapStitch on demand.",
+   "unit_economics_claims": [
+    "Custom jeans sell at $100 all day"
+   ],
+   "tools": [
+    "TapStitch"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Same content and ad channels as the main brand."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Automated order sync."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Supplier ships on demand."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Automated payments."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Sizing and fit returns need human handling."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "UK delivery is available; sizing/returns and VAT apply."
+   },
+   "risks": [
+    "Claim of no competitors is unverified",
+    "Denim fit returns are costly"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "custom jeans like this, they sell at $100 all day. See, that's a completely different margin.",
+     "speaker": "George McConnell",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 14099,
+     "approx_timestamp_s": 831
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "Activewear brand on TapStitch",
+   "one_liner": "Resell TapStitch activewear at premium prices versus Aloe/Lululemon-style brands.",
+   "category": "ecommerce_physical",
+   "business_model": "One-off product sales with a large cost-to-retail gap.",
+   "customer": "Fitness and active-lifestyle consumers.",
+   "problem": "Premium activewear is expensive; comparable quality can be sourced cheaply.",
+   "offer": "White-labelled leggings and activewear, claimed indistinguishable from Aloe in a blind test.",
+   "pricing": {
+    "model": "Retail positioned near premium brands",
+    "price_points": [
+     {
+      "amount": 8,
+      "amount_max": 12,
+      "currency": "USD",
+      "unit": "per unit",
+      "label": "Host's cost per activewear item"
+     },
+     {
+      "amount": 130,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per unit",
+      "label": "Aloe leggings retail"
+     }
+    ],
+    "notes": "Covered in a separate video."
+   },
+   "acquisition_channels": [],
+   "delivery": "TapStitch ships in about 7 days per the host.",
+   "unit_economics_claims": [
+    "$8-12 cost vs $130 Aloe retail"
+   ],
+   "tools": [
+    "TapStitch"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Content and ads."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Automated."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Supplier ships."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Automated."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Returns need a human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "UK delivery supported; VAT and returns rules apply."
+   },
+   "risks": [
+    "Blind-test claim is anecdotal and sponsor-related"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "when you're getting it for, you know, about $8 to $12 depending on which one you get, look at that price gap there.",
+     "speaker": "George McConnell",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 16746,
+     "approx_timestamp_s": 987
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "Custom branding and packaging inserts",
+   "one_liner": "Use custom tags, necklines and insert cards to make POD orders feel like a real brand and collect emails.",
+   "category": "ecommerce_physical",
+   "business_model": "Retention tactic that raises repeat purchases and perceived value.",
+   "customer": "Apparel brand owners.",
+   "problem": "Generic POD orders arrive in plain poly mailers with no branding.",
+   "offer": "TapStitch custom branding: tags, necklines and packaging with insert cards.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "Applied by TapStitch at fulfilment.",
+   "unit_economics_claims": [],
+   "tools": [
+    "TapStitch"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Insert cards drive email capture and repeat sales."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Upload branding once."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Done at fulfilment."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Automated."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Human for issues."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Collecting emails requires UK GDPR/PECR consent."
+   },
+   "risks": [
+    "Added per-unit costs not stated"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "This is how you're gathering emails. This is how you're gathering customers VIP",
+     "speaker": "George McConnell",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 48767,
+     "approx_timestamp_s": 2876
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Host has sold over 800,000 products online.",
+   "metric": "customers",
+   "value": {
+    "amount": 800000,
+    "currency": null,
+    "unit": "products sold"
+   },
+   "period": null,
+   "claimant": "George McConnell",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "I've sold over 800,000 products online.",
+    "speaker": "George McConnell",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 271,
+    "approx_timestamp_s": 15
+   }
+  },
+  {
+   "claim": "Heavyweight polo can be sold for about $80.",
+   "metric": "price",
+   "value": {
+    "amount": 80,
+    "currency": "USD",
+    "unit": "per unit"
+   },
+   "period": null,
+   "claimant": "George McConnell",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "which you can easily sell all day for 80 bucks, like some of those top brands that you see in the stores.",
+    "speaker": "George McConnell",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6666,
+    "approx_timestamp_s": 393
+   }
+  },
+  {
+   "claim": "Custom jeans sell at about $100.",
+   "metric": "price",
+   "value": {
+    "amount": 100,
+    "currency": "USD",
+    "unit": "per unit"
+   },
+   "period": null,
+   "claimant": "George McConnell",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "custom jeans like this, they sell at $100 all day.",
+    "speaker": "George McConnell",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14099,
+    "approx_timestamp_s": 831
+   }
+  },
+  {
+   "claim": "Aloe sells leggings for $130 each.",
+   "metric": "price",
+   "value": {
+    "amount": 130,
+    "currency": "USD",
+    "unit": "per unit"
+   },
+   "period": null,
+   "claimant": "George McConnell",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "Aloe sells their leggings for $130 a piece.",
+    "speaker": "George McConnell",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16701,
+    "approx_timestamp_s": 985
+   }
+  },
+  {
+   "claim": "TapStitch activewear costs about $8-12 per item.",
+   "metric": "cost",
+   "value": {
+    "amount": 8,
+    "amount_max": 12,
+    "currency": "USD",
+    "unit": "per unit"
+   },
+   "period": null,
+   "claimant": "George McConnell",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "you're getting it for, you know, about $8 to $12 depending on which one you get",
+    "speaker": "George McConnell",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16751,
+    "approx_timestamp_s": 987
+   }
+  },
+  {
+   "claim": "Young LA shirts are about $30 while Aloe leggings are $130 for a similar customer.",
+   "metric": "price",
+   "value": {
+    "amount": 30,
+    "currency": "USD",
+    "unit": "per unit"
+   },
+   "period": null,
+   "claimant": "George McConnell",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "$30 a shirt. Aloe, $130 for a pair of leggings.",
+    "speaker": "George McConnell",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4648,
+    "approx_timestamp_s": 274
+   }
+  },
+  {
+   "claim": "TapStitch delivered activewear in 7 days vs 15 days for Vuori.",
+   "metric": "hours",
+   "value": {
+    "amount": 7,
+    "currency": null,
+    "unit": "days"
+   },
+   "period": null,
+   "claimant": "George McConnell",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "it takes 15 days for those things to arrive. And I got my last package for the active wear within 7 days.",
+    "speaker": "George McConnell",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16920,
+    "approx_timestamp_s": 997
+   }
+  },
+  {
+   "claim": "A one-piece legging item is $15 on TapStitch.",
+   "metric": "cost",
+   "value": {
+    "amount": 15,
+    "currency": "USD",
+    "unit": "per unit"
+   },
+   "period": null,
+   "claimant": "George McConnell",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "if I click on these leggings right here, as you can see, one piece is $15.",
+    "speaker": "George McConnell",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 47437,
+    "approx_timestamp_s": 2797
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Pick a lifestyle before a logo",
+   "area": "product",
+   "steps": [
+    "Choose the lifestyle and target customer first, since vibe determines whether a shirt sells at $30 or $100+",
+    "Shoot all imagery to match that single lifestyle (e.g. gym vs beach/Pilates)",
+    "Do not mix aesthetics for different consumers in one brand"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "you need to understand first what type of lifestyle that person's looking for and then put your product in that lifestyle.",
+    "speaker": "George McConnell",
+    "match_score": 95.0,
+    "verified": true,
+    "char_offset": 4891,
+    "approx_timestamp_s": 288
+   }
+  },
+  {
+   "name": "Prompt Claude for a branded landing page",
+   "area": "product",
+   "steps": [
+    "Write a long prompt including product links, reference websites, colours, typography and brand name",
+    "Review the live preview and request specific changes (remove sections, change text colour, three items instead of six)",
+    "Ask Claude for image prompts, generate images in ChatGPT/Gemini and feed them back",
+    "Ask for HTML/CSS/JS files plus a PDF build guide, then point links to the real store pages"
+   ],
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "you always want to give it a reference. You always want to say, \"This website here is something that I like.",
+    "speaker": "George McConnell",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20233,
+    "approx_timestamp_s": 1193
+   }
+  },
+  {
+   "name": "Connect store to TapStitch for pay-per-order fulfilment",
+   "area": "operations",
+   "steps": [
+    "Connect TapStitch to Shopify, Etsy, TikTok, Wix, BigCommerce or similar",
+    "Create products in the store linked to TapStitch items",
+    "Orders flow into TapStitch automatically and are fulfilled without holding inventory"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Use packaging inserts to build an email list",
+   "area": "acquisition",
+   "steps": [
+    "Upload custom tags, necklines and packaging",
+    "Include an insert card encouraging customers to join a VIP list",
+    "Market to them again for repeat purchases"
+   ],
+   "idea_local_id": "I5",
+   "quote": null
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "TapStitch",
+   "purpose": "Print-on-demand apparel supplier with custom branding and store integrations",
+   "cost_stated": "Leggings one piece $15 shown; activewear about $8-12"
+  },
+  {
+   "name": "Claude",
+   "purpose": "Generate the landing page code and image prompts",
+   "cost_stated": "Free tier works; host pays $100-200 per month"
+  },
+  {
+   "name": "ChatGPT",
+   "purpose": "Generate product/lifestyle images",
+   "cost_stated": null
+  },
+  {
+   "name": "Gemini",
+   "purpose": "Backup image generation",
+   "cost_stated": null
+  },
+  {
+   "name": "Shopify",
+   "purpose": "Ecommerce storefront integration",
+   "cost_stated": null
+  },
+  {
+   "name": "BigCommerce",
+   "purpose": "Ecommerce storefront integration (no free version)",
+   "cost_stated": null
+  },
+  {
+   "name": "Wix",
+   "purpose": "Website builder with a free tier",
+   "cost_stated": "free version"
+  },
+  {
+   "name": "Etsy",
+   "purpose": "Marketplace integration",
+   "cost_stated": null
+  },
+  {
+   "name": "TikTok Shop",
+   "purpose": "Marketplace integration",
+   "cost_stated": null
+  },
+  {
+   "name": "Squarespace, ShopLazza, WooCommerce",
+   "purpose": "Other TapStitch-supported store integrations",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Telling Claude only 'build me a website' yields a basic generic result; supply detailed references.",
+   "quote": {
+    "text": "If you just say something like build a website, it doesn't have any reference.",
+    "speaker": "George McConnell",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20646,
+    "approx_timestamp_s": 1217
+   }
+  },
+  {
+   "warning": "Plain unbranded poly-mailer POD orders make customers wonder what they received and hurt the brand.",
+   "quote": null
+  },
+  {
+   "warning": "Expect many revisions when using AI; the process is not instant.",
+   "quote": {
+    "text": "Don't think that something that you see online where they're just instantly saying do this, do that, and boom, it's all done.",
+    "speaker": "George McConnell",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 29638,
+    "approx_timestamp_s": 1748
+   }
+  },
+  {
+   "warning": "AI-suggested brand names may be inappropriate or unusable and need human review and trademark checks.",
+   "quote": null
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Positioning and lifestyle imagery drive price more than product alone; the same apparel category can sell at $30 or $130+ depending on brand image.",
+   "theme": "offer_design",
+   "quote": {
+    "text": "That also is what determines if that product's $30 for a t-shirt or $300 for a t-shirt.",
+    "speaker": "George McConnell",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1515,
+    "approx_timestamp_s": 89
+   }
+  },
+  {
+   "lesson": "Choose differentiated products (heavier fabric, extended sizing up to 3XL, denim) where competitors are thin to protect margin.",
+   "theme": "niche_selection",
+   "quote": null
+  },
+  {
+   "lesson": "Pay-per-order print on demand removes inventory risk and keeps startup cost near zero, but also caps differentiation and margin.",
+   "theme": "finance_unit_economics",
+   "quote": null
+  },
+  {
+   "lesson": "AI tools can replace theme purchases or developers for landing pages, but iteration, asset handling and testing remain human work.",
+   "theme": "automation_ai",
+   "quote": null
+  },
+  {
+   "lesson": "Detailed context (references, colours, typography, links) is the main lever in getting usable output from AI builders.",
+   "theme": "automation_ai",
+   "quote": null
+  },
+  {
+   "lesson": "First impressions on a store matter; visitors leave within seconds if it doesn't look high-value.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "you're going to be off of that website within 5 seconds.",
+    "speaker": "George McConnell",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23913,
+    "approx_timestamp_s": 1410
+   }
+  },
+  {
+   "lesson": "Branded unboxing and insert cards support repeat purchases and list building, subject to UK GDPR consent in the UK.",
+   "theme": "scaling",
+   "quote": null
+  },
+  {
+   "lesson": "Treat sponsored 'launch for $0' claims sceptically: a demonstrated landing page is not proof of sales, and ad and sample costs are omitted.",
+   "theme": "validation_testing",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "C",
+  "rationale": "Sponsored product demo with no sales results, a hypothetical $0 launch claim and subjective quality assessments; only the 800,000 products claim is first-hand and it is unverified.",
+  "promotional_conflict": "Video is built around TapStitch (apparently a partner/sponsor), and the host offers his Claude prompt for free in comments (lead capture)."
+ },
+ "extraction": {
+  "model": "claude-sonnet-5-5",
+  "extracted_at": "2026-10-22T05:10:07",
+  "cost_usd": 0.1518342,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 21,
+   "verified": 21,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

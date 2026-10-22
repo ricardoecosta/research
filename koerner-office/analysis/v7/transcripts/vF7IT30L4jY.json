@@ -1,0 +1,1065 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "vF7IT30L4jY",
+  "title": "He Tried an Idea From My Video and Made $46k in One Month",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=vF7IT30L4jY",
+  "upload_date": "2025-12-07",
+  "duration_s": 2690,
+  "view_count": 133852,
+  "transcript_provider": "ok",
+  "transcript_chars": 41934,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner interviews Hunter (Rogersville, near Springfield, Missouri), who started a parking-lot line striping and seal coating business after hearing an earlier Koerner Office episode with Sinko. In his first two months he claims about $22.9k then $46.8k in revenue (just under $50k total), roughly $20k net profit, on about $3k startup cost. Customers came mainly from a single cold email to about 300 Springfield churches (claimed 7-12% response), followed by in-person quotes. Key lessons: offer both striping and seal coating, show up in person, hire help early, and buy reliable equipment.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Host of The Koerner Office podcast"
+  },
+  {
+   "name": "Hunter",
+   "role": "guest",
+   "description": "Founder of 417 Striping and Sealing, Rogersville, Missouri; surname given as Shenwork in the auto-caption"
+  }
+ ],
+ "format": "operator_interview",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Parking lot seal coating and line striping for churches and businesses",
+   "one_liner": "Mobile B2B service that stripes, seal coats and crack-fills commercial parking lots, with churches as the main customers found via cold email.",
+   "category": "b2b_service",
+   "business_model": "Per-job service fees for striping, seal coating and crack filling",
+   "customer": "Churches (mostly), a Taco Bell franchisee, other businesses with larger parking lots; property managers and construction companies mentioned as alternatives",
+   "problem": "Asphalt lots fade, crack and lose their lines; churches and businesses need them refreshed every 3-5 years but do this infrequently and don't know fair prices",
+   "offer": "Line striping (stalls, handicap spots, stencils), seal coating (thin asphalt-based layer by squeegee or spray) and crack filling, bundled as one provider",
+   "pricing": {
+    "model": "Per line and per stencil for striping; per-job quotes for seal coating",
+    "price_points": [
+     {
+      "amount": 450,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per line (first job charge)",
+      "label": "Striping per line"
+     },
+     {
+      "amount": 20,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per stencil",
+      "label": "Blue and white handicap stencil"
+     },
+     {
+      "amount": 10,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per stencil",
+      "label": "Parking or directional arrow stencil"
+     },
+     {
+      "amount": 1000,
+      "amount_max": 2000,
+      "currency": "USD",
+      "unit": "per job",
+      "label": "Striping-only job"
+     },
+     {
+      "amount": 10000,
+      "amount_max": 20000,
+      "currency": "USD",
+      "unit": "per job",
+      "label": "Church seal coating job"
+     },
+     {
+      "amount": 500,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "minimum charge",
+      "label": "Typical minimum charge for small striping jobs"
+     }
+    ],
+    "notes": "Pricing came from Facebook groups, Sinko's shared info and asking Grok/ChatGPT. Hunter says he still does not know ideal pricing and wants to test new offers in spring."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "cold_email",
+     "details": "Paid an Upwork freelancer about $5-6 for a list of 300+ Springfield churches, mostly info@ catch-all addresses; sent one unvalidated email with no follow-up, offering a striping discount. Claims 7% responses, possibly ~12% counting non-quote replies; ~20 quotes. Repeated for a Texas church list: ~100 emails, 4-5 quotes. Emails went to organisations, not individuals.",
+     "quote": {
+      "text": "I paid someone on Upwork five or six bucks to compile a list of all the churches in Springfield.",
+      "speaker": "Hunter",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 18631,
+      "approx_timestamp_s": 1261
+     }
+    },
+    {
+     "channel": "referrals_word_of_mouth",
+     "details": "Three Taco Bell locations came from a franchisee Hunter already knew.",
+     "quote": null
+    },
+    {
+     "channel": "facebook_groups_communities",
+     "details": "Posted in a private 11,000-member town Facebook group offering free striping for a community vote; ~200 votes, led to one tiny free nonprofit job (5 lines) and a few quotes but no paid jobs.",
+     "quote": {
+      "text": "I just made a Facebook post in my town's Facebook page. I said, \"Hey, I want to give back.",
+      "speaker": "Hunter",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 5398,
+      "approx_timestamp_s": 365
+     }
+    },
+    {
+     "channel": "door_to_door_in_person",
+     "details": "Two afternoons of door-to-door in Springfield; could not reach owners, only low-paid staff, so abandoned.",
+     "quote": {
+      "text": "I think I spent two afternoons doing that, and it was just terrible.",
+      "speaker": "Hunter",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 12514,
+      "approx_timestamp_s": 847
+     }
+    },
+    {
+     "channel": "seo_organic_search",
+     "details": "Planned for winter: website rebuild and Google ranking, since few competitors focus on this market. Google Business Profile currently suspended.",
+     "quote": null
+    }
+   ],
+   "delivery": "Hunter quotes in person, then does or oversees the work with hourly part-time staff (church acquaintances, teenagers). Physical on-site work with striping machines, seal coating equipment and crack-filling torches.",
+   "unit_economics_claims": [
+    "Month 1 (27 Sep-31 Oct): 4 jobs, $22,874 revenue",
+    "November: 7 jobs, $46,825 revenue",
+    "Striping paint ~20% of job cost, 75-80% margin when working alone",
+    "Seal coating margin 30-40% after labour",
+    "~$20k net profit on just under $50k sales in two months",
+    "~$200k in outstanding quotes for spring",
+    "Startup cost ~$3,000"
+   ],
+   "tools": [
+    "QuoteIQ",
+    "1800 Stencil",
+    "Upwork",
+    "Facebook groups",
+    "Grok / ChatGPT"
+   ],
+   "startup_cost": "About $3,000: $2,300 used striping machine, $800 stencils, ~$230 insurance (the listed items sum to slightly more)",
+   "time_to_first_revenue": "Roughly 2-3 months after buying the machine in July; first (free) job early Sept, first paid job 27 Sept",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Church list building and cold email to organisations can be automated and is PECR-legal for churches/companies, but churches may be charities or unincorporated, so check; closing needed in-person quote visits."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "Site visits, measuring and board approval processes require a human; quotes can be sent via QuoteIQ."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical work with machines on site; staff are needed every job."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Invoicing and quoting software can handle most of it with routine checks."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Scheduling around church services and handling breakdowns needs a human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Parking lot maintenance exists in the UK (car park line marking, tarmac sealing) but UK climate means less seal coating demand than Missouri/Texas, 'churches' list approach may differ, and cold email to church bodies must respect PECR (charities/sole traders). Prices, insurance and licensing differ; cheap used equipment and 'free lots' marketing would need adapting."
+   },
+   "risks": [
+    "Equipment breakdowns on tight deadlines",
+    "Fire risk from weed torch during crack filling",
+    "Long sales cycles because churches need board approval",
+    "Seasonal winter shutdown",
+    "Google Business Profile suspension",
+    "Selling outbound without credibility/experience lost early quotes",
+    "Revenue figures are self-reported and short-period"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "First month I had four jobs and my revenue was 22,874.",
+     "speaker": "Hunter",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 1337,
+     "approx_timestamp_s": 90
+    },
+    {
+     "text": "And then in November, I had seven jobs and my revenue was 46,825.",
+     "speaker": "Hunter",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 1552,
+     "approx_timestamp_s": 105
+    },
+    {
+     "text": "When we're doing like a $1,500 or $2,000 striping job, we're we're doing a $10 to $20,000 seal coating job.",
+     "speaker": "Hunter",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 13417,
+     "approx_timestamp_s": 908
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Pure line striping for new construction",
+   "one_liner": "Stand-alone striping, best sold to construction companies striping new lots, and in Texas where lots fade in the sun.",
+   "category": "b2b_service",
+   "business_model": "Per-job service fees",
+   "customer": "Construction companies, property managers",
+   "problem": "New and sun-faded parking lots need lines painted",
+   "offer": "Line striping only",
+   "pricing": {
+    "model": "Per job",
+    "price_points": [
+     {
+      "amount": 1000,
+      "amount_max": 2000,
+      "currency": "USD",
+      "unit": "per job",
+      "label": "Striping-only average"
+     }
+    ],
+    "notes": "Hunter says striping-only jobs average $1-2k."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "partnerships",
+     "details": "Hunter suggests contacting construction companies rather than churches or property managers if only striping.",
+     "quote": null
+    }
+   ],
+   "delivery": "On-site physical work with striping machine.",
+   "unit_economics_claims": [
+    "Paint ~20% of job cost, 75-80% margin working alone"
+   ],
+   "tools": [],
+   "startup_cost": "Striper $2,300 used, ~$10,000 new, $25,000 for a rental-grade setup",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Construction relationships are mostly human-led."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "Site measurement needed."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical work."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Standard invoicing."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Human coordination."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Car park line marking is a normal UK trade; sun fading less important."
+   },
+   "risks": [
+    "Machine reliability",
+    "Smaller job sizes than seal coating"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "forget outreach to church forget outreach to to property managers talk to construction companies because you're going to be striping the new lots",
+     "speaker": "Hunter",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 29219,
+     "approx_timestamp_s": 1978
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Residential driveway seal coating",
+   "one_liner": "Possible side offer to fill crew down days with driveway seal coating, maybe promoted with ads.",
+   "category": "home_service",
+   "business_model": "Per-job service fees",
+   "customer": "Homeowners",
+   "problem": "Worn driveways",
+   "offer": "Seal coating driveways",
+   "pricing": {
+    "model": "Per job",
+    "price_points": [
+     {
+      "amount": 2000,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per job",
+      "label": "Large driveway seal coating, approx 'a couple thousand'"
+     }
+    ],
+    "notes": "Hunter's rough guess."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "paid_social",
+     "details": "Ads offering discounts on down days to keep crew busy.",
+     "quote": null
+    }
+   ],
+   "delivery": "Physical on-site work.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Paid ads and landing pages are automatable."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Online booking possible."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical work."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Online payments."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Mostly scheduling."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "UK driveways are usually sealed with different products; the US-style tar seal coat is less common."
+   },
+   "risks": [
+    "Not planned as a main focus"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "It's a big driveway, maybe a couple thousand bucks for seal coating.",
+     "speaker": "Hunter",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 39098,
+     "approx_timestamp_s": 2647
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "Residential window cleaning/installation with paid ads",
+   "one_liner": "Alternative idea Hunter considered: residential windows with paid ads.",
+   "category": "home_service",
+   "business_model": "Per-job",
+   "customer": "Homeowners",
+   "problem": "not stated",
+   "offer": "Windows in residential homes",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "paid_search",
+     "details": "Hunter thought paid ads would crush it.",
+     "quote": null
+    }
+   ],
+   "delivery": "Physical work",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Paid ads."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Booking forms."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical work."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Online payments."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Scheduling."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Home services work similarly in the UK."
+   },
+   "risks": [
+    "Not pursued"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": []
+  },
+  {
+   "local_id": "I5",
+   "name": "Water well drilling",
+   "one_liner": "High-ticket idea Hunter considered but dropped because equipment costs hundreds of thousands.",
+   "category": "home_service",
+   "business_model": "Per-job",
+   "customer": "New and existing home owners",
+   "problem": "Need water supply",
+   "offer": "Well drilling",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "Described as high ticket."
+   },
+   "acquisition_channels": [],
+   "delivery": "Heavy equipment on site",
+   "unit_economics_claims": [
+    "Equipment about a couple hundred thousand to get going"
+   ],
+   "tools": [],
+   "startup_cost": "Couple hundred thousand dollars (per Hunter)",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Inbound/SEO."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "Site surveys."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Heavy physical work."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Standard invoicing."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 2,
+    "notes": "Private wells are rarer in the UK and need licensing."
+   },
+   "risks": [
+    "Very high capital cost"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "the equipment cost is just insane. I mean, it's like a couple hundred thousand to to really get going.",
+     "speaker": "Hunter",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 37165,
+     "approx_timestamp_s": 2516
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "First month (27 Sep-31 Oct): 4 jobs, $22,874 revenue",
+   "metric": "revenue",
+   "value": {
+    "amount": 22874,
+    "currency": "USD",
+    "unit": "one-off"
+   },
+   "period": "27 Sep-31 Oct",
+   "claimant": "Hunter",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "First month I had four jobs and my revenue was 22,874.",
+    "speaker": "Hunter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1337,
+    "approx_timestamp_s": 90
+   }
+  },
+  {
+   "claim": "November: 7 jobs, $46,825 revenue",
+   "metric": "revenue",
+   "value": {
+    "amount": 46825,
+    "currency": "USD",
+    "unit": "one-off"
+   },
+   "period": "November",
+   "claimant": "Hunter",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "And then in November, I had seven jobs and my revenue was 46,825.",
+    "speaker": "Hunter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1552,
+    "approx_timestamp_s": 105
+   }
+  },
+  {
+   "claim": "About $20k net profit in first two months, about $30k had he not subbed out early jobs",
+   "metric": "profit",
+   "value": {
+    "amount": 20000,
+    "currency": "USD",
+    "unit": "one-off"
+   },
+   "period": "first two months",
+   "claimant": "Chris Koerner (confirmed by Hunter)",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "and about $20,000 in net profit, which would have been about $30,000 in net profit had you not subbed out those first jobs.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16532,
+    "approx_timestamp_s": 1119
+   }
+  },
+  {
+   "claim": "Paint costs about 20% of striping job; 75-80% kept",
+   "metric": "margin",
+   "value": {
+    "amount": 75,
+    "amount_max": 80,
+    "currency": null,
+    "unit": "percent"
+   },
+   "period": null,
+   "claimant": "Hunter",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Paints paint would average about like 20% of of the of the job",
+    "speaker": "Hunter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15914,
+    "approx_timestamp_s": 1077
+   }
+  },
+  {
+   "claim": "Seal coating margin 30-40% after labour",
+   "metric": "margin",
+   "value": {
+    "amount": 30,
+    "amount_max": 40,
+    "currency": null,
+    "unit": "percent"
+   },
+   "period": null,
+   "claimant": "Hunter",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "the profit margins are lower, but I would say even after labor still 30 to 40%.",
+    "speaker": "Hunter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16178,
+    "approx_timestamp_s": 1095
+   }
+  },
+  {
+   "claim": "Cold email response rate around 7%, possibly 12% including non-quote replies",
+   "metric": "response_rate",
+   "value": {
+    "amount": 12,
+    "currency": null,
+    "unit": "percent"
+   },
+   "period": null,
+   "claimant": "Hunter",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "let's say 7% responded.",
+    "speaker": "Hunter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20877,
+    "approx_timestamp_s": 1413
+   }
+  },
+  {
+   "claim": "About 20 quotes given; roughly 40-50% close rate",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 45,
+    "currency": null,
+    "unit": "percent"
+   },
+   "period": null,
+   "claimant": "Chris Koerner (Hunter agreed)",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "You've quoted 20, right? I'm trying to get to what your close rate is. We're talking like 40 50%.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 26764,
+    "approx_timestamp_s": 1811
+   }
+  },
+  {
+   "claim": "Church email list cost about $6",
+   "metric": "cost",
+   "value": {
+    "amount": 6,
+    "currency": "USD",
+    "unit": "per list"
+   },
+   "period": null,
+   "claimant": "Hunter",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "for those 300 it was it was literally six bucks.",
+    "speaker": "Hunter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23676,
+    "approx_timestamp_s": 1602
+   }
+  },
+  {
+   "claim": "Total startup cost about $3,000",
+   "metric": "cost",
+   "value": {
+    "amount": 3000,
+    "currency": "USD",
+    "unit": "one-off"
+   },
+   "period": null,
+   "claimant": "Chris Koerner (Hunter agreed)",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I paid 2,300 for my first striper.",
+    "speaker": "Hunter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14858,
+    "approx_timestamp_s": 1005
+   }
+  },
+  {
+   "claim": "About $200k in outstanding quotes for spring",
+   "metric": "other",
+   "value": {
+    "amount": 200000,
+    "currency": "USD",
+    "unit": "quotes outstanding"
+   },
+   "period": null,
+   "claimant": "Hunter",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I've got I've got around 200,000 in quotes that uh I've already given out",
+    "speaker": "Hunter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 27176,
+    "approx_timestamp_s": 1839
+   }
+  },
+  {
+   "claim": "Seal coating jobs are 10-20k vs 1.5-2k striping jobs",
+   "metric": "price",
+   "value": {
+    "amount": 10000,
+    "amount_max": 20000,
+    "currency": "USD",
+    "unit": "per job"
+   },
+   "period": null,
+   "claimant": "Hunter",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "we're we're doing a $10 to $20,000 seal coating job.",
+    "speaker": "Hunter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13469,
+    "approx_timestamp_s": 911
+   }
+  },
+  {
+   "claim": "Hourly pay: $25 standard, $15 teenagers, $30-35 late night",
+   "metric": "cost",
+   "value": {
+    "amount": 25,
+    "currency": "USD",
+    "unit": "per hour"
+   },
+   "period": null,
+   "claimant": "Hunter",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "my standard is 25 an hour for the guys.",
+    "speaker": "Hunter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 36345,
+    "approx_timestamp_s": 2460
+   }
+  },
+  {
+   "claim": "Ongoing overhead: QuoteIQ $29/month, insurance about $93/month",
+   "metric": "cost",
+   "value": {
+    "amount": 29,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "period": null,
+   "claimant": "Hunter",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I pay $29 a month for uh for quote IQ just to send out quotes.",
+    "speaker": "Hunter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 32443,
+    "approx_timestamp_s": 2196
+   }
+  },
+  {
+   "claim": "Website built by an overseas freelancer for $200",
+   "metric": "cost",
+   "value": {
+    "amount": 200,
+    "currency": "USD",
+    "unit": "one-off"
+   },
+   "period": null,
+   "claimant": "Hunter",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I paid some guy overseas 200 bucks to to build it.",
+    "speaker": "Hunter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17230,
+    "approx_timestamp_s": 1166
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Cold email a niche list of organisations",
+   "area": "acquisition",
+   "steps": [
+    "Buy or compile a list of local churches (about $6 on Upwork)",
+    "Send a single straightforward email offering a striping discount",
+    "Include licensed-and-insured claim (get insurance before first job)",
+    "Follow up in person for quotes",
+    "Plan follow-up and tested offers for spring"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I paid someone on Upwork five or six bucks to compile a list of all the churches in Springfield.",
+    "speaker": "Hunter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18631,
+    "approx_timestamp_s": 1261
+   }
+  },
+  {
+   "name": "Show up in person to quote",
+   "area": "sales",
+   "steps": [
+    "Meet decision-makers face to face, especially in local, older-demographic organisations",
+    "Bring a printout if no business cards",
+    "Be ready to quote seal coating and crack filling as well as striping",
+    "A truck instead of a beat-up minivan improved close rate"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I realized I needed to be there in person.",
+    "speaker": "Hunter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22300,
+    "approx_timestamp_s": 1509
+   }
+  },
+  {
+   "name": "Practise equipment before the first job",
+   "area": "operations",
+   "steps": [
+    "Fill the machine with water",
+    "Spray in a parking lot to get the feel of pushing and lining up"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I just filled up my machine with water and I just sprayed water",
+    "speaker": "Hunter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7979,
+    "approx_timestamp_s": 540
+   }
+  },
+  {
+   "name": "Free community job for practice and proof",
+   "area": "acquisition",
+   "steps": [
+    "Post in the town Facebook group offering free striping",
+    "Let members vote on the business",
+    "Be upfront that you are new and want practice",
+    "Take before/after photos for later outreach"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Hire hourly part-timers from personal network",
+   "area": "hiring",
+   "steps": [
+    "Recruit from church congregation, including teenagers",
+    "Pay $15/hr teens, $25/hr adults, $30-35 for late nights",
+    "Let detail-oriented staff handle chalk lines and measuring",
+    "Hire full-time staff for spring"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "QuoteIQ",
+   "purpose": "Sending quotes",
+   "cost_stated": "$29 per month"
+  },
+  {
+   "name": "1800 Stencil",
+   "purpose": "Buying stencils (about $800 total)",
+   "cost_stated": "$800"
+  },
+  {
+   "name": "Upwork",
+   "purpose": "Hiring freelancer for church list",
+   "cost_stated": "$5-6"
+  },
+  {
+   "name": "Facebook groups",
+   "purpose": "Industry learning, pricing info, local marketing",
+   "cost_stated": null
+  },
+  {
+   "name": "Grok / ChatGPT",
+   "purpose": "Pricing guidance",
+   "cost_stated": null
+  },
+  {
+   "name": "Google Business Profile",
+   "purpose": "Local visibility (currently suspended)",
+   "cost_stated": null
+  },
+  {
+   "name": "TK Owners",
+   "purpose": "Host's community (promotion)",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Presenting yourself as an experienced pro without full answers lost the first round of quotes; be upfront about being new.",
+   "quote": {
+    "text": "I was still holding myself out as this is my business. This is what we do. I didn't get any of the jobs.",
+    "speaker": "Hunter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9846,
+    "approx_timestamp_s": 666
+   }
+  },
+  {
+   "warning": "Door-to-door sales struggled to reach decision makers.",
+   "quote": {
+    "text": "I really struggled to to reach the actual business owners.",
+    "speaker": "Hunter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12631,
+    "approx_timestamp_s": 855
+   }
+  },
+  {
+   "warning": "Offering only striping lost jobs because customers wanted striping and seal coating together.",
+   "quote": {
+    "text": "they say, \"Oh, I wanted a quote for striping and ceiling.\"",
+    "speaker": "Hunter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 28087,
+    "approx_timestamp_s": 1901
+   }
+  },
+  {
+   "warning": "Weed torch during crack filling started a fire near a house and a church; carry a fire extinguisher.",
+   "quote": {
+    "text": "I started a fire.",
+    "speaker": "Hunter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 33651,
+    "approx_timestamp_s": 2278
+   }
+  },
+  {
+   "warning": "Buying used equipment led to downtime; he'd buy new now.",
+   "quote": {
+    "text": "I would have bought new equipment.",
+    "speaker": "Hunter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 34765,
+    "approx_timestamp_s": 2353
+   }
+  },
+  {
+   "warning": "Church sales cycles are long because of board approvals.",
+   "quote": null
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Stay flexible: the business he planned (striping) turned out to be better as seal coating plus striping.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "the business never ends up where it starts and it that's how it should be",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2295,
+    "approx_timestamp_s": 155
+   }
+  },
+  {
+   "lesson": "Do not wait for a perfect website; an email list and in-person visits got revenue without one.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "I'm never gonna be ready.",
+    "speaker": "Hunter",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18287,
+    "approx_timestamp_s": 1238
+   }
+  },
+  {
+   "lesson": "Higher-ticket B2B services need far fewer jobs to produce meaningful income.",
+   "theme": "niche_selection",
+   "quote": null
+  },
+  {
+   "lesson": "Cold outreach to a single niche with a cheap list can have very high ROI; test one vertical before others.",
+   "theme": "customer_acquisition",
+   "quote": null
+  },
+  {
+   "lesson": "Outbound leads need in-person trust building, unlike inbound leads who are already in market.",
+   "theme": "customer_acquisition",
+   "quote": null
+  },
+  {
+   "lesson": "Founders add more value winning jobs than doing the labour; hire detail-oriented workers early.",
+   "theme": "hiring_outsourcing",
+   "quote": null
+  },
+  {
+   "lesson": "Check regional fit: Texas needs striping only, Missouri benefits from seal coating.",
+   "theme": "niche_selection",
+   "quote": null
+  },
+  {
+   "lesson": "Prove the model frugally but replace unreliable equipment once demand exists.",
+   "theme": "finance_unit_economics",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "B",
+  "rationale": "First-hand operator with specific figures and process, but only two months of data, self-reported, no follow-ups, and rounded or inconsistent details (e.g., response rate estimates, insurance cost).",
+  "promotional_conflict": "Host promotes his TK Owners community; Hunter links his X account and 417striping.com."
+ },
+ "extraction": {
+  "model": "claude-sonnet-5-5",
+  "extracted_at": "2026-10-22T05:05:26",
+  "cost_usd": 0.14843820000000002,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 33,
+   "verified": 33,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

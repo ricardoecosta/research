@@ -1,0 +1,448 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "MpbxMuH3VHk",
+  "title": "How to Use ChatGPT Dots to Build Apps in Minutes (AI + No Code)",
+  "channel": "Mikey No Code",
+  "url": "https://www.youtube.com/watch?v=MpbxMuH3VHk",
+  "upload_date": "2026-10-07",
+  "duration_s": 1097,
+  "view_count": 38126,
+  "transcript_provider": "cached",
+  "transcript_chars": 18499,
+  "transcript_is_whisper": false
+ },
+ "summary": "Mikey No Code demonstrates a workflow where an AI assistant called 'Dots' (ChatGPT Dots, as titled) researches app ideas and writes three phased build prompts, which are then pasted into the no-code builder Base 44 to build a 'branded carousel maker' web app. The app is built in three phases: manual editor, brand kit/presets/projects, and PDF/PNG export plus JSON backup. The key takeaway is that better upfront decisions (narrow idea, phased prompts with clear limits) matter more than the build speed. The video is also a promotion for the presenter's paid Base 44 master class (offered free via link). No revenue or market validation data is given.",
+ "speakers": [
+  {
+   "name": "Mikey (Mikey No Code)",
+   "role": "host",
+   "description": "YouTube creator teaching AI no-code app building and selling a Base 44 master class"
+  }
+ ],
+ "format": "tutorial_howto",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Branded LinkedIn carousel maker web app",
+   "one_liner": "Browser-based tool that lets independent consultants build, brand and export LinkedIn document carousels as PDF/PNG.",
+   "category": "saas_software",
+   "business_model": "Implied software product (pricing not stated); demo is a local-only proof of concept",
+   "customer": "Independent consultants who regularly create LinkedIn document carousels",
+   "problem": "They want a faster, more consistent way to turn content into polished carousels",
+   "offer": "Carousel Studio: editor with 3-10 slide structure, 1080x1350 canvas, three design presets (editorial, insight cards, bold contrast), reusable brand kit, paste-to-slides, local project library (up to 10), PDF and PNG zip export with pre-export checks, JSON backup/restore",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "The video says only that there is 'already a reason someone might actually pay for it'; no price given."
+   },
+   "acquisition_channels": [],
+   "delivery": "Software runs entirely in the browser with local storage and client-side rendering; no backend. Built by Base 44 from prompts written by Dots.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Dots (ChatGPT Dots)",
+    "Base 44"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated (no revenue; proof of concept only)",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "No acquisition plan given; LinkedIn content, SEO and app directories could be agent-driven but a human would guide it."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Self-serve browser tool with a demo carousel loaded on first open."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "Pure software running client-side; no human work per customer."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "No billing built; a local-only app would need auth and payments (e.g. Stripe) added."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Agent-handled FAQ is possible, but no support system is described."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Software product with no geography dependence; LinkedIn carousel use is global."
+   },
+   "risks": [
+    "No evidence anyone will pay; demand is asserted by an AI, not validated",
+    "Local-only storage has no accounts, so there are no recurring-revenue hooks yet",
+    "Crowded market of carousel tools (e.g. Canva-style) likely",
+    "Base 44 platform dependency"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "the branded carousel maker does stand out to me the most here. And the idea is aimed at independent consultants who do regularly create say LinkedIn document",
+     "speaker": "Mikey",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 3072,
+     "approx_timestamp_s": 186
+    },
+    {
+     "text": "the scope it's small enough for a proof of concept. The target user is very clear and there is already a reason someone might actually pay for it",
+     "speaker": "Mikey",
+     "match_score": 97.9,
+     "verified": true,
+     "char_offset": 3411,
+     "approx_timestamp_s": 207
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Base 44 AI app-building master class",
+   "one_liner": "Course teaching how to build SaaS apps, websites, AI agents and mobile apps with Base 44 and no code.",
+   "category": "education_coaching",
+   "business_model": "Course sale (normally $499, offered free as a lead magnet)",
+   "customer": "Aspiring no-code AI app builders",
+   "problem": "They build basic apps that make no money or sites that do not convert",
+   "offer": "Master class with prompts, templates, frameworks, app-cloning strategies and a system for turning Base 44 projects into income",
+   "pricing": {
+    "model": "one-off course",
+    "price_points": [
+     {
+      "amount": 499,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "stated normal price"
+     }
+    ],
+    "notes": "Currently offered free via the description link."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "youtube",
+     "details": "Promoted inside tutorial videos with a link in the description."
+    }
+   ],
+   "delivery": "Pre-recorded course with templates and prompts.",
+   "unit_economics_claims": [
+    "Normal price $499, free for viewers"
+   ],
+   "tools": [
+    "Base 44"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Content and YouTube can be agent-assisted but needs a creator's face/voice."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Automated course access."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "Pre-recorded content."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Standard checkout."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Community/FAQ with occasional human input."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Digital course sells globally; UK VAT on digital sales applies."
+   },
+   "risks": [
+    "Promotional claims about student success are unverified",
+    "Free giveaway undermines the stated $499 anchor"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "my master class normally costs $499 to join, but since you are taking the time to watch this video",
+     "speaker": "Mikey",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 1780,
+     "approx_timestamp_s": 108
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Other web app ideas from Dots research",
+   "one_liner": "Dots returned several simple web app ideas with a pain-point rationale, but only the carousel maker is named.",
+   "category": "saas_software",
+   "business_model": "not stated",
+   "customer": "not stated",
+   "problem": "not stated",
+   "offer": "not stated",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "not stated",
+   "unit_economics_claims": [],
+   "tools": [
+    "Dots"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Unknown."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Unknown."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Unknown."
+    },
+    "billing": {
+     "score_e": 2,
+     "how": "Unknown."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Unknown."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Unknown ideas; cannot assess."
+   },
+   "risks": [
+    "Not described in the transcript"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": []
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Master class normally costs $499",
+   "metric": "price",
+   "value": {
+    "amount": 499,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": "course price"
+   },
+   "period": null,
+   "claimant": "Mikey",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "my master class normally costs $499 to join",
+    "speaker": "Mikey",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1780,
+    "approx_timestamp_s": 108
+   }
+  },
+  {
+   "claim": "Carousel canvas is 1080 by 1350 pixels (transcribed '350') matching LinkedIn portrait",
+   "metric": "other",
+   "value": {
+    "amount": null,
+    "amount_max": null,
+    "currency": null,
+    "unit": null,
+    "label": "1080x1350 px"
+   },
+   "period": null,
+   "claimant": "Mikey",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "the canvas stays fixed [music] at 1080 by350 pixels, which does match the standard LinkedIn portrait format",
+    "speaker": "Mikey",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8737,
+    "approx_timestamp_s": 531
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Use an AI planner to pick and scope the idea before building",
+   "area": "product",
+   "steps": [
+    "Ask the AI to research the current app market and propose simple web app ideas with clear problem and real pain demand",
+    "Require ideas to be realistic as a proof of concept without a complicated back end",
+    "Ask it to explain why each has potential and which is strongest",
+    "Choose a small-scope idea with a clear target user and a reason to pay"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "find a few simple web app ideas that solve a clear problem, have real pain demand, and are realistic enough to build as a proof of concept",
+    "speaker": "Mikey",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2638,
+    "approx_timestamp_s": 160
+   }
+  },
+  {
+   "name": "Phased prompt plan for an AI app builder",
+   "area": "product",
+   "steps": [
+    "Have the planner write three detailed plain-language prompts, one per phase",
+    "Each prompt states what to build, what stays unchanged, and what not to add yet",
+    "Phase 1: core editor with local storage; Phase 2: brand kit, presets, project library; Phase 3: export and backup/restore",
+    "Paste one prompt at a time into the builder and test each phase before moving on"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Each prompt needs to build on what already exists, of course, rather than say repeating all of the same work over again",
+    "speaker": "Mikey",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4662,
+    "approx_timestamp_s": 283
+   }
+  },
+  {
+   "name": "Test each phase with a concrete checklist",
+   "area": "operations",
+   "steps": [
+    "Create, edit, duplicate, delete slides and reload to confirm autosave",
+    "Apply presets, set a brand kit, rename and duplicate projects",
+    "Export PDF and PNG, download backup, delete project, re-import to confirm restore"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Dots (ChatGPT Dots)",
+   "purpose": "AI used for market research, idea selection and writing phased build prompts",
+   "cost_stated": null
+  },
+  {
+   "name": "Base 44",
+   "purpose": "No-code AI app builder that generated the carousel app",
+   "cost_stated": null
+  },
+  {
+   "name": "LinkedIn",
+   "purpose": "Target platform for document carousels",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Vague or overly broad prompts force the AI to make many guesses that stack up; the failure happens before the builder opens.",
+   "quote": {
+    "text": "tell it to build an app that does everything, and then well, it has to make dozens of product decisions all on its own, basically guessing",
+    "speaker": "Mikey",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 891,
+    "approx_timestamp_s": 54
+   }
+  },
+  {
+   "warning": "A good builder cannot fix an idea that is too broad or that nobody would pay for.",
+   "quote": {
+    "text": "if the idea is still too complicated or even too broad or something nobody would actually even pay for, well then a good builder isn't going to fix that",
+    "speaker": "Mikey",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2299,
+    "approx_timestamp_s": 139
+   }
+  },
+  {
+   "warning": "Many people build basic apps that make no money or sites that do not convert (said in a course promotion).",
+   "quote": null
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "With AI builders the bottleneck is decision quality and scope before prompting, not generation speed.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "a no code builder can move incredibly fast, but it's still only as good as the instruction going into it",
+    "speaker": "Mikey",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 784,
+    "approx_timestamp_s": 47
+   }
+  },
+  {
+   "lesson": "Ship a narrow proof of concept with a clearly defined user and no backend to cut complexity.",
+   "theme": "offer_design",
+   "quote": null
+  },
+  {
+   "lesson": "Break builds into phases with explicit exclusions so features do not creep in early and each step can be tested.",
+   "theme": "operations",
+   "quote": null
+  },
+  {
+   "lesson": "Use one AI to plan and another to execute; separating research/planning from building reduces guesswork.",
+   "theme": "automation_ai",
+   "quote": {
+    "text": "Dots just gave us a direction. It broke the idea down into a sensible build order",
+    "speaker": "Mikey",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17465,
+    "approx_timestamp_s": 1061
+   }
+  },
+  {
+   "lesson": "AI-suggested demand is not validation; real willingness to pay still needs testing with actual consultants before investing more.",
+   "theme": "validation_testing",
+   "quote": null
+  },
+  {
+   "lesson": "Client-side-only apps (local storage, in-browser export) avoid hosting and data-protection overhead but limit monetisation (no accounts) until a backend is added.",
+   "theme": "niche_selection",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "C",
+  "rationale": "Tutorial demo of an AI-built proof of concept with no revenue, customers or market validation; idea demand is asserted by an AI. Useful as a workflow example only.",
+  "promotional_conflict": "Sells a Base 44 master class (normally $499, offered free as lead magnet) and promotes Base 44 throughout."
+ },
+ "extraction": {
+  "model": "claude-sonnet-5-5",
+  "extracted_at": "2026-10-22T05:05:31",
+  "cost_usd": 0.0666082,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 11,
+   "verified": 11,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

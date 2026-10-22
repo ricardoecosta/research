@@ -1,0 +1,780 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "DCEnzD0Vlxo",
+  "title": "She Turned $12 into a $1 Million Business and She Started at Home",
+  "channel": "UpFlip",
+  "url": "https://www.youtube.com/watch?v=DCEnzD0Vlxo",
+  "upload_date": "2026-07-21",
+  "duration_s": 1750,
+  "view_count": 200869,
+  "transcript_provider": "local_whisper_tiny",
+  "transcript_chars": 33781,
+  "transcript_is_whisper": true
+ },
+ "summary": "UpFlip profiles Vicki Cakes, a pancake and waffle mix brand run by married couple Christian and Courtney, based on his mother-in-law Vicky's 45-year-old recipe. They started with $12.17 (a domain name and pre-order website), made $7,000 in year one, and claim about $1M revenue in 2025 with an 86% margin and roughly $3,400 of marketing spend, mostly via TikTok Shop (83% of revenue) and affiliates. The video covers sourcing at Restaurant Depot, mixer and auto-bagger purchases, a costly 3PL shipping-quote mistake after a Good Morning America feature, a Mailchimp misreporting episode, and a blind taste test. Key takeaway: a food DTC brand with a story, organic and affiliate TikTok marketing and modest automation can reach about $1M, but it needs physical production and fulfilment.",
+ "speakers": [
+  {
+   "name": "UpFlip host (unnamed)",
+   "role": "host",
+   "description": "Interviewer who tours the warehouse and helps make the mix"
+  },
+  {
+   "name": "Courtney",
+   "role": "guest",
+   "description": "Co-founder of Vicki Cakes, web designer, handles email marketing"
+  },
+  {
+   "name": "Christian",
+   "role": "guest",
+   "description": "Co-founder of Vicki Cakes; runs production and TikTok, speaks for the business (name inferred from the sponsor read)"
+  }
+ ],
+ "format": "case_study_profile",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Vicki Cakes premium pancake and waffle mix brand",
+   "one_liner": "Direct-to-consumer branded pancake, waffle and syrup mixes made from a family recipe, sold mainly through TikTok Shop and Shopify.",
+   "category": "ecommerce_physical",
+   "business_model": "One-off product sales of dry mixes (13 flavours, bundles) plus syrup, direct to consumer, plus some retail.",
+   "customer": "Families and home cooks, including gluten-free and dairy-free buyers, who buy via TikTok Shop and the website.",
+   "problem": "Mainstream pancake mixes contain preservatives and additives and offer few gluten-free or dairy-free options.",
+   "offer": "Premium mixes with no preservatives, additives or artificial flavours, 13 flavours including a large gluten-free range, dairy-free preparation option, and a clean syrup.",
+   "pricing": {
+    "model": "Per-bag and bundle pricing; actual prices not stated",
+    "price_points": [],
+    "notes": "A 5-flavour dessert bundle is a top seller on TikTok; focus on raising average order value with more flavours. Syrup is about 15-20% of revenue."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "marketplace_platform",
+     "details": "TikTok Shop is about 83% of revenue; they process TikTok Shop orders and go live for flash sales, telling the founder story.",
+     "quote": {
+      "text": "TikTok has 83% of TikTok is king.",
+      "speaker": "Christian",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 25815,
+      "approx_timestamp_s": 1414
+     }
+    },
+    {
+     "channel": "affiliates_influencers",
+     "details": "Affiliates and customers post content and tag the product on TikTok, and their communities then buy.",
+     "quote": null
+    },
+    {
+     "channel": "organic_social_content",
+     "details": "Organic content and community building; total marketing cost was about $3,400 for the year.",
+     "quote": null
+    },
+    {
+     "channel": "retail_placement",
+     "details": "A broker got them into almost every HEB store in Texas; they later chose to focus on direct to consumer because of margin and payment-term concerns.",
+     "quote": null
+    },
+    {
+     "channel": "existing_audience",
+     "details": "Early sales came from website pre-orders; Shopify email marketing is used for repeat sales.",
+     "quote": null
+    }
+   ],
+   "delivery": "Ingredients are bought at Restaurant Depot, weighed, mixed in a large mixer (cost $1,200 plus about $700 shipping), bagged by an auto-bagger (about $7,000, 10 bags a minute), then picked and packed in-house by a team of five working four days a week. They make 15-20k bags a month.",
+   "unit_economics_claims": [
+    "About $1M revenue in 2025, about $80k a month",
+    "Cost of goods about 30% of revenue, about $300k",
+    "Profit margin 86% across flavours (as claimed)",
+    "Marketing about $3,400 per year",
+    "Ingredient cost about $150k and labour about $90k per year",
+    "$12.17 initial investment"
+   ],
+   "tools": [
+    "Shopify",
+    "TikTok Shop",
+    "Mailchimp (dropped)",
+    "Restaurant Depot",
+    "Industrial mixer",
+    "Auto-bagger (Millie)",
+    "3PL provider (abandoned)"
+   ],
+   "startup_cost": "$12.17 for a domain name; the website was built by the co-founder, who is a web designer, and launched on pre-orders.",
+   "time_to_first_revenue": "Within about 30 days, via pre-orders.",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "TikTok Shop affiliates and content can be partly automated, but the founders go live and make content themselves."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Shopify and TikTok checkout are self-serve, with no onboarding needed."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Physical manufacturing, packing and shipping need human labour even with a mixer and auto-bagger, though a 3PL could take over fulfilment."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Payment is handled by the platforms at checkout."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Order and product questions can be handled by AI, but lives and community interaction are human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "The model is feasible in the UK, where TikTok Shop is live and Amazon and Shopify are options. However, it needs food business registration with the local authority, allergen labelling (UK 14 allergens), a gluten-free claim of under 20ppm, and a food-safe premises. Ingredients come from Booker or Costco instead of Restaurant Depot, and the 86% margin claim looks implausible."
+   },
+   "risks": [
+    "Heavy physical production and fulfilment work",
+    "Food safety, allergen and labelling rules",
+    "Dependence on one platform (TikTok is 83% of revenue)",
+    "3PL shipping-quote error nearly shut the business",
+    "Viral spikes strain operations",
+    "Retail pays on 30-90 day terms",
+    "Margin claim of 86% conflicts with 30% cost of goods plus other costs"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "we had $12.17 that we invested in since we-- ... And we bought the domain name.",
+     "speaker": "Courtney",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 4737,
+     "approx_timestamp_s": 259
+    },
+    {
+     "text": "So our marketing cost was surprisingly low. It was about around $3,400 for the year.",
+     "speaker": "Christian",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 24289,
+     "approx_timestamp_s": 1330
+    },
+    {
+     "text": "Yeah, so they're finding us through our content that we're posting in that our affiliates are posting or our customers.",
+     "speaker": "Christian",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 25036,
+     "approx_timestamp_s": 1371
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Vicki Cakes syrup add-on",
+   "one_liner": "Branded clean-ingredient pancake syrup sold alongside the mixes.",
+   "category": "ecommerce_physical",
+   "business_model": "One-off product sales",
+   "customer": "Pancake mix buyers",
+   "problem": "Standard syrups contain high fructose corn syrup and additives.",
+   "offer": "Syrup without high fructose corn syrup, preservatives, additives, dyes or artificial ingredients; not a maple syrup.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "About 15-20% of revenue."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Cross-sold to existing mix customers in bundles.",
+     "quote": null
+    }
+   ],
+   "delivery": "Made and shipped in house; syrup equipment cost about $15k with other equipment.",
+   "unit_economics_claims": [
+    "Syrup is about 15-20% of revenue"
+   ],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Cross-sell on existing storefront."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Self-serve checkout."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Physical production."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Platform checkout."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Standard e-commerce support."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Same food regulation caveats as the mixes."
+   },
+   "risks": [
+    "Same food safety and fulfilment risks as the mixes"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": []
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Started the business with $12.17",
+   "metric": "cost",
+   "value": {
+    "amount": 12.17,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": "startup"
+   },
+   "period": null,
+   "claimant": "Courtney",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "we had $12.17 that we invested in since we-- - $12.17. - Yes, so crazy.",
+    "speaker": "Courtney",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4737,
+    "approx_timestamp_s": 259
+   }
+  },
+  {
+   "claim": "First year revenue of $7,000",
+   "metric": "revenue",
+   "value": {
+    "amount": 7000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per year",
+    "label": "year 1"
+   },
+   "period": "year 1",
+   "claimant": "Courtney",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "the very first year of the business, we made $7,000 and then after that, the following year, we jumped up several $100,000.",
+    "speaker": "Courtney",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5162,
+    "approx_timestamp_s": 282
+   }
+  },
+  {
+   "claim": "2025 revenue about $1M, about $80k per month",
+   "metric": "revenue",
+   "value": {
+    "amount": 1000000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per year",
+    "label": "2025"
+   },
+   "period": "2025",
+   "claimant": "Christian",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "in 2025, a revenue was right at $1 million.",
+    "speaker": "Christian",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23352,
+    "approx_timestamp_s": 1279
+   }
+  },
+  {
+   "claim": "Cost of goods about 30% of revenue",
+   "metric": "cost",
+   "value": {
+    "amount": 300000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per year",
+    "label": "COGS"
+   },
+   "period": "2025",
+   "claimant": "Christian",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "our cost of goods is about 30% of our revenue. So it's a little under $300,000.",
+    "speaker": "Christian",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23689,
+    "approx_timestamp_s": 1298
+   }
+  },
+  {
+   "claim": "Profit margin 86% across flavours",
+   "metric": "margin",
+   "value": {
+    "amount": 86,
+    "amount_max": null,
+    "currency": null,
+    "unit": "percent",
+    "label": "profit margin"
+   },
+   "period": null,
+   "claimant": "Christian",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "our profit margin across all of our flavors is 86%.",
+    "speaker": "Christian",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24708,
+    "approx_timestamp_s": 1353
+   }
+  },
+  {
+   "claim": "TikTok accounts for 83% of revenue",
+   "metric": "other",
+   "value": {
+    "amount": 83,
+    "amount_max": null,
+    "currency": null,
+    "unit": "percent",
+    "label": "TikTok share of revenue"
+   },
+   "period": null,
+   "claimant": "Christian",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "TikTok has 83% of TikTok is king.",
+    "speaker": "Christian",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25815,
+    "approx_timestamp_s": 1414
+   }
+  },
+  {
+   "claim": "Sold 154,000 bags and almost half a million dollars in one day after the GMA feature",
+   "metric": "revenue",
+   "value": {
+    "amount": 500000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "one day",
+    "label": "GMA day"
+   },
+   "period": "2020",
+   "claimant": "Courtney",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "we sold almost a half a million dollars in one day worth of pancake mix. We sold 154,000 bags.",
+    "speaker": "Courtney",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15042,
+    "approx_timestamp_s": 824
+   }
+  },
+  {
+   "claim": "Mixer cost $1,200 plus about $700 shipping",
+   "metric": "cost",
+   "value": {
+    "amount": 1200,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": "mixer"
+   },
+   "period": null,
+   "claimant": "Christian",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "This one was actually $1,200.",
+    "speaker": "Christian",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9630,
+    "approx_timestamp_s": 527
+   }
+  },
+  {
+   "claim": "Auto-bagger cost around $7,000",
+   "metric": "cost",
+   "value": {
+    "amount": 7000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": "auto-bagger"
+   },
+   "period": null,
+   "claimant": "Christian",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "We got this last year in June, and it costs around $7,000.",
+    "speaker": "Christian",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17927,
+    "approx_timestamp_s": 982
+   }
+  },
+  {
+   "claim": "Marketing spend about $3,400 for the year",
+   "metric": "cost",
+   "value": {
+    "amount": 3400,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per year",
+    "label": "marketing"
+   },
+   "period": "2025",
+   "claimant": "Christian",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "It was about around $3,400 for the year.",
+    "speaker": "Christian",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24332,
+    "approx_timestamp_s": 1333
+   }
+  },
+  {
+   "claim": "Shopify revenue fell from $20,000 months to $2,000 months because of Mailchimp misreporting",
+   "metric": "revenue",
+   "value": {
+    "amount": 20000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "Shopify before decline"
+   },
+   "period": "early 2024",
+   "claimant": "Courtney",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "On our Shopify side, we went from having $20,000 months to a $2,000 month.",
+    "speaker": "Courtney",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21825,
+    "approx_timestamp_s": 1195
+   }
+  },
+  {
+   "claim": "Production of 15-20,000 bags per month",
+   "metric": "other",
+   "value": {
+    "amount": 20000,
+    "amount_max": null,
+    "currency": null,
+    "unit": "bags per month",
+    "label": "volume"
+   },
+   "period": null,
+   "claimant": "Christian",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "On a normal basis, we do about 15 to 20,000 bags a month on our machine.",
+    "speaker": "Christian",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2456,
+    "approx_timestamp_s": 134
+   }
+  },
+  {
+   "claim": "Ingredient shop for 300 bags cost $125.39",
+   "metric": "cost",
+   "value": {
+    "amount": 125.39,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": "ingredients for batch"
+   },
+   "period": null,
+   "claimant": "Restaurant Depot checkout",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Grand total, $125.39.",
+    "speaker": "Cashier",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7897,
+    "approx_timestamp_s": 432
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Launch on pre-orders with a domain and simple site",
+   "area": "product",
+   "steps": [
+    "Buy a domain name (about $12)",
+    "Build a simple pre-order website yourself",
+    "Take pre-orders to validate demand before production",
+    "Be up and running within 30 days"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "we started the business from pre-orders",
+    "speaker": "Courtney",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4971,
+    "approx_timestamp_s": 272
+   }
+  },
+  {
+   "name": "Move ingredient sourcing to a restaurant wholesaler",
+   "area": "operations",
+   "steps": [
+    "Stop buying small bags at grocery stores once volume rises",
+    "Buy flour, sugar and baking powder in bulk at a cash-and-carry",
+    "Know your cost per pound and markup percentage to set target costs"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "TikTok Shop, affiliates and live selling",
+   "area": "acquisition",
+   "steps": [
+    "List products on TikTok Shop",
+    "Let customers and affiliates make and tag content",
+    "Go live for flash sales and tell the founder story",
+    "Build community instead of paying for ads"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Automate production step by step",
+   "area": "operations",
+   "steps": [
+    "Mix by hand at home first",
+    "Move to a commercial kitchen for 300-1,000 bags per batch",
+    "Buy a mixer once sales justify it",
+    "Buy an auto-bagger to go from 21 seconds per bag to 8 seconds"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Prefer DTC over retail for margin and cash flow",
+   "area": "finance",
+   "steps": [
+    "Avoid retail terms of 30-90 days that need cash reserves",
+    "Keep control of customer data",
+    "Increase average order value by dropping more flavours and bundles"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "TikTok Shop",
+   "purpose": "Main sales channel and affiliate marketing",
+   "cost_stated": null
+  },
+  {
+   "name": "Shopify",
+   "purpose": "Website store and email",
+   "cost_stated": null
+  },
+  {
+   "name": "Mailchimp",
+   "purpose": "Email marketing; dropped after misreporting opens",
+   "cost_stated": null
+  },
+  {
+   "name": "Restaurant Depot",
+   "purpose": "Bulk ingredient supplier",
+   "cost_stated": null
+  },
+  {
+   "name": "Industrial ribbon mixer",
+   "purpose": "Mixing mix batches",
+   "cost_stated": "$1,200 plus about $700 shipping"
+  },
+  {
+   "name": "Auto-bagger (Millie)",
+   "purpose": "Filling and sealing bags",
+   "cost_stated": "about $7,000"
+  },
+  {
+   "name": "3PL fulfilment provider",
+   "purpose": "Outsourced fulfilment, which went badly",
+   "cost_stated": null
+  },
+  {
+   "name": "Good Morning America",
+   "purpose": "TV feature that drove a huge sales spike",
+   "cost_stated": null
+  },
+  {
+   "name": "HEB",
+   "purpose": "Texas grocery retailer that stocked the products via a broker",
+   "cost_stated": null
+  },
+  {
+   "name": "Busy",
+   "purpose": "Sponsor: LLC formation service",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "A 3PL quoted shipping wrongly: expected a $15-20k shipping bill but it came to $40k+, nearly closing the company.",
+   "quote": {
+    "text": "This one experience almost shut down vicky cakes in a short.",
+    "speaker": "Courtney",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15855,
+    "approx_timestamp_s": 868
+   }
+  },
+  {
+   "warning": "Mailchimp misreported email opens for months, causing a Shopify revenue drop; verify tool data with your own tests.",
+   "quote": {
+    "text": "this has been misreporting data for months",
+    "speaker": "Courtney",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22694,
+    "approx_timestamp_s": 1243
+   }
+  },
+  {
+   "warning": "Manual production of 150 lb flour batches was physically hard and hired staff quit.",
+   "quote": {
+    "text": "People started quitting.",
+    "speaker": "Courtney",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9462,
+    "approx_timestamp_s": 518
+   }
+  },
+  {
+   "warning": "Retail can pay after 30-90 days and requires large cash reserves and marketing spend.",
+   "quote": null
+  },
+  {
+   "warning": "Know your numbers (cost per pound and markup) when buying wholesale to avoid overspending.",
+   "quote": null
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Start with a tiny, validated step such as a domain and pre-order page instead of building inventory.",
+   "theme": "validation_testing",
+   "quote": null
+  },
+  {
+   "lesson": "Keep the line between you and the customer short; fewer intermediaries mean more margin and control.",
+   "theme": "operations",
+   "quote": {
+    "text": "you want to try to remove as many people out of that line as possible.",
+    "speaker": "Courtney",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16237,
+    "approx_timestamp_s": 889
+   }
+  },
+  {
+   "lesson": "Automate the most physically punishing steps only once volume justifies the equipment.",
+   "theme": "operations",
+   "quote": null
+  },
+  {
+   "lesson": "A founder story and authentic content can replace paid marketing on social commerce platforms.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "people are gonna buy the story, not the product.",
+    "speaker": "Christian",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 26003,
+    "approx_timestamp_s": 1424
+   }
+  },
+  {
+   "lesson": "Do not trust a single tool's analytics blindly; run your own tests when revenue drops.",
+   "theme": "validation_testing",
+   "quote": null
+  },
+  {
+   "lesson": "Avoid concentrating all revenue on one platform; 83% on TikTok is a fragility.",
+   "theme": "scaling",
+   "quote": null
+  },
+  {
+   "lesson": "Viral spikes require operational readiness; outsourcing without verified quotes can be fatal.",
+   "theme": "scaling",
+   "quote": null
+  },
+  {
+   "lesson": "Owning DTC data and average order value can be better than chasing retail distribution.",
+   "theme": "finance_unit_economics",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "B",
+  "rationale": "The founders speak first-hand with fairly detailed cost figures, but a self-reported 86% profit margin conflicts with the stated COGS of 30% plus labour, shipping and other costs, and nothing is independently verified. The transcript is Whisper-tiny with some garbled passages, and the format is a friendly profile.",
+  "promotional_conflict": "Sponsor reads for Busy (LLC formation) and UpFlip's business assessment test; the founders also promote their own brand."
+ },
+ "extraction": {
+  "model": "claude-sonnet-5-5",
+  "extracted_at": "2026-10-22T05:04:05",
+  "cost_usd": 0.1171562,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 23,
+   "verified": 23,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

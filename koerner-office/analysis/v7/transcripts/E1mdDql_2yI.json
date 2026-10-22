@@ -1,0 +1,1231 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "E1mdDql_2yI",
+  "title": "A New AI Gold Rush Just Started. Don’t Miss This One. (+4 Ideas)",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=E1mdDql_2yI",
+  "upload_date": "2025-08-25",
+  "duration_s": 2442,
+  "view_count": 83189,
+  "transcript_provider": "ok",
+  "transcript_chars": 45626,
+  "transcript_is_whisper": false
+ },
+ "summary": "Koerner Office episode where host Chris Koerner and guest Cody pitch four to five digital business ideas. The main one is an AI-avatar UGC ad creative agency for supplement e-commerce brands, followed by a Reddit/Perplexity pain-point research method illustrated with med spa lead generation, a webinar-to-ebook lead magnet service, a city-specific cheap flight deals newsletter (an unbundled Going/Scott's Cheap Flights), and Nextdoor before/after marketing for lawn care. Most figures are hypothetical projections or hearsay; the key takeaway is to pick a niche with budgets, offer a done-for-you deliverable, and use AI for production while the human curates.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Host of The Koerner Office"
+  },
+  {
+   "name": "Cody",
+   "role": "guest",
+   "description": "Operator with AI automation and agency experience; formerly ran webinars at Rupa Health; active on LinkedIn and Twitter"
+  }
+ ],
+ "format": "listicle_roundup",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "AI avatar UGC ad creative agency for supplement brands",
+   "one_liner": "Productised weekly delivery of AI-avatar UGC video ads (avatars holding the product) to supplement e-commerce brands.",
+   "category": "agency",
+   "business_model": "Monthly retainer for a fixed weekly volume of ad creatives",
+   "customer": "Supplement e-commerce brands that already spend heavily on Facebook/Meta ads (often ~$10M/yr revenue with ~5 staff)",
+   "problem": "Brands need to test hundreds of ad creatives monthly; human UGC creators are slow, costly (~$100/video), give one script variation and require shipping product.",
+   "offer": "25 AI-avatar UGC videos per week, with hook research, scripts and edits, informed by a performance dashboard; next batch based on top performers. Does not run the ads.",
+   "pricing": {
+    "model": "Monthly retainer",
+    "price_points": [
+     {
+      "amount": 5000,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "suggested retainer (25 ads/week)"
+     },
+     {
+      "amount": 8000,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "what some agencies reportedly charge for 10 videos"
+     }
+    ],
+    "notes": "Claimed that 16 clients at $5k/month gives about $80k/month."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "cold_email",
+     "details": "Find supplement e-com brands, identify the founders, email all ~5 staff with a Google Drive folder of 5 sample ads made for them, backed by pain-point research.",
+     "quote": {
+      "text": "Cool, I made you some ads. Here's here's five examples of the ads that I can make for you.",
+      "speaker": "Cody",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 7847,
+      "approx_timestamp_s": 431
+     }
+    }
+   ],
+   "delivery": "Operator uses AI tools (e.g. MakeUGC.ai, n8n/make.com workflows) to research pain points, write scripts, generate about 50 videos, curates the best 25 plus ~5 bonus. Client's own creators can remake winners.",
+   "unit_economics_claims": [
+    "$5k/month x 16 clients = $80k/month",
+    "25 ads can be made in ~2 hours, ~32 hours/week for 16 clients",
+    "Search volume for AI UGC rose from 1,600 to 4,300/month in a year"
+   ],
+   "tools": [
+    "MakeUGC.ai",
+    "n8n",
+    "make.com",
+    "Perplexity",
+    "Reddit",
+    "Google Drive",
+    "Apollo"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Cold email to limited companies is PECR-legal; agents can find brands, generate sample ads and send; human handles replies and sales calls."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Needs brand brief, product photos and dashboard access; mostly templated but needs human input."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Agents can research, script and generate videos; human curates winners weekly."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Stripe subscriptions/invoices."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Weekly client feedback and performance-based iteration needs human judgement."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Works in UK; cold email to Ltd companies is OK. Supplements carry ASA/CAP health-claim rules and AI avatar disclosure considerations. Target UK or US brands remotely."
+   },
+   "risks": [
+    "Platform-compliance risk: Meta and ASA rules on health claims in supplement ads",
+    "AI avatar tool quality, cost and policy changes; commoditisation as more agencies copy",
+    "Revenue depends on client creative performance and churn when ads go stale",
+    "Hours claim is optimistic for 16 clients"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "You just offer that deliverable. Super simple. All this can be done. I mean, this is a one person business that can easily make like 80 grand a month.",
+     "speaker": "Cody",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 6441,
+     "approx_timestamp_s": 354
+    },
+    {
+     "text": "So, if you're doing five grand a month, you just need 16 clients, right? So, you're just managing 16 clients every week. You you you deliver 25 ads.",
+     "speaker": "Cody",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 9773,
+     "approx_timestamp_s": 537
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Reddit/AI pain-point research to build niche lead gen (med spa example)",
+   "one_liner": "Use Perplexity/ChatGPT deep research on Reddit to find an industry's pain points, then sell lead gen or related services; med spas shown as example.",
+   "category": "agency",
+   "business_model": "Pay-per-customer or retainer lead generation for med spas",
+   "customer": "Med spa owners",
+   "problem": "Over-reliance on discount platforms like Groupon yielding poor customers; client acquisition and retention.",
+   "offer": "Find new paying customers for med spas (e.g. $300 per new customer found) via Facebook ads to affluent women 30-50 and Google Maps/local SEO optimisation.",
+   "pricing": {
+    "model": "Pay per acquired customer or retainer",
+    "price_points": [
+     {
+      "amount": 300,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per new customer",
+      "label": "example offer"
+     },
+     {
+      "amount": 1000,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per paying customer",
+      "label": "example cost to med spa vs ~$5k LTV"
+     }
+    ],
+    "notes": "Med spa lead LTV estimated ~$5,000 (4-8 visits/yr)."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "cold_email",
+     "details": "Outreach with subject like 'Are you sick of relying on Groupon too much?' tailored from scraped complaints; guessed 20% response rate.",
+     "quote": {
+      "text": "Groupon gets you terrible customers. I get you good customers. Like, there's literally your subject line. You probably get a 20% response rate",
+      "speaker": "Cody",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 17864,
+      "approx_timestamp_s": 982
+     }
+    }
+   ],
+   "delivery": "Facebook ads targeting affluent women 30-50, Google Maps listing optimisation (keywords, photos, directory citations), possibly white-labelled tooling such as GoHighLevel.",
+   "unit_economics_claims": [
+    "Customer LTV about $5k",
+    "Paying customer at $1,000 gives ~5x ROAS",
+    "Guessed 20% cold email response rate"
+   ],
+   "tools": [
+    "Perplexity",
+    "ChatGPT deep research",
+    "Google Trends",
+    "Google Maps",
+    "Yelp",
+    "Foursquare",
+    "MapQuest"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Cold email to limited-company med spas is legal; tailored copy via AI."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Ad accounts and listing access required."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Ads and local SEO partly tool-driven but need oversight."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Subscription or per-lead invoicing."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Client reporting and lead quality disputes."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "UK med spas/aesthetic clinics exist; advertising of prescription-only treatments (e.g. Botox) is restricted by ASA/MHRA; Groupon exists in UK."
+   },
+   "risks": [
+    "Regulated advertising of aesthetic treatments",
+    "Lead quality disputes",
+    "Many lead gen competitors"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "building a business is easy once you know a thing that people hate doing and you come in and be like, you pay me, I do the thing you hate.",
+     "speaker": "Cody",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 15871,
+     "approx_timestamp_s": 873
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Webinar-to-ebook lead magnet service",
+   "one_liner": "Turn B2B companies' webinar transcripts into branded ebooks/lead magnets for LinkedIn comment-to-download campaigns.",
+   "category": "b2b_service",
+   "business_model": "Per-webinar fee or monthly retainer",
+   "customer": "B2B marketers at companies running webinars",
+   "problem": "Companies run webinars but lack time to repurpose them into lead magnets and grow email lists.",
+   "offer": "Convert each webinar into an ebook PDF, LinkedIn post and lead magnet flow that grows the email list for future webinars.",
+   "pricing": {
+    "model": "Per webinar or unlimited retainer",
+    "price_points": [
+     {
+      "amount": 1000,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per webinar",
+      "label": "per ebook"
+     },
+     {
+      "amount": 8000,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "unlimited webinars incl. back catalogue"
+     },
+     {
+      "amount": 2000,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "example price; half price if client lets you pitch their email list"
+     }
+    ],
+    "notes": "Also suggested halving price in exchange for access to the client's webinar sign-up list."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "cold_email",
+     "details": "Find low-view webinars on YouTube (filter this week, over 20 min), find company marketers on Apollo, email with a free sample ebook made from their webinar.",
+     "quote": {
+      "text": "Hey, I turn webinars into ebooks for lead magnets for LinkedIn. Is that interesting?",
+      "speaker": "Cody",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 27126,
+      "approx_timestamp_s": 1492
+     }
+    },
+    {
+     "channel": "outbound_linkedin",
+     "details": "DM marketers with a free ebook from their last webinar. Note: individual DMs may be PECR-sensitive.",
+     "quote": null
+    }
+   ],
+   "delivery": "Take webinar transcript, have Claude write an ebook, design in Canva, deliver; LinkedIn comment-guide automation via Phantom Buster or VAs.",
+   "unit_economics_claims": [
+    "$1k per webinar, 4 webinars/month = $4k/month",
+    "Phantom Buster ~ $50/month",
+    "Rupa Health webinars reached 4,000 attendees"
+   ],
+   "tools": [
+    "YouTube",
+    "Apollo",
+    "Claude",
+    "Canva",
+    "Phantom Buster",
+    "LinkedIn"
+   ],
+   "startup_cost": "Low; Phantom Buster about $50/month",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Finding webinars and emailing company marketers can be automated; B2B corporate emails are legal; LinkedIn DMs less so."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Client shares webinar link/brand assets."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Transcript to LLM to ebook with brand template; light human review."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Stripe invoices."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Revisions via agent with occasional human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "B2B webinars are common in the UK; cold email to company addresses is allowed under PECR."
+   },
+   "risks": [
+    "Clients can DIY with ChatGPT",
+    "Webinar owners may not want to share content or branding",
+    "LinkedIn automation violates platform terms"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "hey it's a grand a webinar right we make an ebook for each and it's a grand per so they host four webinars a month",
+     "speaker": "Cody",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 29831,
+     "approx_timestamp_s": 1641
+    },
+    {
+     "text": "Over 60% of B2B businesses run a webinar every month",
+     "speaker": "Cody",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 617,
+     "approx_timestamp_s": 33
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "City-specific cheap flight deals newsletter",
+   "one_liner": "Local-airport flight deal subscription (e.g. Dallas flights) built from Google Flights alerts and rewritten with AI, an unbundled Going.com.",
+   "category": "content_media",
+   "business_model": "Subscription plus affiliate kickbacks and newsletter ad slots",
+   "customer": "Travellers in a specific city who want cheap flights from their home airport",
+   "problem": "Generic deal newsletters feature flights from elsewhere, not from the subscriber's city.",
+   "offer": "Email alerts of cheap flights from one city, with the best deals gated behind a paid yearly subscription.",
+   "pricing": {
+    "model": "Annual subscription",
+    "price_points": [
+     {
+      "amount": 72,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per year",
+      "label": "suggested, copying Scott's Cheap Flights"
+     },
+     {
+      "amount": 10,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "alternative"
+     }
+    ],
+    "notes": "Yearly preferred to reduce churn; refund if you don't fly, assuming few claim."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "paid_social",
+     "details": "Facebook ads to a signup form or Beehiiv landing page.",
+     "quote": null
+    },
+    {
+     "channel": "seo_organic_search",
+     "details": "Domain like dallasflights.com ($11 on Namecheap) ranks easily for the city phrase.",
+     "quote": null
+    }
+   ],
+   "delivery": "Set Google Flights price tracking emails for each route from a city, forward to a listener that rewrites into newsletter via AI with links, send to subscribers.",
+   "unit_economics_claims": [
+    "Going.com about $35M/year per search",
+    "Scott's Cheap Flights reported $3.8M in 2020",
+    "$72/year price point for a decade"
+   ],
+   "tools": [
+    "Google Flights",
+    "Namecheap",
+    "Beehiiv",
+    "Facebook Ads"
+   ],
+   "startup_cost": "About $11 domain; set up in a weekend",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Paid ads and SEO are inbound and automatable."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Self-serve signup and Stripe."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Alert email to AI rewrite to send; occasional review."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Subscription billing."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "Mostly FAQ/refund emails."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Works from UK airports (London, Manchester); Google Flights alerts work; scraping/ToS and affiliate travel rules and ATOL-type issues if selling bookings."
+   },
+   "risks": [
+    "Google Flights alerts may breach ToS if scraped at scale",
+    "Going.com and others dominate",
+    "Deal quality and timing",
+    "Refund guarantee may cost more than expected"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "you could literally automate the entire thing end to end company that does 20 million a year",
+     "speaker": "Cody",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 40755,
+     "approx_timestamp_s": 2242
+    },
+    {
+     "text": "So going.com makes 35 million a year.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 39828,
+     "approx_timestamp_s": 2191
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "Nextdoor before/after lawn care marketing",
+   "one_liner": "Lawn care business that wins customers only through organic Nextdoor before-and-after posts in the neighbourhood.",
+   "category": "home_service",
+   "business_model": "Per-job lawn care",
+   "customer": "Homeowners in a neighbourhood",
+   "problem": "Homeowners want trusted local lawn services.",
+   "offer": "Lawn care with before/after posts naming the street; possibly a free first job.",
+   "pricing": {
+    "model": "per job",
+    "price_points": [],
+    "notes": "not stated"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "organic_social_content",
+     "details": "Post before/after photos on Nextdoor for each job, e.g. 'I just did X house in your neighborhood'; door knock offering a free lawn for the first post.",
+     "quote": {
+      "text": "He does lawn care in a neighborhood and he does before and after pictures. It's all he does.",
+      "speaker": "Cody",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 41473,
+      "approx_timestamp_s": 2281
+     }
+    }
+   ],
+   "delivery": "Physical lawn mowing by the operator.",
+   "unit_economics_claims": [
+    "Idea of making $50k in a summer (hypothetical)"
+   ],
+   "tools": [
+    "Nextdoor"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "Overnight, per speaker",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Photos and posts need the operator on site; door knocking is in-person."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Quote by messages."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical lawn work."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Payment links."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Messaging."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Nextdoor exists in UK with smaller reach; gardening seasonal; works similarly with local Facebook groups."
+   },
+   "risks": [
+    "Physical labour; not agent-run",
+    "Faking jobs would be dishonest",
+    "Seasonal"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": []
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "One-person AI UGC agency can make about $80k/month",
+   "metric": "revenue",
+   "value": {
+    "amount": 80000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per month",
+    "label": null
+   },
+   "period": "month",
+   "claimant": "Cody",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "this is a one person business that can easily make like 80 grand a month",
+    "speaker": "Cody",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 0,
+    "approx_timestamp_s": 0
+   }
+  },
+  {
+   "claim": "Previously paid creators $100 per UGC video",
+   "metric": "cost",
+   "value": {
+    "amount": 100,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per video",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Cody",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I used to pay them $100 per video",
+    "speaker": "Cody",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1190,
+    "approx_timestamp_s": 65
+   }
+  },
+  {
+   "claim": "Search volume for AI UGC rose from 1,600 to 4,300 per month in a year",
+   "metric": "traffic",
+   "value": {
+    "amount": 4300,
+    "amount_max": null,
+    "currency": null,
+    "unit": "searches per month",
+    "label": null
+   },
+   "period": "year",
+   "claimant": "Cody",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "it's gone from 1,600 in search volume a month to 4,300 in search volume a month over a year",
+    "speaker": "Cody",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4083,
+    "approx_timestamp_s": 224
+   }
+  },
+  {
+   "claim": "Retainer of $5k/month for this service",
+   "metric": "price",
+   "value": {
+    "amount": 5000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per month",
+    "label": null
+   },
+   "period": "month",
+   "claimant": "Cody",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "you probably charge 5K a month for this easily if not more",
+    "speaker": "Cody",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9092,
+    "approx_timestamp_s": 500
+   }
+  },
+  {
+   "claim": "Some agencies charge $8k/month for 10 videos",
+   "metric": "price",
+   "value": {
+    "amount": 8000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per month",
+    "label": null
+   },
+   "period": "month",
+   "claimant": "Cody",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I know there's agencies that charge like eight grand a month for like 10 videos",
+    "speaker": "Cody",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9156,
+    "approx_timestamp_s": 503
+   }
+  },
+  {
+   "claim": "Med spa customer lifetime value about $5,000",
+   "metric": "other",
+   "value": {
+    "amount": 5000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per customer",
+    "label": "LTV"
+   },
+   "period": null,
+   "claimant": "Cody",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "So you got five grand to play with of the customer lifetime value of that person.",
+    "speaker": "Cody",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14320,
+    "approx_timestamp_s": 787
+   }
+  },
+  {
+   "claim": "Guessed 20% cold email response rate with Groupon subject line",
+   "metric": "response_rate",
+   "value": {
+    "amount": 20,
+    "amount_max": null,
+    "currency": null,
+    "unit": "percent",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "You probably get a 20% response rate and suddenly like you have, you know, a business.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17966,
+    "approx_timestamp_s": 988
+   }
+  },
+  {
+   "claim": "Over 60% of B2B businesses run a webinar every month",
+   "metric": "other",
+   "value": {
+    "amount": 60,
+    "amount_max": null,
+    "currency": null,
+    "unit": "percent",
+    "label": null
+   },
+   "period": "month",
+   "claimant": "Cody",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "over 60% of B2B businesses run a webinar every month as a marketing strategy",
+    "speaker": "Cody",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23820,
+    "approx_timestamp_s": 1310
+   }
+  },
+  {
+   "claim": "Webinar ebook priced at $1k each, four a month",
+   "metric": "price",
+   "value": {
+    "amount": 1000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per webinar",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "it's a grand a webinar right we make an ebook for each",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 29835,
+    "approx_timestamp_s": 1641
+   }
+  },
+  {
+   "claim": "Unlimited webinar plan at $8k/month",
+   "metric": "price",
+   "value": {
+    "amount": 8000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per month",
+    "label": null
+   },
+   "period": "month",
+   "claimant": "Cody",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "an unlimited where it's like, you know, eight grand a month",
+    "speaker": "Cody",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 30196,
+    "approx_timestamp_s": 1661
+   }
+  },
+  {
+   "claim": "Rupa Health webinars reached 4,000 attendees each",
+   "metric": "customers",
+   "value": {
+    "amount": 4000,
+    "amount_max": null,
+    "currency": null,
+    "unit": "attendees per webinar",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Cody",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "When I left, there was 4,000 people per webinar that were joining, right?",
+    "speaker": "Cody",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 31179,
+    "approx_timestamp_s": 1715
+   }
+  },
+  {
+   "claim": "Phantom Buster costs about $50 a month",
+   "metric": "cost",
+   "value": {
+    "amount": 50,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per month",
+    "label": null
+   },
+   "period": "month",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "Using Phantom Buster, it's like 50 bucks a month.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 31535,
+    "approx_timestamp_s": 1734
+   }
+  },
+  {
+   "claim": "Going.com does about $35M a year",
+   "metric": "revenue",
+   "value": {
+    "amount": 35000000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per year",
+    "label": null
+   },
+   "period": "year",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "So going.com makes 35 million a year.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 39828,
+    "approx_timestamp_s": 2191
+   }
+  },
+  {
+   "claim": "Scott's Cheap Flights reported $3.8M in 2020",
+   "metric": "revenue",
+   "value": {
+    "amount": 3800000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per year",
+    "label": null
+   },
+   "period": "2020",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "2020 company known as Scots Cheap Flights reported 3.8 million.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 39913,
+    "approx_timestamp_s": 2195
+   }
+  },
+  {
+   "claim": "Scott's Cheap Flights cost $72 a year",
+   "metric": "price",
+   "value": {
+    "amount": 72,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per year",
+    "label": null
+   },
+   "period": "year",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "Scott's cheap flights was $72 a year for like a decade, right?",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 38798,
+    "approx_timestamp_s": 2134
+   }
+  },
+  {
+   "claim": "Domain dallasflights.com available for $11",
+   "metric": "cost",
+   "value": {
+    "amount": 11,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "I went to namecheep dallasflights.com. $11.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 38249,
+    "approx_timestamp_s": 2104
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Sample-first cold email with ready-made ads",
+   "area": "acquisition",
+   "steps": [
+    "List supplement e-commerce brands",
+    "Identify all ~5 staff/founders",
+    "Research customer pain points",
+    "Create 5 sample ads in a Google Drive folder",
+    "Email the folder link offering hundreds of ads a month"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "You just open this Google Drive folder. You're going to see five ads of the of the hundred that I can make.",
+    "speaker": "Cody",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8082,
+    "approx_timestamp_s": 444
+   }
+  },
+  {
+   "name": "Reddit-quote scripting for niche products",
+   "area": "product",
+   "steps": [
+    "Pick a very narrow niche (e.g. creatine gummies for women long-distance runners)",
+    "Ask Perplexity/ChatGPT for pain points and Reddit quotes",
+    "Build hooks and scripts from the quotes",
+    "Generate videos"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Pain-point mining via Reddit deep research",
+   "area": "acquisition",
+   "steps": [
+    "Prompt Perplexity: main pain points for [industry] Reddit",
+    "Pick a pain point you can solve",
+    "Drill down with ChatGPT deep research on complaints across Reddit, Instagram, Facebook groups",
+    "Craft cold outreach that names the pain",
+    "Check demand on Google Trends"
+   ],
+   "idea_local_id": "I2",
+   "quote": null
+  },
+  {
+   "name": "Copy the leading competitor via layered deep research",
+   "area": "operations",
+   "steps": [
+    "Find 5 businesses crushing it in the niche",
+    "Pick the best",
+    "Run new deep research prompts on its growth, pricing history and fulfilment",
+    "Copy the playbook"
+   ],
+   "idea_local_id": "I2",
+   "quote": null
+  },
+  {
+   "name": "Local SEO via consistent directory listings",
+   "area": "acquisition",
+   "steps": [
+    "Build Google Business Profile with keywords, services and interior photos",
+    "Submit identical name/address/phone to Yelp, Foursquare, MapQuest",
+    "Aim for Google Maps pack top 3"
+   ],
+   "idea_local_id": "I2",
+   "quote": null
+  },
+  {
+   "name": "Find prospects via low-view YouTube webinars",
+   "area": "acquisition",
+   "steps": [
+    "Search YouTube for webinar, filter this week and over 20 minutes",
+    "Ignore view counts",
+    "Find company marketers on Apollo",
+    "Cold email with a free ebook from their webinar"
+   ],
+   "idea_local_id": "I3",
+   "quote": null
+  },
+  {
+   "name": "Pricing hack: half price for list access",
+   "area": "pricing",
+   "steps": [
+    "Quote e.g. $2,000/month",
+    "Offer $1,000/month if you may pitch their webinar signups",
+    "Gain customers through customers"
+   ],
+   "idea_local_id": "I3",
+   "quote": null
+  },
+  {
+   "name": "Annual plan with a refund guarantee",
+   "area": "pricing",
+   "steps": [
+    "Offer yearly membership (~$72)",
+    "Guarantee a refund if they don't fly with you within a year",
+    "Few will claim"
+   ],
+   "idea_local_id": "I4",
+   "quote": null
+  },
+  {
+   "name": "Niche down within an industry",
+   "area": "acquisition",
+   "steps": [
+    "Pick a vertical (biotech, cybersecurity)",
+    "Reference case-study names known in that category in outreach"
+   ],
+   "idea_local_id": null,
+   "quote": null
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "MakeUGC.ai",
+   "purpose": "AI avatar UGC videos holding products",
+   "cost_stated": null
+  },
+  {
+   "name": "Perplexity",
+   "purpose": "Scrape Reddit for industry pain points",
+   "cost_stated": null
+  },
+  {
+   "name": "ChatGPT deep research",
+   "purpose": "Deeper complaint and competitor research",
+   "cost_stated": null
+  },
+  {
+   "name": "Google Trends",
+   "purpose": "Check if an industry is growing",
+   "cost_stated": null
+  },
+  {
+   "name": "n8n / make.com",
+   "purpose": "Automation workflows",
+   "cost_stated": null
+  },
+  {
+   "name": "Apollo",
+   "purpose": "Find company emails",
+   "cost_stated": null
+  },
+  {
+   "name": "Claude",
+   "purpose": "Turn transcripts into ebooks",
+   "cost_stated": null
+  },
+  {
+   "name": "Canva",
+   "purpose": "Ebook design",
+   "cost_stated": null
+  },
+  {
+   "name": "Phantom Buster",
+   "purpose": "LinkedIn automation to collect emails",
+   "cost_stated": "about $50/month"
+  },
+  {
+   "name": "Google Flights",
+   "purpose": "Price tracking alerts",
+   "cost_stated": "free"
+  },
+  {
+   "name": "Namecheap",
+   "purpose": "Domain purchase",
+   "cost_stated": "$11"
+  },
+  {
+   "name": "Beehiiv",
+   "purpose": "Newsletter platform",
+   "cost_stated": null
+  },
+  {
+   "name": "Nextdoor",
+   "purpose": "Neighbourhood marketing",
+   "cost_stated": null
+  },
+  {
+   "name": "GoHighLevel",
+   "purpose": "White-label lead gen tool",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Ad creatives go stale in about two months, so winners need constant replacement.",
+   "quote": {
+    "text": "it's going to be stale in two months.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9466,
+    "approx_timestamp_s": 520
+   }
+  },
+  {
+   "warning": "Don't pitch businesses that don't run ads; target those already addicted to ads.",
+   "quote": {
+    "text": "you want to find people that already know that ads work and offer them something better.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8752,
+    "approx_timestamp_s": 481
+   }
+  },
+  {
+   "warning": "Posting before/after jobs you didn't do is dishonest; do it ethically.",
+   "quote": null
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Sell to buyers who already spend heavily on the thing you improve instead of convincing non-buyers.",
+   "theme": "customer_acquisition",
+   "quote": null
+  },
+  {
+   "lesson": "Unsexy, boring B2B niches (webinars) often have budgets and little competition.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "the more unsexy the thing is and like the more like not cool it is that is where you just",
+    "speaker": "Cody",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 29511,
+    "approx_timestamp_s": 1623
+   }
+  },
+  {
+   "lesson": "Sell a narrow done-for-you deliverable on a recurring cadence rather than running the client's whole channel.",
+   "theme": "offer_design",
+   "quote": null
+  },
+  {
+   "lesson": "Use AI for production and keep the human as curator who picks winners.",
+   "theme": "automation_ai",
+   "quote": {
+    "text": "The job of the human is like you're just a curator. You're just like picking the winners.",
+    "speaker": "Cody",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10629,
+    "approx_timestamp_s": 584
+   }
+  },
+  {
+   "lesson": "Copy proven pricing models and unbundle big players by going local or niche.",
+   "theme": "pricing",
+   "quote": null
+  },
+  {
+   "lesson": "Do the work upfront (free samples) so outreach shows value and validates demand.",
+   "theme": "validation_testing",
+   "quote": null
+  },
+  {
+   "lesson": "Check market growth with Google Trends before launching a lead-gen business.",
+   "theme": "validation_testing",
+   "quote": null
+  },
+  {
+   "lesson": "Clients who can do it themselves still pay for time saved; the DIY risk is small.",
+   "theme": "offer_design",
+   "quote": null
+  },
+  {
+   "lesson": "Do the simple thing fast, e.g. buy the domain, instead of over-planning.",
+   "theme": "mindset_execution",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "C",
+  "rationale": "Mostly brainstormed ideas with hypothetical math and no first-hand results for the businesses pitched; some public revenue figures (Going.com) quoted from a quick search. Guest's anecdotes (Rupa Health, $100/video) are first-hand but peripheral.",
+  "promotional_conflict": "Host sells the TK Owners community; sponsor reads for get.online domains and Graph."
+ },
+ "extraction": {
+  "model": "claude-sonnet-5-5",
+  "extracted_at": "2026-10-22T05:09:36",
+  "cost_usd": 0.1668022,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 32,
+   "verified": 32,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

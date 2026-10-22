@@ -1,0 +1,1471 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "bH_coG-2ASo",
+  "title": "“Stupid Simple” Apps Are Making Millions While You Overthink",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=bH_coG-2ASo",
+  "upload_date": "2025-12-19",
+  "duration_s": 2992,
+  "view_count": 178655,
+  "transcript_provider": "ok",
+  "transcript_chars": 59891,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner interviews Will Cannon, who built the B2B lead-data SaaS UpLead and the e-signature SaaS Signaturely. Will describes going from a failed mortgage company to selling email lists, then an agency, then UpLead (about $1M ARR in year one, cold email plus SEO). He then explains how he cloned the e-signature category by mining G2 reviews, building a 'stupid simple' product and proving he could get customers before building. The pair also pitch a free vertical CRM monetised through payments and payroll, and both stress selling before building and that 10k a month is a life-changing target.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Host of The Koerner Office; serial entrepreneur and investor"
+  },
+  {
+   "name": "Will Cannon",
+   "role": "guest",
+   "description": "Founder of UpLead (B2B data SaaS) and Signaturely (e-signature); previously a list-selling agency owner; based in Southern California"
+  }
+ ],
+ "format": "operator_interview",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "UpLead (B2B lead data SaaS)",
+   "one_liner": "Self-serve subscription platform selling verified B2B contact data, built to replace a manual list-selling agency.",
+   "category": "saas_software",
+   "business_model": "Monthly subscription to B2B contact data",
+   "customer": "Small and mid-sized businesses and sales teams needing clean lists of ideal prospects",
+   "problem": "Sales teams need accurate B2B prospect lists; the incumbents were ZoomInfo and Sales Genie",
+   "offer": "A B2B-only lead database where users build their own prospect lists",
+   "pricing": {
+    "model": "subscription",
+    "price_points": [],
+    "notes": "not stated"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "cold_email",
+     "details": "First customers came from cold emailing with lists built using their own tool ('eating our own dog food'), with a script and multiple follow-ups.",
+     "quote": {
+      "text": "And we got our first customers through cold email.",
+      "speaker": "Will Cannon",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 26952,
+      "approx_timestamp_s": 1397
+     }
+    }
+   ],
+   "delivery": "Software platform with data sourced from industry relationships and kept clean; emails verified cheaply, phones sampled via a Philippines call center. Built by an outsourced dev team found on Upwork.",
+   "unit_economics_claims": [
+    "MRR went 2K, 5K, 8K, 10K in the first months",
+    "Roughly $1M ARR in year one",
+    "About 2M ARR by year 3 (approximate)"
+   ],
+   "tools": [
+    "Elance",
+    "Upwork",
+    "Cold email"
+   ],
+   "startup_cost": "not stated (a first MVP attempt on Elance was lost to a scam)",
+   "time_to_first_revenue": "Not stated; reached about 10K MRR within a few months",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "SEO and cold email to limited companies can be run by agents; PECR requires care with sole traders"
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Self-serve signup"
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Software delivers data; data quality upkeep and sourcing need occasional human work"
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Subscription billing"
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Agents handle most tickets; he hired a human support person early"
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Works in the UK but B2B personal data is regulated by UK GDPR and PECR; data sourcing must be lawful and legitimate interest documented."
+   },
+   "risks": [
+    "Competing with ZoomInfo",
+    "Data accuracy decay",
+    "Team and process scaling"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "I think it was like 2,000 a month, 5,000 a month, 8,000 a month, 10,000 a month. It just started going.",
+     "speaker": "Will Cannon",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 26319,
+     "approx_timestamp_s": 1364
+    },
+    {
+     "text": "I think within the first year, we were probably doing a million ARR first year.",
+     "speaker": "Will Cannon",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 29720,
+     "approx_timestamp_s": 1541
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "The Data Supplier (list-selling agency)",
+   "one_liner": "Buy industry contact lists cheaply, package by industry and resell the same digital file repeatedly.",
+   "category": "data_leads",
+   "business_model": "One-off sales of bulk lists (his side) and per-lead sales (wife's side)",
+   "customer": "Businesses wanting prospect lists, from SMBs to some Fortune 500s",
+   "problem": "Companies need a clean list of their ideal prospects",
+   "offer": "Industry lists such as realtors, dentists and chiropractors, with custom segments and appended data",
+   "pricing": {
+    "model": "bulk list price or per-lead",
+    "price_points": [
+     {
+      "amount": 500,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "Every realtor in the US"
+     },
+     {
+      "amount": 200,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "California realtor list"
+     },
+     {
+      "amount": 0.5,
+      "currency": "USD",
+      "unit": "per lead",
+      "label": "Low end of per-lead pricing"
+     }
+    ],
+    "notes": "Wife ran a separate per-lead business; customers bought from both"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "seo_organic_search",
+     "details": "Ranked number one for terms like 'realtor email lists' using borderline gray-hat SEO.",
+     "quote": null
+    },
+    {
+     "channel": "cold_email",
+     "details": "Cold emailed businesses.",
+     "quote": null
+    }
+   ],
+   "delivery": "Digital file/link; manually merged and appended CSVs; a team built helper software; emails re-verified and phone accuracy sampled by a Philippines call centre (500 of 10,000 hand-dialled).",
+   "unit_economics_claims": [
+    "Business reached 30-50K a month within 2-3 months",
+    "Agency profit high six to low seven figures per year",
+    "Lists acquired for next to nothing and resold unlimited times"
+   ],
+   "tools": [
+    "BizBen",
+    "Philippines call centre",
+    "Email verification"
+   ],
+   "startup_cost": "Next to nothing per list; around $100 for a list",
+   "time_to_first_revenue": "Within 2-3 months at scale",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "SEO plus cold email to companies"
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Order and download"
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Manual CSV manipulation could be agent-driven; sourcing is the hard part"
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Online checkout"
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Agent handled with checks"
+    }
+   },
+   "uk_applicability": {
+    "score_e": 2,
+    "notes": "Reselling personal data lists, especially of consumers and sole traders, collides with UK GDPR and PECR; reselling bought lists without a lawful basis is risky."
+   },
+   "risks": [
+    "Data quality decay",
+    "Legal exposure on personal data",
+    "Buyers rarely execute outbound successfully"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "It was called The Data Supplier.",
+     "speaker": "Will Cannon",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 11346,
+     "approx_timestamp_s": 588
+    },
+    {
+     "text": "within a short handful of months, maybe two or three months, that business was doing like 30, 40, 50 thousand dollars.",
+     "speaker": "Will Cannon",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 11668,
+     "approx_timestamp_s": 605
+    },
+    {
+     "text": "Every realtor in the US, 500 bucks. You want California list, it's 200 bucks.",
+     "speaker": "Will Cannon",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 20173,
+     "approx_timestamp_s": 1046
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Signaturely (simple e-signature SaaS)",
+   "one_liner": "A deliberately bare-bones e-signature tool for small businesses, driven by SEO tools and templates.",
+   "category": "saas_software",
+   "business_model": "Freemium, later free trial, then paid subscription",
+   "customer": "Very small mom-and-pop businesses",
+   "problem": "DocuSign and Adobe are too complex for small users",
+   "offer": "Upload a document, say who signs, done; no API or contract lifecycle management at first",
+   "pricing": {
+    "model": "freemium then 7-day free trial with card",
+    "price_points": [],
+    "notes": "Free plan allows 3 documents a month; paid prices not stated"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "seo_organic_search",
+     "details": "Free signature tools and contract template pages; the domain contains 'signature'; 800-900K site visits per month.",
+     "quote": {
+      "text": "We probably get 800,000, 900,000 visits per month to the website",
+      "speaker": "Will Cannon",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 38043,
+      "approx_timestamp_s": 1972
+     }
+    },
+    {
+     "channel": "cold_email",
+     "details": "Cold emailed small businesses early on.",
+     "quote": null
+    }
+   ],
+   "delivery": "Software; MVP built by the same Upwork dev team as UpLead; later added an API",
+   "unit_economics_claims": [
+    "1.9M users, over 99% on the free plan",
+    "Over 100K users in year 1-2",
+    "Revenue modest relative to user base"
+   ],
+   "tools": [
+    "G2",
+    "Upwork"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "SEO content and tool pages"
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Self-serve"
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "Pure software"
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Subscription billing"
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Agent-first support"
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "E-signatures are legally valid in the UK (Electronic Communications Act, eIDAS-equivalent); GDPR and security expectations apply."
+   },
+   "risks": [
+    "Low revenue per user",
+    "Competition from DocuSign and Adobe",
+    "Customers may expect SOC 2"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "let's build something so simple to use, so stupidly simple that your my grandma, you know, your grandmother could use it, right?",
+     "speaker": "Will Cannon",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 36046,
+     "approx_timestamp_s": 1869
+    },
+    {
+     "text": "So, you can sign three documents per month completely for free.",
+     "speaker": "Will Cannon",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 36942,
+     "approx_timestamp_s": 1915
+    },
+    {
+     "text": "So, today we have 1.9 million users.",
+     "speaker": "Will Cannon",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 37805,
+     "approx_timestamp_s": 1960
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "Free vertical CRM monetised via payments, payroll and insurance",
+   "one_liner": "Give a niche-specific CRM away free and earn on white-labelled credit card processing and similar services.",
+   "category": "saas_software",
+   "business_model": "Free software; revenue from payment processing interchange-plus margin, payroll and health insurance",
+   "customer": "Small vertical businesses such as dentists, chiropractors and barber shops",
+   "problem": "Owners pay about $300 a month for a generic CRM like HubSpot",
+   "offer": "Free vertical CRM if they route payments through you",
+   "pricing": {
+    "model": "free software plus processing margin",
+    "price_points": [
+     {
+      "amount": 1,
+      "currency": "USD",
+      "unit": "percent of card volume",
+      "label": "Average margin example"
+     }
+    ],
+    "notes": "Hypothetical example, a dentist at $100K monthly card volume yields about $1,000 a month"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "cold_email",
+     "details": "Use GoHighLevel to run outreach to the niche.",
+     "quote": null
+    }
+   ],
+   "delivery": "White-label GoHighLevel as CRM (agency account with unlimited sub-accounts) and a white-label card processor",
+   "unit_economics_claims": [
+    "About $1,000 a month per dentist client at 1% margin on $100K volume",
+    "GoHighLevel agency account $300-500 a month"
+   ],
+   "tools": [
+    "GoHighLevel",
+    "Lovable",
+    "Cursor",
+    "Square"
+   ],
+   "startup_cost": "GoHighLevel agency account about $300-500 a month",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Outreach to limited companies can be automated, but sales calls are needed to switch processors"
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Processor migration needs human involvement"
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Software"
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Processor handles it"
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Agents with human escalation"
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Reselling payments in the UK needs a regulated ISO/PayFac partner (FCA considerations); UK interchange is capped lower, so margins are thinner."
+   },
+   "risks": [
+    "Not tested by speakers",
+    "Regulatory complexity",
+    "Interchange-plus margin smaller on Amex"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "I think there's a big market for building these all-in-one tools and giving software away completely for free knowing you're going to make money on all these other areas.",
+     "speaker": "Will Cannon",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 44795,
+     "approx_timestamp_s": 2323
+    },
+    {
+     "text": "you're making $1,000 a month from this client",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 46221,
+     "approx_timestamp_s": 2397
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "Done-for-you cold email agency",
+   "one_liner": "Run outbound campaigns for clients who have lists but cannot execute.",
+   "category": "agency",
+   "business_model": "retainer",
+   "customer": "SMBs that bought lists but failed at outbound",
+   "problem": "Most SMBs fail at outbound",
+   "offer": "Done-for-you cold email",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "not stated"
+   },
+   "acquisition_channels": [],
+   "delivery": "Agency running servers, deliverability and messaging",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Cold email to companies"
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Intake forms"
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Agents can run campaigns with deliverability checks"
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Recurring invoices"
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Agents"
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Cold email to limited companies is allowed under PECR."
+   },
+   "risks": [
+    "Deliverability",
+    "Extra staffing"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "I have some friends now that do done-for-you cold email",
+     "speaker": "Will Cannon",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 22595,
+     "approx_timestamp_s": 1171
+    }
+   ]
+  },
+  {
+   "local_id": "I6",
+   "name": "Cold-call mortgage brokerage",
+   "one_liner": "Boiler-room cold calling homeowners with equity during the subprime boom.",
+   "category": "b2b_service",
+   "business_model": "Mortgage commission",
+   "customer": "Homeowners with equity",
+   "problem": "Homeowners wanted cash for cars and remodels",
+   "offer": "Home equity loans",
+   "pricing": {
+    "model": "commission",
+    "price_points": [],
+    "notes": "not stated"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "cold_call",
+     "details": "Boiler-room cold calling of homeowners meeting criteria.",
+     "quote": {
+      "text": "we were just literally just cold calling home owners that meet certain criteria",
+      "speaker": "Will Cannon",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 6208,
+      "approx_timestamp_s": 321
+     }
+    }
+   ],
+   "delivery": "Human loan officers",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "Started from an apartment, later an office",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Cold calls are human-heavy"
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "Human"
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Regulated human work"
+    },
+    "billing": {
+     "score_e": 2,
+     "how": "Commission"
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Human"
+    }
+   },
+   "uk_applicability": {
+    "score_e": 1,
+    "notes": "Depended on the US subprime boom; collapsed in 2008."
+   },
+   "risks": [
+    "Market collapse led to foreclosures and a repossessed car"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "I made that company $100,000, and I got paid 10,000.",
+     "speaker": "Will Cannon",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 3088,
+     "approx_timestamp_s": 160
+    }
+   ]
+  },
+  {
+   "local_id": "I7",
+   "name": "Bulk-text FSBO lowball offers",
+   "one_liner": "Scrape Zillow for-sale-by-owner listings and bulk text discounted cash offers.",
+   "category": "real_estate",
+   "business_model": "Real estate flipping",
+   "customer": "For-sale-by-owner home sellers",
+   "problem": "Sellers wanting quick cash sale",
+   "offer": "Cash offer about 40% under Zestimate",
+   "pricing": {
+    "model": "deal-based",
+    "price_points": [],
+    "notes": "not stated"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "cold_sms_dm",
+     "details": "Daily bulk texting via custom Twilio software to scraped owner numbers.",
+     "quote": {
+      "text": "And 98% say screw you or no, and 2% are like, let's talk, you know?",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 23580,
+      "approx_timestamp_s": 1222
+     }
+    }
+   ],
+   "delivery": "Buy houses",
+   "unit_economics_claims": [],
+   "tools": [
+    "Twilio",
+    "Upwork",
+    "Zillow"
+   ],
+   "startup_cost": "Paid $1-2K on Upwork for texting software",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Technically automatable but unsolicited texts are unlawful in the UK"
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "Human"
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical property"
+    },
+    "billing": {
+     "score_e": 1,
+     "how": "Deal-based"
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Human"
+    }
+   },
+   "uk_applicability": {
+    "score_e": 1,
+    "notes": "Unsolicited SMS to individuals breaches PECR; Zillow is US-only."
+   },
+   "risks": [
+    "Bought remote houses unseen and lost money",
+    "Lack of local knowledge"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "We ended up buying a few houses in other states that we never saw in person and we completely lost our shirts",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 23961,
+     "approx_timestamp_s": 1242
+    }
+   ]
+  },
+  {
+   "local_id": "I8",
+   "name": "Crypto shipping payments for e-commerce brands",
+   "one_liner": "A business listed on BizBuySell letting e-commerce brands pay for shipping with crypto.",
+   "category": "ecommerce_physical",
+   "business_model": "not stated",
+   "customer": "E-commerce brands",
+   "problem": "not stated",
+   "offer": "Pay for shipping with crypto",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "not stated"
+   },
+   "acquisition_channels": [],
+   "delivery": "not stated",
+   "unit_economics_claims": [
+    "Listed at 300K a year profit"
+   ],
+   "tools": [
+    "BizBuySell"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "unknown"
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "unknown"
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "unknown"
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "unknown"
+    },
+    "support": {
+     "score_e": 2,
+     "how": "unknown"
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Crypto payments are subject to FCA rules."
+   },
+   "risks": [
+    "Details unknown"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "it enabled people to buy shipping, like e-commerce brands to pay for shipping with crypto",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 10247,
+     "approx_timestamp_s": 531
+    }
+   ]
+  },
+  {
+   "local_id": "I9",
+   "name": "Autonomous AI outbound sales agent",
+   "one_liner": "Future lead-gen product connecting to a CRM and booking meetings automatically.",
+   "category": "ai_automation",
+   "business_model": "software subscription",
+   "customer": "Sales teams",
+   "problem": "Manual ICP setup and outreach",
+   "offer": "Meetings appear on the calendar automatically",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "not stated"
+   },
+   "acquisition_channels": [],
+   "delivery": "Software",
+   "unit_economics_claims": [],
+   "tools": [
+    "Salesforce",
+    "HubSpot"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Software"
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "CRM integration"
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Agents"
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Subscription"
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Agents"
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Outbound calls and emails must comply with PECR and TPS."
+   },
+   "risks": [
+    "Not perfect yet"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "It's like just click a click a couple buttons, close your eyes and meetings are on your calendar.",
+     "speaker": "Will Cannon",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 40915,
+     "approx_timestamp_s": 2121
+    }
+   ]
+  },
+  {
+   "local_id": "I10",
+   "name": "Burned CDs sold at school",
+   "one_liner": "Download requested songs and sell burned CDs to classmates.",
+   "category": "arbitrage_reselling",
+   "business_model": "per-unit sales",
+   "customer": "Classmates",
+   "problem": "Wanted custom music",
+   "offer": "Custom CDs",
+   "pricing": {
+    "model": "per unit",
+    "price_points": [
+     {
+      "amount": 10,
+      "currency": "USD",
+      "amount_max": 20,
+      "unit": "per CD",
+      "label": "CD price"
+     }
+    ],
+    "notes": ""
+   },
+   "acquisition_channels": [
+    {
+     "channel": "referrals_word_of_mouth",
+     "details": "Sold in school using a booklet of requests.",
+     "quote": null
+    }
+   ],
+   "delivery": "Manual burning",
+   "unit_economics_claims": [
+    "About 100 dollars a week"
+   ],
+   "tools": [
+    "Napster",
+    "Limewire"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 0,
+     "how": "In person"
+    },
+    "onboarding": {
+     "score_e": 0,
+     "how": "Manual"
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical"
+    },
+    "billing": {
+     "score_e": 0,
+     "how": "Cash"
+    },
+    "support": {
+     "score_e": 0,
+     "how": "None"
+    }
+   },
+   "uk_applicability": {
+    "score_e": 0,
+    "notes": "Copyright infringement; obsolete."
+   },
+   "risks": [
+    "Piracy"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "I'd sell the CDs for 10, 20 bucks a CD, and I'd make 100 bucks a week or whatever it was.",
+     "speaker": "Will Cannon",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 2263,
+     "approx_timestamp_s": 117
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Made mortgage company $100K in first month while paid $10K",
+   "metric": "revenue",
+   "value": {
+    "amount": 100000,
+    "currency": "USD",
+    "unit": "one-off"
+   },
+   "claimant": "Will Cannon",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "I made that company $100,000, and I got paid 10,000.",
+    "speaker": "Will Cannon",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3088,
+    "approx_timestamp_s": 160
+   }
+  },
+  {
+   "claim": "Listguy.com listed at about $10K/month revenue for about $200K",
+   "metric": "sale_price",
+   "value": {
+    "amount": 200000,
+    "currency": "USD",
+    "unit": "one-off"
+   },
+   "claimant": "Will Cannon",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "they were for sale for like 200 grand",
+    "speaker": "Will Cannon",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 228,
+    "approx_timestamp_s": 11
+   }
+  },
+  {
+   "claim": "The Data Supplier hit 30-50K a month in 2-3 months",
+   "metric": "revenue",
+   "value": {
+    "amount": 30000,
+    "amount_max": 50000,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Will Cannon",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "that business was doing like 30, 40, 50 thousand dollars.",
+    "speaker": "Will Cannon",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11727,
+    "approx_timestamp_s": 608
+   }
+  },
+  {
+   "claim": "Agency profit high six to low seven figures",
+   "metric": "profit",
+   "value": {
+    "amount": 700000,
+    "amount_max": 1500000,
+    "currency": "USD",
+    "unit": "per year"
+   },
+   "claimant": "Will Cannon",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "it was probably high six, low seven figures.",
+    "speaker": "Will Cannon",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16314,
+    "approx_timestamp_s": 846
+   }
+  },
+  {
+   "claim": "Realtor list US price $500",
+   "metric": "price",
+   "value": {
+    "amount": 500,
+    "currency": "USD",
+    "unit": "one-off"
+   },
+   "claimant": "Will Cannon",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "Every realtor in the US, 500 bucks. You want California list, it's 200 bucks.",
+    "speaker": "Will Cannon",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20173,
+    "approx_timestamp_s": 1046
+   }
+  },
+  {
+   "claim": "Consumer database of 200-300M people for about $1,000",
+   "metric": "cost",
+   "value": {
+    "amount": 1000,
+    "currency": "USD",
+    "unit": "one-off"
+   },
+   "claimant": "Will Cannon",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "200, 300 million consumers for like a thousand bucks",
+    "speaker": "Will Cannon",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 19587,
+    "approx_timestamp_s": 1015
+   }
+  },
+  {
+   "claim": "UpLead MRR grew 2K to 10K within months",
+   "metric": "mrr",
+   "value": {
+    "amount": 10000,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Will Cannon",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I think it was like 2,000 a month, 5,000 a month, 8,000 a month, 10,000 a month. It just started going.",
+    "speaker": "Will Cannon",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 26319,
+    "approx_timestamp_s": 1364
+   }
+  },
+  {
+   "claim": "UpLead about $1M ARR in year one",
+   "metric": "arr",
+   "value": {
+    "amount": 1000000,
+    "currency": "USD",
+    "unit": "per year"
+   },
+   "claimant": "Will Cannon",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I think within the first year, we were probably doing a million ARR first year.",
+    "speaker": "Will Cannon",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 29720,
+    "approx_timestamp_s": 1541
+   }
+  },
+  {
+   "claim": "Signaturely has 1.9M users, 99%+ free",
+   "metric": "customers",
+   "value": {
+    "amount": 1900000,
+    "currency": null,
+    "unit": "users"
+   },
+   "claimant": "Will Cannon",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "So, today we have 1.9 million users.",
+    "speaker": "Will Cannon",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 37805,
+    "approx_timestamp_s": 1960
+   }
+  },
+  {
+   "claim": "Signaturely gets 800-900K monthly visits",
+   "metric": "traffic",
+   "value": {
+    "amount": 800000,
+    "amount_max": 900000,
+    "currency": null,
+    "unit": "visits per month"
+   },
+   "claimant": "Will Cannon",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "We probably get 800,000, 900,000 visits per month to the website",
+    "speaker": "Will Cannon",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 38043,
+    "approx_timestamp_s": 1972
+   }
+  },
+  {
+   "claim": "Only 1% of documents worldwide were e-signed in 2020",
+   "metric": "other",
+   "value": {
+    "amount": 1,
+    "currency": null,
+    "unit": "percent"
+   },
+   "claimant": "Will Cannon",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "1% of documents, all documents worldwide that are signed are electronically signed",
+    "speaker": "Will Cannon",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 32154,
+    "approx_timestamp_s": 1667
+   }
+  },
+  {
+   "claim": "Free CRM plus 1% processing margin on $100K volume gives $1,000 a month per dentist",
+   "metric": "revenue",
+   "value": {
+    "amount": 1000,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "you're making $1,000 a month from this client",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 46221,
+    "approx_timestamp_s": 2397
+   }
+  },
+  {
+   "claim": "Crypto shipping business listed at 300K/year profit",
+   "metric": "profit",
+   "value": {
+    "amount": 300000,
+    "currency": "USD",
+    "unit": "per year"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I8",
+   "quote": {
+    "text": "It was like they were doing 300,000 a year in profit.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10336,
+    "approx_timestamp_s": 536
+   }
+  },
+  {
+   "claim": "FSBO text responses: 98% rejection, 2% interested",
+   "metric": "response_rate",
+   "value": {
+    "amount": 2,
+    "currency": null,
+    "unit": "percent"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "And 98% say screw you or no, and 2% are like, let's talk, you know?",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23580,
+    "approx_timestamp_s": 1222
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Mine G2 reviews to pick and position a software clone",
+   "area": "product",
+   "steps": [
+    "Browse G2 categories for fragmented markets with at least one or two billion-dollar players",
+    "Read one- and two-star reviews of leaders to find recurring complaints (e.g. too complex)",
+    "Build around one angle such as 'stupid simple' rather than price or features",
+    "Check you can acquire customers profitably before building"
+   ],
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "I want to make sure and I want it to the best of my ability that I think I have a the ability to acquire customers profitably before I build the business.",
+    "speaker": "Will Cannon",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 32983,
+    "approx_timestamp_s": 1710
+   }
+  },
+  {
+   "name": "Free tools and templates SEO funnel",
+   "area": "acquisition",
+   "steps": [
+    "Build free online tools (e.g. signature creator) and downloadable contract templates",
+    "Rank them via SEO",
+    "Funnel visitors to a freemium signup",
+    "Use a keyword-rich domain"
+   ],
+   "idea_local_id": "I3",
+   "quote": null
+  },
+  {
+   "name": "Window-shop business marketplaces for ideas and benchmarks",
+   "area": "acquisition",
+   "steps": [
+    "Browse BizBuySell or BizBen listings",
+    "Read due diligence materials without breaching NDAs",
+    "Learn margins, acquisition channels and what to copy"
+   ],
+   "idea_local_id": null,
+   "quote": {
+    "text": "you can learn so much digging into their due diligence docs.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9946,
+    "approx_timestamp_s": 515
+   }
+  },
+  {
+   "name": "Pre-sell before building",
+   "area": "sales",
+   "steps": [
+    "Run cold email campaigns for the unbuilt product",
+    "Throw up a landing page and test Facebook ads",
+    "Build only once you get yeses"
+   ],
+   "idea_local_id": null,
+   "quote": {
+    "text": "Figure out how to acquire customers first before you go build the thing.",
+    "speaker": "Will Cannon",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 55594,
+    "approx_timestamp_s": 2883
+   }
+  },
+  {
+   "name": "Phone list quality sampling",
+   "area": "operations",
+   "steps": [
+    "Randomly sample 500 from a 10,000-record list",
+    "Have a call center hand-dial them",
+    "Use the disposition report to estimate disconnected and wrong numbers against a threshold"
+   ],
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "Phones, we had a call center in the Philippines, where we take a subset of the list.",
+    "speaker": "Will Cannon",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18438,
+    "approx_timestamp_s": 956
+   }
+  },
+  {
+   "name": "Dog-food cold email",
+   "area": "acquisition",
+   "steps": [
+    "Use your own data product to build prospect lists",
+    "Cold email with multi-step follow-ups"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Retail plus wholesale dual-channel list sales",
+   "area": "pricing",
+   "steps": [
+    "Sell bulk lists at flat prices",
+    "Run a separate per-lead brand",
+    "Capture the same buyer on both ends"
+   ],
+   "idea_local_id": "I2",
+   "quote": null
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "BizBuySell",
+   "purpose": "Business-for-sale marketplace for research",
+   "cost_stated": "Free to browse"
+  },
+  {
+   "name": "BizBen",
+   "purpose": "Business-for-sale marketplace where listguy.com was found",
+   "cost_stated": null
+  },
+  {
+   "name": "G2",
+   "purpose": "B2B software review site for market research",
+   "cost_stated": null
+  },
+  {
+   "name": "Upwork",
+   "purpose": "Hiring dev teams for MVPs",
+   "cost_stated": null
+  },
+  {
+   "name": "Elance",
+   "purpose": "Freelance marketplace where an MVP was lost to scammers",
+   "cost_stated": null
+  },
+  {
+   "name": "GoHighLevel",
+   "purpose": "White-label CRM and outreach",
+   "cost_stated": "$300-500 a month agency account"
+  },
+  {
+   "name": "Twilio",
+   "purpose": "Bulk texting software base",
+   "cost_stated": null
+  },
+  {
+   "name": "Lovable",
+   "purpose": "AI app building",
+   "cost_stated": null
+  },
+  {
+   "name": "Cursor",
+   "purpose": "AI coding",
+   "cost_stated": null
+  },
+  {
+   "name": "Beehiiv",
+   "purpose": "Newsletter platform (sponsor)",
+   "cost_stated": "30% off first 3 months"
+  },
+  {
+   "name": "ZoomInfo",
+   "purpose": "Incumbent B2B data competitor",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Paying an Elance team to build an MVP resulted in lost money and nothing delivered, delaying the SaaS by about five years.",
+   "quote": {
+    "text": "They just literally took our money, didn't build a thing, couldn't even get in contact with them",
+    "speaker": "Will Cannon",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14363,
+    "approx_timestamp_s": 744
+   }
+  },
+  {
+   "warning": "Timing risk: the mortgage boom collapsed in 2008, leaving foreclosures and a repossessed car.",
+   "quote": null
+  },
+  {
+   "warning": "Buying remote houses without local knowledge lost money; local knowledge cannot be replaced by data or AI.",
+   "quote": {
+    "text": "is the fact that you just cannot replace that local knowledge.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24884,
+    "approx_timestamp_s": 1290
+   }
+  },
+  {
+   "warning": "Building software is easier now but scaling is hard; reaching 10M ARR differs from 100K.",
+   "quote": {
+    "text": "Like look, getting to 100k in ARR is a completely different than getting to 10 million in ARR.",
+    "speaker": "Will Cannon",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 50043,
+    "approx_timestamp_s": 2595
+   }
+  },
+  {
+   "warning": "Price and features are weak differentiators because they are copied; need angle and brand.",
+   "quote": {
+    "text": "I don't think price can be your differentiator.",
+    "speaker": "Will Cannon",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 53183,
+    "approx_timestamp_s": 2758
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Prove you can acquire customers profitably before building the product.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "Figure out how to acquire customers first before you go build the thing.",
+    "speaker": "Will Cannon",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 55594,
+    "approx_timestamp_s": 2883
+   }
+  },
+  {
+   "lesson": "Cloning works best with one clear angle (simplicity) found from competitor reviews.",
+   "theme": "offer_design",
+   "quote": null
+  },
+  {
+   "lesson": "A strong owned distribution skill, such as SEO or cold email, is the real moat when anything can be copied.",
+   "theme": "customer_acquisition",
+   "quote": null
+  },
+  {
+   "lesson": "Digital goods with one-time sourcing cost can be resold unlimited times at high margin.",
+   "theme": "finance_unit_economics",
+   "quote": null
+  },
+  {
+   "lesson": "A free product monetised through higher-margin ancillary services is an untapped model as software costs fall.",
+   "theme": "pricing",
+   "quote": null
+  },
+  {
+   "lesson": "A target of 10K a month is life-changing and does not require massive scale.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "to build a business where you're making 10 grand a month, which is life-changing for 99% of people in the world.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 52424,
+    "approx_timestamp_s": 2718
+   }
+  },
+  {
+   "lesson": "Switch to recurring SaaS from agency when the recurring revenue starts to match, and keep the agency running during transition.",
+   "theme": "scaling",
+   "quote": null
+  },
+  {
+   "lesson": "Building a mini brand so you are on buyers' shortlists matters for differentiation.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "And so building a brand is such a key part of how you differentiate.",
+    "speaker": "Will Cannon",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 54152,
+    "approx_timestamp_s": 2808
+   }
+  },
+  {
+   "lesson": "Bootstrapped growth to scale needs good people and processes; trial and error in hiring is normal.",
+   "theme": "hiring_outsourcing",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "B",
+  "rationale": "First-hand operator with plausible but approximate numbers (ranges, 'I want to say', no verification) and a clear step-by-step story; Chris's ideas are hypothetical.",
+  "promotional_conflict": "Will owns UpLead and Signaturely and gives away playbooks to build an email list; Chris promotes TK Owners and sponsor Beehiiv."
+ },
+ "extraction": {
+  "model": "claude-sonnet-5-5",
+  "extracted_at": "2026-10-22T05:04:52",
+  "cost_usd": 0.23266420000000002,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 45,
+   "verified": 45,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

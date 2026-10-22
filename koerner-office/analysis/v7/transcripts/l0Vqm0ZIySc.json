@@ -1,0 +1,936 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "l0Vqm0ZIySc",
+  "title": "He Asked AI To Make Money. It Did.",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=l0Vqm0ZIySc",
+  "upload_date": "2026-03-20",
+  "duration_s": 1842,
+  "view_count": 1166495,
+  "transcript_provider": "transcribeyoutube",
+  "transcript_chars": 30476,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner interviews Robbie, a non-technical operations employee who gave an OpenClaw AI agent ('Ron') $100 and 90 days to make money, inspired by the 2023 HustleGPT experiment. Ron's first idea (SWOT analysis gigs on Fiverr) failed for lack of visibility, but Ron scraped 200 TikTok comments from people wanting their own Ron. Robbie then launched 'AI Co-Founder Club', hosted containerised OpenClaw agents on rented Contabo servers, took $10 pre-orders and converted them to $29/month memberships. He claims about $8.4k MRR after 13 days with ~$2.6k monthly costs. Key takeaway: document the build publicly, validate with paid pre-orders, and sell to the audience your experiment attracts.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Host of The Koerner Office"
+  },
+  {
+   "name": "Robbie",
+   "role": "guest",
+   "description": "Non-technical operations employee who runs the 'Ron' OpenClaw experiment and AI Co-Founder Club"
+  }
+ ],
+ "format": "operator_interview",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "AI Co-Founder Club (hosted containerised OpenClaw agents)",
+   "one_liner": "Monthly membership giving each member a hosted, sandboxed OpenClaw AI agent plus a Discord community and templates.",
+   "category": "saas_software",
+   "business_model": "Monthly subscription ($29/month founding price) with a $10 refundable-style deposit to hold a spot; token costs absorbed by the operator.",
+   "customer": "Non-technical people curious about agentic AI who want their own OpenClaw agent without installing it on their own machine; hobbyists and aspiring AI-employee builders.",
+   "problem": "OpenClaw is risky to run on a local machine (deleted emails/repos) and hard to set up for non-technical users.",
+   "offer": "A cloud-hosted OpenClaw agent in its own sealed Docker container, working out of the box, reachable via Telegram, Discord or a web UI, with persistent memory, a Discord community and templates.",
+   "pricing": {
+    "model": "Monthly subscription, founding members locked at the launch price; $10 deposit to pre-order",
+    "price_points": [
+     {
+      "amount": 29,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "Founding member price, locked forever"
+     },
+     {
+      "amount": 10,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "Pre-order deposit"
+     }
+    ],
+    "notes": "Plans to cap free tokens, then use a fallback cheaper model or let users bring their own API keys."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "organic_social_content",
+     "details": "TikTok video about giving the AI $100 and 90 days went over 1M views and gave ~15,000 subscribers; follow-up videos with Ron as a raccoon avatar; no paid ads and no cold outreach. Scraped ~200 'I want a Ron' comments with Apify as demand proof.",
+     "quote": {
+      "text": "I didn't I didn't do any cold outreach or anything like that. This was all just I'm going to post some videos and see where this goes.",
+      "speaker": "Robbie",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 13716,
+      "approx_timestamp_s": 856
+     }
+    },
+    {
+     "channel": "existing_audience",
+     "details": "Sold to the audience built by the viral experiment video; sign-up page linked in bio with a closing date to create urgency.",
+     "quote": null
+    }
+   ],
+   "delivery": "Four rented bare-metal Contabo servers host Docker containers, one per member; Ron the agent designed the hosting setup. Operator absorbs LLM inference costs and runs the community and support himself, and plans a browser extension for connecting a member's own computer.",
+   "unit_economics_claims": [
+    "MRR about $8,374 after 13 days",
+    "617 pre-orders at $10 in two weeks, 270 converted to members",
+    "Servers about $600/month and inference about $2,000/month (about $2,500 COGS)",
+    "Roughly $6,000/month net profit claimed in the intro"
+   ],
+   "tools": [
+    "OpenClaw",
+    "Claude (Max subscription)",
+    "Contabo bare-metal servers",
+    "Docker",
+    "Stand (pre-order payments)",
+    "Apify",
+    "TikTok",
+    "Discord",
+    "Telegram"
+   ],
+   "startup_cost": "$100 initial budget; servers about $600/month, inference about $2,000/month",
+   "time_to_first_revenue": "About two weeks from the viral video to 617 pre-orders; pre-orders were taken before anything was built",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Content posting and comment scraping can be agent-assisted, but it depends on a viral personal-brand founder narrative and on-camera presence."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Containers can be provisioned automatically and agents work out of the box; limited human approval needed."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Hosted infrastructure runs unattended, though capacity, abuse (a user spawned 125 sub-agents) and token caps need monitoring."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Subscription payments via a payments platform are fully automated."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Community management in Discord and safety questions about agent permissions need a human, though an agent can answer common questions."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Works largely the same in the UK. Needs GDPR and UK consumer-law compliance, VAT on subscriptions, and care with user data in containers. Organic TikTok is not restricted by PECR."
+   },
+   "risks": [
+    "Inference cost overruns from heavy users (1.3M tokens in 48 hours)",
+    "Security and liability if agents get access to users' computers or credentials",
+    "Dependent on OpenClaw, a roughly 100-day-old project, and on LLM provider terms and pricing",
+    "Fad/churn risk after the novelty fades; claims are only 13 days old",
+    "Reliance on one viral TikTok and the founder's personal brand"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "in two weeks, we had like 617 pre-orders.",
+     "speaker": "Robbie",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 13406,
+     "approx_timestamp_s": 837
+    },
+    {
+     "text": "From those 600 people, 270 of them actually join the community.",
+     "speaker": "Robbie",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 18107,
+     "approx_timestamp_s": 1131
+    },
+    {
+     "text": "Founding members, 29 bucks a month, locked forever. $10 deposit holds your spot.",
+     "speaker": "Robbie",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 17294,
+     "approx_timestamp_s": 1080
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "AI employee cohort for business builders",
+   "one_liner": "Planned upsell: a small cohort programme for members who want to turn their agent into a real AI employee for a business.",
+   "category": "education_coaching",
+   "business_model": "Cohort or community programme (price not stated).",
+   "customer": "Existing members who want to use their agent to run a business.",
+   "problem": "Members use agents for art or therapy-style chat, but some want to build an actual AI employee.",
+   "offer": "Small group cohort learning to turn the agent into a business AI employee.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "not stated"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "existing_audience",
+     "details": "Sell to current club members.",
+     "quote": null
+    }
+   ],
+   "delivery": "Small cohort learning together; details not stated.",
+   "unit_economics_claims": [],
+   "tools": [
+    "OpenClaw"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Upsell to existing members via email/Discord."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Form and payment automatable."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Cohort learning needs live human facilitation."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Automated payments."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Community Q&A needs a human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works the same in the UK."
+   },
+   "risks": [
+    "Unproven; only a stated plan"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "there's actually a real market for people who want to turn this into a real AI employee.",
+     "speaker": "Robbie",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 28851,
+     "approx_timestamp_s": 1802
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "SWOT / market research gigs on Fiverr",
+   "one_liner": "AI agent lists SWOT and market analysis services for small businesses on Fiverr.",
+   "category": "b2b_service",
+   "business_model": "Per-gig freelance fees via Fiverr (price not stated).",
+   "customer": "Small businesses needing basic research or SWOT analysis.",
+   "problem": "Businesses lack time or AI skills to produce research.",
+   "offer": "SWOT analysis and market research produced by the AI agent, with listing copy written by it.",
+   "pricing": {
+    "model": "per gig",
+    "price_points": [],
+    "notes": "not stated"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "marketplace_platform",
+     "details": "Brand new Fiverr account with no reviews and no ads; failed due to no visibility.",
+     "quote": {
+      "text": "the hopefully they see your posting is uh kind of where it fell apart.",
+      "speaker": "Robbie",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 7345,
+      "approx_timestamp_s": 458
+     }
+    }
+   ],
+   "delivery": "Agent creates the research; human clicked through the Fiverr account setup buttons.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Fiverr",
+    "OpenClaw"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "Never earned revenue; abandoned quickly",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Marketplace ranking needs reviews and a seller identity; account creation and tax forms need a human."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Order requirements handled by agent with checks."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "LLM research and SWOT writing is agent-friendly with review."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Handled by Fiverr."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Messaging via agent with oversight."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Fiverr works in the UK; UK sellers need self-assessment tax registration rather than a W9, and Fiverr terms on AI-delivered work apply."
+   },
+   "risks": [
+    "New-account invisibility",
+    "Fiverr terms on automated or AI-delivered work",
+    "Low-priced competitive gig market"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "Ron came up with a proposal to do SWAT analysis and research for small businesses.",
+     "speaker": "Robbie",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 5946,
+     "approx_timestamp_s": 371
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "TikTok audit service",
+   "one_liner": "AI audits people's TikTok accounts for $9 to stay alive.",
+   "category": "content_media",
+   "business_model": "One-off paid audits.",
+   "customer": "TikTok creators wanting feedback.",
+   "problem": "Gurus say iterate but do not explain how.",
+   "offer": "AI reviews a creator's videos and gives improvement advice.",
+   "pricing": {
+    "model": "one-off",
+    "price_points": [
+     {
+      "amount": 9,
+      "currency": "USD",
+      "unit": "per audit",
+      "label": "TikTok audit"
+     }
+    ],
+    "notes": "First launch iteration, superseded by the club."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "organic_social_content",
+     "details": "Pitched in a TikTok video from Ron.",
+     "quote": null
+    }
+   ],
+   "delivery": "AI analyses scraped videos and comments.",
+   "unit_economics_claims": [],
+   "tools": [
+    "TikTok",
+    "Apify",
+    "OpenClaw"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Content-driven."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Link submission form."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "LLM analysis of scraped data."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Automated payment."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Agent-handled queries."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Works in the UK; scraping may breach platform terms."
+   },
+   "risks": [
+    "Scraping breaches TikTok terms",
+    "Low price point"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "He wants to audit your Tik Tok for $9 in order to stay alive.",
+     "speaker": "Robbie",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 14820,
+     "approx_timestamp_s": 925
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "TikTok Shop selling (fallback plan)",
+   "one_liner": "Robbie's original side-hustle plan to sell products such as vacuum cleaners on TikTok Shop.",
+   "category": "ecommerce_physical",
+   "business_model": "Product sales.",
+   "customer": "TikTok shoppers.",
+   "problem": "not stated",
+   "offer": "Products on TikTok Shop.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "organic_social_content",
+     "details": "TikTok videos.",
+     "quote": null
+    }
+   ],
+   "delivery": "not stated",
+   "unit_economics_claims": [],
+   "tools": [
+    "TikTok Shop"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Video creation needs a human."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Marketplace flow."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Physical fulfilment."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Platform handles it."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Agent-assisted."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "TikTok Shop operates in the UK."
+   },
+   "risks": [
+    "Crowded market"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "if all else fails, I can sell vacuum cleaners on TikTok like everybody else, right?",
+     "speaker": "Robbie",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 3048,
+     "approx_timestamp_s": 190
+    }
+   ]
+  },
+  {
+   "local_id": "I6",
+   "name": "Customer-built apps via personal agents (golf tracker)",
+   "one_liner": "A member's agent built a golf shot tracker app with an AI caddy, an example of member use cases.",
+   "category": "saas_software",
+   "business_model": "not stated",
+   "customer": "Golfers",
+   "problem": "Tracking shots and improving golf.",
+   "offer": "Golf tracker app with club analytics and AI caddy.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "Built by member's agent.",
+   "unit_economics_claims": [],
+   "tools": [
+    "OpenClaw"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Not discussed."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "App flow."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Agent-built software."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "App store billing."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Agent assisted."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works the same."
+   },
+   "risks": [
+    "Hobby project, no business validation"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "this guy built a golf tracker app that does like shot by shot and you have an AI caddy club analytics.",
+     "speaker": "Robbie",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 20625,
+     "approx_timestamp_s": 1288
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "MRR of $8,374 after 13 days open",
+   "metric": "mrr",
+   "value": {
+    "amount": 8374,
+    "currency": "USD",
+    "unit": "per month",
+    "label": null
+   },
+   "period": "13 days since launch",
+   "claimant": "Robbie",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "it's 8374 right now.",
+    "speaker": "Robbie",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18816,
+    "approx_timestamp_s": 1175
+   }
+  },
+  {
+   "claim": "617 pre-orders in two weeks at $10 deposit",
+   "metric": "customers",
+   "value": {
+    "amount": 617,
+    "currency": "USD",
+    "unit": "pre-orders",
+    "label": null
+   },
+   "period": "two weeks",
+   "claimant": "Robbie",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "in two weeks, we had like 617 pre-orders.",
+    "speaker": "Robbie",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13406,
+    "approx_timestamp_s": 837
+   }
+  },
+  {
+   "claim": "270 of about 600 depositors joined (about 45%)",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 270,
+    "currency": null,
+    "unit": "members",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Robbie",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "From those 600 people, 270 of them actually join the community.",
+    "speaker": "Robbie",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18107,
+    "approx_timestamp_s": 1131
+   }
+  },
+  {
+   "claim": "Servers cost about $600/month",
+   "metric": "cost",
+   "value": {
+    "amount": 600,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "Contabo servers"
+   },
+   "period": "per month",
+   "claimant": "Robbie",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So 600 a month for the servers.",
+    "speaker": "Robbie",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 27555,
+    "approx_timestamp_s": 1721
+   }
+  },
+  {
+   "claim": "Inference costs about $2,000/month",
+   "metric": "cost",
+   "value": {
+    "amount": 2000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "LLM tokens"
+   },
+   "period": "per month",
+   "claimant": "Robbie",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "The big cost that we have right now is about two grand a month for inference.",
+    "speaker": "Robbie",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 27586,
+    "approx_timestamp_s": 1723
+   }
+  },
+  {
+   "claim": "One viral TikTok got over a million views and about 15,000 subscribers",
+   "metric": "traffic",
+   "value": {
+    "amount": 1000000,
+    "currency": null,
+    "unit": "views",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Robbie",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "it blew up almost immediately and got over a million views.",
+    "speaker": "Robbie",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3473,
+    "approx_timestamp_s": 216
+   }
+  },
+  {
+   "claim": "One user burned 1.3M tokens in about 48 hours with 125 sub-agents",
+   "metric": "other",
+   "value": {
+    "amount": 1300000,
+    "currency": null,
+    "unit": "tokens",
+    "label": null
+   },
+   "period": "48 hours",
+   "claimant": "Robbie",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "They've burned 1.3 million tokens in like 48 hours.",
+    "speaker": "Robbie",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 27977,
+    "approx_timestamp_s": 1747
+   }
+  },
+  {
+   "claim": "Intro claim of about $6,000/month net profit and $8,500 monthly revenue",
+   "metric": "profit",
+   "value": {
+    "amount": 6000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "net profit"
+   },
+   "period": "per month",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "he's making $8,500 a month in revenue and about $6,000 a month in net profit.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1357,
+    "approx_timestamp_s": 84
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Paid pre-order validation",
+   "area": "sales",
+   "steps": [
+    "Post the idea publicly and gauge interest",
+    "Require a $10 deposit to pre-order to filter tire-kickers",
+    "Build only after deposits arrive",
+    "Convert depositors to monthly members (about 45% converted here)"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "the only way that you could pre-order was if you put down 10 bucks.",
+    "speaker": "Robbie",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14149,
+    "approx_timestamp_s": 883
+   }
+  },
+  {
+   "name": "Mine comments for demand",
+   "area": "acquisition",
+   "steps": [
+    "Post a video about what you are building",
+    "Scrape comments with Apify",
+    "Let the agent summarise recurring requests",
+    "Build the offer people asked for and announce it to the same audience"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Document the experiment publicly",
+   "area": "acquisition",
+   "steps": [
+    "Do something novel and visible",
+    "Post the journey on TikTok without worrying about views",
+    "Rely on interest-based distribution rather than follower count",
+    "Follow up with launch and sign-up videos with a closing date"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "you can start a fresh Tik Tok account tomorrow and post something and it just hits the people that are into that thing right now.",
+    "speaker": "Robbie",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 27107,
+    "approx_timestamp_s": 1693
+   }
+  },
+  {
+   "name": "Containerise agents for safety",
+   "area": "operations",
+   "steps": [
+    "Run each user's agent in a sealed Docker container on rented servers",
+    "Give it only the credentials the user chooses",
+    "Add token caps, then a cheaper fallback model or bring-your-own-key option"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "OpenClaw",
+   "purpose": "Autonomous AI agent framework that controls a computer",
+   "cost_stated": null
+  },
+  {
+   "name": "Claude Max",
+   "purpose": "LLM subscription behind the agent",
+   "cost_stated": "$200/month"
+  },
+  {
+   "name": "Contabo",
+   "purpose": "Bare-metal server hosting",
+   "cost_stated": "about $150/month each, four servers"
+  },
+  {
+   "name": "Docker",
+   "purpose": "Containerising each user's agent",
+   "cost_stated": null
+  },
+  {
+   "name": "Apify",
+   "purpose": "Scraping TikTok comments",
+   "cost_stated": null
+  },
+  {
+   "name": "Stand",
+   "purpose": "Collecting pre-order payments from TikTok",
+   "cost_stated": null
+  },
+  {
+   "name": "Fiverr",
+   "purpose": "Freelance marketplace for the failed SWOT gig",
+   "cost_stated": null
+  },
+  {
+   "name": "TikTok",
+   "purpose": "Main marketing channel",
+   "cost_stated": null
+  },
+  {
+   "name": "Discord",
+   "purpose": "Community and agent interface",
+   "cost_stated": null
+  },
+  {
+   "name": "Telegram",
+   "purpose": "Agent interface",
+   "cost_stated": null
+  },
+  {
+   "name": "Go High Level",
+   "purpose": "Sponsor: AI receptionist and white-label platform",
+   "cost_stated": "30-day free trial"
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Running OpenClaw on a local machine is risky; agents have deleted mailboxes and a whole GitHub repo.",
+   "quote": {
+    "text": "a guy sent an openclaw agent on a a GitHub that he had been working on for two years and it deleted the whole repo.",
+    "speaker": "Robbie",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12618,
+    "approx_timestamp_s": 788
+   }
+  },
+  {
+   "warning": "Heavy users can blow up token costs, so caps or bring-your-own-key options are needed.",
+   "quote": {
+    "text": "we're going to have to come to a place where there's a cap on the free tokens.",
+    "speaker": "Robbie",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 28039,
+    "approx_timestamp_s": 1751
+   }
+  },
+  {
+   "warning": "A brand new marketplace account with no reviews or ads gets no visibility, which killed the Fiverr attempt.",
+   "quote": null
+  },
+  {
+   "warning": "Giving agents sensitive data such as tax IDs or credentials carries security implications; roll out computer access slowly.",
+   "quote": null
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Charging a small deposit before building filters curious tire-kickers and proves real demand.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "everybody wants to sign up for pre-order, but nobody wants to pay, right?",
+    "speaker": "Robbie",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14036,
+    "approx_timestamp_s": 876
+   }
+  },
+  {
+   "lesson": "Letting the AI experiment lead can reveal a better business than the one you planned; the winning idea came from audience comments, not the agent's first gig.",
+   "theme": "validation_testing",
+   "quote": null
+  },
+  {
+   "lesson": "Build in public: document what you are doing and post it, since small targeted audiences convert better than large untargeted ones.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "200 targeted views are better can be even more profitable than 2 million unargeted views",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 26704,
+    "approx_timestamp_s": 1668
+   }
+  },
+  {
+   "lesson": "Do not assume other business owners and consumers use AI as much as you do; it opens opportunities for AI-enabled services.",
+   "theme": "niche_selection",
+   "quote": null
+  },
+  {
+   "lesson": "Being early on new infrastructure (agentic AI) gives a large advantage over the mainstream.",
+   "theme": "mindset_execution",
+   "quote": null
+  },
+  {
+   "lesson": "Variable AI inference costs can erode subscription margins, so plan caps and fallback models from the start.",
+   "theme": "finance_unit_economics",
+   "quote": null
+  },
+  {
+   "lesson": "Non-technical founders can use the AI itself to research hosting and architecture, but should keep human oversight on security.",
+   "theme": "automation_ai",
+   "quote": null
+  },
+  {
+   "lesson": "Interest-based algorithms mean follower count matters less, so a new account can still reach a niche.",
+   "theme": "customer_acquisition",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "B",
+  "rationale": "First-hand operator with specific figures (MRR, pre-orders, costs), but the business is only 13 days old, the numbers are unverified, and the intro's profit figure is not reconciled with the stated costs and MRR. Sales are essentially a hype-driven AI novelty with unproven retention.",
+  "promotional_conflict": "Robbie sells the AI Co-Founder Club and offers Chris a coupon; the host promotes TK Owners and a Go High Level sponsor read."
+ },
+ "extraction": {
+  "model": "claude-sonnet-5-5",
+  "extracted_at": "2026-10-22T05:08:25",
+  "cost_usd": 0.1259342,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 24,
+   "verified": 24,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

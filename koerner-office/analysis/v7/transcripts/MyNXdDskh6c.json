@@ -1,0 +1,525 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "MyNXdDskh6c",
+  "title": "Don't Build Anything Until You Do This | Digital Product Validation",
+  "channel": "Dark Horse Entrepreneur",
+  "url": "https://www.youtube.com/watch?v=MyNXdDskh6c",
+  "upload_date": "2026-10-07",
+  "duration_s": 1134,
+  "view_count": 786,
+  "transcript_provider": "cached",
+  "transcript_chars": 20239,
+  "transcript_is_whisper": false
+ },
+ "summary": "Dark Horse Entrepreneur host explains a weekend plan to validate a small digital product (ebook, template pack, prompt library, mini course) before building it. Evidence must cost the buyer something: existing spend, specific pain in their own words, or commitment (email, call, pre-order, payment). The plan sets go/fix/kill thresholds on Friday, researches buyers on Saturday, then writes a one-paragraph offer, builds a mock-up and landing page, and asks for a real commitment on Sunday. Key takeaway: opinions are worthless, pre-sales are the strongest evidence, and a killed idea is a cheap win.",
+ "speakers": [
+  {
+   "name": "Dark Horse Entrepreneur host",
+   "role": "host",
+   "description": "Solo podcast host; name not stated in transcript. Runs the AI Escape Plan newsletter at darkhorseinsider.com."
+  }
+ ],
+ "format": "tutorial_howto",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Pre-validated micro digital product (e.g. Month-End Receipt Rescue Kit for solo bookkeepers)",
+   "one_liner": "Validate a niche low-priced digital product with a weekend pre-sale before building it.",
+   "category": "digital_products",
+   "business_model": "One-off sales of small digital products (checklists, email templates, kits), pre-sold before creation",
+   "customer": "A narrowly defined buyer, e.g. solo bookkeepers who lose two hours each month end chasing client receipts",
+   "problem": "Creators build digital products fast with ChatGPT but without proof of demand, leading to no sales.",
+   "offer": "Example: 3 copy-and-paste client email sequences, a receipt request checklist and a one-page client policy, aimed at cutting month-end chasing time.",
+   "pricing": {
+    "model": "Low one-off price; avoid free because price tests demand",
+    "price_points": [
+     {
+      "amount": 19,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "Example receipt rescue kit price"
+     }
+    ],
+    "notes": "Host says first small products usually start low; thresholds should be adjusted to audience size and price."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "facebook_groups_communities",
+     "details": "Message 10-20 people matching the buyer persona in communities (Reddit, Facebook groups, niche forums) where pain was found; lead with a question, respect group no-promo rules.",
+     "quote": {
+      "text": "Message 10 to 20 people who fit your buyer description.",
+      "speaker": "Host",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 12525,
+      "approx_timestamp_s": 725
+     }
+    },
+    {
+     "channel": "existing_audience",
+     "details": "Share landing page in profiles and any small existing audience.",
+     "quote": null
+    },
+    {
+     "channel": "marketplace_platform",
+     "details": "Research existing spend on Gumroad, Etsy, Teachable, Stan Store, Amazon books to see reviews and sales counts.",
+     "quote": null
+    }
+   ],
+   "delivery": "Digital files delivered by the creator after a pre-sale on a stated ship date; the product is built only after the go signal, using collected customer quotes as the outline. Full refund offered if not built.",
+   "unit_economics_claims": [
+    "Host ran a pre-sale for a not-yet-created podcasting course and got 18 sign-ups in two hours",
+    "Go threshold: at least 3 non-acquaintances commit, ideally paying"
+   ],
+   "tools": [
+    "ChatGPT",
+    "Claude",
+    "Gumroad",
+    "Etsy",
+    "Teachable",
+    "Stan Store",
+    "Reddit",
+    "Facebook groups",
+    "Amazon books"
+   ],
+   "startup_cost": "Not stated precisely; a weekend of time plus a landing page and payment option",
+   "time_to_first_revenue": "Pre-sale evidence within one weekend (48 hours)",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Research and quote grouping can be agent-assisted, but community outreach and conversations are manual and cold DMs to individuals face PECR limits; inbound listings and SEO are more automatable."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Landing page, payment and automated delivery email are standard software."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Digital files can be drafted by AI with human review and delivered automatically."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Payment platforms handle checkout, refunds and receipts."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "Low-touch product; an agent can answer FAQs with occasional human refunds or edge cases."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Works in the UK; digital products sell globally. Pre-sales need clear delivery dates and refunds under UK consumer law, and VAT on digital sales applies. Avoid cold DMs to individuals under PECR; ask questions in communities where allowed."
+   },
+   "risks": [
+    "Small numbers are noisy; 3 buyers does not mean 300",
+    "Crowded markets for generic templates and prompt packs",
+    "Pre-selling without delivering damages reputation",
+    "Fake AI reviews or testimonials are unethical and risky"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "Strong version, solo bookkeepers who lose two hours every month end chasing client receipts.",
+     "speaker": "Host",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 5694,
+     "approx_timestamp_s": 329
+    },
+    {
+     "text": "At least three people that you don't personally know take a real commitment step, ideally a payment or pre-order",
+     "speaker": "Host",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 4220,
+     "approx_timestamp_s": 244
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Host got 18 pre-sale sign-ups within two hours for a podcasting course not yet created",
+   "metric": "customers",
+   "value": {
+    "amount": 18,
+    "currency": null,
+    "unit": "sign-ups",
+    "label": null
+   },
+   "period": "two hours",
+   "claimant": "Host",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "within two hours, I had 18 people sign up",
+    "speaker": "Host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13887,
+    "approx_timestamp_s": 804
+   }
+  },
+  {
+   "claim": "Example kit priced at $19",
+   "metric": "price",
+   "value": {
+    "amount": 19,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": "Example kit"
+   },
+   "period": null,
+   "claimant": "Host",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "all built to help you cut your month in chase time, and it's only $19.",
+    "speaker": "Host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10132,
+    "approx_timestamp_s": 586
+   }
+  },
+  {
+   "claim": "Building a digital product can eat six weekends and a couple hundred dollars in tools",
+   "metric": "cost",
+   "value": {
+    "amount": 200,
+    "currency": "USD",
+    "unit": "tools",
+    "label": "approximate"
+   },
+   "period": "six weekends",
+   "claimant": "Host",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "it quietly eats six weekends, a couple hundred dollars in tools, and a big chunk of your self-belief.",
+    "speaker": "Host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 67,
+    "approx_timestamp_s": 3
+   }
+  },
+  {
+   "claim": "Mock-up takes 30-90 minutes",
+   "metric": "hours",
+   "value": {
+    "amount": 1.5,
+    "currency": null,
+    "unit": "hours max",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Host",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "30 to 90 minutes tops is what any of this is going to take you.",
+    "speaker": "Host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11116,
+    "approx_timestamp_s": 643
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Set go/fix/kill thresholds before testing",
+   "area": "mindset",
+   "steps": [
+    "On Friday night spend about 10 minutes writing what pass looks like",
+    "Go: at least 3 strangers take a real commitment step, ideally payment or pre-order",
+    "Fix: pain and engagement but no commitment; change only one of promise, price or buyer and rerun",
+    "Kill/park: no pain found and no one paying nearby",
+    "Write on a sticky note as your referee"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "you're going to decide the pass mark before you start the test, not after.",
+    "speaker": "Host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1718,
+    "approx_timestamp_s": 99
+   }
+  },
+  {
+   "name": "Saturday research for existing spend and pain in buyer words",
+   "area": "acquisition",
+   "steps": [
+    "Pick one buyer and one problem",
+    "Check Gumroad, Etsy, Teachable, Stan Store, Amazon for nearby products with reviews and sales counts",
+    "Mine Reddit, Facebook groups, forums, YouTube comments and 1-3 star competitor reviews",
+    "Copy exact phrases into a document without paraphrasing",
+    "Feed only the real quotes to ChatGPT to group by theme and rank pains",
+    "Target: 5+ real people describing the pain"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Copy the exact phrases that you find into a document. Don't paraphrase because you want their own words.",
+    "speaker": "Host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7738,
+    "approx_timestamp_s": 448
+   }
+  },
+  {
+   "name": "One-paragraph offer plus mock-up landing page",
+   "area": "product",
+   "steps": [
+    "Answer who it is for, what result, exactly what they receive, and the price",
+    "Be concrete (e.g. 12-page checklist and three email templates)",
+    "Build a cover image, sample page or table of contents in 30-90 minutes",
+    "Put offer, mock-up and a buy/sign-up button on a simple landing page"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "You don't need the product to test the product.",
+    "speaker": "Host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8847,
+    "approx_timestamp_s": 512
+   }
+  },
+  {
+   "name": "Past-behaviour customer conversations",
+   "area": "sales",
+   "steps": [
+    "Message 10-20 buyer-fit people, leading with a question not a pitch",
+    "Ask about the last time the problem happened, what they tried, what it cost",
+    "Show mock-up and price at the end and ask if they would want it this week",
+    "If yes, give them a way to act immediately"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Tell me about the last time this happened to you. What did you try? What did it cost you?",
+    "speaker": "Host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13055,
+    "approx_timestamp_s": 755
+   }
+  },
+  {
+   "name": "Honest pre-sale",
+   "area": "sales",
+   "steps": [
+    "Include a real payment option on the landing page",
+    "State plainly it is a pre-sale with a specific ship date",
+    "Offer a full refund if you decide not to build",
+    "Fallback: specific waitlist, not a generic newsletter"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Payment is the strongest form of evidence you will ever get",
+    "speaker": "Host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13707,
+    "approx_timestamp_s": 793
+   }
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "ChatGPT",
+   "purpose": "Brainstorming situations, grouping quotes, drafting offers",
+   "cost_stated": null
+  },
+  {
+   "name": "Claude",
+   "purpose": "Sparring partner for brainstorming pains",
+   "cost_stated": null
+  },
+  {
+   "name": "Gumroad",
+   "purpose": "Marketplace to check existing digital product demand",
+   "cost_stated": null
+  },
+  {
+   "name": "Etsy",
+   "purpose": "Marketplace to check existing demand",
+   "cost_stated": null
+  },
+  {
+   "name": "Teachable",
+   "purpose": "Course platform for demand research",
+   "cost_stated": null
+  },
+  {
+   "name": "Stan Store",
+   "purpose": "Creator storefront for demand research",
+   "cost_stated": null
+  },
+  {
+   "name": "Amazon books",
+   "purpose": "Check category demand via reviews",
+   "cost_stated": null
+  },
+  {
+   "name": "Reddit / Facebook groups / niche forums",
+   "purpose": "Find buyer pain in their own words",
+   "cost_stated": null
+  },
+  {
+   "name": "darkhorseinsider.com weekend validation worksheet",
+   "purpose": "Free one-page worksheet for the plan",
+   "cost_stated": "Free, no email required"
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Friend or family compliments (\"I would totally buy that\") are not evidence.",
+   "quote": {
+    "text": "saying yes costs nothing. Compliments are free.",
+    "speaker": "Host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2274,
+    "approx_timestamp_s": 131
+   }
+  },
+  {
+   "warning": "Do not let ChatGPT invent quotes or stand in for real customers; never publish AI-generated reviews or testimonials.",
+   "quote": {
+    "text": "never publish AI-generated reviews or testimonials. I've seen that done. It's shady.",
+    "speaker": "Host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16778,
+    "approx_timestamp_s": 971
+   }
+  },
+  {
+   "warning": "Small numbers are noisy and big creator results are not your forecast.",
+   "quote": {
+    "text": "Three buyers this weekend doesn't guarantee 300 next month.",
+    "speaker": "Host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16049,
+    "approx_timestamp_s": 929
+   }
+  },
+  {
+   "warning": "If you find no existing products anywhere, be careful; it is often a lane nobody wants.",
+   "quote": null
+  },
+  {
+   "warning": "Don't promote in communities that ban it; lead with a question.",
+   "quote": null
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Evidence counts in proportion to what it costs the buyer: opinions are zero, existing spend, specific pain and commitment/payment climb the ladder.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "Evidence costs the buyers something. Time, attention, reputation, or money.",
+    "speaker": "Host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2468,
+    "approx_timestamp_s": 142
+   }
+  },
+  {
+   "lesson": "Speed of building with AI is not proof of demand; validate before building.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "Speed of building is not proof of demand.",
+    "speaker": "Host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 587,
+    "approx_timestamp_s": 33
+   }
+  },
+  {
+   "lesson": "Pre-commit pass/fail thresholds so you cannot grade your own idea on a curve.",
+   "theme": "mindset_execution",
+   "quote": null
+  },
+  {
+   "lesson": "Narrow the buyer to a specific person, situation and cost rather than a crowd like 'busy people'.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "That's not a buyer, that's a crowd",
+    "speaker": "Host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5346,
+    "approx_timestamp_s": 309
+   }
+  },
+  {
+   "lesson": "Competition signals an existing market; existing spend is good news.",
+   "theme": "niche_selection",
+   "quote": null
+  },
+  {
+   "lesson": "Ask about past behaviour, not future promises.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "past behavior is evidence. Future promises, they're just compliments",
+    "speaker": "Host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13150,
+    "approx_timestamp_s": 761
+   }
+  },
+  {
+   "lesson": "Price, not free, tests real demand; pick a real price early.",
+   "theme": "pricing",
+   "quote": null
+  },
+  {
+   "lesson": "Use AI for brainstorming, sorting and drafting but keep real customers as the source of truth.",
+   "theme": "automation_ai",
+   "quote": null
+  },
+  {
+   "lesson": "Write down what evidence would prove you wrong to turn hope into a test.",
+   "theme": "mindset_execution",
+   "quote": null
+  },
+  {
+   "lesson": "A killed idea within 48 hours is a cheap win; change only one variable when fixing.",
+   "theme": "mindset_execution",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "C",
+  "rationale": "Generic framework from a podcaster with only one first-hand data point (18 pre-sales for a course) and illustrative hypothetical numbers; the thresholds are self-described as not magic. Sound methodology but no verifiable results.",
+  "promotional_conflict": "Promotes the free weekend validation worksheet and the AI Escape Plan newsletter at darkhorseinsider.com."
+ },
+ "extraction": {
+  "model": "claude-sonnet-5-5",
+  "extracted_at": "2026-10-22T05:09:31",
+  "cost_usd": 0.0758882,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 19,
+   "verified": 19,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}
