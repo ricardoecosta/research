@@ -1,0 +1,1068 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "IywUW2RjXis",
+  "title": "How to Get People to Pay You (Free, No Audience)",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=IywUW2RjXis",
+  "upload_date": "2026-06-28",
+  "duration_s": 1615,
+  "view_count": 37618,
+  "transcript_provider": "local_whisper_tiny",
+  "transcript_chars": 28253,
+  "transcript_is_whisper": true
+ },
+ "summary": "Chris Koerner interviews Caleb Panza, co-founder of Post for Me, a $10/month social-media posting API for developers launched after he and his co-founder Matt lost their jobs. With ~500 X followers, Caleb posted Stripe MRR milestones publicly, and built a support-driven content engine (human live chat, Linear, NotebookLM, AI articles) that got them recommended by Google and LLMs. They went from $500 MRR at five months to $5k at eight months and past $10k, but churn rose from 10% to over 17%, so they paused features to fix retention. He shares his tech stack and a playbook: solve your own problem, ship small, iterate daily.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Host"
+  },
+  {
+   "name": "Caleb Panza",
+   "role": "guest",
+   "description": "Co-founder of Post for Me and Damon Development"
+  },
+  {
+   "name": "Matt",
+   "role": "other",
+   "description": "Caleb's co-founder (mentioned)"
+  }
+ ],
+ "format": "operator_interview",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Post for Me: developer social-media posting API (SaaS)",
+   "one_liner": "A $10/month API that lets developers and AI agents post content to social platforms from their own apps, grown via build-in-public tweets and AI SEO.",
+   "category": "saas_software",
+   "business_model": "Usage-tiered monthly subscription starting $10",
+   "customer": "Developers and SaaS products needing social media posting integrations; AI agents",
+   "problem": "Social posting tools like Buffer target marketers, not developers integrating posting into their apps",
+   "offer": "Social media integration API with upgrade paths",
+   "pricing": {
+    "model": "Monthly subscription, scales unlimited",
+    "price_points": [
+     {
+      "amount": 10,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "starter"
+     },
+     {
+      "amount": 25,
+      "currency": "USD",
+      "unit": "per month"
+     },
+     {
+      "amount": 50,
+      "currency": "USD",
+      "unit": "per month"
+     },
+     {
+      "amount": 100,
+      "currency": "USD",
+      "unit": "per month"
+     }
+    ],
+    "notes": "Starts $10/month; legacy users upgrade as they scale"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "organic_social_content",
+     "details": "Posted Stripe MRR screenshots on X for every $100 (later $500) of MRR, with days taken; replied to every reply",
+     "quote": {
+      "text": "I started posting our, our MR journey throughout the course of us growing",
+      "speaker": "Caleb Panza",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 5515,
+      "approx_timestamp_s": 323
+     }
+    },
+    {
+     "channel": "seo_organic_search",
+     "details": "Resource articles answering specific problems, structured metadata; picked up by Google and LLMs (AI SEO)",
+     "quote": {
+      "text": "we structured content in a way that we started getting picked up by the LLMs",
+      "speaker": "Caleb Panza",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 9482,
+      "approx_timestamp_s": 555
+     }
+    },
+    {
+     "channel": "paid_search",
+     "details": "Started light Google Ads after $10k MRR as an experiment",
+     "quote": {
+      "text": "We just now started running Google ads after we crossed 10,000",
+      "speaker": "Caleb Panza",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 832,
+      "approx_timestamp_s": 48
+     }
+    }
+   ],
+   "delivery": "Two co-founders built and run the software; human-only live chat 24/7; AI-generated resource articles from support problems via NotebookLM with light editing",
+   "unit_economics_claims": [
+    "$500 MRR after 5 months",
+    "$5k MRR in 8 months",
+    "Passed $10k MRR",
+    "Best week ~$1,000 MRR added",
+    "Churn 10% rising to 17%+"
+   ],
+   "tools": [
+    "Stripe",
+    "Unkey",
+    "React Router",
+    "shadcn/ui",
+    "PostHog",
+    "Vercel",
+    "GitHub",
+    "Linear",
+    "NotebookLM",
+    "Discord"
+   ],
+   "startup_cost": "not stated (self-built)",
+   "time_to_first_revenue": "Five months to $500 MRR; launched ~July/August 2025",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Build-in-public tweets and AI-generated SEO articles are largely automatable; inbound LLM referrals; Google Ads automatable."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Self-serve API signup."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Software API runs unattended but needs engineering maintenance of platform integrations."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Stripe subscriptions."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "They deliberately run human-only live chat 24/7; AI could cover but they chose not to."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Pure software; works from the UK. Handling user social tokens/content needs UK GDPR compliance."
+   },
+   "risks": [
+    "High churn (17%+)",
+    "Dependence on social platform APIs and their terms",
+    "Competitors (Buffer, Post Bridge, Ayrshare)",
+    "Low $10 entry price"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "my first sas, just hit 5,000 MRR. This is insane. Wow. I can't believe that we built the product and grew it to over 5K in eight months",
+     "speaker": "Caleb Panza",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 8056,
+     "approx_timestamp_s": 472
+    },
+    {
+     "text": "anytime we noticed that a problem was felt by one of our customers at least twice, we would make a note of it inside of linear",
+     "speaker": "Caleb Panza",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 10861,
+     "approx_timestamp_s": 636
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Damon Development: software development agency",
+   "one_liner": "Agency building software products for clients; early on said yes to design, marketing, WordPress and Webflow work and outsourced it.",
+   "category": "agency",
+   "business_model": "Project/service fees",
+   "customer": "Founders needing a product built; small businesses",
+   "problem": "Need software/websites built",
+   "offer": "Custom product development, websites, design, marketing (outsourced)",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Took any work; schedule a call via damon.dev",
+     "quote": null
+    }
+   ],
+   "delivery": "Two founders plus outsourced contractors",
+   "unit_economics_claims": [],
+   "tools": [
+    "WordPress",
+    "Webflow"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Sales calls human."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Discovery human."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "AI-assisted coding but human-led."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Invoicing."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Client management."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works in the UK; cold email to limited companies allowed under PECR."
+   },
+   "risks": [
+    "Service business, not scalable"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "We said yes to anything, we were saying yes to design work and then outsourcing it, marketing work and outsourcing it",
+     "speaker": "Caleb Panza",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 463,
+     "approx_timestamp_s": 27
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Educational content for local service businesses (piano repair example)",
+   "one_liner": "Advised a piano repair client to publish educational commentary from each job for SEO.",
+   "category": "agency",
+   "business_model": "Marketing service",
+   "customer": "Physical service businesses",
+   "problem": "Need organic visibility",
+   "offer": "Educational content per job",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "seo_organic_search",
+     "details": "Educational content around each repair",
+     "quote": null
+    }
+   ],
+   "delivery": "Content marketing",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": ""
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": ""
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "AI drafting."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": ""
+    },
+    "support": {
+     "score_e": 3,
+     "how": ""
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works in the UK."
+   },
+   "risks": [
+    "Generic advice"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "I remember like one client in particular was a local piano repair shop",
+     "speaker": "Caleb Panza",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 14659,
+     "approx_timestamp_s": 859
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "After five months, $500 in monthly recurring revenue",
+   "metric": "mrr",
+   "value": {
+    "amount": 500,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "after five months, they had $500 in monthly recurring revenue",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2728,
+    "approx_timestamp_s": 159
+   }
+  },
+  {
+   "claim": "About 50 people paying $10/month",
+   "metric": "customers",
+   "value": {
+    "amount": 50,
+    "currency": null,
+    "unit": "customers"
+   },
+   "period": null,
+   "claimant": "Caleb Panza",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "at 10 bucks a month. I was like, almost 50 people want to use something that I built",
+    "speaker": "Caleb Panza",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4754,
+    "approx_timestamp_s": 278
+   }
+  },
+  {
+   "claim": "Launch tweet got about 200 views",
+   "metric": "traffic",
+   "value": {
+    "amount": 200,
+    "currency": null,
+    "unit": "views"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "That tweet got about 200 views. It flopped.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2528,
+    "approx_timestamp_s": 148
+   }
+  },
+  {
+   "claim": "Caleb has about 1,200 X followers",
+   "metric": "other",
+   "value": {
+    "amount": 1200,
+    "currency": null,
+    "unit": "followers"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "he has like 1200 followers, but it's still driving him a ton of business",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3405,
+    "approx_timestamp_s": 199
+   }
+  },
+  {
+   "claim": "$5k MRR tweet got 24,000 impressions, 114 replies, 6.4% engagement",
+   "metric": "traffic",
+   "value": {
+    "amount": 24000,
+    "currency": null,
+    "unit": "impressions"
+   },
+   "period": null,
+   "claimant": "Caleb Panza",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So we ended up getting 24,000 impressions. The biggest surprise to me was the 114 replies.",
+    "speaker": "Caleb Panza",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7312,
+    "approx_timestamp_s": 428
+   }
+  },
+  {
+   "claim": "Grew to over $5k MRR in eight months",
+   "metric": "mrr",
+   "value": {
+    "amount": 5000,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "period": null,
+   "claimant": "Caleb Panza",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "grew it to over 5K in eight months",
+    "speaker": "Caleb Panza",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8153,
+    "approx_timestamp_s": 477
+   }
+  },
+  {
+   "claim": "Adding $500-$1,000 MRR week over week; $4,500 to $5,000 in five days",
+   "metric": "mrr",
+   "value": {
+    "amount": 500,
+    "currency": "USD",
+    "unit": "per week",
+    "amount_max": 1000
+   },
+   "period": null,
+   "claimant": "Caleb Panza",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "we were seeing anywhere between 500 to $1,000 in monthly recurring being added week over week",
+    "speaker": "Caleb Panza",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9031,
+    "approx_timestamp_s": 529
+   }
+  },
+  {
+   "claim": "SEO/LLM pickup began around $2,000 MRR",
+   "metric": "mrr",
+   "value": {
+    "amount": 2000,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "period": null,
+   "claimant": "Caleb Panza",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I think it was about the time that we hit $2,000 in monthly recurring that our search engine optimization",
+    "speaker": "Caleb Panza",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9242,
+    "approx_timestamp_s": 541
+   }
+  },
+  {
+   "claim": "Each reported problem represents 10-30 silent users",
+   "metric": "other",
+   "value": {
+    "amount": 10,
+    "currency": null,
+    "unit": "users",
+    "amount_max": 30
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "That means that they probably represent 10 to 30 more people that are not bothering to go out of their way.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12760,
+    "approx_timestamp_s": 747
+   }
+  },
+  {
+   "claim": "Best week added about $1,000 MRR",
+   "metric": "mrr",
+   "value": {
+    "amount": 1000,
+    "currency": "USD",
+    "unit": "per week"
+   },
+   "period": null,
+   "claimant": "Caleb Panza",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "the best week that we had was like $1,000 in MRR in one week",
+    "speaker": "Caleb Panza",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16416,
+    "approx_timestamp_s": 962
+   }
+  },
+  {
+   "claim": "Churn lowest 10%, rose to 13%, 16%, now over 17%",
+   "metric": "other",
+   "value": {
+    "amount": 17,
+    "currency": null,
+    "unit": "percent monthly churn"
+   },
+   "period": null,
+   "claimant": "Caleb Panza",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "The lowest our churn was at was 10%.",
+    "speaker": "Caleb Panza",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16996,
+    "approx_timestamp_s": 996
+   }
+  },
+  {
+   "claim": "Started Google Ads after crossing $10,000 MRR",
+   "metric": "mrr",
+   "value": {
+    "amount": 10000,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "period": null,
+   "claimant": "Caleb Panza",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "We just now started running Google ads after we crossed 10,000",
+    "speaker": "Caleb Panza",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 832,
+    "approx_timestamp_s": 48
+   }
+  },
+  {
+   "claim": "Plans from $10 up to $25, $50, $100",
+   "metric": "price",
+   "value": {
+    "amount": 10,
+    "currency": "USD",
+    "unit": "per month",
+    "amount_max": 100
+   },
+   "period": null,
+   "claimant": "Caleb Panza",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So we start at $10 a month, but you can scale unlimited on our pricing model.",
+    "speaker": "Caleb Panza",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18854,
+    "approx_timestamp_s": 1105
+   }
+  },
+  {
+   "claim": "MRR now exceeds any salary he previously had",
+   "metric": "mrr",
+   "value": {
+    "amount": null,
+    "currency": null,
+    "unit": null,
+    "label": "exceeds previous salary"
+   },
+   "period": null,
+   "claimant": "Caleb Panza",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Making a monthly recurring revenue that is exceeded any salary that I had up until this point.",
+    "speaker": "Caleb Panza",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25130,
+    "approx_timestamp_s": 1473
+   }
+  },
+  {
+   "claim": "Employer laid off 20% of employees",
+   "metric": "other",
+   "value": {
+    "amount": 20,
+    "currency": null,
+    "unit": "percent"
+   },
+   "period": null,
+   "claimant": "Caleb Panza",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "my company that I was working with laid off 20% of its employees unannounced",
+    "speaker": "Caleb Panza",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 77,
+    "approx_timestamp_s": 4
+   }
+  },
+  {
+   "claim": "Second adoption was going to cost $50,000",
+   "metric": "cost",
+   "value": {
+    "amount": 50000,
+    "currency": "USD",
+    "unit": null
+   },
+   "period": null,
+   "claimant": "Caleb Panza",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "our second adoption, which was going to cost us $50,000",
+    "speaker": "Caleb Panza",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25435,
+    "approx_timestamp_s": 1490
+   }
+  },
+  {
+   "claim": ".online domain 99 cents first year (sponsor)",
+   "metric": "price",
+   "value": {
+    "amount": 0.99,
+    "currency": "USD",
+    "unit": "first year"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "get your dot online domain for just 99 cents for the first year",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14260,
+    "approx_timestamp_s": 835
+   }
+  },
+  {
+   "claim": "Chris's YouTube community $5/month, YouTube takes 30%; plans sold for $19",
+   "metric": "price",
+   "value": {
+    "amount": 5,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "all you got to do is pay five bucks a month. You know what? YouTube takes 30% of that.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22861,
+    "approx_timestamp_s": 1340
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Build in public with MRR milestone screenshots",
+   "area": "acquisition",
+   "steps": [
+    "Screenshot Stripe at every $100 (later $500) MRR gained",
+    "Post on X with the days taken to reach it",
+    "Reply to every reply for the first week",
+    "Shift tone from apologetic to confident as numbers grow"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Like if, if they're journey helped me, why don't I just for fun, grab these screenshots for every $100 that we make in monthly recurring?",
+    "speaker": "Caleb Panza",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5238,
+    "approx_timestamp_s": 307
+   }
+  },
+  {
+   "name": "Support-driven AI SEO content engine",
+   "area": "acquisition",
+   "steps": [
+    "Run human-only live chat and respond fast",
+    "Log any problem raised by 2+ customers in Linear",
+    "Consolidate notes and support/Discord threads in NotebookLM",
+    "Generate a resource article with AI, lightly edit",
+    "Publish 1-3 per week with strong metadata so Google and LLMs pick it up"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "We do things by hand, note how we do them by hand, and then apply the by hand notes to AI in order to automate it in the future.",
+    "speaker": "Caleb Panza",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15381,
+    "approx_timestamp_s": 901
+   }
+  },
+  {
+   "name": "Pause roadmap to fix churn",
+   "area": "product",
+   "steps": [
+    "When churn rose from 10% to 17%, pause net-new features",
+    "Invest in telemetry/analytics to see where users get value or drop off",
+    "Use light Google Ads as an experiment to learn"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "SaaS launch playbook",
+   "area": "product",
+   "steps": [
+    "Pick a problem you personally felt",
+    "Brainstorm, chisel to smallest shippable step",
+    "Ship fast and iterate one small improvement daily based on usage",
+    "Use GitHub for code even if non-technical"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Say yes to everything until you can afford not to",
+   "area": "sales",
+   "steps": [
+    "Accept design, marketing, WordPress, Webflow jobs",
+    "Outsource what you can't do",
+    "Use agency income to fund product"
+   ],
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "I like to say yes to everything until you can afford not to.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 653,
+    "approx_timestamp_s": 38
+   }
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Stripe",
+   "purpose": "Payments and MRR tracking",
+   "cost_stated": null
+  },
+  {
+   "name": "X/Twitter",
+   "purpose": "Build-in-public posting",
+   "cost_stated": null
+  },
+  {
+   "name": "Linear",
+   "purpose": "Logging repeated customer problems",
+   "cost_stated": null
+  },
+  {
+   "name": "NotebookLM",
+   "purpose": "Consolidating notes into articles",
+   "cost_stated": null
+  },
+  {
+   "name": "Discord",
+   "purpose": "Community/support source of problems",
+   "cost_stated": null
+  },
+  {
+   "name": "Unkey",
+   "purpose": "Hosting/API tooling",
+   "cost_stated": null
+  },
+  {
+   "name": "React Router",
+   "purpose": "Front-end",
+   "cost_stated": null
+  },
+  {
+   "name": "shadcn/ui",
+   "purpose": "UI components",
+   "cost_stated": null
+  },
+  {
+   "name": "PostHog",
+   "purpose": "Analytics",
+   "cost_stated": null
+  },
+  {
+   "name": "Vercel",
+   "purpose": "Hosting marketing sites",
+   "cost_stated": null
+  },
+  {
+   "name": "GitHub",
+   "purpose": "Code storage",
+   "cost_stated": null
+  },
+  {
+   "name": "Google Ads",
+   "purpose": "Paid acquisition experiment after $10k MRR",
+   "cost_stated": null
+  },
+  {
+   "name": "ChatGPT",
+   "purpose": "LLM sending customers",
+   "cost_stated": null
+  },
+  {
+   "name": "Claude",
+   "purpose": "LLM sending customers",
+   "cost_stated": null
+  },
+  {
+   "name": "Buffer",
+   "purpose": "Competing social posting app",
+   "cost_stated": null
+  },
+  {
+   "name": "Post Bridge",
+   "purpose": "Competing social posting app",
+   "cost_stated": null
+  },
+  {
+   "name": ".online domains",
+   "purpose": "Sponsor: domain names",
+   "cost_stated": "$0.99 first year"
+  },
+  {
+   "name": "GoDaddy",
+   "purpose": "Domain registrar",
+   "cost_stated": null
+  },
+  {
+   "name": "Namecheap",
+   "purpose": "Domain registrar",
+   "cost_stated": null
+  },
+  {
+   "name": "WordPress",
+   "purpose": "Client sites",
+   "cost_stated": null
+  },
+  {
+   "name": "Webflow",
+   "purpose": "Client sites",
+   "cost_stated": null
+  },
+  {
+   "name": "YouTube memberships",
+   "purpose": "Chris's $5/month community",
+   "cost_stated": "$5/month; YouTube takes 30%"
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Churn can quietly rise even while MRR grows; MRR posts often ignore it.",
+   "quote": {
+    "text": "the more people started asking, yeah, but nobody's talking about churn",
+    "speaker": "Caleb Panza",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16927,
+    "approx_timestamp_s": 992
+   }
+  },
+  {
+   "warning": "Big spikes lead to big dips; prefer consistent growth.",
+   "quote": {
+    "text": "Big spikes equal big dips period",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11841,
+    "approx_timestamp_s": 694
+   }
+  },
+  {
+   "warning": "Churn equilibrium: recurring revenue flattens when churn offsets new revenue; usually users fail to onboard in the first 10 minutes.",
+   "quote": {
+    "text": "In my experience, it's usually happening, you know, in the first 10 minutes that like they just don't fully onboard",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18343,
+    "approx_timestamp_s": 1075
+   }
+  },
+  {
+   "warning": "Don't keep code only locally or in Google Drive; use GitHub.",
+   "quote": {
+    "text": "stop storing code in Google Drive, or just like locally on your computer",
+    "speaker": "Caleb Panza",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21372,
+    "approx_timestamp_s": 1252
+   }
+  },
+  {
+   "warning": "Employment can be fragile: others' poor financial decisions can expose your family.",
+   "quote": null
+  },
+  {
+   "warning": "Transcript is Whisper tiny; product and tool names (Post for Me, Unkey, Claude) are reconstructed.",
+   "quote": null
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Transparency is rare and builds trust without a big audience.",
+   "theme": "customer_acquisition",
+   "quote": null
+  },
+  {
+   "lesson": "One customer reporting a problem represents many silent ones; treat n=1 as signal.",
+   "theme": "validation_testing",
+   "quote": null
+  },
+  {
+   "lesson": "Do it manually first, document, then automate with AI.",
+   "theme": "automation_ai",
+   "quote": null
+  },
+  {
+   "lesson": "Structure content to be cited by LLMs (AI SEO) to earn inbound customers.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "we have gotten many customers coming to us since then saying chat GPT sent me",
+    "speaker": "Caleb Panza",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9563,
+    "approx_timestamp_s": 560
+   }
+  },
+  {
+   "lesson": "Target an underserved segment (developers) of a crowded category (social posting).",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "this app is pointed towards more technical people, developers, and that wasn't really being done",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2373,
+    "approx_timestamp_s": 139
+   }
+  },
+  {
+   "lesson": "Low entry pricing with unlimited usage-based upgrade paths grows revenue from scaling customers.",
+   "theme": "pricing",
+   "quote": null
+  },
+  {
+   "lesson": "Rock bottom moments often push people to start.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "rock bottom can be a very powerful thing",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24118,
+    "approx_timestamp_s": 1413
+   }
+  },
+  {
+   "lesson": "Fast human support early builds trust and surfaces content ideas.",
+   "theme": "operations",
+   "quote": null
+  },
+  {
+   "lesson": "Agency work can bridge years until a product launches.",
+   "theme": "finance_unit_economics",
+   "quote": {
+    "text": "It took us two years of working on other people stuff.",
+    "speaker": "Caleb Panza",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22673,
+    "approx_timestamp_s": 1329
+   }
+  }
+ ],
+ "evidence_quality": {
+  "rating": "A",
+  "rationale": "First-hand founder sharing Stripe screens, tweet analytics and churn numbers; Whisper tiny transcript adds name errors.",
+  "promotional_conflict": "Guest promotes Post for Me and Damon Development; sponsor read for .online domains; Chris's paid YouTube community."
+ },
+ "extraction": {
+  "model": "grokbot",
+  "extracted_at": "2026-10-22T09:11:16",
+  "cost_usd": null,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 36,
+   "verified": 36,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}
