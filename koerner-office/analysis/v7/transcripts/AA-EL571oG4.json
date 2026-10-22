@@ -1,0 +1,528 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "AA-EL571oG4",
+  "title": "I Built an AI Agent That Works While I Sleep (Cheap & Easy)",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=AA-EL571oG4",
+  "upload_date": "2025-11-28",
+  "duration_s": 959,
+  "view_count": 39521,
+  "transcript_provider": "ok",
+  "transcript_chars": 14149,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner explains the difference between automations and AI agents. On camera, he builds a 'content multiplication' agent in n8n self-hosted on a Hostinger VPS that turns his latest YouTube transcript into short, medium and long LinkedIn posts with GPT-5. He warns about n8n cloud costs and pitches selling such agents to creators and businesses for $300-800/month plus a $2,000 setup fee, projecting $10-30k/month with 10-30 clients. The video is sponsored by Hostinger and the income figures are hypothetical.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": null
+  }
+ ],
+ "format": "tutorial_howto",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Content multiplication agent service (YouTube to LinkedIn posts)",
+   "one_liner": "Build n8n agents on a self-hosted Hostinger VPS that turn a creator's latest YouTube video transcript into short, medium and long LinkedIn posts, and sell setup plus monthly maintenance to creators and businesses.",
+   "category": "ai_automation",
+   "business_model": "Setup fee plus monthly retainer per client",
+   "customer": "Creators, podcasters and business owners overwhelmed by social media (real estate, fitness, restaurants, health care)",
+   "problem": "Repurposing long-form content into social posts takes time",
+   "offer": "Daily scheduled agent: fetch newest video, pull transcript via youtube-transcript.io, extract 3-5 insights with GPT-5, write three LinkedIn posts in a set tone",
+   "pricing": {
+    "model": "Setup + monthly retainer",
+    "price_points": [
+     {
+      "amount": 300,
+      "currency": "USD",
+      "unit": "per month per client",
+      "amount_max": 800
+     },
+     {
+      "amount": 2000,
+      "currency": "USD",
+      "unit": "one-off setup fee"
+     }
+    ],
+    "notes": "Chris's hypothetical: 10 clients = ~$5k/month; with setups up to ~$20k/month."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "referrals_word_of_mouth",
+     "details": "Build for friends for free first, use the first client as a case study to get the next three.",
+     "quote": {
+      "text": "Your first client is your case study and helps you get your next three clients",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 12773,
+      "approx_timestamp_s": 891
+     }
+    }
+   ],
+   "delivery": "n8n self-hosted on a Hostinger KVM 2 VPS; YouTube API, youtube-transcript.io API, OpenAI API; VA after 5-10 clients.",
+   "unit_economics_claims": [
+    "$300-800/month per client",
+    "10 clients ~$5k/month, almost pure profit",
+    "10-30 clients in 6-12 months = $10-30k/month"
+   ],
+   "tools": [
+    "n8n",
+    "Hostinger",
+    "OpenAI GPT-5",
+    "youtube-transcript.io",
+    "YouTube API",
+    "LinkedIn"
+   ],
+   "startup_cost": "VPS plan (price not stated)",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Starts with friends and referrals; selling to businesses needs human sales. UK cold email allowed only to limited companies (PECR); inbound content and templates better."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Credential connection per client needs some hand-holding."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Scheduled agent runs unattended; posts may need approval."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Stripe retainers."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Fixing broken workflows needs a human or a VA."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works the same in the UK."
+   },
+   "risks": [
+    "Competition from other agencies and SaaS repurposing tools",
+    "Workflows break (shown on camera)",
+    "LinkedIn/YouTube API changes",
+    "Hypothetical income figures"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "You could charge between $300 and $800 a month per client. 10 clients equals, call it $5,000 a month",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 12027,
+     "approx_timestamp_s": 839
+    },
+    {
+     "text": "You could charge $2,000 one time for a setup fee, and before you know it, you're at $20,000 a month in revenue",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 12153,
+     "approx_timestamp_s": 847
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "n8n template/agent builds for vertical niches",
+   "one_liner": "Build reusable n8n agents (inbox triage, lead to CRM, scheduling) for real estate, fitness, restaurants or healthcare clients.",
+   "category": "ai_automation",
+   "business_model": "Setup + maintenance fees",
+   "customer": "Small businesses in any vertical",
+   "problem": "Repetitive admin and lead handling",
+   "offer": "Custom AI agents from templates",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "referrals_word_of_mouth",
+     "details": "Friends first, then paid."
+    }
+   ],
+   "delivery": "Self-hosted n8n.",
+   "unit_economics_claims": [],
+   "tools": [
+    "n8n",
+    "Hostinger"
+   ],
+   "startup_cost": "Low",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Human sales."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Some setup."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Agents run unattended."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Recurring billing."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Maintenance."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works in the UK."
+   },
+   "risks": [
+    "Competition"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "Real estate, fitness, restaurants, health care, podcast, creators, doesn't matter",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 12359,
+     "approx_timestamp_s": 862
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "n8n cloud starts at $20/month but can balloon past $100/month",
+   "metric": "cost",
+   "value": {
+    "amount": 20,
+    "currency": "USD",
+    "unit": "per month",
+    "amount_max": 100
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "n8n offers cloud hosting that starts at 20 bucks a month, but once you have half a dozen automations running",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4243,
+    "approx_timestamp_s": 296
+   }
+  },
+  {
+   "claim": "Charge $300-800/month per client",
+   "metric": "price",
+   "value": {
+    "amount": 300,
+    "currency": "USD",
+    "unit": "per month",
+    "amount_max": 800
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "You could charge between $300 and $800 a month per client",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12027,
+    "approx_timestamp_s": 839
+   },
+   "hypothetical": true
+  },
+  {
+   "claim": "10 clients ~ $5,000/month",
+   "metric": "revenue",
+   "value": {
+    "amount": 5000,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "10 clients equals, call it $5,000 a month, and that's almost pure profit",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12083,
+    "approx_timestamp_s": 842
+   },
+   "hypothetical": true
+  },
+  {
+   "claim": "$2,000 setup fee; up to $20k/month revenue",
+   "metric": "revenue",
+   "value": {
+    "amount": 20000,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "before you know it, you're at $20,000 a month in revenue",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12205,
+    "approx_timestamp_s": 851
+   },
+   "hypothetical": true
+  },
+  {
+   "claim": "10-30 clients in 6-12 months = $10-30k/month",
+   "metric": "revenue",
+   "value": {
+    "amount": 10000,
+    "currency": "USD",
+    "unit": "per month",
+    "amount_max": 30000
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "After six to 12 months, you scale to 10 to 30 clients, and you're making 10 to $30,000 a month",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12926,
+    "approx_timestamp_s": 901
+   },
+   "hypothetical": true
+  },
+  {
+   "claim": "Hostinger n8n setup takes about 5 minutes",
+   "metric": "hours",
+   "value": {
+    "amount": 5,
+    "currency": null,
+    "unit": "minutes"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "idea_local_id": null,
+   "quote": {
+    "text": "Should take about 5 minutes",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5234,
+    "approx_timestamp_s": 365
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Self-host n8n on Hostinger",
+   "steps": [
+    "Choose Hostinger self-hosted n8n, KVM 2 plan, 12 months",
+    "Pick a nearby server location",
+    "Set password and owner account (~5 minutes)",
+    "Use templates library or build workflows"
+   ],
+   "idea_local_id": null,
+   "area": "operations"
+  },
+  {
+   "name": "YouTube-to-LinkedIn workflow",
+   "steps": [
+    "Schedule trigger 6am daily",
+    "YouTube node: get latest video by date from channel ID",
+    "HTTP POST to youtube-transcript.io with Basic auth header and video ID",
+    "Merge transcript chunks",
+    "OpenAI node (GPT-5): extract 3-5 LinkedIn-worthy insights",
+    "Three OpenAI nodes: short (<300 chars, hook <120 chars on two lines), medium (800-1,200), long (1,200-1,500); spartan tone, no emojis",
+    "Check each node pulls from the insights node"
+   ],
+   "idea_local_id": "I1",
+   "area": "product",
+   "quote": {
+    "text": "Write in a spartan tone of voice. That helps these LLMs not just go off the rails",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10556,
+    "approx_timestamp_s": 736
+   }
+  },
+  {
+   "name": "Agency ramp",
+   "steps": [
+    "Build templates for yourself",
+    "Build for friends for free",
+    "Ask them to pay for more agents",
+    "Use first client as case study",
+    "Hire a VA after 5-10 clients"
+   ],
+   "idea_local_id": "I1",
+   "area": "acquisition"
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "n8n",
+   "purpose": "AI-native automation/agent builder (open source, self-hostable)",
+   "cost_stated": "Cloud from $20/month"
+  },
+  {
+   "name": "Hostinger",
+   "purpose": "VPS hosting for n8n (sponsor, discount code)"
+  },
+  {
+   "name": "Zapier",
+   "purpose": "Rule-based automation"
+  },
+  {
+   "name": "Make",
+   "purpose": "Rule-based automation"
+  },
+  {
+   "name": "OpenAI GPT-5",
+   "purpose": "LLM in workflow"
+  },
+  {
+   "name": "youtube-transcript.io",
+   "purpose": "Transcript API"
+  },
+  {
+   "name": "YouTube API",
+   "purpose": "Fetch latest videos"
+  },
+  {
+   "name": "Raspberry Pi",
+   "purpose": "Alternative self-hosting (not recommended)"
+  },
+  {
+   "name": "ElevenLabs",
+   "purpose": "Seen in templates (TikTok avatar videos)"
+  },
+  {
+   "name": "templated.io",
+   "purpose": "Seen in templates (thumbnails)"
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Cloud pricing trap: hosted n8n costs balloon with active automations; self-host instead.",
+   "quote": {
+    "text": "beware of what I call the cloud pricing trap",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4195,
+    "approx_timestamp_s": 292
+   }
+  },
+  {
+   "warning": "Agents need good prompting and break sometimes; nodes must reference the right inputs.",
+   "quote": {
+    "text": "Yes, it needs good prompting, it needs good direction, and it might break sometimes",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1567,
+    "approx_timestamp_s": 109
+   }
+  },
+  {
+   "warning": "Don't try to learn hardware and software at once with a Raspberry Pi.",
+   "quote": {
+    "text": "you can try to learn hardware and software at the same time. Don't do that",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 512,
+    "approx_timestamp_s": 35
+   }
+  },
+  {
+   "warning": "Most viewers will do nothing; execution is the bottleneck.",
+   "quote": {
+    "text": "Most people are just going to watch this and do nothing",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13610,
+    "approx_timestamp_s": 949
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Automations follow fixed rules; agents interpret and decide, enabling multi-step work like inbox triage.",
+   "theme": "automation_ai",
+   "quote": null
+  },
+  {
+   "lesson": "Self-hosting open-source tools gives flat costs regardless of agent count.",
+   "theme": "finance_unit_economics",
+   "quote": {
+    "text": "That way it's the same price for 10 agents or 100 agents with unlimited usage",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4608,
+    "approx_timestamp_s": 321
+   }
+  },
+  {
+   "lesson": "Constrain LLM output with explicit lengths, tone and no-emoji rules.",
+   "theme": "automation_ai",
+   "quote": null
+  },
+  {
+   "lesson": "Start with free builds for friends to get case studies.",
+   "theme": "customer_acquisition",
+   "quote": null
+  },
+  {
+   "lesson": "Template libraries let you avoid building from scratch.",
+   "theme": "operations",
+   "quote": null
+  },
+  {
+   "lesson": "Most competitors aren't using AI yet, so you can deliver as good or better for less.",
+   "theme": "pricing",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "C",
+  "rationale": "Tutorial with hypothetical income projections; no client results shown.",
+  "promotional_conflict": "Sponsored by Hostinger (discount code, Black Friday sale)."
+ },
+ "extraction": {
+  "model": "grokbot",
+  "extracted_at": "2026-10-22T09:03:26",
+  "cost_usd": null,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 16,
+   "verified": 16,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

@@ -1,0 +1,656 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "CKiszDu2aic",
+  "title": "I Asked AI for a Money-Making Website (It Built One in Minutes)",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=CKiszDu2aic",
+  "upload_date": "2026-07-24",
+  "duration_s": 1234,
+  "view_count": 92100,
+  "transcript_provider": "ok_freetranscriptapi",
+  "transcript_chars": 23971,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner uses Abacus ChatLLM to pit AI models against each other in choosing a directory niche. He picks an estate cleanout directory after checking Google Trends, has models compile and cross-check 20 Dallas-Fort Worth estate cleanout businesses, and uses the Abacus agent to build and deploy a searchable directory with $30/month Stripe featured listings in minutes. He explains monetisation through featured placement, banner ads and lead auctions, a niche-versus-geography rule, and why estate cleanouts are a negative-COGS business. The video is sponsored by Abacus.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": null
+  }
+ ],
+ "format": "tutorial_howto",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Estate cleanout directory website (Estate Cleanout Pros)",
+   "one_liner": "AI-built nationwide directory of estate sale cleanout businesses, pre-filled from AI research, monetised with $30/month Stripe featured listings, banner ads and resold leads.",
+   "category": "marketplace_directory",
+   "business_model": "Paid featured listings, banner ads, lead sales",
+   "customer": "Families (often millennial children of boomers) needing estate cleanouts; cleanout businesses paying for placement",
+   "problem": "Grieving, time-pressed families want a trusted shortlist rather than vetting 15 companies; junk removal feels disrespectful",
+   "offer": "Searchable directory with category and listing pages, free submission and paid featured placement",
+   "pricing": {
+    "model": "Featured listing subscription",
+    "price_points": [
+     {
+      "amount": 30,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "featured listing"
+     }
+    ],
+    "notes": "Listings added without permission for free; businesses pay only for top placement."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "seo_organic_search",
+     "details": "Niche directory pages; Google Trends showed 'estate cleanout' rising."
+    },
+    {
+     "channel": "other",
+     "details": "Directories as sources for AI answers."
+    }
+   ],
+   "delivery": "Abacus ChatLLM agent builds and deploys the site; models compile and fact-check listings; Stripe for payments; admin panel.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Abacus ChatLLM",
+    "Stripe",
+    "Google Trends",
+    "GPT Image 2"
+   ],
+   "startup_cost": "~$10/month tool plus ~$10 domain",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "SEO inbound for consumers. Selling featured listings or leads to businesses by email: UK PECR allows cold email to limited companies only, not sole traders, who make up many cleanout firms."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Self-submit listings and Stripe checkout."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Directory runs passively once built; listings need periodic AI refresh and verification."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Stripe subscriptions."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Listing disputes and lead quality complaints."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Directory model works in the UK (house clearance firms); UK GDPR applies to listing sole traders' personal details and to lead resale. Lead sales by email to limited companies only under PECR."
+   },
+   "risks": [
+    "Takes time to rank in SEO",
+    "AI-compiled listings may be wrong",
+    "Listing businesses without permission",
+    "Thin traffic in niche"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "Add a paid featured listing upgrade with a Stripe so a business can pay 30 bucks a month to appear at the top",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 15190,
+     "approx_timestamp_s": 803
+    },
+    {
+     "text": "We're listing these businesses on the directory without their permission",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 20957,
+     "approx_timestamp_s": 1108
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Estate sale cleanout business (negative COGS)",
+   "one_liner": "Get paid to clear leftovers after estate sales and resell the valuable items; a friend buys leftovers for ~$200 and travels nationwide.",
+   "category": "arbitrage_reselling",
+   "business_model": "Cleanout fees plus resale of goods",
+   "customer": "Families after an estate sale",
+   "problem": "Leftover items after estate sales",
+   "offer": "Clear-out of leftover items, positioned as respectful estate service rather than junk removal",
+   "pricing": {
+    "model": "Per job",
+    "price_points": [
+     {
+      "amount": 200,
+      "currency": "USD",
+      "unit": "paid for leftovers",
+      "label": "friend's offer"
+     }
+    ],
+    "notes": "Negative COGS: paid to take goods you can sell."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Approach estate sales the day after they end."
+    }
+   ],
+   "delivery": "Crew removes goods; resell on Facebook Marketplace.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Facebook Marketplace"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Local, partly inbound."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "Site visits."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical removal."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Payments."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "House clearance is a common UK trade; waste carrier licence needed."
+   },
+   "risks": [
+    "Physical labour",
+    "Waste disposal rules"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "That's called a negative cost of goods sold big business or a negative COGS business and it's a beautiful beautiful thing",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 13689,
+     "approx_timestamp_s": 724
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Commercial kitchen equipment repair directory (B2B)",
+   "one_liner": "ChatGPT-suggested B2B directory niche.",
+   "category": "marketplace_directory",
+   "business_model": "Listings/leads",
+   "customer": "Restaurants",
+   "problem": "Finding repair techs",
+   "offer": "Directory",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "seo_organic_search",
+     "details": "not stated"
+    }
+   ],
+   "delivery": "AI-built directory.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "Low",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "SEO."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Self-serve."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Passive site."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Stripe."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Some."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Works in the UK."
+   },
+   "risks": [
+    "Very low search volume per Google Trends"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "commercial kitchen equipment repair directory",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 2687,
+     "approx_timestamp_s": 142
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "Aging-in-place home modification directory",
+   "one_liner": "Gemini-suggested consumer directory niche.",
+   "category": "marketplace_directory",
+   "business_model": "Listings/leads",
+   "customer": "Seniors and families",
+   "problem": "Finding accessibility contractors",
+   "offer": "Directory",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "seo_organic_search",
+     "details": "not stated"
+    }
+   ],
+   "delivery": "AI-built directory.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "Low",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "SEO."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Self-serve."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Passive."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Stripe."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Some."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Works in the UK."
+   },
+   "risks": [
+    "Competition"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "aging in place and accessibility home modification directory",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 3421,
+     "approx_timestamp_s": 180
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Abacus ChatLLM agent costs ~$10/month vs $20-200 per individual model",
+   "metric": "cost",
+   "value": {
+    "amount": 10,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "it costs about 10 bucks a month, which is less than what any of these individual tools would charge you",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2276,
+    "approx_timestamp_s": 120
+   }
+  },
+  {
+   "claim": "Featured listing priced at $30/month",
+   "metric": "price",
+   "value": {
+    "amount": 30,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "a business can pay 30 bucks a month to appear at the top",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15243,
+    "approx_timestamp_s": 806
+   },
+   "hypothetical": true
+  },
+  {
+   "claim": "10,000 baby boomers retire every day",
+   "metric": "customers",
+   "value": {
+    "amount": 10000,
+    "currency": null,
+    "unit": "retirees per day"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "There are 10,000 baby boomers retiring every single day",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5691,
+    "approx_timestamp_s": 301
+   }
+  },
+  {
+   "claim": "Friend pays ~$200 for estate sale leftovers",
+   "metric": "cost",
+   "value": {
+    "amount": 200,
+    "currency": "USD",
+    "unit": "per estate"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "I'll give you 200 bucks for it",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5330,
+    "approx_timestamp_s": 281
+   }
+  },
+  {
+   "claim": "DFW has 8 million people",
+   "metric": "customers",
+   "value": {
+    "amount": 8000000,
+    "currency": null,
+    "unit": "people"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Dallas Fort Worth has 8 million people",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9838,
+    "approx_timestamp_s": 520
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Multi-model niche selection",
+   "steps": [
+    "Ask several models the same prompt for an underserved directory niche",
+    "Compare reasoning",
+    "Validate with Google Trends using the right buyer-intent term (e.g. 'estate cleanout', not 'estate sale')"
+   ],
+   "idea_local_id": "I1",
+   "area": "validation",
+   "quote": {
+    "text": "What's an underserved local directory niche I could build and monetize?",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2534,
+    "approx_timestamp_s": 134
+   }
+  },
+  {
+   "name": "AI-built directory in an hour",
+   "steps": [
+    "Prompt a model to compile 20 real businesses with name, category, phone, description in a table",
+    "Regenerate with other models; fact-check with a different model",
+    "Download CSV",
+    "Ask an agent to build a searchable directory with category/listing pages and Stripe featured upgrade",
+    "Provide Stripe secret/publishable keys",
+    "Deploy, add AI hero image, check admin panel",
+    "Scale to 1,000+ nationwide listings by telling the model how much work to do"
+   ],
+   "idea_local_id": "I1",
+   "area": "product"
+  },
+  {
+   "name": "Niche vs geography rule",
+   "steps": [
+    "If the industry is very niche, go broad on geography",
+    "If geography is narrow, keep the industry broad",
+    "Go niche on both only with enough search demand"
+   ],
+   "idea_local_id": "I1",
+   "area": "product",
+   "quote": {
+    "text": "If the industry is very niche, then the geography should be more broad",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16016,
+    "approx_timestamp_s": 847
+   }
+  },
+  {
+   "name": "Directory monetisation stack",
+   "steps": [
+    "Free listings for all",
+    "Charge for featured placement once they get leads",
+    "Banner ads (easiest, lowest value)",
+    "Capture consumer leads yourself and auction to listed businesses by email"
+   ],
+   "idea_local_id": "I1",
+   "area": "pricing",
+   "quote": {
+    "text": "Hey, I have this lead. It's in this neighborhood. We think it's worth this much. Who wants it?",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21998,
+    "approx_timestamp_s": 1163
+   }
+  },
+  {
+   "name": "Positioning by name",
+   "steps": [
+    "Name the business for the niche you want (Estate Cleanout Pros) to own it, accepting you lose adjacent work"
+   ],
+   "idea_local_id": "I2",
+   "area": "product"
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Abacus ChatLLM (RouteLLM)",
+   "purpose": "Multi-model chat, agent builder, image/video generation (sponsor)",
+   "cost_stated": "~$10/month"
+  },
+  {
+   "name": "Google Trends",
+   "purpose": "Validate search demand"
+  },
+  {
+   "name": "Stripe",
+   "purpose": "Featured listing payments"
+  },
+  {
+   "name": "GPT Image 2",
+   "purpose": "Hero image generation"
+  },
+  {
+   "name": "Facebook Marketplace",
+   "purpose": "Reselling estate leftovers"
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Fact-check AI-compiled listings with a different model before publishing.",
+   "quote": {
+    "text": "you want to fact check all of these listings before we publish them on a directory website",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9231,
+    "approx_timestamp_s": 488
+   }
+  },
+  {
+   "warning": "Garbage in, garbage out: a typo in the prompt produced the wrong businesses.",
+   "quote": {
+    "text": "Remember, when it comes to AI, garbage in equals garbage out",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10585,
+    "approx_timestamp_s": 559
+   }
+  },
+  {
+   "warning": "Models default to less work; specify scale (1,000+ listings).",
+   "quote": {
+    "text": "Sometimes you need to tell the model how hard it needs to work",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18515,
+    "approx_timestamp_s": 979
+   }
+  },
+  {
+   "warning": "B2B directories earn more but it's harder to reach decision makers.",
+   "quote": null
+  },
+  {
+   "warning": "Banner ads are the lowest-value use of directory traffic.",
+   "quote": {
+    "text": "it's also like the lowest and worst use of these clicks",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21501,
+    "approx_timestamp_s": 1137
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Directories are passive once built and may matter more as AI needs structured sources.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "I think directories are going to be more important than ever with the advent of AI",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22119,
+    "approx_timestamp_s": 1169
+   }
+  },
+  {
+   "lesson": "Validate with the search term the buyer actually types.",
+   "theme": "validation_testing",
+   "quote": null
+  },
+  {
+   "lesson": "Naming and positioning decide which customers call you.",
+   "theme": "offer_design",
+   "quote": {
+    "text": "the naming of a business really, really matters how you position yourself",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12569,
+    "approx_timestamp_s": 664
+   }
+  },
+  {
+   "lesson": "Negative-COGS businesses get paid to acquire inventory.",
+   "theme": "finance_unit_economics",
+   "quote": null
+  },
+  {
+   "lesson": "Use different models to cross-check each other's output.",
+   "theme": "automation_ai",
+   "quote": null
+  },
+  {
+   "lesson": "'Token maxing' (using top models for everything) builds prompting skill.",
+   "theme": "automation_ai",
+   "quote": null
+  },
+  {
+   "lesson": "Consumer niches are easier to reach; B2B niches pay more.",
+   "theme": "niche_selection",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "C",
+  "rationale": "Live build demo with no traffic or revenue results; sponsored.",
+  "promotional_conflict": "Sponsored by Abacus AI (ChatLLM)."
+ },
+ "extraction": {
+  "model": "grokbot",
+  "extracted_at": "2026-10-22T09:04:01",
+  "cost_usd": null,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 19,
+   "verified": 19,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

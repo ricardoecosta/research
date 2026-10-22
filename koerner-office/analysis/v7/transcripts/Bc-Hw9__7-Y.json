@@ -1,0 +1,437 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "Bc-Hw9__7-Y",
+  "title": "Can You Make Money With an AI App? Test This First",
+  "channel": "Dark Horse Entrepreneur",
+  "url": "https://www.youtube.com/watch?v=Bc-Hw9__7-Y",
+  "upload_date": "2026-10-13",
+  "duration_s": 1434,
+  "view_count": 530,
+  "transcript_provider": "cached",
+  "transcript_chars": 26403,
+  "transcript_is_whisper": false
+ },
+ "summary": "The Dark Horse Entrepreneur host argues that AI makes building apps fast, but unvalidated apps still don't sell. Copying proven apps proves a market, not that anyone will switch to yours. He gives a five-step test: a micro-problem filter, a proof checklist of evidence that costs someone something, 'switch conversations' with 5-10 real users about past behaviour, a 'smallest paid promise' tested by pre-sale, manual delivery or a specific waitlist, and a build-or-don't-build decision against a pass mark written in advance. The worked example is a $5/month game-day confirmation text tool for youth cheer coaches.",
+ "speakers": [
+  {
+   "name": "Dark Horse Entrepreneur host",
+   "role": "host",
+   "description": "Podcaster since 2007, Dark Horse Entrepreneur"
+  }
+ ],
+ "format": "tutorial_howto",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Game-day confirmation text tool for youth cheer coaches (micro SaaS example)",
+   "one_liner": "One-feature app that sends one message to parents and shows who has confirmed, for $5/month.",
+   "category": "saas_software",
+   "business_model": "Monthly subscription",
+   "customer": "Youth cheer coaches juggling about 12 parents",
+   "problem": "Chasing parents one by one for game-day confirmations",
+   "offer": "Single game-day text and confirmation dashboard",
+   "pricing": {
+    "model": "Subscription",
+    "price_points": [
+     {
+      "amount": 5,
+      "currency": "USD",
+      "unit": "per month"
+     }
+    ],
+    "notes": "Hypothetical: 100 coaches = $500 MRR. Test by pre-sale, by doing it by hand, or a specific waitlist."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "facebook_groups_communities",
+     "details": "Ask questions (not pitch) in coach groups and forums, respecting group rules."
+    }
+   ],
+   "delivery": "Vibe-coded app; manual concierge test first.",
+   "unit_economics_claims": [
+    "$5/month x 100 coaches = $500 MRR (hypothetical)"
+   ],
+   "tools": [
+    "Stripe",
+    "ChatGPT",
+    "Lovable",
+    "Bolt.new",
+    "Cursor",
+    "Claude"
+   ],
+   "startup_cost": "Low",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Community posts and SEO are inbound; sending marketing texts to parents needs their consent under UK PECR (the coach sends, so it's service messaging)."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Self-serve."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "Software sends texts and tracks replies."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Stripe."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "Mostly self-serve."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Works in the UK for youth sports clubs; SMS costs and consent rules apply."
+   },
+   "risks": [
+    "Small market at $5/month",
+    "TeamSnap-type competitors"
+   ],
+   "is_primary": true,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "A game day text tool that lets your youth cheer coaches send one message to see which parents have confirmed without chasing 12 people manually by hand for five bucks a month",
+     "speaker": "Dark Horse Entrepreneur host",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 15384,
+     "approx_timestamp_s": 859
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Example micro SaaS: $5/month x 100 coaches = $500 MRR",
+   "metric": "mrr",
+   "value": {
+    "amount": 500,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Dark Horse Entrepreneur host",
+   "first_hand": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "That's $5 a month MRR per customer. Get 100 coaches on this and you've got $500 a month in recurring revenue coming in",
+    "speaker": "Dark Horse Entrepreneur host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15559,
+    "approx_timestamp_s": 869
+   },
+   "hypothetical": true
+  },
+  {
+   "claim": "Experienced iOS dev built a mood tracker with AI in ~37 minutes (Starter Story)",
+   "metric": "hours",
+   "value": {
+    "amount": 37,
+    "currency": null,
+    "unit": "minutes"
+   },
+   "claimant": "Dark Horse Entrepreneur host",
+   "first_hand": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "did it in about 37 minutes",
+    "speaker": "Dark Horse Entrepreneur host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4720,
+    "approx_timestamp_s": 263
+   }
+  },
+  {
+   "claim": "Interview 5-10 people matching the buyer persona",
+   "metric": "customers",
+   "value": {
+    "amount": 5,
+    "currency": null,
+    "unit": "interviews",
+    "amount_max": 10
+   },
+   "claimant": "Dark Horse Entrepreneur host",
+   "first_hand": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "You're going to want to find five to 10 people who match your who, your buyer persona",
+    "speaker": "Dark Horse Entrepreneur host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11916,
+    "approx_timestamp_s": 666
+   },
+   "hypothetical": true
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Micro-problem filter (pass 4 of 5)",
+   "steps": [
+    "Who exactly has it (job title/situation)?",
+    "How often (weekly or better)?",
+    "What does it cost them (time, money, embarrassment, missed sales)?",
+    "Are they already paying to deal with it?",
+    "Can one feature fix the core?",
+    "Fill 'I want to build an app that does X to solve Y for Z'"
+   ],
+   "idea_local_id": null,
+   "area": "validation"
+  },
+  {
+   "name": "Proof checklist (get 3+)",
+   "steps": [
+    "Paid competitors exist (app stores, Product Hunt) with many reviews",
+    "People complaining in their own words on Reddit, Facebook groups, forums",
+    "1-star and 3-star reviews of competitors",
+    "Searches for '<competitor> alternative'",
+    "Homemade workarounds (spreadsheets, templates)",
+    "Copy exact quotes into a doc for sales copy"
+   ],
+   "idea_local_id": null,
+   "area": "validation",
+   "quote": {
+    "text": "One-star reviews tell you what people hate. Three-star reviews are going to tell you what they liked",
+    "speaker": "Dark Horse Entrepreneur host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10094,
+    "approx_timestamp_s": 564
+   }
+  },
+  {
+   "name": "Switch conversation",
+   "steps": [
+    "Find 5-10 persona matches where complaints live; ask questions, don't pitch",
+    "Ask about the past: walk me through the last time",
+    "What do you use now? What do you hate? What have you tried? What would make you switch?",
+    "Never ask 'would you use my app?'",
+    "Listen for heat and existing spend"
+   ],
+   "idea_local_id": null,
+   "area": "validation",
+   "quote": {
+    "text": "Please never ask that. Everyone is going to say yes",
+    "speaker": "Dark Horse Entrepreneur host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14127,
+    "approx_timestamp_s": 789
+   }
+  },
+  {
+   "name": "Smallest paid promise",
+   "steps": [
+    "One sentence: I help [person] do [one thing] without [pain] for [price]",
+    "Test via Stripe pre-sale page with ship date and full refund guarantee, do-it-by-hand service, or specific founding-price waitlist",
+    "Write the pass mark first (e.g. 3 strangers pay within 2 weeks)",
+    "Build if hit; else change one variable (price, person, feature) and retest"
+   ],
+   "idea_local_id": "I1",
+   "area": "validation",
+   "quote": {
+    "text": "If three coaches that I do not personally know pay or commit within the next 2 weeks, I'm going to build",
+    "speaker": "Dark Horse Entrepreneur host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17897,
+    "approx_timestamp_s": 1000
+   }
+  },
+  {
+   "name": "15-minute review mining",
+   "steps": [
+    "Pick the biggest competitor",
+    "Read 20 one-star and three-star reviews",
+    "Copy lines that make you think 'I can fix that'"
+   ],
+   "idea_local_id": null,
+   "area": "validation"
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "ChatGPT",
+   "purpose": "Brainstorm problems, sparring partner"
+  },
+  {
+   "name": "Cursor",
+   "purpose": "Vibe coding"
+  },
+  {
+   "name": "Claude",
+   "purpose": "Vibe coding"
+  },
+  {
+   "name": "Lovable",
+   "purpose": "Vibe coding"
+  },
+  {
+   "name": "Bolt.new",
+   "purpose": "Vibe coding"
+  },
+  {
+   "name": "Stripe",
+   "purpose": "Pre-sale payments"
+  },
+  {
+   "name": "Product Hunt",
+   "purpose": "Find competitors"
+  },
+  {
+   "name": "Reddit",
+   "purpose": "Find complaints"
+  },
+  {
+   "name": "Facebook groups",
+   "purpose": "Find complaints and interviewees"
+  },
+  {
+   "name": "Dark Horse Insider / AI Escape Plan newsletter",
+   "purpose": "Host's newsletter (promo)"
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "AI makes building fast but doesn't make unwanted apps sell.",
+   "quote": {
+    "text": "AI made building fast. It did not make unwanted apps profitable for the maker",
+    "speaker": "Dark Horse Entrepreneur host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 386,
+    "approx_timestamp_s": 21
+   }
+  },
+  {
+   "warning": "A proven market doesn't prove anyone will buy from you; you need a reason to switch.",
+   "quote": {
+    "text": "Proving a market exists is not the same as proving anybody will buy from you",
+    "speaker": "Dark Horse Entrepreneur host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3129,
+    "approx_timestamp_s": 174
+   }
+  },
+  {
+   "warning": "Zero competitors and zero complaints usually means an empty road for a reason.",
+   "quote": {
+    "text": "most of the time it means it's really an empty road for a reason",
+    "speaker": "Dark Horse Entrepreneur host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11364,
+    "approx_timestamp_s": 635
+   }
+  },
+  {
+   "warning": "Don't buy upvotes or game communities; it burns reputation with your customers.",
+   "quote": null
+  },
+  {
+   "warning": "YouTubers' income claims are their story, not your forecast.",
+   "quote": {
+    "text": "Don't go out there start treating it like your forecast",
+    "speaker": "Dark Horse Entrepreneur host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20650,
+    "approx_timestamp_s": 1154
+   }
+  },
+  {
+   "warning": "Don't let AI pretend to be a customer.",
+   "quote": {
+    "text": "But, it's not a customer. Never let it pretend to be one",
+    "speaker": "Dark Horse Entrepreneur host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21765,
+    "approx_timestamp_s": 1216
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Validate demand before building; code is cheap but your evenings aren't.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "Code got cheap. Your evenings, they didn't get cheap",
+    "speaker": "Dark Horse Entrepreneur host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5492,
+    "approx_timestamp_s": 306
+   }
+  },
+  {
+   "lesson": "Copying proven apps is fine if you have a specific reason customers would switch.",
+   "theme": "niche_selection",
+   "quote": null
+  },
+  {
+   "lesson": "Evidence must cost someone something: money, time, workarounds, complaints.",
+   "theme": "validation_testing",
+   "quote": null
+  },
+  {
+   "lesson": "Ask about past behaviour, not future intentions.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "You want to talk about the things they've actually done or are doing in the past, cuz that's where the truth lives",
+    "speaker": "Dark Horse Entrepreneur host",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12910,
+    "approx_timestamp_s": 721
+   }
+  },
+  {
+   "lesson": "Pre-sell with refunds, or deliver by hand, before building.",
+   "theme": "validation_testing",
+   "quote": null
+  },
+  {
+   "lesson": "Set the pass mark before testing to avoid moving goalposts.",
+   "theme": "mindset_execution",
+   "quote": null
+  },
+  {
+   "lesson": "Micro apps should solve one weekly-or-more pain with one feature.",
+   "theme": "offer_design",
+   "quote": null
+  },
+  {
+   "lesson": "Walking away after a failed two-week test is a win, not failure.",
+   "theme": "mindset_execution",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "C",
+  "rationale": "Advice and framework with a hypothetical example; no first-hand app revenue.",
+  "promotional_conflict": "Promotes his newsletters (AI Escape Plan, Dark Horse Insider)."
+ },
+ "extraction": {
+  "model": "grokbot",
+  "extracted_at": "2026-10-22T09:04:33",
+  "cost_usd": null,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 14,
+   "verified": 14,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}
