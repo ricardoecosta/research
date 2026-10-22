@@ -1,0 +1,1519 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "H34wM31A6_4",
+  "title": "Build Your Next Business With This Viral AI Tool",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=H34wM31A6_4",
+  "upload_date": "2025-04-23",
+  "duration_s": 2707,
+  "view_count": 28008,
+  "transcript_provider": "ok",
+  "transcript_chars": 54031,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner interviews Max Brodeur, co-founder of Y Combinator-backed Gumloop, a drag-and-drop AI workflow automation platform described as an AI-first Zapier. Max demos internal workflows (lead enrichment on signup, support-chat digest, pre-meeting research, SEO keyword filtering, YouTube-to-blog, Meta ads competitor analysis). Chris pitches businesses built on top: Gumloop expert/freelance builder, Facebook ads reverse-engineering as a service, programmatic SEO as a service, white-labelled flows. The key takeaway is that niche workflow knowledge encoded into AI workflows can be sold as a service, but the video is partly promotional (affiliate link) and numbers are sparse.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Host of The Koerner Office; uses a Gumloop affiliate link"
+  },
+  {
+   "name": "Max Brodeur",
+   "role": "guest",
+   "description": "Co-founder of Gumloop"
+  }
+ ],
+ "format": "operator_interview",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Gumloop expert / workflow builder for hire",
+   "one_liner": "Learn Gumloop and take contract work building AI workflows for businesses.",
+   "category": "ai_automation",
+   "business_model": "Per-project contract fees, potentially retainers",
+   "customer": "Businesses wanting to automate admin, lead research and content work without engineers",
+   "problem": "Users cannot figure out what to automate or how to build it in the tool",
+   "offer": "Custom-built AI workflows deployed on Gumloop",
+   "pricing": {
+    "model": "Per project, varies widely",
+    "price_points": [
+     {
+      "amount": 100,
+      "amount_max": 5000,
+      "currency": "USD",
+      "unit": "per project",
+      "label": "Typical expert range per Max"
+     }
+    ],
+    "notes": "Chris notes a $100 flow could become a $1,000/month job; some clients expect full automation for $200."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "marketplace_platform",
+     "details": "Gumloop's Airtable-based experts directory (about 10 people); Gumloop introduces inbound requests to experts. A fuller marketplace is planned.",
+     "quote": {
+      "text": "We have an expert marketplace. It's an air table based. So, it's like 10 different people in this little directory.",
+      "speaker": "Max Brodeur",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 35994,
+      "approx_timestamp_s": 1837
+     }
+    }
+   ],
+   "delivery": "Expert builds drag-and-drop workflows and interfaces for the client; a human does the design and scoping each time.",
+   "unit_economics_claims": [
+    "Expert projects range from about $100 to $5,000",
+    "Demand for experts exceeds supply"
+   ],
+   "tools": [
+    "Gumloop",
+    "Airtable"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Inbound via a directory is passive, but filtering and closing leads needs a human."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "Scoping each client's workflow needs human conversation."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Building flows is human with heavy tooling; a copilot may raise this."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Invoicing can be automated."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Client questions and fixes need a human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Software service, location independent."
+   },
+   "risks": [
+    "Platform dependence on Gumloop",
+    "Clients with unrealistic expectations and budgets",
+    "Copilot features may reduce the need for experts",
+    "Lead filtering takes effort"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "we have gum loop experts, people who do contract work building for people. They they're kind of like flow builders for hire.",
+     "speaker": "Max Brodeur",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 35559,
+     "approx_timestamp_s": 1815
+    },
+    {
+     "text": "We actually hired one of our experts internally because he was just so good",
+     "speaker": "Max Brodeur",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 37684,
+     "approx_timestamp_s": 1923
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Facebook/Meta ads reverse-engineering subscription",
+   "one_liner": "Weekly automated email report analysing competitors' Meta ads, sold as a monthly subscription.",
+   "category": "ai_automation",
+   "business_model": "Monthly subscription",
+   "customer": "Brands and marketers wanting to track competitors' ad strategy",
+   "problem": "Manually reviewing competitor ads is slow",
+   "offer": "Fully automated Friday email report covering top 3 competitors' ad mix and strategy",
+   "pricing": {
+    "model": "Monthly subscription",
+    "price_points": [
+     {
+      "amount": 300,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "Chris's hypothetical price"
+     }
+    ],
+    "notes": "Hypothetical pricing by the host."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Not specified; white-label form on a Webflow page was suggested as the customer front end.",
+     "quote": null
+    }
+   ],
+   "delivery": "Gumloop workflow pulls competitor ads from the Meta Ad Library, Gemini analyses each ad, o1 synthesises a report, scheduled weekly; customers submit via a web form through a webhook.",
+   "unit_economics_claims": [
+    "$300/month price",
+    "Customers think 4 hours a week of manual work is being done"
+   ],
+   "tools": [
+    "Gumloop",
+    "Gemini",
+    "OpenAI o1",
+    "Meta Ad Library",
+    "Webflow"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Content and SEO are possible; cold outreach to sole traders is limited by PECR."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "A web form collects competitor URLs."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Scheduled workflow with occasional checks."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Stripe subscriptions."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Agent handles FAQs."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "The UK Ad Library shows spend data for some ads, which is a plus. Check the Meta Ad Library API/scraping terms."
+   },
+   "risks": [
+    "Meta scraping or terms issues",
+    "Low barrier to copy",
+    "Platform dependence on Gumloop",
+    "Report quality"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "Pay me $300 a month. I'll send you an email every Friday with your top three competitors",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 64,
+     "approx_timestamp_s": 3
+    },
+    {
+     "text": "as far as your customers know, you're spending four hours a week doing this for them by hand",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 47502,
+     "approx_timestamp_s": 2424
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Programmatic SEO as a service using AI workflows",
+   "one_liner": "Bulk-generate unique landing pages from keyword/city sheets with an AI workflow.",
+   "category": "agency",
+   "business_model": "Service fees or own lead-gen sites",
+   "customer": "Businesses wanting local/niche SEO pages",
+   "problem": "Producing thousands of unique SEO pages manually is expensive",
+   "offer": "AI workflow generating pages from sheet rows and publishing to a CMS (Webflow)",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "Chris says people charge a lot for programmatic SEO as a service."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "seo_organic_search",
+     "details": "Pages target keyword plus city combinations.",
+     "quote": null
+    }
+   ],
+   "delivery": "Loop a workflow over a Google Sheet of keywords and cities; the LLM writes unique content; publish to Webflow.",
+   "unit_economics_claims": [
+    "5,500 landing pages across the top 1,100 US and Canadian cities"
+   ],
+   "tools": [
+    "Gumloop",
+    "Google Sheets",
+    "Webflow"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Inbound SEO traffic."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Brief intake could be templated."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Bulk generation with spot checks."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Standard subscriptions or invoices."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Mostly routine."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Works with UK towns; Google spam policy risk on thin pages."
+   },
+   "risks": [
+    "Google penalties for thin or scaled content",
+    "Pet cremation example is a different niche (see I4)"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "you could feed in 800 topics and apply the same reasoning just over time. Go get a coffee and come back and all your content's done.",
+     "speaker": "Max Brodeur",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 44706,
+     "approx_timestamp_s": 2282
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "Pet cremation lead-gen programmatic site",
+   "one_liner": "Programmatic site with 5,500 city landing pages generating pet cremation leads.",
+   "category": "data_leads",
+   "business_model": "Lead generation",
+   "customer": "Pet cremation providers",
+   "problem": "Providers need local leads",
+   "offer": "City-specific landing pages for pet cremation, horse cremation and pet euthanasia",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "seo_organic_search",
+     "details": "5,500 landing pages for the top 1,100 US/Canada cities across three keywords, built in Webflow.",
+     "quote": {
+      "text": "we have a programmatic site for pet cremation leads and we have 5,500 landing pages",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 44853,
+      "approx_timestamp_s": 2289
+     }
+    }
+   ],
+   "delivery": "Pages published in Webflow; leads passed to providers.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Webflow"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "SEO-driven."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Provider onboarding semi-automated."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Lead routing can be automated."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Per-lead billing needs tracking."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Light support."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Same model works for UK towns."
+   },
+   "risks": [
+    "Search engine algorithm changes",
+    "Sensitive topic"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": []
+  },
+  {
+   "local_id": "I5",
+   "name": "Competitor SEO keyword filtering workflow",
+   "one_liner": "Workflow that pulls a competitor's top keywords from Semrush and filters out brand terms.",
+   "category": "ai_automation",
+   "business_model": "Internal tool or service",
+   "customer": "SEO teams",
+   "problem": "Manually removing brand keywords takes hours daily",
+   "offer": "Interface where you enter a competitor domain and get non-brand keywords in a Google Sheet",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "Gumloop interface over a workflow using Semrush and an LLM classifier.",
+   "unit_economics_claims": [
+    "Took about 4 minutes to build and replaced hours of daily work"
+   ],
+   "tools": [
+    "Gumloop",
+    "Semrush",
+    "Google Sheets"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Not stated."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Interface."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "Automated."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Not applicable."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Light."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "No geography dependence."
+   },
+   "risks": [
+    "Semrush costs"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "it was taking them hours every day because they're doing this for so many different brands",
+     "speaker": "Max Brodeur",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 43521,
+     "approx_timestamp_s": 2221
+    }
+   ]
+  },
+  {
+   "local_id": "I6",
+   "name": "Customer-support chat insight digest",
+   "one_liner": "Daily AI report summarising confusion across all support chats for product managers.",
+   "category": "ai_automation",
+   "business_model": "Internal use; could be productised",
+   "customer": "Product teams with high chat volume",
+   "problem": "Nobody has time to read all chats",
+   "offer": "Daily 5 p.m. report ranking top customer issues with evidence",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "Workflow reads all threads, summarises each, and aggregates into a ranked report.",
+   "unit_economics_claims": [
+    "About 60,000 chatbot messages per week at Gumloop"
+   ],
+   "tools": [
+    "Gumloop"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Not stated."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Connect chat source."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "Scheduled unattended."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Standard."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Light."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Mind GDPR on chat data."
+   },
+   "risks": [
+    "Data privacy"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "I have a Gum Loop workflow that runs at 5:00 p.m. every day. It reads every single thread.",
+     "speaker": "Max Brodeur",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 4612,
+     "approx_timestamp_s": 235
+    }
+   ]
+  },
+  {
+   "local_id": "I7",
+   "name": "Signup lead enrichment and personalised outreach",
+   "one_liner": "On signup, research the user, categorise value, post to Slack and draft an outreach email.",
+   "category": "ai_automation",
+   "business_model": "Internal sales enablement; could be sold as a service",
+   "customer": "SaaS and B2B companies with inbound signups",
+   "problem": "Founders cannot manually research every signup",
+   "offer": "Automated enrichment (LinkedIn, funding stage, industry, headcount, traffic), categorisation into buckets, Slack alert and draft email",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "Signup triggers the workflow via API; subflow does web research; LLM categorises; drafts saved in Gmail for review.",
+   "unit_economics_claims": [
+    "Notification arrives about 10 seconds after signup"
+   ],
+   "tools": [
+    "Gumloop",
+    "Gmail",
+    "Slack",
+    "data enrichment providers"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Not stated."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "API trigger."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Drafts reviewed by a human."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "N/A."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Light."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Emailing individuals needs PECR and GDPR care; B2B corporate emails are generally fine."
+   },
+   "risks": [
+    "Spam and PECR/GDPR issues",
+    "AI mis-categorisation"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "we take their email and then if if it's able to identify their full name in their email, then we have a a search that goes and looks up like their full name, their company name",
+     "speaker": "Max Brodeur",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 20677,
+     "approx_timestamp_s": 1055
+    }
+   ]
+  },
+  {
+   "local_id": "I8",
+   "name": "Pre-meeting research briefing workflow",
+   "one_liner": "15 minutes before each meeting, text a research digest on the attendee and company.",
+   "category": "ai_automation",
+   "business_model": "Internal tool; could be sold",
+   "customer": "Salespeople and founders",
+   "problem": "Preparing for calls takes time",
+   "offer": "Text digest of attendee background, company stage and email history",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "Calendar trigger, inbox search, AI web research, synthesised text notification.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Gumloop",
+    "Gmail",
+    "Google Calendar"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "N/A."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Connect calendar."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "Scheduled."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Standard."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Light."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Same."
+   },
+   "risks": [
+    "Inaccurate research"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": []
+  },
+  {
+   "local_id": "I9",
+   "name": "Email triage and routing bot",
+   "one_liner": "A cheap LLM classifies incoming emails and forwards customer complaints to support.",
+   "category": "ai_automation",
+   "business_model": "Productised automation or setup service",
+   "customer": "Owners with flooded inboxes",
+   "problem": "Hundreds of emails a day",
+   "offer": "Auto-forwarding and sentiment bucketing",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "GPT-4o mini categorises emails and routes them.",
+   "unit_economics_claims": [
+    "Setup in about five minutes"
+   ],
+   "tools": [
+    "Gumloop",
+    "GPT-4o mini"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "N/A."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Connect inbox."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "Unattended."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Standard."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Light."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Mind GDPR."
+   },
+   "risks": [
+    "Misrouting"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "You only have to set it up one time and then you have this like totally autonomous support email bot",
+     "speaker": "Max Brodeur",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 18639,
+     "approx_timestamp_s": 951
+    }
+   ]
+  },
+  {
+   "local_id": "I10",
+   "name": "Handyman investor-vs-homeowner lead router",
+   "one_liner": "Form answer triggers an urgent text for investor leads, with homeowners sent to a CRM and email nurture.",
+   "category": "local_service",
+   "business_model": "Automation for local trades",
+   "customer": "Handymen and local trades",
+   "problem": "Missing high-value investor leads",
+   "offer": "Lead qualification and routing workflow",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "Form → Gumloop → text node for investors, CRM and email for homeowners.",
+   "unit_economics_claims": [
+    "Homeowners about 20% close rate, roughly $100 jobs (hypothetical)"
+   ],
+   "tools": [
+    "Gumloop",
+    "CRM"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "N/A."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Form."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "Automated."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "N/A."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Light."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Same."
+   },
+   "risks": [],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": []
+  },
+  {
+   "local_id": "I11",
+   "name": "Medical-record billing-code finder (GPT wrapper)",
+   "one_liner": "Upload PDFs of patient records and surface billable codes that billing managers miss.",
+   "category": "saas_software",
+   "business_model": "Software for skilled nursing facilities",
+   "customer": "Skilled nursing facilities",
+   "problem": "Staff manually Ctrl+F records and miss billable conditions",
+   "offer": "A wrapper that scans thousands of pages and flags codes",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "Upload PDFs, LLM finds codes.",
+   "unit_economics_claims": [
+    "Saves thousands of dollars a month per facility"
+   ],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Sales to facilities."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Needs setup and data handling."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "LLM processing."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Standard."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Healthcare customers need support."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 1,
+    "notes": "Depends on the US medical billing code system; UK care homes work differently, and patient data rules are strict."
+   },
+   "risks": [
+    "Health data compliance",
+    "Accuracy"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "we have a GPT rapper in our holding company that helps skilled nursing facilities bill for more codes",
+     "speaker": "Chris Koerner",
+     "match_score": 98.0,
+     "verified": true,
+     "char_offset": 17110,
+     "approx_timestamp_s": 873
+    }
+   ]
+  },
+  {
+   "local_id": "I12",
+   "name": "Research-paper analysis service for academic institutions",
+   "one_liner": "Customer built a business processing thousands of research papers to produce cross-analysis for universities.",
+   "category": "b2b_service",
+   "business_model": "Reselling analysis services",
+   "customer": "Academic institutions",
+   "problem": "Cross-analysing research would take hundreds or thousands of human hours",
+   "offer": "Insights on where institutions should invest and weak spots",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "Complex Gumloop workflow extracting insights at scale.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Gumloop"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Institution sales."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Custom."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Workflow."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Contracts."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "UK universities are plausible customers."
+   },
+   "risks": [
+    "Customer concentration"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "this person just kind of cobbled together a workflow and then built a business on top of that.",
+     "speaker": "Max Brodeur",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 23353,
+     "approx_timestamp_s": 1192
+    }
+   ]
+  },
+  {
+   "local_id": "I13",
+   "name": "AI engineer-performance detection / code review retention tool",
+   "one_liner": "Use an LLM over code reviews to identify exceptional engineers so companies retain them.",
+   "category": "saas_software",
+   "business_model": "SaaS for engineering managers",
+   "customer": "Large companies with hundreds of engineers",
+   "problem": "Hard to spot top performers at scale",
+   "offer": "Weekly reports on who moves the needle",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "Code review bot aggregating contributions.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Enterprise sales."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "GitHub integration."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Automated."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Standard."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Light."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Employee monitoring raises UK GDPR concerns."
+   },
+   "risks": [
+    "Employee monitoring concerns",
+    "Crowded code-review market"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "I think it's a a code review bot, honestly.",
+     "speaker": "Max Brodeur",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 29646,
+     "approx_timestamp_s": 1513
+    }
+   ]
+  },
+  {
+   "local_id": "I14",
+   "name": "Video-to-content workflows (YouTube/calls to blogs and case studies)",
+   "one_liner": "Turn long videos, customer interviews or calls into blog posts and case studies automatically.",
+   "category": "content_media",
+   "business_model": "Content service or tool",
+   "customer": "Marketers and content teams",
+   "problem": "Repurposing long video is slow",
+   "offer": "Drop in a video, get a structured post",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "seo_organic_search",
+     "details": "Chris suggests publishing Fathom call content for SEO.",
+     "quote": null
+    }
+   ],
+   "delivery": "Workflow transcribes video and an LLM writes a post.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Gumloop",
+    "Fathom"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "SEO content."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Drop-in."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Review needed."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Standard."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Light."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Same."
+   },
+   "risks": [
+    "Low-quality AI content"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "a lot of Gum Loop workflows are like video to blog posts",
+     "speaker": "Max Brodeur",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 31877,
+     "approx_timestamp_s": 1627
+    }
+   ]
+  },
+  {
+   "local_id": "I15",
+   "name": "White-labelled Gumloop-powered tools",
+   "one_liner": "Wrap Gumloop workflows behind a Webflow form so customers never see the platform.",
+   "category": "ai_automation",
+   "business_model": "Productised service or SaaS",
+   "customer": "Niche professionals",
+   "problem": "They need a niche tool without engineering",
+   "offer": "A branded front end with a Gumloop workflow behind it",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "Webhook triggers workflow; results emailed.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Gumloop",
+    "Webflow"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Depends on niche."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Form."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Workflow."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Stripe."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Light."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Same."
+   },
+   "risks": [
+    "Platform dependence"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "the email will be sent and they don't even know Gumbloop's involved. It's just powering the product that is customerf facing for you.",
+     "speaker": "Max Brodeur",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 49430,
+     "approx_timestamp_s": 2523
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Hypothetical competitor ads report priced at $300 a month",
+   "metric": "price",
+   "value": {
+    "amount": 300,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per month",
+    "label": null
+   },
+   "period": "monthly",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "Pay me $300 a month. I'll send you an email every Friday with your top three competitors",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 64,
+    "approx_timestamp_s": 3
+   }
+  },
+  {
+   "claim": "Gumloop expert projects range from $100 to $5,000",
+   "metric": "price",
+   "value": {
+    "amount": 100,
+    "amount_max": 5000,
+    "currency": "USD",
+    "unit": "per project",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Max Brodeur",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "It could be like a hundred bucks. It could be $5,000.",
+    "speaker": "Max Brodeur",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 36966,
+    "approx_timestamp_s": 1887
+   }
+  },
+  {
+   "claim": "Gumloop support chatbot handles about 60,000 messages a week",
+   "metric": "traffic",
+   "value": {
+    "amount": 60000,
+    "amount_max": null,
+    "currency": null,
+    "unit": "messages per week",
+    "label": null
+   },
+   "period": "weekly",
+   "claimant": "Max Brodeur",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "We're doing like 60,000 messages a week on our chatbot.",
+    "speaker": "Max Brodeur",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4554,
+    "approx_timestamp_s": 232
+   }
+  },
+  {
+   "claim": "Gumloop grew 50% two months ago and 30% last month",
+   "metric": "other",
+   "value": {
+    "amount": null,
+    "amount_max": null,
+    "currency": null,
+    "unit": "growth",
+    "label": "50% then 30% monthly growth"
+   },
+   "period": "monthly",
+   "claimant": "Max Brodeur",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "we grew 50% two months ago, 30% last month.",
+    "speaker": "Max Brodeur",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 27047,
+    "approx_timestamp_s": 1380
+   }
+  },
+  {
+   "claim": "Instacart has 1,000 Gumloop seats out of 3,000 employees",
+   "metric": "customers",
+   "value": {
+    "amount": 1000,
+    "amount_max": null,
+    "currency": null,
+    "unit": "seats",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Max Brodeur",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "Instacart has a thousand seats on Gum Loop out of the 3,000 employees.",
+    "speaker": "Max Brodeur",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12280,
+    "approx_timestamp_s": 626
+   }
+  },
+  {
+   "claim": "Pet cremation programmatic site has 5,500 landing pages",
+   "metric": "other",
+   "value": {
+    "amount": 5500,
+    "amount_max": null,
+    "currency": null,
+    "unit": "landing pages",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "we have 5,500 landing pages which represents the top 1100 cities in the US and Canada by population",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 44909,
+    "approx_timestamp_s": 2292
+   }
+  },
+  {
+   "claim": "Billing-code wrapper saves nursing facilities thousands of dollars a month",
+   "metric": "other",
+   "value": {
+    "amount": 1000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "at least thousands"
+   },
+   "period": "monthly",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I11",
+   "quote": {
+    "text": "there's thousands of dollars a month that they could be billing for that they're not",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17486,
+    "approx_timestamp_s": 892
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Automate any task you can write as a list of steps",
+   "area": "operations",
+   "steps": [
+    "Pick a task you could hand to an intern as a point-form list",
+    "Avoid tasks with many conditionals and edge cases",
+    "Encode your expertise and context into the workflow",
+    "Keep a human in the loop for high-nuance outputs"
+   ],
+   "idea_local_id": null,
+   "quote": {
+    "text": "if you can define something as a list of steps, it's kind of ripe for automation",
+    "speaker": "Max Brodeur",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9538,
+    "approx_timestamp_s": 486
+   }
+  },
+  {
+   "name": "Use categorisation buckets instead of numeric scoring",
+   "area": "product",
+   "steps": [
+    "Use discrete buckets such as extremely high value, high value, normal, low value",
+    "Avoid 0-100 scores because models give mediocre scores when uncertain"
+   ],
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "I tend to do categorization instead of scoring",
+    "speaker": "Max Brodeur",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21971,
+    "approx_timestamp_s": 1121
+   }
+  },
+  {
+   "name": "Match model to task",
+   "area": "product",
+   "steps": [
+    "Use a cheaper fast model for simple high-volume labelling",
+    "Use a stronger reasoning model for synthesis over many items",
+    "Do not economise on models for high-importance workflows"
+   ],
+   "idea_local_id": null,
+   "quote": {
+    "text": "use like a a cheaper model that is faster because sometimes the task is so easy",
+    "speaker": "Max Brodeur",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 51645,
+    "approx_timestamp_s": 2636
+   }
+  },
+  {
+   "name": "Find automation opportunities from repetitive Ctrl+F or copy-paste work",
+   "area": "product",
+   "steps": [
+    "Notice repetitive search or copy-paste tasks",
+    "Ask whether an LLM could do the reasoning",
+    "Build a wrapper or workflow for it"
+   ],
+   "idea_local_id": "I11",
+   "quote": null
+  },
+  {
+   "name": "Review drafts before sending; auto-send only templated emails",
+   "area": "sales",
+   "steps": [
+    "Save researched, personalised emails as drafts and review",
+    "Auto-send only simple templated emails with a calendar link"
+   ],
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "I always save emails as drafts and then I'm the one sending it off.",
+    "speaker": "Max Brodeur",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 19467,
+    "approx_timestamp_s": 993
+   }
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Gumloop",
+   "purpose": "Drag-and-drop AI workflow automation platform",
+   "cost_stated": "Affiliate link with discount; price not stated"
+  },
+  {
+   "name": "Zapier",
+   "purpose": "Simple API-based automation",
+   "cost_stated": null
+  },
+  {
+   "name": "Semrush",
+   "purpose": "Competitor keyword data",
+   "cost_stated": null
+  },
+  {
+   "name": "Webflow",
+   "purpose": "Site builder for programmatic pages and front ends",
+   "cost_stated": null
+  },
+  {
+   "name": "Google Sheets",
+   "purpose": "Data input and output for workflows",
+   "cost_stated": null
+  },
+  {
+   "name": "Gmail",
+   "purpose": "Email read and draft nodes",
+   "cost_stated": null
+  },
+  {
+   "name": "Slack",
+   "purpose": "Notifications",
+   "cost_stated": null
+  },
+  {
+   "name": "Airtable",
+   "purpose": "Gumloop experts directory",
+   "cost_stated": null
+  },
+  {
+   "name": "OpenAI GPT-4o / GPT-4o mini / o1",
+   "purpose": "LLM reasoning and categorisation",
+   "cost_stated": null
+  },
+  {
+   "name": "Gemini (Flash)",
+   "purpose": "Ad analysis and cheap labelling",
+   "cost_stated": null
+  },
+  {
+   "name": "Claude 3.7",
+   "purpose": "Creative writing",
+   "cost_stated": null
+  },
+  {
+   "name": "Meta Ad Library",
+   "purpose": "Competitor ad data",
+   "cost_stated": null
+  },
+  {
+   "name": "Fathom",
+   "purpose": "Call recording; could feed content workflows",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Fully autonomous agents have been unreliable and expensive; asking an AI to write a sales email without context yields slop.",
+   "quote": {
+    "text": "If you just ask an agent to go write a sales email, it's going to write some slop",
+    "speaker": "Max Brodeur",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8177,
+    "approx_timestamp_s": 417
+   }
+  },
+  {
+   "warning": "Don't spam people with AI-generated outreach; keep a human in the loop for personalised emails.",
+   "quote": {
+    "text": "you never want to be someone spamming or like flooding someone's inbox with more spam",
+    "speaker": "Max Brodeur",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20318,
+    "approx_timestamp_s": 1037
+   }
+  },
+  {
+   "warning": "Templates are a band-aid; screen-recording-based automation discovery may underdeliver and burn user trust.",
+   "quote": null
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Treat AI like a new employee: give it context, branding and examples, and encode your deep process knowledge into the workflow.",
+   "theme": "automation_ai",
+   "quote": {
+    "text": "I think you need to treat AI like an employee.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8670,
+    "approx_timestamp_s": 442
+   }
+  },
+  {
+   "lesson": "Workflows with defined steps beat open-ended agents for near-term reliable business value.",
+   "theme": "automation_ai",
+   "quote": null
+  },
+  {
+   "lesson": "Niche domain knowledge plus tooling is the moat; the value is knowing what to automate, not engineering.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "It's just a matter of like applying niche knowledge to tooling.",
+    "speaker": "Max Brodeur",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 48866,
+    "approx_timestamp_s": 2494
+   }
+  },
+  {
+   "lesson": "Getting in early on a platform ecosystem (as an expert or agency) can be a way to get ahead, but it carries platform risk.",
+   "theme": "scaling",
+   "quote": null
+  },
+  {
+   "lesson": "Each automation can be a productised service: look at any internal workflow and ask if it can be sold as a subscription report.",
+   "theme": "offer_design",
+   "quote": {
+    "text": "every single one of these flows is a business",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18,
+    "approx_timestamp_s": 0
+   }
+  },
+  {
+   "lesson": "Show the customer the outcome, not the tooling: white-label workflows behind a simple form.",
+   "theme": "offer_design",
+   "quote": null
+  },
+  {
+   "lesson": "Use cheap models for high-volume simple tasks and keep spend on reasoning for high-value steps.",
+   "theme": "finance_unit_economics",
+   "quote": null
+  },
+  {
+   "lesson": "Small teams of exceptional people with AI can move like large companies.",
+   "theme": "scaling",
+   "quote": {
+    "text": "one engineer with AI can have can do the the work of 20",
+    "speaker": "Max Brodeur",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 28208,
+    "approx_timestamp_s": 1439
+   }
+  }
+ ],
+ "evidence_quality": {
+  "rating": "C",
+  "rationale": "Product-founder interview with demos; business ideas are mostly the host's hypotheticals with few verified numbers. Gumloop's own growth and usage claims are first-hand but unverified.",
+  "promotional_conflict": "Host uses a Gumloop affiliate link (says not sponsored); guest is founder of the platform being promoted."
+ },
+ "extraction": {
+  "model": "claude-sonnet-5-5",
+  "extracted_at": "2026-10-22T01:58:11",
+  "cost_usd": 0.1913622,
+  "quote_verification": {
+   "quotes": 33,
+   "verified": 33,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

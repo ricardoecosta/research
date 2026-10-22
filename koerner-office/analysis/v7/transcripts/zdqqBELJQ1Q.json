@@ -1,0 +1,926 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "zdqqBELJQ1Q",
+  "title": "The 4 Best Rural Side Hustles for 2026",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=zdqqBELJQ1Q",
+  "upload_date": null,
+  "duration_s": 2024,
+  "view_count": null,
+  "transcript_provider": "ok",
+  "transcript_chars": 30820,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner throws a dart at a map of Texas, lands near Flatonia/Emory, and tries to start a business there with about $20, with the rule that he can't go home until he has doubled his money. After many door-to-door rejections he mows a lawn for $20 (tipped to $30), then sells $1 water outside a fair using price anchoring to reach $38. He also spots a brokerage-style opportunity: listing a rural man's old tractor and smoker online for a cut. Key takeaway: rural markets are hard, door-to-door is tough, and the most workable ideas are simple local services, selling-on-behalf for offline people, and arbitrage-style hustles. The title's '4 best rural side hustles' is not really delivered; it is an entertaining challenge video.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Host of The Koerner Office, running the challenge"
+  },
+  {
+   "name": "Kyler",
+   "role": "co-host",
+   "description": "Friend from the appliance rental video who joins to help"
+  },
+  {
+   "name": "Danny Rayburn",
+   "role": "other",
+   "description": "Flatonia local with puppies, a tractor and a smoker to sell"
+  },
+  {
+   "name": "Leah",
+   "role": "other",
+   "description": "Customer who paid for the lawn mowing"
+  }
+ ],
+ "format": "case_study_profile",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Door-to-door lawn mowing / yard work",
+   "one_liner": "Offer to mow lawns and do yard jobs door to door in a rural area.",
+   "category": "home_service",
+   "business_model": "per-job service fee",
+   "customer": "Rural/suburban homeowners",
+   "problem": "Homeowners don't want to mow or do yard work",
+   "offer": "Mow lawn, weed eat, gutters, pressure washing, windows for cash",
+   "pricing": {
+    "model": "per job",
+    "price_points": [
+     {
+      "amount": 20,
+      "amount_max": 30,
+      "currency": "USD",
+      "unit": "per job",
+      "label": "Lawn mow, tipped to $30"
+     },
+     {
+      "amount": 10,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per job",
+      "label": "Initial offer to a woman mowing her own lawn"
+     }
+    ],
+    "notes": "Customer tipped 50%"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "door_to_door_in_person",
+     "details": "Knocked many doors asking about gutters, weed eating, pressure washing; most said no; one yes after offering $20 to someone mid-mow. Leads with a story ('I threw a dart at a map').",
+     "quote": {
+      "text": "All it takes is one yes.",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 100,
+      "approx_timestamp_s": 7
+     }
+    },
+    {
+     "channel": "marketplace_platform",
+     "details": "Posted pressure-washing photo on Facebook Marketplace disguised so it wouldn't be rejected as a service; no results reported.",
+     "quote": null
+    }
+   ],
+   "delivery": "Chris physically mows the lawn himself.",
+   "unit_economics_claims": [
+    "$30 for about an hour of work",
+    "Extrapolated to $60,000 a year at 40 hours a week"
+   ],
+   "tools": [
+    "Facebook Marketplace",
+    "Zillow"
+   ],
+   "startup_cost": "Mower and tools supplied by the customer in this case; otherwise not stated",
+   "time_to_first_revenue": "About a day of door knocking, around mid-afternoon",
+   "automation": {
+    "acquisition": {
+     "score_e": 0,
+     "how": "Door-to-door in-person sales; no software route to this."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "Agreed verbally on the doorstep."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical mowing."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Cash/Venmo; invoicing could be automated."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Minimal; mostly handled by a human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Works in the UK, but door-to-door soliciting is allowed with less friction than cold messaging; insurance and local norms apply. Rural scale is more limited."
+   },
+   "risks": [
+    "High rejection rate",
+    "Physical labour; not automatable",
+    "Rural areas have few customers",
+    "Safety and trespassing signs"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "30 bucks. 30 bucks for what? An hour's worth of work? You do that 40 hours a week, that's $60,000 a year working for yourself.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 18173,
+     "approx_timestamp_s": 1285
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Sell-on-behalf listing service for offline sellers",
+   "one_liner": "List rural people's unwanted items (tractor, smoker, puppies) online and take a 10% cut or the excess over their asking price.",
+   "category": "arbitrage_reselling",
+   "business_model": "commission (10% or amount above seller's ask)",
+   "customer": "Older rural owners who don't use computers and have items to sell",
+   "problem": "They have items worth money but can't use the internet to sell them",
+   "offer": "Photograph and list items on Facebook Marketplace, find buyers, split proceeds",
+   "pricing": {
+    "model": "commission or spread",
+    "price_points": [
+     {
+      "amount": 10,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "percent of sale",
+      "label": "Proposed commission"
+     }
+    ],
+    "notes": "Alternatively buy at seller's price and keep the spread, e.g. smoker for $400, resale value claimed $2,000-4,000 after restoration"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "door_to_door_in_person",
+     "details": "Found Danny by knocking doors and asking about tasks; he mentioned a tractor ($500 ask) and smoker ($400 ask).",
+     "quote": null
+    },
+    {
+     "channel": "marketplace_platform",
+     "details": "Resale via Facebook Marketplace listings.",
+     "quote": null
+    }
+   ],
+   "delivery": "Photograph items, write listings, handle buyers, and possibly collect and restore items; part two was teased but not shown.",
+   "unit_economics_claims": [
+    "Smoker buy price $400, resale potentially $2,000-4,000",
+    "Tractor asked $500"
+   ],
+   "tools": [
+    "Facebook Marketplace"
+   ],
+   "startup_cost": "Low; $400 if buying the smoker outright",
+   "time_to_first_revenue": "Not stated; outcome deferred to part two",
+   "automation": {
+    "acquisition": {
+     "score_e": 0,
+     "how": "Found by door knocking in person."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "Verbal agreement, photos taken on site."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Listing can be tooled, but physical collection and handover need a human."
+    },
+    "billing": {
+     "score_e": 2,
+     "how": "Payment collection and splitting is manual."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Buyer enquiries can be partly automated."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Works with Facebook Marketplace, Gumtree and eBay. Trading standards and goods-ownership rules apply, and agent commission arrangements should be documented."
+   },
+   "risks": [
+    "Item value claims are speculative",
+    "Disputes with seller over proceeds",
+    "Transport and storage of large items",
+    "Restoration costs"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "if we could do that for him and take 10% or take anything over what he wants to get for the item, then it's a perfect win-win.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 20862,
+     "approx_timestamp_s": 1476
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Reselling bottled water at an event",
+   "one_liner": "Buy a 32-pack of water at retail and resell at $1 each outside a fair, undercutting the in-fair $3 price.",
+   "category": "arbitrage_reselling",
+   "business_model": "one-off product resale",
+   "customer": "Fairgoers walking in",
+   "problem": "Fair water costs $3",
+   "offer": "$1 bottled water, bundles like 3 for $3",
+   "pricing": {
+    "model": "per unit",
+    "price_points": [
+     {
+      "amount": 1,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per bottle",
+      "label": "Water price"
+     }
+    ],
+    "notes": "Price anchored against the $3 in-fair price"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "door_to_door_in_person",
+     "details": "Stood near the fair entrance with a hand-drawn sign ('the fair is a rip-off, $1 waters') and pitched passers-by, using anchoring against the $3 price.",
+     "quote": {
+      "text": "Any water? One buck. Or three for $3.",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 24074,
+      "approx_timestamp_s": 1703
+     }
+    }
+   ],
+   "delivery": "Hand over lukewarm bottles in person.",
+   "unit_economics_claims": [
+    "$5 for a 24-pack plus sign supplies; selling all 32 would give $32",
+    "Ended with $8 cash plus $30 Venmo = $38"
+   ],
+   "tools": [
+    "Dollar General",
+    "Poster board",
+    "Sharpie"
+   ],
+   "startup_cost": "About $10 on water, $2 on signs, $10 on gas",
+   "time_to_first_revenue": "Same evening, after a slow start",
+   "automation": {
+    "acquisition": {
+     "score_e": 0,
+     "how": "In-person selling."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "None needed."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical handover."
+    },
+    "billing": {
+     "score_e": 1,
+     "how": "Cash/Venmo by hand."
+    },
+    "support": {
+     "score_e": 5,
+     "how": "None needed."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 2,
+    "notes": "Selling at events in the UK usually needs street-trading permission or landowner consent, and the fair operator could object."
+   },
+   "risks": [
+    "Event may stop sellers",
+    "Low margins and volume",
+    "Cannot sell cold water"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "When in doubt, sell water.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 75,
+     "approx_timestamp_s": 5
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "Rehoming rural puppies for a cut",
+   "one_liner": "Photograph and list a local man's puppies online to find buyers/adopters and split the proceeds.",
+   "category": "arbitrage_reselling",
+   "business_model": "commission split",
+   "customer": "Rural pet owner who has unwanted puppies",
+   "problem": "Unable to sell or rehome puppies",
+   "offer": "Photos, videos and online listings to find a buyer",
+   "pricing": {
+    "model": "revenue split",
+    "price_points": [],
+    "notes": "Split not specified beyond 'split the money'; Facebook bans pet sales so it turned into free rehoming"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "facebook_groups_communities",
+     "details": "Joined local Facebook groups and posted; Instagram also tried; one woman eventually took two puppies.",
+     "quote": null
+    }
+   ],
+   "delivery": "Online posts and coordination; adopter drove to collect.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Facebook groups",
+    "Instagram",
+    "ChatGPT"
+   ],
+   "startup_cost": "None",
+   "time_to_first_revenue": "No revenue; rehoming took until after the video",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Posts can be automated but platforms ban pet sales."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "On-site photos needed."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Physical animals."
+    },
+    "billing": {
+     "score_e": 2,
+     "how": "Not applicable here."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Messaging with leads is manual."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 1,
+    "notes": "UK animal welfare law regulates commercial puppy selling, including Lucy's Law, so brokering puppies for a cut is risky."
+   },
+   "risks": [
+    "Platform bans on pet sales",
+    "Animal welfare rules",
+    "No money earned"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "So, Facebook does not allow any rehoming, selling, giving away of pets, free, paid, or otherwise.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 7071,
+     "approx_timestamp_s": 500
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "Pressure washing / gutter cleaning / window washing for homes",
+   "one_liner": "Home exterior cleaning, targeted at expensive neighbourhoods and homes for sale.",
+   "category": "home_service",
+   "business_model": "per-job service fee",
+   "customer": "Affluent homeowners and sellers with homes on the market",
+   "problem": "Dirty exteriors and gutters",
+   "offer": "Pressure washing, gutters, windows",
+   "pricing": {
+    "model": "per job",
+    "price_points": [
+     {
+      "amount": 50,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per job",
+      "label": "Example earning target mentioned"
+     }
+    ],
+    "notes": "$100 for pressure washing a driveway used as the story-less example"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "door_to_door_in_person",
+     "details": "Use Zillow to find the priciest homes and homes for sale; 'sell it before you have it' and buy a ladder afterwards.",
+     "quote": null
+    },
+    {
+     "channel": "marketplace_platform",
+     "details": "Post a photo on Facebook Marketplace worded as pressure washing.",
+     "quote": null
+    }
+   ],
+   "delivery": "Physical work performed by the owner.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Zillow",
+    "Facebook Marketplace"
+   ],
+   "startup_cost": "Ladder or equipment not stated",
+   "time_to_first_revenue": "No sale achieved",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Door knocking; marketplace listings are partial automation."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Quote by message."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical work."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Online invoice."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Scheduling can be automated."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works the same in the UK, with insurance for working at height."
+   },
+   "risks": [
+    "No customers found in this attempt",
+    "Equipment cost",
+    "Working at height"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "Another framework is find people that have homes for sale. They probably need stuff done, right?",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 13770,
+     "approx_timestamp_s": 974
+    }
+   ]
+  },
+  {
+   "local_id": "I6",
+   "name": "Landscaping for homes that already have landscaping",
+   "one_liner": "Target homeowners whose yards are already landscaped, since they value it.",
+   "category": "home_service",
+   "business_model": "per-job service",
+   "customer": "Homeowners with existing landscaping",
+   "problem": "Maintaining hedges, edging and weeds",
+   "offer": "Hedges, edging, planting, maintenance",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "not stated"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "door_to_door_in_person",
+     "details": "Choose the customer who already has landscaping, not the one without it.",
+     "quote": null
+    }
+   ],
+   "delivery": "Physical yard work.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Targeting by observation."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Quote by message."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical work."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Online invoice."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Scheduling automation."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Same in the UK."
+   },
+   "risks": [
+    "Not tested in the video"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "The customer that already has landscaping is my customer because they're probably already thinking",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 8963,
+     "approx_timestamp_s": 634
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Mowing a lawn earned $20 plus a $10 tip, $30 total, for about an hour",
+   "metric": "revenue",
+   "value": {
+    "amount": 30,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per job",
+    "label": null
+   },
+   "period": "one hour",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Look at that. 30 bucks. 30 bucks for what? An hour's worth of work?",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18160,
+    "approx_timestamp_s": 1285
+   }
+  },
+  {
+   "claim": "$30/hour for 40 hours a week equals $60,000 a year",
+   "metric": "revenue",
+   "value": {
+    "amount": 60000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per year",
+    "label": null
+   },
+   "period": "year",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "You do that 40 hours a week, that's $60,000 a year working for yourself.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18224,
+    "approx_timestamp_s": 1289
+   }
+  },
+  {
+   "claim": "Final day total of $38 from water sales plus Venmo",
+   "metric": "revenue",
+   "value": {
+    "amount": 38,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": "End of day cash"
+   },
+   "period": "one day",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "$8 plus insert screenshot here, Venmo $30. That's $38. We more than doubled our money.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25838,
+    "approx_timestamp_s": 1828
+   }
+  },
+  {
+   "claim": "Restored offset smoker could sell for about $3,000",
+   "metric": "sale_price",
+   "value": {
+    "amount": 3000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "This could literally sell after restoring it for $3,000 legitimately.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 19813,
+    "approx_timestamp_s": 1402
+   }
+  },
+  {
+   "claim": "Seller would let the smoker go for $400",
+   "metric": "price",
+   "value": {
+    "amount": 400,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": "Purchase price"
+   },
+   "period": null,
+   "claimant": "Danny Rayburn",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "After fixing it up, it's probably worth two three or four thousand dollars um and he said he'd let it go for 400.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20604,
+    "approx_timestamp_s": 1458
+   }
+  },
+  {
+   "claim": "Tractor asking price $500",
+   "metric": "price",
+   "value": {
+    "amount": 500,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Danny Rayburn",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "I'd take $500 for it.",
+    "speaker": "Danny Rayburn",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18945,
+    "approx_timestamp_s": 1340
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Lead with a story",
+   "area": "sales",
+   "steps": [
+    "Explain your 'why' (e.g. dart on a map, YouTube challenge) when approaching people",
+    "Ask for ideas or small jobs",
+    "Use it as an icebreaker"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "people buy the why, they're not necessarily buying the what.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3015,
+    "approx_timestamp_s": 213
+   }
+  },
+  {
+   "name": "Target homes for sale or high-value areas via Zillow",
+   "area": "acquisition",
+   "steps": [
+    "Open Zillow",
+    "Find the neighbourhood with the most expensive homes or listings for sale",
+    "Knock on those doors for exterior jobs"
+   ],
+   "idea_local_id": "I5",
+   "quote": null
+  },
+  {
+   "name": "Price anchoring against venue price",
+   "area": "pricing",
+   "steps": [
+    "Find the in-venue price ($3 water)",
+    "Stand outside selling for $1",
+    "Offer bundles (3 for $3)",
+    "Mention the savings to passers-by"
+   ],
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "This could be a lesson in price anchoring.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23694,
+    "approx_timestamp_s": 1676
+   }
+  },
+  {
+   "name": "Sell before you have it",
+   "area": "sales",
+   "steps": [
+    "Say yes to the job",
+    "Buy or rent the needed equipment after being hired",
+    "Ask for a deposit if cash is tight"
+   ],
+   "idea_local_id": "I5",
+   "quote": null
+  },
+  {
+   "name": "Brokerage for offline sellers",
+   "area": "operations",
+   "steps": [
+    "Find owners who don't use computers",
+    "Photograph the item",
+    "List it on Facebook Marketplace",
+    "Take 10% or anything over their ask"
+   ],
+   "idea_local_id": "I2",
+   "quote": null
+  },
+  {
+   "name": "Reward and reinvest in the first customer",
+   "area": "mindset",
+   "steps": [
+    "Return to the customer who tipped you",
+    "Give a thank-you gift"
+   ],
+   "idea_local_id": null,
+   "quote": null
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Facebook Marketplace",
+   "purpose": "Listing items and services",
+   "cost_stated": null
+  },
+  {
+   "name": "Facebook Groups",
+   "purpose": "Finding adopters for puppies",
+   "cost_stated": null
+  },
+  {
+   "name": "Zillow",
+   "purpose": "Finding expensive homes and homes for sale",
+   "cost_stated": null
+  },
+  {
+   "name": "ChatGPT",
+   "purpose": "Brainstorming puppy rehoming",
+   "cost_stated": null
+  },
+  {
+   "name": "Instagram",
+   "purpose": "Promoting puppies for adoption",
+   "cost_stated": null
+  },
+  {
+   "name": "Venmo",
+   "purpose": "Accepting payments",
+   "cost_stated": null
+  },
+  {
+   "name": "Dollar General",
+   "purpose": "Buying water cheaply",
+   "cost_stated": "$5 for 32 bottles"
+  },
+  {
+   "name": "TK Owners",
+   "purpose": "Host's paid community",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Facebook prohibits selling or rehoming pets, and services on Marketplace may be rejected.",
+   "quote": {
+    "text": "Facebook does not allow any rehoming, selling, giving away of pets, free, paid, or otherwise.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7074,
+    "approx_timestamp_s": 500
+   }
+  },
+  {
+   "warning": "Rural areas have few customers; door-to-door is among the hardest sales methods and rejection is constant.",
+   "quote": {
+    "text": "it's really hard to sell things when there aren't people to sell to.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 26993,
+    "approx_timestamp_s": 1910
+   }
+  },
+  {
+   "warning": "Some properties have signs warning of trespassers being shot.",
+   "quote": null
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Go where the people are; transactions need a critical mass of buyers, so rural markets are tough.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "We want to go where the people are, okay? That is a requisite to a transaction.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10461,
+    "approx_timestamp_s": 740
+   }
+  },
+  {
+   "lesson": "Rejection is part of the numbers game; keep knocking.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "It's a numbers game, Chris.",
+    "speaker": "Kyler",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16625,
+    "approx_timestamp_s": 1176
+   }
+  },
+  {
+   "lesson": "People who already invest in their property are better customers than those who don't.",
+   "theme": "niche_selection",
+   "quote": null
+  },
+  {
+   "lesson": "Offline people with assets they can't sell online are an underserved market for brokers.",
+   "theme": "offer_design",
+   "quote": null
+  },
+  {
+   "lesson": "A story or personal why makes cold approaches more effective.",
+   "theme": "customer_acquisition",
+   "quote": null
+  },
+  {
+   "lesson": "Anchoring against a visible higher price makes a cheap offer attractive.",
+   "theme": "pricing",
+   "quote": null
+  },
+  {
+   "lesson": "Starting with tiny capital forces creativity and service-based businesses.",
+   "theme": "validation_testing",
+   "quote": null
+  },
+  {
+   "lesson": "Being introverted is not a barrier to trying sales.",
+   "theme": "mindset_execution",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "C",
+  "rationale": "An entertaining stunt/challenge with small, real, on-camera numbers but no sustained business; the 'best side hustles' title is not delivered, and the smoker/tractor outcomes are deferred. Income extrapolations are hypothetical.",
+  "promotional_conflict": "Promotes the TK Owners paid community; monetised through YouTube views."
+ },
+ "extraction": {
+  "model": "claude-sonnet-5-5",
+  "extracted_at": "2026-10-22T01:58:34",
+  "cost_usd": 0.12590220000000002,
+  "quote_verification": {
+   "quotes": 20,
+   "verified": 20,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

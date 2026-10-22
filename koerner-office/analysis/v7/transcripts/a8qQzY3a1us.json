@@ -1,0 +1,1891 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "a8qQzY3a1us",
+  "title": "I Let Strangers Pitch Me Their Business Live",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=a8qQzY3a1us",
+  "upload_date": null,
+  "duration_s": 4271,
+  "view_count": null,
+  "transcript_provider": "cached",
+  "transcript_chars": 79585,
+  "transcript_is_whisper": false
+ },
+ "summary": "The Koerner Office hosts a live pitch event in Utah. Ten strangers get 2 minutes to pitch and 10 minutes of critique from Chris Koerner, Nick and Brandon. The pitches range from an operating VA-funded massage business doing about $68k/month and a $1.5M ARR home-service marketing agency to pre-revenue ideas such as a seed cup, an NFC keychain, a containment diaper, a choose-your-path kids' letter subscription, an AI relationship app and mail-in cast iron cleaning. The hosts invested in or offered to help several, and the audience voted Go Seeds first, Pick a Path Letters second and Utah Veterans Massage third. The main takeaways are that distribution (especially paid ads and short-form video) is the recurring bottleneck, and that investors want proof of a repeatable process before funding. All numbers are unverified pitch claims.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Host of The Koerner Office; runs the live pitch event and offers small investments."
+  },
+  {
+   "name": "Nick",
+   "role": "co-host",
+   "description": "Investor with home health, hospice and medical billing operating experience; sceptical on valuation and multi-state scaling."
+  },
+  {
+   "name": "Brandon",
+   "role": "co-host",
+   "description": "Facebook ads expert and investor; owns a company competing with Goodly."
+  },
+  {
+   "name": "Aean (Ammon) Harden",
+   "role": "guest",
+   "description": "Founder, Utah Veterans Massage."
+  },
+  {
+   "name": "Cam Finley",
+   "role": "guest",
+   "description": "Founder, Go Seeds; previously sold eyeglass repair kits (SOS Optical) and runs BCOM buzzers."
+  },
+  {
+   "name": "Tom Hamilton",
+   "role": "guest",
+   "description": "Canadian founder of the NFC keychain product (heard as 'Next to Kent')."
+  },
+  {
+   "name": "Nisha and Duchar",
+   "role": "guest",
+   "description": "Founders, Secure Pocket containment brief."
+  },
+  {
+   "name": "Cameron and Jason",
+   "role": "guest",
+   "description": "Founders, Pick a Path Letters."
+  },
+  {
+   "name": "Jake Nelson",
+   "role": "guest",
+   "description": "Founder, Doghouse app."
+  },
+  {
+   "name": "Chris Prinster",
+   "role": "guest",
+   "description": "Presenter of the Cast Iron Spa idea."
+  },
+  {
+   "name": "James Lincoln",
+   "role": "guest",
+   "description": "Founder, Goodly marketing agency for home service businesses."
+  }
+ ],
+ "format": "panel_discussion",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Utah Veterans Massage",
+   "one_liner": "Licensed therapists treat veterans in small leased rooms, paid about $90 per session by the VA via TriWest under a 12-free-session benefit.",
+   "category": "local_service",
+   "business_model": "Per-session insurance reimbursement (VA via TriWest); therapists paid per session.",
+   "customer": "Veterans eligible for 12 VA-paid massage sessions; the VA refers by geographic proximity.",
+   "problem": "Veterans in pain need access to medical massage that the VA funds, and new therapists struggle to find well-paid work.",
+   "offer": "Medical and deep-tissue massage in one or two-room clinics, with billing, insurance back end and scheduling handled by the company.",
+   "pricing": {
+    "model": "VA reimbursement per session; therapist paid about $50",
+    "price_points": [
+     {
+      "amount": 90,
+      "currency": "USD",
+      "unit": "per session",
+      "label": "VA reimbursement in Utah"
+     },
+     {
+      "amount": 50,
+      "currency": "USD",
+      "unit": "per session",
+      "label": "therapist pay"
+     },
+     {
+      "amount": 89,
+      "currency": "USD",
+      "unit": "per session",
+      "label": "lowest rate across states (Medicaid rule)"
+     },
+     {
+      "amount": 109,
+      "currency": "USD",
+      "unit": "per session",
+      "label": "Texas rate (approx, 'or more')"
+     }
+    ],
+    "notes": "Rates vary by state; the founder says they never go below about $89."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "partnerships",
+     "details": "The VA (via TriWest) calls the company based on proximity to the veteran, so many small locations get referrals. No marketing spend. Getting into the network took about 8 months.",
+     "quote": {
+      "text": "we haven't spent a single dollar on marketing. The reason we have so many small office locations instead of one central is the VA will call us based on the geographic proximity to the veteran",
+      "speaker": "Aean Harden",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 7161,
+      "approx_timestamp_s": 402
+     }
+    }
+   ],
+   "delivery": "Employed or contracted therapists treat clients in leased clinics (about $500-650/month rent each); therapists rebook clients at the end of each session; staff handle billing, insurance and scheduling.",
+   "unit_economics_claims": [
+    "750 sessions/month, $68k revenue, about $20k profit",
+    "$90 collected, $50 to therapist",
+    "Leases about $500-650/month per location",
+    "Credentialing automated with AI, about 25 minutes per person"
+   ],
+   "tools": [
+    "TriWest/VA network",
+    "HIPAA-compliant scheduling app (subscription)",
+    "AI automation for credentialing and paperwork"
+   ],
+   "startup_cost": "not stated (rented a room one day a week to begin)",
+   "time_to_first_revenue": "about 8 months to get into the VA network; first rented room 18 months before the pitch",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "VA referrals are inbound and need no marketing, but credentialing each new state is a gate."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "AI-automated credentialing is claimed to take 25 minutes per therapist; client booking comes via VA referral."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Hands-on massage by a licensed therapist in a physical clinic."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Insurance back-end billing is claimed to be automated with AI and software; payer rules vary by state."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Schedulers (the founder's wife plus one) handle rebooking and queries with scheduling software."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 1,
+    "notes": "Depends on the US VA/TriWest benefit and Medicaid-style rates. The UK has no equivalent per-session funded benefit, and NHS veterans' services are commissioned differently. Massage therapy would also need UK registration and insurance."
+   },
+   "risks": [
+    "Revenue depends on a single payer (VA/TriWest)",
+    "Each state differs in licensing, credentialing and pre-authorisation, so expansion may lag",
+    "Founder admits to a 'grow, expand and then figure it out' approach",
+    "Owner-operator bottleneck; needs a COO or operations manager",
+    "Valuation ask of $2M was seen as too high"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "we did 750 sessions a month. So revenue is 68,000 and 20,000 of that about is profit.",
+     "speaker": "Aean Harden",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 2852,
+     "approx_timestamp_s": 160
+    },
+    {
+     "text": "I'm looking for 100,000 for a 5% uh equity stake and also a partner who's taken a healthcare business multi-state ideally.",
+     "speaker": "Aean Harden",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 3122,
+     "approx_timestamp_s": 175
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Go Seeds",
+   "one_liner": "A dual-compartment disposable cup that holds sunflower seeds on one side and spit shells on the other, sold at about $5.",
+   "category": "ecommerce_physical",
+   "business_model": "One-off product sales (convenience stores, with possible reusable and branded editions and a licensing/partnership route).",
+   "customer": "Sunflower seed eaters, e.g. dads in cars, sold through gas stations and convenience stores.",
+   "problem": "Eating sunflower seeds creates a shell mess in cars and homes.",
+   "offer": "A packaged cup with seeds in one chamber and a shell compartment on the other end; possible Go Nuts variant.",
+   "pricing": {
+    "model": "One-off retail price",
+    "price_points": [
+     {
+      "amount": 5,
+      "currency": "USD",
+      "unit": "per unit",
+      "label": "target retail, 'right under $5'"
+     },
+     {
+      "amount": 3.2,
+      "currency": "USD",
+      "unit": "per pack",
+      "label": "gas station price of equivalent seeds"
+     },
+     {
+      "amount": 1.2,
+      "currency": "USD",
+      "unit": "per unit",
+      "label": "claimed cost at scale incl. seeds (transcript reads '$120')"
+     }
+    ],
+    "notes": "Priced at a premium to a standard bag of seeds."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "retail_placement",
+     "details": "Aimed at gas stations and convenience stores, where seeds are a top seller; Brandon suggested Facebook ads.",
+     "quote": {
+      "text": "Hands down, it's sunflower seeds. Next is beer. But sunflower seeds are have a great throughput.",
+      "speaker": "Cam Finley",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 18973,
+      "approx_timestamp_s": 1066
+     }
+    },
+    {
+     "channel": "paid_social",
+     "details": "Brandon offered to help with Facebook ads.",
+     "quote": null
+    }
+   ],
+   "delivery": "Manufactured and filled by a third party (not yet set up); sold through retail.",
+   "unit_economics_claims": [
+    "Cost about $1.20 per filled cup (transcript garbled)",
+    "Retail target under $5 vs $3.20 gas station seeds",
+    "Provisional patent"
+   ],
+   "tools": [
+    "Provisional patent"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated (pre-revenue)",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Retail placement needs relationships, though paid social could run with agents."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Supplier setup is human-led."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Physical manufacturing, filling and logistics through third parties."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Wholesale invoicing or e-commerce checkout."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Simple product with low support needs."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Product works in UK convenience stores, though seed consumption is lower than in the US. Food packaging rules and a UK patent filing would apply."
+   },
+   "risks": [
+    "Manufacturing at a $1.20 cost with seeds is unverified",
+    "Low barriers to copying; patent only provisional",
+    "No ask and no revenue",
+    "Convenience-store retail margins and slotting"
+   ],
+   "is_primary": false,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "You can get a pack of seeds, the same amount of seeds. You can get it for $3.20 at a gas station.",
+     "speaker": "Cam Finley",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 15926,
+     "approx_timestamp_s": 895
+    },
+    {
+     "text": "I'm asking for a strategic partnership. That's what I want.",
+     "speaker": "Cam Finley",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 19454,
+     "approx_timestamp_s": 1093
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "NFC lost-person keychains (Next to Kin)",
+   "one_liner": "Cheap 3D-printed NFC tags that anyone can tap to call a lost child or dementia patient's contact, sold to institutions and events at about $5 each.",
+   "category": "ecommerce_physical",
+   "business_model": "B2B bulk sales to institutions and events; possible recurring add-on suggested by hosts.",
+   "customer": "Event organisers, football clubs, dementia-care facilities and charities such as the Alzheimer Society.",
+   "problem": "Children and people with dementia or autism get lost and strangers cannot easily help.",
+   "offer": "A free-to-use NFC tag with no app, battery, subscription or tracking, tapped by any phone to reach a caregiver.",
+   "pricing": {
+    "model": "Per-unit sales to institutions, minimum 5,000-unit orders",
+    "price_points": [
+     {
+      "amount": 5,
+      "currency": "USD",
+      "unit": "per unit",
+      "label": "institutional price"
+     },
+     {
+      "amount": 0.4,
+      "currency": "USD",
+      "unit": "per unit",
+      "label": "hard cost (30-40 cents)"
+     },
+     {
+      "amount": 1,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "host-suggested optional subscription"
+     }
+    ],
+    "notes": "The founder hands them out free to the public as advertising."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "partnerships",
+     "details": "Events, sports teams (Saskatchewan Roughriders) and institutions; national news coverage in Canada; Alzheimer Society of Ontario picking it up.",
+     "quote": {
+      "text": "This has gotten really big traction up in Canada. It's made national news.",
+      "speaker": "Tom Hamilton",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 24238,
+      "approx_timestamp_s": 1362
+     }
+    }
+   ],
+   "delivery": "3D-printed tags with NFC chips made by the founder, shipped in large orders.",
+   "unit_economics_claims": [
+    "About $10k/month revenue",
+    "30-40 cents to make, $5 each to institutions",
+    "$250k-$500k orders pending"
+   ],
+   "tools": [
+    "3D printer",
+    "NFC chips"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated (about a year since the idea)",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Large institutional and event deals need relationship-building."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Bulk orders are simple, though custom shapes are human work."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "3D printing and shipping are physical work."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Invoices on large orders."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "No app; support is minimal."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "NFC tags and event tie-ins work in the UK. Charity and care-home sales and GDPR on the linked data need care; UK has similar missing-person charities."
+   },
+   "risks": [
+    "Behaviour-change product with institutional sales cycles",
+    "Competes with AirTags in buyers' minds",
+    "Pending orders not yet closed",
+    "Visa motive: founder wants an E2 visa"
+   ],
+   "is_primary": false,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "right now I'm making about 10 grand a month",
+     "speaker": "Tom Hamilton",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 24590,
+     "approx_timestamp_s": 1382
+    },
+    {
+     "text": "They're $5 each. The hard cost is somewhere about 40 cents each to make.",
+     "speaker": "Tom Hamilton",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 27653,
+     "approx_timestamp_s": 1554
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "Secure Pocket containment adult brief",
+   "one_liner": "A patented double-layer adult diaper with a pocket for heavy output; currently hand-sewn and pre-revenue, seeking $300k via SAFE.",
+   "category": "manufacturing",
+   "business_model": "One-off product sales or licensing to large manufacturers/distributors.",
+   "customer": "Care facilities, caregivers and heavy-incontinence users.",
+   "problem": "Standard adult diapers leak with heavy output.",
+   "offer": "A double-layer brief with a containment pocket.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "No pricing disclosed."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "partnerships",
+     "details": "Lead investor in healthcare; Nick suggested licensing or selling to a large manufacturer.",
+     "quote": null
+    }
+   ],
+   "delivery": "Hand-sewn so far; a facility was found to produce at scale, though machines cost $1M-3M.",
+   "unit_economics_claims": [
+    "Asks $300k via SAFE, $65k for a machine"
+   ],
+   "tools": [
+    "Patent (issued)"
+   ],
+   "startup_cost": "$300k ask, $65k for the machine",
+   "time_to_first_revenue": "not stated (soft launched two weeks earlier)",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Selling into care facilities and distributors is relationship-led."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Distributor contracts are human."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical manufacturing."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Standard invoicing."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Product-level support is limited."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Works in the UK with medical device and hygiene compliance; the patent is US."
+   },
+   "risks": [
+    "No survey of demand",
+    "Two businesses at once (design and manufacturing)",
+    "Dominant incumbents with machines costing millions",
+    "Hand-sewn only"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "We do not. We are pre-revenue.",
+     "speaker": "Nisha",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 34296,
+     "approx_timestamp_s": 1927
+    },
+    {
+     "text": "300,000 in total 65,000 for the machine this time.",
+     "speaker": "Nisha",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 36490,
+     "approx_timestamp_s": 2051
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "Pick a Path Letters",
+   "one_liner": "Subscription of illustrated story letters mailed twice a month where the child chooses what happens next.",
+   "category": "digital_products",
+   "business_model": "Subscription and prepaid story bundles, with physical mail fulfilment.",
+   "customer": "Parents and gift-givers of children.",
+   "problem": "Kids love mail and parents want reading and critical-thinking activities.",
+   "offer": "One chapter per letter, with a choice at the end, coloring pages and an optional gift bundle with a book.",
+   "pricing": {
+    "model": "Monthly subscription or prepaid stories",
+    "price_points": [
+     {
+      "amount": 14.99,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "monthly"
+     },
+     {
+      "amount": 100,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "six-month story gift bundle"
+     },
+     {
+      "amount": 75,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "story only"
+     },
+     {
+      "amount": 150,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "12-month story (140-150)"
+     }
+    ],
+    "notes": "Competitors are about $14.99."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "paid_social",
+     "details": "Meta ads test spending about $1,000-1,500 to get 10 customers; the founders say they lack social media and ads skills.",
+     "quote": {
+      "text": "I think we spent a,000 or 1,500 bucks, and that's how we got 10 customers",
+      "speaker": "Cameron",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 46840,
+      "approx_timestamp_s": 2632
+     }
+    }
+   ],
+   "delivery": "Professionally written and illustrated letters mailed; choices collected through texts or a QR page automated via Go High Level.",
+   "unit_economics_claims": [
+    "23 subscribers",
+    "75-80% margins on the bundle, about 85% monthly (mostly shipping)",
+    "Lost two customers"
+   ],
+   "tools": [
+    "Go High Level",
+    "Meta Ads",
+    "QR code"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "first letters sent in January (about a year before)",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Paid ads and organic video can be driven by agents."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Go High Level automation handles sign-up and reminders."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Printing and posting are physical but can use print-on-demand and mail houses."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Subscription billing."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Low-volume parent queries."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "UK has a similar subscription kids' mail market; Royal Mail postage and children's data need GDPR care."
+   },
+   "risks": [
+    "Customer acquisition unsolved; only 23 subscribers after a year",
+    "Content cost (authors, illustrators)",
+    "No AI-written content promise limits scalability"
+   ],
+   "is_primary": false,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "we're using go high level right now for our CRM automation",
+     "speaker": "Cameron",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 43016,
+     "approx_timestamp_s": 2417
+    },
+    {
+     "text": "So for the bundle our margins are about what was it 80 75 to 80%.",
+     "speaker": "Cameron",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 43272,
+     "approx_timestamp_s": 2432
+    }
+   ]
+  },
+  {
+   "local_id": "I6",
+   "name": "Doghouse app",
+   "one_liner": "AI relationship assistant for husbands that nudges and drafts thoughtful messages based on knowledge of the partner.",
+   "category": "saas_software",
+   "business_model": "Monthly subscription",
+   "customer": "Married or committed men",
+   "problem": "Men forget to plan, remember or act on important moments for their partner.",
+   "offer": "A web app (built on Base44) with an AI coach that knows the partner's preferences and sends nudges.",
+   "pricing": {
+    "model": "Subscription",
+    "price_points": [
+     {
+      "amount": 20,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "current setting"
+     },
+     {
+      "amount": 9.99,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "host suggested"
+     },
+     {
+      "amount": 4.99,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "host suggested"
+     }
+    ],
+    "notes": "Cost depends on LLM token usage."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "paid_social",
+     "details": "Brandon suggests copying Facebook ads of a men's dance-teaching company via the Meta ads library.",
+     "quote": null
+    }
+   ],
+   "delivery": "Web app using LLMs, with data onboarding via Gmail/Outlook and texts.",
+   "unit_economics_claims": [
+    "$20/month price, no users yet"
+   ],
+   "tools": [
+    "Base44",
+    "Claude/other LLMs"
+   ],
+   "startup_cost": "not stated (Base44 credits)",
+   "time_to_first_revenue": "not stated (pre-revenue)",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Ads and content can be automated."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Data integration is hard."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "LLM-based software."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Stripe subscription."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "AI support."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works the same; GDPR consent for reading messages is required."
+   },
+   "risks": [
+    "No users",
+    "Easy to replicate",
+    "Onboarding data friction",
+    "High token costs",
+    "Distribution"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "I have I have no users. It's only on the web.",
+     "speaker": "Jake Nelson",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 52453,
+     "approx_timestamp_s": 2948
+    },
+    {
+     "text": "right now. It's set for $20 a month.",
+     "speaker": "Jake Nelson",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 53570,
+     "approx_timestamp_s": 3011
+    }
+   ]
+  },
+  {
+   "local_id": "I7",
+   "name": "Cast Iron Spa",
+   "one_liner": "Mail-in cast iron cleaning and re-seasoning service, steered by hosts toward a time-lapse content business.",
+   "category": "local_service",
+   "business_model": "Per-item service fee (suggested pivot to content plus product).",
+   "customer": "Cast iron owners",
+   "problem": "Cast iron is hard to clean and re-season.",
+   "offer": "Mail in cookware, receive it cleaned and seasoned.",
+   "pricing": {
+    "model": "Per item",
+    "price_points": [
+     {
+      "amount": 60,
+      "currency": "USD",
+      "unit": "per item",
+      "label": "competitor minimum"
+     }
+    ],
+    "notes": "Customer pays shipping."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "organic_social_content",
+     "details": "Before and after time-lapse videos.",
+     "quote": null
+    }
+   ],
+   "delivery": "Owner cleans by hand and ships back.",
+   "unit_economics_claims": [
+    "Competitors charge about $60",
+    "Shipping about $15 each way per Brandon"
+   ],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Short-form video can be assisted by tools."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Order forms."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Manual cleaning."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Online checkout."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Low volume."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Works in UK; Royal Mail shipping costs similar."
+   },
+   "risks": [
+    "Shipping eats margin",
+    "Pitch was unprepared",
+    "Idea only"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "shipping those is going to cost like 15 bucks each way",
+     "speaker": "Brandon",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 60870,
+     "approx_timestamp_s": 3421
+    },
+    {
+     "text": "I will invest real money in you.",
+     "speaker": "Brandon",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 65974,
+     "approx_timestamp_s": 3708
+    }
+   ]
+  },
+  {
+   "local_id": "I8",
+   "name": "Goodly",
+   "one_liner": "Marketing agency for home service businesses selling websites and Google Business Profile management at about $450/month.",
+   "category": "agency",
+   "business_model": "Monthly retainers",
+   "customer": "Owner-operator home service businesses doing $300k-$1.5M revenue.",
+   "problem": "Small home service firms need web presence and inbound leads.",
+   "offer": "Websites, Google Business Profile management, some SEO, and paid ads.",
+   "pricing": {
+    "model": "Monthly retainer",
+    "price_points": [
+     {
+      "amount": 450,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "average revenue per customer"
+     }
+    ],
+    "notes": "About $10k of MRR is paid ads."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "cold_call",
+     "details": "All customers acquired by cold calling, with SDRs overseas; remote sales not great, wants in-person office.",
+     "quote": {
+      "text": "primarily we're all cold calling. That's how we get our customers.",
+      "speaker": "James Lincoln",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 69066,
+      "approx_timestamp_s": 3882
+     }
+    }
+   ],
+   "delivery": "Team with AI agents for on-page optimisation, onboarding, Google Business Profile posts and pages.",
+   "unit_economics_claims": [
+    "$1.5M ARR",
+    "45% net margin",
+    "3% monthly churn",
+    "MRR 70k to 122k in 12 months",
+    "Ask $450k for 15%"
+   ],
+   "tools": [
+    "AI agents"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Cold calling can be partially automated, but UK TPS/CTPS rules apply; sole traders are restricted."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "AI agents for onboarding."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "AI agents handle on-page SEO and GBP tasks."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Subscription billing."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Account management human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "UK agency model works; cold calls need TPS screening and sole traders are restricted."
+   },
+   "risks": [
+    "Sales bottleneck",
+    "Net retention 78%",
+    "Cold calling labor",
+    "Competitors"
+   ],
+   "is_primary": false,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "we've grown to just about 1.5 million in annual recurring revenue on a $450 average revenue per customer uh per month.",
+     "speaker": "James Lincoln",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 67210,
+     "approx_timestamp_s": 3777
+    },
+    {
+     "text": "Our net margin is 45%.",
+     "speaker": "James Lincoln",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 69906,
+     "approx_timestamp_s": 3929
+    }
+   ]
+  },
+  {
+   "local_id": "I9",
+   "name": "Satisfying cleaning time-lapse content",
+   "one_liner": "Short-form before-and-after cleaning videos (Blackstone grills, gravestones, stump grinding) monetised through products.",
+   "category": "content_media",
+   "business_model": "Ads, sponsorships or cleaning products.",
+   "customer": "Viewers",
+   "problem": "Not stated",
+   "offer": "Time-lapse cleaning videos",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "organic_social_content",
+     "details": "Short-form video virality.",
+     "quote": null
+    }
+   ],
+   "delivery": "Creator films cleaning.",
+   "unit_economics_claims": [
+    "Videos get 10-100M views"
+   ],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Content distribution can be tooled."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "n/a"
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical cleaning."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Platform payouts."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Minimal."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Same."
+   },
+   "risks": [
+    "Virality uncertain"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "They'll get 100 million views, 10 million views just because it's the perfect type of content for vertical short video.",
+     "speaker": "Brandon",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 61827,
+     "approx_timestamp_s": 3475
+    }
+   ]
+  },
+  {
+   "local_id": "I10",
+   "name": "Flower Letters",
+   "one_liner": "Letter subscription business praised as a model and potential partner for Pick a Path.",
+   "category": "digital_products",
+   "business_model": "Subscription",
+   "customer": "Not stated",
+   "problem": "Not stated",
+   "offer": "Mailed letters",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "Mail",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "unknown"
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "unknown"
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "mail"
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "subscription"
+    },
+    "support": {
+     "score_e": 3,
+     "how": "unknown"
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Likely transferable."
+   },
+   "risks": [
+    "Not stated"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "their business is freaking incredible and they did it the right way",
+     "speaker": "Nick",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 40863,
+     "approx_timestamp_s": 2296
+    }
+   ]
+  },
+  {
+   "local_id": "I11",
+   "name": "Snail Supper Club",
+   "one_liner": "Monthly snail-mail subscription with passport stamps to reduce churn.",
+   "category": "digital_products",
+   "business_model": "Subscription",
+   "customer": "Not stated",
+   "problem": "Not stated",
+   "offer": "Monthly stamps in a passport",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "Mail",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "unknown"
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "unknown"
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "mail"
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "subscription"
+    },
+    "support": {
+     "score_e": 3,
+     "how": "unknown"
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Likely transferable."
+   },
+   "risks": [
+    "Not stated"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "My wife actually has a snail mail business snailsuppercclub.com",
+     "speaker": "Brandon",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 43738,
+     "approx_timestamp_s": 2458
+    }
+   ]
+  },
+  {
+   "local_id": "I12",
+   "name": "penpals.com domain monetisation",
+   "one_liner": "Owner of the penpals.com domain seeking ideas to monetise it, potentially with Pick a Path.",
+   "category": "other",
+   "business_model": "Domain partnership",
+   "customer": "Not stated",
+   "problem": "Not stated",
+   "offer": "Domain plus partnership",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "n/a",
+   "unit_economics_claims": [
+    "Domain described as mid-six-figure"
+   ],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "SEO"
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "n/a"
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "n/a"
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "n/a"
+    },
+    "support": {
+     "score_e": 3,
+     "how": "n/a"
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": ".com domain works anywhere."
+   },
+   "risks": [
+    "Never developed"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "he owns the domain name penpals.com. It's like a mid6figure domain name that he's never touched.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 44810,
+     "approx_timestamp_s": 2518
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Utah Veterans Massage did 750 sessions a month, $68k revenue and about $20k profit",
+   "metric": "revenue",
+   "value": {
+    "amount": 68000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": null
+   },
+   "period": "monthly",
+   "claimant": "Aean Harden",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "we did 750 sessions a month. So revenue is 68,000 and 20,000 of that about is profit.",
+    "speaker": "Aean Harden",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2852,
+    "approx_timestamp_s": 160
+   }
+  },
+  {
+   "claim": "Therapists paid $50 per $90 session",
+   "metric": "cost",
+   "value": {
+    "amount": 50,
+    "currency": "USD",
+    "unit": "per session",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Aean Harden",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "generally, we paid the therapist $50, which is a pretty good amount",
+    "speaker": "Aean Harden",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8268,
+    "approx_timestamp_s": 464
+   }
+  },
+  {
+   "claim": "Seeds cost about $1.20 at scale incl. seeds (transcript garbled as $120)",
+   "metric": "cost",
+   "value": {
+    "amount": 1.2,
+    "currency": "USD",
+    "unit": "per unit",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Cam Finley",
+   "first_hand": true,
+   "hypothetical": true,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "we think we can get those for$120 full of seeds",
+    "speaker": "Cam Finley",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15769,
+    "approx_timestamp_s": 886
+   }
+  },
+  {
+   "claim": "Gas station seeds cost $3.20",
+   "metric": "price",
+   "value": {
+    "amount": 3.2,
+    "currency": "USD",
+    "unit": "per pack",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Cam Finley",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "You can get it for $3.20 at a gas station.",
+    "speaker": "Cam Finley",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15979,
+    "approx_timestamp_s": 898
+   }
+  },
+  {
+   "claim": "Keychain business makes about $10k/month",
+   "metric": "revenue",
+   "value": {
+    "amount": 10000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": null
+   },
+   "period": "monthly",
+   "claimant": "Tom Hamilton",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "right now I'm making about 10 grand a month",
+    "speaker": "Tom Hamilton",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24590,
+    "approx_timestamp_s": 1382
+   }
+  },
+  {
+   "claim": "$5 to institutions, 40 cents hard cost",
+   "metric": "price",
+   "value": {
+    "amount": 5,
+    "currency": "USD",
+    "unit": "per unit",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Tom Hamilton",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "They're $5 each. The hard cost is somewhere about 40 cents each to make.",
+    "speaker": "Tom Hamilton",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 27653,
+    "approx_timestamp_s": 1554
+   }
+  },
+  {
+   "claim": "Pending orders of $250k-$500k",
+   "metric": "revenue",
+   "value": {
+    "amount": 250000,
+    "amount_max": 500000,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": "pending orders"
+   },
+   "period": null,
+   "claimant": "Tom Hamilton",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "we have about a quarter of a million to $500,000 in orders coming through pretty soon.",
+    "speaker": "Tom Hamilton",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24467,
+    "approx_timestamp_s": 1375
+   }
+  },
+  {
+   "claim": "Secure Pocket is pre-revenue and asking $300k via SAFE",
+   "metric": "valuation",
+   "value": {
+    "amount": 300000,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": "ask"
+   },
+   "period": null,
+   "claimant": "Nisha",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "300,000 in total 65,000 for the machine this time.",
+    "speaker": "Nisha",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 36490,
+    "approx_timestamp_s": 2051
+   }
+  },
+  {
+   "claim": "Pick a Path margins 75-80% on the bundle",
+   "metric": "margin",
+   "value": {
+    "amount": 75,
+    "amount_max": 80,
+    "currency": null,
+    "unit": "percent",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Cameron",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "So for the bundle our margins are about what was it 80 75 to 80%.",
+    "speaker": "Cameron",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 43272,
+    "approx_timestamp_s": 2432
+   }
+  },
+  {
+   "claim": "Monthly price $14.99, in line with competitors",
+   "metric": "price",
+   "value": {
+    "amount": 14.99,
+    "currency": "USD",
+    "unit": "per month",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Cameron",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "$14.99 um that's kind of what competitors are around",
+    "speaker": "Cameron",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 43447,
+    "approx_timestamp_s": 2442
+   }
+  },
+  {
+   "claim": "Meta ads spend $1,000-1,500 yielded 10 customers",
+   "metric": "cost",
+   "value": {
+    "amount": 1500,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": "ad test"
+   },
+   "period": null,
+   "claimant": "Cameron",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "I think we spent a,000 or 1,500 bucks, and that's how we got 10 customers",
+    "speaker": "Cameron",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 46840,
+    "approx_timestamp_s": 2632
+   }
+  },
+  {
+   "claim": "Doghouse app priced at $20/month",
+   "metric": "price",
+   "value": {
+    "amount": 20,
+    "currency": "USD",
+    "unit": "per month",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Jake Nelson",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "right now. It's set for $20 a month.",
+    "speaker": "Jake Nelson",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 53570,
+    "approx_timestamp_s": 3011
+   }
+  },
+  {
+   "claim": "Cast iron restoration charged about $60 by competitors",
+   "metric": "price",
+   "value": {
+    "amount": 60,
+    "currency": "USD",
+    "unit": "per item",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Chris Prinster",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "I've seen them charging somewhere around like $60 like the minimum point",
+    "speaker": "Chris Prinster",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 60502,
+    "approx_timestamp_s": 3400
+   }
+  },
+  {
+   "claim": "Goodly ARR $1.5M with $450 average revenue per customer",
+   "metric": "arr",
+   "value": {
+    "amount": 1500000,
+    "currency": "USD",
+    "unit": "per year",
+    "label": null
+   },
+   "period": "annual",
+   "claimant": "James Lincoln",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I8",
+   "quote": {
+    "text": "we've grown to just about 1.5 million in annual recurring revenue on a $450 average revenue per customer uh per month.",
+    "speaker": "James Lincoln",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 67210,
+    "approx_timestamp_s": 3777
+   }
+  },
+  {
+   "claim": "Goodly net margin 45%",
+   "metric": "margin",
+   "value": {
+    "amount": 45,
+    "currency": null,
+    "unit": "percent",
+    "label": null
+   },
+   "period": null,
+   "claimant": "James Lincoln",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I8",
+   "quote": {
+    "text": "Our net margin is 45%.",
+    "speaker": "James Lincoln",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 69906,
+    "approx_timestamp_s": 3929
+   }
+  },
+  {
+   "claim": "Goodly churn 3% monthly, NRR 78% at 12 months",
+   "metric": "other",
+   "value": {
+    "amount": 3,
+    "currency": null,
+    "unit": "percent per month",
+    "label": "churn"
+   },
+   "period": null,
+   "claimant": "James Lincoln",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I8",
+   "quote": {
+    "text": "3% a month. Net revenue retention is 78% at 12 months.",
+    "speaker": "James Lincoln",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 70430,
+    "approx_timestamp_s": 3958
+   }
+  },
+  {
+   "claim": "Goodly asks $450k for 15% ($3M valuation)",
+   "metric": "valuation",
+   "value": {
+    "amount": 3000000,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": "valuation"
+   },
+   "period": null,
+   "claimant": "James Lincoln",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I8",
+   "quote": {
+    "text": "the ask right now is $450,000 for 15% of the business, a $3 million valuation",
+    "speaker": "James Lincoln",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 67879,
+    "approx_timestamp_s": 3815
+   }
+  },
+  {
+   "claim": "Cleaning videos get 10-100M views",
+   "metric": "traffic",
+   "value": {
+    "amount": 10000000,
+    "amount_max": 100000000,
+    "currency": null,
+    "unit": "views",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Brandon",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I9",
+   "quote": {
+    "text": "They'll get 100 million views, 10 million views",
+    "speaker": "Brandon",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 61827,
+    "approx_timestamp_s": 3475
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Use a payer-referred niche with guaranteed volume",
+   "area": "acquisition",
+   "steps": [
+    "Find populations whose services are pre-paid by a third party (e.g. VA 12 free sessions)",
+    "Join the payer network, accept referrals by proximity",
+    "Open many small leased rooms near referrals instead of one big site"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "the VA will call us based on the geographic proximity to the veteran and so we have a lot of little ones",
+    "speaker": "Aean Harden",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7283,
+    "approx_timestamp_s": 409
+   }
+  },
+  {
+   "name": "Offload therapist admin",
+   "area": "operations",
+   "steps": [
+    "Therapists only deliver and rebook the next session",
+    "Central staff handle billing, insurance and scheduling",
+    "Use scheduling software to cut admin"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Free hand-out as advertising, sell to institutions",
+   "area": "pricing",
+   "steps": [
+    "Give tags free (30-40 cents cost)",
+    "Sell at $5 to institutions with minimum 5,000-unit orders",
+    "Optionally add a $1/month recurring option"
+   ],
+   "idea_local_id": "I3",
+   "quote": null
+  },
+  {
+   "name": "Automate customer choices with text and QR",
+   "area": "operations",
+   "steps": [
+    "Text parents reminders via Go High Level",
+    "Accept replies or a QR code web form",
+    "Use choice to select the next chapter"
+   ],
+   "idea_local_id": "I5",
+   "quote": null
+  },
+  {
+   "name": "Pay-to-scale ads",
+   "area": "acquisition",
+   "steps": [
+    "Treat ads as a learnable skill",
+    "Reinvest from $1,500 (10 customers) to larger spend",
+    "Study competitors in the Meta ads library"
+   ],
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "your next 1,500 will get 30 customers and your next will get 60",
+    "speaker": "Brandon",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 48508,
+    "approx_timestamp_s": 2726
+   }
+  },
+  {
+   "name": "Test with milestones before investing",
+   "area": "finance",
+   "steps": [
+    "Reach 50 paying customers",
+    "Churn below 15%",
+    "App store approval before raising"
+   ],
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "call it 50 paying customers with your churn under 15%",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 57566,
+    "approx_timestamp_s": 3235
+   }
+  },
+  {
+   "name": "Content-first pivot",
+   "area": "acquisition",
+   "steps": [
+    "Film time-lapse before and after videos",
+    "Post consistently on short-form platforms",
+    "Monetise with product or sponsorship once reach is proven"
+   ],
+   "idea_local_id": "I7",
+   "quote": null
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Go High Level",
+   "purpose": "CRM and automation for texts",
+   "cost_stated": null
+  },
+  {
+   "name": "Base44",
+   "purpose": "AI app builder for Doghouse",
+   "cost_stated": "credits per usage"
+  },
+  {
+   "name": "Meta Ads / Ads Library",
+   "purpose": "Paid acquisition and competitor research",
+   "cost_stated": null
+  },
+  {
+   "name": "TriWest",
+   "purpose": "VA payer network",
+   "cost_stated": null
+  },
+  {
+   "name": "Beehiiv",
+   "purpose": "Newsletter platform (sponsor)",
+   "cost_stated": null
+  },
+  {
+   "name": "3D printer / NFC chips",
+   "purpose": "Making keychains",
+   "cost_stated": "30-40 cents each"
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Expanding state by state means different licensing and credentialing and payer rules; do not just hire an ops manager and figure it out.",
+   "quote": {
+    "text": "every state's going to be different",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5934,
+    "approx_timestamp_s": 333
+   }
+  },
+  {
+   "warning": "In-home healthcare is hard; prefer clinic-based delivery.",
+   "quote": {
+    "text": "Friends don't let friends offer healthcare in the home.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9746,
+    "approx_timestamp_s": 547
+   }
+  },
+  {
+   "warning": "Do not go to investors with an idea and no plan or numbers.",
+   "quote": {
+    "text": "just have a business plan, right?",
+    "speaker": "Brandon",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 63467,
+    "approx_timestamp_s": 3567
+   }
+  },
+  {
+   "warning": "Do not invest in your own learning with outside money; show that you have tried and burned money first.",
+   "quote": {
+    "text": "I'm not trying to build the fire with your money.",
+    "speaker": "Brandon",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 73235,
+    "approx_timestamp_s": 4116
+   }
+  },
+  {
+   "warning": "Mailing heavy items can cost more than the service fee.",
+   "quote": {
+    "text": "shipping those is going to cost like 15 bucks each way",
+    "speaker": "Brandon",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 60870,
+    "approx_timestamp_s": 3421
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "A payer-guaranteed customer pool removes CAC risk but creates concentration risk.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "he's going after the VA in particular is cuz they're guaranteeing a certain number",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9287,
+    "approx_timestamp_s": 522
+   }
+  },
+  {
+   "lesson": "Changing the form factor of an everyday product can create a standout offer.",
+   "theme": "offer_design",
+   "quote": {
+    "text": "So I'm all in on a new form factor.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20243,
+    "approx_timestamp_s": 1137
+   }
+  },
+  {
+   "lesson": "Investors back the founder as much as the idea, so come prepared with specifics.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "I'm really investing in you",
+    "speaker": "Brandon",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 63611,
+    "approx_timestamp_s": 3575
+   }
+  },
+  {
+   "lesson": "Distribution is the main bottleneck for subscription and app ideas; learn paid ads yourself.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "You got to learn the ads yourself because that is how this entire business grows.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 48066,
+    "approx_timestamp_s": 2701
+   }
+  },
+  {
+   "lesson": "Profitable cash-flowing businesses may not need outside capital unless they have a proven funnel to scale.",
+   "theme": "finance_unit_economics",
+   "quote": null
+  },
+  {
+   "lesson": "Telling a story and involving family helps pitches resonate and attract help.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "I like to say sell your story.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25405,
+    "approx_timestamp_s": 1427
+   }
+  },
+  {
+   "lesson": "Low-ticket $450/month service businesses can reach $1.5M ARR with high margins if churn is spread across many customers.",
+   "theme": "scaling",
+   "quote": null
+  },
+  {
+   "lesson": "LLM-based apps need token cost control and distribution plans because they are easy to copy.",
+   "theme": "automation_ai",
+   "quote": null
+  },
+  {
+   "lesson": "Do not just consume content; start something and earn revenue.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "go start something. Go do something.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 75308,
+    "approx_timestamp_s": 4232
+   }
+  }
+ ],
+ "evidence_quality": {
+  "rating": "C",
+  "rationale": "Live pitches with mostly unverified first-hand claims (e.g. Utah Veterans Massage and Goodly give specific numbers) mixed with idea-stage pitches with no data. The format is entertainment with hosts also acting as potential investors; claims are not audited.",
+  "promotional_conflict": "Chris Koerner sells a $5/month community and a sponsor read for Beehiiv appears; hosts have investments or competing businesses (Brandon owns a Goodly competitor)."
+ },
+ "extraction": {
+  "model": "claude-sonnet-5-5",
+  "extracted_at": "2026-10-22T01:54:18",
+  "cost_usd": 0.2952002,
+  "quote_verification": {
+   "quotes": 57,
+   "verified": 57,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

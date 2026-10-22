@@ -1,0 +1,941 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "JHz6mikOPWw",
+  "title": "He Can't Code but His AI Agents Make Him $5K/Month",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=JHz6mikOPWw",
+  "upload_date": null,
+  "duration_s": 2660,
+  "view_count": null,
+  "transcript_provider": "transcribeyoutube",
+  "transcript_chars": 51525,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner interviews Vadim, an 18-year-old non-coder who vibe-coded Vugola, an all-in-one clipping, scheduling and captioning SaaS, using Claude Code, Supabase, Vercel and GitHub. He claims $5K revenue in 30 days at ~80% margin, with 267 paying users on $9/$39/$99 plans, acquired mainly via Twitter after Reddit/X outreach by an OpenClaw agent. He also describes running a small team of Hermes agents (CEO, marketing, growth, coding, support) and shares prompting tips, PostHog analytics, Paperclip, and mind-mapping for niche research. Key takeaway: a solo founder can build and run a niche SaaS with AI agents cheaply, but the numbers are self-reported and the product is still in beta.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Host of The Koerner Office"
+  },
+  {
+   "name": "Vadim",
+   "role": "guest",
+   "description": "18-year-old founder of Vugola, a non-technical vibe coder; Twitter handle partially given as Vadem_strizhes"
+  }
+ ],
+ "format": "operator_interview",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Vugola - all-in-one AI clipping, scheduling and captioning SaaS",
+   "one_liner": "Subscription web app that turns long videos into short clips, captions them and schedules posts, aimed at clippers, podcasters and marketers.",
+   "category": "saas_software",
+   "business_model": "Monthly subscription tiers with credits, plus quarterly/yearly upsells and one-off credit packs",
+   "customer": "Clippers, podcasters, streamers, entrepreneurs, affiliate marketers and smaller creators who need short-form clips",
+   "problem": "Existing clipping tools (e.g. Opus Clip) are seen as expensive, slow, and reuse the same clip moments across multiple clips, wasting credits",
+   "offer": "Clip long-form video using Gemini transcript and visual analysis (face tracking, cropping, speaker emotion), then caption and schedule natively in one tool; built to be agent-friendly",
+   "pricing": {
+    "model": "Three monthly paid tiers, no free plan; checkout upsells to quarterly plan and extra credit packs",
+    "price_points": [
+     {
+      "amount": 9,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "Starter plan"
+     },
+     {
+      "amount": 39,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "Creator plan"
+     },
+     {
+      "amount": 99,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "Agency plan"
+     }
+    ],
+    "notes": "Free plan removed around end of Feb because users farmed free credits with multiple accounts; $9 minimum acted as a filter and sales started. Popup upsell from monthly to quarterly, then custom checkout upselling credit packs; one day reached about $900 after adding upsells."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "organic_social_content",
+     "details": "Building in public on Twitter/X; purely X for the last two months, personal brand ~27,000 followers; now starting Instagram, YouTube Shorts and TikTok.",
+     "quote": {
+      "text": "purely on X in the last two months when I actually started marketing it",
+      "speaker": "Vadim",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 8695,
+      "approx_timestamp_s": 458
+     }
+    },
+    {
+     "channel": "cold_sms_dm",
+     "details": "OpenClaw marketing agent scanned Reddit, LinkedIn and X for people complaining about clipping tools or Opus Clip (e.g. during a 48-hour outage), produced a list of usernames and posts, and Vadim DMed them offering free trial. Got ~450 free users and lots of feedback. Manual DMs to individuals may breach PECR in the UK.",
+     "quote": {
+      "text": "give me a list like bullet bullet bullet their usernames the post where they're complaining so I can go and shoot them a DM",
+      "speaker": "Vadim",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 21216,
+      "approx_timestamp_s": 1117
+     }
+    },
+    {
+     "channel": "partnerships",
+     "details": "In talks with Content Rewards founder about an API/agent-friendly integration so agent clippers can use Vugola and submit clips to campaigns.",
+     "quote": null
+    }
+   ],
+   "delivery": "Software delivered via web app; clip generation runs on Gemini API credits (transcript and video analysis). Built and maintained by Vadim with Claude Code and Codex plus a team of Hermes agents.",
+   "unit_economics_claims": [
+    "$5,000 revenue in last 30 days",
+    "80% profit margin claimed",
+    "267 paying users",
+    "10,000+ clips generated",
+    "~$400-600/month spent on AI coding and agent subscriptions",
+    "one-day revenue spike ~$900 after upsells"
+   ],
+   "tools": [
+    "Claude Code",
+    "Codex",
+    "Lovable",
+    "Supabase",
+    "Vercel",
+    "GitHub",
+    "Gemini API",
+    "Stripe",
+    "PostHog",
+    "OpenClaw",
+    "Hermes Agent",
+    "Chrome DevTools MCP",
+    "Paperclip",
+    "Miro",
+    "Twitter/X"
+   ],
+   "startup_cost": "Not stated explicitly; ongoing Claude Max about $200/month plus a second Codex plan (~$200/month), agents ~$400-600/month total; spent ~$500 of Lovable credits in 4 days early on",
+   "time_to_first_revenue": "Started building Oct/Nov; first sale around Feb 2 (about 3-4 months); first full month (March) about $5,000",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Twitter content is human-led. Agent-found social posts and manual DMs are cold outreach that is risky under PECR for individuals; inbound channels (SEO, app listings, paid ads, content) could be automated."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Self-serve SaaS signup and Stripe checkout; he admits no onboarding or offboarding flows were set up initially, but they can be built in-app with agents."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Clips are produced by software with Gemini and API credits; agents and Claude Code maintain the product with occasional human oversight."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Stripe subscriptions and upsells run unattended."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "He claims a customer support agent and PostHog monitoring via cron jobs, but quality is unverified and a human still handles escalations."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "SaaS and Stripe work the same in the UK. Cold DM outreach to individuals needs care under PECR/GDPR; handle VAT and platform terms for social scheduling."
+   },
+   "risks": [
+    "Self-reported, unverified numbers; product in beta",
+    "Competes with Opus Clip, which raised $50M",
+    "Churn typically in 1-3 months; no conversion/retention data set up early",
+    "Heavy dependence on Gemini API costs and credit pricing; margins could erode",
+    "Reliance on Twitter alone as a channel",
+    "Platform API/policy changes for scheduling and clipping",
+    "Frequent free-credit abuse before the paywall"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "in the last 30 days I made $5,000. So in the last 30 days I made 5K as like no coding experience",
+     "speaker": "Vadim",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 7294,
+     "approx_timestamp_s": 384
+    },
+    {
+     "text": "I have three three paid tiers. So, first is like a $9 plan and then it's a $39 plan and it's a $99 plan.",
+     "speaker": "Vadim",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 8964,
+     "approx_timestamp_s": 472
+    },
+    {
+     "text": "I'm going to make the $9 plan like minimum and that's going to filter people and I'm actually going to see if people actually want to use my software.",
+     "speaker": "Vadim",
+     "match_score": 96.6,
+     "verified": true,
+     "char_offset": 23098,
+     "approx_timestamp_s": 1216
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Agentic clipper integration with Content Rewards",
+   "one_liner": "Let AI agents act as clippers by finding campaigns, clipping, scheduling and submitting through an API for payout per thousand views.",
+   "category": "ai_automation",
+   "business_model": "Clipper pay per thousand views via campaign platforms; Vugola would provide agent-ready tooling",
+   "customer": "Clipping campaign platforms (Content Rewards, Whop) and agent-using clippers",
+   "problem": "Clipping workflows are manual: find campaign, locate source video, clip, edit, post, and submit links",
+   "offer": "Agent-ready API or skill so an agent runs the full clip-schedule-submit loop",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "Clippers earn about $0.10-$1 per thousand views per speaker's examples"
+   },
+   "acquisition_channels": [
+    {
+     "channel": "partnerships",
+     "details": "Messaged the Content Rewards founder on Twitter and is in talks about an API for agents.",
+     "quote": null
+    }
+   ],
+   "delivery": "Agents perform the clipping workflow via Vugola; submission to platforms via API",
+   "unit_economics_claims": [
+    "Clippers paid roughly 10 cents, 30 cents or a dollar per thousand views"
+   ],
+   "tools": [
+    "Vugola",
+    "Content Rewards",
+    "Whop",
+    "Hermes Agent"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "B2B partnership outreach is largely human; the agent supply side could come from platforms."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "API keys and docs could be self-serve."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "End-to-end agent workflow is plausible, subject to platform rules on automated posting."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Platform payouts and subscription billing are automated."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Disputes and bans on views or campaigns need humans."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Mostly platform-dependent and works from the UK; check terms about automated accounts and fake-engagement rules."
+   },
+   "risks": [
+    "Only at idea/talks stage",
+    "Platforms may ban automated or bot-run accounts",
+    "Payout rules may require human clippers"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "the future of clipping is not going to be like human clippers. It's literally going to be agent clippers clipping for you.",
+     "speaker": "Vadim",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 28137,
+     "approx_timestamp_s": 1482
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Agentic automated lead generation service",
+   "one_liner": "Agent with a daily cron job that finds leads, messages them and follows up, suggested as a niche to build.",
+   "category": "data_leads",
+   "business_model": "not stated",
+   "customer": "Companies or niche markets needing leads",
+   "problem": "Lead generation is manual",
+   "offer": "Agentic workflow that finds, messages and follows up with leads daily",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "Agent with cron job",
+   "unit_economics_claims": [],
+   "tools": [
+    "cron jobs",
+    "agents"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Automated messaging to individuals is restricted by PECR."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Could be self-serve."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Agents can do lead finding and follow-up."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Subscription billing."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Agent-handled with some human checks."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Automated outreach limited by PECR/GDPR for individuals and sole traders; cold email to limited companies is allowed."
+   },
+   "risks": [
+    "Spam and legal issues",
+    "Platform terms against automation"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": []
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Made $5,000 in the last 30 days",
+   "metric": "revenue",
+   "value": {
+    "amount": 5000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per 30 days",
+    "label": null
+   },
+   "period": "last 30 days (March)",
+   "claimant": "Vadim",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "in the last 30 days I made $5,000.",
+    "speaker": "Vadim",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 0,
+    "approx_timestamp_s": 0
+   }
+  },
+  {
+   "claim": "80% profit margin on Vugola",
+   "metric": "margin",
+   "value": {
+    "amount": 80,
+    "amount_max": null,
+    "currency": null,
+    "unit": "percent",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Vadim",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "85 80% profit margins.",
+    "speaker": "Vadim",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18727,
+    "approx_timestamp_s": 986
+   }
+  },
+  {
+   "claim": "267 paying users",
+   "metric": "customers",
+   "value": {
+    "amount": 267,
+    "amount_max": null,
+    "currency": null,
+    "unit": "paying users",
+    "label": null
+   },
+   "period": "current",
+   "claimant": "Vadim",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "right now we have like 267 paying users right now.",
+    "speaker": "Vadim",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21720,
+    "approx_timestamp_s": 1144
+   }
+  },
+  {
+   "claim": "About $900 in one day after adding upsells",
+   "metric": "revenue",
+   "value": {
+    "amount": 900,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per day",
+    "label": null
+   },
+   "period": "one day",
+   "claimant": "Vadim",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "one day I made a like like 900 bucks just like in one day after I made like the upselling perks and features",
+    "speaker": "Vadim",
+    "match_score": 95.4,
+    "verified": true,
+    "char_offset": 10667,
+    "approx_timestamp_s": 562
+   }
+  },
+  {
+   "claim": "Agents spend roughly $400-600 per month for coding and agent subscriptions",
+   "metric": "cost",
+   "value": {
+    "amount": 400,
+    "amount_max": 600,
+    "currency": "USD",
+    "unit": "per month",
+    "label": null
+   },
+   "period": "monthly",
+   "claimant": "Vadim",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "all for like 200 bucks a month 400 bucks a month like everything for my own behalf",
+    "speaker": "Vadim",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 33648,
+    "approx_timestamp_s": 1772
+   }
+  },
+  {
+   "claim": "Agent work equals a $50-70K per year human job for one department",
+   "metric": "other",
+   "value": {
+    "amount": 50000,
+    "amount_max": 70000,
+    "currency": "USD",
+    "unit": "per year",
+    "label": "equivalent salary"
+   },
+   "period": "yearly",
+   "claimant": "Vadim",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "this is easily like a 50 60k 70k a year job just for like one department of bugola",
+    "speaker": "Vadim",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 33504,
+    "approx_timestamp_s": 1765
+   }
+  },
+  {
+   "claim": "Claude Max $200 plan allegedly gives about $15,000 of token value",
+   "metric": "other",
+   "value": {
+    "amount": 15000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per month of tokens",
+    "label": null
+   },
+   "period": "monthly",
+   "claimant": "Vadim",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "when you buy the $200 a month plan, they're giving you like $15,000 worth of actual credits and tokens",
+    "speaker": "Vadim",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 34561,
+    "approx_timestamp_s": 1820
+   }
+  },
+  {
+   "claim": "Over 10,000 clips generated",
+   "metric": "customers",
+   "value": {
+    "amount": 10000,
+    "amount_max": null,
+    "currency": null,
+    "unit": "clips",
+    "label": null
+   },
+   "period": "to date",
+   "claimant": "Vadim",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "We've generated I think over like 10,000 plus clips",
+    "speaker": "Vadim",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7040,
+    "approx_timestamp_s": 370
+   }
+  },
+  {
+   "claim": "Opus Clip raised $50 million",
+   "metric": "other",
+   "value": {
+    "amount": 50000000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "raised",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Vadim",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "The thing with Opus, they raised $50 million.",
+    "speaker": "Vadim",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 27025,
+    "approx_timestamp_s": 1423
+   }
+  },
+  {
+   "claim": "Wasted about $500 of Lovable credits in 4 days",
+   "metric": "cost",
+   "value": {
+    "amount": 500,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": null
+   },
+   "period": "4 days",
+   "claimant": "Vadim",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I spent like $500 of the monthly credits in the span of 4 days.",
+    "speaker": "Vadim",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12155,
+    "approx_timestamp_s": 640
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Replace the free plan with a $9 minimum paid plan",
+   "area": "pricing",
+   "steps": [
+    "Launch with a free plan to gather feedback",
+    "Notice credit abuse from multiple free accounts and almost no paid conversions",
+    "Remove the free plan and set a $9/month minimum",
+    "Use the price as a filter for real users; sales started right after"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I'm not going to have any free plans I'm going to make like the $9 plan like minimum",
+    "speaker": "Vadim",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23059,
+    "approx_timestamp_s": 1214
+   }
+  },
+  {
+   "name": "Stack upsells at checkout",
+   "area": "pricing",
+   "steps": [
+    "Offer monthly and yearly plans",
+    "When a user clicks monthly, show a popup selling a quarterly plan",
+    "After plan selection, send to a custom checkout page that upsells a one-off pack of extra credits",
+    "Aim to extract more revenue before typical 1-3 month churn"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "you want to keep upselling them like better better deals maximizing how much revenue you can take",
+    "speaker": "Vadim",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10094,
+    "approx_timestamp_s": 531
+   }
+  },
+  {
+   "name": "Agent-driven social listening for early users",
+   "area": "acquisition",
+   "steps": [
+    "Build a marketing agent with keywords tied to the niche",
+    "Scan Reddit, LinkedIn and X for complaints about competitors",
+    "Have it list usernames and links to the posts",
+    "DM those users offering a free trial and collect feedback",
+    "Check UK PECR rules before copying this for individuals"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "look for users complaining about Opus Clip because even Opus Clip back in the day they had like a 48 hour outage",
+    "speaker": "Vadim",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21055,
+    "approx_timestamp_s": 1109
+   }
+  },
+  {
+   "name": "Competitor review mining with a browser agent",
+   "area": "product",
+   "steps": [
+    "Test all competitors yourself",
+    "Have an agent with Chrome DevTools MCP open tabs, screenshot and click through products",
+    "Read customer reviews for complaints (price, slow processing, duplicate clips)",
+    "Aim to make your product about 10% better and niche down to smaller creators"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "The 'let them cook' autonomy skill",
+   "area": "operations",
+   "steps": [
+    "Give agents the tools and a dummy account logins they need",
+    "Write a custom skill telling the agent to finish tasks no matter what and self-improve on blockers",
+    "Only ping the human when the task is done or help is truly needed",
+    "Ask the agent what MCP servers and API keys it needs to be autonomous"
+   ],
+   "idea_local_id": null,
+   "quote": {
+    "text": "you work on it no matter what, you do not bug me at all until you like figure it out",
+    "speaker": "Vadim",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 40462,
+    "approx_timestamp_s": 2131
+   }
+  },
+  {
+   "name": "Reverse prompting and rich context",
+   "area": "product",
+   "steps": [
+    "Tell the agent your goals and ask it to ask you questions back",
+    "Keep notes on designs you like and screenshot them for the AI",
+    "Be specific rather than saying 'copy xyz.com'",
+    "Treat bad AI output as a context problem"
+   ],
+   "idea_local_id": null,
+   "quote": {
+    "text": "you want it to ask you questions back",
+    "speaker": "Vadim",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 41519,
+    "approx_timestamp_s": 2187
+   }
+  },
+  {
+   "name": "Set up PostHog event tracking via agent",
+   "area": "product",
+   "steps": [
+    "Create a free PostHog account and get an API key",
+    "Have the agent embed the code in the app",
+    "Brainstorm events with the agent: signup, first clip, first download, first post, first caption, cancel",
+    "Track the whole user journey and conversion from the start"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Niche research with mind mapping",
+   "area": "acquisition",
+   "steps": [
+    "Spend one to two weeks researching a market yourself",
+    "Understand competitors and where the future is headed",
+    "Mind-map (e.g. Miro) how ideas connect, e.g. automated leads to agentic leads",
+    "Become the expert in the niche"
+   ],
+   "idea_local_id": null,
+   "quote": null
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Claude Code",
+   "purpose": "Vibe coding the whole app",
+   "cost_stated": "$200/month Max plan (cheaper on web than mobile app, which was ~$250)"
+  },
+  {
+   "name": "Codex (OpenAI)",
+   "purpose": "Backup coding agent when Claude limits run out",
+   "cost_stated": "$200 plan"
+  },
+  {
+   "name": "Lovable",
+   "purpose": "Initial vibe coding attempt; not recommended",
+   "cost_stated": "~$500 credits in 4 days"
+  },
+  {
+   "name": "Supabase",
+   "purpose": "Backend database",
+   "cost_stated": null
+  },
+  {
+   "name": "Vercel",
+   "purpose": "Hosting",
+   "cost_stated": null
+  },
+  {
+   "name": "GitHub",
+   "purpose": "Code storage",
+   "cost_stated": null
+  },
+  {
+   "name": "Gemini API",
+   "purpose": "Transcript and visual video analysis for clip selection",
+   "cost_stated": "API credits (cost not stated)"
+  },
+  {
+   "name": "Stripe",
+   "purpose": "Payments",
+   "cost_stated": null
+  },
+  {
+   "name": "PostHog",
+   "purpose": "Product analytics and user-journey events",
+   "cost_stated": "free plan used"
+  },
+  {
+   "name": "OpenClaw",
+   "purpose": "Initial agent; marketing agent for Reddit/X/LinkedIn scanning",
+   "cost_stated": null
+  },
+  {
+   "name": "Hermes Agent",
+   "purpose": "Agent framework with built-in memory and 40+ skills; CEO, marketing, growth, coding and support agents",
+   "cost_stated": null
+  },
+  {
+   "name": "Chrome DevTools MCP",
+   "purpose": "Lets agents open tabs, screenshot and click through sites",
+   "cost_stated": null
+  },
+  {
+   "name": "Paperclip",
+   "purpose": "Open-source orchestration of agent org (CEO, CMO, CTO agents)",
+   "cost_stated": "open source"
+  },
+  {
+   "name": "Miro",
+   "purpose": "Mind mapping for market research",
+   "cost_stated": null
+  },
+  {
+   "name": "Telegram",
+   "purpose": "Monitor Hermes agent activity in real time",
+   "cost_stated": null
+  },
+  {
+   "name": "Opus Clip",
+   "purpose": "Main competitor",
+   "cost_stated": null
+  },
+  {
+   "name": "Content Rewards",
+   "purpose": "Clipping campaign platform",
+   "cost_stated": null
+  },
+  {
+   "name": "Whop",
+   "purpose": "Clipping campaign platform for tracking views and payouts",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Offering a free plan led to credit abuse via multiple free accounts and almost no paid conversions.",
+   "quote": {
+    "text": "people were making multiple free accounts",
+    "speaker": "Vadim",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20398,
+    "approx_timestamp_s": 1074
+   }
+  },
+  {
+   "warning": "He did not set up analytics, onboarding or offboarding from the start, so conversion data is missing.",
+   "quote": {
+    "text": "I did not have proper conversion and data set up from the beginning.",
+    "speaker": "Vadim",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24904,
+    "approx_timestamp_s": 1312
+   }
+  },
+  {
+   "warning": "Lovable was too expensive and produced generic 'AI slop' design; skip it and go straight to Claude Code.",
+   "quote": {
+    "text": "I would not recommend Lovable at all.",
+    "speaker": "Vadim",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11694,
+    "approx_timestamp_s": 616
+   }
+  },
+  {
+   "warning": "OpenClaw had poor memory, contradictory behaviour and little visibility into what it was doing.",
+   "quote": {
+    "text": "I found myself repeating to openclaw time and time again",
+    "speaker": "Vadim",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 31980,
+    "approx_timestamp_s": 1684
+   }
+  },
+  {
+   "warning": "Buying Claude through the mobile app costs more (about $250 vs $200) because of Apple's cut; buy on the web.",
+   "quote": null
+  },
+  {
+   "warning": "Revenue is only one month old and self-reported; churn typically occurs within 1-3 months so durability is unproven.",
+   "quote": null
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Pick one complex, durable software problem and go deep instead of shipping many throwaway apps.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "people build 10 apps and they just like quote unquote throw crap on the wall and just see whatever sticks",
+    "speaker": "Vadim",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6213,
+    "approx_timestamp_s": 327
+   }
+  },
+  {
+   "lesson": "Mine competitor reviews and test their products to find gaps (price, speed, duplicated outputs) and aim to be modestly better in a niche.",
+   "theme": "validation_testing",
+   "quote": null
+  },
+  {
+   "lesson": "A low paid entry price can validate demand better than a free plan and filters out freeloaders.",
+   "theme": "pricing",
+   "quote": null
+  },
+  {
+   "lesson": "Upsells at checkout (longer plans, credit packs) raise revenue per user given early churn.",
+   "theme": "pricing",
+   "quote": null
+  },
+  {
+   "lesson": "Non-technical founders can ship real software with a small stack (Claude Code, Supabase, Vercel, GitHub) if they supply detailed context.",
+   "theme": "automation_ai",
+   "quote": null
+  },
+  {
+   "lesson": "Bad AI output is usually a context and prompting problem; be specific, use screenshots and let the agent ask questions.",
+   "theme": "automation_ai",
+   "quote": {
+    "text": "if AI gives you something bad, it's a skill issue cuz AI can only act on the minor context",
+    "speaker": "Vadim",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7619,
+    "approx_timestamp_s": 401
+   }
+  },
+  {
+   "lesson": "Design products to be agent-usable (APIs, skills) since agents may become buyers and users of software.",
+   "theme": "automation_ai",
+   "quote": null
+  },
+  {
+   "lesson": "Set up analytics and funnel tracking early, even if launch speed matters more.",
+   "theme": "validation_testing",
+   "quote": null
+  },
+  {
+   "lesson": "Persistence through months of failed builds before first revenue (Oct to Feb) was key.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "I could have quit along the way, but I'm like, \"No, I'm going to put my head down.",
+    "speaker": "Vadim",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 45927,
+    "approx_timestamp_s": 2419
+   }
+  },
+  {
+   "lesson": "A small agent team can substitute for several salaried roles at a few hundred dollars a month, but subscription token economics may not persist.",
+   "theme": "finance_unit_economics",
+   "quote": null
+  },
+  {
+   "lesson": "Build in public on one channel (X) to get first customers before diversifying.",
+   "theme": "customer_acquisition",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "B",
+  "rationale": "First-hand operator with specific figures (revenue, tiers, user count, margin), but all are unverified, only about one month of revenue, a very young product, and margin/cost detail is vague. Conversion and churn data were admittedly missing.",
+  "promotional_conflict": "Vadim sells Vugola and promotes it; host plugs Beehiiv (sponsor) and TK Owners community."
+ },
+ "extraction": {
+  "model": "claude-sonnet-5-5",
+  "extracted_at": "2026-10-22T01:53:21",
+  "cost_usd": 0.15377819999999998,
+  "quote_verification": {
+   "quotes": 28,
+   "verified": 28,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

@@ -1,0 +1,730 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "XBAR_cbfjPQ",
+  "title": "This Simple AI Setup Makes Me $8K Every Month",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=XBAR_cbfjPQ",
+  "upload_date": null,
+  "duration_s": 884,
+  "view_count": null,
+  "transcript_provider": "cached",
+  "transcript_chars": 14710,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner demonstrates a business of AI Spanish video dubbing with lip sync for local businesses and creators. He uses OpenArt's Arena leaderboard to pick the top lip-sync model (Seedance 2.5), dubs his own talking-head clip and a farmers-market vendor clip in minutes, and lists five customer types to pitch. He sends one free-sample DM to a vendor (no reply) and claims dubbing his own channel into 13 languages earns about $8K/month extra ad revenue. Key takeaway: pick a niche, make free samples, and do high-volume outreach; the video is partly sponsored by OpenArt.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Host of The Koerner Office; dubs his own YouTube channel into 13 languages"
+  }
+ ],
+ "format": "tutorial_howto",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "AI Spanish lip-sync video dubbing for local businesses",
+   "one_liner": "Dub small businesses' existing videos into Spanish with AI lip-sync and charge per video or monthly.",
+   "category": "ai_automation",
+   "business_model": "Per-video fee or monthly retainer for dubbed videos",
+   "customer": "Local US businesses with video content: home services, dentists/med spas, real estate agents, food vendors and small restaurants",
+   "problem": "About one in seven US people speak Spanish at home but businesses have no Spanish versions of their videos; traditional dubbing or re-shoots are too costly and lips don't match.",
+   "offer": "Spanish-dubbed version of the business's existing video with matched lip movement, keeping the speaker's voice and pacing, delivered fast.",
+   "pricing": {
+    "model": "Per video (about $300) or monthly package for two videos",
+    "price_points": [
+     {
+      "amount": 300,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per video",
+      "label": "suggested per-video price"
+     },
+     {
+      "amount": 500,
+      "amount_max": 600,
+      "currency": "USD",
+      "unit": "per month per client",
+      "label": "two videos a month"
+     }
+    ],
+    "notes": "Do first ones free for testimonials, then low-to-mid hundreds per video, or charge by minute/second for longer videos. Test pricing to find equilibrium."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "cold_sms_dm",
+     "details": "Text/DM business owners with a free pre-made Spanish version of their video: 'I made a Spanish version of one of your videos for free. No catch. Want me to send it over?' then offer two a month for $500. Host's single DM got no response; expects single-digit to low-double-digit response rates.",
+     "quote": {
+      "text": "I was at the farmers market and loved it. I made a Spanish version of one of your videos for free. No catch. Want me to send it over?",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 10962,
+      "approx_timestamp_s": 679
+     }
+    },
+    {
+     "channel": "outbound_linkedin",
+     "details": "Suggests 100+ cold texts and LinkedIn messages to find clients.",
+     "quote": null
+    }
+   ],
+   "delivery": "Operator uploads the client's video into OpenArt, picks the top lip-sync model from the Arena leaderboard (Seedance 2.5), runs a simple prompt to translate and dub into Spanish keeping voice and pacing, trims to about 30 seconds for ads, and delivers the output. Generation takes about 1-2 minutes.",
+   "unit_economics_claims": [
+    "$300 per video, two videos a month gives $500-600 per client per month",
+    "10 clients at $500 a month is $5,000 a month",
+    "Task takes about 20 minutes or an afternoon",
+    "Token costs are a tiny fraction of the price charged"
+   ],
+   "tools": [
+    "OpenArt",
+    "OpenArt Arena",
+    "Seedance 2.5",
+    "Minimax H3",
+    "Meta glasses"
+   ],
+   "startup_cost": "A few tokens/credits on OpenArt; no other cost stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Cold DMs/texts to local business owners (often sole traders) are restricted under UK PECR; outreach is mostly manual and low response; inbound content or ads could help but isn't described."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Client sends a video file and approval; an agent can handle intake and forms."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "A single prompt on a hosted model does the dub; an agent could upload, trim, generate and QA, with occasional human check of the Spanish quality and lip sync."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Stripe invoices or subscriptions are easily automated."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Revision requests and quality complaints can be mostly agent-handled with human review."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 2,
+    "notes": "The pitch relies on the large US Spanish-speaking population (44M); the UK has far fewer Spanish speakers, so the local-business angle is weak. Could be adapted to other languages (Polish, Urdu, Arabic, Gujarati) or to exporting to Spanish-speaking markets. DM outreach to sole traders has PECR issues."
+   },
+   "risks": [
+    "Dubbing quality varies by model and may produce mumbled or inaccurate Spanish; host cannot verify Spanish well",
+    "Cold DM response rates are low",
+    "Dependence on a third-party platform's models and pricing",
+    "Easy to copy; low barrier to entry",
+    "Voice and likeness cloning consent for client videos",
+    "Host is OpenArt-sponsored"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "you can fix that for them for a fee in about 20 minutes and charge 300 bucks per video to do it",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 426,
+     "approx_timestamp_s": 26
+    },
+    {
+     "text": "Take the audio from this video and translate and dub it into Spanish. Keep my voice, keep the pacing, and match the lip movement to the Spanish audio.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 6076,
+     "approx_timestamp_s": 376
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Dubbing a YouTube channel into multiple languages for ad revenue",
+   "one_liner": "Use AI dubbed audio tracks on your own YouTube videos to earn ad revenue from foreign-language views.",
+   "category": "content_media",
+   "business_model": "Ad revenue from extra views in other countries",
+   "customer": "YouTube viewers in other countries (and creators with 100K+ subs as a service customer)",
+   "problem": "Videos only reach audiences who speak the original language.",
+   "offer": "Multiple audio tracks per video via YouTube's audio track feature, opening Mexico, Spain, Colombia and other markets.",
+   "pricing": {
+    "model": "Ad revenue (about $8 per thousand foreign views, claimed)",
+    "price_points": [
+     {
+      "amount": 8,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per 1,000 foreign views",
+      "label": "claimed RPM"
+     }
+    ],
+    "notes": "Also pitched as a service to YouTubers with over 100K subscribers."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "existing_audience",
+     "details": "Uses his existing channel's audience and YouTube's multi-audio-track feature.",
+     "quote": null
+    }
+   ],
+   "delivery": "Dubbing pipeline (custom app built by host, or OpenArt for a couple of clicks) produces audio tracks uploaded to YouTube.",
+   "unit_economics_claims": [
+    "About $8 RPM on foreign views",
+    "Over a million foreign views per month gives about $8,000 extra per month"
+   ],
+   "tools": [
+    "YouTube audio tracks",
+    "OpenArt",
+    "custom app"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "YouTube distributes dubbed tracks automatically to viewers by language."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "No onboarding for own channel."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Pipeline can dub and upload automatically; occasional quality checks."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "AdSense pays out."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "Comment moderation is the only support."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works the same in the UK, though it requires an existing channel with large views."
+   },
+   "risks": [
+    "Needs a large existing audience",
+    "Lip match is lacking in YouTube audio-track dubs, as shown in Arabic",
+    "RPM varies by country"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "I make like $8 per thousand views. So, I'm getting over a million views per month. So, that's $8,000 extra dollars a month",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 12408,
+     "approx_timestamp_s": 769
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Dubbing service for YouTubers with 100K+ subscribers",
+   "one_liner": "Sell creators new-country audiences via dubbed audio tracks.",
+   "category": "agency",
+   "business_model": "Service fee per video",
+   "customer": "YouTubers with over 100,000 subscribers",
+   "problem": "Existing videos reach only one language market.",
+   "offer": "Dubbed audio tracks to upload on YouTube.",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "Same AI dubbing workflow; upload as extra audio tracks.",
+   "unit_economics_claims": [],
+   "tools": [
+    "OpenArt",
+    "YouTube audio tracks"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Creator outreach by email is possible but needs care with sole traders."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Creators share files or links."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Mostly tool-driven."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Automated invoicing."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Revisions handled by agents with review."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Works in the UK with language choices adapted."
+   },
+   "risks": [
+    "Lip mismatch on audio-track-only dubs",
+    "Creator may build in-house"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "You're going to sell them whole new countries, new languages because YouTube lets you upload extra audio tracks.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 4023,
+     "approx_timestamp_s": 249
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "44 million people in the US speak Spanish at home, one in seven",
+   "metric": "customers",
+   "value": {
+    "amount": 44000000,
+    "amount_max": null,
+    "currency": null,
+    "unit": "people"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "There are 44 million people in the United States who speak Spanish at home. That's one out of every seven people.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21,
+    "approx_timestamp_s": 1
+   }
+  },
+  {
+   "claim": "Charge $300 per video",
+   "metric": "price",
+   "value": {
+    "amount": 300,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per video"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "charge 300 bucks per video to do it",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 486,
+    "approx_timestamp_s": 30
+   }
+  },
+  {
+   "claim": "10 clients gives about $6,000 a month",
+   "metric": "revenue",
+   "value": {
+    "amount": 6000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "period": "monthly",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Get 10 clients, and you're at six grand a month for something that takes you an afternoon.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2788,
+    "approx_timestamp_s": 172
+   }
+  },
+  {
+   "claim": "10 clients at $500 a month is $5,000 a month",
+   "metric": "revenue",
+   "value": {
+    "amount": 5000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "period": "monthly",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "10 clients, 500 bucks a month each is 5,000 bucks a month.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12787,
+    "approx_timestamp_s": 792
+   }
+  },
+  {
+   "claim": "Earns about $8 per 1,000 foreign-language views",
+   "metric": "revenue",
+   "value": {
+    "amount": 8,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per 1,000 views"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "I make about on my foreign views, I make like $8 per thousand views.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12375,
+    "approx_timestamp_s": 767
+   }
+  },
+  {
+   "claim": "About $8,000 extra per month from dubbed views",
+   "metric": "revenue",
+   "value": {
+    "amount": 8000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "period": "monthly",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "I'm getting over a million views per month. So, that's $8,000 extra dollars a month that I would not have gotten otherwise.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12444,
+    "approx_timestamp_s": 771
+   }
+  },
+  {
+   "claim": "Dubbing his channel into 13 languages",
+   "metric": "other",
+   "value": {
+    "amount": 13,
+    "amount_max": null,
+    "currency": null,
+    "unit": "languages"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "I've been dubbing my own channel, this channel, into 13 different languages for a while now.",
+    "speaker": "Chris Koerner",
+    "match_score": 95.5,
+    "verified": true,
+    "char_offset": 6439,
+    "approx_timestamp_s": 399
+   }
+  },
+  {
+   "claim": "DM response rate could be single digits to low double digits",
+   "metric": "response_rate",
+   "value": {
+    "amount": null,
+    "amount_max": null,
+    "currency": null,
+    "unit": "percent"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "The response rate on a DM could be in the single digits, maybe low double digits.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11383,
+    "approx_timestamp_s": 705
+   }
+  },
+  {
+   "claim": "Minimax H3 took about 600 seconds (10 minutes) to generate vs 1-2 minutes for Seedance",
+   "metric": "hours",
+   "value": {
+    "amount": 10,
+    "amount_max": null,
+    "currency": null,
+    "unit": "minutes"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "it took about 600 seconds, so 10 minutes to generate. So much slower.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7955,
+    "approx_timestamp_s": 493
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Pick the lip-sync model via the OpenArt Arena leaderboard",
+   "area": "product",
+   "steps": [
+    "Open the OpenArt Arena lip-sync leaderboard",
+    "Choose the top-ranked model (Seedance 2.5)",
+    "Upload the client video",
+    "Use the simple dub prompt keeping voice, pacing and lip match",
+    "Compare against a lower model only if needed"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Look at the board. The leaderboard. Run with the top model.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5390,
+    "approx_timestamp_s": 334
+   }
+  },
+  {
+   "name": "Free sample DM to get the first yes",
+   "area": "sales",
+   "steps": [
+    "Find a local vendor's existing video",
+    "Dub it into Spanish for free",
+    "DM: made a Spanish version, no catch, want me to send it?",
+    "Offer two videos a month for $500 if it brings customers",
+    "If no reply, send the video proactively",
+    "Repeat across 100+ messages"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "the magic of this DM is the word free. No one's going to say no to a free thing that's already made.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11167,
+    "approx_timestamp_s": 692
+   }
+  },
+  {
+   "name": "Choose a clip that shows lips and logo",
+   "area": "product",
+   "steps": [
+    "Trim the source video to about 30 seconds",
+    "Pick a segment where the mouth and logo are clearly visible",
+    "Prefer talking about the business over hard selling"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Start with free work for testimonials, then test pricing",
+   "area": "pricing",
+   "steps": [
+    "Do first videos free for testimonials",
+    "Move to low-to-mid hundreds per video",
+    "Consider per-minute or per-second pricing for long videos"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Niche down to an industry you know",
+   "area": "acquisition",
+   "steps": [
+    "Pick an industry you have worked in (pizza, restaurants, oil change)",
+    "Pitch businesses in it using your insider knowledge"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "OpenArt",
+   "purpose": "Hosted AI video generation and dubbing platform (sponsor)",
+   "cost_stated": "credits/tokens; no price stated"
+  },
+  {
+   "name": "OpenArt Arena",
+   "purpose": "Blind-test model leaderboard including lip sync",
+   "cost_stated": null
+  },
+  {
+   "name": "Seedance 2.5",
+   "purpose": "Top-ranked lip-sync model",
+   "cost_stated": null
+  },
+  {
+   "name": "Minimax H3",
+   "purpose": "Lower-ranked lip-sync model, slower and costlier in credits",
+   "cost_stated": null
+  },
+  {
+   "name": "YouTube audio tracks",
+   "purpose": "Upload multiple dubbed audio languages",
+   "cost_stated": null
+  },
+  {
+   "name": "Meta glasses",
+   "purpose": "Filming sample footage",
+   "cost_stated": null
+  },
+  {
+   "name": "Google Photos",
+   "purpose": "Storing source clip",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "A single DM won't build the business; the host's one DM got no reply, so volume outreach is needed.",
+   "quote": {
+    "text": "I did not get a response to that DM. So, I got to send more DMs.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13687,
+    "approx_timestamp_s": 848
+   }
+  },
+  {
+   "warning": "Poor lip sync looks bad and clients won't want it on their website; model choice matters.",
+   "quote": {
+    "text": "When the lips don't match the words, it looks like a kung fu movie from 1978.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2277,
+    "approx_timestamp_s": 141
+   }
+  },
+  {
+   "warning": "YouTube's audio-track dubs don't match lips, which limits performance.",
+   "quote": null
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Use a blind-test leaderboard to choose AI tools instead of testing every model yourself; it saves time and credits.",
+   "theme": "automation_ai",
+   "quote": {
+    "text": "It's a taste test with the labels ripped off.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5181,
+    "approx_timestamp_s": 321
+   }
+  },
+  {
+   "lesson": "Do a small piece of work for free first so the prospect can see the result; free removes the objection.",
+   "theme": "customer_acquisition",
+   "quote": null
+  },
+  {
+   "lesson": "With no testimonials, doing early work free to get social proof is worth it.",
+   "theme": "validation_testing",
+   "quote": null
+  },
+  {
+   "lesson": "Test pricing until you find what people will pay; don't set it once.",
+   "theme": "pricing",
+   "quote": {
+    "text": "You really want to play around with the pricing of these videos until you find equilibrium",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10297,
+    "approx_timestamp_s": 638
+   }
+  },
+  {
+   "lesson": "Pick a niche you know, since expertise helps with pitching and credibility.",
+   "theme": "niche_selection",
+   "quote": null
+  },
+  {
+   "lesson": "Spotting an underserved segment (Spanish speakers) in a market where competitors have nothing gives an easy wedge.",
+   "theme": "niche_selection",
+   "quote": null
+  },
+  {
+   "lesson": "Outreach is a numbers game; expect low response rates and keep sending.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "Shoot your shot over and over and over again.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13600,
+    "approx_timestamp_s": 843
+   }
+  },
+  {
+   "lesson": "Cheap tokens versus high-value deliverables make an asymmetric bet with low downside.",
+   "theme": "finance_unit_economics",
+   "quote": null
+  },
+  {
+   "lesson": "A skill that opens new markets for your own content can be a revenue source before selling it as a service.",
+   "theme": "scaling",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "C",
+  "rationale": "Mostly hypothetical revenue math for the service business; the only first-hand figures are his own channel's foreign-views revenue, which is unverified. The service has no real client results, and the only DM test got no response.",
+  "promotional_conflict": "OpenArt is a partner/sponsor of the show and the host uses it; also links a free doc and promotes his cold-outreach content."
+ },
+ "extraction": {
+  "model": "claude-sonnet-5-5",
+  "extracted_at": "2026-10-22T01:52:16",
+  "cost_usd": 0.11533800000000001,
+  "quote_verification": {
+   "quotes": 21,
+   "verified": 21,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

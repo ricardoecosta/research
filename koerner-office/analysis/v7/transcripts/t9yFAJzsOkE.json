@@ -1,0 +1,869 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "t9yFAJzsOkE",
+  "title": "Most Will Fail to Earn Money From AI Made Apps (Unless You Use This Strategy)",
+  "channel": "Side Hustle Nation",
+  "url": "https://www.youtube.com/watch?v=t9yFAJzsOkE",
+  "upload_date": null,
+  "duration_s": 3324,
+  "view_count": null,
+  "transcript_provider": "local_whisper_tiny",
+  "transcript_chars": 57892,
+  "transcript_is_whisper": true
+ },
+ "summary": "Side Hustle Nation host Nick Loper interviews Steve (App Masters, 17 years in app marketing, now acquiring and building vibe-coded apps). Steve's playbook: find keywords people search in the App Store (ASO), unbundle a feature from big apps, build a one-feature app named after the keyword, use a hard paywall with copied competitor pricing, and optionally run a lifetime-deal growth hack or Apple Search Ads. He claims apps earning from about $200/month to $35k MRR, and says roughly 40% of apps he launches make money. Key takeaway: distribution (ASO) matters more than features.",
+ "speakers": [
+  {
+   "name": "Nick Loper",
+   "role": "host",
+   "description": "Host of the Side Hustle Show"
+  },
+  {
+   "name": "Steve",
+   "role": "guest",
+   "description": "App Masters founder, app marketer, acquirer and builder of apps (last name not stated)"
+  }
+ ],
+ "format": "operator_interview",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Keyword-led single-feature iOS app portfolio (ASO-first)",
+   "one_liner": "Research App Store keywords, vibe-code a one-feature app named after the keyword, rank via ASO, monetise with a paywall.",
+   "category": "saas_software",
+   "business_model": "In-app subscriptions (weekly/yearly) or one-time purchases via App Store",
+   "customer": "App Store users searching for a specific utility or feature, mostly iOS",
+   "problem": "People want a simple tool for one task (converting JPEG to PDF, paraphrasing text, green noise sounds) and search the App Store for it",
+   "offer": "A narrow single-purpose app whose name is the exact target keyword, with a hard paywall and free trial",
+   "pricing": {
+    "model": "Subscription, mostly weekly for one-time-use utilities and yearly for frequent-use apps; copy competitor pricing",
+    "price_points": [
+     {
+      "amount": 6.99,
+      "currency": "USD",
+      "unit": "per week",
+      "label": "Paraphrase app most popular plan"
+     },
+     {
+      "amount": 60,
+      "currency": "USD",
+      "unit": "per year",
+      "label": "Copied from Endel-type pricing"
+     },
+     {
+      "amount": 2.99,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "Original frequency generator one-time fee"
+     },
+     {
+      "amount": 50,
+      "currency": "USD",
+      "unit": "per year",
+      "label": "Yearly plan with 7-day trial on Paraphrase"
+     }
+    ],
+    "notes": "Look at the top in-app purchases in Sensor Tower and copy the leader's most popular plan."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "app_store",
+     "details": "ASO: target keywords with traffic score about 30 and few competitors with the keyword in the title; put keyword in app name and first screenshot; ratings prompt for reviews.",
+     "quote": {
+      "text": "All you really need is a hundred downloads a day to have a six-figure business in the app space.",
+      "speaker": "Steve",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 2018,
+      "approx_timestamp_s": 119
+     }
+    },
+    {
+     "channel": "paid_search",
+     "details": "Apple Search Ads exact-match keywords and Max Conversions campaigns at $10-20/day as plan C; Google Ads for cheaper Android downloads.",
+     "quote": null
+    },
+    {
+     "channel": "seo_organic_search",
+     "details": "Google search for 'app' keywords also drives some downloads.",
+     "quote": null
+    }
+   ],
+   "delivery": "Software delivered via App Store; first version built with Claude Code in two to three days; Apple handles payments and refunds.",
+   "unit_economics_claims": [
+    "JPEG to PDF app about $500/month",
+    "Paraphrase app about $2,600/month, expected $5k",
+    "Green noise app $200-300/month",
+    "A different app at $35,000 MRR with 12% trial start and 60% trial-to-paid",
+    "About 40% of launched apps make money (10 launches for 4 winners)"
+   ],
+   "tools": [
+    "ASO Mobile",
+    "Sensor Tower",
+    "Keywords Everywhere",
+    "Claude Code",
+    "ChatGPT",
+    "Apple Search Ads",
+    "Facebook Ads Library"
+   ],
+   "startup_cost": "Not stated beyond the Apple developer account; ad spend optional ($10-20/day). Personal developer account can be used initially.",
+   "time_to_first_revenue": "JPEG to PDF app took 2-3 days to ship; a new app made $1,600 in its first month",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "ASO and in-store ads are inbound and software-driven; keyword research and metadata tuning can be agent-run with occasional approval."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Self-serve in-app onboarding and paywall with no human involved."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Software product; Claude Code can build and maintain, with occasional human review of App Store submissions."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Apple handles subscriptions, billing and refunds."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "Low volume (1-2 refund emails a week); templated reply directing users to Apple."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "App Store works the same in the UK. UK developers need an Apple developer account, VAT/tax handling and a privacy policy; individual accounts are possible but UK trader-status disclosure applies."
+   },
+   "risks": [
+    "Apple review inconsistency over hard paywalls",
+    "Users can use ChatGPT instead",
+    "Roughly 60% of launched apps fail",
+    "Keywords may not stick",
+    "Apple scrutiny of unusual download and review spikes",
+    "Apple takes 15-30%"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "First time founders focus on features, second time founders focus on distribution",
+     "speaker": "Steve",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 737,
+     "approx_timestamp_s": 43
+    },
+    {
+     "text": "The app name is literally the keyword that I'm targeting and it is that simple.",
+     "speaker": "Steve",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 20456,
+     "approx_timestamp_s": 1213
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Acquire an existing app and add a paywall and price increase",
+   "one_liner": "Buy an underpriced app that ranks, add an onboarding paywall and subscription, and lift revenue without new features.",
+   "category": "acquisition_buy_business",
+   "business_model": "Subscription revenue growth on acquired app",
+   "customer": "Existing app users",
+   "problem": "Acquired app charged a one-time fee of $2.99 with no paywall",
+   "offer": "Same features with onboarding paywall, a $60/year subscription and a hard paywall",
+   "pricing": {
+    "model": "Subscription",
+    "price_points": [
+     {
+      "amount": 60,
+      "currency": "USD",
+      "unit": "per year",
+      "label": "Copied from market"
+     }
+    ],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "app_store",
+     "details": "Existing ASO ranking at about 100 downloads a day; no change to downloads.",
+     "quote": null
+    }
+   ],
+   "delivery": "Existing software with the paywall and pricing changed.",
+   "unit_economics_claims": [
+    "Revenue went from about $1-2k to $8-10k a month with the same downloads",
+    "Acquisition multiples about 2-4x annual earnings, around 2.5x recently"
+   ],
+   "tools": [
+    "Lipa",
+    "Broker",
+    "Sensor Tower"
+   ],
+   "startup_cost": "Purchase price of the app, roughly 2-4x annual earnings",
+   "time_to_first_revenue": "Immediate (existing revenue)",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Finding deals is largely human via brokers; ASO is ongoing."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Self-serve."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Software only."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Apple."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "Minimal."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "App marketplaces and brokers are global; UK tax and asset transfer considerations apply."
+   },
+   "risks": [
+    "Apple may reject hard paywalls",
+    "Overpaying",
+    "Algorithm changes"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "We increased the price because I looked at the market. People were charging $60 a year.",
+     "speaker": "Steve",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 3317,
+     "approx_timestamp_s": 196
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Lifetime-deal growth hack for apps",
+   "one_liner": "Free lifetime offer promoted via a deal site to spike downloads and ratings, boosting ASO ranking.",
+   "category": "saas_software",
+   "business_model": "Short-term download spike to lift organic ranking and subscription sales",
+   "customer": "Existing app owners / deal hunters",
+   "problem": "App not ranking despite keywords",
+   "offer": "Free lifetime offer promoted on Indiana (app Groupon)",
+   "pricing": {
+    "model": "Free lifetime unlock",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "marketplace_platform",
+     "details": "Promoted via a Groupon/AppSumo-style deal site for apps (Indiana, as transcribed).",
+     "quote": null
+    }
+   ],
+   "delivery": "Software",
+   "unit_economics_claims": [
+    "100,000 downloads and 800 new ratings",
+    "Client app went from about $200/month to $7,000/month and about $90k in the first year"
+   ],
+   "tools": [
+    "Indiana (as transcribed)"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "First month after the push",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Deal-site listing needs human setup."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "In-app."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Software."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Apple."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "Minimal."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Same on the global App Store."
+   },
+   "risks": [
+    "Apple emailed about abnormal activity"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "we did 100,000 downloads for an AI app. We created a lifetime offer.",
+     "speaker": "Steve",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 28112,
+     "approx_timestamp_s": 1667
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "Buy and sell apps (flipping)",
+   "one_liner": "Acquire apps through brokers and marketplaces, improve them, and sell them for 2-4x earnings.",
+   "category": "acquisition_buy_business",
+   "business_model": "Capital gains from buying and selling apps",
+   "customer": "App buyers",
+   "problem": "Small apps change hands via brokers",
+   "offer": "Buy, improve, sell",
+   "pricing": {
+    "model": "2-4x annual earnings",
+    "price_points": [],
+    "notes": "Sold an app for five figures, under $50k."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "partnerships",
+     "details": "Brokers and Lipa marketplace.",
+     "quote": null
+    }
+   ],
+   "delivery": "Asset transfer",
+   "unit_economics_claims": [
+    "Sold an app for between $10k and $50k"
+   ],
+   "tools": [
+    "Lipa"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Deal sourcing and negotiation are human."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "Human due diligence."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Human-led transfer."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Escrow."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "Minimal."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Works the same."
+   },
+   "risks": [
+    "Overpaying"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "It's roughly around two to four X.",
+     "speaker": "Steve",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 48455,
+     "approx_timestamp_s": 2874
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "Web-to-app paid acquisition",
+   "one_liner": "Sell subscriptions on the web via Stripe/Paddle, then drive app installs, avoiding Apple's cut.",
+   "category": "saas_software",
+   "business_model": "Subscriptions with lower fees (3-4%)",
+   "customer": "Paid traffic",
+   "problem": "Apple's 15-30% cut",
+   "offer": "Web onboarding and purchase then app download",
+   "pricing": {
+    "model": "Subscription",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "paid_social",
+     "details": "Meta and Google ads.",
+     "quote": null
+    }
+   ],
+   "delivery": "Software",
+   "unit_economics_claims": [
+    "Payment fees 3-4% instead of 15%"
+   ],
+   "tools": [
+    "Stripe",
+    "Paddle",
+    "Meta Ads",
+    "Google Ads"
+   ],
+   "startup_cost": "Ad budget",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Paid ads automation."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Web flow."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Software."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Stripe."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "Minimal."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Usable in the UK; check current App Store rules."
+   },
+   "risks": [
+    "Requires paid acquisition",
+    "Platform rule changes"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "there's these new campaigns called web to app",
+     "speaker": "Steve",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 47310,
+     "approx_timestamp_s": 2806
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Acquired app went from $1-2k/month to $8-10k with paywall and $60/year price",
+   "metric": "revenue",
+   "value": {
+    "amount": 10000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per month",
+    "label": null
+   },
+   "period": "month",
+   "claimant": "Steve",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "We added that in there instantly went from one to $2,000 with just $100 a day to $8,000 to $10,000 revenue",
+    "speaker": "Steve",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3431,
+    "approx_timestamp_s": 203
+   }
+  },
+  {
+   "claim": "Paraphrase app makes about $2,600 a month",
+   "metric": "revenue",
+   "value": {
+    "amount": 2600,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per month",
+    "label": null
+   },
+   "period": "month",
+   "claimant": "Steve",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I have paraphrase, which is one of our apps that's making about $2600 a month",
+    "speaker": "Steve",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5221,
+    "approx_timestamp_s": 309
+   }
+  },
+  {
+   "claim": "App at $35,000 MRR with 12% trial start",
+   "metric": "mrr",
+   "value": {
+    "amount": 35000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per month",
+    "label": null
+   },
+   "period": "month",
+   "claimant": "Steve",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "one of our apps that's doing about 35,000 MRR, we get 12% of the people starting a free trial",
+    "speaker": "Steve",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 31121,
+    "approx_timestamp_s": 1846
+   }
+  },
+  {
+   "claim": "Client app from $200/month to $7,000/month, $90,000 in first year",
+   "metric": "revenue",
+   "value": {
+    "amount": 90000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per year",
+    "label": null
+   },
+   "period": "first year",
+   "claimant": "Steve",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "the app went on to make $7,000 and ultimately $90,000 within the first year of us working with this particular app",
+    "speaker": "Steve",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 29366,
+    "approx_timestamp_s": 1742
+   }
+  },
+  {
+   "claim": "About 40% hit rate on launched apps",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 40,
+    "amount_max": null,
+    "currency": null,
+    "unit": "percent",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Steve",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I need to launch 10 to get 4 right to generate money",
+    "speaker": "Steve",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 51342,
+    "approx_timestamp_s": 3045
+   }
+  },
+  {
+   "claim": "Apps are valued at about 2-4x annual earnings",
+   "metric": "valuation",
+   "value": {
+    "amount": null,
+    "amount_max": null,
+    "currency": null,
+    "unit": "2-4x annual earnings",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Steve",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "It's, it's roughly around two to four X.",
+    "speaker": "Steve",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 48450,
+    "approx_timestamp_s": 2874
+   }
+  },
+  {
+   "claim": "Paywall free trial change from yearly to weekly with 3-day trial lifted revenue from $800 to $6,000 over three months",
+   "metric": "revenue",
+   "value": {
+    "amount": 6000,
+    "amount_max": null,
+    "currency": "USD",
+    "unit": "per 3 months",
+    "label": null
+   },
+   "period": "three months",
+   "claimant": "Steve",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "that's when it went up to 6,000 the next three months",
+    "speaker": "Steve",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24573,
+    "approx_timestamp_s": 1457
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Unbundle a big app's secondary keyword",
+   "area": "acquisition",
+   "steps": [
+    "Pull top-grossing apps on Sensor Tower",
+    "Find keywords they don't target, or that appear in their ads",
+    "Check ASO Mobile for traffic score about 30",
+    "Check search results for few apps with keyword in title and weak ratings",
+    "Build a one-feature app named after the keyword"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "you unbuddle the big app and then you go, all right, what does the competition look like?",
+    "speaker": "Steve",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11272,
+    "approx_timestamp_s": 668
+   }
+  },
+  {
+   "name": "Copy competitor pricing and plan type",
+   "area": "pricing",
+   "steps": [
+    "Open the competitor in Sensor Tower",
+    "Check the most popular in-app purchase",
+    "Copy price and weekly or yearly format",
+    "Use weekly with 3-day trial for one-time-use apps, yearly with 7-day trial for daily-use apps"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Paywall conversion tweaks",
+   "area": "product",
+   "steps": [
+    "Use hard paywall in onboarding",
+    "Use the word 'Continue' instead of 'Subscribe'",
+    "Add 'No payment now' under the call to action",
+    "Show all plans in the same yearly price format",
+    "Use the word 'free' for premium features"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "30% increase in conversions with the word continue versus subscribe",
+    "speaker": "Steve",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 38768,
+    "approx_timestamp_s": 2300
+   }
+  },
+  {
+   "name": "Fast MVP launch",
+   "area": "product",
+   "steps": [
+    "Prompt Claude Code for a single-feature app",
+    "Ship in 2-3 days even without a paywall or nice screenshots",
+    "Add privacy policy and terms",
+    "Launch on iOS under a personal account",
+    "Add paywall once downloads show up"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Ratings prompt and ASO push",
+   "area": "acquisition",
+   "steps": [
+    "Add the built-in iOS ratings prompt (about 1% of downloads leave reviews)",
+    "Ask a little later, e.g. day two",
+    "Optimise keyword and title",
+    "Optionally run a lifetime-deal push"
+   ],
+   "idea_local_id": "I3",
+   "quote": null
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "ASO Mobile",
+   "purpose": "App Store keyword research with a free plan",
+   "cost_stated": "Free plan available"
+  },
+  {
+   "name": "Sensor Tower",
+   "purpose": "App revenue and in-app purchase research",
+   "cost_stated": "Free to use for basic lookups"
+  },
+  {
+   "name": "Keywords Everywhere",
+   "purpose": "Google keyword volume plugin",
+   "cost_stated": null
+  },
+  {
+   "name": "Claude Code",
+   "purpose": "Building the apps",
+   "cost_stated": null
+  },
+  {
+   "name": "Apple Search Ads",
+   "purpose": "In-store ads with Max Conversions campaigns",
+   "cost_stated": "$10-20/day"
+  },
+  {
+   "name": "Facebook Ads Library",
+   "purpose": "See what big apps advertise",
+   "cost_stated": "Free"
+  },
+  {
+   "name": "Stripe / Paddle",
+   "purpose": "Web payments with 3-4% fees",
+   "cost_stated": "3-4%"
+  },
+  {
+   "name": "Lipa",
+   "purpose": "App marketplace for buying/selling",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Apple reviewers are inconsistent about hard paywalls and forced the team to add an X to close, halving sales.",
+   "quote": {
+    "text": "Apple is very inconsistent with their reviews.",
+    "speaker": "Steve",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 32637,
+    "approx_timestamp_s": 1936
+   }
+  },
+  {
+   "warning": "Many launched apps fail because keywords don't stick; the hit rate is about 40%.",
+   "quote": {
+    "text": "there are other apps that we tried, that we vibe coded, and we thought there was keyword volume",
+    "speaker": "Steve",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 51545,
+    "approx_timestamp_s": 3058
+   }
+  },
+  {
+   "warning": "Android users reach more people but pay less, so launch on iOS first.",
+   "quote": null
+  },
+  {
+   "warning": "Apple emailed developers over abnormal download and review spikes from the lifetime offer.",
+   "quote": null
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Distribution is the hard part, not building; pick ideas where discovery is already built in through search demand.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "It's distribution is just so hard that it should be the number one thing you think about",
+    "speaker": "Steve",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1279,
+    "approx_timestamp_s": 75
+   }
+  },
+  {
+   "lesson": "Validate demand by confirming an existing competitor makes money and people search for the keyword.",
+   "theme": "validation_testing",
+   "quote": null
+  },
+  {
+   "lesson": "One narrow problem per app; more niche raises willingness to pay.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "The more niche you could be, the higher likelihood that people are going to pay for your app.",
+    "speaker": "Steve",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1578,
+    "approx_timestamp_s": 93
+   }
+  },
+  {
+   "lesson": "Copy proven pricing instead of inventing your own.",
+   "theme": "pricing",
+   "quote": null
+  },
+  {
+   "lesson": "Treat it as a portfolio: expect around 60% of launches to fail and ship many.",
+   "theme": "mindset_execution",
+   "quote": null
+  },
+  {
+   "lesson": "Don't over-engineer legal structure or branding early; start with a personal account and change later.",
+   "theme": "operations",
+   "quote": null
+  },
+  {
+   "lesson": "Low support load because Apple handles payments and refunds makes apps highly passive (about 1-2 hours a week for one app).",
+   "theme": "automation_ai",
+   "quote": null
+  },
+  {
+   "lesson": "Leave growth headroom in an app you want to sell; buyers pay for potential.",
+   "theme": "exit_acquisition",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "B",
+  "rationale": "First-hand operator with many specific figures, but shown on screen and unverifiable in this transcript; Whisper tiny transcript with some mis-heard names (Endel, Indie/Lipa). Survivorship bias is partly acknowledged.",
+  "promotional_conflict": "Steve runs App Masters (an agency/podcast) and sells services; sponsor reads (Gusto, Indeed, Quo, Shopify) are ignored."
+ },
+ "extraction": {
+  "model": "claude-sonnet-5-5",
+  "extracted_at": "2026-10-22T01:57:47",
+  "cost_usd": 0.0771575,
+  "quote_verification": {
+   "quotes": 20,
+   "verified": 20,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

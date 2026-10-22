@@ -1,0 +1,214 @@
+{
+ "verdict": "minor_issues",
+ "error_counts": {
+  "missed_ideas": 1,
+  "missed_claims": 3,
+  "factual_errors": 3,
+  "unsupported_or_invented": 2,
+  "score_adjustments": 1
+ },
+ "corrections": [
+  {
+   "path": "ideas/0/quotes/2/text",
+   "old": "I'd say you typically get three or four leads if you do that.",
+   "new": "I say you typically get three or four leads if you do that.",
+   "reason": "Quote not verbatim; the transcript says 'I say'."
+  },
+  {
+   "path": "ideas/0/time_to_first_revenue",
+   "old": "Within days of posting; first install 15 Nov 2023, about 1-2 weeks after listing",
+   "new": "First install 15 Nov 2023, a day after a lead confirmed; first payment due on install day",
+   "reason": "'1-2 weeks after listing' is not stated in the transcript. The renter asked for install 'tomorrow'."
+  },
+  {
+   "path": "ideas/0/startup_cost",
+   "old": "Can be $0 using free machines; Kyler spent about half his life savings (about $3,000 for three new sets) initially; used sets $100-$300 per pair",
+   "new": "Can be $0 using free machines. Kyler spent about $3,000 on three new sets at RC Willey and then $30,000 with wholesalers, about half his life savings or more in the first month. Used sets cost $0-$200, or about $300 with a warranty.",
+   "reason": "Clarifies that half his life savings covered the first month, not just the $3,000. Corrects the used-set price range to match the transcript."
+  },
+  {
+   "path": "ideas/0/automation/billing/score_e",
+   "old": 5,
+   "new": 4,
+   "reason": "Card capture happens in person at install, and failed payments still need follow-up. Recurring charges themselves are unattended."
+  },
+  {
+   "path": "ideas/0/uk_applicability/notes",
+   "old": "Rental model works in UK cities with many renters lacking washing machines and Facebook Marketplace and Gumtree exist, but UK washing machines are mostly combined single units with differing plumbing, there are fewer top-load Whirlpool models, and rental/consumer-law, PAT/electrical safety and insurance need checking. Landlords often supply machines in UK rentals.",
+   "new": "Rental model could work for UK renters without machines, and Facebook Marketplace and Gumtree exist. However, UK homes typically use a front-load washing machine (often with no separate dryer or vent), top-load Whirlpool direct-drive units are rare, and landlords often supply machines. Rental and consumer law, electrical safety and insurance need checking.",
+   "reason": "The claim that UK machines are 'mostly combined single units' is inaccurate."
+  },
+  {
+   "path": "metric_claims/11/claimant",
+   "old": "Chris Koerner",
+   "new": "Kyler",
+   "reason": "The quote is attributed to Kyler, right after his $700/year statement. Monthly conversion of his own cost."
+  },
+  {
+   "path": "metric_claims/11/first_hand",
+   "old": false,
+   "new": true,
+   "reason": "This is Kyler's own insurance cost."
+  },
+  {
+   "path": "ideas/2/customer",
+   "old": "Local buyers on Marketplace/KSL",
+   "new": "Local buyers of used appliances (sales channel not stated)",
+   "reason": "KSL was where he found the scrapper supplier. No sales channel for front-loaders is stated."
+  },
+  {
+   "path": "metric_claims/2/claim",
+   "old": "Installs: 4 in November, 17 in December, 13 in January (about 35 sets), roughly $2,400 MRR",
+   "new": "Installs: 4 in November, 17 in December, 13 in January (about 35 sets), host estimates roughly $2,400 MRR (his own arithmetic: 80 x 32 = $2,560)",
+   "reason": "The host's figure is a loose back-of-envelope estimate and does not match his own multiplication."
+  }
+ ],
+ "add_ideas": [
+  {
+   "local_id": "I5",
+   "name": "Recreational and party equipment rentals via Facebook Marketplace",
+   "one_liner": "Rent out lawn games and paddle boards found through organic Marketplace listings.",
+   "category": "rental_asset",
+   "business_model": "Rental fee per period",
+   "customer": "Local Marketplace users wanting games or paddle boards",
+   "problem": "Occasional need for leisure equipment without buying it",
+   "offer": "Rentals of a nine-square game and paddle boards",
+   "pricing": {
+    "model": "Per rental period",
+    "price_points": [
+     {
+      "amount": null,
+      "amount_max": null,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "nine square game, 'a couple hundred a month'"
+     }
+    ],
+    "notes": "Seasonal; Kyler moved away from it because of handling and cleaning work."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "marketplace_platform",
+     "details": "Organic Facebook Marketplace listings, boosted only if they got interest.",
+     "quote": {
+      "text": "I would do it organic and then boost it if it got any uh interest.",
+      "speaker": "Kyler"
+     }
+    }
+   ],
+   "delivery": "In-person handover and cleaning of equipment after each rental.",
+   "unit_economics_claims": [
+    "Nine square game rented for 'maybe a couple hundred a month'"
+   ],
+   "tools": [
+    "Facebook Marketplace"
+   ],
+   "startup_cost": null,
+   "time_to_first_revenue": null,
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Listings could be assisted, but Marketplace limits automation."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "Meet-ups in person."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical handover and cleaning."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Online payments possible."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Manual."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Paddle board and garden game hire exists in the UK. It is seasonal and has liability/insurance considerations."
+   },
+   "risks": [
+    "Seasonality",
+    "Daily handling and cleaning labour",
+    "Damage and liability"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "I would rent that out for maybe a couple hundred a month. started renting out paddle boards only on Facebook Marketplace.",
+     "speaker": "Kyler"
+    }
+   ]
+  }
+ ],
+ "add_metric_claims": [
+  {
+   "claim": "A friend in Burley, Idaho (a couple thousand people) has about 25 sets rented out",
+   "metric": "customers",
+   "value": {
+    "amount": 25,
+    "currency": null,
+    "unit": "sets",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Kyler",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "he tested it in Berley, Idaho, and there's only like a couple thousand people there and he has like 25 sets rented out",
+    "speaker": "Kyler"
+   }
+  },
+  {
+   "claim": "Top-load units from the scrapper cost him about $35 on average to get rentable",
+   "metric": "cost",
+   "value": {
+    "amount": 35,
+    "currency": "USD",
+    "unit": "per unit",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Kyler",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I either clean and rent them and I'm normally into them like $35 on average",
+    "speaker": "Kyler"
+   }
+  },
+  {
+   "claim": "Another operator has about 900 sets and works only 2-3 days a week",
+   "metric": "customers",
+   "value": {
+    "amount": 900,
+    "currency": null,
+    "unit": "sets",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Kyler",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "The other guy that does this has like 900 sets and he says he still only works two to three days a week.",
+    "speaker": "Kyler"
+   }
+  }
+ ],
+ "notes": "The extraction is thorough and accurate on the core washer/dryer rental model, the sourcing tactics, the listing recipe and the promotional conflicts. Errors are small: one non-verbatim quote, an invented time-to-first-revenue detail, a misattributed insurance claim, and a slightly inaccurate UK note. The early recreational rentals were missed as a minor idea, and a few second-hand scale claims (Burley friend, the 900-set operator) were not captured as metric claims.",
+ "video_id": "UCdWRg1KQLY",
+ "reviewed_at": "2026-10-22T01:57:58",
+ "cost_usd": 0.318696,
+ "applied": 9,
+ "failed_to_apply": []
+}
