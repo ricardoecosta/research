@@ -1,0 +1,1830 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "7rhoNM9IGE0",
+  "title": "You Don’t Need to Be a Genius! Just Do This.",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=7rhoNM9IGE0",
+  "upload_date": "2025-05-05",
+  "duration_s": 2164,
+  "view_count": 25052,
+  "transcript_provider": "ok",
+  "transcript_chars": 36066,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner and regular guest Sam (Grow Faster community, Unlimited Content SEO agency) trade ideas and lessons. Sam explains selling his AI cooking app for $1,000 plus 20% of revenue, and they critique Chris's AI business-partner app idea, concluding monthly churn would be high for make-money-online products. They discuss letting customers define offers (Sam's $500/month backlinks-only SEO offer), copying competitors' iterated offers via the Wayback Machine and Facebook Ads Library, and AI-generated niche training programmes like $150-$250 rucking plans. Sam demos a custom task manager he built in Lovable in two hours. Key takeaway: get sales, follow momentum, and let the market tell you what to sell.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Host of The Koerner Office"
+  },
+  {
+   "name": "Sam",
+   "role": "guest",
+   "description": "Regular guest; runs Grow Faster community and Unlimited Content SEO agency; builds consumer apps"
+  }
+ ],
+ "format": "panel_discussion",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "AI cooking app (sold for revenue share)",
+   "one_liner": "Consumer AI cooking iOS app built with no-code and grown with paid ads; Sam sold it to a community member for $1,000 plus 20% of revenue.",
+   "category": "saas_software",
+   "business_model": "Consumer app revenue (app store); Sam keeps 20% of revenue off the top after selling the app",
+   "customer": "Home cooks on iOS",
+   "problem": "People want help cooking / recipes",
+   "offer": "AI cooking app built in Flutterflow",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [
+     {
+      "amount": 1000,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "sale price of the app to new operator"
+     }
+    ],
+    "notes": "Sold for the $1,000 he paid for it plus 20% of revenue; buyer funds ad spend, Sam provides the ad strategy."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "paid_social",
+     "details": "Sam runs the ad strategy; buyer pays ad spend.",
+     "quote": {
+      "text": "Your ad spend, my strategy, then you can steal this exact playbook to run it for your app",
+      "speaker": "Sam",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 1532,
+      "approx_timestamp_s": 94
+     }
+    }
+   ],
+   "delivery": "Buyer handles app store publishing and operations; Sam advises on ads. Deal coordinated entirely in Twitter DMs.",
+   "unit_economics_claims": [
+    "Bought for $1,000, resold for $1,000 plus 20% of revenue off the top"
+   ],
+   "tools": [
+    "Flutterflow",
+    "App Store",
+    "Twitter/X DMs"
+   ],
+   "startup_cost": "$1,000 (purchase price of the app)",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Paid ads can be largely run by agents with human creative review."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Self-serve app download."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Software product; AI generation is automated."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "App store billing."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "In-app/FAQ support can be automated."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Consumer apps and app stores work the same in the UK."
+   },
+   "risks": [
+    "Sold before validating traction; revenue share depends on the buyer executing",
+    "Paid acquisition costs for consumer apps can exceed lifetime value"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "I paid a,000 bucks for it. I'll sell it to you for a,000 bucks and I keep 20% of revenue off the top",
+     "speaker": "Sam",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 1324,
+     "approx_timestamp_s": 82
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "AI business partner / accountability app",
+   "one_liner": "Mobile app that profiles you (LinkedIn, personality), suggests 5 businesses, then acts as daily accountability coach and scheduler.",
+   "category": "saas_software",
+   "business_model": "Subscription ($10/month suggested) or lifetime purchase; optional penalty fees for missed tasks",
+   "customer": "Aspiring entrepreneurs",
+   "problem": "People want to start a business but lack direction and accountability",
+   "offer": "AI co-founder that picks a business for you and pushes daily tasks, with card-on-file penalties for missed tasks",
+   "pricing": {
+    "model": "subscription or lifetime",
+    "price_points": [
+     {
+      "amount": 10,
+      "currency": "USD",
+      "unit": "per month"
+     },
+     {
+      "amount": 500,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "lifetime purchase suggested by Sam"
+     }
+    ],
+    "notes": "Sam argues monthly churn would be insane and it should be a lifetime purchase."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Sam expects acquisition to be explosive because everyone interested in business wants an AI co-founder; channel not specified."
+    }
+   ],
+   "delivery": "Software app with AI generating the plan and notifications.",
+   "unit_economics_claims": [
+    "Hypothetical $10/month; Sam suggests $500 lifetime"
+   ],
+   "tools": [
+    "LinkedIn"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "App store + paid social could be run by agents."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Self-serve onboarding."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "Fully software."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "App store/Stripe billing."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "Mostly automated support."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Nothing US-specific."
+   },
+   "risks": [
+    "Make-money-online market: most users never act and then blame the product",
+    "Monthly subscription churn would be very high",
+    "Users treat it as a magic pill"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "it's like your zero equity $10 a month business partner, accountability partner, coach, therapist, everything",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 4037,
+     "approx_timestamp_s": 250
+    },
+    {
+     "text": "If it's monthly, your churn's going to be insane",
+     "speaker": "Sam",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 4186,
+     "approx_timestamp_s": 259
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "High-ticket masterclass courses (tree business, RV parks)",
+   "one_liner": "Chris's paid masterclasses teaching how to start a tree business or buy an RV park.",
+   "category": "education_coaching",
+   "business_model": "One-off course sales",
+   "customer": "Aspiring operators wanting to start a tree service or buy an RV park",
+   "problem": "They want a shortcut and proven playbook",
+   "offer": "Tree Biz Boot Camp masterclass and RV park masterclass",
+   "pricing": {
+    "model": "one-off",
+    "price_points": [
+     {
+      "amount": 3000,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "Tree Biz Boot Camp"
+     },
+     {
+      "amount": 6000,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "RV park masterclass"
+     }
+    ],
+    "notes": "Zero refund requests ever per Chris; buyers of one bought the other."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "existing_audience",
+     "details": "Sold to Chris's podcast/social audience; repeat purchases from past buyers."
+    }
+   ],
+   "delivery": "Recorded course content created by Chris; quality of content is the key variable.",
+   "unit_economics_claims": [
+    "Tree Biz Boot Camp about $3,000",
+    "RV park course about $6,000",
+    "Zero refunds"
+   ],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Depends on a personal audience built by the creator."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Course platform self-serve."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Pre-recorded content delivered by software."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Online checkout."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "FAQ automatable; some human Q&A."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Info products sell the same in the UK; the underlying tree/RV businesses are US-focused topics."
+   },
+   "risks": [
+    "Minority of buyers ever act; risk of refund/scam perception if content is weak",
+    "Relies on the creator's personal brand"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "We did one for our the tree biz boot camp which is like $3,000. Yeah. Yeah. And then one for the RV park stuff which is like $6,000",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 7020,
+     "approx_timestamp_s": 434
+    },
+    {
+     "text": "zero people have asked me for a refund ever",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 7290,
+     "approx_timestamp_s": 451
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "Launch OS (low-ticket launch course)",
+   "one_liner": "Sam's $300 business-launch product sold off a viral tweet in early 2023.",
+   "category": "education_coaching",
+   "business_model": "One-off digital product",
+   "customer": "Wannabe founders on Twitter",
+   "problem": "Want a system to launch a business",
+   "offer": "Launch OS program plus calls",
+   "pricing": {
+    "model": "one-off",
+    "price_points": [
+     {
+      "amount": 300,
+      "currency": "USD",
+      "unit": "one-off"
+     }
+    ],
+    "notes": "100 buyers; 3 actually launched a business; a few refunds mostly from overseas."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "organic_social_content",
+     "details": "One viral tweet drove about 100 sales.",
+     "quote": {
+      "text": "Had that one tweet go crazy. Had a hundred people buy it for 300 bucks",
+      "speaker": "Sam",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 7948,
+      "approx_timestamp_s": 492
+     }
+    }
+   ],
+   "delivery": "Digital program plus calls with buyers.",
+   "unit_economics_claims": [
+    "100 buyers x $300 (~$30,000 implied)",
+    "3 of 100 launched a business"
+   ],
+   "tools": [
+    "Twitter/X"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Social posting can be agent-assisted but virality depends on personal audience."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Self-serve."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Digital content."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Checkout."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Buyers still want calls."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works anywhere."
+   },
+   "risks": [
+    "Low completion rates; buyers who succeed would have succeeded anyway",
+    "Refund requests"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "Three people actually like turned in to like launched a business through it",
+     "speaker": "Sam",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 8018,
+     "approx_timestamp_s": 496
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "Grow Faster paid community",
+   "one_liner": "Sam's paid founder community with daily calls, pushing members to launch in 12 hours rather than 12 months.",
+   "category": "education_coaching",
+   "business_model": "Community membership (Sam has done one-time offers before; watching churn)",
+   "customer": "Founders and aspiring founders following Sam on Twitter",
+   "problem": "Founders move too slowly and lack accountability",
+   "offer": "Community with daily calls and coaching",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "Link in Sam's Twitter bio."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "organic_social_content",
+     "details": "Link in Twitter bio; audience from Sam's tweets."
+    }
+   ],
+   "delivery": "Daily live calls run by Sam.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Twitter/X"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Audience-driven."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Self-serve join."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Daily live calls need the host."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Recurring billing software."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Community moderation is human-led."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works anywhere."
+   },
+   "risks": [
+    "Churn when members realise work is required"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "the whole thesis for that community is like literally called grow faster for a reason",
+     "speaker": "Sam",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 9968,
+     "approx_timestamp_s": 617
+    }
+   ]
+  },
+  {
+   "local_id": "I6",
+   "name": "Google Maps / Google Business Profile optimisation agency",
+   "one_liner": "Agency improving local businesses' Google Maps rankings; advice is to ask prospects what they'll pay for and copy competitors' final offers.",
+   "category": "agency",
+   "business_model": "not stated (offer undecided: consultation, software, service)",
+   "customer": "Local businesses",
+   "problem": "Low Google Maps rankings",
+   "offer": "Google Business Profile optimisation",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "Advice: get on the phone with prospects and let them tell you what they'll pay for."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "cold_call",
+     "details": "Get on the phone with businesses that want better map rankings."
+    }
+   ],
+   "delivery": "Agency service.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Google Business Profile",
+    "Wayback Machine (web archive)"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Phone conversations; in the UK cold calls must screen TPS/CTPS, cold email only to limited companies."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Forms and audits can be automated."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "GBP updates partly automatable with oversight."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Recurring billing."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Reporting automatable."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "GBP works the same in the UK; outreach must comply with PECR (no cold SMS/DMs to sole traders; TPS screening for calls)."
+   },
+   "risks": [
+    "Commoditised agency service",
+    "UK PECR limits cold outreach to sole-trader local businesses"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "he's trying to build like a like a Google Maps like improvement optimization agency",
+     "speaker": "Sam",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 11446,
+     "approx_timestamp_s": 709
+    }
+   ]
+  },
+  {
+   "local_id": "I7",
+   "name": "Unlimited Content SEO agency with backlinks-only offer",
+   "one_liner": "Sam's SEO content agency (30 articles in 30 days) that added a $500/month backlinks-only offer after a prospect asked for it.",
+   "category": "agency",
+   "business_model": "Monthly retainer",
+   "customer": "Businesses wanting better SEO results",
+   "problem": "Need more organic traffic; some need links not content",
+   "offer": "30 articles in 30 days; or managed backlink outreach for $500/month plus client's link budget",
+   "pricing": {
+    "model": "monthly retainer",
+    "price_points": [
+     {
+      "amount": 500,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "backlinks-only management"
+     }
+    ],
+    "notes": "Client sets their own backlink budget on top."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "paid_social",
+     "details": "Facebook ads drive people who want better SEO results onto sales calls.",
+     "quote": {
+      "text": "all of our Facebook ads are getting people on the phone that want better results from SEO",
+      "speaker": "Sam",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 12068,
+      "approx_timestamp_s": 747
+     }
+    }
+   ],
+   "delivery": "Agency writes articles / does backlink outreach for clients.",
+   "unit_economics_claims": [
+    "Backlinks-only offer $500/month"
+   ],
+   "tools": [
+    "Facebook ads"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Paid ads automatable; sales calls are human."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Intake forms automatable."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "AI writing and outreach can be largely agent-run with QA."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Recurring billing."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Reporting automatable."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "SEO agency works the same in the UK."
+   },
+   "risks": [
+    "Backlink outreach quality and Google penalties",
+    "Commoditised by AI content"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "our normal offer is content, right? 30 articles, 30 days, but he has 3,000 blogs on his website",
+     "speaker": "Sam",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 12183,
+     "approx_timestamp_s": 754
+    },
+    {
+     "text": "We'll do backlinks only for you. 500 bucks a month",
+     "speaker": "Sam",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 12369,
+     "approx_timestamp_s": 766
+    }
+   ]
+  },
+  {
+   "local_id": "I8",
+   "name": "Trade school enrollment sales consulting",
+   "one_liner": "A friend who starts trade schools and installs a 90-minute question-led sales call process into existing schools.",
+   "category": "b2b_service",
+   "business_model": "not stated",
+   "customer": "Trade schools (e.g. HVAC licensing)",
+   "problem": "Short 2-3 minute sales calls convert poorly",
+   "offer": "Consultative 90-minute discovery sales process",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Not stated."
+    }
+   ],
+   "delivery": "Consultant implements the sales process at operating schools.",
+   "unit_economics_claims": [
+    "Claims 80% more likely to buy"
+   ],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Relationship sales."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "Human."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "90-minute human sales calls."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Invoicing."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Vocational training providers exist in the UK; approach transferable."
+   },
+   "risks": [
+    "Depends on skilled salespeople"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "I only ask them questions and I learn exactly what they want and exactly what they need and then I build the pitch around everything they just told me",
+     "speaker": null,
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 13624,
+     "approx_timestamp_s": 844
+    }
+   ]
+  },
+  {
+   "local_id": "I9",
+   "name": "Niche AI-generated training programmes (rucking)",
+   "one_liner": "Sell $150-$250 digital training programmes for a trending fitness niche (rucking), likely AI-generated, driven by search and ads.",
+   "category": "digital_products",
+   "business_model": "One-off digital product sales",
+   "customer": "People getting into rucking",
+   "problem": "Want a structured programme / shortcut",
+   "offer": "Rucking training programmes (Pathfinder Ruck Training)",
+   "pricing": {
+    "model": "one-off",
+    "price_points": [
+     {
+      "amount": 150,
+      "currency": "USD",
+      "unit": "one-off",
+      "amount_max": 250
+     }
+    ],
+    "notes": "Example site gets tens of thousands of hits a month."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "seo_organic_search",
+     "details": "Example site gets tens of thousands of visits a month."
+    },
+    {
+     "channel": "paid_social",
+     "details": "Earlier discussed: Facebook ads to launch an AI-created course, iterating offers and price points."
+    }
+   ],
+   "delivery": "AI-generated PDF/plan programmes delivered digitally.",
+   "unit_economics_claims": [
+    "Programmes priced $150-$250",
+    "Tens of thousands of monthly hits"
+   ],
+   "tools": [
+    "Facebook Ads Library",
+    "AI tools"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "SEO content and ads can be run by agents with spend approval."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Instant digital download."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "AI-generated content delivered automatically."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Checkout."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "FAQ/refunds mostly automatable."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Digital products sell the same in the UK; UK consumer refund rules apply."
+   },
+   "risks": [
+    "Low barrier; easy to copy",
+    "Health/fitness advice liability",
+    "Ad costs"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "They're selling training programs and I bet you they're AI generated and they're cost $150 to $250",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 17054,
+     "approx_timestamp_s": 1056
+    },
+    {
+     "text": "No one's going to pay $200 for a PDF on how to walk around with weights. You know what? Actually, a lot of people will",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 17432,
+     "approx_timestamp_s": 1080
+    }
+   ]
+  },
+  {
+   "local_id": "I10",
+   "name": "Handstand mini course",
+   "one_liner": "A creator who did about half a million dollars of sales on a mini course teaching handstands.",
+   "category": "digital_products",
+   "business_model": "One-off course sales",
+   "customer": "People who want to do a handstand",
+   "problem": "Want a guided shortcut",
+   "offer": "Mini course",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Not stated."
+    }
+   ],
+   "delivery": "Digital course.",
+   "unit_economics_claims": [
+    "~$500,000 in sales"
+   ],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Content/ads."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Self-serve."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "Pre-recorded."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Checkout."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "Mostly automated."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works anywhere."
+   },
+   "risks": [
+    "Hearsay figure"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "there was a dude that did like half a million dollars in sales on a mini course on how to do a handstand",
+     "speaker": "Sam",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 17761,
+     "approx_timestamp_s": 1100
+    }
+   ]
+  },
+  {
+   "local_id": "I11",
+   "name": "Point A to point B shortcut products (Dunk Now poster, cookbooks)",
+   "one_liner": "Physical/digital programmes that sell the result (e.g. Dunk Now dunking poster at ~$150, cookbooks), now quick to create with AI.",
+   "category": "digital_products",
+   "business_model": "One-off product sales",
+   "customer": "People wanting a specific outcome",
+   "problem": "Want a shortcut to a result",
+   "offer": "Programme/poster/cookbook",
+   "pricing": {
+    "model": "one-off",
+    "price_points": [
+     {
+      "amount": 150,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "Dunk Now poster"
+     }
+    ],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "seo_organic_search",
+     "details": "Found via Google search for how to dunk."
+    }
+   ],
+   "delivery": "Product or digital download.",
+   "unit_economics_claims": [
+    "Dunk Now poster ~$150"
+   ],
+   "tools": [
+    "AI tools"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Search/ads."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Self-serve."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "AI-created content; posters need print fulfilment."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Checkout."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "Mostly automated."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works anywhere."
+   },
+   "risks": [
+    "Crowded; marketing quality decides winners"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "people aren't buying the paper, they're buying the result",
+     "speaker": "Sam",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 18837,
+     "approx_timestamp_s": 1167
+    }
+   ]
+  },
+  {
+   "local_id": "I12",
+   "name": "Custom personal task manager built with Lovable (possible productivity SaaS)",
+   "one_liner": "Sam built a personal Kanban task manager with time estimates, timers and priority colouring in 2 hours in Lovable; resisted turning it into a product.",
+   "category": "saas_software",
+   "business_model": "not stated (personal tool; possible SaaS)",
+   "customer": "Founders juggling multiple companies",
+   "problem": "Off-the-shelf task tools don't fit",
+   "offer": "Kanban tasks with estimated time, priority, company tags, due-date colours, timer; planned Google Calendar and Stripe revenue-per-hour",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "organic_social_content",
+     "details": "Shared as a Twitter thread."
+    }
+   ],
+   "delivery": "Built in Lovable with prompts; no code.",
+   "unit_economics_claims": [
+    "Built in about 2 hours"
+   ],
+   "tools": [
+    "Lovable",
+    "Google Calendar (planned)",
+    "Stripe (planned)",
+    "Replit",
+    "Go High Level"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Content-led."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Self-serve."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "Software."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Stripe."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "Mostly automated."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works anywhere."
+   },
+   "risks": [
+    "Crowded productivity SaaS market"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "I decided I was just going to build my own custom task management software using Lovable clearly and I literally just ran in two hours",
+     "speaker": "Sam",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 22469,
+     "approx_timestamp_s": 1392
+    }
+   ]
+  },
+  {
+   "local_id": "I13",
+   "name": "AI-generated influencer selling apps or cookbooks",
+   "one_liner": "Idea that AI-generated influencers will sell apps or cookbooks; platform enforcement uncertain.",
+   "category": "content_media",
+   "business_model": "Product sales via influencer content",
+   "customer": "Social media audiences",
+   "problem": "not stated",
+   "offer": "AI persona content selling a product",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "organic_social_content",
+     "details": "AI-generated influencer content on Meta platforms."
+    }
+   ],
+   "delivery": "AI video tools such as HeyGen.",
+   "unit_economics_claims": [],
+   "tools": [
+    "HeyGen"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Content generation automatable."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Self-serve."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Digital."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Checkout."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "Automated."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Works in UK; ASA disclosure rules apply to ads."
+   },
+   "risks": [
+    "Meta may ban impersonation/AI personas",
+    "Deception and trust risk"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "I'm still waiting for an AI generated influencer to sell an app or a cookbook",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 19766,
+     "approx_timestamp_s": 1224
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Sam bought the AI cooking app for $1,000 and sold it for $1,000 plus 20% of revenue",
+   "metric": "sale_price",
+   "value": {
+    "amount": 1000,
+    "currency": "USD",
+    "unit": "one-off"
+   },
+   "claimant": "Sam",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I paid a,000 bucks for it. I'll sell it to you for a,000 bucks and I keep 20% of revenue off the top",
+    "speaker": "Sam",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1324,
+    "approx_timestamp_s": 82
+   }
+  },
+  {
+   "claim": "Suggested price for the AI business partner app",
+   "metric": "price",
+   "value": {
+    "amount": 10,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "You upload your LinkedIn, let's say it's 10 bucks a month",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2957,
+    "approx_timestamp_s": 183
+   },
+   "hypothetical": true
+  },
+  {
+   "claim": "Suggested lifetime price",
+   "metric": "price",
+   "value": {
+    "amount": 500,
+    "currency": "USD",
+    "unit": "one-off"
+   },
+   "claimant": "Sam",
+   "first_hand": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "Which then goes into like the same model, like $500 lifetime purchase",
+    "speaker": "Sam",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6577,
+    "approx_timestamp_s": 407
+   },
+   "hypothetical": true
+  },
+  {
+   "claim": "Tree Biz Boot Camp price ~$3,000 and RV masterclass ~$6,000",
+   "metric": "price",
+   "value": {
+    "amount": 3000,
+    "currency": "USD",
+    "unit": "one-off",
+    "amount_max": 6000
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "We did one for our the tree biz boot camp which is like $3,000. Yeah. Yeah. And then one for the RV park stuff which is like $6,000",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7020,
+    "approx_timestamp_s": 434
+   }
+  },
+  {
+   "claim": "Zero refund requests on Chris's masterclasses",
+   "metric": "other",
+   "value": {
+    "amount": 0,
+    "currency": null,
+    "unit": "refund requests"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "zero people have asked me for a refund ever",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7290,
+    "approx_timestamp_s": 451
+   }
+  },
+  {
+   "claim": "Launch OS: 100 buyers at $300",
+   "metric": "revenue",
+   "value": {
+    "amount": 300,
+    "currency": "USD",
+    "unit": "per sale"
+   },
+   "claimant": "Sam",
+   "first_hand": true,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "Had that one tweet go crazy. Had a hundred people buy it for 300 bucks",
+    "speaker": "Sam",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7948,
+    "approx_timestamp_s": 492
+   }
+  },
+  {
+   "claim": "Only 3 of ~100 Launch OS buyers launched a business",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 3,
+    "currency": null,
+    "unit": "buyers of 100"
+   },
+   "claimant": "Sam",
+   "first_hand": true,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "Three people actually like turned in to like launched a business through it",
+    "speaker": "Sam",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8018,
+    "approx_timestamp_s": 496
+   }
+  },
+  {
+   "claim": "Unlimited Content normal offer: 30 articles in 30 days",
+   "metric": "other",
+   "value": {
+    "amount": 30,
+    "currency": null,
+    "unit": "articles per 30 days"
+   },
+   "claimant": "Sam",
+   "first_hand": true,
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "our normal offer is content, right? 30 articles, 30 days",
+    "speaker": "Sam",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12183,
+    "approx_timestamp_s": 754
+   }
+  },
+  {
+   "claim": "Backlinks-only offer $500/month",
+   "metric": "price",
+   "value": {
+    "amount": 500,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Sam",
+   "first_hand": true,
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "We'll do backlinks only for you. 500 bucks a month",
+    "speaker": "Sam",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12369,
+    "approx_timestamp_s": 766
+   }
+  },
+  {
+   "claim": "Trade school 90-minute sales call makes prospects 80% more likely to buy",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 80,
+    "currency": null,
+    "unit": "percent more likely"
+   },
+   "claimant": "Chris's trade-school friend (relayed)",
+   "first_hand": false,
+   "idea_local_id": "I8",
+   "quote": {
+    "text": "they're 80% more likely to buy",
+    "speaker": null,
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13779,
+    "approx_timestamp_s": 853
+   }
+  },
+  {
+   "claim": "Existing trade school sales calls last 2-3 minutes",
+   "metric": "other",
+   "value": {
+    "amount": 2,
+    "currency": null,
+    "unit": "minutes",
+    "amount_max": 3
+   },
+   "claimant": "Chris's trade-school friend (relayed)",
+   "first_hand": false,
+   "idea_local_id": "I8",
+   "quote": {
+    "text": "their sales calls are two to three minutes long",
+    "speaker": null,
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13331,
+    "approx_timestamp_s": 826
+   }
+  },
+  {
+   "claim": "Rucking programmes cost $150-$250",
+   "metric": "price",
+   "value": {
+    "amount": 150,
+    "currency": "USD",
+    "unit": "one-off",
+    "amount_max": 250
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I9",
+   "quote": {
+    "text": "they're cost $150 to $250 of like how to rock",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17127,
+    "approx_timestamp_s": 1061
+   }
+  },
+  {
+   "claim": "Rucking site gets tens of thousands of hits a month",
+   "metric": "traffic",
+   "value": {
+    "amount": null,
+    "currency": null,
+    "unit": "visits per month",
+    "label": "tens of thousands"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I9",
+   "quote": {
+    "text": "This company, they're getting tens of thousands of hits a month",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16958,
+    "approx_timestamp_s": 1050
+   }
+  },
+  {
+   "claim": "Handstand mini course did ~$500k in sales",
+   "metric": "revenue",
+   "value": {
+    "amount": 500000,
+    "currency": "USD",
+    "unit": "total"
+   },
+   "claimant": "Sam",
+   "first_hand": false,
+   "idea_local_id": "I10",
+   "quote": {
+    "text": "half a million dollars in sales on a mini course on how to do a handstand",
+    "speaker": "Sam",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17792,
+    "approx_timestamp_s": 1102
+   }
+  },
+  {
+   "claim": "Dunk Now poster cost about $150",
+   "metric": "price",
+   "value": {
+    "amount": 150,
+    "currency": "USD",
+    "unit": "one-off"
+   },
+   "claimant": "Sam",
+   "first_hand": false,
+   "idea_local_id": "I11",
+   "quote": {
+    "text": "I think I spent like 150 bucks on it for a poster",
+    "speaker": "Sam",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18528,
+    "approx_timestamp_s": 1148
+   }
+  },
+  {
+   "claim": "Health influencer app made tens of millions",
+   "metric": "revenue",
+   "value": {
+    "amount": null,
+    "currency": "USD",
+    "unit": "total",
+    "label": "tens of millions"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "Tens of millions of dollars from an app",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20600,
+    "approx_timestamp_s": 1276
+   }
+  },
+  {
+   "claim": "Chris took 37 shorts on a 2-hour ruck walk",
+   "metric": "other",
+   "value": {
+    "amount": 37,
+    "currency": null,
+    "unit": "short videos"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "idea_local_id": null,
+   "quote": {
+    "text": "I took 37 shorts on a two-hour walk on Saturday",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15925,
+    "approx_timestamp_s": 986
+   }
+  },
+  {
+   "claim": "Custom task manager built in about 2 hours",
+   "metric": "hours",
+   "value": {
+    "amount": 2,
+    "currency": null,
+    "unit": "hours"
+   },
+   "claimant": "Sam",
+   "first_hand": true,
+   "idea_local_id": "I12",
+   "quote": {
+    "text": "It literally took me two hours",
+    "speaker": "Sam",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 29163,
+    "approx_timestamp_s": 1807
+   }
+  },
+  {
+   "claim": "Of 4 tasks, 3 took ~30% less time than estimated, 1 took ~30% more",
+   "metric": "other",
+   "value": {
+    "amount": 30,
+    "currency": null,
+    "unit": "percent"
+   },
+   "claimant": "Sam",
+   "first_hand": true,
+   "idea_local_id": "I12",
+   "quote": {
+    "text": "Three of them came in about 30% less time than I had estimated. One of them took about 30% more",
+    "speaker": "Sam",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 28328,
+    "approx_timestamp_s": 1755
+   }
+  },
+  {
+   "claim": "Loaded 11 tasks with 10 hours of work for the week",
+   "metric": "hours",
+   "value": {
+    "amount": 10,
+    "currency": null,
+    "unit": "hours per week"
+   },
+   "claimant": "Sam",
+   "first_hand": true,
+   "idea_local_id": "I12",
+   "quote": {
+    "text": "I've loaded up 11 tasks with 10 hours of work to do this week",
+    "speaker": "Sam",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 26681,
+    "approx_timestamp_s": 1653
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Let the prospect define the offer",
+   "steps": [
+    "Run ads that get prospects on the phone",
+    "Ask what they actually need",
+    "Package that on the spot (e.g. backlinks-only at $500/month)",
+    "Keep selling the new offer if others want it"
+   ],
+   "idea_local_id": "I7",
+   "area": "sales",
+   "quote": {
+    "text": "I didn't like wake up three weeks ago saying, dude, you know what would be an interesting offer is backlinks only",
+    "speaker": "Sam",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12578,
+    "approx_timestamp_s": 779
+   }
+  },
+  {
+   "name": "Copy competitors' iterated final offer via the Wayback Machine",
+   "steps": [
+    "Find 5-10 businesses in your niche charging what you want",
+    "Look them up in the web archive to see how long they've been in business",
+    "Compare how their homepage/offer evolved",
+    "Copy their current offer, which is the most optimised"
+   ],
+   "idea_local_id": "I6",
+   "area": "sales",
+   "quote": {
+    "text": "go find five to 10 people in that niche that's doing exactly what you're doing or want to be doing and charging what you want to be charging",
+    "speaker": null,
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13938,
+    "approx_timestamp_s": 863
+   }
+  },
+  {
+   "name": "Swipe competitor ads from the Facebook Ads Library",
+   "steps": [
+    "List your biggest competitors",
+    "Check what ads they run in the Facebook Ads Library",
+    "Adapt their creative for your offer"
+   ],
+   "idea_local_id": null,
+   "area": "acquisition",
+   "quote": {
+    "text": "I just always go to like, oh wait, these are our biggest competitors. What are they running?",
+    "speaker": "Sam",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15115,
+    "approx_timestamp_s": 936
+   }
+  },
+  {
+   "name": "Sell a stalled asset for a free roll",
+   "steps": [
+    "When you can't give a project time, offer it to someone who can",
+    "Sell at cost and keep a % of revenue off the top",
+    "Contribute strategy (e.g. ads) while they handle operations"
+   ],
+   "idea_local_id": "I1",
+   "area": "finance"
+  },
+  {
+   "name": "90-minute question-led sales call",
+   "steps": [
+    "Only ask questions about what the prospect wants and needs",
+    "Build the pitch from their answers",
+    "Replace 2-3 minute price-only calls"
+   ],
+   "idea_local_id": "I8",
+   "area": "sales"
+  },
+  {
+   "name": "Batch short-form video while rucking",
+   "steps": [
+    "Walk in zone 2 with a weighted vest",
+    "Record shorts while walking (37 in 2 hours)"
+   ],
+   "idea_local_id": null,
+   "area": "acquisition"
+  },
+  {
+   "name": "Vibe-code a personal tool with Lovable",
+   "steps": [
+    "Define the data fields first (name, description, due date, priority, estimated time numeric)",
+    "Describe the UI in plain language",
+    "Click fix on errors",
+    "Restore a previous version rather than repeatedly patching a broken feature"
+   ],
+   "idea_local_id": "I12",
+   "area": "product",
+   "quote": {
+    "text": "don't be scared to restore previous versions",
+    "speaker": "Sam",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 34320,
+    "approx_timestamp_s": 2126
+   }
+  },
+  {
+   "name": "Daily time-boxed task queue",
+   "steps": [
+    "Brain dump tasks with estimated time, priority, company tag, due date",
+    "Each evening check tomorrow's calendar blocks and fill them from the queue",
+    "Use the timer to record actual time and compare against estimate",
+    "Plan: add Stripe to compute revenue per hour per company"
+   ],
+   "idea_local_id": "I12",
+   "area": "operations"
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Flutterflow",
+   "purpose": "No-code iOS app builder used for the AI cooking app"
+  },
+  {
+   "name": "Lovable",
+   "purpose": "AI app builder used to build a custom task manager in 2 hours"
+  },
+  {
+   "name": "Replit",
+   "purpose": "AI app builder mentioned for sharing projects"
+  },
+  {
+   "name": "Facebook Ads Library",
+   "purpose": "Research competitors' ads"
+  },
+  {
+   "name": "Facebook ads",
+   "purpose": "Drive SEO prospects to sales calls"
+  },
+  {
+   "name": "Wayback Machine (web archive)",
+   "purpose": "See how competitors' offers evolved"
+  },
+  {
+   "name": "HeyGen",
+   "purpose": "AI avatar videos"
+  },
+  {
+   "name": "Go High Level",
+   "purpose": "Automation flows"
+  },
+  {
+   "name": "Google Calendar",
+   "purpose": "Planned integration for task manager"
+  },
+  {
+   "name": "Stripe",
+   "purpose": "Planned revenue-per-hour integration"
+  },
+  {
+   "name": "ChatGPT",
+   "purpose": "Used by motivated founders as a business assistant"
+  },
+  {
+   "name": "Twitter/X",
+   "purpose": "Audience, DMs and deal coordination"
+  },
+  {
+   "name": "Asana, Trello, Pipedrive",
+   "purpose": "Task tools Chris doesn't use"
+  },
+  {
+   "name": "Apple Notes / Reminders, Google Docs/Sheets",
+   "purpose": "Chris's ad-hoc task system"
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Monthly subscriptions for make-money-online style apps will churn heavily because most users never do the work.",
+   "quote": {
+    "text": "If it's monthly, your churn's going to be insane",
+    "speaker": "Sam",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4186,
+    "approx_timestamp_s": 259
+   }
+  },
+  {
+   "warning": "Most course buyers never act; buyers who do succeed would likely have succeeded anyway.",
+   "quote": {
+    "text": "those three people would have been successful whether or not they bought Launch O",
+    "speaker": "Sam",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8331,
+    "approx_timestamp_s": 516
+   }
+  },
+  {
+   "warning": "Don't spend months building; people spend years on ideas instead of testing fast.",
+   "quote": null
+  },
+  {
+   "warning": "A health influencer built a tens-of-millions app and cookbook on faked cancer claims; deceptive influencer marketing collapses.",
+   "quote": null
+  },
+  {
+   "warning": "When vibe coding, don't keep patching a broken feature; restore and re-prompt.",
+   "quote": {
+    "text": "instead of trying to like countlessly edit a single feature, just restart and try to redefine that feature a little bit better",
+    "speaker": "Sam",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 34679,
+    "approx_timestamp_s": 2148
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Customers tell you what offer to sell; have more conversations with people who have problems.",
+   "theme": "offer_design",
+   "quote": {
+    "text": "have more conversations with people that have problems. They'll tell you what they'll pay for",
+    "speaker": "Sam",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12953,
+    "approx_timestamp_s": 802
+   }
+  },
+  {
+   "lesson": "Momentum is the most underrated asset; launch in 12 hours, not 12 months.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "momentum is probably the most underrated asset for entrepreneurs",
+    "speaker": "Sam",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 537,
+    "approx_timestamp_s": 33
+   }
+  },
+  {
+   "lesson": "The one main piece of advice: go get a sale first.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "Go get a sale. That's it",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11014,
+    "approx_timestamp_s": 682
+   }
+  },
+  {
+   "lesson": "People buy the result/shortcut from point A to point B, not the paper; find a big enough A-to-B market.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "People always want to buy the shortcut forever and always",
+    "speaker": "Sam",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 19037,
+    "approx_timestamp_s": 1179
+   }
+  },
+  {
+   "lesson": "Content quality decides whether info products get refunds and repeat buyers.",
+   "theme": "offer_design",
+   "quote": {
+    "text": "I think one important variable is the quality of the content",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6931,
+    "approx_timestamp_s": 429
+   }
+  },
+  {
+   "lesson": "Make-money-online style products should be one-time/lifetime purchases rather than monthly.",
+   "theme": "pricing",
+   "quote": null
+  },
+  {
+   "lesson": "Copy what competitors have already iterated to; you don't need to be a genius.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "you don't have to be a genius. You just have to know where to look",
+    "speaker": "Sam",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15337,
+    "approx_timestamp_s": 950
+   }
+  },
+  {
+   "lesson": "Selling an asset you can't focus on for cost plus a revenue share is a free roll.",
+   "theme": "finance_unit_economics",
+   "quote": null
+  },
+  {
+   "lesson": "When vibe coding, design the data model first (e.g. numeric fields to sum) before the UI.",
+   "theme": "automation_ai",
+   "quote": null
+  },
+  {
+   "lesson": "Pick your addiction: momentum can be as addictive as Netflix.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "momentum is addicting%. So like pick your addiction straight up",
+    "speaker": "Sam",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10630,
+    "approx_timestamp_s": 658
+   }
+  }
+ ],
+ "evidence_quality": {
+  "rating": "B",
+  "rationale": "First-hand claims from both speakers (Launch OS sales, masterclass prices, backlinks offer) but few verified revenue numbers; several ideas are speculative or hearsay.",
+  "promotional_conflict": "Sam promotes his Grow Faster community; Chris sells masterclasses and his newsletter/podcast."
+ },
+ "extraction": {
+  "model": "grokbot",
+  "extracted_at": "2026-10-22T08:57:25",
+  "cost_usd": null,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 54,
+   "verified": 54,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

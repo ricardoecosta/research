@@ -1,0 +1,1501 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "9DyLtQEDXN0",
+  "title": "How a Regular Guy Started a 1-Person Business with AI",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=9DyLtQEDXN0",
+  "upload_date": "2026-06-01",
+  "duration_s": 2193,
+  "view_count": 53210,
+  "transcript_provider": "transcribeyoutube",
+  "transcript_chars": 39074,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner interviews Phil, a semi-retiree with no coding background who started an AI agency after listening to the podcast. Phil landed a $50,000 six-month retainer with a $1.4B investment firm, a success-based grant-writing app (Grant Craft) for a nonprofit, and a $3,500 + $1,500/month product-launch automation deal for a chiropractor, all from friends and friends of friends. He records discovery meetings and uses Claude for solutions, pricing and contracts, building in Go High Level and Claude Code. Key takeaways: sell to your warm network, listen more than talk, ask for referrals, and productise custom builds.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Host of The Koerner Office"
+  },
+  {
+   "name": "Phil",
+   "role": "guest",
+   "description": "Phil (Philip), semi-retired, runs a one-person AI automation agency"
+  }
+ ],
+ "format": "operator_interview",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Part-time AI automation consultant selling to warm network",
+   "one_liner": "A retiree with no coding background sells AI automations and content systems to friends and friends-of-friends, landing a $50k six-month retainer with an investment firm.",
+   "category": "ai_automation",
+   "business_model": "Retainers and setup fees",
+   "customer": "Small and mid-sized business owners in his personal network (investment firm managing $1.4B, chiropractor, nonprofit)",
+   "problem": "Owners know they need AI but don't know where to start or how",
+   "offer": "Custom AI automations, voice agents, and knowledge-base content creation built with Claude/Claude Code and Go High Level",
+   "pricing": {
+    "model": "retainer",
+    "price_points": [
+     {
+      "amount": 50000,
+      "currency": "USD",
+      "unit": "per 6 months",
+      "label": "investment firm retainer (~$8,333/month), 20-25 hrs/week"
+     }
+    ],
+    "notes": "Client proposed the $50k figure after Phil asked how many hours a week he wanted."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "referrals_word_of_mouth",
+     "details": "Texted 1,000+ phone contacts asking to sit down; 7-10 meetings with business owners. In the UK, texting personal contacts you know is lower risk but unsolicited marketing SMS to individuals needs consent under PECR.",
+     "quote": {
+      "text": "I basically went through all of the contacts on my phone. I've got more than a thousand contacts and I just started making a list and just started sending texts",
+      "speaker": "Phil",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 4312,
+      "approx_timestamp_s": 248
+     }
+    },
+    {
+     "channel": "cold_call",
+     "details": "Cold-called roofing companies early with voice agents; little success."
+    }
+   ],
+   "delivery": "Phil records discovery conversations, feeds transcripts to Claude to design solutions, price and draft contracts, then builds in Go High Level/Claude Code.",
+   "unit_economics_claims": [
+    "$50k/6 months retainer",
+    "~$833/month per check (as stated, likely ~$8,333)"
+   ],
+   "tools": [
+    "Go High Level",
+    "Claude",
+    "Claude Code",
+    "Limitless pendant",
+    "Plaud"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "About 5 months from starting (Oct) to first $50k contract (March)",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Relationship-based warm sales and meetings."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Discovery meetings are human; AI helps prepare."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "AI builds much of it but custom work needs a human."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Invoicing."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Client relationships are human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "AI consulting works the same in the UK; warm outreach fine, cold SMS to individuals restricted by PECR."
+   },
+   "risks": [
+    "Hard to scale beyond friends and family",
+    "No niche/productised offer yet",
+    "Dependent on few large clients"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "the contract that he gave me for the first six months will renew after six month months was for $50,000",
+     "speaker": "Phil",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 2604,
+     "approx_timestamp_s": 149
+    },
+    {
+     "text": "Every bit of the business that I have had to this point has been from people from either direct contacts, direct friends or friends of friends",
+     "speaker": "Phil",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 17417,
+     "approx_timestamp_s": 1002
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Grant Craft: AI grant finder and drafter for nonprofits",
+   "one_liner": "App that finds grants matching a nonprofit, researches requirements and drafts applications for human review; priced as success-based retainer.",
+   "category": "ai_automation",
+   "business_model": "Per-grant fee plus retainer, billed only when a grant is won, capped at 8% of the grant",
+   "customer": "Nonprofits/ministries",
+   "problem": "Finding and writing grant applications is time-consuming",
+   "offer": "Automated grant discovery and drafting, human review before submission",
+   "pricing": {
+    "model": "success-based",
+    "price_points": [
+     {
+      "amount": 1500,
+      "currency": "USD",
+      "unit": "per grant",
+      "label": "per grant filled out"
+     },
+     {
+      "amount": 2000,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "retainer"
+     }
+    ],
+    "notes": "No billing until a grant comes through; total billing capped at 8% of the grant."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "referrals_word_of_mouth",
+     "details": "Built free for a friend's nonprofit as proof of concept."
+    }
+   ],
+   "delivery": "Claude Code app plus an OpenClaw agent fills out grant applications; human reads before sending.",
+   "unit_economics_claims": [
+    "$1,500 per grant + $2,000/month, capped at 8% of grant"
+   ],
+   "tools": [
+    "Claude Code",
+    "OpenClaw"
+   ],
+   "startup_cost": "Built for free (time only)",
+   "time_to_first_revenue": "Not until a grant is awarded",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Grant-seeking nonprofits can be reached by content/SEO; UK charities are often companies (CIOs/charitable companies) so B2B email may be possible."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Feed knowledge base about the organisation."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Agent finds and drafts grants; human review before submission."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Success-based invoicing."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Mostly automated status updates."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "UK has many grant funders and charities; success fees for bid writing are debated ethically by some funders."
+   },
+   "risks": [
+    "Some funders disallow commission-based grant writing",
+    "Quality of AI drafts",
+    "Long payment lag"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "I'll charge you $1,500 per grant that I fill out, $2,000 a month for the retainer for the service. However, I will not bill you anything till until you have a grant come through",
+     "speaker": "Phil",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 9224,
+     "approx_timestamp_s": 531
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Done-for-you product launch for a chiropractor's laser service",
+   "one_liner": "Set up content creation, a GHL bot sent to 7,500 existing clients, sign-up forms and monthly social management to launch a body-toning laser.",
+   "category": "ai_automation",
+   "business_model": "Setup fee plus monthly retainer plus per-client bonus",
+   "customer": "Chiropractor/clinic owner launching a new service",
+   "problem": "Owner doesn't know how to launch and market the new laser",
+   "offer": "Content app, client Q&A bot, sign-up forms, social media management",
+   "pricing": {
+    "model": "setup + retainer + performance",
+    "price_points": [
+     {
+      "amount": 3500,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "setup"
+     },
+     {
+      "amount": 1500,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "6 months"
+     },
+     {
+      "amount": 75,
+      "currency": "USD",
+      "unit": "per client",
+      "label": "each client beyond 10/month"
+     }
+    ],
+    "notes": "Client also pays CRM costs and $500/month ad budget."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "referrals_word_of_mouth",
+     "details": "Came from the Grant Craft friend (who is a chiropractor)."
+    }
+   ],
+   "delivery": "Built in Go High Level in ~12 hours; ~1.5 hours/month ongoing.",
+   "unit_economics_claims": [
+    "~12 hours to build the $3,500 setup",
+    "~1.5 hours/month for $1,500/month"
+   ],
+   "tools": [
+    "Go High Level",
+    "Claude"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "Immediate on signing",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Warm referrals."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Forms and bots."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Content generation and bot automated after setup."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Recurring billing."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "Bot answers client questions."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Works in UK; messaging existing clients needs prior consent (soft opt-in) under PECR; medical/aesthetic advertising rules (ASA/CAP) apply."
+   },
+   "risks": [
+    "Health claims in marketing",
+    "Messaging 7,500 clients requires consent"
+   ],
+   "is_primary": false,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "I charged him uh $3,500 for setup and then $1,500 a month for six months",
+     "speaker": "Phil",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 10389,
+     "approx_timestamp_s": 598
+    },
+    {
+     "text": "once I got all that set up, we're probably talking about it taking me an hour and a half every every month for this",
+     "speaker": "Phil",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 11569,
+     "approx_timestamp_s": 666
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "Knowledge-base content engine in the owner's voice",
+   "one_liner": "Build a knowledge base from a business owner's existing material (22,000 chunks, 570 radio commercials) that generates on-brand content.",
+   "category": "ai_automation",
+   "business_model": "Part of retainer",
+   "customer": "Business owners with lots of existing content",
+   "problem": "No consistent content creation",
+   "offer": "AI content generator trained on the owner's material",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "referrals_word_of_mouth",
+     "details": "Investment firm client."
+    }
+   ],
+   "delivery": "RAG knowledge base generating posts.",
+   "unit_economics_claims": [
+    "22,000 chunks; 570+ commercials"
+   ],
+   "tools": [
+    "Claude"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Warm sales."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Ingest content."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Automated generation with approval."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Billing."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Some support."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works in the UK; FCA financial promotion rules for investment firms."
+   },
+   "risks": [
+    "Regulated financial promotions"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "we have 22,000 chunks of data in this knowledge base that creates content for him. We've got 570 something commercials",
+     "speaker": "Phil",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 13785,
+     "approx_timestamp_s": 793
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "AI voice agents for roofing companies",
+   "one_liner": "Phil's starting point: Go High Level voice agents pitched to friends and roofing companies.",
+   "category": "ai_automation",
+   "business_model": "not stated",
+   "customer": "Roofing companies",
+   "problem": "Missed calls",
+   "offer": "Voice agents",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "cold_call",
+     "details": "Cold called roofing companies."
+    }
+   ],
+   "delivery": "Built in Go High Level.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Go High Level"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Cold calls; UK requires TPS/CTPS screening."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Template setup."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Voice agent runs automatically."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Billing."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Support."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "UK trades are often sole traders; PECR limits cold outreach."
+   },
+   "risks": [
+    "Low conversion from cold calls"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "the first thing I did was started building voice agents just because it was super easy to build and I'm not that technical",
+     "speaker": "Phil",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 1529,
+     "approx_timestamp_s": 88
+    }
+   ]
+  },
+  {
+   "local_id": "I6",
+   "name": "Tiered AI business assessment",
+   "one_liner": "Free, $250 and $1,000 AI business assessments as a foot in the door.",
+   "category": "ai_automation",
+   "business_model": "Tiered one-off assessments",
+   "customer": "Small businesses",
+   "problem": "Don't know where AI fits",
+   "offer": "AI readiness assessments",
+   "pricing": {
+    "model": "tiered",
+    "price_points": [
+     {
+      "amount": 0,
+      "currency": "USD",
+      "unit": "one-off",
+      "label": "free tier"
+     },
+     {
+      "amount": 250,
+      "currency": "USD",
+      "unit": "one-off"
+     },
+     {
+      "amount": 1000,
+      "currency": "USD",
+      "unit": "one-off"
+     }
+    ],
+    "notes": "Idea not yet launched."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "not stated"
+    }
+   ],
+   "delivery": "Assessment report, AI-assisted.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Inbound content possible."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Questionnaire."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "AI-generated report."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Checkout."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Some calls."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works in the UK."
+   },
+   "risks": [
+    "Untested"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "Maybe have a tier that's free, one that's $250, one that's a thousand",
+     "speaker": "Phil",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 24709,
+     "approx_timestamp_s": 1422
+    }
+   ]
+  },
+  {
+   "local_id": "I7",
+   "name": "Vertical SaaS from one-off custom builds (livestock management app)",
+   "one_liner": "Phil vibe-coded a cattle/sheep management app for his brother-in-law; Chris suggests productising such builds to every farmer in a region.",
+   "category": "saas_software",
+   "business_model": "Software subscription (suggested)",
+   "customer": "Farmers (e.g. dairy farmers)",
+   "problem": "Tracking animals, vaccinations, births",
+   "offer": "Livestock tracking app with photos, vaccine and lineage records, possible GPS",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "referrals_word_of_mouth",
+     "details": "Same-industry referrals: 'can you do that for me?'"
+    }
+   ],
+   "delivery": "Replit-built app.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Replit",
+    "Google Earth"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Industry referrals and content."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Self-serve."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "Software."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Subscription."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Support."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "UK farms have strict livestock record requirements; local fit needed."
+   },
+   "risks": [
+    "Niche market size"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "I'm just gonna sell access to this software to every single dairy farmer in Northwest Wisconsin or whatever it is",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 36400,
+     "approx_timestamp_s": 2096
+    }
+   ]
+  },
+  {
+   "local_id": "I8",
+   "name": "VCR flipping",
+   "one_liner": "Two 18-year-olds buy VCRs on Facebook Marketplace for ~$10 and sell for ~$100 on eBay, making ~$7k/month.",
+   "category": "arbitrage_reselling",
+   "business_model": "Buy low, resell",
+   "customer": "Millennials wanting to watch old tapes",
+   "problem": "No new VCR supply",
+   "offer": "Used VCRs",
+   "pricing": {
+    "model": "per unit",
+    "price_points": [
+     {
+      "amount": 100,
+      "currency": "USD",
+      "unit": "per unit",
+      "label": "eBay sale price"
+     }
+    ],
+    "notes": "Bought for $10-30."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "marketplace_platform",
+     "details": "Sell on eBay; source on Facebook Marketplace."
+    }
+   ],
+   "delivery": "Buy, test and ship.",
+   "unit_economics_claims": [
+    "~$7k/month",
+    "Buy $10 sell $100"
+   ],
+   "tools": [
+    "Facebook Marketplace",
+    "eBay"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Marketplace listings."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Self-serve buy."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Physical sourcing, testing and shipping."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Marketplace payments."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Messages."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "eBay and Marketplace exist in the UK; UK uses PAL VCRs."
+   },
+   "risks": [
+    "Supply depletion",
+    "Shipping damage"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "They're making like seven grand a month selling Yes. VCRs. They buy them on Facebook Marketplace for $10 and they go for a hundred on eBay",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 29685,
+     "approx_timestamp_s": 1709
+    }
+   ]
+  },
+  {
+   "local_id": "I9",
+   "name": "DoorDash driving",
+   "one_liner": "Chris tried DoorDash driving and made ~$30/hour.",
+   "category": "job_career",
+   "business_model": "Gig wages",
+   "customer": "Delivery customers",
+   "problem": "not stated",
+   "offer": "Food delivery",
+   "pricing": {
+    "model": "hourly",
+    "price_points": [
+     {
+      "amount": 30,
+      "currency": "USD",
+      "unit": "per hour"
+     }
+    ],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "marketplace_platform",
+     "details": "DoorDash driver app."
+    }
+   ],
+   "delivery": "Driver delivers.",
+   "unit_economics_claims": [
+    "~$30/hour"
+   ],
+   "tools": [
+    "DoorDash"
+   ],
+   "startup_cost": "$500 moped",
+   "time_to_first_revenue": "Within 10 minutes of approval",
+   "automation": {
+    "acquisition": {
+     "score_e": 5,
+     "how": "Platform."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Platform."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Driving."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Platform."
+    },
+    "support": {
+     "score_e": 5,
+     "how": "Platform."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "DoorDash/Deliveroo/Uber Eats exist in the UK."
+   },
+   "risks": [
+    "Not a business; labour"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "I'm making 30 bucks an hour listening to podcasts",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 31794,
+     "approx_timestamp_s": 1830
+    }
+   ]
+  },
+  {
+   "local_id": "I10",
+   "name": "Playmakers AI agency community",
+   "one_liner": "Chris's paid community teaching people to charge local businesses $500-5,000/month for AI setup and management.",
+   "category": "education_coaching",
+   "business_model": "Community membership",
+   "customer": "Aspiring AI agency owners",
+   "problem": "Want to turn AI tools into a business",
+   "offer": "Live calls, templates, lead spreadsheets, 5-day first client challenge",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [
+     {
+      "amount": 500,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "what members charge clients",
+      "amount_max": 5000
+     }
+    ],
+    "notes": "200+ members."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "existing_audience",
+     "details": "Promoted on Chris's podcast."
+    }
+   ],
+   "delivery": "3-7 live calls a week with 23 expert agency owners.",
+   "unit_economics_claims": [
+    "200+ members"
+   ],
+   "tools": [
+    "Claude Code"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Audience-driven."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Self-serve."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Live calls."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Billing."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Community."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works anywhere; UK members must adapt SMS/cold-call frameworks to PECR."
+   },
+   "risks": [
+    "Promotional"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "we show you how to start an AI consulting business where you can charge local businesses $500 to $5,000 a month to set up and manage AI tools for them",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 30482,
+     "approx_timestamp_s": 1755
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "$50k six-month contract with investment firm",
+   "metric": "revenue",
+   "value": {
+    "amount": 50000,
+    "currency": "USD",
+    "unit": "per 6 months"
+   },
+   "claimant": "Phil",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "the contract that he gave me for the first six months will renew after six month months was for $50,000",
+    "speaker": "Phil",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2604,
+    "approx_timestamp_s": 149
+   },
+   "period": "6 months"
+  },
+  {
+   "claim": "Investment firm manages ~$1.4B across nine offices",
+   "metric": "other",
+   "value": {
+    "amount": 1400000000,
+    "currency": "USD",
+    "unit": "AUM"
+   },
+   "claimant": "Phil",
+   "first_hand": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "they manage like $1.4 billion, you know, in the Nashville area, nine offices",
+    "speaker": "Phil",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2022,
+    "approx_timestamp_s": 116
+   }
+  },
+  {
+   "claim": "Retainer involves 20-25 hours a week",
+   "metric": "hours",
+   "value": {
+    "amount": 20,
+    "currency": null,
+    "unit": "hours per week",
+    "amount_max": 25
+   },
+   "claimant": "Phil",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "talking about 20 talking about 20 to 25 hours a week maybe helping you do some things",
+    "speaker": "Phil",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22479,
+    "approx_timestamp_s": 1294
+   }
+  },
+  {
+   "claim": "Texted 1,000+ contacts, 7-10 sit-downs",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 7,
+    "currency": null,
+    "unit": "meetings",
+    "amount_max": 10
+   },
+   "claimant": "Phil",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "had probably seven to 10 sitdowns with business owners",
+    "speaker": "Phil",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4574,
+    "approx_timestamp_s": 263
+   }
+  },
+  {
+   "claim": "Grant Craft pricing: $1,500/grant + $2,000/month retainer",
+   "metric": "price",
+   "value": {
+    "amount": 1500,
+    "currency": "USD",
+    "unit": "per grant"
+   },
+   "claimant": "Phil",
+   "first_hand": true,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "I'll charge you $1,500 per grant that I fill out, $2,000 a month for the retainer for the service",
+    "speaker": "Phil",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9224,
+    "approx_timestamp_s": 531
+   }
+  },
+  {
+   "claim": "Grant billing capped at 8% of grant",
+   "metric": "price",
+   "value": {
+    "amount": 8,
+    "currency": null,
+    "unit": "percent of grant"
+   },
+   "claimant": "Phil",
+   "first_hand": true,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "my billing for you will not exceed 8% of the grant",
+    "speaker": "Phil",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9401,
+    "approx_timestamp_s": 541
+   }
+  },
+  {
+   "claim": "Chiropractor: $3,500 setup + $1,500/month for 6 months",
+   "metric": "price",
+   "value": {
+    "amount": 3500,
+    "currency": "USD",
+    "unit": "one-off"
+   },
+   "claimant": "Phil",
+   "first_hand": true,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "I charged him uh $3,500 for setup and then $1,500 a month for six months",
+    "speaker": "Phil",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10389,
+    "approx_timestamp_s": 598
+   }
+  },
+  {
+   "claim": "$75 per client beyond 10 a month",
+   "metric": "price",
+   "value": {
+    "amount": 75,
+    "currency": "USD",
+    "unit": "per client"
+   },
+   "claimant": "Phil",
+   "first_hand": true,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "anything more than than 10 clients he gets monthly through this service. I get uh $75 per client",
+    "speaker": "Phil",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10532,
+    "approx_timestamp_s": 606
+   }
+  },
+  {
+   "claim": "Client puts $500/month toward ads",
+   "metric": "cost",
+   "value": {
+    "amount": 500,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Phil",
+   "first_hand": true,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "He also gives uh $500 a month towards uh marketing for ads",
+    "speaker": "Phil",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10749,
+    "approx_timestamp_s": 618
+   }
+  },
+  {
+   "claim": "Chiropractor has ~7,500 existing clients",
+   "metric": "customers",
+   "value": {
+    "amount": 7500,
+    "currency": null,
+    "unit": "clients"
+   },
+   "claimant": "Phil",
+   "first_hand": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "He had like 7,500 existing clients",
+    "speaker": "Phil",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11217,
+    "approx_timestamp_s": 645
+   }
+  },
+  {
+   "claim": "About 12 hours to build the $3,500 setup",
+   "metric": "hours",
+   "value": {
+    "amount": 12,
+    "currency": null,
+    "unit": "hours"
+   },
+   "claimant": "Phil",
+   "first_hand": true,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "I would say maybe 12 hours",
+    "speaker": "Phil",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 508,
+    "approx_timestamp_s": 29
+   }
+  },
+  {
+   "claim": "About 1.5 hours/month to maintain",
+   "metric": "hours",
+   "value": {
+    "amount": 1.5,
+    "currency": null,
+    "unit": "hours per month"
+   },
+   "claimant": "Phil",
+   "first_hand": true,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "it taking me an hour and a half every every month for this",
+    "speaker": "Phil",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11625,
+    "approx_timestamp_s": 669
+   }
+  },
+  {
+   "claim": "Knowledge base: 22,000 chunks, 570+ commercials",
+   "metric": "other",
+   "value": {
+    "amount": 22000,
+    "currency": null,
+    "unit": "chunks"
+   },
+   "claimant": "Phil",
+   "first_hand": true,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "we have 22,000 chunks of data in this knowledge base",
+    "speaker": "Phil",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13785,
+    "approx_timestamp_s": 793
+   }
+  },
+  {
+   "claim": "VCR flippers make ~$7k/month",
+   "metric": "revenue",
+   "value": {
+    "amount": 7000,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I8",
+   "quote": {
+    "text": "They're making like seven grand a month selling Yes. VCRs",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 29685,
+    "approx_timestamp_s": 1709
+   }
+  },
+  {
+   "claim": "VCRs bought $10, sold $100",
+   "metric": "sale_price",
+   "value": {
+    "amount": 100,
+    "currency": "USD",
+    "unit": "per unit"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I8",
+   "quote": {
+    "text": "They buy them on Facebook Marketplace for $10 and they go for a hundred on eBay",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 29742,
+    "approx_timestamp_s": 1712
+   }
+  },
+  {
+   "claim": "Hundreds of VCRs for $10-30 within an hour",
+   "metric": "price",
+   "value": {
+    "amount": 10,
+    "currency": "USD",
+    "unit": "per unit",
+    "amount_max": 30
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I8",
+   "quote": {
+    "text": "there were hundreds of VCRs for sale within an hour of me for like 10 to 30 bucks",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 30033,
+    "approx_timestamp_s": 1729
+   }
+  },
+  {
+   "claim": "DoorDash ~$30/hour",
+   "metric": "revenue",
+   "value": {
+    "amount": 30,
+    "currency": "USD",
+    "unit": "per hour"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "idea_local_id": "I9",
+   "quote": {
+    "text": "I'm making 30 bucks an hour listening to podcasts",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 31794,
+    "approx_timestamp_s": 1830
+   }
+  },
+  {
+   "claim": "Playmakers: 200+ members; clients charged $500-5,000/month",
+   "metric": "customers",
+   "value": {
+    "amount": 200,
+    "currency": null,
+    "unit": "members"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "idea_local_id": "I10",
+   "quote": {
+    "text": "We've already got over 200 people in there building real agencies",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 31323,
+    "approx_timestamp_s": 1803
+   }
+  },
+  {
+   "claim": "Assessment tiers free/$250/$1,000",
+   "metric": "price",
+   "value": {
+    "amount": 250,
+    "currency": "USD",
+    "unit": "one-off",
+    "amount_max": 1000
+   },
+   "claimant": "Phil",
+   "first_hand": false,
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "Maybe have a tier that's free, one that's $250, one that's a thousand",
+    "speaker": "Phil",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24709,
+    "approx_timestamp_s": 1422
+   },
+   "hypothetical": true
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Warm-network AI agency launch",
+   "steps": [
+    "Go through every phone contact and list business owners",
+    "Text: I've started an AI automation business, I'd love to sit down with you",
+    "Run 7-10 sit-downs",
+    "Let them talk about pain points; don't pitch features",
+    "Record the conversation",
+    "Feed transcript into Claude for solutions, pricing, contract and objection prep",
+    "Ask for referrals after delivering"
+   ],
+   "idea_local_id": "I1",
+   "area": "acquisition",
+   "quote": {
+    "text": "Hey, I've started this AI automation business, You know, I'd love to be able to sit down with you",
+    "speaker": "Phil",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4472,
+    "approx_timestamp_s": 257
+   }
+  },
+  {
+   "name": "Record discovery calls and analyse with AI",
+   "steps": [
+    "Use a wearable (Limitless/Plaud) or phone voice notes",
+    "Upload transcript to Claude",
+    "Generate solutions, pricing and contract drafts"
+   ],
+   "idea_local_id": "I1",
+   "area": "sales"
+  },
+  {
+   "name": "Success-based pricing for proof of concept",
+   "steps": [
+    "Build free for a friend",
+    "Set price: per-unit fee + retainer",
+    "Bill only when outcome (grant) lands",
+    "Cap total at a % of outcome"
+   ],
+   "idea_local_id": "I2",
+   "area": "pricing"
+  },
+  {
+   "name": "Setup + retainer + performance bonus structure",
+   "steps": [
+    "$3,500 setup",
+    "$1,500/month for 6 months then re-evaluate",
+    "$75 per client above 10/month",
+    "Client pays CRM and $500/month ad budget"
+   ],
+   "idea_local_id": "I3",
+   "area": "pricing"
+  },
+  {
+   "name": "Let the client name the retainer",
+   "steps": [
+    "Ask how many hours a week they want",
+    "Let them propose a number",
+    "Throw in automations free inside the retainer"
+   ],
+   "idea_local_id": "I1",
+   "area": "pricing"
+  },
+  {
+   "name": "Floodgate principle",
+   "steps": [
+    "Solve one problem for a friend",
+    "They bring more businesses/projects",
+    "Always ask for referrals"
+   ],
+   "idea_local_id": null,
+   "area": "acquisition"
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Go High Level",
+   "purpose": "Voice agents, CRM, client bots"
+  },
+  {
+   "name": "Claude",
+   "purpose": "Solution design, pricing, contracts, content"
+  },
+  {
+   "name": "Claude Code",
+   "purpose": "Building apps such as Grant Craft"
+  },
+  {
+   "name": "OpenClaw",
+   "purpose": "Agent that filled out grants"
+  },
+  {
+   "name": "Limitless pendant",
+   "purpose": "Records conversations (bought by Meta)"
+  },
+  {
+   "name": "Plaud",
+   "purpose": "Conversation recorder competitor"
+  },
+  {
+   "name": "Replit",
+   "purpose": "Built livestock app"
+  },
+  {
+   "name": "ChatGPT",
+   "purpose": "AI assistant"
+  },
+  {
+   "name": "Facebook Marketplace",
+   "purpose": "Source VCRs"
+  },
+  {
+   "name": "eBay",
+   "purpose": "Sell VCRs"
+  },
+  {
+   "name": "DoorDash",
+   "purpose": "Gig delivery"
+  },
+  {
+   "name": "Beehiiv",
+   "purpose": "Sponsor: newsletter platform with MCP",
+   "cost_stated": "30% off 30 days with code"
+  },
+  {
+   "name": "Playmakers (playmakersai.com)",
+   "purpose": "Chris's AI agency community"
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Talking too much and listing AI features lost most early prospects.",
+   "quote": {
+    "text": "my first encounters with them looking back involved me talking too much sharing all the things that AI would do rather than letting them share the challenges",
+    "speaker": "Phil",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4632,
+    "approx_timestamp_s": 266
+   }
+  },
+  {
+   "warning": "Can't scale only on friends and family; need to branch out.",
+   "quote": {
+    "text": "I don't believe you can you can only scale with friends and family",
+    "speaker": "Phil",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24219,
+    "approx_timestamp_s": 1394
+   }
+  },
+  {
+   "warning": "MLM-style list-everyone-you-know selling burns relationships if the product is bad.",
+   "quote": null
+  },
+  {
+   "warning": "Being busy is not progress.",
+   "quote": null
+  },
+  {
+   "warning": "Hiding what you're working on from friends creates an artificial sales barrier.",
+   "quote": null
+  },
+  {
+   "warning": "Texting your whole contact list is marketing: in the UK PECR requires consent for marketing SMS to individuals.",
+   "quote": null
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Start with people you know; warm leads close far better than cold calls.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "a friend of a friend is light years better than a cold call",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 37657,
+    "approx_timestamp_s": 2168
+   }
+  },
+  {
+   "lesson": "The best selling is listening; let owners describe pain points.",
+   "theme": "customer_acquisition",
+   "quote": null
+  },
+  {
+   "lesson": "You only need to know more than 99% of the owners you sit with.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "99% of the business owners that we sit in front of, we know significantly more than they do",
+    "speaker": "Phil",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 27024,
+    "approx_timestamp_s": 1556
+   }
+  },
+  {
+   "lesson": "Revenue matters more than having a niche early.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "you have revenue, right? And that's that's more valuable than a niche",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25208,
+    "approx_timestamp_s": 1451
+   }
+  },
+  {
+   "lesson": "Content for local businesses is now like a sign: a basic presence, not virality.",
+   "theme": "offer_design",
+   "quote": null
+  },
+  {
+   "lesson": "Custom builds for one business can become vertical products for the whole industry.",
+   "theme": "scaling",
+   "quote": null
+  },
+  {
+   "lesson": "Always ask for referrals after delivering.",
+   "theme": "customer_acquisition",
+   "quote": null
+  },
+  {
+   "lesson": "Close the big deal then figure out delivery: get a bigger frying pan.",
+   "theme": "mindset_execution",
+   "quote": null
+  },
+  {
+   "lesson": "Talk to yourself as you would to your kids; don't voice negative thoughts.",
+   "theme": "mindset_execution",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "B",
+  "rationale": "First-hand deal terms are specific, but few clients and early-stage; the $833/month figure conflicts with $50k/6 months.",
+  "promotional_conflict": "Chris promotes his Playmakers AI agency community; Beehiiv sponsor read."
+ },
+ "extraction": {
+  "model": "grokbot",
+  "extracted_at": "2026-10-22T09:01:22",
+  "cost_usd": null,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 38,
+   "verified": 38,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

@@ -1,0 +1,738 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "8B6HfmMP-zM",
+  "title": "Build Pro Websites for Yourself (or Clients) Without Any Experience",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=8B6HfmMP-zM",
+  "upload_date": "2025-11-13",
+  "duration_s": 806,
+  "view_count": 26074,
+  "transcript_provider": "ok",
+  "transcript_chars": 14203,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner demonstrates using the AI website builder Readdy to copy a kitchen-cabinet company's high-converting website for his new luxury backyard business, Backyard Funhouse (sport courts at $50-60k vs $1,500 tree jobs). The site was generated in 5 minutes, then tweaked with urgency banners and real photos, and its built-in chat and voice agents booked test appointments. He suggests starting an AI website agency for home service businesses, charging on value and A/B testing pricing via cold outreach. Key takeaway: AI builders make cloning proven designs and testing landing pages very fast.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Host of The Koerner Office; owns tree trimming and sport court businesses"
+  }
+ ],
+ "format": "tutorial_howto",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "AI-built website agency for home service businesses",
+   "one_liner": "Use an AI builder (Readdy) to clone a high-converting site design for local service businesses and charge on value, A/B testing pricing via cold outreach.",
+   "category": "agency",
+   "business_model": "One-off build fee and/or monthly fee (pricing to be tested)",
+   "customer": "Home service business owners",
+   "problem": "Owners lack beautiful, high-converting websites and don't know AI can build them",
+   "offer": "Copy a proven high-converting site design for the client's business, with AI chat and voice booking agents",
+   "pricing": {
+    "model": "flat fee, monthly, or combo (test)",
+    "price_points": [
+     {
+      "amount": 100,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "example monthly test price"
+     }
+    ],
+    "notes": "Charge on value created, not time; test flat fee vs $100/month vs combo across prospects."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "cold_email",
+     "details": "Cold outreach to business owners used to A/B test pricing; in the UK cold email only legal to limited companies, and sole-trader tradespeople cannot be cold emailed/texted under PECR.",
+     "quote": {
+      "text": "use all of this cold outreach to business owners as an opportunity to ABC test your pricing",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 13007,
+      "approx_timestamp_s": 763
+     }
+    }
+   ],
+   "delivery": "Agency operator prompts Readdy to copy a reference site, swaps in client photos, publishes, connects domain; site includes chat and voice agents that book appointments.",
+   "unit_economics_claims": [
+    "A better site could mean 13 vs 10 $50,000 leads a month",
+    "Site built in 5 minutes"
+   ],
+   "tools": [
+    "Readdy (ready.ai)",
+    "Stripe",
+    "Calendly",
+    "Google Analytics",
+    "Shopify"
+   ],
+   "startup_cost": "Very little money (Readdy subscription)",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Cold outreach to owners; UK PECR bans cold SMS/DM/email to sole traders, so only limited-company cold email or inbound is automatable."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Intake of logo/photos can be automated with forms."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "AI builder generates the site in minutes; human QA on copy and images."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Stripe."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Edits by prompt; agents can handle most requests."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Builder and approach work in the UK; outreach to trades constrained by PECR."
+   },
+   "risks": [
+    "Clients may discover they can do it themselves",
+    "Copying another site's design raises copyright/ethics concerns",
+    "Commoditised, price pressure"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "not too long ago, you could charge thousands of dollars to build websites like these. In fact, today you still can",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 12064,
+     "approx_timestamp_s": 708
+    },
+    {
+     "text": "You need to charge for the level of value that you create",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 12548,
+     "approx_timestamp_s": 736
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Backyard Funhouse sport court building (subcontracted)",
+   "one_liner": "Chris's luxury backyard amenity business (sport courts, pools, putting greens) in DFW, subcontracting all work.",
+   "category": "home_service",
+   "business_model": "Per-job project sales with subcontracted labour",
+   "customer": "Homeowners in the greater Dallas-Fort Worth area",
+   "problem": "Want luxury backyard amenities",
+   "offer": "Sport courts, pools, putting greens and other backyard amenities, built by subcontractors",
+   "pricing": {
+    "model": "per job",
+    "price_points": [
+     {
+      "amount": 50000,
+      "currency": "USD",
+      "unit": "per job",
+      "label": "average sport court job",
+      "amount_max": 60000
+     },
+     {
+      "amount": 2500,
+      "currency": "USD",
+      "unit": "discount",
+      "label": "promo: $2,500 off complete backyard packages (site demo)"
+     }
+    ],
+    "notes": "Average sport court $50-60k vs $1,500 average tree job."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "seo_organic_search",
+     "details": "AI-built website with SEO, chat and voice booking agent capturing quote requests."
+    }
+   ],
+   "delivery": "Chris acts as GC using a rolodex of subcontractors from his own court build.",
+   "unit_economics_claims": [
+    "Sport court job $50-60k average",
+    "Tree trimming job $1,500 average",
+    "Saved ~$25,000 subcontracting own court"
+   ],
+   "tools": [
+    "Readdy"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Inbound site and AI booking agents automate lead capture."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "AI voice/chat books quote appointments."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical construction by subcontractors."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Invoicing automatable."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Project management is human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Sport courts less common in UK gardens; climate and garden sizes differ."
+   },
+   "risks": [
+    "Large-ticket construction risk and liability",
+    "Subcontractor quality"
+   ],
+   "is_primary": true,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "our tree trimming jobs are about $1,500 on average and a sport court job is about $50 to $60,000 on average",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 810,
+     "approx_timestamp_s": 47
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Tree trimming business",
+   "one_liner": "Chris's existing tree service business.",
+   "category": "home_service",
+   "business_model": "Per job",
+   "customer": "Homeowners",
+   "problem": "Tree trimming",
+   "offer": "Tree trimming",
+   "pricing": {
+    "model": "per job",
+    "price_points": [
+     {
+      "amount": 1500,
+      "currency": "USD",
+      "unit": "per job",
+      "label": "average"
+     }
+    ],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "not stated"
+    }
+   ],
+   "delivery": "Crews.",
+   "unit_economics_claims": [
+    "$1,500 average job"
+   ],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Not discussed."
+    },
+    "onboarding": {
+     "score_e": 1,
+     "how": "Human."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Invoicing."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Tree surgery exists in the UK."
+   },
+   "risks": [
+    "Physical labour, insurance"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "I own a tree trimming business",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 706,
+     "approx_timestamp_s": 41
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "Landing-page testing for product launches",
+   "one_liner": "Publish multiple AI-built landing page variations to measure interest before committing to a digital product, course or physical product.",
+   "category": "digital_products",
+   "business_model": "Validation method for product sales",
+   "customer": "Founders launching products",
+   "problem": "Slow and costly to test landing pages",
+   "offer": "Multiple quick AI landing pages, go all in on the best",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Traffic source not stated."
+    }
+   ],
+   "delivery": "AI site builder.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Readdy"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Ads can be automated."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Self-serve."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "AI generated pages."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Stripe."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "Automatable."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works anywhere."
+   },
+   "risks": [
+    "Needs traffic to test"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "I would just publish a simple site first and then measure how much interest I get across different variations of those sites",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 11452,
+     "approx_timestamp_s": 672
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Average tree trimming job is about $1,500",
+   "metric": "price",
+   "value": {
+    "amount": 1500,
+    "currency": "USD",
+    "unit": "per job"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "our tree trimming jobs are about $1,500 on average",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 810,
+    "approx_timestamp_s": 47
+   }
+  },
+  {
+   "claim": "Average sport court job is $50-60k",
+   "metric": "price",
+   "value": {
+    "amount": 50000,
+    "currency": "USD",
+    "unit": "per job",
+    "amount_max": 60000
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "a sport court job is about $50 to $60,000 on average",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 864,
+    "approx_timestamp_s": 50
+   }
+  },
+  {
+   "claim": "Saved about $25,000 subcontracting his own sport court",
+   "metric": "cost",
+   "value": {
+    "amount": 25000,
+    "currency": "USD",
+    "unit": "one-off"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "I subcontracted out all the work and saved about $25,000 on the job",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 981,
+    "approx_timestamp_s": 57
+   }
+  },
+  {
+   "claim": "Readdy built the site in 5 minutes",
+   "metric": "hours",
+   "value": {
+    "amount": 5,
+    "currency": null,
+    "unit": "minutes"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "12:45. 5 minutes exactly",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3829,
+    "approx_timestamp_s": 224
+   }
+  },
+  {
+   "claim": "Each photo swap took 15-20 seconds",
+   "metric": "other",
+   "value": {
+    "amount": 15,
+    "currency": null,
+    "unit": "seconds",
+    "amount_max": 20
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Each one of these photo swaps took about 15 20 seconds",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6848,
+    "approx_timestamp_s": 401
+   }
+  },
+  {
+   "claim": "About two-thirds of website visitors are on phones",
+   "metric": "traffic",
+   "value": {
+    "amount": null,
+    "currency": null,
+    "unit": "share of visitors",
+    "label": "two-thirds"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "about twothirds of website visitors are looking at their phone",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10673,
+    "approx_timestamp_s": 626
+   }
+  },
+  {
+   "claim": "A better website could mean 13 vs 10 $50k leads a month",
+   "metric": "other",
+   "value": {
+    "amount": 50000,
+    "currency": "USD",
+    "unit": "per lead"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "It could be the difference between getting 10 $50,000 leads a month or 13 $50,000 leads a month",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12691,
+    "approx_timestamp_s": 744
+   },
+   "hypothetical": true
+  },
+  {
+   "claim": "Test pricing like $100/month vs flat fee",
+   "metric": "price",
+   "value": {
+    "amount": 100,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "One flat fee to one guy, 100 bucks a month to another guy, a combo of both to a third guy",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13099,
+    "approx_timestamp_s": 768
+   },
+   "hypothetical": true
+  },
+  {
+   "claim": "Speed of testing increased by 10x",
+   "metric": "other",
+   "value": {
+    "amount": 10,
+    "currency": null,
+    "unit": "x faster"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "Your speed of testing just increased by 10x",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11018,
+    "approx_timestamp_s": 646
+   }
+  },
+  {
+   "claim": "Promo banner: $2,500 off complete backyard packages",
+   "metric": "price",
+   "value": {
+    "amount": 2500,
+    "currency": "USD",
+    "unit": "discount"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "$2,500 off complete backyard packages",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6023,
+    "approx_timestamp_s": 353
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Clone a high-converting site with Readdy",
+   "steps": [
+    "Google 'beautiful home service business websites' and pick one you like",
+    "In Readdy, prompt: copy the design from <domain> but for <business>, services, service area cities, include a quote form",
+    "Ask for urgency elements (timer, coupon, promo tag) in the hero",
+    "Swap AI images for real project photos",
+    "Check mobile version",
+    "Configure the AI chat and voice agent prompts; test that bookings land in Appointments",
+    "Publish and connect a domain"
+   ],
+   "idea_local_id": "I1",
+   "area": "product",
+   "quote": {
+    "text": "Copy the design from kitchenc cabinet.net. But the new website needs to be for a business called Backyard Funhouse",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3245,
+    "approx_timestamp_s": 190
+   }
+  },
+  {
+   "name": "Copy the business practices of well-optimised competitors",
+   "steps": [
+    "If a high-converting site offers financing, offer financing",
+    "Keep phone number persistent in the header",
+    "Copy menu structure and multiple calls to action"
+   ],
+   "idea_local_id": "I2",
+   "area": "offer_design"
+  },
+  {
+   "name": "A/B test agency pricing through outreach",
+   "steps": [
+    "Offer one prospect a flat fee",
+    "Offer another $100/month",
+    "Offer a third a combo",
+    "Keep the price the market accepts"
+   ],
+   "idea_local_id": "I1",
+   "area": "pricing"
+  },
+  {
+   "name": "Become GC on high-ticket jobs using subcontractors",
+   "steps": [
+    "Build your own project with subcontractors",
+    "Keep the rolodex",
+    "Sell the same service to others at retail"
+   ],
+   "idea_local_id": "I2",
+   "area": "operations"
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Readdy (ready.ai)",
+   "purpose": "AI website builder that copies designs, auto-SEO, chat and voice booking agents",
+   "cost_stated": "very little money (not specified); affiliate link"
+  },
+  {
+   "name": "Stripe",
+   "purpose": "Payments integration"
+  },
+  {
+   "name": "Calendly",
+   "purpose": "Appointment integration"
+  },
+  {
+   "name": "Google Analytics",
+   "purpose": "Traffic analytics"
+  },
+  {
+   "name": "Shopify",
+   "purpose": "Sell products via the site"
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Using images scraped from Google Images risks copyright problems; AI images or your own photos avoid that.",
+   "quote": {
+    "text": "that's better than uh you know, stealing images from Google images and potential copyright issues",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3987,
+    "approx_timestamp_s": 234
+   }
+  },
+  {
+   "warning": "Charging too much loses deals; test pricing.",
+   "quote": {
+    "text": "if you charge too much, then they're going to leave you or they're not going to say yes",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12884,
+    "approx_timestamp_s": 756
+   }
+  },
+  {
+   "warning": "Cold outreach to sole-trader tradespeople is restricted in the UK under PECR (consent needed for email/SMS); only limited companies can be cold emailed.",
+   "quote": null
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Charge for the value created, not the time or effort.",
+   "theme": "pricing",
+   "quote": {
+    "text": "you shouldn't charge for the amount of time it takes you or for the amount of effort it takes you",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12450,
+    "approx_timestamp_s": 730
+   }
+  },
+  {
+   "lesson": "Most home service owners don't know AI can build sites in minutes, so the knowledge gap is the margin.",
+   "theme": "niche_selection",
+   "quote": null
+  },
+  {
+   "lesson": "A well-optimised competitor site reveals their business practices (financing, persistent phone number) worth copying.",
+   "theme": "offer_design",
+   "quote": null
+  },
+  {
+   "lesson": "AI site builders increase the speed of testing; test several landing pages before committing.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "It speeds up the learning process so you can speed up your earning process",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11292,
+    "approx_timestamp_s": 662
+   }
+  },
+  {
+   "lesson": "Move up-market: compare ticket sizes ($1,500 tree jobs vs $50-60k sport courts).",
+   "theme": "niche_selection",
+   "quote": null
+  },
+  {
+   "lesson": "Low-latency AI voice agents can book appointments directly into a calendar.",
+   "theme": "automation_ai",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "C",
+  "rationale": "Tool demo with first-hand business numbers but largely promotional for Readdy; agency pricing is hypothetical.",
+  "promotional_conflict": "Affiliate link for Readdy (Chris gets a kickback)."
+ },
+ "extraction": {
+  "model": "grokbot",
+  "extracted_at": "2026-10-22T08:58:06",
+  "cost_usd": null,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 21,
+   "verified": 21,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

@@ -1,0 +1,1674 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "9U4MCbfL8MQ",
+  "title": "The Most Overlooked $81K/Month Business Anyone Can Start",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=9U4MCbfL8MQ",
+  "upload_date": "2026-09-11",
+  "duration_s": 2699,
+  "view_count": 388708,
+  "transcript_provider": "cached",
+  "transcript_chars": 45453,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner interviews Parker Smith, a 25-year-old former DoorDash driver who built and sold a remote cleaning business, runs a holiday lighting business, and in 85 days grew Raleigh Water Pros, a whole-home water filtration installer, to $81k in August revenue with ~$500 setup. He advertises a $2,699 installed price via static Meta ads to undercut $6-8k in-home-sales competitors, pays independent plumbers ~$500 per install, and runs ~40% gross margin with ~$175 CAC. He details speed-to-lead texting, relentless follow-up, Indeed plumber hiring, inventory management and review collection. Key takeaway: find high-ticket trade services with inflated market rates, wedge on price, and sub out the labour.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Host of The Koerner Office"
+  },
+  {
+   "name": "Parker Smith",
+   "role": "guest",
+   "description": "25-year-old founder of Raleigh Water Pros, holiday lighting business; sold a cleaning business; Parker Home Services on YouTube"
+  }
+ ],
+ "format": "operator_interview",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Price-led whole-home water filtration with subcontracted plumbers (Raleigh Water Pros)",
+   "one_liner": "Sell whole-home softener/carbon systems plus RO drinking water at a transparent $2,699 installed price via Facebook ads, undercutting $6-8k in-home-sales competitors, with independent plumbers doing installs.",
+   "category": "home_service",
+   "business_model": "Per-install project sales (~40% gross margin, ~$1,000 net target per job)",
+   "customer": "Homeowners in Raleigh, NC (ads targeted 30-60 age in radius), often already quoted by Culligan/Kinetico/Leaf Home",
+   "problem": "Big brands charge $6-8k via elaborate in-home sales; many are priced out",
+   "offer": "Flagship 10x54 mixed-bed resin+carbon tank with RO drinking water, installed for $2,699 incl. tax; upsells (~$500)",
+   "pricing": {
+    "model": "fixed price installed",
+    "price_points": [
+     {
+      "amount": 2699,
+      "currency": "USD",
+      "unit": "per install",
+      "label": "flagship whole home + RO"
+     },
+     {
+      "amount": 4000,
+      "currency": "USD",
+      "unit": "per install",
+      "label": "well system example"
+     },
+     {
+      "amount": 500,
+      "currency": "USD",
+      "unit": "per upsell"
+     }
+    ],
+    "notes": "Price chosen as cheapest that still nets ~$1,000/job; raise once reputation allows. Average ticket ~$3,000-3,300 with upsells."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "paid_social",
+     "details": "~95% of customers from Facebook/Meta lead-form ads; static image of the unit with '$2,699 installed'; broad radius geo + age 30-60; $100-400/day spend; $30-40 per lead; ~$175 CAC.",
+     "quote": {
+      "text": "it was just a static image ad that was a photo of our unit and it said $26.99 installed and that was it",
+      "speaker": "Parker Smith",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 11061,
+      "approx_timestamp_s": 677
+     }
+    },
+    {
+     "channel": "google_business_profile_maps",
+     "details": "52 five-star reviews in ~80 days; #1 for water filtration on east Raleigh."
+    },
+    {
+     "channel": "referrals_word_of_mouth",
+     "details": "Remaining ~5% from referrals and GBP."
+    }
+   ],
+   "delivery": "Licensed independent plumbers (hired via sponsored Indeed post) install in ~4 hours for ~$400-650; inventory in a smart-lock storage unit with LTL freight; operations manager owns lead-to-install; GHL auto-texts new leads, humans call.",
+   "unit_economics_claims": [
+    "$2,700 sale: ~$950 hardware, ~$100 misc, ~$500 plumber = ~40% gross margin",
+    "CAC ~$175; $30-40 per Meta lead",
+    "June ~$15k (5 installs), July ~$50k (16 jobs), August $81k (~25 jobs)",
+    "25% lead-to-close; ~35% of contacted",
+    "Ops manager $200 per closed job + base"
+   ],
+   "tools": [
+    "Facebook/Meta ads",
+    "Go High Level (LeadConnector)",
+    "Jobber",
+    "Claude (website)",
+    "Google Workspace",
+    "Indeed",
+    "EWG tap water database",
+    "Smart lock storage unit"
+   ],
+   "startup_cost": "~$500 setup; tech stack ~$300/month; insurance ~$180/month",
+   "time_to_first_revenue": "First sale on day one of ads (June 8) with $41 of ad spend",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Meta ads can be run by agents with spend approval; lead-form leads in UK are opt-in so follow-up texts/calls to people who requested a quote are allowed, but closing still relies on human calls."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Phone qualification and quotes by humans; automated intro text."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical installation by plumbers; inventory handling."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Invoicing/payments automatable."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Plumber coordination and service issues human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "UK has hard-water regions (London/South East) and water softener market; needs WRAS-compliant installs and Gas Safe not required; prices in GBP; Meta ads work similarly. UK homes rarely have garages for tanks; softeners go under sinks."
+   },
+   "risks": [
+    "Inventory delays stalled installs",
+    "Plumber quality and dependency",
+    "Thin follow-up capacity as a one-man show",
+    "Rising CAC",
+    "Warranty/service obligations"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "we will pay about $950 for all of the we'll call heavy machinery",
+     "speaker": "Parker Smith",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 9177,
+     "approx_timestamp_s": 561
+    },
+    {
+     "text": "we right now acquiring clients for like 175 bucks a client, which is really really cheap",
+     "speaker": "Parker Smith",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 10395,
+     "approx_timestamp_s": 636
+    },
+    {
+     "text": "we did uh 81,000 in revenue",
+     "speaker": "Parker Smith",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 27788,
+     "approx_timestamp_s": 1700
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Remote cleaning business (sold)",
+   "one_liner": "Parker's first business: started cleaning college apartments himself at ~$40/hour, then delegated to cleaners and sold it after ~2 years for multiple six figures.",
+   "category": "home_service",
+   "business_model": "Per-clean service",
+   "customer": "Households/college apartments",
+   "problem": "Cleaning",
+   "offer": "Cleaning services delivered by cleaners",
+   "pricing": {
+    "model": "per hour",
+    "price_points": [
+     {
+      "amount": 40,
+      "currency": "USD",
+      "unit": "per hour",
+      "label": "Parker billing himself out"
+     }
+    ],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Learnt from a TikTok course creator; channels not stated."
+    }
+   ],
+   "delivery": "Started doing it himself, then delegated.",
+   "unit_economics_claims": [
+    "Sold for multiple six figures"
+   ],
+   "tools": [
+    "Walmart supplies"
+   ],
+   "startup_cost": "~$100 of supplies plus course paid in installments",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Local marketing."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Booking."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical cleaning."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Billing."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Works in UK."
+   },
+   "risks": [
+    "Labour quality"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "I was billing myself out at like 40 bucks an hour, which was way better than Door Dash",
+     "speaker": "Parker Smith",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 2748,
+     "approx_timestamp_s": 168
+    },
+    {
+     "text": "I could get multiple six figures for it",
+     "speaker": "Parker Smith",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 3641,
+     "approx_timestamp_s": 222
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Holiday lighting installation",
+   "one_liner": "Parker's seasonal holiday light installation business; started installing himself then hired installers.",
+   "category": "home_service",
+   "business_model": "Seasonal per-install",
+   "customer": "Homeowners",
+   "problem": "Want holiday lights installed",
+   "offer": "Holiday light installs and takedowns",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "not stated"
+    }
+   ],
+   "delivery": "Installers.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Ads."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Human."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Billing."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Less common in UK."
+   },
+   "risks": [
+    "Seasonal",
+    "Ladder safety"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "That kind of skill set was what helped me start my holiday lighting business which I still own and still run",
+     "speaker": "Parker Smith",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 3055,
+     "approx_timestamp_s": 187
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "High-ticket single-service trade arbitrage (e.g. main panel upgrades, water heaters)",
+   "one_liner": "Pick one high-ticket service within a trade where incumbents set a made-up market rate, undercut on price in ads, and sub out to licensed tradespeople.",
+   "category": "home_service",
+   "business_model": "Per-job sales with subcontracted licensed labour",
+   "customer": "Homeowners",
+   "problem": "Inflated prices for skilled trade services and shortage of tradespeople",
+   "offer": "One productised high-ticket service at a transparent lower price",
+   "pricing": {
+    "model": "per job",
+    "price_points": [
+     {
+      "amount": 10000,
+      "currency": "USD",
+      "unit": "per job",
+      "label": "main panel upgrade market rate"
+     },
+     {
+      "amount": 8000,
+      "currency": "USD",
+      "unit": "per job",
+      "label": "water heater with ~70% margin"
+     }
+    ],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "paid_social",
+     "details": "Put the price in the ad to find already-educated buyers."
+    }
+   ],
+   "delivery": "Licensed subcontractors.",
+   "unit_economics_claims": [
+    "$8,000 water heater ~70% margin (claimed)"
+   ],
+   "tools": [
+    "Facebook ads",
+    "ChatGPT"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Ads automatable."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Human sales calls."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical trades."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Billing."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "UK trade regulations (Part P electrical, Gas Safe) apply; still a gap."
+   },
+   "risks": [
+    "Licensing and liability",
+    "Finding subcontractors"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "If you went in the electrical, like a MPU, a main panel upgrade, I guarantee you that is a $10,000 price point",
+     "speaker": "Parker Smith",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 39150,
+     "approx_timestamp_s": 2396
+    },
+    {
+     "text": "I know a guy that only does water heater installs. He's not a plumber. He subs it out to plumbers",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 40210,
+     "approx_timestamp_s": 2461
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "Price-in-the-ad sport courts (Backyard Funhouse)",
+   "one_liner": "Chris plans an ad showing a sport court at $29,000 to find buyers who know it's normally $40,000.",
+   "category": "home_service",
+   "business_model": "Per project",
+   "customer": "Homeowners wanting sport courts",
+   "problem": "Sport courts expensive",
+   "offer": "$29k sport court",
+   "pricing": {
+    "model": "per job",
+    "price_points": [
+     {
+      "amount": 29000,
+      "currency": "USD",
+      "unit": "per job"
+     }
+    ],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "paid_social",
+     "details": "Meta ad with price."
+    }
+   ],
+   "delivery": "Subcontracted builders.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Meta Ads Manager"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Ads."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Human."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Construction."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Billing."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 2,
+    "notes": "Sport courts uncommon in UK."
+   },
+   "risks": [
+    "Untested"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "it's going to say $29,000 sport courts and I'm only going to find those random people that know that that's actually a $40,000 sport court",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 42154,
+     "approx_timestamp_s": 2580
+    }
+   ]
+  },
+  {
+   "local_id": "I6",
+   "name": "Business plans and community (Chris)",
+   "one_liner": "$19 25-page business plans built from episode transcripts plus research; $5/month YouTube community.",
+   "category": "digital_products",
+   "business_model": "One-off plans and membership",
+   "customer": "Podcast viewers",
+   "problem": "Want a plan for a business",
+   "offer": "$19 plan; $5/month community includes all plans",
+   "pricing": {
+    "model": "one-off / membership",
+    "price_points": [
+     {
+      "amount": 19,
+      "currency": "USD",
+      "unit": "one-off"
+     },
+     {
+      "amount": 5,
+      "currency": "USD",
+      "unit": "per month"
+     }
+    ],
+    "notes": "iPhone signups cost $7/month."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "youtube",
+     "details": "Pinned comment links."
+    }
+   ],
+   "delivery": "AI-assisted plans from transcripts.",
+   "unit_economics_claims": [],
+   "tools": [
+    "YouTube memberships"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 5,
+     "how": "Audience-driven."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Self-serve."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "Digital."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Platform billing."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "Automated."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works anywhere."
+   },
+   "risks": [
+    "Depends on audience"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "put it into a 25page business plan. super thorough charts, graphs, marketing tips, everything. You can get that for only 19 bucks",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 43730,
+     "approx_timestamp_s": 2676
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "August revenue $81k after ~85 days",
+   "metric": "revenue",
+   "value": {
+    "amount": 81000,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Parker Smith",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "in August, we did 81,000 in revenue",
+    "speaker": "Parker Smith",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25,
+    "approx_timestamp_s": 1
+   },
+   "period": "August"
+  },
+  {
+   "claim": "$54k installs booked for September already",
+   "metric": "revenue",
+   "value": {
+    "amount": 54000,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Parker Smith",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "We have $54,000 on the calendar for September",
+    "speaker": "Parker Smith",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 196,
+    "approx_timestamp_s": 11
+   }
+  },
+  {
+   "claim": "Setup cost about $500",
+   "metric": "cost",
+   "value": {
+    "amount": 500,
+    "currency": "USD",
+    "unit": "one-off"
+   },
+   "claimant": "Parker Smith",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "$500 of setup and we were ready to go",
+    "speaker": "Parker Smith",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 417,
+    "approx_timestamp_s": 25
+   }
+  },
+  {
+   "claim": "Tech stack ~$300/month",
+   "metric": "cost",
+   "value": {
+    "amount": 300,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Parker Smith",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "that whole tech stack is 300 bucks a month maybe",
+    "speaker": "Parker Smith",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5165,
+    "approx_timestamp_s": 316
+   }
+  },
+  {
+   "claim": "Insurance ~$180/month",
+   "metric": "cost",
+   "value": {
+    "amount": 180,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Parker Smith",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "general liability plumbing insurance policy which I think was about 180 a month",
+    "speaker": "Parker Smith",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5305,
+    "approx_timestamp_s": 324
+   }
+  },
+  {
+   "claim": "Flagship sold at $2,699 installed",
+   "metric": "price",
+   "value": {
+    "amount": 2699,
+    "currency": "USD",
+    "unit": "per install"
+   },
+   "claimant": "Parker Smith",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "We sell that at $26.99 installed",
+    "speaker": "Parker Smith",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8377,
+    "approx_timestamp_s": 512
+   }
+  },
+  {
+   "claim": "Hardware ~$950 per job",
+   "metric": "cost",
+   "value": {
+    "amount": 950,
+    "currency": "USD",
+    "unit": "per job"
+   },
+   "claimant": "Parker Smith",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "we will pay about $950 for all of the we'll call heavy machinery",
+    "speaker": "Parker Smith",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9177,
+    "approx_timestamp_s": 561
+   }
+  },
+  {
+   "claim": "Misc materials ~$100 per job",
+   "metric": "cost",
+   "value": {
+    "amount": 100,
+    "currency": "USD",
+    "unit": "per job"
+   },
+   "claimant": "Parker Smith",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "we'll probably spend about $100 per job on miscellaneous stuff",
+    "speaker": "Parker Smith",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9416,
+    "approx_timestamp_s": 576
+   }
+  },
+  {
+   "claim": "Plumber paid ~$500 per install ($400-650)",
+   "metric": "cost",
+   "value": {
+    "amount": 500,
+    "currency": "USD",
+    "unit": "per install",
+    "amount_max": 650
+   },
+   "claimant": "Parker Smith",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "We'll pay on average, I would say, about $500 an install",
+    "speaker": "Parker Smith",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9638,
+    "approx_timestamp_s": 589
+   }
+  },
+  {
+   "claim": "About 40% gross margin",
+   "metric": "margin",
+   "value": {
+    "amount": 40,
+    "currency": null,
+    "unit": "percent"
+   },
+   "claimant": "Parker Smith",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I would say, you know, about about 40% gross margin",
+    "speaker": "Parker Smith",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10177,
+    "approx_timestamp_s": 622
+   }
+  },
+  {
+   "claim": "CAC ~$175",
+   "metric": "cost",
+   "value": {
+    "amount": 175,
+    "currency": "USD",
+    "unit": "per customer"
+   },
+   "claimant": "Parker Smith",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "we right now acquiring clients for like 175 bucks a client",
+    "speaker": "Parker Smith",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10395,
+    "approx_timestamp_s": 636
+   }
+  },
+  {
+   "claim": "First deal closed on $41 of ad spend",
+   "metric": "cost",
+   "value": {
+    "amount": 41,
+    "currency": "USD",
+    "unit": "ad spend"
+   },
+   "claimant": "Parker Smith",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "We closed our first deal on $41 of ad spend",
+    "speaker": "Parker Smith",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11014,
+    "approx_timestamp_s": 674
+   }
+  },
+  {
+   "claim": "Competitors charge $6-8k",
+   "metric": "price",
+   "value": {
+    "amount": 6000,
+    "currency": "USD",
+    "unit": "per install",
+    "amount_max": 8000
+   },
+   "claimant": "Parker Smith",
+   "first_hand": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "the price point is 678,000 for honestly a very comparable system",
+    "speaker": "Parker Smith",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11565,
+    "approx_timestamp_s": 707
+   }
+  },
+  {
+   "claim": "95% of customers from Facebook ads",
+   "metric": "other",
+   "value": {
+    "amount": 95,
+    "currency": null,
+    "unit": "percent"
+   },
+   "claimant": "Parker Smith",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "What percentage of your customers are you getting from Facebook ads? 95",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14429,
+    "approx_timestamp_s": 883
+   }
+  },
+  {
+   "claim": "52 five-star reviews in ~80 days",
+   "metric": "other",
+   "value": {
+    "amount": 52,
+    "currency": null,
+    "unit": "reviews"
+   },
+   "claimant": "Parker Smith",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "We we have 52 fivestar reviews. Wow. In 80 days",
+    "speaker": "Parker Smith",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14599,
+    "approx_timestamp_s": 893
+   }
+  },
+  {
+   "claim": "June ~$15k sales, ~$3k operating profit",
+   "metric": "revenue",
+   "value": {
+    "amount": 15000,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Parker Smith",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So I think it got us right around 15",
+    "speaker": "Parker Smith",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 19346,
+    "approx_timestamp_s": 1184
+   },
+   "period": "June"
+  },
+  {
+   "claim": "July just under $50k from 16 jobs",
+   "metric": "revenue",
+   "value": {
+    "amount": 49800,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Parker Smith",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "it was 16 jobs. Um it ended up being like 498, like just shy of 50,000",
+    "speaker": "Parker Smith",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 19785,
+    "approx_timestamp_s": 1211
+   },
+   "period": "July"
+  },
+  {
+   "claim": "July profit ~$11-12k",
+   "metric": "profit",
+   "value": {
+    "amount": 11000,
+    "currency": "USD",
+    "unit": "per month",
+    "amount_max": 12000
+   },
+   "claimant": "Parker Smith",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "12 grand in profit give or take",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21187,
+    "approx_timestamp_s": 1296
+   }
+  },
+  {
+   "claim": "Meta cost $30-40 per lead",
+   "metric": "cost",
+   "value": {
+    "amount": 30,
+    "currency": "USD",
+    "unit": "per lead",
+    "amount_max": 40
+   },
+   "claimant": "Parker Smith",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "It's always range between 30 and 40 per lead",
+    "speaker": "Parker Smith",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21331,
+    "approx_timestamp_s": 1305
+   }
+  },
+  {
+   "claim": "25% lead-to-close; ~35% of people spoken to",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 25,
+    "currency": null,
+    "unit": "percent"
+   },
+   "claimant": "Parker Smith",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "we have a 25% true closing rate",
+    "speaker": "Parker Smith",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20181,
+    "approx_timestamp_s": 1235
+   }
+  },
+  {
+   "claim": "Ad spend ~$100/day June, $300-400/day July, $200/day Aug",
+   "metric": "cost",
+   "value": {
+    "amount": 100,
+    "currency": "USD",
+    "unit": "per day",
+    "amount_max": 400
+   },
+   "claimant": "Parker Smith",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "June it was probably uh $100 a day on average",
+    "speaker": "Parker Smith",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24048,
+    "approx_timestamp_s": 1472
+   }
+  },
+  {
+   "claim": "89 leads in 17 days at $200/day",
+   "metric": "customers",
+   "value": {
+    "amount": 89,
+    "currency": null,
+    "unit": "leads"
+   },
+   "claimant": "Parker Smith",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So about 17 days we got 89 leads",
+    "speaker": "Parker Smith",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24629,
+    "approx_timestamp_s": 1507
+   }
+  },
+  {
+   "claim": "Connected with 70% of leads",
+   "metric": "response_rate",
+   "value": {
+    "amount": 70,
+    "currency": null,
+    "unit": "percent"
+   },
+   "claimant": "Parker Smith",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "We actually connected with 70% of those leads",
+    "speaker": "Parker Smith",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25027,
+    "approx_timestamp_s": 1531
+   }
+  },
+  {
+   "claim": "~50% respond to automated intro text",
+   "metric": "response_rate",
+   "value": {
+    "amount": 50,
+    "currency": null,
+    "unit": "percent"
+   },
+   "claimant": "Parker Smith",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "let's say 50% of our customers will text and respond",
+    "speaker": "Parker Smith",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25866,
+    "approx_timestamp_s": 1583
+   }
+  },
+  {
+   "claim": "Average ticket $3,000-3,300 with upsells",
+   "metric": "price",
+   "value": {
+    "amount": 3000,
+    "currency": "USD",
+    "unit": "per job",
+    "amount_max": 3300
+   },
+   "claimant": "Parker Smith",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "At an average ticket of 3,000 3,300",
+    "speaker": "Parker Smith",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 27460,
+    "approx_timestamp_s": 1680
+   }
+  },
+  {
+   "claim": "Ops manager paid $200 per closed job plus base",
+   "metric": "cost",
+   "value": {
+    "amount": 200,
+    "currency": "USD",
+    "unit": "per job"
+   },
+   "claimant": "Parker Smith",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Jack gets $200 per closed job, not a percentage of sales",
+    "speaker": "Parker Smith",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 28341,
+    "approx_timestamp_s": 1734
+   }
+  },
+  {
+   "claim": "August gross profit ~$750-800/job, ~$18k",
+   "metric": "profit",
+   "value": {
+    "amount": 18000,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "So at 27 jobs, 18 grand",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 28598,
+    "approx_timestamp_s": 1750
+   }
+  },
+  {
+   "claim": "Storage unit ~$125/month",
+   "metric": "cost",
+   "value": {
+    "amount": 125,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Parker Smith",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I have a 10x20 storage unit and 150 a month, 200 a month. Uh 125",
+    "speaker": "Parker Smith",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 29422,
+    "approx_timestamp_s": 1801
+   }
+  },
+  {
+   "claim": "Indeed post at $90/day for 4 days gave 4 qualified leads, hired 3",
+   "metric": "cost",
+   "value": {
+    "amount": 90,
+    "currency": "USD",
+    "unit": "per day"
+   },
+   "claimant": "Parker Smith",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "$90 a day budget for four days. I got four four qualified leads. I hired three of them",
+    "speaker": "Parker Smith",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 30651,
+    "approx_timestamp_s": 1876
+   }
+  },
+  {
+   "claim": "Plumber pay offered $75-125/hour",
+   "metric": "cost",
+   "value": {
+    "amount": 75,
+    "currency": "USD",
+    "unit": "per hour",
+    "amount_max": 125
+   },
+   "claimant": "Parker Smith",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I'm looking to pay between 75 and 125 an hour",
+    "speaker": "Parker Smith",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 30298,
+    "approx_timestamp_s": 1854
+   }
+  },
+  {
+   "claim": "September target $150k+ (~47 installs)",
+   "metric": "revenue",
+   "value": {
+    "amount": 150000,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Parker Smith",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "we better do 150,000 plus, which will be, call it 47 installs",
+    "speaker": "Parker Smith",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 31750,
+    "approx_timestamp_s": 1943
+   },
+   "hypothetical": true
+  },
+  {
+   "claim": "Plumbers earn extra ~$8k/month",
+   "metric": "revenue",
+   "value": {
+    "amount": 8000,
+    "currency": "USD",
+    "unit": "per month"
+   },
+   "claimant": "Parker Smith",
+   "first_hand": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "They're going to make an extra $8,000 a month",
+    "speaker": "Parker Smith",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 32164,
+    "approx_timestamp_s": 1968
+   },
+   "hypothetical": true
+  },
+  {
+   "claim": "First plumber does ~9 jobs/week, ~$100/hour",
+   "metric": "other",
+   "value": {
+    "amount": 100,
+    "currency": "USD",
+    "unit": "per hour"
+   },
+   "claimant": "Parker Smith",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "He does like nine a week for us now",
+    "speaker": "Parker Smith",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 33145,
+    "approx_timestamp_s": 2028
+   }
+  },
+  {
+   "claim": "Over 35% of customers had another company in already",
+   "metric": "other",
+   "value": {
+    "amount": 35,
+    "currency": null,
+    "unit": "percent"
+   },
+   "claimant": "Parker Smith",
+   "first_hand": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I could very confidently say it is over over 35%",
+    "speaker": "Parker Smith",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 33424,
+    "approx_timestamp_s": 2045
+   }
+  },
+  {
+   "claim": "Only 1 of 18 closes on day of opt-in; 10 of 18 after 3+ days",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 1,
+    "currency": null,
+    "unit": "of 18"
+   },
+   "claimant": "Parker Smith",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Only one of the 18 jobs from that uh 90 leads we talked about earlier",
+    "speaker": "Parker Smith",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 36514,
+    "approx_timestamp_s": 2235
+   }
+  },
+  {
+   "claim": "Longest lead-to-close 49 days",
+   "metric": "other",
+   "value": {
+    "amount": 49,
+    "currency": null,
+    "unit": "days"
+   },
+   "claimant": "Parker Smith",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Our longest lead to close cycle so far was 49 days",
+    "speaker": "Parker Smith",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 37239,
+    "approx_timestamp_s": 2279
+   }
+  },
+  {
+   "claim": "Cleaning business sold for multiple six figures",
+   "metric": "sale_price",
+   "value": {
+    "amount": null,
+    "currency": "USD",
+    "unit": "one-off",
+    "label": "multiple six figures"
+   },
+   "claimant": "Parker Smith",
+   "first_hand": true,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "I could get multiple six figures for it",
+    "speaker": "Parker Smith",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3641,
+    "approx_timestamp_s": 222
+   }
+  },
+  {
+   "claim": "Parker billed himself at ~$40/hour cleaning",
+   "metric": "price",
+   "value": {
+    "amount": 40,
+    "currency": "USD",
+    "unit": "per hour"
+   },
+   "claimant": "Parker Smith",
+   "first_hand": true,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "I was billing myself out at like 40 bucks an hour",
+    "speaker": "Parker Smith",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2748,
+    "approx_timestamp_s": 168
+   }
+  },
+  {
+   "claim": "Main panel upgrade ~$10k price point",
+   "metric": "price",
+   "value": {
+    "amount": 10000,
+    "currency": "USD",
+    "unit": "per job"
+   },
+   "claimant": "Parker Smith",
+   "first_hand": false,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "I guarantee you that is a $10,000 price point",
+    "speaker": "Parker Smith",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 39212,
+    "approx_timestamp_s": 2400
+   }
+  },
+  {
+   "claim": "$8,000 water heater is 70% margin",
+   "metric": "margin",
+   "value": {
+    "amount": 70,
+    "currency": null,
+    "unit": "percent"
+   },
+   "claimant": "Parker Smith",
+   "first_hand": false,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "that $8,000 water heater is 70% margin",
+    "speaker": "Parker Smith",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 41164,
+    "approx_timestamp_s": 2519
+   }
+  },
+  {
+   "claim": "$19 business plan; $5/month community",
+   "metric": "price",
+   "value": {
+    "amount": 19,
+    "currency": "USD",
+    "unit": "one-off"
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "You can get that for only 19 bucks",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 43820,
+    "approx_timestamp_s": 2682
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Price-anchored ad against premium incumbents",
+   "steps": [
+    "Find a service where big brands sell via in-home sales at high prices",
+    "Pick price that still nets ~$1,000/job",
+    "Run a static image ad: product photo + '$X installed'",
+    "Target broad radius, age 30-60",
+    "Raise price as reviews accumulate"
+   ],
+   "idea_local_id": "I1",
+   "area": "acquisition",
+   "quote": {
+    "text": "we opened up a uh a Chevy dealership next to a Ferrari dealership",
+    "speaker": "Parker Smith",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 12279,
+    "approx_timestamp_s": 751
+   }
+  },
+  {
+   "name": "Speed-to-lead text then relentless follow-up",
+   "steps": [
+    "GHL auto-texts instantly: 'Hi X, this is Jack with Raleigh Water Pros, when's a good time for 5 minutes to quote?'",
+    "Wait ~1 hour, then call and text",
+    "Follow up until they buy, opt out or say leave me alone",
+    "Expect 4-8 touches before first conversation; closes up to 49 days later"
+   ],
+   "idea_local_id": "I1",
+   "area": "sales",
+   "quote": {
+    "text": "Hey, Kevin, this is Jack with Raleigh Waterpros. I got your form. When's a good time for us to chat for 5 minutes",
+    "speaker": "Parker Smith",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25517,
+    "approx_timestamp_s": 1561
+   }
+  },
+  {
+   "name": "Hire independent plumbers via sponsored Indeed post",
+   "steps": [
+    "Post: licensed, own supplies, $75-125/hour, 2+ jobs/week, only softener/filtration/RO installs",
+    "$90/day for 4 days",
+    "Pick plumbers busy ~30 hrs/week who want more, not struggling or fully booked",
+    "Take them to coffee/lunch to onboard"
+   ],
+   "idea_local_id": "I1",
+   "area": "hiring"
+  },
+  {
+   "name": "Piggyback on competitors' water tests",
+   "steps": [
+    "Ask every lead if they have a water test",
+    "Use competitor's test to remove knowledge gap",
+    "For city water, use EWG public database instead of in-home test",
+    "Send wells to third-party testing"
+   ],
+   "idea_local_id": "I1",
+   "area": "sales"
+  },
+  {
+   "name": "Review maniac for high-ticket service",
+   "steps": [
+    "Ask every customer for a review after the job",
+    "Offer to drop free salt later and ask spouse/brother to review too"
+   ],
+   "idea_local_id": "I1",
+   "area": "acquisition"
+  },
+  {
+   "name": "Remote-access inventory storage",
+   "steps": [
+    "10x20 storage unit with smart lock",
+    "Per-plumber access codes and delivery driver code",
+    "LTL freight with same driver",
+    "Owner visits twice a month"
+   ],
+   "idea_local_id": "I1",
+   "area": "operations"
+  },
+  {
+   "name": "Pay ops manager per closed job, not %",
+   "steps": [
+    "$200 flat per closed job plus base",
+    "Owns lead-to-install end-to-end"
+   ],
+   "idea_local_id": "I1",
+   "area": "hiring"
+  },
+  {
+   "name": "Take deposits if no inventory",
+   "steps": [
+    "Collect deposit at signing if ordering after sale",
+    "Prevents customers walking during delays"
+   ],
+   "idea_local_id": "I1",
+   "area": "finance"
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Facebook/Meta ads",
+   "purpose": "~95% of customers; lead forms",
+   "cost_stated": "$30-40 per lead"
+  },
+  {
+   "name": "Go High Level / LeadConnector",
+   "purpose": "CRM, phone, automated texts (white-label snapshot)"
+  },
+  {
+   "name": "Jobber",
+   "purpose": "Scheduling"
+  },
+  {
+   "name": "Claude",
+   "purpose": "Built the website"
+  },
+  {
+   "name": "Google Workspace",
+   "purpose": "Domain email"
+  },
+  {
+   "name": "Indeed",
+   "purpose": "Sponsored job post to hire plumbers",
+   "cost_stated": "$90/day"
+  },
+  {
+   "name": "EWG water report database",
+   "purpose": "Public tap water quality data"
+  },
+  {
+   "name": "Smart lock",
+   "purpose": "Remote storage access"
+  },
+  {
+   "name": "Beehiiv",
+   "purpose": "Sponsor"
+  },
+  {
+   "name": "Culligan, Kinetico, Leaf Home Water, EcoWater",
+   "purpose": "Premium competitors"
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Running out of inventory halted installs for a week; hold stock.",
+   "quote": {
+    "text": "that 81 grand that we did was with zero installs in the second week of August. H because we didn't have product",
+    "speaker": "Parker Smith",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 28959,
+    "approx_timestamp_s": 1772
+   }
+  },
+  {
+   "warning": "A one-person operation can't follow up with all leads; CAC rises when leads go cold.",
+   "quote": null
+  },
+  {
+   "warning": "About 10% of Meta lead-form leads deny filling the form.",
+   "quote": null
+  },
+  {
+   "warning": "Don't hire struggling or fully booked subcontractors.",
+   "quote": null
+  },
+  {
+   "warning": "Don't judge sales/marketing data until at least a month in.",
+   "quote": null
+  },
+  {
+   "warning": "Don't sell as an outsider without enough technical knowledge to talk to tradespeople.",
+   "quote": {
+    "text": "your business lives or dies on the plumbers",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6585,
+    "approx_timestamp_s": 403
+   }
+  },
+  {
+   "warning": "UK: follow-up texts are fine to people who requested a quote, but buying or cold-texting lists of homeowners breaks PECR.",
+   "quote": null
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Your margin is my opportunity: many trade services have made-up market rates.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "the going rate for this service was $8,000 has nothing to do with water filtration",
+    "speaker": "Parker Smith",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 38987,
+    "approx_timestamp_s": 2386
+   }
+  },
+  {
+   "lesson": "Putting the price in the ad replaces a skilled salesperson by filtering for educated buyers.",
+   "theme": "customer_acquisition",
+   "quote": null
+  },
+  {
+   "lesson": "Pick the cheapest price that still hits your target net per job, then raise with reputation.",
+   "theme": "pricing",
+   "quote": null
+  },
+  {
+   "lesson": "The model (sub out installs, own marketing) matters more than the product.",
+   "theme": "offer_design",
+   "quote": null
+  },
+  {
+   "lesson": "Most high-ticket sales close after multiple touches; quitting early wastes leads.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "17 of them were closed at least one additional touch point",
+    "speaker": "Parker Smith",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 36707,
+    "approx_timestamp_s": 2246
+   }
+  },
+  {
+   "lesson": "Hire one owner for the whole lead-to-job pipeline rather than a pure salesperson.",
+   "theme": "hiring_outsourcing",
+   "quote": null
+  },
+  {
+   "lesson": "The higher the ticket, the harder you must push for reviews.",
+   "theme": "customer_acquisition",
+   "quote": null
+  },
+  {
+   "lesson": "Blue-collar niches are overlooked because people think margins are only in tech.",
+   "theme": "niche_selection",
+   "quote": null
+  },
+  {
+   "lesson": "Prior businesses teach delegation: stop being the means of production.",
+   "theme": "scaling",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "A",
+  "rationale": "First-hand operator with detailed, mostly consistent unit economics and funnel numbers; early stage (85 days).",
+  "promotional_conflict": "Parker sells home service coaching; Chris sells $19 business plans/$5 community; Beehiiv sponsor."
+ },
+ "extraction": {
+  "model": "grokbot",
+  "extracted_at": "2026-10-22T09:02:53",
+  "cost_usd": null,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 58,
+   "verified": 58,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}
