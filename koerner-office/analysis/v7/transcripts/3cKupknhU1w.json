@@ -1,0 +1,1911 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "3cKupknhU1w",
+  "title": "You Don’t Need an Online Business to Get Rich",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=3cKupknhU1w",
+  "upload_date": "2025-07-12",
+  "duration_s": 3497,
+  "view_count": 63964,
+  "transcript_provider": "ok",
+  "transcript_chars": 65017,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner and co-host Nick riff on offline and 'old-school' businesses: hot tub servicing for Airbnbs and hot tub moving for retailers, concierge prep for lake houses, touchless check-in SaaS for boat/kayak rentals, and buying moat-protected destination rental businesses that charge $95 for a 3-hour inner tube. They discuss a Shopify order-confirmation cold email hack, using a B2B directory (ABA autism clinics) as lead generation for an agency, and The Flower Letters, a $10/month subscription of WWII-era story letters with ~31,000 subscribers (~$310k/month) grown by word of mouth. Spin-off ideas include correspondence chess by mail, interactive AI-written kids' story letters, personalised AI story gift books, a directory of niche wedding services, and a niche white-labelled vibe-coding app. Takeaway: analog, local, and 'zig while others zag' businesses with real-world moats are underrated.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Host of The Koerner Office"
+  },
+  {
+   "name": "Nick",
+   "role": "co-host",
+   "description": "Chris's friend; hosts the Nickonomics podcast; building One Life Tale"
+  }
+ ],
+ "format": "host_solo_ideas",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Hot tub servicing for short-term rentals and hot tub moving for retailers",
+   "one_liner": "Weekly hot tub maintenance for Airbnb owners plus acting as the delivery/logistics arm for hot tub retailers.",
+   "category": "home_service",
+   "business_model": "Weekly service fee; per-move fee",
+   "customer": "Short-term rental owners; hot tub retail stores",
+   "problem": "STR hot tubs need regular servicing; retailers don't want to be in delivery logistics",
+   "offer": "Quick weekly service visits; hot tub moving",
+   "pricing": {
+    "model": "Weekly subscription per tub; per move",
+    "price_points": [
+     {
+      "amount": 50,
+      "amount_max": 100,
+      "currency": "USD",
+      "unit": "per week",
+      "label": "servicing"
+     },
+     {
+      "amount": 600,
+      "currency": "USD",
+      "unit": "per move",
+      "label": "hot tub move"
+     }
+    ],
+    "notes": "Visits take about 5 minutes."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "partnerships",
+     "details": "Retailers outsource moving; STR owners as recurring clients.",
+     "quote": null
+    }
+   ],
+   "delivery": "Family business with teenage daughters servicing ~25 tubs a day in rural Idaho.",
+   "unit_economics_claims": [
+    "25 hot tubs a day",
+    "$50-100 per week per tub",
+    "$600 to move a hot tub"
+   ],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "B2B relationships with STR managers and retailers; local SEO possible."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Online sign-up and scheduling."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical chemical servicing and moving."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Recurring card billing."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Call-outs need humans."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "UK holiday lets with hot tubs (Lake District, Cornwall) have the same need."
+   },
+   "risks": [
+    "Labour-bound",
+    "Seasonal tourism"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "they do 25 hot tubs a day. A day in the middle of nowhere Idaho. They charge",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 2783,
+     "approx_timestamp_s": 156
+    },
+    {
+     "text": "between $50 and $100 a week to service these. They were here for 5 minutes.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 112,
+     "approx_timestamp_s": 6
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Lake house concierge prep service",
+   "one_liner": "Before wealthy owners arrive, gas and service boats and jet skis, tidy the yard and stock the fridge; strip beds after.",
+   "category": "home_service",
+   "business_model": "Per-visit fee plus cost of goods",
+   "customer": "Lake house / second-home owners",
+   "problem": "Owners waste the start and end of every trip on prep",
+   "offer": "Text-us-before-you-come prep and turnover",
+   "pricing": {
+    "model": "Per visit plus cost",
+    "price_points": [
+     {
+      "amount": 1000,
+      "currency": "USD",
+      "unit": "per visit",
+      "label": "suggested"
+     }
+    ],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "direct_mail_postcards",
+     "details": "Leave flyers at each lake house.",
+     "quote": null
+    }
+   ],
+   "delivery": "Staff physically prep property and watercraft.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "Low",
+   "time_to_first_revenue": "May take months for owners to visit and see flyers",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Flyers in person; addressed post would be PECR-safe in UK."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Text/web booking."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical work."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Card on file."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Fewer private lake houses; similar for holiday homes and boat owners."
+   },
+   "risks": [
+    "Small dispersed market",
+    "Trust with property access"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "I think that there's an opportunity for somebody to create a concierge prep service for rich people.",
+     "speaker": "Nick",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 4283,
+     "approx_timestamp_s": 240
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Touchless check-in SaaS for recreational rentals",
+   "one_liner": "Vibe-coded app for boat, kayak, ATV and paddle board rental shops: pre-arrival waivers, training videos and check boxes so customers just show up and go.",
+   "category": "saas_software",
+   "business_model": "Monthly SaaS subscription",
+   "customer": "Watercraft/outdoor rental businesses at vacation destinations",
+   "problem": "Customers spend an hour on waivers and instructions; staff time",
+   "offer": "QR-code pre-check-in with waivers and how-to videos, like car rental touchless pickup",
+   "pricing": {
+    "model": "Monthly fee (not quantified)",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Pitch rental businesses directly at destinations; flyers with QR codes.",
+     "quote": null
+    }
+   ],
+   "delivery": "Software.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Vibe coding tools"
+   ],
+   "startup_cost": "Low",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Small local businesses; cold email legal to UK limited companies but many are sole traders (consent needed under PECR)."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Self-serve setup."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "Software."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Subscriptions."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "AI support."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "UK watersports and bike hire shops exist; seasonal."
+   },
+   "risks": [
+    "Existing booking/waiver software competitors",
+    "Small seasonal customers"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "You could vibe code something that these boat rental places pay for monthly to help streamline the waiver process, the learning process.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 5447,
+     "approx_timestamp_s": 305
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "Paddle board with integrated electric pump",
+   "one_liner": "Inflatable paddle board that inflates/deflates at the press of a button.",
+   "category": "ecommerce_physical",
+   "business_model": "Product sales",
+   "customer": "Paddle boarders",
+   "problem": "Inflating takes about 30 minutes",
+   "offer": "Integrated waterproof pump",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "Manufactured product.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Amazon/ads."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Checkout."
+    },
+    "delivery": {
+     "score_e": 2,
+     "how": "Manufacturing and 3PL."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Checkout."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Warranty."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Same."
+   },
+   "risks": [
+    "Hardware R&D and waterproofing",
+    "Product safety certification"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "Can someone invent a paddle board that has an integrated electric pump?",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 8205,
+     "approx_timestamp_s": 460
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "Buy moat-protected destination rental businesses",
+   "one_liner": "Acquire boomer-owned rental businesses with prime location and domain (Mack's Inn float rentals, BearLakeRentals.com) that charge premium prices.",
+   "category": "acquisition_buy_business",
+   "business_model": "Rental fees",
+   "customer": "Tourists at vacation destinations",
+   "problem": "Tourists need gear on site",
+   "offer": "Inner tubes, kayaks, paddle boards, canoes, boats",
+   "pricing": {
+    "model": "Per rental",
+    "price_points": [
+     {
+      "amount": 95,
+      "currency": "USD",
+      "unit": "per 3-hour rental",
+      "label": "inner tube"
+     },
+     {
+      "amount": 105,
+      "currency": "USD",
+      "unit": "per 3-hour rental",
+      "label": "stand up paddle board"
+     },
+     {
+      "amount": 130,
+      "currency": "USD",
+      "unit": "per 3-hour rental",
+      "label": "kayak"
+     },
+     {
+      "amount": 170,
+      "currency": "USD",
+      "unit": "per 3-hour rental",
+      "label": "canoe"
+     }
+    ],
+    "notes": "Comparable inner tube rentals elsewhere about $5/day; tubes cost $15 on Amazon."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "seo_organic_search",
+     "details": "Exact-match domain and location.",
+     "quote": null
+    }
+   ],
+   "delivery": "On-site staff and marina.",
+   "unit_economics_claims": [
+    "$95 inner tube rental vs $15 purchase cost"
+   ],
+   "tools": [],
+   "startup_cost": "Acquisition price (not stated)",
+   "time_to_first_revenue": "Immediate on acquisition",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Location and search bring customers."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Online booking and waivers."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Physical rentals and staff."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Online."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Staff."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "UK lake/coast rental businesses exist; seasonality shorter."
+   },
+   "risks": [
+    "Seasonality",
+    "Liability",
+    "High purchase multiples"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "$95 to rent an inner tube from Max in $95.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 11468,
+     "approx_timestamp_s": 643
+    },
+    {
+     "text": "Imagine buying that boomerowned business, Bearlake Rentals.com, with their own marina right there",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 11966,
+     "approx_timestamp_s": 671
+    }
+   ]
+  },
+  {
+   "local_id": "I6",
+   "name": "Sign creation and maintenance business",
+   "one_liner": "Acquire a durable local sign making/maintenance company (custom and neon signs).",
+   "category": "acquisition_buy_business",
+   "business_model": "Per job and maintenance contracts",
+   "customer": "Local businesses",
+   "problem": "Need signage",
+   "offer": "Sign creation and maintenance",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "Fabrication and installation.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "Acquisition (under LOI, price not stated)",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "B2B."
+    },
+    "onboarding": {
+     "score_e": 2,
+     "how": "Design consults."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Physical."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Invoices."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Same."
+   },
+   "risks": [
+    "Key-person dependency"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "I just talked to a guy who's under LOI for a >> sign printing and maintenance business.",
+     "speaker": null,
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 12396,
+     "approx_timestamp_s": 696
+    }
+   ]
+  },
+  {
+   "local_id": "I7",
+   "name": "Real-world local business hackathon retreat",
+   "one_liner": "Mastermind getaway at a vacation destination where teams compete to launch and earn from an in-person business within a week, filmed as a show.",
+   "category": "events_experiences",
+   "business_model": "Paid retreat / content",
+   "customer": "Entrepreneurs",
+   "problem": "Classroom masterminds don't teach doing",
+   "offer": "Week-long competitive launch retreat with team mentors",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "existing_audience",
+     "details": "Podcast audience; film as a season.",
+     "quote": null
+    }
+   ],
+   "delivery": "In-person event.",
+   "unit_economics_claims": [],
+   "tools": [],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Audience."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Applications."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "In-person."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Online."
+    },
+    "support": {
+     "score_e": 1,
+     "how": "Human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Works in UK."
+   },
+   "risks": [
+    "Needs an audience"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "There are five teams. Whoever can think of and execute the best business model in the next seven days and make the most money wins.",
+     "speaker": "Nick",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 13619,
+     "approx_timestamp_s": 764
+    }
+   ]
+  },
+  {
+   "local_id": "I8",
+   "name": "Directory as B2B lead generation for an agency",
+   "one_liner": "Build a directory of a vertical's businesses (e.g. ABA autism clinics), cold email the listed businesses, then upsell them premium placement and agency services (PPC, SEO).",
+   "category": "marketplace_directory",
+   "business_model": "Premium listings plus agency retainer upsell",
+   "customer": "High-LTV, high-trust businesses: healthcare clinics, CPAs, lawyers, restaurants",
+   "problem": "Agencies need warm leads; clinics need patients",
+   "offer": "Free listing, paid ranking, then agency services",
+   "pricing": {
+    "model": "Premium placement and monthly agency retainer (not quantified)",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "cold_email",
+     "details": "Email each listed business: you're on my directory, want to rank higher?",
+     "quote": null
+    },
+    {
+     "channel": "seo_organic_search",
+     "details": "Directory pages rank (programmatic SEO).",
+     "quote": null
+    }
+   ],
+   "delivery": "AI-built directory; agency delivers PPC/SEO.",
+   "unit_economics_claims": [
+    "Guest gets 90% of his own clinic's leads from a directory"
+   ],
+   "tools": [
+    "AI website builders"
+   ],
+   "startup_cost": "Low",
+   "time_to_first_revenue": "Takes time to gain SEO traction",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Directory and email sequences automate well; in the UK cold email is legal to limited companies (most clinics, law firms) but sole-trader practitioners need consent under PECR."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Self-serve listing claims."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Directory is software; agency services agent-assisted."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Subscriptions."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "AI plus account management."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Works for UK verticals; healthcare advertising rules (ASA/CAP, CQC) apply."
+   },
+   "risks": [
+    "Slow SEO ramp",
+    "Most directories fail (80/20)",
+    "Thin content penalties"
+   ],
+   "is_primary": false,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "he's using that as a lead generation source for the clinics, not for patients.",
+     "speaker": "Nick",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 21124,
+     "approx_timestamp_s": 1186
+    },
+    {
+     "text": "It's a vertically integrated directory to a high ticket monthly recurring offer, right?",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 24306,
+     "approx_timestamp_s": 1364
+    }
+   ]
+  },
+  {
+   "local_id": "I9",
+   "name": "Serialised story-letter subscription (The Flower Letters)",
+   "one_liner": "Mail subscribers two 'handwritten' letters a month that tell a WWII-era romance story, with stickers and artwork, for $10/month.",
+   "category": "digital_products",
+   "business_model": "Monthly subscription",
+   "customer": "Women who love historical fiction/romance",
+   "problem": "Desire for a slow, tangible reading experience",
+   "offer": "Six storyline series delivered as letters; many subscribe to several",
+   "pricing": {
+    "model": "Subscription",
+    "price_points": [
+     {
+      "amount": 10,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "per series"
+     }
+    ],
+    "notes": "Some customers pay $20-50/month for multiple series."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "referrals_word_of_mouth",
+     "details": "No paid ads per interview; ~60k monthly unique visitors (SimilarWeb).",
+     "quote": {
+      "text": "They're not doing paid ads. It's just word of mouth.",
+      "speaker": "Nick",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 532,
+      "approx_timestamp_s": 29
+     }
+    },
+    {
+     "channel": "seo_organic_search",
+     "details": "Organic traffic.",
+     "quote": null
+    }
+   ],
+   "delivery": "Printed letters mailed via USPS bulk from a warehouse in Orem; started from home.",
+   "unit_economics_claims": [
+    "31,000 subscribers a year ago = ~$310k/month",
+    "COGS under $2/subscriber/month (estimate)",
+    "~80% gross margin",
+    "24 employees",
+    "1.8M letters mailed since 2020"
+   ],
+   "tools": [
+    "USPS",
+    "SimilarWeb",
+    "Meta Ad Library"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "Launched August 2020 with 38 subscribers",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Word of mouth, SEO and paid social are inbound."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Online subscription."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Story writing can be AI-assisted; printing and mailing outsourced to a print-and-mail fulfilment house."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Recurring billing."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "AI handles address changes and questions."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Royal Mail bulk rates are higher than USPS, squeezing margin; otherwise works."
+   },
+   "risks": [
+    "Copycats",
+    "Postage price increases",
+    "Writing quality must stay high"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "Two letters per month to people paying $10 per month that tell a story.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 425,
+     "approx_timestamp_s": 23
+    },
+    {
+     "text": "A year ago, they had 31,000 active subscribers.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 28515,
+     "approx_timestamp_s": 1601
+    },
+    {
+     "text": "You don't want to cancel on month three because you don't know how it ends in month 12.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 27299,
+     "approx_timestamp_s": 1533
+    }
+   ]
+  },
+  {
+   "local_id": "I10",
+   "name": "Correspondence chess by mail",
+   "one_liner": "Match players at similar ratings for chess games played by letter, with the company forwarding moves or sending kits with pre-stamped envelopes.",
+   "category": "events_experiences",
+   "business_model": "Subscription",
+   "customer": "Chess players (chess.com boom)",
+   "problem": "Desire for analog connection",
+   "offer": "Matched pen-pal chess games by post",
+   "pricing": {
+    "model": "Subscription",
+    "price_points": [
+     {
+      "amount": 5,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "suggested"
+     }
+    ],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "paid_social",
+     "details": "Banner ads on chess.com.",
+     "quote": null
+    },
+    {
+     "channel": "facebook_groups_communities",
+     "details": "Buy and merge chess Facebook groups.",
+     "quote": null
+    }
+   ],
+   "delivery": "Players submit moves digitally, company mails letters; or kits.",
+   "unit_economics_claims": [
+    "chess.com 35M visitors/month (2020) to 100M users/month (2022)"
+   ],
+   "tools": [
+    "chess.com",
+    "Facebook groups"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Ads and communities."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Online sign-up and rating match."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Print-and-mail API sends letters."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Subscriptions."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "AI."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Works; postage costs higher."
+   },
+   "risks": [
+    "Niche demand untested",
+    "Two-sided matching"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "he had a pen pal that he would write letters to and they were in the middle of a chess game.",
+     "speaker": "Nick",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 35777,
+     "approx_timestamp_s": 2009
+    }
+   ]
+  },
+  {
+   "local_id": "I11",
+   "name": "Interactive AI story letters for kids",
+   "one_liner": "Kids receive story letters with prompts, mail back choices, and AI writes the next chapter in a handwritten font; finished story sold as a printed book.",
+   "category": "digital_products",
+   "business_model": "Subscription plus printed-book upsell",
+   "customer": "Parents of young readers",
+   "problem": "Kids rarely get real mail; engagement with reading",
+   "offer": "Choose-your-own-adventure letters with prepaid return envelopes",
+   "pricing": {
+    "model": "Subscription (not quantified)",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "Mail opened and scanned automatically, uploaded to ChatGPT, response printed and mailed.",
+   "unit_economics_claims": [],
+   "tools": [
+    "ChatGPT"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Paid social to parents."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Online."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Scanning, AI writing and print-and-mail can be automated; mail handling needs a service."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Subscriptions."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "AI."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Children's data (UK GDPR Age Appropriate Design Code) needs care."
+   },
+   "risks": [
+    "Child data protection",
+    "AI content safety"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "It gets put into a machine, gets opened automatically, scanned automatically, uploaded to Chad GPT automatically.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 43076,
+     "approx_timestamp_s": 2418
+    }
+   ]
+  },
+  {
+   "local_id": "I12",
+   "name": "Personalised AI story gift books (One Life Tale)",
+   "one_liner": "Relatives answer prompts about a child; AI generates illustrated stories starring the child, printed as gifts.",
+   "category": "digital_products",
+   "business_model": "Per-book or subscription",
+   "customer": "Relatives wanting to connect with children",
+   "problem": "Distant families want meaningful connection",
+   "offer": "Monthly prompts producing a personalised story",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "App plus print (e.g. Barnes & Noble print).",
+   "unit_economics_claims": [],
+   "tools": [
+    "One Life Tale app"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Ads and gifting SEO."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "App."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "AI and print-on-demand."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Online."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "AI."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works the same."
+   },
+   "risks": [
+    "Crowded personalised book market"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "I can go and enter information about Carson into this app and it will generate a story for Carson.",
+     "speaker": "Nick",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 44163,
+     "approx_timestamp_s": 2480
+    }
+   ]
+  },
+  {
+   "local_id": "I13",
+   "name": "Directory of niche wedding services",
+   "one_liner": "A long-tail 'The Knot' for quirky wedding vendors (beer burro, 360 photo booths, pizza trucks), monetised later via premium placement.",
+   "category": "marketplace_directory",
+   "business_model": "Free listings then paid placement/ads; later marketplace",
+   "customer": "Couples planning unique weddings; niche vendors pay",
+   "problem": "Hard to find unusual Instagrammable wedding services",
+   "offer": "Scraped, filterable directory",
+   "pricing": {
+    "model": "Vendor fees",
+    "price_points": [
+     {
+      "amount": 100,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "suggested vendor ad"
+     },
+     {
+      "amount": 250,
+      "currency": "USD",
+      "unit": "per month",
+      "label": "paid ads trial pitch"
+     }
+    ],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "seo_organic_search",
+     "details": "SEO to the directory.",
+     "quote": null
+    },
+    {
+     "channel": "paid_social",
+     "details": "Ads to women about to get married.",
+     "quote": null
+    }
+   ],
+   "delivery": "Scrape vendors, build with Replit; start in one city (e.g. Dallas).",
+   "unit_economics_claims": [
+    "Beer burro donkey rents for $700 a day"
+   ],
+   "tools": [
+    "Replit",
+    "Lovable"
+   ],
+   "startup_cost": "Low",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "SEO and paid ads."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Scraped listings, self-serve claims."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "Software."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Subscriptions."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "AI."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Works for UK weddings; contacting vendors (often sole traders) by cold email needs PECR care; listing scraped data needs GDPR legitimate-interest assessment."
+   },
+   "risks": [
+    "Chicken-and-egg traffic",
+    "Listing without permission annoys vendors"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "I think someone needs to vibe code a marketplace or a directory for random off-the-wall niche wedding services.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 54232,
+     "approx_timestamp_s": 3045
+    },
+    {
+     "text": "they rent out this donkey for $700 for a day.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 54495,
+     "approx_timestamp_s": 3060
+    }
+   ]
+  },
+  {
+   "local_id": "I14",
+   "name": "Niche white-labelled vibe-coding app",
+   "one_liner": "White-label Lovable/Replit for one niche (e.g. 'Lovable for video games') with guided prompts and an upsell to human engineers for the last 10-20%.",
+   "category": "saas_software",
+   "business_model": "Subscription plus done-for-you upsell",
+   "customer": "Kids and adults wanting to build games",
+   "problem": "Non-coders want to build their own game",
+   "offer": "Niche vibe-coding wrapper with scaffolding prompts",
+   "pricing": {
+    "model": "Cheap subscription plus premium human help",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [],
+   "delivery": "White-labelled vibe-coding platform; engineers for upsell.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Lovable",
+    "Replit",
+    "Supabase",
+    "Stripe"
+   ],
+   "startup_cost": "Low",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Content and ads."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Self-serve."
+    },
+    "delivery": {
+     "score_e": 4,
+     "how": "Software; upsell needs humans."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Subscriptions."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "AI plus engineers."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Software works anywhere."
+   },
+   "risks": [
+    "Thin wrapper, platform dependency",
+    "Underlying platforms add the niche themselves"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "I really like the idea of white labeling a vibe coding service like lovable or replet.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 59235,
+     "approx_timestamp_s": 3326
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Hot tub business services 25 tubs a day at $50-100/week",
+   "metric": "price",
+   "value": {
+    "amount": 50,
+    "amount_max": 100,
+    "currency": "USD",
+    "unit": "per week per tub",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "They charge between $50 and $100 a week to service these.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 100,
+    "approx_timestamp_s": 5
+   }
+  },
+  {
+   "claim": "Moving a hot tub costs $600",
+   "metric": "price",
+   "value": {
+    "amount": 600,
+    "currency": "USD",
+    "unit": "per move",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "It costs 600 bucks to move a hot tub.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13247,
+    "approx_timestamp_s": 743
+   }
+  },
+  {
+   "claim": "Lake prep concierge could charge about $1,000 plus cost",
+   "metric": "price",
+   "value": {
+    "amount": 1000,
+    "currency": "USD",
+    "unit": "per visit",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Nick",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "we'll charge you, you know, whatever a,000 bucks to do that plus cost in a heartbeat.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4681,
+    "approx_timestamp_s": 262
+   }
+  },
+  {
+   "claim": "Mack's Inn rents inner tubes for $95, paddle boards $105, kayaks $130, canoes $170 for 3 hours",
+   "metric": "price",
+   "value": {
+    "amount": 95,
+    "currency": "USD",
+    "unit": "per 3-hour rental",
+    "label": "inner tube"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "Stand up paddle board, $105. One kayak, $130. Canoe, $170. This is a three-hour rental.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11513,
+    "approx_timestamp_s": 646
+   }
+  },
+  {
+   "claim": "Inner tubes cost $15 on Amazon and usually rent for $5/day",
+   "metric": "cost",
+   "value": {
+    "amount": 15,
+    "currency": "USD",
+    "unit": "per unit",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I5",
+   "quote": {
+    "text": "You know those little inner tubes you buy on Amazon 15 bucks, right? You go floating down a river, you rent them for $5 for a day.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11322,
+    "approx_timestamp_s": 635
+   }
+  },
+  {
+   "claim": "Island Park cabins cost about $800k",
+   "metric": "other",
+   "value": {
+    "amount": 800000,
+    "currency": "USD",
+    "unit": "per property",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Nick",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "Crappy cabin up in the woods. 800 grand.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10090,
+    "approx_timestamp_s": 566
+   }
+  },
+  {
+   "claim": "Shopify costs about $39/month vs hundreds for cold email software",
+   "metric": "cost",
+   "value": {
+    "amount": 39,
+    "currency": "USD",
+    "unit": "per month",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "Instead of using hundreds of dollars per month cold emailing software, you're using Shopify, which is like 39 a month.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18968,
+    "approx_timestamp_s": 1065
+   }
+  },
+  {
+   "claim": "Guest gets 90% of his clinic's leads from a directory",
+   "metric": "other",
+   "value": {
+    "amount": 90,
+    "currency": null,
+    "unit": "percent of leads",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Nick",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I8",
+   "quote": {
+    "text": "he's currently getting 90% of his leads from a directory",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22208,
+    "approx_timestamp_s": 1247
+   }
+  },
+  {
+   "claim": "Owning one Subway makes about $20k a year",
+   "metric": "profit",
+   "value": {
+    "amount": 20000,
+    "currency": "USD",
+    "unit": "per year",
+    "label": null
+   },
+   "period": "annual",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "if you own one, you're going to make like 20 grand a year, right?",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24056,
+    "approx_timestamp_s": 1350
+   }
+  },
+  {
+   "claim": "Flower Letters charges $10/month for two letters",
+   "metric": "price",
+   "value": {
+    "amount": 10,
+    "currency": "USD",
+    "unit": "per month",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I9",
+   "quote": {
+    "text": "$10 a month, two letters per month.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 27099,
+    "approx_timestamp_s": 1521
+   }
+  },
+  {
+   "claim": "31,000 subscribers = ~$310k/month a year ago; Chris guesses $400-500k now",
+   "metric": "mrr",
+   "value": {
+    "amount": 310000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": null
+   },
+   "period": "a year ago",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I9",
+   "quote": {
+    "text": "we're talking 310 grand a month. This was a year ago",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 28594,
+    "approx_timestamp_s": 1605
+   }
+  },
+  {
+   "claim": "COGS about $2 per subscriber; ~$60k/month COGS, ~80% gross margin",
+   "metric": "margin",
+   "value": {
+    "amount": 80,
+    "currency": null,
+    "unit": "percent",
+    "label": "gross margin estimate"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I9",
+   "quote": {
+    "text": "Let's just say it's $2 all in. It's 60 grand a month of COGS.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 29044,
+    "approx_timestamp_s": 1630
+   }
+  },
+  {
+   "claim": "24 employees; net profit possibly over $2M/year",
+   "metric": "profit",
+   "value": {
+    "amount": 2000000,
+    "currency": "USD",
+    "unit": "per year",
+    "label": "estimate"
+   },
+   "period": "annual",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I9",
+   "quote": {
+    "text": "I think there's a good chance their net profit is over 2 million a year",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 32004,
+    "approx_timestamp_s": 1797
+   }
+  },
+  {
+   "claim": "About 60,000 unique visitors/month; at 3% conversion = $18k MRR added monthly",
+   "metric": "traffic",
+   "value": {
+    "amount": 60000,
+    "currency": null,
+    "unit": "unique visitors per month",
+    "label": null
+   },
+   "period": "monthly",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": "I9",
+   "quote": {
+    "text": "They're getting 60,000 unique visitors per month.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 32793,
+    "approx_timestamp_s": 1841
+   }
+  },
+  {
+   "claim": "Started August 2020 with 38 subscribers; 1.8M letters mailed since",
+   "metric": "customers",
+   "value": {
+    "amount": 38,
+    "currency": null,
+    "unit": "subscribers at launch",
+    "label": null
+   },
+   "period": "August 2020",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I9",
+   "quote": {
+    "text": "At first, there were 38 subscribers who followed the romance of one couple.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 33380,
+    "approx_timestamp_s": 1874
+   }
+  },
+  {
+   "claim": "chess.com grew from 35M visitors/month (2020) to 100M users/month (2022)",
+   "metric": "traffic",
+   "value": {
+    "amount": 100000000,
+    "currency": null,
+    "unit": "users per month",
+    "label": null
+   },
+   "period": "December 2022",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I10",
+   "quote": {
+    "text": "In December 2022, they had 100 million users per month.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 37234,
+    "approx_timestamp_s": 2090
+   }
+  },
+  {
+   "claim": "Beer burro donkey rents for $700 a day",
+   "metric": "price",
+   "value": {
+    "amount": 700,
+    "currency": "USD",
+    "unit": "per day",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I13",
+   "quote": {
+    "text": "they rent out this donkey for $700 for a day.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 54495,
+    "approx_timestamp_s": 3060
+   }
+  },
+  {
+   "claim": "Meta Orion AR investment wouldn't be cash-flow positive until 2045 even with iPhone-like adoption",
+   "metric": "other",
+   "value": {
+    "amount": null,
+    "currency": null,
+    "unit": null,
+    "label": "payback year 2045"
+   },
+   "period": null,
+   "claimant": "Nick (citing Acquired podcast)",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": null,
+   "quote": {
+    "text": "they wouldn't be cash flow positive until 2045.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 52536,
+    "approx_timestamp_s": 2950
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Shopify order-confirmation cold outreach",
+   "area": "acquisition",
+   "steps": [
+    "Create a Shopify store (trial)",
+    "Build a CSV of dummy orders with target emails and a product name that is your pitch (e.g. 'Outsource stump grinding')",
+    "Import orders, mark as paid, trigger confirmation emails that land in the primary inbox",
+    "Include a tailored message and quote link",
+    "If shut down, open a new account"
+   ],
+   "idea_local_id": null,
+   "quote": {
+    "text": "Shopify order confirmation emails almost always land in the primary inbox.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16710,
+    "approx_timestamp_s": 938
+   }
+  },
+  {
+   "name": "Directory-to-agency funnel",
+   "area": "acquisition",
+   "steps": [
+    "Pick a high-ticket, high-trust vertical not saturated by marketers (healthcare, CPAs, lawyers)",
+    "Build a directory of all businesses with AI",
+    "Cold email each: you're listed, want to rank higher?",
+    "Upsell premium placement then PPC/SEO agency services",
+    "Build ~10 directories expecting 2-3 winners"
+   ],
+   "idea_local_id": "I8",
+   "quote": null
+  },
+  {
+   "name": "Permissionless directory then charge",
+   "area": "pricing",
+   "steps": [
+    "Scrape niche vendors into a directory in one city",
+    "Send them free leads",
+    "Return later: pay (e.g. $100-250/month) for placement or ads, or be removed"
+   ],
+   "idea_local_id": "I13",
+   "quote": {
+    "text": "Hey, you're getting leads from my website. I'm going to charge you now or I'm going to take you off the website.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 56561,
+    "approx_timestamp_s": 3176
+   }
+  },
+  {
+   "name": "Port features from mature industries to sub-industries",
+   "area": "product",
+   "steps": [
+    "Find a feature new in a big industry (touchless car rental pickup)",
+    "Apply it as a service to a smaller adjacent industry (boat, ATV, kayak rentals)",
+    "Sell it to those companies as SaaS"
+   ],
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "find an established industry like car rentals, been around forever. Look at the features and the offerings that are just now starting to come out",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6785,
+    "approx_timestamp_s": 381
+   }
+  },
+  {
+   "name": "Copy a proven subscription in a new genre",
+   "area": "product",
+   "steps": [
+    "Take The Flower Letters model",
+    "Pick other top Amazon fiction categories for women (post-apocalyptic, space opera, Renaissance Italy)",
+    "Launch one or several series",
+    "Use paid Meta ads the incumbent isn't using"
+   ],
+   "idea_local_id": "I9",
+   "quote": null
+  },
+  {
+   "name": "Roll up Facebook groups for distribution",
+   "area": "acquisition",
+   "steps": [
+    "Buy niche Facebook groups (as done for Texas Snacks with a Buc-ee's group)",
+    "Merge them to build a list",
+    "Sell a subscription to members"
+   ],
+   "idea_local_id": "I10",
+   "quote": {
+    "text": "You went and bought a BIES Facebook group. You could go and probably buy some chess groups, roll them up, merge them together.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 38257,
+    "approx_timestamp_s": 2148
+   }
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Shopify",
+   "purpose": "Order-confirmation outreach hack",
+   "cost_stated": "about $39 a month"
+  },
+  {
+   "name": "PayPal",
+   "purpose": "One-cent message outreach trick",
+   "cost_stated": null
+  },
+  {
+   "name": "Replit",
+   "purpose": "Vibe coding directories and apps",
+   "cost_stated": null
+  },
+  {
+   "name": "Lovable",
+   "purpose": "Vibe coding; white-label option",
+   "cost_stated": null
+  },
+  {
+   "name": "ChatGPT",
+   "purpose": "AI story writing",
+   "cost_stated": null
+  },
+  {
+   "name": "Midjourney",
+   "purpose": "Concept art",
+   "cost_stated": null
+  },
+  {
+   "name": "SimilarWeb",
+   "purpose": "Traffic estimates",
+   "cost_stated": null
+  },
+  {
+   "name": "Meta Ad Library",
+   "purpose": "Checking competitor ads",
+   "cost_stated": null
+  },
+  {
+   "name": "USPS",
+   "purpose": "Bulk mail distribution",
+   "cost_stated": "under 50 cents a stamp in bulk"
+  },
+  {
+   "name": "chess.com",
+   "purpose": "Banner ad channel to chess players",
+   "cost_stated": null
+  },
+  {
+   "name": "Limitless pendant",
+   "purpose": "Recording conversations",
+   "cost_stated": null
+  },
+  {
+   "name": "GoHighLevel AI employee",
+   "purpose": "Sponsor: AI lead handling",
+   "cost_stated": "$97 a month after 30-day trial"
+  },
+  {
+   "name": "The Knot, Zola",
+   "purpose": "Wedding marketplaces (comparables)",
+   "cost_stated": null
+  },
+  {
+   "name": "Supabase, Stripe",
+   "purpose": "Backend and payments in vibe-coded apps",
+   "cost_stated": null
+  },
+  {
+   "name": "One Life Tale",
+   "purpose": "Nick's story-capture app",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "The Shopify fake-order outreach hack risks account termination and abuses platform trust; in the UK it would also breach PECR when sent to individuals or sole traders without consent, and fake 'paid order' emails could be misleading.",
+   "quote": {
+    "text": "How quickly do you get shut down by Shopify?",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 19483,
+    "approx_timestamp_s": 1094
+   }
+  },
+  {
+   "warning": "Directories monetised only by banner ads earn little; you need volume or B2B monetisation.",
+   "quote": {
+    "text": "most directories monetized by just banner ads, which is like the lowest form of monetization.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23684,
+    "approx_timestamp_s": 1329
+   }
+  },
+  {
+   "warning": "Home services are over-saturated with marketers; look elsewhere for directory/agency plays.",
+   "quote": {
+    "text": "I think home services are kind of overly saturated.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25176,
+    "approx_timestamp_s": 1413
+   }
+  },
+  {
+   "warning": "Directories take time to build SEO traction; don't expect immediate results.",
+   "quote": null
+  },
+  {
+   "warning": "High gross margins can hide heavy customer acquisition spend below the line.",
+   "quote": null
+  },
+  {
+   "warning": "Vibe-coding gets you 80-90% of the way; the last 10-20% (integrations, payments, security) needs engineers.",
+   "quote": {
+    "text": "it's really easy to build the first 80% or 90%. It's that last 10 or 20% that you can vibe code to",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 61012,
+    "approx_timestamp_s": 3426
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Most valuable local knowledge isn't on the internet, which protects offline businesses from AI.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "Most of everything is not on the internet, believe it or not.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 0,
+    "approx_timestamp_s": 0
+   }
+  },
+  {
+   "lesson": "Location, domain and history create moats that let destination businesses charge huge premiums.",
+   "theme": "pricing",
+   "quote": {
+    "text": "This is what a legal monopoly looks like. This is what a moat looks like.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11237,
+    "approx_timestamp_s": 631
+   }
+  },
+  {
+   "lesson": "Zig while others zag: slow, analog experiences can win in an instant-gratification world.",
+   "theme": "offer_design",
+   "quote": null
+  },
+  {
+   "lesson": "Serialised products have very low churn because customers want to know how the story ends.",
+   "theme": "offer_design",
+   "quote": null
+  },
+  {
+   "lesson": "A small B2B audience can be worth more than a large consumer audience for directories.",
+   "theme": "niche_selection",
+   "quote": {
+    "text": "I'd much rather have the latter",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23644,
+    "approx_timestamp_s": 1327
+   }
+  },
+  {
+   "lesson": "Low USPS bulk postage is an underappreciated subsidy for mail-based businesses.",
+   "theme": "finance_unit_economics",
+   "quote": {
+    "text": "one of the largest subsidies, marketing subsidies that nobody talks about is the United States Postal Service.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 32308,
+    "approx_timestamp_s": 1814
+   }
+  },
+  {
+   "lesson": "Companies that offload logistics (retailers not wanting to move hot tubs) create service niches.",
+   "theme": "niche_selection",
+   "quote": null
+  },
+  {
+   "lesson": "Start a marketplace as a directory in one local market, doing things that don't scale, before expanding.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "I would start small. I would go in one market, do something that doesn't scale, see how it works, and then scale it.",
+    "speaker": "Nick",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 57706,
+    "approx_timestamp_s": 3240
+   }
+  },
+  {
+   "lesson": "AI grows the pie and gives individuals the power institutions used to have; good content will stand out more.",
+   "theme": "automation_ai",
+   "quote": null
+  },
+  {
+   "lesson": "An incumbent with no paid ads leaves room for a well-funded copycat to grow the category.",
+   "theme": "customer_acquisition",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "C",
+  "rationale": "Brainstorm podcast; figures are second-hand (USPS blog, observed prices, guest anecdotes) and several are back-of-envelope estimates (Flower Letters profit).",
+  "promotional_conflict": "GoHighLevel sponsor read; Chris promotes TK Owners ($99/month) and his newsletter; Nick promotes One Life Tale."
+ },
+ "extraction": {
+  "model": "grokbot",
+  "extracted_at": "2026-10-22T09:04:38",
+  "cost_usd": null,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 52,
+   "verified": 52,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

@@ -1,0 +1,767 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "47UgXbHp6nM",
+  "title": "Quit Waiting. Start This Simple Business with $0",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=47UgXbHp6nM",
+  "upload_date": "2025-05-19",
+  "duration_s": 1759,
+  "view_count": 62262,
+  "transcript_provider": "ok",
+  "transcript_chars": 29129,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner and Brandon, owner of an eight-figure marketing agency, trade low-cost growth hacks for local home-service businesses: QR-code 'scan for a prize' yard signs, 'neighbour blitz' door hangers and personalised referral coupons, paying customers to post in local Facebook groups with affiliate links, rock-in-a-bag driveway flyers, writing LLM-friendly blog/FAQ content so ChatGPT surfaces the business, and co-marketing partnerships between non-competing trades. Chris recounts AOL's free-CD campaign (one customer per three CDs, ~$3 CAC for a $50/month customer) as a lesson in riding one channel until ROI turns negative. A key idea: launch a new home service purely by paying high-volume non-competing trades $300 per referred customer.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Host of The Koerner Office"
+  },
+  {
+   "name": "Brandon",
+   "role": "guest",
+   "description": "Owner of an eight-figure marketing agency, Utah; returning guest from episode 60"
+  }
+ ],
+ "format": "host_solo_ideas",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Launch a home service business purely on paid partner referrals",
+   "one_liner": "Start e.g. a painting or window cleaning company and pay high-volume non-competing trades (landscapers) $300 per customer they refer.",
+   "category": "home_service",
+   "business_model": "Per-job service; referral fee per customer",
+   "customer": "Homeowners already served by partner trades",
+   "problem": "New home service businesses need customers fast without ad spend",
+   "offer": "Home service via partner referrals",
+   "pricing": {
+    "model": "Per job",
+    "price_points": [
+     {
+      "amount": 300,
+      "currency": "USD",
+      "unit": "per referred customer",
+      "label": "referral fee paid to partner"
+     }
+    ],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "partnerships",
+     "details": "Ask a landscaper serving ~50 customers a day to mention you; pay $300 per customer.",
+     "quote": {
+      "text": "Hey, would you mind dropping our name to the homeowner and I'll give you $300 for every customer we get?",
+      "speaker": "Chris Koerner",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 27415,
+      "approx_timestamp_s": 1705
+     }
+    }
+   ],
+   "delivery": "Owner or crew performs service; website and phone number set up first.",
+   "unit_economics_claims": [
+    "$300 per referred customer"
+   ],
+   "tools": [],
+   "startup_cost": "Website and phone number",
+   "time_to_first_revenue": "Customers from day two (claimed)",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Partnership deals are human-negotiated; referral tracking can be automated."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Online booking and quotes."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical service."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Invoicing and referral payouts automated."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Referral fees between trades are legal in the UK; must be disclosed fairly to consumers."
+   },
+   "risks": [
+    "Partner reliability",
+    "Margin squeeze from referral fees"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "You can entirely launch it off of this strategy.",
+     "speaker": "Brandon",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 268,
+     "approx_timestamp_s": 16
+    },
+    {
+     "text": "300 bucks a customer starting now.",
+     "speaker": "Brandon",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 395,
+     "approx_timestamp_s": 24
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Rock-in-a-bag flyer distribution as a service",
+   "one_liner": "Offer driveway rock-and-flyer drops to home service businesses, or launch a higher-ticket home service using only this channel.",
+   "category": "agency",
+   "business_model": "Per-drop service fee (not stated)",
+   "customer": "Home service businesses",
+   "problem": "Direct mail gets ignored",
+   "offer": "Targeted neighbourhood flyer drops with a rock in an open 4x10 bag",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": "Cost about 10 cents per drop."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "door_to_door_in_person",
+     "details": "Driving neighbourhoods tossing bags onto driveways.",
+     "quote": null
+    }
+   ],
+   "delivery": "Assemble rock, flyer, bag and staple at a folding table; throw on driveways.",
+   "unit_economics_claims": [
+    "~10 cents per drop",
+    "10-20% response claimed by Daniel"
+   ],
+   "tools": [
+    "Home Depot (rocks)"
+   ],
+   "startup_cost": "About $10 bag of rocks plus flyers",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Selling to businesses."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Forms."
+    },
+    "delivery": {
+     "score_e": 0,
+     "how": "Physical distribution."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Invoices."
+    },
+    "support": {
+     "score_e": 2,
+     "how": "Human."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Unaddressed leafleting is legal in the UK (not covered by PECR), but throwing items onto driveways may raise littering complaints; councils regulate leafleting in some areas."
+   },
+   "risks": [
+    "Angry calls on day one",
+    "Littering complaints"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "buy a bag of rocks at Home Depot for 10 bucks, get a bunch of bags.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 10541,
+     "approx_timestamp_s": 655
+    },
+    {
+     "text": "He swears that his response rate is like 10 or 20%.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 11362,
+     "approx_timestamp_s": 706
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "LLM search optimisation content for local businesses",
+   "one_liner": "Write structured blog posts and FAQs designed to be surfaced by ChatGPT answers before competitors do.",
+   "category": "agency",
+   "business_model": "DIY for owners, or a service",
+   "customer": "Local service businesses",
+   "problem": "Customers increasingly search via ChatGPT; competitors haven't optimised",
+   "offer": "LLM-friendly content generated with ChatGPT and posted to the website",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "seo_organic_search",
+     "details": "Content to be surfaced by LLM search.",
+     "quote": null
+    }
+   ],
+   "delivery": "Prompt ChatGPT to propose topics and write posts; paste on the blog.",
+   "unit_economics_claims": [
+    "ChatGPT-referred YouTube viewers watch ~30% longer (3:54 vs 3:00)"
+   ],
+   "tools": [
+    "ChatGPT",
+    "Google Analytics",
+    "YouTube Analytics"
+   ],
+   "startup_cost": "$0",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Selling as a service to UK limited companies can use cold email; sole traders need consent."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Questionnaire."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "AI writes and publishes content."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Subscriptions."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "AI."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works the same."
+   },
+   "risks": [
+    "Unproven ranking factors",
+    "Low-quality AI content"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "Your competitors are not optimizing to be found in the search from Chad GPT. Guaranteed.",
+     "speaker": "Brandon",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 14830,
+     "approx_timestamp_s": 922
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Bounce house referral math: 700 friends, 200 local, 5% book at $500 = $5,000 for a $100 gift card",
+   "metric": "revenue",
+   "value": {
+    "amount": 5000,
+    "currency": "USD",
+    "unit": "per referral post",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": null,
+   "quote": {
+    "text": "maybe 5% of them, 10 people are going to get a bounce house rental. 500 bucks a pop. That's five grand.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6366,
+    "approx_timestamp_s": 396
+   }
+  },
+  {
+   "claim": "Buy $50 restaurant gift cards for $30 as prizes",
+   "metric": "cost",
+   "value": {
+    "amount": 30,
+    "currency": "USD",
+    "unit": "per gift card",
+    "label": "$50 face value"
+   },
+   "period": null,
+   "claimant": "Brandon",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": null,
+   "quote": {
+    "text": "So, you could buy a $50 gift card from the restaurant owner for 30 bucks.",
+    "speaker": "Brandon",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7216,
+    "approx_timestamp_s": 448
+   }
+  },
+  {
+   "claim": "Rock-in-a-bag flyers get 10-20% response at ~10 cents each",
+   "metric": "response_rate",
+   "value": {
+    "amount": 10,
+    "amount_max": 20,
+    "currency": null,
+    "unit": "percent",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Chris Koerner (relaying Daniel)",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "the cost on this is like 10 cents plus like 10 seconds of time",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11454,
+    "approx_timestamp_s": 712
+   }
+  },
+  {
+   "claim": "ChatGPT-referred viewers watch 3:54 vs 3:00 average",
+   "metric": "other",
+   "value": {
+    "amount": 30,
+    "currency": null,
+    "unit": "percent higher view duration",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "my average view duration is 3 minutes 54 seconds on that and it's 3 minutes overall.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18148,
+    "approx_timestamp_s": 1129
+   }
+  },
+  {
+   "claim": "AOL got one new user per three CDs; spent over $300M; 10,000 to 35M users",
+   "metric": "conversion_rate",
+   "value": {
+    "amount": 33,
+    "currency": null,
+    "unit": "percent",
+    "label": "CDs to users"
+   },
+   "period": "1990s",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "They acquired one you new user for every three CDs sent.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25371,
+    "approx_timestamp_s": 1578
+   }
+  },
+  {
+   "claim": "AOL spent ~$1 per CD, so ~$3 CAC for a $50/month customer",
+   "metric": "cost",
+   "value": {
+    "amount": 3,
+    "currency": "USD",
+    "unit": "per customer",
+    "label": "CAC"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "So spending $3 to acquire a customer that would pay $50 a month for years.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25687,
+    "approx_timestamp_s": 1598
+   }
+  },
+  {
+   "claim": "AOL still made $180M in 2021 from its legacy subscriber cohort",
+   "metric": "revenue",
+   "value": {
+    "amount": 180000000,
+    "currency": "USD",
+    "unit": "per year",
+    "label": null
+   },
+   "period": "2021",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "they were still making 180 million in annual revenue from the AOL advantage program",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25937,
+    "approx_timestamp_s": 1613
+   }
+  },
+  {
+   "claim": "Example: paying a Facebook-group poster $450 in referral commissions",
+   "metric": "cost",
+   "value": {
+    "amount": 450,
+    "currency": "USD",
+    "unit": "per referrer",
+    "label": "hypothetical case study"
+   },
+   "period": null,
+   "claimant": "Brandon",
+   "first_hand": false,
+   "hypothetical": true,
+   "idea_local_id": null,
+   "quote": {
+    "text": "She posted and we ended up paying her 450 bucks",
+    "speaker": "Brandon",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9916,
+    "approx_timestamp_s": 616
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "QR code 'scan for a prize' yard signs",
+   "area": "acquisition",
+   "steps": [
+    "After a job, place a yard sign with a big QR code and 'Scan for a prize'",
+    "Test versions with and without your logo",
+    "Capture name, email and phone for a draw (e.g. $100 Amazon card or bundled local gift cards)",
+    "Market to the captured leads"
+   ],
+   "idea_local_id": null,
+   "quote": {
+    "text": "Have a big old QR code and then a big bold letters. have it say like scan for a prize",
+    "speaker": "Brandon",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 1357,
+    "approx_timestamp_s": 84
+   }
+  },
+  {
+   "name": "Neighbour blitz with personalised referral coupons",
+   "area": "acquisition",
+   "steps": [
+    "Bring door hangers and leave them at the ~6 closest neighbours",
+    "Give the customer coupons with their name (e.g. 20% off) to hand to neighbours",
+    "Use a unique QR/affiliate link per customer to track and reward top referrers"
+   ],
+   "idea_local_id": null,
+   "quote": {
+    "text": "you're bringing affiliate marketing to home services.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5120,
+    "approx_timestamp_s": 318
+   }
+  },
+  {
+   "name": "Pay customers to post in local Facebook groups",
+   "area": "acquisition",
+   "steps": [
+    "Ask happy customers if they're in neighbourhood/moms Facebook groups",
+    "Offer a physical $50 Amazon gift card on the spot if they post",
+    "Text them a custom link paying $20 per signup; tell them to put the link in the top comment to avoid deboosting",
+    "Share a case study of a past payout to motivate",
+    "Be willing to sit in the awkward silence when asking"
+   ],
+   "idea_local_id": null,
+   "quote": {
+    "text": "there's a lot of money to be made by being willing to sit in the awkwardness.",
+    "speaker": "Brandon",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8027,
+    "approx_timestamp_s": 499
+   }
+  },
+  {
+   "name": "Rock-in-a-bag driveway flyers",
+   "area": "acquisition",
+   "steps": [
+    "Buy rocks (~$10 bag) and open 4x10 bags",
+    "Print flyers the same shape as the bag",
+    "Assemble rock, flyer, bag, staple",
+    "Pick the right neighbourhood per service",
+    "Throw on driveways; don't answer calls on day one (mostly angry), answer from day two"
+   ],
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "You don't ever pick up the phone the first day because almost 100% of those first day calls are people that are angry at you",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10925,
+    "approx_timestamp_s": 679
+   }
+  },
+  {
+   "name": "LLM-optimised blog content",
+   "area": "acquisition",
+   "steps": [
+    "Prompt ChatGPT: write in-depth blog posts for my site that will rank in LLM search for relevant queries",
+    "Let it propose topics, structure and competitor angles",
+    "Add your common customer FAQs",
+    "Publish on your website"
+   ],
+   "idea_local_id": "I3",
+   "quote": {
+    "text": "Can you write me quality in-depth blog posts for my website that will rank well in LLM searching on chat GPT",
+    "speaker": "Brandon",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 15289,
+    "approx_timestamp_s": 951
+   }
+  },
+  {
+   "name": "Co-marketing with non-competing local trades",
+   "area": "acquisition",
+   "steps": [
+    "Find well-rated, similarly sized local businesses that don't compete (roofers and painters, Christmas lights and landscapers)",
+    "Meet the owner",
+    "Promote each other's services to your customer lists by text and email"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Why don't more roofers partner with painters? Yes. And just co-arket all the time",
+    "speaker": "Brandon",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22222,
+    "approx_timestamp_s": 1382
+   }
+  },
+  {
+   "name": "Book a meeting from a meeting",
+   "area": "sales",
+   "steps": [
+    "Never end a sales or account call without the next call booked",
+    "End every interaction with a low-friction next step, like ChatGPT asking to continue"
+   ],
+   "idea_local_id": null,
+   "quote": {
+    "text": "Book book a meeting from a meeting.",
+    "speaker": "Brandon",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20594,
+    "approx_timestamp_s": 1281
+   }
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "ChatGPT",
+   "purpose": "Writing LLM-optimised content; LLM search traffic source",
+   "cost_stated": null
+  },
+  {
+   "name": "Google Analytics",
+   "purpose": "Measuring ChatGPT referral traffic",
+   "cost_stated": null
+  },
+  {
+   "name": "YouTube Analytics",
+   "purpose": "Measuring ChatGPT referral traffic",
+   "cost_stated": null
+  },
+  {
+   "name": "Amazon gift cards",
+   "purpose": "Referral and prize incentives",
+   "cost_stated": "$50-100"
+  },
+  {
+   "name": "Facebook groups",
+   "purpose": "Local referral posts",
+   "cost_stated": null
+  },
+  {
+   "name": "QR codes",
+   "purpose": "Trackable offline-to-online links",
+   "cost_stated": null
+  },
+  {
+   "name": "Home Depot",
+   "purpose": "Buying rocks for flyers",
+   "cost_stated": "about $10 a bag"
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Most business owners don't ask for referrals assertively enough; a throwaway comment doesn't work.",
+   "quote": {
+    "text": "98% of business owners are not nearly aggressive or assertive enough in asking for referrals.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5652,
+    "approx_timestamp_s": 351
+   }
+  },
+  {
+   "warning": "Rock-in-a-bag drops provoke angry calls on the first day.",
+   "quote": null
+  },
+  {
+   "warning": "Low-friction offers increase response but lower intent; specific offers get fewer but better leads.",
+   "quote": {
+    "text": "You'll get more scans, you know, lower intent.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 21706,
+    "approx_timestamp_s": 1350
+   }
+  },
+  {
+   "warning": "Facebook may deboost posts with links; put links in comments.",
+   "quote": null
+  },
+  {
+   "warning": "Paid referral posts in community groups should be disclosed (UK ASA/CMA rules on incentivised endorsements) and referral texts or links must not be sent unsolicited to individuals under PECR.",
+   "quote": null
+  },
+  {
+   "warning": "It's unclear whether ChatGPT's advice on how it ranks content is accurate.",
+   "quote": {
+    "text": "how do we know that chat GPT is actually telling us like a method that they actually use to find content on the internet?",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 16522,
+    "approx_timestamp_s": 1028
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Merge offline and online: physical touchpoints (yard signs, coupons) can feed digital funnels and tracking.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "It's kind of like you're you're merging online and offline.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2635,
+    "approx_timestamp_s": 163
+   }
+  },
+  {
+   "lesson": "Test incentive sizes for referrals; after 5-10 tries you'll know whether $20 or $200 is right.",
+   "theme": "validation_testing",
+   "quote": null
+  },
+  {
+   "lesson": "Unusual, non-intrusive formats stand out where standard direct mail is ignored.",
+   "theme": "customer_acquisition",
+   "quote": null
+  },
+  {
+   "lesson": "Be first on new channels: LLM search traffic is small but higher quality.",
+   "theme": "customer_acquisition",
+   "quote": null
+  },
+  {
+   "lesson": "Find one channel that works and push it until ROI turns negative, as AOL did with CDs.",
+   "theme": "scaling",
+   "quote": {
+    "text": "find the one channel and just beat it to death and still until it has a negative ROI.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24366,
+    "approx_timestamp_s": 1516
+   }
+  },
+  {
+   "lesson": "Remove friction and always propose the next step to keep customers engaged.",
+   "theme": "offer_design",
+   "quote": null
+  },
+  {
+   "lesson": "Non-competing businesses serving the same customers can piggyback on each other's trust.",
+   "theme": "customer_acquisition",
+   "quote": null
+  },
+  {
+   "lesson": "Ads work on everyone at the right moment; timing matters as much as message.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "no one thinks the ads work for them, but they they work for all of us.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14146,
+    "approx_timestamp_s": 880
+   }
+  }
+ ],
+ "evidence_quality": {
+  "rating": "C",
+  "rationale": "Growth-hack brainstorm; most tactics are untested ideas, with second-hand numbers (Daniel's response rate, AOL history) and hypothetical referral math.",
+  "promotional_conflict": "Chris promotes TK Owners and his newsletter; Brandon owns a marketing agency."
+ },
+ "extraction": {
+  "model": "grokbot",
+  "extracted_at": "2026-10-22T09:05:59",
+  "cost_usd": null,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 27,
+   "verified": 27,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}

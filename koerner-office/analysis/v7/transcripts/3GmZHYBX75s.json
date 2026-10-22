@@ -1,0 +1,1474 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "3GmZHYBX75s",
+  "title": "He Built This Business in One Weekend for $40",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=3GmZHYBX75s",
+  "upload_date": "2026-07-27",
+  "duration_s": 1975,
+  "view_count": 63459,
+  "transcript_provider": "local_whisper_tiny",
+  "transcript_chars": 32834,
+  "transcript_is_whisper": true
+ },
+ "summary": "Chris Koerner interviews Spencer, who built a custom pet portrait business (transcribed as 'Printer Pet') over one weekend on Shopify for about $40, using print-on-demand fulfilment and commissioned artists in the Philippines. It launched in November 2019, took off with COVID pet adoption and Etsy, and hit just over $1M revenue in its first full year with over $800k in November-December alone; sales are highly seasonal and now declining. Chris advises fresh-creative Facebook ads (his Texas Snacks gets 10x ROAS at $500/day), testing whether customers actually prefer cheaper AI art, and live selling on Whatnot/TikTok Live. He also pitches Nano Banana side ideas: AI landscaping mock-up leads for landscapers and $1-per-photo AI virtual staging for listing agents. Transcript is Whisper (mis-heard names and numbers).",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Host of The Koerner Office; owns Texas Snacks"
+  },
+  {
+   "name": "Spencer",
+   "role": "guest",
+   "description": "Founder of a custom pet portrait e-commerce brand (name mis-transcribed as 'Printer Pet'), Dallas, ex commercial real estate"
+  },
+  {
+   "name": "Braden",
+   "role": "other",
+   "description": "Camera operator and live-selling operator who sells protein bars on Whatnot and TikTok Live"
+  }
+ ],
+ "format": "operator_interview",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Custom pet portrait print-on-demand store",
+   "one_liner": "Customers upload pet photos; offshore artists draw stylised portraits, printed and shipped by print-on-demand partners as posters, frames, canvases or digital files.",
+   "category": "ecommerce_physical",
+   "business_model": "One-off product sales (DTC Shopify and Etsy)",
+   "customer": "Pet owners and gift buyers (about 60% gifts: memorials, new puppies, birthdays)",
+   "problem": "Want a personalised keepsake of a pet",
+   "offer": "Hand-drawn pet portraits in several styles, up to five pets, frames, backgrounds, rush queue and other upsells; an automated 'vogue' style needs no artist",
+   "pricing": {
+    "model": "Per product with upsells",
+    "price_points": [
+     {
+      "amount": 90,
+      "currency": "USD",
+      "unit": "per order",
+      "label": "AOV on own store"
+     },
+     {
+      "amount": 65,
+      "currency": "USD",
+      "unit": "per order",
+      "label": "AOV on Etsy"
+     },
+     {
+      "amount": 105,
+      "currency": "USD",
+      "unit": "per item",
+      "label": "two-pet framed portrait"
+     },
+     {
+      "amount": 10,
+      "currency": "USD",
+      "unit": "per upsell",
+      "label": "red oak frame upgrade (costs $8)"
+     }
+    ],
+    "notes": "Free shipping absorbed; gross margins 60-70% overall, 40-50% on framed portraits."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "marketplace_platform",
+     "details": "Etsy listings and Etsy ads (pay-per-click, $1,000/day budget but often only $100/day spent outside Q4).",
+     "quote": {
+      "text": "I put the products on Etsy and that's where everything really just hockey-sticked and blew up.",
+      "speaker": "Spencer",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 4181,
+      "approx_timestamp_s": 259
+     }
+    },
+    {
+     "channel": "paid_social",
+     "details": "Basic Facebook ads from month two; scaled down once Etsy worked.",
+     "quote": null
+    },
+    {
+     "channel": "organic_social_content",
+     "details": "Launch via personal Facebook posts, Instagram engagement pods and paying pet pages ($20-50) for posts; Pinterest worked well.",
+     "quote": null
+    },
+    {
+     "channel": "existing_audience",
+     "details": "Email list of about 24,000 with pruning flows.",
+     "quote": null
+    }
+   ],
+   "delivery": "Overseas commissioned artists (80 at peak, mostly Philippines) draw portraits; print-on-demand/screen-printing partners print, frame and ship for a flat rate; one employee grades files for the automated style.",
+   "unit_economics_claims": [
+    "First month ~$1,000, month two $3-5k, months 3-10 $10-20k/month",
+    "Over $800k revenue in Nov-Dec 2020; first full year just over $1M",
+    "65-70% of revenue in Nov-Dec",
+    "Gross margin 60-70%; net ~20-30%",
+    "AOV rose 20% after checkout redesign"
+   ],
+   "tools": [
+    "Shopify",
+    "Etsy",
+    "Canva",
+    "Fiverr",
+    "Upwork",
+    "Facebook ads",
+    "Pinterest",
+    "Print-on-demand partners"
+   ],
+   "startup_cost": "About $30-40 (Shopify plan) built over one weekend",
+   "time_to_first_revenue": "Launch week (November 2019); ~$1,000 first month",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Etsy search/ads and Meta ads run inbound; creative refresh can be agent-made."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Self-serve checkout with photo upload and options."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "AI image models could replace artists (they already automate one style); printing/shipping is outsourced POD; human QA of files."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Store checkout."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "AI agents can handle revision back-and-forth; some edge cases need humans."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "UK POD printers and Etsy UK make it identical; strong UK pet gifting market."
+   },
+   "risks": [
+    "Extreme Q4 seasonality",
+    "AI-generated $10 digital files commoditising Etsy",
+    "Ad platform dependence",
+    "Low repeat purchase"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "So I spent one whole weekend, got on Shopify, paid the $30 for the Shopify membership at",
+     "speaker": "Spencer",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 2849,
+     "approx_timestamp_s": 176
+    },
+    {
+     "text": "We ended up doing over $800,000. You're having new in those two months alone.",
+     "speaker": "Spencer",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 13175,
+     "approx_timestamp_s": 817
+    },
+    {
+     "text": "But overall, our margins were anywhere from 60% to 70% margins",
+     "speaker": "Spencer",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 9985,
+     "approx_timestamp_s": 619
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Pet bandana and infinity scarf brand",
+   "one_liner": "Spencer's prior business: locally manufactured pet bandanas and scarves sold with Instagram ads.",
+   "category": "ecommerce_physical",
+   "business_model": "Product sales",
+   "customer": "Pet owners",
+   "problem": "Pet fashion",
+   "offer": "Bandanas and infinity scarves for pets",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "paid_social",
+     "details": "Struggled to run profitable ads.",
+     "quote": null
+    }
+   ],
+   "delivery": "Manufactured in Dallas with sewers and sourced fabric; inventory heavy.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Instagram"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Ads."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Checkout."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Manufacturing and inventory."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Checkout."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "AI."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Works in the UK."
+   },
+   "risks": [
+    "Inventory and sourcing headaches",
+    "Unprofitable ads"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "Finding a group of people to be able to sew all these pandas and scars and source fabric and do all these things was just a whole bit of nightmare.",
+     "speaker": "Spencer",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 5707,
+     "approx_timestamp_s": 353
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "Growing and flipping Instagram pages",
+   "one_liner": "Grow niche Instagram pages to 10-20k followers via engagement pods and sell them.",
+   "category": "content_media",
+   "business_model": "Asset sales of social accounts",
+   "customer": "Buyers of Instagram pages (via Telegram groups)",
+   "problem": "Brands want ready audiences",
+   "offer": "Pre-grown Instagram accounts",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Telegram groups.",
+     "quote": null
+    }
+   ],
+   "delivery": "Posting and engagement pods.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Instagram",
+    "Telegram"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 2,
+     "how": "Buyer networks."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Account handover."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Content can be automated, but pods no longer work."
+    },
+    "billing": {
+     "score_e": 3,
+     "how": "Escrow."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Minimal."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "Account sales breach Instagram terms anywhere."
+   },
+   "risks": [
+    "Violates platform terms",
+    "Speaker says the tactics no longer work"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "I had learned how scale Instagram pages to 10, 20,000 followers and then I was flipping them, selling them.",
+     "speaker": "Spencer",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 6960,
+     "approx_timestamp_s": 431
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "Custom boat and car artwork (Custom Captain)",
+   "one_liner": "Chris's friend's company selling simple custom boat and car artwork, driven entirely by Facebook ads.",
+   "category": "ecommerce_physical",
+   "business_model": "Product sales",
+   "customer": "Boat and car owners",
+   "problem": "Personalised art of their vehicle",
+   "offer": "Custom artwork",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "paid_social",
+     "details": "All business from Facebook ads.",
+     "quote": null
+    }
+   ],
+   "delivery": "not stated",
+   "unit_economics_claims": [
+    "Over $10M a year (claimed)"
+   ],
+   "tools": [
+    "Facebook ads"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Paid social."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Checkout."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "AI art plus POD possible."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Checkout."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "AI."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works the same."
+   },
+   "risks": [
+    "Ad dependence"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "He does over $10 million in year with this business.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 22356,
+     "approx_timestamp_s": 1386
+    }
+   ]
+  },
+  {
+   "local_id": "I5",
+   "name": "AI landscaping mock-up lead generation",
+   "one_liner": "Render beautiful landscaping onto photos of homes with Nano Banana, mail/send them to homeowners and sell resulting leads to landscapers.",
+   "category": "data_leads",
+   "business_model": "Lead sales to landscapers",
+   "customer": "Landscaping companies (homeowners as lead source)",
+   "problem": "Landscapers need qualified leads; homeowners can't visualise improvements",
+   "offer": "Photoreal 'your yard could look like this' images that generate leads",
+   "pricing": {
+    "model": "Per lead (price not stated)",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "direct_mail_postcards",
+     "details": "Send the AI image to the house (method not specified).",
+     "quote": null
+    }
+   ],
+   "delivery": "Pull home photos via Zillow/Redfin/Google Maps, generate images, deliver leads.",
+   "unit_economics_claims": [
+    "Viewers reported starting it and it working (anecdotal)"
+   ],
+   "tools": [
+    "Nano Banana (Google image generation)",
+    "Zillow API",
+    "Redfin",
+    "Google Maps"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Image generation and printed direct mail can be automated; UK PECR forbids unsolicited electronic marketing to individuals, so outreach to homeowners must be postal (addressed post is allowed) not SMS/email."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Landscaper buyers onboarded via forms; selling to them needs some sales."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "Fully software."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Per-lead billing automated."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "AI."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 3,
+    "notes": "No Zillow API in UK; Street View image reuse terms and GDPR on personal data in leads apply; postal outreach is legal."
+   },
+   "risks": [
+    "Image source terms of service (Google Maps)",
+    "Direct mail cost",
+    "Lead quality disputes"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "you just take pictures of homes from the Zillow API or Redfin or Google Maps. And then you run it through Nano Banana",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 27886,
+     "approx_timestamp_s": 1729
+    }
+   ]
+  },
+  {
+   "local_id": "I6",
+   "name": "AI virtual staging for listing agents",
+   "one_liner": "Web app that turns listing photos into staged images for about $1 per photo, pitched to agents with unstaged listings.",
+   "category": "saas_software",
+   "business_model": "Pay per photo",
+   "customer": "Real estate listing agents",
+   "problem": "Physical staging costs ~$4,000 and is a hassle",
+   "offer": "Upload photos, get staged versions",
+   "pricing": {
+    "model": "Per photo",
+    "price_points": [
+     {
+      "amount": 1,
+      "currency": "USD",
+      "unit": "per photo",
+      "label": null
+     },
+     {
+      "amount": 20,
+      "currency": "USD",
+      "unit": "per listing",
+      "label": "typical total"
+     }
+    ],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "cold_email",
+     "details": "Send listing agents staged versions of their own unstaged listing photos.",
+     "quote": null
+    }
+   ],
+   "delivery": "AI image generation in a web app.",
+   "unit_economics_claims": [
+    "Staged homes sell ~7% more and in 23 vs 42 days (claimed)",
+    "Physical staging costs $4,000"
+   ],
+   "tools": [
+    "Nano Banana"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Automated demo images; UK estate agencies are usually limited companies so cold email is allowed, but sole-trader agents need consent under PECR."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Self-serve upload."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "Software."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Card payments."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "AI support."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "UK Rightmove listings; must label virtually staged images to avoid misleading buyers (consumer protection rules)."
+   },
+   "risks": [
+    "Crowded AI staging market",
+    "Misleading image complaints",
+    "Listing photo copyright"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "So here, you can pay me a dollar for photo, for photo. Just upload your photos into my web app and you'll spit out a staged version of it.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 29078,
+     "approx_timestamp_s": 1803
+    }
+   ]
+  },
+  {
+   "local_id": "I7",
+   "name": "Live-selling auctions on Whatnot and TikTok Live",
+   "one_liner": "Auction products live (protein bars bought at 75 cents, or pet portraits by breed) on Whatnot and TikTok Live, where early movers get algorithmic push.",
+   "category": "arbitrage_reselling",
+   "business_model": "Live auction sales",
+   "customer": "Live shopping viewers",
+   "problem": "Entertainment shopping",
+   "offer": "Live auctions of discounted or custom products",
+   "pricing": {
+    "model": "Auction",
+    "price_points": [
+     {
+      "amount": 0.75,
+      "currency": "USD",
+      "unit": "per bar",
+      "label": "protein bar cost"
+     },
+     {
+      "amount": 5,
+      "currency": "USD",
+      "unit": "per digital portrait",
+      "label": "suggested AI digital"
+     }
+    ],
+    "notes": "Bars often sold at or above retail."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "marketplace_platform",
+     "details": "Whatnot and TikTok Live auctions; first movers in a category are pushed by the algorithm.",
+     "quote": null
+    }
+   ],
+   "delivery": "Host runs live shows; ships items.",
+   "unit_economics_claims": [
+    "Buys protein bars at 75 cents, sells at or above retail"
+   ],
+   "tools": [
+    "Whatnot",
+    "TikTok Live"
+   ],
+   "startup_cost": "Inventory",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 1,
+     "how": "Live host needed."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Platform."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Live show and shipping."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Platform."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Platform tools."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Whatnot and TikTok Shop operate in the UK."
+   },
+   "risks": [
+    "Requires on-camera time",
+    "Early-mover advantage fades"
+   ],
+   "is_primary": false,
+   "depth": "moderate",
+   "quotes": [
+    {
+     "text": "he's buying these bars for 75 cents and selling them for like at or above retail.",
+     "speaker": "Chris Koerner",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 30381,
+     "approx_timestamp_s": 1884
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Launch cost about $30 Shopify plan, built in one weekend",
+   "metric": "cost",
+   "value": {
+    "amount": 30,
+    "currency": "USD",
+    "unit": "per month",
+    "label": "Shopify plan"
+   },
+   "period": null,
+   "claimant": "Spencer",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "paid the $30 for the Shopify membership at",
+    "speaker": "Spencer",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 2893,
+    "approx_timestamp_s": 179
+   }
+  },
+  {
+   "claim": "First month just over $1,000 revenue, mostly friends and family",
+   "metric": "revenue",
+   "value": {
+    "amount": 1000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": null
+   },
+   "period": "month one",
+   "claimant": "Spencer",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "First month was just over $1,000 in revenue and a lot of that was attributed to friends and family.",
+    "speaker": "Spencer",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5231,
+    "approx_timestamp_s": 324
+   }
+  },
+  {
+   "claim": "Month two $3,000-5,000 with Facebook ads",
+   "metric": "revenue",
+   "value": {
+    "amount": 3000,
+    "amount_max": 5000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": null
+   },
+   "period": "month two",
+   "claimant": "Spencer",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "we were able to get up to $3,000 to $5,000 a month.",
+    "speaker": "Spencer",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 5988,
+    "approx_timestamp_s": 371
+   }
+  },
+  {
+   "claim": "Months 3-10 about $10-20k a month after Etsy",
+   "metric": "revenue",
+   "value": {
+    "amount": 10000,
+    "amount_max": 20000,
+    "currency": "USD",
+    "unit": "per month",
+    "label": null
+   },
+   "period": "months 3-10",
+   "claimant": "Spencer",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "we started seeing about like anywhere from 10 to 20,000 up until the end of October.",
+    "speaker": "Spencer",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8441,
+    "approx_timestamp_s": 523
+   }
+  },
+  {
+   "claim": "65-70% of revenue in November and December",
+   "metric": "revenue",
+   "value": {
+    "amount": 65,
+    "amount_max": 70,
+    "currency": null,
+    "unit": "percent of annual revenue",
+    "label": "Q4 share"
+   },
+   "period": "annual",
+   "claimant": "Spencer",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "we'll do anywhere from 65 to 70% or revenue is done in just the months of November and December.",
+    "speaker": "Spencer",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 8613,
+    "approx_timestamp_s": 534
+   }
+  },
+  {
+   "claim": "Over $800k revenue in Nov-Dec 2020; first full year just over $1M",
+   "metric": "revenue",
+   "value": {
+    "amount": 1000000,
+    "currency": "USD",
+    "unit": "per year",
+    "label": "first full year"
+   },
+   "period": "2020",
+   "claimant": "Spencer",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "And that was our first full year ended up closing out just over a million dollars in revenue",
+    "speaker": "Spencer",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13640,
+    "approx_timestamp_s": 846
+   }
+  },
+  {
+   "claim": "Overall margins 60-70%; framed portraits 40-50%",
+   "metric": "margin",
+   "value": {
+    "amount": 60,
+    "amount_max": 70,
+    "currency": null,
+    "unit": "percent",
+    "label": "gross margin"
+   },
+   "period": null,
+   "claimant": "Spencer",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "We were for certain portraits, depending on the size, anywhere from 40 to 50% margins.",
+    "speaker": "Spencer",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9879,
+    "approx_timestamp_s": 612
+   }
+  },
+  {
+   "claim": "Net profit about 20-30%",
+   "metric": "margin",
+   "value": {
+    "amount": 20,
+    "amount_max": 30,
+    "currency": null,
+    "unit": "percent",
+    "label": "net margin"
+   },
+   "period": null,
+   "claimant": "Spencer",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Brose is 50 to 60, netting 20 to 30, yeah.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10495,
+    "approx_timestamp_s": 650
+   }
+  },
+  {
+   "claim": "80 commissioned artists and 3 full-time remote employees by end of 2020",
+   "metric": "other",
+   "value": {
+    "amount": 80,
+    "currency": null,
+    "unit": "artists",
+    "label": null
+   },
+   "period": "end of 2020",
+   "claimant": "Spencer",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "At the end of 2020, we had 80 artists on staff",
+    "speaker": "Spencer",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4426,
+    "approx_timestamp_s": 274
+   }
+  },
+  {
+   "claim": "Etsy ad budget $1,000/day but often only ~$100/day spent",
+   "metric": "cost",
+   "value": {
+    "amount": 1000,
+    "currency": "USD",
+    "unit": "per day",
+    "label": "Etsy ads budget"
+   },
+   "period": null,
+   "claimant": "Spencer",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "our budget on Etsy is $1,000 a day on that ad spend.",
+    "speaker": "Spencer",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10965,
+    "approx_timestamp_s": 680
+   }
+  },
+  {
+   "claim": "About 60% of sales are gifts, 30-40% for self",
+   "metric": "other",
+   "value": {
+    "amount": 60,
+    "currency": null,
+    "unit": "percent of sales",
+    "label": "gift share"
+   },
+   "period": null,
+   "claimant": "Spencer",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "We see probably 30%, 40% of our sales are for people buying them for themselves personally.",
+    "speaker": "Spencer",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11990,
+    "approx_timestamp_s": 743
+   }
+  },
+  {
+   "claim": "Email list about 24,000",
+   "metric": "customers",
+   "value": {
+    "amount": 24000,
+    "currency": null,
+    "unit": "subscribers",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Spencer",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Email list now is $24,000, nice.",
+    "speaker": "Spencer",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 14860,
+    "approx_timestamp_s": 921
+   }
+  },
+  {
+   "claim": "AOV rose 20% after new checkout flow; $90 on site, $65 on Etsy",
+   "metric": "price",
+   "value": {
+    "amount": 90,
+    "currency": "USD",
+    "unit": "per order",
+    "label": "AOV own store"
+   },
+   "period": null,
+   "claimant": "Spencer",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "we saw our AOV rise 20%, with being able to do this for AOV. Right now, it's at $90",
+    "speaker": "Spencer",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20573,
+    "approx_timestamp_s": 1276
+   }
+  },
+  {
+   "claim": "Red Oak frame costs $8, sold for $10",
+   "metric": "price",
+   "value": {
+    "amount": 10,
+    "currency": "USD",
+    "unit": "per upsell",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Spencer",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "the Red Oak frame is an extra eight dollars for us, and we've just round out to an extra 10",
+    "speaker": "Spencer",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 19157,
+    "approx_timestamp_s": 1188
+   }
+  },
+  {
+   "claim": "Custom Captain does over $10M a year",
+   "metric": "revenue",
+   "value": {
+    "amount": 10000000,
+    "currency": "USD",
+    "unit": "per year",
+    "label": null
+   },
+   "period": "annual",
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I4",
+   "quote": {
+    "text": "He does over $10 million in year with this business.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22356,
+    "approx_timestamp_s": 1386
+   }
+  },
+  {
+   "claim": "Texas Snacks once spent $7 to acquire a $50 customer on Facebook",
+   "metric": "cost",
+   "value": {
+    "amount": 7,
+    "currency": "USD",
+    "unit": "per customer",
+    "label": "CAC"
+   },
+   "period": "about four years ago",
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "I think we were spending $7 to acquire a $50 customer.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22975,
+    "approx_timestamp_s": 1425
+   }
+  },
+  {
+   "claim": "Texas Snacks now 10x ROAS on ~$500/day Facebook spend",
+   "metric": "other",
+   "value": {
+    "amount": 500,
+    "currency": "USD",
+    "unit": "per day ad spend",
+    "label": "10x ROAS"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "hypothetical": false,
+   "idea_local_id": null,
+   "quote": {
+    "text": "We're spending like 500 a day on Facebook ads and we're 10X ROAS.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 24028,
+    "approx_timestamp_s": 1490
+   }
+  },
+  {
+   "claim": "Competitors sell AI digital pet files for $10",
+   "metric": "price",
+   "value": {
+    "amount": 10,
+    "currency": "USD",
+    "unit": "per file",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Spencer",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "there's people now that will offer digital files for $10 a file. And they're just using AI.",
+    "speaker": "Spencer",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 26603,
+    "approx_timestamp_s": 1650
+   }
+  },
+  {
+   "claim": "Staged homes sell for ~7% more and in 23 vs 42 days; staging costs $4,000",
+   "metric": "other",
+   "value": {
+    "amount": 4000,
+    "currency": "USD",
+    "unit": "per home",
+    "label": "physical staging cost"
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I6",
+   "quote": {
+    "text": "did you know that homes on average sell for 7% more? Or for 23 days, they're on market for 23 days instead of 42 days if they're staged.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 28853,
+    "approx_timestamp_s": 1789
+   }
+  },
+  {
+   "claim": "Live seller buys protein bars at 75 cents",
+   "metric": "cost",
+   "value": {
+    "amount": 0.75,
+    "currency": "USD",
+    "unit": "per unit",
+    "label": null
+   },
+   "period": null,
+   "claimant": "Chris Koerner",
+   "first_hand": false,
+   "hypothetical": false,
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "he's buying these bars for 75 cents",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 30381,
+    "approx_timestamp_s": 1884
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Weekend print-on-demand launch",
+   "area": "product",
+   "steps": [
+    "Spot a product style working for a competitor (Renaissance pet portraits) and adapt it",
+    "Build a Shopify store over a weekend with YouTube tutorials and Canva",
+    "Outsource art via Fiverr/Upwork and fulfilment to print-on-demand",
+    "Launch with personal social posts around Black Friday",
+    "Add Facebook ads in month two and Etsy in month three"
+   ],
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "I knew that I could start up for close to nothing",
+    "speaker": "Spencer",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 3,
+    "approx_timestamp_s": 0
+   }
+  },
+  {
+   "name": "Multi-step customiser checkout to raise AOV",
+   "area": "pricing",
+   "steps": [
+    "Step 1 choose style and number of pets (up to 5)",
+    "Step 2 frame, size, background with paid upgrades rounded up (e.g. $8 cost frame sold for $10)",
+    "Offer a paid skip-the-queue rush option",
+    "Final step photo upload, name, font, halo, artist notes",
+    "Result: AOV up 20%"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Creative-volume Facebook ads",
+   "area": "acquisition",
+   "steps": [
+    "Use broad targeting / CBO and let Meta find the audience",
+    "Film lots of simple employee videos with products (10 seconds to 10 minutes)",
+    "Put spend behind winners",
+    "Replace creative when performance dips after 1-2 weeks",
+    "Optionally test many AI-avatar UGC ads with HeyGen"
+   ],
+   "idea_local_id": null,
+   "quote": {
+    "text": "You need more creative. You need to test more things.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23448,
+    "approx_timestamp_s": 1454
+   }
+  },
+  {
+   "name": "Survey price vs human-made preference",
+   "area": "pricing",
+   "steps": [
+    "Show customers a $90 human-drawn and a $65 AI version side by side",
+    "Ask which they'd buy",
+    "Decide whether the human-art differentiator is worth the margin"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  },
+  {
+   "name": "Live auction to drive store traffic",
+   "area": "acquisition",
+   "steps": [
+    "Prepare prints of the most common breeds in ~20 styles",
+    "Auction them on TikTok Live/Whatnot",
+    "Use the show to send viewers to the website"
+   ],
+   "idea_local_id": "I7",
+   "quote": {
+    "text": "And do an auction like for a eight by 12 or whatever for the drawing style.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 31182,
+    "approx_timestamp_s": 1934
+   }
+  },
+  {
+   "name": "Spy on competitors in Meta Ad Library",
+   "area": "acquisition",
+   "steps": [
+    "Regularly review competitor ads (e.g. Aston Willow) in the Meta Ad Library",
+    "Copy what works and test it"
+   ],
+   "idea_local_id": "I1",
+   "quote": null
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Shopify",
+   "purpose": "Online store",
+   "cost_stated": "$30 a month at launch"
+  },
+  {
+   "name": "Etsy and Etsy Ads",
+   "purpose": "Main sales channel; pay-per-click ads",
+   "cost_stated": null
+  },
+  {
+   "name": "Canva",
+   "purpose": "Design without Photoshop skills",
+   "cost_stated": null
+  },
+  {
+   "name": "Fiverr",
+   "purpose": "Outsourced photos/services",
+   "cost_stated": null
+  },
+  {
+   "name": "Upwork",
+   "purpose": "Outsourced services",
+   "cost_stated": null
+  },
+  {
+   "name": "Facebook/Meta ads",
+   "purpose": "Paid acquisition",
+   "cost_stated": null
+  },
+  {
+   "name": "Meta Ad Library",
+   "purpose": "Competitor research",
+   "cost_stated": null
+  },
+  {
+   "name": "Pinterest",
+   "purpose": "Most successful social platform early",
+   "cost_stated": null
+  },
+  {
+   "name": "Instagram and Telegram engagement pods",
+   "purpose": "Organic reach (no longer works)",
+   "cost_stated": null
+  },
+  {
+   "name": "HeyGen",
+   "purpose": "AI avatar UGC ads",
+   "cost_stated": null
+  },
+  {
+   "name": "Nano Banana (Google)",
+   "purpose": "AI image generation",
+   "cost_stated": null
+  },
+  {
+   "name": "ChatGPT",
+   "purpose": "Image generation and blog posts",
+   "cost_stated": null
+  },
+  {
+   "name": "Claude",
+   "purpose": "Exploring AI agents for influencer sourcing and support (mis-transcribed)",
+   "cost_stated": null
+  },
+  {
+   "name": "Zillow API, Redfin, Google Maps",
+   "purpose": "Home photos for AI landscaping leads",
+   "cost_stated": null
+  },
+  {
+   "name": "Whatnot",
+   "purpose": "Live selling",
+   "cost_stated": null
+  },
+  {
+   "name": "TikTok Live",
+   "purpose": "Live selling and auctions",
+   "cost_stated": null
+  },
+  {
+   "name": "Beehiiv",
+   "purpose": "Newsletter platform (sponsor)",
+   "cost_stated": null
+  },
+  {
+   "name": "Google ads",
+   "purpose": "Texas Snacks main channel",
+   "cost_stated": null
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Etsy ads can't guarantee spend or be targeted granularly, limiting scale outside Q4.",
+   "quote": {
+    "text": "they don't have enough traffic to guarantee that you're able to spend your whole budget.",
+    "speaker": "Spencer",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 11239,
+    "approx_timestamp_s": 697
+   }
+  },
+  {
+   "warning": "Heavy seasonality: growth that relies on holiday sales or friends and family is not a sustainable traffic source.",
+   "quote": {
+    "text": "I call these like unsustainable sales, right?",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 6387,
+    "approx_timestamp_s": 396
+   }
+  },
+  {
+   "warning": "Sudden order surges can overwhelm operations; they had to turn off the Etsy shop in Q4 2020.",
+   "quote": {
+    "text": "There was a moment where we had to turn off the Etsy shop because we couldn't handle the influx of orders that were coming in.",
+    "speaker": "Spencer",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 13465,
+    "approx_timestamp_s": 835
+   }
+  },
+  {
+   "warning": "Old Instagram growth tactics (engagement pods, paid shout-outs on big pages) no longer work.",
+   "quote": {
+    "text": "All that doesn't work at all anymore",
+    "speaker": "Spencer",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 7363,
+    "approx_timestamp_s": 456
+   }
+  },
+  {
+   "warning": "Being dogmatic about hand-made differentiation may leave money on the table if customers just want cheaper.",
+   "quote": {
+    "text": "do we want to be like, dogmatic about our mission, or do we want to be profitable?",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 26421,
+    "approx_timestamp_s": 1638
+   }
+  },
+  {
+   "warning": "Inventory-based products (sewn goods) brought sourcing and manufacturing headaches versus print-on-demand.",
+   "quote": null
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "Print-on-demand plus commissioned offshore labour lets you start for almost nothing and stay cash-flow positive without inventory.",
+   "theme": "operations",
+   "quote": {
+    "text": "I don't have to invest in inventory or anything like that. I was a pretty cashflow heavy business",
+    "speaker": "Spencer",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 4006,
+    "approx_timestamp_s": 248
+   }
+  },
+  {
+   "lesson": "Giftable products convert best around Black Friday and Christmas; plan cash and capacity for that peak.",
+   "theme": "scaling",
+   "quote": null
+  },
+  {
+   "lesson": "To scale with paid ads in e-commerce you need roughly 60-70% gross margins.",
+   "theme": "finance_unit_economics",
+   "quote": {
+    "text": "if you really want to push with paid ads, you kind of have to have a 60 to 70, you do, brose margin.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 10557,
+    "approx_timestamp_s": 654
+   }
+  },
+  {
+   "lesson": "On modern Meta ads, creative volume and freshness matter more than targeting.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "You just worry about creative and they'll find the people.",
+    "speaker": "Spencer",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25410,
+    "approx_timestamp_s": 1576
+   }
+  },
+  {
+   "lesson": "Test assumptions about what customers value (human vs AI art) directly instead of assuming.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "Because sometimes we assume like they want it to be drawn by a human.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 26188,
+    "approx_timestamp_s": 1624
+   }
+  },
+  {
+   "lesson": "Add-on upsells and a guided customiser lift order value substantially.",
+   "theme": "pricing",
+   "quote": null
+  },
+  {
+   "lesson": "Early movers in new platform categories (TikTok Live auctions) get outsized algorithmic distribution.",
+   "theme": "customer_acquisition",
+   "quote": {
+    "text": "the first movers to any given category on TikTok are getting pushed like crazy any algorithm.",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 30010,
+    "approx_timestamp_s": 1861
+   }
+  },
+  {
+   "lesson": "AI image models now make offering cheap automated product variants and lead-gen visuals practical.",
+   "theme": "automation_ai",
+   "quote": null
+  },
+  {
+   "lesson": "Entrepreneurs are constant students; YouTube can teach most tools within a week.",
+   "theme": "mindset_execution",
+   "quote": {
+    "text": "I think one of the coolest things about entrepreneurship in general is you are a constant student",
+    "speaker": "Spencer",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 17938,
+    "approx_timestamp_s": 1112
+   }
+  }
+ ],
+ "evidence_quality": {
+  "rating": "B",
+  "rationale": "First-hand operator with fairly specific monthly revenue, margin and AOV numbers, but Whisper transcription garbles names and some figures (e.g. '$24,000' email list, profit numbers), and current performance is vaguely 'down'.",
+  "promotional_conflict": "Beehiiv sponsor read; Chris owns Texas Snacks."
+ },
+ "extraction": {
+  "model": "grokbot",
+  "extracted_at": "2026-10-22T09:02:18",
+  "cost_usd": null,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 44,
+   "verified": 44,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}
