@@ -1,0 +1,768 @@
+{
+ "schema_version": "7.0",
+ "video": {
+  "id": "CpgW6LYIEHw",
+  "title": "The Most Useful AI Tool You’ve Never Heard Of",
+  "channel": "The Koerner Office",
+  "url": "https://www.youtube.com/watch?v=CpgW6LYIEHw",
+  "upload_date": "2026-09-15",
+  "duration_s": 2072,
+  "view_count": 36794,
+  "transcript_provider": "cached",
+  "transcript_chars": 32389,
+  "transcript_is_whisper": false
+ },
+ "summary": "Chris Koerner interviews Jay, founder of Violoop, a $399 (Kickstarter) on-device AI agent box that watches your screen via USB-C, builds a private memory graph, drafts replies and documents, and runs tasks while you're away. Jay demos invoice logging, an email-to-QuickBooks quotation workflow and ad performance tracking, claiming users save about two hours a day. They discuss using AI context to find a business, Marketplace arbitrage, cheap storefront tests and localising open-source AI tools for Asian markets. The episode is largely a product promotion.",
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host",
+   "description": "Host of The Koerner Office"
+  },
+  {
+   "name": "Jay",
+   "role": "guest",
+   "description": "Founder of Violoop"
+  }
+ ],
+ "format": "tool_review",
+ "has_business_idea": true,
+ "ideas": [
+  {
+   "local_id": "I1",
+   "name": "Violoop: on-device AI agent hardware that watches your screen",
+   "one_liner": "A palm-sized device connected by USB-C that streams your screen to an on-device model, builds a private memory graph and proactively drafts replies, documents and workflows.",
+   "category": "saas_software",
+   "business_model": "Hardware sales via Kickstarter then retail",
+   "customer": "Knowledge workers, business owners, creators",
+   "problem": "Repetitive tasks (invoices, emails, spreadsheets), privacy concerns with cloud AI, subscription fatigue",
+   "offer": "On-device agent with memory graph, security chip vault, away mode via phone app, integrations (Gmail, Google Sheets, QuickBooks, Notion, Salesforce, Linear)",
+   "pricing": {
+    "model": "one-off hardware",
+    "price_points": [
+     {
+      "amount": 399,
+      "currency": "USD",
+      "unit": "per unit",
+      "label": "Kickstarter lowest price"
+     },
+     {
+      "amount": 699,
+      "currency": "USD",
+      "unit": "per unit",
+      "label": "planned retail"
+     },
+     {
+      "amount": 10,
+      "currency": "USD",
+      "unit": "deposit",
+      "label": "pre-launch deposit"
+     }
+    ],
+    "notes": "$10 deposit for extra rewards before Kickstarter launch on September 15."
+   },
+   "acquisition_channels": [
+    {
+     "channel": "paid_social",
+     "details": "Ads on Meta (200-300 ads), Google and X tracked by Violoop itself.",
+     "quote": {
+      "text": "Right now I have like maybe 200 300 ads running on on on meta",
+      "speaker": "Jay",
+      "match_score": 100.0,
+      "verified": true,
+      "char_offset": 29142,
+      "approx_timestamp_s": 1903
+     }
+    },
+    {
+     "channel": "other",
+     "details": "Kickstarter crowdfunding launch."
+    },
+    {
+     "channel": "youtube",
+     "details": "Podcast appearances and their own videos."
+    }
+   ],
+   "delivery": "Hardware with on-device ~8B parameter model; OTA model updates; security chip blocks irreversible actions without permission.",
+   "unit_economics_claims": [
+    "Users save ~2 hours/day",
+    "Local model handles 5-8 step agentic tasks; target 20-30"
+   ],
+   "tools": [
+    "Kickstarter",
+    "Meta ads",
+    "Google ads",
+    "X ads"
+   ],
+   "startup_cost": "not stated",
+   "time_to_first_revenue": "Kickstarter launch",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Paid ads and creative refresh can be run by agents."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Plug-in device setup."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Hardware manufacturing and shipping require operations."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Online checkout."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Support for hardware needs humans for returns."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Hardware product sells globally; UK consumer and data protection law apply."
+   },
+   "risks": [
+    "Small on-device models less capable than frontier models",
+    "Hardware manufacturing and fulfilment risk",
+    "Privacy concerns about screen recording despite local processing"
+   ],
+   "is_primary": true,
+   "depth": "deep",
+   "quotes": [
+    {
+     "text": "I would describe Valoop as somebody actually working next to you",
+     "speaker": "Jay",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 1112,
+     "approx_timestamp_s": 72
+    },
+    {
+     "text": "this is the 399 will be the the lowest that we will be ever offering to the market and when come to retail I think our price will be set at 699",
+     "speaker": "Jay",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 31322,
+     "approx_timestamp_s": 2046
+    }
+   ]
+  },
+  {
+   "local_id": "I2",
+   "name": "Localised AI app wrappers for non-English markets",
+   "one_liner": "Engineers take open-source GitHub repos, build a nicer front end, translate and sell subscriptions in Japan, Korea and Vietnam.",
+   "category": "saas_software",
+   "business_model": "Subscriptions $10-20/month",
+   "customer": "Users in Japan, Korea, Vietnam not yet exposed to the tech",
+   "problem": "Lack of localised AI tools",
+   "offer": "Polished, translated front ends for open-source AI tools",
+   "pricing": {
+    "model": "subscription",
+    "price_points": [
+     {
+      "amount": 10,
+      "currency": "USD",
+      "unit": "per month",
+      "amount_max": 20
+     }
+    ],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Not stated."
+    }
+   ],
+   "delivery": "Software built by engineers, often digital nomads.",
+   "unit_economics_claims": [
+    "$10-20/month subscriptions; 'some making a good living'"
+   ],
+   "tools": [
+    "GitHub"
+   ],
+   "startup_cost": "Minimal",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Localised SEO/ads automatable."
+    },
+    "onboarding": {
+     "score_e": 5,
+     "how": "Self-serve."
+    },
+    "delivery": {
+     "score_e": 5,
+     "how": "Software."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Subscriptions."
+    },
+    "support": {
+     "score_e": 4,
+     "how": "AI support."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 4,
+    "notes": "Can be run from the UK; open-source licence compliance needed."
+   },
+   "risks": [
+    "Licence violations",
+    "Low defensibility"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "they find nice GitHub repos and they build a nicer front end for the app for the service and change the language and sell them to Japan and sell them to Kore Korea and sell them to Vietnam",
+     "speaker": "Jay",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 28109,
+     "approx_timestamp_s": 1836
+    }
+   ]
+  },
+  {
+   "local_id": "I3",
+   "name": "AI-assisted marketplace arbitrage",
+   "one_liner": "Use an agent to find cheap items on Facebook Marketplace (e.g. chairs under $30) and repost them elsewhere for ~$50 more.",
+   "category": "arbitrage_reselling",
+   "business_model": "Buy low, resell",
+   "customer": "Online buyers",
+   "problem": "Price gaps between platforms",
+   "offer": "Resold second-hand items",
+   "pricing": {
+    "model": "per item",
+    "price_points": [
+     {
+      "amount": 30,
+      "currency": "USD",
+      "unit": "purchase",
+      "label": "chair under $30"
+     },
+     {
+      "amount": 50,
+      "currency": "USD",
+      "unit": "markup"
+     }
+    ],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "marketplace_platform",
+     "details": "Agent posts listings on another site."
+    }
+   ],
+   "delivery": "Agent searches and posts; human buys and hands over.",
+   "unit_economics_claims": [],
+   "tools": [
+    "Facebook Marketplace"
+   ],
+   "startup_cost": "Low",
+   "time_to_first_revenue": "Immediate",
+   "automation": {
+    "acquisition": {
+     "score_e": 4,
+     "how": "Agent can search and post."
+    },
+    "onboarding": {
+     "score_e": 3,
+     "how": "Messaging automatable."
+    },
+    "delivery": {
+     "score_e": 1,
+     "how": "Physical pickup and delivery."
+    },
+    "billing": {
+     "score_e": 4,
+     "how": "Payments."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Messages."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works in the UK."
+   },
+   "risks": [
+    "Platform terms on automation",
+    "Physical logistics"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "can you go check on Facebook market I'm looking for something maybe a chair that's under $30",
+     "speaker": "Jay",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 5803,
+     "approx_timestamp_s": 379
+    }
+   ]
+  },
+  {
+   "local_id": "I4",
+   "name": "Test multiple zero-cost storefront websites",
+   "one_liner": "Spin up several cheap websites (artist portfolio, second-hand store) and share with friends/groups to see what clicks.",
+   "category": "ecommerce_physical",
+   "business_model": "Varies",
+   "customer": "Friends, social followers",
+   "problem": "Don't know what business to start",
+   "offer": "Quick storefront sites",
+   "pricing": {
+    "model": "not stated",
+    "price_points": [],
+    "notes": null
+   },
+   "acquisition_channels": [
+    {
+     "channel": "existing_audience",
+     "details": "Share in WhatsApp/Telegram groups and social media."
+    }
+   ],
+   "delivery": "AI-built sites.",
+   "unit_economics_claims": [
+    "Cost of storefront ~ a couple of dollars"
+   ],
+   "tools": [],
+   "startup_cost": "A couple of dollars",
+   "time_to_first_revenue": "not stated",
+   "automation": {
+    "acquisition": {
+     "score_e": 3,
+     "how": "Sharing to own network."
+    },
+    "onboarding": {
+     "score_e": 4,
+     "how": "Self-serve."
+    },
+    "delivery": {
+     "score_e": 3,
+     "how": "Depends."
+    },
+    "billing": {
+     "score_e": 5,
+     "how": "Checkout."
+    },
+    "support": {
+     "score_e": 3,
+     "how": "Depends."
+    }
+   },
+   "uk_applicability": {
+    "score_e": 5,
+    "notes": "Works anywhere."
+   },
+   "risks": [
+    "Most tests fail"
+   ],
+   "is_primary": false,
+   "depth": "mention",
+   "quotes": [
+    {
+     "text": "the cost for building this type of storefront, electronic storefront has gone to basically zero or maybe just a couple dollars",
+     "speaker": "Jay",
+     "match_score": 100.0,
+     "verified": true,
+     "char_offset": 27582,
+     "approx_timestamp_s": 1801
+    }
+   ]
+  }
+ ],
+ "metric_claims": [
+  {
+   "claim": "Kickstarter price $399, retail $699",
+   "metric": "price",
+   "value": {
+    "amount": 399,
+    "currency": "USD",
+    "unit": "per unit",
+    "amount_max": 699
+   },
+   "claimant": "Jay",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "this is the 399 will be the the lowest that we will be ever offering to the market",
+    "speaker": "Jay",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 31322,
+    "approx_timestamp_s": 2046
+   }
+  },
+  {
+   "claim": "$10 pre-launch deposit",
+   "metric": "price",
+   "value": {
+    "amount": 10,
+    "currency": "USD",
+    "unit": "deposit"
+   },
+   "claimant": "Jay",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "you can put down $10 deposit at our website",
+    "speaker": "Jay",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 31144,
+    "approx_timestamp_s": 2034
+   }
+  },
+  {
+   "claim": "Users save ~2 hours a day",
+   "metric": "hours",
+   "value": {
+    "amount": 2,
+    "currency": null,
+    "unit": "hours per day"
+   },
+   "claimant": "Jay",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "we have got a round up which is is approximately two hours per day",
+    "speaker": "Jay",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 18504,
+    "approx_timestamp_s": 1208
+   }
+  },
+  {
+   "claim": "200-300 Meta ads running",
+   "metric": "other",
+   "value": {
+    "amount": 200,
+    "currency": null,
+    "unit": "ads",
+    "amount_max": 300
+   },
+   "claimant": "Jay",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "Right now I have like maybe 200 300 ads running on on on meta",
+    "speaker": "Jay",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 29142,
+    "approx_timestamp_s": 1903
+   }
+  },
+  {
+   "claim": "Local model handles 5-8 step tasks, aiming 20-30",
+   "metric": "other",
+   "value": {
+    "amount": 5,
+    "currency": null,
+    "unit": "steps",
+    "amount_max": 8
+   },
+   "claimant": "Jay",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "you can do agentic task to about uh five to eight steps",
+    "speaker": "Jay",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 23629,
+    "approx_timestamp_s": 1543
+   }
+  },
+  {
+   "claim": "Context sufficient in a couple hours with integrations, or 3 days to a week",
+   "metric": "hours",
+   "value": {
+    "amount": 3,
+    "currency": null,
+    "unit": "days",
+    "amount_max": 7
+   },
+   "claimant": "Jay",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "give it a take maybe three three days to a week",
+    "speaker": "Jay",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 22069,
+    "approx_timestamp_s": 1441
+   }
+  },
+  {
+   "claim": "Localised wrappers charge $10-20/month",
+   "metric": "price",
+   "value": {
+    "amount": 10,
+    "currency": "USD",
+    "unit": "per month",
+    "amount_max": 20
+   },
+   "claimant": "Jay",
+   "first_hand": false,
+   "idea_local_id": "I2",
+   "quote": {
+    "text": "you can do subscription charges $10 a month, $20 a month",
+    "speaker": "Jay",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 28370,
+    "approx_timestamp_s": 1853
+   }
+  },
+  {
+   "claim": "Chris gets 16-30 hours of work from an 8-hour day with agents",
+   "metric": "hours",
+   "value": {
+    "amount": 16,
+    "currency": null,
+    "unit": "hours of work per day",
+    "amount_max": 30
+   },
+   "claimant": "Chris Koerner",
+   "first_hand": true,
+   "idea_local_id": null,
+   "quote": {
+    "text": "I'm getting 16 or 30 hours worth of work done because of all these agents I have running for me",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 19616,
+    "approx_timestamp_s": 1281
+   }
+  },
+  {
+   "claim": "Reseller asked for 100 units quote",
+   "metric": "customers",
+   "value": {
+    "amount": 100,
+    "currency": null,
+    "unit": "units"
+   },
+   "claimant": "Jay",
+   "first_hand": true,
+   "idea_local_id": "I1",
+   "quote": {
+    "text": "asking for 100 V loop units in a quotation",
+    "speaker": "Jay",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 25744,
+    "approx_timestamp_s": 1681
+   }
+  }
+ ],
+ "tactics": [
+  {
+   "name": "Automate invoice capture",
+   "steps": [
+    "Connect Gmail to the agent",
+    "When an invoice email arrives, scan it",
+    "Log date, amount and attachment in a Google Sheet",
+    "Send sheet to accountant at tax time"
+   ],
+   "idea_local_id": "I1",
+   "area": "operations"
+  },
+  {
+   "name": "Email-to-quotation workflow",
+   "steps": [
+    "Agent detects quote request email",
+    "Asks permission",
+    "Pulls latest prices and reseller discount from Google Sheet",
+    "Builds PDF quote in QuickBooks",
+    "Drafts reply with PDF for human to send"
+   ],
+   "idea_local_id": "I1",
+   "area": "sales"
+  },
+  {
+   "name": "Ad performance dashboard and creative refresh",
+   "steps": [
+    "Pull data from Meta, Google, X",
+    "Track views, CPA, CTR per ad",
+    "Cut underperformers",
+    "Generate new images/videos to test"
+   ],
+   "idea_local_id": "I1",
+   "area": "acquisition"
+  },
+  {
+   "name": "Find a business from your own behaviour",
+   "steps": [
+    "Let an AI observe what you consume",
+    "Ask it what you spend time on",
+    "Mine comments on niche videos for pain points"
+   ],
+   "idea_local_id": null,
+   "area": "product"
+  },
+  {
+   "name": "Triage DMs with an agent",
+   "steps": [
+    "Monitor DMs and log to a Google Sheet",
+    "Search for high-value ones (podcast invites, success stories)"
+   ],
+   "idea_local_id": null,
+   "area": "operations"
+  },
+  {
+   "name": "Run many cheap tests",
+   "steps": [
+    "Build multiple simple storefronts",
+    "Share with friends and groups",
+    "Keep the one that gets positive feedback"
+   ],
+   "idea_local_id": "I4",
+   "area": "product"
+  }
+ ],
+ "tools_mentioned": [
+  {
+   "name": "Violoop",
+   "purpose": "On-device AI agent hardware",
+   "cost_stated": "$399 Kickstarter, $699 retail"
+  },
+  {
+   "name": "Gmail",
+   "purpose": "Invoice and email source"
+  },
+  {
+   "name": "Google Sheets",
+   "purpose": "Invoice log, pricing"
+  },
+  {
+   "name": "QuickBooks",
+   "purpose": "Quotations"
+  },
+  {
+   "name": "Notion, Obsidian, Salesforce, Monday, Linear",
+   "purpose": "Integrations for context"
+  },
+  {
+   "name": "Kickstarter",
+   "purpose": "Crowdfunding launch"
+  },
+  {
+   "name": "Facebook Marketplace",
+   "purpose": "Sourcing cheap items"
+  },
+  {
+   "name": "GitHub",
+   "purpose": "Open-source repos to wrap"
+  },
+  {
+   "name": "ChatGPT",
+   "purpose": "Comparison"
+  },
+  {
+   "name": "Meta, Google, X ads",
+   "purpose": "Paid acquisition"
+  }
+ ],
+ "warnings": [
+  {
+   "warning": "Small on-device models are still far less capable than frontier models (GPT-3.5/4 level).",
+   "quote": {
+    "text": "they're still not as capable as the frontier the open AI the anthropic models",
+    "speaker": "Jay",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 20478,
+    "approx_timestamp_s": 1337
+   }
+  },
+  {
+   "warning": "Irreversible agent actions (deleting files, sending messages) should require user permission.",
+   "quote": null
+  },
+  {
+   "warning": "Kickstarter price will rise; early-bird urgency is promotional.",
+   "quote": null
+  }
+ ],
+ "lessons": [
+  {
+   "lesson": "AI agents mostly let you do more work, not less: an 8-hour day yields 16-30 hours of output.",
+   "theme": "automation_ai",
+   "quote": {
+    "text": "my eight hour workday still looks like an eight hour [music] workday",
+    "speaker": "Chris Koerner",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 103,
+    "approx_timestamp_s": 6
+   }
+  },
+  {
+   "lesson": "'What business should I start' requires deep personal context; your consumption habits reveal niches.",
+   "theme": "niche_selection",
+   "quote": null
+  },
+  {
+   "lesson": "Pain points for a niche are often already in comments on niche videos.",
+   "theme": "validation_testing",
+   "quote": {
+    "text": "the answer is probably already in the comments",
+    "speaker": "Jay",
+    "match_score": 100.0,
+    "verified": true,
+    "char_offset": 9017,
+    "approx_timestamp_s": 589
+   }
+  },
+  {
+   "lesson": "The cost of building a storefront is near zero; run many trials until one clicks.",
+   "theme": "validation_testing",
+   "quote": null
+  },
+  {
+   "lesson": "Technology is unevenly distributed: localise existing tools for markets not yet exposed.",
+   "theme": "niche_selection",
+   "quote": null
+  },
+  {
+   "lesson": "Subscription fatigue is real; users dislike many $20 monthly bills.",
+   "theme": "pricing",
+   "quote": null
+  },
+  {
+   "lesson": "Agents should ask permission before irreversible actions.",
+   "theme": "automation_ai",
+   "quote": null
+  }
+ ],
+ "evidence_quality": {
+  "rating": "C",
+  "rationale": "Founder promoting his own pre-launch product; claims (2 hours/day) are self-reported survey figures.",
+  "promotional_conflict": "Guest is the founder selling Violoop on Kickstarter."
+ },
+ "extraction": {
+  "model": "grokbot",
+  "extracted_at": "2026-10-22T09:05:27",
+  "cost_usd": null,
+  "reviewed_by": null,
+  "review_notes": null,
+  "quote_verification": {
+   "quotes": 18,
+   "verified": 18,
+   "rate": 1.0
+  },
+  "schema_errors": []
+ }
+}
