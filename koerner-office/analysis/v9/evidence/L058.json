@@ -1,0 +1,50 @@
+{
+ "id": "L058",
+ "name": "SaaS Marketplace (Microns listing; currently marked Already Sold)",
+ "demand": "The category has measurable buyer activity: Flippa reports over 1 million searches a month across its platform and 635,000 buyers; its H1 2026 report records 6,191 searches for SaaS during April–June 2026. These are Flippa-reported platform figures, not estimates of this listing’s addressable demand or unique buyers. Sources: https://flippa.com/data-insights and https://landing.flippa.com/pages/insights-h1-2026/",
+ "prices": "The listing asks $10,000 and proposes featured seller slots at $19–$49/month, but those are seller-stated prices, not verified sales. Current alternatives: Flippa buyer access is free or $49/month for Premium; its self-service listing tier around $10K is $49 for three months. Acquire offers a free buyer plan and paid plans at $390 or $780/year; sellers below $250K pay $25/month plus an 8% closing fee. Microns offers free buyer access or Premium at $40/month/$299 per year, with no seller listing fee and an 8% success fee for sales from $10K. SAASALE charges $49 for a standard listing and 3.7–5.6% total deal commission, split between buyer and seller. Sources: https://www.microns.io/startup-listings/saas-marketplace, https://flippa.com/pricing, https://help.acquire.com/subscription-terms, https://acquire.com/seller-pricing/, https://www.microns.io/pricing, https://saasale.com/terms",
+ "revenue_proof": [
+  {
+   "claim": "The listing claims $280 revenue for January, $1,839 for February, $430 for March and $550 for April 2026, totalling $3,099. It calls this Verified Revenue, but the listing provides no verification method or underlying payment records; it also describes the figure variously as net profit, ARR and TTM revenue. Treat the target’s revenue as unverified.",
+   "claim_event_date": "2026-01 to 2026-04; listing published 2026-05-10",
+   "url": "https://www.microns.io/startup-listings/saas-marketplace"
+  },
+  {
+   "claim": "Comparable evidence: TrustMRR’s founder reported just over $300,000 in product revenue and about $30,000 in acquisition fees, plus 154 acquisitions and 56,174 registered buyers. This is founder-reported, not independently audited, and depends on a founder-led distribution advantage; it is not a forecast for this asset.",
+   "claim_event_date": "2026-09-01; founder describes the first nine months after the 2025-10-30 launch",
+   "url": "https://newsletter.marclou.com/p/i-vibe-coded-330k-in-9-months"
+  },
+  {
+   "claim": "TrustMRR’s own startup page says its Stripe connection verified $375,719 in all-time revenue and $23,234 MRR, with 12 active subscriptions, at its 2026-10-07 update. This is a competitor’s product revenue, not a disclosed marketplace-fee breakdown.",
+   "claim_event_date": "2026-10-07",
+   "url": "https://trustmrr.com/startup/trustmrr"
+  }
+ ],
+ "copy_speed": "High. Core features described here—listings, filters, seller contact, featured placements and transaction flow—are reproducible software features. SAASALE already describes payment-provider revenue verification and AI deal scoring; its Terms are effective 2026-04-14, though its exact public launch date is unverified. TrustMRR’s founder says its first version took six hours to build and that the marketplace followed a user request in December 2025. No reliable evidence of a direct competitor launching after April 2026 surfaced in the sources reviewed. Sources: https://saasale.com/terms, https://newsletter.marclou.com/p/i-vibe-coded-330k-in-9-months",
+ "platform_risk": "The listing mentions Stripe integration, an escrow Buy Now flow, WhatsApp contact, Netlify hosting, SEO, AdSense and affiliate monetization, but does not identify the escrow provider or show traffic sources. The FCA specifically warns that online marketplaces and escrow services that receive buyer funds before passing them to sellers may provide regulated payment services; whether this platform does so is unverified. Confirm the money flow and use of a third-party provider before operating it. Stripe also says an acquisition by a legal entity in another country requires a new Stripe account and a data-transfer request; the seller’s account country is unverified. Sources: https://www.microns.io/startup-listings/saas-marketplace, https://www.fca.org.uk/firms/consider-if-you-provide-payment-services, https://handbook.fca.org.uk/handbook/perg15, https://support.stripe.com/questions/transferring-a-stripe-account-for-a-business-acquired-by-a-legal-entity-in-a-different-country?locale=en-GB",
+ "defensible_asset": "No defensible asset is evidenced beyond the code and claimed catalog. The listing says it includes 20+ tools and 23 owned listings, but ownership, exclusivity and transferability are unverified; it shows no proprietary UK data, verified-revenue rules engine, exclusive supply or meaningful switching costs. Competitors already offer revenue verification and deal scoring. Sources: https://www.microns.io/startup-listings/saas-marketplace, https://saasale.com/faq, https://trustmrr.com/startup/trustmrr",
+ "build_effort": "The listing describes a built Node.js/Next.js/NextAuth product with login, admin CRUD, search, filters, featured listings, Stripe, WhatsApp and escrow features. That reduces initial coding if the assets transfer, but public evidence does not establish maintenance work, documentation quality or reliable automation. The seller says it needs an operator focused on growth and marketing and offers onboarding, technical support and one-to-one guidance. Workload and automation share are unverified. Sources: https://www.microns.io/startup-listings/saas-marketplace",
+ "channel": "Use inbound search pages, a voluntary buyer-alert signup and public posts in founder/acquisition communities that permit them. Do not depend on cold messages to individuals or sole traders: ICO guidance treats social-media direct messages as electronic mail and says sole traders and certain partnerships need consent or the soft opt-in for unsolicited electronic marketing. Keep email alerts opt-in with an unsubscribe route. Sources: https://www.microns.io/startup-listings/saas-marketplace, https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/business-to-business-marketing/, https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guidance-on-direct-marketing-using-electronic-mail/how-do-we-comply-with-the-pecr-electronic-mail-marketing-rules/",
+ "owner_hours_per_week": "Unverified. The seller claims the system is fully automated but also says it needs an operator focused on growth and marketing; no weekly hours or operating logs are disclosed. The <=5 h/week constraint is not substantiated. Source: https://www.microns.io/startup-listings/saas-marketplace",
+ "automation_share_pct": 0,
+ "desk_test": "One workday, with free or existing tools: publish a simple opt-in page for verified SaaS deal alerts and seller listings, display the seller’s proposed $19–$49/month featured-listing price, and post it publicly only in communities that allow promotion and in any existing opt-in audience. Track voluntary buyer and seller signups and price interest; do not cold-message people. This tests the concept, not the already-sold asset. If the asset becomes available again, require read-only payment records, customer reconciliation, analytics/Search Console access, and proof of catalog/domain ownership before discussing payment. Price claim and channel rules: https://www.microns.io/startup-listings/saas-marketplace, https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/business-to-business-marketing/",
+ "red_flags": "The live listing is marked Already Sold, so availability is not evidenced. Its $3,099 figure is called verified but no verification method is shown; the description mixes ARR, TTM revenue and net profit, and says last three months while listing four monthly amounts. Traffic and revenue metric sections are blank. It claims 6 customers and 20+ tools/23 listings, but customer quality, catalog ownership and transferability are unverified. The listing’s projected future revenue and market/search-size claims are seller claims, not proof. The seller explicitly says growth and marketing need an operator. Sources: https://www.microns.io/startup-listings/saas-marketplace",
+ "urls": [
+  "https://www.microns.io/startup-listings/saas-marketplace",
+  "https://flippa.com/data-insights",
+  "https://landing.flippa.com/pages/insights-h1-2026/",
+  "https://flippa.com/pricing",
+  "https://help.acquire.com/subscription-terms",
+  "https://acquire.com/seller-pricing/",
+  "https://www.microns.io/pricing",
+  "https://saasale.com/terms",
+  "https://saasale.com/faq",
+  "https://newsletter.marclou.com/p/i-vibe-coded-330k-in-9-months",
+  "https://trustmrr.com/startup/trustmrr",
+  "https://www.fca.org.uk/firms/consider-if-you-provide-payment-services",
+  "https://handbook.fca.org.uk/handbook/perg15",
+  "https://support.stripe.com/questions/transferring-a-stripe-account-for-a-business-acquired-by-a-legal-entity-in-a-different-country?locale=en-GB",
+  "https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/business-to-business-marketing/",
+  "https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guidance-on-direct-marketing-using-electronic-mail/how-do-we-comply-with-the-pecr-electronic-mail-marketing-rules/"
+ ]
+}
