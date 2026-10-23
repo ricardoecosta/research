@@ -16,6 +16,172 @@ Run 23 Oct 2026 (UK time) by Grok Bot (Researcher), under the METHOD.md FALLBACK
 **Verdict key:** **pursue** = passes the gate. **Maybe** = passes the rules, with named open questions that would decide it. **Kill** = fails, with the reason.
 
 This file is the step-10 output. It is not a final shortlist.
+
+## Summary
+
+**Result: 0 pursue, 2 maybe, 33 kill.** No candidate passes the gate outright. The two maybes each need a cheap, named test before any build.
+
+| Candidate | Verdict | Confidence | Key evidence (live, 23 Oct 2026) | Biggest risk |
+|---|---|---|---|---|
+| C1143 One-time downloadable software | Kill | High | The "$4k/mo" claim is Rob Walling's 2005 DotNetInvoice purchase; no niche named | ~20-year-old evidence |
+| C0215 Claude/AI skill bundles | Kill | Medium | Anthropic directory is free-only; skills are copyable markdown | Needs an audience; no moat |
+| C2350 Encrypted file vault | **Maybe** | Low | Voltaire about $40k/mo (AI-compiled, unverified); 9 of 72 vault apps make >$20k/mo | Only 1 new entrant in 18 months broke in ($5–10k); data-loss liability |
+| C2242 Social posting API | Kill | Medium | Post for Me at $10/mo vs Upload-Post, Zernio, Ayrshare and others | Price war and platform API control |
+| C0899 Weekly competitor-ad reports | Kill | High | Rival Ads does it for $29/mo; the $300 price was hypothetical | Already productised |
+| C2253 Community analytics app | Kill | Medium-high | Statbot, ServerLens and free Discord Insights; source says it "never took off" | Commoditised |
+| C2446 QR ordering for print vendors | Kill | High | 6+ live competitors (Vixie, ReadyPix, PrintBooth…) | Moat fails |
+| C2354 AI paraphrase app | Kill | Medium | QuillBot plus built-in rewrite tools; "bypass detection" use case | Commoditised feature |
+| C0168 Niche search utility sites | **Maybe** | Low-medium | AI Overviews cut clicks 40–58%, but tool queries are least exposed | Google's generated tools; revenue unmeasured |
+| C1091 Company funding alerts | Kill | High | Crunchbase bans scraping; UK SH01 trackers already exist | Legal and crowded |
+| C1124 Developer boilerplate | Kill | High | ShipFast down from $126k/mo to ~$2k/mo; 248 boilerplates | Agents generate scaffolds |
+| C1145 Star-naming registry | Kill | Medium | Crowded; no official recognition; misleading-claims law | Consumer-protection risk |
+| C0131 AI social video accounts | Kill | High | YouTube's Jul 2026 demonetisation of templated AI content | Platform policy |
+| C0174 Custom AI portraits | Kill | Medium | Etsy allows it with disclosure; buyers can self-serve with free AI | Fad and commoditised |
+| C1037 YouTube review cross-posting | Kill | High | Needs an Amazon Influencer video library; tool costs $20/mo | Breaks rules (physical, face or voice) |
+| SC01 Edge MV2 orphan replacements | Kill | Medium-high | Top MV2 extensions migrated or vendor-owned; tail averages ~2.4k installs | No payers |
+| SC02 Premium Bonds checker | Kill | Medium | New NS&I app (2025) plus text and email prize alerts | No willingness to pay; trademark |
+| SC03 Octopus tariff companion | Kill | Medium-high | OctoTracker and Octopus Compare moved to the web; free API | Apps don't pay |
+| SC04 FreeAgent connector layer | Kill (watch) | Medium | Equali is FreeAgent's official partner (help centre, 20% off) | Official partner owns distribution |
+| SC05 Google Chat for Jira replacement | Kill | Medium-high | Incumbent is Google's free app; free Advanced alternative; new Chatpane (16 Oct 2026) targets the exact complaints | Competing against free; copied already |
+| SC06 Harvest for Jira | Kill | High | 9 Harvest apps live | Moat fails |
+| SC07 Orphaned Atlassian integrations | Kill | Medium | Copying confirmed again (Chatpane, InVision) | Fast copying |
+| SC08 Better Mermaid for Confluence | Kill | High | 107 matching apps | Crowded |
+| SC09 Stripe/PayPal→Xero fix | Kill | Medium | Complaints target Stripe and Xero, not features (not re-fetched) | Not addressable |
+| SC10 Xero export/archive | Kill | High | Boxkite $49, Xportmydata $120, Numerint | Served |
+| SC11 Smart-meter companion | Kill | High | Bright app is free with DCC data | Free incumbent |
+| SC12 Tide times successor | Kill | High | My Tide Times 4.8★; EasyTide free | Served |
+| SC13 UK digital templates | Kill | Medium | Gumroad "uk landlord" 8 products, 0 ratings | No demand, no moat |
+| SC14 Productised automation gig | Kill | High | It's a service | Breaks rules (hours, automation) |
+| SC15 UK inspection SaaS | Kill | High | FireCert ~$4.5k MRR is real | Breaks rules (local trades, sales) |
+| SC16 HubSpot UK→Xero sync | Kill | Medium | Funded connectors (not re-fetched) | Crowded |
+| SC17 Companies House software filing | Kill | Medium-high | **Date is 1 Apr 2028**; P&L filing paused (GOV.UK, 23 Oct 2026); £5–£20 floor | Commodity plus liability |
+| SC18 WordPress abandoned-plugin successors | Kill | Medium | Maintained alternatives (BackWPup, UpdraftPlus) | Support hours |
+| SC19 Gift Aid WP plugin | Kill | High | Tinwell, Donor Merchant, Charitable, Sky Gift Claim | v7 gap has closed |
+| SC20 Click & Drop sync (benchmark) | Kill | High | MakePost (7 Oct 2026), Postbag (24 Sep 2026) | Copied in weeks |
+
+## Cross-cutting findings
+
+1. **The moat check killed most of these.** In 2026, every live gap we rechecked already had a recent copy:
+   - Chatpane, released 16 Oct 2026 for Google Chat in Jira
+   - MakePost, launched 7 Oct 2026 for Click & Drop sync
+   - Harvest for Jira, now 9 apps
+   - Mermaid for Confluence, now 107 apps
+   - seed-phrase vaults, with several recent apps
+
+   The Forge 0% revenue-share incentive and coding agents make clones nearly free.
+2. **Two scout gaps have closed since v7:**
+   - Gift Aid on WordPress now has at least 4 suppliers.
+   - FreeAgent has an official e-commerce partner, Equali.
+3. **Scoring quirk to fix in Part 2:** first-hand revenue claims lifted old or failed anecdotes to the top. C1143 is a 2005 acquisition, and C2253's own guest says the app "never really took off". The scorer should check how old the event behind a claim is, not just the video date.
+4. **Companies House:** software-only accounts filing is confirmed for **1 April 2028**. Today GOV.UK also paused the requirement for small and micro companies to file P&L accounts. Abridged and filleted accounts remain.
+5. **Not covered:**
+   - The 5 most-cited clusters (rule kills; see the scope note).
+   - SC09 and SC16 were not re-fetched.
+   - Install counts for Chatpane aren't shown publicly.
+   - App Store guideline specifics for security apps weren't rechecked.
+## Part A: transcript clusters (top 15)
+
+### C1143: One-time downloadable software. **Kill**, confidence high
+- **Source claim rechecked:** the transcript (4IETgMZy1o0, The Koerner Office, Sep 2025) says: *"I went and acquired… a software product, but it was pre-SaaS because it was only one time download… that got up to like $4,000 a month."* The speaker, "Rob", is almost certainly Rob Walling describing DotNetInvoice, which he bought in 2005 for $11k ([robwalling.com, 2007](https://robwalling.com/essays/2007/09/16/inside-story-small-software-acquisition-1-of-3); [Startups for the Rest of Us #525](https://www.startupsfortherestofus.com/episodes/episode-525-a-bootstrapping-artifact-from-2005)). Matching the speaker to Walling is our inference, not confirmed in the transcript.
+- **Staleness:** the video is from 2025, but the evidence itself is roughly 20 years old. The cluster names no niche, no customer and no channel.
+- **Why kill:** this is a historical anecdote, not a current opportunity. The scorer ranked it #1 only because a first-hand revenue figure was attached. That is a scoring quirk worth fixing in Part 2: down-weight first-hand claims when the event they describe is old.
+
+### C0215: Claude and AI skill bundles. **Kill**, confidence medium
+- **Platform rechecked:** Anthropic's directory lists plugins and MCP servers for free, and has no paid listings or payouts ([Claude docs](https://claude.com/docs/directory/publish); [Claude Code plugins](https://code.claude.com/docs/en/plugins/publish)). Paid sales would have to go through third-party marketplaces such as Agensi or SkillHQ ([Agensi comparison](https://www.agensi.io/learn/ai-agent-skills-marketplace-comparison-2026); [SkillHQ](https://skillhq.dev/)). Their traction is unverified.
+- **Source context:** the strong video (quYKZushRPo, May 2026) sells skills to *his existing* SEO and newsletter audience. The second video (Sep 2026) is hypothetical.
+- **Moat:** none. A skill is a markdown file, so a buyer can copy and share it instantly, and free skill repos are plentiful.
+- **Why kill:** there's no paid discovery channel and no moat, and sales depend on an audience Ricardo doesn't have and can't build without a personal brand.
+
+### C2350: Encrypted on-device file vault (Voltaire/Vaultaire). **Maybe**, confidence low
+- **Source claim rechecked:** the founder is Rasty Turek. Starter Story's AI-compiled profile estimates about $40k/month in 2026, "triangulated from 6 public sources", not founder-verified ([Starter Story](https://www.starterstory.com/businesses/vaultaire)). A news write-up says $41k in one month ([biggo](https://finance.biggo.com/news/4873b81dd6555acd)). The transcript says $2–3k/day after about 6 months. Pricing is $1.99/week, $19.99/year or $39.99 lifetime, and lifetime brings in more than 80% of revenue. The revenue is plausible, but it is one outlier and not independently verified.
+- **Demand:** real. Appaloma (Sep 2026) counts 72 photo-vault apps; 9 make over $20k/month, and the top two earn $250k+ ([Appaloma](https://www.appaloma.com/research/photo-vaults)).
+- **Moat (extra-hard):**
+  - The leaders have held the top spots since 2011 and 2012.
+  - Only **one** app launched in the last 18 months made Appaloma's catalogue, and it sits in the $5–10k band.
+  - The crypto seed-phrase angle Voltaire's SEO targets ([its guide](https://vaultaire.app/guides/store-crypto-seed-phrase-iphone/)) already has several recent apps: SafeVault, Syfra, LockSeed and Sealby ([SafeVault](https://apps.apple.com/us/app/safevault-offline-storage/id6763192087), [Syfra](https://apps.apple.com/us/app/syfra/id6754493673)).
+  - Once users store data, switching costs keep them. That favours incumbents, and a newcomer would need to beat them on SEO or ASO.
+- **Risks:**
+  - The top 1★ themes are data lost on a new phone and lifetime purchases turned into subscriptions (Appaloma). One data-loss bug means refunds and reputational damage.
+  - Security-sensitive apps are reviewed harder under App Store guidelines (not rechecked today).
+  - Copycat rejections under App Store guideline 4.3 are a risk for a me-too vault.
+- **Agent-runnability:** high once it's built. SEO guides and ASO can be agent-written. Support for lost data can't be automated away.
+- **Build effort:** about 2–4 weeks for a native iOS app with on-device encryption, export and tests (estimate).
+- **Realistic revenue:** most new vault apps never reach the $5k/month catalogue floor. The only recent entrant that did sits at $5–10k/month peak. Voltaire's ~$40k/month is the outlier.
+- **What would decide it:**
+  1. A 1-day ASO and keyword check, for example "ID document vault UK" or "seed phrase vault": does a cluster exist where the top 10 are weak or dormant? Appaloma found 18 of 72 apps dormant.
+  2. Whether Ricardo is comfortable owning data-loss liability, mitigated by an on-device-only design with mandatory encrypted export.
+  3. Finding Voltaire's actual keyword wins, for example with AppTweak or Sensor Tower, before copying the SEO playbook.
+
+### C2242: Social posting API. **Kill**, confidence medium
+- **Source claim rechecked:** the product is Post for Me (postforme.dev, DayMoon Development). It charges $10/month for 1,000 posts, rising to $1,000/month for 200k ([pricing](https://www.postforme.dev/pricing)). The 5K MRR milestone on 8 Apr 2026 is the founder's own Twitter claim from the transcript; unverified.
+- **Competition (live):** Upload-Post ($16–24/mo), Ayrshare ($149+/mo), Late (now Zernio, $6 per account), PostPeer, SkedCast, Blotato and others ([Upload-Post comparison](https://www.upload-post.com/pricing-comparison/); [PostPeer](https://www.postpeer.dev/blog/best-social-media-posting-apis); [SkedCast vs Post for Me](https://skedcast.com/alternatives/post-for-me)).
+- **Platform risk:** every network (X, Meta, TikTok, LinkedIn) controls API access and app review and can change its terms. Developer support load is high.
+- **Why kill:** the source is itself the $10 price leader in a crowded race to the bottom. It grew on a founder-led Twitter build-in-public channel, which counts as a personal brand.
+
+### C0899: Weekly competitor-ad reports. **Kill**, confidence high
+- **Staleness:** the video is from Apr 2025 (stale), and its $300/month price is hypothetical.
+- **Rechecked live:** the exact product already exists for much less. Rival Ads charges $29/month for 2 competitors, with a weekly email digest and AI strategy notes ([Rival Ads](https://www.rivalads.io/pricing)). Panoramata starts at $99/month for 20 competitors ([Panoramata](https://www.panoramata.co/pricing)) and Foreplay at $175/month ([Foreplay](https://www.foreplay.co/pricing)). Atria lists 14 tools ([Atria](https://www.tryatria.com/blog/competitive-ad-tracking)).
+- **Why kill:** it's already productised at about a tenth of the proposed price. Selling to businesses would also mean cold outreach, which PECR limits to limited companies.
+
+### C2253: Community analytics app. **Kill**, confidence medium-high
+- **Source:** the transcript (LrLDsvbdPr0, Oct 2026) is a low-quality Whisper transcription. The product name "Meatwaves" is unverified, and the guest says it *"never really took off"*. His real business is a speech-to-text app.
+- **Competition (live):** Statbot ($8.97–14.95/mo), ServerLens ($1.99/mo), and Discord's own Server Insights, free for servers with 500+ members ([ServerLens](https://serverlens.co/blog/best-discord-analytics-tools-2026)). Skool has Grow Your Skool at $29–49/mo ([site](https://growyourskool.com/)).
+- **Why kill:** the market is commoditised and has a free native option. Even the source says it failed.
+
+### C2446: QR ordering software for event print vendors. **Kill**, confidence high
+- **Moat check fails:** at least six live competitors do exactly this: NINEMAGS Live, Vixie, ReadyPix, PrintBooth, MagFlow and MagnetSnap ([Vixie](https://vixie.app/), [ReadyPix](https://readypix.co/), [PrintBooth](https://printbooth.co/), [MagFlow](https://www.magflowme.com/), [NINEMAGS](https://ninemags.com/)).
+- **Buyers:** small, mostly US event vendors reached through Facebook groups. The source founder had her own audience of kit buyers.
+
+### C2354: AI paraphrase app. **Kill**, confidence medium
+- **Source claim:** the transcript (t9yFAJzsOkE, Jun 2026) says *"paraphrase… making about $2600 a month"* (unverified). The stated use case includes making ChatGPT text *"bypass"* AI detection.
+- **Competition:** QuillBot's iOS app costs $19.99/mo or $99.99/yr. Its revenue estimates conflict: $150k/mo per screensdesign versus $618/mo per Bumetric ([screensdesign](https://screensdesign.com/apps/quillbot-ai-writing-keyboard/); [Bumetric](https://bumetric.com/revenue/quillbot-ai-writing-keyboard)). Small dedicated paraphrase apps report about $1–3k/mo (e.g. [Paraphrase AI GTM](https://gtmsauce.com/companies/paraphrase-ai)). Rewriting is also built into general assistants and into OS-level writing tools (the iOS writing-tools point is from our own knowledge, not rechecked today).
+- **Risks:** pitching "bypass AI detection" invites academic-integrity backlash and possible App Store rejection (not rechecked).
+- **Why kill:** it's a commoditised feature with OS-level substitutes, and the source's edge was keyword timing that has now passed.
+
+### C0168: Niche search utility sites (tools, not articles). **Maybe**, confidence low-medium
+- **Staleness:** the strongest first-hand claim, $10–20k/month from AdSense exact-match-domain sites by **2011**, is 15 years old, so it's stale and not evidence. The word-unscrambler's "$5–6M/year" is a second-hand estimate (unverified).
+- **Search shift rechecked:**
+  - In a randomised field experiment, AI Overviews cut outbound organic clicks by 39.8% when shown ([SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6513059)).
+  - Ahrefs measures a 58% lower CTR in position 1 ([Ahrefs](https://ahrefs.com/blog/ai-overviews-reduce-clicks-update/)).
+  - Tool and calculator queries are the least exposed: one *modelled* estimate puts the loss at 6%, against 53% for definitions ([snowballr, modelled](https://snowballr.io/research/ai-mode-vs-calculator-publishers-10000-scenarios)).
+  - Google's generated interfaces are starting to compete with tool pages directly ([SEJ](https://www.searchenginejournal.com/googles-generated-interfaces-could-compete-with-tool-pages/586589/); [SEW](https://searchenginewatch.com/google-is-coming-for-the-free-tools-small-websites-depend-on/)).
+- **Fit:** good. It needs no face, no outreach and no local selling. Agents can build and maintain tools, and Ricardo is technical.
+- **Moat:** weak. Any tool can be cloned. The only defensible version uses proprietary or UK-specific data and logic that a generic generated interface can't reproduce, for example UK rules engines and calculators.
+- **Realistic revenue:** unverified. We found no current, sourced RPM or traffic figure for a comparable UK tool site today. Treat as £0–low hundreds a month for the first year until measured.
+- **What would decide it:**
+  1. Pick 3 UK tool queries with measurable volume, then check the live SERP for whether an AI Overview or generated tool appears and how strong the competing tools are.
+  2. Ship one tool and watch Search Console impressions and clicks for 8 weeks.
+  3. Kill if clicks after 8 weeks don't support at least £100/month at measured RPM.
+
+### C1091: Company funding alerts. **Kill**, confidence high
+- **Legal and platform:** Crunchbase's terms ban scraping ([ToS](https://about.crunchbase.com/terms-of-service)), and the free Basic API is retired ([docs](https://data.crunchbase.com/docs/crunchbase-basic)).
+- **UK variant (Companies House SH01 filings, lawful and free data):** already served by Funding Spotter ([site](https://www.fundingspotter.com/)), CompanyTrack ([site](https://companytrack.com/for/investors)), Tero and InvestorUniverse ([site](https://www.investoruniverse.uk/funding)), plus Fundz, Dealroom and Beauhurst.
+
+### C1124: Developer software boilerplate. **Kill**, confidence high
+- **Benchmark rechecked:** ShipFast went from $0 to $126k/month and back down. Marc Lou reports about $2k/month in 2026 ([Marc Lou](https://newsletter.marclou.com/tweets/shipfast-went-from-0-mo-to-126-000-mo-then-back-down)).
+- **Crowding:** there were 248 boilerplate submissions, 94 of them in 2026 by mid-October ([BoilerplateHub](https://boilerplatehub.com/blog/state-of-saas-boilerplates-2026)).
+- **Why kill:** coding agents now generate scaffolds on demand, and distribution depends on a dev-Twitter personal brand.
+
+### C1145: Star-naming registry. **Kill**, confidence medium
+- **Competition:** crowded (star-register.eu, AstraName, International Star Registry and more), and no naming is officially recognised ([AstraName explainer](https://astraname.com/is-naming-a-star-real); [SMSU FAQ](https://www.smsu.edu/campuslife/attractions/planetarium/starnamingfaq/index.html)).
+- **Legal:** consumer-protection risk around "official" or "registered" wording. ISR faced a New York deceptive-advertising action in 1998 ([archive](https://web.archive.org/web/20060111052632/http:/www.naic.edu/~gibson/starnames/isr_news.html)). In the UK, the DMCC Act 2024 lets the CMA fine directly for misleading practices. No ASA ruling was found (unverified).
+- **Source:** the "made millions" claim is second-hand.
+- **Why kill:** it's a commodity novelty gift that depends on paid ads, and it's ethically thin.
+
+### C0131: AI-generated social video accounts. **Kill**, confidence high
+- **Platform rechecked:** YouTube (13 Jul 2026) spelled out that generic, repetitive, templated or mass-produced AI content can't be monetised ([Tubefilter](https://www.tubefilter.com/2026/07/13/youtube-inauthentic-content-monetization-policy-update/); [TechCrunch](https://techcrunch.com/2026/07/20/youtube-clarifies-policies-around-ai-slop-and-upsetting-videos/)). A fully agent-run channel is exactly the pattern that policy targets.
+- **Source:** the cited Higgsfield "Earn" payouts are a tool vendor paying for its own promotion.
+
+### C0174: Custom AI portrait downloads. **Kill**, confidence medium
+- **Platform rechecked:** Etsy allows AI pet portraits made with your own prompts, provided AI use is disclosed ([Etsy](https://www.etsy.com/seller-handbook/article/1275449912004); [Etsy update](https://www.etsy.com/seller-handbook/article/1522733284810)).
+- **Why kill:**
+  - Buyers can now do this themselves for free in mainstream image models.
+  - The source's own profile-picture business *"fad died off"*.
+  - Custom orders mean revisions for every order, which costs hours.
+
+### C1037: YouTube product-review cross-posting. **Kill (rules)**, confidence high
+- **Rechecked:** the Cha-Ching Automate tool exists at $20/month or $200/year ([site](https://cha-ching-automate.averageguymakingmoney.com/)). YouTube's reused-content rule applies ([YouTube](https://support.google.com/youtube/answer/1311392)).
+- **Why kill:** it needs an existing Amazon Influencer library of product-review videos, which means physical products and a creator on camera or on voice. The source says the uplift is only 5–10% on an operation that already exists.
 ## Part B: market scout leads (SC01–SC20)
 
 ### SC01: MV3 replacements for orphaned Edge/Chrome MV2 extensions. **Kill**, confidence medium-high
