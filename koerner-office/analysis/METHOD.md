@@ -215,3 +215,18 @@ Infrastructure fix (not counted): the evidence schema no longer defaults `automa
    - Plans only: nothing is spent and nobody is contacted.
 
 Details are in `v11/RULES_LOCKED.md`.
+
+---
+
+## v12 changes (proposed 24 Oct 2026 by RETRO_v11.md, pending Ricardo: stall rule triggered)
+
+1. **Proven-model track, judged by a test instead of desk gates.**
+   - Covers models with ≥5 independent operators.
+   - K0 and K2 don't apply to it.
+   - "Pursue" means only a passed ≤£50 test against pre-set thresholds.
+2. **Gated listing data on the buy track.**
+   - Ricardo's own buyer accounts and NDAs give access to the full financials.
+   - The mechanical checklist pass rule stays.
+3. **Product-specific evidence clusters.**
+   - Cluster by named paid tool plus job.
+   - Use sources that aren't blocked.

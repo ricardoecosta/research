@@ -190,6 +190,7 @@ Optimise for **the lowest cost that keeps decision quality**. These rules are le
   - **PAUSED 23 Oct 2026, 22:26 BST at Ricardo's request, pending a method review.** Stage reached: stage 0 done (rules locked, `1317504`). Stage 1 (harvest) had just started, and its 5 in-flight Codex calls were stopped before returning. No leads were saved. To resume, run `cd koerner-office/scripts/v11 && /tmp/v7venv/bin/python v11.py harvest killcheck shadow evidence score validate`. Re-lock the rules first if the review changes them.
 
 - **v11 REBUILT (Ricardo, 23 Oct 23:15 BST)** after forum research. The lesson: AI should collect, cluster and count real paid-demand evidence, not generate or judge ideas. The 3 changes are (1) an evidence-first build track (non-LLM harvest from HN, Reddit RSS and 1–2★ reviews of paid tools; LLM clusters and counts only; bar of ≥30 distinct complainers in 6 months plus paying proof, then time-to-moat and the xhigh kill-check), (2) the buy track as the main track (an LLM checklist table plus 5 seller questions, with a mechanical pass rule), and (3) a ≤£50 real-money test plan for every pursue or maybe, written but not run. Budget is ≤4 h. See `v11/CHANGES.md`. The pause note above is superseded.
+- **v11 result (24 Oct 00:20 BST):** P = 0, 1 maybe (medium, buy track). The stall rule triggered, so the loop is paused for Ricardo. See `RETRO_v11.md`.
 
 ## 7. Proposed METHOD changes not yet adopted
 
