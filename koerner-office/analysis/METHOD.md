@@ -104,7 +104,16 @@ Whatever their rank, the **most-cited clusters** (the most distinct videos backi
 
 When we hit a wall, use this order.
 
-- **Bulk mining and cheap passes:** Codex on Ricardo's Mac first, then pi, then Researcher (Grok Bot) if both are out.
+- **Every LLM-calling stage (updated 23 Oct 2026):** Codex (gpt-6-luna) first, then Claude (`claude-opus-5-5`), then pi, then the Grok Bot box.
+  - **Box route:** the exact prompts are dumped to files, Grok Bot answers them, and an import step ingests the answers. This was proven on 23 Oct with 127 transcripts and 0 errors.
+  - **Limits switch runners immediately, with no back-off.** A limit is detected from the output text:
+    - Codex: "usage limit … try again at HH:MM"
+    - Claude: "You've hit your session limit · resets H:MMpm"
+    - also 429, overloaded and rate-limit messages
+  - The reset time is recorded, and the cheaper runner is used again after it.
+  - A stage never stalls. If every runner is blocked, it skips the item and leaves the prompt for the box.
+  - Implementation: `scripts/common/runner.py`. Details are in `LOOP.md` §5.
+- **Bulk mining and cheap passes:** Codex on Ricardo's Mac first. The order above applies when it's limited.
 - **Reviews and validation:** Claude Opus 5.5 on Ricardo's Mac first. If its session limit hits (it resets every five hours), Researcher takes over the validation itself with web checks, as was done for the synthesis and the hidden gems.
 - **Pushing:** always from Ricardo's Mac. When the Mac is offline, keep the files on Researcher's computer and push once the Mac is back.
 
@@ -129,3 +138,21 @@ Three rules for cutting token use and time without losing reliability or quality
 3. **Sample quote checks.** Verify quotes by sampling a batch per miner rather than checking every quote, since 99–100% of quotes pass automated fuzzy matching at 90/100.
 
 **Safeguard:** any efficiency change gets a shadow comparison on one batch first. If the cheaper path starts missing things, revert immediately.
+
+---
+
+## v9 changes (23 Oct 2026, decided by RETRO_v8.md)
+
+These three rules apply from v9 on. Other proposals stay in `LOOP.md` §7 until a retro supports them.
+
+1. **Validation first.** Before any deep mining or scoring, every lead gets a cheap, web-checked kill-check: hard rules, copy-speed, platform ownership, claim age and incumbent count, with a URL for each kill.
+   - Only survivors get deep evidence, scoring (step 8) and high-effort validation (step 10).
+   - Each iteration, 10 cheap kills are shadow-checked at high effort. If 2 or more of the 10 were wrong kills, re-run the kill-check at high effort.
+2. **Copy-speed is a hard filter.** Kill a lead if either:
+   - 2 or more competitors launched in the last 6 months, or
+   - the platform owner or one of its official partners already serves the need.
+
+   In v8, every live gap rechecked had already been copied in 2026.
+3. **Claim age is measured by the event, not the video.** A revenue or traction claim gets zero weight in scoring if the event it describes is more than 18 months old. That covers a 2005 acquisition retold in a 2025 video. It also gets zero weight if its own source calls the venture a failure. Record `claim_event_date` next to `publish_date`.
+
+From v9, the research runs as an iteration loop. `LOOP.md` holds the objective, the stopping and stall rules, the budget and the seen-ideas ledger.
