@@ -1,0 +1,169 @@
+{
+ "id": "8wbjlHuLGA8",
+ "publish_date": "20260906",
+ "channel": "Codie Sanchez",
+ "status": "ingested",
+ "title": "Unfortunately, Sales Really Is This Simple (4 Steps)",
+ "provider": "local_whisper_tiny",
+ "duration_s": "1316",
+ "n_lines": 342,
+ "n_removed_lines": 26,
+ "removed": [
+  {
+   "from": 168,
+   "to": 172,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 214,
+   "to": 227,
+   "reason": "sponsor"
+  },
+  {
+   "from": 300,
+   "to": 302,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 338,
+   "to": 341,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "8wbjlHuLGA8#r1",
+   "business": "Contrarian Thinking",
+   "ranges": [
+    [
+     7,
+     7
+    ],
+    [
+     275,
+     278
+    ],
+    [
+     342,
+     342
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "8wbjlHuLGA8#r2",
+   "business": "Boardroom (the business owner community)",
+   "ranges": [
+    [
+     138,
+     138
+    ],
+    [
+     161,
+     165
+    ],
+    [
+     176,
+     185
+    ],
+    [
+     193,
+     206
+    ],
+    [
+     259,
+     287
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "8wbjlHuLGA8#r3",
+   "business": "HubSpot",
+   "ranges": [
+    [
+     214,
+     227
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "8wbjlHuLGA8#r4",
+   "business": "McKinsey",
+   "ranges": [
+    [
+     34,
+     40
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "8wbjlHuLGA8#r5",
+   "business": "GONG",
+   "ranges": [
+    [
+     78,
+     81
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "8wbjlHuLGA8#r6",
+   "business": "construction company",
+   "ranges": [
+    [
+     88,
+     94
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "8wbjlHuLGA8#r7",
+   "business": "cleaning company",
+   "ranges": [
+    [
+     236,
+     247
+    ],
+    [
+     253,
+     258
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "8wbjlHuLGA8#r8",
+   "business": "Stripe",
+   "ranges": [
+    [
+     244,
+     244
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "8wbjlHuLGA8#r9",
+   "business": "DJ business featured in the Boardroom community",
+   "ranges": [
+    [
+     264,
+     273
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "Sales advice with specific business examples, a sponsor segment, and promotions.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 51
+}

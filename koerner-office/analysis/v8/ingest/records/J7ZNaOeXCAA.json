@@ -1,0 +1,152 @@
+{
+ "id": "J7ZNaOeXCAA",
+ "publish_date": "20260604",
+ "channel": "Chris Koerner on The Koerner Office Podcast",
+ "status": "ingested",
+ "title": "An Average Guy Built This in One Weekend. Here's How",
+ "provider": "local_whisper_tiny",
+ "duration_s": "2717",
+ "n_lines": 843,
+ "n_removed_lines": 39,
+ "removed": [
+  {
+   "from": 138,
+   "to": 140,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 372,
+   "to": 382,
+   "reason": "sponsor"
+  },
+  {
+   "from": 632,
+   "to": 648,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 836,
+   "to": 843,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "J7ZNaOeXCAA#r1",
+   "business": "AI business built in a weekend, vibe-coding software and helping companies integrate AI",
+   "ranges": [
+    [
+     1,
+     12
+    ],
+    [
+     27,
+     35
+    ],
+    [
+     36,
+     79
+    ],
+    [
+     86,
+     137
+    ],
+    [
+     141,
+     180
+    ],
+    [
+     182,
+     237
+    ],
+    [
+     240,
+     279
+    ],
+    [
+     334,
+     371
+    ],
+    [
+     383,
+     606
+    ],
+    [
+     620,
+     630
+    ],
+    [
+     649,
+     655
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "J7ZNaOeXCAA#r2",
+   "business": "Sikh, the guest’s previous company, which did augmented reality",
+   "ranges": [
+    [
+     607,
+     619
+    ],
+    [
+     729,
+     743
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "J7ZNaOeXCAA#r3",
+   "business": "Buying one of everything at Bucky’s and selling it on a website",
+   "ranges": [
+    [
+     658,
+     674
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "J7ZNaOeXCAA#r4",
+   "business": "Garrett Guy’s QR code scanning app",
+   "ranges": [
+    [
+     676,
+     719
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "J7ZNaOeXCAA#r5",
+   "business": "A business started with John McAfee",
+   "ranges": [
+    [
+     724,
+     727
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "J7ZNaOeXCAA#r6",
+   "business": "LCD Cycle, a B2B company",
+   "ranges": [
+    [
+     744,
+     777
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "Promotional segments removed; business records are separated by venture.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 134
+}

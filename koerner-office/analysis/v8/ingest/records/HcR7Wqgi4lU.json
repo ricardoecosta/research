@@ -1,0 +1,142 @@
+{
+ "id": "HcR7Wqgi4lU",
+ "publish_date": "20260607",
+ "channel": "Chris Koerner on The Koerner Office Podcast",
+ "status": "ingested",
+ "title": "He Made $60K His First Month With This Boring Business",
+ "provider": null,
+ "duration_s": "3369",
+ "n_lines": 1482,
+ "n_removed_lines": 41,
+ "removed": [
+  {
+   "from": 51,
+   "to": 52,
+   "reason": "filler"
+  },
+  {
+   "from": 213,
+   "to": 217,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 728,
+   "to": 744,
+   "reason": "sponsor"
+  },
+  {
+   "from": 1215,
+   "to": 1222,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 1474,
+   "to": 1482,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "HcR7Wqgi4lU#r1",
+   "business": "concrete coatings business, focused mostly on garage floors",
+   "ranges": [
+    [
+     1,
+     50
+    ],
+    [
+     54,
+     66
+    ],
+    [
+     73,
+     98
+    ],
+    [
+     111,
+     121
+    ],
+    [
+     130,
+     212
+    ],
+    [
+     218,
+     727
+    ],
+    [
+     745,
+     1214
+    ],
+    [
+     1223,
+     1270
+    ],
+    [
+     1271,
+     1465
+    ],
+    [
+     1467,
+     1473
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "HcR7Wqgi4lU#r2",
+   "business": "tile work, as a solo high-end tile craftsman",
+   "ranges": [
+    [
+     67,
+     72
+    ],
+    [
+     99,
+     110
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "HcR7Wqgi4lU#r3",
+   "business": "Airbnb property management",
+   "ranges": [
+    [
+     116,
+     118
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "HcR7Wqgi4lU#r4",
+   "business": "Backyard Funhouse, doing sport courts",
+   "ranges": [
+    [
+     422,
+     424
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "HcR7Wqgi4lU#r5",
+   "business": "frozen yogurt shops",
+   "ranges": [
+    [
+     959,
+     974
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "The guest’s concrete coatings business is primary; the other businesses are discussed in passing.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 57
+}

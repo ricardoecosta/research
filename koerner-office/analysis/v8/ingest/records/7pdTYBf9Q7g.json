@@ -1,0 +1,113 @@
+{
+ "id": "7pdTYBf9Q7g",
+ "publish_date": "20251120",
+ "channel": "Casper Capital",
+ "status": "ingested",
+ "title": "Top 5 Life Insurance Companies in USA",
+ "provider": null,
+ "duration_s": "662",
+ "n_lines": 113,
+ "n_removed_lines": 2,
+ "removed": [
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "filler"
+  },
+  {
+   "from": 112,
+   "to": 112,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "7pdTYBf9Q7g#r1",
+   "business": "Corbridge Financial",
+   "ranges": [
+    [
+     4,
+     35
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "7pdTYBf9Q7g#r2",
+   "business": "American General Life",
+   "ranges": [
+    [
+     11,
+     11
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "7pdTYBf9Q7g#r3",
+   "business": "US Life",
+   "ranges": [
+    [
+     11,
+     11
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "7pdTYBf9Q7g#r4",
+   "business": "Ladder Life",
+   "ranges": [
+    [
+     36,
+     51
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "7pdTYBf9Q7g#r5",
+   "business": "AMA",
+   "ranges": [
+    [
+     53,
+     72
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "7pdTYBf9Q7g#r6",
+   "business": "Northwestern Mutual",
+   "ranges": [
+    [
+     73,
+     94
+    ],
+    [
+     98,
+     98
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "7pdTYBf9Q7g#r7",
+   "business": "New York Life",
+   "ranges": [
+    [
+     95,
+     105
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "Ranked comparison of five insurers; Corbridge Financial is the top-ranked pick.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 47
+}

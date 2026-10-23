@@ -1,0 +1,108 @@
+{
+ "id": "AXatzxlPc8Y",
+ "publish_date": "20261013",
+ "channel": "Dark Horse Entrepreneur",
+ "status": "ingested",
+ "title": "EP 565 Make Money Online With a Micro App | Validate Before Building",
+ "provider": null,
+ "duration_s": "1434",
+ "n_lines": 367,
+ "n_removed_lines": 30,
+ "removed": [
+  {
+   "from": 17,
+   "to": 20,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 128,
+   "to": 128,
+   "reason": "tangent"
+  },
+  {
+   "from": 321,
+   "to": 330,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 332,
+   "to": 336,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 358,
+   "to": 367,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "AXatzxlPc8Y#r1",
+   "business": "A game-day text tool for youth cheer coaches to confirm which parents are attending",
+   "ranges": [
+    [
+     95,
+     97
+    ],
+    [
+     121,
+     128
+    ],
+    [
+     174,
+     175
+    ],
+    [
+     219,
+     224
+    ],
+    [
+     240,
+     244
+    ],
+    [
+     252,
+     253
+    ],
+    [
+     256,
+     258
+    ],
+    [
+     274,
+     278
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "AXatzxlPc8Y#r2",
+   "business": "A mood tracker app built using AI tools",
+   "ranges": [
+    [
+     64,
+     68
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "AXatzxlPc8Y#r3",
+   "business": "A thirteenth pizza place in a town, used as an example of entering a proven market",
+   "ranges": [
+    [
+     46,
+     54
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "The cheer-coach app is the central business example; the mood tracker and pizza place are discussed in passing.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 70
+}

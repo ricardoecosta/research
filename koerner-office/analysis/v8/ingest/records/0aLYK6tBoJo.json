@@ -1,0 +1,182 @@
+{
+ "id": "0aLYK6tBoJo",
+ "publish_date": "20261019",
+ "channel": "UpFlip",
+ "status": "ingested",
+ "title": "He Makes $325K/Month Selling Philly Cheesesteaks from 1 Store",
+ "provider": "local_whisper_tiny",
+ "duration_s": "2265",
+ "n_lines": 1005,
+ "n_removed_lines": 81,
+ "removed": [
+  {
+   "from": 2,
+   "to": 6,
+   "reason": "tangent"
+  },
+  {
+   "from": 10,
+   "to": 10,
+   "reason": "filler"
+  },
+  {
+   "from": 24,
+   "to": 27,
+   "reason": "tangent"
+  },
+  {
+   "from": 70,
+   "to": 73,
+   "reason": "filler"
+  },
+  {
+   "from": 230,
+   "to": 234,
+   "reason": "tangent"
+  },
+  {
+   "from": 301,
+   "to": 308,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 402,
+   "to": 405,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 503,
+   "to": 505,
+   "reason": "tangent"
+  },
+  {
+   "from": 510,
+   "to": 531,
+   "reason": "tangent"
+  },
+  {
+   "from": 534,
+   "to": 553,
+   "reason": "tangent"
+  },
+  {
+   "from": 882,
+   "to": 883,
+   "reason": "tangent"
+  },
+  {
+   "from": 1003,
+   "to": 1005,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "0aLYK6tBoJo#r1",
+   "business": "Pat's King of Steaks (Pat's cheesesteak shop)",
+   "ranges": [
+    [
+     1,
+     1
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     11,
+     23
+    ],
+    [
+     28,
+     69
+    ],
+    [
+     74,
+     229
+    ],
+    [
+     235,
+     300
+    ],
+    [
+     309,
+     401
+    ],
+    [
+     406,
+     417
+    ],
+    [
+     423,
+     499
+    ],
+    [
+     500,
+     502
+    ],
+    [
+     506,
+     509
+    ],
+    [
+     532,
+     533
+    ],
+    [
+     554,
+     881
+    ],
+    [
+     884,
+     1002
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "0aLYK6tBoJo#r2",
+   "business": "Steve's cheesesteak shop (competitor; name is unclear in the transcript)",
+   "ranges": [
+    [
+     336,
+     343
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "0aLYK6tBoJo#r3",
+   "business": "Real estate",
+   "ranges": [
+    [
+     418,
+     422
+    ],
+    [
+     488,
+     489
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "0aLYK6tBoJo#r4",
+   "business": "Italian beef from Chicago (hypothetical food business)",
+   "ranges": [
+    [
+     815,
+     819
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "The competitor's name is garbled; real estate and Italian beef are brief mentions.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 91
+}

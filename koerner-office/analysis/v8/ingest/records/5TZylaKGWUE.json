@@ -1,0 +1,158 @@
+{
+ "id": "5TZylaKGWUE",
+ "publish_date": "20260618",
+ "channel": "Chris Koerner on The Koerner Office Podcast",
+ "status": "ingested",
+ "title": "Everyone Overlooks This Simple Side Hustle",
+ "provider": "transcribeyoutube",
+ "duration_s": "1722",
+ "n_lines": 776,
+ "n_removed_lines": 34,
+ "removed": [
+  {
+   "from": 149,
+   "to": 153,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 384,
+   "to": 399,
+   "reason": "sponsor"
+  },
+  {
+   "from": 655,
+   "to": 663,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 773,
+   "to": 775,
+   "reason": "filler"
+  },
+  {
+   "from": 776,
+   "to": 776,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "5TZylaKGWUE#r1",
+   "business": "fresh-squeezed lemonade stand and catering business",
+   "ranges": [
+    [
+     1,
+     7
+    ],
+    [
+     17,
+     148
+    ],
+    [
+     154,
+     383
+    ],
+    [
+     400,
+     606
+    ],
+    [
+     728,
+     739
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "5TZylaKGWUE#r2",
+   "business": "renting out the lemonade cart",
+   "ranges": [
+    [
+     31,
+     35
+    ],
+    [
+     70,
+     71
+    ],
+    [
+     98,
+     112
+    ],
+    [
+     441,
+     441
+    ],
+    [
+     454,
+     489
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "5TZylaKGWUE#r3",
+   "business": "frozen bananas for catering and events",
+   "ranges": [
+    [
+     8,
+     16
+    ],
+    [
+     606,
+     654
+    ],
+    [
+     664,
+     723
+    ],
+    [
+     725,
+     727
+    ],
+    [
+     732,
+     763
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "5TZylaKGWUE#r4",
+   "business": "apple nachos for catering",
+   "ranges": [
+    [
+     616,
+     616
+    ],
+    [
+     620,
+     624
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "5TZylaKGWUE#r5",
+   "business": "former catering business",
+   "ranges": [
+    [
+     81,
+     81
+    ],
+    [
+     251,
+     252
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "Separate records cover the guest’s lemonade, cart rentals, frozen bananas, apple nachos, and former catering business.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 94
+}

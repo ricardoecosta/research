@@ -1,0 +1,53 @@
+{
+ "id": "ICTRNFIdZvc",
+ "publish_date": "20260930",
+ "channel": "Starter Story",
+ "status": "ingested",
+ "title": "I Built a $30K/Month Business From a Remote Island (How I Work)",
+ "provider": "local_whisper_tiny",
+ "duration_s": "588",
+ "n_lines": 105,
+ "n_removed_lines": 13,
+ "removed": [
+  {
+   "from": 26,
+   "to": 38,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "ICTRNFIdZvc#r1",
+   "business": "Generalist World",
+   "ranges": [
+    [
+     1,
+     25
+    ],
+    [
+     39,
+     105
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "ICTRNFIdZvc#r2",
+   "business": "Beehive",
+   "ranges": [
+    [
+     95,
+     100
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "Removed the Starter Story self-promotion; Beehive is named as a year-long partnership.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 30
+}

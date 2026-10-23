@@ -1,0 +1,165 @@
+{
+ "id": "zjp8fRfqZ5c",
+ "publish_date": "20260804",
+ "channel": "Side Hustle Nation",
+ "status": "ingested",
+ "title": "Inside the $2 Billion Side Hustle Paying People to Eat Out & Drive Around",
+ "provider": "local_whisper_tiny",
+ "duration_s": "3005",
+ "n_lines": 627,
+ "n_removed_lines": 81,
+ "removed": [
+  {
+   "from": 8,
+   "to": 9,
+   "reason": "filler"
+  },
+  {
+   "from": 51,
+   "to": 53,
+   "reason": "filler"
+  },
+  {
+   "from": 184,
+   "to": 209,
+   "reason": "sponsor"
+  },
+  {
+   "from": 388,
+   "to": 418,
+   "reason": "sponsor"
+  },
+  {
+   "from": 609,
+   "to": 627,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "zjp8fRfqZ5c#r1",
+   "business": "Mystery shopping",
+   "ranges": [
+    [
+     1,
+     77
+    ],
+    [
+     98,
+     183
+    ],
+    [
+     210,
+     387
+    ],
+    [
+     419,
+     427
+    ],
+    [
+     438,
+     467
+    ],
+    [
+     468,
+     517
+    ],
+    [
+     530,
+     544
+    ],
+    [
+     552,
+     558
+    ],
+    [
+     570,
+     608
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "zjp8fRfqZ5c#r2",
+   "business": "iShop, the mystery shopping recruiter and training organization",
+   "ranges": [
+    [
+     78,
+     97
+    ],
+    [
+     468,
+     517
+    ],
+    [
+     532,
+     569
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "zjp8fRfqZ5c#r3",
+   "business": "ShopQuest, the mystery shopper job aggregator",
+   "ranges": [
+    [
+     428,
+     437
+    ],
+    [
+     518,
+     529
+    ],
+    [
+     568,
+     569
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "zjp8fRfqZ5c#r4",
+   "business": "Merchandising shops",
+   "ranges": [
+    [
+     345,
+     351
+    ],
+    [
+     362,
+     378
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "zjp8fRfqZ5c#r5",
+   "business": "Photography",
+   "ranges": [
+    [
+     306,
+     313
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "zjp8fRfqZ5c#r6",
+   "business": "Virtual assistant training and matchmaking service",
+   "ranges": [
+    [
+     559,
+     561
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "Mystery shopping is the primary opportunity; sponsor reads and the channel outro are removed.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 83
+}

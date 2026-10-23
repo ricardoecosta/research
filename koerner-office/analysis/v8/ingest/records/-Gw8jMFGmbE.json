@@ -1,0 +1,110 @@
+{
+ "id": "-Gw8jMFGmbE",
+ "publish_date": "20261014",
+ "channel": "Mikey No Code",
+ "status": "ingested",
+ "title": "Why I Switched to Base44 in 2026 (Full Honest Review)",
+ "provider": null,
+ "duration_s": "2345",
+ "n_lines": 328,
+ "n_removed_lines": 19,
+ "removed": [
+  {
+   "from": 24,
+   "to": 24,
+   "reason": "filler"
+  },
+  {
+   "from": 28,
+   "to": 30,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 31,
+   "to": 31,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 185,
+   "to": 194,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 207,
+   "to": 208,
+   "reason": "tangent"
+  },
+  {
+   "from": 327,
+   "to": 328,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "-Gw8jMFGmbE#r1",
+   "business": "Base44, an AI app builder with a database, authentication, hosting, and agents",
+   "ranges": [
+    [
+     2,
+     27
+    ],
+    [
+     87,
+     184
+    ],
+    [
+     195,
+     206
+    ],
+    [
+     209,
+     326
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "-Gw8jMFGmbE#r2",
+   "business": "Lovable, the AI app builder the speaker used before switching",
+   "ranges": [
+    [
+     1,
+     15
+    ],
+    [
+     32,
+     75
+    ],
+    [
+     87,
+     90
+    ],
+    [
+     156,
+     179
+    ],
+    [
+     197,
+     206
+    ],
+    [
+     209,
+     213
+    ],
+    [
+     252,
+     254
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "Event Pulse is the demo app used to test the platforms.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 62
+}

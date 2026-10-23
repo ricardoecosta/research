@@ -1,0 +1,2839 @@
+{
+ "id": "50iWtrj9Mkw",
+ "title": "Forget Big Apps. These Tiny Tools Are Making Millions",
+ "channel": "Chris Koerner on The Koerner Office Podcast",
+ "publish_date": "20260519",
+ "miner": "codex:gpt-6-luna:xhigh",
+ "mined_at": "2026-10-23T10:22:05",
+ "secs": 244,
+ "schema_errors": [],
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host"
+  }
+ ],
+ "evidence_quality": "C",
+ "promo_conflict": null,
+ "ideas": [
+  {
+   "record_id": "50iWtrj9Mkw#r1",
+   "depth": "deep",
+   "stated_problem": null,
+   "idea": {
+    "name": "Google Maps lead scraper",
+    "one_liner": "A self-serve tool that turns Google Maps searches into downloadable local-business leads, sold by subscription and credits.",
+    "customer": "B2B sales teams, cold callers, SDRs and marketing agencies that need local-business lists.",
+    "offer": "Search Google Maps by business type and area, then download the results as a spreadsheet.",
+    "revenue_model": "Monthly subscription converted into scraping credits.",
+    "category": "data_leads"
+   },
+   "citation": {
+    "lines": [
+     31,
+     185,
+     186,
+     190,
+     191,
+     192,
+     195,
+     196,
+     197,
+     198,
+     200,
+     202
+    ],
+    "primary_line": 185
+   },
+   "key_quotes": [
+    {
+     "quote": "So he started with a Google Maps lead scraper.",
+     "line": 185
+    },
+    {
+     "quote": "So you go to his website, you type in gyms in Texas, and then you have a spreadsheet of every gym in Texas, right?",
+     "line": 186
+    },
+    {
+     "quote": "He used, I think, an Appify actor, an API on the back end to do all the scraping, and he just vibecoded it into a nice, clean little website with a Stripe integration.",
+     "line": 190
+    },
+    {
+     "quote": "So people liked that because a lot of us have subscription fatigue.",
+     "line": 193
+    },
+    {
+     "quote": "He just kind of told some friends about it in the sales space.",
+     "line": 200
+    }
+   ],
+   "claims": [
+    {
+     "claim": "The product costs $35 a month, with the payment converted into credits.",
+     "quote": "Charges 35 bucks a month, but he allowed customers to convert that 35 bucks into credits.",
+     "line": 191,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "Unused credits remain available for nine months after cancellation.",
+     "quote": "So if they canceled their account, they could still come back 9 months later and use the rest of their credits to scrape more.",
+     "line": 192,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "After about seven months, the business had $3,500 in monthly recurring revenue.",
+     "quote": "So he's been doing this for like 7 months and he's doing 3500 bucks in monthly recurring revenue.",
+     "line": 195,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "The business's costs were almost zero.",
+     "quote": "His costs are almost zero. His customer support is basically zero.",
+     "line": 196,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "Customer support was nearly zero.",
+     "quote": "His customer support is basically zero. It's a self-s served product and yeah, this is a guy who had no tech experience and he's doing well and is growing double digits every month.",
+     "line": 197,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "Revenue was growing by double digits each month.",
+     "quote": "It's a self-s served product and yeah, this is a guy who had no tech experience and he's doing well and is growing double digits every month.",
+     "line": 198,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "The host projects possible future monthly revenue of $5,000, $10,000, or $20,000 to $30,000.",
+     "quote": "His 3500 MR today eventually will be 5,000 and 10,000, maybe 20 or 30,000.",
+     "line": 460,
+     "first_hand": false,
+     "hypothetical": true
+    }
+   ],
+   "acquisition_channels": [
+    {
+     "channel": "referral",
+     "details": "Nico told friends in the sales space; the host says word of mouth drove early use."
+    }
+   ],
+   "delivery": "Nico runs a self-serve website that queries Google Maps through an Apify actor and returns a spreadsheet; Stripe handles payment. A technical friend helps with technical work.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "Apify actor",
+     "Stripe"
+    ],
+    "prices": [
+     "35 bucks/month"
+    ],
+    "platforms": [
+     "Google Maps"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "UK GDPR may apply to identifiable business contact data; PECR applies to downstream marketing. DMCC Act subscription rules may be relevant to the recurring plan.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 85,
+   "hours_per_week_e": 6,
+   "idea_id": "50iWtrj9Mkw:i1",
+   "specifics_flag": true,
+   "publish_date": "20260519",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "50iWtrj9Mkw#r41",
+   "depth": "mention",
+   "stated_problem": {
+    "quote": "The customer doesn't know that Apify exists. If they do know it exists, it might be a little too technical for them or complicated or they might not like that it has a monthly fee.",
+    "line": 114,
+    "speaker": "Chris Koerner"
+   },
+   "idea": {
+    "name": "Apify actor wrapper",
+    "one_liner": "Put a simple, niche storefront around a prebuilt Apify scraper or AI actor and charge customers to use it.",
+    "customer": "People who want a particular scraping or AI result without using a technical, general-purpose platform.",
+    "offer": "A simple website with a search bar that calls a selected actor behind the scenes.",
+    "revenue_model": "Markup on the underlying tool's usage or a customer-facing subscription.",
+    "category": "saas_software"
+   },
+   "citation": {
+    "lines": [
+     114,
+     115,
+     214,
+     218,
+     220,
+     221,
+     223,
+     224
+    ],
+    "primary_line": 214
+   },
+   "key_quotes": [
+    {
+     "quote": "Same thing that Nico did. You can do it with Google Maps like Nico. You can do it with something else.",
+     "line": 215
+    },
+    {
+     "quote": "You just put a wrapper on top of it.",
+     "line": 220
+    },
+    {
+     "quote": "And if that sounds complex, you're just getting a key, a code from the actor and you're pasting it into replet, lovable, codeex, whatever vibe coding tool you use and you're saying,",
+     "line": 221
+    }
+   ],
+   "claims": [
+    {
+     "claim": "The host says Apify has more than 30,000 actors.",
+     "quote": "There's over 30,000 actors. And an actor is just a pre-built scraper or an AI tool that someone already built.",
+     "line": 218,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "A domain name is given as a $10 startup cost.",
+     "quote": "Instagram scraper, LinkedIn scraper, Facebook group scraper, Reddit, buy a $10 domain name, vibe code it, host it on the domain name, good to go.",
+     "line": 223,
+     "first_hand": false,
+     "hypothetical": true
+    },
+    {
+     "claim": "The host says a wrapper could be built in an afternoon.",
+     "quote": "You could do this in an afternoon, literally.",
+     "line": 224,
+     "first_hand": false,
+     "hypothetical": true
+    }
+   ],
+   "acquisition_channels": [],
+   "delivery": "A website calls a third-party actor API and presents its output through a simpler interface.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "Apify",
+     "Replit",
+     "Lovable",
+     "Codex"
+    ],
+    "prices": [
+     "$10 domain name"
+    ],
+    "platforms": [
+     "Apify"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "UK GDPR and platform terms may matter where actors scrape personal data or restricted platform data.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 75,
+   "hours_per_week_e": 8,
+   "idea_id": "50iWtrj9Mkw:i2",
+   "specifics_flag": true,
+   "publish_date": "20260519",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "50iWtrj9Mkw#r42",
+   "depth": "mention",
+   "stated_problem": {
+    "quote": "The customer doesn't know that Apify exists. If they do know it exists, it might be a little too technical for them or complicated or they might not like that it has a monthly fee.",
+    "line": 114,
+    "speaker": "Chris Koerner"
+   },
+   "idea": {
+    "name": "Instagram follower scraper storefront",
+    "one_liner": "A simple storefront that returns an Instagram account's followers for a per-follower charge.",
+    "customer": "People who need lists of Instagram followers; the transcript does not narrow this further.",
+    "offer": "Enter an Instagram account and pay to retrieve follower data.",
+    "revenue_model": "Charge per follower pulled, with the scraper's API cost below the retail price.",
+    "category": "data_leads"
+   },
+   "citation": {
+    "lines": [
+     102,
+     103,
+     107,
+     108,
+     109,
+     111,
+     112,
+     113,
+     114,
+     115,
+     120
+    ],
+    "primary_line": 102
+   },
+   "key_quotes": [
+    {
+     "quote": "Let's say it's a scraper that can pull every Instagram follower from any account.",
+     "line": 102
+    },
+    {
+     "quote": "You build a dead simple website. Vibe code it with your favorite vibe coding tool.",
+     "line": 108
+    }
+   ],
+   "claims": [
+    {
+     "claim": "The backend scraper is described as costing pennies per thousand followers.",
+     "quote": "That scraper is going to cost you like pennies per thousand followers scraped. It's almost nothing.",
+     "line": 103,
+     "first_hand": false,
+     "hypothetical": true
+    },
+    {
+     "claim": "The proposed retail prices are one or five cents per follower.",
+     "quote": "Charge customers 1 cent per follower pulled. 5 cents per follower pulled. it's a great deal for them and you have like 95% profit margin on that.",
+     "line": 111,
+     "first_hand": false,
+     "hypothetical": true
+    },
+    {
+     "claim": "The proposed gross margin is about 95%.",
+     "quote": "Charge customers 1 cent per follower pulled. 5 cents per follower pulled. it's a great deal for them and you have like 95% profit margin on that.",
+     "line": 113,
+     "first_hand": false,
+     "hypothetical": true
+    }
+   ],
+   "acquisition_channels": [],
+   "delivery": "A simple website takes the account input and calls a third-party follower scraper API.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "Apify actor",
+     "vibe-coding tool"
+    ],
+    "prices": [
+     "1 cent/follower",
+     "5 cents/follower"
+    ],
+    "platforms": [
+     "Instagram",
+     "Apify"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "Follower data may be personal data under UK GDPR; platform terms and downstream direct-marketing rules may also apply.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 80,
+   "hours_per_week_e": 7,
+   "idea_id": "50iWtrj9Mkw:i3",
+   "specifics_flag": true,
+   "publish_date": "20260519",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "50iWtrj9Mkw#r43",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "LinkedIn scraper",
+    "one_liner": "A narrow storefront around an actor that scrapes LinkedIn data.",
+    "customer": "The transcript does not specify a particular buyer.",
+    "offer": "A simple website that returns scraped LinkedIn data.",
+    "revenue_model": "Not stated; implied paid access to a scraper wrapper.",
+    "category": "data_leads"
+   },
+   "citation": {
+    "lines": [
+     221,
+     223
+    ],
+    "primary_line": 223
+   },
+   "key_quotes": [
+    {
+     "quote": "Instagram scraper, LinkedIn scraper, Facebook group scraper, Reddit, buy a $10 domain name, vibe code it, host it on the domain name, good to go.",
+     "line": 223
+    }
+   ],
+   "claims": [
+    {
+     "claim": "The example includes a $10 domain cost.",
+     "quote": "Instagram scraper, LinkedIn scraper, Facebook group scraper, Reddit, buy a $10 domain name, vibe code it, host it on the domain name, good to go.",
+     "line": 223,
+     "first_hand": false,
+     "hypothetical": true
+    },
+    {
+     "claim": "The host says this kind of scraper could be built in an afternoon.",
+     "quote": "You could do this in an afternoon, literally.",
+     "line": 224,
+     "first_hand": false,
+     "hypothetical": true
+    }
+   ],
+   "acquisition_channels": [],
+   "delivery": "A simple website calls an underlying scraper actor and returns LinkedIn data.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "Apify actor",
+     "vibe-coding tool"
+    ],
+    "prices": [
+     "$10 domain name"
+    ],
+    "platforms": [
+     "LinkedIn",
+     "Apify"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "LinkedIn profile data may be personal data under UK GDPR; platform terms and PECR may constrain downstream marketing.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 80,
+   "hours_per_week_e": 7,
+   "idea_id": "50iWtrj9Mkw:i4",
+   "specifics_flag": true,
+   "publish_date": "20260519",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "50iWtrj9Mkw#r44",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "Facebook group scraper",
+    "one_liner": "A narrow storefront that scrapes Facebook group data through a prebuilt actor.",
+    "customer": "The transcript does not specify a particular buyer.",
+    "offer": "A simple website that returns scraped Facebook group data.",
+    "revenue_model": "Not stated; implied paid access to a scraper wrapper.",
+    "category": "data_leads"
+   },
+   "citation": {
+    "lines": [
+     221,
+     223
+    ],
+    "primary_line": 223
+   },
+   "key_quotes": [
+    {
+     "quote": "Instagram scraper, LinkedIn scraper, Facebook group scraper, Reddit, buy a $10 domain name, vibe code it, host it on the domain name, good to go.",
+     "line": 223
+    }
+   ],
+   "claims": [
+    {
+     "claim": "The example includes a $10 domain cost.",
+     "quote": "Instagram scraper, LinkedIn scraper, Facebook group scraper, Reddit, buy a $10 domain name, vibe code it, host it on the domain name, good to go.",
+     "line": 223,
+     "first_hand": false,
+     "hypothetical": true
+    },
+    {
+     "claim": "The host says this kind of scraper could be built in an afternoon.",
+     "quote": "You could do this in an afternoon, literally.",
+     "line": 224,
+     "first_hand": false,
+     "hypothetical": true
+    }
+   ],
+   "acquisition_channels": [],
+   "delivery": "A simple website calls an underlying scraper actor and returns Facebook group data.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "Apify actor",
+     "vibe-coding tool"
+    ],
+    "prices": [
+     "$10 domain name"
+    ],
+    "platforms": [
+     "Facebook",
+     "Apify"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "Group content may include personal data under UK GDPR; platform terms and PECR may constrain downstream marketing.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 80,
+   "hours_per_week_e": 7,
+   "idea_id": "50iWtrj9Mkw:i5",
+   "specifics_flag": true,
+   "publish_date": "20260519",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "50iWtrj9Mkw#r45",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "Reddit scraper",
+    "one_liner": "A narrow storefront that scrapes Reddit data through a prebuilt actor.",
+    "customer": "The transcript does not specify a particular buyer.",
+    "offer": "A simple website that returns scraped Reddit data.",
+    "revenue_model": "Not stated; implied paid access to a scraper wrapper.",
+    "category": "data_leads"
+   },
+   "citation": {
+    "lines": [
+     221,
+     223
+    ],
+    "primary_line": 223
+   },
+   "key_quotes": [
+    {
+     "quote": "Instagram scraper, LinkedIn scraper, Facebook group scraper, Reddit, buy a $10 domain name, vibe code it, host it on the domain name, good to go.",
+     "line": 223
+    }
+   ],
+   "claims": [
+    {
+     "claim": "The example includes a $10 domain cost.",
+     "quote": "Instagram scraper, LinkedIn scraper, Facebook group scraper, Reddit, buy a $10 domain name, vibe code it, host it on the domain name, good to go.",
+     "line": 223,
+     "first_hand": false,
+     "hypothetical": true
+    },
+    {
+     "claim": "The host says this kind of scraper could be built in an afternoon.",
+     "quote": "You could do this in an afternoon, literally.",
+     "line": 224,
+     "first_hand": false,
+     "hypothetical": true
+    }
+   ],
+   "acquisition_channels": [],
+   "delivery": "A simple website calls an underlying scraper actor and returns Reddit data.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "Apify actor",
+     "vibe-coding tool"
+    ],
+    "prices": [
+     "$10 domain name"
+    ],
+    "platforms": [
+     "Reddit",
+     "Apify"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "Reddit content may include personal data under UK GDPR; platform terms and PECR may constrain downstream marketing.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 80,
+   "hours_per_week_e": 7,
+   "idea_id": "50iWtrj9Mkw:i6",
+   "specifics_flag": true,
+   "publish_date": "20260519",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "50iWtrj9Mkw#r46",
+   "depth": "mention",
+   "stated_problem": {
+    "quote": "Right now, the only way to figure that out for most people is to manually read hundreds of reviews or to manually screenshot and copy and paste and drag it over to Jag GBT and have that read the reviews.",
+    "line": 241,
+    "speaker": "Chris Koerner"
+   },
+   "idea": {
+    "name": "Amazon review competitor report",
+    "one_liner": "A tool that summarizes a competitor's Amazon reviews into customer feedback and product-improvement insights for DTC brands.",
+    "customer": "Shopify brands and independent Amazon sellers.",
+    "offer": "Paste an Amazon product URL and receive a report of compliments, complaints, phrases and suggested improvements.",
+    "revenue_model": "Monthly subscription or one-off report fee.",
+    "category": "data_leads"
+   },
+   "citation": {
+    "lines": [
+     233,
+     234,
+     241,
+     244,
+     245,
+     246,
+     247,
+     248,
+     249,
+     250,
+     251,
+     252
+    ],
+    "primary_line": 244
+   },
+   "key_quotes": [
+    {
+     "quote": "So, they can kind of do intel or reverse engineering of their competitors.",
+     "line": 234
+    },
+    {
+     "quote": "What are they complaining about? What do they love? What features are missing? What words are reviewers using?",
+     "line": 237
+    },
+    {
+     "quote": "But if you build a tool where someone paste in a competitor's Amazon URL, your tool can scrape the last 500 reviews, run them through Chad GBT, and spit out a one-page report, get the top compliments, top complaints, common phrases, suggested product improvements.",
+     "line": 244
+    }
+   ],
+   "claims": [
+    {
+     "claim": "The report would analyze the latest 500 reviews.",
+     "quote": "But if you build a tool where someone paste in a competitor's Amazon URL, your tool can scrape the last 500 reviews, run them through Chad GBT, and spit out a one-page report, get the top compliments, top complaints, common phrases, suggested product improvements.",
+     "line": 244,
+     "first_hand": false,
+     "hypothetical": true
+    },
+    {
+     "claim": "The host estimates the report would cost pennies to generate.",
+     "quote": "It'll cost you pennies per report.",
+     "line": 247,
+     "first_hand": false,
+     "hypothetical": true
+    },
+    {
+     "claim": "Suggested prices are $50 or $100 per month, or $19 for one report.",
+     "quote": "You could charge 50 bucks a month, 100 bucks a month, $19 for a one-off report.",
+     "line": 248,
+     "first_hand": false,
+     "hypothetical": true
+    },
+    {
+     "claim": "The host estimates there are three or four million Shopify brands and a few million independent Amazon sellers.",
+     "quote": "There's, I don't know, three or four million Shopify brands. There's a few million Amazon independent sellers.",
+     "line": 250,
+     "first_hand": false,
+     "hypothetical": false
+    }
+   ],
+   "acquisition_channels": [],
+   "delivery": "A web tool scrapes Amazon reviews through Apify, sends them to the OpenAI API and returns a one-page report.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "Apify",
+     "OpenAI API"
+    ],
+    "prices": [
+     "$50/month",
+     "$100/month",
+     "$19 per report"
+    ],
+    "platforms": [
+     "Amazon",
+     "Shopify"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "UK GDPR may apply to identifiable reviewer data; subscription sales may engage DMCC Act requirements.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 80,
+   "hours_per_week_e": 7,
+   "idea_id": "50iWtrj9Mkw:i7",
+   "specifics_flag": true,
+   "publish_date": "20260519",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "50iWtrj9Mkw#r47",
+   "depth": "mention",
+   "stated_problem": {
+    "quote": "If you think about customer service inboxes, we're just answering the same questions over and over.",
+    "line": 259,
+    "speaker": "Chris Koerner"
+   },
+   "idea": {
+    "name": "Shopify customer-service bot",
+    "one_liner": "A Zapier and OpenAI workflow that drafts replies to repetitive store-support emails using existing store information.",
+    "customer": "Shopify store owners.",
+    "offer": "A customer-service email bot grounded in prior replies, FAQs and store policies.",
+    "revenue_model": "Monthly fee per Shopify store.",
+    "category": "ai_automation"
+   },
+   "citation": {
+    "lines": [
+     253,
+     254,
+     256,
+     257,
+     258,
+     259,
+     260,
+     261,
+     262,
+     264
+    ],
+    "primary_line": 256
+   },
+   "key_quotes": [
+    {
+     "quote": "But build a customer service bot which is just a Zapier flow.",
+     "line": 256
+    },
+    {
+     "quote": "If a business gets a customer service email into their inbox, Zapier will respond to the email through OpenAI and its response will be based on knowledge that it gleans from previous sent emails from the same inbox or from the website's FAQ page, the return policy, shipping policy, etc.",
+     "line": 258
+    }
+   ],
+   "claims": [
+    {
+     "claim": "Zapier is described as costing $29 or $59 per month for a credit allowance.",
+     "quote": "You pay Zapier 29 or 59 bucks a month for thousands of credits or hundreds or whatever it gives you.",
+     "line": 257,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "The proposed operating cost is cents or low dollars per month.",
+     "quote": "So, your cost is going to be like cents or low dollars per month, and you could charge 100 bucks a month per Shopify store.",
+     "line": 260,
+     "first_hand": false,
+     "hypothetical": true
+    },
+    {
+     "claim": "The proposed price is $100 per month per store.",
+     "quote": "So, your cost is going to be like cents or low dollars per month, and you could charge 100 bucks a month per Shopify store.",
+     "line": 260,
+     "first_hand": false,
+     "hypothetical": true
+    },
+    {
+     "claim": "The host estimates margins above 95%.",
+     "quote": "You got 95 plus% margins.",
+     "line": 261,
+     "first_hand": false,
+     "hypothetical": true
+    },
+    {
+     "claim": "The bot could save store owners hours per week or month.",
+     "quote": "They're going to save hours per week or per month.",
+     "line": 262,
+     "first_hand": false,
+     "hypothetical": true
+    }
+   ],
+   "acquisition_channels": [],
+   "delivery": "A Zapier workflow uses OpenAI to respond to customer emails based on prior messages and store policy pages.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "Zapier",
+     "OpenAI"
+    ],
+    "prices": [
+     "$29/month",
+     "$59/month",
+     "$100/month per store"
+    ],
+    "platforms": [
+     "Shopify"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "UK GDPR applies to customer email data and processor arrangements; recurring plans may engage DMCC Act subscription requirements.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 70,
+   "hours_per_week_e": 10,
+   "idea_id": "50iWtrj9Mkw:i8",
+   "specifics_flag": true,
+   "publish_date": "20260519",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "50iWtrj9Mkw#r48",
+   "depth": "mention",
+   "stated_problem": {
+    "quote": "People with 5,000 to 100,000 followers. There's not really a good way to find them.",
+    "line": 277,
+    "speaker": "Chris Koerner"
+   },
+   "idea": {
+    "name": "Micro-influencer marketplace",
+    "one_liner": "A searchable directory or marketplace that helps smaller brands find niche micro-influencers.",
+    "customer": "Smaller brands looking for influencers with engaged niche audiences.",
+    "offer": "Searchable influencer profiles segmented by audience size or niche.",
+    "revenue_model": "Not stated for the marketplace; a paid newsletter is suggested as a related alternative.",
+    "category": "marketplace_directory"
+   },
+   "citation": {
+    "lines": [
+     272,
+     273,
+     275,
+     276,
+     277,
+     278,
+     279,
+     280,
+     281,
+     282,
+     283,
+     284,
+     285,
+     286
+    ],
+    "primary_line": 272
+   },
+   "key_quotes": [
+    {
+     "quote": "But smaller brands know that micro influencers usually have a more loyal audience.",
+     "line": 275
+    },
+    {
+     "quote": "They convert better.",
+     "line": 276
+    },
+    {
+     "quote": "Apify has dozens or hundreds of actors that do exactly that. They can scrape people from Instagram, Tik Tok, YouTube, etc.",
+     "line": 279
+    },
+    {
+     "quote": "You just build a rapper on top of that.",
+     "line": 282
+    }
+   ],
+   "claims": [
+    {
+     "claim": "The target influencer range is 5,000 to 100,000 followers.",
+     "quote": "People with 5,000 to 100,000 followers. There's not really a good way to find them.",
+     "line": 277,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "One possible niche is influencers with fewer than 50,000 followers.",
+     "quote": "Or you could just do, you know, we scrape micro influencers that have less than 50,000 followers.",
+     "line": 285,
+     "first_hand": false,
+     "hypothetical": true
+    }
+   ],
+   "acquisition_channels": [],
+   "delivery": "A searchable marketplace would use scraping actors to collect influencer profiles and let brands find candidates.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "Apify actors"
+    ],
+    "prices": [],
+    "platforms": [
+     "Instagram",
+     "TikTok",
+     "YouTube"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "Influencer profile data may be personal data under UK GDPR; platform terms and marketing rules may apply.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 45,
+   "hours_per_week_e": 16,
+   "idea_id": "50iWtrj9Mkw:i9",
+   "specifics_flag": true,
+   "publish_date": "20260519",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "50iWtrj9Mkw#r49",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "Paid micro-influencer newsletter",
+    "one_liner": "Automatically compile scraped micro-influencer profiles into a recurring paid email newsletter.",
+    "customer": "Subscribers seeking regular lists of micro-influencers.",
+    "offer": "A newsletter of scraped influencer profiles, potentially filtered by niche.",
+    "revenue_model": "Monthly subscriber fee.",
+    "category": "content_media"
+   },
+   "citation": {
+    "lines": [
+     287,
+     288,
+     289
+    ],
+    "primary_line": 287
+   },
+   "key_quotes": [
+    {
+     "quote": "You could turn this into a newsletter. you could automatically scrape everyone and just email it out to everyone that subscribes for 10 bucks a month or whatever.",
+     "line": 287
+    },
+    {
+     "quote": "I tried this idea, fun fact, back in 2019, but I gave up because scrapers were terrible back then.",
+     "line": 289
+    }
+   ],
+   "claims": [
+    {
+     "claim": "The suggested subscription price is $10 per month.",
+     "quote": "you could automatically scrape everyone and just email it out to everyone that subscribes for 10 bucks a month or whatever.",
+     "line": 288,
+     "first_hand": false,
+     "hypothetical": true
+    },
+    {
+     "claim": "The host says he tried the idea in 2019 and stopped because scrapers were poor.",
+     "quote": "I tried this idea, fun fact, back in 2019, but I gave up because scrapers were terrible back then.",
+     "line": 289,
+     "first_hand": true,
+     "hypothetical": false
+    }
+   ],
+   "acquisition_channels": [],
+   "delivery": "Scraped influencer profiles are automatically compiled and emailed to subscribers.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "Apify actors"
+    ],
+    "prices": [
+     "$10/month"
+    ],
+    "platforms": [
+     "Instagram",
+     "TikTok",
+     "YouTube",
+     "email newsletter"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "UK GDPR applies to identifiable profile data; newsletter email marketing should follow PECR consent rules and UK GDPR. A subscription offer may engage DMCC Act requirements.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 80,
+   "hours_per_week_e": 6,
+   "idea_id": "50iWtrj9Mkw:i10",
+   "specifics_flag": true,
+   "publish_date": "20260519",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "50iWtrj9Mkw#r50",
+   "depth": "mention",
+   "stated_problem": {
+    "quote": "There's a website called Import Yeti where you can see where companies are importing all of their stuff from, like specifically what's supplier, oftentimes what they're paying for it, but their subscription is kind of expensive.",
+    "line": 290,
+    "speaker": "Chris Koerner"
+   },
+   "idea": {
+    "name": "Supplier-data scraper for a different audience",
+    "one_liner": "Repackage ImportYeti-style import and supplier data for a different audience through a simpler wrapper.",
+    "customer": "An unspecified audience interested in company suppliers and import activity.",
+    "offer": "Search company names to see suppliers, shipment details and potentially supplier costs.",
+    "revenue_model": "Not stated.",
+    "category": "data_leads"
+   },
+   "citation": {
+    "lines": [
+     290,
+     291,
+     292,
+     293,
+     294,
+     295
+    ],
+    "primary_line": 292
+   },
+   "key_quotes": [
+    {
+     "quote": "And there's an Appify actor that will scrape all that import Yeti stuff for you.",
+     "line": 291
+    },
+    {
+     "quote": "So you build a wrapper on top of that to act similarly to import Yeti, but just to point it to a different audience.",
+     "line": 292
+    },
+    {
+     "quote": "You go there and type in Lululemon and see where all of those are coming from and in what containers they're in and how long it takes to get here.",
+     "line": 293
+    }
+   ],
+   "claims": [
+    {
+     "claim": "The host describes ImportYeti's subscription as expensive, without giving a price.",
+     "quote": "There's a website called Import Yeti where you can see where companies are importing all of their stuff from, like specifically what's supplier, oftentimes what they're paying for it, but their subscription is kind of expensive.",
+     "line": 290,
+     "first_hand": false,
+     "hypothetical": false
+    }
+   ],
+   "acquisition_channels": [],
+   "delivery": "A web wrapper queries a scraper actor for supplier and import data and presents it to a different audience.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "Apify actor"
+    ],
+    "prices": [],
+    "platforms": [
+     "ImportYeti"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "UK GDPR may apply to identifiable supplier contact data; check source platform terms and data rights.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 75,
+   "hours_per_week_e": 8,
+   "idea_id": "50iWtrj9Mkw:i11",
+   "specifics_flag": true,
+   "publish_date": "20260519",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "50iWtrj9Mkw#r51",
+   "depth": "mention",
+   "stated_problem": {
+    "quote": "Their search tool is fine, but it's not specific enough for power users.",
+    "line": 300,
+    "speaker": "Chris Koerner"
+   },
+   "idea": {
+    "name": "Upwork freelancer search scraper",
+    "one_liner": "A natural-language search and export tool for finding freelancers with specific experience, ratings and earnings.",
+    "customer": "Agencies, recruiters, startup founders and others who hire freelancers.",
+    "offer": "Search Upwork's freelancer data with detailed criteria and export matching profiles.",
+    "revenue_model": "Monthly subscription.",
+    "category": "data_leads"
+   },
+   "citation": {
+    "lines": [
+     299,
+     300,
+     301,
+     302,
+     303,
+     304,
+     305,
+     306,
+     307,
+     308
+    ],
+    "primary_line": 299
+   },
+   "key_quotes": [
+    {
+     "quote": "So, imagine if someone could just use natural language and type in something like find me Ukrainian mobile developers with five plus years experience and at least a 4.8 star rating and 50,000 in earnings.",
+     "line": 301
+    },
+    {
+     "quote": "Upwork has all that data. Export it to a spreadsheet.",
+     "line": 303
+    }
+   ],
+   "claims": [
+    {
+     "claim": "The example search filters for five or more years of experience, a 4.8-star rating and $50,000 in earnings.",
+     "quote": "So, imagine if someone could just use natural language and type in something like find me Ukrainian mobile developers with five plus years experience and at least a 4.8 star rating and 50,000 in earnings.",
+     "line": 301,
+     "first_hand": false,
+     "hypothetical": true
+    },
+    {
+     "claim": "The proposed price is $100 per month.",
+     "quote": "You charge 100 bucks a month.",
+     "line": 305,
+     "first_hand": false,
+     "hypothetical": true
+    }
+   ],
+   "acquisition_channels": [],
+   "delivery": "A web tool searches Upwork profiles using natural language and exports results to a spreadsheet.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "Apify actor"
+    ],
+    "prices": [
+     "$100/month"
+    ],
+    "platforms": [
+     "Upwork"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "Profile data may be personal data under UK GDPR; check Upwork terms. If the service starts introducing candidates to employers, Employment Agencies Act and Regulations may become relevant.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 75,
+   "hours_per_week_e": 9,
+   "idea_id": "50iWtrj9Mkw:i12",
+   "specifics_flag": true,
+   "publish_date": "20260519",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "50iWtrj9Mkw#r52",
+   "depth": "mention",
+   "stated_problem": {
+    "quote": "Because I would bet you the vast majority of Clay's users are only using it for one of like 400 different things that they offer, like validating emails or attaching a first name to just an email address so they can send more personalized emails.",
+    "line": 313,
+    "speaker": "Chris Koerner"
+   },
+   "idea": {
+    "name": "Single-feature Clay alternative",
+    "one_liner": "A focused data-enrichment tool that maps email addresses to LinkedIn URLs, or performs another single Clay function.",
+    "customer": "People who need one specific lead-enrichment task, such as sales teams.",
+    "offer": "Provide LinkedIn URLs when a customer supplies email addresses.",
+    "revenue_model": "Not stated.",
+    "category": "saas_software"
+   },
+   "citation": {
+    "lines": [
+     310,
+     311,
+     312,
+     313,
+     314,
+     315
+    ],
+    "primary_line": 312
+   },
+   "key_quotes": [
+    {
+     "quote": "Why not build a Clay that does only one of those things really well, really specifically?",
+     "line": 312
+    },
+    {
+     "quote": "So your service could literally be we give you LinkedIn URLs or you give us emails, we give you LinkedIn URLs for that email address.",
+     "line": 314
+    }
+   ],
+   "claims": [
+    {
+     "claim": "The host estimates Clay offers about 400 different functions.",
+     "quote": "Because I would bet you the vast majority of Clay's users are only using it for one of like 400 different things that they offer, like validating emails or attaching a first name to just an email address so they can send more personalized emails.",
+     "line": 313,
+     "first_hand": false,
+     "hypothetical": true
+    }
+   ],
+   "acquisition_channels": [],
+   "delivery": "A focused web service accepts email addresses and returns matching LinkedIn URLs.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "Clay"
+    ],
+    "prices": [],
+    "platforms": [
+     "LinkedIn"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "Email-to-profile matching processes personal data under UK GDPR; customers' downstream marketing must comply with PECR and applicable UK GDPR rules.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 85,
+   "hours_per_week_e": 6,
+   "idea_id": "50iWtrj9Mkw:i13",
+   "specifics_flag": true,
+   "publish_date": "20260519",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "50iWtrj9Mkw#r53",
+   "depth": "mention",
+   "stated_problem": {
+    "quote": "If you want to go entirely commercial, you've got LoopNet, which is super expensive, only shows you a small percentage of search results, and is kind of garbage to use.",
+    "line": 323,
+    "speaker": "Chris Koerner"
+   },
+   "idea": {
+    "name": "Niche commercial property listings site",
+    "one_liner": "A user-friendly, narrowly focused property listings site that aggregates listings from broader commercial platforms.",
+    "customer": "Buyers and sellers of a specific commercial property type.",
+    "offer": "Searchable, polished listings for a niche real-estate category, sourced from existing listing platforms.",
+    "revenue_model": "Not stated.",
+    "category": "real_estate"
+   },
+   "citation": {
+    "lines": [
+     318,
+     319,
+     321,
+     322,
+     323,
+     324,
+     325,
+     326,
+     327,
+     332,
+     334,
+     337,
+     338
+    ],
+    "primary_line": 319
+   },
+   "key_quotes": [
+    {
+     "quote": "The niche Zillow, the more niche Zillow.",
+     "line": 319
+    },
+    {
+     "quote": "But there's no Zillow equivalent for any other category of real estate.",
+     "line": 322
+    },
+    {
+     "quote": "So just scrape and tap in to other categories on Zillow and Crexi.",
+     "line": 337
+    }
+   ],
+   "claims": [
+    {
+     "claim": "LoopNet is described as expensive and as showing only a small percentage of results.",
+     "quote": "If you want to go entirely commercial, you've got LoopNet, which is super expensive, only shows you a small percentage of search results, and is kind of garbage to use.",
+     "line": 323,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "Crexi is also described as expensive.",
+     "quote": "Then you have Krexy, which is better to use, but also expensive, and their sales people will spam you to no end.",
+     "line": 324,
+     "first_hand": false,
+     "hypothetical": false
+    }
+   ],
+   "acquisition_channels": [],
+   "delivery": "A web listings marketplace aggregates or scrapes listings from existing platforms and presents them in a more usable niche interface.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "scrapers"
+    ],
+    "prices": [],
+    "platforms": [
+     "Zillow",
+     "LoopNet",
+     "Crexi"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "UK GDPR may apply to identifiable seller details; check listing-source terms, data rights and accuracy obligations.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 55,
+   "hours_per_week_e": 14,
+   "idea_id": "50iWtrj9Mkw:i14",
+   "specifics_flag": true,
+   "publish_date": "20260519",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "50iWtrj9Mkw#r54",
+   "depth": "mention",
+   "stated_problem": {
+    "quote": "But there's no Zillow equivalent for any other category of real estate.",
+    "line": 322,
+    "speaker": "Chris Koerner"
+   },
+   "idea": {
+    "name": "RV park listings marketplace",
+    "one_liner": "A user-friendly Zillow-style marketplace for RV park properties.",
+    "customer": "People buying or selling RV parks.",
+    "offer": "Searchable RV park listings aggregated from existing property sources.",
+    "revenue_model": "Not stated.",
+    "category": "real_estate"
+   },
+   "citation": {
+    "lines": [
+     327,
+     332,
+     333,
+     334,
+     337
+    ],
+    "primary_line": 327
+   },
+   "key_quotes": [
+    {
+     "quote": "RV parks, mobile home parks, self- storage, the Zillow for self storage, right?",
+     "line": 327
+    },
+    {
+     "quote": "So, yes, there are some websites where I can go shop for RV parks and for mobile home parks, but their design is garbage.",
+     "line": 332
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "A digital listings marketplace aggregates listings from sources such as commercial property sites and presents them in a user-friendly format.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "scrapers"
+    ],
+    "prices": [],
+    "platforms": [
+     "Zillow",
+     "Crexi",
+     "LoopNet"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "UK GDPR may apply to identifiable seller details; check source terms and data accuracy.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 55,
+   "hours_per_week_e": 14,
+   "idea_id": "50iWtrj9Mkw:i15",
+   "specifics_flag": true,
+   "publish_date": "20260519",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "50iWtrj9Mkw#r55",
+   "depth": "mention",
+   "stated_problem": {
+    "quote": "But there's no Zillow equivalent for any other category of real estate.",
+    "line": 322,
+    "speaker": "Chris Koerner"
+   },
+   "idea": {
+    "name": "Mobile home park listings marketplace",
+    "one_liner": "A user-friendly Zillow-style marketplace for mobile home park properties.",
+    "customer": "People buying or selling mobile home parks.",
+    "offer": "Searchable mobile home park listings aggregated from existing property sources.",
+    "revenue_model": "Not stated.",
+    "category": "real_estate"
+   },
+   "citation": {
+    "lines": [
+     327,
+     332,
+     333,
+     334,
+     337
+    ],
+    "primary_line": 327
+   },
+   "key_quotes": [
+    {
+     "quote": "RV parks, mobile home parks, self- storage, the Zillow for self storage, right?",
+     "line": 327
+    },
+    {
+     "quote": "So, yes, there are some websites where I can go shop for RV parks and for mobile home parks, but their design is garbage.",
+     "line": 332
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "A digital listings marketplace aggregates listings from sources such as commercial property sites and presents them in a user-friendly format.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "scrapers"
+    ],
+    "prices": [],
+    "platforms": [
+     "Zillow",
+     "Crexi",
+     "LoopNet"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "UK GDPR may apply to identifiable seller details; check source terms and data accuracy.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 55,
+   "hours_per_week_e": 14,
+   "idea_id": "50iWtrj9Mkw:i16",
+   "specifics_flag": true,
+   "publish_date": "20260519",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "50iWtrj9Mkw#r56",
+   "depth": "mention",
+   "stated_problem": {
+    "quote": "But there's no Zillow equivalent for any other category of real estate.",
+    "line": 322,
+    "speaker": "Chris Koerner"
+   },
+   "idea": {
+    "name": "Self-storage listings marketplace",
+    "one_liner": "A user-friendly Zillow-style listings marketplace focused on self-storage properties.",
+    "customer": "People buying or selling self-storage properties.",
+    "offer": "Searchable self-storage listings aggregated from existing property sources.",
+    "revenue_model": "Not stated.",
+    "category": "real_estate"
+   },
+   "citation": {
+    "lines": [
+     327,
+     328,
+     329,
+     337
+    ],
+    "primary_line": 327
+   },
+   "key_quotes": [
+    {
+     "quote": "RV parks, mobile home parks, self- storage, the Zillow for self storage, right?",
+     "line": 327
+    },
+    {
+     "quote": "as userfriendly as Zillow.",
+     "line": 328
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "A digital listings marketplace aggregates self-storage listings from existing property sources and presents them in a user-friendly format.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "scrapers"
+    ],
+    "prices": [],
+    "platforms": [
+     "Zillow",
+     "Crexi",
+     "LoopNet"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "UK GDPR may apply to identifiable seller details; check source terms and data accuracy.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 55,
+   "hours_per_week_e": 14,
+   "idea_id": "50iWtrj9Mkw:i17",
+   "specifics_flag": true,
+   "publish_date": "20260519",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "50iWtrj9Mkw#r57",
+   "depth": "mention",
+   "stated_problem": {
+    "quote": "Most of these have no good marketplaces.",
+    "line": 341,
+    "speaker": "Chris Koerner"
+   },
+   "idea": {
+    "name": "Laundromat listings marketplace",
+    "one_liner": "A Zillow-style listings site for laundromats for sale.",
+    "customer": "People buying or selling laundromats.",
+    "offer": "A focused marketplace of laundromat listings.",
+    "revenue_model": "Not stated.",
+    "category": "marketplace_directory"
+   },
+   "citation": {
+    "lines": [
+     339,
+     341
+    ],
+    "primary_line": 339
+   },
+   "key_quotes": [
+    {
+     "quote": "Zillow for laundromats.",
+     "line": 339
+    },
+    {
+     "quote": "Most of these have no good marketplaces.",
+     "line": 341
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "A digital marketplace lists laundromats for sale, potentially using scraped listings from existing marketplaces.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "scrapers"
+    ],
+    "prices": [],
+    "platforms": [
+     "Zillow",
+     "BizBuySell"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "UK GDPR may apply to identifiable seller details; check listing-source terms and data accuracy.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 50,
+   "hours_per_week_e": 14,
+   "idea_id": "50iWtrj9Mkw:i18",
+   "specifics_flag": true,
+   "publish_date": "20260519",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "50iWtrj9Mkw#r58",
+   "depth": "mention",
+   "stated_problem": {
+    "quote": "Most of these have no good marketplaces.",
+    "line": 341,
+    "speaker": "Chris Koerner"
+   },
+   "idea": {
+    "name": "Car wash listings marketplace",
+    "one_liner": "A Zillow-style listings site for car washes for sale.",
+    "customer": "People buying or selling car washes.",
+    "offer": "A focused marketplace of car wash listings.",
+    "revenue_model": "Not stated.",
+    "category": "marketplace_directory"
+   },
+   "citation": {
+    "lines": [
+     340,
+     341
+    ],
+    "primary_line": 340
+   },
+   "key_quotes": [
+    {
+     "quote": "Zillow for car washers, ATM routes, the bis byell for vending routes, the bis byell for billboards or convenience stores.",
+     "line": 340
+    },
+    {
+     "quote": "Most of these have no good marketplaces.",
+     "line": 341
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "A digital marketplace lists car washes for sale, potentially using scraped listings from existing marketplaces.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "scrapers"
+    ],
+    "prices": [],
+    "platforms": [
+     "Zillow",
+     "BizBuySell"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "UK GDPR may apply to identifiable seller details; check listing-source terms and data accuracy.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 50,
+   "hours_per_week_e": 14,
+   "idea_id": "50iWtrj9Mkw:i19",
+   "specifics_flag": true,
+   "publish_date": "20260519",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "50iWtrj9Mkw#r59",
+   "depth": "mention",
+   "stated_problem": {
+    "quote": "Most of these have no good marketplaces.",
+    "line": 341,
+    "speaker": "Chris Koerner"
+   },
+   "idea": {
+    "name": "ATM route listings marketplace",
+    "one_liner": "A focused marketplace for ATM routes for sale.",
+    "customer": "People buying or selling ATM routes.",
+    "offer": "A directory of ATM route listings.",
+    "revenue_model": "Not stated.",
+    "category": "marketplace_directory"
+   },
+   "citation": {
+    "lines": [
+     340,
+     341
+    ],
+    "primary_line": 340
+   },
+   "key_quotes": [
+    {
+     "quote": "Zillow for car washers, ATM routes, the bis byell for vending routes, the bis byell for billboards or convenience stores.",
+     "line": 340
+    },
+    {
+     "quote": "Most of these have no good marketplaces.",
+     "line": 341
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "A digital marketplace lists ATM routes for sale, potentially using scraped listings from existing marketplaces.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "scrapers"
+    ],
+    "prices": [],
+    "platforms": [
+     "Zillow",
+     "BizBuySell"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "UK GDPR may apply to identifiable seller details; check listing-source terms and data accuracy.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 50,
+   "hours_per_week_e": 14,
+   "idea_id": "50iWtrj9Mkw:i20",
+   "specifics_flag": true,
+   "publish_date": "20260519",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "50iWtrj9Mkw#r60",
+   "depth": "mention",
+   "stated_problem": {
+    "quote": "Most of these have no good marketplaces.",
+    "line": 341,
+    "speaker": "Chris Koerner"
+   },
+   "idea": {
+    "name": "Vending route listings marketplace",
+    "one_liner": "A focused marketplace for vending routes for sale.",
+    "customer": "People buying or selling vending routes.",
+    "offer": "A directory of vending route listings.",
+    "revenue_model": "Not stated.",
+    "category": "marketplace_directory"
+   },
+   "citation": {
+    "lines": [
+     340,
+     341
+    ],
+    "primary_line": 340
+   },
+   "key_quotes": [
+    {
+     "quote": "Zillow for car washers, ATM routes, the bis byell for vending routes, the bis byell for billboards or convenience stores.",
+     "line": 340
+    },
+    {
+     "quote": "Most of these have no good marketplaces.",
+     "line": 341
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "A digital marketplace lists vending routes for sale, potentially using scraped listings from existing marketplaces.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "scrapers"
+    ],
+    "prices": [],
+    "platforms": [
+     "Zillow",
+     "BizBuySell"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "UK GDPR may apply to identifiable seller details; check listing-source terms and data accuracy.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 50,
+   "hours_per_week_e": 14,
+   "idea_id": "50iWtrj9Mkw:i21",
+   "specifics_flag": true,
+   "publish_date": "20260519",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "50iWtrj9Mkw#r61",
+   "depth": "mention",
+   "stated_problem": {
+    "quote": "Most of these have no good marketplaces.",
+    "line": 341,
+    "speaker": "Chris Koerner"
+   },
+   "idea": {
+    "name": "Billboard listings marketplace",
+    "one_liner": "A focused marketplace for billboards for sale.",
+    "customer": "People buying or selling billboards.",
+    "offer": "A directory of billboard listings.",
+    "revenue_model": "Not stated.",
+    "category": "marketplace_directory"
+   },
+   "citation": {
+    "lines": [
+     340,
+     341
+    ],
+    "primary_line": 340
+   },
+   "key_quotes": [
+    {
+     "quote": "Zillow for car washers, ATM routes, the bis byell for vending routes, the bis byell for billboards or convenience stores.",
+     "line": 340
+    },
+    {
+     "quote": "Most of these have no good marketplaces.",
+     "line": 341
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "A digital marketplace lists billboards for sale, potentially using scraped listings from existing marketplaces.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "scrapers"
+    ],
+    "prices": [],
+    "platforms": [
+     "Zillow",
+     "BizBuySell"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "UK GDPR may apply to identifiable seller details; check listing-source terms and data accuracy.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 50,
+   "hours_per_week_e": 14,
+   "idea_id": "50iWtrj9Mkw:i22",
+   "specifics_flag": true,
+   "publish_date": "20260519",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "50iWtrj9Mkw#r62",
+   "depth": "mention",
+   "stated_problem": {
+    "quote": "Most of these have no good marketplaces.",
+    "line": 341,
+    "speaker": "Chris Koerner"
+   },
+   "idea": {
+    "name": "Convenience store listings marketplace",
+    "one_liner": "A focused marketplace for convenience stores for sale.",
+    "customer": "People buying or selling convenience stores.",
+    "offer": "A directory of convenience-store listings.",
+    "revenue_model": "Not stated.",
+    "category": "marketplace_directory"
+   },
+   "citation": {
+    "lines": [
+     340,
+     341,
+     342
+    ],
+    "primary_line": 340
+   },
+   "key_quotes": [
+    {
+     "quote": "Zillow for car washers, ATM routes, the bis byell for vending routes, the bis byell for billboards or convenience stores.",
+     "line": 340
+    },
+    {
+     "quote": "Most of these have no good marketplaces.",
+     "line": 341
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "A digital marketplace lists convenience stores for sale, potentially using scraped listings from existing marketplaces.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "scrapers"
+    ],
+    "prices": [],
+    "platforms": [
+     "Zillow",
+     "BizBuySell"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "UK GDPR may apply to identifiable seller details; check listing-source terms and data accuracy.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 50,
+   "hours_per_week_e": 14,
+   "idea_id": "50iWtrj9Mkw:i23",
+   "specifics_flag": true,
+   "publish_date": "20260519",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "50iWtrj9Mkw#r63",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "Yogurt shop listings marketplace",
+    "one_liner": "A niche Zillow-style marketplace for yogurt shops for sale.",
+    "customer": "People buying or selling yogurt shops.",
+    "offer": "A focused marketplace of yogurt shop listings.",
+    "revenue_model": "Not stated.",
+    "category": "marketplace_directory"
+   },
+   "citation": {
+    "lines": [
+     342
+    ],
+    "primary_line": 342
+   },
+   "key_quotes": [
+    {
+     "quote": "What's stopping you from scraping bis by sell for every single yogurt shop and putting them on a Zillow for yogurt shops?",
+     "line": 342
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "A digital marketplace presents scraped yogurt shop listings in a dedicated directory.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "scrapers"
+    ],
+    "prices": [],
+    "platforms": [
+     "BizBuySell",
+     "Zillow"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "UK GDPR may apply to identifiable seller details; check listing-source terms and data accuracy.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 50,
+   "hours_per_week_e": 14,
+   "idea_id": "50iWtrj9Mkw:i24",
+   "specifics_flag": true,
+   "publish_date": "20260519",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "50iWtrj9Mkw#r64",
+   "depth": "mention",
+   "stated_problem": {
+    "quote": "But there's no Zillow equivalent for any other category of real estate.",
+    "line": 322,
+    "speaker": "Chris Koerner"
+   },
+   "idea": {
+    "name": "Duplex listings marketplace",
+    "one_liner": "A dedicated Zillow-style listings site for duplexes.",
+    "customer": "People buying or selling duplexes.",
+    "offer": "Searchable duplex listings.",
+    "revenue_model": "Not stated.",
+    "category": "real_estate"
+   },
+   "citation": {
+    "lines": [
+     322,
+     353
+    ],
+    "primary_line": 353
+   },
+   "key_quotes": [
+    {
+     "quote": "Zillow for duplexes, Zillow for 4plexes, etc.",
+     "line": 353
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "A digital property listings site focuses on duplexes and may aggregate listings from existing sources.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "scrapers"
+    ],
+    "prices": [],
+    "platforms": [
+     "Zillow"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "UK GDPR may apply to identifiable seller details; check listing-source terms and data accuracy.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 55,
+   "hours_per_week_e": 13,
+   "idea_id": "50iWtrj9Mkw:i25",
+   "specifics_flag": true,
+   "publish_date": "20260519",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "50iWtrj9Mkw#r65",
+   "depth": "mention",
+   "stated_problem": {
+    "quote": "But there's no Zillow equivalent for any other category of real estate.",
+    "line": 322,
+    "speaker": "Chris Koerner"
+   },
+   "idea": {
+    "name": "Fourplex listings marketplace",
+    "one_liner": "A dedicated Zillow-style listings site for fourplexes.",
+    "customer": "People buying or selling fourplexes.",
+    "offer": "Searchable fourplex listings.",
+    "revenue_model": "Not stated.",
+    "category": "real_estate"
+   },
+   "citation": {
+    "lines": [
+     322,
+     353
+    ],
+    "primary_line": 353
+   },
+   "key_quotes": [
+    {
+     "quote": "Zillow for duplexes, Zillow for 4plexes, etc.",
+     "line": 353
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "A digital property listings site focuses on fourplexes and may aggregate listings from existing sources.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "scrapers"
+    ],
+    "prices": [],
+    "platforms": [
+     "Zillow"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "UK GDPR may apply to identifiable seller details; check listing-source terms and data accuracy.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 55,
+   "hours_per_week_e": 13,
+   "idea_id": "50iWtrj9Mkw:i26",
+   "specifics_flag": true,
+   "publish_date": "20260519",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "50iWtrj9Mkw#r66",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "Shopify-only store scraper",
+    "one_liner": "A BuiltWith-style technology and store scraper focused only on Shopify sites.",
+    "customer": "People researching Shopify stores; the host does not specify a more precise buyer.",
+    "offer": "Find and scrape Shopify stores through a focused interface.",
+    "revenue_model": "Low monthly fee or pay-per-scrape credits.",
+    "category": "data_leads"
+   },
+   "citation": {
+    "lines": [
+     357,
+     358,
+     359,
+     360,
+     361,
+     362,
+     363,
+     364,
+     365,
+     366,
+     367
+    ],
+    "primary_line": 357
+   },
+   "key_quotes": [
+    {
+     "quote": "Build your builtwith.com, but for only Shopify stores.",
+     "line": 361
+    },
+    {
+     "quote": "I bet you a ton of the people that go to builtwith.com are just going there to scrape Shopify stores.",
+     "line": 358
+    }
+   ],
+   "claims": [
+    {
+     "claim": "The host says BuiltWith charges $450 per month.",
+     "quote": "Instead of 450 bucks a month, yes, that's what Buwith charges.",
+     "line": 363,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "A proposed alternative price is $4.50 per month.",
+     "quote": "Instead of 450 bucks a month, yes, that's what Buwith charges. You're $4.50 a month.",
+     "line": 364,
+     "first_hand": false,
+     "hypothetical": true
+    },
+    {
+     "claim": "Other suggested prices are $45 per month or $5 per scrape.",
+     "quote": "or 45 bucks a month or whatever or $5 per scrape in credits and they can use it whenever.",
+     "line": 367,
+     "first_hand": false,
+     "hypothetical": true
+    },
+    {
+     "claim": "The host claims the service would have no cost.",
+     "quote": "You don't have any cost.",
+     "line": 366,
+     "first_hand": false,
+     "hypothetical": true
+    }
+   ],
+   "acquisition_channels": [],
+   "delivery": "A website identifies and scrapes Shopify stores, with subscription or credit-based access.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "scraper"
+    ],
+    "prices": [
+     "$450/month competitor price",
+     "$4.50/month",
+     "$45/month",
+     "$5/scrape"
+    ],
+    "platforms": [
+     "BuiltWith",
+     "Shopify"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "UK GDPR may apply to identifiable store-owner contact data; subscription sales may engage DMCC Act rules.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 80,
+   "hours_per_week_e": 7,
+   "idea_id": "50iWtrj9Mkw:i27",
+   "specifics_flag": true,
+   "publish_date": "20260519",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "50iWtrj9Mkw#r67",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "TikTok hashtag trend report",
+    "one_liner": "A weekly niche trend report compiled from TikTok hashtags, sounds and creators for marketing agencies.",
+    "customer": "Marketing agencies.",
+    "offer": "Email a weekly report of trending sounds, hashtags and creators in a chosen niche.",
+    "revenue_model": "Monthly subscription.",
+    "category": "data_leads"
+   },
+   "citation": {
+    "lines": [
+     368,
+     369,
+     370,
+     371,
+     372,
+     373
+    ],
+    "primary_line": 368
+   },
+   "key_quotes": [
+    {
+     "quote": "Pick a niche, beauty, fitness, finance, whatever.",
+     "line": 369
+    },
+    {
+     "quote": "Run a Tik Tok hashtag scraper every Monday morning. Compile the top trending sounds, hashtags, creators, email it out as a weekly trend report.",
+     "line": 370
+    }
+   ],
+   "claims": [
+    {
+     "claim": "The proposed prices are $50 or $100 per month.",
+     "quote": "Charge marketing agencies 50 bucks a month, 100 bucks a month, but whatever.",
+     "line": 372,
+     "first_hand": false,
+     "hypothetical": true
+    }
+   ],
+   "acquisition_channels": [],
+   "delivery": "A scraper runs weekly, compiles trend data and emails the report to subscribers.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "TikTok hashtag scraper"
+    ],
+    "prices": [
+     "$50/month",
+     "$100/month"
+    ],
+    "platforms": [
+     "TikTok",
+     "email"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "UK GDPR may apply to identifiable creator data; email marketing and recurring subscriptions should follow PECR, UK GDPR and applicable DMCC Act requirements.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 85,
+   "hours_per_week_e": 6,
+   "idea_id": "50iWtrj9Mkw:i28",
+   "specifics_flag": true,
+   "publish_date": "20260519",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "50iWtrj9Mkw#r68",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "Yelp local business scraper",
+    "one_liner": "A scraper that exports local business contact and review details for buyers of local service-business data.",
+    "customer": "Local service businesses seeking competitors and suppliers seeking prospects.",
+    "offer": "Lists of businesses with phone, email, owner name, review count and rating.",
+    "revenue_model": "Not stated; implied sale of scraped data or access.",
+    "category": "data_leads"
+   },
+   "citation": {
+    "lines": [
+     374,
+     375
+    ],
+    "primary_line": 374
+   },
+   "key_quotes": [
+    {
+     "quote": "Yelp scraper, every roofer in Phoenix, every chiropractor in Atlanta, phone, email, owner name, review count, average rating, whatever.",
+     "line": 374
+    },
+    {
+     "quote": "Sell it to local service businesses that want to acquire competitors or suppliers who want to pitch them, yada yada yada.",
+     "line": 375
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "A digital scraper collects business listings and contact details and supplies them to customers.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "scraper"
+    ],
+    "prices": [],
+    "platforms": [
+     "Yelp"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "UK GDPR applies where contact details identify individuals. For downstream marketing, PECR restricts unsolicited texts, WhatsApp and social DMs to individuals and sole traders; cold email is limited to corporate subscribers with opt-out, and cold calls must screen TPS/CTPS.",
+   "sells_to_local_businesses": true,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 70,
+   "hours_per_week_e": 9,
+   "idea_id": "50iWtrj9Mkw:i29",
+   "specifics_flag": true,
+   "publish_date": "20260519",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "50iWtrj9Mkw#r69",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "App store scraper",
+    "one_liner": "A scraper for app-store data; the transcript does not specify a particular customer or output.",
+    "customer": "Not stated.",
+    "offer": "Scrape app store data.",
+    "revenue_model": "Not stated.",
+    "category": "data_leads"
+   },
+   "citation": {
+    "lines": [
+     376
+    ],
+    "primary_line": 376
+   },
+   "key_quotes": [
+    {
+     "quote": "How about an app store scraper or Google Play score scraper, trust pilot scraper, an Indie job scraper, unbundle Indeed.",
+     "line": 376
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "A scraper collects app-store data for users; exact workflow and output are not stated.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "scraper"
+    ],
+    "prices": [],
+    "platforms": [
+     "app store"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "Check app-store terms and data rights; UK GDPR may apply if the scraped output contains personal data.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 80,
+   "hours_per_week_e": 7,
+   "idea_id": "50iWtrj9Mkw:i30",
+   "specifics_flag": true,
+   "publish_date": "20260519",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "50iWtrj9Mkw#r70",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "Google Play score scraper",
+    "one_liner": "A scraper that collects Google Play app scores.",
+    "customer": "Not stated.",
+    "offer": "Scrape app scores from Google Play.",
+    "revenue_model": "Not stated.",
+    "category": "data_leads"
+   },
+   "citation": {
+    "lines": [
+     376
+    ],
+    "primary_line": 376
+   },
+   "key_quotes": [
+    {
+     "quote": "How about an app store scraper or Google Play score scraper, trust pilot scraper, an Indie job scraper, unbundle Indeed.",
+     "line": 376
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "A scraper collects Google Play score data for users; exact workflow and output are not stated.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "scraper"
+    ],
+    "prices": [],
+    "platforms": [
+     "Google Play"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "Check Google Play terms and data rights; UK GDPR may apply if the scraped output contains personal data.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 80,
+   "hours_per_week_e": 7,
+   "idea_id": "50iWtrj9Mkw:i31",
+   "specifics_flag": true,
+   "publish_date": "20260519",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "50iWtrj9Mkw#r71",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "Trustpilot scraper",
+    "one_liner": "A scraper for Trustpilot data; the transcript does not specify a particular buyer or output.",
+    "customer": "Not stated.",
+    "offer": "Scrape Trustpilot data.",
+    "revenue_model": "Not stated.",
+    "category": "data_leads"
+   },
+   "citation": {
+    "lines": [
+     376
+    ],
+    "primary_line": 376
+   },
+   "key_quotes": [
+    {
+     "quote": "How about an app store scraper or Google Play score scraper, trust pilot scraper, an Indie job scraper, unbundle Indeed.",
+     "line": 376
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "A scraper collects Trustpilot data for users; exact workflow and output are not stated.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "scraper"
+    ],
+    "prices": [],
+    "platforms": [
+     "Trustpilot"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "Check Trustpilot terms and data rights; UK GDPR may apply if the scraped output contains personal data.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 80,
+   "hours_per_week_e": 7,
+   "idea_id": "50iWtrj9Mkw:i32",
+   "specifics_flag": true,
+   "publish_date": "20260519",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "50iWtrj9Mkw#r72",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "Indie job scraper",
+    "one_liner": "A scraper for indie jobs, suggested as a narrow job-search product.",
+    "customer": "Job seekers or employers are possible users; the transcript does not specify.",
+    "offer": "Scrape and surface indie job listings.",
+    "revenue_model": "Not stated.",
+    "category": "job_career"
+   },
+   "citation": {
+    "lines": [
+     376,
+     377
+    ],
+    "primary_line": 376
+   },
+   "key_quotes": [
+    {
+     "quote": "How about an app store scraper or Google Play score scraper, trust pilot scraper, an Indie job scraper, unbundle Indeed.",
+     "line": 376
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "A scraper collects indie job listings and presents them to users.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "scraper"
+    ],
+    "prices": [],
+    "platforms": [
+     "indie job sites",
+     "Indeed"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "UK GDPR may apply to candidate data; check source-site terms and data rights. Employment Agencies Regulations may become relevant if the service starts introducing candidates to employers.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 75,
+   "hours_per_week_e": 9,
+   "idea_id": "50iWtrj9Mkw:i33",
+   "specifics_flag": true,
+   "publish_date": "20260519",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "50iWtrj9Mkw#r73",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "Nurse practitioner job board",
+    "one_liner": "An Indeed-style specialist job board for nurse practitioners.",
+    "customer": "Nurse practitioners and employers hiring them.",
+    "offer": "A job board focused on nurse practitioner roles.",
+    "revenue_model": "Not stated.",
+    "category": "job_career"
+   },
+   "citation": {
+    "lines": [
+     376,
+     377
+    ],
+    "primary_line": 377
+   },
+   "key_quotes": [
+    {
+     "quote": "Make an Indeed just for nurse practitioners, crunchbased scraper for funding alerts, or a Reddit niche sentiment scraper.",
+     "line": 377
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "A digital job board lists nurse practitioner roles and connects job seekers with employers.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [],
+    "prices": [],
+    "platforms": [
+     "Indeed"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "Candidate data may be subject to UK GDPR. If the board introduces candidates to employers or provides recruitment services, Employment Agencies Regulations may apply.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 55,
+   "hours_per_week_e": 13,
+   "idea_id": "50iWtrj9Mkw:i34",
+   "specifics_flag": true,
+   "publish_date": "20260519",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "50iWtrj9Mkw#r74",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "Crunchbase funding alerts scraper",
+    "one_liner": "A scraper that monitors Crunchbase for funding events and sends alerts.",
+    "customer": "People who want alerts about company funding; exact buyer not stated.",
+    "offer": "Scraped funding alerts from Crunchbase.",
+    "revenue_model": "Not stated.",
+    "category": "data_leads"
+   },
+   "citation": {
+    "lines": [
+     377
+    ],
+    "primary_line": 377
+   },
+   "key_quotes": [
+    {
+     "quote": "Make an Indeed just for nurse practitioners, crunchbased scraper for funding alerts, or a Reddit niche sentiment scraper.",
+     "line": 377
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "A scraper monitors Crunchbase data and sends funding alerts.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "scraper"
+    ],
+    "prices": [],
+    "platforms": [
+     "Crunchbase"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "Check Crunchbase terms and data rights; UK GDPR may apply where records contain personal data.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 85,
+   "hours_per_week_e": 6,
+   "idea_id": "50iWtrj9Mkw:i35",
+   "specifics_flag": true,
+   "publish_date": "20260519",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "50iWtrj9Mkw#r75",
+   "depth": "mention",
+   "stated_problem": {
+    "quote": "Brands want to know what people are saying about them on Reddit or on Twitter.",
+    "line": 378,
+    "speaker": "Chris Koerner"
+   },
+   "idea": {
+    "name": "Reddit niche sentiment scraper",
+    "one_liner": "A scraper that monitors Reddit conversations for niche or brand sentiment.",
+    "customer": "Brands wanting to understand discussion about them on Reddit.",
+    "offer": "Collect and summarize Reddit posts for sentiment or topic analysis.",
+    "revenue_model": "Not stated.",
+    "category": "data_leads"
+   },
+   "citation": {
+    "lines": [
+     377,
+     378
+    ],
+    "primary_line": 377
+   },
+   "key_quotes": [
+    {
+     "quote": "Make an Indeed just for nurse practitioners, crunchbased scraper for funding alerts, or a Reddit niche sentiment scraper.",
+     "line": 377
+    },
+    {
+     "quote": "Brands want to know what people are saying about them on Reddit or on Twitter.",
+     "line": 378
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "A scraper collects Reddit posts and surfaces niche or brand sentiment to customers.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "scraper"
+    ],
+    "prices": [],
+    "platforms": [
+     "Reddit"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "Reddit content may include personal data under UK GDPR; check platform terms and data rights.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 80,
+   "hours_per_week_e": 7,
+   "idea_id": "50iWtrj9Mkw:i36",
+   "specifics_flag": true,
+   "publish_date": "20260519",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "50iWtrj9Mkw#r76",
+   "depth": "mention",
+   "stated_problem": {
+    "quote": "Brands want to know what people are saying about them on Reddit or on Twitter.",
+    "line": 378,
+    "speaker": "Chris Koerner"
+   },
+   "idea": {
+    "name": "Twitter brand sentiment monitor",
+    "one_liner": "A scraper that monitors Twitter posts and reports what people say about a brand.",
+    "customer": "Brands monitoring discussion about themselves on Twitter.",
+    "offer": "Collect and summarize brand-related posts for sentiment monitoring.",
+    "revenue_model": "Not stated.",
+    "category": "data_leads"
+   },
+   "citation": {
+    "lines": [
+     377,
+     378,
+     379,
+     380,
+     381
+    ],
+    "primary_line": 378
+   },
+   "key_quotes": [
+    {
+     "quote": "Brands want to know what people are saying about them on Reddit or on Twitter.",
+     "line": 378
+    },
+    {
+     "quote": "Twitter just dropped their API cost, by the way.",
+     "line": 379
+    }
+   ],
+   "claims": [
+    {
+     "claim": "The host says Twitter's API cost had dropped, without stating an amount.",
+     "quote": "Twitter just dropped their API cost, by the way.",
+     "line": 379,
+     "first_hand": false,
+     "hypothetical": false
+    }
+   ],
+   "acquisition_channels": [],
+   "delivery": "A scraper monitors Twitter posts and produces brand sentiment information for customers.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "Twitter API",
+     "scraper"
+    ],
+    "prices": [],
+    "platforms": [
+     "Twitter"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "Posts may include personal data under UK GDPR; check API terms, retention limits and data rights.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 80,
+   "hours_per_week_e": 7,
+   "idea_id": "50iWtrj9Mkw:i37",
+   "specifics_flag": true,
+   "publish_date": "20260519",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "50iWtrj9Mkw#r77",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "OpenAI wrapper for podiatrists",
+    "one_liner": "A ChatGPT-style wrapper tailored to podiatrists, positioned as a niche tool rather than a general model competitor.",
+    "customer": "Podiatrists.",
+    "offer": "A niche AI interface for podiatry use; exact features are not stated.",
+    "revenue_model": "Not stated.",
+    "category": "ai_automation"
+   },
+   "citation": {
+    "lines": [
+     428,
+     429,
+     430
+    ],
+    "primary_line": 429
+   },
+   "key_quotes": [
+    {
+     "quote": "If you build OpenAI for podiatrists, which would just be a CGBT rapper for podiatrists, you're not competing with them.",
+     "line": 429
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "A niche web interface wraps an existing AI model for podiatry users; exact workflow is not stated.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "OpenAI",
+     "ChatGPT-style wrapper"
+    ],
+    "prices": [],
+    "platforms": [
+     "OpenAI"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "UK GDPR applies to patient-identifiable data; clinical use may also require appropriate medical-device and professional review depending on functionality.",
+   "sells_to_local_businesses": true,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 70,
+   "hours_per_week_e": 10,
+   "idea_id": "50iWtrj9Mkw:i38",
+   "specifics_flag": true,
+   "publish_date": "20260519",
+   "stale_age": false,
+   "recheck": true
+  }
+ ]
+}

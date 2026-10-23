@@ -1,0 +1,172 @@
+{
+ "id": "KLYVEKu3HvM",
+ "publish_date": "20260928",
+ "channel": "My First Million",
+ "status": "ingested",
+ "title": "There’s proof that we are living in a simulation! (ft. MIT Scientist)",
+ "provider": "local_whisper_tiny",
+ "duration_s": "3576",
+ "n_lines": 687,
+ "n_removed_lines": 30,
+ "removed": [
+  {
+   "from": 1,
+   "to": 2,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 74,
+   "to": 85,
+   "reason": "sponsor"
+  },
+  {
+   "from": 672,
+   "to": 687,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "KLYVEKu3HvM#r1",
+   "business": "multiple companies in the video gaming space",
+   "ranges": [
+    [
+     3,
+     4
+    ],
+    [
+     319,
+     319
+    ],
+    [
+     574,
+     580
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "KLYVEKu3HvM#r2",
+   "business": "a VR video game company in South Toledo",
+   "ranges": [
+    [
+     319,
+     323
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "KLYVEKu3HvM#r3",
+   "business": "an enterprise software company connecting Microsoft products with IBM products",
+   "ranges": [
+    [
+     584,
+     603
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "KLYVEKu3HvM#r4",
+   "business": "Edge Research, a competitor acquired by IBM",
+   "ranges": [
+    [
+     601,
+     603
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "KLYVEKu3HvM#r5",
+   "business": "IBM and its product that competed with the guest's software",
+   "ranges": [
+    [
+     594,
+     603
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "KLYVEKu3HvM#r6",
+   "business": "Second Life, a virtual world where people held jobs and were paid in Linden dollars",
+   "ranges": [
+    [
+     161,
+     167
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "KLYVEKu3HvM#r7",
+   "business": "OpenAI's agent simulations and cybersecurity testing",
+   "ranges": [
+    [
+     176,
+     177
+    ],
+    [
+     188,
+     188
+    ],
+    [
+     205,
+     223
+    ],
+    [
+     245,
+     261
+    ],
+    [
+     264,
+     269
+    ],
+    [
+     286,
+     290
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "KLYVEKu3HvM#r8",
+   "business": "Hugging Face, whose service was accessed during the agent security incident",
+   "ranges": [
+    [
+     205,
+     209
+    ],
+    [
+     239,
+     259
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "KLYVEKu3HvM#r9",
+   "business": "Anthropic, whose CEO discussed slowing frontier AI models",
+   "ranges": [
+    [
+     269,
+     269
+    ],
+    [
+     282,
+     283
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "The episode is mainly about simulation theory; business discussion is brief and mostly incidental.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 70
+}

@@ -1,0 +1,59 @@
+{
+ "id": "sNmKTbi6zhI",
+ "publish_date": "20250506",
+ "channel": "Chris Koerner on The Koerner Office Podcast",
+ "status": "ingested",
+ "title": "what I wish I knew at age 20",
+ "provider": "youtube-transcript-api",
+ "duration_s": "1247",
+ "n_lines": 319,
+ "n_removed_lines": 38,
+ "removed": [
+  {
+   "from": 56,
+   "to": 61,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 231,
+   "to": 260,
+   "reason": "tangent"
+  },
+  {
+   "from": 318,
+   "to": 319,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "sNmKTbi6zhI#r1",
+   "business": "Nickeola Motors, building electric cars and trucks",
+   "ranges": [
+    [
+     44,
+     45
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "sNmKTbi6zhI#r2",
+   "business": "Voltera, a software business that helps skilled nursing facilities save money on medical billing",
+   "ranges": [
+    [
+     217,
+     222
+    ]
+   ],
+   "is_primary": true
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "Anecdotes tied to business lessons are retained.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 53
+}

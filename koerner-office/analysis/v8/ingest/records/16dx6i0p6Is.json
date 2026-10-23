@@ -1,0 +1,169 @@
+{
+ "id": "16dx6i0p6Is",
+ "publish_date": "20260725",
+ "channel": "Tim Richard",
+ "status": "ingested",
+ "title": "I Built A Business From Scratch Only Following Claude's Advice",
+ "provider": null,
+ "duration_s": "462",
+ "n_lines": 117,
+ "n_removed_lines": 11,
+ "removed": [
+  {
+   "from": 98,
+   "to": 99,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 101,
+   "to": 101,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 109,
+   "to": 113,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 115,
+   "to": 117,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "16dx6i0p6Is#r1",
+   "business": "tattoo shop booking software, named Inkbook",
+   "ranges": [
+    [
+     34,
+     34
+    ],
+    [
+     41,
+     97
+    ],
+    [
+     102,
+     108
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "16dx6i0p6Is#r2",
+   "business": "software for plumbers",
+   "ranges": [
+    [
+     10,
+     11
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "16dx6i0p6Is#r3",
+   "business": "software for mobile pet grooming",
+   "ranges": [
+    [
+     34,
+     34
+    ],
+    [
+     37,
+     37
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "16dx6i0p6Is#r4",
+   "business": "software for pressure washing businesses",
+   "ranges": [
+    [
+     11,
+     11
+    ],
+    [
+     34,
+     34
+    ],
+    [
+     39,
+     40
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "16dx6i0p6Is#r5",
+   "business": "software for gutter cleaning businesses",
+   "ranges": [
+    [
+     11,
+     11
+    ],
+    [
+     34,
+     34
+    ],
+    [
+     39,
+     40
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "16dx6i0p6Is#r6",
+   "business": "Jobber",
+   "ranges": [
+    [
+     40,
+     40
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "16dx6i0p6Is#r7",
+   "business": "Housecall Pro",
+   "ranges": [
+    [
+     40,
+     40
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "16dx6i0p6Is#r8",
+   "business": "the speaker's existing business in a boring industry",
+   "ranges": [
+    [
+     11,
+     12
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "16dx6i0p6Is#r9",
+   "business": "the speaker's idea book of low-competition business ideas",
+   "ranges": [
+    [
+     109,
+     115
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "Inkbook is the primary venture; alternatives, named competitors, and other mentioned businesses are separate records.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 76
+}

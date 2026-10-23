@@ -1,0 +1,269 @@
+{
+ "id": "zK12R4Edm6k",
+ "publish_date": "20260920",
+ "channel": "George McConnell",
+ "status": "ingested",
+ "title": "I Built a Luxury Brand in 30 Minutes with GPT-6 Astra",
+ "provider": null,
+ "duration_s": "1792",
+ "n_lines": 417,
+ "n_removed_lines": 3,
+ "removed": [
+  {
+   "from": 415,
+   "to": 417,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "zK12R4Edm6k#r1",
+   "business": "Von, a premium $68 water bottle brand positioned as a studio-to-street accessory",
+   "ranges": [
+    [
+     1,
+     414
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "zK12R4Edm6k#r2",
+   "business": "ChatGBT6 Astra, the brand positioning and planning tool",
+   "ranges": [
+    [
+     3,
+     4
+    ],
+    [
+     7,
+     7
+    ],
+    [
+     12,
+     18
+    ],
+    [
+     31,
+     63
+    ],
+    [
+     85,
+     129
+    ],
+    [
+     130,
+     197
+    ],
+    [
+     302,
+     353
+    ],
+    [
+     382,
+     393
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "zK12R4Edm6k#r3",
+   "business": "Higsfield, the visual creation tool used for product images and ads",
+   "ranges": [
+    [
+     3,
+     11
+    ],
+    [
+     125,
+     125
+    ],
+    [
+     198,
+     301
+    ],
+    [
+     353,
+     399
+    ],
+    [
+     403,
+     407
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "zK12R4Edm6k#r4",
+   "business": "McDonald's",
+   "ranges": [
+    [
+     17,
+     17
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "zK12R4Edm6k#r5",
+   "business": "Starbucks",
+   "ranges": [
+    [
+     42,
+     42
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "zK12R4Edm6k#r6",
+   "business": "Aloe, the activewear brand the speaker describes",
+   "ranges": [
+    [
+     95,
+     98
+    ],
+    [
+     104,
+     106
+    ],
+    [
+     118,
+     121
+    ],
+    [
+     159,
+     159
+    ],
+    [
+     293,
+     295
+    ],
+    [
+     375,
+     379
+    ],
+    [
+     411,
+     412
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "zK12R4Edm6k#r7",
+   "business": "Lululemon",
+   "ranges": [
+    [
+     95,
+     98
+    ],
+    [
+     105,
+     106
+    ],
+    [
+     118,
+     121
+    ],
+    [
+     159,
+     159
+    ],
+    [
+     293,
+     293
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "zK12R4Edm6k#r8",
+   "business": "Vuori",
+   "ranges": [
+    [
+     95,
+     95
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "zK12R4Edm6k#r9",
+   "business": "Alibaba, a source for lower-cost bottles",
+   "ranges": [
+    [
+     128,
+     128
+    ],
+    [
+     238,
+     238
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "zK12R4Edm6k#r10",
+   "business": "RH",
+   "ranges": [
+    [
+     151,
+     151
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "zK12R4Edm6k#r11",
+   "business": "New Balance",
+   "ranges": [
+    [
+     151,
+     151
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "zK12R4Edm6k#r12",
+   "business": "Bagu",
+   "ranges": [
+    [
+     151,
+     151
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "zK12R4Edm6k#r13",
+   "business": "Range Rover",
+   "ranges": [
+    [
+     285,
+     285
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "zK12R4Edm6k#r14",
+   "business": "Nike",
+   "ranges": [
+    [
+     412,
+     412
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "The main business is the proposed Von bottle brand; other records are named companies or tools mentioned in passing.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 55
+}

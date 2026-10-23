@@ -1,0 +1,87 @@
+{
+ "id": "4m7tDeaw5Y0",
+ "publish_date": "20250513",
+ "channel": "Niche Pursuits",
+ "status": "ingested",
+ "title": "I Paid $700 for a HUGE Amazon Returns Pallet! Unboxing $____ in Mystery Items...",
+ "provider": "local_whisper_tiny",
+ "duration_s": "1262",
+ "n_lines": 407,
+ "n_removed_lines": 17,
+ "removed": [
+  {
+   "from": 10,
+   "to": 18,
+   "reason": "filler"
+  },
+  {
+   "from": 46,
+   "to": 46,
+   "reason": "filler"
+  },
+  {
+   "from": 58,
+   "to": 58,
+   "reason": "filler"
+  },
+  {
+   "from": 69,
+   "to": 69,
+   "reason": "filler"
+  },
+  {
+   "from": 401,
+   "to": 403,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 406,
+   "to": 407,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "4m7tDeaw5Y0#r1",
+   "business": "Buying liquidation and Amazon return pallets to resell",
+   "ranges": [
+    [
+     1,
+     9
+    ],
+    [
+     19,
+     45
+    ],
+    [
+     47,
+     57
+    ],
+    [
+     59,
+     68
+    ],
+    [
+     70,
+     73
+    ],
+    [
+     75,
+     400
+    ],
+    [
+     404,
+     405
+    ]
+   ],
+   "is_primary": true
+  }
+ ],
+ "multi_business": false,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "One pallet resale business; eBay and Facebook Marketplace are sales channels.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 36
+}

@@ -1,0 +1,300 @@
+{
+ "id": "GMrdaxaTZbA",
+ "publish_date": "20261005",
+ "channel": "UpFlip",
+ "status": "ingested",
+ "title": "This Food Truck Makes More in 10 Days Than Most Make All Year",
+ "provider": "local_whisper_tiny",
+ "duration_s": "2388",
+ "n_lines": 1198,
+ "n_removed_lines": 73,
+ "removed": [
+  {
+   "from": 31,
+   "to": 35,
+   "reason": "filler"
+  },
+  {
+   "from": 53,
+   "to": 53,
+   "reason": "filler"
+  },
+  {
+   "from": 57,
+   "to": 57,
+   "reason": "filler"
+  },
+  {
+   "from": 70,
+   "to": 74,
+   "reason": "filler"
+  },
+  {
+   "from": 83,
+   "to": 87,
+   "reason": "filler"
+  },
+  {
+   "from": 123,
+   "to": 123,
+   "reason": "filler"
+  },
+  {
+   "from": 129,
+   "to": 129,
+   "reason": "filler"
+  },
+  {
+   "from": 139,
+   "to": 139,
+   "reason": "filler"
+  },
+  {
+   "from": 201,
+   "to": 201,
+   "reason": "filler"
+  },
+  {
+   "from": 211,
+   "to": 211,
+   "reason": "filler"
+  },
+  {
+   "from": 236,
+   "to": 236,
+   "reason": "filler"
+  },
+  {
+   "from": 240,
+   "to": 240,
+   "reason": "filler"
+  },
+  {
+   "from": 334,
+   "to": 335,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 336,
+   "to": 336,
+   "reason": "filler"
+  },
+  {
+   "from": 338,
+   "to": 346,
+   "reason": "sponsor"
+  },
+  {
+   "from": 574,
+   "to": 574,
+   "reason": "filler"
+  },
+  {
+   "from": 582,
+   "to": 584,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 647,
+   "to": 650,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 651,
+   "to": 654,
+   "reason": "sponsor"
+  },
+  {
+   "from": 728,
+   "to": 728,
+   "reason": "filler"
+  },
+  {
+   "from": 946,
+   "to": 947,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 948,
+   "to": 949,
+   "reason": "filler"
+  },
+  {
+   "from": 1177,
+   "to": 1181,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 1184,
+   "to": 1198,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "GMrdaxaTZbA#r1",
+   "business": "The Bell Sweet Factory food truck",
+   "ranges": [
+    [
+     1,
+     30
+    ],
+    [
+     36,
+     52
+    ],
+    [
+     54,
+     122
+    ],
+    [
+     124,
+     144
+    ],
+    [
+     152,
+     245
+    ],
+    [
+     247,
+     333
+    ],
+    [
+     337,
+     337
+    ],
+    [
+     347,
+     417
+    ],
+    [
+     420,
+     518
+    ],
+    [
+     519,
+     581
+    ],
+    [
+     592,
+     646
+    ],
+    [
+     655,
+     694
+    ],
+    [
+     700,
+     711
+    ],
+    [
+     712,
+     862
+    ],
+    [
+     871,
+     945
+    ],
+    [
+     950,
+     1062
+    ],
+    [
+     1102,
+     1130
+    ],
+    [
+     1131,
+     1176
+    ],
+    [
+     1182,
+     1183
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "GMrdaxaTZbA#r2",
+   "business": "Catering",
+   "ranges": [
+    [
+     587,
+     587
+    ],
+    [
+     595,
+     595
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "GMrdaxaTZbA#r3",
+   "business": "Digital product: an ebook showing other businesses how to start and run a food truck",
+   "ranges": [
+    [
+     588,
+     588
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "GMrdaxaTZbA#r4",
+   "business": "Social media and YouTube monetization",
+   "ranges": [
+    [
+     401,
+     402
+    ],
+    [
+     590,
+     591
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "GMrdaxaTZbA#r5",
+   "business": "The Bell Sweet Factory's brick-and-mortar restaurant",
+   "ranges": [
+    [
+     695,
+     699
+    ],
+    [
+     1063,
+     1113
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "GMrdaxaTZbA#r6",
+   "business": "Packaged Belgian Air Sauce",
+   "ranges": [
+    [
+     835,
+     838
+    ],
+    [
+     847,
+     849
+    ],
+    [
+     863,
+     870
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "English transcript with substantial ASR garbling in places.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 121
+}

@@ -1,0 +1,140 @@
+{
+ "id": "8XSaVl6QnVA",
+ "publish_date": "20260630",
+ "channel": "Johnny & Sergio",
+ "status": "ingested",
+ "title": "The Laziest Service Business That Can Make $373/Day+ (From Home)",
+ "provider": null,
+ "duration_s": "1109",
+ "n_lines": 211,
+ "n_removed_lines": 13,
+ "removed": [
+  {
+   "from": 201,
+   "to": 211,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 96,
+   "to": 96,
+   "reason": "filler"
+  },
+  {
+   "from": 118,
+   "to": 118,
+   "reason": "filler"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "8XSaVl6QnVA#r1",
+   "business": "remote cleaning business",
+   "ranges": [
+    [
+     1,
+     200
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "8XSaVl6QnVA#r2",
+   "business": "lawn care",
+   "ranges": [
+    [
+     17,
+     17
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "8XSaVl6QnVA#r3",
+   "business": "pressure washing",
+   "ranges": [
+    [
+     17,
+     17
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "8XSaVl6QnVA#r4",
+   "business": "handyman work",
+   "ranges": [
+    [
+     17,
+     17
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "8XSaVl6QnVA#r5",
+   "business": "traditional cleaning business",
+   "ranges": [
+    [
+     50,
+     52
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "8XSaVl6QnVA#r6",
+   "business": "roofing",
+   "ranges": [
+    [
+     58,
+     58
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "8XSaVl6QnVA#r7",
+   "business": "two friends’ remote cleaning business in Wisconsin",
+   "ranges": [
+    [
+     72,
+     81
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "8XSaVl6QnVA#r8",
+   "business": "furniture store",
+   "ranges": [
+    [
+     73,
+     73
+    ],
+    [
+     80,
+     80
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "8XSaVl6QnVA#r9",
+   "business": "Maid in a Minute",
+   "ranges": [
+    [
+     112,
+     112
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "The comparison and case study ranges overlap the main remote cleaning discussion.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 57
+}

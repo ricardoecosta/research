@@ -1,0 +1,84 @@
+{
+ "id": "y2f16StJjfE",
+ "publish_date": "20260409",
+ "channel": "Casper Capital",
+ "status": "ingested",
+ "title": "Debt Relief Explained: Who It's For, Who It's NOT For, and Best Companies in 2026",
+ "provider": null,
+ "duration_s": "1204",
+ "n_lines": 203,
+ "n_removed_lines": 3,
+ "removed": [
+  {
+   "from": 201,
+   "to": 203,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "y2f16StJjfE#r1",
+   "business": "Accredited Debt Relief",
+   "ranges": [
+    [
+     104,
+     126
+    ],
+    [
+     132,
+     132
+    ],
+    [
+     190,
+     191
+    ],
+    [
+     199,
+     199
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "y2f16StJjfE#r2",
+   "business": "National Debt Relief",
+   "ranges": [
+    [
+     127,
+     149
+    ],
+    [
+     192,
+     193
+    ],
+    [
+     199,
+     199
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "y2f16StJjfE#r3",
+   "business": "Americor",
+   "ranges": [
+    [
+     150,
+     188
+    ],
+    [
+     194,
+     195
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "Three debt relief companies are compared; Accredited Debt Relief is the speaker’s top recommendation.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 39
+}

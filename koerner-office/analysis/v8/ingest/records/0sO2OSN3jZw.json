@@ -1,0 +1,55 @@
+{
+ "id": "0sO2OSN3jZw",
+ "publish_date": "20260916",
+ "channel": "Starter Story",
+ "status": "ingested",
+ "title": "How I Work: $140K/Month App Developer",
+ "provider": "local_whisper_tiny",
+ "duration_s": "524",
+ "n_lines": 131,
+ "n_removed_lines": 12,
+ "removed": [
+  {
+   "from": 41,
+   "to": 49,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 129,
+   "to": 131,
+   "reason": "tangent"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "0sO2OSN3jZw#r1",
+   "business": "meetup app for solo travelers, expats and nomads",
+   "ranges": [
+    [
+     1,
+     11
+    ],
+    [
+     24,
+     40
+    ],
+    [
+     52,
+     85
+    ],
+    [
+     98,
+     113
+    ]
+   ],
+   "is_primary": true
+  }
+ ],
+ "multi_business": false,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "One primary app business; the host’s app-idea database promo is removed.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 28
+}

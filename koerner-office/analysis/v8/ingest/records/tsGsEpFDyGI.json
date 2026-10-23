@@ -1,0 +1,90 @@
+{
+ "id": "tsGsEpFDyGI",
+ "publish_date": "20261006",
+ "channel": "Dark Horse Entrepreneur",
+ "status": "ingested",
+ "title": "EP 564 Validate Digital Products Before You Build | AI Entrepreneur Plan",
+ "provider": null,
+ "duration_s": "1250",
+ "n_lines": 348,
+ "n_removed_lines": 51,
+ "removed": [
+  {
+   "from": 1,
+   "to": 15,
+   "reason": "sponsor"
+  },
+  {
+   "from": 30,
+   "to": 34,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 298,
+   "to": 304,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 308,
+   "to": 309,
+   "reason": "tangent"
+  },
+  {
+   "from": 327,
+   "to": 334,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 335,
+   "to": 348,
+   "reason": "sponsor"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "tsGsEpFDyGI#r1",
+   "business": "month-end receipt rescue kit for solo bookkeepers",
+   "ranges": [
+    [
+     98,
+     108
+    ],
+    [
+     167,
+     181
+    ],
+    [
+     184,
+     206
+    ],
+    [
+     208,
+     228
+    ],
+    [
+     238,
+     243
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "tsGsEpFDyGI#r2",
+   "business": "podcasting course",
+   "ranges": [
+    [
+     236,
+     236
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "The receipt kit is a hypothetical running example; the podcasting course is a brief presale anecdote.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 64
+}

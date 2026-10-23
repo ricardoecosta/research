@@ -1,0 +1,105 @@
+{
+ "id": "r5yL8PW8Kyc",
+ "publish_date": "20251113",
+ "channel": "Chris Koerner on The Koerner Office Podcast",
+ "status": "ingested",
+ "title": "Watch Me Build an AI Agency in 24 Minutes",
+ "provider": "youtube-transcript-api",
+ "duration_s": "1471",
+ "n_lines": 466,
+ "n_removed_lines": 10,
+ "removed": [
+  {
+   "from": 7,
+   "to": 7,
+   "reason": "filler"
+  },
+  {
+   "from": 46,
+   "to": 47,
+   "reason": "filler"
+  },
+  {
+   "from": 275,
+   "to": 277,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 281,
+   "to": 281,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 458,
+   "to": 459,
+   "reason": "sponsor"
+  },
+  {
+   "from": 466,
+   "to": 466,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "r5yL8PW8Kyc#r1",
+   "business": "AI voice-agent service for roofing businesses, offered through Repeat Leads",
+   "ranges": [
+    [
+     1,
+     6
+    ],
+    [
+     8,
+     274
+    ],
+    [
+     278,
+     280
+    ],
+    [
+     282,
+     457
+    ],
+    [
+     460,
+     464
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "r5yL8PW8Kyc#r2",
+   "business": "Playmakers AI, a community for people starting AI implementation or automation businesses",
+   "ranges": [
+    [
+     275,
+     281
+    ],
+    [
+     465,
+     465
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "r5yL8PW8Kyc#r3",
+   "business": "TK Owners community",
+   "ranges": [
+    [
+     278,
+     278
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "Repeat Leads is the named brand for the roofing voice-agent offer; TK Owners is only mentioned in passing.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 76
+}

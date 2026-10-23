@@ -1,0 +1,86 @@
+{
+ "id": "IHy07Ny72kA",
+ "publish_date": "20251221",
+ "channel": "Chris Koerner on The Koerner Office Podcast",
+ "status": "ingested",
+ "title": "Stop Guessing. Here’s How to Build What People Will Actually Pay For",
+ "provider": "youtube-transcript-api",
+ "duration_s": "838",
+ "n_lines": 214,
+ "n_removed_lines": 4,
+ "removed": [
+  {
+   "from": 210,
+   "to": 212,
+   "reason": "sponsor"
+  },
+  {
+   "from": 214,
+   "to": 214,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "IHy07Ny72kA#r1",
+   "business": "BookFlow, an embeddable appointment booking widget for small businesses, ultimately focused on dog groomers",
+   "ranges": [
+    [
+     13,
+     57
+    ],
+    [
+     64,
+     67
+    ],
+    [
+     93,
+     112
+    ],
+    [
+     123,
+     136
+    ],
+    [
+     144,
+     168
+    ],
+    [
+     172,
+     187
+    ],
+    [
+     194,
+     209
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "IHy07Ny72kA#r2",
+   "business": "A chatbot for business websites, considered as a product to sell to a specific industry",
+   "ranges": [
+    [
+     113,
+     113
+    ],
+    [
+     137,
+     143
+    ],
+    [
+     152,
+     158
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "The chatbot is treated as a separate product idea mentioned alongside the booking widget.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 47
+}

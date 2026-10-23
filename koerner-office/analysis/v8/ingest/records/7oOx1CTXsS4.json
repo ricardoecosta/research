@@ -1,0 +1,160 @@
+{
+ "id": "7oOx1CTXsS4",
+ "publish_date": "20260714",
+ "channel": "Tim Richard",
+ "status": "ingested",
+ "title": "This BORING Business Makes $3M/yr From My Laptop",
+ "provider": null,
+ "duration_s": "650",
+ "n_lines": 135,
+ "n_removed_lines": 13,
+ "removed": [
+  {
+   "from": 12,
+   "to": 12,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 82,
+   "to": 85,
+   "reason": "sponsor"
+  },
+  {
+   "from": 87,
+   "to": 87,
+   "reason": "sponsor"
+  },
+  {
+   "from": 111,
+   "to": 111,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 127,
+   "to": 130,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 134,
+   "to": 135,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "7oOx1CTXsS4#r1",
+   "business": "my nationwide junk removal company, run remotely using subcontractors",
+   "ranges": [
+    [
+     1,
+     6
+    ],
+    [
+     13,
+     81
+    ],
+    [
+     86,
+     86
+    ],
+    [
+     88,
+     100
+    ],
+    [
+     112,
+     126
+    ],
+    [
+     131,
+     133
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "7oOx1CTXsS4#r2",
+   "business": "Couch Disposal Plus, which picks up couches nationwide",
+   "ranges": [
+    [
+     7,
+     8
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "7oOx1CTXsS4#r3",
+   "business": "Orange Window Washing",
+   "ranges": [
+    [
+     9,
+     9
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "7oOx1CTXsS4#r4",
+   "business": "Think Maids House Cleaning",
+   "ranges": [
+    [
+     9,
+     9
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "7oOx1CTXsS4#r5",
+   "business": "1-800 Got Junk, a junk removal company",
+   "ranges": [
+    [
+     24,
+     24
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "7oOx1CTXsS4#r6",
+   "business": "remote home cleaning business",
+   "ranges": [
+    [
+     103,
+     106
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "7oOx1CTXsS4#r7",
+   "business": "lawn care business",
+   "ranges": [
+    [
+     107,
+     107
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "7oOx1CTXsS4#r8",
+   "business": "gutter cleaning business",
+   "ranges": [
+    [
+     108,
+     108
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "English transcript; the primary business is remote junk removal, with other service businesses discussed as examples.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 54
+}

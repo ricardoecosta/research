@@ -1,0 +1,132 @@
+{
+ "id": "p6mYFoY7fQE",
+ "publish_date": "20260828",
+ "channel": "Johnny & Sergio",
+ "status": "ingested",
+ "title": "The 100% REMOTE Boring Business That Almost Anyone Can Start",
+ "provider": null,
+ "duration_s": "977",
+ "n_lines": 179,
+ "n_removed_lines": 16,
+ "removed": [
+  {
+   "from": 100,
+   "to": 101,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 166,
+   "to": 179,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "p6mYFoY7fQE#r1",
+   "business": "a furniture store",
+   "ranges": [
+    [
+     2,
+     2
+    ],
+    [
+     89,
+     95
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "p6mYFoY7fQE#r2",
+   "business": "a window cleaning business",
+   "ranges": [
+    [
+     16,
+     16
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "p6mYFoY7fQE#r3",
+   "business": "a house cleaning company",
+   "ranges": [
+    [
+     17,
+     18
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "p6mYFoY7fQE#r4",
+   "business": "lawn care",
+   "ranges": [
+    [
+     28,
+     34
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "p6mYFoY7fQE#r5",
+   "business": "pressure washing",
+   "ranges": [
+    [
+     28,
+     34
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "p6mYFoY7fQE#r6",
+   "business": "handyman services",
+   "ranges": [
+    [
+     28,
+     34
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "p6mYFoY7fQE#r7",
+   "business": "roofing",
+   "ranges": [
+    [
+     69,
+     69
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "p6mYFoY7fQE#r8",
+   "business": "a remote cleaning business",
+   "ranges": [
+    [
+     1,
+     11
+    ],
+    [
+     25,
+     99
+    ],
+    [
+     103,
+     165
+    ]
+   ],
+   "is_primary": true
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "The remote cleaning business is the main model; passing business examples are listed separately.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 40
+}

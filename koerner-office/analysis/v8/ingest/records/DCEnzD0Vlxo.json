@@ -1,0 +1,85 @@
+{
+ "id": "DCEnzD0Vlxo",
+ "publish_date": "20260721",
+ "channel": "UpFlip",
+ "status": "ingested",
+ "title": "She Turned $12 into a $1 Million Business and She Started at Home",
+ "provider": "local_whisper_tiny",
+ "duration_s": "1750",
+ "n_lines": 604,
+ "n_removed_lines": 23,
+ "removed": [
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 11,
+   "to": 16,
+   "reason": "filler"
+  },
+  {
+   "from": 207,
+   "to": 217,
+   "reason": "sponsor"
+  },
+  {
+   "from": 375,
+   "to": 377,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 603,
+   "to": 604,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "DCEnzD0Vlxo#r1",
+   "business": "Vicki Cakes pancake and waffle mixes, plus its original syrup",
+   "ranges": [
+    [
+     1,
+     8
+    ],
+    [
+     17,
+     206
+    ],
+    [
+     218,
+     374
+    ],
+    [
+     378,
+     602
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "DCEnzD0Vlxo#r2",
+   "business": "Pearl Milling pancake mix, the comparison brand in the taste test",
+   "ranges": [
+    [
+     535,
+     541
+    ],
+    [
+     570,
+     593
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "Vicki Cakes is the main business; Pearl Milling is discussed as a competitor in the taste test.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 35
+}

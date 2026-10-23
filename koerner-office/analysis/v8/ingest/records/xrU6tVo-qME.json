@@ -1,0 +1,246 @@
+{
+ "id": "xrU6tVo-qME",
+ "publish_date": "20260514",
+ "channel": "Chris Koerner on The Koerner Office Podcast",
+ "status": "ingested",
+ "title": "How Anyone Can Make $10K+/Month From the Government",
+ "provider": "local_whisper_tiny",
+ "duration_s": "2886",
+ "n_lines": 841,
+ "n_removed_lines": 32,
+ "removed": [
+  {
+   "from": 57,
+   "to": 57,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 368,
+   "to": 371,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 607,
+   "to": 612,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 802,
+   "to": 821,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 841,
+   "to": 841,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "xrU6tVo-qME#r1",
+   "business": "Government contracting by bidding on public contracts and subcontracting the work",
+   "ranges": [
+    [
+     1,
+     367
+    ],
+    [
+     372,
+     606
+    ],
+    [
+     613,
+     801
+    ],
+    [
+     823,
+     840
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "xrU6tVo-qME#r2",
+   "business": "Hazardous waste disposal contracts",
+   "ranges": [
+    [
+     124,
+     130
+    ],
+    [
+     144,
+     160
+    ],
+    [
+     200,
+     207
+    ],
+    [
+     408,
+     409
+    ],
+    [
+     538,
+     539
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "xrU6tVo-qME#r3",
+   "business": "Catering contracts for soldiers",
+   "ranges": [
+    [
+     208,
+     236
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "xrU6tVo-qME#r4",
+   "business": "Landscaping contracts",
+   "ranges": [
+    [
+     243,
+     259
+    ],
+    [
+     408,
+     409
+    ],
+    [
+     538,
+     540
+    ],
+    [
+     594,
+     602
+    ],
+    [
+     735,
+     744
+    ],
+    [
+     778,
+     791
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "xrU6tVo-qME#r5",
+   "business": "Relocation assistance for a woman moving from a home acquired by the government",
+   "ranges": [
+    [
+     433,
+     503
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "xrU6tVo-qME#r6",
+   "business": "Painting services",
+   "ranges": [
+    [
+     17,
+     19
+    ],
+    [
+     89,
+     91
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "xrU6tVo-qME#r7",
+   "business": "Airplane seat part supply",
+   "ranges": [
+    [
+     111,
+     115
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "xrU6tVo-qME#r8",
+   "business": "Concrete leveling services",
+   "ranges": [
+    [
+     289,
+     297
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "xrU6tVo-qME#r9",
+   "business": "Military tire supply",
+   "ranges": [
+    [
+     410,
+     411
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "xrU6tVo-qME#r10",
+   "business": "Housing for veterans experiencing homelessness",
+   "ranges": [
+    [
+     411,
+     412
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "xrU6tVo-qME#r11",
+   "business": "Government contract consulting for small businesses",
+   "ranges": [
+    [
+     724,
+     730
+    ],
+    [
+     797,
+     799
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "xrU6tVo-qME#r12",
+   "business": "Window washing services",
+   "ranges": [
+    [
+     93,
+     96
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "xrU6tVo-qME#r13",
+   "business": "Air conditioning services",
+   "ranges": [
+    [
+     93,
+     96
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "The primary model is government contracting; separate records capture distinct service lines and the consulting expansion.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 84
+}

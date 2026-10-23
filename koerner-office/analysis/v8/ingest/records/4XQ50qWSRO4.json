@@ -1,0 +1,123 @@
+{
+ "id": "4XQ50qWSRO4",
+ "publish_date": "20260821",
+ "channel": "Codie Sanchez",
+ "status": "ingested",
+ "title": "Success is Hard Until You Understand This Formula",
+ "provider": "local_whisper_tiny",
+ "duration_s": "1704",
+ "n_lines": 410,
+ "n_removed_lines": 12,
+ "removed": [
+  {
+   "from": 32,
+   "to": 32,
+   "reason": "filler"
+  },
+  {
+   "from": 44,
+   "to": 44,
+   "reason": "filler"
+  },
+  {
+   "from": 61,
+   "to": 61,
+   "reason": "filler"
+  },
+  {
+   "from": 91,
+   "to": 92,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 227,
+   "to": 227,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 258,
+   "to": 258,
+   "reason": "filler"
+  },
+  {
+   "from": 395,
+   "to": 395,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 399,
+   "to": 399,
+   "reason": "filler"
+  },
+  {
+   "from": 408,
+   "to": 410,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "4XQ50qWSRO4#r1",
+   "business": "our growth boardroom",
+   "ranges": [
+    [
+     75,
+     76
+    ],
+    [
+     97,
+     103
+    ],
+    [
+     210,
+     233
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "4XQ50qWSRO4#r2",
+   "business": "our media business",
+   "ranges": [
+    [
+     366,
+     384
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "4XQ50qWSRO4#r3",
+   "business": "plumber",
+   "ranges": [
+    [
+     125,
+     161
+    ],
+    [
+     170,
+     193
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "4XQ50qWSRO4#r4",
+   "business": "HVAC partner business",
+   "ranges": [
+    [
+     184,
+     191
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "General business advice with examples; the plumbing and HVAC businesses are illustrative.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 51
+}

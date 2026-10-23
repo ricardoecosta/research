@@ -1,0 +1,71 @@
+{
+ "id": "D2Oek_YVIFA",
+ "publish_date": "20261009",
+ "channel": "Nick Huber - Sweaty Startup",
+ "status": "ingested",
+ "title": "I Turn Down Million-Dollar Opportunities",
+ "provider": "local_whisper_tiny",
+ "duration_s": "325",
+ "n_lines": 39,
+ "n_removed_lines": 1,
+ "removed": [
+  {
+   "from": 25,
+   "to": 25,
+   "reason": "tangent"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "D2Oek_YVIFA#r1",
+   "business": "Bolt Builders, a company with his father that does pre-development plans for multifamily and historic buildings",
+   "ranges": [
+    [
+     6,
+     10
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "D2Oek_YVIFA#r2",
+   "business": "the historic property downtown project in Charlotte",
+   "ranges": [
+    [
+     6,
+     10
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "D2Oek_YVIFA#r3",
+   "business": "writing a book and its HarperCollins deal",
+   "ranges": [
+    [
+     26,
+     39
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "D2Oek_YVIFA#r4",
+   "business": "the “somewhere” deal, described as the biggest opportunity in his life",
+   "ranges": [
+    [
+     38,
+     39
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "The transcript calls the final opportunity the “somewhere deal”; its wording and business are unclear.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 37
+}

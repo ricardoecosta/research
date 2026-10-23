@@ -1,0 +1,289 @@
+{
+ "id": "CpgW6LYIEHw",
+ "publish_date": "20260915",
+ "channel": "Chris Koerner on The Koerner Office Podcast",
+ "status": "ingested",
+ "title": "The Most Useful AI Tool You’ve Never Heard Of",
+ "provider": null,
+ "duration_s": "2072",
+ "n_lines": 344,
+ "n_removed_lines": 29,
+ "removed": [
+  {
+   "from": 6,
+   "to": 10,
+   "reason": "filler"
+  },
+  {
+   "from": 28,
+   "to": 28,
+   "reason": "filler"
+  },
+  {
+   "from": 54,
+   "to": 54,
+   "reason": "filler"
+  },
+  {
+   "from": 77,
+   "to": 77,
+   "reason": "filler"
+  },
+  {
+   "from": 98,
+   "to": 98,
+   "reason": "filler"
+  },
+  {
+   "from": 114,
+   "to": 114,
+   "reason": "filler"
+  },
+  {
+   "from": 123,
+   "to": 123,
+   "reason": "filler"
+  },
+  {
+   "from": 172,
+   "to": 172,
+   "reason": "filler"
+  },
+  {
+   "from": 208,
+   "to": 208,
+   "reason": "filler"
+  },
+  {
+   "from": 214,
+   "to": 214,
+   "reason": "filler"
+  },
+  {
+   "from": 260,
+   "to": 260,
+   "reason": "filler"
+  },
+  {
+   "from": 312,
+   "to": 312,
+   "reason": "filler"
+  },
+  {
+   "from": 313,
+   "to": 313,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 323,
+   "to": 327,
+   "reason": "filler"
+  },
+  {
+   "from": 328,
+   "to": 328,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 339,
+   "to": 339,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 340,
+   "to": 344,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "CpgW6LYIEHw#r1",
+   "business": "Valoop (VioLoop), the on-device AI hardware and agent business",
+   "ranges": [
+    [
+     1,
+     5
+    ],
+    [
+     11,
+     27
+    ],
+    [
+     45,
+     53
+    ],
+    [
+     55,
+     64
+    ],
+    [
+     66,
+     76
+    ],
+    [
+     78,
+     97
+    ],
+    [
+     99,
+     103
+    ],
+    [
+     104,
+     113
+    ],
+    [
+     115,
+     122
+    ],
+    [
+     124,
+     180
+    ],
+    [
+     181,
+     207
+    ],
+    [
+     209,
+     213
+    ],
+    [
+     215,
+     268
+    ],
+    [
+     269,
+     281
+    ],
+    [
+     282,
+     286
+    ],
+    [
+     288,
+     294
+    ],
+    [
+     295,
+     311
+    ],
+    [
+     314,
+     322
+    ],
+    [
+     329,
+     338
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "CpgW6LYIEHw#r2",
+   "business": "MrBeast’s entertainment and content creation business",
+   "ranges": [
+    [
+     29,
+     53
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "CpgW6LYIEHw#r3",
+   "business": "Buying and reselling chairs sourced from Facebook Marketplace",
+   "ranges": [
+    [
+     71,
+     73
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "CpgW6LYIEHw#r4",
+   "business": "A fishing business",
+   "ranges": [
+    [
+     93,
+     103
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "CpgW6LYIEHw#r5",
+   "business": "A Pokémon card business",
+   "ranges": [
+    [
+     99,
+     103
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "CpgW6LYIEHw#r6",
+   "business": "A YouTube creator business, including video production and publishing",
+   "ranges": [
+    [
+     183,
+     190
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "CpgW6LYIEHw#r7",
+   "business": "A Canadian reseller business reselling Valoop units",
+   "ranges": [
+    [
+     271,
+     281
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "CpgW6LYIEHw#r8",
+   "business": "A website design service for artists",
+   "ranges": [
+    [
+     288,
+     294
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "CpgW6LYIEHw#r9",
+   "business": "An online second-hand sales storefront stocked from Facebook Marketplace",
+   "ranges": [
+    [
+     288,
+     294
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "CpgW6LYIEHw#r10",
+   "business": "A localized subscription software business built by improving and translating GitHub projects",
+   "ranges": [
+    [
+     295,
+     300
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "Business ranges overlap where Valoop is discussed as a tool for another business.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 83
+}

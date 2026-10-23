@@ -1,0 +1,66 @@
+{
+ "id": "ESxswqXFnIo",
+ "publish_date": "20261020",
+ "channel": "Mikey No Code",
+ "status": "ingested",
+ "title": "I Helped a Subscriber to Build an App in 24 Hours",
+ "provider": null,
+ "duration_s": "1696",
+ "n_lines": 251,
+ "n_removed_lines": 21,
+ "removed": [
+  {
+   "from": 25,
+   "to": 27,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 28,
+   "to": 28,
+   "reason": "filler"
+  },
+  {
+   "from": 171,
+   "to": 181,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 182,
+   "to": 183,
+   "reason": "filler"
+  },
+  {
+   "from": 248,
+   "to": 251,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "ESxswqXFnIo#r1",
+   "business": "Willow Lane Interiors, Priya’s one-person interior styling business in Manchester",
+   "ranges": [
+    [
+     1,
+     24
+    ],
+    [
+     29,
+     169
+    ],
+    [
+     184,
+     247
+    ]
+   ],
+   "is_primary": true
+  }
+ ],
+ "multi_business": false,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "The video focuses on one client business; the host’s course and community promotions were removed.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 51
+}

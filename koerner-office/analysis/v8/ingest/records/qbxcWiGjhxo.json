@@ -1,0 +1,52 @@
+{
+ "id": "qbxcWiGjhxo",
+ "publish_date": "20261009",
+ "channel": "Dark Horse Entrepreneur",
+ "status": "ingested",
+ "title": "Build It and See If It Sells? That's How You Go Broke",
+ "provider": null,
+ "duration_s": "172",
+ "n_lines": 42,
+ "n_removed_lines": 3,
+ "removed": [
+  {
+   "from": 4,
+   "to": 4,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 23,
+   "to": 23,
+   "reason": "filler"
+  },
+  {
+   "from": 42,
+   "to": 42,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "qbxcWiGjhxo#r1",
+   "business": "digital product (e-book, template pack, prompt library)",
+   "ranges": [
+    [
+     6,
+     22
+    ],
+    [
+     24,
+     41
+    ]
+   ],
+   "is_primary": true
+  }
+ ],
+ "multi_business": false,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "The advice focuses on validating a digital product; line 41 includes business tactics, so it is retained despite the episode plug.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 20
+}

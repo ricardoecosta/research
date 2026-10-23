@@ -1,0 +1,105 @@
+{
+ "id": "EEBlDTEYFao",
+ "publish_date": "20260817",
+ "channel": "Chris Koerner on The Koerner Office Podcast",
+ "status": "ingested",
+ "title": "I Found the Perfect First Business for Introverts",
+ "provider": null,
+ "duration_s": "3704",
+ "n_lines": 1175,
+ "n_removed_lines": 58,
+ "removed": [
+  {
+   "from": 127,
+   "to": 129,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 305,
+   "to": 316,
+   "reason": "sponsor"
+  },
+  {
+   "from": 612,
+   "to": 618,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 841,
+   "to": 857,
+   "reason": "sponsor"
+  },
+  {
+   "from": 1020,
+   "to": 1026,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 1164,
+   "to": 1175,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "EEBlDTEYFao#r1",
+   "business": "Solving problems for business owners using technology: AI implementation, advisory, coaching and cohort builds",
+   "ranges": [
+    [
+     1,
+     126
+    ],
+    [
+     130,
+     304
+    ],
+    [
+     317,
+     611
+    ],
+    [
+     619,
+     840
+    ],
+    [
+     858,
+     1019
+    ],
+    [
+     1027,
+     1163
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "EEBlDTEYFao#r2",
+   "business": "Multi-level marketing (MLM) product sales",
+   "ranges": [
+    [
+     412,
+     434
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "EEBlDTEYFao#r3",
+   "business": "Flipping real estate",
+   "ranges": [
+    [
+     893,
+     899
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "Ryan’s AI service is primary; MLM and real estate flipping are brief mentions.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 75
+}

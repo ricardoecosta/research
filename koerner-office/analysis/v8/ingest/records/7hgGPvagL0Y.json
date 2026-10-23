@@ -1,0 +1,180 @@
+{
+ "id": "7hgGPvagL0Y",
+ "publish_date": "20260625",
+ "channel": "Johnny & Sergio",
+ "status": "ingested",
+ "title": "How He Built a $25K/MO Cleaning Business With a Full-Time Job: Luis Garcia",
+ "provider": null,
+ "duration_s": "2269",
+ "n_lines": 588,
+ "n_removed_lines": 62,
+ "removed": [
+  {
+   "from": 8,
+   "to": 13,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 20,
+   "to": 26,
+   "reason": "filler"
+  },
+  {
+   "from": 105,
+   "to": 105,
+   "reason": "filler"
+  },
+  {
+   "from": 110,
+   "to": 122,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 124,
+   "to": 124,
+   "reason": "filler"
+  },
+  {
+   "from": 173,
+   "to": 175,
+   "reason": "filler"
+  },
+  {
+   "from": 186,
+   "to": 189,
+   "reason": "filler"
+  },
+  {
+   "from": 368,
+   "to": 368,
+   "reason": "filler"
+  },
+  {
+   "from": 421,
+   "to": 421,
+   "reason": "filler"
+  },
+  {
+   "from": 442,
+   "to": 448,
+   "reason": "filler"
+  },
+  {
+   "from": 528,
+   "to": 528,
+   "reason": "filler"
+  },
+  {
+   "from": 530,
+   "to": 532,
+   "reason": "filler"
+  },
+  {
+   "from": 539,
+   "to": 542,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 560,
+   "to": 564,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 584,
+   "to": 588,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "7hgGPvagL0Y#r1",
+   "business": "Efficient Clean",
+   "ranges": [
+    [
+     1,
+     7
+    ],
+    [
+     18,
+     109
+    ],
+    [
+     123,
+     124
+    ],
+    [
+     136,
+     559
+    ],
+    [
+     565,
+     578
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "7hgGPvagL0Y#r2",
+   "business": "The Home Service Academy program Luis joined",
+   "ranges": [
+    [
+     14,
+     17
+    ],
+    [
+     31,
+     35
+    ],
+    [
+     249,
+     250
+    ],
+    [
+     283,
+     286
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "7hgGPvagL0Y#r3",
+   "business": "The host's window cleaning business",
+   "ranges": [
+    [
+     125,
+     135
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "7hgGPvagL0Y#r4",
+   "business": "The cleaner's own business",
+   "ranges": [
+    [
+     326,
+     347
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "7hgGPvagL0Y#r5",
+   "business": "The SEO company Luis works with",
+   "ranges": [
+    [
+     481,
+     484
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "Efficient Clean is the guest's main business; the other records are mentioned separately.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 118
+}

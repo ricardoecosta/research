@@ -1,0 +1,147 @@
+{
+ "id": "xD5-AWX6ZBo",
+ "publish_date": "20261012",
+ "channel": "My First Million",
+ "status": "ingested",
+ "title": "3 times reality hit me like a truck",
+ "provider": "local_whisper_tiny",
+ "duration_s": "1318",
+ "n_lines": 329,
+ "n_removed_lines": 7,
+ "removed": [
+  {
+   "from": 149,
+   "to": 152,
+   "reason": "sponsor"
+  },
+  {
+   "from": 327,
+   "to": 329,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "xD5-AWX6ZBo#r1",
+   "business": "company I recently sold",
+   "ranges": [
+    [
+     7,
+     8
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "xD5-AWX6ZBo#r2",
+   "business": "Charity Water",
+   "ranges": [
+    [
+     78,
+     79
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "xD5-AWX6ZBo#r3",
+   "business": "new restaurant concept / sushi chain",
+   "ranges": [
+    [
+     120,
+     148
+    ],
+    [
+     153,
+     246
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "xD5-AWX6ZBo#r4",
+   "business": "Chipotle",
+   "ranges": [
+    [
+     121,
+     122
+    ],
+    [
+     132,
+     132
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "xD5-AWX6ZBo#r5",
+   "business": "Subway",
+   "ranges": [
+    [
+     121,
+     122
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "xD5-AWX6ZBo#r6",
+   "business": "Five Guys",
+   "ranges": [
+    [
+     121,
+     122
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "xD5-AWX6ZBo#r7",
+   "business": "Quiznos",
+   "ranges": [
+    [
+     132,
+     132
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "xD5-AWX6ZBo#r8",
+   "business": "Noodles and Company",
+   "ranges": [
+    [
+     132,
+     133
+    ],
+    [
+     144,
+     174
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "xD5-AWX6ZBo#r9",
+   "business": "podcast / My First Million",
+   "ranges": [
+    [
+     85,
+     116
+    ],
+    [
+     308,
+     318
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "The sushi restaurant concept is the main business story.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 54
+}

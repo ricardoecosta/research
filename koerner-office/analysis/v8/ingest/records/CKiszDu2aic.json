@@ -1,0 +1,230 @@
+{
+ "id": "CKiszDu2aic",
+ "publish_date": "20260724",
+ "channel": "Chris Koerner on The Koerner Office Podcast",
+ "status": "ingested",
+ "title": "I Asked AI for a Money-Making Website (It Built One in Minutes)",
+ "provider": null,
+ "duration_s": "1234",
+ "n_lines": 375,
+ "n_removed_lines": 27,
+ "removed": [
+  {
+   "from": 18,
+   "to": 18,
+   "reason": "sponsor"
+  },
+  {
+   "from": 25,
+   "to": 26,
+   "reason": "filler"
+  },
+  {
+   "from": 41,
+   "to": 41,
+   "reason": "tangent"
+  },
+  {
+   "from": 46,
+   "to": 46,
+   "reason": "filler"
+  },
+  {
+   "from": 208,
+   "to": 210,
+   "reason": "tangent"
+  },
+  {
+   "from": 256,
+   "to": 256,
+   "reason": "filler"
+  },
+  {
+   "from": 295,
+   "to": 295,
+   "reason": "tangent"
+  },
+  {
+   "from": 357,
+   "to": 359,
+   "reason": "sponsor"
+  },
+  {
+   "from": 362,
+   "to": 371,
+   "reason": "sponsor"
+  },
+  {
+   "from": 372,
+   "to": 375,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "CKiszDu2aic#r1",
+   "business": "Estate Cleanout Pros, an estate sale cleanout directory",
+   "ranges": [
+    [
+     2,
+     14
+    ],
+    [
+     38,
+     39
+    ],
+    [
+     53,
+     54
+    ],
+    [
+     73,
+     93
+    ],
+    [
+     108,
+     120
+    ],
+    [
+     123,
+     142
+    ],
+    [
+     143,
+     154
+    ],
+    [
+     163,
+     169
+    ],
+    [
+     170,
+     184
+    ],
+    [
+     196,
+     207
+    ],
+    [
+     211,
+     255
+    ],
+    [
+     257,
+     335
+    ],
+    [
+     336,
+     350
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "CKiszDu2aic#r2",
+   "business": "Commercial kitchen equipment repair directory",
+   "ranges": [
+    [
+     31,
+     32
+    ],
+    [
+     49,
+     52
+    ],
+    [
+     59,
+     66
+    ],
+    [
+     94,
+     102
+    ],
+    [
+     105,
+     107
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "CKiszDu2aic#r3",
+   "business": "Aging in place and accessibility home modification directory",
+   "ranges": [
+    [
+     47,
+     48
+    ],
+    [
+     55,
+     57
+    ],
+    [
+     67,
+     70
+    ],
+    [
+     94,
+     94
+    ],
+    [
+     103,
+     107
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "CKiszDu2aic#r4",
+   "business": "Buying and reselling items left over after estate sales",
+   "ranges": [
+    [
+     74,
+     80
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "CKiszDu2aic#r5",
+   "business": "Junk removal businesses",
+   "ranges": [
+    [
+     123,
+     125
+    ],
+    [
+     136,
+     139
+    ],
+    [
+     170,
+     184
+    ],
+    [
+     187,
+     190
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "CKiszDu2aic#r6",
+   "business": "Estate sale cleanout businesses",
+   "ranges": [
+    [
+     174,
+     195
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "Includes the chosen directory, alternate directory ideas, and distinct service business models.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 62
+}

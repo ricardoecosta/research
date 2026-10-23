@@ -1,0 +1,130 @@
+{
+ "id": "6u7tkj7UJvs",
+ "publish_date": "20260714",
+ "channel": "Chris Koerner on The Koerner Office Podcast",
+ "status": "ingested",
+ "title": "The Laziest One-Person Business You Can Start",
+ "provider": "local_whisper_tiny",
+ "duration_s": "682",
+ "n_lines": 183,
+ "n_removed_lines": 12,
+ "removed": [
+  {
+   "from": 42,
+   "to": 42,
+   "reason": "tangent"
+  },
+  {
+   "from": 173,
+   "to": 178,
+   "reason": "sponsor"
+  },
+  {
+   "from": 179,
+   "to": 183,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "6u7tkj7UJvs#r1",
+   "business": "Higgs Field’s Supercomputer, an autonomous AI content creation and marketing tool",
+   "ranges": [
+    [
+     12,
+     47
+    ],
+    [
+     48,
+     138
+    ],
+    [
+     156,
+     172
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "6u7tkj7UJvs#r2",
+   "business": "cheesecake slices business",
+   "ranges": [
+    [
+     36,
+     36
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "6u7tkj7UJvs#r3",
+   "business": "Firepower, an AI agency offering paid AI audits and AI integration services",
+   "ranges": [
+    [
+     50,
+     53
+    ],
+    [
+     62,
+     103
+    ],
+    [
+     156,
+     160
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "6u7tkj7UJvs#r4",
+   "business": "food influencer",
+   "ranges": [
+    [
+     116,
+     116
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "6u7tkj7UJvs#r5",
+   "business": "real estate ad machine: marketing packages for real estate listings",
+   "ranges": [
+    [
+     140,
+     142
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "6u7tkj7UJvs#r6",
+   "business": "product hunt arbitrage: creating content plans and videos for creators who are not monetizing",
+   "ranges": [
+    [
+     143,
+     149
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "6u7tkj7UJvs#r7",
+   "business": "AI influencer with a character, backstory, and planned content calendar",
+   "ranges": [
+    [
+     150,
+     155
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "Includes brief business examples and hypothetical influencer businesses.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 75
+}

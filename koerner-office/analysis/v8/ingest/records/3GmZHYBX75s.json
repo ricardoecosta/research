@@ -1,0 +1,232 @@
+{
+ "id": "3GmZHYBX75s",
+ "publish_date": "20260727",
+ "channel": "Chris Koerner on The Koerner Office Podcast",
+ "status": "ingested",
+ "title": "He Built This Business in One Weekend for $40",
+ "provider": "local_whisper_tiny",
+ "duration_s": "1975",
+ "n_lines": 439,
+ "n_removed_lines": 24,
+ "removed": [
+  {
+   "from": 15,
+   "to": 15,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 16,
+   "to": 19,
+   "reason": "filler"
+  },
+  {
+   "from": 167,
+   "to": 177,
+   "reason": "sponsor"
+  },
+  {
+   "from": 391,
+   "to": 394,
+   "reason": "tangent"
+  },
+  {
+   "from": 436,
+   "to": 439,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "3GmZHYBX75s#r1",
+   "business": "Printer Pet, a custom pet gift company that puts pets’ faces on products",
+   "ranges": [
+    [
+     1,
+     14
+    ],
+    [
+     20,
+     23
+    ],
+    [
+     29,
+     46
+    ],
+    [
+     47,
+     90
+    ],
+    [
+     95,
+     166
+    ],
+    [
+     178,
+     243
+    ],
+    [
+     251,
+     252
+    ],
+    [
+     269,
+     280
+    ],
+    [
+     309,
+     320
+    ],
+    [
+     324,
+     361
+    ],
+    [
+     386,
+     390
+    ],
+    [
+     395,
+     402
+    ],
+    [
+     411,
+     435
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "3GmZHYBX75s#r2",
+   "business": "Pet bandana and scarf company",
+   "ranges": [
+    [
+     24,
+     25
+    ],
+    [
+     34,
+     36
+    ],
+    [
+     46,
+     46
+    ],
+    [
+     75,
+     77
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "3GmZHYBX75s#r3",
+   "business": "Competitor selling Renaissance-style pet portraits",
+   "ranges": [
+    [
+     26,
+     28
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "3GmZHYBX75s#r4",
+   "business": "Scaling and flipping Instagram pages",
+   "ranges": [
+    [
+     91,
+     94
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "3GmZHYBX75s#r5",
+   "business": "Custom Captain, a boat and car artwork company",
+   "ranges": [
+    [
+     245,
+     251
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "3GmZHYBX75s#r6",
+   "business": "Texas Snacks, an e-commerce business",
+   "ranges": [
+    [
+     253,
+     268
+    ],
+    [
+     281,
+     308
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "3GmZHYBX75s#r7",
+   "business": "Aston Willow, a competitor selling pet portraits",
+   "ranges": [
+    [
+     321,
+     323
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "3GmZHYBX75s#r8",
+   "business": "Etsy sellers offering low-priced AI-generated pet portrait files",
+   "ranges": [
+    [
+     332,
+     337
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "3GmZHYBX75s#r9",
+   "business": "Lead generation business using AI landscaping mockups to sell leads to landscapers",
+   "ranges": [
+    [
+     362,
+     370
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "3GmZHYBX75s#r10",
+   "business": "Virtual staging service for real estate listing photos",
+   "ranges": [
+    [
+     371,
+     385
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "3GmZHYBX75s#r11",
+   "business": "Braden’s live-selling business reselling protein bars",
+   "ranges": [
+    [
+     403,
+     410
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "English transcript with some ASR-corrupted lines.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 125
+}

@@ -1,0 +1,109 @@
+{
+ "id": "4bVi_cKgjMM",
+ "publish_date": "20251121",
+ "channel": "Casper Capital",
+ "status": "ingested",
+ "title": "Top 5 Best Business Checking Accounts To Open Right Now",
+ "provider": null,
+ "duration_s": "811",
+ "n_lines": 130,
+ "n_removed_lines": 5,
+ "removed": [
+  {
+   "from": 125,
+   "to": 125,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 127,
+   "to": 130,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "4bVi_cKgjMM#r1",
+   "business": "Wells Fargo business checking",
+   "ranges": [
+    [
+     1,
+     1
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "4bVi_cKgjMM#r2",
+   "business": "Bank of America business checking",
+   "ranges": [
+    [
+     1,
+     1
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "4bVi_cKgjMM#r3",
+   "business": "Relay",
+   "ranges": [
+    [
+     20,
+     53
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "4bVi_cKgjMM#r4",
+   "business": "Novo",
+   "ranges": [
+    [
+     54,
+     68
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "4bVi_cKgjMM#r5",
+   "business": "BlueVine",
+   "ranges": [
+    [
+     69,
+     88
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "4bVi_cKgjMM#r6",
+   "business": "Chase business checking",
+   "ranges": [
+    [
+     89,
+     105
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "4bVi_cKgjMM#r7",
+   "business": "Capital One business checking",
+   "ranges": [
+    [
+     106,
+     123
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "Business checking account comparison; the first two banks are brief fee examples.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 28
+}

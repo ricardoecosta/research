@@ -1,0 +1,95 @@
+{
+ "id": "r8-FG4NJ39s",
+ "publish_date": "20260702",
+ "channel": "Chris Koerner on The Koerner Office Podcast",
+ "status": "ingested",
+ "title": "The Most Profitable Side Hustle You've Never Heard Of",
+ "provider": null,
+ "duration_s": "1036",
+ "n_lines": 413,
+ "n_removed_lines": 13,
+ "removed": [
+  {
+   "from": 131,
+   "to": 140,
+   "reason": "sponsor"
+  },
+  {
+   "from": 411,
+   "to": 413,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "r8-FG4NJ39s#r1",
+   "business": "The Social Greenhouse’s plant bingo events",
+   "ranges": [
+    [
+     1,
+     130
+    ],
+    [
+     141,
+     410
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "r8-FG4NJ39s#r2",
+   "business": "The California group doing plant bingo",
+   "ranges": [
+    [
+     35,
+     44
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "r8-FG4NJ39s#r3",
+   "business": "The guest’s indoor soccer facility",
+   "ranges": [
+    [
+     61,
+     69
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "r8-FG4NJ39s#r4",
+   "business": "Chicken N Pickle",
+   "ranges": [
+    [
+     191,
+     192
+    ],
+    [
+     401,
+     401
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "r8-FG4NJ39s#r5",
+   "business": "Bingo Loco’s bingo events",
+   "ranges": [
+    [
+     216,
+     224
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "Removed the Bizzy sponsor read and closing. The California plant bingo group is unnamed.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 34
+}

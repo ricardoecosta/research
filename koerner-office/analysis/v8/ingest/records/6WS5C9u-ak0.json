@@ -1,0 +1,122 @@
+{
+ "id": "6WS5C9u-ak0",
+ "publish_date": "20260810",
+ "channel": "UpFlip",
+ "status": "ingested",
+ "title": "Here's How to Start a $10K/Month Mushroom Business from Home",
+ "provider": "local_whisper_tiny",
+ "duration_s": "2263",
+ "n_lines": 976,
+ "n_removed_lines": 49,
+ "removed": [
+  {
+   "from": 17,
+   "to": 20,
+   "reason": "filler"
+  },
+  {
+   "from": 71,
+   "to": 74,
+   "reason": "tangent"
+  },
+  {
+   "from": 328,
+   "to": 336,
+   "reason": "tangent"
+  },
+  {
+   "from": 337,
+   "to": 346,
+   "reason": "sponsor"
+  },
+  {
+   "from": 347,
+   "to": 351,
+   "reason": "tangent"
+  },
+  {
+   "from": 353,
+   "to": 353,
+   "reason": "filler"
+  },
+  {
+   "from": 438,
+   "to": 445,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 470,
+   "to": 472,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 763,
+   "to": 763,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 973,
+   "to": 976,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "6WS5C9u-ak0#r1",
+   "business": "Mountain View Mushrooms, Hunter’s seasonal mushroom farm",
+   "ranges": [
+    [
+     1,
+     16
+    ],
+    [
+     21,
+     70
+    ],
+    [
+     75,
+     327
+    ],
+    [
+     352,
+     352
+    ],
+    [
+     354,
+     437
+    ],
+    [
+     446,
+     469
+    ],
+    [
+     473,
+     762
+    ],
+    [
+     764,
+     971
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "6WS5C9u-ak0#r2",
+   "business": "Sundown’s garage mushroom farm",
+   "ranges": [
+    [
+     972,
+     972
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "The brief Sundown farm mention includes annual revenue, so it is retained.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 81
+}

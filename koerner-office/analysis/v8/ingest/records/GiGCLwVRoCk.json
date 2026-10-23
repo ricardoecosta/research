@@ -1,0 +1,249 @@
+{
+ "id": "GiGCLwVRoCk",
+ "publish_date": "20260702",
+ "channel": "Chris Koerner on The Koerner Office Podcast",
+ "status": "ingested",
+ "title": "Start This Business With No Experience",
+ "provider": "local_whisper_tiny",
+ "duration_s": "2693",
+ "n_lines": 918,
+ "n_removed_lines": 18,
+ "removed": [
+  {
+   "from": 71,
+   "to": 72,
+   "reason": "filler"
+  },
+  {
+   "from": 166,
+   "to": 170,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 458,
+   "to": 463,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 663,
+   "to": 665,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 820,
+   "to": 820,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 918,
+   "to": 918,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "GiGCLwVRoCk#r1",
+   "business": "Bridgeway Global Staffing, a global talent placement agency",
+   "ranges": [
+    [
+     1,
+     1
+    ],
+    [
+     19,
+     22
+    ],
+    [
+     26,
+     27
+    ],
+    [
+     49,
+     69
+    ],
+    [
+     73,
+     74
+    ],
+    [
+     142,
+     165
+    ],
+    [
+     171,
+     180
+    ],
+    [
+     195,
+     248
+    ],
+    [
+     249,
+     295
+    ],
+    [
+     297,
+     341
+    ],
+    [
+     342,
+     415
+    ],
+    [
+     495,
+     599
+    ],
+    [
+     602,
+     662
+    ],
+    [
+     666,
+     701
+    ],
+    [
+     702,
+     819
+    ],
+    [
+     821,
+     895
+    ],
+    [
+     897,
+     915
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "GiGCLwVRoCk#r2",
+   "business": "Alex's lawn mowing and landscaping company",
+   "ranges": [
+    [
+     29,
+     39
+    ],
+    [
+     122,
+     131
+    ],
+    [
+     137,
+     142
+    ],
+    [
+     163,
+     165
+    ],
+    [
+     251,
+     252
+    ],
+    [
+     416,
+     421
+    ],
+    [
+     448,
+     457
+    ],
+    [
+     706,
+     716
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "GiGCLwVRoCk#r3",
+   "business": "Alex's marketing agency",
+   "ranges": [
+    [
+     39,
+     49
+    ],
+    [
+     51,
+     55
+    ],
+    [
+     91,
+     113
+    ],
+    [
+     114,
+     131
+    ],
+    [
+     137,
+     142
+    ],
+    [
+     171,
+     172
+    ],
+    [
+     315,
+     324
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "GiGCLwVRoCk#r4",
+   "business": "The agency Alex hired to find his first overseas employee",
+   "ranges": [
+    [
+     91,
+     106
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "GiGCLwVRoCk#r5",
+   "business": "The handyman's new business",
+   "ranges": [
+    [
+     370,
+     380
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "GiGCLwVRoCk#r6",
+   "business": "A dog walking business",
+   "ranges": [
+    [
+     352,
+     354
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "GiGCLwVRoCk#r7",
+   "business": "A cleaning company",
+   "ranges": [
+    [
+     352,
+     354
+    ],
+    [
+     403,
+     405
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "Alex's staffing agency is the primary business; prior ventures and brief business examples are listed separately.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 68
+}

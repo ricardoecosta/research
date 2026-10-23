@@ -1,0 +1,66 @@
+{
+ "id": "J9GXGqd3isM",
+ "publish_date": "20261019",
+ "channel": "Mikey No Code",
+ "status": "ingested",
+ "title": "Gemini 4 Argon - Full Tutorial: How To Build an App In Minutes",
+ "provider": null,
+ "duration_s": "1446",
+ "n_lines": 201,
+ "n_removed_lines": 18,
+ "removed": [
+  {
+   "from": 19,
+   "to": 21,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 22,
+   "to": 22,
+   "reason": "filler"
+  },
+  {
+   "from": 54,
+   "to": 63,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 64,
+   "to": 64,
+   "reason": "filler"
+  },
+  {
+   "from": 199,
+   "to": 201,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "J9GXGqd3isM#r1",
+   "business": "Lumen, a journaling app with AI reflection and paid premium features",
+   "ranges": [
+    [
+     1,
+     18
+    ],
+    [
+     23,
+     52
+    ],
+    [
+     65,
+     198
+    ]
+   ],
+   "is_primary": true
+  }
+ ],
+ "multi_business": false,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "Lumen is the only specific venture; Base44 and Stripe are tools used to build and monetize it.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 36
+}

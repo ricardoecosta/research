@@ -1,0 +1,97 @@
+{
+ "id": "0mm507LeFGo",
+ "publish_date": "20251020",
+ "channel": "Casper Capital",
+ "status": "ingested",
+ "title": "Saving $10K is easy, actually",
+ "provider": null,
+ "duration_s": "365",
+ "n_lines": 71,
+ "n_removed_lines": 10,
+ "removed": [
+  {
+   "from": 33,
+   "to": 37,
+   "reason": "sponsor"
+  },
+  {
+   "from": 67,
+   "to": 69,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 70,
+   "to": 70,
+   "reason": "sponsor"
+  },
+  {
+   "from": 71,
+   "to": 71,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "0mm507LeFGo#r1",
+   "business": "faceless Instagram pages",
+   "ranges": [
+    [
+     42,
+     42
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "0mm507LeFGo#r2",
+   "business": "flipping items on eBay",
+   "ranges": [
+    [
+     43,
+     43
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "0mm507LeFGo#r3",
+   "business": "tutoring people on Craigslist",
+   "ranges": [
+    [
+     43,
+     43
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "0mm507LeFGo#r4",
+   "business": "online jobs on Upwork",
+   "ranges": [
+    [
+     43,
+     43
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "0mm507LeFGo#r5",
+   "business": "TikTok Shop",
+   "ranges": [
+    [
+     44,
+     44
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "The host’s main side hustle was faceless Instagram pages; other models are examples.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 27
+}

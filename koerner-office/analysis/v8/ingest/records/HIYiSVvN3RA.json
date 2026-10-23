@@ -1,0 +1,76 @@
+{
+ "id": "HIYiSVvN3RA",
+ "publish_date": "20260407",
+ "channel": "Chris Koerner on The Koerner Office Podcast",
+ "status": "ingested",
+ "title": "I Built an App the Government Doesn't Want You to See",
+ "provider": "transcribeyoutube",
+ "duration_s": "516",
+ "n_lines": 149,
+ "n_removed_lines": 5,
+ "removed": [
+  {
+   "from": 138,
+   "to": 139,
+   "reason": "sponsor"
+  },
+  {
+   "from": 141,
+   "to": 141,
+   "reason": "sponsor"
+  },
+  {
+   "from": 145,
+   "to": 145,
+   "reason": "sponsor"
+  },
+  {
+   "from": 149,
+   "to": 149,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "HIYiSVvN3RA#r1",
+   "business": "GovDealFinder, a tool that makes it easier to find and bid on government contracts",
+   "ranges": [
+    [
+     1,
+     137
+    ],
+    [
+     140,
+     140
+    ],
+    [
+     142,
+     144
+    ],
+    [
+     146,
+     148
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "HIYiSVvN3RA#r2",
+   "business": "tree trimming business",
+   "ranges": [
+    [
+     66,
+     74
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "The tree-trimming business is an example user for GovDealFinder.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 30
+}

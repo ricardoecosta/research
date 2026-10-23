@@ -1,0 +1,136 @@
+{
+ "id": "83IZgzkJDNs",
+ "publish_date": "20261020",
+ "channel": "George McConnell",
+ "status": "ingested",
+ "title": "Gemini 4 Argon vs Claude Opus 5.5 (Which Is Better for Business?)",
+ "provider": null,
+ "duration_s": "1887",
+ "n_lines": 719,
+ "n_removed_lines": 10,
+ "removed": [
+  {
+   "from": 684,
+   "to": 688,
+   "reason": "tangent"
+  },
+  {
+   "from": 705,
+   "to": 706,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 716,
+   "to": 717,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 719,
+   "to": 719,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "83IZgzkJDNs#r1",
+   "business": "mobile spa business (car wash, detailing, and tint services shown)",
+   "ranges": [
+    [
+     17,
+     19
+    ],
+    [
+     49,
+     186
+    ],
+    [
+     189,
+     198
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "83IZgzkJDNs#r2",
+   "business": "fencing company",
+   "ranges": [
+    [
+     187,
+     188
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "83IZgzkJDNs#r3",
+   "business": "Brian's TikTok sales content business",
+   "ranges": [
+    [
+     203,
+     216
+    ],
+    [
+     219,
+     245
+    ],
+    [
+     262,
+     343
+    ],
+    [
+     353,
+     404
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "83IZgzkJDNs#r4",
+   "business": "Fizz City soda product",
+   "ranges": [
+    [
+     425,
+     513
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "83IZgzkJDNs#r5",
+   "business": "3D chess game",
+   "ranges": [
+    [
+     516,
+     523
+    ],
+    [
+     527,
+     626
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "83IZgzkJDNs#r6",
+   "business": "guitar and drums app",
+   "ranges": [
+    [
+     634,
+     635
+    ],
+    [
+     657,
+     694
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "The video compares AI models; the listed businesses and apps are examples, with no operator's business as the primary subject.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 92
+}

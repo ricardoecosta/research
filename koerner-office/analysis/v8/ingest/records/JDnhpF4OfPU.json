@@ -1,0 +1,223 @@
+{
+ "id": "JDnhpF4OfPU",
+ "publish_date": "20260908",
+ "channel": "David Heacock",
+ "status": "ingested",
+ "title": "Copy This Strategy, You’ll Never Be Broke Again (99% Success Rate)",
+ "provider": null,
+ "duration_s": "4414",
+ "n_lines": 899,
+ "n_removed_lines": 10,
+ "removed": [
+  {
+   "from": 6,
+   "to": 6,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 7,
+   "to": 8,
+   "reason": "filler"
+  },
+  {
+   "from": 10,
+   "to": 10,
+   "reason": "filler"
+  },
+  {
+   "from": 890,
+   "to": 891,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 896,
+   "to": 899,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "JDnhpF4OfPU#r1",
+   "business": "Top-Notch Electrical Services, Ron’s electrical services business in Austin",
+   "ranges": [
+    [
+     1,
+     5
+    ],
+    [
+     9,
+     9
+    ],
+    [
+     11,
+     31
+    ],
+    [
+     76,
+     110
+    ],
+    [
+     112,
+     113
+    ],
+    [
+     157,
+     176
+    ],
+    [
+     181,
+     233
+    ],
+    [
+     237,
+     243
+    ],
+    [
+     244,
+     345
+    ],
+    [
+     346,
+     400
+    ],
+    [
+     401,
+     417
+    ],
+    [
+     418,
+     423
+    ],
+    [
+     424,
+     476
+    ],
+    [
+     477,
+     590
+    ],
+    [
+     591,
+     720
+    ],
+    [
+     721,
+     782
+    ],
+    [
+     783,
+     889
+    ],
+    [
+     892,
+     895
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "JDnhpF4OfPU#r2",
+   "business": "The residential electric company doing new construction where Ron worked for eight years",
+   "ranges": [
+    [
+     34,
+     75
+    ],
+    [
+     78,
+     83
+    ],
+    [
+     114,
+     126
+    ],
+    [
+     130,
+     148
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "JDnhpF4OfPU#r3",
+   "business": "The Austin electrical contracting branch doing new construction, service, and commercial work that offered Ron a job",
+   "ranges": [
+    [
+     127,
+     129
+    ],
+    [
+     149,
+     156
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "JDnhpF4OfPU#r4",
+   "business": "A friend’s established business, not otherwise specified",
+   "ranges": [
+    [
+     32,
+     33
+    ],
+    [
+     177,
+     180
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "JDnhpF4OfPU#r5",
+   "business": "A microchip manufacturing company that needed a master electrician on record",
+   "ranges": [
+    [
+     234,
+     235
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "JDnhpF4OfPU#r6",
+   "business": "A family-owned contracting company that gives Ron occasional jobs",
+   "ranges": [
+    [
+     337,
+     340
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "JDnhpF4OfPU#r7",
+   "business": "A newer contracting client with about eight employees that gives Ron weekly work",
+   "ranges": [
+    [
+     341,
+     344
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "JDnhpF4OfPU#r8",
+   "business": "A self-employed friend’s AI and outreach work",
+   "ranges": [
+    [
+     402,
+     417
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "Top-Notch Electrical Services is the primary business; secondary records cover distinct employers, clients, and brief business references.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 139
+}

@@ -1,0 +1,51 @@
+{
+ "id": "GamOfEftPUA",
+ "publish_date": "20261006",
+ "channel": "Nick Huber - Sweaty Startup",
+ "status": "ingested",
+ "title": "The $10M Entrepreneur's Sales Secret",
+ "provider": "local_whisper_tiny",
+ "duration_s": "254",
+ "n_lines": 66,
+ "n_removed_lines": 0,
+ "removed": [],
+ "records": [
+  {
+   "record_id": "GamOfEftPUA#r1",
+   "business": "Jim’s wealth management business",
+   "ranges": [
+    [
+     7,
+     16
+    ],
+    [
+     33,
+     65
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "GamOfEftPUA#r2",
+   "business": "Nick’s storage business and self-storage development",
+   "ranges": [
+    [
+     2,
+     5
+    ],
+    [
+     17,
+     30
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "The main sales lesson centers on Jim’s wealth management business; Nick’s storage business provides the client story context.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 29
+}

@@ -1,0 +1,97 @@
+{
+ "id": "6XhabeLLuEw",
+ "publish_date": "20250630",
+ "channel": "Chris Koerner on The Koerner Office Podcast",
+ "status": "ingested",
+ "title": "Don’t Quit Your Job… Yet. Watch This First",
+ "provider": "youtube-transcript-api",
+ "duration_s": "839",
+ "n_lines": 101,
+ "n_removed_lines": 7,
+ "removed": [
+  {
+   "from": 52,
+   "to": 58,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "6XhabeLLuEw#r1",
+   "business": "Dude Perfect",
+   "ranges": [
+    [
+     10,
+     22
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "6XhabeLLuEw#r2",
+   "business": "Phone Restore",
+   "ranges": [
+    [
+     28,
+     30
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "6XhabeLLuEw#r3",
+   "business": "that next business (the one that made his first million)",
+   "ranges": [
+    [
+     31,
+     34
+    ],
+    [
+     38,
+     38
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "6XhabeLLuEw#r4",
+   "business": "Presto Cars, a concierge car buying service",
+   "ranges": [
+    [
+     37,
+     38
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "6XhabeLLuEw#r5",
+   "business": "TK Owners",
+   "ranges": [
+    [
+     52,
+     58
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "6XhabeLLuEw#r6",
+   "business": "John’s mini donut stand / franchiseable mini donut business",
+   "ranges": [
+    [
+     68,
+     87
+    ]
+   ],
+   "is_primary": true
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "The mini donut business is the main example; TK Owners is a host community plug.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 26
+}

@@ -1,0 +1,148 @@
+{
+ "id": "mr4YV-9MY0Q",
+ "publish_date": "20260920",
+ "channel": "Starter Story",
+ "status": "ingested",
+ "title": "This Simple Widget Makes $50K/Month",
+ "provider": "local_whisper_tiny",
+ "duration_s": "818",
+ "n_lines": 195,
+ "n_removed_lines": 36,
+ "removed": [
+  {
+   "from": 11,
+   "to": 14,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 36,
+   "to": 37,
+   "reason": "filler"
+  },
+  {
+   "from": 45,
+   "to": 45,
+   "reason": "filler"
+  },
+  {
+   "from": 49,
+   "to": 52,
+   "reason": "sponsor"
+  },
+  {
+   "from": 53,
+   "to": 54,
+   "reason": "filler"
+  },
+  {
+   "from": 71,
+   "to": 71,
+   "reason": "filler"
+  },
+  {
+   "from": 84,
+   "to": 84,
+   "reason": "filler"
+  },
+  {
+   "from": 92,
+   "to": 92,
+   "reason": "filler"
+  },
+  {
+   "from": 110,
+   "to": 110,
+   "reason": "filler"
+  },
+  {
+   "from": 133,
+   "to": 134,
+   "reason": "filler"
+  },
+  {
+   "from": 143,
+   "to": 143,
+   "reason": "filler"
+  },
+  {
+   "from": 146,
+   "to": 146,
+   "reason": "filler"
+  },
+  {
+   "from": 153,
+   "to": 153,
+   "reason": "filler"
+  },
+  {
+   "from": 161,
+   "to": 161,
+   "reason": "filler"
+  },
+  {
+   "from": 162,
+   "to": 169,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 191,
+   "to": 195,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "mr4YV-9MY0Q#r1",
+   "business": "Avenue, a website widget for trades, electricians, and mechanics",
+   "ranges": [
+    [
+     4,
+     10
+    ],
+    [
+     15,
+     48
+    ],
+    [
+     57,
+     83
+    ],
+    [
+     85,
+     91
+    ],
+    [
+     93,
+     132
+    ],
+    [
+     135,
+     160
+    ],
+    [
+     170,
+     190
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "mr4YV-9MY0Q#r2",
+   "business": "A marketing agency with 70+ clients paying for website hosting",
+   "ranges": [
+    [
+     89,
+     91
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "The sponsor read is removed; the agency is mentioned as funding for Avenue.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 36
+}

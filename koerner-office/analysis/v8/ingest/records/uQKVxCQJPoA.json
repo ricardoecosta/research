@@ -1,0 +1,56 @@
+{
+ "id": "uQKVxCQJPoA",
+ "publish_date": "20250912",
+ "channel": "Chris Koerner on The Koerner Office Podcast",
+ "status": "ingested",
+ "title": "Watch This Overlooked AI Tool Build Me a Business in 23 Minutes",
+ "provider": "youtube-transcript-api",
+ "duration_s": "1423",
+ "n_lines": 479,
+ "n_removed_lines": 19,
+ "removed": [
+  {
+   "from": 82,
+   "to": 86,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 350,
+   "to": 359,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 476,
+   "to": 479,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "uQKVxCQJPoA#r1",
+   "business": "Invoice Freely, free AI enabled invoicing software for contractors",
+   "ranges": [
+    [
+     13,
+     81
+    ],
+    [
+     87,
+     349
+    ],
+    [
+     360,
+     475
+    ]
+   ],
+   "is_primary": true
+  }
+ ],
+ "multi_business": false,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "The speaker says he does not plan to run the demo app as a business.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 38
+}

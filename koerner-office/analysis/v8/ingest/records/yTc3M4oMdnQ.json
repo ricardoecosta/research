@@ -1,0 +1,90 @@
+{
+ "id": "yTc3M4oMdnQ",
+ "publish_date": "20250530",
+ "channel": "Chris Koerner on The Koerner Office Podcast",
+ "status": "ingested",
+ "title": "This Simple Rental Business Could Change Your Life!",
+ "provider": "youtube-transcript-api",
+ "duration_s": "1222",
+ "n_lines": 125,
+ "n_removed_lines": 0,
+ "removed": [],
+ "records": [
+  {
+   "record_id": "yTc3M4oMdnQ#r1",
+   "business": "inflatable rentals",
+   "ranges": [
+    [
+     1,
+     24
+    ],
+    [
+     28,
+     63
+    ],
+    [
+     74,
+     125
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "yTc3M4oMdnQ#r2",
+   "business": "repairs",
+   "ranges": [
+    [
+     4,
+     4
+    ],
+    [
+     26,
+     26
+    ],
+    [
+     69,
+     69
+    ],
+    [
+     90,
+     91
+    ],
+    [
+     124,
+     124
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "yTc3M4oMdnQ#r3",
+   "business": "manufacturing",
+   "ranges": [
+    [
+     4,
+     4
+    ],
+    [
+     25,
+     29
+    ],
+    [
+     64,
+     72
+    ],
+    [
+     124,
+     124
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "The guest describes rentals, repairs, and manufacturing as separate business lines.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 38
+}

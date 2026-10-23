@@ -1,0 +1,196 @@
+{
+ "id": "s9aLA4IOSZE",
+ "publish_date": "20260927",
+ "channel": "Starter Story",
+ "status": "ingested",
+ "title": "I built this website in 8 hours with Claude. Now it makes $40K/month",
+ "provider": "local_whisper_tiny",
+ "duration_s": "971",
+ "n_lines": 284,
+ "n_removed_lines": 35,
+ "removed": [
+  {
+   "from": 13,
+   "to": 19,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 67,
+   "to": 80,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 178,
+   "to": 178,
+   "reason": "filler"
+  },
+  {
+   "from": 256,
+   "to": 260,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 262,
+   "to": 263,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 279,
+   "to": 284,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "s9aLA4IOSZE#r1",
+   "business": "Geogames, the app that hosts the spin-off games",
+   "ranges": [
+    [
+     33,
+     34
+    ],
+    [
+     38,
+     52
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "s9aLA4IOSZE#r2",
+   "business": "Geosports, the daily sports geography game",
+   "ranges": [
+    [
+     2,
+     12
+    ],
+    [
+     20,
+     24
+    ],
+    [
+     31,
+     32
+    ],
+    [
+     35,
+     37
+    ],
+    [
+     53,
+     66
+    ],
+    [
+     81,
+     88
+    ],
+    [
+     114,
+     124
+    ],
+    [
+     126,
+     146
+    ],
+    [
+     147,
+     162
+    ],
+    [
+     163,
+     204
+    ],
+    [
+     205,
+     236
+    ],
+    [
+     271,
+     277
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "s9aLA4IOSZE#r3",
+   "business": "Geohistory, a geography game for a different niche",
+   "ranges": [
+    [
+     35,
+     37
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "s9aLA4IOSZE#r4",
+   "business": "Geofuddy, a geography game for a different niche",
+   "ranges": [
+    [
+     35,
+     37
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "s9aLA4IOSZE#r5",
+   "business": "Five Car Draw, Frank’s earlier game",
+   "ranges": [
+    [
+     96,
+     101
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "s9aLA4IOSZE#r6",
+   "business": "Frank’s independent sports creator business, making short-form sports commentary videos",
+   "ranges": [
+    [
+     90,
+     95
+    ],
+    [
+     105,
+     113
+    ],
+    [
+     241,
+     247
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "s9aLA4IOSZE#r7",
+   "business": "Map Tap, the game that inspired the sports version",
+   "ranges": [
+    [
+     133,
+     140
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "s9aLA4IOSZE#r8",
+   "business": "The different game Frank and his team had planned to launch (unnamed)",
+   "ranges": [
+    [
+     102,
+     102
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "Revenue figures are presented for the Geogames portfolio; Geosports is the main game featured.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 66
+}
