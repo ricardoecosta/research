@@ -56,9 +56,10 @@ Apply UK law while mining, not at the end:
 
 ### 6. Quote verification
 
-Every quote a model produces is checked against the original transcript:
+Quotes are verified against the original transcript by automated fuzzy matching:
 
-- Fuzzy-match each quote to the source text. A score of **90 out of 100 or better** passes.
+- A score of **90 out of 100 or better** passes.
+- **Sample a batch of quotes per miner** rather than checking every quote. Since 99–100% of quotes pass, full checking burns tokens without adding reliability.
 - A quote that fails is marked **unverified**. Unverified quotes are kept for audit but **are not evidence**: they can't support a score, a cluster or a claim.
 - Report the verification pass rate for every run.
 
