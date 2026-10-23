@@ -31,8 +31,8 @@ def flatten():
     for p in sorted((V8 / "mined").glob("*.json")):
         r = json.loads(p.read_text())
         for i in r["ideas"]:
-            x = dict(key=i["idea_id"], video_id=r["id"], record_id=i["record_id"], channel=r.get("channel"), title=r.get("title"),
-                     publish_date=r["publish_date"], evidence_quality=r.get("evidence_quality"), miner=r["miner"], **i)
+            x = {**i, **dict(key=i["idea_id"], video_id=r["id"], record_id=i["record_id"], channel=r.get("channel"), title=r.get("title"),
+                     publish_date=r["publish_date"], evidence_quality=r.get("evidence_quality"), miner=r["miner"])}
             (fr if i.get("feature_request") else flat).append(x)
     with open(V8 / "ideas_flat.jsonl", "w") as f:
         for x in flat: f.write(json.dumps(x, ensure_ascii=False) + "\n")
