@@ -1,0 +1,808 @@
+{
+ "consumer_mobile_apps_games": {
+  "model": "Consumer mobile apps and games: build a focused app, then earn through subscriptions or in-app purchases, often using app-store search or social distribution.",
+  "label": "Niche consumer apps",
+  "independent_operators": 13,
+  "revenue_examples": [
+   {
+    "video": "oaXnY1YExjE",
+    "operator_or_product": "Wrestle AI",
+    "claim": "About $8K in its first week; monthly revenue later ranged from about $15K to $40K.",
+    "when": "as of 2026-07-19",
+    "first_hand": true
+   },
+   {
+    "video": "s9aLA4IOSZE",
+    "operator_or_product": "Geosports daily sports geography game",
+    "claim": "About $40,000 monthly; programmatic ads brought in around $1,200 a day.",
+    "when": "as of 2026-09-27",
+    "first_hand": true
+   },
+   {
+    "video": "OV09yPLf8BI",
+    "operator_or_product": "Symmetry",
+    "claim": "About $160K monthly revenue and about $3M total across iOS and Android.",
+    "when": "as of 2026-09-09",
+    "first_hand": true
+   },
+   {
+    "video": "NuYO7DWzlaM",
+    "operator_or_product": "Voltaire encrypted vault app",
+    "claim": "Averaged $2,000\u2013$3,000 revenue per day; also reports $41,000 in one month six months after launch.",
+    "when": "as of 2026-10-18",
+    "first_hand": true
+   },
+   {
+    "video": "RypUD_Fuaqw",
+    "operator_or_product": "AbMax",
+    "claim": "About $55,000 monthly revenue; just over $7,000 in its first month.",
+    "when": "as of 2026-10-04",
+    "first_hand": true
+   },
+   {
+    "video": "axH1e2cZSrw",
+    "operator_or_product": "Harpeggia",
+    "claim": "About $13K/month average and $150K+ over the past year; month one was $150 and month two $1,500.",
+    "when": "as of 2026-09-13",
+    "first_hand": true
+   },
+   {
+    "video": "t9yFAJzsOkE",
+    "operator_or_product": "AI paraphrase app",
+    "claim": "About $2,600 per month; the speaker also says a paywall variant made three times more sales.",
+    "when": "as of 2026-06-15",
+    "first_hand": true
+   },
+   {
+    "video": "t9yFAJzsOkE",
+    "operator_or_product": "Niche frequency generator app",
+    "claim": "Revenue rose from about $1,000 to $8,000\u2013$10,000 after pricing and paywall changes.",
+    "when": "as of 2026-06-15",
+    "first_hand": true
+   }
+  ],
+  "startup_cost": "Not stated for most examples; Harpeggia reports about $500/month operating costs and no ad spend (axH1e2cZSrw); Max AI lists Supabase at $20/month and a $15 Claude Code membership to start (aLidq3_FwW0).",
+  "time_to_first_revenue": "Varies: Wrestle AI reported about $8K in its first week (oaXnY1YExjE); Harpeggia reported $150 in month one (axH1e2cZSrw); Voltaire made $66 in its first month (NuYO7DWzlaM).",
+  "repeatability": "At least 13 distinct videos contain operators reporting their own app revenue or sales, across games, utilities, fitness, and writing apps. The broad pattern is repeatable, but the product, distribution, monetization, and results vary; several standout cases depend on viral reach, paid acquisition, or substantial creator marketing.",
+  "agent_automatable_pct": 70,
+  "agent_runbook": "Agents can research app-store demand and competitors, draft product specs and copy, build or maintain simple apps, analyze conversion data, and prepare store listings and creatives. A human still needs to choose the product, review releases and claims, handle platform and privacy responsibilities, and make decisions about paid promotion.",
+  "constraint_fit": {
+   "local_b2b": "ok",
+   "face": "ok",
+   "cold_outreach": "ok",
+   "hours_5": "risk",
+   "note": "Consumer apps can avoid local business sales, personal branding, and cold outreach. Some records report five hours weekly, but many successful examples report 8\u201335 hours or rely on significant marketing, so the <=5 h/week constraint is not demonstrated reliably."
+  },
+  "main_risk": "Revenue is highly uneven and often tied to strong distribution, virality, paid ads, or creator networks; the records show successful outcomes but do not establish that a new app can reliably reproduce them within five owner hours per week.",
+  "proven_score": 5,
+  "fit_score": 3,
+  "code": "consumer_mobile_apps_games",
+  "n_records": 118
+ },
+ "micro_saas": {
+  "model": "micro_saas",
+  "label": "Micro-SaaS subscriptions",
+  "independent_operators": 6,
+  "revenue_examples": [
+   {
+    "video": "xEoLsAQFnOY",
+    "operator_or_product": "CareerHound",
+    "claim": "Roman says it made $25,000 last month; it had over 8,079 active subscribers.",
+    "when": "as of 2026-09-06",
+    "first_hand": true
+   },
+   {
+    "video": "JHz6mikOPWw",
+    "operator_or_product": "Vugola",
+    "claim": "Vadim reported $5,000 revenue in the previous 30 days and 267 paying users.",
+    "when": "as of 2026-04-08",
+    "first_hand": true
+   },
+   {
+    "video": "QXxESN94Y6s",
+    "operator_or_product": "Vogola",
+    "claim": "About $11,200 MRR in the last four weeks, with roughly 400 paying users.",
+    "when": "as of 2026-10-11",
+    "first_hand": true
+   },
+   {
+    "video": "22Jpzt683jw",
+    "operator_or_product": "Docspot",
+    "claim": "Hundreds of customers and about $10,000 MRR within three months.",
+    "when": "as of 2026-10-11",
+    "first_hand": true
+   },
+   {
+    "video": "IywUW2RjXis",
+    "operator_or_product": "Post For Me",
+    "claim": "The guest said MRR was nearing $500; the product cost $10/month.",
+    "when": "as of 2026-06-28",
+    "first_hand": true
+   },
+   {
+    "video": "SiRlIMtZygI",
+    "operator_or_product": "SEO bot",
+    "claim": "The operator says it reached $1M ARR and was making about $110,000/month over the summer.",
+    "when": "as of 2025-10-05",
+    "first_hand": true
+   }
+  ],
+  "startup_cost": "$11 prototype domain (uQKVxCQJPoA); $500 in monthly credits while building Vugola (JHz6mikOPWw); $200,000 personal build spend for Drip (4IETgMZy1o0).",
+  "time_to_first_revenue": "Docspot reached about $10,000 MRR within three months (22Jpzt683jw); CareerHound launched two years before its reported $25,000 month (xEoLsAQFnOY).",
+  "repeatability": "Six distinct videos report an operator's own non-hypothetical revenue or sales for subscription software. The products and routes to market vary, so the records show the subscription format repeats but do not establish a single standardized build or acquisition playbook.",
+  "agent_automatable_pct": 65,
+  "agent_runbook": "Agents can research a narrow user problem, build and maintain the app, handle support triage, and prepare SEO or product-led marketing. A human still needs to choose the problem, review reliability and privacy, and make product and marketing decisions.",
+  "constraint_fit": {
+   "local_b2b": "risk",
+   "face": "risk",
+   "cold_outreach": "ok",
+   "hours_5": "fail",
+   "note": "The records include consumer and developer products that avoid local-business sales, but several examples target businesses. Some growth relies on founder posting or video visibility, and reported owner workloads are generally above five hours weekly."
+  },
+  "main_risk": "Revenue examples are unaudited speaker claims, and outcomes range widely; the evidence does not show that a new product can reliably acquire paying users within the owner's time limit.",
+  "proven_score": 4,
+  "fit_score": 2,
+  "code": "micro_saas",
+  "n_records": 253
+ },
+ "niche_programmatic_directories": {
+  "model": "niche_programmatic_directories",
+  "label": "Niche programmatic directories",
+  "independent_operators": 5,
+  "revenue_examples": [
+   {
+    "video": "LZ_bjRV6xx0",
+    "operator_or_product": "Dude Ranch.com",
+    "claim": "A little over $50,000 per year from about 60 advertisers paying $575 annually.",
+    "when": "as of 2025-09-26",
+    "first_hand": true
+   },
+   {
+    "video": "1fTGX4sLVqA",
+    "operator_or_product": "Three niche directory sites",
+    "claim": "About $2,300\u2013$3,000 per month combined; the operator said they had continued earning while untouched for about six months.",
+    "when": "as of 2025-05-02",
+    "first_hand": true
+   },
+   {
+    "video": "1fTGX4sLVqA",
+    "operator_or_product": "Thrifting directory",
+    "claim": "About $2,000\u2013$2,500 monthly for roughly two years after a $50 backlink helped it rank first.",
+    "when": "as of 2025-05-02",
+    "first_hand": true
+   },
+   {
+    "video": "LZ_bjRV6xx0",
+    "operator_or_product": "Travel Envoy winery directory",
+    "claim": "Roughly $1,000\u2013$2,000 per month after ads were added; operator said he recovered the $10,000 purchase price in six months.",
+    "when": "as of 2025-09-26",
+    "first_hand": true
+   },
+   {
+    "video": "SiRlIMtZygI",
+    "operator_or_product": "Portfolio of niche directories",
+    "claim": "Most directories make about $1,000 per month, with some making $10,000; reported by the operator.",
+    "when": "as of 2025-10-05",
+    "first_hand": true
+   },
+   {
+    "video": "To7rzBBjewk",
+    "operator_or_product": "Soak Oregon",
+    "claim": "About $767 per month in display ads, with roughly 30,000 monthly visitors.",
+    "when": "as of 2025-03-31",
+    "first_hand": false
+   },
+   {
+    "video": "To7rzBBjewk",
+    "operator_or_product": "Sober Nation directory network",
+    "claim": "Reported at $250,000 per year from a small directory network; the record does not identify the speaker as its operator.",
+    "when": "as of 2025-03-31",
+    "first_hand": false
+   },
+   {
+    "video": "LZ_bjRV6xx0",
+    "operator_or_product": "Ranch Work job board",
+    "claim": "A job seeker paid $99 to post a listing; the record also cites employer plans starting at $100 per post.",
+    "when": "as of 2025-09-26",
+    "first_hand": true
+   }
+  ],
+  "startup_cost": "Reported examples range from under $100 to about $18,000: under $100 to build a Dubai directory and a domain bought for about $900 (abeY8nBzqzo); Dude Ranch.com domain just under $18,000 (LZ_bjRV6xx0).",
+  "time_to_first_revenue": "not stated",
+  "repeatability": "Five distinct videos report operators' own revenue or sales from directory businesses, including ad supported directories, paid listings, and a job board. The build pattern is templatable\u2014choose a narrow search niche, publish structured listings and guides, attract search traffic, then monetize\u2014but traffic and revenue vary widely by niche and ranking success.",
+  "agent_automatable_pct": 75,
+  "agent_runbook": "Agents can research niches, assemble and structure public listing data, generate pages and guides, maintain the site, and monitor search traffic and ad performance. A human must choose the niche and monetization approach, review sensitive or inaccurate listings, and handle advertiser relationships or other payment decisions.",
+  "constraint_fit": {
+   "local_b2b": "risk",
+   "face": "ok",
+   "cold_outreach": "risk",
+   "hours_5": "risk",
+   "note": "Ad and affiliate models avoid local-business selling and personal branding; paid listing models depend on provider sales, and the records do not establish that those sales can be made without prohibited cold outreach. One operator reports about an hour per month, but other directory examples have higher stated weekly time, so the five-hour limit is not assured."
+  },
+  "main_risk": "Organic search traffic and rankings are uncertain and can take sustained work; paid listings add provider acquisition and upkeep, which may exceed the owner's time or require outreach.",
+  "proven_score": 4,
+  "fit_score": 3,
+  "code": "niche_programmatic_directories",
+  "n_records": 59
+ },
+ "niche_content_affiliate_sites": {
+  "model": "niche_content_affiliate_sites",
+  "label": "Niche content sites",
+  "independent_operators": 3,
+  "revenue_examples": [
+   {
+    "video": "abeY8nBzqzo",
+    "operator_or_product": "Guilty Chef",
+    "claim": "About $8,000 in the app\u2019s first week; later about $700\u2013$800/month in revenue.",
+    "when": "as of 2025-09-22",
+    "first_hand": true
+   },
+   {
+    "video": "yBj1SM4MrIQ",
+    "operator_or_product": "Goat-care website",
+    "claim": "Display ads reached $3,000/month, fell to a little over $1,000/month, then recovered to a couple thousand dollars/month.",
+    "when": "as of 2026-09-03",
+    "first_hand": true
+   },
+   {
+    "video": "si8FhslNofc",
+    "operator_or_product": "Niche sites",
+    "claim": "The host says his sites made $10,000\u2013$20,000/month by 2011.",
+    "when": "2011",
+    "first_hand": true
+   }
+  ],
+  "startup_cost": "About $50/month for tools for Guilty Chef [abeY8nBzqzo]; other startup costs not stated.",
+  "time_to_first_revenue": "Guilty Chef claims about $8,000 in its first week [abeY8nBzqzo]; other timelines not stated.",
+  "repeatability": "Three distinct videos report an operator\u2019s own site or app revenue, but only one describes a reasonably templated build in detail. The records show multiple monetization paths, while traffic and revenue can fluctuate substantially.",
+  "agent_automatable_pct": 70,
+  "agent_runbook": "Agents can research niches, draft and update articles, implement structured data, and track search traffic and affiliate or ad performance. A human must choose the niche and offers, review quality and compliance, and handle account or publisher approvals.",
+  "constraint_fit": {
+   "local_b2b": "ok",
+   "face": "ok",
+   "cold_outreach": "ok",
+   "hours_5": "risk",
+   "note": "A faceless site can avoid local business sales and individual cold outreach, but the examples do not establish that building and maintaining one reliably takes five or fewer owner hours per week."
+  },
+  "main_risk": "Search ranking and ad income can fall sharply; the goat-care site\u2019s reported traffic and advertising revenue varied over time, and the records do not establish durable earnings.",
+  "proven_score": 3,
+  "fit_score": 3,
+  "code": "niche_content_affiliate_sites",
+  "n_records": 21
+ },
+ "digital_templates_info_products": {
+  "model": "digital_templates_info_products",
+  "label": "Sell downloadable templates, guides, or other digital products",
+  "independent_operators": 8,
+  "revenue_examples": [
+   {
+    "video": "tVbN7XSPnM0",
+    "operator_or_product": "Google Drive digital playbook",
+    "claim": "Reported $120,000 profit in 30 or 45 days; the same speaker also reported $35,000 monthly profit from Facebook before the account was banned.",
+    "when": "as of 2026-05-11",
+    "first_hand": true
+   },
+   {
+    "video": "DG4yP9MACWk",
+    "operator_or_product": "Etsy printables and digital products",
+    "claim": "Cody's Etsy shop reached its first $1,000 month after four months.",
+    "when": "as of 2026-10-06",
+    "first_hand": false
+   },
+   {
+    "video": "DG4yP9MACWk",
+    "operator_or_product": "Personal-finance resources on Teachers Pay Teachers",
+    "claim": "Rob's store reportedly grew to around $2,000 a month in relatively passive income.",
+    "when": "as of 2026-10-06",
+    "first_hand": false
+   },
+   {
+    "video": "quYKZushRPo",
+    "operator_or_product": "Claude Code skill bundle",
+    "claim": "Reported over $3,000 in sales within about 30 to 45 days of launch; bundle priced at $99.",
+    "when": "as of 2026-05-13",
+    "first_hand": true
+   },
+   {
+    "video": "Qv-dw57pFNA",
+    "operator_or_product": "Plans of Granger creator-growth library",
+    "claim": "Reported 35 day-one sales at $47 and $97 combined, and about $1,334 in the first roughly 1 hour 20 minutes after test emails.",
+    "when": "as of 2026-03-23",
+    "first_hand": true
+   },
+   {
+    "video": "22Jpzt683jw",
+    "operator_or_product": "AI profile pictures",
+    "claim": "Reported about $10,000 in roughly two months.",
+    "when": "as of 2026-10-11",
+    "first_hand": true
+   },
+   {
+    "video": "MyNXdDskh6c",
+    "operator_or_product": "Month-End Receipt Rescue Kit",
+    "claim": "A pre-sale was described for a digital kit priced at about $19; no sales total was provided.",
+    "when": "as of 2026-10-07",
+    "first_hand": false
+   },
+   {
+    "video": "UItZIyRpWSw",
+    "operator_or_product": "Business plans tied to YouTube videos",
+    "claim": "Sold plans at $19 and $38; no revenue total was provided.",
+    "when": "as of 2026-09-02",
+    "first_hand": true
+   }
+  ],
+  "startup_cost": "not stated",
+  "time_to_first_revenue": "Under 2 hours from idea to first sale for an existing-audience launch (Qv-dw57pFNA); Claude Code skill-bundle site and payment setup took 15\u201320 minutes, but time to first sale was not stated (quYKZushRPo).",
+  "repeatability": "At least 8 distinct videos describe operators reporting their own non-hypothetical revenue or sales from digital products, though some records are second-hand and the products differ. The broad pattern is templatable\u2014choose a niche, create a downloadable asset, publish a sales page or marketplace listing, and drive qualified traffic\u2014but audience building and product-market fit vary.",
+  "agent_automatable_pct": 75,
+  "agent_runbook": "Agents can research niches, draft and format products, create listings and sales pages, and prepare content and performance reports. A human should verify expertise and accuracy, approve the offer, handle platform/account decisions, and provide any required customer support.",
+  "constraint_fit": {
+   "local_b2b": "ok",
+   "face": "ok",
+   "cold_outreach": "ok",
+   "hours_5": "risk",
+   "note": "Digital products can be sold to consumers through marketplaces or search without a personal brand or direct cold outreach. The records include products tied to creator audiences and one operator record lists 8 hours per week; staying under 5 hours depends on choosing a narrow, self-serve product and automating support and promotion."
+  },
+  "main_risk": "The evidence combines substantially different products and traffic sources, and several revenue claims are second-hand or lack sales totals; it does not establish that a new operator can reliably acquire buyers without an existing audience or paid promotion.",
+  "proven_score": 3,
+  "fit_score": 4,
+  "code": "digital_templates_info_products",
+  "n_records": 78
+ },
+ "faceless_social_video_pages": {
+  "model": "faceless_social_video_pages",
+  "label": "Faceless social video pages monetized by views",
+  "independent_operators": 5,
+  "revenue_examples": [
+   {
+    "video": "IPnafDDgj6o",
+    "operator_or_product": "Chris Koerner's Facebook content",
+    "claim": "$10,000\u2013$35,000 monthly profit; about three hours per week",
+    "when": "as of 2026-01-27",
+    "first_hand": true
+   },
+   {
+    "video": "Qv-dw57pFNA",
+    "operator_or_product": "Facebook content page with 1.5M followers",
+    "claim": "About $35,000 per month from Facebook; not all profit because of content team costs",
+    "when": "as of 2026-03-23",
+    "first_hand": true
+   },
+   {
+    "video": "si8FhslNofc",
+    "operator_or_product": "Host's Facebook performance bonus page",
+    "claim": "$3,000\u2013$5,000 per month",
+    "when": "as of 2025-04-07",
+    "first_hand": true
+   },
+   {
+    "video": "yBj1SM4MrIQ",
+    "operator_or_product": "Deborah's goat-care YouTube channel",
+    "claim": "About $100 a month",
+    "when": "as of 2026-09-03",
+    "first_hand": true
+   },
+   {
+    "video": "AdMZ3eW4WsA",
+    "operator_or_product": "Chloe vs History YouTube channel",
+    "claim": "Estimated $8,000 a month after 17 million views in three months",
+    "when": "as of 2026-07-01",
+    "first_hand": false
+   }
+  ],
+  "startup_cost": "Not stated for the general model. AI influencer examples cite 2 credits for a character and 8 credits per video (QIX0lnr3qfo); one AI alien account spent $1,200 testing prompts (RWmEE6ra--g).",
+  "time_to_first_revenue": "Not stated",
+  "repeatability": "At least four distinct operators report their own non-hypothetical platform revenue, with an additional estimated channel example. The workflow is broadly templated\u2014make a niche page, publish video or posts regularly, then monetize views\u2014but the records do not establish consistent results or a dependable time to monetization.",
+  "agent_automatable_pct": 65,
+  "agent_runbook": "Agents can research topics, draft scripts, generate or edit clips, prepare captions, schedule posts, and track performance. A human must choose the niche, review originality and platform compliance, handle account/payment setup, and make editorial decisions.",
+  "constraint_fit": {
+   "local_b2b": "ok",
+   "face": "ok",
+   "cold_outreach": "ok",
+   "hours_5": "risk",
+   "note": "The model can avoid local business sales, personal branding, and outbound outreach. One operator reports three hours weekly, but several records indicate 6\u201315 hours or high posting volume, so staying within five hours is not established."
+  },
+  "main_risk": "Platform monetization eligibility, payout rates, and account access can change; one reported page was removed over alleged IP infringement (Qv-dw57pFNA). Reused or synthetic content may also fail platform policies or attract little audience.",
+  "proven_score": 3,
+  "fit_score": 3,
+  "code": "faceless_social_video_pages",
+  "n_records": 62
+ },
+ "plugins_extensions_marketplace_apps": {
+  "model": "Bootstrapped WordPress internal-linking SEO plugin",
+  "label": "WordPress SEO plugin",
+  "independent_operators": 1,
+  "revenue_examples": [
+   {
+    "video": "czzv3o0PCmI",
+    "operator_or_product": "Link Whisper",
+    "claim": "First month sales exceeded $30,000; later sales exceeded $1 million.",
+    "when": "as of 2025-06-17",
+    "first_hand": true
+   },
+   {
+    "video": "eVldld15cXo",
+    "operator_or_product": "Link Whisper",
+    "claim": "$30,000 launch month, $5,000\u2013$7,000 monthly in months 2\u20133, and about $90,000/month by the sale; sold for $2.7 million.",
+    "when": "as of 2026-09-08",
+    "first_hand": true
+   },
+   {
+    "video": "GVSiAvjADBk",
+    "operator_or_product": "Link Whisper",
+    "claim": "More than $5,000/month within its first year and seven figures in income.",
+    "when": "as of 2025-05-08",
+    "first_hand": true
+   }
+  ],
+  "startup_cost": "A few thousand dollars for an offshore MVP (czzv3o0PCmI).",
+  "time_to_first_revenue": "$30,000 in the first month after launch (czzv3o0PCmI; eVldld15cXo).",
+  "repeatability": "The records show one distinct operator succeeding with this specific product, described across multiple interviews; those are not independent replications. The approach has reusable steps\u2014solve a familiar WordPress SEO problem, build a focused plugin, launch to an audience, and use content, email, affiliates, and a free version for distribution\u2014but evidence here does not establish that others can repeat the results.",
+  "agent_automatable_pct": 70,
+  "agent_runbook": "Agents can research feature gaps, draft and build the plugin, prepare documentation and listing content, and support users. A human must validate the product, manage releases and quality, and create or authorize distribution through an existing audience, affiliates, or compliant opt-in marketing.",
+  "constraint_fit": {
+   "local_b2b": "ok",
+   "face": "ok",
+   "cold_outreach": "ok",
+   "hours_5": "risk",
+   "note": "The plugin sells to site owners rather than local businesses and can be marketed without a personal brand or cold outreach. The source estimates 8\u201320 hours/week for the operator, above the five-hour limit; substantial ongoing agent coverage is not demonstrated."
+  },
+  "main_risk": "Strong revenue claims all concern the same operator and product, so this is evidence of one successful case, not proof of repeatable outcomes. Customer acquisition and ongoing product support may also exceed the owner's time limit.",
+  "proven_score": 2,
+  "fit_score": 3,
+  "code": "plugins_extensions_marketplace_apps",
+  "n_records": 29
+ },
+ "newsletters": {
+  "model": "A free, niche-focused newsletter monetised through sponsorships or digital products, without relying on local-business advertisers or a personal brand.",
+  "label": "Niche newsletter",
+  "independent_operators": 2,
+  "revenue_examples": [
+   {
+    "video": "Qv-dw57pFNA",
+    "operator_or_product": "Small-list weekly newsletter",
+    "claim": "$500,000 per year from one email a week; monetisation method is not stated.",
+    "when": "as of 20260323",
+    "first_hand": false
+   },
+   {
+    "video": "d0Zmc8HW5g4",
+    "operator_or_product": "Consumer psychology newsletter",
+    "claim": "Segmented digital-product sales increased 30%, then doubled; no revenue amount or period is given.",
+    "when": "as of 20260710",
+    "first_hand": false
+   }
+  ],
+  "startup_cost": "not stated",
+  "time_to_first_revenue": "not stated",
+  "repeatability": "The records show two distinct videos with claims of revenue-related results for nonlocal newsletter models, but neither gives a clear first-hand, dated revenue account. They describe different monetisation approaches, so they do not establish a templated model that many independent operators have repeated.",
+  "agent_automatable_pct": 60,
+  "agent_runbook": "Agents can research a niche, draft and format issues, manage signup and segmentation, and prepare sponsor or product tests. A human must choose the niche and review claims and content; sponsorship sales or product strategy may also need owner input.",
+  "constraint_fit": {
+   "local_b2b": "ok",
+   "face": "ok",
+   "cold_outreach": "risk",
+   "hours_5": "risk",
+   "note": "A nonlocal newsletter can avoid local-business sales and a personal brand, but the records do not establish that sponsor acquisition or ongoing publishing fits within five owner hours per week. Cold outreach to individuals or sole traders would violate the stated constraint."
+  },
+  "main_risk": "The records do not prove a repeatable, first-hand revenue model that meets the owner's time limit; the clearest revenue claim is second-hand and does not identify how the newsletter earns.",
+  "proven_score": 1,
+  "fit_score": 2,
+  "code": "newsletters",
+  "n_records": 68
+ },
+ "buy_small_online_business": {
+  "model": "Buy and improve small content sites from Flippa",
+  "label": "Content-site acquisition",
+  "independent_operators": 0,
+  "revenue_examples": [],
+  "startup_cost": "$15\u201320k likely sale price for one site [hSiRCf7aZk0]; another example was listed for $22k [hSiRCf7aZk0]",
+  "time_to_first_revenue": "not stated",
+  "repeatability": "The records describe one operator and a templated approach: buy an aged content site, then improve ads and affiliate conversions. They do not establish multiple independent operators earning revenue from this model.",
+  "agent_automatable_pct": 60,
+  "agent_runbook": "Agents could audit traffic and content, identify monetization gaps, and draft or update site content. A human would need to source and buy the asset, fund it, and oversee strategy and quality.",
+  "constraint_fit": {
+   "local_b2b": "ok",
+   "face": "ok",
+   "cold_outreach": "ok",
+   "hours_5": "risk",
+   "note": "The record estimates five owner hours per week, but provides no evidence that acquisition diligence and ongoing oversight reliably stay within that limit."
+  },
+  "main_risk": "The record says informational content sites were largely wiped out by AI snippet updates by 2023, which threatens the value and durability of the site's traffic.",
+  "proven_score": 1,
+  "fit_score": 3,
+  "code": "buy_small_online_business",
+  "n_records": 67
+ },
+ "api_scraper_wrappers": {
+  "model": "api_scraper_wrappers",
+  "label": "Niche scraper storefronts",
+  "independent_operators": 1,
+  "revenue_examples": [
+   {
+    "video": "50iWtrj9Mkw",
+    "operator_or_product": "Google Maps lead scraper",
+    "claim": "$3,500 monthly recurring revenue after about seven months; $35/month subscription",
+    "when": "as of 2026-05-19",
+    "first_hand": true
+   }
+  ],
+  "startup_cost": "Not stated in the records.",
+  "time_to_first_revenue": "Not stated in the records.",
+  "repeatability": "One distinct operator reports their own revenue. The records describe a templated approach\u2014put a narrow storefront around an existing scraper or actor and charge for access\u2014but the other examples are mentions without reported sales.",
+  "agent_automatable_pct": 80,
+  "agent_runbook": "Agents can configure the scraper, build the storefront, process paid jobs, and handle routine support. A human must choose a compliant data source and niche, verify terms and privacy obligations, and oversee billing and customer issues.",
+  "constraint_fit": {
+   "local_b2b": "ok",
+   "face": "ok",
+   "cold_outreach": "ok",
+   "hours_5": "risk",
+   "note": "The Maps scraper\u2019s buyers may use its data for local-business prospecting, but the operator is selling a self-serve tool rather than selling services to local businesses. The one revenue example is estimated at six owner hours per week, above the five-hour limit; other wrappers lack evidence of sales or workload."
+  },
+  "main_risk": "The sole first-hand revenue example is for a lead-scraping tool. The records do not establish that other scraper wrappers earn revenue, and they do not show whether data access, platform terms, or ongoing maintenance are manageable within five owner hours weekly.",
+  "proven_score": 2,
+  "fit_score": 3,
+  "code": "api_scraper_wrappers",
+  "n_records": 35
+ },
+ "ecom_dtc_dropship_resale": {
+  "model": "ecom_dtc_dropship_resale",
+  "label": "Online product resale and DTC commerce",
+  "independent_operators": 6,
+  "revenue_examples": [
+   {
+    "video": "N0NceZbY2_4",
+    "operator_or_product": "Custom photo magnets",
+    "claim": "First-month profit was a little over $1,000; later reported $1.63M online revenue in the first full year across all business lines.",
+    "when": "as of 2026-03-08",
+    "first_hand": true
+   },
+   {
+    "video": "QYRz3WgE7eY",
+    "operator_or_product": "Luxury handbag resale",
+    "claim": "Sold about $4M of handbags over three years and reported $557,000 net profit.",
+    "when": "as of 2025-04-16",
+    "first_hand": true
+   },
+   {
+    "video": "Je0NxaeOYFI",
+    "operator_or_product": "Campour Nation",
+    "claim": "Reached $40,000 monthly sales, later $120,000 monthly sales; gross margins across products were 15%\u201340%.",
+    "when": "as of 2026-09-10",
+    "first_hand": true
+   },
+   {
+    "video": "D5iCSoOL-4E",
+    "operator_or_product": "True Classic apparel",
+    "claim": "Reached $100 million in two years; host later cited $270 million annual revenue.",
+    "when": "as of 2025-09-08",
+    "first_hand": true
+   },
+   {
+    "video": "M6woiZk-KeE",
+    "operator_or_product": "Texas Snacks online reseller",
+    "claim": "Said they sell thousands of dollars of stock every day; examples included shirts bought for about $18 and sold for $33\u2013$35.",
+    "when": "as of 2025-12-26",
+    "first_hand": true
+   },
+   {
+    "video": "IYotH4hI4KA",
+    "operator_or_product": "Salvage iPhone resale for parts",
+    "claim": "Bought a phone lot for $2 million and sold it for $11 million.",
+    "when": "as of 2025-04-28",
+    "first_hand": true
+   }
+  ],
+  "startup_cost": "Ranges from a couple thousand dollars to try the T-shirt idea (D5iCSoOL-4E) to $2 million for a salvage-phone lot (IYotH4hI4KA); the model varies widely by product and inventory approach.",
+  "time_to_first_revenue": "not stated",
+  "repeatability": "Six distinct videos include operators reporting their own realized sales or profit, spanning branded apparel, niche products, and resale. The core pattern\u2014source or make a product, list it online, acquire customers, fulfill orders\u2014is repeatable, but sourcing, margins, and marketing differ substantially by niche.",
+  "agent_automatable_pct": 55,
+  "agent_runbook": "Agents can research products and suppliers, draft listings and ads, monitor orders and inventory, and handle routine customer support. A human must choose and fund inventory, approve product claims and suppliers, and handle physical fulfillment or supervise a fulfillment provider.",
+  "constraint_fit": {
+   "local_b2b": "ok",
+   "face": "ok",
+   "cold_outreach": "risk",
+   "hours_5": "risk",
+   "note": "Online consumer sales can avoid local-business selling and personal branding, and paid ads or marketplace discovery can avoid prohibited cold email/SMS. Supplier sourcing may involve direct outreach, while inventory, fulfillment, and customer issues can exceed five owner hours weekly."
+  },
+  "main_risk": "Reported outcomes are unaudited and highly dependent on product selection, customer acquisition costs, inventory risk, and fulfillment; several large examples require substantial capital or team capacity.",
+  "proven_score": 4,
+  "fit_score": 3,
+  "code": "ecom_dtc_dropship_resale",
+  "n_records": 582
+ },
+ "print_on_demand_personalised": {
+  "model": "print_on_demand_personalised",
+  "label": "Personalised print-on-demand products",
+  "independent_operators": 1,
+  "revenue_examples": [
+   {
+    "video": "3GmZHYBX75s",
+    "operator_or_product": "Printer Pet custom pet gifts",
+    "claim": "The guest reports just over $1 million in revenue in its first full year; also says the first month brought just over $1,000, much of it from friends and family.",
+    "when": "as of 2026-07-27",
+    "first_hand": true
+   },
+   {
+    "video": "3GmZHYBX75s",
+    "operator_or_product": "Printer Pet custom pet gifts",
+    "claim": "The guest says the business did over 80,000 in two months; currency and unit are unclear.",
+    "when": "as of 2026-07-27",
+    "first_hand": true
+   },
+   {
+    "video": "3GmZHYBX75s",
+    "operator_or_product": "Printer Pet custom pet gifts",
+    "claim": "The guest says 2020 was a seven-figure revenue year.",
+    "when": "2020",
+    "first_hand": true
+   }
+  ],
+  "startup_cost": "Could be close to nothing; host describes a $40 start. The guest also mentions a $30 Shopify membership, billing period unstated (3GmZHYBX75s).",
+  "time_to_first_revenue": "First month: just over $1,000, much of it from friends and family (3GmZHYBX75s).",
+  "repeatability": "Only one distinct video has a real operator reporting their own revenue for this model. The workflow is templatable\u2014personalise artwork, list products, and outsource printing and shipping\u2014but the other records mainly describe ideas or competitor sales, not independent operators' results.",
+  "agent_automatable_pct": 55,
+  "agent_runbook": "Agents can research niches, prepare design and listing drafts, process personalisation inputs, and coordinate POD orders and customer support. A human must approve creative quality, handle exceptions, and oversee the store and advertising.",
+  "constraint_fit": {
+   "local_b2b": "ok",
+   "face": "ok",
+   "cold_outreach": "ok",
+   "hours_5": "fail",
+   "note": "Consumer ecommerce can avoid local-business selling, personal branding, and cold outreach. The cited operator grew to 80 artists and three full-time remote employees; the records do not establish a version that can reliably run within five owner hours per week."
+  },
+  "main_risk": "The evidence for success is concentrated in one operator's claims, and that operation scaled to substantial staffing; the records do not show that a small, low-hours version can reliably acquire customers or remain profitable.",
+  "proven_score": 2,
+  "fit_score": 2,
+  "code": "print_on_demand_personalised",
+  "n_records": 22
+ },
+ "kdp_self_publishing": {
+  "model": "kdp_self_publishing",
+  "label": "Self-publishing books through Amazon KDP",
+  "independent_operators": 3,
+  "revenue_examples": [
+   {
+    "video": "FH2mB0iy9mw",
+    "operator_or_product": "Self-publishing speaker\u2019s books",
+    "claim": "Reports royalty payments of $800 and about $500; periods not stated.",
+    "when": "as of 20250603",
+    "first_hand": true
+   },
+   {
+    "video": "yBj1SM4MrIQ",
+    "operator_or_product": "Homesteading and goat books",
+    "claim": "Reports about 25,000 copies sold across her books; one book\u2019s first 5,000-copy print run sold out in about nine months, with a $3,000 advance and $1 royalty per book.",
+    "when": "as of 20260903",
+    "first_hand": true
+   },
+   {
+    "video": "D2Oek_YVIFA",
+    "operator_or_product": "Entrepreneurship stories book",
+    "claim": "Nick Huber says HarperCollins paid a $500,000 advance.",
+    "when": "as of 20261009",
+    "first_hand": true
+   }
+  ],
+  "startup_cost": "Not stated; D2Oek_YVIFA says the author spent money but gives no amount.",
+  "time_to_first_revenue": "Not stated for KDP; D2Oek_YVIFA describes an 18-month book project and about 22 months from idea/spending to starting the process, but it is a traditional publishing deal.",
+  "repeatability": "Three videos contain first-hand operator revenue claims, but only one describes a self-publishing royalty payment; the other two concern traditional publishing. The records show repeatable book formats and marketplace sales, but give little evidence of a templated KDP process producing repeated operator outcomes.",
+  "agent_automatable_pct": 70,
+  "agent_runbook": "Agents can research demand, draft and edit manuscripts, prepare listings, and track sales and ads. A human should verify quality and rights, approve publishing decisions, and handle platform and tax account responsibilities.",
+  "constraint_fit": {
+   "local_b2b": "ok",
+   "face": "ok",
+   "cold_outreach": "ok",
+   "hours_5": "risk",
+   "note": "Marketplace sales avoid local-business selling and cold outreach, and pen names can avoid a face-led brand. The KDP record estimates 8 owner hours/week (sDtJaQynQkA); several other publishing examples involve more intensive work."
+  },
+  "main_risk": "The evidence for this specific KDP model is thin: the single KDP-focused record, sDtJaQynQkA, supplies no first-hand operator revenue figure, while several large claims concern other books, traditional publishing, or host-reported estimates.",
+  "proven_score": 2,
+  "fit_score": 3,
+  "code": "kdp_self_publishing",
+  "n_records": 38
+ },
+ "b2b_data_products": {
+  "model": "b2b_data_products",
+  "label": "Packaged data and research products",
+  "independent_operators": 0,
+  "revenue_examples": [],
+  "startup_cost": "not stated",
+  "time_to_first_revenue": "not stated",
+  "repeatability": "The records describe many possible data and research products, but do not provide multiple independent operators reporting their own dated revenue from the same model. Most examples are proposals or price estimates, so repeatability is unproven.",
+  "agent_automatable_pct": 65,
+  "agent_runbook": "Agents could gather and refresh public or licensed data, generate reports, and manage delivery. A human would need to verify data quality, choose a market, and handle sales and customer relationships.",
+  "constraint_fit": {
+   "local_b2b": "risk",
+   "face": "ok",
+   "cold_outreach": "risk",
+   "hours_5": "risk",
+   "note": "Some concepts target local businesses or depend on contacting prospects; several suggested workloads exceed five owner hours per week. No record establishes a compliant acquisition channel and workload within the stated limit."
+  },
+  "main_risk": "The records mostly contain ideas, proposed prices, or claims about other firms rather than first-hand, dated revenue evidence from independent operators of a copyable model.",
+  "proven_score": 1,
+  "fit_score": 2,
+  "code": "b2b_data_products",
+  "n_records": 41
+ },
+ "free_tool_calculator_sites": {
+  "model": "Build free, narrowly focused calculator or utility websites, attract search traffic, and earn from display ads",
+  "label": "SEO calculator sites",
+  "independent_operators": 5,
+  "revenue_examples": [
+   {
+    "video": "Wvwt9CB6uKI",
+    "operator_or_product": "Word unscrambler site",
+    "claim": "The portfolio reportedly earns $5\u20136M/year from ads; the site is part of a 17M-visitor portfolio.",
+    "when": "as of 2026-09-18",
+    "first_hand": false
+   },
+   {
+    "video": "Wl0NMNbYRDk",
+    "operator_or_product": "Omni Calculator",
+    "claim": "The founder reportedly grew the project to 3,700+ calculators, 17M visitors/month, and $500K+/month revenue.",
+    "when": "as of 2026-04-10",
+    "first_hand": false
+   },
+   {
+    "video": "av5mwEWE-_I",
+    "operator_or_product": "Sleep calculator site",
+    "claim": "The site reportedly gets about 600K organic visitors/month and 1.63M total visitors/month; no revenue figure is given.",
+    "when": "as of 2025-03-25",
+    "first_hand": false
+   },
+   {
+    "video": "av5mwEWE-_I",
+    "operator_or_product": "Snow day predictor",
+    "claim": "The site reportedly gets 2.9M visitors/month in winter; no revenue figure is given.",
+    "when": "as of 2025-03-25",
+    "first_hand": false
+   },
+   {
+    "video": "Wvwt9CB6uKI",
+    "operator_or_product": "Intermittent fasting calculator",
+    "claim": "The calculator reportedly makes $400/month from ads.",
+    "when": "as of 2026-09-18",
+    "first_hand": false
+   },
+   {
+    "video": "GVSiAvjADBk",
+    "operator_or_product": "YouTube thumbnail downloader",
+    "claim": "The site reportedly gets 512,000 visitors/month and is likely making over $4,000/month from ads.",
+    "when": "as of 2025-05-08",
+    "first_hand": false
+   },
+   {
+    "video": "GVSiAvjADBk",
+    "operator_or_product": "ZeroGPT",
+    "claim": "Similarweb reportedly estimates over 15 million visitors/month; the host says it is likely making over $500,000/month from ads.",
+    "when": "as of 2025-05-08",
+    "first_hand": false
+   },
+   {
+    "video": "GVSiAvjADBk",
+    "operator_or_product": "Simple tool website (unspecified)",
+    "claim": "The host says it makes $43,000/month; tool and revenue source are unspecified.",
+    "when": "as of 2025-05-08",
+    "first_hand": false
+   }
+  ],
+  "startup_cost": "not stated",
+  "time_to_first_revenue": "not stated",
+  "repeatability": "At least 5 distinct videos describe operating calculator or utility sites with substantial reported traffic or revenue, though several figures are estimates and not operators\u2019 audited first-hand accounts. The template is consistent: solve a specific recurring query with a free tool, build supporting search content, and monetize visits with ads or affiliates.",
+  "agent_automatable_pct": 90,
+  "agent_runbook": "Agents can research query niches, generate and maintain calculator pages, publish supporting content, and monitor rankings and ad performance. A human must check calculations and claims, approve the site and ad setup, and handle policy or technical issues.",
+  "constraint_fit": {
+   "local_b2b": "ok",
+   "face": "ok",
+   "cold_outreach": "ok",
+   "hours_5": "risk",
+   "note": "The records include examples estimated at 1\u20132 owner hours/week, but also larger operations at 20\u201340 hours/week; reaching and maintaining meaningful search traffic is not shown to fit within five hours for every operator."
+  },
+  "main_risk": "Search traffic and ad earnings are reported unevenly, often as third-party estimates; the records do not establish typical startup cost, time to revenue, or durable results for a new entrant.",
+  "proven_score": 3,
+  "fit_score": 4,
+  "code": "free_tool_calculator_sites",
+  "n_records": 31
+ }
+}
