@@ -92,11 +92,11 @@ def _check(name, out, err, rc):
         raise Busy(f"{name} limited: {(err or out or '')[-160:]}", until)
 
 
-def run_codex(prompt, effort="xhigh", timeout=2400):
+def run_codex(prompt, effort="xhigh", timeout=2400, web=False):
     cwd = WORK / "codex_cwd"; cwd.mkdir(parents=True, exist_ok=True)
     fd, out_path = tempfile.mkstemp(suffix=".txt", dir=cwd); os.close(fd)
     cmd = [CODEX, "exec", "--skip-git-repo-check", "--ephemeral", "-s", "read-only", "--disable", "hooks",
-           "-m", CODEX_MODEL, "-c", f'model_reasoning_effort="{effort}"', "--color", "never", "--json",
+           "-m", CODEX_MODEL, "-c", f'model_reasoning_effort="{effort}"', *(["-c", 'web_search="live"'] if web else []), "--color", "never", "--json",
            "-o", out_path, "-C", str(cwd), "-"]
     p = subprocess.Popen(cmd, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE,
                          text=True, cwd=cwd, start_new_session=True)
@@ -120,8 +120,9 @@ def run_codex(prompt, effort="xhigh", timeout=2400):
     return answer
 
 
-def run_claude(prompt, effort=None, timeout=2400):
-    p = subprocess.run([CLAUDE, "-p", "--model", CLAUDE_MODEL, "--output-format", "text"],
+def run_claude(prompt, effort=None, timeout=2400, web=False):
+    p = subprocess.run([CLAUDE, "-p", "--model", CLAUDE_MODEL, "--output-format", "text",
+                        *(["--allowedTools", "WebSearch", "WebFetch"] if web else [])],
                        input=prompt, capture_output=True, text=True, cwd=str(WORK), timeout=timeout)
     out = (p.stdout or "").strip()
     _check("claude", out, p.stderr, p.returncode)
@@ -129,7 +130,7 @@ def run_claude(prompt, effort=None, timeout=2400):
     return out
 
 
-def run_pi(prompt, effort=None, timeout=2400):
+def run_pi(prompt, effort=None, timeout=2400, web=False):
     cwd = WORK / "pi_cwd"; cwd.mkdir(parents=True, exist_ok=True)
     pf = cwd / f"p_{os.getpid()}_{threading.get_ident()}.txt"; pf.write_text(prompt)
     p = subprocess.run([PI, "-p", "--no-tools", f"@{pf}", "Follow the instructions in the attached file. Reply with the JSON only."],
@@ -151,19 +152,19 @@ def parse_json_text(txt):
     return json.loads(txt[i:j + 1])
 
 
-def call_llm(prompt, effort="xhigh", logf=None, tag="item", parse=True):
+def call_llm(prompt, effort="xhigh", logf=None, tag="item", parse=True, web=False, order=None):
     """Try runners in ORDER, skipping blocked ones. Two tries per runner on parse/other errors.
     On a limit: record the reset, switch to the next runner immediately. All blocked -> BoxPending."""
     ans_file = BOX_ANS / f"{tag}.json"
     if ans_file.exists():  # already answered on the box
         t = ans_file.read_text(); return (parse_json_text(t) if parse else t), "grokbot-box", 0.0
-    for name in ORDER:
+    for name in (order or ORDER):
         bu = blocked_until(name)
         if bu: continue
         for attempt in range(2):
             t0 = time.time()
             try:
-                out = RUNNERS[name](prompt, effort) if name == "codex" else RUNNERS[name](prompt)
+                out = RUNNERS[name](prompt, effort, web=web) if name == "codex" else RUNNERS[name](prompt, web=web)
                 return (parse_json_text(out) if parse else out), (f"codex:{CODEX_MODEL}:{effort}" if name == "codex" else name), time.time() - t0
             except Busy as b:
                 mark_blocked(name, b.until); log(logf, f"{tag} {name} LIMIT until {b.until:%H:%M}; switching"); break
