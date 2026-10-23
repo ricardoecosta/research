@@ -187,6 +187,7 @@ Optimise for **the lowest cost that keeps decision quality**. These rules are le
 - **v9:** validation-first, new UK sources, copy-speed and claim-age filters. P = 0.
 - **v10:** moat gate, buy track and a single xhigh kill-check; scope changed to any country. P = 0, and the stall rule fired.
 - **v11** (Ricardo, 23 Oct 22:25 BST): time-to-moat (build), a buy track judged on a 90-day handover to agents ($20k–$150k, verified revenue only, ≤5 h/week after the handover, ~60% of leads), and a demand-first source (verified revenue ≥$1k/month, within 18 months). See `v11/CHANGES.md`.
+  - **PAUSED 23 Oct 2026, 22:26 BST at Ricardo's request, pending a method review.** Stage reached: stage 0 done (rules locked, `1317504`). Stage 1 (harvest) had just started, and its 5 in-flight Codex calls were stopped before returning. No leads were saved. To resume, run `cd koerner-office/scripts/v11 && /tmp/v7venv/bin/python v11.py harvest killcheck shadow evidence score validate`. Re-lock the rules first if the review changes them.
 
 ## 7. Proposed METHOD changes not yet adopted
 
