@@ -156,3 +156,15 @@ These three rules apply from v9 on. Other proposals stay in `LOOP.md` §7 until 
 3. **Claim age is measured by the event, not the video.** A revenue or traction claim gets zero weight in scoring if the event it describes is more than 18 months old. That covers a 2005 acquisition retold in a 2025 video. It also gets zero weight if its own source calls the venture a failure. Record `claim_event_date` next to `publish_date`.
 
 From v9, the research runs as an iteration loop. `LOOP.md` holds the objective, the stopping and stall rules, the budget and the seen-ideas ledger.
+
+---
+
+## v10 changes (proposed 23 Oct 2026 by RETRO_v9.md, pending Ricardo: stall rule triggered)
+
+v9 found P = 0 for the second iteration in a row, so per `LOOP.md` §2 the loop is paused and these changes are **proposed, not yet adopted**. Ricardo decides the direction before v10 starts.
+
+1. **Defensible asset first.** Leads must name an asset that is hard to copy in weeks (compiled UK data, a maintained rules engine, a network effect, switching cost). Score `defensible_asset` 0–10; "none" is a kill.
+2. **Buy-instead-of-build track.** Acquisition listings are evaluated as purchases with their own checklist (verified revenue, churn, platform-account transferability, owner hours, price vs profit), not as ideas to copy.
+3. **One xhigh kill-check with a dated-launch search.** The medium kill-check is dropped (v9: 28/77 verdicts flipped at xhigh). Each survivor needs a dated search for launches in the last 6 months plus the platform-owner/partner check.
+
+Infrastructure fix (not counted): the evidence schema no longer defaults `automation_share_pct` to 0; unknown is recorded as null/unverified.
