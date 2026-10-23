@@ -116,3 +116,15 @@ Run market scouts in parallel with transcript mining.
 - **Sources:** Shopify, Gumroad, Etsy, Fiverr, Upwork, the app stores, the Chrome Web Store, Product Hunt and Indie Hackers, plus UK and B2B marketplaces.
 - **Same pipeline:** feed scout findings into the same scoring (step 8) and high-effort validation (step 10) as transcript ideas.
 - **Moat check:** apply the moat check extra hard to scout findings, because live gaps get copied fast. For example, Royal Mail Click & Drop sync on Shopify drew four new apps in about a month in Sep–Oct 2026.
+
+---
+
+## EFFICIENCY
+
+Three rules for cutting token use and time without losing reliability or quality.
+
+1. **Cheap tokens only for triage.** Spend cheap, low-effort tokens only on triage, where being wrong costs nothing. Answers that drive decisions always get high-effort, web-checked validation. In v7, the low-effort pass claimed 80–90% automation, which the high-effort pass later corrected to 45–75%.
+2. **Lock the rules before mining.** Lock all scoring rules and constraints before mining starts. Changing rules mid-run forces a full re-score and burns the tokens again.
+3. **Sample quote checks.** Verify quotes by sampling a batch per miner rather than checking every quote, since 99–100% of quotes pass automated fuzzy matching at 90/100.
+
+**Safeguard:** any efficiency change gets a shadow comparison on one batch first. If the cheaper path starts missing things, revert immediately.
