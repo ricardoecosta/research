@@ -46,14 +46,14 @@ This file is the step-10 output. It is not a final shortlist.
 | SC06 Harvest for Jira | Kill | High | 9 Harvest apps live | Moat fails |
 | SC07 Orphaned Atlassian integrations | Kill | Medium | Copying confirmed again (Chatpane, InVision) | Fast copying |
 | SC08 Better Mermaid for Confluence | Kill | High | 107 matching apps | Crowded |
-| SC09 Stripe/PayPal→Xero fix | Kill | Medium | Complaints target Stripe and Xero, not features (not re-fetched) | Not addressable |
+| SC09 Stripe/PayPal→Xero fix | Kill | **High** (was medium) | Re-fetched 23 Oct: Stripe app is built by Xero (2.47★/383), PayPal app by PayPal (3.47★/136); 1★ reviews are about fees, holds and account setup | Not addressable by a third party |
 | SC10 Xero export/archive | Kill | High | Boxkite $49, Xportmydata $120, Numerint | Served |
 | SC11 Smart-meter companion | Kill | High | Bright app is free with DCC data | Free incumbent |
 | SC12 Tide times successor | Kill | High | My Tide Times 4.8★; EasyTide free | Served |
 | SC13 UK digital templates | Kill | Medium | Gumroad "uk landlord" 8 products, 0 ratings | No demand, no moat |
 | SC14 Productised automation gig | Kill | High | It's a service | Breaks rules (hours, automation) |
 | SC15 UK inspection SaaS | Kill | High | FireCert ~$4.5k MRR is real | Breaks rules (local trades, sales) |
-| SC16 HubSpot UK→Xero sync | Kill | Medium | Funded connectors (not re-fetched) | Crowded |
+| SC16 HubSpot UK→Xero sync | Kill | **High** (was medium) | Re-fetched 23 Oct: HubSpot's own Xero Data Sync now syncs invoices and payments (6K installs); HubSpot says HubSpot Payments is available in the UK, so the premise is gone | Platform owns it |
 | SC17 Companies House software filing | Kill | Medium-high | **Date is 1 Apr 2028**; P&L filing paused (GOV.UK, 23 Oct 2026); £5–£20 floor | Commodity plus liability |
 | SC18 WordPress abandoned-plugin successors | Kill | Medium | Maintained alternatives (BackWPup, UpdraftPlus) | Support hours |
 | SC19 Gift Aid WP plugin | Kill | High | Tinwell, Donor Merchant, Charitable, Sky Gift Claim | v7 gap has closed |
@@ -79,6 +79,8 @@ This file is the step-10 output. It is not a final shortlist.
    - SC09 and SC16 were not re-fetched.
    - Install counts for Chatpane aren't shown publicly.
    - App Store guideline specifics for security apps weren't rechecked.
+
+   All four gaps were closed later on 23 Oct 2026. See **Loose ends closed** at the end of this file.
 ## Part A: transcript clusters (top 15)
 
 ### C1143: One-time downloadable software. **Kill**, confidence high
@@ -231,6 +233,7 @@ This file is the step-10 output. It is not a final shortlist.
 
 ### SC09: Stripe/PayPal-to-Xero fix. **Kill**, confidence medium
 - Not rechecked beyond the scout's Xero pages. The complaints are aimed at Stripe and Xero themselves, and A2X etc. already cover reconciliation. Nothing a third party can fix.
+- **Re-fetched later on 23 Oct:** confirmed, and confidence raised to high. See Loose ends closed, LE1.
 
 ### SC10: Xero data export and archive. **Kill**, confidence high
 - **Rechecked live:** the market is served. Boxkite sells a $49 one-off export with attachments ([Boxkite](https://www.getboxkite.com/download-xero-data)), Xportmydata charges $120 one-off ([Xportmydata](https://www.xportmydata.com/single-download/)), and Numerint also exists ([Numerint](https://numerint.com/)).
@@ -252,6 +255,7 @@ This file is the step-10 output. It is not a final shortlist.
 
 ### SC16: HubSpot UK payments-to-Xero/QBO sync. **Kill**, confidence medium
 - Carried from the scout, not re-fetched. Funded connectors (Invoice Stack, Synder, the native QBO integration) already serve it, and the demand evidence is one community post.
+- **Re-fetched later on 23 Oct:** the premise is wrong, and confidence is raised to high. See Loose ends closed, LE2.
 
 ### SC17: Companies House software accounts filing for micro and dormant companies. **Kill**, confidence medium-high
 - **Date resolved (GOV.UK, live):** software-only (iXBRL) accounts filing starts **1 April 2028**; the 2027 date is superseded. WebFiling and paper close for accounts, with no transition period ([GOV.UK guidance](https://www.gov.uk/guidance/using-software-to-file-your-companys-information)). The Written Ministerial Statement records the one-year postponement from April 2027 ([Hansard](https://hansard.parliament.uk/debates/GetDebateAsText/26060938000008)).
@@ -267,3 +271,50 @@ This file is the step-10 output. It is not a final shortlist.
 
 ### SC20: Royal Mail Click & Drop sync on Shopify (benchmark). **Kill**, confidence high
 - **Benchmark reconfirmed:** MakePost launched 7 Oct 2026 with a free plan and a $5.99/mo plan ([Shopify](https://apps.shopify.com/makepost)), and Postbag launched 24 Sep 2026 ([pickyourapp](https://pickyourapp.com/products/postbag)). Postly is established ([Shopify](https://apps.shopify.com/click-and-drop-integration)).
+
+## Loose ends closed (23 Oct 2026, ~16:20 BST, live web checks)
+
+Everything listed under "Not covered" is now checked. **No verdict changed.** Two kill confidences went up, and the C2350 maybe now has named store requirements. Figures marked *unverified* couldn't be confirmed from a primary source.
+
+### LE1: SC09 Stripe/PayPal-to-Xero fix. Kill stands; confidence medium → **high**
+- The Xero UK listing for Stripe is **built by Xero**, listed since Feb 2015, and rated 2.47★ from 383 reviews ([Xero App Store](https://apps.xero.com/uk/app/stripe)). The newest 1★ reviews are about Xero opening a new Stripe account with a €99 fee, payout holds, and the 1.5% card fee.
+- PayPal's listing is **built by PayPal**, rated 3.47★ from 136 reviews ([Xero App Store](https://apps.xero.com/uk/app/paypal)). Its 1★ reviews are about account restrictions, 180-day holds and stacked fees.
+- Every complaint is about payment-provider policy or first-party onboarding. A third-party app can't fix either one.
+
+### LE2: SC16 HubSpot UK payments-to-Xero sync. Kill stands; confidence medium → **high**
+- **The premise is out of date.** The scout's source post assumed HubSpot Payments isn't available in the UK. HubSpot's community team replied that *"HubSpot Payments is now available in the UK, and you can also connect an existing Stripe account"* ([HubSpot Community thread](https://community.hubspot.com/t/how-uk-teams-syncing-hubspot-invoices-and-payments-into-xero-or-quickbooks-without-double-entry/159399)).
+- HubSpot's own **Xero Data Sync** syncs contacts, products, invoices **and payments**, one-way or both ways. Its documentation was updated 21 Oct 2026 ([HubSpot KB](https://knowledge.hubspot.com/integrations/connect-hubspot-and-xero-data-sync)). The marketplace listing shows about 6K installs at 2.2★ ([HubSpot Marketplace](https://ecosystem.hubspot.com/marketplace/listing/xero-data-sync)), and the Xero side shows 2.14★ from 7 reviews ([Xero App Store](https://apps.xero.com/uk/app/data-sync-by-hubspot)).
+- The low ratings show friction, but the platform owns the integration, and Invoice Stack and Synder sit on top of it. Same lesson as SC04 and SC05.
+
+### LE3: Chatpane (SC05 / SC07 competitor). No traction visible; SC05 kill stands
+- **Atlassian REST, fetched live:** two versions, 2.1.0 on **1 Oct 2026** and 3.0.0 on 16 Oct 2026 ([versions](https://marketplace.atlassian.com/rest/2/addons/com.brainstaticthreads.chatpane/versions)). It has 0 reviews ([reviews](https://marketplace.atlassian.com/rest/2/addons/com.brainstaticthreads.chatpane/reviews)), and its distribution record has **no `totalInstalls` field** ([distribution](https://marketplace.atlassian.com/rest/2/addons/com.brainstaticthreads.chatpane/distribution)). Google's incumbent shows 11,005 and Canary's app 124 on the same endpoint.
+- **Install count: unverified.** The missing field suggests the count is too small to publish or is hidden. That's our inference, not something Atlassian states.
+- **Reading:** Chatpane has no visible traction yet. The kill doesn't depend on Chatpane's traction anyway. It rests on Google's free app and the free Advanced alternative, and Chatpane shows that copiers arrive within weeks. Chatpane is a decent watch item for the loop: if it reaches 4★+ reviews and a visible install count by early 2027, paid demand exists against free alternatives.
+
+### LE4: App Store / Google Play rules for the C2350 vault app. No hard blocker; three named requirements; maybe-low stands
+- **Encryption export (Apple):** if the app only uses encryption built into the OS (CryptoKit, Data Protection), no documentation is needed in App Store Connect. A standard algorithm not provided by the OS needs a French encryption declaration, and only for distribution in France. Proprietary algorithms need a US CCATS ([App Store Connect Help](https://developer.apple.com/help/app-store-connect/reference/app-information/export-compliance-documentation-for-encryption/)). Set `ITSAppUsesNonExemptEncryption` accordingly. Exempt-encryption apps may still owe a US annual self-classification report ([Apple docs, mirror](https://apple-docs.everest.mt/docs/security/complying-with-encryption-export-regulations/)). **Design rule: use CryptoKit only.**
+- **Review guidelines** (page last updated 16 Oct 2026, [App Review Guidelines](https://developer.apple.com/app-store/review/guidelines/)):
+  - **4.3(b) Spam:** "Don't submit apps that are indistinguishable from what's already widely available." A me-too vault is the main rejection risk. It needs a visible differentiator, such as a UK-document focus or mandatory encrypted export.
+  - **2.5.19:** no hidden, dormant or undocumented features. That rules out the "disguised calculator" vault variant.
+  - **1.6 Data Security** and **5.1.1:** a privacy policy in the app and in metadata, and in-app account deletion if accounts exist. On-device-only with no account avoids most of this.
+- **EU DSA trader status (Apple):** a paid app makes Ricardo a trader. An **individual** account then shows an address or PO box, a phone number and an email on the EU product page. An organisation account shows its D-U-N-S address instead ([App Store Connect Help](https://developer.apple.com/help/app-store-connect/manage-compliance-information/manage-european-union-digital-services-act-trader-requirements/); [9to5Mac](https://9to5mac.com/2024/08/15/app-store-eu-developers-address/)). This isn't a face or brand problem, but it argues for a limited company with a D-U-N-S number, a PO box, or excluding the EU.
+- **Google Play:** a new **personal** account must run a closed test with **12 testers opted in for 14 consecutive days** before production. It also needs government ID and Android device verification ([Play Console Help](https://support.google.com/googleplay/android-developer/answer/14151465?hl=en); [identity](https://support.google.com/googleplay/android-developer/answer/10841920?hl=en)). Agents can't supply 12 humans, so this is a real blocker for an agent-run Android launch. An **organisation** account (D-U-N-S) is exempt from the 12-tester rule. **Recommendation:** iOS first; Android only via an organisation account.
+- **Net:** nothing blocks a solo, agent-run iOS vault. The 4.3 rejection risk and the moat findings above still cap it at **maybe, low**.
+
+### LE5: METHOD step 11, web-checked kill reasons for the 5 most-cited clusters. All 5 kills confirmed
+| Cluster (videos) | Web-checked kill reason | Sources |
+|---|---|---|
+| C0001 Tree care (28) | Physical, local and licensed. HSE requires a certificate of competence for chainsaw work on or in trees, plus aerial-rescue training for climbing. The market is saturated, with ~6,975 UK arborist firms (Apr 2026), 85% single-owner (directory data, not official statistics). | [HSE INDG317](https://www.hse.gov.uk/pubns/indg317.pdf); [HSE aerial work](https://www.hse.gov.uk/treework/safety-topics/aerial-work.htm); [Rentech directory count](https://rentechdigital.com/smartscraper/business-report-details/list-of-arborist-and-tree-surgeons-in-united-kingdom) |
+| C0002 Pressure washing (22) | Physical, sold locally. ~4,996 England listings (Apr 2026), 91% single-owner. Kit costs £500–£16k. | [Rentech England list](https://rentechdigital.com/smartscraper/business-report-details/united-kingdom/list-of-pressure-washing-services-in-england); [startupcosts.co.uk](https://startupcosts.co.uk/articles/how-much-to-start-a-pressure-washing-business-uk) |
+| C0003 Liquidation resale (21) | Physical handling and hours. UK examples show 4–35% net margin for 20–40 h per pallet, and 2 of 14 tracked TikTok pallets lost money. Both sources are pallet vendors, so the figures are optimistic if anything. | [Pay For Clearance](https://www.payforclearance.co.uk/blog/pallet-flipping-worth-it-2026); [Wholesale Return Pallets](https://www.wholesalereturnpallets.co.uk/blog/tiktok-shop-pallet-roi-uk) |
+| C0004 AI automation agency (20) | A service, sold through outreach. One estimate puts growth at ~2k → ~12k agencies (*unverified*). Cold email gets ~7 meetings per 1,000 emails, and PECR bars cold email to sole traders. Fails the hours and automation limits. | [Uncommon Advice](https://www.uncommonadvice.co/p/the-72b-market-hiding-in-plain-sight); [Ciela AI stats](https://ciela.ai/blogs/how-to-get-clients-statistics-for-ai-agencies-2026) |
+| C0005 Lawn mowing (16) | Physical, local and crowded. 2,814 UK lawn-care listings (Apr 2026); 24,399 SIC 81300 companies, 604 new in 2026. | [Rentech lawn care](https://rentechdigital.com/smartscraper/business-report-details/list-of-lawn-care-services-in-united-kingdom); [CompanyDex SIC 81300](https://companydex.co.uk/sector/landscape-service-activities) |
+
+The figures in LE5 come from live search results on 23 Oct 2026. The directory counts are commercial scrapes, not ONS data. They're used only to show saturation; none of the kills depends on them.
+
+### Still unverified after this pass
+- Chatpane's install count (LE3).
+- Paid traction on the third-party Claude-skill marketplaces Agensi and SkillHQ (C0215). This is moot, because C0215 is a moat kill.
+- Voltaire's revenue (C2350), which is still AI-compiled and not founder-verified.
+
+**Updated result: still 0 pursue, 2 maybe, 33 kill.**

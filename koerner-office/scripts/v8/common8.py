@@ -192,7 +192,7 @@ def run_claude(prompt, timeout=2400):
                        input=prompt, capture_output=True, text=True, cwd=str(WORK), timeout=timeout)
     out = (p.stdout or "").strip()
     low = (out + " " + (p.stderr or "")).lower()
-    if (p.returncode != 0 or len(out) < 400) and any(k in low for k in ("usage limit", "limit reached", "rate limit", "overloaded", "429")):
+    if (p.returncode != 0 or len(out) < 400) and any(k in low for k in ("usage limit", "session limit", "hit your", "resets", "limit reached", "rate limit", "overloaded", "429")):
         raise Busy(low[:200])
     if not out: raise ValueError("claude empty: " + (p.stderr or "")[-200:])
     return out, {}, time.time() - t0
