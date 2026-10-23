@@ -1,0 +1,62 @@
+{
+ "scores": [
+  {
+   "cid": "C2489",
+   "success_12m": 1,
+   "success_why": "[E] A single video, no first hand claims, and no verified revenue evidence. Site access, equipment capital and more than five hours a week make GBP 1k/month within a year unlikely on this budget.",
+   "agent_runnability": 2,
+   "agent_why": "[E] Payments can be self service, but site acquisition, cleaning, supplies, maintenance and customer issues need human work.",
+   "fit": 2,
+   "fit_why": "[E] Requires pitching local businesses to host the bay, which hits a hard constraint and caps fit at 3; the capital and hours also exceed the stated limits.",
+   "automation_share": 15,
+   "automation_why": "[E] Payment and some monitoring could be automated, but acquisition, cleaning, repairs and restocking remain manual.",
+   "hours_per_week": 8,
+   "sells_to_local_businesses": true,
+   "needs_face_or_personal_brand": false,
+   "uk_legal_risk": false,
+   "uk_legal_reason": null,
+   "physical_world": true,
+   "staleness_note": "Not marked stale, but recheck available bay hardware, prices, site requirements and UK operating obligations; the cited claims are not first hand.",
+   "one_line": "[E] Poor fit: local host sales, physical upkeep and capital needs outweigh the limited potential for automation."
+  },
+  {
+   "cid": "C2490",
+   "success_12m": 1,
+   "success_why": "[E] One low quality video, no first hand claims, and no specified revenue model. Equipment, deployment and UK compliance are unresolved, so meaningful revenue within 12 months is very unlikely on GBP 300.",
+   "agent_runnability": 1,
+   "agent_why": "[E] The core activity involves physical equipment and handling gold; servicing and transaction support are not described as automatable.",
+   "fit": 2,
+   "fit_why": "[E] No stated PECR or local business conflict, but the model is too vague and likely too capital intensive for the budget and available hours.",
+   "automation_share": 5,
+   "automation_why": "[E] A machine might automate a transaction, but the rest of the operating, servicing and compliance work is unspecified and likely needs human oversight.",
+   "hours_per_week": 7,
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "uk_legal_risk": false,
+   "uk_legal_reason": null,
+   "physical_world": true,
+   "staleness_note": "The 2025 evidence is thin and leaves the revenue and deployment models unspecified; recheck the machine, UK operating and compliance requirements, and any site arrangements.",
+   "one_line": "[E] Too little evidence and too many unanswered operational questions to justify a small-budget test."
+  },
+  {
+   "cid": "C2491",
+   "success_12m": 1,
+   "success_why": "[E] The cluster has one video, no first hand claims and no verified demand evidence. Equipment sourcing, retrofitting and venue placement exceed the budget and time available.",
+   "agent_runnability": 3,
+   "agent_why": "[E] Agents could help with research, paperwork and support, but sourcing, installation, venue relationships and repair work are physical or human led.",
+   "fit": 2,
+   "fit_why": "[E] Selling upgraded machines to vending operators or venues conflicts with the no local business sales constraint, capping fit at 3; capital and hours are additional mismatches.",
+   "automation_share": 20,
+   "automation_why": "[E] Some outreach administration, billing and support could be automated, but sales, sourcing, installation and servicing limit the share.",
+   "hours_per_week": 9,
+   "sells_to_local_businesses": true,
+   "needs_face_or_personal_brand": false,
+   "uk_legal_risk": false,
+   "uk_legal_reason": null,
+   "physical_world": true,
+   "staleness_note": "Marked stale. Recheck used machine and payment reader availability, college procurement routes and current platform dynamics in the UK; the cited demand and financial claims are unverified.",
+   "one_line": "[E] Weak fit: B2B venue sales and physical installation conflict with the constraints, with no verified evidence to offset the cost and workload."
+  }
+ ],
+ "_runner": "codex:gpt-6-luna:xhigh"
+}
