@@ -193,3 +193,25 @@ Infrastructure fix (not counted): the evidence schema no longer defaults `automa
 - The buy track gets about 60% of the leads and at least 4 of the 8 validation slots.
 - Demand-first leads need verified revenue of at least $1k/month, dated within the last 18 months.
 - Everything else stays locked. See `v11/RULES_LOCKED.md`.
+
+---
+
+## v11 REBUILD (23 Oct 2026, 23:15 BST, approved by Ricardo; supersedes the v11 draft above)
+
+**Principle:** AI collects, clusters and counts real evidence of paid demand. It doesn't generate ideas or pick winners. Judgement is reserved for the kill-check and validation.
+
+1. **Evidence first (build).**
+   - Harvest without an LLM from HN (Algolia), Reddit (search RSS) and 1–2★ reviews of paid tools.
+   - The LLM (cheapest that works) only labels and clusters. Counting happens in code.
+   - The bar is ≥30 distinct complainers in 6 months plus proof that someone pays for a fix. A documented lower bar is allowed if it's reported.
+   - Then come time-to-moat and the single xhigh kill-check with a dated-launch search.
+2. **The buy track is the main track.**
+   - Listings at $20k–$150k with verified revenue.
+   - The LLM writes a checklist table (stated / missing / looks off) plus 5 seller questions.
+   - A mechanical pass rule decides. It needs a plausible 90-day handover to agents, ending at ≤5 h/week.
+3. **A real-money test instead of more rounds.**
+   - Every pursue or maybe gets a ≤£50 test plan with a success threshold, such as a pre-sale page or a small ad test.
+   - Compounding assets are favoured, such as paid-listing directories and data sites.
+   - Plans only: nothing is spent and nobody is contacted.
+
+Details are in `v11/RULES_LOCKED.md`.

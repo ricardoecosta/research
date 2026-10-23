@@ -1,83 +1,67 @@
-# v11 rules (locked 23 Oct 2026, 22:27 BST, before any lead generation)
+# v11 rules (REBUILT and locked 23 Oct 2026, 23:20 BST, before harvesting)
 
-These rules can't change mid-run (METHOD EFFICIENCY rule 2). Market scope: **any country**. Ricardo is a UK-based founder, so channels must be lawful both in the UK and in the recipient's jurisdiction.
+These rules can't change mid-run. Market scope is **any country**. Ricardo is a UK-based founder, so every channel must be lawful both where he is and where the recipient is.
 
-## Hard constraints (failing any one means kill)
-1. **Agent-runnable at steady state.** Agents must handle at least 50% of all the work, including sales, support and admin. Ricardo's time must be ≤5 h/week, measured **after** the 90-day handover for bought businesses; more during the handover is fine.
+## Hard constraints (failing any one = kill)
+1. **Run by AI agents:** at least 50% of all work automated, and at most 5 h/week of Ricardo's time. For a bought business, that's the hours after the 90-day handover.
 2. **No selling to local businesses.**
-3. **No face or personal brand needed.** This includes a seller-dependent brand.
-4. **No cold or unlawful outreach.** Fine channels: SEO, app stores, marketplaces, integrations, paid ads, partnerships, and the existing customer base.
-5. **Interesting:** a software, digital or data product. No physical goods, and no services Ricardo has to deliver himself.
+3. **No face or personal brand** needed, including a brand that depends on the seller.
+4. **No cold or unlawful outreach.**
+5. **Software, digital or data product** that interests Ricardo.
 
-## Kill-check: a single Codex xhigh pass with live web; every kill cites a URL
-- **K0, build track (time to moat):** kill if any of these fails:
-  - (a) agents can build the defensible asset within 3 months (compiled data, a maintained rules engine, a network or switching costs)
-  - (b) a rival would need 3+ months to copy it
-  - (c) nobody already owns that asset
+## Track E: evidence first (build)
+1. **Harvest** (no LLM). Sources:
+   - HN Algolia comments and stories
+   - Reddit search RSS
+   - 1–2★ reviews of paid tools: Shopify App Store paid apps, WordPress.org freemium plugins, Apple App Store paid or subscription apps
 
-  Record each part as yes or no with its reason.
-- **K0, buy track:** the existing paying customer base, integrations or data must give real switching costs. Rate it 0–10; under 4 is a kill.
-- **K1:** the hard rules above.
-- **K2 copy-speed:** a dated search for competing launches since 23 Apr 2026. Two or more is a kill. For the buy track this applies to the listed product's niche.
-- **K3:** the platform owner or an official partner already serves the need.
-- **K4:** 5+ maintained incumbents at or below the price floor, with no wedge.
-- **K5:** the only payment evidence is older than 18 months (before 23 Apr 2025), or comes from a self-described failure.
-- **K6:** the demand is dead.
+   Pull everything within the **last 6 months** (since 23 Apr 2026), using fixed pain-phrase queries (`scripts/v11/harvest_evidence.py`). Store the author, date, URL and text.
+2. **Label** (Codex low, batches). For each snippet, record:
+   - `is_pain` (a real complaint or need)
+   - `pain` (≤12 words, generic, product-agnostic)
+   - `pays` (the author pays or would pay, a paid tool is named, or it's a review of a paid tool)
+3. **Cluster** (Codex medium, one call). Merge pain labels into clusters. **Count without the LLM:** distinct authors per cluster within 6 months, and paying-proof snippets.
+4. **Bar:** at least **30 distinct complainers in 6 months** and **at least 1 paying proof**.
+   - If fewer than 5 clusters reach 30, the documented lower bar is **≥10 distinct complainers plus ≥1 paying proof**, with the actual counts reported.
+   - No more than the top 40 clusters by count go to the kill-check.
+5. **Kill-check** (one Codex xhigh pass with live web; a URL for every kill):
+   - **K0 time-to-moat:** kill if any part fails. (a) Agents can build the asset within 3 months. (b) A rival needs at least 3 months to copy it. (c) Nobody already owns it.
+   - **K1:** hard rules.
+   - **K2:** a dated search for competing launches since 23 Apr 2026. Two or more is a kill.
+   - **K3:** the platform owner or an official partner already serves it.
+   - **K4:** 5 or more maintained incumbents at the price floor, with no wedge.
+   - **K6:** the demand is dead.
 
-**Buy-track checklist** (used instead of K4; K2 still applies):
-- **B1, verified revenue only.** It needs a marketplace "verified" badge, a Stripe/ProfitWell connection or verified P&L. Unverified is a **kill**.
-- **B2, floor:** ≥$1k/month revenue, with profit greater than 0.
-- **B3, price:** asking price between $20k and $150k, and at most 5× annual profit. Above 6× is a kill. Outside the band is a kill.
-- **B4, hours after the handover:** a credible 90-day handover-to-agents plan must reach ≤5 h/week. Kill if the work is inherently human: enterprise sales, account management, bespoke dev, regulated advice.
-- **B5, transferability:** the domain, code, app store or marketplace accounts and payment processor must be transferable. Kill if it depends on the seller personally.
-- **B6, durability:** no revenue decline over 30%, no platform-ban risk and no heavy churn evidence.
+## Track B: buy (main track)
+1. **Harvest** (no LLM). Flippa public search for SaaS, apps and plugins priced $20k–$150k, parsed from the cards and then the listing pages (`scripts/v11/harvest_listings.py`). Dedupe against `SEEN.csv`.
+2. **Checklist** (Codex medium, no web, from listing text only). This produces a table where each row is **stated / missing / looks off**. Rows:
+   - **C1** verified revenue (a Flippa verification badge, Stripe connection or P&L verification)
+   - **C2** revenue of at least $1k/month and profit above 0
+   - **C3** price between $20k and $150k, and at most 5× annual profit
+   - **C4** traffic and acquisition mostly organic, app store or marketplace, not owner outreach
+   - **C5** the owner's current hours and tasks
+   - **C6** no customer concentration (no customer above 20% of revenue)
+   - **C7** transferability, with no seller face or brand
+   - **C8** durability: no decline above 30%, no platform-ban risk
+   - **C9** a plausible 90-day handover to agents ending at ≤5 h/week
 
-**Demand-first leads (D)** carry verified revenue of at least $1k/month, dated within the last 18 months. Treat each as buy if it is for sale, otherwise as build-adjacent: the lead is a *different* product in the same niche, and must pass build K0.
+   The checklist also writes **5 follow-up questions for the seller**.
+3. **Pass rule (mechanical):**
+   - **Hard fails:** C1, C2, C3, C7 or C9 marked "looks off", or C1 or C2 "missing".
+   - **Pass:** no hard fail and at most 3 rows "missing".
 
-Unverifiable facts are marked `unverified` and never invented. If there's no evidenced kill, the lead survives, except for **B1 and K0, which are strict.**
-
-## Shadow check
-10 random kills (seed 11) are re-judged by Claude Opus with live web. If 2 or more of the 10 were wrong, re-run the kill-check for all kills on Claude within budget.
-
-## Scoring (METHOD step 8)
-Separate scores:
-- success in 12 months (/10)
-- agent-runnability at steady state (/10)
-- fit (/10)
-- automation share % at steady state (an estimated integer with a reason)
-- moat (/10)
-
-Also record:
-- `track`
-- `claim_event_date`
-- `copy_speed`
-- for the buy track: `listing_url`, `price`, `verified_revenue_profit`, `multiple` and `handover_plan`, a 90-day plan in 3–6 steps
-
-Hard-rule fails are dropped. The top 8 or fewer go forward, ranked by success, then moat, then fit, and **reserving at least 4 slots for the buy track** if that many survive.
+   The LLM does **not** rank or pick.
 
 ## Validation (METHOD step 10)
-Claude Opus high with live web. Fallbacks: Codex xhigh, then pi, then Grok Bot. Each verdict is pursue, maybe or kill, with confidence (low, medium or high) and URLs.
+- **Who:** E-track kill-check survivors and B-track checklist passes, at most 8 in total, with at least 4 from B if available. Claude Opus high with live web; the fallbacks are Codex xhigh, then pi, then Grok Bot.
+- **Verdicts:** pursue, maybe or kill, with confidence and URLs.
+- **Pursue at medium or higher requires** live, dated paid-demand evidence and a lawful channel. Track B also requires verified revenue confirmed on the listing and a credible handover plan. Track E also requires time-to-moat confirmed and copy-speed passing.
+- **Every pursue or maybe gets a ≤£50 test plan:** a pre-sale page, small ad test or listing-fee page, with a channel, spend, duration and success threshold. For Track B, the plan is the first due-diligence step plus a low-cost verification. **Compounding assets are favoured**, such as curated directories or data sites where vendors pay to be listed. **Nothing is spent and nobody is contacted.**
 
-**Pursue at medium or higher requires:**
-- live revenue or demand dated within 18 months (verified for the buy track)
-- a lawful channel
-- copy-speed passing on re-check
-- for build: the time-to-moat parts confirmed
-- for buy: a price that makes sense against verified profit, plus a credible handover plan and a defined due-diligence step
-- a first step taking a day or less
-
-## Sources (≤100 leads, ~60% buy)
-- **A1** Acquire.com
-- **A2** Flippa verified listings
-- **A3** Empire Flippers, FE International, Quiet Light, Microns, Tiny, IndieMaker and others
-- **D1** demand-first, verified-revenue boards (TrustMRR, Indie Hackers verified)
-- **G1** build ideas meeting time-to-moat
-
-Dedupe against `loop/SEEN.csv` at a fuzzy match of 88 or more.
+## Shadow check
+10 random kills (seed 11) are re-judged on Claude.
 
 ## Budget
-- ≤5 h wall-clock (until about 03:25 BST)
-- Codex ≤250 calls
-- Claude ≤30
-- box ≤50
-- Grok Bot web checks ≤40
+- ≤4 h wall-clock (until about 03:15 BST)
+- ≤100 clusters or listings into the kill-check or checklist
+- Codex ≤250 calls, Claude ≤30, box ≤50, Grok Bot web checks ≤40
