@@ -192,7 +192,9 @@ Return ONLY JSON: {{"scores":[{{"id":"","name":"","success_12m":0,"success_reaso
     log(f"score: {len(d['scores'])} scored, {len(bad)} hard-rule fails, top8 {[s['id'] for s in S[:8]]}")
 
 def validate():
-    sc = json.loads((W / "scores.json").read_text())["ranked"][:8]
+    d_ = json.loads((W / "scores.json").read_text()); sc = d_["ranked"][:8]
+    if not sc and os.environ.get("AUDIT_IDS"):  # scorer-audit: validate named hard-rule fails to check the scorer
+        ids = os.environ["AUDIT_IDS"].split(","); sc = [s for s in d_["failed"] if s["id"] in ids]
     def one(s):
         i = s["id"]; ev = json.loads((V9 / "evidence" / f"{i}.json").read_text())
         p = f"""You are doing HIGH-EFFORT, WEB-CHECKED VALIDATION (METHOD step 10) of one business opportunity. Today is {TODAY}. Use WebSearch and WebFetch extensively; re-verify every decisive fact live. Cite a URL for every fact. Never invent numbers; mark unverifiable as 'unverified'.
