@@ -1,0 +1,1686 @@
+{
+ "id": "Pfr6qwPZlhE",
+ "title": "We tested Instinct, Muse and Grokbot. They’re ridiculous.",
+ "channel": "My First Million",
+ "publish_date": "20260930",
+ "miner": "claude:claude-opus-5-5",
+ "mined_at": "2026-10-23T12:30:08",
+ "secs": 169,
+ "schema_errors": [],
+ "speakers": [
+  {
+   "name": "Sam Parr (inferred from channel; owns Hampton per L731; not named in transcript)",
+   "role": "host"
+  },
+  {
+   "name": "Shaan Puri (inferred from channel; not named in transcript)",
+   "role": "host"
+  }
+ ],
+ "evidence_quality": "C",
+ "promo_conflict": "One host has a Micro One affiliate link and says he would earn fees from referrals (L737-L746). A host says he invests in SF Compute (L1140). AI companies are named as heavy advertisers on creator channels (L697, L705).",
+ "ideas": [
+  {
+   "record_id": "Pfr6qwPZlhE#r2",
+   "depth": "deep",
+   "stated_problem": {
+    "quote": "Now everybody in the world is going to have access to things that only rich people used to have before.",
+    "line": 73,
+    "speaker": null
+   },
+   "idea": {
+    "name": "Instinct – AI personal assistant over iMessage",
+    "one_liner": "A consumer AI assistant you text like a person. It books, buys, chases customer service and plans events, is free to use, and takes a cut of the purchases it makes for users.",
+    "customer": "Consumers and households",
+    "offer": "A personal assistant over iMessage that handles errands, bookings, purchases and disputes",
+    "revenue_model": "Free forever; a take rate on transactions it makes for users",
+    "category": "ai_automation"
+   },
+   "citation": {
+    "lines": [
+     105,
+     109,
+     116,
+     118,
+     124,
+     125,
+     127,
+     148,
+     299,
+     301,
+     309,
+     314,
+     319,
+     342,
+     349,
+     380,
+     385,
+     449,
+     464,
+     482,
+     494,
+     503,
+     629,
+     633,
+     661,
+     662,
+     663,
+     665,
+     676,
+     677,
+     1148,
+     1153,
+     1156
+    ],
+    "primary_line": 661
+   },
+   "key_quotes": [
+    {
+     "quote": "Instinct is something that's just in your I message.",
+     "line": 148
+    },
+    {
+     "quote": "And he wants to make his money taking a cut on all the transactions.",
+     "line": 662
+    },
+    {
+     "quote": "And so it starts harassing them.",
+     "line": 349
+    },
+    {
+     "quote": "So for example, just saying it's a personal assistant instead of saying it's an AI agent.",
+     "line": 1156
+    }
+   ],
+   "claims": [
+    {
+     "claim": "Valued at $10B about two months after launch",
+     "quote": "And it's now valued at $10 billion.",
+     "line": 125,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "Raised at a $2.5B valuation three weeks earlier",
+     "quote": "They raised around at two and a half billion three weeks ago.",
+     "line": 127,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "Founder says usage grows 10% per day, compounding",
+     "quote": "The guy, the founder said they're growing 10% compounding daily.",
+     "line": 380,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "Over $1B of transactions while still invite-only",
+     "quote": "He said that already while they're in invite only, they've already crossed a billion dollars of transactions.",
+     "line": 663,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "40-50% of transaction volume is travel",
+     "quote": "That 40 or 50% of that was travel.",
+     "line": 665,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "40% of users hand over a credit card within three weeks",
+     "quote": "he said that 40% of users give instinct their credit card within the first three weeks.",
+     "line": 676,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "80% retention among users who saved a card",
+     "quote": "And then once they've done that, there's like an 80% retention rate,",
+     "line": 677,
+     "first_hand": false,
+     "hypothetical": false
+    }
+   ],
+   "acquisition_channels": [
+    {
+     "channel": "referral",
+     "details": "Invite-only access spread by word of mouth; the host was invited and got his wife using it"
+    },
+    {
+     "channel": "content_social",
+     "details": "Founder's first podcast interview (Invest Like the Best); a minimal landing page where you enter your phone number"
+    }
+   ],
+   "delivery": "Fully software. An AI agent works through iMessage text, sends emails, books services, buys with a stored card and connects to the user's inbox and accounts.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "iMessage",
+     "stored credit card vault",
+     "inbox access"
+    ],
+    "prices": [
+     "free forever",
+     "cut on transactions"
+    ],
+    "platforms": [
+     "iMessage",
+     "instinct.com"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "UK GDPR (access to inboxes and financial accounts), PSRs/FCA if it handles payments, and consumer-protection rules on agents buying for users",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 40,
+   "hours_per_week_e": 60,
+   "idea_id": "Pfr6qwPZlhE:i1",
+   "specifics_flag": true,
+   "publish_date": "20260930",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r10",
+   "depth": "deep",
+   "stated_problem": {
+    "quote": "it just works for people that they don't have to know how to do all the, the underlying setup and training and maintenance and all that",
+    "line": 425,
+    "speaker": null
+   },
+   "idea": {
+    "name": "Muse – Meta's hosted personal agent",
+    "one_liner": "Meta's own-app AI assistant. It runs an OpenClaw-style agent for each user in a cloud sandbox, so nobody has to set it up.",
+    "customer": "Mass-market consumers",
+    "offer": "A personal AI agent app with a sandboxed cloud machine per user",
+    "revenue_model": "Not stated (strategic: owning the agent layer and transaction gateway)",
+    "category": "ai_automation"
+   },
+   "citation": {
+    "lines": [
+     144,
+     145,
+     158,
+     159,
+     161,
+     389,
+     390,
+     416,
+     425,
+     427,
+     429,
+     571,
+     585,
+     586,
+     639,
+     642
+    ],
+    "primary_line": 427
+   },
+   "key_quotes": [
+    {
+     "quote": "It literally is the kind of open clause setup, but just done in the cloud where you don't have to do any of that setup.",
+     "line": 429
+    },
+    {
+     "quote": "Muse is a lot like instinct, but it's snappy or it's faster.",
+     "line": 390
+    },
+    {
+     "quote": "Amazon shut off access to muse to be able to go buy stuff on Amazon.",
+     "line": 639
+    }
+   ],
+   "claims": [
+    {
+     "claim": "Meta stock rose 24% in a month on the back of Muse",
+     "quote": "And in the last month, meta stock prices up 24% off the back of this.",
+     "line": 159,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "Roughly $500B added to market cap",
+     "quote": "It's like basically they added like $500 billion in market cap.",
+     "line": 161,
+     "first_hand": false,
+     "hypothetical": false
+    }
+   ],
+   "acquisition_channels": [
+    {
+     "channel": "paid_ads",
+     "details": "Predicted heavy sponsorship of Instagram creators and podcasts (L586)"
+    }
+   ],
+   "delivery": "Meta's own app, backed by one sandboxed machine per user in Meta's server farms",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "OpenClaw-style agent",
+     "Mac Mini-like sandbox per user"
+    ],
+    "prices": [],
+    "platforms": [
+     "Muse app",
+     "Instagram",
+     "podcasts"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "UK GDPR",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 40,
+   "hours_per_week_e": 60,
+   "idea_id": "Pfr6qwPZlhE:i2",
+   "specifics_flag": true,
+   "publish_date": "20260930",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r15",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "Grokbot – Slack-style multi-bot assistant",
+    "one_liner": "xAI's assistant, where a user creates separate bots with single jobs (tax, health, social media), each with its own goal and instructions.",
+    "customer": "Consumers and power users",
+    "offer": "Several single-purpose personal agent bots",
+    "revenue_model": "Not stated",
+    "category": "ai_automation"
+   },
+   "citation": {
+    "lines": [
+     193,
+     195,
+     196,
+     197,
+     203,
+     207,
+     211,
+     366,
+     373,
+     374
+    ],
+    "primary_line": 196
+   },
+   "key_quotes": [
+    {
+     "quote": "So Grockbot is very much like Slack.",
+     "line": 196
+    },
+    {
+     "quote": "Hey, tax guy, your job is to be constantly on top of my tax situation",
+     "line": 203
+    },
+    {
+     "quote": "Grockbach feels slow and heavy compared to this.",
+     "line": 374
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Early access through Elon's xAI ecosystem"
+    }
+   ],
+   "delivery": "Software agents configured by the user with a goal and instructions",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "Grok"
+    ],
+    "prices": [],
+    "platforms": [
+     "xAI"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "UK GDPR (health and tax data is special-category/sensitive)",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 40,
+   "hours_per_week_e": 50,
+   "idea_id": "Pfr6qwPZlhE:i3",
+   "specifics_flag": true,
+   "publish_date": "20260930",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r33",
+   "depth": "deep",
+   "stated_problem": {
+    "quote": "Yeah, all the, all the models so far have been trained on the open internet.",
+    "line": 757,
+    "speaker": null
+   },
+   "idea": {
+    "name": "Micro One – private company data broker for AI labs",
+    "one_liner": "Pays private companies for their internal data (Notion, Slack, Gmail, Drive) and resells it to frontier LLM labs as training data, keeping a margin.",
+    "customer": "Frontier AI labs (buyers) and privately held companies (suppliers)",
+    "offer": "Buys non-public business data plus expert human data and evaluations",
+    "revenue_model": "Data resale margin (example: lab pays ~$1M, company gets ~$600-800K)",
+    "category": "data_leads"
+   },
+   "citation": {
+    "lines": [
+     707,
+     714,
+     729,
+     730,
+     731,
+     732,
+     733,
+     737,
+     738,
+     744,
+     746,
+     752,
+     754,
+     755,
+     756,
+     776,
+     778
+    ],
+    "primary_line": 731
+   },
+   "key_quotes": [
+    {
+     "quote": "if you plug in your notion, your slack, your Gmail, your drive and a bunch of other information.",
+     "line": 731
+    },
+    {
+     "quote": "Their business model is that they want all types of data that people that aren't available to the public and they sell it to the large.",
+     "line": 752
+    },
+    {
+     "quote": "Micro run micro one is a data lab to train frontier models.",
+     "line": 776
+    }
+   ],
+   "claims": [
+    {
+     "claim": "Reached about $1B run rate in eight months",
+     "quote": "they grew to something like a billion dollars in run rate in a matter of eight months.",
+     "line": 730,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "Offered the host's company $800K for its data",
+     "quote": "They offered us $800,000 for our data.",
+     "line": 733,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "$50K affiliate fee per referred company",
+     "quote": "We'll give you $50,000 for everyone you refer to us.",
+     "line": 738,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "80 people went through the host's affiliate flow",
+     "quote": "I think we had 80 people go through that flow.",
+     "line": 744,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "If eight convert, the host gets about $300K in affiliate fees (maths is off: 8 × $50K = $400K)",
+     "quote": "let's just say that eight convert, that's a, I can't even do that math, $300,000 that they will give me an affiliate fees.",
+     "line": 746,
+     "first_hand": true,
+     "hypothetical": true
+    },
+    {
+     "claim": "Labs might pay about $1M per dataset",
+     "quote": "they will pay let's say a million dollars for it.",
+     "line": 754,
+     "first_hand": false,
+     "hypothetical": true
+    }
+   ],
+   "acquisition_channels": [
+    {
+     "channel": "partnerships",
+     "details": "Big affiliate fees ($50K per referral) paid to creators and founders"
+    },
+    {
+     "channel": "other",
+     "details": "Direct offers to privately held companies"
+    }
+   ],
+   "delivery": "Companies connect their workspace tools; Micro One packages the data and sells it to LLM labs; also pays experts for human data and evaluations",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "Notion",
+     "Slack",
+     "Gmail",
+     "Google Drive"
+    ],
+    "prices": [
+     "$800,000 per company dataset",
+     "$50,000 affiliate fee",
+     "~$1M paid by labs"
+    ],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "UK GDPR: selling internal comms that contain employee and customer personal data needs a lawful basis and transparency. Also confidentiality and trade-secret obligations.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 35,
+   "hours_per_week_e": 50,
+   "idea_id": "Pfr6qwPZlhE:i4",
+   "specifics_flag": true,
+   "publish_date": "20260930",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#m5",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "Small creators running AI-company sponsorships",
+    "one_liner": "Solo Instagram and YouTube creators with under 100K followers who earn $1M+ a year mostly from AI companies' ad and affiliate budgets.",
+    "customer": "AI companies buying ads and affiliate placements",
+    "offer": "Sponsored talking-head clips and podcast clips",
+    "revenue_model": "Sponsorship and affiliate fees",
+    "category": "content_media"
+   },
+   "citation": {
+    "lines": [
+     693,
+     694,
+     695,
+     696,
+     697,
+     698,
+     699,
+     700,
+     705,
+     707
+    ],
+    "primary_line": 697
+   },
+   "key_quotes": [
+    {
+     "quote": "I'm just holding up their phone talking.",
+     "line": 695
+    },
+    {
+     "quote": "it's just crazy how much money the AI industry has to buy ads.",
+     "line": 705
+    }
+   ],
+   "claims": [
+    {
+     "claim": "These creators each have under 100K followers",
+     "quote": "All of the people who I've talked to have less than a hundred thousand followers",
+     "line": 696,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "Each makes over $1M a year in ad revenue, mostly from AI companies",
+     "quote": "And all of them that I talked to are doing over a million dollars a year and add revenue, almost entirely from AI companies.",
+     "line": 697,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "Three solo creators (with part-time help) make over $10M a year",
+     "quote": "And they are doing over 10 million dollars a year in revenue.",
+     "line": 700,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "Sponsored products range from $2K/month up to $50K affiliate fees",
+     "quote": "the product costs two thousand a month all the way up to like the micro one where they're giving like, you know, $50,000 affiliate fees.",
+     "line": 707,
+     "first_hand": false,
+     "hypothetical": false
+    }
+   ],
+   "acquisition_channels": [
+    {
+     "channel": "content_social",
+     "details": "Instagram/YouTube clips and small podcasts"
+    }
+   ],
+   "delivery": "The creator records on camera; a part-time VA helps",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [],
+    "prices": [
+     "$2,000/month products",
+     "$50,000 affiliate fees"
+    ],
+    "platforms": [
+     "Instagram",
+     "YouTube",
+     "podcasts"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "ASA/CAP Code and CMA rules require clear #ad disclosure of paid and affiliate content",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": true,
+   "physical_world": false,
+   "automation_share_e": 30,
+   "hours_per_week_e": 30,
+   "idea_id": "Pfr6qwPZlhE:i5",
+   "record_added_at_mining": true,
+   "specifics_flag": true,
+   "publish_date": "20260930",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r45",
+   "depth": "deep",
+   "stated_problem": {
+    "quote": "If you're inside one of these tech companies and your AI bill is going through the roof",
+    "line": 1085,
+    "speaker": null
+   },
+   "idea": {
+    "name": "OpenRouter – LLM task router",
+    "one_liner": "An API that sends each task to the cheapest model that can handle it (open source vs frontier), cutting companies' AI bills.",
+    "customer": "Companies and developers using LLMs",
+    "offer": "One routing layer across many models",
+    "revenue_model": "Not stated (usage-based platform)",
+    "category": "saas_software"
+   },
+   "citation": {
+    "lines": [
+     1022,
+     1023,
+     1025,
+     1026,
+     1027,
+     1084,
+     1085,
+     1088,
+     1094,
+     1096,
+     1098,
+     1099,
+     1100,
+     1103,
+     1106
+    ],
+    "primary_line": 1026
+   },
+   "key_quotes": [
+    {
+     "quote": "open router, which is a tool for you send a task to it and open router will decide, let's let's use a cheap, you know, open source model for this.",
+     "line": 1022
+    },
+    {
+     "quote": "open router's data shows that more and more tasks don't require Einstein, they just need the intern.",
+     "line": 1026
+    },
+    {
+     "quote": "Wait, every company in the world's going to have this problem and then you build the company off it.",
+     "line": 1099
+    }
+   ],
+   "claims": [
+    {
+     "claim": "Valued at nearly $10B (stated as a question)",
+     "quote": "Do they, they sell for 10 billion nearly?",
+     "line": 1103,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "Raised only about $150M",
+     "quote": "I don't know. Only 150 million.",
+     "line": 1105,
+     "first_hand": false,
+     "hypothetical": false
+    }
+   ],
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Not stated"
+    }
+   ],
+   "delivery": "API software routing between hosted models",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "open source LLMs",
+     "OpenAI",
+     "Anthropic"
+    ],
+    "prices": [],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "UK GDPR (data processor for routed prompts)",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 70,
+   "hours_per_week_e": 30,
+   "idea_id": "Pfr6qwPZlhE:i6",
+   "specifics_flag": true,
+   "publish_date": "20260930",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r31",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "AI Tamagotchi-style companion app",
+    "one_liner": "A consumer app with a cute AI animal companion that messages users first, takes an interest in them and keeps them engaged.",
+    "customer": "Consumers",
+    "offer": "An AI companion chat (it asks for selfies, chats about hobbies)",
+    "revenue_model": "Not stated (run-rate revenue implies subscriptions)",
+    "category": "saas_software"
+   },
+   "citation": {
+    "lines": [
+     511,
+     512,
+     515,
+     527,
+     529,
+     543,
+     544
+    ],
+    "primary_line": 511
+   },
+   "key_quotes": [
+    {
+     "quote": "who's created a AI, like fuzzy, like bare, like a little animal, Tamagotchi type of thing that you can chat with.",
+     "line": 511
+    },
+    {
+     "quote": "wow, this thing takes a lot of interest in me.",
+     "line": 543
+    }
+   ],
+   "claims": [
+    {
+     "claim": "Close to a $100M run rate",
+     "quote": "And I think they're on like a almost $100 million run rate or something.",
+     "line": 512,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "Tens of millions run rate, maybe near $100M",
+     "quote": "It's in the tens of millions if not getting close to $100 million run rate.",
+     "line": 515,
+     "first_hand": false,
+     "hypothetical": false
+    }
+   ],
+   "acquisition_channels": [
+    {
+     "channel": "content_social",
+     "details": "Podcast appearance drove downloads"
+    }
+   ],
+   "delivery": "A mobile app with an AI chat companion",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [],
+    "prices": [],
+    "platforms": [
+     "mobile app stores"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "Online Safety Act 2023 (child safety for chatbots), UK GDPR (images and personal data), DMCC Act subscription rules",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 60,
+   "hours_per_week_e": 30,
+   "idea_id": "Pfr6qwPZlhE:i7",
+   "specifics_flag": true,
+   "publish_date": "20260930",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r1",
+   "depth": "mention",
+   "stated_problem": {
+    "quote": "Rich people used to have private drivers and black cars that would, they would tell them, hey, I'm ready.",
+    "line": 75,
+    "speaker": null
+   },
+   "idea": {
+    "name": "Uber – on-demand rides",
+    "one_liner": "Gives everyone the private driver that only the rich used to have, with on-demand rides from an app.",
+    "customer": "Consumers",
+    "offer": "Rides booked from a phone",
+    "revenue_model": "Commission per ride",
+    "category": "marketplace_directory"
+   },
+   "citation": {
+    "lines": [
+     2,
+     35,
+     74,
+     75,
+     89,
+     277
+    ],
+    "primary_line": 75
+   },
+   "key_quotes": [
+    {
+     "quote": "But this idea that you take what was always available for the ultra wealthy if you make it available to everybody.",
+     "line": 89
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Not stated"
+    }
+   ],
+   "delivery": "Drivers in a two-sided marketplace",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [],
+    "prices": [],
+    "platforms": [
+     "mobile app"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "Private hire licensing (TfL); worker status rules",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": true,
+   "automation_share_e": 10,
+   "hours_per_week_e": 60,
+   "idea_id": "Pfr6qwPZlhE:i8",
+   "specifics_flag": true,
+   "publish_date": "20260930",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r9",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "Sidecar – early rideshare",
+    "one_liner": "A rideshare app that came before Uber; it was beaten as competition intensified.",
+    "customer": "Consumers",
+    "offer": "Peer rides",
+    "revenue_model": "Commission per ride",
+    "category": "marketplace_directory"
+   },
+   "citation": {
+    "lines": [
+     38,
+     40,
+     42,
+     43,
+     46
+    ],
+    "primary_line": 46
+   },
+   "key_quotes": [
+    {
+     "quote": "And then it got smashed very quickly because the race intensified and got so competitive so fast.",
+     "line": 46
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Not stated"
+    }
+   ],
+   "delivery": "Drivers",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [],
+    "prices": [],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": null,
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": true,
+   "automation_share_e": 10,
+   "hours_per_week_e": 60,
+   "idea_id": "Pfr6qwPZlhE:i9",
+   "specifics_flag": false,
+   "publish_date": "20260930",
+   "stale_age": false,
+   "recheck": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r8",
+   "depth": "mention",
+   "stated_problem": {
+    "quote": "The ultra wealthy, wealthy had vacation homes.",
+    "line": 91,
+    "speaker": null
+   },
+   "idea": {
+    "name": "Airbnb – vacation homes for everyone",
+    "one_liner": "Makes stays in vacation homes available to everyone through a host marketplace.",
+    "customer": "Travellers",
+    "offer": "Short-term home rentals",
+    "revenue_model": "Booking fees",
+    "category": "marketplace_directory"
+   },
+   "citation": {
+    "lines": [
+     35,
+     90,
+     91
+    ],
+    "primary_line": 90
+   },
+   "key_quotes": [],
+   "claims": [],
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Not stated"
+    }
+   ],
+   "delivery": "Hosts provide the homes; the platform matches guests to them",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [],
+    "prices": [],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "Short-let rules (London 90-night limit)",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": true,
+   "automation_share_e": 20,
+   "hours_per_week_e": 50,
+   "idea_id": "Pfr6qwPZlhE:i10",
+   "specifics_flag": false,
+   "publish_date": "20260930",
+   "stale_age": false,
+   "recheck": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r25",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "DoorDash – aggregator charging both sides",
+    "one_liner": "A food delivery aggregator that charges customers fees and also charges restaurants for orders it sends them.",
+    "customer": "Consumers and restaurants",
+    "offer": "Delivery orders",
+    "revenue_model": "Customer service fees plus merchant commission",
+    "category": "marketplace_directory"
+   },
+   "citation": {
+    "lines": [
+     646,
+     685,
+     686,
+     688,
+     689,
+     690
+    ],
+    "primary_line": 686
+   },
+   "key_quotes": [
+    {
+     "quote": "They also charge the restaurant because they're like, they're telling the restaurant, hey, you wouldn't have had this order if it wasn't for us.",
+     "line": 686
+    },
+    {
+     "quote": "there's too much power in the hands of this aggregator in the middle.",
+     "line": 688
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Not stated"
+    }
+   ],
+   "delivery": "Couriers deliver restaurant orders",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [],
+    "prices": [],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": null,
+   "sells_to_local_businesses": true,
+   "needs_face_or_personal_brand": false,
+   "physical_world": true,
+   "automation_share_e": 10,
+   "hours_per_week_e": 60,
+   "idea_id": "Pfr6qwPZlhE:i11",
+   "specifics_flag": false,
+   "publish_date": "20260930",
+   "stale_age": false,
+   "recheck": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r28",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "Booking.com/Expedia travel affiliate programmes",
+    "one_liner": "Online travel agencies that pay about 3% affiliate fees; AI agents could earn these or negotiate deals.",
+    "customer": "Travellers, and agents/affiliates referring them",
+    "offer": "Hotel and travel bookings",
+    "revenue_model": "Booking commission; pays affiliates ~3%",
+    "category": "marketplace_directory"
+   },
+   "citation": {
+    "lines": [
+     665,
+     666,
+     667,
+     670
+    ],
+    "primary_line": 670
+   },
+   "key_quotes": [
+    {
+     "quote": "those guys all have these programs set up where they give you a 3% like affiliate fee.",
+     "line": 670
+    }
+   ],
+   "claims": [
+    {
+     "claim": "OTAs pay about 3% affiliate fees",
+     "quote": "those guys all have these programs set up where they give you a 3% like affiliate fee.",
+     "line": 670,
+     "first_hand": false,
+     "hypothetical": false
+    }
+   ],
+   "acquisition_channels": [
+    {
+     "channel": "partnerships",
+     "details": "Affiliate programmes"
+    }
+   ],
+   "delivery": "Software booking platform",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [],
+    "prices": [
+     "3% affiliate fee"
+    ],
+    "platforms": [
+     "Booking.com",
+     "Expedia"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "Package Travel Regulations 2018 if bundling",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 60,
+   "hours_per_week_e": 40,
+   "idea_id": "Pfr6qwPZlhE:i12",
+   "specifics_flag": true,
+   "publish_date": "20260930",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r39",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "Hugging Face – open-source AI hub (pivot)",
+    "one_liner": "Started as a chat app for teenagers and pivoted into a GitHub-like hub for sharing and hosting AI models and code.",
+    "customer": "AI developers",
+    "offer": "Model and code hosting and community",
+    "revenue_model": "Not stated (hosting)",
+    "category": "saas_software"
+   },
+   "citation": {
+    "lines": [
+     881,
+     886,
+     892,
+     895,
+     897,
+     898,
+     900
+    ],
+    "primary_line": 898
+   },
+   "key_quotes": [
+    {
+     "quote": "what they were chat app targeted at teenagers.",
+     "line": 892
+    },
+    {
+     "quote": "it's a giant community of people who are sharing, it's like GitHub.",
+     "line": 898
+    }
+   ],
+   "claims": [
+    {
+     "claim": "Reportedly sold to NVIDIA for $10B to tens of billions (speaker unsure)",
+     "quote": "And then it sold for $10 billion, I don't know what it just sold for, sold for tens of billions, I think, to end video recently.",
+     "line": 895,
+     "first_hand": false,
+     "hypothetical": false
+    }
+   ],
+   "acquisition_channels": [
+    {
+     "channel": "community",
+     "details": "Developer community"
+    }
+   ],
+   "delivery": "Software platform",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [],
+    "prices": [],
+    "platforms": [
+     "Product Hunt"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": null,
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 50,
+   "hours_per_week_e": 50,
+   "idea_id": "Pfr6qwPZlhE:i13",
+   "specifics_flag": true,
+   "publish_date": "20260930",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r48",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "Higgsfield – AI video generator",
+    "one_liner": "An AI tool that started with artsy photos and moved to video generation; reportedly at a billion-dollar run rate.",
+    "customer": "Creators",
+    "offer": "AI image/video generation",
+    "revenue_model": "Not stated (subscriptions implied)",
+    "category": "saas_software"
+   },
+   "citation": {
+    "lines": [
+     978,
+     1130,
+     1131,
+     1132,
+     1133
+    ],
+    "primary_line": 1130
+   },
+   "key_quotes": [],
+   "claims": [
+    {
+     "claim": "Announced it is at a billion (run rate)",
+     "quote": "Higgs field just announced they're at a billion Higgs field was just like a AI tool to make videos.",
+     "line": 1130,
+     "first_hand": false,
+     "hypothetical": false
+    }
+   ],
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Not stated"
+    }
+   ],
+   "delivery": "Software",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [],
+    "prices": [],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "DMCC Act subscription rules",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 60,
+   "hours_per_week_e": 40,
+   "idea_id": "Pfr6qwPZlhE:i14",
+   "specifics_flag": false,
+   "publish_date": "20260930",
+   "stale_age": false,
+   "recheck": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r49",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "Jev – faster, cheaper logic models",
+    "one_liner": "A startup from a ChatGPT co-creator building a different kind of model for logic that is meant to be faster and cheaper.",
+    "customer": "Developers and businesses",
+    "offer": "AI models",
+    "revenue_model": "Not stated (usage revenue)",
+    "category": "saas_software"
+   },
+   "citation": {
+    "lines": [
+     1134,
+     1135,
+     1137,
+     1138
+    ],
+    "primary_line": 1137
+   },
+   "key_quotes": [
+    {
+     "quote": "a different type of models for doing logic that's supposed to be faster and cheaper.",
+     "line": 1137
+    }
+   ],
+   "claims": [
+    {
+     "claim": "$100M revenue pace two weeks after launch",
+     "quote": "they said they're at a hundred million dollar like kind of revenue pace now.",
+     "line": 1138,
+     "first_hand": false,
+     "hypothetical": false
+    }
+   ],
+   "acquisition_channels": [
+    {
+     "channel": "content_social",
+     "details": "Launch video"
+    }
+   ],
+   "delivery": "Software/API",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [],
+    "prices": [],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": null,
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 40,
+   "hours_per_week_e": 60,
+   "idea_id": "Pfr6qwPZlhE:i15",
+   "specifics_flag": false,
+   "publish_date": "20260930",
+   "stale_age": false,
+   "recheck": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r50",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "SF Compute – compute contracts",
+    "one_liner": "A company selling GPU compute contracts; it announced $245M of new contracts. A host is an investor.",
+    "customer": "AI companies needing compute",
+    "offer": "Compute capacity",
+    "revenue_model": "Compute contracts",
+    "category": "b2b_service"
+   },
+   "citation": {
+    "lines": [
+     1140,
+     1143,
+     1144
+    ],
+    "primary_line": 1143
+   },
+   "key_quotes": [],
+   "claims": [
+    {
+     "claim": "Signed $245M of new contracts",
+     "quote": "he just announced they signed two hundred forty five million dollars worth of new contracts.",
+     "line": 1143,
+     "first_hand": false,
+     "hypothetical": false
+    }
+   ],
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Not stated"
+    }
+   ],
+   "delivery": "Compute infrastructure",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [],
+    "prices": [],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": null,
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 40,
+   "hours_per_week_e": 50,
+   "idea_id": "Pfr6qwPZlhE:i16",
+   "specifics_flag": false,
+   "publish_date": "20260930",
+   "stale_age": false,
+   "recheck": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r17",
+   "depth": "mention",
+   "stated_problem": {
+    "quote": "And they keep canceling on me.",
+    "line": 306,
+    "speaker": null
+   },
+   "idea": {
+    "name": "Asurion – phone repair subscription",
+    "one_liner": "A monthly device protection plan that sends technicians to fix iPhone screens. The host complains of repeated cancellations.",
+    "customer": "Phone owners",
+    "offer": "Screen repair cover",
+    "revenue_model": "$20/month subscription",
+    "category": "other"
+   },
+   "citation": {
+    "lines": [
+     303,
+     305,
+     306,
+     308,
+     309
+    ],
+    "primary_line": 305
+   },
+   "key_quotes": [
+    {
+     "quote": "I schedule an appointment.",
+     "line": 307
+    }
+   ],
+   "claims": [
+    {
+     "claim": "$20/month subscription for iPhone screen repair",
+     "quote": "You pay $20 a month, and they fix an iPhone screen.",
+     "line": 305,
+     "first_hand": false,
+     "hypothetical": false
+    }
+   ],
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Not stated"
+    }
+   ],
+   "delivery": "Repair technicians",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [],
+    "prices": [
+     "$20/month"
+    ],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "DMCC Act subscription contract rules; FCA insurance rules if sold as cover",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": true,
+   "automation_share_e": 10,
+   "hours_per_week_e": 60,
+   "idea_id": "Pfr6qwPZlhE:i17",
+   "specifics_flag": true,
+   "publish_date": "20260930",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r11",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "Scale AI – AI training data",
+    "one_liner": "A data labelling and training-data company; Meta paid about $18B in a deal described as an acqui-hire.",
+    "customer": "AI labs",
+    "offer": "Training data",
+    "revenue_model": "Data services contracts",
+    "category": "b2b_service"
+   },
+   "citation": {
+    "lines": [
+     162,
+     163,
+     164,
+     165
+    ],
+    "primary_line": 164
+   },
+   "key_quotes": [
+    {
+     "quote": "There's a really weird deal where it was like basically an aqua hire for $18 billion.",
+     "line": 165
+    }
+   ],
+   "claims": [
+    {
+     "claim": "Meta bought Scale AI for about $18B",
+     "quote": "They bought scale AI for like $18 billion.",
+     "line": 164,
+     "first_hand": false,
+     "hypothetical": false
+    }
+   ],
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Not stated"
+    }
+   ],
+   "delivery": "Human labellers plus software",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [],
+    "prices": [],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": null,
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 30,
+   "hours_per_week_e": 60,
+   "idea_id": "Pfr6qwPZlhE:i18",
+   "specifics_flag": false,
+   "publish_date": "20260930",
+   "stale_age": false,
+   "recheck": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r34",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "Hampton – private founder community",
+    "one_liner": "A host's private, confidential community for business owners. It turned down Micro One's data offer to protect confidentiality.",
+    "customer": "Founders and business owners",
+    "offer": "A private peer community",
+    "revenue_model": "Not stated (membership)",
+    "category": "other"
+   },
+   "citation": {
+    "lines": [
+     731,
+     734,
+     735,
+     740
+    ],
+    "primary_line": 734
+   },
+   "key_quotes": [
+    {
+     "quote": "part of the whole thing of Hampton is like, it's a private community.",
+     "line": 734
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [
+    {
+     "channel": "content_social",
+     "details": "The host's podcast and Twitter audience (implied)"
+    }
+   ],
+   "delivery": "Community run by the founder's team",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [],
+    "prices": [],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "UK GDPR",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": true,
+   "physical_world": false,
+   "automation_share_e": 40,
+   "hours_per_week_e": 30,
+   "idea_id": "Pfr6qwPZlhE:i19",
+   "specifics_flag": false,
+   "publish_date": "20260930",
+   "stale_age": false,
+   "recheck": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r44",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "Palantir – data organisation against terrorism",
+    "one_liner": "Enterprise and government software that organises data to stop terrorist attacks. Cited as an example of spotting big-company problems.",
+    "customer": "Governments and large enterprises",
+    "offer": "Data integration software",
+    "revenue_model": "Enterprise contracts",
+    "category": "saas_software"
+   },
+   "citation": {
+    "lines": [
+     1055,
+     1056,
+     1057
+    ],
+    "primary_line": 1055
+   },
+   "key_quotes": [
+    {
+     "quote": "how did the founders of Palantir even like come to the conclusion that organizing data is the way to solve terrorist attacks.",
+     "line": 1055
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Not stated"
+    }
+   ],
+   "delivery": "Software plus deployed engineers",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [],
+    "prices": [],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": null,
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 20,
+   "hours_per_week_e": 60,
+   "idea_id": "Pfr6qwPZlhE:i20",
+   "specifics_flag": false,
+   "publish_date": "20260930",
+   "stale_age": false,
+   "recheck": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r43",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "Cloudflare – CDN infrastructure",
+    "one_liner": "A CDN and web infrastructure company, cited as solving a problem most people don't understand.",
+    "customer": "Websites and enterprises",
+    "offer": "CDN/security",
+    "revenue_model": "Not stated",
+    "category": "saas_software"
+   },
+   "citation": {
+    "lines": [
+     1052,
+     1054
+    ],
+    "primary_line": 1052
+   },
+   "key_quotes": [
+    {
+     "quote": "Yeah, I was like, I don't even know what CDN meets.",
+     "line": 1054
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Not stated"
+    }
+   ],
+   "delivery": "Software infrastructure",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [],
+    "prices": [],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": null,
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 50,
+   "hours_per_week_e": 50,
+   "idea_id": "Pfr6qwPZlhE:i21",
+   "specifics_flag": false,
+   "publish_date": "20260930",
+   "stale_age": false,
+   "recheck": false
+  }
+ ]
+}

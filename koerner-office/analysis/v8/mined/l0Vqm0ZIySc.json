@@ -1,0 +1,294 @@
+{
+ "id": "l0Vqm0ZIySc",
+ "title": "He Asked AI To Make Money. It Did.",
+ "channel": "Chris Koerner on The Koerner Office Podcast",
+ "publish_date": "20260320",
+ "miner": "grokbot-box",
+ "mined_at": "2026-10-23T13:54:37",
+ "secs": 0,
+ "schema_errors": [],
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host"
+  },
+  {
+   "name": "Robbie",
+   "role": "guest"
+  }
+ ],
+ "evidence_quality": "B",
+ "promo_conflict": "Guest offers a coupon code for his paid AI co-founder club at the end",
+ "ideas": [
+  {
+   "record_id": "l0Vqm0ZIySc#r1",
+   "depth": "deep",
+   "stated_problem": {
+    "quote": "A lot of people are super scared of open claw because they don't want it on their local machine.",
+    "line": 242,
+    "speaker": "Robbie"
+   },
+   "idea": {
+    "name": "AI co-founder club: hosted personal AI agent subscription",
+    "one_liner": "Cloud-hosted, containerised OpenClaw agents for non-technical people plus Discord community and templates at $29/mo, validated with $10 TikTok pre-order deposits",
+    "customer": "non-technical consumers wanting their own AI agent",
+    "offer": "sandboxed 24/7 AI agent, Discord community, templates and setup",
+    "revenue_model": "$29/month subscription; $10 deposit pre-orders",
+    "category": "ai_automation"
+   },
+   "citation": {
+    "lines": [
+     187,
+     188,
+     207,
+     209,
+     231,
+     248,
+     256,
+     275,
+     280,
+     351,
+     359,
+     382,
+     399,
+     402,
+     547,
+     548
+    ],
+    "primary_line": 399
+   },
+   "key_quotes": [
+    {
+     "quote": "And so I hooked up stand to my TikTok and the only way that you could pre-order was if you put down 10 bucks.",
+     "line": 275
+    },
+    {
+     "quote": "So to get around that risk, what we did was essentially put open claw inside of a sealed container.",
+     "line": 248
+    },
+    {
+     "quote": "Somebody recently spawned 125 sub agents in 5 days.",
+     "line": 556
+    }
+   ],
+   "claims": [
+    {
+     "claim": "617 pre-orders in two weeks from organic TikTok",
+     "quote": "So yeah, we did that and I put it on TikTok and said, \"Hey, if you want to run, come sign up.\" And in two weeks, we had like 617 pre-orders.",
+     "line": 256,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "270 of 600 depositors converted to members",
+     "quote": "From those 600 people, 270 of them actually join the community.",
+     "line": 382,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "$8,374 MRR after 13 days",
+     "quote": "Yeah, I can tell you what it is, right? And it's 8374 right now.",
+     "line": 398,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "Costs ~$600/mo servers plus ~$2k/mo inference",
+     "quote": "The big cost that we have right now is about two grand a month for inference.",
+     "line": 548,
+     "first_hand": true,
+     "hypothetical": false
+    }
+   ],
+   "acquisition_channels": [
+    {
+     "channel": "TikTok organic",
+     "details": "build-in-public 'AI starting a business' videos; 1M+ views; Apify-scraped comment demand"
+    },
+    {
+     "channel": "paid pre-order deposits",
+     "details": "$10 deposit via Stan"
+    }
+   ],
+   "delivery": "Docker containers on rented Contabo bare-metal servers; access via Telegram, Discord or web UI",
+   "specifics": {
+    "tools": [
+     "OpenClaw",
+     "Claude Max",
+     "Apify",
+     "Docker",
+     "Stan"
+    ],
+    "prices": [
+     "$29/month founding price",
+     "$10 deposit",
+     "~$150/month per server x4",
+     "~$2,000/month inference"
+    ],
+    "platforms": [
+     "TikTok",
+     "Discord",
+     "Telegram",
+     "Contabo"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": ""
+   },
+   "other_uk_rules": "UK GDPR applies to hosting user data in agents",
+   "needs_face_or_personal_brand": true,
+   "physical_world": false,
+   "automation_share_e": 70,
+   "hours_per_week_e": 30,
+   "feature_request": false,
+   "existing_tool": null,
+   "sells_to_local_businesses": false,
+   "idea_id": "l0Vqm0ZIySc:i1",
+   "specifics_flag": true,
+   "publish_date": "20260320",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "l0Vqm0ZIySc#r3",
+   "depth": "brief",
+   "stated_problem": null,
+   "idea": {
+    "name": "AI-generated SWOT/market analysis gigs on Fiverr",
+    "one_liner": "AI agent writes SWOT and market research for small businesses sold as Fiverr gigs; failed for a new account with no reviews",
+    "customer": "small business owners",
+    "offer": "SWOT and market research reports",
+    "revenue_model": "per-gig fees",
+    "category": "b2b_service"
+   },
+   "citation": {
+    "lines": [
+     112,
+     125,
+     126,
+     134,
+     137,
+     141,
+     142
+    ],
+    "primary_line": 112
+   },
+   "key_quotes": [
+    {
+     "quote": "And that's why it failed because uh the hopefully they see your posting is uh kind of where it fell apart.",
+     "line": 134
+    }
+   ],
+   "claims": [
+    {
+     "claim": "Demand exists on Fiverr for regular research",
+     "quote": "I was kind of amazed people that just need regular research done which kind of I think cementss the fact that most businesses don't have a good grasp of what AI is doing",
+     "line": 141,
+     "first_hand": true,
+     "hypothetical": false
+    }
+   ],
+   "acquisition_channels": [
+    {
+     "channel": "Fiverr",
+     "details": "new account, no ads or reviews"
+    }
+   ],
+   "specifics": {
+    "tools": [
+     "OpenClaw"
+    ],
+    "prices": [],
+    "platforms": [
+     "Fiverr",
+     "Upwork"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": ""
+   },
+   "sells_to_local_businesses": true,
+   "physical_world": false,
+   "automation_share_e": 80,
+   "hours_per_week_e": 5,
+   "delivery": "not stated",
+   "feature_request": false,
+   "existing_tool": null,
+   "other_uk_rules": null,
+   "needs_face_or_personal_brand": false,
+   "idea_id": "l0Vqm0ZIySc:i2",
+   "specifics_flag": true,
+   "publish_date": "20260320",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "l0Vqm0ZIySc#r4",
+   "depth": "brief",
+   "stated_problem": null,
+   "idea": {
+    "name": "$9 AI TikTok account audits",
+    "one_liner": "AI agent reviews a creator's TikTok videos and comments and sells improvement audits for $9",
+    "customer": "TikTok creators",
+    "offer": "TikTok profile audit",
+    "revenue_model": "$9 per audit",
+    "category": "ai_automation"
+   },
+   "citation": {
+    "lines": [
+     181,
+     182,
+     184,
+     293,
+     295
+    ],
+    "primary_line": 293
+   },
+   "key_quotes": [
+    {
+     "quote": "He wants to audit your Tik Tok for $9 in order to stay alive.",
+     "line": 293
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [
+    {
+     "channel": "TikTok",
+     "details": "AI-persona launch video"
+    }
+   ],
+   "specifics": {
+    "tools": [
+     "OpenClaw"
+    ],
+    "prices": [
+     "$9 per audit"
+    ],
+    "platforms": [
+     "TikTok"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": ""
+   },
+   "physical_world": false,
+   "automation_share_e": 80,
+   "hours_per_week_e": 5,
+   "delivery": "not stated",
+   "feature_request": false,
+   "existing_tool": null,
+   "other_uk_rules": null,
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "idea_id": "l0Vqm0ZIySc:i3",
+   "specifics_flag": true,
+   "publish_date": "20260320",
+   "stale_age": false,
+   "recheck": true
+  }
+ ]
+}

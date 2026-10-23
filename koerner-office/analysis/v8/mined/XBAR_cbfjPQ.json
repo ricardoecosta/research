@@ -1,0 +1,265 @@
+{
+ "id": "XBAR_cbfjPQ",
+ "title": "This Simple AI Setup Makes Me $8K Every Month",
+ "channel": "Chris Koerner on The Koerner Office Podcast",
+ "publish_date": "20261006",
+ "miner": "grokbot-box",
+ "mined_at": "2026-10-23T13:07:50",
+ "secs": 0,
+ "schema_errors": [],
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host"
+  }
+ ],
+ "evidence_quality": "B",
+ "promo_conflict": "Video is built around OpenArt (Arena leaderboard, Seedance model) with a free doc link; sponsorship not stated but likely",
+ "ideas": [
+  {
+   "record_id": "XBAR_cbfjPQ#r1",
+   "depth": "deep",
+   "stated_problem": {
+    "quote": "Nobody has a Spanish version, even though one in seven people speak Spanish at home.",
+    "line": 7,
+    "speaker": "Chris Koerner"
+   },
+   "idea": {
+    "name": "AI lip-synced Spanish dubbing for local business videos",
+    "one_liner": "Use the top lip-sync model on OpenArt to dub local businesses' ads and videos into Spanish, offering a free first video by DM then two a month for $500",
+    "customer": "home services, dentists/med spas, real estate agents, farmers market vendors, food trucks",
+    "offer": "lip-synced Spanish versions of existing videos",
+    "revenue_model": "~$300/video or $500/month for two videos",
+    "category": "ai_automation"
+   },
+   "citation": {
+    "lines": [
+     1,
+     7,
+     8,
+     40,
+     43,
+     46,
+     55,
+     59,
+     62,
+     71,
+     106,
+     207,
+     211,
+     214,
+     262
+    ],
+    "primary_line": 214
+   },
+   "key_quotes": [
+    {
+     "quote": "And you can fix that for them for a fee in about 20 minutes and charge 300 bucks per video to do it.",
+     "line": 8
+    },
+    {
+     "quote": "I made a Spanish version of one of your videos for free. No catch.",
+     "line": 211
+    },
+    {
+     "quote": "If it brings in customers, I can do two a month for $500.",
+     "line": 214
+    }
+   ],
+   "claims": [
+    {
+     "claim": "10 clients at ~$600/month is $6K/month",
+     "quote": "Get 10 clients, and you're at six grand a month for something that takes you an afternoon.",
+     "line": 46,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "His single test DM got no response",
+     "quote": "Sadly, maybe not a surprise to most of you, I did not get a response to that DM.",
+     "line": 262,
+     "first_hand": true,
+     "hypothetical": false
+    }
+   ],
+   "acquisition_channels": [
+    {
+     "channel": "cold_sms_dm",
+     "details": "DM/text vendors with a free pre-made Spanish version"
+    },
+    {
+     "channel": "cold_email",
+     "details": "cold texts and LinkedIn messages at volume"
+    }
+   ],
+   "delivery": "upload video to OpenArt Seedance 2.5 with a one-line dubbing prompt; 1-2 minute generation",
+   "specifics": {
+    "tools": [
+     "OpenArt",
+     "OpenArt Arena",
+     "Seedance 2.5",
+     "MiniMax"
+    ],
+    "prices": [
+     "$300/video",
+     "$500/month for 2 videos",
+     "~$10 per 30s generation"
+    ],
+    "platforms": [
+     "Instagram DMs",
+     "LinkedIn"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": true,
+    "reason": "Cold texts/DMs to sole-trader vendors fall under PECR consent rules"
+   },
+   "other_uk_rules": "Voice/likeness cloning needs the subject's consent; ad content must stay accurate under CAP Code",
+   "sells_to_local_businesses": true,
+   "automation_share_e": 75,
+   "hours_per_week_e": 10,
+   "feature_request": false,
+   "existing_tool": null,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "idea_id": "XBAR_cbfjPQ:i1",
+   "specifics_flag": true,
+   "publish_date": "20261006",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "XBAR_cbfjPQ#r2",
+   "depth": "deep",
+   "idea": {
+    "name": "Dub your own YouTube channel into multiple languages",
+    "one_liner": "Add AI-dubbed audio tracks in 13 languages to earn ad revenue from foreign views",
+    "customer": "YouTube viewers abroad",
+    "offer": "multi-language audio tracks",
+    "revenue_model": "YouTube ad revenue at ~$8 RPM on foreign views",
+    "category": "content_media"
+   },
+   "citation": {
+    "lines": [
+     9,
+     117,
+     118,
+     236,
+     239,
+     240,
+     241
+    ],
+    "primary_line": 241
+   },
+   "key_quotes": [
+    {
+     "quote": "And I make about on my foreign views, I make like $8 per thousand views.",
+     "line": 239
+    },
+    {
+     "quote": "So, that's $8,000 extra dollars a month that I would not have gotten otherwise.",
+     "line": 241
+    }
+   ],
+   "claims": [
+    {
+     "claim": "Over a million foreign views per month since dubbing started April 2026",
+     "quote": "So, I'm getting over a million views per month.",
+     "line": 240,
+     "first_hand": true,
+     "hypothetical": false
+    }
+   ],
+   "acquisition_channels": [
+    {
+     "channel": "content_social",
+     "details": "YouTube multi-language audio tracks"
+    }
+   ],
+   "specifics": {
+    "tools": [
+     "custom dubbing app",
+     "OpenArt"
+    ],
+    "prices": [
+     "$8 RPM",
+     "$8,000/month"
+    ],
+    "platforms": [
+     "YouTube"
+    ]
+   },
+   "needs_face_or_personal_brand": true,
+   "automation_share_e": 80,
+   "hours_per_week_e": 3,
+   "stated_problem": null,
+   "delivery": "not stated",
+   "feature_request": false,
+   "existing_tool": null,
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": null,
+   "sells_to_local_businesses": false,
+   "physical_world": false,
+   "idea_id": "XBAR_cbfjPQ:i2",
+   "specifics_flag": true,
+   "publish_date": "20261006",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "XBAR_cbfjPQ#r11",
+   "depth": "mention",
+   "idea": {
+    "name": "Dubbing service for YouTubers with 100K+ subscribers",
+    "one_liner": "Sell creators extra-language audio tracks to open Mexico, Spain, Colombia on existing videos",
+    "customer": "YouTubers over 100K subscribers",
+    "offer": "dubbed audio tracks",
+    "revenue_model": "per-video fee",
+    "category": "content_media"
+   },
+   "citation": {
+    "lines": [
+     66,
+     69,
+     70
+    ],
+    "primary_line": 70
+   },
+   "key_quotes": [
+    {
+     "quote": "So, one dubbed track can open up Mexico, Spain, Colombia, Costa Rica on a video that they've already put time and money into.",
+     "line": 70
+    }
+   ],
+   "automation_share_e": 75,
+   "hours_per_week_e": 10,
+   "stated_problem": null,
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "not stated",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [],
+    "prices": [],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": null,
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "idea_id": "XBAR_cbfjPQ:i3",
+   "specifics_flag": false,
+   "publish_date": "20261006",
+   "stale_age": false,
+   "recheck": false
+  }
+ ]
+}

@@ -1,0 +1,143 @@
+{
+ "id": "_mWhcH41Mxw",
+ "title": "Google’s New AI Tool Is Crazy Powerful (Here’s How to Profit)",
+ "channel": "Chris Koerner on The Koerner Office Podcast",
+ "publish_date": "20250903",
+ "miner": "grokbot-box",
+ "mined_at": "2026-10-23T13:22:09",
+ "secs": 0,
+ "schema_errors": [],
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host"
+  }
+ ],
+ "evidence_quality": "C",
+ "promo_conflict": "Host promotes his own HighLevel done-for-you setup service at the end and uses affiliate-style tools (Lindy, Outscraper, HighLevel)",
+ "ideas": [
+  {
+   "record_id": "_mWhcH41Mxw#r1",
+   "depth": "deep",
+   "stated_problem": {
+    "quote": "There are 2 million real estate agents in America and about 70% of them list homes for sale that either have bad pictures or pictures of homes that aren't staged.",
+    "line": 7,
+    "speaker": "Chris Koerner"
+   },
+   "idea": {
+    "name": "AI virtual staging and photo enhancement for estate agents",
+    "one_liner": "Vibe-code a private web app on Google's Nano Banana (Gemini image) API, grab unstaged photos from live listings, add furniture or DSLR-style polish, and text the free mock-up to the listing agent via a HighLevel automation to win paid work",
+    "customer": "residential real estate agents with unstaged or poorly photographed listings",
+    "offer": "AI-staged and enhanced listing photos",
+    "revenue_model": "~$1 per photo to start, later ~$500/month unlimited plan",
+    "category": "ai_automation"
+   },
+   "citation": {
+    "lines": [
+     7,
+     9,
+     15,
+     22,
+     24,
+     26,
+     44,
+     90,
+     223,
+     256,
+     321,
+     343,
+     363,
+     384
+    ],
+    "primary_line": 26
+   },
+   "key_quotes": [
+    {
+     "quote": "And then I'm going to proactively give these pictures for free to the listing agent.",
+     "line": 22
+    },
+    {
+     "quote": "You've got a 96% profit margin cuz you're charging a dollar and you're paying 4.",
+     "line": 27
+    },
+    {
+     "quote": "Maybe she joins a monthly recurring plan for 500 bucks a month for unlimited revisions to unstaged photos.",
+     "line": 363
+    },
+    {
+     "quote": "There could be a thousand of these agencies that just edits photos for real estate agents, and there'd still be room for everyone.",
+     "line": 384
+    }
+   ],
+   "claims": [
+    {
+     "claim": "Staged homes sell for 6-10% more",
+     "quote": "Furthermore, homes that are staged when they're listed for sale sell for 6 to 10% more.",
+     "line": 9,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "Editing one image costs about 3.9 cents",
+     "quote": "Now, as long as your prompt is not too complex, which mine will not be, it costs about 3.9 to edit one picture.",
+     "line": 24,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "Scrape yielded 542 Oklahoma City agents with mobile numbers",
+     "quote": "Okay, we are left with 562 real estate agents in Oklahoma City that have cell phone numbers.",
+     "line": 223,
+     "first_hand": true,
+     "hypothetical": false
+    }
+   ],
+   "acquisition_channels": [
+    {
+     "channel": "cold_sms_dm",
+     "details": "Outscraper Google Maps scrape of agents' mobiles, imported to HighLevel; uploading the edited photo triggers an SMS with the mock-up link and a follow-up pipeline"
+    }
+   ],
+   "delivery": "Lindy vibe-coded web app calling Gemini Nano Banana API; manual photo selection from Zillow; HighLevel CRM workflows",
+   "specifics": {
+    "tools": [
+     "Nano Banana (Gemini 2.5 Flash Image)",
+     "Google AI Studio",
+     "Lindy",
+     "Outscraper",
+     "Google Sheets",
+     "HighLevel",
+     "ChatGPT"
+    ],
+    "prices": [
+     "~$0.039 per edit",
+     "$1 per photo",
+     "$20 per listing",
+     "$500/month unlimited"
+    ],
+    "platforms": [
+     "Zillow",
+     "Redfin",
+     "Realtor.com"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": true,
+    "reason": "Unsolicited marketing texts to scraped mobiles of agents (many sole traders/individuals) breach PECR without consent"
+   },
+   "other_uk_rules": "UK GDPR for scraped personal data; copyright in listing photos; misleading virtual staging can breach the Digital Markets, Competition and Consumers Act unfair-practice rules and NTSELAT material-information guidance unless clearly labelled",
+   "physical_world": false,
+   "automation_share_e": 70,
+   "hours_per_week_e": 10,
+   "feature_request": false,
+   "existing_tool": null,
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "idea_id": "_mWhcH41Mxw:i1",
+   "specifics_flag": true,
+   "publish_date": "20250903",
+   "stale_age": false,
+   "recheck": true
+  }
+ ]
+}

@@ -1,0 +1,321 @@
+{
+ "id": "OV09yPLf8BI",
+ "title": "How I Built This $160K/Month Gym App",
+ "channel": "Starter Story",
+ "publish_date": "20260909",
+ "miner": "claude:claude-opus-5-5",
+ "mined_at": "2026-10-23T12:26:22",
+ "secs": 48,
+ "schema_errors": [],
+ "speakers": [
+  {
+   "name": "Mauro",
+   "role": "guest"
+  },
+  {
+   "name": "Starter Story host (unnamed)",
+   "role": "host"
+  },
+  {
+   "name": "Starter Story co-host (unnamed, post-interview discussion)",
+   "role": "other"
+  }
+ ],
+ "evidence_quality": "A",
+ "promo_conflict": "Starter Story publishes founder success stories as content marketing for its own business. Named tools (Claude, Superwall, PostHog, RevenueCat, Wispr Flow) are mentioned but no sponsorship is visible in the cleaned text. Revenue shown on the founder's own dashboard, not independently verified.",
+ "ideas": [
+  {
+   "record_id": "OV09yPLf8BI#r1",
+   "depth": "deep",
+   "stated_problem": null,
+   "idea": {
+    "name": "Symmetry – Spanish-language gym tracking app",
+    "one_liner": "Consumer iOS/Android app for logging workouts, weights and reps, with ranks, streaks and a social feed. It targets Spanish-speaking gym-goers (Spain, Mexico), earns through a subscription paywall, and grows through a large paid UGC creator network.",
+    "customer": "Spanish-speaking gym-goers, mainly in Spain and Mexico, from beginners to regular lifters",
+    "offer": "Workout plans and tracking, exercise videos, per-muscle and per-exercise ranks, streaks, levelling, and a Strava-like social feed",
+    "revenue_model": "In-app subscription behind a paywall (A/B tested with Superwall); about half of revenue is paid out to UGC creators",
+    "category": "saas_software"
+   },
+   "citation": {
+    "lines": [
+     3,
+     19,
+     20,
+     21,
+     25,
+     26,
+     28,
+     29,
+     43,
+     44,
+     45,
+     55,
+     57,
+     58,
+     59,
+     60,
+     61,
+     63,
+     64,
+     92,
+     93,
+     97,
+     109,
+     114,
+     115,
+     125,
+     126,
+     134,
+     137,
+     156,
+     158,
+     177,
+     186,
+     188,
+     189,
+     197,
+     198,
+     199,
+     200,
+     201,
+     204,
+     212
+    ],
+    "primary_line": 25
+   },
+   "key_quotes": [
+    {
+     "quote": "Okay, so basically, it's a gym tracking app, so you can track your workouts and track your weight and reps for different exercises.",
+     "line": 25
+    },
+    {
+     "quote": "And currently, we are in the Spanish markets, mainly in Spain and Mexico.",
+     "line": 26
+    },
+    {
+     "quote": "So we tried other methods, and that is when we found UGC, we were really good at it, and we just did more and better.",
+     "line": 55
+    },
+    {
+     "quote": "Something that really works for us is we segment the videos into formats.",
+     "line": 59
+    },
+    {
+     "quote": "This is going to basically decide the amount of money you can pay for creators if they bring downloads",
+     "line": 126
+    },
+    {
+     "quote": "activation in symmetries really hard because you have to make someone go to the gym and actually track your workout",
+     "line": 115
+    },
+    {
+     "quote": "That is why you have to A/B test everything.",
+     "line": 178
+    }
+   ],
+   "claims": [
+    {
+     "claim": "App makes over $160k per month after one year (host framing)",
+     "quote": "He's 22, and in just one year, he built an app that makes over $160,000 a month.",
+     "line": 3,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "Currently about $160k monthly revenue and about $3M total across iOS and Android, shown on the revenue dashboard",
+     "quote": "You can see we're currently at around 160k monthly revenue, and we currently have around $3 million, both across IS and Android.",
+     "line": 28,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "Early on, while trying UGC, they had only about 30k downloads",
+     "quote": "And over some we were trying to do CC, we barely were at around 30k downloads.",
+     "line": 44,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "Posted nearly 80,000 UGC videos in the last year",
+     "quote": "In the last year we have posted nearly 80,000 videos.",
+     "line": 57,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "More than 500 creator accounts and nearly 1 billion views in a year",
+     "quote": "We have more than 500 accounts, and we have done nearly a billion views in the last year.",
+     "line": 58,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "One lock-screen-notification format video reached 17M views",
+     "quote": "And this video went extremely viral. You can see 17 million views.",
+     "line": 62,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "About half of revenue is paid to UGC creators",
+     "quote": "basically we give nearly half of the revenue to the creators.",
+     "line": 64,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "Adding one commitment screen at the end of onboarding raised retention by 3%",
+     "quote": "It's increased 3% retention, adding one screen.",
+     "line": 177,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "Host benchmark: apps typically reach $30–50k per month within a year",
+     "quote": "Like, usually you'll see, you know, maybe get to 30 or 50K within a year.",
+     "line": 74,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "A dark/light theme feature might affect only about 2% of daily active users",
+     "quote": "Let's say you build a dark theme or a light theme, this may affect like 2% of your daily active users.",
+     "line": 92,
+     "first_hand": false,
+     "hypothetical": true
+    },
+    {
+     "claim": "Raising conversion by 10% in 90 days is easy for a newly launched app",
+     "quote": "it's very easy to increase 10% conversion rate in 90 days if your app was launched last week",
+     "line": 109,
+     "first_hand": false,
+     "hypothetical": true
+    }
+   ],
+   "acquisition_channels": [
+    {
+     "channel": "content_social",
+     "details": "Large UGC operation: more than 500 accounts, about 80k videos a year and about 1B views. Videos are grouped into tracked formats and sub-formats (e.g. a fake iPhone lock-screen notification meme). Creators are paid about half of revenue."
+    },
+    {
+     "channel": "content_social",
+     "details": "The founders' existing fitness YouTube community gave only a small launch spike and did not scale."
+    },
+    {
+     "channel": "other",
+     "details": "Influencer marketing was tried and did not work."
+    },
+    {
+     "channel": "app_store",
+     "details": "Distributed through the iOS and Android app stores, with paywall and onboarding A/B tests to lift conversion."
+    }
+   ],
+   "delivery": "Software app on iOS and Android, built and run by a small co-founder team. They use Claude connected to analytics (PostHog, Superwall, RevenueCat) through MCPs, Notion for docs and Slack for team communication. Growth depends on a large paid network of UGC creators.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "Claude (with MCPs)",
+     "PostHog (transcribed as 'possible'/'postdoc')",
+     "Superwall",
+     "RevenueCat (transcribed as 'revenue cad'/'around the cat')",
+     "Wispr Flow (transcribed as 'whisper flow')",
+     "Notion",
+     "Slack",
+     "Discord",
+     "Reddit"
+    ],
+    "prices": [
+     "~50% of revenue paid to UGC creators"
+    ],
+    "platforms": [
+     "Apple App Store (iOS)",
+     "Google Play (Android)",
+     "short-form UGC video accounts (platforms not named)"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "DMCC Act 2024 subscription-contract rules (pre-contract information, reminders, easy cancellation) apply to auto-renewing subscriptions sold to UK consumers. UK GDPR/PECR consent applies to in-app analytics and event tracking. Under the CAP Code/ASA and CMA guidance, paid UGC creator videos must be clearly labelled as ads (#ad), and fake 'notification' formats must not mislead.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 50,
+   "hours_per_week_e": 35,
+   "idea_id": "OV09yPLf8BI:i1",
+   "specifics_flag": true,
+   "publish_date": "20260909",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "OV09yPLf8BI#m2",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "Fitness YouTube channel",
+    "one_liner": "The founders' earlier fitness YouTube channel, which built a community they later used to launch the app.",
+    "customer": "Fitness and gym viewers on YouTube",
+    "offer": "Fitness video content",
+    "revenue_model": "not stated",
+    "category": "content_media"
+   },
+   "citation": {
+    "lines": [
+     36,
+     37,
+     38,
+     43,
+     51,
+     52
+    ],
+    "primary_line": 37
+   },
+   "key_quotes": [
+    {
+     "quote": "Okay, YouTube is good, but we want to help more people.",
+     "line": 37
+    },
+    {
+     "quote": "So first when we launched, we had this YouTube community that we thought it was going to be really good for growing the app.",
+     "line": 51
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [
+    {
+     "channel": "content_social",
+     "details": "YouTube channel. As a launch channel for the app it gave only a very small download spike."
+    }
+   ],
+   "delivery": "Founders make fitness videos on YouTube themselves",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [],
+    "prices": [],
+    "platforms": [
+     "YouTube"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "CAP Code/ASA ad-disclosure rules apply to any sponsored content.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": true,
+   "physical_world": false,
+   "automation_share_e": 25,
+   "hours_per_week_e": 15,
+   "idea_id": "OV09yPLf8BI:i2",
+   "record_added_at_mining": true,
+   "specifics_flag": true,
+   "publish_date": "20260909",
+   "stale_age": false,
+   "recheck": true
+  }
+ ]
+}

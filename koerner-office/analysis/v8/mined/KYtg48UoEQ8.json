@@ -1,0 +1,429 @@
+{
+ "id": "KYtg48UoEQ8",
+ "title": "I Asked AI to Help Me Beat the Stock Market",
+ "channel": "Chris Koerner on The Koerner Office Podcast",
+ "publish_date": "20251015",
+ "miner": "codex:gpt-6-luna:xhigh",
+ "mined_at": "2026-10-23T11:43:15",
+ "secs": 173,
+ "schema_errors": [],
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host"
+  }
+ ],
+ "evidence_quality": "B",
+ "promo_conflict": "Self-promotional: Chris presents his own free, email-gated stock tool. No paid sponsor is identified in the cleaned transcript.",
+ "ideas": [
+  {
+   "record_id": "KYtg48UoEQ8#r1",
+   "depth": "deep",
+   "stated_problem": {
+    "quote": "How can I use AI and AI vibe coding tools to help me develop a stock investing strategy so I can beat the market without risking my family's financial future?",
+    "line": 3,
+    "speaker": "Chris Koerner"
+   },
+   "idea": {
+    "name": "Neil Stocks",
+    "one_liner": "A free, email-gated web tool for self-directed investors to filter stocks by network effects and founder leadership, then compare historical portfolio returns with the S&P 500.",
+    "customer": "Self-directed retail investors.",
+    "offer": "A stock research and portfolio comparison tool with filters, historical data, charts, and backtested returns.",
+    "revenue_model": "Free access behind email signup; no monetization is stated, though the speaker mentions possibly building more features later.",
+    "category": "saas_software"
+   },
+   "citation": {
+    "lines": [
+     3,
+     34,
+     35,
+     37,
+     39,
+     40,
+     41,
+     42,
+     43,
+     44,
+     45,
+     46,
+     49,
+     50,
+     56,
+     57,
+     58,
+     59,
+     60,
+     61,
+     62,
+     63,
+     64,
+     67,
+     68,
+     69,
+     71,
+     73,
+     74,
+     75,
+     80,
+     83,
+     84,
+     85,
+     89,
+     90,
+     91,
+     92,
+     93,
+     94,
+     95,
+     97,
+     98,
+     99,
+     100,
+     101,
+     102,
+     103,
+     104,
+     105,
+     107,
+     108,
+     109,
+     112,
+     113,
+     115,
+     116,
+     117,
+     119,
+     120,
+     121,
+     122,
+     123,
+     125,
+     126,
+     128,
+     129,
+     131,
+     132,
+     133,
+     134,
+     181,
+     182,
+     183,
+     184,
+     185,
+     186
+    ],
+    "primary_line": 119
+   },
+   "key_quotes": [
+    {
+     "quote": "Called Neil Stocks, NEL, Network Effects, Founderled.",
+     "line": 119
+    },
+    {
+     "quote": "So at the end of the day to see the final product, this probably took 45 minutes of prompting.",
+     "line": 117
+    },
+    {
+     "quote": "The S&P has returned 9% over this time frame weighted and 12% unweed and this portfolio would have returned 22.4%.",
+     "line": 128
+    },
+    {
+     "quote": "I put this free website behind an email form. So, if you want to use it for free, it's completely free.",
+     "line": 182
+    }
+   ],
+   "claims": [
+    {
+     "claim": "The initial research screen returned 26 S&P 500 companies meeting the network-effects and founder-led criteria.",
+     "quote": "Find me all of the companies in the S&P 500 that have both network effects and are still founderled. There were 26 of them.",
+     "line": 40,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "The comparison modeled $100 investments in each selected company and the S&P 500 on the companies’ IPO dates.",
+     "quote": "So one scenario is $100 in each of the 26 companies and the other scenario is $100 in the S&P 500 on the same day that each of those companies went public.",
+     "line": 44,
+     "first_hand": false,
+     "hypothetical": true
+    },
+    {
+     "claim": "The speaker described the modeled portfolio as a $2,600 investment.",
+     "quote": "So then I can track over time how much money would I have today because really we're talking about investing $2,600.",
+     "line": 42,
+     "first_hand": false,
+     "hypothetical": true
+    },
+    {
+     "claim": "The requested chart covered performance from one day through 20 years.",
+     "quote": "I want to see one day, one week, one month, one year, 5year, 10 year, 20-year performance in a sleek chart like Robin Hood shows.",
+     "line": 37,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "The data table included how many shares would be needed for a $100 purchase.",
+     "quote": "You can see the name of the company, the ticker, the IPO price, how many shares you would need to buy $100 worth, today's price, and if you look at the formula right here, I'm just using the Google Finance formula.",
+     "line": 67,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "Google Finance data in the sheet refreshed every minute or two.",
+     "quote": "So, this updates every minute or two.",
+     "line": 68,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "The company scoring prompt used a 1-to-10 scale for network effects.",
+     "quote": "And so over here I had a prompt that said tell me on a scale of 1 to 10 and then I inserted the name of the company how much in this case Kagra Brands enjoys network effects.",
+     "line": 75,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "The GPT for Sheets credits cost about $15.",
+     "quote": "It cost me like 15 bucks in credits and I got this sliding scale of how much a company has network effects and how much they are founder led or not.",
+     "line": 89,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "The app used the whole S&P 500 dataset.",
+     "quote": "Here's the whole S&P 500. Here's what each of the columns mean.",
+     "line": 91,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "The speaker described filters using a five-plus network-effects score and founder scores of eight-plus or five-plus.",
+     "quote": "I also wanted to see like should I invest in companies that have a five plus network effect score only 8 plus 5 plus founder etc.",
+     "line": 97,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "The speaker gave a hypothetical comparison between stocks meeting the criteria from 10 and 15 years earlier.",
+     "quote": "Let's say I invested in one stock that fits these criteria 10 years ago and one that fits it 15 years ago.",
+     "line": 102,
+     "first_hand": false,
+     "hypothetical": true
+    },
+    {
+     "claim": "The speaker requested percentages formatted to one decimal place.",
+     "quote": "I only want one decimal point on my percentages.",
+     "line": 113,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "The build took about 45 minutes of prompting.",
+     "quote": "So at the end of the day to see the final product, this probably took 45 minutes of prompting.",
+     "line": 117,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "The demonstrated filter selected scores from 8 to 10 for network effects and founder leadership.",
+     "quote": "And if I rank it, let's go 8 to 10 on network effects, 8 to 10 on founder.",
+     "line": 120,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "The default time horizon was 10 years.",
+     "quote": "The default is a 10-year time horizon.",
+     "line": 122,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "Six companies matched the displayed filters.",
+     "quote": "You can see right here, six companies match your filters.",
+     "line": 125,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "Five of the six matches had valid IPO price data.",
+     "quote": "Five of those six have valid IPO price data because some of them I just wasn't able to get all the data for.",
+     "line": 126,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "The backtest showed weighted S&P returns of 9%, unweighted S&P returns of 12%, and a portfolio return of 22.4%.",
+     "quote": "The S&P has returned 9% over this time frame weighted and 12% unweed and this portfolio would have returned 22.4%.",
+     "line": 128,
+     "first_hand": false,
+     "hypothetical": true
+    },
+    {
+     "claim": "The speaker said the displayed portfolio return was over twice the weighted S&P return.",
+     "quote": "Which is over twice the weighted return.",
+     "line": 129,
+     "first_hand": false,
+     "hypothetical": true
+    },
+    {
+     "claim": "Use of the website was free.",
+     "quote": "So, if you want to use it for free, it's completely free.",
+     "line": 183,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "The speaker said there was nothing to pay for.",
+     "quote": "So, if you want to use it for free, it's completely free. There's nothing to pay for.",
+     "line": 183,
+     "first_hand": true,
+     "hypothetical": false
+    }
+   ],
+   "acquisition_channels": [],
+   "delivery": "Chris built a self-serve web app in Replit, connected it to a live Google Sheet for stock data, and gates access through an email form. Users view filters and historical return comparisons in the app.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "Replit",
+     "Replit Agent 3",
+     "ChatGPT",
+     "Google Sheets",
+     "GPT for Sheets",
+     "Google Finance",
+     "Wikipedia"
+    ],
+    "prices": [
+     "Free access",
+     "about $15 in credits",
+     "$100 hypothetical investment per company and S&P comparison"
+    ],
+    "platforms": [
+     "ntocks.com",
+     "web app",
+     "email form"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "Email signup and any follow-up marketing engage UK GDPR and PECR. If stock filters become personalized recommendations or investment promotions, FCA financial-promotion or investment-advice rules may apply.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 65,
+   "hours_per_week_e": 5,
+   "idea_id": "KYtg48UoEQ8:i1",
+   "specifics_flag": true,
+   "publish_date": "20251015",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "KYtg48UoEQ8#r12",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "John McAfee-linked crypto company",
+    "one_liner": "Chris says he launched a crypto company with John McAfee; the product, customer, and business model are not described.",
+    "customer": "not stated",
+    "offer": "A crypto company; product not stated.",
+    "revenue_model": "not stated",
+    "category": "other"
+   },
+   "citation": {
+    "lines": [
+     139,
+     140,
+     141
+    ],
+    "primary_line": 139
+   },
+   "key_quotes": [
+    {
+     "quote": "which is kind of similar to the thesis that I had with John McAfee when I launched that crypto company.",
+     "line": 139
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "not stated",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [],
+    "prices": [],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "If it involved UK cryptoasset exchange or custody activity, FCA registration under money-laundering rules and financial-promotion requirements may apply; the activity is not specified.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 15,
+   "hours_per_week_e": 30,
+   "idea_id": "KYtg48UoEQ8:i2",
+   "specifics_flag": false,
+   "publish_date": "20251015",
+   "stale_age": false,
+   "recheck": false
+  },
+  {
+   "record_id": "KYtg48UoEQ8#r16",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "Bitcoin mining data centre pivoting to AI",
+    "one_liner": "An unnamed data-centre business shifted from Bitcoin mining toward AI; Chris mentions it as an attractive stock, with no customer or service details given.",
+    "customer": "not stated",
+    "offer": "AI-oriented data-centre operation; exact service not stated.",
+    "revenue_model": "not stated",
+    "category": "b2b_service"
+   },
+   "citation": {
+    "lines": [
+     177,
+     178
+    ],
+    "primary_line": 177
+   },
+   "key_quotes": [
+    {
+     "quote": "I en I really like that stock right now because it has it's a data center stock that used to be in Bitcoin mining and now is in AI.",
+     "line": 177
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "Operates data-centre infrastructure; the speaker does not describe its service delivery or customers.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [],
+    "prices": [],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": null,
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": true,
+   "automation_share_e": 15,
+   "hours_per_week_e": 30,
+   "idea_id": "KYtg48UoEQ8:i3",
+   "specifics_flag": false,
+   "publish_date": "20251015",
+   "stale_age": false,
+   "recheck": false
+  }
+ ]
+}

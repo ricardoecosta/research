@@ -148,7 +148,7 @@ def run_pi(prompt, timeout=2400):
     return p.stdout, {}, time.time() - t0
 
 
-def call_llm(prompt, effort="xhigh", logf=None, tag=""):
+def call_llm_codex(prompt, effort="xhigh", logf=None, tag=""):
     """FALLBACKS order: Codex (with busy back-off) -> pi. Returns (parsed_json, runner, secs)."""
     last = ""
     for attempt in range(3):
@@ -176,3 +176,35 @@ def norm(s):
     s = s.lower().replace("\u2019", "'")
     s = re.sub(r"[^a-z0-9' ]+", " ", s)
     return re.sub(r"\s+", " ", s).strip()
+
+CLAUDE = os.path.expanduser("~/.local/bin/claude")
+CLAUDE_MODEL = "claude-opus-5-5"
+
+
+def backend():
+    try: return Path("/tmp/v8/BACKEND").read_text().strip()
+    except Exception: return "codex"
+
+
+def run_claude(prompt, timeout=2400):
+    t0 = time.time()
+    p = subprocess.run([CLAUDE, "-p", "--model", CLAUDE_MODEL, "--output-format", "text"],
+                       input=prompt, capture_output=True, text=True, cwd=str(WORK), timeout=timeout)
+    out = (p.stdout or "").strip()
+    low = (out + " " + (p.stderr or "")).lower()
+    if (p.returncode != 0 or len(out) < 400) and any(k in low for k in ("usage limit", "limit reached", "rate limit", "overloaded", "429")):
+        raise Busy(low[:200])
+    if not out: raise ValueError("claude empty: " + (p.stderr or "")[-200:])
+    return out, {}, time.time() - t0
+
+
+def call_llm(prompt, effort="xhigh", logf=None, tag=""):
+    if backend() == "claude":
+        for attempt in range(2):
+            try:
+                ans, _, secs = run_claude(prompt)
+                return parse_json_text(ans), f"claude:{CLAUDE_MODEL}", secs
+            except Exception as e:
+                if logf: log(logf, f"{tag} claude attempt {attempt + 1} failed: {str(e)[:200]}")
+                if isinstance(e, Busy): break
+    return call_llm_codex(prompt, effort, logf, tag)

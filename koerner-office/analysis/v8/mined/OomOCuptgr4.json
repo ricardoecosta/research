@@ -1,0 +1,420 @@
+{
+ "id": "OomOCuptgr4",
+ "title": "I Built a Money-Making App in 1 Hour With AI (Bolt v2 Review)",
+ "channel": "Chris Koerner on The Koerner Office Podcast",
+ "publish_date": "20251114",
+ "miner": "claude:claude-opus-5-5",
+ "mined_at": "2026-10-23T12:27:46",
+ "secs": 56,
+ "schema_errors": [],
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host"
+  }
+ ],
+ "evidence_quality": "C",
+ "promo_conflict": "The video is a review/demo of Bolt.new V2 that ends with an endorsement (\"Bolt.new is great. Check it out.\"). It is likely a sponsored or affiliate placement. The PR app is a one-hour demo built for his own use. It has no customers, revenue or sending results. The other business ideas are only named as possible entries in his '50 businesses in 50 states in 50 days' content series.",
+ "ideas": [
+  {
+   "record_id": "OomOCuptgr4#r1",
+   "depth": "deep",
+   "stated_problem": {
+    "quote": "Well, you know I'm always launching starting new businesses, and I got to get the word out about these businesses.",
+    "line": 7,
+    "speaker": "Chris Koerner"
+   },
+   "idea": {
+    "name": "AI PR outreach automation app",
+    "one_liner": "A web app where a founder enters company and campaign details. It loads or imports relevant journalists, writes personalised quirky pitch emails with AI, sends them in bulk and tracks opens, clicks and replies. It could be sold as a low-cost monthly SaaS that replaces a PR person or paid ads.",
+    "customer": "Founders and small businesses that launch often and want press coverage without hiring a publicist (in the video, the host himself)",
+    "offer": "A dashboard for company and campaign info, a journalist database with CSV upload, AI-generated personalised pitches, one-click bulk sending, and open/click/reply analytics",
+    "revenue_model": "Not stated as a product. The implied model is a monthly subscription; he compares it to a PR person costing about $20-40/month",
+    "category": "saas_software"
+   },
+   "citation": {
+    "lines": [
+     7,
+     8,
+     9,
+     10,
+     11,
+     13,
+     17,
+     18,
+     20,
+     21,
+     25,
+     26,
+     27,
+     35,
+     57,
+     106,
+     108,
+     111,
+     112,
+     128,
+     153,
+     206,
+     227
+    ],
+    "primary_line": 13
+   },
+   "key_quotes": [
+    {
+     "quote": "Let's build a tool on bolt.new using V2 that is basically a PR outreach robot agent.",
+     "line": 13
+    },
+    {
+     "quote": "I'm going to have it write personalized pitched emails for me that are kind of funny and quirky and don't sound like spam.",
+     "line": 18
+    },
+    {
+     "quote": "The app should find relevant journalists, generate personalized pitch emails using AI, send them automatically, and track opens and responses.",
+     "line": 27
+    },
+    {
+     "quote": "Okay, so I understand it doesn't want to go out and scrape them due to privacy reasons, but I do have another video where I show you exactly how to scrape this stuff.",
+     "line": 108
+    },
+    {
+     "quote": "we successfully built PR app that will allow you to upload journalists' emails, write the emails for you, and click send on all of them at the same time.",
+     "line": 227
+    }
+   ],
+   "claims": [
+    {
+     "claim": "The automated PR tool would cost about $20-40 per month, like a cheap PR hire",
+     "quote": "Basically, I'm about to hire a PR person that only charges about 20, 30, 40 bucks a month.",
+     "line": 21,
+     "first_hand": true,
+     "hypothetical": true
+    },
+    {
+     "claim": "If it works, it would save him thousands of dollars on paid ads",
+     "quote": "And if it works for me, it's going to save me thousands of dollars on paid ads.",
+     "line": 15,
+     "first_hand": true,
+     "hypothetical": true
+    },
+    {
+     "claim": "He built the working app in about an hour with 15-20 prompts",
+     "quote": "So with uh I don't know, 15 20 prompts and reprompts and in about an hour's time, we successfully built PR app",
+     "line": 227,
+     "first_hand": true,
+     "hypothetical": false
+    }
+   ],
+   "acquisition_channels": [
+    {
+     "channel": "cold_email",
+     "details": "This describes how the tool works, not how it would be sold. It bulk-sends AI-written cold pitch emails to journalists whose addresses were scraped or uploaded by CSV. No customer acquisition for the app itself is described."
+    }
+   ],
+   "delivery": "A web app built on Bolt.new V2 using Bolt's built-in OpenAI package or the user's own OpenAI API key, with Supabase/Bolt database and Resend for email (marketing-email plan needed). The founder uploads a journalist CSV and clicks generate-and-send. The software does the writing, sending and tracking.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "Bolt.new V2",
+     "Claude Code",
+     "OpenAI API (GPT-4)",
+     "Resend",
+     "SendGrid",
+     "Supabase",
+     "Google Sheets (sheets.new)"
+    ],
+    "prices": [
+     "$20-40/month (comparison to a PR person)"
+    ],
+    "platforms": [
+     "bolt.new",
+     "OpenAI API platform"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": "Cold email to journalists at media companies is generally allowed with an opt-out. However, many journalists are freelancers or sole traders, and unsolicited marketing email to them needs prior consent under PECR. Bulk AI pitches to scraped lists of freelancers would be a PECR risk."
+   },
+   "other_uk_rules": "UK GDPR: scraping journalists' names and emails needs a lawful basis (legitimate interests assessment), a privacy notice under Art. 14, and honouring objections. Email tracking pixels for opens and clicks need consent under PECR reg. 6 for individuals. If sold as a subscription, the DMCC Act 2024 subscription rules apply (clear pre-contract info, reminders, easy cancellation).",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 70,
+   "hours_per_week_e": 10,
+   "idea_id": "OomOCuptgr4:i1",
+   "specifics_flag": true,
+   "publish_date": "20251114",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "OomOCuptgr4#r2",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "The Koerner Office business podcast",
+    "one_liner": "A business and side-hustle podcast/YouTube show that the host promotes through PR pitches. It makes money through audience-driven sponsorships and promotions.",
+    "customer": "Listeners and viewers interested in business ideas, plus sponsors",
+    "offer": "A business podcast and video content",
+    "revenue_model": "Not stated. Implied sponsorship and promotional deals (this video itself promotes Bolt.new)",
+    "category": "content_media"
+   },
+   "citation": {
+    "lines": [
+     80,
+     81,
+     199
+    ],
+    "primary_line": 80
+   },
+   "key_quotes": [
+    {
+     "quote": "The Kerner Office is the best business podcast in the world, and everyone needs to know it.",
+     "line": 80
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [
+    {
+     "channel": "cold_email",
+     "details": "The demo campaign pitches the podcast to business journalists by AI-written email"
+    },
+    {
+     "channel": "content_social",
+     "details": "YouTube/podcast distribution (implied by the channel)"
+    }
+   ],
+   "delivery": "The host records and publishes podcast and YouTube episodes",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [],
+    "prices": [],
+    "platforms": [
+     "YouTube",
+     "podcast platforms"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "Advertising/sponsorship disclosure under the CAP Code and ASA rules for UK-targeted sponsored content",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": true,
+   "physical_world": false,
+   "automation_share_e": 20,
+   "hours_per_week_e": 15,
+   "idea_id": "OomOCuptgr4:i2",
+   "specifics_flag": true,
+   "publish_date": "20251114",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "OomOCuptgr4#r3",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "Canoe rentals",
+    "one_liner": "Rent canoes to recreational customers by the hour or day at a waterway location. Named as a possible business in his 50-states challenge.",
+    "customer": "Consumers and tourists near lakes or rivers",
+    "offer": "Canoe hire",
+    "revenue_model": "Rental fees (not stated)",
+    "category": "rental_asset"
+   },
+   "citation": {
+    "lines": [
+     89,
+     92
+    ],
+    "primary_line": 92
+   },
+   "key_quotes": [
+    {
+     "quote": "Canoe rentals, pop-up bakeries, power washing, drone roof inspection, who knows?",
+     "line": 92
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "Not stated. It needs physical canoes, storage, a launch site and on-site handover",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [],
+    "prices": [],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "Navigation licences or permissions on UK waterways (e.g. Canal & River Trust, landowner access), public liability insurance, and health and safety risk assessments",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": true,
+   "automation_share_e": 20,
+   "hours_per_week_e": 20,
+   "idea_id": "OomOCuptgr4:i3",
+   "specifics_flag": false,
+   "publish_date": "20251114",
+   "stale_age": false,
+   "recheck": false
+  },
+  {
+   "record_id": "OomOCuptgr4#r4",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "Pop-up bakeries",
+    "one_liner": "Temporary bakery stalls or pop-ups selling baked goods to local consumers. Named as a possible business in his 50-states challenge.",
+    "customer": "Local consumers",
+    "offer": "Baked goods sold at pop-up events or locations",
+    "revenue_model": "Product sales (not stated)",
+    "category": "ecommerce_physical"
+   },
+   "citation": {
+    "lines": [
+     89,
+     92
+    ],
+    "primary_line": 92
+   },
+   "key_quotes": [
+    {
+     "quote": "Canoe rentals, pop-up bakeries, power washing, drone roof inspection, who knows?",
+     "line": 92
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "Not stated. It needs physical baking, transport and in-person selling",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [],
+    "prices": [],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "Food business registration with the local council at least 28 days before trading, food hygiene and allergen labelling rules (Natasha's Law for prepacked-for-direct-sale), and street trading licences",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": true,
+   "automation_share_e": 10,
+   "hours_per_week_e": 25,
+   "idea_id": "OomOCuptgr4:i4",
+   "specifics_flag": false,
+   "publish_date": "20251114",
+   "stale_age": false,
+   "recheck": false
+  },
+  {
+   "record_id": "OomOCuptgr4#r5",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "Power washing",
+    "one_liner": "Pressure-washing driveways, patios and exteriors for homeowners. Named as a possible business in his 50-states challenge.",
+    "customer": "Homeowners and property owners",
+    "offer": "Exterior pressure-cleaning service",
+    "revenue_model": "Per-job fees (not stated)",
+    "category": "home_service"
+   },
+   "citation": {
+    "lines": [
+     89,
+     92
+    ],
+    "primary_line": 92
+   },
+   "key_quotes": [
+    {
+     "quote": "Canoe rentals, pop-up bakeries, power washing, drone roof inspection, who knows?",
+     "line": 92
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "Not stated. It needs on-site physical labour and equipment",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [],
+    "prices": [],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": "No acquisition channel is stated. Typical cold texting or DMing of homeowners for this kind of service would breach PECR."
+   },
+   "other_uk_rules": "Wastewater discharge rules (no runoff into surface-water drains), public liability insurance",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": true,
+   "automation_share_e": 15,
+   "hours_per_week_e": 25,
+   "idea_id": "OomOCuptgr4:i5",
+   "specifics_flag": false,
+   "publish_date": "20251114",
+   "stale_age": false,
+   "recheck": false
+  },
+  {
+   "record_id": "OomOCuptgr4#r6",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "Drone roof inspection",
+    "one_liner": "Use drones to inspect roofs for homeowners, roofers or insurers, so nobody needs ladders or scaffolding. Named as a possible business in his 50-states challenge.",
+    "customer": "Homeowners, roofers, insurers and property managers",
+    "offer": "Drone-captured roof imagery and inspection reports",
+    "revenue_model": "Per-inspection fees (not stated)",
+    "category": "local_service"
+   },
+   "citation": {
+    "lines": [
+     89,
+     92
+    ],
+    "primary_line": 92
+   },
+   "key_quotes": [
+    {
+     "quote": "Canoe rentals, pop-up bakeries, power washing, drone roof inspection, who knows?",
+     "line": 92
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "Not stated. The operator flies a drone on site, then processes imagery into a report",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [],
+    "prices": [],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": "No acquisition channel is stated. Cold texting or DMing sole-trader roofers or homeowners would breach PECR."
+   },
+   "other_uk_rules": "CAA rules: Operator ID and Flyer ID, an A2 CofC or GVC/operational authorisation for commercial flights near people and buildings, and drone insurance. Capturing imagery of neighbouring properties also raises UK GDPR considerations.",
+   "sells_to_local_businesses": true,
+   "needs_face_or_personal_brand": false,
+   "physical_world": true,
+   "automation_share_e": 25,
+   "hours_per_week_e": 20,
+   "idea_id": "OomOCuptgr4:i6",
+   "specifics_flag": false,
+   "publish_date": "20251114",
+   "stale_age": false,
+   "recheck": false
+  }
+ ]
+}

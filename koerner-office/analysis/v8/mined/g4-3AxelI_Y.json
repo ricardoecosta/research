@@ -1,0 +1,148 @@
+{
+ "id": "g4-3AxelI_Y",
+ "title": "This Might Be the Easiest Way to Sell AI to Businesses",
+ "channel": "Chris Koerner on The Koerner Office Podcast",
+ "publish_date": "20260403",
+ "miner": "grokbot-box",
+ "mined_at": "2026-10-23T13:47:25",
+ "secs": 0,
+ "schema_errors": [],
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host"
+  }
+ ],
+ "evidence_quality": "C",
+ "promo_conflict": "GoHighLevel tutorial; Slybroadcast mentioned as 'not an ad'",
+ "ideas": [
+  {
+   "record_id": "g4-3AxelI_Y#r1",
+   "depth": "deep",
+   "stated_problem": {
+    "quote": "As of right now, most small businesses are letting calls go to voicemail and hoping people call back.",
+    "line": 4,
+    "speaker": "Chris Koerner"
+   },
+   "idea": {
+    "name": "AI missed-call text-back agent for small businesses",
+    "one_liner": "Build a GoHighLevel workflow where an AI agent texts back missed callers, holds a two-way conversation and books estimates, then sell it to local trades found via Outscraper and ringless voicemail drops that trigger the same text-back",
+    "customer": "local service businesses (tree trimmers, plumbers, HVAC)",
+    "offer": "done-for-you AI missed-call text-back and appointment booking",
+    "revenue_model": "monthly retainer $500-2,000 per client with 90-day money-back guarantee",
+    "category": "ai_automation"
+   },
+   "citation": {
+    "lines": [
+     1,
+     6,
+     7,
+     12,
+     22,
+     31,
+     80,
+     117,
+     150,
+     153,
+     174,
+     196,
+     208,
+     212,
+     219,
+     263,
+     270,
+     278
+    ],
+    "primary_line": 6
+   },
+   "key_quotes": [
+    {
+     "quote": "So, today, I'm going to build an AI agent that texts back missed calls automatically.",
+     "line": 6
+    },
+    {
+     "quote": "Now that you have this one workflow, you can copy and paste it over and over and over for multiple customers.",
+     "line": 150
+    },
+    {
+     "quote": "It is $500 a month, but if it doesn't pay for itself in the first 90 days, then I'll give you all your money back.",
+     "line": 263
+    }
+   ],
+   "claims": [
+    {
+     "claim": "57% of sales go to first responder",
+     "quote": "57% of sales goes to whoever responds first. And that's not my opinion.",
+     "line": 1,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "$500-2,000/month per client",
+     "quote": "This is a $500 to $2,000 a month per client service.",
+     "line": 22,
+     "first_hand": false,
+     "hypothetical": true
+    },
+    {
+     "claim": "A 16-year-old landed a plumber client via ringless voicemail",
+     "quote": "I use ringless voicemail drops to find a plumber that wants AI integrated into his business.\" And I got it on my 16th birthday.",
+     "line": 11,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "Live test produced a callback conversation but no close yet",
+     "quote": "So, I haven't closed them yet. I don't have money in my pocket yet from this, but you can see that this works.",
+     "line": 267,
+     "first_hand": true,
+     "hypothetical": false
+    }
+   ],
+   "acquisition_channels": [
+    {
+     "channel": "ringless voicemail drops",
+     "details": "scrape business phone numbers via Outscraper, drop vague voicemail via Slybroadcast, callbacks trigger the AI sales text-back (dogfooding)"
+    },
+    {
+     "channel": "phone/in-person close",
+     "details": "AI books call with hot leads"
+    }
+   ],
+   "delivery": "GoHighLevel missed-call template; replace static SMS with Conversation AI; prompt written by Claude per niche; branches for booked/emergency/unqualified; push/SMS notifications to owner; duplicate per client",
+   "specifics": {
+    "tools": [
+     "GoHighLevel",
+     "Claude",
+     "ChatGPT",
+     "Outscraper",
+     "Slybroadcast"
+    ],
+    "prices": [
+     "$500/month",
+     "$500-2,000/month per client"
+    ],
+    "platforms": [
+     "SMS"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": true,
+    "reason": "Ringless voicemail drops are automated marketing calls; PECR requires prior consent for automated calls even to businesses; AI text-backs need to be transparent"
+   },
+   "other_uk_rules": "UK GDPR on scraped contact data; check TPS/CTPS",
+   "sells_to_local_businesses": true,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 70,
+   "hours_per_week_e": 10,
+   "feature_request": false,
+   "existing_tool": null,
+   "idea_id": "g4-3AxelI_Y:i1",
+   "specifics_flag": true,
+   "publish_date": "20260403",
+   "stale_age": false,
+   "recheck": true
+  }
+ ]
+}
