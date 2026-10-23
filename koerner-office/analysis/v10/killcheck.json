@@ -1,0 +1,2325 @@
+{
+ "xhigh": [
+  {
+   "id": "L001",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "defensible_asset": 6,
+   "moat_type": "data",
+   "reason": "Its normalized, sourced history of German awards, bidders and buyers is a named data asset that should take months to reproduce; official raw notices are free, but no matching joined competitor analysis was found.",
+   "launches_last_6m": "No direct award-intelligence product launch found; Marketplace D (2026-10-15) is an adjacent official tender marketplace, not historical award analytics.",
+   "buy_checklist": null,
+   "platform_or_partner": "German Bekanntmachungsservice and TED provide free notices and some award records; no equivalent cross-buyer competitor analysis found.",
+   "incumbents": "DTAD and ibau: prices unlisted; Patterno: from €89/month; TendiGo: from €32/month annually; VergabeHero: from €69/month. Review evidence for five well-reviewed direct incumbents was unverified; Kontor Data's cited wedge is historical award and bid analysis.",
+   "claim_event_date": "2026-10",
+   "urls": [
+    "https://kontordata.com/en/pricing",
+    "https://kontordata.com/methodik",
+    "https://kontordata.com/ausschreibungsdienste",
+    "https://www.smartcountry.berlin/en/newsblog/details/marketplace-d-is-now-live.html",
+    "https://verwaltung.bund.de/leistungsverzeichnis/en/leistung/99000000007616"
+   ]
+  },
+  {
+   "id": "L002",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "defensible_asset": 5,
+   "moat_type": "data",
+   "reason": "The named asset is a refreshed dataset of Belgian notices plus below-threshold opportunities collected from local sources, though source coverage, customer counts and payment evidence are unverified.",
+   "launches_last_6m": "Polytender added Belgian BOSA coverage on 2026-10-22, including published below-EU-threshold notices; its coverage of nonpublished contracts is unverified, and no second direct competing launch was found.",
+   "buy_checklist": null,
+   "platform_or_partner": "Belgian e-Procurement is free for published opportunities and supports supplier discovery; no evidence found that it aggregates nonpublished contracts as GPC Gov claims to.",
+   "incumbents": "BOSA e-Procurement: free for published notices; Polytender: price unverified; Aanbestedingsradar: free tier, Match €270/month. Five well-reviewed direct incumbents at or below the plausible €63/month floor were not evidenced.",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://gpcgov.be/en/pricing",
+    "https://www.gpcgov.be/en",
+    "https://demo.publicprocurement.be/",
+    "https://polytender.com/en/changelog",
+    "https://aanbestedingsradar.be/en/"
+   ]
+  },
+  {
+   "id": "L003",
+   "verdict": "kill",
+   "kill_rule": "K2",
+   "defensible_asset": 6,
+   "moat_type": "data",
+   "reason": "At least two competing permit-feed listings appeared on Apify within the last six months; their exact launch dates are unverified, but their pages say they were published within the last three weeks.",
+   "launches_last_6m": "Search dated 2026-10-23: Apify “US Building Permits Monitor” (published 2 weeks ago; exact launch date unverified); “US Building Permits Scraper” by owlabee (published last week; exact launch date unverified); “US Building Permits API & Contractor Leads” by digital_influx (published 3 weeks ago; exact launch date unverified).",
+   "buy_checklist": null,
+   "platform_or_partner": "No single official platform or partner found serving a nationwide normalized permit feed; city and county authorities publish underlying records through their own systems.",
+   "incumbents": "PingPermit: $20/month; PermitStack: from $29/month; SignedOff.io: $49/$149; Physical Layer: from $99; Shovels: $599/month; Construction Monitor: price unlisted. Five well-reviewed incumbents at or below the $29 floor were not evidenced.",
+   "claim_event_date": "2026-08",
+   "urls": [
+    "https://permit-stack.com/about/",
+    "https://permit-stack.com/pricing/",
+    "https://apify.com/optimistprime/us-building-permits-monitor",
+    "https://apify.com/owlabee/building-permits-scraper",
+    "https://apify.com/digital_influx/us-building-permits",
+    "https://pingpermit.com/developers",
+    "https://physical-layer.com/api"
+   ]
+  },
+  {
+   "id": "L004",
+   "verdict": "kill",
+   "kill_rule": "K2",
+   "defensible_asset": 7,
+   "moat_type": "data",
+   "reason": "Three competing zoning or property-data products launched in the required window: Crexi Intelligence zoning (2 Jun 2026), Bassett.ai (12 Aug 2026), and Ploti (14 Oct 2026).",
+   "launches_last_6m": "Crexi Intelligence zoning — 2 Jun 2026; Bassett.ai — 12 Aug 2026; Ploti — 14 Oct 2026",
+   "buy_checklist": null,
+   "platform_or_partner": "Zoneomics powers zoning intelligence in Google Earth and CREXI; free or bundled status is unverified.",
+   "incumbents": "Placestack: $299/month Build and $59/seat/month Explorer Pro; Breezy: $89/address report; Zoneomics, CREXI, and Acres pricing unverified.",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://www.prnewswire.com/news-releases/crexi-brings-zoning-tenant-and-traffic-data-into-a-single-workflow-302787759.html",
+    "https://blog.zoneomics.com/zoneomics-launches-bassett.ai-the-ai-operating-system-for-zoning-intelligence",
+    "https://www.prnewswire.com/news-releases/ploti-is-the-real-estate-data-layer-for-ai-302907907.html",
+    "https://www.zoneomics.com/blog/crexi-introduces-ai-powered-zoning-intelligence-with-zoneomics",
+    "https://placestack.com/pricing",
+    "https://www.inman.com/2026/08/03/breezy-underbuilt-radar-zoning-data/"
+   ]
+  },
+  {
+   "id": "L005",
+   "verdict": "kill",
+   "kill_rule": "K2",
+   "defensible_asset": 6,
+   "moat_type": "data",
+   "reason": "OneClick Code launched Permit History nationwide on 30 Apr 2026 and Kukun launched its Permits API on 2 Jun 2026, meeting the two-launch kill threshold.",
+   "launches_last_6m": "OneClick Code Permit History — 30 Apr 2026; Kukun Permits API — 2 Jun 2026; PermitStack — Apr 2026 (exact day unverified, not counted)",
+   "buy_checklist": null,
+   "platform_or_partner": "None found; Kukun and OneClick Code are direct competitors, and an official partner serving the complete need was not found.",
+   "incumbents": "Kukun: $149/month API Starter and $99/month permit-search Starter per supplied pricing evidence; PermitStack, OneClick Code, ATTOM, and CoreLogic prices unverified.",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://www.oneclickcode.com/blog/oneclick-code-launches-permit-history-nationwide",
+    "https://www.einpresswire.com/article/916073646/kukun-launches-permits-api-to-make-building-permits-the-default-data-layer-for-underwriting-and-real-estate-ai",
+    "https://permit-stack.com/about/",
+    "https://mykukun.com/developers/pricing",
+    "https://api.developer.attomdata.com/docs",
+    "https://www.corelogic.com/wp-content/uploads/sites/4/2022/06/Property-API-Overview.pdf"
+   ]
+  },
+  {
+   "id": "L006",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "defensible_asset": 6,
+   "moat_type": "data",
+   "reason": "The named cross-registry DACH company and ownership graph with daily synchronization is a compiled-data asset, and the dated search found only one competing launch in the required window.",
+   "launches_last_6m": "Global Database Regis API — 24 Jul 2026; no second dated competing launch found",
+   "buy_checklist": null,
+   "platform_or_partner": "The German Company Register offers free national company-data search, but a complete cross-border DACH graph was not found there.",
+   "incumbents": "Firmium: €250/user/month Professional and €490/month API; North Data: €49/month; Firstline: €49/month; CompanyData.com: from $34/month; OpenCorporates: from $50/month. Five qualifying well-reviewed incumbents were not evidenced.",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://www.firmium.de/en/pricing/",
+    "https://www.globaldatabase.com/global-database-launches-its-company-verification-ai---regis",
+    "https://www.unternehmensregister.de/en/howto/search",
+    "https://www.northdata.com/_premium",
+    "https://firstline.sh/en",
+    "https://companydata.com/alternatives/north-data/"
+   ]
+  },
+  {
+   "id": "L007",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "defensible_asset": 7,
+   "moat_type": "data",
+   "reason": "The 24.8 million parsed account years and linked ownership data form a months-to-copy data asset, while the free Companies House API supplies underlying records rather than an equivalent parsed financial screener; no direct competing launch or five low-price incumbents surfaced.",
+   "launches_last_6m": "none found",
+   "buy_checklist": null,
+   "platform_or_partner": "Companies House provides free register data and an API; no equivalent official parsed financial screener found.",
+   "incumbents": "CompanyStack Pro £19/month and API Starter £29/month; Endole £25/month billed annually or £39 monthly; Companies House data/API free; Creditsafe API pricing unverified.",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://companystack.co.uk/",
+    "https://companystack.co.uk/help/plans-and-prices-compared",
+    "https://developer.company-information.service.gov.uk/",
+    "https://www.endole.co.uk/pricing/",
+    "https://www.creditsafe.com/gb/en/enterprise/integrations/company-data-api.html"
+   ]
+  },
+  {
+   "id": "L008",
+   "verdict": "kill",
+   "kill_rule": "K2",
+   "defensible_asset": 7,
+   "moat_type": "data",
+   "reason": "The dated page describes a daily refreshed, multi-source catalogue of 43,000 open and 139,000 indexed opportunities, but Instrumentl Discover and GrantWatch’s Grant Lifecycle Platform launched within the six-month window, meeting the K2 kill threshold.",
+   "launches_last_6m": "Instrumentl Discover — 2026-06-11; GrantWatch Grant Lifecycle Platform and Dashboard — 2026-06-18.",
+   "buy_checklist": null,
+   "platform_or_partner": "Grants.gov and Simpler.Grants.gov provide free official search/API access for federal opportunities; broader state, local and private coverage not found there.",
+   "incumbents": "OpenGrants Pro $9/month and Developer $299/month; Instrumentl and GrantWatch prices unverified; Candid Search price unverified.",
+   "claim_event_date": "2026-08",
+   "urls": [
+    "https://ops.opengrants.io/api",
+    "https://www.instrumentl.com/blog/instrumentl-summer-2026-release",
+    "https://www.prnewswire.com/news-releases/grantwatch-expands-beyond-grant-discovery-with-new-grant-lifecycle-platform-302804026.html",
+    "https://simpler.grants.gov/developers"
+   ]
+  },
+  {
+   "id": "L009",
+   "verdict": "kill",
+   "kill_rule": "K2",
+   "defensible_asset": 4,
+   "moat_type": "data",
+   "reason": "The proposed geography-normalized, refreshed grant catalogue is a named data asset, though its scale and source breadth are unverified; Grantsbase’s API access guide and Instrumentl’s API integration are two dated competing launches in the window.",
+   "launches_last_6m": "Grantsbase API access guide published 2026-05-28; Instrumentl API integration — 2026-07-21.",
+   "buy_checklist": null,
+   "platform_or_partner": "Grants.gov and Simpler.Grants.gov provide free official federal-opportunity search APIs; their coverage does not establish an equivalent multi-source catalogue.",
+   "incumbents": "GrantAuthority Search API $5,400/year and Data Intelligence API $8,900/year; OpenGrants Developer $299/month; Granted AI Starter $149/month; Instrumentl API price unverified.",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://www.grantauthority.org/data-api",
+    "https://www.grantauthority.org/docs/api",
+    "https://www.grantsbase.com/guides/api",
+    "https://help.instrumentl.com/en/articles/10020925-api-integration",
+    "https://grantedai.com/developers",
+    "https://simpler.grants.gov/developers"
+   ]
+  },
+  {
+   "id": "L010",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "defensible_asset": 6,
+   "moat_type": "data",
+   "reason": "PACER provides free RSS case-activity alerts at courts that publish feeds, overlapping the proposed federal docket-monitoring need.",
+   "launches_last_6m": "Apify Federal Court Docket Monitor — page published 6 days before 2026-10-23; exact launch date unverified.",
+   "buy_checklist": null,
+   "platform_or_partner": "PACER’s free RSS alerts; PACER Case Locator also offers saved cases and searches.",
+   "incumbents": "PACERMonitor: $49/$99 per month; Docket Alarm: $99 per month flat-fee or $39.99 plus usage; PacerPlus: $199.99 per month.",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://pacer.uscourts.gov/help/faqs/how-can-i-receive-case-alerts-using-rss-feed",
+    "https://pcl.uscourts.gov/pcl/",
+    "https://apify.com/owlabee/federal-court-docket-monitor",
+    "https://cdn.pacermonitor.com/pricing",
+    "https://www.docketalarm.com/pricing",
+    "https://pacerplus.com/features/case-alerts"
+   ]
+  },
+  {
+   "id": "L011",
+   "verdict": "kill",
+   "kill_rule": "K2",
+   "defensible_asset": 7,
+   "moat_type": "data",
+   "reason": "Dated search found Clio Docket Insights launched 2026-08-25 and UniCourt’s docket-search ChatGPT plugin announced 2026-09-18, meeting the two-launch kill threshold.",
+   "launches_last_6m": "Clio Docket Insights — 2026-08-25; UniCourt ChatGPT docket-search plugin — 2026-09-18.",
+   "buy_checklist": null,
+   "platform_or_partner": "Clio Vincent offers Docket Insights; USPTO offers PTAB decision search, API access and alerts.",
+   "incumbents": "Docket Alarm: $99 per user per month; PACERMonitor: $49/$99 per month; Lex Machina: quote-only; Trellis and UniCourt: paid plans, exact current prices unverified.",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://www.clio.com/about/press/clio-docket-insights-vincent-court-records/",
+    "https://www.lawnext.com/category/lawnext-products/unicourt-lawnext-products",
+    "https://www.docketalarm.com/pricing",
+    "https://cdn.pacermonitor.com/pricing",
+    "https://www.uspto.gov/patents/ptab/ptab-it-systems"
+   ]
+  },
+  {
+   "id": "L012",
+   "verdict": "kill",
+   "kill_rule": "K2",
+   "defensible_asset": 7,
+   "moat_type": "data",
+   "reason": "Dated search found EODHD’s Sanctions API launched 2026-06-11 and Customsfeed’s sanctions screening endpoint added 2026-06-20 with a sanctions change feed added 2026-08-01, meeting the two-launch threshold.",
+   "launches_last_6m": "EODHD Sanctions API — 2026-06-11; Customsfeed sanctions screening — 2026-06-20; Customsfeed sanctions change feed and webhooks — 2026-08-01.",
+   "buy_checklist": null,
+   "platform_or_partner": "OFAC Sanctions List Service provides free official list data, custom dataset downloads and an API, limited to OFAC lists.",
+   "incumbents": "Sanctions Atlas: $39/month Pro, $99/month API Standard, $299/month API Professional; OpenSanctions: commercial API pricing by credits, exact price unverified; sanctions.io: API pricing unverified.",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://eodhd.com/financial-apis-blog/new-sanctions-api-ofac-screening-data-for-entities-vessels-programs",
+    "https://www.customsfeed.com/changelog/",
+    "https://sanctionsatlas.com/pricing/",
+    "https://www.opensanctions.org/docs/api/",
+    "https://api-docs.sanctions.io/",
+    "https://ofac.treasury.gov/sanctions-list-service"
+   ]
+  },
+  {
+   "id": "L013",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "defensible_asset": 6,
+   "moat_type": "data",
+   "reason": "Its multi-agency recall corpus, product identifier matching and retained catalog match history form a growing data asset; the search found only one dated recent direct API launch, and no other evidenced kill rule applies.",
+   "launches_last_6m": "RecallGuard API — documentation says built 2026-09-28; no second dated direct catalog-matching launch found (RecallMatching launch date unverified).",
+   "buy_checklist": null,
+   "platform_or_partner": "CPSC provides a free recall data API; no official catalog matching or monitoring service found.",
+   "incumbents": "RecallGuard API ($0.10/match); RecallMatching (early access, price unverified); Covala (API by request, price unverified); Oredrift EU Recall API (price unverified). No evidence found of 5 maintained, well-reviewed incumbents at or below $29/month.",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://recallsapi.com/pricing",
+    "https://recallsapi.com/docs/monitoring",
+    "https://recallsapi.com/",
+    "https://recallguard-docs.vercel.app/",
+    "https://recallmatching.com/",
+    "https://covala.com/developers",
+    "https://recalls.oredrift.com/",
+    "https://www.cpsc.gov/Recalls/CPSC-Recalls-Application-Program-Interface-API-Information"
+   ]
+  },
+  {
+   "id": "L014",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "defensible_asset": 5,
+   "moat_type": "data",
+   "reason": "Monthly queue history joined to feeder constraints is a specialized dataset that compounds over time, and the dated search found one recent queue-index launch without evidence of a second or another kill rule.",
+   "launches_last_6m": "USTA Interconnection Queue Index — launched 2026-07-09; no second dated competing launch found.",
+   "buy_checklist": null,
+   "platform_or_partner": "none found",
+   "incumbents": "GridStatus offers an interconnection-queue product with enterprise pricing; USTA Interconnection Queue Index launched free. No evidence found of 5 maintained, well-reviewed incumbents at or below $99/month without a feeder-level wedge.",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://feederiq.com/pricing",
+    "https://feederiq.com/blog",
+    "https://feederiq.com/press/",
+    "https://www.gridstatus.io/pricing",
+    "https://mta-sts.ustechautomations.com/resources/blog/us-interconnection-queue-index-july-2026"
+   ]
+  },
+  {
+   "id": "L015",
+   "verdict": "kill",
+   "kill_rule": "K0",
+   "defensible_asset": 2,
+   "moat_type": "data",
+   "reason": "The claimed asset is normalization and revision history derived from SEC public filings, which does not establish a months-hard-to-copy dataset moat under the locked gate.",
+   "launches_last_6m": "No competing launches found in dated searches since 2026-04-23.",
+   "buy_checklist": null,
+   "platform_or_partner": "SEC EDGAR/data.sec.gov provides free APIs for company submissions and extracted XBRL data.",
+   "incumbents": "SEC EDGAR extracted XBRL API (free); Intrinio standardized financials ($150/month Individual; Startup from $333/month); sec-api.io filing APIs ($49/month billed annually).",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://studyingstocks.com/developers/pricing",
+    "https://studyingstocks.com/developers",
+    "https://www.sec.gov/about/developer-resources",
+    "https://www.sec.gov/newsroom/whats-new/osd-announcement-090821-sec-disclosure-data-api",
+    "https://intrinio.com/pricing",
+    "https://sec-api.io/pricing"
+   ]
+  },
+  {
+   "id": "L016",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "defensible_asset": 5,
+   "moat_type": "rules",
+   "reason": "Shopify Tax already provides US nexus-liability monitoring for Shopify sales and imported marketplace orders, covering the monitor’s core use for Shopify merchants while free below its sales threshold.",
+   "launches_last_6m": "none found; no verifiable competing launch date surfaced in the 2026-04-23 to 2026-10-23 search",
+   "buy_checklist": null,
+   "platform_or_partner": "Shopify Tax: nexus-liability insights include eligible marketplace transactions and imported orders; free below the applicable $100,000 sales threshold.",
+   "incumbents": "Avalara Select: advertised from $69/state/month, with Core Compliance shown at $79/monthly per state; TaxJar Starter: $39/month for marketplace sellers; TaxJar Professional: $99/month.",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://help.shopify.com/en/manual/taxes/us/us-tax-liability",
+    "https://help.shopify.com/en/manual/taxes/shopify-tax/pricing",
+    "https://www.avalara.com/us/en/products/sales-and-use-tax/pricing.html",
+    "https://www.taxjar.com/pricing"
+   ]
+  },
+  {
+   "id": "L017",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "defensible_asset": 5,
+   "moat_type": "rules",
+   "reason": "Shopify Tax already calculates EU VAT using product categories and destination, with tax reports, and is free below its sales threshold for Shopify merchants.",
+   "launches_last_6m": "VAT Engine surfaced in a current free-alpha listing, but its launch date is unverified; no second dated launch found",
+   "buy_checklist": null,
+   "platform_or_partner": "Shopify Tax: bundled EU VAT calculation by product category and destination, plus tax reports; free below the applicable €100,000 sales threshold.",
+   "incumbents": "Shopify Tax: free below €100,000, then 0.15%–0.25% on eligible orders by plan; PayFlo and hellotax prices from the lead are unverified in this search.",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://help.shopify.com/en/manual/taxes/shopify-tax/shopify-tax-eu",
+    "https://help.shopify.com/en/manual/taxes/shopify-tax/pricing",
+    "https://fazier.com/launches/vat-engine",
+    "https://payflo.eu/",
+    "https://hellotax.com/pricing?_get=start"
+   ]
+  },
+  {
+   "id": "L018",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "defensible_asset": 4,
+   "moat_type": "rules",
+   "reason": "The recognized Peppol access point e-invoice.be already provides a free, instant validator with no registration that checks EN 16931 and Peppol BIS rules, matching the proposed tool’s core job.",
+   "launches_last_6m": "none found in the window; Peppol Viewer launched 2026-01-16, outside it; Pay Day app release date is unverified",
+   "buy_checklist": null,
+   "platform_or_partner": "e-invoice.be, a recognized Peppol access point, offers the exact invoice-validation function free with no account.",
+   "incumbents": "e-invoice.be validator: free; Smart PEPPOL: €300/year excluding VAT.",
+   "claim_event_date": "2026-01",
+   "urls": [
+    "https://e-invoice.be/peppol-validator",
+    "https://companybelgium.be/en/practical-guides/e-invoice-be-point-acces-peppol",
+    "https://smartpeppol.be/en",
+    "https://itwharf.com/insights/peppol-viewer-launched"
+   ]
+  },
+  {
+   "id": "L019",
+   "verdict": "kill",
+   "kill_rule": "K0",
+   "defensible_asset": 2,
+   "moat_type": "rules",
+   "reason": "K0: the FA(3) schema and API are publicly documented, and the Ministry already provides free FA(3) invoicing tools; a proprietary or compounding asset and switching costs are unverified, so the proposed connector layer does not clear the moat gate.",
+   "launches_last_6m": "Sovos Compliance Network — 2026-06-02; no second dated competing launch found.",
+   "buy_checklist": null,
+   "platform_or_partner": "Polish Ministry of Finance: free KSeF Taxpayer Application 2.0 and official API documentation and client libraries.",
+   "incumbents": "Ministry Taxpayer Application: free; KSeF Service: from 10 zł net/month; Symfonia KSeF Plus Basic: 690 zł net/year; KSeF Import: from 9 zł net/month.",
+   "claim_event_date": "2026-02",
+   "urls": [
+    "https://ksef.podatki.gov.pl/aplikacja-podatnika-ksef-20/",
+    "https://ksef.mf.gov.pl/",
+    "https://symfonia.pl/oprogramowanie/ksef/",
+    "https://ksefimport.pl/ranking-narzedzi-ksef",
+    "https://sovos.com/press-releases/sovos-launches-compliance-network-to-address-unprecedented-wave-of-global-e-invoicing-mandates/"
+   ]
+  },
+  {
+   "id": "L020",
+   "verdict": "kill",
+   "kill_rule": "K0",
+   "defensible_asset": 3,
+   "moat_type": "rules",
+   "reason": "K0: the proposed German rules and validation guidance are based on published BMF and KoSIT materials, including an open-source validator; private cumulative data, proprietary rule coverage, and switching costs are unverified, so the moat is unclear and scores below 4.",
+   "launches_last_6m": "Sovos Compliance Network — 2026-06-02; ZUGFeRD Validator — initial release April 2026 (exact day unverified, so whether it falls after 23 April is unverified); no second post-cutoff dated launch confirmed.",
+   "buy_checklist": null,
+   "platform_or_partner": "BMF points to KoSIT open-source validator and test components; ELSTER also provides a free e-invoice viewer.",
+   "incumbents": "KoSIT XRechnung validator and testsuite: open source; ELSTER viewer: free; xrechnung.dev: free online validation; ZUGFeRD Validator and Sovos pricing: unverified.",
+   "claim_event_date": "2027-12",
+   "urls": [
+    "https://www.bundesfinanzministerium.de/Content/DE/FAQ/e-rechnung.html",
+    "https://xeinkauf.de/",
+    "https://xrechnung.dev/",
+    "https://zugferd-validator.de/en/docs",
+    "https://sovos.com/press-releases/sovos-launches-compliance-network-to-address-unprecedented-wave-of-global-e-invoicing-mandates/"
+   ]
+  },
+  {
+   "id": "L021",
+   "verdict": "kill",
+   "kill_rule": "K0",
+   "defensible_asset": 2,
+   "moat_type": "rules",
+   "reason": "K0: the obligation mapping relies on public rules, and DGFiP already offers a free four-question readiness checker covering company size, customer type, activity, and VAT regime; proprietary data or switching costs are unverified, so the proposed asset scores below 4.",
+   "launches_last_6m": "Sovos Compliance Network — 2026-06-02 (global e-invoicing compliance platform covering France); no dated competing readiness-checker launch found.",
+   "buy_checklist": null,
+   "platform_or_partner": "DGFiP's public four-question e-invoicing readiness checker directly covers the proposed checker need; approved-platform prices are unverified.",
+   "incumbents": "DGFiP readiness checker: publicly available, price not stated; approved-platform pricing: unverified.",
+   "claim_event_date": "2027-09",
+   "urls": [
+    "https://www.impots.gouv.fr/facturation-electronique-qu-est-ce-que-ca-change-pour-moi",
+    "https://www.impots.gouv.fr/professionnel/questions/partir-de-quand-suis-je-concerne-par-la-reforme-de-la-facturation?trk=public_post_comment-text",
+    "https://www.impots.gouv.fr/facturation-electronique-et-plateformes-agreees",
+    "https://sovos.com/press-releases/sovos-launches-compliance-network-to-address-unprecedented-wave-of-global-e-invoicing-mandates/"
+   ]
+  },
+  {
+   "id": "L022",
+   "verdict": "kill",
+   "kill_rule": "K2",
+   "defensible_asset": 5,
+   "moat_type": "data",
+   "reason": "Kill K2: dated launches found Recyda PPWR Navigator (2026-06-30) and SynoptiCons PAQR (2026-05-06), both offering packaging data and PPWR evidence workflows within the six-month window.",
+   "launches_last_6m": "Recyda PPWR Navigator — launched 2026-06-30; SynoptiCons PAQR — launched 2026-05-06; IntegrityNext PPWR capabilities — announced 2026-07-30.",
+   "buy_checklist": null,
+   "platform_or_partner": "none found; the European Commission provides free guidance, not a compliance workspace.",
+   "incumbents": "Recyda, SynoptiCons PAQR and IntegrityNext (prices unverified); EUSeller Growth includes PPWR at €69/month beta.",
+   "claim_event_date": "2028-08",
+   "urls": [
+    "https://www.recyda.com/resources/press-releases/recyda-launches-ppwr-navigator",
+    "https://synopticons.com/newsroom/synopticons-launches-paqr-packaging-compliance-software-for-the-eu-ppwr/",
+    "https://www.integritynext.com/about-us/press/detail/integritynext-expands-product-compliance-pillar-with-ppwr-capabilities-ahead-of-2026-eu-enforcement",
+    "https://euseller.com/pricing/",
+    "https://green-forum.ec.europa.eu/green-business/packaging-and-packaging-waste-regulation-implementation_en?prefLang=pl"
+   ],
+   "success_in_12_months": 3,
+   "agent_runnability": 6,
+   "fit": 8,
+   "automation_share_pct": 65,
+   "automation_reason": "Estimated 65% if product checks, records, reminders, billing, and routine support are automated through self-serve sales; regulatory interpretation and unusual cases still need human review."
+  },
+  {
+   "id": "L023",
+   "verdict": "kill",
+   "kill_rule": "K2",
+   "defensible_asset": 6,
+   "moat_type": "data",
+   "reason": "Kill K2: dated search found Packify: PPWR & EPR Compliance (2026-07-28), PackPilot EPR (2026-07-24), and EPR Pack Report (2026-06-15), each addressing packaging EPR data or reporting for online merchants.",
+   "launches_last_6m": "Packify: PPWR & EPR Compliance — 2026-07-28; PackPilot EPR — 2026-07-24; EPR Pack Report — 2026-06-15; Packaging EPR by MiniSage Tech — 2026-07-23.",
+   "buy_checklist": null,
+   "platform_or_partner": "none found; a September 2026 comparison reports Shopify has no native EPR feature.",
+   "incumbents": "Packsum €29/month; EPR Auto-Tracker $29/month or $49/month; Packify free/$7 per month; PackPilot free; EPR Pack Report $179/year for one country; EPR Insights $15–$59/month; EAS from €9.90/month plus €0.40 per eligible order. The September comparison reports only EPR Insights had reviews among the five apps it assessed.",
+   "claim_event_date": "2026-08",
+   "urls": [
+    "https://blog.smart-agent-blog.app/en/shopify-eu-ppwr-epr-packaging-compliance-apps",
+    "https://heyapps.dev/apps/packaging-epr",
+    "https://packsum.app/pricing/",
+    "https://packaging-epr.com/",
+    "https://easproject.com/epr/",
+    "https://environment.ec.europa.eu/topics/waste-and-recycling/packaging-waste/extended-producer-responsibility-packaging-small-businesses_en?prefLang=it"
+   ],
+   "success_in_12_months": 3,
+   "agent_runnability": 8,
+   "fit": 8,
+   "automation_share_pct": 75,
+   "automation_reason": "Estimated 75% if order aggregation, calculations, exports, billing, and routine support are automated through an app-store listing; country-rule maintenance and unusual filing issues still need human review."
+  },
+  {
+   "id": "L024",
+   "verdict": "kill",
+   "kill_rule": "K2",
+   "defensible_asset": 5,
+   "moat_type": "rules",
+   "reason": "Kill K2: AKA Label Studio launched 2026-06-19 and Loook launched 2026-09-07, both offering recent food-label or food-and-cosmetics compliance tools relevant to the proposed checker.",
+   "launches_last_6m": "AKA Label Studio — 2026-06-19; Kilurion Label Audit AI — introduced 2026-05-19; Loook: Product Compliance — launched 2026-09-07.",
+   "buy_checklist": null,
+   "platform_or_partner": "none found.",
+   "incumbents": "EUSeller Starter €27/month beta and Growth €69/month beta; AKA Label Studio free; Loook $19/month Starter, $39/month Growth, and $99/month Pro; Labelring and Kilurion pricing unverified.",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://www.prnewswire.com/news-releases/aka-foods-launches-aka-label-studio-a-free-food-labelling-tool-for-fda-and-euuk-markets-302804708.html",
+    "https://www.kilurion.com/blog/nieuws-2/nieuw-kilurion-label-audit-ai-16",
+    "https://apps.shopify.com/loook-audit?surface_detail=store-management-security-legal&surface_inter_position=1&surface_intra_position=8&surface_type=category&surface_version=redesign",
+    "https://euseller.com/pricing/",
+    "https://labelring.co.uk/"
+   ],
+   "success_in_12_months": 3,
+   "agent_runnability": 7,
+   "fit": 8,
+   "automation_share_pct": 65,
+   "automation_reason": "Estimated 65% if label checks, rule updates, product records, billing, and routine support are automated with self-serve acquisition; ambiguous labels and regulatory exceptions still need human review."
+  },
+  {
+   "id": "L025",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "defensible_asset": 5,
+   "moat_type": "rules",
+   "reason": "A maintained EAA-to-check mapping plus accumulated site evidence could create a rules and switching-cost asset, while the dated search found no competing launch since 23 Apr 2026 and the evidence-ledger wedge remains distinct from lower-priced scan and overlay tools.",
+   "launches_last_6m": "none found since 23 Apr 2026; Accessible.org's Accessibility Tracker was dated 3 Apr 2026, outside the window",
+   "buy_checklist": null,
+   "platform_or_partner": "none found; no platform owner or official partner was evidenced as providing the combined EAA mapping, monitoring and evidence-history workflow",
+   "incumbents": "EAA Compliance: €149/month Growth; AAArdvark: $49/month; AccessBell: $29/domain/month; Pope Tech: $25–30/month; UserWay: $490/year with monitoring up to 10 pages. Several are adjacent scanners or overlays; the legal mapping and evidence ledger are the proposed wedge.",
+   "claim_event_date": "2025-06",
+   "urls": [
+    "https://eaacompliance.org/pricing",
+    "https://eaacompliance.org/changelog?area=Platform",
+    "https://accessible.org/platform-manage-accessibility-compliance/",
+    "https://www.accessbell.co/comparisons",
+    "https://www.a11yscope.com/blog/accessibility-tool-pricing-comparison-2026",
+    "https://userway.org/pricing/"
+   ],
+   "scores": {
+    "success_12m": 3,
+    "agent_runnability": 8,
+    "fit": 8,
+    "automation_share_percent": 75,
+    "automation_reason": "Scanning, reporting, billing and routine support can be automated; legal-rule maintenance and edge-case review remain human work."
+   }
+  },
+  {
+   "id": "L026",
+   "verdict": "kill",
+   "kill_rule": "K2",
+   "defensible_asset": 7,
+   "moat_type": "data",
+   "reason": "Two competing screening releases fell within the required window: ComplyAdvantage Payment Screening on Mesh launched 19 May 2026 and SecurePoint's Continuous Screening & Access Monitoring launched 12 July 2026.",
+   "launches_last_6m": "ComplyAdvantage Payment Screening on Mesh — 19 May 2026; SecurePoint Continuous Screening & Access Monitoring — 12 July 2026",
+   "buy_checklist": null,
+   "platform_or_partner": "OFAC Sanctions List Search is a free official fuzzy-name lookup; the evidence found does not show it provides the proposed cross-list monitoring and audit workflow",
+   "incumbents": "SanctionRadar: $29/month; OFACScreen: plans from $49/month; SanctionsScreening.io: from $29/month; ScreeningHub: €79/month.",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://complyadvantage.com/press-media/complyadvantage-integrates-real-time-payment-screening-into-mesh-platform/",
+    "https://www.securepointusa.com/blog/continuous-screening-access-monitoring",
+    "https://ofac.treasury.gov/sanctions-list-service",
+    "https://www.sanctionradar.com/pricing",
+    "https://www.ofacscreen.com/sanctions-screening-software/"
+   ],
+   "scores": {
+    "success_12m": 3,
+    "agent_runnability": 8,
+    "fit": 8,
+    "automation_share_percent": 80,
+    "automation_reason": "List ingestion, matching, alerts, audit records and billing can be automated; ambiguous matches and compliance support require human review."
+   }
+  },
+  {
+   "id": "L027",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "defensible_asset": 4,
+   "moat_type": "rules",
+   "reason": "A maintained USML/EAR mapping and accumulated classification records can meet K0, and the searches found neither two dated launches since 23 Apr 2026 nor five low-priced maintained incumbents covering the combined ITAR workflow.",
+   "launches_last_6m": "none found since 23 Apr 2026; ECCN.io lists public access in January 2026, outside the window",
+   "buy_checklist": null,
+   "platform_or_partner": "BIS provides free CCL and Order of Review tools for EAR self-classification, but the evidence found does not show a free official tool covering the combined ITAR workflow and retained classification history",
+   "incumbents": "ITAR Screen: $99/month Starter; ECCN.dev: $49/month Solo; ECCN.help: limited free classifications with paid terms unverified; ECCN.io: pricing unverified; EC Compliance: price unverified.",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://www.bis.gov/licensing/classify-your-item",
+    "https://www.itarscreen.com/",
+    "https://www.eccn.dev/pricing",
+    "https://eccn.help/pricing.php",
+    "https://eccn.io/",
+    "https://www.ec-compliance.com/en/export-control-classification/"
+   ],
+   "scores": {
+    "success_12m": 4,
+    "agent_runnability": 6,
+    "fit": 8,
+    "automation_share_percent": 70,
+    "automation_reason": "Rule lookups, workflow records and screening can be automated; ambiguous classifications and technical edge cases need human review."
+   }
+  },
+  {
+   "id": "L028",
+   "verdict": "kill",
+   "kill_rule": "K4",
+   "defensible_asset": 5,
+   "moat_type": "rules",
+   "reason": "At the plausible small-site price of $15 per month or less, five reviewed CMPs—CookieYes, Cookiebot, Termly, Usercentrics, and CookieScript—already offer overlapping geo-targeting, scans, or consent logs, leaving no evidenced wedge.",
+   "launches_last_6m": "none found (search date 2026-10-23; window 2026-04-23 onward)",
+   "copy_speed": "pass",
+   "buy_checklist": null,
+   "platform_or_partner": "No platform-owner product found that fully replaces multi-jurisdiction configuration and change monitoring; Google-certified CMPs are vendors, several with limited free plans.",
+   "incumbents": "CookieYes ($7–10/month), Cookiebot (€7/month), Termly ($14/month), Usercentrics (€7/month), CookieScript (€9/month); the cited comparison reports ratings from 4.0 to 4.8/5.",
+   "claim_event_date": "2026-10",
+   "track": "build",
+   "success_12m": 2,
+   "agent_runnability": 8,
+   "fit": 9,
+   "automation_share_pct": 70,
+   "automation_share_reason": "Estimated 70%: site scans, configuration, billing, and routine support can be automated; legal-rule and vendor-disclosure maintenance still needs review.",
+   "urls": [
+    "https://www.cookieyes.com/blog/best-consent-management-platforms/",
+    "https://expertinsights.com/compliance/the-top-cookie-consent-software",
+    "https://veloconsent.com/blog/best-consent-management-platforms"
+   ]
+  },
+  {
+   "id": "L029",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "defensible_asset": 5,
+   "moat_type": "data",
+   "reason": "A maintained state-and-locality license-requirements directory is a concrete data asset plausibly taking months to assemble, and no post-cutoff launch or five reviewed low-price exact lookup incumbents surfaced; TaxJar currently lists registration at $299 per state.",
+   "launches_last_6m": "none found (search date 2026-10-23; window 2026-04-23 onward)",
+   "copy_speed": "pass",
+   "buy_checklist": null,
+   "platform_or_partner": "SBA links to state revenue departments and some states provide free registration and lookup tools, but no full multi-jurisdiction platform was found.",
+   "incumbents": "Avalara offers a state business-license directory; its lookup price is unverified. TaxJar lists sales-tax registration at $299 per state. State registration tools are often free.",
+   "claim_event_date": "2026-10",
+   "track": "build",
+   "success_12m": 3,
+   "agent_runnability": 6,
+   "fit": 9,
+   "automation_share_pct": 60,
+   "automation_share_reason": "Estimated 60%: self-serve search, checklists, exports, onboarding, and billing can be automated; jurisdiction research and legal-quality review remain manual.",
+   "urls": [
+    "https://www.avalara.com/us/en/learn/licenses.html",
+    "https://www.sba.gov/counseling/launch-your-business/department-of-revenue-lookup/",
+    "https://www.taxjar.com/product/registrations",
+    "https://cdtfa.ca.gov/services/registration.htm"
+   ]
+  },
+  {
+   "id": "L030",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "defensible_asset": 6,
+   "moat_type": "rules",
+   "reason": "The EU’s current ViDA timetable sets VAT changes for 2027, 2028, 2030, and 2035, and recent providers still sell multi-country compliance, while no post-cutoff competing launch or exact bundled regulatory-change tracker surfaced.",
+   "launches_last_6m": "none found (search date 2026-10-23; window 2026-04-23 onward)",
+   "copy_speed": "pass",
+   "buy_checklist": null,
+   "platform_or_partner": "Shopify Tax provides liability monitoring and monthly notifications for Shopify stores; Amazon offers VAT services through tax partners. These overlap with tax monitoring and filing, but a full regulatory-change tracker was not verified.",
+   "incumbents": "hellotax (€49 or €119/month per country); SimpleVAT (€25/month, reported); Lovat (€27/month, reported); Marosa (€350+/month); Taxually (quote); Amazon VAT Services (from €29.17/month per country).",
+   "claim_event_date": "2026-07",
+   "track": "build",
+   "success_12m": 4,
+   "agent_runnability": 7,
+   "fit": 9,
+   "automation_share_pct": 65,
+   "automation_share_reason": "Estimated 65%: change detection, alerts, and merchant-data matching can be automated; tax interpretation and impact mapping need human review.",
+   "urls": [
+    "https://taxation-customs.ec.europa.eu/taxation/vat/vat-digital-age-vida_en?prefLang=nl",
+    "https://taxation-customs.ec.europa.eu/news/vat-digital-age-2026-work-programme-available-2026-05-22_en",
+    "https://hellotax.com/blog/eu-vat-compliance-providers/",
+    "https://help.shopify.com/en/manual/taxes/eu/eu-tax-liability",
+    "https://help.shopify.com/en/manual/taxes/shopify-tax/choose-tax-service",
+    "https://m.media-amazon.com/images/G/02/sell/images/SCO2890-rate-card-EN-first.pdf"
+   ]
+  },
+  {
+   "id": "L031",
+   "verdict": "kill",
+   "kill_rule": "K0",
+   "defensible_asset": 3,
+   "moat_type": "network",
+   "reason": "InventorySpread describes brokered matching and deal coordination but does not evidence a compounding performance dataset or durable participant network that would take months to reproduce, so the proposed moat fails strict K0.",
+   "launches_last_6m": "Substack native sponsorship program / Creator Kits — 15 Jun 2026; Newsletify — 20 Apr 2026 (before the window); beehiiv Ad Network launch date unverified.",
+   "buy_checklist": null,
+   "platform_or_partner": "Substack’s native sponsorship program serves its publishers; beehiiv has an Ad Network for its publishers; no cross-platform official partner found.",
+   "incumbents": "Paved (advertiser access free; reported 30% publisher commission), beehiiv Ad Network (price unverified), BuySellAds (placement pricing), Swapstack (price unverified), Passionfroot (price unverified); well-reviewed status unverified.",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://inventoryspread.com/how-it-works",
+    "https://on.substack.com/p/a-business-model-that-works-for-creators",
+    "https://substack.com/sponsorships",
+    "https://www.beehiiv.com/blog/beehiiv-ad-network",
+    "https://www.betterlaunch.co/product/newsletify-newsletter-sponsorship-marketplace"
+   ]
+  },
+  {
+   "id": "L032",
+   "verdict": "kill",
+   "kill_rule": "K0",
+   "defensible_asset": 3,
+   "moat_type": "data",
+   "reason": "DataBazaar shows a 330-listing catalog and usage counts, but the listings are not evidenced as exclusive or difficult to reproduce over months and compounding buyer or retention data is unverified, so it fails strict K0.",
+   "launches_last_6m": "Verb consumer data marketplace — 6 Aug 2026 (adjacent); no directly comparable agent-ready dataset exchange launch found.",
+   "buy_checklist": null,
+   "platform_or_partner": "None found; AWS Data Exchange is an incumbent marketplace, but no relationship making it DataBazaar’s platform owner or official partner was found.",
+   "incumbents": "AWS Data Exchange (3,500+ third-party datasets, including 1,000+ free; paid prices vary), Hugging Face Datasets (price unverified), Kaggle (price unverified), Snowflake Marketplace (price unverified), Datarade (price unverified).",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://www.databazaar.io/",
+    "https://www.databazaar.io/sell",
+    "https://aws.amazon.com/data-exchange/",
+    "https://www.axios.com/2026/08/06/exclusive-verb-lets-you-sell-your-data-to-ai-labs-for-training"
+   ]
+  },
+  {
+   "id": "L033",
+   "verdict": "kill",
+   "kill_rule": "K0",
+   "defensible_asset": 3,
+   "moat_type": "data",
+   "reason": "Giftella reports 1,800+ users and participating brands, but exclusive or retained network value and accumulated recipient-fit data that would take months to reproduce are unverified, so the proposed moat fails strict K0.",
+   "launches_last_6m": "GiftySearch — open since Oct 2026; page updated 22 Oct 2026.",
+   "buy_checklist": null,
+   "platform_or_partner": "Etsy Gift Mode provides native gifting discovery for Etsy inventory; no official partner for cross-store discovery found.",
+   "incumbents": "Giftella (free app; listed brands pay 10–20% on referred orders), Etsy Gift Mode (free), Giftster (free), GiftySearch (free), Engift (free, private beta), Giftsnatch (price unverified); review evidence across five or more incumbents is unverified.",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://giftella.app/ecosystem",
+    "https://giftysearch.com/about",
+    "https://www.etsy.com/seller-handbook/article/1235682629733",
+    "https://www.pr.com/press-release/964438",
+    "https://engift.com/",
+    "https://giftsnatch.com/"
+   ]
+  },
+  {
+   "id": "L034",
+   "verdict": "kill",
+   "kill_rule": "K2",
+   "defensible_asset": 5,
+   "moat_type": "data",
+   "reason": "K2 kills: Moodle Marketplace launched in July 2026 and Claude Marketplace in September 2026; Claude Opus shadow review was unavailable, and this batch contained only one kill to sample.",
+   "launches_last_6m": "Moodle Marketplace (week of 13 Jul 2026); Claude Marketplace (23 Sep 2026)",
+   "buy_checklist": null,
+   "platform_or_partner": "Anthropic’s Claude Marketplace and Moodle Marketplace",
+   "incumbents": "PromptBase Select ($14/month annual or $19/month monthly); LaPrompt (price unverified); Moodle Marketplace (free and paid plugins); Claude Marketplace (product prices unverified).",
+   "claim_event_date": "2026-09",
+   "urls": [
+    "https://pimenko.com/en/moodle-marketplace-user-experience-feedback/",
+    "https://creatorstoolbox.com/blog/claude-claude-marketplace-launches",
+    "https://marketplace.moodle.com/",
+    "https://astra.directory/marketplace-terms",
+    "https://laprompt.com/changelog",
+    "https://promptbase.com/blog/promptbase-select-creators"
+   ]
+  },
+  {
+   "id": "L035",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "defensible_asset": 6,
+   "moat_type": "data",
+   "reason": "The lead names a maintained cross-platform index, and Hive Index documents 5,855 communities across 36 platforms with structured features and reviews; no like-for-like post-23-Apr-2026 launch or decisive kill was verified.",
+   "launches_last_6m": "none found",
+   "buy_checklist": null,
+   "platform_or_partner": "Circle Discover serves Circle-hosted communities; current listing price or bundling is unverified, and it does not show the same cross-platform coverage.",
+   "incumbents": "Hive Index (free browse and listing; Featured $99 one-time, Gold $390/year); Circle Discover (listing price unverified).",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://thehiveindex.com/about/",
+    "https://thehiveindex.com/submit/",
+    "https://circle.so/discover",
+    "https://community.circle.so/c/product-updates/january-2025-update"
+   ]
+  },
+  {
+   "id": "L036",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "defensible_asset": 6,
+   "moat_type": "data",
+   "reason": "The historical price and membership dataset is a compounding asset, with Check the Course reporting 9,447 listings and over 1.23 million readings; no dated competing launch or platform-wide bundled benchmark was verified.",
+   "launches_last_6m": "none verified; CommunityRank’s first snapshot was 2026-10-16, but its launch date is unverified",
+   "buy_checklist": null,
+   "platform_or_partner": "Skool’s native analytics covers an owner’s own community; a cross-market benchmark was not found.",
+   "incumbents": "Check the Course (free); CommunityRank (free); Skool Analytics (free start; other pricing unverified); SkoolStats (pricing unverified); Skoolgrades (pricing unverified).",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://checkthecourse.com/",
+    "https://checkthecourse.com/reports",
+    "https://community-rank.com/report",
+    "https://www.skoolstats.com/",
+    "https://www.skoolanalytics.com/",
+    "https://www.skool.com/explore-3828/skool-news-36-analytics-is-live"
+   ]
+  },
+  {
+   "id": "L037",
+   "verdict": "kill",
+   "kill_rule": "K0",
+   "defensible_asset": 2,
+   "moat_type": "data",
+   "reason": "The October snapshot covers 65 public listings, while Check the Course reports 9,447 listings and over 1.2 million readings across ten weeks; this small scrape has no evidenced proprietary or months-hard-to-copy asset.",
+   "launches_last_6m": "No competitor launch with a verifiable date found; Paid on Social terms took effect 2026-09-14 (launch date unverified); Check the Course reports ten weeks of records as of 2026-10-23 (launch date unverified).",
+   "buy_checklist": null,
+   "platform_or_partner": "Skool Discovery (official community discovery and rankings; cross-platform price history not evidenced).",
+   "incumbents": "Check the Course (public data; paid pricing unverified); Paid on Social (free category data; Pro price unverified); skool.community (public leaderboards; featured placement price unverified).",
+   "claim_event_date": "2026-10",
+   "urls": [
+    "https://community-rank.com/report",
+    "https://checkthecourse.com/",
+    "https://paidonsocial.com/legal/terms",
+    "https://help.skool.com/article/153-discovery-faqs"
+   ]
+  },
+  {
+   "id": "L038",
+   "verdict": "kill",
+   "kill_rule": "K0",
+   "defensible_asset": 2,
+   "moat_type": "data",
+   "reason": "The page describes a fee and transfer workflow, but accrued transfer records, seller histories, and diligence data are prospective and no defensible asset is evidenced, so strict K0 kills.",
+   "launches_last_6m": "No directly comparable launch with a verifiable date found; NUVA launched 2026-05-13 for institutional tokenized real-world assets; tZERO launched 2026-04-20, before the window.",
+   "buy_checklist": null,
+   "platform_or_partner": "none found",
+   "incumbents": "Acquire.com (buyer Basic free, Premium $390/year; seller listing from $25/month plus 8% closing fee for asks up to $250,000); Flippa (price unverified); Microns (price unverified); SideProjectors (price unverified); Empire Flippers (price unverified).",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://b2b.realitas.fi/",
+    "https://help.acquire.com/subscription-terms",
+    "https://www.animocabrands.com/announcement/nuva-launches-on-ethereum-as-premier-curated-institutional-grade-rwa-marketplace-co-created-by-animoca-brands-and-nuva-labs",
+    "https://www.tzero.com/news/tzero-launches-regulated-private-marketplace-for-web3-secondaries"
+   ]
+  },
+  {
+   "id": "L039",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "defensible_asset": 5,
+   "moat_type": "network",
+   "reason": "Kit's native sponsorship marketplace and beehiiv's bundled direct sponsorship storefront already serve newsletter ad booking and campaign management, so K3 kills despite BigReach's claimed catalog and data network.",
+   "launches_last_6m": "Kit Newsletter Sponsorships launched at Craft + Commerce 2026 (June 2026); Newsletify launched 2026-04-20 (outside the window); KreatorStack is in private beta, with its start date unverified.",
+   "buy_checklist": null,
+   "platform_or_partner": "Kit (official Newsletter Sponsorships on Creator and Pro plans); beehiiv (official Direct Sponsorships on Pro and Enterprise).",
+   "incumbents": "Paved (free for advertisers; publisher commission reported at 30%); Passionfroot (free core, 5% on organic deals and 15% on network deals); LetterWell (free browse/contact, $49 verified listing); Kit (Creator/Pro plan; price unverified); beehiiv (Pro/Enterprise; price unverified).",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://www.bigreach.pro/marketplace",
+    "https://kit.com/resources/blog/creator-product-launches-craft-commerce-2026",
+    "https://help.kit.com/en/articles/11645396-how-to-run-kit-newsletter-sponsorships",
+    "https://www.beehiiv.com/support/article/30651400536727-how-to-create-a-direct-sponsorship-storefront%3Fvia%3Dcollin%26srsltid%3DAfmBOorpEs296HJ2giitwnJXVS6qvba6cVDoP6yWI82XEfs-NzAHRhgk",
+    "https://help.passionfroot.me/en/articles/11552638-pricing",
+    "https://letterwell.co/about/"
+   ]
+  },
+  {
+   "id": "L040",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "defensible_asset": 4,
+   "moat_type": "data",
+   "reason": "The live tracker reports 9,447 listings and over 1.2 million source-linked readings across 10 weeks, a compounding data asset that would take months to recreate; paid customer evidence is unverified.",
+   "launches_last_6m": "none found; Skool Analytics launch date unverified",
+   "buy_checklist": null,
+   "platform_or_partner": "Skool provides built-in analytics for individual community owners; no cross-community benchmark product found",
+   "incumbents": "Check the Course (public tracker; subscription/API price unverified); Skool Analytics (free tier; paid pricing unverified)",
+   "claim_event_date": "2026-10",
+   "urls": [
+    "https://checkthecourse.com/",
+    "https://www.skoolanalytics.com/",
+    "https://help.skool.com/article/226-traffic-sources"
+   ]
+  },
+  {
+   "id": "L041",
+   "verdict": "kill",
+   "kill_rule": "K2",
+   "defensible_asset": 4,
+   "moat_type": "network",
+   "reason": "BigReach's page claims a 1,200+ publisher network and booking and tracking workflow, but K2 kills after Paved AI Connector launched 9 Jun 2026 and Workweek opened its newsletter platform and ad network on 27 Aug 2026; BigReach's paid-outcome claims are unverified.",
+   "launches_last_6m": "Paved AI Connector — 9 Jun 2026; Workweek newsletter platform and ad network — 27 Aug 2026",
+   "buy_checklist": null,
+   "platform_or_partner": "beehiiv Ad Network and Swapstack serve newsletter monetization within the beehiiv ecosystem; scope is partial for a cross-platform network",
+   "incumbents": "Paved (advertiser access free; publisher fee reported at 30%), beehiiv Ad Network (Scale-plan creators), Swapstack (free), Passionfroot ($199/mo advertiser plan), Hecto (no advertiser minimum); current terms unverified with vendors",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://www.bigreach.pro/marketplace",
+    "https://www.producthunt.com/products/paved?launch=paved-ad-network",
+    "https://www.adexchanger.com/platforms/this-professional-social-network-just-launched-a-newsletter-platform-and-yes-theres-an-ad-network/",
+    "https://www.beehiiv.com/blog/beehiiv-ad-network",
+    "https://sponsorships.ai/newsletter-ad-networks"
+   ]
+  },
+  {
+   "id": "L042",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "defensible_asset": 5,
+   "moat_type": "network",
+   "reason": "The live index reports 5,855 communities across 36 platforms and 294 topics, with reviews and ratings in a directory curated since 2021; this compounding cross-platform asset would take months to recreate, while payment evidence is unverified.",
+   "launches_last_6m": "none found",
+   "buy_checklist": null,
+   "platform_or_partner": "None found across the cross-platform scope; Hive Index itself already offers free listings, reviews, analytics and paid promotion",
+   "incumbents": "Hive Index (free listings; paid promotion price unverified), Unita (price and current maintenance unverified), Discordium (active status and price unverified)",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://thehiveindex.com/",
+    "https://geekchamp.com/hive-index-competitors-and-alternatives-2026-what-to-use-for-community-discovery/",
+    "https://www.producthunt.com/products/hive-index/alternatives"
+   ]
+  },
+  {
+   "id": "L043",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "defensible_asset": 4,
+   "moat_type": "data",
+   "reason": "Render provides a dedicated Heroku migration guide and MIT-licensed migration skill for one named destination, so a destination platform already supplies the core migration workflow at no charge.",
+   "launches_last_6m": "No dated launch of a specific Heroku migration product found; Render announced an expanded coding-agent skills library on 2026-08-12, but the Heroku skill's launch date is unverified.",
+   "buy_checklist": null,
+   "platform_or_partner": "Render provides the migration guide and skill; Heroku documents upgrading Heroku-22 to a newer Heroku stack.",
+   "incumbents": "Heroku stack upgrade path (included); Render migration guide and MIT-licensed skill (free); other prices unverified.",
+   "claim_event_date": "2027-04",
+   "urls": [
+    "https://render.com/docs/migrate-from-heroku",
+    "https://github.com/render-oss/skills/blob/main/skills/render-migrate-from-heroku/SKILL.md",
+    "https://render.com/blog/build-deploy-and-operate-with-coding-agents-on-render",
+    "https://help.heroku.com/NQNCQTEJ/heroku-22-end-of-life-faq"
+   ]
+  },
+  {
+   "id": "L044",
+   "verdict": "kill",
+   "kill_rule": "K2",
+   "defensible_asset": 4,
+   "moat_type": "data",
+   "reason": "Three official Connect-to-Forge migration releases landed within six months: the adoption-status CLI, macro mapping support, and a Confluence macro index feature.",
+   "launches_last_6m": "Atlassian adoption-status CLI — 2026-08-10; migratedFrom Connect-to-Forge macro mapping property — 2026-09-11; Confluence macro index feature — 2026-10-14.",
+   "buy_checklist": null,
+   "platform_or_partner": "Atlassian provides the adoption-status CLI and Connected Apps migration messaging; CLI pricing is unverified.",
+   "incumbents": "Atlassian adoption-status CLI and Forge migration tooling (price unverified); Connected Apps migration messaging (bundled).",
+   "claim_event_date": "2027-01",
+   "urls": [
+    "https://developer.atlassian.com/platform/adopting-forge-from-connect/changelog/",
+    "https://developer.atlassian.com/platform/adopting-forge-from-connect/adoption-status-tool/",
+    "https://www.atlassian.com/blog/development/getting-ready-for-connect-end-of-support"
+   ]
+  },
+  {
+   "id": "L045",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "defensible_asset": 5,
+   "moat_type": "data",
+   "reason": "The dated search found one Datto-specific VSA 9 migration launch and no official or partner tool mapping VSA 9 configurations into independent RMMs such as NinjaOne or N-able, so no kill rule is evidenced.",
+   "launches_last_6m": "ProVal VSA 9 to Datto RMM migration solution — 2026-10-16; no independent cross-RMM mapper launch found.",
+   "buy_checklist": null,
+   "platform_or_partner": "Kaseya directs customers to Datto RMM or VSA 10; ProVal's migration solution targets Datto RMM, and no cross-vendor mapper was found.",
+   "incumbents": "Kaseya migration routes to Datto RMM/VSA 10 (price unverified); ProVal Datto migration solution (price unverified); no independent cross-RMM mapper found.",
+   "claim_event_date": "2027-08",
+   "urls": [
+    "https://helpdesk.kaseya.com/hc/en-gb/articles/49926799653265-VSA-9-End-of-Life-Notice",
+    "https://content.provaltech.com/docs/38446fc5-ce0a-4319-9471-ce7e327d8a8d"
+   ]
+  },
+  {
+   "id": "L046",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "defensible_asset": 4,
+   "moat_type": "data",
+   "reason": "A version-specific Smart Mover parser and validated workflow mappings are a plausible defensible asset, while WoodWing’s transition plan offers advice rather than a self-serve archive or converter; user count, pricing and payment evidence remain unverified.",
+   "launches_last_6m": "none found",
+   "buy_checklist": null,
+   "platform_or_partner": "WoodWing STSP includes advice on moving workflows to a replacement; no self-serve converter found.",
+   "incumbents": "WoodWing STSP (existing contract; separate price unverified); no dedicated maintained converter found.",
+   "claim_event_date": "2027-03",
+   "urls": [
+    "https://helpcenter.woodwing.com/hc/en-us/articles/51981569765009-Smart-Mover-Transition-Support-Plan-after-end-of-life"
+   ]
+  },
+  {
+   "id": "L047",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "defensible_asset": 4,
+   "moat_type": "data",
+   "reason": "Apliqo already provides built-in legacy ContentStore export/import, current UX app export/import, and migration assessment through implementation partners, covering the proposed export and replacement-planning need.",
+   "launches_last_6m": "Apliqo UX 2026.02 — announced approximately May 2026 (exact date unverified); this is the successor product, not a migration utility.",
+   "buy_checklist": null,
+   "platform_or_partner": "Apliqo and its implementation partners; built-in export/import functions and migration assessment.",
+   "incumbents": "Apliqo Legacy ContentStore export/import and NextGen app JSON export/import (bundled pricing unverified); partner migration assessment (price unverified).",
+   "claim_event_date": "2027-12",
+   "urls": [
+    "https://apliqoux.atlassian.net/wiki/spaces/UXD/pages/2509309012/Processes",
+    "https://apliqoux.atlassian.net/wiki/spaces/ANG/pages/3832381446/Admin",
+    "https://www.apliqo.com/resources/blog/apliqo-ux-%28legacy%29-%E2%80%94-end-of-support-and-end-of-life-statement",
+    "https://www.linkedin.com/posts/apliqo_apliqoux-tm1-ibmplanninganalytics-activity-7434997469127749633-9Z9Q"
+   ]
+  },
+  {
+   "id": "L048",
+   "verdict": "kill",
+   "kill_rule": "K0",
+   "defensible_asset": 1,
+   "moat_type": "none",
+   "reason": "The claimed cross-platform mapping asset is already available in Neptune’s public exporter and migration guides, leaving no distinct compounding data or switching-cost asset for this proposed archive verifier and importer.",
+   "launches_last_6m": "none found",
+   "buy_checklist": null,
+   "platform_or_partner": "Neptune/OpenAI published a free exporter and destination guides for Comet, GoodSeed, Lightning AI, Minfx, MLflow, Pluto, Weights & Biases and ZenML.",
+   "incumbents": "Neptune Exporter (free, public source); Comet also maintains a Neptune migration guide (price not applicable).",
+   "claim_event_date": "2026-03",
+   "urls": [
+    "https://github.com/neptune-ai/neptune-exporter",
+    "https://docs.neptune.ai/transition_hub",
+    "https://support.neptune.ai/en/articles/13925165-service-shutdown-overview",
+    "https://www.comet.com/docs/v2/guides/experiment-management/load-data-from-neptune/"
+   ]
+  },
+  {
+   "id": "L049",
+   "verdict": "kill",
+   "kill_rule": "K6",
+   "defensible_asset": 5,
+   "moat_type": "data",
+   "reason": "AWS says Chime console and application resources became inaccessible after 2026-02-20, so the source platform and its active users are gone; current customer counts and retained exports are unverified.",
+   "launches_last_6m": "none found",
+   "buy_checklist": null,
+   "platform_or_partner": "none found for archive conversion; AWS recommends Wickr, Slack, Webex and Zoom as replacement services",
+   "incumbents": "none found for Chime archive conversion",
+   "claim_event_date": "2026-02",
+   "urls": [
+    "https://docs.aws.amazon.com/chime/latest/ag/doc-history.html",
+    "https://docs.aws.amazon.com/chime/latest/ag/amazon-chime-transition-features.html"
+   ]
+  },
+  {
+   "id": "L050",
+   "verdict": "kill",
+   "kill_rule": "K6",
+   "defensible_asset": 5,
+   "moat_type": "data",
+   "reason": "Workplace access and its data download window ended by 2026-06-01, leaving no active source platform for this migration tool; how many customers retained exports is unverified.",
+   "launches_last_6m": "none found",
+   "buy_checklist": null,
+   "platform_or_partner": "Workvivo by Zoom was Meta’s preferred migration partner and offered a co-built migration tool",
+   "incumbents": "Workvivo migration tool and LineZero Content Archival Tool; current prices unverified",
+   "claim_event_date": "2026-06",
+   "urls": [
+    "https://about.fb.com/news/2021/10/workplace-fifth-birthday/",
+    "https://support.workvivo.com/hc/en-gb/articles/20040858740381-Meta-s-Workplace-Migration-Partner",
+    "https://www.linezero.com/workplace-content-archival-tool"
+   ]
+  },
+  {
+   "id": "L051",
+   "verdict": "kill",
+   "kill_rule": "K6",
+   "defensible_asset": 6,
+   "moat_type": "rules",
+   "reason": "Microsoft retired Project Online on 2026-09-30 and says projects and associated data are no longer accessible in the service; post-retirement demand among customers with prior exports is unverified.",
+   "launches_last_6m": "HMS/TimeControl Project Online Migration Service — announced 2026-06-18; no second dated competing launch found",
+   "buy_checklist": null,
+   "platform_or_partner": "Microsoft Planner migration partners, including Projectum and OnePlan; Microsoft also documents Project data export formats",
+   "incumbents": "Projectum Project Online Migration ($10,000 listed); TimeControl migration service (price unverified); OnePlan migration tool (price unverified)",
+   "claim_event_date": "2026-09",
+   "urls": [
+    "https://support.microsoft.com/en-US/Planner/frequently-asked-questions-about-microsoft-planner",
+    "https://blog.timecontrol.com/microsoft-project-online-migration-service/",
+    "https://marketplace.microsoft.com/en-us/product/projectum.projectonlinemigrator?tab=overview",
+    "https://oneplan.ai/blog/"
+   ]
+  },
+  {
+   "id": "L052",
+   "verdict": "kill",
+   "kill_rule": "K0",
+   "defensible_asset": 2,
+   "moat_type": "data",
+   "reason": "The proposed cross-platform mapping library has no evidenced accumulated dataset or tested corpus that would take months to copy, and existing migration tools already cover Opsgenie imports; payment evidence is unverified.",
+   "launches_last_6m": "incident.io added Opsgenie and PagerDuty notification-settings import on 2026-05-04; one product launch found, below the K2 threshold.",
+   "buy_checklist": null,
+   "platform_or_partner": "Atlassian provides an in-app migration to Jira Service Management; its destination is not an independent platform.",
+   "incumbents": "Grafana IRM has an open-source Opsgenie migration tool (free); incident.io offers import tooling (price unverified); PagerDuty advertised migration assistance on 2026-07-10. Fewer than five well-reviewed incumbents were verified.",
+   "claim_event_date": "2027-04",
+   "urls": [
+    "https://incident.io/changelog/easier-migrations",
+    "https://grafana.com/docs/grafana-cloud/observe-and-act/respond-to-incidents/set-up/migrate/migrator-tools/",
+    "https://www.atlassian.com/software/opsgenie/migration"
+   ],
+   "track": "build",
+   "copy_speed": "One competing product launch found since 2026-04-23.",
+   "success_12_months": 3,
+   "agent_runnability": 8,
+   "fit": 8,
+   "automation_share_pct": 85,
+   "automation_reason": "Estimated: configuration inventory, mapping, conversion, support triage, and billing can mostly run through software and self-service."
+  },
+  {
+   "id": "L053",
+   "verdict": "kill",
+   "kill_rule": "K0",
+   "defensible_asset": 1,
+   "moat_type": "data",
+   "reason": "The proposed mapping of common CRM objects is not evidenced as proprietary or compounding data and no months-to-copy advantage is established; payment evidence is unverified.",
+   "launches_last_6m": "Salesforce documented its automated Essentials-to-Pro-Suite migration on 2026-09-21; no competing independent-CRM export product launch found.",
+   "buy_checklist": null,
+   "platform_or_partner": "Salesforce automatically migrates consenting Essentials orgs to Pro Suite while preserving data; a specific official converter to independent CRMs was not found.",
+   "incumbents": "Salesforce Data Loader supports bulk import and export; price unverified. Salesforce also points to third-party AppExchange options, but specific maintained products and prices are unverified; five well-reviewed niche incumbents were not verified.",
+   "claim_event_date": "2026-09",
+   "urls": [
+    "https://help.salesforce.com/s/articleView?id=005314208&language=en_US&type=1",
+    "https://help.salesforce.com/s/articleView?id=xcloud.migration_timeline.htm&language=en_US&type=5",
+    "https://developer.salesforce.com/tools/data-loader",
+    "https://help.salesforce.com/s/articleView?id=000385199&language=en_US&type=1"
+   ],
+   "track": "build",
+   "copy_speed": "No competing independent-CRM export product launch found; the Salesforce migration procedure is platform-owned.",
+   "success_12_months": 2,
+   "agent_runnability": 9,
+   "fit": 8,
+   "automation_share_pct": 90,
+   "automation_reason": "Estimated: export audits, field mapping, conversion, onboarding, and routine support can be automated in a self-serve product."
+  },
+  {
+   "id": "L054",
+   "verdict": "kill",
+   "kill_rule": "K0",
+   "defensible_asset": 3,
+   "moat_type": "data",
+   "reason": "The proposed compatibility catalogue is a plausible mapping asset, but its accumulated scope and months-to-copy defensibility are unverified against Oracle's published skills and Agent Studio materials; payment evidence is unverified.",
+   "launches_last_6m": "No competing compatibility or migration product launch found in the dated searches.",
+   "buy_checklist": null,
+   "platform_or_partner": "Oracle directs customers to AI Agent Studio and publishes skill and migration documentation; a direct SaaS-skills conversion utility was not found.",
+   "incumbents": "Oracle AI Agent Studio is the official replacement environment (price unverified); no independent maintained compatibility assessment product was found. Five well-reviewed incumbents were not verified.",
+   "claim_event_date": "2026-11",
+   "urls": [
+    "https://docs.oracle.com/en/cloud/paas/digital-assistant/skills.html",
+    "https://github.com/oracle/fusion-ai-studio",
+    "https://docs.oracle.com/en/cloud/saas/fusion-ai/26c/aiaas/migrate-agentic-applications-or-workflows-from-one-instance-to-another.html"
+   ],
+   "track": "build",
+   "copy_speed": "No competing product launches found since 2026-04-23.",
+   "success_12_months": 3,
+   "agent_runnability": 7,
+   "fit": 8,
+   "automation_share_pct": 70,
+   "automation_reason": "Estimated: skill inventory and mapping reports can be automated, while enterprise-specific workflow checks and technical support may need human review."
+  },
+  {
+   "id": "L055",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "defensible_asset": 5,
+   "moat_type": "switching",
+   "reason": "The listing describes embedded customer sites and CRM integrations as switching costs, but HubSpot itself offers free CRM-linked landing pages and exit-intent popups for the same no-code conversion need.",
+   "launches_last_6m": "not applicable (buy track; K2 exempt)",
+   "buy_checklist": "B1: $98K+ past-year revenue and $5,536/mo profit stated; Flippa says revenue and expenses were reviewed and shows a Stripe integration; claim date unverified, and listed $4,871 MRR needs reconciliation with monthly profit. B2: passes at $5,536/mo. B3: passes at about 3.3x annualized stated profit. B4: owner hours unverified; listing says minimal maintenance. B5: account transferability unverified; CEO aided initial acquisition and offers transition support, with no stated personal-brand or consulting dependence. B6: 10% churn listed, period unverified; no >30% revenue decline or platform-ban evidence found.",
+   "platform_or_partner": "HubSpot: free landing pages, CRM-linked forms and exit-intent popups.",
+   "incumbents": "Not assessed (buy track; K4 exempt).",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://flippa.com/13489769-b2b-website-in-app-conversion-saas-generating-90k-revenue-with-strong-profit-margins-started-selling-in-2025-built-for-lean-scalable-growth",
+    "https://www.hubspot.com/products/marketing/exit-intent",
+    "https://www.hubspot.com/products/marketing/landing-pages"
+   ]
+  },
+  {
+   "id": "L056",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "defensible_asset": 7,
+   "moat_type": "switching",
+   "reason": "The listed core banking workflows, ledger data and six-week migration provide evidenced customer switching costs, while the buy checklist shows no confirmed hard-rule failure.",
+   "launches_last_6m": "not applicable (buy track; K2 exempt)",
+   "buy_checklist": "B1: about $25K ARR and $4,674/mo profit stated; Flippa says revenue and primary expenses were reviewed, with a Xero integration; claim date unverified, and profit annualizes above the stated ARR, so reconcile in diligence. B2: passes at $4,674/mo. B3: passes at about 1.9x annualized stated profit. B4: owner hours unverified. B5: transferability unverified; listing describes an operational platform and founder moving to new ventures, with no personal-brand or consulting dependence stated. B6: 1% churn listed, period unverified; no >30% decline or platform-ban evidence found.",
+   "platform_or_partner": "None identified in this pass; specific platform owner or official partner coverage is unverified.",
+   "incumbents": "Not assessed (buy track; K4 exempt).",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://flippa.com/13438355-profitable-ai-powered-core-banking-saas-faas-for-saccos-mfis-banks-40k-monthly-visitors-1-churn-includes-10-revenue-fintech-ecosystem-sub-brands-bundled",
+    "https://support.flippa.com/hc/en-us/articles/360000976136-Does-Flippa-help-with-asset-business-transfer"
+   ]
+  },
+  {
+   "id": "L057",
+   "verdict": "kill",
+   "kill_rule": "K1",
+   "defensible_asset": 7,
+   "moat_type": "network",
+   "reason": "The listed coach community and directory support a network moat, but the stated 10 owner hours per week exceed the five-hour hard limit, and the asking price is about 8.4x annualized stated profit, above B3's 6x kill threshold.",
+   "launches_last_6m": "not applicable (buy track; K2 exempt)",
+   "buy_checklist": "B1: €200K+ annual revenue and €7,320/mo profit stated; Flippa says revenue and expenses were reviewed; exact claim date unverified, and the stated 34% margin should be reconciled with monthly profit. B2: passes at €7,320/mo. B3: fails at about 8.4x annualized stated profit (€738,943 ask / €87,840 annualized profit). B4: fails; listing states about 10 owner hours/week. B5: listing says platforms, codebases and email subscribers are included; payment-account transferability unverified, with no personal-brand or consulting dependence stated. B6: 8% churn listed, period unverified; listing says revenue stabilized post-2021 and no >30% decline or platform-ban evidence was found.",
+   "platform_or_partner": "None identified in this pass; specific platform owner or official partner coverage is unverified.",
+   "incumbents": "Not assessed (buy track; K4 exempt).",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://flippa.com/12301223-7-year-b2b-saas-ecosystem-with-7-platforms-powering-1-600-speakers-coaches-profitable-recurring-revenue-zero-marketing-spend-ready-to-scale-globally"
+   ]
+  },
+  {
+   "id": "L058",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "defensible_asset": 8,
+   "moat_type": "switching",
+   "reason": "Survive: asset histories, compliance records, contractor workflows, and ERP/building-system integrations create stated migration costs, while the listing reports 93% client retention and a 3.3× profit multiple; owner hours and transfer terms remain unverified.",
+   "launches_last_6m": "not applicable (buy track; K2 replaced by B checklist)",
+   "buy_checklist": "B1: listing states approximately €360K ARR and €28,125 monthly profit; Flippa says revenue and primary expenses were reviewed, but TTM revenue period is unverified. B2: pass, monthly profit exceeds $500. B3: pass, Flippa displays 3.3× profit multiple. B4: unverified, hours not stated. B5: unverified, contract and app transfer terms unspecified; no seller-personal brand or consulting dependence disclosed. B6: listing reports 93% retention, 7% churn, and 9-year age; no decline or platform-ban evidence found.",
+   "platform_or_partner": "none found in this check",
+   "incumbents": "MaintainX: Basic free, Essential $20/user/month billed annually ($25 monthly), Premium $65 annually ($75 monthly); IBM Maximo Maintenance starts under $40K/year. K4 not applicable to buy track.",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://flippa.com/12839625-b2b-facilities-saas-350k-arr-93-retention-with-lean-cost-base-positioned-for-bolt-on-integration-and-immediate-deployment-across-existing-customers",
+    "https://www.getmaintainx.com/pricing",
+    "https://www.ibm.com/products/maximo/pricing"
+   ]
+  },
+  {
+   "id": "L059",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "defensible_asset": 5,
+   "moat_type": "switching",
+   "reason": "Survive: Shopify-embedded merchant rules, order history, and an established subscriber base with reported 4% churn provide switching-cost evidence, while the stated profit clears the floor and the price is below the 6× kill threshold; whether owner effort fits the 5-hour cap is unverified.",
+   "launches_last_6m": "not applicable (buy track; K2 replaced by B checklist)",
+   "buy_checklist": "B1: description states $138K revenue and $115.5K net profit over the past year; Flippa says revenue and primary expenses were reviewed. B2: pass, $10,756 monthly profit and $12,900 MRR are stated. B3: $645K asking price is 5.6× the stated $115.5K TTM profit; listing displays a 5.0× multiple, so the basis differs, but neither exceeds 6×. B4: listing says support takes less than 20 hours/week; whether it is at most 5 is unverified. B5: app-listing and payment-account transfer terms unverified; no seller-personal brand or consulting dependence disclosed. B6: listing reports 4% churn and growth; it mentions a 30% revenue drop in September 2023, not over 30%, and no platform-ban evidence found.",
+   "platform_or_partner": "Shopify App Store (Built for Shopify); a Shopify community discussion says there is no native order-merge feature, but current native availability is unverified.",
+   "incumbents": "Triom: free plan available, 4.8/74 reviews. MergeIt: free tier for 6 merges/month, paid from $14.99/month, 4.8/16 reviews. K4 not applicable to buy track.",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://flippa.com/12766656-mergify-is-a-shopify-app-that-combines-multiple-customer-orders-into-one-shipment-helping-stores-save-on-shipping-costs",
+    "https://docs.mergify.app/",
+    "https://apps.shopify.com/order-merger",
+    "https://apps.shopify.com/mergeit-combine-merge-orders",
+    "https://community.shopify.com/t/how-can-we-efficiently-merge-multiple-orders-into-one/39746"
+   ]
+  },
+  {
+   "id": "L060",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "defensible_asset": 8,
+   "moat_type": "data",
+   "reason": "Survive: the listing describes a user-contributed cellular coverage dataset that compounds across locations, and its displayed $4,436 monthly profit and 4.1× multiple clear the buy floors; TTM period, owner hours, and this app’s transfer eligibility remain unverified.",
+   "launches_last_6m": "not applicable (buy track; K2 replaced by B checklist)",
+   "buy_checklist": "B1: Flippa says revenue and primary expenses were reviewed; listing gives $4,436 monthly profit, but TTM revenue/profit period is unverified. B2: pass, stated monthly profit exceeds $500. B3: pass, listing displays 4.1× profit multiple. B4: unverified, hours not stated. B5: Apple supports transferring eligible apps between developer accounts while retaining reviews; eligibility for this listing and Google Play transfer details are unverified; no personal-brand dependence disclosed. B6: no fast-churn, over-30% decline, or platform-ban evidence found; one-year operating history limits durability evidence.",
+   "platform_or_partner": "none found in this check",
+   "incumbents": "CellMapper (CellMapper Services Ltd): free download with ads and in-app purchases; Google Play shows 1M+ downloads. CoverageMap: free app and maps, Pro $4.99/month.",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://flippa.com/12679831-cellmapper",
+    "https://www.cellmapper.net/Index",
+    "https://play.google.com/store/apps/details?hl=en_US&id=cellmapper.net.cellmapper",
+    "https://coveragemap.com/app",
+    "https://developer.apple.com/help/app-store-connect/transfer-an-app/overview-of-app-transfer"
+   ]
+  },
+  {
+   "id": "L061",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "defensible_asset": 6,
+   "moat_type": "network",
+   "reason": "The listing describes 3,000+ collectible items plus player trading, chat and forums in a 14-year game, evidencing a player-network asset that passes K0; no other buy-track kill is evidenced.",
+   "launches_last_6m": "not applicable (buy track; K2 exempt; no dated launch audit run)",
+   "buy_checklist": {
+    "B1": "Monthly profit of $2,064 stated; Flippa says it reviewed revenue, primary expenses and traffic, but TTM revenue and profit are unverified.",
+    "B2": "Pass: stated monthly profit exceeds $500.",
+    "B3": "Pass on stated run rate: $75,000 asking price is about 3.0x annualized monthly profit; TTM profit is unverified.",
+    "B4": "Owner hours unverified.",
+    "B5": "Google Play supports app transfers; this listing's transfer eligibility, payment setup and handover are unverified; no seller-person dependency is evidenced.",
+    "B6": "No evidence found of fast churn, a platform ban or a revenue decline over 30%; churn and recent revenue trend are unverified."
+   },
+   "platform_or_partner": "None found serving the same player-collection need as a platform-owner bundle.",
+   "incumbents": "Nearby active products include Passported (free to start; Plus price unlisted), Pikd (price unverified) and SeekAR (demo-based B2B product); none was confirmed as a direct equivalent.",
+   "claim_event_date": "unverified",
+   "track": "buy",
+   "copy_speed": "not applicable (buy track; K2 exempt)",
+   "success_12m_score": 6,
+   "agent_runnability_score": 6,
+   "fit_score": 8,
+   "automation_share_percent": 60,
+   "automation_reason": "GPS gameplay, item inventory, trading and in-app purchases appear software-run; community moderation, support and content upkeep may need people.",
+   "urls": [
+    "https://flippa.com/11895309-a-gps-based-digital-item-collection-game-players-discover-rare-digital-treasures-trade-with-others-and-create-custom-collections-includes-in-app-purchases",
+    "https://support.google.com/googleplay/android-developer/answer/6230247?hl=en",
+    "https://passported.app/",
+    "https://pikd.app/",
+    "https://seekar.io/"
+   ]
+  },
+  {
+   "id": "L062",
+   "verdict": "kill",
+   "kill_rule": "B6",
+   "defensible_asset": 6,
+   "moat_type": "data",
+   "reason": "Although the listing describes a settlement-data sourcing workflow, reported affiliate-partner earnings fell from $141,184 in May 2026 to $81,140 in June 2026 (about 42.5%), exceeding the B6 decline limit.",
+   "launches_last_6m": "not applicable (buy track; K2 exempt; no dated launch audit run)",
+   "buy_checklist": {
+    "B1": "Listing states $905,000 TTM proceeds and $73,351 monthly profit, but the live page has no Vetted badge; Flippa says its financial figures are seller-provided, so verification is unverified.",
+    "B2": "Pass on stated figures: monthly profit is above $500.",
+    "B3": "Pass on stated run rate: $2,655,000 asking price is about 3.0x annualized monthly profit; TTM profit is unverified.",
+    "B4": "Owner time of 1–5 hours/week stated.",
+    "B5": "Listing says the sale includes trademarks, domain, source code and email list; store transfer and law-firm affiliate agreement transferability are unverified, with no seller-person dependence evidenced.",
+    "B6": "Kill: the listing reports affiliate-partner earnings of $141,184 in May and $81,140 in June 2026, a 42.5% monthly decline; total-business revenue trend is unverified."
+   },
+   "platform_or_partner": "Listing describes an unnamed personal-injury law-firm affiliate; no platform-owner bundle serving settlement discovery was found.",
+   "incumbents": "ClaimCash (free), Class Action App (free filing or 15% of recovered funds), and PayoutFinder ($24.99 quarterly or $69.99 annually); K4 is exempt for buy track.",
+   "claim_event_date": "2026-08",
+   "track": "buy",
+   "copy_speed": "not applicable (buy track; K2 exempt)",
+   "success_12m_score": 7,
+   "agent_runnability_score": 7,
+   "fit_score": 8,
+   "automation_share_percent": 75,
+   "automation_reason": "The app, subscription flows and GPT-assisted sourcing workflow can automate much of discovery and administration, while settlement verification, customer support and marketing oversight may need human input.",
+   "urls": [
+    "https://flippa.com/13585912-mobile-app-helping-users-discover-and-claim-money-from-class-action-lawsuits-award-winning-71-margins-with-1-2m-arr",
+    "https://flippa.com/deal-closing-guide/",
+    "https://claimcash.app/",
+    "https://classaction.app/",
+    "https://apps.apple.com/us/app/payoutfinder-unclaimed-money/id6755097389"
+   ]
+  },
+  {
+   "id": "L063",
+   "verdict": "kill",
+   "kill_rule": "K0",
+   "defensible_asset": 2,
+   "moat_type": "none",
+   "reason": "The listing cites a newsletter, reviews, subscribers and personalized content but does not evidence a qualifying compiled dataset, maintained rules engine, network effect or real stored-data/workflow switching costs, so strict K0 kills.",
+   "launches_last_6m": "not applicable (buy track; K2 exempt; no dated launch audit run)",
+   "buy_checklist": {
+    "B1": "Listing states $11,719 monthly profit and $350,000 annual revenue; Flippa says revenue and primary expenses were reviewed, but the listing's $5,309 headline MRR conflicts with its $19K–$20K description; TTM profit is unverified.",
+    "B2": "Pass on stated monthly profit.",
+    "B3": "Pass on stated run rate: $400,000 asking price is about 2.8x annualized monthly profit.",
+    "B4": "Owner hours unverified; listing mentions the owner and two freelancers.",
+    "B5": "Site, customer-data and payment-account transferability are unverified; no seller-person dependence is evidenced.",
+    "B6": "Listing reports 18.9% overall churn, but the measurement period is unverified; no platform-ban risk or revenue decline over 30% is evidenced."
+   },
+   "platform_or_partner": "None found serving the same need as an owner-bundled platform service.",
+   "incumbents": "Co-Star ($8.99/month), CHANI ($11.99/month), The Pattern ($14.99/month), Nebula (from $7.99) and AstroMatrix (annual option listed at $14.99); K4 is exempt for buy track.",
+   "claim_event_date": "unverified",
+   "track": "buy",
+   "copy_speed": "not applicable (buy track; K2 exempt)",
+   "success_12m_score": 5,
+   "agent_runnability_score": 5,
+   "fit_score": 6,
+   "automation_share_percent": 70,
+   "automation_reason": "Subscription billing and personalized report delivery can run digitally, while newsletter production, support and feature work are listed as ongoing human tasks.",
+   "urls": [
+    "https://flippa.com/12034202-highly-profitable-astrology-saas-business-in-the-entertainment-industry-boasting-a-77-profit-margin-with-established-authority-since-2023",
+    "https://nymelia.com/best-astrology-apps",
+    "https://chaninicholas.zendesk.com/hc/en-us/articles/1500001732281-App-Pricing"
+   ]
+  },
+  {
+   "id": "L064",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "defensible_asset": 5,
+   "moat_type": "switching",
+   "reason": "WordPress.com bundles an AI assistant and agent that can draft, edit, and publish site content for paid-plan publishers, covering the listing’s core content workflow need.",
+   "launches_last_6m": "Not applicable (buy track; K2 exempt).",
+   "buy_checklist": "B1: $61K+ TTM revenue and about $46K profit; Flippa says revenue and primary expenses were reviewed and GA/Stripe are connected; current page shows $3,584 MRR, differing from the $4,639 figure supplied, unverified. B2: Pass, $3,852 monthly profit and MRR above $1K. B3: Pass, current $159K price is about 3.46x stated annual profit; $110K was the earlier starting bid. B4: Hours unverified; listing says only minimal weekly maintenance. B5: Source code, domain, and customer databases included, with development-team transition offered; payment-account transfer unverified, no seller-person dependence disclosed. B6: 22% overall churn, period unverified; listing says revenue is stable, with no >30% decline or platform-ban evidence found.",
+   "platform_or_partner": "WordPress.com AI Assistant/Agent, bundled with paid plans; can create, edit, and publish site content.",
+   "incumbents": "WordPress.com AI Assistant (bundled with paid plans); SEO WRITING plugin (4.9 rating, 20K active installs, free to install; service pricing unverified); ContentOS Studio (free with user-provided AI key).",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://flippa.com/13759472-profitable-all-in-one-content-automation-saas-for-content-creators-publishers-61k-ttm-revenue-75-margin-0-ad-spend-with-major-growth-potential",
+    "https://wordpress.com/blog/2026/02/17/wordpress-ai-assistant/",
+    "https://wordpress.com/blog/2026/03/20/ai-agent-manage-content/",
+    "https://wordpress.com/plugins/seowriting",
+    "https://wordpress.com/plugins/contentosapp-studio"
+   ]
+  },
+  {
+   "id": "L065",
+   "verdict": "kill",
+   "kill_rule": "K0",
+   "defensible_asset": 2,
+   "moat_type": "none",
+   "reason": "The listing supports a large audience and app distribution but does not evidence a qualifying compounding prediction dataset, network, or switching costs, so audience reach alone fails K0.",
+   "launches_last_6m": "Not applicable (buy track; K2 exempt).",
+   "buy_checklist": "B1: Listing states over £41K total revenue and £1,704 monthly profit; Flippa says revenue, primary expenses, and traffic were reviewed and GA/Stripe are connected; TTM profit unverified. B2: Pass via stated monthly profit. B3: Pass; $20,029 asking price and listing’s 0.7x profit multiple. B4: Pass, 1–2 hours/week stated. B5: No technical-founder dependence disclosed; app publisher-account and subscription transfer unverified. B6: 30% overall churn, period unverified; no revenue decline or platform-ban evidence disclosed, but churn is a durability concern.",
+   "platform_or_partner": "None found; app stores distribute the apps, but no bundled football-prediction product by the platform owner was identified.",
+   "incumbents": "ScoreGPT (3 free picks per week; paid price unverified); GoalGPT (free credits; premium price unverified).",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://flippa.com/12616026-footygpt-footyai-ai-football-platforms-with-90k-users-40k-55k-revenue-100-organic-growth-perfectly-timed-for-world-cup-growth",
+    "https://play.google.com/store/apps/details?hl=en_US&id=com.footyai.app",
+    "https://scoregpt.app/",
+    "https://goalgpt.football/"
+   ]
+  },
+  {
+   "id": "L066",
+   "verdict": "kill",
+   "kill_rule": "K0",
+   "defensible_asset": 2,
+   "moat_type": "none",
+   "reason": "The listing describes a lottery-reduction algorithm and 14-year history, but provides no evidence of an allowed data, rules-engine, network, or workflow-lock-in asset, and says access purchases do not recur.",
+   "launches_last_6m": "Not applicable (buy track; K2 exempt).",
+   "buy_checklist": "B1: Listing shows $2.3K monthly revenue and $1,972 monthly profit; Flippa says revenue, primary expenses, and traffic were reviewed; TTM figures unverified. B2: Pass, monthly profit exceeds $500. B3: Pass, $79K asking price is about 3.3x annualized stated profit. B4: Owner hours unverified; listing says overhead is low. B5: Seller offers transition support, but source-code and algorithm-documentation transfer are unverified; seller is described as a lottery-mathematics specialist, while no personal-brand or consulting dependence is stated. B6: Listing shows 0% overall churn and 778 active subscribers; no revenue decline or platform-ban evidence found; EU/EEA sales are paused for VAT administration.",
+   "platform_or_partner": "None found; official lottery operator pages reviewed did not show a bundled number-reduction tool.",
+   "incumbents": "Expert Lotto lottery-wheeling software; current maintenance status and price unverified.",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://flippa.com/14407429-long-established-lottery-website-software-become-the-new-owner-of-a-unique-fail-safe-number-reduction-system-serving-english-speaking-countries-worldwide",
+    "https://www.expertlotto.com/files/ExpertLotto_Documentation.pdf",
+    "https://www.lottery.ie/support"
+   ]
+  },
+  {
+   "id": "L067",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "defensible_asset": 6,
+   "moat_type": "network",
+   "reason": "Flippa reports 1M+ registered users, 2,800 active subscribers and 7% overall churn, supporting a transferable member network; owner hours and some listing figures remain unverified or inconsistent, but no hard-rule failure was evidenced.",
+   "launches_last_6m": "none found with a verifiable launch date since 2026-04-23",
+   "buy_checklist": "B1: title states $350K+ TTM revenue; listing narrative says $380K TTM revenue and $155K profit; Flippa marks the listing vetted and says revenue, expenses and traffic were reviewed, but displayed monthly profit differs ($13.2K vs $15.3K). B2: passes on either displayed monthly profit. B3: $259K asking price; displayed profit multiple 1.4x, while narrative figures imply about 2.5x; passes. B4: unverified; listing says minimal daily involvement, with owner handling strategy and contractor coordination. B5: listing says iOS/Android apps, backend, user database, domain and SEO assets are included; app-store/payment-account transfer terms unverified. B6: 7% overall churn (period unverified); no evidenced revenue decline over 30% or platform-ban risk.",
+   "platform_or_partner": "none found",
+   "incumbents": "My Transgender Date: $29.90/month Premium for men; HER: free download with in-app purchases; Butterfly: free download with VIP in-app purchases, current localized prices unverified.",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://flippa.com/13369500-profitable-transgender-dating-app-ios-android-100-organic-traffic-5-year-record-1m-users-350k-ttm-revenue-massive-seo-aso-ugc-potential",
+    "https://play.google.com/store/apps/details?hl=en_CA&id=com.mytransgenderdate.app",
+    "https://weareher.com/trans-dating/",
+    "https://apps.apple.com/us/app/butterfly-transgender-dating/id1477032708?platform=tv"
+   ]
+  },
+  {
+   "id": "L068",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "defensible_asset": 4,
+   "moat_type": "switching",
+   "reason": "The listing describes deployed customer workflows and CRM/API plus Zapier integrations that can create switching costs; although listing views conflict on price and MRR and weekly owner hours are unverified, no hard-rule failure was evidenced.",
+   "launches_last_6m": "SkySwitch AI Agent — 2026-09-01; OpenAI Presence — 2026-07-23 (adjacent voice-and-chat agent platform)",
+   "buy_checklist": "B1: Flippa labels the listing Data Verified and says revenue, expenses and traffic were reviewed; public views conflict, showing $10.4K monthly revenue/$7.28K profit versus $4,297 MRR/$7,282 profit; TTM figures unverified. B2: passes on either view. B3: listing views show $350K at 4.0x profit or $525K at 6.0x; price and multiple are inconsistent, with no view above 6x. B4: unverified; title says under 1 hour/day, which does not establish a weekly total of at most 5 hours. B5: SaaS transfer and Stripe/payment-account handoff terms unverified; no seller-personal-brand dependency found. B6: 9% overall churn (period unverified); no dated revenue decline over 30% or platform-ban risk evidenced, though listing metrics conflict.",
+   "platform_or_partner": "Call Supplai, listed as a Retell AI App Partner, offers a separate $197/month white-label voice platform; it is not shown as free or bundled.",
+   "incumbents": "Call Supplai: $197/month; the listing itself describes voice plans from $29/month plus $0.34/minute and white-label plans from $297/month.",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://flippa.com/12206758-ai-voice-agent-saas-white-label-platform-1-000-users-40-countries-1-hr-day-owner-time-bootstrapped-recurring-revenue",
+    "https://flippa.com/buy/saas",
+    "https://www.callsupplai.com/",
+    "https://www.bcmone.com/company/press-releases/skyswitch-launches-native-ai-agent-bringing-enterprise-ai-communications-to-every-white-label-partner/",
+    "https://www.techradar.com/pro/openais-latest-service-wants-to-get-your-company-build-and-get-better-integrated-with-ai-agents"
+   ]
+  },
+  {
+   "id": "L069",
+   "verdict": "kill",
+   "kill_rule": "K1",
+   "defensible_asset": 5,
+   "moat_type": "switching",
+   "reason": "The listing states that the owner spends around 10 hours per week, exceeding Ricardo’s 5-hour weekly ceiling, so K1 kills despite the customer and workflow assets.",
+   "launches_last_6m": "MorphLogo — 2026-07-01; AI Motion Graphics Platform — started May 2026 (exact day unverified); Paper Animation — 2026-09-28",
+   "buy_checklist": "B1: Flippa marks the listing Vetted + Data Verified and says revenue, primary expenses and traffic were reviewed; detail page shows $34,205 MRR and $28,137 monthly profit, while the category page shows $47.9K revenue and $28.1K profit; TTM figures unverified. B2: passes. B3: $1.1M asking price, about 3.3x annualized $28.1K monthly profit; passes. B4: around 10 owner hours/week stated; fails. B5: listing says IP, subscriber data and related assets are included; payment-account transfer terms unverified. B6: 7.5% overall churn (period unverified); no evidenced revenue decline over 30% or platform-ban risk.",
+   "platform_or_partner": "none found",
+   "incumbents": "Rive: free tier and $9/seat/month Cadet plan; Lottielab: free tier and paid Pro plan, current price unverified; Expressive Animator: current price unverified.",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://flippa.com/14106905-established-no-code-svg-animation-saas-with-recurring-subscription-revenue-strong-organic-traffic-and-a-loyal-global-base-of-designers-developers",
+    "https://rive.app/pricing",
+    "https://www.lottielab.com/pricing",
+    "https://morphlogo.com/about",
+    "https://www.microns.io/startup-listings/ai-motion-graphics-platform",
+    "https://www.presshook.com/brands/paper-animation"
+   ]
+  },
+  {
+   "id": "L070",
+   "verdict": "kill",
+   "kill_rule": "K0",
+   "defensible_asset": 2,
+   "moat_type": "none",
+   "reason": "The Flippa listing discloses no proprietary correction dataset, integration lock-in or retained workflow history to support the proposed moat, so it fails K0.",
+   "launches_last_6m": "not applicable (buy track; B checklist replaces K2/K4)",
+   "buy_checklist": "B1: $5.83K monthly revenue and $3K monthly profit; Data Verified badge, but TTM figures unverified. B2: passes at $3K/month stated profit. B3: passes at about 3.1× annualized monthly profit. B4: title claims zero management; hours unverified. B5: account transferability unverified; no personal-brand dependency disclosed. B6: churn, trend and platform-ban risk unverified; no decline evidence found. Listing page currently says Already Sold; availability unverified.",
+   "platform_or_partner": "YouTube provides native automatic captions for videos uploaded there.",
+   "incumbents": "YouTube captions (free on-platform); VEED (free entry; paid price unverified); Descript Hobbyist ($16/user/month annually or $24 monthly).",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://flippa.com/buy/saas",
+    "https://support.google.com/youtube/answer/6373554?hl=en-GBAnd",
+    "https://www.veed.io/pricing?afsrc=1",
+    "https://www.descript.com/pricing"
+   ]
+  },
+  {
+   "id": "L071",
+   "verdict": "kill",
+   "kill_rule": "B3",
+   "defensible_asset": 6,
+   "moat_type": "switching",
+   "reason": "At $182,000 against the listing’s seller-stated $13,694 annual net profit, the ask is about 13.3× profit, above the 6× kill ceiling.",
+   "launches_last_6m": "not applicable (buy track; B checklist replaces K2/K4)",
+   "buy_checklist": "B1: seller-stated $78,500 annual revenue and $13,694 annual profit; verification unverified. B2: passes at about $1,141 monthly profit and $6,540 MRR. B3: fails at about 13.3× net profit. B4: owner hours unverified. B5: code, domains and customer workflows are listed; Fastspring/payment-account transferability unverified, with no seller-personal-brand reliance disclosed. B6: listing reports 7% monthly-plan churn, flat-to-slightly-down MRR and declining blog traffic; no revenue decline over 30% or platform-ban evidence. Listing page currently says Already Sold; availability unverified.",
+   "platform_or_partner": "Google Forms and Microsoft Forms are identified in the listing as free alternatives; Microsoft documents its native form and survey collection features.",
+   "incumbents": "Google Forms (free per seller listing); Microsoft Forms (available to personal Microsoft-account and applicable Microsoft 365 users); Jotform (free tier); Typeform Basic ($29/month or $25/month with annual billing); Zoho Forms price unverified.",
+   "claim_event_date": "2026-10",
+   "urls": [
+    "https://www.microns.io/startup-listings/online-form-builder",
+    "https://support.microsoft.com/en-us/forms/what-is-microsoft-forms",
+    "https://www.typeform.com/pricing",
+    "https://www.jotform.com/help/jotform-free-vs-paid-what-are-the-differences-between-the-free-and-paid-plans/"
+   ]
+  },
+  {
+   "id": "L072",
+   "verdict": "kill",
+   "kill_rule": "K0",
+   "defensible_asset": 3,
+   "moat_type": "network",
+   "reason": "The seller cites 3,100 users, a Discord community and CPA integrations, but user activity, partner exclusivity and a durable cross-side network effect remain unverified, so the asset does not clear K0’s months-to-copy bar.",
+   "launches_last_6m": "not applicable (buy track; B checklist replaces K2/K4)",
+   "buy_checklist": "B1: seller-stated $25,181 revenue and $7,554 profit since launch, not a full TTM period; verification unverified. B2: passes at $1,862 average monthly profit over the latest three reported months. B3: passes at about 1.8× the $22,344 annualized recent profit run-rate. B4: seller states about 4 owner hours/month. B5: code, domain, user database and Discord are listed for transfer; some CPA accounts may require reapplication. B6: reported revenue rises through July 2026; Discord traffic concentration and provider dependence are risks, with no decline or ban evidence found. Listing page currently says Already Sold; availability unverified.",
+   "platform_or_partner": "None found; listing names multiple but does not identify the CPA/offerwall providers.",
+   "incumbents": "Freecash (free signup evidenced); Swagbucks (current pricing/terms unverified).",
+   "claim_event_date": "2026-08",
+   "urls": [
+    "https://www.microns.io/startup-listings/rewards-platform",
+    "https://discord.com/servers/freecash-700126233748308008"
+   ]
+  },
+  {
+   "id": "L073",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "defensible_asset": 5,
+   "moat_type": "data",
+   "reason": "The 848-template catalog, 75 articles and nine-year organic footprint form a compiled asset that would take months to recreate, passing K0; Microns currently marks the listing “Already Sold.”",
+   "launches_last_6m": "Not applicable (buy track; K2 waived).",
+   "buy_checklist": "B1: $7,965 TTM revenue and $7,545 profit; seller-stated, verification unverified. B2: passes at about $629/month profit. B3: passes at about 2.45× annual profit. B4: owner hours unverified; seller describes workload as low. B5: domain, code, catalog and accounts are listed as assets; payment-account transfer unverified, no personal-brand dependence stated. B6: seller says revenue is below its level two years ago, but a decline over 30% is unverified; churn is not applicable per seller.",
+   "platform_or_partner": "None found.",
+   "incumbents": "HTML5 UP (free; attribution-free use via Pixelarity listed at $19); Free-CSS, Nicepage, TemplateMo and BootstrapMade are named in the listing, with current prices unverified.",
+   "claim_event_date": "2026-09",
+   "urls": [
+    "https://www.microns.io/startup-listings/html-templates-and-themes-website",
+    "https://html5up.net/"
+   ]
+  },
+  {
+   "id": "L074",
+   "verdict": "kill",
+   "kill_rule": "K0",
+   "defensible_asset": 3,
+   "moat_type": "switching",
+   "reason": "The proposed switching costs from saved projects, brand styles and API integrations are not evidenced as retained customer workflows or integrations, so the moat remains unclear under strict K0.",
+   "launches_last_6m": "AI Motion Graphics Platform — seller says launched May 2026; Microns listing published 2026-09-19 (K2 waived for buy).",
+   "buy_checklist": "B1: $15,000 TTM revenue and $9,400 profit; listing says Dodo Payments verified, but direct verification is unavailable here. B2: passes at about $783/month profit. B3: passes at about 3.2× annual profit. B4: seller says day-to-day work takes a few hours weekly; exact hours unverified. B5: code, domain, user database and payment setup are listed; payment-account transfer unverified, no personal-brand dependence stated. B6: revenue fell from a $2,800/month peak to $770 last month (about 73%); seller also reports 10%+ monthly churn.",
+   "platform_or_partner": "No platform-owner or official-partner relationship found; Canva is a direct alternative with a free video editor and animation features.",
+   "incumbents": "Canva (free video editor and animation features); Jitter (free plan; paid price unverified in the retrieved official page); Hera and Higgsfield (prices unverified).",
+   "claim_event_date": "2026-10",
+   "urls": [
+    "https://www.microns.io/startup-listings/ai-motion-graphics-generator",
+    "https://www.microns.io/startup-listings/ai-motion-graphics-platform",
+    "https://www.canva.com/video-editor/",
+    "https://www.canva.com/ai-image-to-video/",
+    "https://help.jitter.video/en/articles/14809073-compare-jitter-s-subscription-plans"
+   ]
+  },
+  {
+   "id": "L075",
+   "verdict": "kill",
+   "kill_rule": "B3",
+   "defensible_asset": 8,
+   "moat_type": "switching",
+   "reason": "The credential records and renewal/reporting workflows pass K0, but the $250,000 asking price is 8.3× stated TTM profit, exceeding B3’s 6× ceiling.",
+   "launches_last_6m": "Not applicable (buy track; K2 waived).",
+   "buy_checklist": "B1: $140,000 TTM revenue and $30,000 profit; P&L documents are listed, but financial verification is unverified, and the listing separately reports $149,000 ARR. B2: passes at $2,500/month profit. B3: fails at 8.3× annual profit. B4: owner hours unverified. B5: listing includes customer contracts, platform data and IP; staff and payment-account transfer are unverified, with no seller-personal-brand dependence stated. B6: listing reports +12% annual growth and 1–3% downward churn, with no decline over 30% reported.",
+   "platform_or_partner": "MyComply says it is the exclusive technology provider for NYC DOB SST; its listed plans are paid ($499/year and up), and no free or bundled offering was found.",
+   "incumbents": "MyComply: $499/year for 1–19 profiles, up to $1,999/year for 100+; SkillSignal price unverified.",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://app.acquire.com/public/12w5vir0xn-workforce-certification-and-compliance-saas-managing-30k-credential-records",
+    "https://help.mycomply.net/pricing/",
+    "https://help.mycomply.net/sst-card/",
+    "https://www.skillsignal.com/certification-management/"
+   ]
+  },
+  {
+   "id": "L076",
+   "verdict": "kill",
+   "kill_rule": "K0",
+   "defensible_asset": 3,
+   "moat_type": "data",
+   "reason": "The listing names a proprietary extraction engine and hand-verified statement regression suite, but gives no evidence of the suite’s scale or breadth to show a data asset that would take competitors months to reproduce.",
+   "launches_last_6m": "not required (buy track; K2 exempt)",
+   "buy_checklist": "B1: $52.4k TTM revenue and $40.9k TTM profit stated; P&L document listed, financial verification unverified. B2: $2.3k last-month profit stated, above floor. B3: $225k asking price is 5.5x TTM profit, above about 4x but below the >6x kill threshold. B4: owner hours unverified. B5: Google Marketplace, Microsoft Marketplace, and Stripe assets listed; Google project ownership and Stripe account ownership have transfer processes, but transfer of all listed assets unverified; no seller-person dependence evidenced. B6: listing states +43% growth and 5–10% downward churn; no decline over 30%, fast churn, or platform-ban evidence, but metrics are unverified.",
+   "platform_or_partner": "Google Sheets and Excel are distribution hosts; no bundled balance-verified extraction feature evidenced.",
+   "incumbents": "K4 exempt for buy track; listing names DocuClipper, MoneyThumb, ProperSoft, and Nanonets; prices and maintained status unverified.",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://app.acquire.com/public/14wyppv3sq-balance-verified-ai-bank-statement-extraction-for-accountants-in-google-sheets-excel",
+    "https://developers.google.com/workspace/marketplace/manage-app-listing",
+    "https://support.stripe.com/questions/transfer-a-stripe-account-to-a-different-entity-due-to-a-business-sale-or-acquisition?locale=en-GB"
+   ]
+  },
+  {
+   "id": "L077",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "defensible_asset": 5,
+   "moat_type": "network",
+   "reason": "The listing describes a two-sided software-deals marketplace founded in 2018 with 150 SKUs and at least 5,000 claimed customers, a qualifying network asset, and no buy-check rule is evidenced as a kill.",
+   "launches_last_6m": "not required (buy track; K2 exempt)",
+   "buy_checklist": "B1: $595k TTM revenue and $79.5k TTM profit stated; P&L document listed, financial verification unverified; last-month profit conflicts ($7.1k in the metrics and $20.5k in the description), and customer count conflicts (5,000+ in the description and 50K+ in the title). B2: TTM profit implies about $6.6k/month, above floor. B3: $150k asking price is about 1.9x TTM profit. B4: owner hours unverified. B5: Shopify-based marketplace and business assets listed; transferability unverified, with no seller-person dependence evidenced. B6: listing states 0% annual growth; no revenue decline over 30%, fast churn, or platform-ban evidence, but metrics are unverified.",
+   "platform_or_partner": "None found; AppSumo is named as a competitor, not a platform provider.",
+   "incumbents": "K4 exempt for buy track; listing names AppSumo; price and maintained status unverified.",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://app.acquire.com/public/g7g5j7hjhs-profitable-lifetime-software-deals-marketplace-595k-ttm-revenue-50k-customers"
+   ]
+  },
+  {
+   "id": "L078",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "defensible_asset": 4,
+   "moat_type": "switching",
+   "reason": "The listing’s contact-linked meeting history is a plausible switching-cost asset, but Zoom’s free ZoomMate Basic already offers My Notes for Zoom and third-party meetings, including three monthly uses, serving the core meeting-notes need.",
+   "launches_last_6m": "not required (buy track; K2 exempt)",
+   "buy_checklist": "B1: $9k TTM revenue and $5k TTM profit stated; P&L document listed, financial verification unverified. B2: $800 last-month profit stated, above floor. B3: $20k asking price is 4.0x TTM profit. B4: owner hours unverified. B5: Apple app transfer is supported subject to eligibility and Stripe has an ownership-transfer process; whether this product’s apps and accounts qualify is unverified; no seller-person dependence evidenced. B6: listing states +20% growth and 5–10% stable churn; no decline over 30%, fast churn, or platform-ban evidence, but metrics are unverified.",
+   "platform_or_partner": "Zoom (ZoomMate Basic/My Notes; free tier includes three monthly uses, including third-party meetings).",
+   "incumbents": "K4 exempt for buy track; listing names Granola, Fireflies.ai, and Otter.ai; prices and maintained status unverified.",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://app.acquire.com/public/3583q2air1-ai-meeting-assistant-with-custom-notes-action-items-and-searchable-contact-history",
+    "https://www.zoom.com/en/products/ai-assistant/",
+    "https://developer.apple.com/help/app-store-connect/transfer-an-app/overview-of-app-transfer",
+    "https://support.stripe.com/questions/change-the-owner-of-a-stripe-account?locale=en-GB"
+   ]
+  },
+  {
+   "id": "L079",
+   "verdict": "kill",
+   "kill_rule": "K0",
+   "defensible_asset": 3,
+   "moat_type": "switching",
+   "reason": "The listing reports 29 active subscribers and proposal, signature, and payment workflows, but customer reliance on retained records is unverified, so the moat fails the strict K0 gate; it also reports -56% annual growth and 10%+ upward churn.",
+   "launches_last_6m": "Proposal Connect — 2026-08-06; vProposal — 2026-09-21; Expedience AI Proposal Manager — 2026-09-30 (adjacent proposal products; K2 is exempt for buy leads).",
+   "buy_checklist": "B1: $20.5K TTM revenue, $11.6K TTM profit, $835 MRR and 29 subscribers; financial verification unverified (Acquire’s verified-business badge covers address/incorporation, while a P&L document is listed but not visible). B2: pass, profit averages about $967/month. B3: pass, $39K ask is 3.4x annual profit. B4: owner hours unverified. B5: codebase, customer database, brand and domain included; payment-account transferability unverified, no personal-brand dependence disclosed. B6: fail, reported annual growth is -56% and churn is 10%+ upward.",
+   "platform_or_partner": "none found",
+   "incumbents": "PandaDoc free/$19 per user monthly annual; Proposify $19; Qwilr $35; Better Proposals $13; GetAccept price unverified (USD starting prices from an October 2026 comparison).",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://app.acquire.com/public/rkyndnt2ju-profitable-ai-proposal-saas-helping-agencies-close-deals-faster-17-4k-ttm-revenue",
+    "https://proposalconnect.io/blog/proposal-connect-launch-press-release",
+    "https://www.venuelocity.com/press/venuelocity-elevates-hotel-sales-with-the-launch-of-vproposal-a-design-forward-integrated-proposal-platform",
+    "https://www.globenewswire.com/news-release/2026/09/30/3372207/0/en/expedience-software-launches-ai-enhanced-proposal-manager-delivering-in-document-workflow-governance-directly-in-microsoft-word.html",
+    "https://www.pandadoc.com/pricing/",
+    "https://toolradar.com/best/proposal-software"
+   ],
+   "track": "buy",
+   "success_12m": 2,
+   "agent_runnability": 6,
+   "fit": 8,
+   "automation_share_pct": 75,
+   "automation_reason": "Estimate based on self-serve SaaS, subscription billing and online acquisition options; support and maintenance workload are unverified.",
+   "copy_speed": 3
+  },
+  {
+   "id": "L080",
+   "verdict": "kill",
+   "kill_rule": "K0",
+   "defensible_asset": 1,
+   "moat_type": "none",
+   "reason": "The seller asserts proprietary technology but does not identify a defensible data asset, rules engine, network or verified switching cost, so the lead fails strict K0.",
+   "launches_last_6m": "Glever 1.0 — 2026-09-01; HiredAI Ask HiredAI — 2026-06-02; CareerBoom Auto Apply Agent — 2026-07-23 (K2 is exempt for buy leads).",
+   "buy_checklist": "B1: $124,361 TTM revenue and $50,869 TTM income; seller-stated and unverified (BizBuySell says it has not independently verified the seller-provided information). B2: pass, income averages about $4,239/month. B3: pass, $110K ask is about 2.16x annual income. B4: owner hours unverified. B5: asset and contractor transferability unverified; seller offers about 40 transition hours over six months, and no personal-brand dependence is disclosed. B6: no decline or fast churn reported; durability remains unverified, with 19 contractors and a done-for-you service model described.",
+   "platform_or_partner": "Indeed provides free job search and matching; its Apply For Me feature is a limited test, with automatic application mode paused in August 2026; exact visa-transition service overlap is unverified.",
+   "incumbents": "Indeed candidate job search is free; Teal has a free tier and Teal+ at $29/month; Glever Premium is $10/month. Pricing for comparable done-for-you services is unverified.",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://www.bizbuysell.com/business-opportunity/ai-powered-job-search-service-high-intent-niche-41-sde-margin/2565858/",
+    "https://quietlight.com/saas-businesses-for-sale/",
+    "https://glever.co/blog/glever-1-0",
+    "https://hiredaiapp.com/press-releases/hiredai-launches-ask-hiredai-an-ai-career-copilot-that-finds-and-applies-to-jobs-on-job-seekers-behalf/",
+    "https://www.streetinsider.com/Globe%2BNewswire/CareerBoom%2BLaunches%2BAI%2BAuto%2BApply%2BAgent%2Bto%2BFind%2C%2BTailor%2Band%2BSubmit%2BJob%2BApplications%C2%A0/26803395.html",
+    "https://www.indeed.com/news/releases/indeed-tests-apply-for-me-job-search",
+    "https://help.tealhq.com/en/articles/9530153-teal-vs-teal"
+   ],
+   "track": "buy",
+   "success_12m": 3,
+   "agent_runnability": 3,
+   "fit": 5,
+   "automation_share_pct": 35,
+   "automation_reason": "Estimate reflects the listing’s done-for-you service and 19 contractors; the split between automatable work and human delivery is unverified.",
+   "copy_speed": 3
+  },
+  {
+   "id": "L081",
+   "verdict": "kill",
+   "kill_rule": "K0",
+   "defensible_asset": 2,
+   "moat_type": "switching",
+   "reason": "The listing describes event software and a potential large-customer upsell but provides no evidence of accumulated event data, a network effect or customer switching costs, so the moat fails strict K0.",
+   "launches_last_6m": "none found with a dated launch after 23 Apr 2026; the USEF EZ Entry pilot is identified as a 2026 pilot, but its exact start date is unverified (K2 is exempt for buy leads).",
+   "buy_checklist": "B1: $121,417 TTM revenue and $76,389 income; seller-stated and financial verification unverified. B2: pass, income averages about $6,366/month. B3: pass, $220K ask is about 2.88x annual income. B4: owner hours unverified. B5: account, customer-record and payment-account transferability unverified; no personal-brand dependence disclosed. B6: no fast churn or decline reported; the listing claims 292% YoY growth, while customer concentration and durability are unverified.",
+   "platform_or_partner": "USEF offers EZ Entry free for USEF-licensed competitions through a 2026 pilot; USEA is the steward of ShowConnect, an equestrian event-management system.",
+   "incumbents": "USEF EZ Entry: free base product for licensed competitions; Pegasus: 5% transaction fee; EZ Show Manager: self-serve, with its fee pricing unverified. Other listed providers’ prices are unverified.",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://quietlight.com/saas-businesses-for-sale/",
+    "https://www.usef.org/compete/ez-entry",
+    "https://www.usef.org/compete/resources-forms/approved-software-providers",
+    "https://showconnect.org/faqs",
+    "https://thepegasus.app/",
+    "https://ezshowmanager.com/"
+   ],
+   "track": "buy",
+   "success_12m": 3,
+   "agent_runnability": 6,
+   "fit": 8,
+   "automation_share_pct": 70,
+   "automation_reason": "Estimate reflects an online event-management workflow; owner workload, support volume and manual operations are unverified.",
+   "copy_speed": 0
+  },
+  {
+   "id": "L082",
+   "verdict": "kill",
+   "kill_rule": "K0",
+   "defensible_asset": 1,
+   "moat_type": "none",
+   "reason": "The live listing gives the business’s age, recurring-revenue share and financials but identifies no records, workflows or other asset that would take months to copy, leaving the moat unverified and triggering strict K0.",
+   "launches_last_6m": "n/a (buy track; K2 not applicable)",
+   "buy_checklist": "B1: $297,302 TTM revenue and $94,776 income; seller-stated, verification unverified. B2: passes at about $7,898 monthly profit. B3: passes at about 3.2× annual profit. B4: owner hours unverified. B5: account transferability and seller-person dependence unverified. B6: durability, churn and decline unverified.",
+   "platform_or_partner": "none found",
+   "incumbents": "K4 not applicable (buy track); listing names no incumbents.",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://quietlight.com/saas-businesses-for-sale/"
+   ]
+  },
+  {
+   "id": "L083",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "defensible_asset": 5,
+   "moat_type": "switching",
+   "reason": "Meta’s June 2026 Business Agent answers business-specific questions and hands off to people across WhatsApp, Messenger and Instagram, with free activation, so the owner of several key channels already serves the core AI-support need.",
+   "launches_last_6m": "Meta Business Agent — 2026-06 (official launch page; exact day unverified).",
+   "buy_checklist": "B1: $172k TTM revenue and $160.9k profit; P&L documents listed but verification unverified. B2: passes at about $13.4k monthly profit. B3: passes at about 0.6× annual profit. B4: owner hours unverified; team size listed as one. B5: source code, customer accounts and integrations included; Stripe ownership can be transferred through support, but this account’s transfer is unverified; no founder-person dependency stated. B6: seller says revenue and active customers are below prior peaks and churn increased; magnitude unverified, while the listing also reports +50% annual growth and 5–10% stable churn.",
+   "platform_or_partner": "Meta Business Agent; free to start and supports business-specific answers and human handoff on Meta channels.",
+   "incumbents": "K4 not applicable (buy track); listing names Intercom, Zendesk, Freshdesk, Ada, Tidio, Drift and Crisp; prices and maintenance unverified.",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://app.acquire.com/public/x3mrr7u2y5-ai-powered-customer-support-platform-for-enterprises-to-enhance-service-efficiency-with-ai-tools",
+    "https://about.fb.com/news/2026/06/meta-business-agent/amp/"
+   ]
+  },
+  {
+   "id": "L084",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "defensible_asset": 5,
+   "moat_type": "data",
+   "reason": "LinkedIn provides globally available AI job search plus native applications and job tracking, covering the core job-discovery and application need through the platform owner and triggering K3.",
+   "launches_last_6m": "No competing launch date verified; LinkedIn AI job search is current, but its original launch date is unverified (buy track; K2 not applicable).",
+   "buy_checklist": "B1: $30.8k TTM revenue and $30.1k profit; P&L document listed but verification unverified. B2: passes with $32.9k ARR (about $2,742 MRR) and about $2,508 monthly profit. B3: passes at about 3.8× annual profit. B4: owner hours unverified; team size listed as one. B5: Stripe account ownership can be transferred through support, but this account’s transfer is unverified; no seller-person dependency stated. B6: listing reports +291% annual growth and 10%+ stable churn; decline and platform-ban risk unverified, including which boards are supported.",
+   "platform_or_partner": "LinkedIn: globally available AI job search, Easy Apply and job tracking; its help page also describes limits intended to curb automation and bots.",
+   "incumbents": "K4 not applicable (buy track); listing names Jobright and Simplify.jobs; prices and maintenance unverified.",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://app.acquire.com/public/y61o1t2s77-ai-job-search-and-auto-apply-platform-with-20k-users-and-1-6m-job-inventory",
+    "https://www.linkedin.com/help/linkedin/answer/a6889044/",
+    "https://www.linkedin.com/help/linkedin/answer/a8684146",
+    "https://www.linkedin.com/help/linkedin/answer/a8068422",
+    "https://support.stripe.com/questions/transfer-a-stripe-account-to-a-different-entity-due-to-a-business-sale-or-acquisition?locale=en-GB"
+   ]
+  },
+  {
+   "id": "L085",
+   "verdict": "kill",
+   "kill_rule": "B6",
+   "defensible_asset": 4,
+   "moat_type": "switching",
+   "reason": "The listing reports a 31% annual revenue decline, which breaches B6's over-30% decline limit.",
+   "launches_last_6m": "Checkbox First Pass — 16 Sep 2026; DocumentReview.Law — 4 May 2026.",
+   "buy_checklist": "B1: $197.2k TTM revenue, $139.3k profit, and $136.5k ARR stated; P&L documents listed, financial verification unverified. B2: passes at $7.4k last-month profit. B3: passes at about 2.15× annual profit. B4: owner hours unverified; listed as a solo business. B5: Stripe account transfer process exists for business sales, but transfer of this account is unverified. B6: fails at -31% annual growth; listed churn is 5–10%, trending down.",
+   "platform_or_partner": "Google Gemini Notebook offers source-grounded document chat and a free tier; whether it replaces this product's legal and structured workflows is unverified.",
+   "incumbents": "Gemini Notebook: free tier supports up to 50 sources. Claude Projects, Hebbia, CustomGPT, and Perplexity Spaces: prices unverified.",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://app.acquire.com/public/gkgk1vss54-ai-document-review-saas-199k-ttm-revenue-139k-profit-citation-grounded-outputs",
+    "https://support.google.com/gemininotebook/answer/16269187?hl=en",
+    "https://www.prnewswire.com/news-releases/checkbox-unveils-first-pass-bringing-ai-powered-review-to-legal-requests-contracts-and-invoices-302880096.html",
+    "https://www.prnewswire.com/news-releases/documentreviewlaw-launches-attorney-built-ai-platform-the-fast-secure-and-affordable-legal-ediscovery-tool-for-everyday-lawyers-302760166.html",
+    "https://support.stripe.com/questions/transfer-a-stripe-account-to-a-different-entity-due-to-a-business-sale-or-acquisition?locale=en-GB"
+   ]
+  },
+  {
+   "id": "L086",
+   "verdict": "kill",
+   "kill_rule": "K1",
+   "defensible_asset": 7,
+   "moat_type": "switching",
+   "reason": "The listed delivery includes per-customer implementation, launch and onboarding calls, optional IT/UX management, and concierge campaign production, failing the agent-runnable and no-services constraint.",
+   "launches_last_6m": "None found; WalkMe's Q2 2026 feature rollout began 18 May 2026, but was not a new product launch.",
+   "buy_checklist": "B1: $476.9k TTM revenue, $176.1k profit, and $450k ARR stated; P&L document listed, financial verification unverified. B2: passes at $176.1k TTM profit. B3: passes at about 0.72× annual profit. B4: owner hours unverified; team size listed as 2–20. B5: transferability of the Microsoft marketplace and French government vendor status is unverified; seller-person dependency is unverified. B6: listing reports +50% annual growth; churn and platform-ban risk unverified.",
+   "platform_or_partner": "Microsoft Adoption Score provides adoption metrics for Microsoft 365; overlap with the listed external website and portal conversion service is unverified.",
+   "incumbents": "WalkMe, Whatfix, and Swogo; prices unverified.",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://app.acquire.com/public/wwn4y4x4kd-award-winning-service-saas-digital-adoption-and-roi-for-enterprises-awarded-by-fortune-100-company",
+    "https://support.walkme.com/knowledge-base/q2-26-product-release/",
+    "https://adoption.microsoft.com/en-us/adoption-score/",
+    "https://whatfix.com/products/digital-adoption-platform/"
+   ]
+  },
+  {
+   "id": "L087",
+   "verdict": "kill",
+   "kill_rule": "B5",
+   "defensible_asset": 6,
+   "moat_type": "switching",
+   "reason": "The listing promotes ThemeForest Power Elite status and over $1.1M in marketplace sales as business assets, while Envato's terms prohibit selling or transferring an Envato account.",
+   "launches_last_6m": "Pixflow AI — full launch 1 May 2026; BuildPress — first public release 29 Jun 2026.",
+   "buy_checklist": "B1: $249.4k TTM revenue and $41.9k profit stated; five P&L documents listed, financial verification unverified. B2: passes at about $3.49k monthly TTM profit. B3: about 5.97× annual profit, below the strict >6× kill threshold but above the preferred ~4×. B4: owner hours unverified. B5: fails because Envato bars account transfer/sale and the listing identifies ThemeForest status and marketplace sales as assets. B6: listing reports 1–3% stable churn; revenue decline and platform-ban risk unverified.",
+   "platform_or_partner": "WordPress.org provides a free theme directory and default themes; substitution for the listed proprietary licensing and cloud design assets is unverified.",
+   "incumbents": "WordPress.org theme directory: free, with 8,688 themes displayed. Other incumbent prices unverified.",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://app.acquire.com/public/79hdn1advz-profitable-wordpress-software-company-with-25k-paying-customers",
+    "https://help.author.envato.com/hc/en-us/articles/41383558433817-Envato-Market-User-Terms",
+    "https://pixflow.dev/changelog",
+    "https://usebuildpress.com/changelog",
+    "https://en-gb.wordpress.org/themes/"
+   ]
+  },
+  {
+   "id": "L088",
+   "verdict": "kill",
+   "kill_rule": "K0",
+   "defensible_asset": 2,
+   "moat_type": "none",
+   "reason": "The listing describes legal research and client management, but provides no evidence of proprietary legal data, accumulated customer records, integrations, or workflows creating durable switching costs; the claimed moat is therefore unclear under K0.",
+   "launches_last_6m": "Attorly (2026-05-01); Align Research (2026-08-03); CoCounsel Legal next generation (2026-08-20); Conclavity (2026-09-04); BriefCatch unified suite (2026-09-09); Astra for Law (2026-09-17); buy track is exempt from K2.",
+   "buy_checklist": "B1: Seller-stated revenue/profit and customer figures are unverified; the listing conflicts between $1,826 ARR and $1,120 revenue/MRR. B2: Claimed $1,120 MRR and $1,090 August profit meet the floor, unverified. B3: At $1,090 annual profit, $6,000 is 5.50×; if $1,090 is August profit annualized, it is 0.46×; profit period is unverified. B4: Owner hours unverified. B5: Code, domain, social accounts, and customer-related assets are listed for transfer, subject to applicable laws; app-store and payment account transferability unverified; no seller-personal dependency evidenced. B6: 0.6% churn is seller-stated and unverified; no decline or platform ban evidenced, but OpenAI/Gemini API dependence is listed. Microns page currently says already sold.",
+   "platform_or_partner": "No free or bundled platform-owner substitute found; Google Gemini Enterprise for Legal and Microsoft Legal agent for Word are adjacent offerings, with free or bundled availability for this target unverified.",
+   "incumbents": "Listing names Harvey, Thomson Reuters CoCounsel, and Lexis+ AI; prices unverified/quote-based. Search also found Paxton AI at $300+/month and Elisa at $399/month.",
+   "claim_event_date": "2026-09",
+   "urls": [
+    "https://www.microns.io/startup-listings/ai-powered-legal-analysis-app",
+    "https://www.attorly.ai/en/newsroom/platform-launch",
+    "https://www.align.lawyer/resources/align-announces-ga-of-ai-case-retrieval-tool",
+    "https://www.thomsonreuters.com/en/press-releases/2026/august/thomson-reuters-launches-next-generation-of-cocounsel-legal-the-ai-ecosystem-built-for-legal-professionals",
+    "https://www.dawn.com/news/amp/2027314",
+    "https://www.lawnext.com/2026/09/briefcatch-launches-unified-legal-writing-suite-for-the-ai-era.html",
+    "https://openai.com/index/astra-for-law/",
+    "https://elisalegal.com/pricing",
+    "https://theagenticaiindex.com/ai-tools-for-attorneys.html"
+   ]
+  }
+ ],
+ "shadow": [
+  {
+   "id": "L053",
+   "name": "Salesforce Essentials independent CRM export verifier",
+   "cheap": {
+    "id": "L053",
+    "verdict": "kill",
+    "kill_rule": "K0",
+    "defensible_asset": 1,
+    "moat_type": "data",
+    "reason": "The proposed mapping of common CRM objects is not evidenced as proprietary or compounding data and no months-to-copy advantage is established; payment evidence is unverified.",
+    "launches_last_6m": "Salesforce documented its automated Essentials-to-Pro-Suite migration on 2026-09-21; no competing independent-CRM export product launch found.",
+    "buy_checklist": null,
+    "platform_or_partner": "Salesforce automatically migrates consenting Essentials orgs to Pro Suite while preserving data; a specific official converter to independent CRMs was not found.",
+    "incumbents": "Salesforce Data Loader supports bulk import and export; price unverified. Salesforce also points to third-party AppExchange options, but specific maintained products and prices are unverified; five well-reviewed niche incumbents were not verified.",
+    "claim_event_date": "2026-09",
+    "urls": [
+     "https://help.salesforce.com/s/articleView?id=005314208&language=en_US&type=1",
+     "https://help.salesforce.com/s/articleView?id=xcloud.migration_timeline.htm&language=en_US&type=5",
+     "https://developer.salesforce.com/tools/data-loader",
+     "https://help.salesforce.com/s/articleView?id=000385199&language=en_US&type=1"
+    ],
+    "track": "build",
+    "copy_speed": "No competing independent-CRM export product launch found; the Salesforce migration procedure is platform-owned.",
+    "success_12_months": 2,
+    "agent_runnability": 9,
+    "fit": 8,
+    "automation_share_pct": 90,
+    "automation_reason": "Estimated: export audits, field mapping, conversion, onboarding, and routine support can be automated in a self-serve product."
+   },
+   "shadow": {
+    "id": "L053",
+    "verdict": "kill",
+    "kill_rule": "K0",
+    "agree_with_kill": true,
+    "defensible_asset": 2,
+    "moat_type": "none",
+    "reason": "The moat is a library mapping standard Salesforce objects (Account, Contact, Lead, Task, Event, Case) to Zoho and HubSpot, and established tools already ship those mappings: Import2, Trujay/SyncMatters, MigrateMyCRM, Dataimporter and Zoho's own free Salesforce import wizard. A competitor could copy it in weeks, and nothing compounds after a one-off migration, so the mapping is not proprietary data and creates no switching cost.",
+    "launches_last_6m": "No new Essentials-specific export or converter launches found since 23 Apr 2026. Xappex published a Salesforce-to-HubSpot migration guide on 2026-04-21, which is before the window and is content, not a product launch.",
+    "buy_checklist": null,
+    "platform_or_partner": "Salesforce (the source platform) automatically migrates Essentials orgs to Pro Suite. The destination platforms serve the need for free: Zoho CRM has a built-in Salesforce import (Setup > Data Administration > Import > Salesforce, covering Leads, Accounts, Contacts, Deals, Notes, Activities and Attachments) plus a 'request free migration assistance' service. Import2 is a HubSpot Marketplace-listed app. No official free HubSpot importer specific to Salesforce was verified.",
+    "incumbents": "Import2 (free sample migration; full price unverified), Trujay/SyncMatters (starts at $299 flat per a Capterra listing; vendor page unverified; free samples), MigrateMyCRM (free sample; priced per record, amount unverified), Dataimporter (free tier, per an iTechGuides roundup), Data2CRM, and Zoho's free built-in wizard. That is at least 5 maintained options at or below a plausible price floor for one-off SMB migrations, with no evident wedge, so this also supports K4.",
+    "claim_event_date": "2026-09",
+    "urls": [
+     "https://help.zoho.com/portal/en/kb/crm-nextgen/data-administration/data-migration/articles/nextgen-migrating-from-salesforce",
+     "https://zoho.com/crm/request-migration-assistance.html",
+     "https://ecosystem.hubspot.com/marketplace/listing/import2datamigration",
+     "https://import2.com/salesforce",
+     "https://www.capterra.co.uk/software/185983/trujay",
+     "https://syncmatters.com/salesforce-to-hubspot-data-migration",
+     "https://help.salesforce.com/s/articleView?id=xcloud.migration_timeline.htm&language=en_US&type=5"
+    ]
+   }
+  },
+  {
+   "id": "L005",
+   "name": "Property renovation history API",
+   "cheap": {
+    "id": "L005",
+    "verdict": "kill",
+    "kill_rule": "K2",
+    "defensible_asset": 6,
+    "moat_type": "data",
+    "reason": "OneClick Code launched Permit History nationwide on 30 Apr 2026 and Kukun launched its Permits API on 2 Jun 2026, meeting the two-launch kill threshold.",
+    "launches_last_6m": "OneClick Code Permit History — 30 Apr 2026; Kukun Permits API — 2 Jun 2026; PermitStack — Apr 2026 (exact day unverified, not counted)",
+    "buy_checklist": null,
+    "platform_or_partner": "None found; Kukun and OneClick Code are direct competitors, and an official partner serving the complete need was not found.",
+    "incumbents": "Kukun: $149/month API Starter and $99/month permit-search Starter per supplied pricing evidence; PermitStack, OneClick Code, ATTOM, and CoreLogic prices unverified.",
+    "claim_event_date": "unverified",
+    "urls": [
+     "https://www.oneclickcode.com/blog/oneclick-code-launches-permit-history-nationwide",
+     "https://www.einpresswire.com/article/916073646/kukun-launches-permits-api-to-make-building-permits-the-default-data-layer-for-underwriting-and-real-estate-ai",
+     "https://permit-stack.com/about/",
+     "https://mykukun.com/developers/pricing",
+     "https://api.developer.attomdata.com/docs",
+     "https://www.corelogic.com/wp-content/uploads/sites/4/2022/06/Property-API-Overview.pdf"
+    ]
+   },
+   "shadow": {
+    "id": "L005",
+    "verdict": "kill",
+    "kill_rule": "K2",
+    "defensible_asset": 6,
+    "moat_type": "data",
+    "reason": "Since 23 Apr 2026, two competitors launched nationwide permit-history products: OneClick Code Permit History (published 30 Apr 2026, per its blog) and Kukun Permits API v1 (GA 2 Jun 2026, per its press release). That meets the K2 threshold of two or more, even though the compiled-data moat passes K0 at 6/10.",
+    "launches_last_6m": "OneClick Code Permit History nationwide — 30 Apr 2026 (blog 'Published At: Apr 30, 2026'); Kukun Permits API v1 GA — 2 Jun 2026 (EIN Presswire); ATTOM building-permit data platform — launch date unverified, not counted; PermitStack — date unverified, not counted",
+    "buy_checklist": null,
+    "platform_or_partner": "none found (no platform owner or official partner bundles it free; OneClick Code and Kukun are direct competitors)",
+    "incumbents": "Kukun ($149/mo API Starter for 100 addresses; $99/mo permit search Starter, per its pricing page); ATTOM building permits (price unverified); BatchData Permits API (125M+ permits, price unverified); OneClick Code (bundled in its platform, price unverified); CoreLogic (price unverified); Shovels (unverified)",
+    "claim_event_date": "unverified",
+    "urls": [
+     "https://www.oneclickcode.com/blog/oneclick-code-launches-permit-history-nationwide",
+     "https://www.einpresswire.com/article/916073646/kukun-launches-permits-api-to-make-building-permits-the-default-data-layer-for-underwriting-and-real-estate-ai",
+     "https://coverager.com/?p=243265",
+     "https://batchdata.io/permits",
+     "https://rei-ink.com/attom-launches-nationwide-building-permit-data-platform/",
+     "https://mykukun.com/developers/pricing"
+    ],
+    "agree_with_kill": true
+   }
+  },
+  {
+   "id": "L041",
+   "name": "Newsletter audience verification dataset",
+   "cheap": {
+    "id": "L041",
+    "verdict": "kill",
+    "kill_rule": "K2",
+    "defensible_asset": 4,
+    "moat_type": "network",
+    "reason": "BigReach's page claims a 1,200+ publisher network and booking and tracking workflow, but K2 kills after Paved AI Connector launched 9 Jun 2026 and Workweek opened its newsletter platform and ad network on 27 Aug 2026; BigReach's paid-outcome claims are unverified.",
+    "launches_last_6m": "Paved AI Connector — 9 Jun 2026; Workweek newsletter platform and ad network — 27 Aug 2026",
+    "buy_checklist": null,
+    "platform_or_partner": "beehiiv Ad Network and Swapstack serve newsletter monetization within the beehiiv ecosystem; scope is partial for a cross-platform network",
+    "incumbents": "Paved (advertiser access free; publisher fee reported at 30%), beehiiv Ad Network (Scale-plan creators), Swapstack (free), Passionfroot ($199/mo advertiser plan), Hecto (no advertiser minimum); current terms unverified with vendors",
+    "claim_event_date": "unverified",
+    "urls": [
+     "https://www.bigreach.pro/marketplace",
+     "https://www.producthunt.com/products/paved?launch=paved-ad-network",
+     "https://www.adexchanger.com/platforms/this-professional-social-network-just-launched-a-newsletter-platform-and-yes-theres-an-ad-network/",
+     "https://www.beehiiv.com/blog/beehiiv-ad-network",
+     "https://sponsorships.ai/newsletter-ad-networks"
+    ]
+   },
+   "shadow": {
+    "id": "L041",
+    "verdict": "kill",
+    "kill_rule": "K2",
+    "defensible_asset": 4,
+    "moat_type": "network",
+    "agree_with_kill": true,
+    "reason": "The lead just passes K0 with a cold-start two-sided network and audience/outcome dataset (4/10), but it fails K2: at least two competing launches since 23 Apr 2026 were verified. Workweek launched a newsletter platform and proprietary ad network with verified-member B2B targeting on 27 Aug 2026. Substack announced a native sponsorship program framework and Creator Kits on 16 Jun 2026. Paved launched its AI Connector on 9 Jun 2026, though that adds to an existing network rather than being a new product. BigReach's '1,200+ vetted newsletters' and 'verified audiences' are its own claims with no stated verification method and no evidence of completed transactions.",
+    "launches_last_6m": "Paved AI Connector (MCP for newsletter sponsorships) — 9 Jun 2026; Substack native sponsorship program framework + Creator Kits — announced 16 Jun 2026 (per Nieman Lab; pilot dates in other sources conflict: Dec 2025 vs 2026); Workweek newsletter platform + proprietary ad network with verified-member targeting — 27 Aug 2026 (outside-creator rollout phased to early 2027)",
+    "buy_checklist": null,
+    "platform_or_partner": "beehiiv Ad Network (built in, CPM/CPC, about 20% cut reported) and the Substack Native Sponsorships pilot cover their own platforms only. No owner covers the cross-platform verification need, so this is partial and not a K3 kill.",
+    "incumbents": "Paved (3,000+ newsletters and 253M+ subscribers, its own claim; AI Connector page says no platform fee), beehiiv Ad Network, Swapstack, Passionfroot, Hecto, Letterwell, PostApex, Social Presence. Current prices are unverified with the vendors.",
+    "claim_event_date": "unverified",
+    "urls": [
+     "https://www.producthunt.com/products/paved?launch=paved-ad-network",
+     "https://www.adweek.com/dealroom/workweek-17-million-b2b-newsletter-platform/",
+     "https://adexchanger.com/platforms/this-professional-social-network-just-launched-a-newsletter-platform-and-yes-theres-an-ad-network",
+     "https://www.niemanlab.org/2026/06/substack-is-launching-a-sponsorship-program/",
+     "https://www.bigreach.pro/marketplace",
+     "https://www.paved.com/"
+    ]
+   }
+  },
+  {
+   "id": "L047",
+   "name": "Apliqo UX Legacy environment and model exporter",
+   "cheap": {
+    "id": "L047",
+    "verdict": "kill",
+    "kill_rule": "K3",
+    "defensible_asset": 4,
+    "moat_type": "data",
+    "reason": "Apliqo already provides built-in legacy ContentStore export/import, current UX app export/import, and migration assessment through implementation partners, covering the proposed export and replacement-planning need.",
+    "launches_last_6m": "Apliqo UX 2026.02 — announced approximately May 2026 (exact date unverified); this is the successor product, not a migration utility.",
+    "buy_checklist": null,
+    "platform_or_partner": "Apliqo and its implementation partners; built-in export/import functions and migration assessment.",
+    "incumbents": "Apliqo Legacy ContentStore export/import and NextGen app JSON export/import (bundled pricing unverified); partner migration assessment (price unverified).",
+    "claim_event_date": "2027-12",
+    "urls": [
+     "https://apliqoux.atlassian.net/wiki/spaces/UXD/pages/2509309012/Processes",
+     "https://apliqoux.atlassian.net/wiki/spaces/ANG/pages/3832381446/Admin",
+     "https://www.apliqo.com/resources/blog/apliqo-ux-%28legacy%29-%E2%80%94-end-of-support-and-end-of-life-statement",
+     "https://www.linkedin.com/posts/apliqo_apliqoux-tm1-ibmplanninganalytics-activity-7434997469127749633-9Z9Q"
+    ]
+   },
+   "shadow": {
+    "id": "L047",
+    "verdict": "kill",
+    "kill_rule": "K3",
+    "agree_with_kill": true,
+    "defensible_asset": 3,
+    "moat_type": "switching",
+    "reason": "Apliqo, the platform owner, already includes legacy app export/import processes (APQ.UX.Dim.App.Export/Export.All/Import, with snippet export since 2020.08) and advertises bundled '1-Click Migration' from previous Apliqo UX versions to the 2025.01+ platform. That covers the export and replacement-planning need at no extra charge. The moat is also weak (about 3/10): the 'conversion ruleset' is a mapping of one small vendor's documented export format, and the vendor offers its own free path.",
+    "launches_last_6m": "No third-party competing launches found since 23 Apr 2026. Apliqo UX 2026.06 is a platform-owner release (Cubewise forum, about June 2026; exact date unverified), not an independent competitor.",
+    "buy_checklist": null,
+    "platform_or_partner": "Apliqo (built-in legacy ContentStore app export/import processes plus 1-Click Migration bundled with UX 2025.01+), and Cubewise as its official partner/sister company",
+    "incumbents": "Apliqo built-in export/import and 1-Click Migration (bundled, price unverified); Cubewise/partner migration services (price unverified)",
+    "claim_event_date": "2027-12",
+    "urls": [
+     "https://apliqoux.atlassian.net/wiki/spaces/UXD/pages/2509209858",
+     "https://www.apliqo.com/de/resources/blog/introducing-the-next-chapter-of-the-apliqo-ux-story-welcome-to-ux-2025-01",
+     "https://forum.cubewise.com/t/migrate-export-import-html-snippets/4016",
+     "https://forum.cubewise.com/t/apliqo-ux-2026-06-release/7699",
+     "https://cubewise.com/blog/apliqo-ux-and-cubewise-canvas-for-tm1-to-be-offered-as-a-single-product"
+    ]
+   }
+  },
+  {
+   "id": "L088",
+   "name": "AI-Powered Legal Analysis App",
+   "cheap": {
+    "id": "L088",
+    "verdict": "kill",
+    "kill_rule": "K0",
+    "defensible_asset": 2,
+    "moat_type": "none",
+    "reason": "The listing describes legal research and client management, but provides no evidence of proprietary legal data, accumulated customer records, integrations, or workflows creating durable switching costs; the claimed moat is therefore unclear under K0.",
+    "launches_last_6m": "Attorly (2026-05-01); Align Research (2026-08-03); CoCounsel Legal next generation (2026-08-20); Conclavity (2026-09-04); BriefCatch unified suite (2026-09-09); Astra for Law (2026-09-17); buy track is exempt from K2.",
+    "buy_checklist": "B1: Seller-stated revenue/profit and customer figures are unverified; the listing conflicts between $1,826 ARR and $1,120 revenue/MRR. B2: Claimed $1,120 MRR and $1,090 August profit meet the floor, unverified. B3: At $1,090 annual profit, $6,000 is 5.50×; if $1,090 is August profit annualized, it is 0.46×; profit period is unverified. B4: Owner hours unverified. B5: Code, domain, social accounts, and customer-related assets are listed for transfer, subject to applicable laws; app-store and payment account transferability unverified; no seller-personal dependency evidenced. B6: 0.6% churn is seller-stated and unverified; no decline or platform ban evidenced, but OpenAI/Gemini API dependence is listed. Microns page currently says already sold.",
+    "platform_or_partner": "No free or bundled platform-owner substitute found; Google Gemini Enterprise for Legal and Microsoft Legal agent for Word are adjacent offerings, with free or bundled availability for this target unverified.",
+    "incumbents": "Listing names Harvey, Thomson Reuters CoCounsel, and Lexis+ AI; prices unverified/quote-based. Search also found Paxton AI at $300+/month and Elisa at $399/month.",
+    "claim_event_date": "2026-09",
+    "urls": [
+     "https://www.microns.io/startup-listings/ai-powered-legal-analysis-app",
+     "https://www.attorly.ai/en/newsroom/platform-launch",
+     "https://www.align.lawyer/resources/align-announces-ga-of-ai-case-retrieval-tool",
+     "https://www.thomsonreuters.com/en/press-releases/2026/august/thomson-reuters-launches-next-generation-of-cocounsel-legal-the-ai-ecosystem-built-for-legal-professionals",
+     "https://www.dawn.com/news/amp/2027314",
+     "https://www.lawnext.com/2026/09/briefcatch-launches-unified-legal-writing-suite-for-the-ai-era.html",
+     "https://openai.com/index/astra-for-law/",
+     "https://elisalegal.com/pricing",
+     "https://theagenticaiindex.com/ai-tools-for-attorneys.html"
+    ]
+   },
+   "shadow": {
+    "id": "L088",
+    "verdict": "kill",
+    "kill_rule": "K0",
+    "defensible_asset": 2,
+    "moat_type": "none",
+    "agree_with_kill": true,
+    "reason": "The listing describes a Flutter/Supabase app that wraps the OpenAI and Gemini APIs. It names no proprietary legal corpus, no rules engine, no third-party integrations and no network effect. The only switching-cost claim is a vague mention of 'customer-related assets and data' across 15 customers, and roughly $420 of the $1,120 MRR comes from one law firm. That makes the moat 'none' under strict K0, and a competitor could copy it in weeks.",
+    "launches_last_6m": "I did not re-run my own launch search; the buy track is exempt from K2. The prior pass recorded Attorly (2026-05-01), Align Research (2026-08-03), CoCounsel Legal next generation (2026-08-20), Conclavity (2026-09-04), BriefCatch unified suite (2026-09-09) and Astra for Law (2026-09-17). My searches also found the Lexis+ AI mobile app (iOS/Android, announced 2026-03-09), which is before the 23 Apr 2026 window.",
+    "buy_checklist": "B1: All figures are seller-stated and unverified. The revenue and traffic metrics are images behind a login. The figures conflict: a $1,826 ARR/TTM headline against '$1,120 TTM revenue' and $1,120 current MRR. The listing claims the price is '~1.49× annualized MRR', which does not compute. B2: The claimed $1,120 MRR and $1,090 August 2026 profit pass the floor, but are unverified. B3: The asking price is $6,000 on the page, but a search snippet shows $9,130, so the price is inconsistent. If profit is about $1,090 for the TTM, the multiple is 5.5× (between 4× and 6×, so it counts against but does not kill); if August profit is annualized, it is about 0.46×. B4: Owner hours are not stated, so unverified. B5: Code, domain, brand, social accounts and customer data ('subject to applicable laws') transfer; Google Play account and payment account transfer are unverified; no reliance on the seller personally is evidenced. B6: The 0.6% churn has no stated period. There is customer concentration (one $420/month firm is about 37% of MRR) and dependence on the OpenAI/Gemini APIs. The page shows an 'Already Sold' label, but a 'Contact founder' button is still active, so availability is unverified.",
+    "platform_or_partner": "None found free or bundled for this target. Google Gemini Enterprise for Legal, Microsoft's legal agent for Word and OpenAI's Astra for Law are adjacent offerings; whether they are free or bundled is unverified.",
+    "incumbents": "Harvey, Thomson Reuters CoCounsel and Lexis+ AI (named in the listing; pricing is quote-based or unverified). Also Paxton AI ($300+/month), Elisa ($399/month) and AI Lawyer ($19.99/month, per a vendor-run source).",
+    "claim_event_date": "2026-09",
+    "urls": [
+     "https://www.microns.io/startup-listings/ai-powered-legal-analysis-app",
+     "https://www.lexisnexis.com/blogs/amppage/128/lexis-ai-mobile-app-supports-lawyers-with-legal-ai-anywhere",
+     "https://openai.com/index/astra-for-law/",
+     "https://www.thomsonreuters.com/en/press-releases/2026/august/thomson-reuters-launches-next-generation-of-cocounsel-legal-the-ai-ecosystem-built-for-legal-professionals",
+     "https://elisalegal.com/pricing"
+    ]
+   }
+  },
+  {
+   "id": "L003",
+   "name": "US solar-permit lead feed",
+   "cheap": {
+    "id": "L003",
+    "verdict": "kill",
+    "kill_rule": "K2",
+    "defensible_asset": 6,
+    "moat_type": "data",
+    "reason": "At least two competing permit-feed listings appeared on Apify within the last six months; their exact launch dates are unverified, but their pages say they were published within the last three weeks.",
+    "launches_last_6m": "Search dated 2026-10-23: Apify “US Building Permits Monitor” (published 2 weeks ago; exact launch date unverified); “US Building Permits Scraper” by owlabee (published last week; exact launch date unverified); “US Building Permits API & Contractor Leads” by digital_influx (published 3 weeks ago; exact launch date unverified).",
+    "buy_checklist": null,
+    "platform_or_partner": "No single official platform or partner found serving a nationwide normalized permit feed; city and county authorities publish underlying records through their own systems.",
+    "incumbents": "PingPermit: $20/month; PermitStack: from $29/month; SignedOff.io: $49/$149; Physical Layer: from $99; Shovels: $599/month; Construction Monitor: price unlisted. Five well-reviewed incumbents at or below the $29 floor were not evidenced.",
+    "claim_event_date": "2026-08",
+    "urls": [
+     "https://permit-stack.com/about/",
+     "https://permit-stack.com/pricing/",
+     "https://apify.com/optimistprime/us-building-permits-monitor",
+     "https://apify.com/owlabee/building-permits-scraper",
+     "https://apify.com/digital_influx/us-building-permits",
+     "https://pingpermit.com/developers",
+     "https://physical-layer.com/api"
+    ]
+   },
+   "shadow": {
+    "id": "L003",
+    "verdict": "kill",
+    "kill_rule": "K2",
+    "defensible_asset": 6,
+    "moat_type": "data",
+    "agree_with_kill": true,
+    "reason": "The moat clears K0, since a nightly-refreshed corpus of 8,000+ cities from about 1,000 sources takes months to build. But at least 4 competing permit-lead products with solar tagging or filtering appeared after 23 Apr 2026, so the K2 threshold of 2 or more is met. Those competitors cover only 5–26 cities each, so a coverage wedge exists, but K2 counts launches, not quality.",
+    "launches_last_6m": "Dated search, 23 Oct 2026. Exact Apify publish dates are not shown on any of these pages (unverified), but each page carries dates that place it inside the window. (1) dabomb1177 'Building Permit Leads - Solar, Roofing, HVAC & Windows': changelog '0.1 Initial release' with sample output fetchedAt 2026-07-26, so probably published around Jul 2026. (2) optimistprime 'US Building Permits Monitor' (solar trade tags): page cites real runs on 5 Oct 2026; an earlier pass saw 'published 2 weeks ago'. (3) owlabee 'US Building Permits Scraper, 26 Cities': entries verified live on 16 Oct 2026; earlier pass saw 'published last week'. (4) digital_influx 'US Building Permits API & Contractor Leads' (solar workType): measured 2 Oct 2026; earlier pass saw 'published 3 weeks ago'. Also, PermitStack itself says it launched in April 2026 (exact day unverified). Each actor shows 2 users and no ratings.",
+    "buy_checklist": null,
+    "platform_or_partner": "None found offering a nationwide normalised feed for free. SolarAPP+ and OpenSolar handle permit processing, not lead feeds. Ohm Analytics gives solar contractors free market intelligence via CALSSA, but no lead product was evidenced.",
+    "incumbents": "PermitStack: free, then $29–$499/month. Construction Monitor: solar permit data with API, 50 states, price unlisted. Ohm Analytics: free to installers via CALSSA, paid tiers unlisted. Shovels: about $599/month (from the prior pass, not re-verified). Hubexo/BuildCentral: price unlisted. Apify actors: $1–5 per 1,000 records. Fewer than 5 well-reviewed incumbents at or below a $29 floor are evidenced, so K4 is not triggered.",
+    "claim_event_date": "2026-10",
+    "urls": [
+     "https://apify.com/dabomb1177/permit-leads-solar-roofing-hvac",
+     "https://apify.com/optimistprime/us-building-permits-monitor",
+     "https://apify.com/owlabee/building-permits-scraper",
+     "https://apify.com/digital_influx/us-building-permits",
+     "https://permit-stack.com/about/",
+     "https://permit-stack.com/pricing/",
+     "https://info.constructionmonitor.com/solar-permit-data-construction-monitor",
+     "https://calssa.org/ohm-analytics-discount"
+    ]
+   }
+  },
+  {
+   "id": "L020",
+   "name": "Germany SME e-invoice transition checker",
+   "cheap": {
+    "id": "L020",
+    "verdict": "kill",
+    "kill_rule": "K0",
+    "defensible_asset": 3,
+    "moat_type": "rules",
+    "reason": "K0: the proposed German rules and validation guidance are based on published BMF and KoSIT materials, including an open-source validator; private cumulative data, proprietary rule coverage, and switching costs are unverified, so the moat is unclear and scores below 4.",
+    "launches_last_6m": "Sovos Compliance Network — 2026-06-02; ZUGFeRD Validator — initial release April 2026 (exact day unverified, so whether it falls after 23 April is unverified); no second post-cutoff dated launch confirmed.",
+    "buy_checklist": null,
+    "platform_or_partner": "BMF points to KoSIT open-source validator and test components; ELSTER also provides a free e-invoice viewer.",
+    "incumbents": "KoSIT XRechnung validator and testsuite: open source; ELSTER viewer: free; xrechnung.dev: free online validation; ZUGFeRD Validator and Sovos pricing: unverified.",
+    "claim_event_date": "2027-12",
+    "urls": [
+     "https://www.bundesfinanzministerium.de/Content/DE/FAQ/e-rechnung.html",
+     "https://xeinkauf.de/",
+     "https://xrechnung.dev/",
+     "https://zugferd-validator.de/en/docs",
+     "https://sovos.com/press-releases/sovos-launches-compliance-network-to-address-unprecedented-wave-of-global-e-invoicing-mandates/"
+    ]
+   },
+   "shadow": {
+    "id": "L020",
+    "verdict": "kill",
+    "kill_rule": "K0",
+    "defensible_asset": 3,
+    "moat_type": "rules",
+    "agree_with_kill": true,
+    "reason": "K0: the rules engine would just repackage public BMF timelines and the open-source KoSIT validator rules. Free validators that update themselves already cover this (KoSIT, ELSTER, ecosio, B2Brouter, easybill), so there is no proprietary data and no switching cost, which puts the moat under 4. K3 (free official tools) and K4 (5+ free incumbents) also look likely to fail.",
+    "launches_last_6m": "No new standalone validator launch dated after 23 Apr 2026 found by dated search. The Shopware 'E-Rechnung Validator' plugin was last updated 17 Apr 2026, a date found in search results, which is before the cutoff. Sovos Compliance Network (2026-06-02) was found by the prior pass and is enterprise, not SMB. The ZUGFeRD Validator was released in April 2026 (exact day unverified). That makes at most 1 confirmed launch, so K2 is not triggered.",
+    "buy_checklist": null,
+    "platform_or_partner": "KoSIT publishes the official XRechnung validator as open source and BMF points to it. ELSTER's e-invoice viewer is free, checks completeness and is run by the tax authority.",
+    "incumbents": "KoSIT validator (free, open source); ELSTER e-Rechnung viewer (free); ecosio validator (free, updates automatically when rules change); B2Brouter validator (free, 15+ formats); easybill validator (free, 5 per day); xrechnung.dev (free); kostenlose-erechnung.de (free for 3 per month, then €9.90/month); Cleartax DE guidance. At least 5 of these are maintained and free, at or below any plausible price floor.",
+    "claim_event_date": "unverified",
+    "urls": [
+     "https://www.cleartax.com/de/e-rechnungen-validieren",
+     "https://www.b2brouter.net/de/e-rechnung-validator/",
+     "https://www.easybill.de/en/e-invoice-validator/",
+     "https://www.etl.de/e-rechnung/zeitplan/",
+     "https://kostenlose-erechnung.de/ratgeber/e-rechnungspflicht-leitfaden/",
+     "https://xrechnung.dev/",
+     "https://www.bundesfinanzministerium.de/Content/DE/FAQ/e-rechnung.html"
+    ]
+   }
+  },
+  {
+   "id": "L044",
+   "name": "Atlassian Connect app migration validator",
+   "cheap": {
+    "id": "L044",
+    "verdict": "kill",
+    "kill_rule": "K2",
+    "defensible_asset": 4,
+    "moat_type": "data",
+    "reason": "Three official Connect-to-Forge migration releases landed within six months: the adoption-status CLI, macro mapping support, and a Confluence macro index feature.",
+    "launches_last_6m": "Atlassian adoption-status CLI — 2026-08-10; migratedFrom Connect-to-Forge macro mapping property — 2026-09-11; Confluence macro index feature — 2026-10-14.",
+    "buy_checklist": null,
+    "platform_or_partner": "Atlassian provides the adoption-status CLI and Connected Apps migration messaging; CLI pricing is unverified.",
+    "incumbents": "Atlassian adoption-status CLI and Forge migration tooling (price unverified); Connected Apps migration messaging (bundled).",
+    "claim_event_date": "2027-01",
+    "urls": [
+     "https://developer.atlassian.com/platform/adopting-forge-from-connect/changelog/",
+     "https://developer.atlassian.com/platform/adopting-forge-from-connect/adoption-status-tool/",
+     "https://www.atlassian.com/blog/development/getting-ready-for-connect-end-of-support"
+    ]
+   },
+   "shadow": {
+    "id": "L044",
+    "verdict": "kill",
+    "kill_rule": "K3",
+    "agree_with_kill": true,
+    "defensible_asset": 3,
+    "moat_type": "data",
+    "reason": "I agree with the kill but on K3, not K2: Atlassian already gives the inventory and compatibility report away free, so there is little left to sell. Its Connected apps admin page flags every app that uses Connect modules and labels private Connect apps LEGACY. Its free adoption-status CLI (npx @atlassian/connect-to-forge adoption-status) lists each remaining Connect module with a suggested fix. The proposed moat is a map from Connect modules to Forge equivalents, which Atlassian documents publicly, so it scores below 4 and fails K0 as well. K2 is weak taken alone: the Atlassian releases are developer migration features, not competing products, and I could not confirm the 2026-08-10 adoption-status date, because the page shows a last-updated date of 2026-07-27.",
+    "launches_last_6m": "Atlassian, not competitors: connectToForgeMigration manifest module, 2026-04-29 (canary cohort only); Connect issue field to Forge Custom Field migration, 2026-05-11; migratedFrom macro mapping, 2026-09-11; Confluence macro index (RFC-142), 2026-10-14. The adoption-status CLI's release date is unverified (page last updated 2026-07-27). Third party: Migration Assistance Tool for Confluence on the Marketplace (free, 2 installs, launch date unverified).",
+    "buy_checklist": null,
+    "platform_or_partner": "Atlassian, free and bundled: Connected apps page warning banners and LEGACY flag for private apps, admin messaging that shows each vendor's declared migration intent, the adoption-status CLI, and published module-mapping and limitations docs. A partner-supported free Marketplace app audits legacy Connect macros.",
+    "incumbents": "Atlassian Connected apps page and adoption-status CLI (free); Migration Assistance Tool for Confluence (free); paid migration-assessment services such as View26 (price unverified).",
+    "claim_event_date": "2027-01",
+    "urls": [
+     "https://developer.atlassian.com/platform/adopting-forge-from-connect/what-admins-see/",
+     "https://developer.atlassian.com/platform/adopting-forge-from-connect/adoption-status-tool/",
+     "https://developer.atlassian.com/platform/adopting-forge-from-connect/connect-end-of-support-private-apps/",
+     "https://developer.atlassian.com/platform/adopting-forge-from-connect/changelog/",
+     "https://marketplace.atlassian.com/apps/2161785437/migration-assistance-tool-for-confluence"
+    ]
+   }
+  },
+  {
+   "id": "L078",
+   "name": "AI Meeting Assistant with Contact History",
+   "cheap": {
+    "id": "L078",
+    "verdict": "kill",
+    "kill_rule": "K3",
+    "defensible_asset": 4,
+    "moat_type": "switching",
+    "reason": "The listing’s contact-linked meeting history is a plausible switching-cost asset, but Zoom’s free ZoomMate Basic already offers My Notes for Zoom and third-party meetings, including three monthly uses, serving the core meeting-notes need.",
+    "launches_last_6m": "not required (buy track; K2 exempt)",
+    "buy_checklist": "B1: $9k TTM revenue and $5k TTM profit stated; P&L document listed, financial verification unverified. B2: $800 last-month profit stated, above floor. B3: $20k asking price is 4.0x TTM profit. B4: owner hours unverified. B5: Apple app transfer is supported subject to eligibility and Stripe has an ownership-transfer process; whether this product’s apps and accounts qualify is unverified; no seller-person dependence evidenced. B6: listing states +20% growth and 5–10% stable churn; no decline over 30%, fast churn, or platform-ban evidence, but metrics are unverified.",
+    "platform_or_partner": "Zoom (ZoomMate Basic/My Notes; free tier includes three monthly uses, including third-party meetings).",
+    "incumbents": "K4 exempt for buy track; listing names Granola, Fireflies.ai, and Otter.ai; prices and maintained status unverified.",
+    "claim_event_date": "unverified",
+    "urls": [
+     "https://app.acquire.com/public/3583q2air1-ai-meeting-assistant-with-custom-notes-action-items-and-searchable-contact-history",
+     "https://www.zoom.com/en/products/ai-assistant/",
+     "https://developer.apple.com/help/app-store-connect/transfer-an-app/overview-of-app-transfer",
+     "https://support.stripe.com/questions/change-the-owner-of-a-stripe-account?locale=en-GB"
+    ]
+   },
+   "shadow": {
+    "id": "L078",
+    "verdict": "kill",
+    "kill_rule": "K3",
+    "defensible_asset": 4,
+    "moat_type": "switching",
+    "reason": "Both main platform owners already cover the core need, free or bundled. Zoom's ZoomMate pricing page lists bot-free My Notes for Zoom and third-party meetings on the free Basic plan (3 uses a month) and unlimited on paid plans. Apple's macOS 26 Notes records audio and gives Apple Intelligence transcript summaries, and also summarises phone and FaceTime calls, at no added cost on supported Macs. The listing's per-contact meeting history is the only moat, and with about $9k TTM revenue the customer base is small, so it scores at the K0 threshold (4) and is a weak defence.",
+    "agree_with_kill": true,
+    "launches_last_6m": "No dated launches since 23 Apr 2026 confirmed from primary sources. Unverified secondary reports: ZoomMate (reported by a third party as launched June 2026), Fathom 3.0 bot-free Mac beta (around Aug 2026) and Wispr Notetaker for Mac (2026, date unverified). Not required for the buy track (K2 exempt).",
+    "buy_checklist": "B1: listing states $9k TTM revenue and $5k TTM profit, with a P&L document attached; no Stripe-verified badge seen, so unverified. B2: $800 last-month profit passes the floor, but the TTM average is about $417 a month, which is below $500, so the figure is marginal. B3: $20k asking price is 4.0x TTM profit, which passes. B4: owner hours unverified. B5: Apple app transfer and Stripe ownership transfer exist, but whether this product qualifies is unverified; no dependence on the seller personally was found. B6: listing claims +20% growth and 5-10% churn, both unverified; the platform-substitution risk from Zoom and Apple bundling is material.",
+    "platform_or_partner": "Zoom (ZoomMate/AI Companion My Notes: bot-free, covers third-party meetings, 3 free uses a month on Basic and unlimited on paid). Apple (Notes audio recording and call summaries with Apple Intelligence in macOS 26, bundled).",
+    "incumbents": "Granola, Fireflies.ai, Otter.ai (bot-free desktop app), Fathom (generous free plan), Wispr Notetaker, Circleback; prices unverified.",
+    "claim_event_date": "unverified",
+    "urls": [
+     "https://zoom.us/pricing/aic",
+     "https://www.zoom.com/en/products/ai-assistant/features/ai-note-taking",
+     "https://support.apple.com/guide/mac-help/mchl2102c2ae/mac",
+     "https://app.acquire.com/public/3583q2air1-ai-meeting-assistant-with-custom-notes-action-items-and-searchable-contact-history"
+    ]
+   }
+  },
+  {
+   "id": "L048",
+   "name": "Neptune experiment-tracking archive and importer",
+   "cheap": {
+    "id": "L048",
+    "verdict": "kill",
+    "kill_rule": "K0",
+    "defensible_asset": 1,
+    "moat_type": "none",
+    "reason": "The claimed cross-platform mapping asset is already available in Neptune’s public exporter and migration guides, leaving no distinct compounding data or switching-cost asset for this proposed archive verifier and importer.",
+    "launches_last_6m": "none found",
+    "buy_checklist": null,
+    "platform_or_partner": "Neptune/OpenAI published a free exporter and destination guides for Comet, GoodSeed, Lightning AI, Minfx, MLflow, Pluto, Weights & Biases and ZenML.",
+    "incumbents": "Neptune Exporter (free, public source); Comet also maintains a Neptune migration guide (price not applicable).",
+    "claim_event_date": "2026-03",
+    "urls": [
+     "https://github.com/neptune-ai/neptune-exporter",
+     "https://docs.neptune.ai/transition_hub",
+     "https://support.neptune.ai/en/articles/13925165-service-shutdown-overview",
+     "https://www.comet.com/docs/v2/guides/experiment-management/load-data-from-neptune/"
+    ]
+   },
+   "shadow": {
+    "id": "L048",
+    "verdict": "kill",
+    "kill_rule": "K0",
+    "defensible_asset": 1,
+    "moat_type": "none",
+    "agree_with_kill": true,
+    "reason": "The claimed mapping corpus is already a free official tool: Neptune Exporter exports runs to Parquet and loads them into MLflow, W&B, Comet, ZenML, Lightning AI, Minfx, GoodSeed and Pluto, so there is no defensible asset (K0). K3 also applies because the platform owner serves the need for free. K6 applies as well: the Neptune SaaS shut down on 2026-03-05/06 and all hosted data was permanently deleted with no recovery path. That leaves only already-exported Parquet archives as a shrinking, one-off market.",
+    "launches_last_6m": "none found since 23 Apr 2026. The free tools that already exist launched before that date or have no confirmed date: the Trainy/Pluto fork of neptune-exporter (YC launch, launch date unverified), Comet's neptune-to-comet exporter and W&B's migration report (both before the shutdown)",
+    "buy_checklist": null,
+    "platform_or_partner": "Neptune/OpenAI publish the official Neptune Exporter CLI (free, open source) and destination guides. W&B, Comet and Trainy/Pluto publish their own free migration paths.",
+    "incumbents": "Neptune Exporter (free), Comet neptune-to-comet exporter (free), Pluto/Trainy loader fork (free), W&B migration guide (free)",
+    "claim_event_date": "2026-03",
+    "urls": [
+     "https://docs.neptune.ai/transition_hub/neptune_exporter",
+     "https://docs.neptune.ai/transition_hub",
+     "https://support.neptune.ai/en/articles/13925165-service-shutdown-overview",
+     "https://www.comet.com/docs/v2/guides/experiment-management/load-data-from-neptune/",
+     "https://wandb.ai/wandb_fc/product-announcements-fc/reports/Migrate-from-Neptune-to-Weights-Biases--VmlldzoxNTI2MTAyNA",
+     "https://docs.trainy.ai/pluto/exporting-neptune-runs",
+     "https://www.ycombinator.com/launches/PLM-pluto-oss-experiment-tracker-for-neptune-users"
+    ]
+   }
+  }
+ ]
+}
