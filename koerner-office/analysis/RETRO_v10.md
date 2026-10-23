@@ -39,7 +39,7 @@
 - **Noise:**
   - Moat-first ideation (G1–G4). The model produced plausible moats on paper that the evidence stage then marked "not evidenced".
   - Large listings in A3 ($220k–$2.6m) are far outside a sensible price band and mostly need staff.
-- **Structural finding across v7–v10:** about 190 deep-checked leads, 0 pursue. A tension runs through the constraints. **What is defensible needs either time to compile (data, network) or people (an installed customer base with support and sales). What is fully agent-runnable from day one is copyable within weeks.**
+- **Structural finding across v7–v10:** 200 leads web-checked in v8–v10 (35 + 77 + 88), 48 given deep evidence, 46 validated, 0 pursue. A tension runs through the constraints. **What is defensible needs either time to compile (data, network) or people (an installed customer base with support and sales). What is fully agent-runnable from day one is copyable within weeks.**
 
 ## 4. Cost and time
 
