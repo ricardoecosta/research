@@ -183,6 +183,11 @@ Optimise for **the lowest cost that keeps decision quality**. These rules are le
   - The utility-site test needs a domain and 8 weeks of watching.
 - Run them alongside v9 only if Ricardo says so.
 
+## 6b. Iteration log
+- **v9:** validation-first, new UK sources, copy-speed and claim-age filters. P = 0.
+- **v10:** moat gate, buy track and a single xhigh kill-check; scope changed to any country. P = 0, and the stall rule fired.
+- **v11** (Ricardo, 23 Oct 22:25 BST): time-to-moat (build), a buy track judged on a 90-day handover to agents ($20k–$150k, verified revenue only, ≤5 h/week after the handover, ~60% of leads), and a demand-first source (verified revenue ≥$1k/month, within 18 months). See `v11/CHANGES.md`.
+
 ## 7. Proposed METHOD changes not yet adopted
 
 These stay here until a retro shows they're needed:

@@ -173,7 +173,7 @@ Infrastructure fix (not counted): the evidence schema no longer defaults `automa
 
 ---
 
-## v11 changes (proposed 23 Oct 2026 by RETRO_v10.md, pending Ricardo: stall rule triggered again)
+## v11 changes (proposed 23 Oct 2026 by RETRO_v10.md; ADOPTED 23 Oct 22:25 BST by Ricardo)
 
 1. **K0 measures time-to-moat for the build track.** A build lead passes only if all three hold:
    - agents can compile the asset within 3 months
@@ -186,3 +186,10 @@ Infrastructure fix (not counted): the evidence schema no longer defaults `automa
    - Automation and hours are scored at steady state, after a written 90-day plan that hands work to agents.
    - The ≤5 h/week rule is unchanged.
 3. **Demand-first sourcing.** Seed from verified-revenue small products: dated within 18 months, with $1k MRR or more.
+
+**Adopted with Ricardo's details (23 Oct 22:25 BST):**
+- Time-to-moat kills a build lead if any one of its three parts fails.
+- The buy track uses a $20k–$150k price band and counts verified revenue only. The ≤5 h/week limit applies after the 90-day handover; more hours during the handover are fine.
+- The buy track gets about 60% of the leads and at least 4 of the 8 validation slots.
+- Demand-first leads need verified revenue of at least $1k/month, dated within the last 18 months.
+- Everything else stays locked. See `v11/RULES_LOCKED.md`.
