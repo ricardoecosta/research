@@ -170,3 +170,19 @@ v9 found P = 0 for the second iteration in a row, so per `LOOP.md` §2 the loop 
 Infrastructure fix (not counted): the evidence schema no longer defaults `automation_share_pct` to 0; unknown is recorded as null/unverified.
 
 **Scope change (23 Oct 2026, 19:10 BST, Ricardo): any country market.** From v10 on, target customers, sources, moat ideas (data or rules engines for any jurisdiction) and acquisition listings are global, not UK-only. Ricardo is UK-based, so UK law still applies to him, and outreach must be lawful both where he is and where the recipient is. Step 5's UK legal filter now means "the founder's and the recipient's jurisdictions".
+
+---
+
+## v11 changes (proposed 23 Oct 2026 by RETRO_v10.md, pending Ricardo: stall rule triggered again)
+
+1. **K0 measures time-to-moat for the build track.** A build lead passes only if all three hold:
+   - agents can compile the asset within 3 months
+   - a rival would need 3 months or more to replicate it
+   - no one already owns it
+
+   The buy track keeps the strict evidenced-moat test.
+2. **The buy track is judged on a post-takeover agent plan.**
+   - Price band: $20k–$150k, with verified revenue only.
+   - Automation and hours are scored at steady state, after a written 90-day plan that hands work to agents.
+   - The ≤5 h/week rule is unchanged.
+3. **Demand-first sourcing.** Seed from verified-revenue small products: dated within 18 months, with $1k MRR or more.
