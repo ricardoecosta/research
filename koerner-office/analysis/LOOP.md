@@ -9,7 +9,7 @@
 
 ## 1. Objective
 
-Find business opportunities that pass high-effort, web-checked validation with **verdict = pursue at medium or high confidence**, under Ricardo's hard constraints:
+Find business opportunities that pass high-effort, web-checked validation with **verdict = pursue at medium or high confidence**, under Ricardo's hard constraints. **Market scope: any country** (changed 23 Oct 2026, 19:10 BST, from UK-only). Ricardo is UK-based, so his own UK compliance applies, and outreach must be lawful where he and the recipient are.
 - mostly run by AI agents, ≤5 h/week of his time
 - interesting to him
 - not selling to local businesses

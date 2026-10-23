@@ -159,7 +159,7 @@ From v9, the research runs as an iteration loop. `LOOP.md` holds the objective, 
 
 ---
 
-## v10 changes (proposed 23 Oct 2026 by RETRO_v9.md, pending Ricardo: stall rule triggered)
+## v10 changes (proposed 23 Oct 2026 by RETRO_v9.md; ADOPTED 23 Oct 19:10 BST by Ricardo, same constraints)
 
 v9 found P = 0 for the second iteration in a row, so per `LOOP.md` §2 the loop is paused and these changes are **proposed, not yet adopted**. Ricardo decides the direction before v10 starts.
 
@@ -168,3 +168,5 @@ v9 found P = 0 for the second iteration in a row, so per `LOOP.md` §2 the loop 
 3. **One xhigh kill-check with a dated-launch search.** The medium kill-check is dropped (v9: 28/77 verdicts flipped at xhigh). Each survivor needs a dated search for launches in the last 6 months plus the platform-owner/partner check.
 
 Infrastructure fix (not counted): the evidence schema no longer defaults `automation_share_pct` to 0; unknown is recorded as null/unverified.
+
+**Scope change (23 Oct 2026, 19:10 BST, Ricardo): any country market.** From v10 on, target customers, sources, moat ideas (data or rules engines for any jurisdiction) and acquisition listings are global, not UK-only. Ricardo is UK-based, so UK law still applies to him, and outreach must be lawful both where he is and where the recipient is. Step 5's UK legal filter now means "the founder's and the recipient's jurisdictions".
