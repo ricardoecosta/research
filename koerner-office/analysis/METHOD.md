@@ -106,3 +106,13 @@ When we hit a wall, use this order.
 - **Bulk mining and cheap passes:** Codex on Ricardo's Mac first, then pi, then Researcher (Grok Bot) if both are out.
 - **Reviews and validation:** Claude Opus 5.5 on Ricardo's Mac first. If its session limit hits (it resets every five hours), Researcher takes over the validation itself with web checks, as was done for the synthesis and the hidden gems.
 - **Pushing:** always from Ricardo's Mac. When the Mac is offline, keep the files on Researcher's computer and push once the Mac is back.
+
+---
+
+## MARKET SCOUTS
+
+Run market scouts in parallel with transcript mining.
+
+- **Sources:** Shopify, Gumroad, Etsy, Fiverr, Upwork, the app stores, the Chrome Web Store, Product Hunt and Indie Hackers, plus UK and B2B marketplaces.
+- **Same pipeline:** feed scout findings into the same scoring (step 8) and high-effort validation (step 10) as transcript ideas.
+- **Moat check:** apply the moat check extra hard to scout findings, because live gaps get copied fast. For example, Royal Mail Click & Drop sync on Shopify drew four new apps in about a month in Sep–Oct 2026.
