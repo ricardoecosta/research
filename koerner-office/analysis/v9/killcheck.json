@@ -1,0 +1,2792 @@
+{
+ "medium": [
+  {
+   "id": "L001",
+   "verdict": "kill",
+   "kill_rule": "K4",
+   "reason": "At least five maintained products already serve the need, including free options and paid software from £7/month, with no evident wedge for the proposed £30k–£50k segment.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "HMRC recognises a large software-provider market and says it offers both free and paid options; it does not provide its own software.",
+   "incumbents": "Sage Sole Trader & Landlord (£7/month), QuickBooks (£10/month), Crunch (£10/month), Xero (£16/month), FreeAgent (£19/month); HMRC's finder also lists 37 free-plan products as of October 2026.",
+   "claim_event_date": "2027-04",
+   "urls": [
+    "https://www.gov.uk/government/publications/extension-of-making-tax-digital-for-income-tax-self-assessment-to-sole-traders-and-landlords/making-tax-digital-for-income-tax-self-assessment-for-sole-traders-and-landlords",
+    "https://www.gov.uk/government/publications/what-software-youll-need-for-making-tax-digital",
+    "https://whito.co.uk/tools/mtd-income-tax-software-cost-uk/",
+    "https://landlordlookout.co.uk/mtd-software/free/"
+   ]
+  },
+  {
+   "id": "L002",
+   "verdict": "kill",
+   "kill_rule": "K4",
+   "reason": "The same crowded MTD software market already covers the £20k–£30k cohort, including free options and multiple established paid products at or below the plausible price floor.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "HMRC recognises a large software-provider market and says it offers both free and paid options; it does not provide its own software.",
+   "incumbents": "Sage Sole Trader & Landlord (£7/month), QuickBooks (£10/month), Crunch (£10/month), Xero (£16/month), FreeAgent (£19/month); HMRC's finder also lists 37 free-plan products as of October 2026.",
+   "claim_event_date": "2028-04",
+   "urls": [
+    "https://www.gov.uk/guidance/find-out-if-and-when-you-need-to-use-making-tax-digital-for-income-tax",
+    "https://www.gov.uk/government/publications/what-software-youll-need-for-making-tax-digital",
+    "https://whito.co.uk/tools/mtd-income-tax-software-cost-uk/",
+    "https://landlordlookout.co.uk/mtd-software/free/"
+   ]
+  },
+  {
+   "id": "L003",
+   "verdict": "kill",
+   "kill_rule": "K4",
+   "reason": "Established practice accounts products already prepare and file iXBRL accounts for multi-client practices, with at least five maintained options at or below a plausible entry price and no evident niche wedge.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "Companies House lists software for accounts filing; TaxCalc and IRIS already offer practice accounts-production and filing products.",
+   "incumbents": "TaxCalc Accounts Production (£164/year for 12 clients), Andica (£100/year), Forbes (£335/year), Capium (from £140/month), IRIS Accounts Production (price unverified), VT Software (price unverified), BTC/BrightTax (price unverified).",
+   "claim_event_date": "2028-04",
+   "urls": [
+    "https://www.gov.uk/government/news/companies-house-update-to-accounts-filing-from-april-2028",
+    "https://www.gov.uk/software-company-accounts",
+    "https://www.taxcalc.com/pricing",
+    "https://accountin.co.uk/compare/",
+    "https://www.iris.co.uk/products/iris-accounts-production/"
+   ]
+  },
+  {
+   "id": "L004",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "The reporting requirement and API route are live or scheduled, but the available evidence does not establish five well-reviewed incumbents at or below the plausible price floor for Scottish and Northern Irish sites.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "Defra publishes a self-certified provider list and API onboarding documentation; no official free API connector product was found.",
+   "incumbents": "Defra's list includes many providers, including Byrne Waste Tracking (£89/month per site); prices and review evidence for the other listed products are unverified.",
+   "claim_event_date": "2027-01",
+   "urls": [
+    "https://www.gov.uk/government/publications/report-receipt-of-waste-choose-a-software-provider/report-receipt-of-waste-choose-a-software-provider",
+    "https://www.gov.uk/government/publications/developing-the-digital-waste-tracking-service/digital-waste-tracking-service",
+    "https://www.daera-ni.gov.uk/articles/digital-waste-tracking",
+    "https://byrnedigitalsolutions.co.uk/"
+   ]
+  },
+  {
+   "id": "L005",
+   "verdict": "kill",
+   "kill_rule": "K4",
+   "reason": "The GOV.UK provider list already shows dozens of compatible products, including carrier and broker tools, with no evident wedge in the proposed general-purpose tracking software.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "Defra provides the Report receipt of waste service and lists compatible software providers.",
+   "incumbents": "The GOV.UK list includes LoadSnap, Waste Logics, QWTN, WTNCloud, Wastrio, and many others; prices unverified from the official list.",
+   "claim_event_date": "2027-10",
+   "urls": [
+    "https://www.gov.uk/government/publications/report-receipt-of-waste-choose-a-software-provider/report-receipt-of-waste-choose-a-software-provider",
+    "https://www.gov.uk/government/publications/developing-the-digital-waste-tracking-service/digital-waste-tracking-service"
+   ]
+  },
+  {
+   "id": "L006",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "Defra already provides a spreadsheet submission route for waste receivers, so the proposed spreadsheet-to-service bridge overlaps with an official free alternative.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "Defra's Report receipt of waste service accepts its own spreadsheet template.",
+   "incumbents": "Receiver-side providers listed by Defra include Wasters.io, WasteReady, Waste Logics, and LoadSnap; prices unverified from the official list.",
+   "claim_event_date": "2027-10",
+   "urls": [
+    "https://www.gov.uk/guidance/report-receipt-of-waste",
+    "https://www.gov.uk/government/publications/report-receipt-of-waste-choose-a-software-provider/report-receipt-of-waste-choose-a-software-provider"
+   ]
+  },
+  {
+   "id": "L007",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "The duty-stamp scheme and scanning requirements are live, and the reviewed sources do not evidence a kill rule for a software product handling activation, scan metadata, and movement tracking.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "HMRC's appointed stamp supplier Cartor provides the scanning API; whether it offers a complete business workflow product is unverified.",
+   "incumbents": "VapeTax advertises inventory and vaping-duty compliance software; further maintained incumbents and their prices are unverified.",
+   "claim_event_date": "2027-01",
+   "urls": [
+    "https://www.gov.uk/guidance/how-vaping-duty-stamps-work",
+    "https://www.gov.uk/guidance/prepare-for-vaping-products-duty-and-the-vaping-duty-stamps-scheme"
+   ]
+  },
+  {
+   "id": "L008",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "The official registration service is the source of registration and evidence, while the NRLA already offers a free postcode-based deadline checker for landlords.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "The government offers the Register your rental property service; NRLA provides a free registration deadline checker.",
+   "incumbents": "NRLA checker (free); Letkept advertises a compliance ledger at £8 per property per month, with its registration evidence pack; other incumbents unverified.",
+   "claim_event_date": "2026-12",
+   "urls": [
+    "https://www.gov.uk/government/news/stronger-protections-and-greater-confidence-for-renters",
+    "https://www.nrla.org.uk/resources/renters-rights/landlord-database-register-your-rental-property-service",
+    "https://letkept.co.uk/"
+   ]
+  },
+  {
+   "id": "L009",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "HM Land Registry confirms the reporting rules take effect on 6 April 2027 and the digital service is being developed, with no evidence found that the need has been withdrawn or delayed beyond 2028; automation fit and payment evidence remain unverified.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "HM Land Registry is developing the submission service; no official preparation tool or partner serving this need found",
+   "incumbents": "none found",
+   "claim_event_date": "2027-04",
+   "urls": [
+    "https://www.gov.uk/government/news/contractual-control-agreements",
+    "https://www.gov.uk/government/publications/contractual-control-agreements/contractual-control-agreements"
+   ]
+  },
+  {
+   "id": "L010",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "SumUp itself offers a Xero sync through its POS Plus and Payment Plus plans, directly serving the proposed reconciliation need.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "SumUp offers its own Xero integration, available with POS Plus or Payment Plus",
+   "incumbents": "SumUp native Xero integration; price not verified. Other maintained incumbents at a plausible price floor: unverified.",
+   "claim_event_date": "2026-09",
+   "urls": [
+    "https://help.sumup.com/en-GB/articles/40kv0a4cBysasUUXN3zkpc-link-your-xero-and-sage-accounts-to-your-sumup-profile",
+    "https://apps.xero.com/uk/app/sumup-payments-and-pos"
+   ]
+  },
+  {
+   "id": "L011",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "The official Xero listing documents Paystack’s existing connector and reliability complaints, but no rule establishing a qualifying copy-speed, incumbent-count, or platform-owner kill was verified; current payment evidence beyond the live listing is unverified.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "Paystack maintains its Xero invoice payment integration; it is the incumbent connector, not verified as an official alternative serving the proposed repair and alerting need",
+   "incumbents": "Paystack Xero integration; price unverified. Other maintained incumbents at a plausible price floor: unverified.",
+   "claim_event_date": "2025-10",
+   "urls": [
+    "https://apps.xero.com/za/app/paystack",
+    "https://support.paystack.com/en/articles/2127426"
+   ]
+  },
+  {
+   "id": "L012",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "Maropost Commerce Cloud provides a direct Xero accounting integration that syncs payments and other commerce data, already serving the proposed Neto-to-Xero sync need.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "Maropost’s native Xero integration; Crossbeam is also an authorised Maropost partner",
+   "incumbents": "Maropost native Xero integration; Crossbeam at A$49/month excluding GST. Other maintained incumbents at a plausible price floor: unverified.",
+   "claim_event_date": "2025-07",
+   "urls": [
+    "https://galaxy.maropost.com/kb/articles/1388",
+    "https://galaxy.maropost.com/kb/articles/1610-accounting-integration-set-up-guides-and-feature-comparison",
+    "https://crossbeam.app/pricing"
+   ]
+  },
+  {
+   "id": "L013",
+   "verdict": "kill",
+   "kill_rule": "K4",
+   "reason": "At the likely sub-$25/month price floor, maintained preorder alternatives include Timesact, PreProduct, Pre-Order Manager, Globo PreOrder, Essential Preorder, and STOQ, with no evidenced niche wedge that offsets this competition.",
+   "launches_last_6m": "Prebuy — 2026-05-05; no second competing launch found",
+   "platform_or_partner": "Shopify promotes PreProduct and Pre-Order Manager as recommended preorder apps",
+   "incumbents": "Timesact (free, paid from $5/month); other maintained alternatives include PreProduct, Pre-Order Manager, Globo PreOrder, Essential Preorder, and STOQ; exact current prices for some unverified",
+   "claim_event_date": "2026-04",
+   "urls": [
+    "https://apps.shopify.com/timesact-discount-pre-order?search_id=1ea9ba4c-b231-4882-b149-a3a44c34d7b8&surface_detail=marketing-and-conversion-upsell-and-bundles-pre-orders&surface_inter_position=2&surface_intra_position=3&surface_type=category&surface_version=redesign",
+    "https://www.shopify.com/pre-orders",
+    "https://www.clickpost.ai/blog/pre-order-apps-for-shopify-stores",
+    "https://letsmetrix.com/app/prebuy-public"
+   ]
+  },
+  {
+   "id": "L014",
+   "verdict": "kill",
+   "kill_rule": "K4",
+   "reason": "At or below a plausible low monthly price, at least five maintained Shopify banner alternatives are established and reviewed, and the proposed support-rescue angle has no evidenced wedge.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "Shopify themes provide a built-in announcement bar; the extent to which this covers the proposed product-page widget is unverified",
+   "incumbents": "Attrac ($8.99/month); Essential Announcement Bar ($6.99/month); Hextom Quick Announcement Bar ($9.99/month); Yeps ($6.99/month); XB (free); GSC Countdown Timer Bar (free)",
+   "claim_event_date": "2025-06",
+   "urls": [
+    "https://convertforce.com/blog/best-shopify-announcement-bar-apps/",
+    "https://www.shopify.com/partners/blog/announcement-bar-shopify-theme",
+    "https://apps.shopify.com/categories/store-design-notifications-banners/all?feature_handles%5B%5D=cf.banners.banner_type.product_page&surface_detail=localizeme&surface_type=app_details"
+   ]
+  },
+  {
+   "id": "L015",
+   "verdict": "kill",
+   "kill_rule": "K4",
+   "reason": "At or below the reported €14.99/month price, more than five maintained product-options apps have substantial review bases and lower-priced or free plans, with no evidenced checkout-compatibility wedge sufficient to escape that competition.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "none found",
+   "incumbents": "Globo (free; paid from $9.90/month); Easify (free; paid from $9.99/month); OPTIS (free; paid from about $9.99/month); Hulk (free tier; paid plans); Infinite Options ($12.99/month); Zepto ($9.99/month); SC Product Options ($39.99/month)",
+   "claim_event_date": "2025-11",
+   "urls": [
+    "https://www.theshoppad.com/blog/shopify-product-options-apps",
+    "https://www.cloudlift.app/blogs/shopify/shopify-product-options-apps-tested",
+    "https://www.libautech.com/best-shopify-apps/best-shopify-product-add-ons-apps"
+   ]
+  },
+  {
+   "id": "L016",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "Shopify Marketplace Connect already provides a Shopify-owned eBay integration with inventory, orders, and product syncing, serving the proposed core need.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "Shopify Marketplace Connect, formerly Codisto",
+   "incumbents": "Shopify Marketplace Connect (free up to 50 orders/month, then 1% per order up to $99/month); CedCommerce (free to $89/month); DPL ($19.99–$199.99/month); InfoShore (free plan)",
+   "claim_event_date": "2025-09",
+   "urls": [
+    "https://www.shopify.com/blog/shopify-ebay-integration",
+    "https://litcommerce.com/blog/best-ebay-integration-apps-for-shopify/"
+   ]
+  },
+  {
+   "id": "L017",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "The June 2025 sales-data complaint and the vendor’s hotfix response are documented, but no locked kill rule is evidenced; copy speed and the stated release gap are unverified.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "Xero offers quotes, but the cited Xero materials do not show it providing this stock-aware CRM and sales-dashboard need.",
+   "incumbents": "Prospect CRM ($243/month reported); HubSpot, Salesforce, Zoho CRM, Freshsales, Pipedrive, and Capsule are alternatives, but the available sources do not establish five that meet the locked price, maintenance, and review conditions for this specific niche.",
+   "claim_event_date": "2025-06",
+   "urls": [
+    "https://apps.xero.com/sg/app/prospect-crm",
+    "https://central.xero.com/0/article/Email-or-print-a-quote",
+    "https://www.itechguides.com/products/prospect-crm/alternatives/"
+   ]
+  },
+  {
+   "id": "L018",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "The cited March 2025 complaint is older than 18 months and does not establish the lead’s only payment evidence; WorkflowMax is actively releasing reporting and migration features, so no kill rule is evidenced.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "WorkflowMax by BlueRock provides current reporting and a Harvest migration tool; whether it serves the proposed independent data-quality monitor or narrower replacement is unverified.",
+   "incumbents": "WorkflowMax by BlueRock (price not verified); other maintained incumbents and prices for this specific migration/reporting need are unverified.",
+   "claim_event_date": "2025-03",
+   "urls": [
+    "https://apps.xero.com/us/app/workflowmax-by-bluerock",
+    "https://support.workflowmax.com/hc/en-us/articles/25686306678553-Release-notes"
+   ]
+  },
+  {
+   "id": "L019",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "The proposed maintained SAML tracing utility is already served by SAML-tracer, a free, maintained Chrome extension with 400,000 users and an August 2026 update.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "SAML-tracer by SimpleSAMLphp; free, updated 2026-08-20.",
+   "incumbents": "SAML-tracer (free; updated 2026-08-20); SAML Chrome Panel (free; last updated 2023-06-05).",
+   "claim_event_date": "2026-05",
+   "urls": [
+    "https://chromewebstore.google.com/detail/saml-tracer/mpdajninpobndbfcldcmbpnnbhibjmch",
+    "https://chromewebstore.google.com/detail/saml-chrome-panel/paijfdbeoenhembfhkhllainmocckace?hl=en",
+    "https://groups.google.com/a/chromium.org/g/chromium-extensions/c/m9V8BJOgTEg"
+   ]
+  },
+  {
+   "id": "L020",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "The removed XPath Tester and its 20,000+ users are documented, but the evidence found does not establish an official platform owner or partner already serving the proposed saved-suite or team-sharing tier, nor enough qualifying incumbents for K4.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "none found",
+   "incumbents": "SelectorsHub (free; updated 2026-10-12); XPath Helper Pro (free; updated 2025-08-13); other maintained, well-reviewed incumbents at or below a plausible price floor are unverified.",
+   "claim_event_date": "2026-05",
+   "urls": [
+    "https://groups.google.com/a/chromium.org/g/chromium-extensions/c/m9V8BJOgTEg",
+    "https://www.chromeextensions.org/selectorshub/",
+    "https://chromewebstore.google.com/detail/xpath-helper-pro/ncdgoaeicnckepaccgbdjbejiimnfhid?hl=en-US"
+   ]
+  },
+  {
+   "id": "L021",
+   "verdict": "kill",
+   "kill_rule": "K2",
+   "reason": "At least two OCR extensions launched since 23 Apr 2026: imgtotable’s Chrome extension (1 Aug 2026) and Image to Text OCR (listed as launched 3 weeks before the search); a further OCR listing was created two weeks before the search.",
+   "launches_last_6m": "imgtotable Chrome extension — 2026-08-01; Image to Text OCR — launched 3 weeks before search (exact date unverified); Image to Text OCR: copy text and tables — created 2 weeks before search (exact date unverified)",
+   "platform_or_partner": "none found",
+   "incumbents": "Copy Text from Picture — free, 90,000 users; OCR - Image Reader — free, 4.1/5 from 245 ratings; Image to Text OCR — free; prices for paid features unverified",
+   "claim_event_date": "2026-05",
+   "urls": [
+    "https://imgtotable.com/blog/imgtotable-chrome-extension",
+    "https://chromewebstore.google.com/detail/ocr-image-reader/bhbhjjkcoghibhibegcmbomkbakkpdbo?hl=en-GB",
+    "https://socket.dev/chrome/package/gdbmnpileagegojkhcjncmckaefljhno",
+    "https://chromewebstore.google.com/detail/copy-text-from-picture/lejhbacckkdpjnllmefhlinigbngpibl"
+   ]
+  },
+  {
+   "id": "L022",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "A free Location Guard replacement already offers Chrome location spoofing, while GeoSpoof also supports per-site location settings in Chrome, so the need is already served by existing products.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "Location Guard replacement offers a free Chrome package; GeoSpoof supports Chrome per-site locations, free",
+   "incumbents": "Location Guard replacement — free; GeoSpoof — free on Chrome; exact prices for other alternatives unverified",
+   "claim_event_date": "2026-05",
+   "urls": [
+    "https://www.location-guard.app/",
+    "https://github.com/GeoSpoof/geospoof",
+    "https://groups.google.com/a/chromium.org/g/chromium-extensions/c/m9V8BJOgTEg"
+   ]
+  },
+  {
+   "id": "L023",
+   "verdict": "kill",
+   "kill_rule": "K2",
+   "reason": "More than two competing chat-export products launched since 23 Apr 2026, including ChatGPT & Claude Exporter, ChatGPT to PDF, Chat to PDF, and DaYin GPT.",
+   "launches_last_6m": "ChatGPT & Claude Exporter — created 2 weeks before search; ChatGPT to PDF — listed as updated 2026-10-15; Chat to PDF — created the day before search; DaYin GPT — created 2 weeks before search",
+   "platform_or_partner": "none found",
+   "incumbents": "ChatGPT Exporter — free to start, 200,000 users, 4.9/5 from 2,800 ratings; other listed products’ prices unverified",
+   "claim_event_date": "2026-05",
+   "urls": [
+    "https://socket.dev/chrome/package/djmmpfokfciaddemciafbcnefbjfedoo",
+    "https://extensionauditor.com/scan/chatgpt-to-pdf-export-chatgpt-chats-to-pdf-markdow-poboebmiaakclneagfgfmbakpgcgdfii",
+    "https://socket.dev/chrome/package/manbcndgbbilpledkamlgbjhfkejefbk",
+    "https://socket.dev/chrome/package/jjcipikhabbpjbglfjcggapekpidlghk",
+    "https://chromewebstore.google.com/detail/chatgpt-exporter-chatgpt/ilmdofdhpnhffldihboadndccenlnfll?hl=en-GB"
+   ]
+  },
+  {
+   "id": "L024",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "Chrome’s built-in Delete browsing data controls already delete cookies, cached files, and site data, covering the stated cleanup need.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "Google Chrome built-in Delete browsing data controls",
+   "incumbents": "Chrome built-in cleanup — free; other extension prices unverified",
+   "claim_event_date": "2026-05",
+   "urls": [
+    "https://support.google.com/chrome/answer/2392709?hl=en",
+    "https://groups.google.com/a/chromium.org/g/chromium-extensions/c/m9V8BJOgTEg"
+   ]
+  },
+  {
+   "id": "L025",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "The Chromium thread confirms New Tab Tasks had 28,000 users and was removed in the 2026 AppBox dispute, but reports no paying-user or revenue evidence and does not establish a locked-rule kill.",
+   "launches_last_6m": "TaskTab — May 10, 2026; ReadyTab — Aug 28, 2026; other new-tab task alternatives with qualifying launch dates unverified",
+   "platform_or_partner": "No official Google task-manager replacement verified; third-party TaskTab uses Google Tasks",
+   "incumbents": "Momentum ($39.95/year); other maintained options include Infinity New Tab and start.me, with current prices unverified",
+   "claim_event_date": "2026-05",
+   "urls": [
+    "https://groups.google.com/a/chromium.org/g/chromium-extensions/c/m9V8BJOgTEg",
+    "https://chromewebstore.google.com/detail/tasktab-new-tab-for-googl/koncbgionnhbemmefolgmcdaeneagmki",
+    "https://chromewebstore.google.com/detail/readytab-new-tab-dashboar/ccakmoofmcbcplfaloecafdmpaihlenm"
+   ]
+  },
+  {
+   "id": "L026",
+   "verdict": "kill",
+   "kill_rule": "K2",
+   "reason": "At least two competing chart products launched in the last six months: Chart Studio was posted on Oct 11, 2026 and PlotSet’s Figma chart integration is live, meeting the copy-speed kill threshold.",
+   "launches_last_6m": "Chart Studio — Oct 11, 2026; PlotSet Charts and Maps — launch date unverified, currently live",
+   "platform_or_partner": "Figma provides the plugin marketplace; an official Figma charting product was not found",
+   "incumbents": "Chart — $10/year Pro; Chart Studio — optional one-time Pro price unverified; Data Lab — $2/month; PlotSet — free Figma plugin, paid terms unverified",
+   "claim_event_date": "2026-09",
+   "urls": [
+    "https://forum.figma.com/showcase-your-work-14/chart-studio-from-csv-to-editable-charts-for-figma-dashboards-and-presentations-58848",
+    "https://plotset.com/integrations/figma",
+    "https://chartplugin.com/pricing.html?source=figma",
+    "https://datalab-plugin.com/"
+   ]
+  },
+  {
+   "id": "L027",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "Blush’s reported age and installs do not establish payment, while the searches found no evidence of two competing illustration plugins launched since Apr 23, 2026 or another supported kill rule.",
+   "launches_last_6m": "No two qualifying launches found; Illustro’s Figma Marketplace announcement was Jun 29, 2026 (one found)",
+   "platform_or_partner": "Figma Community marketplace; no official Figma illustration library verified",
+   "incumbents": "Blush, Storyset by Freepik, Humaaans, unDraw, and Icons8 Graphics; prices for most unverified",
+   "claim_event_date": "2026-09",
+   "urls": [
+    "https://devresourc.es/blog/best-figma-plugins",
+    "https://illustro.app/blog/illustro-on-figma-marketplace",
+    "https://figma.uwarp.design/plugins/illustrations",
+    "https://intercom.help/icons8-7fb7577e8170/en/articles/16580553-what-plugins-and-integrations-does-icons8-offer"
+   ]
+  },
+  {
+   "id": "L028",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "Iconify already provides a free Figma plugin with over 300,000 searchable vector icons and includes Feather among its icon sets, directly covering the proposed icon-library need.",
+   "launches_last_6m": "No qualifying competing launches found",
+   "platform_or_partner": "Iconify for Figma, a free plugin, includes the Feather icon set",
+   "incumbents": "Iconify (free); Font Awesome Icons (official plugin; free icons with paid Pro/Pro+); Chart not applicable",
+   "claim_event_date": "2026-09",
+   "urls": [
+    "https://iconify.design/docs/design/figma/",
+    "https://iconify.design/getting-started/",
+    "https://docs.fontawesome.com/desktop/add-icons/figma-plugin/",
+    "https://devresourc.es/blog/best-figma-plugins"
+   ]
+  },
+  {
+   "id": "L029",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "The 2027 regulations are evidenced, but I found no evidence that an official or partner tool already provides this change-monitoring need, that two competitors launched since April 2026, or that five qualifying incumbents meet the K4 test.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "none found",
+   "incumbents": "Subnotice, £0–£15/month; evidence that five established, maintained, well-reviewed incumbents meet K4 is unverified.",
+   "claim_event_date": "2027-01",
+   "urls": [
+    "https://www.legislation.gov.uk/ukdsi/2026/9780348287912/data.htm",
+    "https://app.dmccaguard.co.uk/"
+   ]
+  },
+  {
+   "id": "L030",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "The roadmap supports a phased PRS database rollout from late 2026, while the evidence found does not establish two recent competing launches or five qualifying incumbents for a readiness checker.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "GOV.UK PRS Database is the registration service; no official readiness checker found.",
+   "incumbents": "LetCompliance, £7.99–£49/month; Letkept, £8/property/month; LetKeeper, £4.99 one-off; Lettable, £19–£99/month; Letavo, free–£24.99/month. Five established, maintained, well-reviewed incumbents at the plausible price floor is unverified.",
+   "claim_event_date": "2026-11",
+   "urls": [
+    "https://www.gov.uk/government/publications/renters-rights-act-2025-implementation-roadmap/implementing-renters-rights-act-2025-our-roadmap-for-reforming-the-private-rented-sector",
+    "https://letcompliance.com/",
+    "https://letkept.co.uk/",
+    "https://letkeeper.co.uk/",
+    "https://www.lettable.co/",
+    "https://letavo.co.uk/pricing/"
+   ]
+  },
+  {
+   "id": "L031",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "The government roadmap says the planned PRS Landlord Ombudsman will support landlords with tools, guidance and training on handling tenant complaints, directly serving the proposed workflow need.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "The planned PRS Landlord Ombudsman, expected to require membership in 2028, is to provide landlord complaint-handling tools, guidance and training.",
+   "incumbents": "Casebriar, £13 per complaint or plans from £39/month, serves letting-agent complaints; evidence for five qualifying landlord-workflow incumbents is unverified.",
+   "claim_event_date": "2028",
+   "urls": [
+    "https://www.gov.uk/government/publications/renters-rights-act-2025-implementation-roadmap/implementing-renters-rights-act-2025-our-roadmap-for-reforming-the-private-rented-sector",
+    "https://www.casebriar.com/letting-agent-complaint-software"
+   ]
+  },
+  {
+   "id": "L032",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "The October 2026 consultation confirms proposed extension of Awaab’s Law to private rentals and says 2027 is the earliest feasible implementation, so the need has not been withdrawn or delayed beyond 2028; no other kill rule was evidenced.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "none found",
+   "incumbents": "Letavo, free–£24.99/month, advertises maintenance requests with Awaab’s Law timelines; Lettable advertises repair response clocks. Five established, maintained, well-reviewed incumbents at the plausible price floor is unverified.",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://www.gov.uk/government/consultations/extending-awaabs-law-to-private-rented-tenancies-and-to-licences/extending-awaabs-law-to-private-rented-tenancies-and-to-licences",
+    "https://letavo.co.uk/pricing/",
+    "https://www.lettable.co/"
+   ]
+  },
+  {
+   "id": "L033",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "Lettable already offers MEES strategy and EPC planning for landlords at £49/month, directly serving the proposed need.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "Lettable offers MEES strategy + EPC planning: https://www.lettable.co/",
+   "incumbents": "Lettable £49/month; LetCompliance £14.99/month and higher; DueCert £19.99/month (early access); Fineproof £39/month: https://www.lettable.co/",
+   "claim_event_date": "2027",
+   "urls": [
+    "https://www.lettable.co/",
+    "https://www.gov.uk/government/consultations/improving-the-energy-performance-of-privately-rented-homes-2025-update/outcome/improving-the-energy-performance-of-privately-rented-homes-government-response-html"
+   ]
+  },
+  {
+   "id": "L034",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "The European Commission provides a free invoice validation service with REST and SOAP APIs, and current validators already cover Peppol and EN 16931 formats, serving the core sandbox need.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "European Commission DIGIT eInvoice Validator with REST/SOAP API: https://www.itb.ec.europa.eu/invoice/upload",
+   "incumbents": "European Commission validator free; Peppol Validator free; Ironfang free tier and paid plans from £29/month: https://www.itb.ec.europa.eu/invoice/upload",
+   "claim_event_date": "2027",
+   "urls": [
+    "https://www.itb.ec.europa.eu/invoice/upload",
+    "https://www.gov.uk/government/publications/budget-2025-document/budget-2025-html?_bhlid=3d330a81fe705d45718dee64241ff36062b4f5f0"
+   ]
+  },
+  {
+   "id": "L035",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "PackUK’s digital service already provides data validation and automated checks for producer submissions, covering the proposed pre-submission validation need.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "PackUK digital service offers enhanced validation and automated checks: https://www.gov.uk/government/publications/packuk-operational-plan/packuk-operational-plan-2026-to-2027",
+   "incumbents": "PackUK service (price not listed); pEPR Packaging Reporter £25/month; PackTotal quoted pricing: https://www.gov.uk/government/publications/packuk-operational-plan/packuk-operational-plan-2026-to-2027",
+   "claim_event_date": "2027-04",
+   "urls": [
+    "https://www.gov.uk/government/publications/packuk-operational-plan/packuk-operational-plan-2026-to-2027",
+    "https://peprcompliance.co.uk/pricing.php",
+    "https://www.packtotal.co.uk/packaging-data-management-software/pricing/"
+   ]
+  },
+  {
+   "id": "L036",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "Closed-loop evidence from accredited reprocessors is required for eligible reporting, but the searched sources did not establish an official platform or product that already provides the proposed producer evidence ledger.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "PackUK Report Packaging Data service handles registration and reporting; an existing evidence-ledger capability was unverified: https://www.gov.uk/guidance/extended-producer-responsibility-for-packaging-closed-loop-recycling",
+   "incumbents": "none found for a closed-loop evidence ledger; PackTotal and pEPR Packaging Reporter address broader packaging data and reporting: https://www.packtotal.co.uk/packaging-data-management-software/pricing/",
+   "claim_event_date": "2027",
+   "urls": [
+    "https://www.gov.uk/guidance/extended-producer-responsibility-for-packaging-closed-loop-recycling",
+    "https://www.gov.uk/guidance/packaging-waste-regulatory-requirements-and-compliance-for-reprocessors-and-exporters"
+   ]
+  },
+  {
+   "id": "L037",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "The scheduled legal change is supported by the supplied instrument, but the targeted search found no rule-triggering evidence of recent competing launches, an official employer decision-record tool, or five qualifying incumbents; payment evidence is unverified.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "none found",
+   "incumbents": "none found",
+   "claim_event_date": "2027-01",
+   "urls": [
+    "https://www.legislation.gov.uk/uksi/2026/559/made/data.xht?view=snippet&wrap=true",
+    "https://www.gov.uk/government/publications/employment-rights-bill-factsheets",
+    "https://www.gov.uk/government/consultations/make-work-pay-revised-code-of-practice-on-dismissal-and-re-engagement"
+   ]
+  },
+  {
+   "id": "L038",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "Martyn’s Law remains expected in spring 2027, and although recent competing products are evident, the search did not establish two launches since 23 April 2026 or another kill rule; SIA guidance and notification services do not appear to supply the proposed evidence vault.",
+   "launches_last_6m": "VenueLinQ (beta March 2026, outside the window); martynslaw.app, Martyn's Law Compliance Manager, Venue Defence and Martyn's Law Portal (launch dates unverified)",
+   "platform_or_partner": "SIA is building its own notification portal; official Home Office guidance and forthcoming templates support preparation but are not an evidence vault.",
+   "incumbents": "martynslaw.app (price unverified); Venue Defence (free tier; paid prices unverified); Martyn's Law Portal (price unverified); Martyn's Law Compliance Manager (price unverified); VenueLinQ (beta; paid price unverified)",
+   "claim_event_date": "2027-03",
+   "urls": [
+    "https://www.gov.uk/government/guidance/understanding-martyns-law-and-the-sias-role-as-regulator",
+    "https://www.gov.uk/government/news/sias-consultation-on-its-martyns-law-guidance-closes",
+    "https://www.gov.uk/government/news/martyns-law-scope-support-and-whats-next",
+    "https://www.venuelinq.com/",
+    "https://martynslaw.app/",
+    "https://hub.venuedefence.uk/",
+    "https://martynslawportal.co.uk/",
+    "https://martyns-law-compliance.com/"
+   ]
+  },
+  {
+   "id": "L039",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "The HRB transition date is confirmed by the regulations, while targeted searches found fewer than five evident maintained substitutes for a focused checker and no evidence of two competing launches in the past six months; whether the proposed checker can be automated enough is unverified.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "none found",
+   "incumbents": "Part L Consultant Transition Checker (price unverified); MEPX compliance checker (price unverified)",
+   "claim_event_date": "2027-09",
+   "urls": [
+    "https://www.legislation.gov.uk/uksi/2026/335/enacted",
+    "https://www.gov.uk/government/publications/the-future-homes-and-buildings-standards-building-circular-012026/the-future-homes-and-buildings-standards-building-circular-012026-letter",
+    "https://partlconsultant.co.uk/tools/part-l-transition-checker",
+    "https://www.mepx.co.uk/compliance-checker/"
+   ]
+  },
+  {
+   "id": "L040",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "Government confirmed service-charge transparency changes are planned from 2027, and the search found related leaseholder analysis products but not two verified launches since 23 April 2026, five qualifying incumbents at or below a plausible price floor, or an official document explainer.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "GOV.UK provides a free leasehold toolkit and information about reform, but no official document parser or explainer was found.",
+   "incumbents": "Leasely (free analysis; paid price unverified); Synclair (price unverified); ServiceChargeCheck (£19.99/check; described as in development); VeraHold (from £49 per review; includes human review)",
+   "claim_event_date": "2027",
+   "urls": [
+    "https://www.gov.uk/government/news/stronger-leasehold-protections-in-crackdown-on-hidden-fees",
+    "https://www.gov.uk/government/publications/leasehold-toolkit/leasehold-toolkit-england",
+    "https://www.leasely.co.uk/",
+    "https://synclair.app/en",
+    "https://servicechargecheck.keelworks.io/",
+    "https://verahold.co.uk/"
+   ]
+  },
+  {
+   "id": "L041",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "The official timetable confirms phased Employment Rights Act measures and new 2027 commencement details, but I found no evidence that an official feed or partner already provides the proposed vendor-focused change API; automation and payment remain unverified.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "none found",
+   "incumbents": "No direct maintained commencement-change feed found; payroll and HR compliance platforms exist, but direct overlap and prices are unverified.",
+   "claim_event_date": "2027-01",
+   "urls": [
+    "https://www.gov.uk/government/publications/implementing-the-plan-to-make-work-pay-and-employment-rights-act/plan-to-make-work-pay-and-employment-rights-act-timeline-update",
+    "https://www.gov.uk/government/publications/employment-rights-bill-factsheets"
+   ]
+  },
+  {
+   "id": "L042",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "Ofcom already provides a free official Regulation Checker and compliance guidance for online service operators, serving the need for an operator-facing assessment and checklist.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "Ofcom Regulation Checker and official compliance guidance (free).",
+   "incumbents": "Ofcom’s free checker and guidance; other direct maintained incumbents and prices unverified.",
+   "claim_event_date": "2027",
+   "urls": [
+    "https://www.ofcom.org.uk/os-toolkit/regulation-checker/regulation-checker",
+    "https://www.ofcom.org.uk/Online-Safety/check-how-to-comply",
+    "https://www.ofcom.org.uk/online-safety/protecting-children/online-safety-industry-bulletin-october-2026"
+   ]
+  },
+  {
+   "id": "L043",
+   "verdict": "kill",
+   "kill_rule": "K4",
+   "reason": "The library taxonomy and categorization need is served by at least five maintained, reviewed options at or below a plausible low-price floor, including free tools, so no evident UK or niche wedge is established.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "WordPress native Media Library (free) provides built-in library management; whether it fully covers the taxonomy need is unverified.",
+   "incumbents": "FileBird (from $39/year), WP Media Folder (from $39/year), Real Media Library (€39), Media Library Assistant (free), and Folders (free core/from $69 Pro); Enhanced Media Library itself also lists a free plugin and Premium Features.",
+   "claim_event_date": "2026-10",
+   "urls": [
+    "https://wordpress.org/plugins/enhanced-media-library/",
+    "https://pluginsuggest.com/blog/best-wordpress-media-library-plugins/",
+    "https://www.hostney.com/blog/best-wordpress-media-library-plugins",
+    "https://wpuxsolutions.com/"
+   ]
+  },
+  {
+   "id": "L044",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "The listing reports current revenue and five paying customers, so the payment evidence is not solely an old traction event; two competing products launched since April 2026 were not evidenced, and acquisition feasibility remains unverified.",
+   "launches_last_6m": "AirOps 2.0 (11 Jun 2026; adjacent competing workflow product), Omev AI (launch date unverified; article dated 15 Sep 2026 is not evidence of launch).",
+   "platform_or_partner": "none found",
+   "incumbents": "AirOps, Jasper, Copy.ai, Writesonic, Surfer, and Byword are named alternatives; pricing and direct substitutability for this exact workflow are unverified.",
+   "claim_event_date": "2026-10 (listing shows current monthly revenue); historical ~$3k MRR was mid-2025",
+   "urls": [
+    "https://app.acquire.com/public/qu607egp2n-no-code-ai-content-workflow-builder-for-seo-teams-airops-alternative-working-product-6k-signups",
+    "https://www.airops.com/blog/introducing-airops-2-0-winning-content",
+    "https://omev.ai/blog/airops-alternatives"
+   ]
+  },
+  {
+   "id": "L045",
+   "verdict": "kill",
+   "kill_rule": "K4",
+   "reason": "At the plausible $17,000 purchase price, established product research suites including Helium 10, Jungle Scout, AMZScout, Sell The Trend, and Minea offer overlapping research and competitor insights at or below that floor, with no distinct UK or niche wedge evidenced.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "none found",
+   "incumbents": "Helium 10 ($99/month annual); Jungle Scout ($29/month); AMZScout (from about $33/month annual); Sell The Trend ($29.97/month); Minea (from $49/month).",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://app.acquire.com/startup/dmj6vlddot-ecom-product-research-saas-30k-arr-100-growth-profitable-turnkey",
+    "https://www.helium10.com/pricing/",
+    "https://support.junglescout.com/hc/en-us/articles/26234503954967-What-is-Jungle-Scout-Amazon-Growth-Tools-and-Market-Intelligence-for-Brands-Agencies-and-Sellers",
+    "https://www.techcognate.com/best-product-research-tools/"
+   ]
+  },
+  {
+   "id": "L046",
+   "verdict": "kill",
+   "kill_rule": "K4",
+   "reason": "The listing’s $32,000 ask is above multiple established maintained alternatives—including free or open-source options and major paid suites—and the listing itself names seven direct competitors without evidencing a UK or niche wedge.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "none found",
+   "incumbents": "v0 (free tier; paid); Lovable (from $25/month); Bolt (about $20/month); Anima, Locofy, Builder.io Visual Copilot, and Magic Patterns (prices unverified); open-source Screenshot to Code (free code, hosted plans $15/month).",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://app.acquire.com/public/wr5mynoi9c-ai-code-generator-for-designers-and-developers-to-turn-screenshots-into-production-ready-web-code",
+    "https://www.therundown.ai/tools/screenshot-to-code",
+    "https://dupple.com/blog/screenshot-to-code",
+    "https://screenshottocode.com/"
+   ]
+  },
+  {
+   "id": "L047",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "The listing’s revenue claims and event date are unverified, and the available evidence does not establish a locked-rule kill for this self-serve digital product.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "OpenAI Prompt Perfect offers prompt improvement in ChatGPT Work; whether it serves the listing’s X-specific lead-generation workflow is unverified.",
+   "incumbents": "PromptPerfect (free/open source); OpenAI Prompt Perfect (price unverified); XPrompt (price unverified).",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://app.acquire.com/public/alz97fhzlw-profitable-ai-saas-for-x-1-8k-revenue-zero-ads-92-margin-zero-ai-costs-byok",
+    "https://promptperfect.beaglecorp.com/",
+    "https://openai.com/business/plugins/prompt-perfect/",
+    "https://xprompt.app/"
+   ]
+  },
+  {
+   "id": "L048",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "The aggregator confirms a newly listed Google Ads and organic-search analytics product with stated revenue, but the product details and claim date are unverified and no kill rule is evidenced from the available listing summary.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "Google Ads and Search Console provide their own reporting, but whether either bundles the combined cross-channel analytics need described is unverified.",
+   "incumbents": "none found",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://dealslide.com/source/acquire",
+    "https://developers.google.com/search/blog/2024/12/recent-data-search-console"
+   ]
+  },
+  {
+   "id": "L049",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "The listing is live with $200/year revenue and says it was added today, but no evidence establishes a kill rule; launch-date and acquisition-automation details remain unverified.",
+   "launches_last_6m": "Supremo (June 2026)",
+   "platform_or_partner": "Shopify offers demand-forecasting guidance and third-party inventory apps; no official bundled equivalent to the listed planning tool found.",
+   "incumbents": "Shopify inventory apps; exact maintained incumbent count and comparable pricing unverified.",
+   "claim_event_date": "2026-10",
+   "urls": [
+    "https://dealslide.com/source/acquire",
+    "https://www.shopify.com/blog/inventory-management-app",
+    "https://www.nasdaq.com/press-release/supremo-announces-availability-shopify-inventory-management-app-following-june-2026"
+   ]
+  },
+  {
+   "id": "L050",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "The listing states $5,942 annual revenue, but search did not verify two competing launches within the six-month window or five qualifying incumbents at the plausible price floor; acquisition and workload details remain unverified.",
+   "launches_last_6m": "ClearAudit (June 2026, per product page); CROW (launch date unverified)",
+   "platform_or_partner": "none found",
+   "incumbents": "Semrush (from $117.33/month), Ahrefs (from $29/month), Sitebulb ($18/month); qualifying review counts and comparable feature set unverified.",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://app.acquire.com/startup/tlreg50jiy-ai-powered-audit-tool-that-enhances-ux-and-boosts-conversion-offering-white-label-cro-audits",
+    "https://clearaudit.space/",
+    "https://www.crowcro.com/",
+    "https://www.semrush.com/pricing/",
+    "https://ahrefs.com/pricing?hc_location=ufi",
+    "https://www.capterra.com/p/169089/Sitebulb/pricing/"
+   ]
+  },
+  {
+   "id": "L051",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "The listing states $1,070 annual revenue, and live monitoring demand remains; the found recent products are fewer than the two-launch kill threshold, while acquisition and workload details remain unverified.",
+   "launches_last_6m": "WatchFor (January 2026, outside window); no qualifying launches found",
+   "platform_or_partner": "UptimeRobot includes DNS and SSL/domain-expiry monitoring on its free plan.",
+   "incumbents": "UptimeRobot (free; paid from $12/month); other qualifying incumbents and review evidence not fully checked.",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://app.acquire.com/startup/epu8sjypxv-domain-uptime-monitoring-platform",
+    "https://uptimerobot.com/pricing/?device=c",
+    "https://watchfor.io/changelog"
+   ]
+  },
+  {
+   "id": "L052",
+   "verdict": "kill",
+   "kill_rule": "K2",
+   "reason": "Two competing image or handwriting-to-LaTeX products launched since 23 April 2026: imagetolatex went live in September 2026 and Underleaf's current product presents the same conversion need, with launch date unverified.",
+   "launches_last_6m": "imagetolatex (September 2026); Underleaf (launch date unverified)",
+   "platform_or_partner": "none found",
+   "incumbents": "Underleaf (paid from $6/month); Mathpix (pricing unverified); qualifying incumbent count and review evidence unverified.",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://app.acquire.com/public/z75uq7rq5o-ai-tool-that-converts-handwritten-notes-pdfs-into-clean-latex-in-seconds",
+    "https://imagetolatex.com/about",
+    "https://www.underleaf.ai/"
+   ]
+  },
+  {
+   "id": "L053",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "The listing supports a current revenue claim, and I found only one relevant competing product with a verified launch since April 2026, so no kill rule is evidenced.",
+   "launches_last_6m": "Cabano, 2026-07-09",
+   "platform_or_partner": "none found",
+   "incumbents": "none found",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://app.acquire.com/startup/9ofktdxzml-ios-website-generator-3-000-devs-23k-ttm-profit-200-growth",
+    "https://cabano.app/blog/introducing-cabano/"
+   ]
+  },
+  {
+   "id": "L054",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "The October 2026 listing reports three paying subscribers, and searches did not establish enough recent competing launches or another evidenced kill rule.",
+   "launches_last_6m": "Komodor Agentic Operations Platform, 2026-09-16; other qualifying launches unverified",
+   "platform_or_partner": "Alibaba Cloud Bastionhost Intelligent O&M (free public preview); whether it serves this product’s target need is unverified",
+   "incumbents": "ServerAdmin.ai ($9/month paid plan); other relevant incumbents and review evidence unverified",
+   "claim_event_date": "2026-10",
+   "urls": [
+    "https://www.microns.io/startup-listings/ai-powered-server-operations-zero-trust-sre-platform",
+    "https://komodor.com/blog/komodor-launches-agentic-operations-platform-combining-ready-to-run-automation-with-a-comprehensive-backbone-for-custom-agents/",
+    "https://www.alibabacloud.com/help/en/bh/bastionhost/user-guide/intelligent-operations-and-maintenance",
+    "https://serveradmin.ai/"
+   ]
+  },
+  {
+   "id": "L055",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "The listing reports 2026 revenue, but available evidence does not establish two qualifying competing product launches in the last six months or another kill rule.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "none found",
+   "incumbents": "Vercel v0 ($20/month); Anima ($12–$22/month); other tools and review evidence unverified",
+   "claim_event_date": "2026-10",
+   "urls": [
+    "https://www.microns.io/startup-listings/platform-turning-screenshot-to-code",
+    "https://dupple.com/blog/screenshot-to-code"
+   ]
+  },
+  {
+   "id": "L056",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "Google’s free NotebookLM accepts YouTube sources and provides study guides, quizzes, and flashcards, directly serving the listed study-product need.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "Google NotebookLM",
+   "incumbents": "NotebookLM (free); other incumbents and prices unverified",
+   "claim_event_date": "2026-10",
+   "urls": [
+    "https://www.microns.io/startup-listings/ai-youtube-lecture-study-exam-prep-platform",
+    "https://blog.google/innovation-and-ai/products/notebooklm-audio-video-sources/",
+    "https://blog.google/innovation-and-ai/models-and-research/google-labs/notebooklm-app-quizzes-flashcards/"
+   ]
+  },
+  {
+   "id": "L057",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "TikTok Symphony Creative Studio and Google Ads Asset Studio already provide official AI image, video, and ad creative tools for marketers, meeting the core need described by this suite.",
+   "launches_last_6m": "TikTok Symphony Creative Studio (June 22, 2026); Google Ads Asset Studio multimodal creation (announced May 20, 2026)",
+   "platform_or_partner": "TikTok Symphony Creative Studio; Google Ads Asset Studio",
+   "incumbents": "Canva, ChatGPT/image tools, Midjourney, and Photoroom are named by the listing; current prices and review status unverified.",
+   "claim_event_date": "2026-09",
+   "urls": [
+    "https://ads.tiktok.com/business/en-US/blog/tiktok-symphony-ai-creative-suite",
+    "https://blog.google/products/ads-commerce/asset-studio-updates/",
+    "https://www.microns.io/startup-listings/ai-content-creator-platform"
+   ]
+  },
+  {
+   "id": "L058",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "Acquire.com already offers a software acquisition marketplace with AI-supported due-diligence task workflows, directly serving the stated SaaS buyer-and-seller need.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "Acquire.com marketplace and AI due-diligence tasks",
+   "incumbents": "Flippa, Acquire.com, Empire Flippers, and Motion Invest are named by the listing; current prices and review status unverified.",
+   "claim_event_date": "2026-05",
+   "urls": [
+    "https://help.acquire.com/how-due-diligence-works",
+    "https://www.microns.io/startup-listings/saas-marketplace"
+   ]
+  },
+  {
+   "id": "L059",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "Wix already provides a free AI website builder with hosting and site-generation tools, satisfying the core need to generate and host a website for online customers.",
+   "launches_last_6m": "one.com Aida AI Website Builder (May 22, 2026); GoDaddy Airo for WordPress (May 11, 2026); Hostinger AI Builder (August 2026)",
+   "platform_or_partner": "Wix AI Website Builder",
+   "incumbents": "Wix free plan; one.com Aida from €7.99/month; other established incumbent count, review status, and pricing unverified.",
+   "claim_event_date": "2026-08",
+   "urls": [
+    "https://www.wix.com/ai-website-builder",
+    "https://www.wix.com/website-builder",
+    "https://www.one.com/en-us/news/new-aida-ai-website-builder/",
+    "https://aboutus.godaddy.net/newsroom/news-releases/press-release-details/2026/GoDaddys-Airo-for-WordPress-Delivers-AI-that-Builds-Grows-and-Continuously-Improves-Websites/default.aspx",
+    "https://www.hostinger.com/blog/product-updates-week-34-2026",
+    "https://www.microns.io/startup-listings/ai-website-and-app-builder"
+   ]
+  },
+  {
+   "id": "L060",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "Acquire.com already provides AI-assisted due-diligence tasks for financial, legal, compliance, and risk checks, overlapping with the app’s evidence-cited diligence reports for acquisition buyers.",
+   "launches_last_6m": "Noa / TARA (September 9, 2026, launch date shown on site); AcquiCheck launch date unverified",
+   "platform_or_partner": "Acquire.com AI due-diligence workflow",
+   "incumbents": "Acquire.com workflow; AcquiCheck from $299; other established incumbent count, review status, and prices unverified.",
+   "claim_event_date": "2026-10",
+   "urls": [
+    "https://help.acquire.com/how-due-diligence-works",
+    "https://acquicheck.com/",
+    "https://runnoa.ai/",
+    "https://www.sideprojectors.com/project/100696/project-dna"
+   ]
+  },
+  {
+   "id": "L061",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "The listing reports a recent claim of payment, but I found only one confirmed competing launch since 23 Apr 2026; the launch dates of other prompt-refinement tools are unverified.",
+   "launches_last_6m": "PromptQuorum beta — Apr 2026 ([about page](https://www.promptquorum.com/about?lang=en)); no second confirmed launch found",
+   "platform_or_partner": "none found",
+   "incumbents": "PromptPerfect, Promptimize, PromptBase and Promptly AI are named in the listing; current maintenance and prices at or below the plausible floor are unverified. Listing plan: $9/month ([Microns listing](https://www.microns.io/startup-listings/ai-prompt-refinement-platform))",
+   "claim_event_date": "2026-09",
+   "urls": [
+    "https://www.microns.io/startup-listings/ai-prompt-refinement-platform",
+    "https://www.promptquorum.com/about?lang=en"
+   ]
+  },
+  {
+   "id": "L062",
+   "verdict": "kill",
+   "kill_rule": "K2",
+   "reason": "At least two competing trading tools launched since 23 Apr 2026, including Deriv TradersView and TradeZella AI, meeting the copy-speed kill threshold.",
+   "launches_last_6m": "Deriv TradersView — 16 Jun 2026 ([launch announcement](https://deriv.com/newsroom/updates/free-market-intelligence-platform-deriv)); TradeZella Zella AI — 26 May 2026 ([launch announcement](https://www.tradezella.com/blog/zella-ai-your-ai-trading-partner)); TradingJournals AI public beta — 25 Apr 2026 ([changelog](https://tradingjournalsai.com/changelog))",
+   "platform_or_partner": "none found",
+   "incumbents": "TradeZella, TradingJournals AI, SwingTradeBot, TraderLog and Journali; prices vary or are unverified, and not needed to establish K2",
+   "claim_event_date": "2026-09",
+   "urls": [
+    "https://deriv.com/newsroom/updates/free-market-intelligence-platform-deriv",
+    "https://www.tradezella.com/blog/zella-ai-your-ai-trading-partner",
+    "https://tradingjournalsai.com/changelog",
+    "https://www.microns.io/startup-listings/ai-trading-platform"
+   ]
+  },
+  {
+   "id": "L063",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "The listing gives a recent payment claim, but I found no evidenced kill: competitor launch dates and five qualifying incumbents at or below the plausible price floor are unverified.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "none found",
+   "incumbents": "Controlei, Poupa-AI, Poupa.ai, ZapSaldo and S Modo Financeiro are examples of similar WhatsApp finance tools; comparable pricing and maintenance are unverified, and the Portuguese-speaking niche may be a wedge",
+   "claim_event_date": "2026-05",
+   "urls": [
+    "https://www.microns.io/startup-listings/ai-powered-financial-saas",
+    "https://controlei.app/sobre",
+    "https://www.poupa-ai.com/",
+    "https://poupa.ai/",
+    "https://www.zapsaldo.app/",
+    "https://smodofinanceiro.com/"
+   ]
+  },
+  {
+   "id": "L064",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "HMRC’s free software finder already helps users identify software that creates digital records, sends quarterly updates and can submit the tax return, which covers the checker’s stated need.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "HMRC’s free MTD software finder ([GOV.UK](https://www.gov.uk/guidance/find-software-that-works-with-making-tax-digital-for-income-tax)); FreeAgent also documents quarterly updates and final declarations ([support](https://support.freeagent.com/hc/en-gb/articles/5116952535954-Prepare-for-MTD-for-Income-Tax-in-FreeAgent))",
+   "incumbents": "FreeAgent and QuickBooks support MTD quarterly updates and final declarations; prices for the checker itself are unverified ([FreeAgent](https://support.freeagent.com/hc/en-gb/articles/5116952535954-Prepare-for-MTD-for-Income-Tax-in-FreeAgent), [QuickBooks](https://quickbooks.intuit.com/learn-support/en-uk/help-article/income-taxes/submit-final-declaration-mtd-income-tax-quickbooks/L6IXfdAxh_GB_en_GB))",
+   "claim_event_date": "2025-12",
+   "urls": [
+    "https://www.gov.uk/guidance/find-software-that-works-with-making-tax-digital-for-income-tax",
+    "https://www.gov.uk/guidance/use-making-tax-digital-for-income-tax/submit-your-tax-return",
+    "https://www.reddit.com/r/UKPersonalFinance/comments/1pj53gl/mtd_itsa_software_for_someone_doing_self/"
+   ]
+  },
+  {
+   "id": "L065",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "HMRC’s recognised-software finder and established products including QuickBooks, Xero and FreeAgent already provide MTD-compatible sole-trader options, including transaction records and quarterly updates, so the described general-purpose need is served by platform-approved software.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "HMRC lists compatible providers; QuickBooks, Xero and FreeAgent are established options.",
+   "incumbents": "QuickBooks Sole Trader £10/month; Xero Ignite £18/month; FreeAgent Sole Trader £19/month or free with qualifying bank accounts; prices reported by a recent UK comparison.",
+   "claim_event_date": "2026-04",
+   "urls": [
+    "https://www.gov.uk/guidance/find-software-that-works-with-making-tax-digital-for-income-tax",
+    "https://www.gov.uk/guidance/use-making-tax-digital-for-income-tax/create-digital-records",
+    "https://businesstaxation.co.uk/compare/accounting-software-sole-traders/"
+   ]
+  },
+  {
+   "id": "L066",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "HMRC guidance says PAYE income is added to the tax-return estimate while MTD quarterly updates cover self-employment and property, but no source establishes that an official product already solves this specific mixed-income guidance need.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "HMRC guidance covers the treatment of PAYE and the software finder lists compatible products; a specific official guided planner was not found.",
+   "incumbents": "QuickBooks Sole Trader £10/month; Xero Ignite £18/month; FreeAgent Sole Trader £19/month or free with qualifying bank accounts; a specific mixed-income planner is unverified.",
+   "claim_event_date": "2025-07",
+   "urls": [
+    "https://www.gov.uk/guidance/use-making-tax-digital-for-income-tax/send-quarterly-updates",
+    "https://www.gov.uk/guidance/find-software-that-works-with-making-tax-digital-for-income-tax"
+   ]
+  },
+  {
+   "id": "L067",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "HMRC confirms that separate sole-trader businesses require separate digital records and quarterly updates, but evidence that an official product maps the combined multi-business and mixed-VAT scenario is unverified.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "HMRC provides rules and a compatible-software finder; no specific official multi-business/VAT mapper was found.",
+   "incumbents": "QuickBooks Sole Trader £10/month; Xero Ignite £18/month; FreeAgent Sole Trader £19/month or free with qualifying bank accounts; a dedicated mapper is unverified.",
+   "claim_event_date": "2025-07",
+   "urls": [
+    "https://www.gov.uk/guidance/use-making-tax-digital-for-income-tax/create-digital-records",
+    "https://www.gov.uk/guidance/find-software-that-works-with-making-tax-digital-for-income-tax"
+   ]
+  },
+  {
+   "id": "L068",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "HMRC requires digital records and quarterly updates, and established accounting products offer bank feeds, but the lead’s specific pain about reliable categorisation and correction time is not enough to evidence a kill under the locked rules.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "HMRC’s compatible-software finder; banks and accounting-software providers already offer connected bookkeeping tools, but an official dedicated review layer was not found.",
+   "incumbents": "QuickBooks Sole Trader £10/month; Xero Ignite £18/month; FreeAgent Sole Trader £19/month or free with qualifying bank accounts.",
+   "claim_event_date": "2025-12",
+   "urls": [
+    "https://www.gov.uk/guidance/find-software-that-works-with-making-tax-digital-for-income-tax",
+    "https://www.gov.uk/guidance/use-making-tax-digital-for-income-tax/create-digital-records",
+    "https://businesstaxation.co.uk/compare/accounting-software-sole-traders/"
+   ]
+  },
+  {
+   "id": "L069",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "HMRC already offers a personalised software finder for sole traders, including by income source, existing-records workflow and accounting period, which directly serves the proposed fit-finding need.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "HMRC software finder",
+   "incumbents": "HMRC finder (free); Sage, Xero, QuickBooks, FreeAgent and other MTD products are listed by HMRC; individual prices vary.",
+   "claim_event_date": "2025-12",
+   "urls": [
+    "https://www.gov.uk/guidance/find-software-that-works-with-making-tax-digital-for-income-tax",
+    "https://www.gov.uk/guidance/choose-the-right-software-for-making-tax-digital-for-income-tax",
+    "https://www.reddit.com/r/UKPersonalFinance/comments/1pgr8ok/anyone_here_found_the_best_sole_trader_accounting/"
+   ]
+  },
+  {
+   "id": "L070",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "Existing-records and spreadsheet bridging products are available, but the searched evidence does not establish that an official platform or partner handles direct importing from an Access database, so no kill rule is evidenced for that specific workflow.",
+   "launches_last_6m": "100PcMTD (first seen on HMRC list by 17 Oct 2026); aligned.tax MTD for Spreadsheets (first seen by 17 Oct 2026); launch dates unverified",
+   "platform_or_partner": "HMRC guidance recognises products that connect to existing spreadsheets or accounting tools; direct Access-database import support unverified.",
+   "incumbents": "100PcMTD (£30/year); aligned.tax (free quarterly updates); MTD Companion (subscription price unverified); other bridging products and prices unverified.",
+   "claim_event_date": "2026-01",
+   "urls": [
+    "https://www.gov.uk/guidance/choose-the-right-software-for-making-tax-digital-for-income-tax",
+    "https://mtdradar.co.uk/software/100pcmtd",
+    "https://mtdradar.co.uk/software/aligned-tax-mtd-for-spreadsheets",
+    "https://mtd.tax/integrations.html",
+    "https://www.reddit.com/r/UKPersonalFinance/comments/1qggg2h/making_tax_digital_simple_accounts_software_for_a/"
+   ]
+  },
+  {
+   "id": "L071",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "HMRC’s official finder already provides a personalised list of compatible products and filters options by record-keeping workflow, while the proposed paid VAT-to-Income-Tax feature comparison is unverified.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "HMRC software finder",
+   "incumbents": "HMRC finder (free); Sage, Xero, QuickBooks, FreeAgent and other compatible products; prices vary by product and tier.",
+   "claim_event_date": "2026-04",
+   "urls": [
+    "https://www.gov.uk/guidance/find-software-that-works-with-making-tax-digital-for-income-tax",
+    "https://www.gov.uk/guidance/find-software-thats-compatible-with-making-tax-digital-for-vat",
+    "https://www.reddit.com/r/UKPersonalFinance/comments/1s9fd4v/removed/"
+   ]
+  },
+  {
+   "id": "L072",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "HMRC’s live guidance explains that quarterly updates contain category totals rather than individual transactions, directly answering the batching question and removing the need for a separate assistant on that issue.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "HMRC quarterly-update guidance",
+   "incumbents": "HMRC guidance (free); MTD filing software includes quarterly-update workflows, with prices varying by provider.",
+   "claim_event_date": "2026-04",
+   "urls": [
+    "https://www.gov.uk/guidance/use-making-tax-digital-for-income-tax/send-quarterly-updates",
+    "https://www.reddit.com/r/UKPersonalFinance/comments/1s9fd4v/removed/"
+   ]
+  },
+  {
+   "id": "L073",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "QuickBooks already provides automatic mileage tracking, trip categorisation and export for its Sole Trader users, directly covering the proposed capture need.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "QuickBooks provides mileage tracking and export: https://quickbooks.intuit.com/learn-support/en-uk/help-article/track-mileage/automatically-track-mileage-quickbooks-online/L2qPCRGgI_GB_en_GB?uid=lb42y21x",
+   "incumbents": "QuickBooks (included; price unverified); MileIQ (£7.91/month annual); Driversnote (£8/month); FreeAgent (price unverified); Dext (from £15/month per cited comparison)",
+   "claim_event_date": "2026-04",
+   "urls": [
+    "https://quickbooks.intuit.com/learn-support/en-uk/help-article/track-mileage/automatically-track-mileage-quickbooks-online/L2qPCRGgI_GB_en_GB?uid=lb42y21x",
+    "https://www.driversnote.co.uk/pricing",
+    "https://www.gov.uk/guidance/use-making-tax-digital-for-income-tax/send-quarterly-updates"
+   ]
+  },
+  {
+   "id": "L074",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "The cited need is not fully checked against a named bookkeeping product, and available evidence does not establish a kill-rule failure for a focused foreign-currency CSV normaliser.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "Xero and FreeAgent support statement imports; FreeAgent documents support for multi-currency accounts, but neither source establishes that the specific normalisation need is fully covered: https://central.xero.com/0/article/Import-a-CSV-bank-statement ; https://www.freeagent.com/en/features/banking/",
+   "incumbents": "Xero (subscription price unverified); FreeAgent (subscription price unverified); CSV-to-Xero useme4 tool (price unverified); Paxton Advanced £75/month + VAT (charity product, adjacent)",
+   "claim_event_date": "2025-09",
+   "urls": [
+    "https://central.xero.com/0/article/Import-a-CSV-bank-statement",
+    "https://www.freeagent.com/en/features/banking/",
+    "https://www.gov.uk/guidance/choose-the-right-software-for-making-tax-digital-for-income-tax"
+   ]
+  },
+  {
+   "id": "L075",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "Paxton itself provides transaction-import documentation and a CSV-import workflow, addressing the proposed spreadsheet import and paste helper; the separate invoice-edit complaint is not established as solved by this feature.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "Paxton documents importing transactions and has a CSV import guide: https://paxtonsoftware.co.uk/support/documentation ; https://paxtonsoftware.co.uk/support/support-blog",
+   "incumbents": "Paxton Standard £50/month + VAT; ExpensePlus (price unverified); Liberty Accounts (price unverified); Xero (price unverified); QuickBooks Online (price unverified); Sage charity products (price unverified)",
+   "claim_event_date": "2025-11",
+   "urls": [
+    "https://paxtonsoftware.co.uk/support/documentation",
+    "https://paxtonsoftware.co.uk/support/support-blog",
+    "https://uk.trustpilot.com/review/paxtoncharities.co.uk"
+   ]
+  },
+  {
+   "id": "L076",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "Paxton’s recent support material confirms keyboard navigation concerns, but the search found no official partner or product that clearly supplies the proposed accessibility layer, so no kill rule is evidenced.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "none found",
+   "incumbents": "Paxton Standard £50/month + VAT; ExpensePlus (price unverified); Liberty Accounts (price unverified); Xero (price unverified); QuickBooks Online (price unverified); Sage charity products (price unverified)",
+   "claim_event_date": "2025-10",
+   "urls": [
+    "https://uk.trustpilot.com/review/paxtoncharities.co.uk",
+    "https://paxtonsoftware.co.uk/pricing/",
+    "https://paxtonsoftware.co.uk/support/support-blog"
+   ]
+  },
+  {
+   "id": "L077",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "Companies House already provides free official verification guidance, multiple verification routes, and customer support for the same director identity verification need.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "Companies House: free GOV.UK One Login verification service, official guidance, Post Office route, and customer support.",
+   "incumbents": "DirectorKYC £19.99; Companies MadeSimple £19.99 + VAT; CorpAssist £35.99; TaxStats ID from £39; PersonalCode.co.uk £60.",
+   "claim_event_date": "2025-10",
+   "urls": [
+    "https://www.gov.uk/guidance/verifying-your-identity-for-companies-house?lang=en",
+    "https://uk.trustpilot.com/review/www.companieshouse.gov.uk?page=2",
+    "https://directorkyc.com/pricing",
+    "https://www.companiesmadesimple.com/services/identity-verification-service-director-psc",
+    "https://corpassist.co.uk/guides/acsp-verification-cost"
+   ]
+  }
+ ],
+ "xhigh": [
+  {
+   "id": "L001",
+   "verdict": "kill",
+   "kill_rule": "K4",
+   "reason": "The HMRC finder already covers this UK tax need with 29 tools, including free and £72/year options, and the lead states no distinct feature wedge.",
+   "launches_last_6m": "None verified; MTD 4 Income Tax appeared in the finder by 17 Oct 2026, but its product launch date is unverified.",
+   "platform_or_partner": "None found; HMRC says it has no own MTD software.",
+   "incumbents": "Zoho Books (£0), My Tax Digital (£0), Pandle (£0), Clear Books (£72/year), MTDsorted (£72/year), plus established paid options; the finder covered 29 tools as of Aug 2026.",
+   "claim_event_date": "2027-04",
+   "urls": [
+    "https://www.whichmtdsoftware.co.uk/data",
+    "https://www.techradar.com/pro/software-services/free-making-tax-digital-mtd-software",
+    "https://www.gov.uk/guidance/choose-the-right-software-for-making-tax-digital-for-income-tax",
+    "https://makingtaxdigital.campaign.gov.uk/making-tax-digital-software/"
+   ]
+  },
+  {
+   "id": "L002",
+   "verdict": "kill",
+   "kill_rule": "K4",
+   "reason": "The HMRC finder already covers this UK tax need with 29 tools, including free and £72/year options, and the lead states no distinct feature wedge.",
+   "launches_last_6m": "None verified; MTD 4 Income Tax appeared in the finder by 17 Oct 2026, but its product launch date is unverified.",
+   "platform_or_partner": "None found; HMRC says it has no own MTD software.",
+   "incumbents": "Zoho Books (£0), My Tax Digital (£0), Pandle (£0), Clear Books (£72/year), MTDsorted (£72/year), plus established paid options; the finder covered 29 tools as of Aug 2026.",
+   "claim_event_date": "2028-04",
+   "urls": [
+    "https://www.whichmtdsoftware.co.uk/data",
+    "https://www.techradar.com/pro/software-services/free-making-tax-digital-mtd-software",
+    "https://www.gov.uk/guidance/choose-the-right-software-for-making-tax-digital-for-income-tax",
+    "https://makingtaxdigital.campaign.gov.uk/making-tax-digital-software/"
+   ]
+  },
+  {
+   "id": "L003",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "The April 2028 commercial-software filing requirement remains in official guidance, but no kill rule is evidenced for this multi-client accountant niche at a plausible price floor.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "None found; Companies House says its web and paper accounts filing services close on 1 Apr 2028.",
+   "incumbents": "TaxCalc Accounts Production (£164/year for 12 clients), Andica Cloud Accounts Production (£100/year), Capium (from £140/month for up to 100 clients), Forbes Accounts (£335/year), IRIS Elements Accounts Production (from £125.18/user/year, 10-client minimum).",
+   "claim_event_date": "2028-04",
+   "urls": [
+    "https://www.gov.uk/guidance/using-software-to-file-your-companys-information",
+    "https://accountin.co.uk/compare/",
+    "https://www.taxcalc.com/pricing"
+   ]
+  },
+  {
+   "id": "L004",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "Defra’s own service accepts the required reports by spreadsheet upload under the same £26/year organisation account, so sites can meet the reporting need without buying an API connector.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "Defra’s Report Receipt of Waste service provides spreadsheet upload; API-connected software is optional, and the service costs £26/year per organisation.",
+   "incumbents": "Defra spreadsheet upload is the direct official alternative (£26/year service charge); commercial provider prices unverified.",
+   "claim_event_date": "2027-01",
+   "urls": [
+    "https://www.gov.uk/guidance/report-receipt-of-waste",
+    "https://www.gov.uk/government/publications/report-receipt-of-waste-choose-a-software-provider/report-receipt-of-waste-choose-a-software-provider"
+   ]
+  },
+  {
+   "id": "L005",
+   "verdict": "kill",
+   "kill_rule": "K2",
+   "reason": "Two competing waste-tracking products launched within the window: AnyWaste in May 2026 and First Mile’s Miley on 9 September 2026.",
+   "launches_last_6m": "AnyWaste (May 2026); First Mile Miley (9 September 2026)",
+   "platform_or_partner": "DEFRA’s Phase 2 Digital Waste Tracking service/API is planned for carriers, brokers and dealers; no live official carrier operations product verified.",
+   "incumbents": "AnyWaste (free Core); WasteBolt (£29.99/month); other incumbent prices unverified.",
+   "claim_event_date": "2027-10",
+   "urls": [
+    "https://anywaste.com/waste-brokers/",
+    "https://www.thefirstmile.co.uk/the-big-picture/miley-the-waste-tracking-software",
+    "https://www.gov.uk/government/publications/developing-the-digital-waste-tracking-service/digital-waste-tracking-service",
+    "https://wastebolt.co.uk/"
+   ]
+  },
+  {
+   "id": "L006",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "DEFRA’s Report Receipt of Waste service already offers spreadsheet submission for receivers as a temporary way to submit the same data, expected to remain until at least October 2027.",
+   "launches_last_6m": "none found for a dedicated spreadsheet-to-service bridge",
+   "platform_or_partner": "DEFRA’s Report Receipt of Waste service provides the spreadsheet submission route.",
+   "incumbents": "AnyWaste (free Core); WasteBolt (£29.99/month); other incumbent prices unverified.",
+   "claim_event_date": "2027-10",
+   "urls": [
+    "https://www.gov.uk/government/publications/developing-the-digital-waste-tracking-service/digital-waste-tracking-service",
+    "https://www.gov.uk/guidance/digital-waste-tracking-check-if-you-need-to-report-the-waste-you-receive",
+    "https://anywaste.com/",
+    "https://wastebolt.co.uk/"
+   ]
+  },
+  {
+   "id": "L007",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "HMRC’s appointed supplier system already includes a Digital Activation System module and an EPCIS API for stamp scanning and traceability events.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "HMRC’s appointed supplier, Cartor, provides the stamp system with a Digital Activation System module and API; software pricing is unverified.",
+   "incumbents": "No priced third-party incumbents found.",
+   "claim_event_date": "2027-01",
+   "urls": [
+    "https://www.gov.uk/guidance/how-vaping-duty-stamps-work"
+   ]
+  },
+  {
+   "id": "L008",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "No kill is evidenced as of 23 October 2026: the official service that will provide registration and compliance evidence is scheduled to launch on 15 December 2026, and no recent competing tracker was found.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "MHCLG’s GOV.UK Register your rental property service is announced for 15 December 2026; it is not live yet.",
+   "incumbents": "none found",
+   "claim_event_date": "2026-12",
+   "urls": [
+    "https://www.gov.uk/government/news/stronger-protections-and-greater-confidence-for-renters",
+    "https://housinghub.campaign.gov.uk/renting-is-changing/get-ready-to-register/"
+   ]
+  },
+  {
+   "id": "L009",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "HMLR's official submission service is described as under development for 6 April 2027, with no evidence that it already prepares data from documents or that another kill threshold is met.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "HM Land Registry digital submission service planned for 6 April 2027; document extraction/preparation feature unverified",
+   "incumbents": "Forthcoming HM Land Registry submission service; price and feature scope unverified; no document-to-data incumbent found",
+   "claim_event_date": "2027-04",
+   "urls": [
+    "https://www.gov.uk/government/news/contractual-control-agreements",
+    "https://www.gov.uk/government/publications/contractual-control-agreements/contractual-control-agreements"
+   ]
+  },
+  {
+   "id": "L010",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "SumUp already offers its own SumUp-to-Xero sync with POS Plus or Payment Plus, so an official owner-provided connector serves the core need despite the reported quality complaints.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "SumUp provides the Xero integration with POS Plus or Payment Plus",
+   "incumbents": "SumUp: Payments and POS (free trial; paid price unverified; 2.0/5 from 5 reviews)",
+   "claim_event_date": "2026-09",
+   "urls": [
+    "https://help.sumup.com/en-GB/articles/40kv0a4cBysasUUXN3zkpc-link-your-xero-and-sage-accounts-to-your-sumup-profile",
+    "https://apps.xero.com/uk/app/sumup-payments-and-pos"
+   ]
+  },
+  {
+   "id": "L011",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "Paystack itself maintains a live Xero integration for invoice payments that records transactions, fees, and tax in Xero, so the official provider already serves the core need.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "Paystack's official Xero integration",
+   "incumbents": "Paystack Xero app (price unverified; 2.2/5 from 6 reviews)",
+   "claim_event_date": "2025-10",
+   "urls": [
+    "https://support.paystack.com/en/articles/2127426",
+    "https://apps.xero.com/za/app/paystack"
+   ]
+  },
+  {
+   "id": "L012",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "Maropost's built-in Neto-to-Xero integration syncs payments and tax rates, and Crossbeam documents GST and GST-free payout syncing for $49 AUD/month, so the platform owner and its partner already serve this need.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "Maropost's built-in Neto–Xero integration; Crossbeam identifies itself as an authorized Maropost partner",
+   "incumbents": "Neto direct Xero integration (price unverified); Crossbeam ($49/month AUD excluding GST)",
+   "claim_event_date": "2025-07",
+   "urls": [
+    "https://galaxy.maropost.com/kb/articles/1388-set-up-the-direct-xero-accounting-integration",
+    "https://crossbeam.app/",
+    "https://crossbeam.app/pricing"
+   ]
+  },
+  {
+   "id": "L013",
+   "verdict": "kill",
+   "kill_rule": "K4",
+   "reason": "Six current, highly rated preorder and back-in-stock incumbents offer free or roughly $5–$10 entry plans, below the cited $24.95 Amai plan, and the lead shows no distinct UK or niche wedge.",
+   "launches_last_6m": "Super Simple Preorder — 2026-05-01; no second competing launch found",
+   "platform_or_partner": "Shopify provides preorder purchase-option infrastructure but says merchants need a preorder app for setup and display.",
+   "incumbents": "STOQ — free/$10; Notify! — free/$9.90; Timesact — free/from $5; Globo — free/$9.90; Essent — free/$4.95; REZ — free/$4.99; all have current high review counts and ratings.",
+   "claim_event_date": "2026-04",
+   "urls": [
+    "https://apps.shopify.com/pre-order/reviews?page=1&sort_by=newest",
+    "https://apps.shopify.com/back-in-stock-restock-alerts",
+    "https://apps.shopify.com/preorder-back-in-stock",
+    "https://apps.shopify.com/timesact-discount-pre-order",
+    "https://apps.shopify.com/pre-order-pro",
+    "https://apps.shopify.com/essential-pre-order",
+    "https://apps.shopify.com/rez-back-in-stock-notify-me",
+    "https://help.shopify.com/en/manual/products/purchase-options/pre-orders/setup"
+   ]
+  },
+  {
+   "id": "L014",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "No kill rule is evidenced: the supplied trigger reports the June 2025 complaint was later marked fixed, only one adjacent post-cutoff banner launch surfaced, and demand for the proposed monitoring and repair remains unverified.",
+   "launches_last_6m": "STAR Product Labels — 2026-07-20 launch announcement; App Store launch date unverified",
+   "platform_or_partner": "Shopify theme editor supports basic page content; an equivalent monitoring and compatibility-repair tool is unverified.",
+   "incumbents": "Product Page Banners & Text — from $4.95/month, 3.5/26 reviews; Hey! Product Page Banner & Text — free/$4.99, 3.6/33; B: Banner Slider — price unverified, 5.0/511. Five well-reviewed health-monitoring incumbents not found.",
+   "claim_event_date": "2025-06",
+   "urls": [
+    "https://apps.shopify.com/product-page-descriptions-hey",
+    "https://apps.shopify.com/product-page-badges",
+    "https://glood.ai/shopify-apps/b-banner-slider-sales-pop-up",
+    "https://www.reddit.com/r/ShopifyApps/comments/1v1knji/star_product_labels_grow_sales_with_product/"
+   ]
+  },
+  {
+   "id": "L015",
+   "verdict": "kill",
+   "kill_rule": "K2",
+   "reason": "Two competing Shopify product-options apps launched within the six-month window: WowOptions on 2026-04-29 and Infinite Product Options — OCS on 2026-07-09.",
+   "launches_last_6m": "WowOptions — 2026-04-29; Infinite Product Options — OCS — 2026-07-09",
+   "platform_or_partner": "Shopify provides standard product variants; a native equivalent for configurable custom option sets was not found.",
+   "incumbents": "APO — from $14.99/month, 4.7/501; Globo — free/$9.90, 4.9/5,075; Easify — free/$9.99, 4.9/3,003; Infinite Product Options — $12.99, 4.7/2,620; DPO — from $9.99, 5.0/293.",
+   "claim_event_date": "2025-11",
+   "urls": [
+    "https://www.reddit.com/r/ShopifyAppDev/comments/1syw4ji/launched_a_shopify_app_to_add_unlimited_product/",
+    "https://apps.shopify.com/infinite-product-options-ocs",
+    "https://apps.shopify.com/advanced-product-options",
+    "https://apps.shopify.com/product-options-pro",
+    "https://apps.shopify.com/easify-product-options",
+    "https://apps.shopify.com/custom-options",
+    "https://apps.shopify.com/dynamic-product-options"
+   ]
+  },
+  {
+   "id": "L016",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "Shopify’s official Marketplace Connect already syncs Shopify products, inventory, listings, and orders with eBay, with up to 50 marketplace orders per month free.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "Shopify Marketplace Connect, the platform owner’s official app, supports eBay inventory and listing sync.",
+   "incumbents": "Marketplace Connect — free up to 50 orders/month, then 1% per order capped at $99; CedCommerce — free to $89/month; DPL — $19.99–$199.99/month; inkFrog — $11–$29/month; LitCommerce — from $29/month; QuickSync — from $19/month.",
+   "claim_event_date": "2025-09",
+   "urls": [
+    "https://help.shopify.com/en/manual/online-sales-channels/marketplaces/marketplace-connect",
+    "https://help.shopify.com/en/manual/online-sales-channels/marketplaces/marketplace-connect/products/manage/ebay",
+    "https://www.shopify.com/blog/shopify-ebay-integration",
+    "https://quicksync.pro/blog/best-shopify-ebay-integration-apps/"
+   ]
+  },
+  {
+   "id": "L017",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "Cloudify, listed in Xero’s app marketplace, syncs CRM deals, quotes, customer data, and revenue insights with Xero, covering the proposed CRM need.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "Cloudify via the official Xero App Store; Capsule CRM is also listed there.",
+   "incumbents": "Prospect CRM (price unverified; 21 Xero reviews); Capsule CRM (price unverified; 64 Xero reviews); Cloudify (subscription amount unverified).",
+   "claim_event_date": "2025-06",
+   "urls": [
+    "https://apps.xero.com/us/collection/new-and-noteworthy/app/cloudify",
+    "https://apps.xero.com/us/function/crm",
+    "https://apps.xero.com/sg/app/prospect-crm"
+   ]
+  },
+  {
+   "id": "L018",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "WorkflowMax’s official 2026 release notes show built-in standard and custom reporting plus a Harvest migration tool, covering the proposed reporting replacement and at least one migration use case.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "WorkflowMax by BlueRock, the platform itself, provides reporting and a Harvest migration tool.",
+   "incumbents": "WorkflowMax by BlueRock (A$36/month per Capterra; current price unverified on its Xero listing); other alternatives’ prices unverified.",
+   "claim_event_date": "2025-03",
+   "urls": [
+    "https://support.workflowmax.com/hc/en-us/articles/25686306678553-Release-notes",
+    "https://www.capterra.com/p/226306/WorkflowMax/alternatives/",
+    "https://apps.xero.com/us/app/workflowmax-by-bluerock"
+   ]
+  },
+  {
+   "id": "L019",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "The thread reports user adoption and subscription monetization, but I found only one verified competing launch in the last six months, so the two-launch copy-speed threshold is not evidenced.",
+   "launches_last_6m": "Awesome SAML Tracer — created 2026-05-19; SAMLScope — June 2026 review claims availability, launch unverified.",
+   "platform_or_partner": "none found",
+   "incumbents": "SAML-tracer (free; 4.2/53 Firefox reviews; updated 2026-07); Awesome SAML Tracer (free; about 3,000 users); SAML Chrome Panel (price and maintenance status unverified).",
+   "claim_event_date": "2026-05",
+   "urls": [
+    "https://groups.google.com/a/chromium.org/g/chromium-extensions/c/m9V8BJOgTEg",
+    "https://addons.mozilla.org/en-US/firefox/addon/saml-tracer/",
+    "https://chrome-stats.com/d/pilkjgooejhajccieiebbihilnclbpej",
+    "https://toolsforchrome.com/samlscope-saml-tracer-chrome-extension-review"
+   ]
+  },
+  {
+   "id": "L020",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "Google’s bundled Chrome DevTools console evaluates XPath with $x() and returns matching page elements, serving the lead’s core XPath testing and inspection need.",
+   "launches_last_6m": "XPath Tester (developerext7) — listing published about June 2026, updated 2026-06-17; xtest — updated 2026-05-24, first launch unverified; other recent XPath Tester listings’ launch dates unverified.",
+   "platform_or_partner": "Google Chrome DevTools includes XPath evaluation through $x().",
+   "incumbents": "Chrome DevTools ($x(), bundled); SelectorsHub (price unverified; about 400,000 users, 4.4/1,523); XPath Helper 2.0 (price unverified; 10,000 users, 4.4/11).",
+   "claim_event_date": "2026-05",
+   "urls": [
+    "https://developer.chrome.com/docs/devtools/console/utilities",
+    "https://chromewebstore.google.com/detail/xpath-tester/lleffifhlcaijinkocppghpgbnioechc",
+    "https://chromewebstore.google.com/detail/xtest-effortless-xpath/gjgbboheobjonggdcgbpbkgbnaaidfcj",
+    "https://extwise.com/extension/selectorshub/",
+    "https://chromewebstore.google.com/detail/xpath-helper-20/nlfdopnkeodpiondihlgnhgpjieoopbj"
+   ]
+  },
+  {
+   "id": "L021",
+   "verdict": "kill",
+   "kill_rule": "K2",
+   "reason": "Kill under K2: SnapIndex launched 25 May 2026 and Pictotext’s Chrome Web Store listing says it was published about three months ago; both compete in image OCR.",
+   "launches_last_6m": "SnapIndex — 25 May 2026; Pictotext — published about Jul 2026 (exact day unverified)",
+   "platform_or_partner": "Google Lens in Chrome supports copying text from images.",
+   "incumbents": "Copy Text from Picture (free; 90,000 users); OCR - Image Reader (price unverified; 200,000 users); Pictotext (price unverified).",
+   "claim_event_date": "2026-05",
+   "urls": [
+    "https://groups.google.com/a/chromium.org/g/chromium-extensions/c/m9V8BJOgTEg",
+    "https://smollaunch.com/products/snapindex",
+    "https://chromewebstore.google.com/detail/pictotext-%E2%80%94-image-text-ex/gkbncjmaafojjjoihhmbicneeangnpni",
+    "https://blog.google/products-and-platforms/products/search/google-lens-tips-2025/"
+   ]
+  },
+  {
+   "id": "L022",
+   "verdict": "kill",
+   "kill_rule": "K2",
+   "reason": "Kill under K2: GeoShift and SERP Location Changer were both created last month and offer browser geolocation spoofing or changing.",
+   "launches_last_6m": "GeoShift — created Sep 2026 (exact day unverified); SERP Location Changer — created Sep 2026 (exact day unverified)",
+   "platform_or_partner": "Chrome provides site-level location permissions; official spoofing support not found.",
+   "incumbents": "Cloaq (free); GeoSpoof (price unverified); Location Guard Next (price unverified); Change Geolocation (price unverified).",
+   "claim_event_date": "2026-05",
+   "urls": [
+    "https://groups.google.com/a/chromium.org/g/chromium-extensions/c/m9V8BJOgTEg",
+    "https://socket.dev/chrome/package/jdogceilpjmocbcceejfpgobbieghelo",
+    "https://socket.dev/chrome/package/ahmibhecbidndmajicdmljppihlbkppk",
+    "https://support.google.com/chrome/answer/142065?hl=en"
+   ]
+  },
+  {
+   "id": "L023",
+   "verdict": "kill",
+   "kill_rule": "K2",
+   "reason": "Kill under K2: Chat to PDF was created on 22 Oct 2026 and AI Toolbox 3.0 launched in Sep 2026; both compete in AI conversation export, including PDF export.",
+   "launches_last_6m": "Chat to PDF — created 22 Oct 2026; AI Toolbox 3.0 — launched 6 Sep 2026",
+   "platform_or_partner": "OpenAI offers an account data export ZIP containing chat history; selective PDF export is not described.",
+   "incumbents": "ChatGPT Exporter (free plan with monthly export allowance; paid option details unverified); ChatGPT to PDF (price unverified); AI Toolbox (price unverified).",
+   "claim_event_date": "2026-05",
+   "urls": [
+    "https://groups.google.com/a/chromium.org/g/chromium-extensions/c/m9V8BJOgTEg",
+    "https://socket.dev/chrome/package/manbcndgbbilpledkamlgbjhfkejefbk",
+    "https://www.producthunt.com/products/chatgpt-toolbox",
+    "https://help.openai.com/en/articles/7260999-exporting-your-chatgpt-history-and-data"
+   ]
+  },
+  {
+   "id": "L024",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "Chrome already lets users delete cookies, cached files, and other browsing data over a chosen time range, so the platform owner serves the core cleanup need.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "Google Chrome provides built-in deletion of cookies, cached files, and browsing data.",
+   "incumbents": "Chrome built-in deletion (free/bundled); Clear Cache (free, with optional Plus subscription).",
+   "claim_event_date": "2026-05",
+   "urls": [
+    "https://groups.google.com/a/chromium.org/g/chromium-extensions/c/m9V8BJOgTEg",
+    "https://support.google.com/chrome/answer/2392709?gad=1&hl=en",
+    "https://chromewebstore.google.com/detail/clear-cache/cppjkneekbjaeellbfkmgnhonkkjfpdn?hl=en+"
+   ]
+  },
+  {
+   "id": "L025",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "TaskTab is one dated competing launch, but a second launch or another evidenced kill rule was not found; payment and subscriber counts remain unverified.",
+   "launches_last_6m": "TaskTab — 10 May 2026; no second dated competing launch found",
+   "platform_or_partner": "Google Tasks exists, but no Google-owned new-tab task surface was found; TaskTab is third-party.",
+   "incumbents": "Momentum (to-dos; US$3.33/month billed annually); Infinity New Tab (to-do and sync; price unverified); TaskTab (free, 43 users).",
+   "claim_event_date": "2026-05",
+   "urls": [
+    "https://groups.google.com/a/chromium.org/g/chromium-extensions/c/m9V8BJOgTEg",
+    "https://chromewebstore.google.com/detail/tasktab-new-tab-for-googl/koncbgionnhbemmefolgmcdaeneagmki",
+    "https://www.dashyapp.com/blog/best-new-tab-extensions-2026"
+   ]
+  },
+  {
+   "id": "L026",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "Figma’s agent already turns CSV data into editable charts on the canvas and is included with paid Figma plans, covering this plugin need.",
+   "launches_last_6m": "Chart Studio — 11 Oct 2026; no second dated competing launch found",
+   "platform_or_partner": "Figma Design agent, included on paid Figma plans.",
+   "incumbents": "Figma Design agent (included on paid plans); PlotSet Charts (free); Charts by Szum (free tier); Chart Studio (12 free chart types, Pro price unverified); Unify Viz (US$150 Figma package).",
+   "claim_event_date": "2026-09",
+   "urls": [
+    "https://www.figma.com/solutions/csv-to-chart-generator/",
+    "https://forum.figma.com/showcase-your-work-14/chart-studio-from-csv-to-editable-charts-for-figma-dashboards-and-presentations-58848",
+    "https://plotset.com/integrations/figma",
+    "https://szum.io/figma-plugin",
+    "https://unifyviz.com/"
+   ]
+  },
+  {
+   "id": "L027",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "One competing Figma plugin launch was dated within six months, while five incumbents meeting the required maintenance and review criteria were not verified, so K2 and K4 are not evidenced.",
+   "launches_last_6m": "Illustro AI on Figma Marketplace — 1 Oct 2026; no second dated competing launch found",
+   "platform_or_partner": "none found",
+   "incumbents": "Icons8 Graphics (free tier and paid plans; price unverified); Storyset (free); Humaaans (free; maintenance unverified); GetIllustrations (free icons; all access US$195/year); Streamline All Illustrations (US$39/month or US$228/year).",
+   "claim_event_date": "2026-09",
+   "urls": [
+    "https://devresourc.es/blog/best-figma-plugins",
+    "https://illustro.app/blog/illustro-on-figma-marketplace",
+    "https://figma.uwarp.design/plugins/illustrations",
+    "https://getillustrations.com/plugins/figma",
+    "https://www.streamlinehq.com/checkout/illustrations",
+    "https://intercom.help/icons8-7fb7577e8170/en/articles/16580553-what-plugins-and-integrations-does-icons8-offer"
+   ]
+  },
+  {
+   "id": "L028",
+   "verdict": "kill",
+   "kill_rule": "K4",
+   "reason": "The generic icon-search need already has at least five popular free or freemium maintained options—Iconify, Material Symbols, Phosphor, Font Awesome and Streamline—and no distinct UK or niche wedge is stated.",
+   "launches_last_6m": "Myicons Pro — 24 Jun 2026; no second dated competing launch found",
+   "platform_or_partner": "Figma Community lists third-party icon plugins; no Figma-owned icon library was found.",
+   "incumbents": "Iconify (free); Material Symbols (free); Phosphor (free); Font Awesome (free icons, paid Pro Kits); Streamline (free tier, subscriptions from US$19/month); Icons8 (free tier and paid plans, price unverified).",
+   "claim_event_date": "2026-09",
+   "urls": [
+    "https://figma.uwarp.design/plugins/icons",
+    "https://iconify.design/docs/design/figma/",
+    "https://docs.fontawesome.com/desktop/add-icons/figma-plugin/",
+    "https://help.streamlinehq.com/en/articles/16067926-subscription-plans-vs-buy-once-lifetime-license",
+    "https://intercom.help/icons8-7fb7577e8170/en/articles/16580553-what-plugins-and-integrations-does-icons8-offer",
+    "https://myicons.co/pro/changelog"
+   ]
+  },
+  {
+   "id": "L029",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "The subscription regime remains live, but GOV.UK now anticipates commencement in spring 2027 rather than 1 January; no kill threshold was evidenced.",
+   "launches_last_6m": "none verified; DueNotice and Subnotice have no verifiable launch dates",
+   "platform_or_partner": "None found serving as a checkout-flow change monitor; GOV.UK says it will publish implementation guidance.",
+   "incumbents": "DueNotice (£49/month, waitlist) and Subnotice (free or £15/month); launch dates and independent review status unverified.",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://www.gov.uk/government/consultations/consultation-on-the-implementation-of-the-new-subscription-contracts-regime/outcome/government-response-to-consultation-on-the-implementation-of-the-new-subscription-contracts-regime-web-accessible-version",
+    "https://duenotice.app/",
+    "https://app.dmccaguard.co.uk/"
+   ]
+  },
+  {
+   "id": "L030",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "GOV.UK already provides free registration-readiness guidance and the official landlord registration service, including the required registration information and safety details, covering the core proposed need.",
+   "launches_last_6m": "none found; Lettable has a live PRS-readiness page, but no launch date was found",
+   "platform_or_partner": "GOV.UK’s Get ready to register guidance and Register your rental property service; registration is £65 per property annually.",
+   "incumbents": "Landlord Studio (free plan; Pro £12/month plus VAT), August (free plan; paid plans from £8.99/month), and ZenRent (free plan; Standard £19.99/month).",
+   "claim_event_date": "2026-12",
+   "urls": [
+    "https://housinghub.campaign.gov.uk/renting-is-changing/get-ready-to-register/",
+    "https://www.gov.uk/government/publications/guide-to-the-renters-rights-act/guide-to-the-renters-rights-act",
+    "https://www.landlordstudio.com/uk/pricing",
+    "https://www.augustapp.com/features/compliance",
+    "https://www.zenrent.co.uk/solutions/landlord-compliance-software"
+   ]
+  },
+  {
+   "id": "L031",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "The official roadmap expects mandatory PRS ombudsman membership in 2028 and plans complaint-handling tools, but no already-live PRS landlord intake and evidence workflow was verified, and the need has not been delayed beyond 2028.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "A PRS Landlord Ombudsman is planned to offer landlords complaint-handling tools and guidance; no launched service was found.",
+   "incumbents": "No PRS-specific incumbent workflow verified; the free Housing Ombudsman landlord portal supports case records and evidence tasks for its users, but PRS coverage is unverified.",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://www.gov.uk/government/publications/renters-rights-act-2025-implementation-roadmap/implementing-renters-rights-act-2025-our-roadmap-for-reforming-the-private-rented-sector",
+    "https://www.housing-ombudsman.org.uk/landlords-info/interactive-portal-for-landlords/portal-user-guide/"
+   ]
+  },
+  {
+   "id": "L032",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "The October 2026 consultation confirms an extension to private rentals is under consideration, with 2027 the earliest feasible implementation, so the need has not been withdrawn or delayed beyond 2028.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "None found serving private landlords with this deadline workflow; the current Awaab’s Law repair guidance is for social landlords.",
+   "incumbents": "Landlord Studio (free plan; Pro £12/month plus VAT) and LandlordGuard (£3.99/month for one property) offer compliance tracking and reminders; a private-rental Awaab’s Law deadline tracker was unverified.",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://www.gov.uk/government/consultations/extending-awaabs-law-to-private-rented-tenancies-and-to-licences/extending-awaabs-law-to-private-rented-tenancies-and-to-licences",
+    "https://www.gov.uk/government/publications/awaabs-law-guidance-for-social-landlords/awaabs-law-guidance-for-social-landlords-timeframes-for-repairs-in-the-social-rented-sector",
+    "https://www.landlordstudio.com/uk/pricing",
+    "https://www.landlordguard.co.uk/"
+   ]
+  },
+  {
+   "id": "L033",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "The 2030 MEES requirement is confirmed, and I found only one adjacent post-April landlord/EPC product launch, with no evidence of a free planner or five qualifying incumbents.",
+   "launches_last_6m": "Stead — closed beta from May 2026 (adjacent landlord/EPC tracking); no second qualifying launch found",
+   "platform_or_partner": "No free portfolio MEES upgrade planner found; GOV.UK guidance describes the requirement",
+   "incumbents": "Lettable Pro — £49/month; Fineproof — £39/month; Duewise — £9.99/month",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://www.gov.uk/government/consultations/improving-the-energy-performance-of-privately-rented-homes-2025-update/outcome/improving-the-energy-performance-of-privately-rented-homes-government-response-html",
+    "https://stead.space/press",
+    "https://www.lettable.co/",
+    "https://fineproof.co.uk/",
+    "https://duewise.co.uk/"
+   ]
+  },
+  {
+   "id": "L034",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "HMRC confirms mandatory VAT e-invoicing from April 2029 with standards and technical specifications planned by 2027–28, and no evidenced rule kills the sandbox before then.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "HMRC/DBT are developing the roadmap and specifications; no official free sandbox found",
+   "incumbents": "none found with verified UK-specification sandbox pricing",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://www.gov.uk/government/publications/hmrc-transformation-roadmap-progress-update-2026/annex-summary-of-hmrcs-planned-activities-listed-in-this-transformation-roadmap-progress-update",
+    "https://www.gov.uk/government/consultations/promoting-electronic-invoicing-across-uk-businesses-and-the-public-sector"
+   ]
+  },
+  {
+   "id": "L035",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "DEFRA's free packaging file generator has built-in validation, can check files producers created themselves, and produces pre-validated CSVs, directly covering the proposed validator.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "DEFRA/PackUK's free 2026 packaging data file generator with built-in validation",
+   "incumbents": "pEPR Packaging Reporter — £25/month",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://www.gov.uk/guidance/report-packaging-data-create-your-reporting-file",
+    "https://peprcompliance.co.uk/pricing.php"
+   ]
+  },
+  {
+   "id": "L036",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "Closed-loop reporting requires evidence from an accredited reprocessor or exporter, but I found no evidence that the free reporting service provides a ledger linking that evidence to producer data.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "PackUK's Report Packaging Data service handles filing and file validation; evidence-ledger functionality is unverified",
+   "incumbents": "pEPR Packaging Reporter — £25/month; closed-loop evidence features and other prices unverified",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://www.gov.uk/guidance/extended-producer-responsibility-for-packaging-closed-loop-recycling",
+    "https://www.gov.uk/guidance/report-packaging-data-create-your-reporting-file",
+    "https://peprcompliance.co.uk/pricing.php"
+   ]
+  },
+  {
+   "id": "L037",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "The January 2027 trigger is supported, but I found no evidenced hard-rule failure, two recent direct product launches, official workflow platform, or five direct incumbents.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "No workflow platform found; GOV.UK and Acas provide free guidance.",
+   "incumbents": "none found",
+   "claim_event_date": "2027-01",
+   "urls": [
+    "https://assets.publishing.service.gov.uk/media/69a6c0223b5b78231d1a9ae5/factsheet-fire-and-rehire-february-2026.pdf",
+    "https://www.gov.uk/government/publications/dismissal-and-re-engagement-code-of-practice"
+   ]
+  },
+  {
+   "id": "L038",
+   "verdict": "kill",
+   "kill_rule": "K2",
+   "reason": "Two Martyn’s Law readiness competitors launched within the six-month window: Carlisle’s Scorecard on 23 July 2026 and Accredit Induct on 16 September 2026, covering readiness assessment and workforce preparedness records.",
+   "launches_last_6m": "Carlisle Martyn’s Law Scorecard — 23 Jul 2026; Accredit Induct — 16 Sep 2026.",
+   "platform_or_partner": "SIA notification portal; ProtectUK provides free guidance and says templates will be shared.",
+   "incumbents": "Doorward — £99 per premises/year; GroundWork — £49 per readiness document; Martyn’s Law Compliance platform — price unverified.",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://www.fmj.co.uk/carlisle-support-services-launches-free-martyns-law-self-assessment-tool/",
+    "https://www.prnewswire.co.uk/news-releases/accredit-solutions-launches-accredit-induct-ahead-of-martyns-law-counter-terrorism-requirements-302880534.html",
+    "https://www.doorward.co.uk/",
+    "https://groundwork.host/",
+    "https://www.gov.uk/guidance/understanding-martyns-law-and-the-sias-role-as-regulator"
+   ]
+  },
+  {
+   "id": "L039",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "The 24 September 2027 HRB transition is supported, and I found no evidence of two recent direct checker launches, an official transition-checking platform, or five direct incumbents.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "GOV.UK publishes the regulations and guidance; the BSR provides the Gateway 2 application process, but I found no official transition checker.",
+   "incumbents": "No direct maintained transition-checker products or prices found.",
+   "claim_event_date": "2027-09",
+   "urls": [
+    "https://www.legislation.gov.uk/uksi/2026/335/enacted",
+    "https://www.gov.uk/government/publications/the-future-homes-and-buildings-standards-building-circular-012026/the-future-homes-and-buildings-standards-building-circular-012026-letter",
+    "https://builduk.org/Validation"
+   ]
+  },
+  {
+   "id": "L040",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "The service-charge reforms are planned from 2027, but I found only one evidenced competing launch within six months and no other evidenced kill rule.",
+   "launches_last_6m": "ServiceCharges.AI — launched about 2 months ago (exact date unverified); no second qualifying launch found.",
+   "platform_or_partner": "LEASE and GOV.UK provide free service-charge guidance; no official document parser found.",
+   "incumbents": "Leaseholders Explain my document — free; Leasely — free; ServiceCharges.AI — free audit, £199 Challenge Pack; ServiceCharge Check — £19.99 per check, in development.",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://www.gov.uk/government/news/stronger-leasehold-protections-in-crackdown-on-hidden-fees",
+    "https://www.linkedin.com/in/jonathanpchapman",
+    "https://leaseholders.co.uk/explain-my-document",
+    "https://www.leasely.co.uk/",
+    "https://servicecharges.ai/",
+    "https://servicechargecheck.keelworks.io/",
+    "https://www.lease-advice.org/costs-and-charges/service-charges/challenging-service-charges/"
+   ]
+  },
+  {
+   "id": "L041",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "The UK Government’s free implementation timeline already maps Employment Rights Act measures to commencement dates, including the January 2027 changes, so the platform owner serves the core need.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "GOV.UK / Department for Business and Trade: free Employment Rights Act implementation timeline",
+   "incumbents": "GOV.UK implementation timeline: free",
+   "claim_event_date": "2027-01",
+   "urls": [
+    "https://www.gov.uk/government/publications/implementing-the-plan-to-make-work-pay-and-employment-rights-act/plan-to-make-work-and-employment-rights-act-timeline-update",
+    "https://www.legislation.gov.uk/uksi/2026/559/made/data.xht?view=snippet&wrap=true"
+   ]
+  },
+  {
+   "id": "L042",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "Ofcom publishes its own free industry update bulletin and step-by-step Online Safety Act compliance tools, serving the core update and impact-checklist need.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "Ofcom: free Online Safety industry bulletins, digital safety toolkit and compliance checker",
+   "incumbents": "Ofcom industry bulletin: free; Ofcom digital safety toolkit and compliance checker: free",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://www.ofcom.org.uk/online-safety/protecting-children/online-safety-industry-bulletin-october-2026",
+    "https://www.ofcom.org.uk/online-safety/illegal-and-harmful-content/ofcom-launches-digital-safety-toolkit-for-online-services",
+    "https://www.ofcom.org.uk/Online-Safety/check-how-to-comply"
+   ]
+  },
+  {
+   "id": "L043",
+   "verdict": "kill",
+   "kill_rule": "K4",
+   "reason": "At least five maintained, well-reviewed WordPress alternatives already offer media-folder or taxonomy management on free tiers, meeting K4 at or below a plausible plugin price floor.",
+   "launches_last_6m": "Folderify — WordPress.org listing published about five months ago, but exact initial release date unverified; PlugNest Media Folders — WordPress.org initial commit 2026-10-09, though prior MediaNest launch date is unverified",
+   "platform_or_partner": "none found",
+   "incumbents": "FileBird (free; Pro from $39/year); Real Media Library (free; Pro €39 lifetime); Folders by Premio (free; Pro from $69); Media Library Organizer (free); Media Library Assistant (free); Wicked Folders (free)",
+   "claim_event_date": "2026-10",
+   "urls": [
+    "https://wpadminify.com/best-wordpress-media-folder-plugins",
+    "https://en-gb.wordpress.org/plugins/tags/media-library/",
+    "https://wordpress.org/plugins/plugnest-media-folders/",
+    "https://profiles.wordpress.org/plugnest/"
+   ]
+  },
+  {
+   "id": "L044",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "No kill is evidenced: the seller listing reports five paying customers, $600 last-month revenue and under five hours per month of current operations, while agent-runnable share and lawful acquisition remain unverified.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "AirOps is named as a direct competitor; no platform-owner bundle or official partner found",
+   "incumbents": "AirOps (free Solo; paid pricing unverified); Frase ($39/month billed yearly); Surfer ($79/month billed yearly); Jasper ($69/seat/month)",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://app.acquire.com/public/qu607egp2n-no-code-ai-content-workflow-builder-for-seo-teams-airops-alternative-working-product-6k-signups",
+    "https://www.airops.com/pricing",
+    "https://www.frase.io/pricing",
+    "https://surferseo.com/pricing/",
+    "https://www.jasper.ai/pricing"
+   ]
+  },
+  {
+   "id": "L045",
+   "verdict": "kill",
+   "kill_rule": "K4",
+   "reason": "This broad e-commerce research offer faces at least five positively reviewed incumbents around a plausible $50/month floor, with no UK or narrower niche wedge evident in the listing.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "none found",
+   "incumbents": "Minea ($49/mo); Sell The Trend ($29.97/mo); Ecomhunt ($23/mo promotional); BigSpy ($9/mo promotional); Dropship.io ($26/mo annual); PiPiADS ($49/mo promotional). A 2026 comparison recommends these tools for their respective research jobs; prices are its Aug 2026 snapshot.",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://pernav.com/compare/best-tiktok-shop-product-research-tools-2026/",
+    "https://dropship-spy.com/pricing",
+    "https://www.minea.com/pricing"
+   ]
+  },
+  {
+   "id": "L046",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "Figma’s Figma Make converts designs and attached images into editable functional code, with free Starter access, so the platform owner already serves the listing’s core design-to-code need.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "Figma Make (free Starter access; paid plans add features)",
+   "incumbents": "v0 ($20/mo); Bolt.new (about $20/mo); Lovable (from $25/mo); Anima (from $12/mo); Builder.io Visual Copilot (free plugin); prices from an April 2026 comparison, current prices unverified.",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://www.figma.com/solutions/design-to-code/",
+    "https://www.figma.com/pricing/",
+    "https://dupple.com/blog/screenshot-to-code"
+   ]
+  },
+  {
+   "id": "L047",
+   "verdict": "kill",
+   "kill_rule": "K2",
+   "reason": "Two competing X writing assistants launched within the six-month window: Synapsdex was created June 19, 2026, and X-Brain launched June 23, 2026.",
+   "launches_last_6m": "Synapsdex — created Jun 19, 2026; X-Brain — launched Jun 23, 2026",
+   "platform_or_partner": "Grok offers free writing and brainstorming; an exact built-in X lead-generation prompt-improvement workflow is unverified.",
+   "incumbents": "Promptly (free; listed with 60,000 users and updated Jul 31, 2026); Pretty Prompt ($5.99/mo), Velocity ($7/mo), Prompt Genie ($10/mo), and Promptimize AI ($12/mo) appear in a Feb 2026 prompt-tool comparison; current maintenance for those four is unverified.",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://chrome-stats.com/d/dlbcdaecibhalkjebnjoaklfmakjfoml",
+    "https://launly.com/products/x-brain-2",
+    "https://synapsdex.com/"
+   ]
+  },
+  {
+   "id": "L048",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "Google already provides a paid-and-organic report in Google Ads and paid/organic channel reporting in Analytics, covering the listing’s stated comparison need.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "Google Ads and Google Analytics (official paid-and-organic reporting)",
+   "incumbents": "Google Ads paid-and-organic report (no separate tool price verified); Google Analytics paid/organic channel reporting (standard access; exact plan eligibility unverified); Looker Studio dashboard template (price unverified).",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://support.google.com/google-ads/answer/3097241?hl=en-GB",
+    "https://support.google.com/analytics/answer/17266624?hl=en",
+    "https://developers.google.com/search/docs/monitor-debug/google-analytics-search-console"
+   ]
+  },
+  {
+   "id": "L049",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "Shopify Sidekick natively forecasts demand from store sales and recommends reorder quantities, then creates purchase orders, so Shopify already serves this need in its own platform.",
+   "launches_last_6m": "Shopify Sidekick inventory forecasting and purchase orders — 2026-06-17; Pattern Pi ecommerce execution — 2026-05-21 (inventory/forecasting, adjacent); Continuum ReFlow — 2026-08-17 (distributor-focused, adjacent)",
+   "platform_or_partner": "Shopify Sidekick, built into Shopify; it forecasts demand and creates purchase orders.",
+   "incumbents": "Shopify Sidekick (native; separate price unverified); other incumbent prices unverified.",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://www.shopify.com/blog/enhanced-inventory-management",
+    "https://www.pattern.com/news/pattern-launches-pattern-intelligence-pi-to-accelerate-ai-powered-ecommerce-growth-for-global-brands",
+    "https://resources.gocontinuum.ai/continuum-launches-reflow-turning-inventory-forecasts-into-recovered-capital?hs_amp=true"
+   ]
+  },
+  {
+   "id": "L050",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "The listing supports a self-serve digital product, but I found no evidenced kill threshold: no two competing launches with verified launch dates, no verified free full-scope CRO equivalent, and not enough price- and review-qualified incumbents.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "Google Lighthouse/PageSpeed Insights offers free performance, accessibility, best-practice, and SEO audits; a full conversion-focused equivalent was not verified.",
+   "incumbents": "Google Lighthouse/PageSpeed Insights (free, narrower audit scope); prices for other direct incumbents unverified.",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://app.acquire.com/startup/tlreg50jiy-ai-powered-audit-tool-that-enhances-ux-and-boosts-conversion-offering-white-label-cro-audits",
+    "https://developer.chrome.google.cn/docs/lighthouse?hl=en",
+    "https://clearaudit.space/",
+    "https://www.crowcro.com/"
+   ]
+  },
+  {
+   "id": "L051",
+   "verdict": "kill",
+   "kill_rule": "K4",
+   "reason": "Established monitoring tools including UptimeRobot ($12/mo), Site24x7 ($9/mo), Better Stack ($25/mo), StatusCake ($20.41/mo), and Uptime.com ($9/mo) offer overlapping uptime, DNS, SSL, or domain monitoring; four have reported G2 ratings of 4.6–4.8, and no UK or niche wedge is evident.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "none found",
+   "incumbents": "UptimeRobot ($12/mo; G2 4.7), Site24x7 ($9/mo; G2 4.6), Better Stack ($25/mo; G2 4.8), StatusCake ($20.41/mo; G2 4.8), Uptime.com ($9/mo; rating unverified).",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://app.acquire.com/startup/epu8sjypxv-domain-uptime-monitoring-platform",
+    "https://organikpi.com/blog/technical-seo/best-website-monitoring-tools/",
+    "https://alertping.com/uptime-monitoring-pricing",
+    "https://uptimerobot.com/blog/top-ssl-monitoring-tools/"
+   ]
+  },
+  {
+   "id": "L052",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "Mathpix Snip already converts handwritten equations and PDFs to LaTeX, documents an Overleaf integration, and offers a free plan for students and educators, serving the same academic need.",
+   "launches_last_6m": "imagetolatex — launched September 2026",
+   "platform_or_partner": "Mathpix Snip, with a documented Overleaf integration and a free student/educator plan.",
+   "incumbents": "Mathpix Snip (free plan; Pro from $4.99/mo), Underleaf (free; plans from $6/mo billed annually), Pix2Text (free, open source); other incumbent prices unverified.",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://app.acquire.com/public/z75uq7rq5o-ai-tool-that-converts-handwritten-notes-pdfs-into-clean-latex-in-seconds",
+    "https://mathpix.com/docs/snip/overview",
+    "https://website.mathpix.com/pricing",
+    "https://imagetolatex.com/about"
+   ]
+  },
+  {
+   "id": "L053",
+   "verdict": "kill",
+   "kill_rule": "K2",
+   "reason": "Huxly and Cabano are overlapping native iOS app-generation products launched within the six-month window.",
+   "launches_last_6m": "Huxly — 2026-06-20; Cabano — 2026-07-09",
+   "platform_or_partner": "none found",
+   "incumbents": "AppView — $19 one-time for an iOS app website template; other comparable prices unverified",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://app.acquire.com/startup/9ofktdxzml-ios-website-generator-3-000-devs-23k-ttm-profit-200-growth",
+    "https://huxly.app/blog/introducing-huxly",
+    "https://cabano.app/blog/introducing-cabano/",
+    "https://appview.dev/"
+   ]
+  },
+  {
+   "id": "L054",
+   "verdict": "kill",
+   "kill_rule": "K2",
+   "reason": "At least two overlapping AI server-operations and SRE products launched within the six-month window, including Opservo and Resolve AI.",
+   "launches_last_6m": "Opservo — 2026-07-02; Resolve AI — 2026-07-17; Fabrix Governed VibeOps — 2026-09-09; Komodor Agentic Operations Platform — 2026-09-16",
+   "platform_or_partner": "none found",
+   "incumbents": "Opservo, Resolve AI, Komodor (current prices unverified)",
+   "claim_event_date": "2026-10",
+   "urls": [
+    "https://www.microns.io/startup-listings/ai-powered-server-operations-zero-trust-sre-platform",
+    "https://getopservo.com/blog/introducing-opservo",
+    "https://resolve.ai/blog/introducing-resolve-ai",
+    "https://fabrix.ai/newsroom/press-release/fabrixai-launches-governed-vibeops-powered-by-fabrix-slms-argos/",
+    "https://komodor.com/blog/komodor-launches-agentic-operations-platform-combining-ready-to-run-automation-with-a-comprehensive-backbone-for-custom-agents/"
+   ]
+  },
+  {
+   "id": "L055",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "Figma Make is available to try on Figma’s Starter plan and serves the design-to-working-app need from existing frames; Google Stitch also accepts screenshot or image inputs and exports frontend code.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "Figma Make (Starter plan); Google Stitch",
+   "incumbents": "Figma Make — free to try on Starter; v0 — free tier and $30/user/month Plus; Screenshot to Code — $15/month Hobby",
+   "claim_event_date": "2026-10",
+   "urls": [
+    "https://www.microns.io/startup-listings/platform-turning-screenshot-to-code",
+    "https://www.figma.com/solutions/prompt-to-app/",
+    "https://developers.googleblog.com/en/stitch-a-new-way-to-design-uis/",
+    "https://v0.app/pricing",
+    "https://screenshottocode.com/pricing"
+   ]
+  },
+  {
+   "id": "L056",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "Google’s Gemini Notebook accepts YouTube URLs and generates study aids such as study guides, flashcards, and quizzes, serving the need through YouTube’s platform owner.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "Google Gemini Notebook (public YouTube sources; study guides, flashcards, and quizzes)",
+   "incumbents": "Gemini Notebook — free-user limit of 50 sources; other current prices unverified",
+   "claim_event_date": "2026-10",
+   "urls": [
+    "https://www.microns.io/startup-listings/ai-youtube-lecture-study-exam-prep-platform",
+    "https://support.google.com/gemininotebook/answer/16215270?hl=en-KY",
+    "https://support.google.com/gemininotebook/answer/16958963?hl=en-GB",
+    "https://blog.google/innovation-and-ai/products/notebooklm-audio-video-sources/"
+   ]
+  },
+  {
+   "id": "L057",
+   "verdict": "kill",
+   "kill_rule": "K2",
+   "reason": "AdAI and Nereo both launched competing AI ad and creative products in September 2026, meeting the two-launch copy-speed threshold.",
+   "launches_last_6m": "AdAI (2026-09-11); Nereo (2026-09-11)",
+   "platform_or_partner": "Google Ads Asset Studio offers AI creative generation inside Google Ads.",
+   "incumbents": "Canva, Adobe Firefly, Midjourney, Photoroom; current comparable prices unverified.",
+   "claim_event_date": "2026-09",
+   "urls": [
+    "https://www.nasdaq.com/press-release/adai-launches-automate-digital-ad-creation-ai-agents-2026-09-11",
+    "https://whatlaunched.today/de/tags/video",
+    "https://www.nereo.io/ai-product-video-ads-maker",
+    "https://blog.google/products/ads-commerce/asset-studio-updates/"
+   ]
+  },
+  {
+   "id": "L058",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "The marketplace category is crowded, but the sources checked did not establish five well-reviewed incumbents at the price floor or another evidenced kill rule.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "none found",
+   "incumbents": "Acquire.com (buyer pricing unverified); Flippa (listing from $29 plus success fee); Microns (free listing plus commission); SideProjectors (free); IndieMaker (pricing unverified).",
+   "claim_event_date": "2026-05",
+   "urls": [
+    "https://www.microns.io/startup-listings/saas-marketplace",
+    "https://www.buymicrostartups.com/compare",
+    "https://www.keyquire.com/resources/online-business-marketplaces-compared"
+   ]
+  },
+  {
+   "id": "L059",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "Wix already serves the AI website-builder need with AI creation, hosting, and domain options, including a free plan.",
+   "launches_last_6m": "GoDaddy Airo for WordPress (2026-05-11); Jotform AI App Builder (2026-06-23); Cloudways AI Website Builder public preview (2026-09-22).",
+   "platform_or_partner": "Wix AI Website Builder, with free hosting and domain options.",
+   "incumbents": "Wix ($0 free plan); Framer ($29/month displayed); GoDaddy and Hostinger (current comparable prices unverified).",
+   "claim_event_date": "2026-08",
+   "urls": [
+    "https://www.microns.io/startup-listings/ai-website-and-app-builder",
+    "https://www.wix.com/website-builder",
+    "https://aboutus.godaddy.net/newsroom/news-releases/press-release-details/2026/GoDaddys-Airo-for-WordPress-Delivers-AI-that-Builds-Grows-and-Continuously-Improves-Websites/default.aspx",
+    "https://www.prnewswire.com/news-releases/jotform-introduces-ai-app-builder-turning-ideas-into-fully-functional-apps-in-minutes-302808099.html",
+    "https://www.cloudways.com/blog/introducing-ai-website-builder/"
+   ]
+  },
+  {
+   "id": "L060",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "Acquire.com already includes an AI-powered due-diligence checklist among its marketplace tools for acquisition buyers.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "Acquire.com marketplace tools include an AI-powered due-diligence checklist.",
+   "incumbents": "Acquire.com (bundled checklist; price unverified); AcquiCheck ($299 per report; launch date unverified).",
+   "claim_event_date": "2026-10",
+   "urls": [
+    "https://www.sideprojectors.com/project/100696/project-dna",
+    "https://acquire.com/buyerseller/",
+    "https://help.acquire.com/how-due-diligence-works",
+    "https://acquicheck.com/"
+   ]
+  },
+  {
+   "id": "L061",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "OpenAI’s Playground already generates and improves prompts, directly serving the basic prompt-structuring need.",
+   "launches_last_6m": "Promptic opened to everyone on 2026-09-25 (developer-focused, adjacent); Product Hunt lists Thanor AI as launched in October 2026 (design-prompt niche, adjacent); no second directly comparable consumer launch verified.",
+   "platform_or_partner": "OpenAI Playground prompt generation; bundled feature, with exact access cost unverified.",
+   "incumbents": "PromptPerfect, Promptimize, PromptBase and Promptly AI are named by the listing; current prices and maintenance unverified. ThatPrompt lists a £39 one-time price.",
+   "claim_event_date": "2026-09",
+   "urls": [
+    "https://developers.openai.com/api/docs/guides/prompt-generation",
+    "https://www.microns.io/startup-listings/ai-prompt-refinement-platform",
+    "https://promptic.eu/blog/20260925-promptic-is-open-to-everyone",
+    "https://www.producthunt.com/categories/prompt-engineering-tools?order=recent_launches",
+    "https://thatprompt.ai/"
+   ]
+  },
+  {
+   "id": "L062",
+   "verdict": "kill",
+   "kill_rule": "K2",
+   "reason": "Trader.ai and Deriv’s TradersView both launched AI trading products with signals within the six-month window.",
+   "launches_last_6m": "Trader.ai — 2026-04-27; TradersView by Deriv — 2026-05-21.",
+   "platform_or_partner": "TradingView provides AI Copilot for indicators and strategies; a unified equivalent to this dashboard was not found.",
+   "incumbents": "TradingView Basic is listed as free; Trader Journal is free/$1.99 per month; TraderSync is listed at $29.95 per month; Tradervue has a free plan. These overlap with dashboard features, especially journaling.",
+   "claim_event_date": "2026-09",
+   "urls": [
+    "https://www.microns.io/startup-listings/ai-trading-platform",
+    "https://www.globenewswire.com/news-release/2026/04/27/3281722/0/en/trader-ai-launches-world-s-first-ai-trading-bots-arena-with-40-live-agents-across-six-asset-classes.html",
+    "https://community.deriv.com/t/introducing-tradersview-ai-powered-chart-analysis-and-trade-signals-built-by-deriv/89507",
+    "https://www.tradingview.com/support/solutions/43000795135-create-indicators-and-strategies-with-ai-copilot/",
+    "https://traderjournal.app/"
+   ]
+  },
+  {
+   "id": "L063",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "Current WhatsApp finance rivals exist, but the evidence found does not establish five maintained, well-reviewed incumbents or another kill rule.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "none found",
+   "incumbents": "Controlei R$9.99/month; Sobra R$5.90/month; Poupa.ai free or R$19.83/month billed annually; Controla Fácil R$9.90/month; FinWapp free or R$9.90/month. Their review and establishment evidence is insufficient for K4.",
+   "claim_event_date": "2026-05",
+   "urls": [
+    "https://www.microns.io/startup-listings/ai-powered-financial-saas",
+    "https://www.controlei.app/go",
+    "https://sobraapp.com/",
+    "https://poupa.ai/",
+    "https://controlafacilai.com.br/",
+    "https://www.finwapp.com.br/"
+   ]
+  },
+  {
+   "id": "L064",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "HMRC’s free software finder already helps users find products that support digital records, quarterly updates and submitting a tax return.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "HMRC’s GOV.UK software finder; FreeAgent also documents support for final declarations.",
+   "incumbents": "HMRC software finder (free); FreeAgent (price unverified); Xero, QuickBooks and Sage (prices unverified).",
+   "claim_event_date": "2025-12",
+   "urls": [
+    "https://www.reddit.com/r/UKPersonalFinance/comments/1pj53gl/mtd_itsa_software_for_someone_doing_self/",
+    "https://www.gov.uk/guidance/find-software-that-works-with-making-tax-digital-for-income-tax",
+    "https://www.gov.uk/guidance/use-making-tax-digital-for-income-tax/submit-your-tax-return",
+    "https://support.freeagent.com/hc/en-gb/articles/5116952535954-Prepare-for-MTD-for-Income-Tax-in-FreeAgent"
+   ]
+  },
+  {
+   "id": "L065",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "Sage’s free MTD product and FreeAgent’s bank-account-bundled option already provide sole traders with digital records, expense categorisation and MTD filing, serving the proposed simple accounting workflow.",
+   "launches_last_6m": "none found; post-2026-04-23 launch dates unverified",
+   "platform_or_partner": "Sage offers free MTD software with bank-feed transaction categorisation; FreeAgent is free with specified bank accounts.",
+   "incumbents": "Sage £0; FreeAgent £0 with eligible bank accounts or £190/year; Coconut MTD £129.99/year; Cuppa £0.",
+   "claim_event_date": "2026-04",
+   "urls": [
+    "https://gb-kb.sage.com/portal/app/portlets/results/botviewsolution.jsp?hypermediatext=null&solutionid=230308115958040",
+    "https://www.finder.com/uk/business-banking/making-tax-digital/best-making-tax-digital-software-for-sole-traders",
+    "https://www.techradar.com/pro/software-services/free-making-tax-digital-mtd-software"
+   ]
+  },
+  {
+   "id": "L066",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "HMRC’s free guidance directly explains that PAYE is added to the final return while quarterly updates cover self-employment and property, already answering the proposed workflow question.",
+   "launches_last_6m": "none found; post-2026-04-23 launch dates unverified",
+   "platform_or_partner": "HMRC provides the relevant free guidance on quarterly updates and PAYE income.",
+   "incumbents": "HMRC guidance £0; Sage MTD £0; Cuppa £0; FreeAgent free with eligible bank accounts or £190/year; Coconut MTD £129.99/year.",
+   "claim_event_date": "2025-07",
+   "urls": [
+    "https://www.gov.uk/guidance/use-making-tax-digital-for-income-tax/send-quarterly-updates",
+    "https://www.gov.uk/guidance/get-ready-for-mtd-an-agent-toolkit/understanding-making-tax-digital-for-income-tax"
+   ]
+  },
+  {
+   "id": "L067",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "HMRC’s free guidance explains that each sole-trader business needs separate digital records and quarterly updates, while its VAT guidance covers the separate software obligation for VAT-registered businesses, providing the proposed reporting map.",
+   "launches_last_6m": "none found; post-2026-04-23 launch dates unverified",
+   "platform_or_partner": "HMRC provides free guidance on separate MTD Income Tax updates and MTD VAT software requirements.",
+   "incumbents": "HMRC guidance £0; Cuppa £0; Zoho Books free; Quartax £39/year for one income source or £59/year for up to three; QuickBooks multi-business pricing unverified.",
+   "claim_event_date": "2025-07",
+   "urls": [
+    "https://www.gov.uk/guidance/use-making-tax-digital-for-income-tax/create-digital-records",
+    "https://www.gov.uk/guidance/find-software-thats-compatible-with-making-tax-digital-for-vat"
+   ]
+  },
+  {
+   "id": "L068",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "Sage’s free MTD software already imports and auto-categorises bank transactions for review and prepares MTD records, directly serving the proposed transaction-review workflow.",
+   "launches_last_6m": "none found; post-2026-04-23 launch dates unverified",
+   "platform_or_partner": "Sage provides free MTD accounting software with bank-feed categorisation and quarterly updates.",
+   "incumbents": "Sage £0; Cuppa £0; Coconut MTD £129.99/year; Quartax £39/year; FreeAgent free with eligible bank accounts or £190/year.",
+   "claim_event_date": "2025-12",
+   "urls": [
+    "https://gb-kb.sage.com/portal/app/portlets/results/botviewsolution.jsp?hypermediatext=null&solutionid=230308115958040",
+    "https://www.finder.com/uk/business-banking/making-tax-digital/best-making-tax-digital-software-for-sole-traders"
+   ]
+  },
+  {
+   "id": "L069",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "HMRC’s free finder already gives sole traders a personalised list of compatible software based on their income sources, recordkeeping approach and accounting period, serving the core software-fit need.",
+   "launches_last_6m": "none found with a verified product launch date",
+   "platform_or_partner": "HMRC: its free MTD Income Tax finder offers personalised software options and lets users check existing software.",
+   "incumbents": "Free to users: HMRC Software Finder, MTD Radar, MTD Compare and mtd.digital’s comparison pages; user reviews for these comparison tools are unverified.",
+   "claim_event_date": "2025-12",
+   "urls": [
+    "https://www.reddit.com/r/UKPersonalFinance/comments/1pgr8ok/anyone_here_found_the_best_sole_trader_accounting/",
+    "https://www.gov.uk/guidance/find-software-that-works-with-making-tax-digital-for-income-tax",
+    "https://www.gov.uk/guidance/choose-the-right-software-for-making-tax-digital-for-income-tax",
+    "https://mtdradar.co.uk/"
+   ]
+  },
+  {
+   "id": "L070",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "The reported Access database duplication problem is verified, but I found no evidence of an HMRC-owned Access importer, two qualifying recent launches, or another kill rule; the payment claim is absent.",
+   "launches_last_6m": "Neilson James Tech MTD Tax Return Software — initial live release 20 Jun 2026, an adjacent bridging product; one found, below K2’s two-product threshold.",
+   "platform_or_partner": "HMRC provides guidance on linking existing records and a software finder; no HMRC-owned Access database importer found.",
+   "incumbents": "Adjacent general bridging tools: My Tax Digital £0, VitalTax from £30/year, 123 Sheets from £20/year and 1 1 MTD Bridge from £15.99/year; no direct Access importer found.",
+   "claim_event_date": "2026-01",
+   "urls": [
+    "https://www.reddit.com/r/UKPersonalFinance/comments/1qggg2h/making_tax_digital_simple_accounts_software_for_a/",
+    "https://www.gov.uk/guidance/use-making-tax-digital-for-income-tax/create-digital-records",
+    "https://www.gov.uk/guidance/choose-the-right-software-for-making-tax-digital-for-income-tax",
+    "https://mtdradar.co.uk/",
+    "https://neilsonjamestech.co.uk/tax-releases.php"
+   ]
+  },
+  {
+   "id": "L071",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "HMRC’s free Income Tax finder checks whether existing software is compatible, and its free VAT finder checks VAT compatibility, covering the checker’s core need; the claimed £60 monthly payment and paid-tier issue are unverified.",
+   "launches_last_6m": "none found with a verified product launch date",
+   "platform_or_partner": "HMRC: free finders check existing software for MTD Income Tax and MTD VAT compatibility.",
+   "incumbents": "Free to users: HMRC’s Income Tax and VAT finders, MTD Radar, MTD Compare and mtd.digital’s comparison pages; the official finders do not show paid-tier feature gates.",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://www.reddit.com/r/UKPersonalFinance/comments/1s9fd4v/removed/",
+    "https://www.gov.uk/guidance/find-software-that-works-with-making-tax-digital-for-income-tax",
+    "https://www.gov.uk/guidance/find-software-thats-compatible-with-making-tax-digital-for-vat",
+    "https://mtdradar.co.uk/",
+    "https://mtd.digital/mtd-software-comparison/"
+   ]
+  },
+  {
+   "id": "L072",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "HMRC’s free guidance says digital records are kept for individual transactions while quarterly updates report category totals, directly answering the stated granularity question; the 308-transaction and £60-per-month claims are unverified.",
+   "launches_last_6m": "none found with a verified product launch date",
+   "platform_or_partner": "HMRC: its current free record-keeping and quarterly-update guidance explains transaction records, categorised totals and what is sent.",
+   "incumbents": "HMRC guidance £0; adjacent recordkeeping and bridging products include My Tax Digital £0 and VitalTax from £30/year; no standalone guidance-assistant price found.",
+   "claim_event_date": "unverified",
+   "urls": [
+    "https://www.reddit.com/r/UKPersonalFinance/comments/1s9fd4v/removed/",
+    "https://www.gov.uk/guidance/use-making-tax-digital-for-income-tax/create-digital-records",
+    "https://www.gov.uk/guidance/use-making-tax-digital-for-income-tax/send-quarterly-updates",
+    "https://www.legislation.gov.uk/uksi/2021/1076/made?timeline=false&view=plain+extent"
+   ]
+  },
+  {
+   "id": "L073",
+   "verdict": "kill",
+   "kill_rule": "K2",
+   "reason": "JoltMile (iOS 1 Oct 2026) and MileClerk (6 Sep 2026) launched mileage logging with categorisation and CSV/PDF exports within the six-month window, meeting K2.",
+   "launches_last_6m": "JoltMile — iOS 2026-10-01; Android 2026-10-22. MileClerk — 2026-09-06.",
+   "platform_or_partner": "QuickBooks includes mileage tracking and trip export; Monzo mileage capture is unverified.",
+   "incumbents": "Tripcatcher £1.49/mo; MileClear free, Pro £4.99/mo; Trippi £80/yr; Driversnote £8/mo; MileIQ £9.49/mo; FreeAgent £19/mo (free with eligible bank accounts); QuickBooks from £10/mo; Dext from £15/mo.",
+   "claim_event_date": "2026-04",
+   "urls": [
+    "https://joltmile.com/knowledge-centre/topics/getting-started",
+    "https://www.nicheloom.com/launches/1212/",
+    "https://quickbooks.intuit.com/learn-support/en-uk/help-article/track-mileage/automatically-track-mileage-quickbooks-online/L2qPCRGgI_GB_en_GB",
+    "https://bookkeepertools.uk/best-mileage-tracking-apps-uk-self-employed-2026/"
+   ]
+  },
+  {
+   "id": "L074",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "Clear Books’ MTD Income Tax plan excludes foreign-currency feeds, and I found fewer than two dated recent launches competing on this specific importer need.",
+   "launches_last_6m": "none found for this specific importer.",
+   "platform_or_partner": "Xero supports multi-currency feeds and manual statement uploads; QuickBooks supports multi-currency accounts; Clear Books’ MTD Income Tax plan does not support foreign-currency feeds.",
+   "incumbents": "Clear Books (CSV import; MTD ITSA plan excludes multicurrency); Xero, QuickBooks Online, QuickFile and FreeAgent (related multi-currency or statement-import features; current relevant plan prices unverified).",
+   "claim_event_date": "2025-09",
+   "urls": [
+    "https://www.reddit.com/r/smallbusinessuk/comments/1m1i1ab/making_tax_digital_for_mixed_employedselfemployed/",
+    "https://support.mtdincometax.clearbooks.co.uk/support/solutions/articles/33000295241-why-is-my-foreign-currency-feed-not-importing-any-transactions-",
+    "https://www.xero.com/uk/accounting-software/connect-your-bank/",
+    "https://plugin-qbo.intuit.com/qbo-ush/helpcontent/production/124/en_GB/QBO_Plus/Content/Topics/multicurrency/help_mc_manage_overview.htm"
+   ]
+  },
+  {
+   "id": "L075",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "Paxton’s bundled CSV transaction import and documented spreadsheet-field paste, together with its existing payment-removal and invoice-correction workflow, cover the requested tasks within the platform.",
+   "launches_last_6m": "none found for this specific helper.",
+   "platform_or_partner": "Paxton provides transaction import, clipboard paste in supported fields, and an existing invoice/payment correction workflow.",
+   "incumbents": "Paxton Standard £50/mo and Advanced £75/mo; direct third-party helper incumbents none found.",
+   "claim_event_date": "2025-11",
+   "urls": [
+    "https://paxtonsoftware.co.uk/paxton-products/paxton-charity-accounting-software",
+    "https://paxtonsoftware.co.uk/support/support-blog",
+    "https://uk.trustpilot.com/review/paxtoncharities.co.uk"
+   ]
+  },
+  {
+   "id": "L076",
+   "verdict": "survive",
+   "kill_rule": "none",
+   "reason": "Paxton documents some keyboard shortcuts and paste actions, but I found no evidence that they fix the reported Tab-navigation gaps, so K3 is not established.",
+   "launches_last_6m": "none found for a keyboard-accessibility layer for charity accounting.",
+   "platform_or_partner": "Paxton documents Space/F9 keyboard operations; a fix for the reported Tab-navigation gaps is unverified.",
+   "incumbents": "Paxton Standard £50/mo and Advanced £75/mo; direct keyboard-accessibility add-ons none found.",
+   "claim_event_date": "2025-10",
+   "urls": [
+    "https://uk.trustpilot.com/review/paxtoncharities.co.uk",
+    "https://paxtonsoftware.co.uk/support/support-blog",
+    "https://paxtonsoftware.co.uk/paxton-products/paxton-charity-accounting-software"
+   ]
+  },
+  {
+   "id": "L077",
+   "verdict": "kill",
+   "kill_rule": "K3",
+   "reason": "Companies House already provides free identity-verification guidance, alternative verification routes and support for users who cannot complete a check, covering this recovery need.",
+   "launches_last_6m": "none found",
+   "platform_or_partner": "Companies House and GOV.UK One Login provide free verification guidance and support.",
+   "incumbents": "Official Companies House/GOV.UK guidance and support: free; other maintained guide incumbents unverified.",
+   "claim_event_date": "2025-10",
+   "urls": [
+    "https://www.gov.uk/guidance/verify-your-identity-for-companies-house",
+    "https://www.gov.uk/government/publications/companies-house-equality-impact-assessment-for-identity-verification/companies-house-equality-impact-assessment-for-identity-verification",
+    "https://home.account.gov.uk/contact-gov-uk-one-login",
+    "https://uk.trustpilot.com/review/www.companieshouse.gov.uk?page=2"
+   ]
+  }
+ ],
+ "shadow": [
+  {
+   "id": "L057",
+   "name": "AI creative suite",
+   "cheap": {
+    "id": "L057",
+    "verdict": "kill",
+    "kill_rule": "K3",
+    "reason": "TikTok Symphony Creative Studio and Google Ads Asset Studio already provide official AI image, video, and ad creative tools for marketers, meeting the core need described by this suite.",
+    "launches_last_6m": "TikTok Symphony Creative Studio (June 22, 2026); Google Ads Asset Studio multimodal creation (announced May 20, 2026)",
+    "platform_or_partner": "TikTok Symphony Creative Studio; Google Ads Asset Studio",
+    "incumbents": "Canva, ChatGPT/image tools, Midjourney, and Photoroom are named by the listing; current prices and review status unverified.",
+    "claim_event_date": "2026-09",
+    "urls": [
+     "https://ads.tiktok.com/business/en-US/blog/tiktok-symphony-ai-creative-suite",
+     "https://blog.google/products/ads-commerce/asset-studio-updates/",
+     "https://www.microns.io/startup-listings/ai-content-creator-platform"
+    ]
+   },
+   "shadow": {
+    "id": "L057",
+    "verdict": "kill",
+    "kill_rule": "K3",
+    "reason": "TikTok’s free Symphony tools and Google Ads Asset Studio already serve the core need with official AI image, video, and advertising creative tools.",
+    "launches_last_6m": "None confirmed as new products: TikTok’s June 22, 2026 Symphony announcement describes an expanded suite, while Creative Studio was announced in 2025; Google’s May 20, 2026 Asset Studio announcement describes new capabilities.",
+    "platform_or_partner": "TikTok Symphony Creative Studio (free for advertisers); Google Ads Asset Studio (official Google Ads creative tools).",
+    "incumbents": "Canva, ChatGPT/image tools, Midjourney, and Photoroom are named by the listing; current prices and review status unverified.",
+    "claim_event_date": "2026-09",
+    "agree_with_kill": true,
+    "urls": [
+     "https://ads.tiktok.com/resources/help/article/about-symphony-credits?lang=en",
+     "https://ads.tiktok.com/business/en-US/blog/symphony-creative-studio",
+     "https://support.google.com/google-ads/answer/16456563?hl=en",
+     "https://blog.google/products/ads-commerce/asset-studio-updates/",
+     "https://www.microns.io/startup-listings/ai-content-creator-platform"
+    ]
+   }
+  },
+  {
+   "id": "L073",
+   "name": "MTD mileage capture for sole traders",
+   "cheap": {
+    "id": "L073",
+    "verdict": "kill",
+    "kill_rule": "K3",
+    "reason": "QuickBooks already provides automatic mileage tracking, trip categorisation and export for its Sole Trader users, directly covering the proposed capture need.",
+    "launches_last_6m": "none found",
+    "platform_or_partner": "QuickBooks provides mileage tracking and export: https://quickbooks.intuit.com/learn-support/en-uk/help-article/track-mileage/automatically-track-mileage-quickbooks-online/L2qPCRGgI_GB_en_GB?uid=lb42y21x",
+    "incumbents": "QuickBooks (included; price unverified); MileIQ (£7.91/month annual); Driversnote (£8/month); FreeAgent (price unverified); Dext (from £15/month per cited comparison)",
+    "claim_event_date": "2026-04",
+    "urls": [
+     "https://quickbooks.intuit.com/learn-support/en-uk/help-article/track-mileage/automatically-track-mileage-quickbooks-online/L2qPCRGgI_GB_en_GB?uid=lb42y21x",
+     "https://www.driversnote.co.uk/pricing",
+     "https://www.gov.uk/guidance/use-making-tax-digital-for-income-tax/send-quarterly-updates"
+    ]
+   },
+   "shadow": {
+    "id": "L073",
+    "verdict": "kill",
+    "kill_rule": "K3",
+    "reason": "Intuit bundles automatic mileage capture, business/personal categorisation and CSV trip export with its MTD-ready Sole Trader Plus, so a platform already covers the proposed capture-and-export job; Monzo’s current guidance still requires mileage to be entered as a manual expense.",
+    "launches_last_6m": "none found",
+    "platform_or_partner": "QuickBooks Sole Trader Plus; mileage tracking is bundled, with current pricing shown as £10/month plus VAT after the promotion.",
+    "incumbents": "QuickBooks Sole Trader Plus (£10/month + VAT after promotion); Driversnote (free up to 15 trips/month, Pro £8/month excluding tax); MileIQ (free up to 40 drives/month, Unlimited £7.91/month billed annually or £9.49 monthly); Dext (mileage included with subscription; price unverified); FreeAgent (manual mileage claims; price unverified).",
+    "claim_event_date": "2026-04",
+    "agree_with_kill": true,
+    "urls": [
+     "https://quickbooks.intuit.com/learn-support/en-uk/help-article/track-mileage/automatically-track-mileage-quickbooks-online/L2qPCRGgI_GB_en_GB?uid=lb42y21x",
+     "https://quickbooks.intuit.com/uk/pricing/",
+     "https://quickbooks.intuit.com/learn-support/en-uk/help-article/bookkeeping-processes/getting-started-quickbooks-sole-trader-plus/L3L51Mk1z_GB_en_GB",
+     "https://monzo.com/help/business-accounts/business-mtd-it-complex-transactions-how",
+     "https://www.reddit.com/r/UKPersonalFinance/comments/1sua430/i_am_a_sole_trader_and_i_need_help_finding_an/",
+     "https://www.driversnote.co.uk/pricing",
+     "https://www.mileiq.com/en-gb/pricing",
+     "https://dext.com/uk/business/products/mileage-tracking",
+     "https://support.freeagent.com/hc/en-gb/articles/115001223124-Record-a-new-mileage-claim"
+    ]
+   }
+  },
+  {
+   "id": "L042",
+   "name": "Online safety policy-change diff feed",
+   "cheap": {
+    "id": "L042",
+    "verdict": "kill",
+    "kill_rule": "K3",
+    "reason": "Ofcom already provides a free official Regulation Checker and compliance guidance for online service operators, serving the need for an operator-facing assessment and checklist.",
+    "launches_last_6m": "none found",
+    "platform_or_partner": "Ofcom Regulation Checker and official compliance guidance (free).",
+    "incumbents": "Ofcom’s free checker and guidance; other direct maintained incumbents and prices unverified.",
+    "claim_event_date": "2027",
+    "urls": [
+     "https://www.ofcom.org.uk/os-toolkit/regulation-checker/regulation-checker",
+     "https://www.ofcom.org.uk/Online-Safety/check-how-to-comply",
+     "https://www.ofcom.org.uk/online-safety/protecting-children/online-safety-industry-bulletin-october-2026"
+    ]
+   },
+   "shadow": {
+    "id": "L042",
+    "verdict": "kill",
+    "kill_rule": "K3",
+    "reason": "Ofcom’s free toolkit already gives online service providers tailored compliance recommendations and templates/checklists, covering the operator-facing assessment and checklist need.",
+    "agree_with_kill": true,
+    "launches_last_6m": "none found",
+    "platform_or_partner": "Ofcom’s free Regulation Checker and digital compliance toolkit.",
+    "incumbents": "No direct maintained commercial incumbents or prices found; Ofcom’s tools are free.",
+    "claim_event_date": "unverified",
+    "urls": [
+     "https://www.ofcom.org.uk/os-toolkit/regulation-checker/regulation-checker",
+     "https://www.ofcom.org.uk/Online-Safety/check-how-to-comply",
+     "https://www.ofcom.org.uk/online-safety/illegal-and-harmful-content/online-safety-regulatory-documents",
+     "https://www.ofcom.org.uk/online-safety/protecting-children/online-safety-industry-bulletin-october-2026"
+    ]
+   }
+  },
+  {
+   "id": "L026",
+   "name": "Charts for Figma successor",
+   "cheap": {
+    "id": "L026",
+    "verdict": "kill",
+    "kill_rule": "K2",
+    "reason": "At least two competing chart products launched in the last six months: Chart Studio was posted on Oct 11, 2026 and PlotSet’s Figma chart integration is live, meeting the copy-speed kill threshold.",
+    "launches_last_6m": "Chart Studio — Oct 11, 2026; PlotSet Charts and Maps — launch date unverified, currently live",
+    "platform_or_partner": "Figma provides the plugin marketplace; an official Figma charting product was not found",
+    "incumbents": "Chart — $10/year Pro; Chart Studio — optional one-time Pro price unverified; Data Lab — $2/month; PlotSet — free Figma plugin, paid terms unverified",
+    "claim_event_date": "2026-09",
+    "urls": [
+     "https://forum.figma.com/showcase-your-work-14/chart-studio-from-csv-to-editable-charts-for-figma-dashboards-and-presentations-58848",
+     "https://plotset.com/integrations/figma",
+     "https://chartplugin.com/pricing.html?source=figma",
+     "https://datalab-plugin.com/"
+    ]
+   },
+   "shadow": {
+    "id": "L026",
+    "verdict": "kill",
+    "kill_rule": "K3",
+    "agree_with_kill": true,
+    "reason": "Figma itself offers CSV-to-editable-chart generation on its canvas through the Figma agent, which serves the stated need and is available on Figma plans.",
+    "launches_last_6m": "Chart Studio — Oct 11, 2026; Figma AI agent — May 20, 2026 (its CSV-chart feature launch date is unverified); PlotSet’s Figma integration launched Nov 30, 2024, outside the window.",
+    "platform_or_partner": "Figma’s own agent generates editable charts from CSV on the Figma canvas; the agent is available on Starter and other plans. No official charting partner found.",
+    "incumbents": "Chart — $10/year Pro per supplied evidence (current price unverified); Data Lab — $2/month per supplied evidence (current price unverified); PlotSet — Figma plugin is free; Chart Studio — optional Pro price unverified; Figma Charts — free per directory listing; current prices and maintenance/review status for the broader set are partly unverified.",
+    "claim_event_date": "2026-09",
+    "urls": [
+     "https://www.figma.com/solutions/csv-to-chart-generator/",
+     "https://help.figma.com/hc/en-us/articles/23870272542231-Get-started-with-Figma-AI",
+     "https://www.figma.com/blog/the-figma-agent-is-here/",
+     "https://forum.figma.com/showcase-your-work-14/chart-studio-from-csv-to-editable-charts-for-figma-dashboards-and-presentations-58848",
+     "https://plotset.com/pt/blog/easily-edit-your-visuals-with-plot-set-figma-plugin"
+    ]
+   }
+  },
+  {
+   "id": "L013",
+   "name": "Amai preorder mobile reliability alternative",
+   "cheap": {
+    "id": "L013",
+    "verdict": "kill",
+    "kill_rule": "K4",
+    "reason": "At the likely sub-$25/month price floor, maintained preorder alternatives include Timesact, PreProduct, Pre-Order Manager, Globo PreOrder, Essential Preorder, and STOQ, with no evidenced niche wedge that offsets this competition.",
+    "launches_last_6m": "Prebuy — 2026-05-05; no second competing launch found",
+    "platform_or_partner": "Shopify promotes PreProduct and Pre-Order Manager as recommended preorder apps",
+    "incumbents": "Timesact (free, paid from $5/month); other maintained alternatives include PreProduct, Pre-Order Manager, Globo PreOrder, Essential Preorder, and STOQ; exact current prices for some unverified",
+    "claim_event_date": "2026-04",
+    "urls": [
+     "https://apps.shopify.com/timesact-discount-pre-order?search_id=1ea9ba4c-b231-4882-b149-a3a44c34d7b8&surface_detail=marketing-and-conversion-upsell-and-bundles-pre-orders&surface_inter_position=2&surface_intra_position=3&surface_type=category&surface_version=redesign",
+     "https://www.shopify.com/pre-orders",
+     "https://www.clickpost.ai/blog/pre-order-apps-for-shopify-stores",
+     "https://letsmetrix.com/app/prebuy-public"
+    ]
+   },
+   "shadow": {
+    "id": "L013",
+    "verdict": "kill",
+    "kill_rule": "K2",
+    "reason": "Two Shopify preorder products launched in the six-month window—Prebuy and Coming Soon Products, PreOrder—trigger K2, though the latter is waitlist-led and its checkout overlap is partial.",
+    "launches_last_6m": "Coming Soon Products, PreOrder — 2026-04-27 (coming-soon/waitlist); Prebuy — 2026-05-05 (purchase-order-driven preorders)",
+    "platform_or_partner": "Shopify recommends PreProduct, Pre-Order Manager, and Purple Dot; a free or bundled Shopify-native preorder feature is unverified.",
+    "incumbents": "STOQ — free plan; Timesact — free plan, paid from $5/month; Notify!, REZ, and Essent — free plans listed, other current prices unverified; PreProduct — free install with 5% of paid preorder revenue, Scale $59.99/month. Shopify listings show these as active, well-reviewed apps.",
+    "claim_event_date": "2026-04",
+    "urls": [
+     "https://apps.shopify.com/coming-soon-products-presale",
+     "https://letsmetrix.com/app/prebuy-public",
+     "https://www.shopify.com/pre-orders",
+     "https://apps.shopify.com/timesact-discount-pre-order?search_id=1ea9ba4c-b231-4882-b149-a3a44c34d7b8&surface_detail=marketing-and-conversion-upsell-and-bundles-pre-orders&surface_inter_position=2&surface_intra_position=3&surface_type=category&surface_version=redesign",
+     "https://apps.shopify.com/categories/marketing-and-conversion-upsell-and-bundles-pre-orders?search_id=4575e7b8-0f48-4275-b978-38a2d495f0a0&surface_detail=preorder-back-in-stock&surface_type=app_details"
+    ],
+    "agree_with_kill": true
+   }
+  },
+  {
+   "id": "L016",
+   "name": "Lionz eBay sync reliability alternative",
+   "cheap": {
+    "id": "L016",
+    "verdict": "kill",
+    "kill_rule": "K3",
+    "reason": "Shopify Marketplace Connect already provides a Shopify-owned eBay integration with inventory, orders, and product syncing, serving the proposed core need.",
+    "launches_last_6m": "none found",
+    "platform_or_partner": "Shopify Marketplace Connect, formerly Codisto",
+    "incumbents": "Shopify Marketplace Connect (free up to 50 orders/month, then 1% per order up to $99/month); CedCommerce (free to $89/month); DPL ($19.99–$199.99/month); InfoShore (free plan)",
+    "claim_event_date": "2025-09",
+    "urls": [
+     "https://www.shopify.com/blog/shopify-ebay-integration",
+     "https://litcommerce.com/blog/best-ebay-integration-apps-for-shopify/"
+    ]
+   },
+   "shadow": {
+    "id": "L016",
+    "verdict": "kill",
+    "kill_rule": "K3",
+    "reason": "Shopify Marketplace Connect already syncs Shopify listings, inventory, and orders with eBay, serving the core stock-sync need even though the proposed reliability and status features may differentiate it.",
+    "launches_last_6m": "SyncBit (2026-07-02); no second confirmed launch found",
+    "platform_or_partner": "Shopify Marketplace Connect (Shopify-owned; free up to 50 synced orders/month, then usage charges capped at $99/month)",
+    "incumbents": "Shopify Marketplace Connect (free up to 50 orders/month, then 1% capped at $99/month); CedCommerce (free–$89/month); InfoShore (free–$59.99/month); Lionz ($9.99/month); SyncBit ($9.99/month)",
+    "claim_event_date": "2025-09",
+    "agree_with_kill": true,
+    "urls": [
+     "https://help.shopify.com/en/manual/online-sales-channels/marketplaces/marketplace-connect",
+     "https://www.shopify.com/blog/shopify-ebay-integration",
+     "https://apps.shopify.com/lionz-apps-sync",
+     "https://apps.shopify.com/ebay-connect-neutroware-1"
+    ]
+   }
+  },
+  {
+   "id": "L001",
+   "name": "MTD income-tax software for £30k–£50k landlords",
+   "cheap": {
+    "id": "L001",
+    "verdict": "kill",
+    "kill_rule": "K4",
+    "reason": "At least five maintained products already serve the need, including free options and paid software from £7/month, with no evident wedge for the proposed £30k–£50k segment.",
+    "launches_last_6m": "none found",
+    "platform_or_partner": "HMRC recognises a large software-provider market and says it offers both free and paid options; it does not provide its own software.",
+    "incumbents": "Sage Sole Trader & Landlord (£7/month), QuickBooks (£10/month), Crunch (£10/month), Xero (£16/month), FreeAgent (£19/month); HMRC's finder also lists 37 free-plan products as of October 2026.",
+    "claim_event_date": "2027-04",
+    "urls": [
+     "https://www.gov.uk/government/publications/extension-of-making-tax-digital-for-income-tax-self-assessment-to-sole-traders-and-landlords/making-tax-digital-for-income-tax-self-assessment-for-sole-traders-and-landlords",
+     "https://www.gov.uk/government/publications/what-software-youll-need-for-making-tax-digital",
+     "https://whito.co.uk/tools/mtd-income-tax-software-cost-uk/",
+     "https://landlordlookout.co.uk/mtd-software/free/"
+    ]
+   },
+   "shadow": {
+    "id": "L001",
+    "verdict": "kill",
+    "kill_rule": "K4",
+    "reason": "K4: UK-property MTD alternatives already include free options (Clear Books, QuickFile and conditional FreeAgent) and established products at about £7–£18/month (Sage, Hammock and Xero), with no evident wedge beyond targeting the same £30k–£50k income band.",
+    "agree_with_kill": true,
+    "launches_last_6m": "None found in 2026-04-23 to 2026-10-23; Easy MTD was announced 2026-04-13, before the window, and recent HMRC directory additions do not verify product launch dates.",
+    "platform_or_partner": "None found; HMRC says it does not provide its own MTD software and directs taxpayers to third-party providers.",
+    "incumbents": "Sage Sole Trader & Landlord (£7/month; price snapshot 2026-07); FreeAgent Landlord (£10/month or free with an eligible bank); Hammock (£8/month); Clear Books Free (£0); QuickFile Free (up to 1,000 ledger entries); Xero Ignite (£18/month). HMRC’s software directory marks these products as supporting UK property income; Trustpilot ratings include Sage 4.0, FreeAgent 4.6, Hammock 4.5, Clear Books 4.2, QuickFile 4.8 and Xero 4.1.",
+    "claim_event_date": "2027-04",
+    "success_12m": 3,
+    "agent_runnability": 7,
+    "fit": 8,
+    "automation_share_pct": 85,
+    "copy_speed": "Pass; no qualifying launch verified in the six-month window.",
+    "defensible_asset": "None verified; a differentiated landlord workflow or data asset is unverified.",
+    "urls": [
+     "https://www.gov.uk/government/publications/extension-of-making-tax-digital-for-income-tax-self-assessment-to-sole-traders-and-landlords/making-tax-digital-for-income-tax-self-assessment-for-sole-traders-and-landlords",
+     "https://www.gov.uk/guidance/choose-the-right-software-for-making-tax-digital-for-income-tax",
+     "https://www.gov.uk/guidance/find-software-that-works-with-making-tax-digital-for-income-tax",
+     "https://makingtaxdigital.campaign.gov.uk/making-tax-digital-software/",
+     "https://whito.co.uk/tools/mtd-income-tax-software-cost-uk/",
+     "https://www.quartax.co.uk/blog/cheapest-mtd-software",
+     "https://www.taptax.co.uk/mtd-software-directory",
+     "https://easymtd.com/news/easy-mtd-launched",
+     "https://www.trustpilot.com/review/sage.com",
+     "https://www.trustpilot.com/review/www.freeagent.com",
+     "https://www.trustpilot.com/review/usehammock.com",
+     "https://www.trustpilot.com/review/www.clearbooks.co.uk",
+     "https://www.trustpilot.com/review/quickfile.co.uk",
+     "https://www.trustpilot.com/review/www.xero.com"
+    ]
+   }
+  },
+  {
+   "id": "L034",
+   "name": "E-invoice schema migration sandbox",
+   "cheap": {
+    "id": "L034",
+    "verdict": "kill",
+    "kill_rule": "K3",
+    "reason": "The European Commission provides a free invoice validation service with REST and SOAP APIs, and current validators already cover Peppol and EN 16931 formats, serving the core sandbox need.",
+    "launches_last_6m": "none found",
+    "platform_or_partner": "European Commission DIGIT eInvoice Validator with REST/SOAP API: https://www.itb.ec.europa.eu/invoice/upload",
+    "incumbents": "European Commission validator free; Peppol Validator free; Ironfang free tier and paid plans from £29/month: https://www.itb.ec.europa.eu/invoice/upload",
+    "claim_event_date": "2027",
+    "urls": [
+     "https://www.itb.ec.europa.eu/invoice/upload",
+     "https://www.gov.uk/government/publications/budget-2025-document/budget-2025-html?_bhlid=3d330a81fe705d45718dee64241ff36062b4f5f0"
+    ]
+   },
+   "shadow": {
+    "id": "L034",
+    "verdict": "survive",
+    "kill_rule": "none",
+    "agree_with_kill": false,
+    "reason": "K3 is not evidenced: the Commission validator checks invoices against the European Standard, while HMRC says UK regime standards and technical specifications are still due by the end of 2027 to 2028, and no UK-specific migration sandbox was found.",
+    "launches_last_6m": "none found",
+    "platform_or_partner": "European Commission DIGIT eInvoice Validator offers free REST and SOAP validation against the European Standard; no UK official validator or partner found.",
+    "incumbents": "Commission DIGIT Validator (free); Peppol Validator (free; API availability shown); Ironfang Finance (free validators and API allowance; paid price unverified); invoicevalidator.eu (basic API validation without an account; paid price unverified); InvoicePorter (free tier; Starter €29/month).",
+    "claim_event_date": "unverified",
+    "urls": [
+     "https://www.itb.ec.europa.eu/invoice/upload",
+     "https://www.gov.uk/government/publications/hmrc-transformation-roadmap-progress-update-2026/annex-summary-of-hmrcs-planned-activities-listed-in-this-transformation-roadmap-progress-update",
+     "https://www.peppol-validator.eu/",
+     "https://ironfang.com/docs/finance",
+     "https://invoicevalidator.eu/api",
+     "https://invoiceporter.com/en/"
+    ]
+   }
+  },
+  {
+   "id": "L060",
+   "name": "Project DNA due-diligence app",
+   "cheap": {
+    "id": "L060",
+    "verdict": "kill",
+    "kill_rule": "K3",
+    "reason": "Acquire.com already provides AI-assisted due-diligence tasks for financial, legal, compliance, and risk checks, overlapping with the app’s evidence-cited diligence reports for acquisition buyers.",
+    "launches_last_6m": "Noa / TARA (September 9, 2026, launch date shown on site); AcquiCheck launch date unverified",
+    "platform_or_partner": "Acquire.com AI due-diligence workflow",
+    "incumbents": "Acquire.com workflow; AcquiCheck from $299; other established incumbent count, review status, and prices unverified.",
+    "claim_event_date": "2026-10",
+    "urls": [
+     "https://help.acquire.com/how-due-diligence-works",
+     "https://acquicheck.com/",
+     "https://runnoa.ai/",
+     "https://www.sideprojectors.com/project/100696/project-dna"
+    ]
+   },
+   "shadow": {
+    "id": "L060",
+    "verdict": "survive",
+    "kill_rule": "none",
+    "reason": "Acquire.com provides a bundled diligence checklist rather than the evidence-based report described here, and the evidence does not establish two recent competing launches or five qualifying incumbents.",
+    "agree_with_kill": false,
+    "launches_last_6m": "Noa / TARA — its site shows a GA launch date of 2026-10-21 but still labels the product PRIVATE BETA; AcquiCheck launch date unverified; fewer than two launches evidenced.",
+    "platform_or_partner": "Acquire.com bundles AI-generated diligence tasks with buyer membership; its terms describe the tool as a checklist, say it is not comprehensive diligence, and state Acquire performs no diligence.",
+    "incumbents": "Acquire.com buyer membership starts at $390/year and includes diligence tools; AcquiCheck lists $299 Standard and $499 Premium reports, but its launch date and independent review status are unverified; five established, maintained, well-reviewed incumbents are not evidenced.",
+    "claim_event_date": "2026-10",
+    "urls": [
+     "https://www.sideprojectors.com/project/100696/project-dna",
+     "https://help.acquire.com/how-due-diligence-works",
+     "https://acquire.com/buyerseller/",
+     "https://help.acquire.com/buyer-faqs-1",
+     "https://acquire.com/pricing/",
+     "https://runnoa.ai/",
+     "https://acquicheck.com/"
+    ]
+   }
+  },
+  {
+   "id": "L077",
+   "name": "Companies House director identity-verification recovery guide",
+   "cheap": {
+    "id": "L077",
+    "verdict": "kill",
+    "kill_rule": "K3",
+    "reason": "Companies House already provides free official verification guidance, multiple verification routes, and customer support for the same director identity verification need.",
+    "launches_last_6m": "none found",
+    "platform_or_partner": "Companies House: free GOV.UK One Login verification service, official guidance, Post Office route, and customer support.",
+    "incumbents": "DirectorKYC £19.99; Companies MadeSimple £19.99 + VAT; CorpAssist £35.99; TaxStats ID from £39; PersonalCode.co.uk £60.",
+    "claim_event_date": "2025-10",
+    "urls": [
+     "https://www.gov.uk/guidance/verifying-your-identity-for-companies-house?lang=en",
+     "https://uk.trustpilot.com/review/www.companieshouse.gov.uk?page=2",
+     "https://directorkyc.com/pricing",
+     "https://www.companiesmadesimple.com/services/identity-verification-service-director-psc",
+     "https://corpassist.co.uk/guides/acsp-verification-cost"
+    ]
+   },
+   "shadow": {
+    "id": "L077",
+    "verdict": "kill",
+    "kill_rule": "K3",
+    "agree_with_kill": true,
+    "reason": "Companies House provides free official guidance for identity verification, directs people with photo-ID problems to One Login support and alternate verification routes, and offers contact-centre advice, covering the proposed recovery-guide need.",
+    "launches_last_6m": "none found; no competing product launch dated since 23 Apr 2026 was verified",
+    "platform_or_partner": "Companies House and GOV.UK One Login: photo-ID problem support, bank or Post Office verification routes, and Companies House contact-centre advice.",
+    "incumbents": "Official Companies House/GOV.UK route (free); DirectorKYC (£19.99) and CorpAssist (£35.99 including VAT) offer paid verification. Other supplied prices unverified.",
+    "claim_event_date": "2025-10",
+    "urls": [
+     "https://www.gov.uk/guidance/verify-your-identity-for-companies-house",
+     "https://signin.account.gov.uk/contact-us-further-information?lng=en&theme=proving_identity",
+     "https://www.gov.uk/government/publications/companies-house-approach-to-non-compliance-with-mandatory-identity-verification/companies-house-approach-to-non-compliance-with-mandatory-identity-verification",
+     "https://directorkyc.com/",
+     "https://corpassist.co.uk/pricing",
+     "https://uk.trustpilot.com/review/www.companieshouse.gov.uk?page=2"
+    ]
+   }
+  }
+ ]
+}

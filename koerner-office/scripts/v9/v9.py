@@ -1,6 +1,6 @@
 """v9 loop iteration pipeline (LOOP.md §6). Stages: harvest, killcheck, shadow, evidence, score, validate.
 Resumable: each LLM answer cached in /tmp/loop/v9/out/<tag>.json. Calls logged to calls.jsonl."""
-import csv, json, random, sys, time, datetime as dt
+import csv, json, os, random, sys, time, datetime as dt
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "common"))
@@ -118,15 +118,30 @@ LEADS:
 
 def leads(): return [json.loads(l) for l in open(V9 / "leads.jsonl")]
 
-def killcheck():
+def killcheck_x():
+    """Safeguard re-run (RULES_LOCKED shadow rule): whole kill-check at xhigh; replaces the medium result."""
+    killcheck(effort="xhigh", pre="kcx", fout="kc_x.json")
+
+def kc_file():
+    return W / ("kc_x.json" if (W / "kc_x.json").exists() else "kc.json")
+
+def survivors():
+    res = json.loads(kc_file().read_text())
+    s = [r["id"] for r in res if r["verdict"] == "survive"]
+    if kc_file().name == "kc.json":
+        try: s += [o["id"] for o in json.loads((W / "shadow.json").read_text()) if o["shadow"].get("verdict") == "survive"]
+        except Exception: pass
+    return s
+
+def killcheck(effort="medium", pre="kc", fout="kc.json"):
     L = leads(); B = [L[i:i+4] for i in range(0, len(L), 4)]
     def one(ib):
         i, b = ib
         slim = [{k: l.get(k) for k in ("id","name","source","sub_source","what","trigger","urls","evidence_of_payment","claim_event_date")} for l in b]
-        d = ask(f"kc_{i:02d}", kc_prompt(slim), "medium")
+        d = ask(f"{pre}_{i:02d}", kc_prompt(slim, "Effort: thorough (up to 6 searches per lead)." if effort == "xhigh" else ""), effort)
         return (d or {}).get("results", [])
     with ThreadPoolExecutor(6) as ex: res = [r for rr in ex.map(one, enumerate(B)) for r in rr]
-    (W / "kc.json").write_text(json.dumps(res, indent=1)); log(f"killcheck: {len(res)} results, survive {sum(r['verdict']=='survive' for r in res)}")
+    (W / fout).write_text(json.dumps(res, indent=1)); log(f"killcheck {effort}: {len(res)} results, survive {sum(r['verdict']=='survive' for r in res)}")
 
 def shadow():
     res = json.loads((W / "kc.json").read_text()); kills = [r for r in res if r["verdict"] == "kill"]
@@ -141,10 +156,10 @@ def shadow():
     (W / "shadow.json").write_text(json.dumps(out, indent=1)); log(f"shadow: {len(out)} re-judged, wrong kills {len(wrong)}")
 
 def evidence():
-    res = json.loads((W / "kc.json").read_text()); byid = {l["id"]: l for l in leads()}
+    res = json.loads(kc_file().read_text()); byid = {l["id"]: l for l in leads()}
     try: sh = json.loads((W / "shadow.json").read_text())
     except Exception: sh = []
-    surv = [r["id"] for r in res if r["verdict"] == "survive"] + [o["id"] for o in sh if o["shadow"].get("verdict") == "survive"]
+    surv = survivors()
     (V9 / "evidence").mkdir(exist_ok=True)
     def one(i):
         p = f"""DEEP EVIDENCE on one business lead that survived a cheap kill-check. Today is {TODAY}. Use live web search thoroughly; cite URLs for every fact. Never invent numbers; 'unverified' otherwise.
@@ -160,7 +175,8 @@ Return ONLY JSON: {{"id":"{i}","name":"","demand":"","prices":"","revenue_proof"
     log(f"evidence: {len(surv)} survivors processed")
 
 def score():
-    ev = [json.loads(f.read_text()) for f in sorted((V9 / "evidence").glob("*.json"))]
+    sv = set(survivors())
+    ev = [json.loads(f.read_text()) for f in sorted((V9 / "evidence").glob("*.json")) if f.stem in sv]
     p = f"""Score each business lead (METHOD step 8) using ONLY the evidence given. Today is {TODAY}. No web needed.
 {CONSTRAINTS}
 Rules: {RULES}
