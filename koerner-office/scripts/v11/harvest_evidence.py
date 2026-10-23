@@ -7,12 +7,16 @@ SINCE = dt.datetime(2026, 4, 23, tzinfo=dt.timezone.utc); UA = "Mozilla/5.0 (Mac
 LOG = Path("/tmp/loop/v11/harvest_evidence.log")
 def log(m):
     print(m, flush=True); open(LOG, "a").write(f"{dt.datetime.now():%H:%M:%S} {m}\n")
-def get(url, tries=3):
+RL = {"n": 0}
+def get(url, tries=2):
     for t in range(tries):
         try:
-            with ur.urlopen(ur.Request(url, headers={"User-Agent": UA}), timeout=25) as r: return r.read().decode("utf-8", "replace")
+            with ur.urlopen(ur.Request(url, headers={"User-Agent": UA}), timeout=25) as r: RL["n"] = 0; return r.read().decode("utf-8", "replace")
         except Exception as e:
-            if "429" in str(e): time.sleep(20 * (t + 1))
+            if "429" in str(e):
+                RL["n"] += 1; log(f"429 {url[:80]}")
+                if RL["n"] >= 3: return None
+                time.sleep(15)
             elif t == tries - 1: log(f"FAIL {url[:100]} {e}"); return None
             else: time.sleep(3)
     return None
@@ -43,10 +47,13 @@ log(f"hn: {len(recs)}")
 # Reddit search RSS (global + business subs)
 n0 = len(recs); ns = {"a": "http://www.w3.org/2005/Atom"}
 SUBS = [None, "smallbusiness", "Entrepreneur", "SaaS", "ecommerce", "shopify", "accounting", "Bookkeeping", "realtors", "sysadmin", "msp", "marketing", "freelance", "agency", "projectmanagement", "nonprofit", "PropertyManagement", "Etsy", "AmazonSeller", "legaltech"]
-for sub in SUBS:
-    for q in PHRASES[:12]:
+import itertools, os
+REDDIT_OFF = os.environ.get("NO_REDDIT") == "1"
+for sub, q in ([] if REDDIT_OFF else itertools.product(SUBS[:10], PHRASES[:8])):
+    if RL["n"] >= 3: log("reddit circuit breaker: 3 consecutive 429s, stopping reddit"); break
+    if True:
         base = f"https://www.reddit.com/r/{sub}/search.rss?restrict_sr=1&" if sub else "https://www.reddit.com/search.rss?"
-        t = get(base + f"q={up.quote(q)}&sort=new&t=year&limit=100"); time.sleep(2.2)
+        t = get(base + f"q={up.quote(q)}&sort=new&t=year&limit=100"); time.sleep(4)
         if not t: continue
         try: root = ET.fromstring(t)
         except Exception: continue
@@ -56,7 +63,7 @@ for sub in SUBS:
             except Exception: date = None
             add("reddit" + (f":{sub}" if sub else ""), (a.text if a is not None else "?").replace("/u/", ""), date, e.find("a:link", ns).get("href"),
                 strip((e.find("a:title", ns).text or "") + " " + (e.find("a:content", ns).text or "")))
-log(f"reddit: {len(recs) - n0}")
+log(f"reddit: {len(recs) - n0}"); RL["n"] = 0
 
 # Apple App Store 1-2 star reviews of paid/subscription apps (US store), recent pages
 n0 = len(recs)
