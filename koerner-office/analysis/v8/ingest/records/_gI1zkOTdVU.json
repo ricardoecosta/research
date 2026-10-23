@@ -1,0 +1,131 @@
+{
+ "id": "_gI1zkOTdVU",
+ "publish_date": "20261019",
+ "channel": "Chris Koerner on The Koerner Office Podcast",
+ "status": "ingested",
+ "title": "He Makes $16K/Month Renting Out a Space He Doesn’t Own",
+ "provider": null,
+ "duration_s": "3417",
+ "n_lines": 1261,
+ "n_removed_lines": 20,
+ "removed": [
+  {
+   "from": 202,
+   "to": 203,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 519,
+   "to": 530,
+   "reason": "sponsor"
+  },
+  {
+   "from": 949,
+   "to": 949,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 1257,
+   "to": 1261,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "_gI1zkOTdVU#r1",
+   "business": "The Hall ATL: an event venue rented for birthday parties, weddings, church services, and other events",
+   "ranges": [
+    [
+     1,
+     201
+    ],
+    [
+     204,
+     518
+    ],
+    [
+     531,
+     948
+    ],
+    [
+     950,
+     1249
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "_gI1zkOTdVU#r2",
+   "business": "The host's iPhone repair store",
+   "ranges": [
+    [
+     71,
+     71
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "_gI1zkOTdVU#r3",
+   "business": "The host's studio (not otherwise specified)",
+   "ranges": [
+    [
+     243,
+     247
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "_gI1zkOTdVU#r4",
+   "business": "A church space rental business, potentially a dedicated generic space for churches",
+   "ranges": [
+    [
+     780,
+     867
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "_gI1zkOTdVU#r5",
+   "business": "The guest's friend's event venue in Virginia",
+   "ranges": [
+    [
+     1106,
+     1143
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "_gI1zkOTdVU#r6",
+   "business": "A competing venue on Rockbridge Road run by a woman with decades of wedding industry experience",
+   "ranges": [
+    [
+     979,
+     1004
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "_gI1zkOTdVU#r7",
+   "business": "Another competing event venue farther down Rockbridge Road",
+   "ranges": [
+    [
+     1005,
+     1020
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "Kept business details throughout, including the guest's promotion of The Hall ATL.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 61
+}

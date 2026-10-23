@@ -1,0 +1,114 @@
+{
+ "id": "gQ4QQAKspvg",
+ "publish_date": "20260904",
+ "channel": "David Heacock",
+ "status": "ingested",
+ "title": "How to Teach Yourself Anything (My System for Making $25M/Month)",
+ "provider": null,
+ "duration_s": "821",
+ "n_lines": 174,
+ "n_removed_lines": 1,
+ "removed": [
+  {
+   "from": 174,
+   "to": 174,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "gQ4QQAKspvg#r1",
+   "business": "FilterBuy, my air filter manufacturer",
+   "ranges": [
+    [
+     1,
+     20
+    ],
+    [
+     33,
+     36
+    ],
+    [
+     48,
+     55
+    ],
+    [
+     68,
+     90
+    ],
+    [
+     95,
+     115
+    ],
+    [
+     117,
+     132
+    ],
+    [
+     146,
+     148
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "gQ4QQAKspvg#r2",
+   "business": "HVAC business",
+   "ranges": [
+    [
+     38,
+     38
+    ],
+    [
+     63,
+     64
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "gQ4QQAKspvg#r3",
+   "business": "Regenerative agriculture farms",
+   "ranges": [
+    [
+     39,
+     39
+    ],
+    [
+     135,
+     135
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "gQ4QQAKspvg#r4",
+   "business": "An unnamed new business opportunity",
+   "ranges": [
+    [
+     97,
+     106
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "gQ4QQAKspvg#r5",
+   "business": "A trucking operation",
+   "ranges": [
+    [
+     146,
+     162
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "Removed the closing prompt to watch another video.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 39
+}

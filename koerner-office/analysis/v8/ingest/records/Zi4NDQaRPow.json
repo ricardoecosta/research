@@ -1,0 +1,218 @@
+{
+ "id": "Zi4NDQaRPow",
+ "publish_date": "20260727",
+ "channel": "Side Hustle Nation",
+ "status": "ingested",
+ "title": "She Bought A \"Boring Business\"... It Almost Ruined Her Life",
+ "provider": "local_whisper_tiny",
+ "duration_s": "3414",
+ "n_lines": 769,
+ "n_removed_lines": 73,
+ "removed": [
+  {
+   "from": 11,
+   "to": 12,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 221,
+   "to": 234,
+   "reason": "sponsor"
+  },
+  {
+   "from": 235,
+   "to": 255,
+   "reason": "sponsor"
+  },
+  {
+   "from": 518,
+   "to": 531,
+   "reason": "sponsor"
+  },
+  {
+   "from": 532,
+   "to": 543,
+   "reason": "sponsor"
+  },
+  {
+   "from": 760,
+   "to": 769,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "Zi4NDQaRPow#r1",
+   "business": "landscaping company they bought and rebuilt",
+   "ranges": [
+    [
+     1,
+     7
+    ],
+    [
+     13,
+     53
+    ],
+    [
+     84,
+     118
+    ],
+    [
+     120,
+     130
+    ],
+    [
+     138,
+     220
+    ],
+    [
+     258,
+     460
+    ],
+    [
+     466,
+     490
+    ],
+    [
+     495,
+     517
+    ],
+    [
+     544,
+     610
+    ],
+    [
+     630,
+     655
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "Zi4NDQaRPow#r2",
+   "business": "e-commerce business selling on Amazon and Shopify",
+   "ranges": [
+    [
+     55,
+     64
+    ],
+    [
+     70,
+     72
+    ],
+    [
+     212,
+     220
+    ],
+    [
+     256,
+     257
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Zi4NDQaRPow#r3",
+   "business": "boat repair company they considered buying",
+   "ranges": [
+    [
+     79,
+     83
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Zi4NDQaRPow#r4",
+   "business": "residential cleaning business",
+   "ranges": [
+    [
+     132,
+     137
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Zi4NDQaRPow#r5",
+   "business": "AI consulting and implementation business for business owners (Andrea Palacio.ai), including its AI program",
+   "ranges": [
+    [
+     491,
+     494
+    ],
+    [
+     656,
+     726
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Zi4NDQaRPow#r6",
+   "business": "pest control company they acquired a stake in",
+   "ranges": [
+    [
+     461,
+     465
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Zi4NDQaRPow#r7",
+   "business": "another landscaping company they analyzed but passed on",
+   "ranges": [
+    [
+     611,
+     621
+    ],
+    [
+     625,
+     629
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Zi4NDQaRPow#r8",
+   "business": "apartment building rental property, used as a valuation example",
+   "ranges": [
+    [
+     622,
+     624
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Zi4NDQaRPow#r9",
+   "business": "self-service car wash",
+   "ranges": [
+    [
+     753,
+     755
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Zi4NDQaRPow#r10",
+   "business": "laundromat",
+   "ranges": [
+    [
+     756,
+     759
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "English transcript; the main story is the acquired landscaping company.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 101
+}

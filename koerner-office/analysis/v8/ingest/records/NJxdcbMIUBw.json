@@ -1,0 +1,103 @@
+{
+ "id": "NJxdcbMIUBw",
+ "publish_date": "20261014",
+ "channel": "George McConnell",
+ "status": "ingested",
+ "title": "I Tested Higgsfield Katana So You Don't Have To",
+ "provider": null,
+ "duration_s": "632",
+ "n_lines": 171,
+ "n_removed_lines": 8,
+ "removed": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "filler"
+  },
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 66,
+   "to": 66,
+   "reason": "filler"
+  },
+  {
+   "from": 135,
+   "to": 135,
+   "reason": "filler"
+  },
+  {
+   "from": 168,
+   "to": 171,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "NJxdcbMIUBw#r1",
+   "business": "Higgsfield Katana, an AI content creation feature",
+   "ranges": [
+    [
+     1,
+     10
+    ],
+    [
+     12,
+     50
+    ],
+    [
+     55,
+     77
+    ],
+    [
+     113,
+     167
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "NJxdcbMIUBw#r2",
+   "business": "An e-commerce store selling a “Bad Influence” sweatshirt",
+   "ranges": [
+    [
+     51,
+     77
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "NJxdcbMIUBw#r3",
+   "business": "Faceless channels on Instagram and YouTube",
+   "ranges": [
+    [
+     78,
+     112
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "NJxdcbMIUBw#r4",
+   "business": "Von water bottle product",
+   "ranges": [
+    [
+     113,
+     156
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "Katana is the main subject; the other records are business and product examples.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 31
+}

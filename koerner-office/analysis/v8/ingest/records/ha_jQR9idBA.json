@@ -1,0 +1,178 @@
+{
+ "id": "ha_jQR9idBA",
+ "publish_date": "20260724",
+ "channel": "Johnny & Sergio",
+ "status": "ingested",
+ "title": "How He Turned a Small Cleaning Side Hustle Into a Nationwide Company",
+ "provider": null,
+ "duration_s": "2464",
+ "n_lines": 609,
+ "n_removed_lines": 52,
+ "removed": [
+  {
+   "from": 9,
+   "to": 11,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 19,
+   "to": 26,
+   "reason": "filler"
+  },
+  {
+   "from": 185,
+   "to": 199,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 584,
+   "to": 609,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "ha_jQR9idBA#r1",
+   "business": "CB Facility Services, the commercial cleaning and facility-services business",
+   "ranges": [
+    [
+     16,
+     18
+    ],
+    [
+     212,
+     214
+    ],
+    [
+     216,
+     266
+    ],
+    [
+     269,
+     396
+    ],
+    [
+     397,
+     417
+    ],
+    [
+     420,
+     448
+    ],
+    [
+     459,
+     479
+    ],
+    [
+     488,
+     510
+    ],
+    [
+     511,
+     580
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "ha_jQR9idBA#r2",
+   "business": "Clean Bro, the residential cleaning company",
+   "ranges": [
+    [
+     1,
+     8
+    ],
+    [
+     12,
+     15
+    ],
+    [
+     28,
+     31
+    ],
+    [
+     38,
+     44
+    ],
+    [
+     54,
+     60
+    ],
+    [
+     65,
+     70
+    ],
+    [
+     83,
+     118
+    ],
+    [
+     120,
+     145
+    ],
+    [
+     153,
+     184
+    ],
+    [
+     200,
+     214
+    ],
+    [
+     216,
+     264
+    ],
+    [
+     397,
+     417
+    ],
+    [
+     420,
+     448
+    ],
+    [
+     459,
+     479
+    ],
+    [
+     488,
+     510
+    ],
+    [
+     511,
+     580
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "ha_jQR9idBA#r3",
+   "business": "The web-based business he started to market and sell products, including commercial cleaning products",
+   "ranges": [
+    [
+     48,
+     51
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "ha_jQR9idBA#r4",
+   "business": "Home Service Academy (HSA), the cleaning-business coaching program",
+   "ranges": [
+    [
+     65,
+     70
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "The commercial contracts began through Clean Bro before CB Facility Services was formed; HSA is also discussed as a separate coaching business.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 53
+}

@@ -1,0 +1,159 @@
+{
+ "id": "QXxESN94Y6s",
+ "publish_date": "20261011",
+ "channel": "Starter Story",
+ "status": "ingested",
+ "title": "My First SaaS Project Just Hit $11K/Month",
+ "provider": "local_whisper_tiny",
+ "duration_s": "784",
+ "n_lines": 238,
+ "n_removed_lines": 26,
+ "removed": [
+  {
+   "from": 1,
+   "to": 1,
+   "reason": "filler"
+  },
+  {
+   "from": 3,
+   "to": 3,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 15,
+   "to": 19,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 43,
+   "to": 46,
+   "reason": "sponsor"
+  },
+  {
+   "from": 47,
+   "to": 47,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 211,
+   "to": 214,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 216,
+   "to": 218,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 219,
+   "to": 220,
+   "reason": "tangent"
+  },
+  {
+   "from": 234,
+   "to": 238,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "QXxESN94Y6s#r1",
+   "business": "Vogola, an AI video editing platform",
+   "ranges": [
+    [
+     2,
+     14
+    ],
+    [
+     20,
+     42
+    ],
+    [
+     48,
+     51
+    ],
+    [
+     58,
+     61
+    ],
+    [
+     64,
+     74
+    ],
+    [
+     76,
+     95
+    ],
+    [
+     97,
+     111
+    ],
+    [
+     114,
+     127
+    ],
+    [
+     128,
+     176
+    ],
+    [
+     178,
+     198
+    ],
+    [
+     202,
+     210
+    ],
+    [
+     215,
+     215
+    ],
+    [
+     221,
+     233
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "QXxESN94Y6s#r2",
+   "business": "a top marketing startup in my city",
+   "ranges": [
+    [
+     53,
+     55
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "QXxESN94Y6s#r3",
+   "business": "selling lemonade",
+   "ranges": [
+    [
+     56,
+     57
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "QXxESN94Y6s#r4",
+   "business": "selling slime at elementary school",
+   "ranges": [
+    [
+     56,
+     57
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "Vogola is the primary business; the other ventures are mentioned in passing.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 65
+}

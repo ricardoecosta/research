@@ -1,0 +1,84 @@
+{
+ "id": "czzv3o0PCmI",
+ "publish_date": "20250617",
+ "channel": "Niche Pursuits",
+ "status": "ingested",
+ "title": "I Lost $120k, Then Made $1 Million with This SaaS Idea…",
+ "provider": "local_whisper_tiny",
+ "duration_s": "482",
+ "n_lines": 79,
+ "n_removed_lines": 2,
+ "removed": [
+  {
+   "from": 5,
+   "to": 5,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 79,
+   "to": 79,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "czzv3o0PCmI#r1",
+   "business": "Long Tell Pro",
+   "ranges": [
+    [
+     6,
+     7
+    ],
+    [
+     19,
+     19
+    ],
+    [
+     78,
+     78
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "czzv3o0PCmI#r2",
+   "business": "Table Labs",
+   "ranges": [
+    [
+     7,
+     46
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "czzv3o0PCmI#r3",
+   "business": "Niche Pursuits",
+   "ranges": [
+    [
+     19,
+     19
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "czzv3o0PCmI#r4",
+   "business": "Link Whisper",
+   "ranges": [
+    [
+     47,
+     77
+    ]
+   ],
+   "is_primary": true
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "Kept line 78 because it includes Long Tell Pro’s seven-figure exit.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 24
+}

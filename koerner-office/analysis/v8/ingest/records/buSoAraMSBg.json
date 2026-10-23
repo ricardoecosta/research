@@ -1,0 +1,261 @@
+{
+ "id": "buSoAraMSBg",
+ "publish_date": "20261014",
+ "channel": "My First Million",
+ "status": "ingested",
+ "title": "Marketing so good, you couldn’t tell it’s a scam",
+ "provider": "local_whisper_tiny",
+ "duration_s": "1933",
+ "n_lines": 526,
+ "n_removed_lines": 78,
+ "removed": [
+  {
+   "from": 90,
+   "to": 101,
+   "reason": "sponsor"
+  },
+  {
+   "from": 461,
+   "to": 525,
+   "reason": "tangent"
+  },
+  {
+   "from": 526,
+   "to": 526,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "buSoAraMSBg#r1",
+   "business": "diamond industry, including natural and lab-grown diamonds and engagement rings",
+   "ranges": [
+    [
+     1,
+     89
+    ],
+    [
+     102,
+     128
+    ],
+    [
+     129,
+     224
+    ],
+    [
+     232,
+     353
+    ],
+    [
+     383,
+     394
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "buSoAraMSBg#r2",
+   "business": "De Beers diamond company",
+   "ranges": [
+    [
+     72,
+     75
+    ],
+    [
+     110,
+     128
+    ],
+    [
+     131,
+     164
+    ],
+    [
+     166,
+     186
+    ],
+    [
+     195,
+     224
+    ],
+    [
+     299,
+     340
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "buSoAraMSBg#r3",
+   "business": "marketing agency hired by De Beers (name transcribed as “N-W-A-R-A-Y-E-R”)",
+   "ranges": [
+    [
+     131,
+     147
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "buSoAraMSBg#r4",
+   "business": "chocolate sales around Halloween and Easter",
+   "ranges": [
+    [
+     161,
+     162
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "buSoAraMSBg#r5",
+   "business": "fireworks sales around the Fourth of July",
+   "ranges": [
+    [
+     163,
+     163
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "buSoAraMSBg#r6",
+   "business": "Wall Street Journal subscription business",
+   "ranges": [
+    [
+     164,
+     165
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "buSoAraMSBg#r7",
+   "business": "David Ogilvy’s advertising and direct-response copywriting",
+   "ranges": [
+    [
+     225,
+     231
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "buSoAraMSBg#r8",
+   "business": "wine industry and sommelier profession",
+   "ranges": [
+    [
+     259,
+     264
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "buSoAraMSBg#r9",
+   "business": "Gemological Institute of America (GIA), diamond-grading nonprofit",
+   "ranges": [
+    [
+     265,
+     269
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "buSoAraMSBg#r10",
+   "business": "Michelin Guide",
+   "ranges": [
+    [
+     273,
+     275
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "buSoAraMSBg#r11",
+   "business": "restaurants that earn Michelin stars",
+   "ranges": [
+    [
+     275,
+     282
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "buSoAraMSBg#r12",
+   "business": "diamond jewelry retail stores and jewelers",
+   "ranges": [
+    [
+     121,
+     122
+    ],
+    [
+     247,
+     255
+    ],
+    [
+     315,
+     348
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "buSoAraMSBg#r13",
+   "business": "vitamin and supplement industry",
+   "ranges": [
+    [
+     359,
+     363
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "buSoAraMSBg#r14",
+   "business": "data center industry",
+   "ranges": [
+    [
+     364,
+     368
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "buSoAraMSBg#r15",
+   "business": "Bitcoin industry",
+   "ranges": [
+    [
+     371,
+     408
+    ],
+    [
+     411,
+     420
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "buSoAraMSBg#r16",
+   "business": "Ethereum industry",
+   "ranges": [
+    [
+     411,
+     419
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "Removed the sponsor read, unrelated website segment, and outro music.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 56
+}

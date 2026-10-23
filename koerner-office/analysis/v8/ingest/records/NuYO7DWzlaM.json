@@ -1,0 +1,230 @@
+{
+ "id": "NuYO7DWzlaM",
+ "publish_date": "20261018",
+ "channel": "Starter Story",
+ "status": "ingested",
+ "title": "This app is making $2,000 PER DAY",
+ "provider": "local_whisper_tiny",
+ "duration_s": "907",
+ "n_lines": 258,
+ "n_removed_lines": 40,
+ "removed": [
+  {
+   "from": 16,
+   "to": 19,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 27,
+   "to": 28,
+   "reason": "filler"
+  },
+  {
+   "from": 53,
+   "to": 57,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 86,
+   "to": 87,
+   "reason": "tangent"
+  },
+  {
+   "from": 106,
+   "to": 106,
+   "reason": "filler"
+  },
+  {
+   "from": 131,
+   "to": 131,
+   "reason": "filler"
+  },
+  {
+   "from": 167,
+   "to": 168,
+   "reason": "filler"
+  },
+  {
+   "from": 201,
+   "to": 201,
+   "reason": "filler"
+  },
+  {
+   "from": 202,
+   "to": 203,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 205,
+   "to": 209,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 216,
+   "to": 216,
+   "reason": "filler"
+  },
+  {
+   "from": 223,
+   "to": 225,
+   "reason": "filler"
+  },
+  {
+   "from": 234,
+   "to": 236,
+   "reason": "filler"
+  },
+  {
+   "from": 245,
+   "to": 245,
+   "reason": "filler"
+  },
+  {
+   "from": 252,
+   "to": 258,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "NuYO7DWzlaM#r1",
+   "business": "Voltaire, an iPhone app for encrypting and storing files and photos",
+   "ranges": [
+    [
+     1,
+     15
+    ],
+    [
+     20,
+     26
+    ],
+    [
+     29,
+     52
+    ],
+    [
+     58,
+     82
+    ],
+    [
+     83,
+     85
+    ],
+    [
+     96,
+     105
+    ],
+    [
+     107,
+     130
+    ],
+    [
+     132,
+     165
+    ],
+    [
+     169,
+     188
+    ],
+    [
+     191,
+     200
+    ],
+    [
+     204,
+     204
+    ],
+    [
+     210,
+     211
+    ],
+    [
+     218,
+     222
+    ],
+    [
+     226,
+     233
+    ],
+    [
+     237,
+     251
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "NuYO7DWzlaM#r2",
+   "business": "Dropbox, described as a similar file storage app",
+   "ranges": [
+    [
+     33,
+     33
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "NuYO7DWzlaM#r3",
+   "business": "The app the speaker calls “call AI”",
+   "ranges": [
+    [
+     45,
+     46
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "NuYO7DWzlaM#r4",
+   "business": "Security company acquired by Google, where Rastie worked",
+   "ranges": [
+    [
+     88,
+     89
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "NuYO7DWzlaM#r5",
+   "business": "Rastie's first startup, in security",
+   "ranges": [
+    [
+     89,
+     90
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "NuYO7DWzlaM#r6",
+   "business": "Rastie's entertainment company, acquired by Amazon",
+   "ranges": [
+    [
+     91,
+     92
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "NuYO7DWzlaM#r7",
+   "business": "Specs, a venture-funded copyright-as-a-service company for entertainment and music",
+   "ranges": [
+    [
+     93,
+     94
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "Voltaire is primary; earlier ventures and app comparators are listed separately.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 103
+}

@@ -1,0 +1,63 @@
+{
+ "id": "eJn6cEmAQUs",
+ "publish_date": "20260821",
+ "channel": "David Heacock",
+ "status": "ingested",
+ "title": "Rich People Don't Buy Luxury. They Buy These 6 Things Instead.",
+ "provider": null,
+ "duration_s": "453",
+ "n_lines": 114,
+ "n_removed_lines": 2,
+ "removed": [
+  {
+   "from": 2,
+   "to": 2,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 114,
+   "to": 114,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "eJn6cEmAQUs#r1",
+   "business": "FilterBuy, an air filter company",
+   "ranges": [
+    [
+     3,
+     3
+    ],
+    [
+     21,
+     32
+    ],
+    [
+     41,
+     59
+    ],
+    [
+     64,
+     76
+    ],
+    [
+     81,
+     84
+    ],
+    [
+     93,
+     103
+    ]
+   ],
+   "is_primary": true
+  }
+ ],
+ "multi_business": false,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "Only specific business discussed is FilterBuy; other business mentions are general advice.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 16
+}

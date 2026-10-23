@@ -1,0 +1,118 @@
+{
+ "id": "a8P2K9DYJp4",
+ "publish_date": "20260908",
+ "channel": "Chris Koerner on The Koerner Office Podcast",
+ "status": "ingested",
+ "title": "He Gets These Free. Makes $1,000 With Each.",
+ "provider": null,
+ "duration_s": "1097",
+ "n_lines": 407,
+ "n_removed_lines": 25,
+ "removed": [
+  {
+   "from": 92,
+   "to": 96,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 217,
+   "to": 233,
+   "reason": "sponsor"
+  },
+  {
+   "from": 405,
+   "to": 407,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "a8P2K9DYJp4#r1",
+   "business": "The appliance rental business: repairing used washers and dryers and renting them out",
+   "ranges": [
+    [
+     2,
+     21
+    ],
+    [
+     23,
+     91
+    ],
+    [
+     97,
+     216
+    ],
+    [
+     293,
+     353
+    ],
+    [
+     354,
+     367
+    ],
+    [
+     376,
+     385
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "a8P2K9DYJp4#r2",
+   "business": "The appliance flipping business (PFS: post, fix, sell)",
+   "ranges": [
+    [
+     2,
+     21
+    ],
+    [
+     23,
+     91
+    ],
+    [
+     97,
+     216
+    ],
+    [
+     234,
+     292
+    ],
+    [
+     354,
+     359
+    ],
+    [
+     360,
+     360
+    ],
+    [
+     369,
+     380
+    ],
+    [
+     382,
+     385
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "a8P2K9DYJp4#r3",
+   "business": "TakeMyAppliance, the website that connects appliance owners with people who want to pick up, flip, or rent their appliances",
+   "ranges": [
+    [
+     386,
+     404
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "Rental is the primary business; flipping and rentals share the repair process.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 38
+}

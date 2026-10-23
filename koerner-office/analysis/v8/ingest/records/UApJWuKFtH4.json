@@ -1,0 +1,48 @@
+{
+ "id": "UApJWuKFtH4",
+ "publish_date": "20261020",
+ "channel": "Nick Huber - Sweaty Startup",
+ "status": "ingested",
+ "title": "The Phone Habit That Was Ruining My Life",
+ "provider": "local_whisper_tiny",
+ "duration_s": "287",
+ "n_lines": 89,
+ "n_removed_lines": 3,
+ "removed": [
+  {
+   "from": 48,
+   "to": 48,
+   "reason": "filler"
+  },
+  {
+   "from": 60,
+   "to": 60,
+   "reason": "filler"
+  },
+  {
+   "from": 77,
+   "to": 77,
+   "reason": "filler"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "UApJWuKFtH4#r1",
+   "business": "somewhere.com",
+   "ranges": [
+    [
+     80,
+     89
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": false,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "Other companies are mentioned collectively but not identified.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 46
+}

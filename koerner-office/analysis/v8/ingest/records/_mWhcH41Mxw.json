@@ -1,0 +1,95 @@
+{
+ "id": "_mWhcH41Mxw",
+ "publish_date": "20250903",
+ "channel": "Chris Koerner on The Koerner Office Podcast",
+ "status": "ingested",
+ "title": "Google’s New AI Tool Is Crazy Powerful (Here’s How to Profit)",
+ "provider": "youtube-transcript-api",
+ "duration_s": "1101",
+ "n_lines": 400,
+ "n_removed_lines": 22,
+ "removed": [
+  {
+   "from": 6,
+   "to": 6,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 118,
+   "to": 118,
+   "reason": "tangent"
+  },
+  {
+   "from": 180,
+   "to": 184,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 186,
+   "to": 188,
+   "reason": "filler"
+  },
+  {
+   "from": 374,
+   "to": 374,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 386,
+   "to": 393,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 398,
+   "to": 400,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "_mWhcH41Mxw#r1",
+   "business": "AI photo editing and virtual staging for real estate agents",
+   "ranges": [
+    [
+     1,
+     5
+    ],
+    [
+     7,
+     117
+    ],
+    [
+     119,
+     179
+    ],
+    [
+     189,
+     373
+    ],
+    [
+     375,
+     384
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "_mWhcH41Mxw#r2",
+   "business": "HighLevel automation, workflow, pipeline, and website setup services",
+   "ranges": [
+    [
+     385,
+     385
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "The app is presented as an internal tool for the real estate photo service.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 51
+}

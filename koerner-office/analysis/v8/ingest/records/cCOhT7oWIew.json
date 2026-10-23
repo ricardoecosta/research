@@ -1,0 +1,119 @@
+{
+ "id": "cCOhT7oWIew",
+ "publish_date": "20261011",
+ "channel": "Codie Sanchez",
+ "status": "ingested",
+ "title": "$100M CEO Explains: 7 Habits That Hold Entrepreneurs Back",
+ "provider": "local_whisper_tiny",
+ "duration_s": "1073",
+ "n_lines": 285,
+ "n_removed_lines": 19,
+ "removed": [
+  {
+   "from": 62,
+   "to": 64,
+   "reason": "tangent"
+  },
+  {
+   "from": 80,
+   "to": 84,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 94,
+   "to": 96,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 141,
+   "to": 142,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 148,
+   "to": 148,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 203,
+   "to": 204,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 240,
+   "to": 240,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 253,
+   "to": 253,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 285,
+   "to": 285,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "cCOhT7oWIew#r1",
+   "business": "Contrarian Thinking, the speaker's advisory business for owners",
+   "ranges": [
+    [
+     60,
+     61
+    ],
+    [
+     196,
+     202
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "cCOhT7oWIew#r2",
+   "business": "Y Combinator",
+   "ranges": [
+    [
+     18,
+     18
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "cCOhT7oWIew#r3",
+   "business": "HubSpot",
+   "ranges": [
+    [
+     101,
+     105
+    ],
+    [
+     123,
+     123
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "cCOhT7oWIew#r4",
+   "business": "Google",
+   "ranges": [
+    [
+     114,
+     117
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "General entrepreneur advice; named businesses are passing references.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 74
+}

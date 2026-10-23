@@ -1,0 +1,178 @@
+{
+ "id": "cFr-bNBsPb8",
+ "publish_date": "20260503",
+ "channel": "Chris Koerner on The Koerner Office Podcast",
+ "status": "ingested",
+ "title": "He Spends 1 Hour a Week on This Business",
+ "provider": "local_whisper_tiny",
+ "duration_s": "1512",
+ "n_lines": 468,
+ "n_removed_lines": 32,
+ "removed": [
+  {
+   "from": 18,
+   "to": 18,
+   "reason": "tangent"
+  },
+  {
+   "from": 20,
+   "to": 20,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 21,
+   "to": 22,
+   "reason": "filler"
+  },
+  {
+   "from": 140,
+   "to": 155,
+   "reason": "sponsor"
+  },
+  {
+   "from": 264,
+   "to": 265,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 376,
+   "to": 380,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 460,
+   "to": 462,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 467,
+   "to": 468,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "cFr-bNBsPb8#r1",
+   "business": "Swing Cave Golf, a single-bay golf simulator business",
+   "ranges": [
+    [
+     14,
+     17
+    ],
+    [
+     19,
+     19
+    ],
+    [
+     23,
+     139
+    ],
+    [
+     156,
+     263
+    ],
+    [
+     266,
+     375
+    ],
+    [
+     381,
+     459
+    ],
+    [
+     463,
+     466
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "cFr-bNBsPb8#r2",
+   "business": "TPC Craig Ranch",
+   "ranges": [
+    [
+     110,
+     111
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "cFr-bNBsPb8#r3",
+   "business": "Top Golf",
+   "ranges": [
+    [
+     120,
+     123
+    ],
+    [
+     134,
+     138
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "cFr-bNBsPb8#r4",
+   "business": "a private pickleball court business",
+   "ranges": [
+    [
+     84,
+     89
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "cFr-bNBsPb8#r5",
+   "business": "Full Swing golf simulator",
+   "ranges": [
+    [
+     186,
+     195
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "cFr-bNBsPb8#r6",
+   "business": "Trackman golf simulator",
+   "ranges": [
+    [
+     186,
+     195
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "cFr-bNBsPb8#r7",
+   "business": "the vape shop that previously occupied the location",
+   "ranges": [
+    [
+     343,
+     357
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "cFr-bNBsPb8#r8",
+   "business": "the business Jay started and sold in college",
+   "ranges": [
+    [
+     248,
+     249
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "Removed the sponsor segment and host promotions; business mentions include competitors and brief business references.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 45
+}

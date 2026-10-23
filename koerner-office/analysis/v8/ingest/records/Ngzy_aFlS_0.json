@@ -1,0 +1,64 @@
+{
+ "id": "Ngzy_aFlS_0",
+ "publish_date": "20260924",
+ "channel": "George McConnell",
+ "status": "ingested",
+ "title": "The End Of Monthly AI Subscriptions?",
+ "provider": null,
+ "duration_s": "417",
+ "n_lines": 112,
+ "n_removed_lines": 112,
+ "removed": [
+  {
+   "from": 1,
+   "to": 107,
+   "reason": "sponsor"
+  },
+  {
+   "from": 108,
+   "to": 109,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 110,
+   "to": 111,
+   "reason": "sponsor"
+  },
+  {
+   "from": 112,
+   "to": 112,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "Ngzy_aFlS_0#r1",
+   "business": "Higsfield API for generating images and videos with pay-per-use pricing",
+   "ranges": [
+    [
+     1,
+     107
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "Ngzy_aFlS_0#r2",
+   "business": "FAL, compared as a competing image and video generation service",
+   "ranges": [
+    [
+     47,
+     52
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "The video is a promotional walkthrough of Higsfield; Claude and other agents are mentioned as tools for using it.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 39
+}

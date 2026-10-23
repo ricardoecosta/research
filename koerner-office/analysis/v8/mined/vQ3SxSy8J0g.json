@@ -1,0 +1,931 @@
+{
+ "id": "vQ3SxSy8J0g",
+ "title": "I Tried OpenClaw for a Month and I'm Never Going Back",
+ "channel": "Chris Koerner on The Koerner Office Podcast",
+ "publish_date": "20260228",
+ "miner": "codex:gpt-6-luna:xhigh",
+ "mined_at": "2026-10-23T10:39:44",
+ "secs": 222,
+ "schema_errors": [],
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host"
+  },
+  {
+   "name": "Nick",
+   "role": "guest"
+  }
+ ],
+ "evidence_quality": "B",
+ "promo_conflict": "Nick says he has nothing to sell, then closes by mentioning Nick Consulting and a $5,000/hour rate that he says he probably should actually charge.",
+ "ideas": [
+  {
+   "record_id": "vQ3SxSy8J0g#r1",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "On-demand custom printing",
+    "one_liner": "Print personalized designs on varied products for students, sports teams, and consumers, charging per order.",
+    "customer": "Students, school teams, runners, and consumers seeking customized products.",
+    "offer": "Print designs on demand on items such as shirts, shoes, tumblers, phone cases, banners, and stickers.",
+    "revenue_model": "Per-order sales are implied; prices are not stated.",
+    "category": "ecommerce_physical"
+   },
+   "citation": {
+    "lines": [
+     122,
+     125,
+     127,
+     129,
+     130,
+     132,
+     135,
+     137,
+     138,
+     141,
+     142,
+     143,
+     144
+    ],
+    "primary_line": 129
+   },
+   "key_quotes": [
+    {
+     "quote": "dude, you need to put this in your backpack, take it to school, plug it in, and print stuff on demand.",
+     "line": 129
+    },
+    {
+     "quote": "Just use this as your rapid testing machine and just learn where's the demand.",
+     "line": 138
+    }
+   ],
+   "claims": [
+    {
+     "claim": "The speaker suggests that ten hours could be spent exploring possible ways to make money with the printer.",
+     "quote": "Like we could sit here for 10 hours and just scratch the surface of all the ways you could make money with this thing",
+     "line": 137,
+     "first_hand": false,
+     "hypothetical": true
+    }
+   ],
+   "acquisition_channels": [
+    {
+     "channel": "in_person",
+     "details": "Take the printer to school and offer on-demand printing while testing which products people want."
+    }
+   ],
+   "delivery": "The operator brings and runs a physical printer at a school or other customer location, producing customized items on demand.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [],
+    "prices": [],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": null,
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": true,
+   "automation_share_e": 25,
+   "hours_per_week_e": 10,
+   "idea_id": "vQ3SxSy8J0g:i1",
+   "specifics_flag": false,
+   "publish_date": "20260228",
+   "stale_age": false,
+   "recheck": false
+  },
+  {
+   "record_id": "vQ3SxSy8J0g#r2",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "Public company filings dashboard",
+    "one_liner": "A site that organizes public company filings and earnings data for people comparing companies.",
+    "customer": "People researching publicly traded companies, including executives and analysts.",
+    "offer": "A dashboard showing reporting dates, recent performance, revenue, themes, and analyst questions.",
+    "revenue_model": "Not stated.",
+    "category": "saas_software"
+   },
+   "citation": {
+    "lines": [
+     322,
+     325,
+     327,
+     329,
+     412,
+     417,
+     421,
+     422,
+     423
+    ],
+    "primary_line": 421
+   },
+   "key_quotes": [
+    {
+     "quote": "I end up building this site where I can see when the next public reporting from these companies are, how they've done over the last quarter, where the revenue is, how they look.",
+     "line": 421
+    },
+    {
+     "quote": "I can go all the way and see just the themes, you know, how are things looking this quarter.",
+     "line": 422
+    }
+   ],
+   "claims": [
+    {
+     "claim": "API Ninjas was offered at $20 per month for access to its APIs.",
+     "quote": "buy this $20 a month, you get access to all these other APIs.",
+     "line": 417,
+     "first_hand": false,
+     "hypothetical": false
+    }
+   ],
+   "acquisition_channels": [],
+   "delivery": "A website dashboard populated with publicly available company filings and related data.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "API Ninjas"
+    ],
+    "prices": [
+     "$20/month for API Ninjas"
+    ],
+    "platforms": [
+     "Public company 10-K and 10-Q filings"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": null,
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 80,
+   "hours_per_week_e": 6,
+   "idea_id": "vQ3SxSy8J0g:i2",
+   "specifics_flag": true,
+   "publish_date": "20260228",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "vQ3SxSy8J0g#r3",
+   "depth": "mention",
+   "stated_problem": {
+    "quote": "they get together and they spend like a couple days a quarter every quarter",
+    "line": 434,
+    "speaker": "Nick"
+   },
+   "idea": {
+    "name": "Quarterly earnings script pipeline",
+    "one_liner": "A guided workflow that helps public companies turn their data and past transcripts into a draft earnings call script.",
+    "customer": "Publicly traded companies and their executive teams.",
+    "offer": "An intake, strategy, workshop, script drafting, refinement, and export workflow for quarterly earnings calls.",
+    "revenue_model": "Not stated.",
+    "category": "saas_software"
+   },
+   "citation": {
+    "lines": [
+     425,
+     426,
+     429,
+     431,
+     434,
+     437,
+     438,
+     441,
+     444,
+     455,
+     457,
+     458,
+     460,
+     462,
+     464,
+     471,
+     474,
+     476
+    ],
+    "primary_line": 438
+   },
+   "key_quotes": [
+    {
+     "quote": "exactly what the template's going to be you dump the data in I'll give you a first draft I'll save you a day",
+     "line": 437
+    },
+    {
+     "quote": "It's literally intake. Here's your strategy. It's a workshop, script, refinement, and export.",
+     "line": 441
+    }
+   ],
+   "claims": [
+    {
+     "claim": "Public companies have a quarterly reporting requirement.",
+     "quote": "It's an SEC filing requirement, right? Because they're publicly traded. They got to do it on a quarterly basis.",
+     "line": 429,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "Executive teams spend a couple of days each quarter preparing and debating earnings call wording.",
+     "quote": "they get together and they spend like a couple days a quarter every quarter",
+     "line": 434,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "The first draft could save a customer a day.",
+     "quote": "exactly what the template's going to be you dump the data in I'll give you a first draft I'll save you a day",
+     "line": 437,
+     "first_hand": false,
+     "hypothetical": true
+    },
+    {
+     "claim": "Nick says he spent 12 hours building the pipeline.",
+     "quote": "I spent 12 hours like this is to the point I could sell it Chris",
+     "line": 471,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "The workflow could give four of the company's highest-paid people ten hours a year back in their time.",
+     "quote": "you just got the four highest paid people in the entire company 10 hours a year back in their time",
+     "line": 476,
+     "first_hand": false,
+     "hypothetical": true
+    }
+   ],
+   "acquisition_channels": [],
+   "delivery": "A software workflow takes company data through AI-assisted strategy and script drafting; company staff workshop and refine the output before exporting it.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [],
+    "prices": [],
+    "platforms": [
+     "Public company 10-K and 10-Q filings"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": null,
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 45,
+   "hours_per_week_e": 12,
+   "idea_id": "vQ3SxSy8J0g:i3",
+   "specifics_flag": true,
+   "publish_date": "20260228",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "vQ3SxSy8J0g#r4",
+   "depth": "deep",
+   "stated_problem": {
+    "quote": "There's literally no way for you to process all of this information.",
+    "line": 511,
+    "speaker": "Nick"
+   },
+   "idea": {
+    "name": "Personalized OpenClaw assistant setup",
+    "one_liner": "Set up a context-aware AI assistant for professionals that searches personal information and tracks commitments.",
+    "customer": "Professionals and executives who need help organizing information, relationships, and follow-ups.",
+    "offer": "Configure an assistant with personal context, searchable records, and reminders across a user's information sources.",
+    "revenue_model": "Paid setup and support are suggested; amounts are not stated.",
+    "category": "ai_automation"
+   },
+   "citation": {
+    "lines": [
+     18,
+     333,
+     337,
+     339,
+     340,
+     364,
+     366,
+     512,
+     593,
+     594,
+     595,
+     596,
+     597,
+     598,
+     599,
+     615,
+     620,
+     621,
+     622,
+     624,
+     633,
+     634,
+     635,
+     667,
+     669,
+     672
+    ],
+    "primary_line": 620
+   },
+   "key_quotes": [
+    {
+     "quote": "I brought Gary on and I gave him access to my emails and my texts and um my Google accounts and online and everything that I have.",
+     "line": 339
+    },
+    {
+     "quote": "It will remind me because I've got jobs set up for it to come and remind me and say like",
+     "line": 621
+    }
+   ],
+   "claims": [
+    {
+     "claim": "Gemini usage was described as costing about $5 per million tokens.",
+     "quote": "For models like Gemini, you're paying like $5 per million tokens.",
+     "line": 394,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "OpenAI's newest model was described as costing about $10 per million tokens.",
+     "quote": "For a model like OpenAI's newest model, you're probably paying $10 per million tokens.",
+     "line": 395,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "Claude Opus 4.6 was described as costing $25 per million tokens.",
+     "quote": "For Claude's Opus 4.6, you're paying $25 per million tokens.",
+     "line": 396,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "Nick contrasts a five-hour old workflow with a five-minute workflow after setup.",
+     "quote": "Cuz like the old paradigm is this took you five hours. The new paradigm is it took me like five minutes.",
+     "line": 633,
+     "first_hand": false,
+     "hypothetical": false
+    }
+   ],
+   "acquisition_channels": [],
+   "delivery": "A provider connects and organizes a customer's information sources, configures assistant memory and search, and sets up recurring reminders and queries.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "OpenClaw",
+     "Claude Opus 4.6",
+     "Gemini",
+     "OpenAI models",
+     "ChatGPT",
+     "iMessage MCP server",
+     "QMD"
+    ],
+    "prices": [
+     "$5 per million tokens for Gemini",
+     "$10 per million tokens for OpenAI's newest model",
+     "$25 per million tokens for Claude Opus 4.6"
+    ],
+    "platforms": [
+     "Mac (local hosting)"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "If handling users' emails, texts, or other personal information, UK GDPR requirements for lawful processing, security, and processor arrangements are relevant.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 50,
+   "hours_per_week_e": 15,
+   "idea_id": "vQ3SxSy8J0g:i4",
+   "specifics_flag": true,
+   "publish_date": "20260228",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "vQ3SxSy8J0g#r5",
+   "depth": "mention",
+   "stated_problem": {
+    "quote": "There is no way for them to capture what was done in that meeting, save it to some type of a archival system that you can then access and query later and then follow up with individuals.",
+    "line": 680,
+    "speaker": "Nick"
+   },
+   "idea": {
+    "name": "Meeting capture and follow-up service",
+    "one_liner": "Record and transcribe company meetings, then make summaries, searchable records, and follow-up reminders available.",
+    "customer": "Individuals and companies that need to remember meeting decisions and commitments.",
+    "offer": "Meeting recording, transcription, summaries, searchable archiving, and accountability reminders.",
+    "revenue_model": "Not stated.",
+    "category": "saas_software"
+   },
+   "citation": {
+    "lines": [
+     675,
+     677,
+     679,
+     680,
+     681,
+     688,
+     690,
+     691,
+     695
+    ],
+    "primary_line": 677
+   },
+   "key_quotes": [
+    {
+     "quote": "If you want to unlock the most value, record your meetings.",
+     "line": 675
+    },
+    {
+     "quote": "record a meeting, summarize it, put in a transcript, put it somewhere that you're going to check in",
+     "line": 690
+    }
+   ],
+   "claims": [
+    {
+     "claim": "Nick uses an exaggerated example that following through on a meeting commitment could make millions of dollars.",
+     "quote": "that will make you millions of dollars",
+     "line": 677,
+     "first_hand": false,
+     "hypothetical": true
+    },
+    {
+     "claim": "Nick says this practice puts users ahead of 95% of people, whom he says are not using it that way.",
+     "quote": "you're ahead of 95% of people because they're not using it for that right now.",
+     "line": 688,
+     "first_hand": false,
+     "hypothetical": false
+    }
+   ],
+   "acquisition_channels": [],
+   "delivery": "A service records and transcribes meetings, creates summaries, stores searchable records, and prompts users about commitments and follow-ups.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "Microsoft Copilot (mentioned as inadequate)"
+    ],
+    "prices": [],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "Meeting recordings and transcripts may contain personal data; UK GDPR transparency, lawful processing, access control, and retention requirements are relevant.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 70,
+   "hours_per_week_e": 10,
+   "idea_id": "vQ3SxSy8J0g:i5",
+   "specifics_flag": true,
+   "publish_date": "20260228",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "vQ3SxSy8J0g#r6",
+   "depth": "mention",
+   "stated_problem": {
+    "quote": "So, a lot of these companies have data, but they're not they're not cleaning it.",
+    "line": 516,
+    "speaker": "Nick"
+   },
+   "idea": {
+    "name": "Company data cleaning and structuring",
+    "one_liner": "Help companies organize inconsistent files and data so AI systems can retrieve and use them.",
+    "customer": "Companies with large, fragmented document stores and inconsistent naming or taxonomy.",
+    "offer": "Clean, categorize, standardize, and structure business data for retrieval and AI use.",
+    "revenue_model": "Project or service fees are implied; amounts are not stated.",
+    "category": "b2b_service"
+   },
+   "citation": {
+    "lines": [
+     512,
+     516,
+     525,
+     527,
+     529,
+     533,
+     535,
+     540,
+     561,
+     564,
+     566,
+     568,
+     569,
+     591,
+     592
+    ],
+    "primary_line": 561
+   },
+   "key_quotes": [
+    {
+     "quote": "helping companies get clean data is a multi-million dollar business.",
+     "line": 561
+    },
+    {
+     "quote": "you chunk it and you clean it and you tag it and you embed it whatever and then you set up these systems",
+     "line": 592
+    }
+   ],
+   "claims": [
+    {
+     "claim": "Nick calls company data cleaning a multi-million-dollar business.",
+     "quote": "helping companies get clean data is a multi-million dollar business.",
+     "line": 561,
+     "first_hand": false,
+     "hypothetical": true
+    },
+    {
+     "claim": "AI can do about 80% of cleanup, while the remaining 20% takes a long time.",
+     "quote": "You can get 80% of it done, but that last 20% takes a long time.",
+     "line": 564,
+     "first_hand": false,
+     "hypothetical": true
+    },
+    {
+     "claim": "An AI process might categorize files to 80% confidence.",
+     "quote": "I could probably run AI on it and categorize everything to 80% confidence",
+     "line": 566,
+     "first_hand": false,
+     "hypothetical": true
+    },
+    {
+     "claim": "The example company could still have 20,000 files that need manual decisions.",
+     "quote": "there's still, let's say, 20,000 files in there that you don't know where they go",
+     "line": 566,
+     "first_hand": false,
+     "hypothetical": true
+    }
+   ],
+   "acquisition_channels": [],
+   "delivery": "A provider audits a company's data, automates initial categorization, resolves ambiguous files with staff, and structures the resulting collection for retrieval.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [],
+    "prices": [],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "UK GDPR and appropriate security and processor arrangements are relevant where the data includes personal information.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 50,
+   "hours_per_week_e": 15,
+   "idea_id": "vQ3SxSy8J0g:i6",
+   "specifics_flag": false,
+   "publish_date": "20260228",
+   "stale_age": false,
+   "recheck": false
+  },
+  {
+   "record_id": "vQ3SxSy8J0g#r7",
+   "depth": "deep",
+   "stated_problem": {
+    "quote": "they don't they don't even know how to like Google something, let alone use AI.",
+    "line": 280,
+    "speaker": "Nick"
+   },
+   "idea": {
+    "name": "Executive AI consulting and training",
+    "one_liner": "Brief executives on useful AI capabilities and help organizations learn how to apply them through training and ongoing advice.",
+    "customer": "Executives and leadership teams at companies, especially publicly traded companies.",
+    "offer": "Executive briefings, courses, weekly roundtables, AI consulting, fractional AI leadership, and ongoing briefings.",
+    "revenue_model": "Consulting and training fees are discussed; ongoing retainer or newsletter pricing is not stated.",
+    "category": "b2b_service"
+   },
+   "citation": {
+    "lines": [
+     280,
+     696,
+     700,
+     721,
+     722,
+     724,
+     725,
+     726,
+     733,
+     734,
+     742,
+     745,
+     752,
+     753,
+     754,
+     853,
+     854,
+     855,
+     856
+    ],
+    "primary_line": 745
+   },
+   "key_quotes": [
+    {
+     "quote": "I think just doing that session alone, you could charge a couple thousand dollars just to give these executives a taste of kind of what's coming around the corner",
+     "line": 745
+    },
+    {
+     "quote": "So, I think an executive boot camp, I think weekly roundtables, I think a fractional AI officer is 100% in the offering.",
+     "line": 752
+    }
+   ],
+   "claims": [
+    {
+     "claim": "Nick says 95% of an executive's competitors do not know what is coming in AI.",
+     "quote": "I know what's coming around the corner and 95% of your competitors don't.",
+     "line": 724,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "An organization asked Nick about delivering a 12-week course with one hour of training each week.",
+     "quote": "They've asked me to like, hey, would you just would you do a course for the next 12 weeks, 1 hour a week for the executive team?",
+     "line": 733,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "Nick suggests a weekly consulting visit as a possible service.",
+     "quote": "Once a week, you could come in and and pay consulting services.",
+     "line": 742,
+     "first_hand": false,
+     "hypothetical": true
+    },
+    {
+     "claim": "A single executive briefing could be priced at a couple thousand dollars.",
+     "quote": "I think just doing that session alone, you could charge a couple thousand dollars",
+     "line": 745,
+     "first_hand": false,
+     "hypothetical": true
+    },
+    {
+     "claim": "Nick says he could be contacted at Nick Consulting at $5,000 an hour, then says he probably should actually charge that.",
+     "quote": "you can find me at Nick Consulting $5,000 an hour Uh, I probably should actually.",
+     "line": 853,
+     "first_hand": false,
+     "hypothetical": true
+    }
+   ],
+   "acquisition_channels": [
+    {
+     "channel": "cold_call",
+     "details": "Call executives at publicly traded companies after identifying prospects from public company data."
+    },
+    {
+     "channel": "cold_email",
+     "details": "Find public executive contact details and email an AI briefing offer."
+    }
+   ],
+   "delivery": "The founder personally briefs or trains executive teams, offers ongoing consulting or roundtables, and may provide fractional AI leadership or written briefings.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "OpenClaw",
+     "Claude"
+    ],
+    "prices": [
+     "A couple thousand dollars for a briefing session",
+     "$5,000/hour (mentioned as a possible rate)"
+    ],
+    "platforms": [
+     "Nick Consulting"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "For UK outreach, cold email should be limited to corporate subscribers such as Ltd or PLC companies and include an opt-out; cold calls should be screened against TPS/CTPS. UK GDPR applies to contact data.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": true,
+   "physical_world": false,
+   "automation_share_e": 35,
+   "hours_per_week_e": 20,
+   "idea_id": "vQ3SxSy8J0g:i7",
+   "specifics_flag": true,
+   "publish_date": "20260228",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "vQ3SxSy8J0g#r8",
+   "depth": "mention",
+   "stated_problem": {
+    "quote": "If somebody let something slip through the cracks, that's an opportunity.",
+    "line": 714,
+    "speaker": "Nick"
+   },
+   "idea": {
+    "name": "Custom-coded AI tools agency",
+    "one_liner": "Build small custom tools for organizations to reduce repetitive work and improve processes.",
+    "customer": "Organizations with manual workflows, inefficient meetings, spreadsheets, or dropped follow-ups.",
+    "offer": "Custom software and AI-powered tools tailored to specific company processes.",
+    "revenue_model": "Not stated.",
+    "category": "agency"
+   },
+   "citation": {
+    "lines": [
+     707,
+     713,
+     714,
+     715,
+     717,
+     718,
+     756,
+     757
+    ],
+    "primary_line": 717
+   },
+   "key_quotes": [
+    {
+     "quote": "The cost of custom code is so low that you can build customized tools that save people 80% of their time and it doesn't have to be like on the mass corporate scale.",
+     "line": 717
+    }
+   ],
+   "claims": [
+    {
+     "claim": "Nick says custom tools can save people 80% of their time.",
+     "quote": "The cost of custom code is so low that you can build customized tools that save people 80% of their time",
+     "line": 717,
+     "first_hand": false,
+     "hypothetical": true
+    }
+   ],
+   "acquisition_channels": [],
+   "delivery": "The agency scopes an organization's workflow, builds a tailored tool, and supports its use by staff.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [],
+    "prices": [],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": null,
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 45,
+   "hours_per_week_e": 20,
+   "idea_id": "vQ3SxSy8J0g:i8",
+   "specifics_flag": false,
+   "publish_date": "20260228",
+   "stale_age": false,
+   "recheck": false
+  },
+  {
+   "record_id": "vQ3SxSy8J0g#r9",
+   "depth": "mention",
+   "stated_problem": {
+    "quote": "Because right now they have no way to do it.",
+    "line": 760,
+    "speaker": "Nick"
+   },
+   "idea": {
+    "name": "AI search over company data",
+    "one_liner": "Give staff a natural-language interface for finding answers in an organization's proprietary data.",
+    "customer": "Organizations with proprietary data that staff cannot easily query.",
+    "offer": "An AI interface that lets employees search company data and ask operational questions in plain language.",
+    "revenue_model": "Not stated.",
+    "category": "saas_software"
+   },
+   "citation": {
+    "lines": [
+     758,
+     759,
+     760,
+     761,
+     764,
+     765,
+     766,
+     767,
+     768,
+     775
+    ],
+    "primary_line": 764
+   },
+   "key_quotes": [
+    {
+     "quote": "Probably the biggest unlock though is if you can figure out how to get proprietary data sets within an organization accessible to that organization.",
+     "line": 758
+    },
+    {
+     "quote": "If that would return an answer, that blows people's minds and you can do that right now.",
+     "line": 765
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "A provider connects company data to an AI search interface and configures it to answer staff questions.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "Power BI",
+     "SQL"
+    ],
+    "prices": [],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "UK GDPR and appropriate access controls are relevant if connected company datasets contain personal information.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 50,
+   "hours_per_week_e": 18,
+   "idea_id": "vQ3SxSy8J0g:i9",
+   "specifics_flag": true,
+   "publish_date": "20260228",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "vQ3SxSy8J0g#r10",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "Healthcare quality report access",
+    "one_liner": "Help healthcare organizations make quality reports available across all their locations.",
+    "customer": "Healthcare organizations that manage multiple provider locations.",
+    "offer": "Implement a way to retrieve and use quality reports across locations.",
+    "revenue_model": "Not stated.",
+    "category": "b2b_service"
+   },
+   "citation": {
+    "lines": [
+     776,
+     777,
+     778,
+     779
+    ],
+    "primary_line": 778
+   },
+   "key_quotes": [
+    {
+     "quote": "Hey, I will show you how to get every single one of your quality reports for every one of your locations in the next 6 weeks.",
+     "line": 778
+    }
+   ],
+   "claims": [
+    {
+     "claim": "Nick suggests implementing report access across locations within six weeks.",
+     "quote": "I will show you how to get every single one of your quality reports for every one of your locations in the next 6 weeks.",
+     "line": 778,
+     "first_hand": false,
+     "hypothetical": true
+    }
+   ],
+   "acquisition_channels": [],
+   "delivery": "A provider works with a healthcare organization to implement report access across locations over a scoped project.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [],
+    "prices": [],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "UK GDPR applies; health information can be special category personal data and requires appropriate lawful processing and safeguards.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 35,
+   "hours_per_week_e": 20,
+   "idea_id": "vQ3SxSy8J0g:i10",
+   "specifics_flag": false,
+   "publish_date": "20260228",
+   "stale_age": false,
+   "recheck": false
+  }
+ ]
+}

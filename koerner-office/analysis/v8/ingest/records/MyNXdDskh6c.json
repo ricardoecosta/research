@@ -1,0 +1,99 @@
+{
+ "id": "MyNXdDskh6c",
+ "publish_date": "20261007",
+ "channel": "Dark Horse Entrepreneur",
+ "status": "ingested",
+ "title": "Don't Build Anything Until You Do This | Digital Product Validation",
+ "provider": null,
+ "duration_s": "1134",
+ "n_lines": 312,
+ "n_removed_lines": 23,
+ "removed": [
+  {
+   "from": 18,
+   "to": 20,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 34,
+   "to": 34,
+   "reason": "filler"
+  },
+  {
+   "from": 57,
+   "to": 57,
+   "reason": "filler"
+  },
+  {
+   "from": 63,
+   "to": 63,
+   "reason": "filler"
+  },
+  {
+   "from": 277,
+   "to": 288,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 289,
+   "to": 291,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 292,
+   "to": 293,
+   "reason": "tangent"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "MyNXdDskh6c#r1",
+   "business": "Month-end receipt rescue kit for solo bookkeepers",
+   "ranges": [
+    [
+     90,
+     90
+    ],
+    [
+     94,
+     100
+    ],
+    [
+     160,
+     168
+    ],
+    [
+     177,
+     198
+    ],
+    [
+     200,
+     217
+    ],
+    [
+     225,
+     227
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "MyNXdDskh6c#r2",
+   "business": "Podcasting course (pre-sale)",
+   "ranges": [
+    [
+     223,
+     223
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "The receipt rescue kit is a hypothetical running example; the podcasting course is a past pre-sale anecdote.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 49
+}

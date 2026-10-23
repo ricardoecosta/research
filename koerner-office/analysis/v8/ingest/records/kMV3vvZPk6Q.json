@@ -1,0 +1,108 @@
+{
+ "id": "kMV3vvZPk6Q",
+ "publish_date": "20260927",
+ "channel": "Codie Sanchez",
+ "status": "ingested",
+ "title": "The Psychology of Sales (How We Sell $100M)",
+ "provider": "local_whisper_tiny",
+ "duration_s": "1406",
+ "n_lines": 386,
+ "n_removed_lines": 2,
+ "removed": [
+  {
+   "from": 385,
+   "to": 386,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "kMV3vvZPk6Q#r1",
+   "business": "restaurant",
+   "ranges": [
+    [
+     25,
+     25
+    ],
+    [
+     259,
+     266
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "kMV3vvZPk6Q#r2",
+   "business": "real estate agency",
+   "ranges": [
+    [
+     26,
+     34
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "kMV3vvZPk6Q#r3",
+   "business": "hotel",
+   "ranges": [
+    [
+     43,
+     50
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "kMV3vvZPk6Q#r4",
+   "business": "cohort offer",
+   "ranges": [
+    [
+     65,
+     66
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "kMV3vvZPk6Q#r5",
+   "business": "mattress business",
+   "ranges": [
+    [
+     90,
+     104
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "kMV3vvZPk6Q#r6",
+   "business": "roofing business",
+   "ranges": [
+    [
+     187,
+     188
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "kMV3vvZPk6Q#r7",
+   "business": "veterinary clinic",
+   "ranges": [
+    [
+     375,
+     376
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "Sales advice with business types used as examples.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 34
+}

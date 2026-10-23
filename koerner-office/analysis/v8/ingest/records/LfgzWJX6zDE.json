@@ -1,0 +1,79 @@
+{
+ "id": "LfgzWJX6zDE",
+ "publish_date": "20260713",
+ "channel": "UpFlip",
+ "status": "ingested",
+ "title": "She Makes $40K/Month with This Weird Hawaiian Dessert",
+ "provider": "local_whisper_tiny",
+ "duration_s": "2189",
+ "n_lines": 848,
+ "n_removed_lines": 28,
+ "removed": [
+  {
+   "from": 9,
+   "to": 10,
+   "reason": "filler"
+  },
+  {
+   "from": 186,
+   "to": 191,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 263,
+   "to": 271,
+   "reason": "sponsor"
+  },
+  {
+   "from": 467,
+   "to": 470,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 606,
+   "to": 607,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 844,
+   "to": 848,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "LfgzWJX6zDE#r1",
+   "business": "Get Lost Shaved Ice, a Hawaiian shave ice shop with a seasonal food truck",
+   "ranges": [
+    [
+     1,
+     8
+    ],
+    [
+     11,
+     262
+    ],
+    [
+     272,
+     466
+    ],
+    [
+     471,
+     605
+    ],
+    [
+     608,
+     843
+    ]
+   ],
+   "is_primary": true
+  }
+ ],
+ "multi_business": false,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "Removed sponsor and channel promotional segments; kept substantive business discussion.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 58
+}

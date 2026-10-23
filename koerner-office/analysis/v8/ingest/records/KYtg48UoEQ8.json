@@ -1,0 +1,288 @@
+{
+ "id": "KYtg48UoEQ8",
+ "publish_date": "20251015",
+ "channel": "Chris Koerner on The Koerner Office Podcast",
+ "status": "ingested",
+ "title": "I Asked AI to Help Me Beat the Stock Market",
+ "provider": "youtube-transcript-api",
+ "duration_s": "732",
+ "n_lines": 186,
+ "n_removed_lines": 6,
+ "removed": [
+  {
+   "from": 2,
+   "to": 2,
+   "reason": "filler"
+  },
+  {
+   "from": 48,
+   "to": 48,
+   "reason": "filler"
+  },
+  {
+   "from": 72,
+   "to": 72,
+   "reason": "filler"
+  },
+  {
+   "from": 136,
+   "to": 136,
+   "reason": "filler"
+  },
+  {
+   "from": 179,
+   "to": 179,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 180,
+   "to": 180,
+   "reason": "filler"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "KYtg48UoEQ8#r1",
+   "business": "Neil Stocks (NEL), the free stock investing tracker and research website",
+   "ranges": [
+    [
+     3,
+     47
+    ],
+    [
+     49,
+     71
+    ],
+    [
+     73,
+     134
+    ],
+    [
+     181,
+     186
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "KYtg48UoEQ8#r2",
+   "business": "Robin Hood (Robinhood)",
+   "ranges": [
+    [
+     1,
+     1
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "KYtg48UoEQ8#r3",
+   "business": "eBay",
+   "ranges": [
+    [
+     14,
+     16
+    ],
+    [
+     25,
+     26
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "KYtg48UoEQ8#r4",
+   "business": "Facebook (Meta)",
+   "ranges": [
+    [
+     17,
+     20
+    ],
+    [
+     84,
+     85
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "KYtg48UoEQ8#r5",
+   "business": "Tesla",
+   "ranges": [
+    [
+     21,
+     24
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "KYtg48UoEQ8#r6",
+   "business": "StubHub",
+   "ranges": [
+    [
+     25,
+     25
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "KYtg48UoEQ8#r7",
+   "business": "Replit",
+   "ranges": [
+    [
+     5,
+     5
+    ],
+    [
+     29,
+     38
+    ],
+    [
+     45,
+     47
+    ],
+    [
+     49,
+     55
+    ],
+    [
+     90,
+     93
+    ],
+    [
+     105,
+     117
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "KYtg48UoEQ8#r8",
+   "business": "ChatGPT",
+   "ranges": [
+    [
+     8,
+     8
+    ],
+    [
+     39,
+     44
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "KYtg48UoEQ8#r9",
+   "business": "Google (Google Sheets and Google Finance)",
+   "ranges": [
+    [
+     64,
+     69
+    ],
+    [
+     74,
+     75
+    ],
+    [
+     89,
+     93
+    ],
+    [
+     108,
+     108
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "KYtg48UoEQ8#r10",
+   "business": "GPT for Sheets",
+   "ranges": [
+    [
+     71,
+     71
+    ],
+    [
+     73,
+     89
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "KYtg48UoEQ8#r11",
+   "business": "Kagra Brands",
+   "ranges": [
+    [
+     75,
+     80
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "KYtg48UoEQ8#r12",
+   "business": "The crypto company launched with John McAfee",
+   "ranges": [
+    [
+     139,
+     141
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "KYtg48UoEQ8#r13",
+   "business": "Nvidia",
+   "ranges": [
+    [
+     155,
+     158
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "KYtg48UoEQ8#r14",
+   "business": "AMD",
+   "ranges": [
+    [
+     159,
+     160
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "KYtg48UoEQ8#r15",
+   "business": "Coinbase",
+   "ranges": [
+    [
+     167,
+     175
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "KYtg48UoEQ8#r16",
+   "business": "Unnamed data center stock that moved from Bitcoin mining into AI",
+   "ranges": [
+    [
+     177,
+     178
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "The main project is a stock investing app; other records include named companies and tools discussed as examples.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 99
+}

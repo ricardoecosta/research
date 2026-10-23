@@ -1,0 +1,1075 @@
+{
+ "id": "9uBW16KlwB4",
+ "title": "You Can Now Build Apps for Free With Google AI Studio (w/ Google Insider)",
+ "channel": "Chris Koerner on The Koerner Office Podcast",
+ "publish_date": "20251024",
+ "miner": "codex:gpt-6-luna:xhigh",
+ "mined_at": "2026-10-23T10:47:12",
+ "secs": 181,
+ "schema_errors": [],
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host"
+  },
+  {
+   "name": "Logan Kilpatrick",
+   "role": "guest"
+  }
+ ],
+ "evidence_quality": "C",
+ "promo_conflict": "Google paid the host $0, but he disclosed that he is a Google shareholder and personal fan. The guest leads AI Studio and the Gemini API at Google DeepMind, so the discussion promotes products he works on.",
+ "ideas": [
+  {
+   "record_id": "9uBW16KlwB4#r1",
+   "depth": "deep",
+   "stated_problem": {
+    "quote": "just have this idea and I want to build my first AI app or build my first app at all and, you know, share with a friend or someone in my family.",
+    "line": 34,
+    "speaker": "Logan Kilpatrick"
+   },
+   "idea": {
+    "name": "AI app development platform",
+    "one_liner": "Google offers builders AI tools and APIs to create and deploy AI apps, with charges when apps are deployed and served.",
+    "customer": "Developers, enterprises, and people who want to build their first app.",
+    "offer": "AI Studio and Gemini tools for prototyping and building AI-powered software.",
+    "revenue_model": "Free building with charges when deploying and serving users; exact pricing not stated.",
+    "category": "saas_software"
+   },
+   "citation": {
+    "lines": [
+     32,
+     34,
+     44,
+     45,
+     53,
+     58,
+     67,
+     68,
+     69,
+     120,
+     122,
+     128
+    ],
+    "primary_line": 44
+   },
+   "key_quotes": [
+    {
+     "quote": "The beauty is you don't need to be an AI expert to go and like build AI products. You just need to have some problem that you're trying to solve",
+     "line": 57
+    },
+    {
+     "quote": "users inside of AI Studio were vibe coding literally tens of thousands of AI-powered apps using that new model",
+     "line": 67
+    }
+   ],
+   "claims": [
+    {
+     "claim": "The guest says users built tens of thousands of AI-powered apps in AI Studio on launch day.",
+     "quote": "users inside of AI Studio were vibe coding literally tens of thousands of AI-powered apps using that new model",
+     "line": 67,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "The guest says users could put an app into production in 90 seconds and build it for free.",
+     "quote": "deploying the thing into production and like putting in front of users in literally 90 seconds, and like the cost and barrier to entry is is literally free.",
+     "line": 68,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "The guest says deployment and serving extra users incur charges, while building itself costs nothing.",
+     "quote": "It's paid when you deploy and you have to like, you know, service extra users and stuff, but to actually build the thing is doesn't cost anything",
+     "line": 69,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "The guest estimates a person could build one AI app a day with about 30 minutes of work.",
+     "quote": "you actually could be building one AI app every day with like probably 30 minutes of work or something like that.",
+     "line": 120,
+     "first_hand": false,
+     "hypothetical": true
+    },
+    {
+     "claim": "The guest says someone could spend $0 across the process of trying ideas until finding one they like.",
+     "quote": "you spend $0 in that whole process to get to the point where you like you actually built something that you're really excited about.",
+     "line": 122,
+     "first_hand": false,
+     "hypothetical": true
+    },
+    {
+     "claim": "The host cites examples of three successful products reaching $100,000 a month; this is a second-hand anecdote.",
+     "quote": "the three that worked are now like, you know, $100,000 a month businesses or whatever.",
+     "line": 128,
+     "first_hand": false,
+     "hypothetical": false
+    }
+   ],
+   "acquisition_channels": [],
+   "delivery": "Self-serve web development tools and APIs; builders create and deploy apps, then pay to serve users.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "AI Studio",
+     "Gemini",
+     "Gemini API"
+    ],
+    "prices": [
+     "Free to build; deployment and serving costs apply, amounts not stated"
+    ],
+    "platforms": [
+     "Google AI Studio",
+     "google.ai",
+     "ai.studio"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": null,
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 55,
+   "hours_per_week_e": 40,
+   "idea_id": "9uBW16KlwB4:i1",
+   "specifics_flag": true,
+   "publish_date": "20251024",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "9uBW16KlwB4#r2",
+   "depth": "mention",
+   "stated_problem": {
+    "quote": "I just want to stick a picture of myself into an app and like see what I look like with different haircuts.",
+    "line": 173,
+    "speaker": "Chris Koerner"
+   },
+   "idea": {
+    "name": "Haircut AI preview app",
+    "one_liner": "A consumer app lets people preview different haircuts on a photo of themselves; revenue model is unstated.",
+    "customer": "People considering a haircut.",
+    "offer": "AI-generated previews of different haircuts using a user's photo.",
+    "revenue_model": "Not stated.",
+    "category": "saas_software"
+   },
+   "citation": {
+    "lines": [
+     67,
+     81,
+     82,
+     83,
+     173,
+     174
+    ],
+    "primary_line": 173
+   },
+   "key_quotes": [
+    {
+     "quote": "I just want to stick a picture of myself into an app and like see what I look like with different haircuts.",
+     "line": 173
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "A self-serve app takes a user photo and generates hairstyle previews.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "AI Studio",
+     "Nano Banana"
+    ],
+    "prices": [],
+    "platforms": [
+     "AI Studio"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "If processing identifiable face photos in the UK, provide a clear privacy notice, lawful basis, and appropriate retention and security under UK GDPR.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 75,
+   "hours_per_week_e": 15,
+   "idea_id": "9uBW16KlwB4:i2",
+   "specifics_flag": true,
+   "publish_date": "20251024",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "9uBW16KlwB4#r3",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "AI photo restoration app",
+    "one_liner": "A consumer app restores photos with AI; the transcript does not describe its offer or revenue model in more detail.",
+    "customer": "People who want old or damaged photos restored.",
+    "offer": "AI photo restoration.",
+    "revenue_model": "Not stated.",
+    "category": "saas_software"
+   },
+   "citation": {
+    "lines": [
+     67
+    ],
+    "primary_line": 67
+   },
+   "key_quotes": [
+    {
+     "quote": "all these like photo restoration product",
+     "line": 67
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "A digital app processes user-submitted photos and returns restored images.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "Nano Banana",
+     "AI Studio"
+    ],
+    "prices": [],
+    "platforms": [
+     "AI Studio"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "If processing identifiable photos in the UK, provide a clear privacy notice, lawful basis, and appropriate retention and security under UK GDPR.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 80,
+   "hours_per_week_e": 15,
+   "idea_id": "9uBW16KlwB4:i3",
+   "specifics_flag": true,
+   "publish_date": "20251024",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "9uBW16KlwB4#r4",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "Persona-specific AI tool bundles",
+    "one_liner": "A bundle groups AI tools for a defined persona such as students or lawyers; monetization is not specified.",
+    "customer": "Specific groups such as students, lawyers, or other professional personas.",
+    "offer": "A package of multiple AI tools addressing different needs for one persona.",
+    "revenue_model": "Not stated; a paid bundle is possible but not stated in the transcript.",
+    "category": "saas_software"
+   },
+   "citation": {
+    "lines": [
+     139,
+     140,
+     141,
+     142,
+     143,
+     144,
+     145
+    ],
+    "primary_line": 140
+   },
+   "key_quotes": [
+    {
+     "quote": "Here's the package of like 10 AI tools that you need.",
+     "line": 140
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "A digital package gives one persona access to a collection of AI tools.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "AI tools"
+    ],
+    "prices": [],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": null,
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 70,
+   "hours_per_week_e": 20,
+   "idea_id": "9uBW16KlwB4:i4",
+   "specifics_flag": true,
+   "publish_date": "20251024",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "9uBW16KlwB4#r5",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "AI SEO tool for startup founders",
+    "one_liner": "A SaaS tool sells AI SEO capabilities to startup founders and indie hackers, with portfolio cross-promotion described but no verified standalone results.",
+    "customer": "Startup founders and indie hackers.",
+    "offer": "An AI SEO tool.",
+    "revenue_model": "A monthly subscription is suggested by a hypothetical price example; actual pricing is not stated.",
+    "category": "saas_software"
+   },
+   "citation": {
+    "lines": [
+     150,
+     151,
+     153,
+     154,
+     155,
+     156,
+     157,
+     158,
+     159,
+     160
+    ],
+    "primary_line": 153
+   },
+   "key_quotes": [
+    {
+     "quote": "he has like an an AI SEO tool and a marketing tool and all these other tools and it's all like he's selling them to startup guys, to indie hackers, etc.",
+     "line": 153
+    }
+   ],
+   "claims": [
+    {
+     "claim": "The host says John Rush's portfolio of AI tools earns $3 million per year; this is not attributed to the SEO tool alone.",
+     "quote": "he makes 3 million bucks a year from a dozen AI tools.",
+     "line": 150,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "The host describes the portfolio as around 20 tools and an 80/20 distribution, with most making little money; neither figure is specific to SEO.",
+     "quote": "Maybe like 20 AI tools and it's definitely 80/20, right? Like most of them don't make much money.",
+     "line": 151,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "The host gives a hypothetical example of paying $100 per month for an AI SEO tool, then not paying or churning.",
+     "quote": "I might have signed up for this you know, AI SEO tool for 100 bucks a month, but never actually paid for it or I churned out.",
+     "line": 159,
+     "first_hand": false,
+     "hypothetical": true
+    }
+   ],
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "The host describes cross-promoting tools across owned email lists; the example is for a multi-tool portfolio."
+    },
+    {
+     "channel": "paid_ads",
+     "details": "The host says the operator reuses the same Meta ad accounts across tools."
+    }
+   ],
+   "delivery": "Self-serve web software sold to startup founders and indie hackers.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "AI SEO tool",
+     "AWS"
+    ],
+    "prices": [
+     "$100/month hypothetical example"
+    ],
+    "platforms": [
+     "Meta ad accounts",
+     "email lists"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "For UK marketing emails, follow PECR and UK GDPR requirements; marketing to individual subscribers and sole traders generally requires consent, while corporate subscribers need an opt-out.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 70,
+   "hours_per_week_e": 20,
+   "idea_id": "9uBW16KlwB4:i5",
+   "specifics_flag": true,
+   "publish_date": "20251024",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "9uBW16KlwB4#r6",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "AI marketing tool for startup founders",
+    "one_liner": "A SaaS marketing tool is sold to startup founders and indie hackers as part of a cross-promoted portfolio; its standalone offer and results are not stated.",
+    "customer": "Startup founders and indie hackers.",
+    "offer": "An AI marketing tool.",
+    "revenue_model": "Not stated for this individual tool; the transcript discusses portfolio cross-selling.",
+    "category": "saas_software"
+   },
+   "citation": {
+    "lines": [
+     150,
+     151,
+     153,
+     154,
+     155,
+     156,
+     157,
+     158,
+     159,
+     160
+    ],
+    "primary_line": 153
+   },
+   "key_quotes": [
+    {
+     "quote": "he has like an an AI SEO tool and a marketing tool and all these other tools and it's all like he's selling them to startup guys, to indie hackers, etc.",
+     "line": 153
+    }
+   ],
+   "claims": [
+    {
+     "claim": "The host says John Rush's portfolio of AI tools earns $3 million per year; this is not attributed to the marketing tool alone.",
+     "quote": "he makes 3 million bucks a year from a dozen AI tools.",
+     "line": 150,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "The host describes the portfolio as around 20 tools and an 80/20 distribution, with most making little money; neither figure is specific to the marketing tool.",
+     "quote": "Maybe like 20 AI tools and it's definitely 80/20, right? Like most of them don't make much money.",
+     "line": 151,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "The host describes a hypothetical customer spending $200 per month on another cross-sold tool; the tool is not identified as the marketing product.",
+     "quote": "But then I end up spending $200 a month for this other tool that he offered me.",
+     "line": 160,
+     "first_hand": false,
+     "hypothetical": true
+    }
+   ],
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "The host describes cross-promoting tools across owned email lists; the example is for a multi-tool portfolio."
+    },
+    {
+     "channel": "paid_ads",
+     "details": "The host says the operator reuses the same Meta ad accounts across tools."
+    }
+   ],
+   "delivery": "Self-serve web software sold to startup founders and indie hackers.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "AI marketing tool",
+     "AWS"
+    ],
+    "prices": [],
+    "platforms": [
+     "Meta ad accounts",
+     "email lists"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "For UK marketing emails, follow PECR and UK GDPR requirements; marketing to individual subscribers and sole traders generally requires consent, while corporate subscribers need an opt-out.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 70,
+   "hours_per_week_e": 20,
+   "idea_id": "9uBW16KlwB4:i6",
+   "specifics_flag": true,
+   "publish_date": "20251024",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "9uBW16KlwB4#r7",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "AI furniture placement app",
+    "one_liner": "A consumer app shows furniture placed in an empty room; revenue model is unstated.",
+    "customer": "People furnishing or redesigning rooms.",
+    "offer": "Use AI to visualize furniture in a room from an image.",
+    "revenue_model": "Not stated.",
+    "category": "saas_software"
+   },
+   "citation": {
+    "lines": [
+     177,
+     178,
+     179,
+     184,
+     194
+    ],
+    "primary_line": 177
+   },
+   "key_quotes": [
+    {
+     "quote": "Just build a tool that puts furniture in people's empty rooms and go from there.",
+     "line": 177
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "A digital app takes a room image and generates a furniture placement preview.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "AI"
+    ],
+    "prices": [],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": null,
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 75,
+   "hours_per_week_e": 15,
+   "idea_id": "9uBW16KlwB4:i7",
+   "specifics_flag": true,
+   "publish_date": "20251024",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "9uBW16KlwB4#r8",
+   "depth": "mention",
+   "stated_problem": {
+    "quote": "I just want to see seven different types of curtains.",
+    "line": 183,
+    "speaker": null
+   },
+   "idea": {
+    "name": "AI curtain preview app",
+    "one_liner": "A consumer app previews curtain styles in a room; revenue model is unstated.",
+    "customer": "People choosing curtains for a room.",
+    "offer": "Generate previews of different curtain styles without redesigning the whole room.",
+    "revenue_model": "Not stated.",
+    "category": "saas_software"
+   },
+   "citation": {
+    "lines": [
+     179,
+     180,
+     181,
+     182,
+     183,
+     184,
+     187,
+     188
+    ],
+    "primary_line": 183
+   },
+   "key_quotes": [
+    {
+     "quote": "I don't need to redesign my whole room with AI. I just want to see seven different types of curtains.",
+     "line": 182
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "A digital app uses a room image to show alternative curtain styles.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "AI"
+    ],
+    "prices": [],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": null,
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 75,
+   "hours_per_week_e": 15,
+   "idea_id": "9uBW16KlwB4:i8",
+   "specifics_flag": true,
+   "publish_date": "20251024",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "9uBW16KlwB4#r9",
+   "depth": "mention",
+   "stated_problem": {
+    "quote": "Like I want a tool that can like watch short-form videos for me. And like extract interesting points from it where I can ask it questions.",
+    "line": 202,
+    "speaker": "Chris Koerner"
+   },
+   "idea": {
+    "name": "AI video analysis and search tool",
+    "one_liner": "A creator-facing tool analyzes videos, produces customizable reports, and searches across a video library; revenue model is unstated.",
+    "customer": "Content creators and organizations with video libraries.",
+    "offer": "Extract insights from videos, create reports that users can customize with AI, and search across videos.",
+    "revenue_model": "Not stated.",
+    "category": "saas_software"
+   },
+   "citation": {
+    "lines": [
+     201,
+     202,
+     203,
+     204,
+     210,
+     211,
+     212,
+     216,
+     219,
+     229,
+     240,
+     263,
+     264,
+     265,
+     266,
+     267
+    ],
+    "primary_line": 210
+   },
+   "key_quotes": [
+    {
+     "quote": "Like I want a tool that can like watch short-form videos for me. And like extract interesting points from it where I can ask it questions.",
+     "line": 202
+    },
+    {
+     "quote": "I just copy and dragged this and was able to get an analysis, was able to get 10 key takeaways",
+     "line": 240
+    }
+   ],
+   "claims": [
+    {
+     "claim": "The host tested the app with a 270-megabyte video; the app indicated a maximum upload size of up to 1 gigabyte.",
+     "quote": "Now I need to see do I actually have a video on my desktop that I can use for this. All right, 270 megabytes.",
+     "line": 230,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "The host says the generated analysis included 10 key takeaways.",
+     "quote": "I just copy and dragged this and was able to get an analysis, was able to get 10 key takeaways",
+     "line": 240,
+     "first_hand": true,
+     "hypothetical": false
+    }
+   ],
+   "acquisition_channels": [],
+   "delivery": "A web app accepts video uploads, uses an AI model to analyze content, and returns reports and searchable insights.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "Gemini",
+     "Gemini 2.5 Pro",
+     "AI Studio"
+    ],
+    "prices": [],
+    "platforms": [
+     "AI Studio"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "For commercial use, obtain appropriate rights to uploaded video and provide UK GDPR disclosures where videos contain identifiable people or personal data.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 75,
+   "hours_per_week_e": 20,
+   "idea_id": "9uBW16KlwB4:i9",
+   "specifics_flag": true,
+   "publish_date": "20251024",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "9uBW16KlwB4#r10",
+   "depth": "mention",
+   "stated_problem": {
+    "quote": "I need AI to like orchestrate the like actual complexity of traveling and like the most of the products are not doing that.",
+    "line": 324,
+    "speaker": "Logan Kilpatrick"
+   },
+   "idea": {
+    "name": "Personalized AI travel companion",
+    "one_liner": "A travel companion combines travel information and a user's itinerary, then sends contextual guidance by text; revenue model is unstated.",
+    "customer": "Travelers who want help with logistics and recommendations during a trip.",
+    "offer": "Personalized travel planning, transit guidance, and location-aware messages, including in a group chat.",
+    "revenue_model": "Not stated.",
+    "category": "saas_software"
+   },
+   "citation": {
+    "lines": [
+     314,
+     321,
+     324,
+     334,
+     342,
+     346,
+     350,
+     351,
+     354,
+     355,
+     362,
+     366,
+     370,
+     371,
+     372
+    ],
+    "primary_line": 354
+   },
+   "key_quotes": [
+    {
+     "quote": "I need AI to like orchestrate the like actual complexity of traveling and like the most of the products are not doing that.",
+     "line": 324
+    },
+    {
+     "quote": "What if it was like a a travel companion that texted you? Like it was it tracked you like Uber might and texted you as you got to different spots along your journey.",
+     "line": 354
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "A mobile service uses itinerary and location context to send optional travel guidance by SMS, including in a group conversation.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "Twilio"
+    ],
+    "prices": [],
+    "platforms": [
+     "Google Sheets",
+     "Uber",
+     "United website"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "Location and itinerary data require careful UK GDPR handling. Keep texts user-initiated or expected as part of the service; marketing texts require the appropriate PECR consent.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 65,
+   "hours_per_week_e": 25,
+   "idea_id": "9uBW16KlwB4:i10",
+   "specifics_flag": true,
+   "publish_date": "20251024",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "9uBW16KlwB4#r11",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "Voice AI lead intake for an AI services website",
+    "one_liner": "An AI voice agent replaces a website lead form, collects contact details, and triggers a follow-up workflow for an AI services business.",
+    "customer": "Visitors to an AI services company's website.",
+    "offer": "A voice conversation that collects a visitor's name, email, and company, then records the lead and initiates follow-up.",
+    "revenue_model": "Indirectly generates leads for the business's AI services; the agent has no standalone revenue model stated.",
+    "category": "ai_automation"
+   },
+   "citation": {
+    "lines": [
+     385,
+     386,
+     387,
+     388,
+     397,
+     398,
+     399,
+     400,
+     402,
+     403,
+     426,
+     427,
+     433,
+     455,
+     457
+    ],
+    "primary_line": 397
+   },
+   "key_quotes": [
+    {
+     "quote": "I had this lead magnet that was just a form for this initiative I have and I just swapped it out with a voice AI agent",
+     "line": 385
+    },
+    {
+     "quote": "the model will say thanks. It'll end the conversation and then it'll kick off a workflow behind the scenes to email that person and like create a lead gen in in some database.",
+     "line": 401
+    }
+   ],
+   "claims": [
+    {
+     "claim": "The host says the voice-agent landing page demo was built in 66 seconds.",
+     "quote": "All right, it looks like it's done. 66 seconds. I have low confidence it's going to work, but let's try it.",
+     "line": 426,
+     "first_hand": true,
+     "hypothetical": false
+    }
+   ],
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "Inbound website lead capture: the host says he replaced a form lead magnet with a voice agent."
+    }
+   ],
+   "delivery": "An embedded website voice agent collects lead details, then emails the person and stores a lead in a database.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "AI Studio",
+     "Live API"
+    ],
+    "prices": [],
+    "platforms": [
+     "Stellar AI website"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "Give visitors a clear UK GDPR privacy notice explaining lead data use and retention. Follow-up marketing email must meet PECR requirements, including consent where required and a working opt-out.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 80,
+   "hours_per_week_e": 15,
+   "idea_id": "9uBW16KlwB4:i11",
+   "specifics_flag": true,
+   "publish_date": "20251024",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "9uBW16KlwB4#r12",
+   "depth": "mention",
+   "stated_problem": {
+    "quote": "a lot of folks don't know how to use AI tools, and like they would need to go and delegate to like go and do a bunch of these things.",
+    "line": 501,
+    "speaker": "Logan Kilpatrick"
+   },
+   "idea": {
+    "name": "AI implementation agency",
+    "one_liner": "An agency helps businesses choose and implement AI tools, using rapid prototypes and tailored demos to win and deliver client work.",
+    "customer": "Small businesses and other organizations that lack time or expertise to implement AI.",
+    "offer": "AI tool implementation, automation, and prototypes built around a client's needs.",
+    "revenue_model": "Service fees or retainers are implied; a possible $1,000 monthly budget is mentioned, not offered as a price.",
+    "category": "agency"
+   },
+   "citation": {
+    "lines": [
+     478,
+     484,
+     499,
+     501,
+     505,
+     507,
+     508,
+     511,
+     512,
+     513,
+     514,
+     515,
+     516,
+     517,
+     518,
+     519,
+     521
+    ],
+    "primary_line": 517
+   },
+   "key_quotes": [
+    {
+     "quote": "you can go find this com- the company website that you want to work with, you can take their products or their website, reimagine it with AI, and like that's your lead gen.",
+     "line": 512
+    },
+    {
+     "quote": "If not, like your marginal cost was basically nothing.",
+     "line": 517
+    }
+   ],
+   "claims": [
+    {
+     "claim": "The guest reports seeing top executives from Fortune 200 companies at an event who still needed help using AI tools.",
+     "quote": "some of the top executives in the world from like all the Fortune 200 companies, and even these top executives",
+     "line": 499,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "The host claims there are 400 million small businesses worldwide and says all need AI to some extent.",
+     "quote": "Well, I mean there's there's 400 million small businesses around the world. All of them need AI to some extent.",
+     "line": 519,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "The host says not all businesses can afford $1,000 per month for the service.",
+     "quote": "Maybe not all of them can afford $1,000 a month, but I'm insanely bullish about that.",
+     "line": 521,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "The guest suggests the marginal cost of making a tailored demo for outreach is close to zero.",
+     "quote": "If not, like your marginal cost was basically nothing.",
+     "line": 517,
+     "first_hand": false,
+     "hypothetical": true
+    }
+   ],
+   "acquisition_channels": [
+    {
+     "channel": "other",
+     "details": "The guest proposes targeted outreach with an AI-reimagined version of a prospect's website or products; the contact method is not stated."
+    }
+   ],
+   "delivery": "The founder scopes a client's needs, builds and implements AI tools or automations, and supports the resulting system.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "Google Ads",
+     "Facebook Ads",
+     "AI tools"
+    ],
+    "prices": [
+     "$1,000/month mentioned as a possible customer budget, not an offered price"
+    ],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "If outreach uses cold email, follow PECR and UK GDPR, including the corporate-subscriber rules and opt-out; screen TPS/CTPS before relevant cold calls. Client data processing may require UK GDPR contracts and safeguards.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 50,
+   "hours_per_week_e": 30,
+   "idea_id": "9uBW16KlwB4:i12",
+   "specifics_flag": true,
+   "publish_date": "20251024",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "9uBW16KlwB4#r13",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "AI moodboarding and virtual try-on for clothing brands",
+    "one_liner": "AI apps help clothing brands explore moodboards and virtual try-on; the transcript shows a live prototype, not a defined standalone business.",
+    "customer": "Clothing brands.",
+    "offer": "Prototype AI tools for moodboarding and virtual try-on.",
+    "revenue_model": "Not stated; could be custom software or a SaaS product, but the transcript does not specify.",
+    "category": "saas_software"
+   },
+   "citation": {
+    "lines": [
+     507,
+     508,
+     509,
+     510
+    ],
+    "primary_line": 507
+   },
+   "key_quotes": [
+    {
+     "quote": "they were talking about how they like wanted to do all these ideas with mood boarding and like using AI and virtual try-on",
+     "line": 507
+    },
+    {
+     "quote": "we were just like, 'Here, here's the app that actually does that.'",
+     "line": 508
+    }
+   ],
+   "claims": [
+    {
+     "claim": "The guest says the prototype was built in 66 seconds during the call.",
+     "quote": "And like you can give people like the timeline the like fact that it took 66 seconds to build this thing.",
+     "line": 508,
+     "first_hand": true,
+     "hypothetical": false
+    }
+   ],
+   "acquisition_channels": [],
+   "delivery": "A digital app generates moodboard concepts and virtual try-on previews for a clothing brand.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "AI"
+    ],
+    "prices": [],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "Virtual try-on may process identifiable images; provide a UK GDPR privacy notice and appropriate lawful basis, security, and retention controls.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 55,
+   "hours_per_week_e": 25,
+   "idea_id": "9uBW16KlwB4:i13",
+   "specifics_flag": true,
+   "publish_date": "20251024",
+   "stale_age": false,
+   "recheck": true
+  }
+ ]
+}

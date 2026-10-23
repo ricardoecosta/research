@@ -1,0 +1,157 @@
+{
+ "id": "axH1e2cZSrw",
+ "publish_date": "20260913",
+ "channel": "Starter Story",
+ "status": "ingested",
+ "title": "This app replaced my 9-5 ($155K/year)",
+ "provider": "local_whisper_tiny",
+ "duration_s": "872",
+ "n_lines": 209,
+ "n_removed_lines": 43,
+ "removed": [
+  {
+   "from": 13,
+   "to": 23,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 24,
+   "to": 24,
+   "reason": "filler"
+  },
+  {
+   "from": 26,
+   "to": 26,
+   "reason": "filler"
+  },
+  {
+   "from": 37,
+   "to": 37,
+   "reason": "filler"
+  },
+  {
+   "from": 44,
+   "to": 48,
+   "reason": "tangent"
+  },
+  {
+   "from": 62,
+   "to": 62,
+   "reason": "filler"
+  },
+  {
+   "from": 76,
+   "to": 76,
+   "reason": "filler"
+  },
+  {
+   "from": 81,
+   "to": 84,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 85,
+   "to": 85,
+   "reason": "filler"
+  },
+  {
+   "from": 116,
+   "to": 116,
+   "reason": "filler"
+  },
+  {
+   "from": 188,
+   "to": 189,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 191,
+   "to": 198,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 204,
+   "to": 209,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "axH1e2cZSrw#r1",
+   "business": "Harpagia/Harpeggia, his mobile idle RPG",
+   "ranges": [
+    [
+     1,
+     10
+    ],
+    [
+     25,
+     25
+    ],
+    [
+     27,
+     36
+    ],
+    [
+     38,
+     43
+    ],
+    [
+     49,
+     61
+    ],
+    [
+     63,
+     70
+    ],
+    [
+     75,
+     75
+    ],
+    [
+     77,
+     80
+    ],
+    [
+     86,
+     115
+    ],
+    [
+     117,
+     177
+    ],
+    [
+     179,
+     187
+    ],
+    [
+     190,
+     190
+    ],
+    [
+     199,
+     203
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "axH1e2cZSrw#r2",
+   "business": "Be Too Wild, a simple card game",
+   "ranges": [
+    [
+     71,
+     74
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "The primary game's name appears with varying spellings in the transcript.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 78
+}

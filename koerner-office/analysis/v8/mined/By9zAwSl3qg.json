@@ -1,0 +1,677 @@
+{
+ "id": "By9zAwSl3qg",
+ "title": "The Most Useful AI Skill You Can Learn Today",
+ "channel": "Chris Koerner on The Koerner Office Podcast",
+ "publish_date": "20250708",
+ "miner": "codex:gpt-6-luna:xhigh",
+ "mined_at": "2026-10-23T10:52:59",
+ "secs": 191,
+ "schema_errors": [],
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host"
+  },
+  {
+   "name": "Unnamed guest",
+   "role": "guest"
+  }
+ ],
+ "evidence_quality": "B",
+ "promo_conflict": "No paid promotion is disclosed; the guest says he is biased toward Tempo.",
+ "ideas": [
+  {
+   "record_id": "By9zAwSl3qg#r1",
+   "depth": "deep",
+   "stated_problem": null,
+   "idea": {
+    "name": "AI pizza-ordering chatbot",
+    "one_liner": "A chatbot web app that gathers an order and submits it to Domino’s; no commercial model was stated.",
+    "customer": "People ordering from Domino’s.",
+    "offer": "A conversational interface that collects order details and places the order.",
+    "revenue_model": "not stated",
+    "category": "other"
+   },
+   "citation": {
+    "lines": [
+     66,
+     68,
+     72,
+     73,
+     79,
+     83,
+     85,
+     86
+    ],
+    "primary_line": 66
+   },
+   "key_quotes": [
+    {
+     "quote": "So, what it essentially did was I, the user, had a chatbot interface.",
+     "line": 72
+    },
+    {
+     "quote": "the reason why I didn't publish this or I don't maintain it is because the API that it used to interact with Domino's was like not an official API.",
+     "line": 80
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "The guest built a web app and chatbot for personal use. It stored answers in a database and called an unofficial Domino’s API to place the order and handle payment; he did not publish or maintain it.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "AI chatbot",
+     "web app",
+     "database",
+     "Domino's API"
+    ],
+    "prices": [],
+    "platforms": [
+     "Domino's.com",
+     "Dominoes.ca"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "If adapted to the UK, assess UK GDPR for order and account data and payment-services obligations for the payment flow.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 50,
+   "hours_per_week_e": 12,
+   "idea_id": "By9zAwSl3qg:i1",
+   "specifics_flag": true,
+   "publish_date": "20250708",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "By9zAwSl3qg#r2",
+   "depth": "mention",
+   "stated_problem": {
+    "quote": "How do you package that? How do you sell that?",
+    "line": 104,
+    "speaker": "Unnamed guest"
+   },
+   "idea": {
+    "name": "Shoe price tracker and alert app",
+    "one_liner": "A web app that watches a specified shoe’s price and alerts a user when it falls below their chosen threshold.",
+    "customer": "Shoe shoppers looking for a price drop.",
+    "offer": "Price monitoring and notifications for a specified shoe.",
+    "revenue_model": "not stated",
+    "category": "other"
+   },
+   "citation": {
+    "lines": [
+     101,
+     102,
+     103,
+     104,
+     105,
+     106,
+     107
+    ],
+    "primary_line": 102
+   },
+   "key_quotes": [
+    {
+     "quote": "scrape the internet for a specific shoe and if it goes below a certain price then it sends them a notification.",
+     "line": 102
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "An automation monitors shoe prices and sends a notification; a web app would provide the user interface.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "N8n",
+     "webhooks"
+    ],
+    "prices": [],
+    "platforms": [
+     "N8n"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "UK GDPR applies to account and email data; marketing notifications may also engage PECR, while user-requested service alerts may be treated differently.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 75,
+   "hours_per_week_e": 10,
+   "idea_id": "By9zAwSl3qg:i2",
+   "specifics_flag": true,
+   "publish_date": "20250708",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "By9zAwSl3qg#r3",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "AI implementation agency",
+    "one_liner": "A service business implementing AI and automation for clients; the target market and pricing are not specified.",
+    "customer": "Businesses; specific segment not stated.",
+    "offer": "AI implementation and automation services.",
+    "revenue_model": "Service fees implied; pricing not stated",
+    "category": "other"
+   },
+   "citation": {
+    "lines": [
+     215,
+     216
+    ],
+    "primary_line": 215
+   },
+   "key_quotes": [
+    {
+     "quote": "starting a like an agency or services business, AI implementation, AI automation implementation business?",
+     "line": 215
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "A founder provides AI implementation or automation services to clients; the delivery process is not described.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "AI automation"
+    ],
+    "prices": [],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "UK GDPR and PECR may apply depending on client data and marketing methods; no acquisition method is stated.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 35,
+   "hours_per_week_e": 25,
+   "idea_id": "By9zAwSl3qg:i3",
+   "specifics_flag": true,
+   "publish_date": "20250708",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "By9zAwSl3qg#r4",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "Unnamed app company",
+    "one_liner": "An app company is cited as having raised substantial funding, but its product, customers, and business model are not described.",
+    "customer": "not stated",
+    "offer": "An unspecified app.",
+    "revenue_model": "not stated",
+    "category": "other"
+   },
+   "citation": {
+    "lines": [
+     217,
+     218,
+     219
+    ],
+    "primary_line": 218
+   },
+   "key_quotes": [
+    {
+     "quote": "we were shocked that one of the companies we were looking at raised so much money, like I think upwards to like $10 million",
+     "line": 218
+    },
+    {
+     "quote": "something that honestly would have probably taken us maybe two to three days to build",
+     "line": 218
+    }
+   ],
+   "claims": [
+    {
+     "claim": "The guest estimated that the company had raised up to about $10 million.",
+     "quote": "raised so much money, like I think upwards to like $10 million",
+     "line": 218,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "The guest estimated that his engineering team could have built the unspecified app in two to three days.",
+     "quote": "would have probably taken us maybe two to three days to build",
+     "line": 218,
+     "first_hand": false,
+     "hypothetical": true
+    }
+   ],
+   "acquisition_channels": [],
+   "delivery": "not stated",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [],
+    "prices": [],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": null,
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 25,
+   "hours_per_week_e": 30,
+   "idea_id": "By9zAwSl3qg:i4",
+   "specifics_flag": false,
+   "publish_date": "20250708",
+   "stale_age": false,
+   "recheck": false
+  },
+  {
+   "record_id": "By9zAwSl3qg#r5",
+   "depth": "deep",
+   "stated_problem": {
+    "quote": "Tax season is hell. Keeping up with receipts is annoying.",
+    "line": 233,
+    "speaker": "Unnamed guest"
+   },
+   "idea": {
+    "name": "AI bookkeeping app",
+    "one_liner": "A bookkeeping app that better organizes receipts and categorizes transactions, addressing frustrations with existing apps.",
+    "customer": "People managing their own books; the precise customer segment is not stated.",
+    "offer": "AI-assisted receipt organization and transaction categorization.",
+    "revenue_model": "not stated",
+    "category": "other"
+   },
+   "citation": {
+    "lines": [
+     232,
+     233,
+     234,
+     235,
+     236,
+     237,
+     238,
+     239,
+     240,
+     241,
+     242,
+     243,
+     246,
+     247
+    ],
+    "primary_line": 232
+   },
+   "key_quotes": [
+    {
+     "quote": "I really wanted to build an AI bookkeeping app.",
+     "line": 232
+    },
+    {
+     "quote": "My rent transactions are categorized as business. Like, it's a mess, right?",
+     "line": 238
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "The guest considered building an app but did not build it. He says he lacks bookkeeping and accounting expertise and that an industry practitioner would understand the pain points better.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "QuickBooks",
+     "Xero"
+    ],
+    "prices": [],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "UK GDPR and the Data Protection Act 2018 apply to personal financial data; accounting and tax outputs would need to meet applicable UK requirements.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 50,
+   "hours_per_week_e": 20,
+   "idea_id": "By9zAwSl3qg:i5",
+   "specifics_flag": true,
+   "publish_date": "20250708",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "By9zAwSl3qg#r6",
+   "depth": "mention",
+   "stated_problem": {
+    "quote": "He knows how annoying billing is. He knows how annoying like the software is that where they register medication and all that stuff.",
+    "line": 258,
+    "speaker": "Unnamed guest"
+   },
+   "idea": {
+    "name": "Pharmacy software and tools",
+    "one_liner": "Software tools for pharmacy workflows such as billing and medication registration, built by someone who works in a pharmacy.",
+    "customer": "Pharmacies and pharmacy workers.",
+    "offer": "Tools to improve pharmacy billing and medication-registration workflows.",
+    "revenue_model": "not stated",
+    "category": "other"
+   },
+   "citation": {
+    "lines": [
+     256,
+     257,
+     258,
+     259,
+     260,
+     261,
+     264
+    ],
+    "primary_line": 257
+   },
+   "key_quotes": [
+    {
+     "quote": "he's having fun building things forarmacies and it's not because he's a super technical genius but it's because he's worked inarmacies.",
+     "line": 257
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "A pharmacy worker builds software tools based on their work experience; the specific products and distribution method are not stated.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [],
+    "prices": [],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "Pharmacy software may process special-category health data, engaging UK GDPR and the Data Protection Act 2018; relevant pharmacy compliance requirements also matter.",
+   "sells_to_local_businesses": true,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 40,
+   "hours_per_week_e": 25,
+   "idea_id": "By9zAwSl3qg:i6",
+   "specifics_flag": false,
+   "publish_date": "20250708",
+   "stale_age": false,
+   "recheck": false
+  },
+  {
+   "record_id": "By9zAwSl3qg#r7",
+   "depth": "deep",
+   "stated_problem": {
+    "quote": "the softwares are either terrible, the percentage they charge is very, very high. and like you can't just use like Stripe",
+    "line": 293,
+    "speaker": "Unnamed guest"
+   },
+   "idea": {
+    "name": "Church payment solution",
+    "one_liner": "A payment solution for a church or charity, built to address poor software, high fees, and setup friction.",
+    "customer": "Churches and charities.",
+    "offer": "A payment solution for collecting payments or donations.",
+    "revenue_model": "The guest says he would price it more fairly than competitors; exact model and price not stated.",
+    "category": "other"
+   },
+   "citation": {
+    "lines": [
+     289,
+     290,
+     291,
+     293,
+     294,
+     295,
+     296,
+     298,
+     299
+    ],
+    "primary_line": 295
+   },
+   "key_quotes": [
+    {
+     "quote": "So I was like, \"Huh, I'm going to build a payment solution for my church.\" And I did that.",
+     "line": 295
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "The guest built a payment solution for the church where he serves and teaches. He says he could turn it into a business but has not done so.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "Stripe"
+    ],
+    "prices": [],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "Assess FCA and Payment Services Regulations 2017 obligations if the product executes or controls payment flows; UK GDPR applies to donor data.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 45,
+   "hours_per_week_e": 20,
+   "idea_id": "By9zAwSl3qg:i7",
+   "specifics_flag": true,
+   "publish_date": "20250708",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "By9zAwSl3qg#r8",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "AI-first fitness app (CalAI)",
+    "one_liner": "A fitness app modeled on MyFitnessPal but built AI-first; the precise AI features and monetization are not described.",
+    "customer": "People who track fitness or food; specific segment not stated.",
+    "offer": "An AI-first fitness app inspired by an established fitness-tracking app.",
+    "revenue_model": "not stated",
+    "category": "other"
+   },
+   "citation": {
+    "lines": [
+     308,
+     309,
+     310,
+     311,
+     312
+    ],
+    "primary_line": 308
+   },
+   "key_quotes": [
+    {
+     "quote": "We're just going to do that except AI first, right?",
+     "line": 311
+    }
+   ],
+   "claims": [
+    {
+     "claim": "The guest says MyFitnessPal has hundreds of millions of users, as context for the AI-first app comparison.",
+     "quote": "My fitness pal has hundreds of millions of users.",
+     "line": 309,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "The guest describes MyFitnessPal as a nine-figure company or having more than $100 million in revenue.",
+     "quote": "It's a nine figure company or it has $100 million plus of revenue.",
+     "line": 310,
+     "first_hand": false,
+     "hypothetical": false
+    }
+   ],
+   "acquisition_channels": [],
+   "delivery": "An app; the guest describes CalAI as applying an AI-first approach to the MyFitnessPal model.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "CalAI",
+     "MyFitnessPal"
+    ],
+    "prices": [],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "UK GDPR and the Data Protection Act 2018 apply to personal data; health information may be special-category personal data depending on what the app collects or infers.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 65,
+   "hours_per_week_e": 15,
+   "idea_id": "By9zAwSl3qg:i8",
+   "specifics_flag": true,
+   "publish_date": "20250708",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "By9zAwSl3qg#r10",
+   "depth": "mention",
+   "stated_problem": {
+    "quote": "My rent transactions are categorized as business. Like, it's a mess, right?",
+    "line": 238,
+    "speaker": "Unnamed guest"
+   },
+   "idea": {
+    "name": "AI-first QuickBooks-style bookkeeping app",
+    "one_liner": "A bookkeeping app that applies an AI-first approach to the QuickBooks category; the specific product features are not stated.",
+    "customer": "People who use bookkeeping software; precise segment not stated.",
+    "offer": "An AI-first alternative in the bookkeeping software category.",
+    "revenue_model": "not stated",
+    "category": "other"
+   },
+   "citation": {
+    "lines": [
+     320,
+     321,
+     322
+    ],
+    "primary_line": 320
+   },
+   "key_quotes": [
+    {
+     "quote": "that could be QuickBooks except AI first",
+     "line": 320
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "A software app; no build, launch, or distribution plan is described.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "QuickBooks"
+    ],
+    "prices": [],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "UK GDPR and the Data Protection Act 2018 apply to personal financial data; accounting and tax outputs would need to meet applicable UK requirements.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 55,
+   "hours_per_week_e": 20,
+   "idea_id": "By9zAwSl3qg:i9",
+   "specifics_flag": true,
+   "publish_date": "20250708",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "By9zAwSl3qg#r15",
+   "depth": "mention",
+   "stated_problem": {
+    "quote": "Jira has been around for like as maybe as long as I have and it's an ugly app.",
+    "line": 333,
+    "speaker": "Unnamed guest"
+   },
+   "idea": {
+    "name": "Polished engineering ticketing software (Linear)",
+    "one_liner": "Ticketing software for engineering teams that competes through a more appealing user experience.",
+    "customer": "Engineering teams tracking tickets and assigning work.",
+    "offer": "A ticketing and task-management app with polished design and user experience.",
+    "revenue_model": "not stated",
+    "category": "other"
+   },
+   "citation": {
+    "lines": [
+     331,
+     332,
+     333,
+     337,
+     338,
+     339,
+     344,
+     346,
+     352,
+     353,
+     354
+    ],
+    "primary_line": 337
+   },
+   "key_quotes": [
+    {
+     "quote": "And but then you have something like linear which basically is Jira.",
+     "line": 337
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "A software app for teams; the guest presents Linear as a more polished alternative in the Jira category.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "Linear",
+     "Jira"
+    ],
+    "prices": [],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "UK GDPR applies to personal data processed in team accounts and workspaces.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 55,
+   "hours_per_week_e": 20,
+   "idea_id": "By9zAwSl3qg:i10",
+   "specifics_flag": true,
+   "publish_date": "20250708",
+   "stale_age": false,
+   "recheck": true
+  }
+ ]
+}

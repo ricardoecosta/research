@@ -1,0 +1,205 @@
+{
+ "id": "bi23y0x-MhA",
+ "publish_date": "20260918",
+ "channel": "My First Million",
+ "status": "ingested",
+ "title": "Sam Altman's coach destroys your limiting beliefs for 86 minutes straight",
+ "provider": "local_whisper_tiny",
+ "duration_s": "5166",
+ "n_lines": 1208,
+ "n_removed_lines": 19,
+ "removed": [
+  {
+   "from": 3,
+   "to": 4,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 12,
+   "to": 12,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 69,
+   "to": 79,
+   "reason": "sponsor"
+  },
+  {
+   "from": 1203,
+   "to": 1203,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 1205,
+   "to": 1208,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "bi23y0x-MhA#r1",
+   "business": "Art of Accomplishment, the coaching business and its courses, podcast, experiments, and executive team program",
+   "ranges": [
+    [
+     10,
+     11
+    ],
+    [
+     401,
+     408
+    ],
+    [
+     827,
+     840
+    ],
+    [
+     996,
+     1009
+    ],
+    [
+     1017,
+     1029
+    ],
+    [
+     1078,
+     1085
+    ],
+    [
+     1098,
+     1106
+    ],
+    [
+     1204,
+     1204
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "bi23y0x-MhA#r2",
+   "business": "venture capital investing and work in a family office",
+   "ranges": [
+    [
+     10,
+     10
+    ],
+    [
+     946,
+     949
+    ],
+    [
+     963,
+     976
+    ],
+    [
+     980,
+     995
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "bi23y0x-MhA#r3",
+   "business": "large-scale art installation work for a wealthy family",
+   "ranges": [
+    [
+     952,
+     962
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "bi23y0x-MhA#r4",
+   "business": "international stock lending",
+   "ranges": [
+    [
+     885,
+     885
+    ],
+    [
+     969,
+     973
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "bi23y0x-MhA#r5",
+   "business": "the company the host and his business partner sold",
+   "ranges": [
+    [
+     743,
+     758
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "bi23y0x-MhA#r6",
+   "business": "Google India",
+   "ranges": [
+    [
+     17,
+     18
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "bi23y0x-MhA#r7",
+   "business": "TaskRabbit",
+   "ranges": [
+    [
+     18,
+     18
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "bi23y0x-MhA#r8",
+   "business": "OpenAI",
+   "ranges": [
+    [
+     1108,
+     1118
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "bi23y0x-MhA#r9",
+   "business": "Anthropic and its Claude AI business",
+   "ranges": [
+    [
+     1109,
+     1109
+    ],
+    [
+     1127,
+     1132
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "bi23y0x-MhA#r10",
+   "business": "Meta",
+   "ranges": [
+    [
+     1171,
+     1171
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "Art of Accomplishment is the guest’s primary business; sponsor segment removed.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 74
+}

@@ -1,0 +1,256 @@
+{
+ "id": "QezvXB-n3q0",
+ "publish_date": "20261005",
+ "channel": "Harry’s Stealth Wealth",
+ "status": "ingested",
+ "title": "8 BORING Machines That Quietly Pay You for Years (No Employees Needed)",
+ "provider": null,
+ "duration_s": "2190",
+ "n_lines": 637,
+ "n_removed_lines": 9,
+ "removed": [
+  {
+   "from": 4,
+   "to": 4,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 8,
+   "to": 8,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 317,
+   "to": 321,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 364,
+   "to": 365,
+   "reason": "filler"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "QezvXB-n3q0#r1",
+   "business": "corner store cash machine / ATM placement route",
+   "ranges": [
+    [
+     1,
+     3
+    ],
+    [
+     7,
+     7
+    ],
+    [
+     322,
+     637
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "QezvXB-n3q0#r2",
+   "business": "ice vending machine",
+   "ranges": [
+    [
+     6,
+     6
+    ],
+    [
+     15,
+     17
+    ],
+    [
+     39,
+     80
+    ],
+    [
+     166,
+     173
+    ],
+    [
+     288,
+     293
+    ],
+    [
+     311,
+     312
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "QezvXB-n3q0#r3",
+   "business": "self-storage facility",
+   "ranges": [
+    [
+     21,
+     21
+    ],
+    [
+     24,
+     24
+    ],
+    [
+     295,
+     295
+    ],
+    [
+     298,
+     298
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "QezvXB-n3q0#r4",
+   "business": "self-service car wash",
+   "ranges": [
+    [
+     24,
+     24
+    ],
+    [
+     244,
+     284
+    ],
+    [
+     288,
+     293
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "QezvXB-n3q0#r5",
+   "business": "crypto ATM placement business",
+   "ranges": [
+    [
+     81,
+     108
+    ],
+    [
+     166,
+     173
+    ],
+    [
+     288,
+     293
+    ],
+    [
+     311,
+     312
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "QezvXB-n3q0#r6",
+   "business": "self-service dog wash station",
+   "ranges": [
+    [
+     109,
+     139
+    ],
+    [
+     166,
+     173
+    ],
+    [
+     288,
+     293
+    ],
+    [
+     297,
+     298
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "QezvXB-n3q0#r7",
+   "business": "water refill station",
+   "ranges": [
+    [
+     140,
+     163
+    ],
+    [
+     166,
+     173
+    ],
+    [
+     288,
+     293
+    ],
+    [
+     296,
+     299
+    ],
+    [
+     311,
+     312
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "QezvXB-n3q0#r8",
+   "business": "small coin op laundry",
+   "ranges": [
+    [
+     186,
+     219
+    ],
+    [
+     433,
+     445
+    ],
+    [
+     502,
+     502
+    ],
+    [
+     596,
+     596
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "QezvXB-n3q0#r9",
+   "business": "automated pizza vending",
+   "ranges": [
+    [
+     220,
+     243
+    ],
+    [
+     288,
+     293
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "QezvXB-n3q0#r10",
+   "business": "cell tower lease negotiation",
+   "ranges": [
+    [
+     344,
+     349
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "Includes passing day-job references; removed intro and comment prompts.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 56
+}

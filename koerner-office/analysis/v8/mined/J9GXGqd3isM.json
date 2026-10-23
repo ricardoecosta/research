@@ -1,0 +1,117 @@
+{
+ "id": "J9GXGqd3isM",
+ "title": "Gemini 4 Argon - Full Tutorial: How To Build an App In Minutes",
+ "channel": "Mikey No Code",
+ "publish_date": "20261019",
+ "miner": "codex:gpt-6-luna:xhigh",
+ "mined_at": "2026-10-23T11:25:34",
+ "secs": 43,
+ "schema_errors": [],
+ "speakers": [
+  {
+   "name": "Mikey No Code",
+   "role": "host"
+  }
+ ],
+ "evidence_quality": "C",
+ "promo_conflict": "The video is a product tutorial centered on Base44 and Gemini. It demonstrates a test-mode subscription but reports no paying customers or revenue.",
+ "ideas": [
+  {
+   "record_id": "J9GXGqd3isM#r1",
+   "depth": "deep",
+   "stated_problem": {
+    "quote": "Now, sometimes writing down your thoughts helps you clear out your head, but there are also moments when you wish you could get another perspective on what you've actually written down.",
+    "line": 85,
+    "speaker": "Mikey No Code"
+   },
+   "idea": {
+    "name": "Lumen AI journal",
+    "one_liner": "A self-serve journaling app for consumers, with AI reflection and premium features sold through a monthly subscription.",
+    "customer": "People who journal and want help reflecting on their entries and tracking patterns over time.",
+    "offer": "A journal with entry organization, AI reflections and prompts, an assistant that can answer questions about past entries, and paid entry locks and insights.",
+    "revenue_model": "Free basic tier with a planned monthly subscription for premium features; no price or actual revenue is stated.",
+    "category": "saas_software"
+   },
+   "citation": {
+    "lines": [
+     41,
+     83,
+     85,
+     90,
+     91,
+     113,
+     134,
+     136,
+     141,
+     196
+    ],
+    "primary_line": 90
+   },
+   "key_quotes": [
+    {
+     "quote": "So, for this next addition, I want Argon to add a reflect button to the entry editor that gives users a short thoughtful response and a follow-up question based on what they've actually written down.",
+     "line": 90
+    },
+    {
+     "quote": "The second is premium insights where users can see their mood trends, their writing statistics, common themes, and an AI-generated monthly summary of their journal.",
+     "line": 134
+    },
+    {
+     "quote": "We'll also ask it to connect Stripe in test mode and create a monthly Lumen Premium subscription.",
+     "line": 136
+    },
+    {
+     "quote": "And one thing I really like about this project is how we were able to take a simple journaling idea and then turn it into an app that people could actually sign up for, that they could use every day, and even subscribe to for extra features.",
+     "line": 196
+    }
+   ],
+   "claims": [
+    {
+     "claim": "The prototype is planned to offer a monthly Lumen Premium subscription; no subscription price or sales are stated.",
+     "quote": "We'll also ask it to connect Stripe in test mode and create a monthly Lumen Premium subscription.",
+     "line": 136,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "The checkout shown is in test mode and charges no real money.",
+     "quote": "Stripe will be running in test mode here, which means we can go through the checkout process without having to charge real money.",
+     "line": 141,
+     "first_hand": true,
+     "hypothetical": false
+    }
+   ],
+   "acquisition_channels": [],
+   "delivery": "A self-serve published web app built on Base44. Users create and manage journal entries and use the AI features; a Stripe subscription is intended to unlock premium entry locks and insights.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "Base44",
+     "Gemini 4 Argon",
+     "Stripe"
+    ],
+    "prices": [],
+    "platforms": [
+     "Base44 published web app",
+     "Google sign-in"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "UK GDPR applies to account and journal data; entries may contain sensitive personal information, including health data. Review applicable UK GDPR safeguards and DMCC Act subscription-contract requirements for recurring billing and cancellation.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 55,
+   "hours_per_week_e": 12,
+   "idea_id": "J9GXGqd3isM:i1",
+   "specifics_flag": true,
+   "publish_date": "20261019",
+   "stale_age": false,
+   "recheck": true
+  }
+ ]
+}

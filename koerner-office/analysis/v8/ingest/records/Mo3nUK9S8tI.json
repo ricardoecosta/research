@@ -1,0 +1,125 @@
+{
+ "id": "Mo3nUK9S8tI",
+ "publish_date": "20260927",
+ "channel": "George McConnell",
+ "status": "ingested",
+ "title": "Claude Opus 5.5 + Higgsfield AI: 7 CRAZY Use Cases",
+ "provider": null,
+ "duration_s": "1416",
+ "n_lines": 374,
+ "n_removed_lines": 14,
+ "removed": [
+  {
+   "from": 54,
+   "to": 54,
+   "reason": "filler"
+  },
+  {
+   "from": 56,
+   "to": 57,
+   "reason": "filler"
+  },
+  {
+   "from": 157,
+   "to": 157,
+   "reason": "filler"
+  },
+  {
+   "from": 190,
+   "to": 190,
+   "reason": "filler"
+  },
+  {
+   "from": 232,
+   "to": 232,
+   "reason": "filler"
+  },
+  {
+   "from": 246,
+   "to": 246,
+   "reason": "filler"
+  },
+  {
+   "from": 276,
+   "to": 276,
+   "reason": "filler"
+  },
+  {
+   "from": 313,
+   "to": 313,
+   "reason": "filler"
+  },
+  {
+   "from": 327,
+   "to": 327,
+   "reason": "filler"
+  },
+  {
+   "from": 337,
+   "to": 337,
+   "reason": "filler"
+  },
+  {
+   "from": 372,
+   "to": 374,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "Mo3nUK9S8tI#r1",
+   "business": "Von, a premium hydration brand expanded into athleisure clothing",
+   "ranges": [
+    [
+     24,
+     73
+    ],
+    [
+     81,
+     370
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "Mo3nUK9S8tI#r2",
+   "business": "The speaker's media company and service business, which sells that service to people",
+   "ranges": [
+    [
+     23,
+     23
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Mo3nUK9S8tI#r3",
+   "business": "Aloe, the apparel brand used as a model-photo example",
+   "ranges": [
+    [
+     74,
+     78
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Mo3nUK9S8tI#r4",
+   "business": "Fashion Nova, used as a model-photo example",
+   "ranges": [
+    [
+     79,
+     80
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "Von's clothing is presented as an extension of its hydration brand.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 66
+}

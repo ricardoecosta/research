@@ -1,0 +1,142 @@
+{
+ "id": "LPgWaH3YY6U",
+ "publish_date": "20260209",
+ "channel": "Chris Koerner on The Koerner Office Podcast",
+ "status": "ingested",
+ "title": "People Are Selling One Prompt Websites for $1K+ (Full Tutorial)",
+ "provider": "transcribeyoutube",
+ "duration_s": "818",
+ "n_lines": 285,
+ "n_removed_lines": 13,
+ "removed": [
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "filler"
+  },
+  {
+   "from": 26,
+   "to": 26,
+   "reason": "filler"
+  },
+  {
+   "from": 62,
+   "to": 62,
+   "reason": "filler"
+  },
+  {
+   "from": 67,
+   "to": 67,
+   "reason": "filler"
+  },
+  {
+   "from": 70,
+   "to": 70,
+   "reason": "filler"
+  },
+  {
+   "from": 97,
+   "to": 97,
+   "reason": "filler"
+  },
+  {
+   "from": 110,
+   "to": 110,
+   "reason": "filler"
+  },
+  {
+   "from": 139,
+   "to": 140,
+   "reason": "filler"
+  },
+  {
+   "from": 200,
+   "to": 200,
+   "reason": "filler"
+  },
+  {
+   "from": 212,
+   "to": 213,
+   "reason": "filler"
+  },
+  {
+   "from": 221,
+   "to": 221,
+   "reason": "tangent"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "LPgWaH3YY6U#r1",
+   "business": "Secret Pickleball Club (pickleball club)",
+   "ranges": [
+    [
+     1,
+     10
+    ],
+    [
+     12,
+     88
+    ],
+    [
+     90,
+     96
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "LPgWaH3YY6U#r2",
+   "business": "web design agency selling websites to businesses",
+   "ranges": [
+    [
+     5,
+     5
+    ],
+    [
+     89,
+     89
+    ],
+    [
+     98,
+     107
+    ],
+    [
+     130,
+     138
+    ],
+    [
+     222,
+     260
+    ],
+    [
+     280,
+     285
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "LPgWaH3YY6U#r3",
+   "business": "Secret Pizza (pizza restaurant in Dallas)",
+   "ranges": [
+    [
+     104,
+     125
+    ],
+    [
+     140,
+     220
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "The primary business is an AI-assisted web design agency; the pickleball club and pizza restaurant are separate examples.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 78
+}

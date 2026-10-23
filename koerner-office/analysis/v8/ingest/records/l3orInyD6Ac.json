@@ -1,0 +1,189 @@
+{
+ "id": "l3orInyD6Ac",
+ "publish_date": "20260601",
+ "channel": "Casper Capital",
+ "status": "ingested",
+ "title": "I Found 5 Stupid Products Doing $1M+ on Shopify",
+ "provider": null,
+ "duration_s": "533",
+ "n_lines": 95,
+ "n_removed_lines": 11,
+ "removed": [
+  {
+   "from": 36,
+   "to": 43,
+   "reason": "sponsor"
+  },
+  {
+   "from": 44,
+   "to": 44,
+   "reason": "filler"
+  },
+  {
+   "from": 94,
+   "to": 94,
+   "reason": "sponsor"
+  },
+  {
+   "from": 95,
+   "to": 95,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "l3orInyD6Ac#r1",
+   "business": "Squatty Potty",
+   "ranges": [
+    [
+     8,
+     20
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "l3orInyD6Ac#r2",
+   "business": "Hostage Tape",
+   "ranges": [
+    [
+     21,
+     35
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "l3orInyD6Ac#r3",
+   "business": "Liquid Death",
+   "ranges": [
+    [
+     29,
+     29
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "l3orInyD6Ac#r4",
+   "business": "UFC",
+   "ranges": [
+    [
+     30,
+     31
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "l3orInyD6Ac#r5",
+   "business": "3M micropore tape",
+   "ranges": [
+    [
+     32,
+     32
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "l3orInyD6Ac#r6",
+   "business": "Amazon",
+   "ranges": [
+    [
+     32,
+     32
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "l3orInyD6Ac#r7",
+   "business": "AliExpress",
+   "ranges": [
+    [
+     37,
+     40
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "l3orInyD6Ac#r8",
+   "business": "1688",
+   "ranges": [
+    [
+     40,
+     40
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "l3orInyD6Ac#r9",
+   "business": "Taobao",
+   "ranges": [
+    [
+     40,
+     40
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "l3orInyD6Ac#r10",
+   "business": "Team Drop",
+   "ranges": [
+    [
+     39,
+     43
+    ],
+    [
+     94,
+     94
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "l3orInyD6Ac#r11",
+   "business": "Plunge",
+   "ranges": [
+    [
+     45,
+     58
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "l3orInyD6Ac#r12",
+   "business": "The Oodie",
+   "ranges": [
+    [
+     59,
+     74
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "l3orInyD6Ac#r13",
+   "business": "Loop",
+   "ranges": [
+    [
+     75,
+     92
+    ]
+   ],
+   "is_primary": true
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "Five main product businesses; Team Drop sponsor segment removed.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 54
+}

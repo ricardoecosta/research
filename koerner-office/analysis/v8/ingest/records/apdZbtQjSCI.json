@@ -1,0 +1,130 @@
+{
+ "id": "apdZbtQjSCI",
+ "publish_date": "20261017",
+ "channel": "Nick Huber - Sweaty Startup",
+ "status": "ingested",
+ "title": "The Day I Almost Quit Entrepreneurship",
+ "provider": "local_whisper_tiny",
+ "duration_s": "341",
+ "n_lines": 81,
+ "n_removed_lines": 6,
+ "removed": [
+  {
+   "from": 7,
+   "to": 7,
+   "reason": "filler"
+  },
+  {
+   "from": 10,
+   "to": 10,
+   "reason": "filler"
+  },
+  {
+   "from": 28,
+   "to": 28,
+   "reason": "filler"
+  },
+  {
+   "from": 38,
+   "to": 38,
+   "reason": "filler"
+  },
+  {
+   "from": 41,
+   "to": 41,
+   "reason": "filler"
+  },
+  {
+   "from": 51,
+   "to": 51,
+   "reason": "filler"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "apdZbtQjSCI#r1",
+   "business": "Storage Squad, student pick-up and delivery storage",
+   "ranges": [
+    [
+     1,
+     1
+    ],
+    [
+     18,
+     53
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "apdZbtQjSCI#r2",
+   "business": "Self-storage development and facilities",
+   "ranges": [
+    [
+     2,
+     2
+    ],
+    [
+     12,
+     12
+    ],
+    [
+     54,
+     60
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "apdZbtQjSCI#r3",
+   "business": "Real estate that I own",
+   "ranges": [
+    [
+     8,
+     9
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "apdZbtQjSCI#r4",
+   "business": "Selling courses online",
+   "ranges": [
+    [
+     9,
+     9
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "apdZbtQjSCI#r5",
+   "business": "Somewhere.com",
+   "ranges": [
+    [
+     11,
+     11
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "apdZbtQjSCI#r6",
+   "business": "RE Cost Seg",
+   "ranges": [
+    [
+     12,
+     12
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "The self-storage company name at L0012 is unclear.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 42
+}

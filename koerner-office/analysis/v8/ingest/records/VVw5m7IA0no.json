@@ -1,0 +1,226 @@
+{
+ "id": "VVw5m7IA0no",
+ "publish_date": "20261020",
+ "channel": "My First Million",
+ "status": "ingested",
+ "title": "we need to talk about the Elizabeth Holmes doc (unfiltered review)",
+ "provider": "local_whisper_tiny",
+ "duration_s": "3219",
+ "n_lines": 877,
+ "n_removed_lines": 54,
+ "removed": [
+  {
+   "from": 83,
+   "to": 90,
+   "reason": "sponsor"
+  },
+  {
+   "from": 424,
+   "to": 456,
+   "reason": "tangent"
+  },
+  {
+   "from": 710,
+   "to": 716,
+   "reason": "tangent"
+  },
+  {
+   "from": 872,
+   "to": 877,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "VVw5m7IA0no#r1",
+   "business": "A24, the film studio",
+   "ranges": [
+    [
+     29,
+     36
+    ],
+    [
+     512,
+     517
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "VVw5m7IA0no#r2",
+   "business": "Letterboxd",
+   "ranges": [
+    [
+     34,
+     34
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "VVw5m7IA0no#r3",
+   "business": "Rotten Tomatoes",
+   "ranges": [
+    [
+     34,
+     36
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "VVw5m7IA0no#r4",
+   "business": "Theranos, Elizabeth Holmes’s blood-testing company",
+   "ranges": [
+    [
+     91,
+     130
+    ],
+    [
+     131,
+     148
+    ],
+    [
+     163,
+     168
+    ],
+    [
+     198,
+     228
+    ],
+    [
+     229,
+     244
+    ],
+    [
+     301,
+     310
+    ],
+    [
+     463,
+     483
+    ],
+    [
+     486,
+     488
+    ],
+    [
+     637,
+     643
+    ],
+    [
+     844,
+     871
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "VVw5m7IA0no#r5",
+   "business": "CVS",
+   "ranges": [
+    [
+     96,
+     105
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "VVw5m7IA0no#r6",
+   "business": "Walgreens",
+   "ranges": [
+    [
+     105,
+     105
+    ],
+    [
+     224,
+     225
+    ],
+    [
+     471,
+     472
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "VVw5m7IA0no#r7",
+   "business": "Elon’s self-driving venture",
+   "ranges": [
+    [
+     163,
+     166
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "VVw5m7IA0no#r8",
+   "business": "Pfizer",
+   "ranges": [
+    [
+     224,
+     227
+    ],
+    [
+     468,
+     470
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "VVw5m7IA0no#r9",
+   "business": "Hulu, the streamer for The Dropout",
+   "ranges": [
+    [
+     294,
+     296
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "VVw5m7IA0no#r10",
+   "business": "The New York Times",
+   "ranges": [
+    [
+     346,
+     349
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "VVw5m7IA0no#r11",
+   "business": "Billy’s family’s hotel chain",
+   "ranges": [
+    [
+     493,
+     495
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "VVw5m7IA0no#r12",
+   "business": "A16Z",
+   "ranges": [
+    [
+     519,
+     520
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "Theranos is the main business; the transcript is mostly a documentary review.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 76
+}

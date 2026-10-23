@@ -1,0 +1,859 @@
+{
+ "id": "Pfr6qwPZlhE",
+ "publish_date": "20260930",
+ "channel": "My First Million",
+ "status": "ingested",
+ "title": "We tested Instinct, Muse and Grokbot. They’re ridiculous.",
+ "provider": "local_whisper_tiny",
+ "duration_s": "4363",
+ "n_lines": 1242,
+ "n_removed_lines": 118,
+ "removed": [
+  {
+   "from": 4,
+   "to": 7,
+   "reason": "tangent"
+  },
+  {
+   "from": 9,
+   "to": 11,
+   "reason": "filler"
+  },
+  {
+   "from": 12,
+   "to": 18,
+   "reason": "filler"
+  },
+  {
+   "from": 129,
+   "to": 139,
+   "reason": "sponsor"
+  },
+  {
+   "from": 222,
+   "to": 232,
+   "reason": "tangent"
+  },
+  {
+   "from": 237,
+   "to": 274,
+   "reason": "tangent"
+  },
+  {
+   "from": 1199,
+   "to": 1242,
+   "reason": "tangent"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "Pfr6qwPZlhE#r1",
+   "business": "Uber",
+   "ranges": [
+    [
+     2,
+     2
+    ],
+    [
+     35,
+     38
+    ],
+    [
+     74,
+     89
+    ],
+    [
+     277,
+     278
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r2",
+   "business": "Instinct",
+   "ranges": [
+    [
+     8,
+     8
+    ],
+    [
+     22,
+     27
+    ],
+    [
+     105,
+     128
+    ],
+    [
+     140,
+     158
+    ],
+    [
+     299,
+     360
+    ],
+    [
+     369,
+     388
+    ],
+    [
+     449,
+     510
+    ],
+    [
+     571,
+     582
+    ],
+    [
+     629,
+     637
+    ],
+    [
+     661,
+     684
+    ],
+    [
+     1147,
+     1155
+    ],
+    [
+     1167,
+     1173
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r3",
+   "business": "Google",
+   "ranges": [
+    [
+     30,
+     31
+    ],
+    [
+     53,
+     54
+    ],
+    [
+     282,
+     285
+    ],
+    [
+     615,
+     617
+    ],
+    [
+     673,
+     675
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r4",
+   "business": "Amazon",
+   "ranges": [
+    [
+     30,
+     30
+    ],
+    [
+     638,
+     641
+    ],
+    [
+     646,
+     646
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r5",
+   "business": "Facebook/Meta",
+   "ranges": [
+    [
+     31,
+     32
+    ],
+    [
+     52,
+     55
+    ],
+    [
+     140,
+     176
+    ],
+    [
+     180,
+     191
+    ],
+    [
+     389,
+     392
+    ],
+    [
+     423,
+     429
+    ],
+    [
+     615,
+     630
+    ],
+    [
+     657,
+     661
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r6",
+   "business": "Twitter",
+   "ranges": [
+    [
+     31,
+     31
+    ],
+    [
+     54,
+     54
+    ],
+    [
+     739,
+     745
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r7",
+   "business": "Lyft",
+   "ranges": [
+    [
+     35,
+     46
+    ],
+    [
+     277,
+     278
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r8",
+   "business": "Airbnb",
+   "ranges": [
+    [
+     35,
+     36
+    ],
+    [
+     90,
+     92
+    ],
+    [
+     399,
+     400
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r9",
+   "business": "Sidecar",
+   "ranges": [
+    [
+     38,
+     46
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r10",
+   "business": "Muse",
+   "ranges": [
+    [
+     22,
+     25
+    ],
+    [
+     140,
+     158
+    ],
+    [
+     191,
+     192
+    ],
+    [
+     385,
+     392
+    ],
+    [
+     571,
+     582
+    ],
+    [
+     585,
+     588
+    ],
+    [
+     638,
+     641
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r11",
+   "business": "Scale AI",
+   "ranges": [
+    [
+     162,
+     171
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r12",
+   "business": "Instagram",
+   "ranges": [
+    [
+     175,
+     176
+    ],
+    [
+     623,
+     629
+    ],
+    [
+     693,
+     708
+    ],
+    [
+     1088,
+     1090
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r13",
+   "business": "WhatsApp",
+   "ranges": [
+    [
+     174,
+     176
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r14",
+   "business": "xAI",
+   "ranges": [
+    [
+     193,
+     196
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r15",
+   "business": "Grokbot",
+   "ranges": [
+    [
+     22,
+     25
+    ],
+    [
+     193,
+     221
+    ],
+    [
+     362,
+     378
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r16",
+   "business": "OpenAI / ChatGPT",
+   "ranges": [
+    [
+     110,
+     114
+    ],
+    [
+     280,
+     282
+    ],
+    [
+     437,
+     447
+    ],
+    [
+     788,
+     925
+    ],
+    [
+     998,
+     1045
+    ],
+    [
+     1086,
+     1090
+    ],
+    [
+     1135,
+     1139
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r17",
+   "business": "Asurion (the iPhone repair service, as transcribed)",
+   "ranges": [
+    [
+     303,
+     314
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r18",
+   "business": "Ticketmaster",
+   "ranges": [
+    [
+     324,
+     360
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r19",
+   "business": "StubHub",
+   "ranges": [
+    [
+     324,
+     360
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r20",
+   "business": "Amazon Alexa",
+   "ranges": [
+    [
+     287,
+     298
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r21",
+   "business": "Siri (Apple’s assistant)",
+   "ranges": [
+    [
+     282,
+     285
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r22",
+   "business": "Apple",
+   "ranges": [
+    [
+     634,
+     638
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r23",
+   "business": "Apple App Store",
+   "ranges": [
+    [
+     657,
+     660
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r24",
+   "business": "Uber Eats",
+   "ranges": [
+    [
+     646,
+     646
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r25",
+   "business": "DoorDash",
+   "ranges": [
+    [
+     646,
+     646
+    ],
+    [
+     685,
+     691
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r26",
+   "business": "Amazon Fresh (called “Prime Fresh” in the transcript)",
+   "ranges": [
+    [
+     646,
+     646
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r27",
+   "business": "Walmart",
+   "ranges": [
+    [
+     651,
+     655
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r28",
+   "business": "Booking.com",
+   "ranges": [
+    [
+     666,
+     670
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r29",
+   "business": "Expedia",
+   "ranges": [
+    [
+     666,
+     670
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r30",
+   "business": "Eli Lilly",
+   "ranges": [
+    [
+     233,
+     236
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r31",
+   "business": "The AI fuzzy-bear / Tamagotchi-style companion app (company not named)",
+   "ranges": [
+    [
+     511,
+     515
+    ],
+    [
+     519,
+     545
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r32",
+   "business": "Mint.com",
+   "ranges": [
+    [
+     498,
+     510
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r33",
+   "business": "Micro One",
+   "ranges": [
+    [
+     709,
+     782
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r34",
+   "business": "Hampton",
+   "ranges": [
+    [
+     731,
+     745
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r35",
+   "business": "Notion",
+   "ranges": [
+    [
+     731,
+     732
+    ],
+    [
+     1167,
+     1169
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r36",
+   "business": "Slack",
+   "ranges": [
+    [
+     65,
+     66
+    ],
+    [
+     196,
+     204
+    ],
+    [
+     731,
+     732
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r37",
+   "business": "Anthropic / Claude",
+   "ranges": [
+    [
+     142,
+     145
+    ],
+    [
+     282,
+     283
+    ],
+    [
+     754,
+     754
+    ],
+    [
+     761,
+     769
+    ],
+    [
+     1001,
+     1029
+    ],
+    [
+     1086,
+     1090
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r38",
+   "business": "John Rockefeller’s first large oil company (not named)",
+   "ranges": [
+    [
+     597,
+     611
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r39",
+   "business": "Hugging Face",
+   "ranges": [
+    [
+     881,
+     882
+    ],
+    [
+     884,
+     901
+    ],
+    [
+     915,
+     917
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r40",
+   "business": "NVIDIA",
+   "ranges": [
+    [
+     895,
+     896
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r41",
+   "business": "Four Loko",
+   "ranges": [
+    [
+     1004,
+     1014
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r42",
+   "business": "Sparks (the drink brand)",
+   "ranges": [
+    [
+     1004,
+     1014
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r43",
+   "business": "Cloudflare",
+   "ranges": [
+    [
+     1052,
+     1055
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r44",
+   "business": "Palantir",
+   "ranges": [
+    [
+     1055,
+     1058
+    ],
+    [
+     1103,
+     1104
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r45",
+   "business": "OpenRouter",
+   "ranges": [
+    [
+     1016,
+     1029
+    ],
+    [
+     1046,
+     1100
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r46",
+   "business": "Open C (NFT business; name unclear in the transcript)",
+   "ranges": [
+    [
+     1100,
+     1104
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r47",
+   "business": "Groupon",
+   "ranges": [
+    [
+     1116,
+     1117
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r48",
+   "business": "Higgsfield",
+   "ranges": [
+    [
+     1130,
+     1133
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r49",
+   "business": "Jev (AI model startup, as transcribed)",
+   "ranges": [
+    [
+     1134,
+     1139
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "Pfr6qwPZlhE#r50",
+   "business": "SF Compute",
+   "ranges": [
+    [
+     1140,
+     1145
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "English transcript; business names are kept as spoken where unclear.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 126
+}

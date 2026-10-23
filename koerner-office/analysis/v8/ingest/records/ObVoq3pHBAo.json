@@ -1,0 +1,68 @@
+{
+ "id": "ObVoq3pHBAo",
+ "publish_date": "20261004",
+ "channel": "Nick Huber - Sweaty Startup",
+ "status": "ingested",
+ "title": "The Hidden Cost of Building an Empire",
+ "provider": "local_whisper_tiny",
+ "duration_s": "204",
+ "n_lines": 35,
+ "n_removed_lines": 1,
+ "removed": [
+  {
+   "from": 6,
+   "to": 6,
+   "reason": "filler"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "ObVoq3pHBAo#r1",
+   "business": "holding company",
+   "ranges": [
+    [
+     2,
+     4
+    ],
+    [
+     9,
+     15
+    ],
+    [
+     18,
+     18
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "ObVoq3pHBAo#r2",
+   "business": "one of his companies, where he might take a loss or lose a key person or client",
+   "ranges": [
+    [
+     16,
+     16
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "ObVoq3pHBAo#r3",
+   "business": "another company, with 100% year-over-year revenue growth",
+   "ranges": [
+    [
+     17,
+     17
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "The operating companies are unnamed, so they are distinguished by the speaker's descriptions.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 36
+}

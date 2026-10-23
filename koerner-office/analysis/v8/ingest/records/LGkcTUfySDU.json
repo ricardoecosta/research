@@ -1,0 +1,122 @@
+{
+ "id": "LGkcTUfySDU",
+ "publish_date": "20260611",
+ "channel": "Chris Koerner on The Koerner Office Podcast",
+ "status": "ingested",
+ "title": "The Most Profitable Side Hustle No One Is Doing Yet",
+ "provider": null,
+ "duration_s": "1270",
+ "n_lines": 523,
+ "n_removed_lines": 20,
+ "removed": [
+  {
+   "from": 36,
+   "to": 37,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 106,
+   "to": 106,
+   "reason": "filler"
+  },
+  {
+   "from": 160,
+   "to": 163,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 402,
+   "to": 403,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 513,
+   "to": 523,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "LGkcTUfySDU#r1",
+   "business": "backyard movie theater",
+   "ranges": [
+    [
+     1,
+     35
+    ],
+    [
+     38,
+     347
+    ],
+    [
+     355,
+     382
+    ],
+    [
+     391,
+     401
+    ],
+    [
+     404,
+     499
+    ],
+    [
+     501,
+     512
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "LGkcTUfySDU#r2",
+   "business": "appliance rental",
+   "ranges": [
+    [
+     348,
+     350
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "LGkcTUfySDU#r3",
+   "business": "website landlord",
+   "ranges": [
+    [
+     352,
+     355
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "LGkcTUfySDU#r4",
+   "business": "flying drones commercially",
+   "ranges": [
+    [
+     383,
+     386
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "LGkcTUfySDU#r5",
+   "business": "drinkware business",
+   "ranges": [
+    [
+     387,
+     390
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "The guest describes the theater and LED dance floors as one business with multiple services; appliance rental and website landlord are brief podcast examples.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 129
+}

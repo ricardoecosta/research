@@ -1,0 +1,61 @@
+{
+ "id": "Rfa58LK47XY",
+ "publish_date": "20250528",
+ "channel": "Niche Pursuits",
+ "status": "ingested",
+ "title": "The Most Underrated Way to Make $2,000 in 48 Hours",
+ "provider": "local_whisper_tiny",
+ "duration_s": "507",
+ "n_lines": 136,
+ "n_removed_lines": 6,
+ "removed": [
+  {
+   "from": 57,
+   "to": 57,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 58,
+   "to": 59,
+   "reason": "filler"
+  },
+  {
+   "from": 127,
+   "to": 127,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 135,
+   "to": 136,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "Rfa58LK47XY#r1",
+   "business": "garage sale selling items from return pallets",
+   "ranges": [
+    [
+     1,
+     56
+    ],
+    [
+     60,
+     126
+    ],
+    [
+     128,
+     134
+    ]
+   ],
+   "is_primary": true
+  }
+ ],
+ "multi_business": false,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "Facebook Marketplace, eBay, Whatnot, and Amazon are mentioned as sales channels for the same resale business.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 27
+}

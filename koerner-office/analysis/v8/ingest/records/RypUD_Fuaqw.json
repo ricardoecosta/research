@@ -1,0 +1,97 @@
+{
+ "id": "RypUD_Fuaqw",
+ "publish_date": "20261004",
+ "channel": "Starter Story",
+ "status": "ingested",
+ "title": "This crazy simple app makes $50K/month",
+ "provider": "local_whisper_tiny",
+ "duration_s": "1010",
+ "n_lines": 243,
+ "n_removed_lines": 26,
+ "removed": [
+  {
+   "from": 1,
+   "to": 3,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 17,
+   "to": 20,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 50,
+   "to": 54,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 177,
+   "to": 178,
+   "reason": "filler"
+  },
+  {
+   "from": 204,
+   "to": 204,
+   "reason": "filler"
+  },
+  {
+   "from": 208,
+   "to": 210,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 212,
+   "to": 213,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 238,
+   "to": 243,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "RypUD_Fuaqw#r1",
+   "business": "app Max, a fitness app with personalized abs plans and workout programs",
+   "ranges": [
+    [
+     4,
+     14
+    ],
+    [
+     21,
+     49
+    ],
+    [
+     55,
+     176
+    ],
+    [
+     179,
+     203
+    ],
+    [
+     205,
+     207
+    ],
+    [
+     209,
+     211
+    ],
+    [
+     214,
+     237
+    ]
+   ],
+   "is_primary": true
+  }
+ ],
+ "multi_business": false,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "App Max is the only concrete business; other app and tool mentions are examples or services.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 40
+}

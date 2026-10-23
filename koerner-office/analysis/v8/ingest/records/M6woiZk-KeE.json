@@ -1,0 +1,127 @@
+{
+ "id": "M6woiZk-KeE",
+ "publish_date": "20251226",
+ "channel": "Chris Koerner on The Koerner Office Podcast",
+ "status": "ingested",
+ "title": "How I Turned A Gas Station Visit Into A Multi-Million Dollar Business",
+ "provider": "youtube-transcript-api",
+ "duration_s": "355",
+ "n_lines": 103,
+ "n_removed_lines": 3,
+ "removed": [
+  {
+   "from": 4,
+   "to": 5,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 27,
+   "to": 27,
+   "reason": "filler"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "M6woiZk-KeE#r1",
+   "business": "Texas Snacks, the online store that resells BIES products",
+   "ranges": [
+    [
+     2,
+     2
+    ],
+    [
+     15,
+     26
+    ],
+    [
+     35,
+     38
+    ],
+    [
+     40,
+     47
+    ],
+    [
+     57,
+     78
+    ],
+    [
+     83,
+     101
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "M6woiZk-KeE#r2",
+   "business": "BIES gas station stores",
+   "ranges": [
+    [
+     3,
+     14
+    ],
+    [
+     28,
+     34
+    ],
+    [
+     39,
+     39
+    ],
+    [
+     48,
+     55
+    ],
+    [
+     79,
+     82
+    ],
+    [
+     102,
+     102
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "M6woiZk-KeE#r3",
+   "business": "Tesla Supercharging stations",
+   "ranges": [
+    [
+     11,
+     12
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "M6woiZk-KeE#r4",
+   "business": "Restaurants opening around new BIES locations",
+   "ranges": [
+    [
+     9,
+     10
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "M6woiZk-KeE#r5",
+   "business": "Buying land near new BIES locations and holding it for profit",
+   "ranges": [
+    [
+     103,
+     103
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "The main business is Texas Snacks; some lines also describe BIES as the source retailer.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 23
+}

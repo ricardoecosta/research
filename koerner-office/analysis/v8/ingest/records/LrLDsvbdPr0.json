@@ -1,0 +1,219 @@
+{
+ "id": "LrLDsvbdPr0",
+ "publish_date": "20261014",
+ "channel": "Starter Story",
+ "status": "ingested",
+ "title": "I built this app for my dad. Now it makes $18K/month",
+ "provider": "local_whisper_tiny",
+ "duration_s": "935",
+ "n_lines": 250,
+ "n_removed_lines": 42,
+ "removed": [
+  {
+   "from": 4,
+   "to": 4,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 14,
+   "to": 14,
+   "reason": "filler"
+  },
+  {
+   "from": 15,
+   "to": 15,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 19,
+   "to": 24,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 25,
+   "to": 25,
+   "reason": "filler"
+  },
+  {
+   "from": 33,
+   "to": 33,
+   "reason": "filler"
+  },
+  {
+   "from": 56,
+   "to": 56,
+   "reason": "filler"
+  },
+  {
+   "from": 60,
+   "to": 60,
+   "reason": "filler"
+  },
+  {
+   "from": 77,
+   "to": 85,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 86,
+   "to": 86,
+   "reason": "filler"
+  },
+  {
+   "from": 139,
+   "to": 139,
+   "reason": "filler"
+  },
+  {
+   "from": 159,
+   "to": 160,
+   "reason": "filler"
+  },
+  {
+   "from": 199,
+   "to": 200,
+   "reason": "filler"
+  },
+  {
+   "from": 221,
+   "to": 222,
+   "reason": "filler"
+  },
+  {
+   "from": 224,
+   "to": 224,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 226,
+   "to": 230,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 245,
+   "to": 250,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "LrLDsvbdPr0#r1",
+   "business": "Boise, the speech tech dictation app",
+   "ranges": [
+    [
+     1,
+     3
+    ],
+    [
+     5,
+     13
+    ],
+    [
+     16,
+     18
+    ],
+    [
+     26,
+     55
+    ],
+    [
+     58,
+     59
+    ],
+    [
+     64,
+     68
+    ],
+    [
+     72,
+     76
+    ],
+    [
+     89,
+     124
+    ],
+    [
+     125,
+     138
+    ],
+    [
+     140,
+     158
+    ],
+    [
+     161,
+     189
+    ],
+    [
+     201,
+     206
+    ],
+    [
+     207,
+     225
+    ],
+    [
+     231,
+     244
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "LrLDsvbdPr0#r2",
+   "business": "Meatwaves, a community analytics app",
+   "ranges": [
+    [
+     69,
+     71
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "LrLDsvbdPr0#r3",
+   "business": "Romeo SEO, the SEO tool",
+   "ranges": [
+    [
+     137,
+     138
+    ],
+    [
+     190,
+     193
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "LrLDsvbdPr0#r4",
+   "business": "Whisper Flow, the dictation app",
+   "ranges": [
+    [
+     172,
+     174
+    ],
+    [
+     181,
+     182
+    ],
+    [
+     189,
+     189
+    ],
+    [
+     202,
+     205
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "Boise/Voice C variants treated as Boise; RomeoSCO treated as Romeo SEO.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 79
+}

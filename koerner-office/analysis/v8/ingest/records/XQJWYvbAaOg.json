@@ -1,0 +1,135 @@
+{
+ "id": "XQJWYvbAaOg",
+ "publish_date": "20260528",
+ "channel": "Chris Koerner on The Koerner Office Podcast",
+ "status": "ingested",
+ "title": "AI Agents Are Finally Easy to Set Up",
+ "provider": "local_whisper_tiny",
+ "duration_s": "573",
+ "n_lines": 119,
+ "n_removed_lines": 5,
+ "removed": [
+  {
+   "from": 27,
+   "to": 27,
+   "reason": "sponsor"
+  },
+  {
+   "from": 68,
+   "to": 68,
+   "reason": "filler"
+  },
+  {
+   "from": 117,
+   "to": 118,
+   "reason": "sponsor"
+  },
+  {
+   "from": 119,
+   "to": 119,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "XQJWYvbAaOg#r1",
+   "business": "My podcast, using trending business ideas and stories for content",
+   "ranges": [
+    [
+     4,
+     5
+    ],
+    [
+     66,
+     73
+    ],
+    [
+     97,
+     99
+    ],
+    [
+     105,
+     112
+    ],
+    [
+     115,
+     116
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "XQJWYvbAaOg#r2",
+   "business": "A creator who breaks down and analyzes cold plunge studies",
+   "ranges": [
+    [
+     9,
+     11
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "XQJWYvbAaOg#r3",
+   "business": "Flowly, a platform (the description is cut off in the transcript)",
+   "ranges": [
+    [
+     93,
+     96
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "XQJWYvbAaOg#r4",
+   "business": "A professional network for construction and manufacturing",
+   "ranges": [
+    [
+     103,
+     103
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "XQJWYvbAaOg#r5",
+   "business": "An Uber for cleaning services marketplace",
+   "ranges": [
+    [
+     103,
+     103
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "XQJWYvbAaOg#r6",
+   "business": "A handyman services app with a monetization group",
+   "ranges": [
+    [
+     103,
+     103
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "XQJWYvbAaOg#r7",
+   "business": "An AI implementation agency helping small business owners with customer service using AI agents",
+   "ranges": [
+    [
+     113,
+     114
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "Includes distinct business ideas returned by the agent.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 54
+}

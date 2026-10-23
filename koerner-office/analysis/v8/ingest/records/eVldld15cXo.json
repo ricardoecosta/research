@@ -1,0 +1,167 @@
+{
+ "id": "eVldld15cXo",
+ "publish_date": "20260908",
+ "channel": "Niche Pursuits",
+ "status": "ingested",
+ "title": "I Just Sold a Niche Software Tool for $2.7 Million…Here’s How",
+ "provider": "local_whisper_tiny",
+ "duration_s": "1134",
+ "n_lines": 186,
+ "n_removed_lines": 26,
+ "removed": [
+  {
+   "from": 6,
+   "to": 8,
+   "reason": "tangent"
+  },
+  {
+   "from": 21,
+   "to": 25,
+   "reason": "tangent"
+  },
+  {
+   "from": 42,
+   "to": 48,
+   "reason": "tangent"
+  },
+  {
+   "from": 110,
+   "to": 110,
+   "reason": "filler"
+  },
+  {
+   "from": 168,
+   "to": 168,
+   "reason": "tangent"
+  },
+  {
+   "from": 176,
+   "to": 177,
+   "reason": "tangent"
+  },
+  {
+   "from": 179,
+   "to": 184,
+   "reason": "tangent"
+  },
+  {
+   "from": 185,
+   "to": 185,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "eVldld15cXo#r1",
+   "business": "Link Whisper, a WordPress plugin and niche software company",
+   "ranges": [
+    [
+     1,
+     5
+    ],
+    [
+     9,
+     20
+    ],
+    [
+     26,
+     41
+    ],
+    [
+     49,
+     109
+    ],
+    [
+     111,
+     167
+    ],
+    [
+     169,
+     175
+    ],
+    [
+     178,
+     178
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "eVldld15cXo#r2",
+   "business": "Niche Pursuits, the speaker's brand",
+   "ranges": [
+    [
+     57,
+     58
+    ],
+    [
+     114,
+     115
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "eVldld15cXo#r3",
+   "business": "Yoast SEO",
+   "ranges": [
+    [
+     32,
+     34
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "eVldld15cXo#r4",
+   "business": "Ahrefs",
+   "ranges": [
+    [
+     32,
+     34
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "eVldld15cXo#r5",
+   "business": "Semrush",
+   "ranges": [
+    [
+     32,
+     34
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "eVldld15cXo#r6",
+   "business": "Quiet Light Brokerage",
+   "ranges": [
+    [
+     125,
+     126
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "eVldld15cXo#r7",
+   "business": "An e-commerce business with the speaker's brother",
+   "ranges": [
+    [
+     186,
+     186
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "Link Whisper is the primary business; named competitors, Niche Pursuits, the brokerage, and the teased e-commerce business are listed separately.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 43
+}

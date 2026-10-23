@@ -1,0 +1,131 @@
+{
+ "id": "lH9EBQKgnWk",
+ "publish_date": "20260915",
+ "channel": "David Heacock",
+ "status": "ingested",
+ "title": "This Ridiculously Simple Business Makes Him $4M/Year (Can’t Fail)",
+ "provider": null,
+ "duration_s": "4632",
+ "n_lines": 1013,
+ "n_removed_lines": 8,
+ "removed": [
+  {
+   "from": 7,
+   "to": 8,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 962,
+   "to": 964,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 1011,
+   "to": 1013,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "lH9EBQKgnWk#r1",
+   "business": "Dolcore security guard services",
+   "ranges": [
+    [
+     14,
+     78
+    ],
+    [
+     80,
+     371
+    ],
+    [
+     385,
+     398
+    ],
+    [
+     404,
+     599
+    ],
+    [
+     619,
+     799
+    ],
+    [
+     808,
+     1009
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "lH9EBQKgnWk#r2",
+   "business": "Cemetery landscaping",
+   "ranges": [
+    [
+     372,
+     384
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "lH9EBQKgnWk#r3",
+   "business": "Statland Security (cameras and alarms; later called Castle Systems)",
+   "ranges": [
+    [
+     399,
+     403
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "lH9EBQKgnWk#r4",
+   "business": "Black Op Digital, a marketing agency for security guard agencies",
+   "ranges": [
+    [
+     600,
+     618
+    ],
+    [
+     800,
+     807
+    ],
+    [
+     825,
+     830
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "lH9EBQKgnWk#r5",
+   "business": "Personal security and protection for dignitaries or celebrities",
+   "ranges": [
+    [
+     929,
+     951
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "lH9EBQKgnWk#r6",
+   "business": "Parking lot line painting",
+   "ranges": [
+    [
+     968,
+     968
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "Kept substantive business examples and advice; removed the brief episode teaser and closing banter.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 85
+}

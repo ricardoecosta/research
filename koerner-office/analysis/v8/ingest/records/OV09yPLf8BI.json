@@ -1,0 +1,157 @@
+{
+ "id": "OV09yPLf8BI",
+ "publish_date": "20260909",
+ "channel": "Starter Story",
+ "status": "ingested",
+ "title": "How I Built This $160K/Month Gym App",
+ "provider": "local_whisper_tiny",
+ "duration_s": "1050",
+ "n_lines": 250,
+ "n_removed_lines": 38,
+ "removed": [
+  {
+   "from": 14,
+   "to": 16,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 23,
+   "to": 23,
+   "reason": "filler"
+  },
+  {
+   "from": 47,
+   "to": 47,
+   "reason": "filler"
+  },
+  {
+   "from": 78,
+   "to": 78,
+   "reason": "filler"
+  },
+  {
+   "from": 83,
+   "to": 84,
+   "reason": "filler"
+  },
+  {
+   "from": 90,
+   "to": 90,
+   "reason": "filler"
+  },
+  {
+   "from": 98,
+   "to": 104,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 118,
+   "to": 118,
+   "reason": "filler"
+  },
+  {
+   "from": 182,
+   "to": 183,
+   "reason": "filler"
+  },
+  {
+   "from": 191,
+   "to": 192,
+   "reason": "filler"
+  },
+  {
+   "from": 195,
+   "to": 195,
+   "reason": "filler"
+  },
+  {
+   "from": 207,
+   "to": 209,
+   "reason": "filler"
+  },
+  {
+   "from": 215,
+   "to": 215,
+   "reason": "filler"
+  },
+  {
+   "from": 217,
+   "to": 219,
+   "reason": "filler"
+  },
+  {
+   "from": 220,
+   "to": 226,
+   "reason": "tangent"
+  },
+  {
+   "from": 249,
+   "to": 250,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "OV09yPLf8BI#r1",
+   "business": "Symmetry, a gym tracking app",
+   "ranges": [
+    [
+     1,
+     13
+    ],
+    [
+     17,
+     22
+    ],
+    [
+     24,
+     31
+    ],
+    [
+     34,
+     46
+    ],
+    [
+     48,
+     97
+    ],
+    [
+     105,
+     117
+    ],
+    [
+     119,
+     180
+    ],
+    [
+     184,
+     189
+    ],
+    [
+     193,
+     206
+    ],
+    [
+     210,
+     214
+    ],
+    [
+     216,
+     216
+    ],
+    [
+     227,
+     248
+    ]
+   ],
+   "is_primary": true
+  }
+ ],
+ "multi_business": false,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "Heavy English ASR noise; the app name is rendered as “Symmetry.”",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 67
+}

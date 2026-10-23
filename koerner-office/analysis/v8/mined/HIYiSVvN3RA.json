@@ -1,0 +1,286 @@
+{
+ "id": "HIYiSVvN3RA",
+ "title": "I Built an App the Government Doesn't Want You to See",
+ "channel": "Chris Koerner on The Koerner Office Podcast",
+ "publish_date": "20260407",
+ "miner": "codex:gpt-6-luna:xhigh",
+ "mined_at": "2026-10-23T11:19:27",
+ "secs": 108,
+ "schema_errors": [],
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host"
+  }
+ ],
+ "evidence_quality": "C",
+ "promo_conflict": "Promotes GovDealFinder and Replit Agent 4; the transcript does not state whether there is a paid relationship or provide independently verified operating results.",
+ "ideas": [
+  {
+   "record_id": "HIYiSVvN3RA#r1",
+   "depth": "deep",
+   "stated_problem": {
+    "quote": "Filtering is a nightmare. Most people give up before they ever find anything.",
+    "line": 15,
+    "speaker": "Chris Koerner"
+   },
+   "idea": {
+    "name": "GovDealFinder contract search tool",
+    "one_liner": "A searchable government-contract tool for small businesses and aspiring owners, with no revenue model stated.",
+    "customer": "Small businesses and aspiring owners looking for federal government contracts, including set-aside opportunities.",
+    "offer": "A web app that searches contract listings by business type and state, shows contract dollar amounts, and is intended to offer email alerts for matching new listings.",
+    "revenue_model": "Not stated; no pricing or monetization model is described.",
+    "category": "saas_software"
+   },
+   "citation": {
+    "lines": [
+     1,
+     2,
+     6,
+     7,
+     8,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     21,
+     22,
+     51,
+     61,
+     77,
+     79,
+     80,
+     83,
+     129,
+     130,
+     134,
+     137,
+     142,
+     143,
+     144,
+     146,
+     147,
+     148
+    ],
+    "primary_line": 17
+   },
+   "key_quotes": [
+    {
+     "quote": "So, what I wanted to do is to build something that makes this dead simple.",
+     "line": 17
+    },
+    {
+     "quote": "Type in what your business does, pick your state, and see contracts you can actually bid on with dollar amounts.",
+     "line": 18
+    },
+    {
+     "quote": "I would love for it to have a email collection field so people can be notified when new government contracts are posted that meet their filters.",
+     "line": 77
+    },
+    {
+     "quote": "I wanted to build a business in the government contract space because Google Trends and AHRefs and all these other random tools were screaming at me, there's opportunity here.",
+     "line": 137
+    },
+    {
+     "quote": "And if you want to go look at government contracts, check out govdealfiner.com cuz I just built it right in front of you.",
+     "line": 146
+    }
+   ],
+   "claims": [
+    {
+     "claim": "The US government spent $834 billion on contracts last year.",
+     "quote": "The US government spent $834 billion on contracts last year, and most small business owners don't even know this money exists.",
+     "line": 1,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "SAM.gov receives 2.2 million visits per month.",
+     "quote": "This website gets 2.2 million visits a month, and it's an ugly website.",
+     "line": 8,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "A comparable website would normally cost between 10 and 20,000 to build and take weeks or months of back and forth.",
+     "quote": "Now, a website like this would normally cost between 10 and 20,000 to build, plus a team of developers, and weeks or months of going back and forth.",
+     "line": 21,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "The app build took about 4 minutes.",
+     "quote": "Look at that. Okay, that took about 4 minutes.",
+     "line": 60,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "The speaker repeats that the US government spent 834 billion on contracts last year.",
+     "quote": "Wow, the US government spent 834 billion on contracts last year.",
+     "line": 62,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "The speaker asked the app builder to add three to five blog posts to improve search visibility.",
+     "quote": "Now I'm asking it to add three to five blog posts that will help my site appear better in search results when looking for government contracts.",
+     "line": 83,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "A generated landing-page variation displayed copy saying 347 contracts were closing that week; the transcript does not verify that figure.",
+     "quote": "347 contracts are closing this week. Don't let them slip away.",
+     "line": 103,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "The domain name cost 12 bucks.",
+     "quote": "And look at that, it is. So, I'm going to spend 12 bucks, buy the domain name, and go ahead and link it to this Replit project, and click publish.",
+     "line": 133,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "The speaker says the government awards almost a trillion dollars in contracts each year, with about 200 billion reserved for small businesses.",
+     "quote": "And remember, the government hands out almost a trillion dollars a year in contracts and about 200 billion of that is reserved for small businesses.",
+     "line": 142,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "The speaker describes eligible small businesses as having under 10 employees, including zero employees.",
+     "quote": "Those are businesses with under 10 employees, even zero employees.",
+     "line": 143,
+     "first_hand": false,
+     "hypothetical": false
+    }
+   ],
+   "acquisition_channels": [
+    {
+     "channel": "seo",
+     "details": "Asked the app builder to add three to five blog posts intended to improve search visibility for government contracts."
+    },
+    {
+     "channel": "content_social",
+     "details": "Demonstrates the tool in the video and directs viewers to the live website."
+    }
+   ],
+   "delivery": "A published web app that retrieves contract data using a SAM.gov API key and lets users search listings; email alerts for matching new listings were requested as a feature.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "Replit Agent 4",
+     "Claude",
+     "SAM.gov API",
+     "Google Trends",
+     "Ahrefs"
+    ],
+    "prices": [
+     "12 bucks for the domain",
+     "10 to 20,000 for a typical website build; currency not stated"
+    ],
+    "platforms": [
+     "sam.gov",
+     "Replit",
+     "govdealfiner.com"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "For UK users, email alerts and any marketing emails would need to comply with PECR and UK GDPR. If a paid recurring subscription is introduced, assess the DMCC Act subscription rules.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 80,
+   "hours_per_week_e": 8,
+   "idea_id": "HIYiSVvN3RA:i1",
+   "specifics_flag": true,
+   "publish_date": "20260407",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "HIYiSVvN3RA#r2",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "Tree trimming business",
+    "one_liner": "A tree trimming service that can use government contract listings to find public-sector work; no pricing or operating details are given.",
+    "customer": "Not stated; the demo uses a government tree trimming contract listing.",
+    "offer": "Tree trimming services.",
+    "revenue_model": "Paid tree trimming jobs; pricing is not stated.",
+    "category": "home_service"
+   },
+   "citation": {
+    "lines": [
+     66,
+     67,
+     68,
+     69,
+     70,
+     71,
+     72,
+     73,
+     74
+    ],
+    "primary_line": 66
+   },
+   "key_quotes": [
+    {
+     "quote": "I own a tree trimming business, so this is the preview.",
+     "line": 66
+    },
+    {
+     "quote": "This should work as it actually works in real life.",
+     "line": 67
+    }
+   ],
+   "claims": [
+    {
+     "claim": "The app demo showed a tree trimming contract posted March 9th by the Department of Defense.",
+     "quote": "There it is. Posted March 9th, Department of Defense.",
+     "line": 70,
+     "first_hand": false,
+     "hypothetical": false
+    }
+   ],
+   "acquisition_channels": [],
+   "delivery": "Tree trimming work would be delivered physically; the transcript only mentions the business while testing a government-contract search tool.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "GovDealFinder"
+    ],
+    "prices": [],
+    "platforms": [
+     "sam.gov",
+     "Department of Defense contract listing"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": null,
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": true,
+   "automation_share_e": 20,
+   "hours_per_week_e": 20,
+   "idea_id": "HIYiSVvN3RA:i2",
+   "specifics_flag": true,
+   "publish_date": "20260407",
+   "stale_age": false,
+   "recheck": true
+  }
+ ]
+}

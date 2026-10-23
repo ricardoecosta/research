@@ -1,0 +1,158 @@
+{
+ "id": "aLidq3_FwW0",
+ "publish_date": "20261007",
+ "channel": "Starter Story",
+ "status": "ingested",
+ "title": "I Make $13K/Month From (Yet Another) Fitness App",
+ "provider": "local_whisper_tiny",
+ "duration_s": "756",
+ "n_lines": 223,
+ "n_removed_lines": 38,
+ "removed": [
+  {
+   "from": 2,
+   "to": 2,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 12,
+   "to": 15,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 17,
+   "to": 18,
+   "reason": "filler"
+  },
+  {
+   "from": 23,
+   "to": 23,
+   "reason": "filler"
+  },
+  {
+   "from": 50,
+   "to": 51,
+   "reason": "filler"
+  },
+  {
+   "from": 55,
+   "to": 60,
+   "reason": "sponsor"
+  },
+  {
+   "from": 61,
+   "to": 61,
+   "reason": "filler"
+  },
+  {
+   "from": 76,
+   "to": 76,
+   "reason": "filler"
+  },
+  {
+   "from": 127,
+   "to": 127,
+   "reason": "filler"
+  },
+  {
+   "from": 167,
+   "to": 167,
+   "reason": "filler"
+  },
+  {
+   "from": 187,
+   "to": 187,
+   "reason": "filler"
+  },
+  {
+   "from": 199,
+   "to": 204,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 205,
+   "to": 209,
+   "reason": "filler"
+  },
+  {
+   "from": 218,
+   "to": 223,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "aLidq3_FwW0#r1",
+   "business": "Max AI, an all-in-one health and fitness coaching and lifting app",
+   "ranges": [
+    [
+     1,
+     1
+    ],
+    [
+     3,
+     11
+    ],
+    [
+     19,
+     22
+    ],
+    [
+     24,
+     49
+    ],
+    [
+     62,
+     64
+    ],
+    [
+     72,
+     75
+    ],
+    [
+     77,
+     80
+    ],
+    [
+     81,
+     126
+    ],
+    [
+     128,
+     166
+    ],
+    [
+     168,
+     186
+    ],
+    [
+     188,
+     198
+    ],
+    [
+     210,
+     215
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "aLidq3_FwW0#r2",
+   "business": "Dish Rate, a food review app",
+   "ranges": [
+    [
+     69,
+     71
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "Dish Rate was an earlier app idea that Max abandoned.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 73
+}

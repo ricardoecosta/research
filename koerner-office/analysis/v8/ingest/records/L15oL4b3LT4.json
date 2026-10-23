@@ -1,0 +1,129 @@
+{
+ "id": "L15oL4b3LT4",
+ "publish_date": "20260319",
+ "channel": "Chris Koerner on The Koerner Office Podcast",
+ "status": "ingested",
+ "title": "He Turns Abandoned Driving Ranges Into Cash Machines",
+ "provider": "transcribeyoutube",
+ "duration_s": "1982",
+ "n_lines": 620,
+ "n_removed_lines": 10,
+ "removed": [
+  {
+   "from": 17,
+   "to": 17,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 154,
+   "to": 154,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 328,
+   "to": 332,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 618,
+   "to": 620,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "L15oL4b3LT4#r1",
+   "business": "Golf Ranch, buying and upgrading outdated driving ranges",
+   "ranges": [
+    [
+     1,
+     10
+    ],
+    [
+     13,
+     16
+    ],
+    [
+     18,
+     153
+    ],
+    [
+     155,
+     327
+    ],
+    [
+     333,
+     617
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "L15oL4b3LT4#r2",
+   "business": "Topgolf, including its TopTracer Range technology",
+   "ranges": [
+    [
+     11,
+     12
+    ],
+    [
+     112,
+     153
+    ],
+    [
+     190,
+     242
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "L15oL4b3LT4#r3",
+   "business": "Costco, as a membership and loss-leader business model",
+   "ranges": [
+    [
+     292,
+     306
+    ],
+    [
+     347,
+     353
+    ],
+    [
+     385,
+     388
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "L15oL4b3LT4#r4",
+   "business": "Starbucks, as an example of the gift-card model",
+   "ranges": [
+    [
+     76,
+     78
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "L15oL4b3LT4#r5",
+   "business": "A coffee shop with a sand pit where kids use remote-control cars to move sand",
+   "ranges": [
+    [
+     589,
+     594
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "English transcript; Golf Ranch is the primary business.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 66
+}

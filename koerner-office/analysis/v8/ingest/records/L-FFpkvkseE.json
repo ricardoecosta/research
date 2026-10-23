@@ -1,0 +1,38 @@
+{
+ "id": "L-FFpkvkseE",
+ "publish_date": "20260720",
+ "channel": "Side Hustle Nation",
+ "status": "ingested",
+ "title": "I Got Paid to Watch TV (2026 Mediaprobe Review)",
+ "provider": "local_whisper_tiny",
+ "duration_s": "297",
+ "n_lines": 60,
+ "n_removed_lines": 1,
+ "removed": [
+  {
+   "from": 60,
+   "to": 60,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "L-FFpkvkseE#r1",
+   "business": "MediaProbe (also called M Panel in some countries)",
+   "ranges": [
+    [
+     1,
+     59
+    ]
+   ],
+   "is_primary": true
+  }
+ ],
+ "multi_business": false,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "MediaProbe is the only specific business discussed.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 13
+}

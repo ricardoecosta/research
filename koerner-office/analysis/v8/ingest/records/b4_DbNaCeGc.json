@@ -1,0 +1,118 @@
+{
+ "id": "b4_DbNaCeGc",
+ "publish_date": "20260402",
+ "channel": "Chris Koerner on The Koerner Office Podcast",
+ "status": "ingested",
+ "title": "This AI Finds Cheap Products You Can Sell for 5x More",
+ "provider": "transcribeyoutube",
+ "duration_s": "688",
+ "n_lines": 161,
+ "n_removed_lines": 8,
+ "removed": [
+  {
+   "from": 52,
+   "to": 52,
+   "reason": "filler"
+  },
+  {
+   "from": 54,
+   "to": 54,
+   "reason": "filler"
+  },
+  {
+   "from": 73,
+   "to": 73,
+   "reason": "filler"
+  },
+  {
+   "from": 156,
+   "to": 157,
+   "reason": "sponsor"
+  },
+  {
+   "from": 159,
+   "to": 160,
+   "reason": "sponsor"
+  },
+  {
+   "from": 161,
+   "to": 161,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "b4_DbNaCeGc#r1",
+   "business": "Selling a porch pirate box, also called a parcel box or parcel locker",
+   "ranges": [
+    [
+     5,
+     34
+    ],
+    [
+     40,
+     46
+    ],
+    [
+     56,
+     62
+    ],
+    [
+     63,
+     87
+    ],
+    [
+     89,
+     124
+    ],
+    [
+     125,
+     139
+    ],
+    [
+     140,
+     141
+    ],
+    [
+     144,
+     155
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "b4_DbNaCeGc#r2",
+   "business": "Axio, an AI sourcing agent for finding products and suppliers and generating tech packs",
+   "ranges": [
+    [
+     35,
+     58
+    ],
+    [
+     63,
+     88
+    ],
+    [
+     96,
+     109
+    ],
+    [
+     125,
+     143
+    ],
+    [
+     156,
+     160
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "The porch box is the main business idea; Axio is discussed as a separate sourcing service.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 65
+}

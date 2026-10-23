@@ -1,0 +1,51 @@
+{
+ "id": "YyXiP_8_lo8",
+ "publish_date": "20261012",
+ "channel": "Mikey No Code",
+ "status": "ingested",
+ "title": "Decisions API Full Tutorial for Beginners: How to Use & Set up Decisions API",
+ "provider": null,
+ "duration_s": "1252",
+ "n_lines": 200,
+ "n_removed_lines": 6,
+ "removed": [
+  {
+   "from": 18,
+   "to": 21,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 199,
+   "to": 200,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "YyXiP_8_lo8#r1",
+   "business": "a neighborhood bakery (also described as an online bakery)",
+   "ranges": [
+    [
+     39,
+     42
+    ],
+    [
+     65,
+     165
+    ],
+    [
+     166,
+     194
+    ]
+   ],
+   "is_primary": true
+  }
+ ],
+ "multi_business": false,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "The bakery is the tutorial’s recurring example business.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 25
+}

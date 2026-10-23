@@ -1,0 +1,209 @@
+{
+ "id": "O48xR_tSsS8",
+ "publish_date": "20261013",
+ "channel": "David Heacock",
+ "status": "ingested",
+ "title": "Everyone Ignores This Boring Business, But It Makes Him $10M/Year",
+ "provider": null,
+ "duration_s": "4009",
+ "n_lines": 762,
+ "n_removed_lines": 17,
+ "removed": [
+  {
+   "from": 11,
+   "to": 11,
+   "reason": "tangent"
+  },
+  {
+   "from": 12,
+   "to": 15,
+   "reason": "filler"
+  },
+  {
+   "from": 16,
+   "to": 23,
+   "reason": "tangent"
+  },
+  {
+   "from": 759,
+   "to": 762,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "O48xR_tSsS8#r1",
+   "business": "The family business that manufactures and converts toilet paper, paper towels, and dry cleaning wipes (current company; name not stated)",
+   "ranges": [
+    [
+     1,
+     10
+    ],
+    [
+     24,
+     54
+    ],
+    [
+     55,
+     59
+    ],
+    [
+     64,
+     78
+    ],
+    [
+     82,
+     106
+    ],
+    [
+     113,
+     118
+    ],
+    [
+     125,
+     202
+    ],
+    [
+     202,
+     239
+    ],
+    [
+     240,
+     268
+    ],
+    [
+     271,
+     321
+    ],
+    [
+     324,
+     398
+    ],
+    [
+     399,
+     423
+    ],
+    [
+     452,
+     524
+    ],
+    [
+     539,
+     541
+    ],
+    [
+     548,
+     599
+    ],
+    [
+     617,
+     620
+    ],
+    [
+     629,
+     645
+    ],
+    [
+     647,
+     726
+    ],
+    [
+     743,
+     758
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "O48xR_tSsS8#r2",
+   "business": "Disposable Products Company (DPC), the earlier family business that made and sold disposable products and was later sold",
+   "ranges": [
+    [
+     64,
+     78
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "O48xR_tSsS8#r3",
+   "business": "Commercial car washes (the business the grandfather was selling before moving into disposable products)",
+   "ranges": [
+    [
+     60,
+     63
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "O48xR_tSsS8#r4",
+   "business": "Filterbuy / Air Filter Buy, the host's air filter business",
+   "ranges": [
+    [
+     24,
+     24
+    ],
+    [
+     37,
+     40
+    ],
+    [
+     43,
+     50
+    ],
+    [
+     108,
+     124
+    ],
+    [
+     125,
+     132
+    ],
+    [
+     375,
+     382
+    ],
+    [
+     435,
+     444
+    ],
+    [
+     478,
+     478
+    ],
+    [
+     525,
+     547
+    ],
+    [
+     552,
+     567
+    ],
+    [
+     600,
+     630
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "O48xR_tSsS8#r5",
+   "business": "Talladega Machinery & Supply Company, the host's industrial supply distribution business serving the sawmill industry",
+   "ranges": [
+    [
+     424,
+     434
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "DPC is the earlier sold company; the primary record is the later family operation.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 59
+}

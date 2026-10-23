@@ -1,0 +1,87 @@
+{
+ "id": "RQPVR6_WYoM",
+ "publish_date": "20261006",
+ "channel": "Mikey No Code",
+ "status": "ingested",
+ "title": "Do these 7 Things Immediately When Building Apps with AI",
+ "provider": null,
+ "duration_s": "1769",
+ "n_lines": 274,
+ "n_removed_lines": 18,
+ "removed": [
+  {
+   "from": 16,
+   "to": 18,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 118,
+   "to": 129,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 272,
+   "to": 274,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "RQPVR6_WYoM#r1",
+   "business": "task management app",
+   "ranges": [
+    [
+     30,
+     51
+    ],
+    [
+     56,
+     86
+    ],
+    [
+     87,
+     117
+    ],
+    [
+     131,
+     160
+    ],
+    [
+     162,
+     183
+    ],
+    [
+     192,
+     215
+    ],
+    [
+     225,
+     246
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "RQPVR6_WYoM#r2",
+   "business": "Base44 masterclass",
+   "ranges": [
+    [
+     16,
+     18
+    ],
+    [
+     119,
+     127
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "The task manager is the recurring build example; the masterclass is the host’s promoted offer.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 35
+}

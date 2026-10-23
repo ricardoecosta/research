@@ -1,0 +1,574 @@
+{
+ "id": "CKiszDu2aic",
+ "title": "I Asked AI for a Money-Making Website (It Built One in Minutes)",
+ "channel": "Chris Koerner on The Koerner Office Podcast",
+ "publish_date": "20260724",
+ "miner": "codex:gpt-6-luna:xhigh",
+ "mined_at": "2026-10-23T10:54:32",
+ "secs": 162,
+ "schema_errors": [],
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host"
+  }
+ ],
+ "evidence_quality": "C",
+ "promo_conflict": "The host promotes Abacus.AI while demonstrating its tools; no paid relationship is stated in the transcript.",
+ "ideas": [
+  {
+   "record_id": "CKiszDu2aic#r1",
+   "depth": "deep",
+   "stated_problem": {
+    "quote": "people that are searching for this tool are grieving, overwhelmed, and time pressed, and they want a trusted short list not to vet 15 different companies.",
+    "line": 53,
+    "speaker": "Chris Koerner"
+   },
+   "idea": {
+    "name": "Estate cleanout directory",
+    "one_liner": "A nationwide directory helps families find estate sale cleanout businesses; providers can pay for featured placement or leads, with ads as another option.",
+    "customer": "Consumers arranging an estate sale cleanout; listed cleanout businesses pay for featured placement or leads.",
+    "offer": "Searchable homepage, category pages, and business listings with photos, descriptions, and contact details.",
+    "revenue_model": "Proposed $30/month featured listings, banner ads, and leads sold to listed businesses.",
+    "category": "marketplace_directory"
+   },
+   "citation": {
+    "lines": [
+     12,
+     53,
+     73,
+     82,
+     114,
+     118,
+     222,
+     223,
+     224,
+     225,
+     226,
+     233,
+     235,
+     237,
+     238,
+     241,
+     284,
+     330,
+     337,
+     340,
+     341,
+     344,
+     345,
+     346,
+     347,
+     348,
+     349
+    ],
+    "primary_line": 223
+   },
+   "key_quotes": [
+    {
+     "quote": "people that are searching for this tool are grieving, overwhelmed, and time pressed, and they want a trusted short list not to vet 15 different companies.",
+     "line": 53
+    },
+    {
+     "quote": "You can monetize with ads, subscriptions, or you can collect leads organically and sell them to the businesses that are listed on the directory site.",
+     "line": 12
+    },
+    {
+     "quote": "Build a directory website that lists estate sale cleanout businesses.",
+     "line": 223
+    },
+    {
+     "quote": "Add a paid featured listing upgrade with a Stripe so a business can pay 30 bucks a month to appear at the top.",
+     "line": 226
+    },
+    {
+     "quote": "Another thing we can do is just kind of collect leads from consumers that needed an estate sale cleanout, and they can all go to us directly instead of to the businesses in the directory.",
+     "line": 344
+    }
+   ],
+   "claims": [
+    {
+     "claim": "The proposed featured listing price is $30 per month.",
+     "quote": "Add a paid featured listing upgrade with a Stripe so a business can pay 30 bucks a month to appear at the top.",
+     "line": 226,
+     "first_hand": true,
+     "hypothetical": true
+    },
+    {
+     "claim": "The host says 10,000 baby boomers retire each day.",
+     "quote": "There are 10,000 baby boomers retiring every single day",
+     "line": 82,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "The host suggests targeting more than 1,000 nationwide listings.",
+     "quote": "And then even tell it specifically there should be over a thousand listings here.",
+     "line": 284,
+     "first_hand": true,
+     "hypothetical": true
+    },
+    {
+     "claim": "The demo site has 20 listings.",
+     "quote": "We can see how many um listings there are, how many featured, how many are pending to be featured, and there's only 20 cuz we only gave it 20.",
+     "line": 330,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "A narrower DFW version could require a $10 domain purchase.",
+     "quote": "we can always spend 10 bucks, buy another domain name, put the letters DFW in there",
+     "line": 235,
+     "first_hand": true,
+     "hypothetical": true
+    }
+   ],
+   "acquisition_channels": [
+    {
+     "channel": "seo",
+     "details": "Organic search is the intended source of consumer traffic; the host compares search terms in Google Trends."
+    },
+    {
+     "channel": "cold_email",
+     "details": "The host proposes emailing listed businesses with consumer leads and letting them bid."
+    }
+   ],
+   "delivery": "A searchable website displays business listings and collects consumer leads. The host proposes emailing leads to listed providers and selling featured placement.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "Abacus.AI",
+     "RouteLLM",
+     "Fable 5",
+     "Google Trends"
+    ],
+    "prices": [
+     "$30/month featured listing",
+     "$10 domain name"
+    ],
+    "platforms": [
+     "Stripe",
+     "Abacus domain"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": true,
+    "reason": "The proposed email bidding outreach must be restricted to corporate subscribers such as limited companies, with an opt-out; unsolicited marketing email to sole traders and partnerships generally requires consent."
+   },
+   "other_uk_rules": "UK GDPR applies to identifiable contact and lead data, including sole-trader details. Check transparency, lawful basis, and retention. DMCC Act subscription provisions may be relevant if a paid plan is sold to consumers; the proposed featured plan is business-facing.",
+   "sells_to_local_businesses": true,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 65,
+   "hours_per_week_e": 8,
+   "idea_id": "CKiszDu2aic:i1",
+   "specifics_flag": true,
+   "publish_date": "20260724",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "CKiszDu2aic#r2",
+   "depth": "mention",
+   "stated_problem": {
+    "quote": "Claude thinks this niche is attractive because it avoids the crowded generic local business directory.",
+    "line": 50,
+    "speaker": "Chris Koerner"
+   },
+   "idea": {
+    "name": "Commercial kitchen equipment repair directory",
+    "one_liner": "A niche directory could help commercial kitchen operators find equipment repair providers; the transcript does not specify how this directory would make money.",
+    "customer": "Commercial kitchen operators looking for equipment repair; potential paying customers are not stated.",
+    "offer": "A local directory of commercial kitchen equipment repair providers.",
+    "revenue_model": "Not stated for this specific idea.",
+    "category": "marketplace_directory"
+   },
+   "citation": {
+    "lines": [
+     31,
+     50,
+     59,
+     61,
+     63,
+     64,
+     65,
+     95,
+     96,
+     98,
+     105,
+     107
+    ],
+    "primary_line": 31
+   },
+   "key_quotes": [
+    {
+     "quote": "commercial kitchen equipment repair directory. Not anything I would ever think of",
+     "line": 31
+    },
+    {
+     "quote": "Claude thinks this niche is attractive because it avoids the crowded generic local business directory.",
+     "line": 50
+    },
+    {
+     "quote": "So, I like that because it's higher dollar value.",
+     "line": 63
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "A directory website would list repair providers; no delivery or operating process is described.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "ChatGPT",
+     "Google Trends"
+    ],
+    "prices": [],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "If the directory lists identifiable sole-trader contact details, UK GDPR applies.",
+   "sells_to_local_businesses": true,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 55,
+   "hours_per_week_e": 8,
+   "idea_id": "CKiszDu2aic:i2",
+   "specifics_flag": true,
+   "publish_date": "20260724",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "CKiszDu2aic#r3",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "Aging-in-place modification directory",
+    "one_liner": "A directory could help people find home modification providers for aging in place; no specific monetization is given.",
+    "customer": "People seeking accessibility or aging-in-place home modifications; potential paying customers are not stated.",
+    "offer": "A directory of home modification providers.",
+    "revenue_model": "Not stated for this specific idea.",
+    "category": "marketplace_directory"
+   },
+   "citation": {
+    "lines": [
+     47,
+     55,
+     67,
+     103,
+     105,
+     107
+    ],
+    "primary_line": 47
+   },
+   "key_quotes": [
+    {
+     "quote": "Gemini says aging in place and accessibility home modification directory.",
+     "line": 47
+    },
+    {
+     "quote": "Gemini thinks that aging in place as a directory is underserved because well, it didn't it didn't tell me why.",
+     "line": 55
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "A directory website would list home modification providers; no delivery or operating process is described.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "Gemini 3.5",
+     "Google Trends"
+    ],
+    "prices": [],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "If the directory lists identifiable sole-trader contact details, UK GDPR applies.",
+   "sells_to_local_businesses": true,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 55,
+   "hours_per_week_e": 8,
+   "idea_id": "CKiszDu2aic:i3",
+   "specifics_flag": true,
+   "publish_date": "20260724",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "CKiszDu2aic#r4",
+   "depth": "mention",
+   "stated_problem": {
+    "quote": "what are they going to do with it? They're going to have to list it individually on Facebook Marketplace.",
+    "line": 76,
+    "speaker": "Chris Koerner"
+   },
+   "idea": {
+    "name": "Buy and resell leftover estate-sale items",
+    "one_liner": "A reseller buys unsold estate-sale goods from organizers and resells them, including through Facebook Marketplace.",
+    "customer": "Estate sale organizers selling leftovers; buyers of the resold goods.",
+    "offer": "Buy remaining estate-sale items in bulk and resell them individually.",
+    "revenue_model": "Buy inventory cheaply and resell it for more; no resale prices are given.",
+    "category": "arbitrage_reselling"
+   },
+   "citation": {
+    "lines": [
+     74,
+     75,
+     76,
+     77,
+     78,
+     79
+    ],
+    "primary_line": 76
+   },
+   "key_quotes": [
+    {
+     "quote": "I'll give you 200 bucks for it.",
+     "line": 76
+    },
+    {
+     "quote": "That's his whole niche and he makes a lot of money doing it.",
+     "line": 78
+    },
+    {
+     "quote": "He travels around the country doing that.",
+     "line": 79
+    }
+   ],
+   "claims": [
+    {
+     "claim": "The friend offers $200 for leftover estate-sale items.",
+     "quote": "I'll give you 200 bucks for it.",
+     "line": 76,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "The host says the friend makes a lot of money reselling the items.",
+     "quote": "That's his whole niche and he makes a lot of money doing it.",
+     "line": 78,
+     "first_hand": false,
+     "hypothetical": false
+    }
+   ],
+   "acquisition_channels": [
+    {
+     "channel": "marketplace",
+     "details": "The friend resells items individually on Facebook Marketplace."
+    }
+   ],
+   "delivery": "The reseller travels to estate sales, buys leftover goods, and resells them; handling and transporting physical inventory are required.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [],
+    "prices": [
+     "$200 offered for leftover items"
+    ],
+    "platforms": [
+     "Facebook Marketplace"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "Regular resale to consumers may trigger trader obligations under consumer protection and distance-selling rules; trading income may also have tax obligations.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": true,
+   "automation_share_e": 15,
+   "hours_per_week_e": 25,
+   "idea_id": "CKiszDu2aic:i4",
+   "specifics_flag": true,
+   "publish_date": "20260724",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "CKiszDu2aic#r5",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "Junk removal business",
+    "one_liner": "A local operator removes unwanted household items and may resell salvageable goods.",
+    "customer": "Households needing unwanted items removed.",
+    "offer": "Physical junk removal, with resale of some recovered items.",
+    "revenue_model": "Removal fees and resale of recovered items are suggested, but fees are not described.",
+    "category": "local_service"
+   },
+   "citation": {
+    "lines": [
+     123,
+     124,
+     125,
+     170,
+     171,
+     172,
+     174,
+     178,
+     181,
+     182,
+     187,
+     188,
+     189,
+     190
+    ],
+    "primary_line": 124
+   },
+   "key_quotes": [
+    {
+     "quote": "Which, by the way, that's probably a really good business.",
+     "line": 124
+    },
+    {
+     "quote": "They hear junk removal and they think hoarder.",
+     "line": 171
+    },
+    {
+     "quote": "They make a ton of money doing that.",
+     "line": 190
+    }
+   ],
+   "claims": [
+    {
+     "claim": "The host says junk removal businesses make substantial money reselling recovered goods.",
+     "quote": "They make a ton of money doing that.",
+     "line": 190,
+     "first_hand": false,
+     "hypothetical": false
+    }
+   ],
+   "acquisition_channels": [],
+   "delivery": "Workers collect unwanted goods from homes; some items may be resold through Facebook Marketplace.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [],
+    "prices": [],
+    "platforms": [
+     "Facebook Marketplace"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "Regular resale to consumers may trigger trader obligations under consumer protection and distance-selling rules; trading income may also have tax obligations.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": true,
+   "automation_share_e": 15,
+   "hours_per_week_e": 25,
+   "idea_id": "CKiszDu2aic:i5",
+   "specifics_flag": true,
+   "publish_date": "20260724",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "CKiszDu2aic#r6",
+   "depth": "mention",
+   "stated_problem": {
+    "quote": "Like they almost might find it disrespectful to hire a junk removal business to get rid of those last few things that didn't sell from her estate sale.",
+    "line": 174,
+    "speaker": "Chris Koerner"
+   },
+   "idea": {
+    "name": "Estate sale cleanout business",
+    "one_liner": "A specialist clears items left after estate sales, positioning the service as respectful handling of valued possessions and reselling what can be sold.",
+    "customer": "Families or estate sale organizers with unsold items to clear.",
+    "offer": "Estate sale cleanout service that removes and resells remaining items.",
+    "revenue_model": "Get paid to take remaining goods and resell sellable items.",
+    "category": "home_service"
+   },
+   "citation": {
+    "lines": [
+     174,
+     175,
+     176,
+     177,
+     178,
+     181,
+     182,
+     184,
+     185,
+     187,
+     191,
+     192,
+     193,
+     194
+    ],
+    "primary_line": 193
+   },
+   "key_quotes": [
+    {
+     "quote": "Like they almost might find it disrespectful to hire a junk removal business to get rid of those last few things that didn't sell from her estate sale.",
+     "line": 174
+    },
+    {
+     "quote": "What's better about an estate sale cleanout business than a junk removal business is that you get more stuff that you can sell, right?",
+     "line": 187
+    },
+    {
+     "quote": "So, you're getting paid, not getting it for free, but you are getting paid to take things that you can sell.",
+     "line": 193
+    }
+   ],
+   "claims": [
+    {
+     "claim": "The host says the business can be paid to take items that it can resell.",
+     "quote": "So, you're getting paid, not getting it for free, but you are getting paid to take things that you can sell.",
+     "line": 193,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "The host describes the model as having negative cost of goods sold.",
+     "quote": "That's called a negative cost of goods sold big business or a negative COGS business and it's a beautiful beautiful thing.",
+     "line": 194,
+     "first_hand": false,
+     "hypothetical": false
+    }
+   ],
+   "acquisition_channels": [],
+   "delivery": "Workers visit estates, remove remaining items, and resell goods that have value.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [],
+    "prices": [],
+    "platforms": [
+     "Facebook Marketplace"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "Regular resale to consumers may trigger trader obligations under consumer protection and distance-selling rules; trading income may also have tax obligations.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": true,
+   "automation_share_e": 15,
+   "hours_per_week_e": 30,
+   "idea_id": "CKiszDu2aic:i6",
+   "specifics_flag": true,
+   "publish_date": "20260724",
+   "stale_age": false,
+   "recheck": true
+  }
+ ]
+}

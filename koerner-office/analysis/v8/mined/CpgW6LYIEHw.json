@@ -1,0 +1,949 @@
+{
+ "id": "CpgW6LYIEHw",
+ "title": "The Most Useful AI Tool You’ve Never Heard Of",
+ "channel": "Chris Koerner on The Koerner Office Podcast",
+ "publish_date": "20260915",
+ "miner": "codex:gpt-6-luna:xhigh",
+ "mined_at": "2026-10-23T10:57:44",
+ "secs": 192,
+ "schema_errors": [],
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host"
+  },
+  {
+   "name": "Jay",
+   "role": "guest"
+  }
+ ],
+ "evidence_quality": "B",
+ "promo_conflict": "Jay promotes Valoop and its Kickstarter launch; Chris says he is a Valoop user.",
+ "ideas": [
+  {
+   "record_id": "CpgW6LYIEHw#r1",
+   "depth": "deep",
+   "stated_problem": {
+    "quote": "saving them time from doing the repetitive task that everybody hates.",
+    "line": 213,
+    "speaker": "Jay"
+   },
+   "idea": {
+    "name": "Valoop on-device AI agent",
+    "one_liner": "Sell personal on-device AI hardware and an agent that observes computer activity and prepares or carries out tasks with user approval.",
+    "customer": "Individuals, creators, employees and businesses that want help with computer-based work.",
+    "offer": "AI hardware, agent, memory and model that can observe the user's screen and assist with tasks across connected apps.",
+    "revenue_model": "Hardware sales; the transcript also mentions a website deposit and Kickstarter launch pricing.",
+    "category": "ai_automation"
+   },
+   "citation": {
+    "lines": [
+     16,
+     20,
+     47,
+     66,
+     67,
+     72,
+     105,
+     107,
+     109,
+     127,
+     140,
+     158,
+     181,
+     200,
+     201,
+     251,
+     254,
+     265,
+     271,
+     303,
+     307,
+     333,
+     334,
+     336
+    ],
+    "primary_line": 47
+   },
+   "key_quotes": [
+    {
+     "quote": "I would describe Valoop as somebody actually working next to you.",
+     "line": 16
+    },
+    {
+     "quote": "It's an AI piece of hardware that watches that watches everything you do and lives with you and you can turn it off at any time or give only give it so many permissions if you think it's too much.",
+     "line": 47
+    },
+    {
+     "quote": "I will do uh scanning on the uh invoice itself and will fill it up in my uh personal Google sheet.",
+     "line": 109
+    },
+    {
+     "quote": "So this is something I will say I don't believe we have seen this anywhere in the tax industry right now and I believe this is a new way of us interacting with AI",
+     "line": 160
+    }
+   ],
+   "claims": [
+    {
+     "claim": "Jay says early users report about two hours saved per day.",
+     "quote": "I think this varies from uh person to person but we ask our early users and we have got a round up which is is approximately two hours per day.",
+     "line": 201,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "Jay equates that reported daily time saving to almost one working day per week.",
+     "quote": "So two hours a day that uh translate to almost one working day every week.",
+     "line": 202,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "Jay says users object to recurring bills from many AI websites.",
+     "quote": "People don't want a $20 bill that comes from 10 different websites or even 20 different websites every month.",
+     "line": 265,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "Jay says Valoop's marketing has roughly 200 to 300 Meta ads running.",
+     "quote": "Right now I have like maybe 200 300 ads running on on on meta and there's no way I personally track how much each ad is doing is generating the cost of every click or or every conversion.",
+     "line": 307,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "Jay says customers can place a $10 deposit on the website before the Kickstarter launch.",
+     "quote": "If you see it before September 15th, you can put down $10 deposit at our website and you can enjoy extra rewards and extra cash back.",
+     "line": 334,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "Jay says $399 is the lowest offer and expects the retail price to be $699.",
+     "quote": "uh this is the 399 will be the the lowest that we will be ever offering to the market and when come to retail I think our price will be set at 699.",
+     "line": 336,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "Jay says the current local model can handle agentic tasks of about five to eight steps.",
+     "quote": "So for the local model for the model that is running inside this little box, you can do agentic task to about uh five to eight steps.",
+     "line": 251,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "Jay expects future on-device models to handle 20 or 30 steps, and refers to models with 8 billion or fewer parameters.",
+     "quote": "We are expecting the ondevice model can get up to 20 even 30 steps on long agentic workflows which is currently I don't think it is able for 8 billion or less parameter models to do",
+     "line": 254,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "Jay predicts the model running on Valoop in three months will be more powerful than the current one.",
+     "quote": "The model that ball loop can run in 3 months will be much powerful and stronger uh than what we current currently running and I don't think this process is actually slowing down.",
+     "line": 224,
+     "first_hand": true,
+     "hypothetical": false
+    }
+   ],
+   "acquisition_channels": [
+    {
+     "channel": "paid_ads",
+     "details": "Jay says the company runs ads on Google, Facebook and X."
+    },
+    {
+     "channel": "other",
+     "details": "Website deposits and a Kickstarter launch are mentioned."
+    },
+    {
+     "channel": "content_social",
+     "details": "Jay says the company will make more content for its community."
+    }
+   ],
+   "delivery": "Customers use the hardware with an app and on-device agent; it observes screen activity and prepares or performs tasks across connected apps, subject to permissions. The company provides the device and model updates.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "Valoop hardware and agent",
+     "Gmail",
+     "Google Sheets",
+     "QuickBooks",
+     "Notion",
+     "Obsidian",
+     "Salesforce",
+     "Monday",
+     "Linear"
+    ],
+    "prices": [
+     "$10 deposit",
+     "$399 lowest offer",
+     "$699 retail price"
+    ],
+    "platforms": [
+     "Kickstarter",
+     "violoop.ai",
+     "Google",
+     "Facebook",
+     "X",
+     "Meta"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "UK GDPR and the Data Protection Act 2018 are relevant if screen activity, emails or contacts include personal data; monitoring should be transparent and proportionate.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": true,
+   "automation_share_e": 55,
+   "hours_per_week_e": 25,
+   "idea_id": "CpgW6LYIEHw:i1",
+   "specifics_flag": true,
+   "publish_date": "20260915",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "CpgW6LYIEHw#r2",
+   "depth": "mention",
+   "stated_problem": {
+    "quote": "He's trying to scale himself. He's trying to get his brain, how he thinks, how he talks, how he reacts, how he acts in someone else's person.",
+    "line": 33,
+    "speaker": "Chris Koerner"
+   },
+   "idea": {
+    "name": "MrBeast entertainment business",
+    "one_liner": "Create entertainment content for a large audience, with a team learning and extending the creator's approach.",
+    "customer": "Viewers of the entertainment content.",
+    "offer": "Entertainment content; the transcript does not specify products or formats.",
+    "revenue_model": "Not stated.",
+    "category": "content_media"
+   },
+   "citation": {
+    "lines": [
+     29,
+     32,
+     33,
+     34,
+     38,
+     43,
+     46
+    ],
+    "primary_line": 43
+   },
+   "key_quotes": [
+    {
+     "quote": "So Mr. Beast is like, I want to be the best entertainer in the world that ever has been.",
+     "line": 43
+    }
+   ],
+   "claims": [
+    {
+     "claim": "Chris says MrBeast works 100 hours per week.",
+     "quote": "He works 100 hours a week. And so he always has someone by his side watching everything he does.",
+     "line": 38,
+     "first_hand": false,
+     "hypothetical": false
+    }
+   ],
+   "acquisition_channels": [
+    {
+     "channel": "content_social",
+     "details": "The business is described as entertainment creation, but the publishing platform and audience acquisition tactics are not stated."
+    }
+   ],
+   "delivery": "MrBeast and a team produce entertainment for viewers; the transcript describes employees shadowing him to learn how he thinks and acts.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [],
+    "prices": [],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "UK GDPR may apply to identifiable audience data; paid promotions should follow applicable advertising disclosure rules.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": true,
+   "physical_world": false,
+   "automation_share_e": 30,
+   "hours_per_week_e": 40,
+   "idea_id": "CpgW6LYIEHw:i2",
+   "specifics_flag": false,
+   "publish_date": "20260915",
+   "stale_age": false,
+   "recheck": false
+  },
+  {
+   "record_id": "CpgW6LYIEHw#r3",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "Facebook Marketplace chair flipping",
+    "one_liner": "Find low-priced chairs on Facebook Marketplace and resell them on another website.",
+    "customer": "Second-hand furniture buyers.",
+    "offer": "Chairs sourced from Facebook Marketplace and listed elsewhere.",
+    "revenue_model": "Resale margin; the transcript's example amounts are unclear.",
+    "category": "arbitrage_reselling"
+   },
+   "citation": {
+    "lines": [
+     72,
+     73
+    ],
+    "primary_line": 72
+   },
+   "key_quotes": [
+    {
+     "quote": "I'm looking for something maybe a chair that's under $30 and well loop can help you and find the best options",
+     "line": 72
+    }
+   ],
+   "claims": [
+    {
+     "claim": "The example chair costs under $30.",
+     "quote": "I'm looking for something maybe a chair that's under $30",
+     "line": 72,
+     "first_hand": false,
+     "hypothetical": true
+    },
+    {
+     "claim": "The transcript mentions a possible $50 amount for reselling elsewhere, but it is unclear whether this is the sale price or markup.",
+     "quote": "you can upsell them on another website for maybe if another $50",
+     "line": 72,
+     "first_hand": false,
+     "hypothetical": true
+    }
+   ],
+   "acquisition_channels": [
+    {
+     "channel": "marketplace",
+     "details": "Source chairs on Facebook Marketplace; the resale website is not named."
+    }
+   ],
+   "delivery": "Find and buy chairs, then list them on another website for buyers; handling and collection or delivery are likely part of fulfillment.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "Valoop"
+    ],
+    "prices": [
+     "under $30",
+     "maybe $50"
+    ],
+    "platforms": [
+     "Facebook Marketplace",
+     "another website (not named)"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "If sold as a business to UK consumers, online resale can trigger Consumer Rights Act 2015 and Consumer Contracts Regulations obligations.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": true,
+   "automation_share_e": 25,
+   "hours_per_week_e": 10,
+   "idea_id": "CpgW6LYIEHw:i3",
+   "specifics_flag": true,
+   "publish_date": "20260915",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "CpgW6LYIEHw#r4",
+   "depth": "mention",
+   "stated_problem": {
+    "quote": "There must be certain type of fishing point that that is not solved by people.",
+    "line": 102,
+    "speaker": "Jay"
+   },
+   "idea": {
+    "name": "Fishing-related business",
+    "one_liner": "Build an unspecified fishing business around an unmet angler need identified by researching fishing content and its comments.",
+    "customer": "People interested in fishing; the specific customer is not stated.",
+    "offer": "Not stated; the guest suggests looking for an unsolved fishing-related need.",
+    "revenue_model": "Not stated.",
+    "category": "other"
+   },
+   "citation": {
+    "lines": [
+     96,
+     97,
+     102,
+     103
+    ],
+    "primary_line": 97
+   },
+   "key_quotes": [
+    {
+     "quote": "You should start a fishing business.",
+     "line": 97
+    },
+    {
+     "quote": "There must be certain type of fishing point that that is not solved by people.",
+     "line": 102
+    },
+    {
+     "quote": "But if you have watched 100 fishing videos, they pro the answer is probably already in the comments",
+     "line": 103
+    }
+   ],
+   "claims": [
+    {
+     "claim": "The host gives a hypothetical example of someone watching fishing videos for 45 minutes per day.",
+     "quote": "Dude, you're watching these fishing videos every day for 45 minutes.",
+     "line": 96,
+     "first_hand": false,
+     "hypothetical": true
+    },
+    {
+     "claim": "The guest gives watching 100 fishing videos as a hypothetical way to find possible customer pain points in comments.",
+     "quote": "But if you have watched 100 fishing videos, they pro the answer is probably already in the comments",
+     "line": 103,
+     "first_hand": false,
+     "hypothetical": true
+    }
+   ],
+   "acquisition_channels": [],
+   "delivery": "Not stated; the suggestion is to identify an unsolved fishing need from video comments.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [],
+    "prices": [],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": null,
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 20,
+   "hours_per_week_e": 12,
+   "idea_id": "CpgW6LYIEHw:i4",
+   "specifics_flag": false,
+   "publish_date": "20260915",
+   "stale_age": false,
+   "recheck": false
+  },
+  {
+   "record_id": "CpgW6LYIEHw#r5",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "Pokémon card business",
+    "one_liner": "Start an unspecified business related to Pokémon cards.",
+    "customer": "Not stated; possibly Pokémon card fans or collectors.",
+    "offer": "Not stated beyond a Pokémon-card-related business.",
+    "revenue_model": "Not stated.",
+    "category": "other"
+   },
+   "citation": {
+    "lines": [
+     100,
+     101
+    ],
+    "primary_line": 101
+   },
+   "key_quotes": [
+    {
+     "quote": "And I believe Pokemon cards are actually great business like fishing too.",
+     "line": 101
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "Not stated.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [],
+    "prices": [],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "If this involves selling cards to UK consumers, consumer rights rules may apply to commercial sales.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": true,
+   "automation_share_e": 20,
+   "hours_per_week_e": 10,
+   "idea_id": "CpgW6LYIEHw:i5",
+   "specifics_flag": false,
+   "publish_date": "20260915",
+   "stale_age": false,
+   "recheck": false
+  },
+  {
+   "record_id": "CpgW6LYIEHw#r6",
+   "depth": "mention",
+   "stated_problem": {
+    "quote": "And as a YouTuber, you must know uploading a video could take hours. For creators, exporting a video file or generating a 3D file that takes a long time as well.",
+    "line": 185,
+    "speaker": "Jay"
+   },
+   "idea": {
+    "name": "YouTube creator business",
+    "one_liner": "Create and publish videos for an audience, using long-running export and upload tasks to prepare work while away from the computer.",
+    "customer": "Video viewers; the creator's audience.",
+    "offer": "Videos published on YouTube; the transcript does not specify a niche or monetization offer.",
+    "revenue_model": "Not stated.",
+    "category": "content_media"
+   },
+   "citation": {
+    "lines": [
+     183,
+     184,
+     185,
+     186,
+     188,
+     189,
+     190
+    ],
+    "primary_line": 183
+   },
+   "key_quotes": [
+    {
+     "quote": "For example, uh we had this uh YouTuber who used a way mode to ask V loop to capture when the upload of a certain video is finished.",
+     "line": 183
+    },
+    {
+     "quote": "And as a YouTuber, you must know uploading a video could take hours.",
+     "line": 185
+    },
+    {
+     "quote": "when you finish finishing exporting this one uh let's do the next I have a set prepared for you",
+     "line": 189
+    }
+   ],
+   "claims": [
+    {
+     "claim": "Jay says uploading a video can take hours.",
+     "quote": "And as a YouTuber, you must know uploading a video could take hours.",
+     "line": 185,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "The described export workflow can take 30 minutes for a task.",
+     "quote": "and the task could be 30 minutes",
+     "line": 188,
+     "first_hand": false,
+     "hypothetical": false
+    }
+   ],
+   "acquisition_channels": [
+    {
+     "channel": "content_social",
+     "details": "The example is a YouTuber uploading videos; audience growth and sales channels are not described."
+    }
+   ],
+   "delivery": "The creator exports and uploads video, then checks the title, subtitles and thumbnail and presses publish.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "Valoop"
+    ],
+    "prices": [],
+    "platforms": [
+     "YouTube"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "UK GDPR may apply if identifiable audience data is collected; sponsored or affiliate promotions should follow applicable advertising disclosure rules.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 35,
+   "hours_per_week_e": 25,
+   "idea_id": "CpgW6LYIEHw:i6",
+   "specifics_flag": true,
+   "publish_date": "20260915",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "CpgW6LYIEHw#r7",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "Canadian Valoop reseller",
+    "one_liner": "Resell Valoop units in Canada; the transcript describes a reseller asking Valoop for a quotation for 100 units.",
+    "customer": "Canadian customers of the reseller; the transcript does not specify their type.",
+    "offer": "Valoop units resold in Canada.",
+    "revenue_model": "Resale margin; pricing and margin are not stated.",
+    "category": "ecommerce_physical"
+   },
+   "citation": {
+    "lines": [
+     271,
+     272,
+     273,
+     275,
+     276,
+     277,
+     279,
+     280,
+     281
+    ],
+    "primary_line": 271
+   },
+   "key_quotes": [
+    {
+     "quote": "What it did is that Val look saw that I have an incoming email that uh somebody sent me an email uh asking for 100 V loop units in a quotation uh because there are reseller in I think Canada.",
+     "line": 271
+    },
+    {
+     "quote": "Then actually went to my Google sheet, puts the latest number and the discount for uh resellers and it then went back to my quickbook and started building a proper quotation in PDFs.",
+     "line": 275
+    }
+   ],
+   "claims": [
+    {
+     "claim": "A Canadian reseller emailed Valoop asking for a quotation for 100 units.",
+     "quote": "somebody sent me an email uh asking for 100 V loop units in a quotation uh because there are reseller in I think Canada.",
+     "line": 271,
+     "first_hand": false,
+     "hypothetical": false
+    }
+   ],
+   "acquisition_channels": [],
+   "delivery": "The reseller would obtain Valoop units and sell them on to customers; the transcript describes a quote and order follow-up workflow, not the reseller's fulfillment details.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "Valoop",
+     "Google Sheets",
+     "QuickBooks",
+     "email"
+    ],
+    "prices": [],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "UK GDPR may apply if customer contact data is processed; UK product rules may apply if the reseller sells into the UK.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": true,
+   "automation_share_e": 45,
+   "hours_per_week_e": 8,
+   "idea_id": "CpgW6LYIEHw:i7",
+   "specifics_flag": true,
+   "publish_date": "20260915",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "CpgW6LYIEHw#r8",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "Website design for artists",
+    "one_liner": "Design personal websites for artists, with project fees as the likely revenue model; pricing is not stated.",
+    "customer": "Artists.",
+    "offer": "Personal website design.",
+    "revenue_model": "Website design fees; the transcript gives no fee structure.",
+    "category": "agency"
+   },
+   "citation": {
+    "lines": [
+     288,
+     289,
+     290,
+     291,
+     292,
+     293,
+     294
+    ],
+    "primary_line": 289
+   },
+   "key_quotes": [
+    {
+     "quote": "I can do a personal website that I can design for artists.",
+     "line": 289
+    },
+    {
+     "quote": "And because the cost of building such front end website and also having things that can be linked to the website, the cost for building this type of storefront, electronic storefront has gone to basically zero or maybe just a couple dollars.",
+     "line": 291
+    },
+    {
+     "quote": "No one is stopping anybody from doing maybe 10 trials at any time and maybe one of them just clicks.",
+     "line": 294
+    }
+   ],
+   "claims": [
+    {
+     "claim": "Jay says building this kind of storefront can cost nearly zero or a couple of dollars.",
+     "quote": "the cost for building this type of storefront, electronic storefront has gone to basically zero or maybe just a couple dollars.",
+     "line": 291,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "Jay suggests trying around 10 website ideas, with the possibility that one gets traction.",
+     "quote": "No one is stopping anybody from doing maybe 10 trials at any time and maybe one of them just clicks.",
+     "line": 294,
+     "first_hand": false,
+     "hypothetical": true
+    }
+   ],
+   "acquisition_channels": [
+    {
+     "channel": "content_social",
+     "details": "Post the websites on the founder's own social media."
+    },
+    {
+     "channel": "community",
+     "details": "Show the websites to family and friends and share in WhatsApp or Telegram groups."
+    }
+   ],
+   "delivery": "Build personal websites for artists; the transcript suggests using AI to reduce build costs but does not describe the design process or ongoing support.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "Valoop"
+    ],
+    "prices": [
+     "nearly zero or a couple of dollars to build a storefront"
+    ],
+    "platforms": [
+     "social media",
+     "WhatsApp",
+     "Telegram"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "UK GDPR may apply if handling artists' or site visitors' personal data.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 60,
+   "hours_per_week_e": 12,
+   "idea_id": "CpgW6LYIEHw:i8",
+   "specifics_flag": true,
+   "publish_date": "20260915",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "CpgW6LYIEHw#r9",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "Second-hand online storefront",
+    "one_liner": "Run an online second-hand sales storefront stocked with items sourced from Facebook Marketplace.",
+    "customer": "Second-hand goods shoppers.",
+    "offer": "Second-hand items listed through an online storefront.",
+    "revenue_model": "Resale margin; specific pricing is not stated.",
+    "category": "ecommerce_physical"
+   },
+   "citation": {
+    "lines": [
+     288,
+     290,
+     291,
+     292,
+     293,
+     294
+    ],
+    "primary_line": 290
+   },
+   "key_quotes": [
+    {
+     "quote": "I can do a second uh hand sale website where I get my stock from Facebook second mark marketplace",
+     "line": 290
+    },
+    {
+     "quote": "And because the cost of building such front end website and also having things that can be linked to the website, the cost for building this type of storefront, electronic storefront has gone to basically zero or maybe just a couple dollars.",
+     "line": 291
+    },
+    {
+     "quote": "You can anybody can host that on a public internet and you can just share among your friends, your WhatsApp group, your Telegram group, your own social media.",
+     "line": 292
+    }
+   ],
+   "claims": [
+    {
+     "claim": "Jay says building this kind of storefront can cost nearly zero or a couple of dollars.",
+     "quote": "the cost for building this type of storefront, electronic storefront has gone to basically zero or maybe just a couple dollars.",
+     "line": 291,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "Jay suggests trying around 10 website ideas, with the possibility that one gets traction.",
+     "quote": "No one is stopping anybody from doing maybe 10 trials at any time and maybe one of them just clicks.",
+     "line": 294,
+     "first_hand": false,
+     "hypothetical": true
+    }
+   ],
+   "acquisition_channels": [
+    {
+     "channel": "marketplace",
+     "details": "Source inventory from Facebook Marketplace."
+    },
+    {
+     "channel": "content_social",
+     "details": "Post the storefront on the founder's own social media."
+    },
+    {
+     "channel": "community",
+     "details": "Share with friends and in WhatsApp or Telegram groups."
+    }
+   ],
+   "delivery": "Buy second-hand stock, list it on an online storefront and fulfill orders to shoppers; handling and shipping or collection are required.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "Valoop"
+    ],
+    "prices": [
+     "nearly zero or a couple of dollars to build a storefront"
+    ],
+    "platforms": [
+     "Facebook Marketplace",
+     "WhatsApp",
+     "Telegram",
+     "social media",
+     "public website"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "If operated as a UK business selling to consumers, online sales can trigger Consumer Rights Act 2015 and Consumer Contracts Regulations obligations.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": true,
+   "automation_share_e": 30,
+   "hours_per_week_e": 15,
+   "idea_id": "CpgW6LYIEHw:i9",
+   "specifics_flag": true,
+   "publish_date": "20260915",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "CpgW6LYIEHw#r10",
+   "depth": "mention",
+   "stated_problem": {
+    "quote": "not exposed to this type of technology yet",
+    "line": 297,
+    "speaker": "Jay"
+   },
+   "idea": {
+    "name": "Localized subscription software from GitHub projects",
+    "one_liner": "Improve the front end and translate existing GitHub projects for markets such as Japan, Korea and Vietnam, then sell access by subscription.",
+    "customer": "Software users in markets where the relevant technology is less familiar; exact customer segment is not stated.",
+    "offer": "Localized, improved front ends for existing software services.",
+    "revenue_model": "Monthly software subscriptions; example prices are $10 or $20 per month.",
+    "category": "saas_software"
+   },
+   "citation": {
+    "lines": [
+     295,
+     296,
+     297,
+     299,
+     300
+    ],
+    "primary_line": 295
+   },
+   "key_quotes": [
+    {
+     "quote": "they find nice GitHub repos and they build a nicer front end",
+     "line": 295
+    },
+    {
+     "quote": "change the language and sell them to Japan and sell them to Kore Korea and sell them to Vietnam",
+     "line": 296
+    },
+    {
+     "quote": "you can do subscription charges $10 a month, $20 a month",
+     "line": 297
+    }
+   ],
+   "claims": [
+    {
+     "claim": "The example subscription prices are $10 or $20 per month.",
+     "quote": "you can do subscription charges $10 a month, $20 a month",
+     "line": 297,
+     "first_hand": false,
+     "hypothetical": true
+    },
+    {
+     "claim": "Jay says some people doing this are making a good living.",
+     "quote": "And uh some are really making a good living out of them.",
+     "line": 297,
+     "first_hand": false,
+     "hypothetical": false
+    }
+   ],
+   "acquisition_channels": [],
+   "delivery": "Build or adapt a nicer front end for a GitHub project, translate it for a target market and provide access as subscription software.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "GitHub repositories"
+    ],
+    "prices": [
+     "$10/month",
+     "$20/month"
+    ],
+    "platforms": [
+     "GitHub",
+     "Japan",
+     "Korea",
+     "Vietnam"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "UK GDPR may apply if the software processes personal data; if sold to UK consumers by subscription, the DMCC Act subscription rules and consumer cancellation requirements may apply.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 70,
+   "hours_per_week_e": 15,
+   "idea_id": "CpgW6LYIEHw:i10",
+   "specifics_flag": true,
+   "publish_date": "20260915",
+   "stale_age": false,
+   "recheck": true
+  }
+ ]
+}

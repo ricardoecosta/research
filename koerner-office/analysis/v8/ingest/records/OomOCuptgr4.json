@@ -1,0 +1,126 @@
+{
+ "id": "OomOCuptgr4",
+ "publish_date": "20251114",
+ "channel": "Chris Koerner on The Koerner Office Podcast",
+ "status": "ingested",
+ "title": "I Built a Money-Making App in 1 Hour With AI (Bolt v2 Review)",
+ "provider": "youtube-transcript-api",
+ "duration_s": "803",
+ "n_lines": 230,
+ "n_removed_lines": 15,
+ "removed": [
+  {
+   "from": 88,
+   "to": 88,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 93,
+   "to": 101,
+   "reason": "sponsor"
+  },
+  {
+   "from": 160,
+   "to": 161,
+   "reason": "filler"
+  },
+  {
+   "from": 195,
+   "to": 195,
+   "reason": "filler"
+  },
+  {
+   "from": 218,
+   "to": 218,
+   "reason": "filler"
+  },
+  {
+   "from": 230,
+   "to": 230,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "OomOCuptgr4#r1",
+   "business": "PR outreach automation app",
+   "ranges": [
+    [
+     6,
+     87
+    ],
+    [
+     102,
+     227
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "OomOCuptgr4#r2",
+   "business": "The Kerner Office business podcast",
+   "ranges": [
+    [
+     80,
+     84
+    ],
+    [
+     199,
+     200
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "OomOCuptgr4#r3",
+   "business": "canoe rentals",
+   "ranges": [
+    [
+     92,
+     92
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "OomOCuptgr4#r4",
+   "business": "pop-up bakeries",
+   "ranges": [
+    [
+     92,
+     92
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "OomOCuptgr4#r5",
+   "business": "power washing",
+   "ranges": [
+    [
+     92,
+     92
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "OomOCuptgr4#r6",
+   "business": "drone roof inspection",
+   "ranges": [
+    [
+     92,
+     92
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "The app is the primary business; the podcast and four business ideas are separate mentions.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 54
+}

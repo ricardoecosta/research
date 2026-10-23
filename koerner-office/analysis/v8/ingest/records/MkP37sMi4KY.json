@@ -1,0 +1,84 @@
+{
+ "id": "MkP37sMi4KY",
+ "publish_date": "20260830",
+ "channel": "Codie Sanchez",
+ "status": "ingested",
+ "title": "20 Years Of Money Advice in 22 Minutes (How I Made Millions)",
+ "provider": "local_whisper_tiny",
+ "duration_s": "1338",
+ "n_lines": 370,
+ "n_removed_lines": 18,
+ "removed": [
+  {
+   "from": 255,
+   "to": 255,
+   "reason": "filler"
+  },
+  {
+   "from": 354,
+   "to": 370,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "MkP37sMi4KY#r1",
+   "business": "the company I built that runs before I step foot in the door",
+   "ranges": [
+    [
+     1,
+     4
+    ],
+    [
+     332,
+     353
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "MkP37sMi4KY#r2",
+   "business": "Goldman Sachs",
+   "ranges": [
+    [
+     68,
+     77
+    ],
+    [
+     115,
+     138
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "MkP37sMi4KY#r3",
+   "business": "Credit Suisse",
+   "ranges": [
+    [
+     78,
+     85
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "MkP37sMi4KY#r4",
+   "business": "my first company",
+   "ranges": [
+    [
+     286,
+     299
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "The speaker gives general business advice and discusses her company, first company, and finance employers.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 48
+}

@@ -1,0 +1,830 @@
+{
+ "id": "s9aLA4IOSZE",
+ "title": "I built this website in 8 hours with Claude. Now it makes $40K/month",
+ "channel": "Starter Story",
+ "publish_date": "20260927",
+ "miner": "codex:gpt-6-luna:xhigh",
+ "mined_at": "2026-10-23T11:16:36",
+ "secs": 205,
+ "schema_errors": [],
+ "speakers": [
+  {
+   "name": "Starter Story host",
+   "role": "host"
+  },
+  {
+   "name": "Frank",
+   "role": "guest"
+  }
+ ],
+ "evidence_quality": "A",
+ "promo_conflict": null,
+ "ideas": [
+  {
+   "record_id": "s9aLA4IOSZE#r1",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "Geogames game portfolio",
+    "one_liner": "A web app hosting niche geography game spin-offs, earning from advertising and Pro subscriptions.",
+    "customer": "Players of the spin-off games; audience demographics are not stated.",
+    "offer": "An app that hosts daily geography games for different niches.",
+    "revenue_model": "Programmatic ads and Pro subscriptions; figures are reported for the app or portfolio, not broken out by game.",
+    "category": "saas_software"
+   },
+   "citation": {
+    "lines": [
+     23,
+     33,
+     34,
+     35,
+     36,
+     38,
+     39,
+     40,
+     41,
+     158,
+     159,
+     160
+    ],
+    "primary_line": 33
+   },
+   "key_quotes": [
+    {
+     "quote": "Geogames is the name of the app. It hosts all the spin-offs.",
+     "line": 33
+    }
+   ],
+   "claims": [
+    {
+     "claim": "Frank says they created several spin-off games.",
+     "quote": "Since then, we've created several spin-off games.",
+     "line": 23,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "The portfolio includes several named games.",
+     "quote": "Right now, we have several. We have Geosports, Geohistory, Geofuddy.",
+     "line": 35,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "The app has about 700,000 monthly active users and makes about $40,000 monthly.",
+     "quote": "We have about 700,000 monthly active users, and we make about $40,000 monthly.",
+     "line": 38,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "There are about 1,800 Pro subscribers.",
+     "quote": "So that's about 1,800 Pro Subs right now.",
+     "line": 40,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "Programmatic ads bring in about $30,000 to $35,000.",
+     "quote": "which is closer to $30,000, $35,000 in programmatic right now.",
+     "line": 41,
+     "first_hand": true,
+     "hypothetical": false
+    }
+   ],
+   "acquisition_channels": [],
+   "delivery": "Users play the games through the Geogames web app; the app serves ads and offers Pro subscriptions.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "Claude Max",
+     "Vercel Pro",
+     "MapLibre",
+     "Upstash Redis",
+     "Google Sheets",
+     "Stripe"
+    ],
+    "prices": [],
+    "platforms": [
+     "web"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": "UK GDPR may apply to player and advertising data; PECR may apply to cookies and advertising technologies; DMCC Act subscription rules may apply to Pro subscriptions.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 70,
+   "hours_per_week_e": 14,
+   "idea_id": "s9aLA4IOSZE:i1",
+   "specifics_flag": true,
+   "publish_date": "20260927",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "s9aLA4IOSZE#r2",
+   "depth": "deep",
+   "stated_problem": {
+    "quote": "Because map tap doesn't do any sort of trivia. It doesn't have a sports twist on it.",
+    "line": 138,
+    "speaker": "Frank"
+   },
+   "idea": {
+    "name": "Geosports daily sports geography game",
+    "one_liner": "A daily web game for sports and geography fans: answer location questions, then earn revenue through ads and optional Pro subscriptions.",
+    "customer": "People who enjoy sports and geography trivia, including players who share results with friends.",
+    "offer": "A daily five-question game where players tap where sports events happened.",
+    "revenue_model": "Advertising and optional Pro subscriptions; the transcript does not break out revenue by game.",
+    "category": "digital_products"
+   },
+   "citation": {
+    "lines": [
+     8,
+     9,
+     20,
+     21,
+     22,
+     24,
+     29,
+     42,
+     44,
+     45,
+     49,
+     55,
+     56,
+     66,
+     114,
+     116,
+     117,
+     118,
+     119,
+     120,
+     121,
+     133,
+     137,
+     138,
+     139,
+     140,
+     147,
+     152,
+     154,
+     155,
+     158,
+     159,
+     160,
+     169,
+     170,
+     171,
+     172,
+     173,
+     174,
+     175,
+     180,
+     182,
+     183,
+     184,
+     190,
+     206,
+     208,
+     209,
+     210,
+     211,
+     214,
+     216,
+     217,
+     218,
+     220,
+     227,
+     229,
+     230,
+     231,
+     232,
+     233,
+     234,
+     235,
+     236
+    ],
+    "primary_line": 21
+   },
+   "key_quotes": [
+    {
+     "quote": "I built the Geosports Web game.",
+     "line": 20
+    },
+    {
+     "quote": "Right now it's making about $40,000 per month.",
+     "line": 21
+    },
+    {
+     "quote": "And what keeps this game running is how sticky and shareable it is.",
+     "line": 42
+    },
+    {
+     "quote": "Now this game is about word of mouth.",
+     "line": 120
+    }
+   ],
+   "claims": [
+    {
+     "claim": "The game makes about $40,000 monthly and was built in a weekend.",
+     "quote": "I built this game in just a weekend, and we make about $40,000 monthly.",
+     "line": 8,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "The host says the website makes over $40,000 a month.",
+     "quote": "dead simple website he built that now makes over $40,000 a month.",
+     "line": 9,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "Frank says the game makes about $40,000 per month.",
+     "quote": "Right now it's making about $40,000 per month.",
+     "line": 21,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "Frank built it about three months earlier in a weekend.",
+     "quote": "But three months ago, I built this game in just a weekend.",
+     "line": 22,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "The game had been featured on national TV twice.",
+     "quote": "We've been featured on national TV twice.",
+     "line": 24,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "The host says the business grew from a couple thousand dollars to $40,000 a month.",
+     "quote": "you were making only a couple thousand dollars, and now you're up to $40,000 a month so fast.",
+     "line": 29,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "The game has a 53% organic share rate.",
+     "quote": "We have a 53% organic share rate",
+     "line": 44,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "Frank says about 100,000 people have played in a day.",
+     "quote": "which means that we have, you know, 100,000 people who play around in a given day",
+     "line": 44,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "About 53,000 people would share their score from a 100,000-player day.",
+     "quote": "53,000 of those people are going to share their score.",
+     "line": 45,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "Programmatic ads were bringing in around $1,200 a day.",
+     "quote": "So we hover around $1,200 a day.",
+     "line": 49,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "A daily game round has five questions.",
+     "quote": "Tap where it happened. Five questions.",
+     "line": 55,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "Players answer all five questions in a round.",
+     "quote": "You go for all five and you get your result.",
+     "line": 66,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "Frank's daily X and Instagram posts drive roughly 2,000 clicks from two posts.",
+     "quote": "We drive roughly about 2000 clicks from those two posts I do every day.",
+     "line": 117,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "Those posts account for about 2% of daily traffic.",
+     "quote": "So in other words, that's about 2% of our daily traffic.",
+     "line": 118,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "The other 98% of traffic comes from daily players who may not know Frank founded the game.",
+     "quote": "The other 98% is daily players that probably don't even know that I'm the founder of this game.",
+     "line": 119,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "The game reached over 1 million unique players in under a month.",
+     "quote": "It reached over 1 million unique players in less than one month without a fancy email campaign.",
+     "line": 183,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "Frank says the game reached about 40,000 players after a viral reply.",
+     "quote": "And that reply went completely viral. I had about 40,000 players.",
+     "line": 216,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "The following day it had 150,000 players in one day.",
+     "quote": "And then that following day that Saturday, we did 150,000 players in one day.",
+     "line": 218,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "The game was only five days old at that point.",
+     "quote": "It was only five days old.",
+     "line": 220,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "Frank describes growth to 40K per month in three months.",
+     "quote": "And I grew to 40 K per month and three months.",
+     "line": 206,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "Hosts write five daily questions for their hosted game rounds.",
+     "quote": "Because they would write the five daily questions, which oftentimes are very excited to do",
+     "line": 234,
+     "first_hand": true,
+     "hypothetical": false
+    }
+   ],
+   "acquisition_channels": [
+    {
+     "channel": "referral",
+     "details": "Players share scores and send the game to friends in group chats; Frank attributes most traffic to word of mouth."
+    },
+    {
+     "channel": "content_social",
+     "details": "Frank posts a daily question on X and Instagram Stories; he also made posts about the game on X."
+    },
+    {
+     "channel": "partnerships",
+     "details": "Sports media personalities and athletes host daily questions and retweet announcements to reach new audiences."
+    },
+    {
+     "channel": "cold_sms_dm",
+     "details": "Frank says he DMs sports media personalities and athletes who have liked game posts to recruit hosts."
+    }
+   ],
+   "delivery": "Players open the web game and tap locations in response to clues. Frank and hosts provide the daily questions; the app handles scoring, sharing, ads and subscriptions.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "Claude Max",
+     "Vercel Pro",
+     "MapLibre",
+     "Upstash Redis",
+     "Google Sheets",
+     "Stripe"
+    ],
+    "prices": [],
+    "platforms": [
+     "web",
+     "X",
+     "Instagram"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": true,
+    "reason": "Host recruitment includes social DMs to individual sports personalities and athletes. Under the requested UK filter, unsolicited marketing DMs to individuals are banned; the transcript says core player acquisition is mostly word of mouth and sharing, so this risk is mainly in host recruitment."
+   },
+   "other_uk_rules": "UK GDPR may apply to player and advertising data; PECR may apply to cookies and advertising technologies; DMCC Act subscription rules may apply to Pro subscriptions.",
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 70,
+   "hours_per_week_e": 10,
+   "idea_id": "s9aLA4IOSZE:i2",
+   "specifics_flag": true,
+   "publish_date": "20260927",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "s9aLA4IOSZE#r3",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "Geohistory",
+    "one_liner": "A history-focused spin-off of the same niche geography game format; monetization is not stated.",
+    "customer": "Players interested in history and geography games; the target audience is not described further.",
+    "offer": "A geography game adapted for the history niche.",
+    "revenue_model": "Not stated.",
+    "category": "digital_products"
+   },
+   "citation": {
+    "lines": [
+     35,
+     36,
+     37
+    ],
+    "primary_line": 36
+   },
+   "key_quotes": [
+    {
+     "quote": "They're all the same game just for different niches.",
+     "line": 37
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "A spin-off game hosted within the Geogames app; delivery details beyond that are not stated.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [],
+    "prices": [],
+    "platforms": [
+     "Geogames"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": null,
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 75,
+   "hours_per_week_e": 5,
+   "idea_id": "s9aLA4IOSZE:i3",
+   "specifics_flag": true,
+   "publish_date": "20260927",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "s9aLA4IOSZE#r4",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "Geofuddy",
+    "one_liner": "A spin-off of the same niche geography game format; the niche and monetization are not explained.",
+    "customer": "Players of the niche game; the audience is not described further.",
+    "offer": "A geography game adapted for a different niche.",
+    "revenue_model": "Not stated.",
+    "category": "digital_products"
+   },
+   "citation": {
+    "lines": [
+     35,
+     36,
+     37
+    ],
+    "primary_line": 36
+   },
+   "key_quotes": [
+    {
+     "quote": "They're all the same game just for different niches.",
+     "line": 37
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "A spin-off game hosted within the Geogames app; delivery details beyond that are not stated.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [],
+    "prices": [],
+    "platforms": [
+     "Geogames"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": null,
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 75,
+   "hours_per_week_e": 5,
+   "idea_id": "s9aLA4IOSZE:i4",
+   "specifics_flag": true,
+   "publish_date": "20260927",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "s9aLA4IOSZE#r5",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "Five Car Draw",
+    "one_liner": "Frank's earlier niche game; gameplay and monetization are not described.",
+    "customer": "Not stated; Frank describes it as niche.",
+    "offer": "A game called Five Car Draw; further details are not stated.",
+    "revenue_model": "Not stated.",
+    "category": "digital_products"
+   },
+   "citation": {
+    "lines": [
+     96,
+     97,
+     98,
+     99,
+     100,
+     101
+    ],
+    "primary_line": 97
+   },
+   "key_quotes": [
+    {
+     "quote": "It was called five car draw.",
+     "line": 97
+    }
+   ],
+   "claims": [
+    {
+     "claim": "Frank says about 110,000 people played the game.",
+     "quote": "We probably had 110,000 people play it.",
+     "line": 98,
+     "first_hand": true,
+     "hypothetical": false
+    }
+   ],
+   "acquisition_channels": [],
+   "delivery": "A game; delivery format and ongoing operation are not stated.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [],
+    "prices": [],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": null,
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 50,
+   "hours_per_week_e": 5,
+   "idea_id": "s9aLA4IOSZE:i5",
+   "specifics_flag": false,
+   "publish_date": "20260927",
+   "stale_age": false,
+   "recheck": false
+  },
+  {
+   "record_id": "s9aLA4IOSZE#r6",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "Independent sports creator business",
+    "one_liner": "A creator produces short-form sports commentary videos for a social audience; monetization is not stated.",
+    "customer": "Sports fans who watch short-form videos on social media.",
+    "offer": "High-quality short-form sports commentary videos and an established social following.",
+    "revenue_model": "Not stated.",
+    "category": "content_media"
+   },
+   "citation": {
+    "lines": [
+     90,
+     91,
+     92,
+     93,
+     94,
+     95,
+     105,
+     106,
+     107,
+     108,
+     109,
+     110,
+     111,
+     112,
+     241,
+     242,
+     243,
+     244,
+     245,
+     246,
+     247
+    ],
+    "primary_line": 90
+   },
+   "key_quotes": [
+    {
+     "quote": "They know me as someone who creates very high quality short form sports videos, mostly commentary.",
+     "line": 94
+    },
+    {
+     "quote": "Yes, it helps I have four million followers.",
+     "line": 112
+    }
+   ],
+   "claims": [
+    {
+     "claim": "Frank has worked as an independent sports creator since 2020.",
+     "quote": "I've been working as an independent sports creator since 2020 right during COVID is when I got my start.",
+     "line": 90,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "Frank says he has four million followers.",
+     "quote": "Yes, it helps I have four million followers.",
+     "line": 112,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "He started producing YouTube videos in middle school, around 2007.",
+     "quote": "I started producing YouTube videos when I was in middle school. This is about 2007.",
+     "line": 242,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "Frank says his videos did not become popular until 2020.",
+     "quote": "YouTube was very new. My videos didn't really become popular until 2020.",
+     "line": 244,
+     "first_hand": true,
+     "hypothetical": false
+    },
+    {
+     "claim": "He estimates it took about 13 or 14 years to make a name for himself.",
+     "quote": "You know, for those, what about it math, that's about 13 14 years.",
+     "line": 247,
+     "first_hand": true,
+     "hypothetical": false
+    }
+   ],
+   "acquisition_channels": [
+    {
+     "channel": "content_social",
+     "details": "Frank publishes short-form sports commentary videos on social media; specific platforms are not stated for the creator business."
+    }
+   ],
+   "delivery": "Frank produces and publishes short-form sports commentary videos himself.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [],
+    "prices": [],
+    "platforms": [
+     "social media (unspecified)",
+     "YouTube"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": null,
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": true,
+   "physical_world": false,
+   "automation_share_e": 25,
+   "hours_per_week_e": 25,
+   "idea_id": "s9aLA4IOSZE:i6",
+   "specifics_flag": true,
+   "publish_date": "20260927",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "s9aLA4IOSZE#r7",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "Map Tap",
+    "one_liner": "A map-based game that inspired Frank to make a sports version; its mechanics and monetization are not described in detail.",
+    "customer": "Not stated.",
+    "offer": "A game called Map Tap that Frank enjoyed playing; further details are not stated.",
+    "revenue_model": "Not stated.",
+    "category": "digital_products"
+   },
+   "citation": {
+    "lines": [
+     133,
+     134,
+     136,
+     137,
+     138,
+     139,
+     140
+    ],
+    "primary_line": 133
+   },
+   "key_quotes": [
+    {
+     "quote": "He showed me this game called map tap and I loved it.",
+     "line": 133
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "A game; delivery format and ongoing operation are not stated.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [],
+    "prices": [],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": null,
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 55,
+   "hours_per_week_e": 8,
+   "idea_id": "s9aLA4IOSZE:i7",
+   "specifics_flag": false,
+   "publish_date": "20260927",
+   "stale_age": false,
+   "recheck": false
+  },
+  {
+   "record_id": "s9aLA4IOSZE#r8",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "Unnamed planned game",
+    "one_liner": "Frank and his team had planned another game before Geosports unexpectedly took off; the concept and business model are not stated.",
+    "customer": "Not stated.",
+    "offer": "An unspecified game that Frank and his team planned to launch.",
+    "revenue_model": "Not stated.",
+    "category": "digital_products"
+   },
+   "citation": {
+    "lines": [
+     102
+    ],
+    "primary_line": 102
+   },
+   "key_quotes": [
+    {
+     "quote": "You know, it's funny that that geo sports even happened because we were very set on launching a different game and this kind of just exploded out of nowhere after a weekend work.",
+     "line": 102
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "Not stated.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [],
+    "prices": [],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": null,
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 45,
+   "hours_per_week_e": 12,
+   "idea_id": "s9aLA4IOSZE:i8",
+   "specifics_flag": false,
+   "publish_date": "20260927",
+   "stale_age": false,
+   "recheck": false
+  }
+ ]
+}

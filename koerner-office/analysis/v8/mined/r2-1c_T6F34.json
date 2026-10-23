@@ -1,0 +1,650 @@
+{
+ "id": "r2-1c_T6F34",
+ "title": "How to Build & Sell Micro Apps in 2026 (Using Only AI)",
+ "channel": "Chris Koerner on The Koerner Office Podcast",
+ "publish_date": "20260104",
+ "miner": "codex:gpt-6-luna:xhigh",
+ "mined_at": "2026-10-23T11:23:31",
+ "secs": 153,
+ "schema_errors": [],
+ "speakers": [
+  {
+   "name": "Chris Koerner",
+   "role": "host"
+  }
+ ],
+ "evidence_quality": "C",
+ "promo_conflict": "The video ends with a direct Claude Code call to action and ranks it first; the transcript does not say whether the promotion is paid.",
+ "ideas": [
+  {
+   "record_id": "r2-1c_T6F34#r1",
+   "depth": "deep",
+   "stated_problem": {
+    "quote": "Sorry, HubSpot, but they are so freaking expensive and way too complex for 98% of business owners.",
+    "line": 42,
+    "speaker": "Chris Koerner"
+   },
+   "idea": {
+    "name": "Pool Pro CRM",
+    "one_liner": "A niche CRM for independent pool service operators, sold as recurring software subscriptions.",
+    "customer": "Independent pool service business operators.",
+    "offer": "A web app for managing pool customers, service schedules, visit rates and service logs.",
+    "revenue_model": "Recurring software subscription; the speaker suggests possible monthly prices but has not launched or sold the app.",
+    "category": "saas_software"
+   },
+   "citation": {
+    "lines": [
+     39,
+     42,
+     53,
+     71,
+     83,
+     93,
+     99,
+     101,
+     133,
+     135,
+     138,
+     144,
+     178,
+     180,
+     181,
+     182,
+     183,
+     185,
+     186,
+     221,
+     225,
+     251,
+     257,
+     263,
+     276,
+     280,
+     287,
+     298,
+     304,
+     305,
+     308
+    ],
+    "primary_line": 39
+   },
+   "key_quotes": [
+    {
+     "quote": "I want to build a dead simple but super niche CRM for independent pool service business operators.",
+     "line": 39
+    },
+    {
+     "quote": "Sorry, HubSpot, but they are so freaking expensive and way too complex for 98% of business owners.",
+     "line": 42
+    },
+    {
+     "quote": "It made Pool Pro CRM built for pool service professionals.",
+     "line": 53
+    },
+    {
+     "quote": "I just need to add a stripe integration which Claude Code can do.",
+     "line": 144
+    },
+    {
+     "quote": "Now, can I find a way to get 1,000 of these 79,000 businesses to pay me 20 bucks a month?",
+     "line": 182
+    },
+    {
+     "quote": "Another way to find customers here is to cold email them.",
+     "line": 298
+    },
+    {
+     "quote": "You can text them. You can call them. You can email them and say, \"Hey, I built a free software just for pool service operators.",
+     "line": 302
+    }
+   ],
+   "claims": [
+    {
+     "claim": "The speaker says HubSpot is too complex for 98% of business owners and describes it as expensive.",
+     "quote": "Sorry, HubSpot, but they are so freaking expensive and way too complex for 98% of business owners.",
+     "line": 42,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "Pool service is said to be growing at 12% a year.",
+     "quote": "It's growing at 12% a year.",
+     "line": 29,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "The speaker cites 79,000 US pool service businesses and describes the market as fragmented with no dominant player.",
+     "quote": "79,000 pool service businesses. It is a growing and highly fragmented market with no dominant player.",
+     "line": 178,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "The speaker says software could cost $100 per month, then uses $20 per month as a conservative price.",
+     "quote": "Now, could you charge 100 bucks a month for this software? Yeah, but let's be extra conservative and say 20 bucks a month.",
+     "line": 180,
+     "first_hand": false,
+     "hypothetical": true
+    },
+    {
+     "claim": "The speaker's hypothetical is 1,000 customers paying $20 per month, described as about 1.5% of the market and $20,000 monthly revenue.",
+     "quote": "Now, can I find a way to get 1,000 of these 79,000 businesses to pay me 20 bucks a month? If so, then I have like 1.5% of the market and I'm making $20,000 a month.",
+     "line": 182,
+     "first_hand": false,
+     "hypothetical": true
+    },
+    {
+     "claim": "The speaker says a $100 software price could mean $100,000 per month, while conversion would fall and profit would rise.",
+     "quote": "Hey, let's make it $100 software and it's $100,000 a month. Our conversion rate goes down because it's more expensive, but our profit goes way, way up.",
+     "line": 185,
+     "first_hand": false,
+     "hypothetical": true
+    },
+    {
+     "claim": "The demo CRM contains a sample customer rate of $94 per visit.",
+     "quote": "Let's do $94 per visit. Let's do on call.",
+     "line": 83,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "The speaker changes the demo customer rate to $1,500 per visit.",
+     "quote": "And I'm going to say instead of rate per visit, I'm going to add a zero and say 1,500.",
+     "line": 133,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "The demo shows $3,300 total projected revenue per month before the edit.",
+     "quote": "It should change by a lot cuz right now it's $3,300 total per month across all customers.",
+     "line": 135,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "After the demo edit, the app shows $9,100 per month.",
+     "quote": "Boom. $9,100 a month is my MR after editing that field.",
+     "line": 138,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "The speaker suggests offering 90 days free or a free trial before asking users to pay.",
+     "quote": "Do you want to use it 90 days free or 100% free and then get them to pay later",
+     "line": 305,
+     "first_hand": false,
+     "hypothetical": true
+    },
+    {
+     "claim": "The speaker suggests keeping it free until the first five customers.",
+     "quote": "or 100% free until you get your first five customers.",
+     "line": 305,
+     "first_hand": false,
+     "hypothetical": true
+    }
+   ],
+   "acquisition_channels": [
+    {
+     "channel": "community",
+     "details": "Join relevant Facebook groups, ask operators for feature feedback and implement it."
+    },
+    {
+     "channel": "cold_sms_dm",
+     "details": "DM people who commented, liked or helped in the group with a free-use offer; this is described as a follow-up to their engagement."
+    },
+    {
+     "channel": "referral",
+     "details": "Ask early users for referrals, reviews and case studies."
+    },
+    {
+     "channel": "cold_email",
+     "details": "Scrape pool service businesses in an area and email them a free-use offer."
+    },
+    {
+     "channel": "cold_call",
+     "details": "Call scraped pool service businesses."
+    },
+    {
+     "channel": "cold_sms_dm",
+     "details": "Text scraped pool service businesses."
+    },
+    {
+     "channel": "paid_ads",
+     "details": "Upload a scraped list as a Facebook custom audience and target pool service owners."
+    }
+   ],
+   "delivery": "The founder builds and maintains a web app for customer and service management. Stripe billing is still to be added; the transcript does not show a live product or paying customers.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [
+     "Claude",
+     "Claude Code",
+     "Replit",
+     "ChatGPT",
+     "Stripe",
+     "HubSpot",
+     "Gummy Search",
+     "Outscraper"
+    ],
+    "prices": [
+     "$20/month proposed subscription",
+     "$100/month speculative subscription",
+     "$94 per visit demo value",
+     "$1,500 per visit demo value",
+     "$3,300/month demo projection",
+     "$9,100/month demo projection",
+     "$20,000/month hypothetical revenue",
+     "$100,000/month hypothetical revenue",
+     "90 days free",
+     "100% free until five customers"
+    ],
+    "platforms": [
+     "Facebook groups",
+     "Facebook Ads",
+     "Reddit",
+     "Google Trends"
+    ]
+   },
+   "uk_legal_risk": {
+    "flag": true,
+    "reason": "The proposed acquisition includes unsolicited cold texts to scraped pool service operators, who may be sole traders, and DMs that could be unsolicited marketing to sole traders. Those channels are restricted under UK PECR."
+   },
+   "other_uk_rules": "Cold email marketing is limited to corporate subscribers such as limited companies and needs an opt-out; screen cold calls against TPS/CTPS. Scraping contacts and uploading them to ad audiences also raises UK GDPR requirements.",
+   "sells_to_local_businesses": true,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 60,
+   "hours_per_week_e": 15,
+   "idea_id": "r2-1c_T6F34:i1",
+   "specifics_flag": true,
+   "publish_date": "20260104",
+   "stale_age": false,
+   "recheck": true
+  },
+  {
+   "record_id": "r2-1c_T6F34#r2",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "CRM for pressure washers",
+    "one_liner": "A niche CRM concept for pressure-washing operators; no product details or validation are given.",
+    "customer": "Pressure-washing operators.",
+    "offer": "Industry-specific customer relationship management software.",
+    "revenue_model": "Recurring subscription is the tutorial's general model; no price is stated for this niche.",
+    "category": "saas_software"
+   },
+   "citation": {
+    "lines": [
+     15
+    ],
+    "primary_line": 15
+   },
+   "key_quotes": [
+    {
+     "quote": "Why not just build a CRM for pressure washers or landscapers?",
+     "line": 15
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "Not described beyond niche CRM software.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [],
+    "prices": [],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": null,
+   "sells_to_local_businesses": true,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 55,
+   "hours_per_week_e": 15,
+   "idea_id": "r2-1c_T6F34:i2",
+   "specifics_flag": false,
+   "publish_date": "20260104",
+   "stale_age": false,
+   "recheck": false
+  },
+  {
+   "record_id": "r2-1c_T6F34#r3",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "CRM for landscapers",
+    "one_liner": "A niche CRM concept for landscapers; no product details or validation are given.",
+    "customer": "Landscaping operators.",
+    "offer": "Industry-specific customer relationship management software.",
+    "revenue_model": "Recurring subscription is the tutorial's general model; no price is stated for this niche.",
+    "category": "saas_software"
+   },
+   "citation": {
+    "lines": [
+     15
+    ],
+    "primary_line": 15
+   },
+   "key_quotes": [
+    {
+     "quote": "Why not just build a CRM for pressure washers or landscapers?",
+     "line": 15
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "Not described beyond niche CRM software.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [],
+    "prices": [],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": null,
+   "sells_to_local_businesses": true,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 55,
+   "hours_per_week_e": 15,
+   "idea_id": "r2-1c_T6F34:i3",
+   "specifics_flag": false,
+   "publish_date": "20260104",
+   "stale_age": false,
+   "recheck": false
+  },
+  {
+   "record_id": "r2-1c_T6F34#r4",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "CRM for epoxy flooring",
+    "one_liner": "A possible CRM niche in epoxy flooring, which the speaker calls a shrinking home-service category.",
+    "customer": "Epoxy flooring operators.",
+    "offer": "Industry-specific customer relationship management software; features are not described.",
+    "revenue_model": "Recurring subscription is the tutorial's general model; no price is stated for this niche.",
+    "category": "saas_software"
+   },
+   "citation": {
+    "lines": [
+     18,
+     19
+    ],
+    "primary_line": 18
+   },
+   "key_quotes": [
+    {
+     "quote": "So, if I launch this CRM in a shrinking home service category, like epoxy flooring, I can still be successful.",
+     "line": 18
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "Not described beyond niche CRM software.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [],
+    "prices": [],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": null,
+   "sells_to_local_businesses": true,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 55,
+   "hours_per_week_e": 15,
+   "idea_id": "r2-1c_T6F34:i4",
+   "specifics_flag": false,
+   "publish_date": "20260104",
+   "stale_age": false,
+   "recheck": false
+  },
+  {
+   "record_id": "r2-1c_T6F34#r5",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "CRM for EV charger installation",
+    "one_liner": "A potential CRM niche for EV charger installers; the speaker worries that the service market may be concentrated.",
+    "customer": "EV charger installation businesses.",
+    "offer": "Industry-specific customer relationship management software; features are not described.",
+    "revenue_model": "Recurring subscription is the tutorial's general model; no price is stated for this niche.",
+    "category": "saas_software"
+   },
+   "citation": {
+    "lines": [
+     23,
+     24,
+     25,
+     26
+    ],
+    "primary_line": 23
+   },
+   "key_quotes": [
+    {
+     "quote": "EV charger installation. I don't really like that one because I think it's going to be highly concentrated.",
+     "line": 23
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "Not described beyond niche CRM software.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [],
+    "prices": [],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": null,
+   "sells_to_local_businesses": true,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 55,
+   "hours_per_week_e": 15,
+   "idea_id": "r2-1c_T6F34:i5",
+   "specifics_flag": false,
+   "publish_date": "20260104",
+   "stale_age": false,
+   "recheck": false
+  },
+  {
+   "record_id": "r2-1c_T6F34#r6",
+   "depth": "mention",
+   "stated_problem": {
+    "quote": "So, now those pools need to be serviced.",
+    "line": 21,
+    "speaker": "Chris Koerner"
+   },
+   "idea": {
+    "name": "Pool service and maintenance",
+    "one_liner": "A growing pool-service category identified as the CRM's target market; the speaker does not propose operating a pool-service business.",
+    "customer": "Pool owners.",
+    "offer": "Pool service and maintenance; the specific services are not described.",
+    "revenue_model": "Not stated.",
+    "category": "home_service"
+   },
+   "citation": {
+    "lines": [
+     20,
+     21,
+     27,
+     29,
+     178,
+     179
+    ],
+    "primary_line": 27
+   },
+   "key_quotes": [
+    {
+     "quote": "So, now those pools need to be serviced.",
+     "line": 21
+    },
+    {
+     "quote": "Number two is pool service and maintenance.",
+     "line": 27
+    }
+   ],
+   "claims": [
+    {
+     "claim": "The speaker says pool service and maintenance is growing at 12% a year.",
+     "quote": "It's growing at 12% a year.",
+     "line": 29,
+     "first_hand": false,
+     "hypothetical": false
+    },
+    {
+     "claim": "The speaker cites 79,000 US pool service businesses and describes the market as fragmented with no dominant player.",
+     "quote": "79,000 pool service businesses. It is a growing and highly fragmented market with no dominant player.",
+     "line": 178,
+     "first_hand": false,
+     "hypothetical": false
+    }
+   ],
+   "acquisition_channels": [],
+   "delivery": "Not described; the transcript identifies a need for pool service and maintenance as context for the software niche.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [],
+    "prices": [],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": null,
+   "sells_to_local_businesses": false,
+   "needs_face_or_personal_brand": false,
+   "physical_world": true,
+   "automation_share_e": 10,
+   "hours_per_week_e": 40,
+   "idea_id": "r2-1c_T6F34:i6",
+   "specifics_flag": false,
+   "publish_date": "20260104",
+   "stale_age": false,
+   "recheck": false
+  },
+  {
+   "record_id": "r2-1c_T6F34#r7",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "CRM for solar panel cleaning",
+    "one_liner": "A potential niche CRM for solar panel cleaning businesses; no product details or validation are given.",
+    "customer": "Solar panel cleaning operators.",
+    "offer": "Industry-specific customer relationship management software.",
+    "revenue_model": "Recurring subscription is the tutorial's general model; no price is stated for this niche.",
+    "category": "saas_software"
+   },
+   "citation": {
+    "lines": [
+     30,
+     31
+    ],
+    "primary_line": 30
+   },
+   "key_quotes": [
+    {
+     "quote": "Three, solar panel cleaning. Also love that industry.",
+     "line": 30
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "Not described beyond niche CRM software.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [],
+    "prices": [],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": null,
+   "sells_to_local_businesses": true,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 55,
+   "hours_per_week_e": 15,
+   "idea_id": "r2-1c_T6F34:i7",
+   "specifics_flag": false,
+   "publish_date": "20260104",
+   "stale_age": false,
+   "recheck": false
+  },
+  {
+   "record_id": "r2-1c_T6F34#r8",
+   "depth": "mention",
+   "stated_problem": null,
+   "idea": {
+    "name": "CRM for water damage restoration",
+    "one_liner": "A potential CRM niche for water damage restoration businesses; no product details or validation are given.",
+    "customer": "Water damage restoration operators.",
+    "offer": "Industry-specific customer relationship management software.",
+    "revenue_model": "Recurring subscription is the tutorial's general model; no price is stated for this niche.",
+    "category": "saas_software"
+   },
+   "citation": {
+    "lines": [
+     32
+    ],
+    "primary_line": 32
+   },
+   "key_quotes": [
+    {
+     "quote": "And number four, water damage restoration.",
+     "line": 32
+    }
+   ],
+   "claims": [],
+   "acquisition_channels": [],
+   "delivery": "Not described beyond niche CRM software.",
+   "feature_request": false,
+   "existing_tool": null,
+   "specifics": {
+    "tools": [],
+    "prices": [],
+    "platforms": []
+   },
+   "uk_legal_risk": {
+    "flag": false,
+    "reason": null
+   },
+   "other_uk_rules": null,
+   "sells_to_local_businesses": true,
+   "needs_face_or_personal_brand": false,
+   "physical_world": false,
+   "automation_share_e": 55,
+   "hours_per_week_e": 15,
+   "idea_id": "r2-1c_T6F34:i8",
+   "specifics_flag": false,
+   "publish_date": "20260104",
+   "stale_age": false,
+   "recheck": false
+  }
+ ]
+}

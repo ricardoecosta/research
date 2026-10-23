@@ -1,0 +1,71 @@
+{
+ "id": "guJiTrw9qV4",
+ "publish_date": "20261002",
+ "channel": "Chris Koerner on The Koerner Office Podcast",
+ "status": "ingested",
+ "title": "I Tested How Passive This AI Side Hustle Really Is",
+ "provider": null,
+ "duration_s": "757",
+ "n_lines": 193,
+ "n_removed_lines": 9,
+ "removed": [
+  {
+   "from": 179,
+   "to": 183,
+   "reason": "sponsor"
+  },
+  {
+   "from": 188,
+   "to": 190,
+   "reason": "sponsor"
+  },
+  {
+   "from": 193,
+   "to": 193,
+   "reason": "sponsor"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "guJiTrw9qV4#r1",
+   "business": "5-minute consulting",
+   "ranges": [
+    [
+     2,
+     161
+    ],
+    [
+     171,
+     178
+    ],
+    [
+     184,
+     187
+    ],
+    [
+     191,
+     192
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "guJiTrw9qV4#r2",
+   "business": "children's market hosted by his wife",
+   "ranges": [
+    [
+     162,
+     173
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "The main venture is paid consulting; the children's market is a separate business example.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 42
+}

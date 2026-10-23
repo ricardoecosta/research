@@ -1,0 +1,184 @@
+{
+ "id": "k5o5_s7ng6k",
+ "publish_date": "20251123",
+ "channel": "Casper Capital",
+ "status": "ingested",
+ "title": "Beginner's Guide to Dividend Investing: Build a Stock Portfolio That Pays You $5,000/Month",
+ "provider": null,
+ "duration_s": "825",
+ "n_lines": 133,
+ "n_removed_lines": 8,
+ "removed": [
+  {
+   "from": 123,
+   "to": 124,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 125,
+   "to": 127,
+   "reason": "sponsor"
+  },
+  {
+   "from": 131,
+   "to": 133,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "k5o5_s7ng6k#r1",
+   "business": "Apple",
+   "ranges": [
+    [
+     19,
+     19
+    ],
+    [
+     40,
+     40
+    ],
+    [
+     64,
+     70
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "k5o5_s7ng6k#r2",
+   "business": "Microsoft",
+   "ranges": [
+    [
+     19,
+     19
+    ],
+    [
+     40,
+     40
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "k5o5_s7ng6k#r3",
+   "business": "Coca-Cola",
+   "ranges": [
+    [
+     19,
+     19
+    ],
+    [
+     32,
+     32
+    ],
+    [
+     77,
+     77
+    ],
+    [
+     90,
+     90
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "k5o5_s7ng6k#r4",
+   "business": "Johnson and Johnson",
+   "ranges": [
+    [
+     32,
+     32
+    ],
+    [
+     78,
+     78
+    ],
+    [
+     90,
+     90
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "k5o5_s7ng6k#r5",
+   "business": "Home Depot",
+   "ranges": [
+    [
+     34,
+     34
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "k5o5_s7ng6k#r6",
+   "business": "PepsiCo",
+   "ranges": [
+    [
+     34,
+     34
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "k5o5_s7ng6k#r7",
+   "business": "Realy Income",
+   "ranges": [
+    [
+     35,
+     35
+    ],
+    [
+     79,
+     79
+    ],
+    [
+     91,
+     91
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "k5o5_s7ng6k#r8",
+   "business": "Verizon",
+   "ranges": [
+    [
+     35,
+     35
+    ],
+    [
+     64,
+     70
+    ],
+    [
+     91,
+     91
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "k5o5_s7ng6k#r9",
+   "business": "Visa",
+   "ranges": [
+    [
+     40,
+     40
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "General dividend-investing advice; named stock examples are listed as separate businesses.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 31
+}

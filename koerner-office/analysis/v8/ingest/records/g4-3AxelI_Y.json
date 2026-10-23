@@ -1,0 +1,144 @@
+{
+ "id": "g4-3AxelI_Y",
+ "publish_date": "20260403",
+ "channel": "Chris Koerner on The Koerner Office Podcast",
+ "status": "ingested",
+ "title": "This Might Be the Easiest Way to Sell AI to Businesses",
+ "provider": "transcribeyoutube",
+ "duration_s": "927",
+ "n_lines": 284,
+ "n_removed_lines": 10,
+ "removed": [
+  {
+   "from": 111,
+   "to": 111,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 273,
+   "to": 276,
+   "reason": "sponsor"
+  },
+  {
+   "from": 280,
+   "to": 284,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "g4-3AxelI_Y#r1",
+   "business": "AI-powered missed-call text-back service sold to small businesses",
+   "ranges": [
+    [
+     6,
+     9
+    ],
+    [
+     15,
+     23
+    ],
+    [
+     24,
+     31
+    ],
+    [
+     32,
+     73
+    ],
+    [
+     91,
+     110
+    ],
+    [
+     112,
+     154
+    ],
+    [
+     155,
+     192
+    ],
+    [
+     193,
+     208
+    ],
+    [
+     212,
+     245
+    ],
+    [
+     247,
+     268
+    ],
+    [
+     277,
+     279
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "g4-3AxelI_Y#r2",
+   "business": "Fast Tree Care, a tree trimming company in DFW",
+   "ranges": [
+    [
+     74,
+     90
+    ],
+    [
+     112,
+     154
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "g4-3AxelI_Y#r3",
+   "business": "A plumber who wants AI integrated into his business",
+   "ranges": [
+    [
+     10,
+     12
+    ],
+    [
+     269,
+     272
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "g4-3AxelI_Y#r4",
+   "business": "A hypothetical plumber receiving a missed-call text-back",
+   "ranges": [
+    [
+     26,
+     29
+    ],
+    [
+     153,
+     153
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "g4-3AxelI_Y#r5",
+   "business": "HVAC businesses as a potential customer type",
+   "ranges": [
+    [
+     153,
+     153
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "The primary offer is an AI missed-call text-back service; Fast Tree Care is the example client.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 57
+}

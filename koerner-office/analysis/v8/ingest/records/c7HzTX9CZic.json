@@ -1,0 +1,278 @@
+{
+ "id": "c7HzTX9CZic",
+ "publish_date": "20261019",
+ "channel": "My First Million",
+ "status": "ingested",
+ "title": "This guy beat the S&P500 for 11 years doing (almost) nothing",
+ "provider": "local_whisper_tiny",
+ "duration_s": "2769",
+ "n_lines": 738,
+ "n_removed_lines": 249,
+ "removed": [
+  {
+   "from": 9,
+   "to": 9,
+   "reason": "intro_outro"
+  },
+  {
+   "from": 106,
+   "to": 110,
+   "reason": "sponsor"
+  },
+  {
+   "from": 150,
+   "to": 156,
+   "reason": "tangent"
+  },
+  {
+   "from": 168,
+   "to": 176,
+   "reason": "tangent"
+  },
+  {
+   "from": 394,
+   "to": 400,
+   "reason": "tangent"
+  },
+  {
+   "from": 401,
+   "to": 409,
+   "reason": "tangent"
+  },
+  {
+   "from": 412,
+   "to": 427,
+   "reason": "tangent"
+  },
+  {
+   "from": 428,
+   "to": 428,
+   "reason": "filler"
+  },
+  {
+   "from": 513,
+   "to": 612,
+   "reason": "tangent"
+  },
+  {
+   "from": 613,
+   "to": 661,
+   "reason": "tangent"
+  },
+  {
+   "from": 693,
+   "to": 727,
+   "reason": "tangent"
+  },
+  {
+   "from": 728,
+   "to": 732,
+   "reason": "tangent"
+  },
+  {
+   "from": 733,
+   "to": 734,
+   "reason": "tangent"
+  },
+  {
+   "from": 735,
+   "to": 737,
+   "reason": "intro_outro"
+  }
+ ],
+ "records": [
+  {
+   "record_id": "c7HzTX9CZic#r1",
+   "business": "a public investor who invests in public stocks",
+   "ranges": [
+    [
+     1,
+     8
+    ],
+    [
+     10,
+     105
+    ],
+    [
+     111,
+     141
+    ],
+    [
+     209,
+     216
+    ]
+   ],
+   "is_primary": true
+  },
+  {
+   "record_id": "c7HzTX9CZic#r2",
+   "business": "the company he sold",
+   "ranges": [
+    [
+     11,
+     14
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "c7HzTX9CZic#r3",
+   "business": "a very large travel stock, like a popular airline",
+   "ranges": [
+    [
+     54,
+     55
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "c7HzTX9CZic#r4",
+   "business": "a popular clothing stock, not Lululemon",
+   "ranges": [
+    [
+     56,
+     57
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "c7HzTX9CZic#r5",
+   "business": "Blank company",
+   "ranges": [
+    [
+     69,
+     73
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "c7HzTX9CZic#r6",
+   "business": "Kevin Ryan's incubator or startup lab",
+   "ranges": [
+    [
+     93,
+     97
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "c7HzTX9CZic#r7",
+   "business": "Twitter",
+   "ranges": [
+    [
+     145,
+     147
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "c7HzTX9CZic#r8",
+   "business": "Square",
+   "ranges": [
+    [
+     146,
+     149
+    ],
+    [
+     157,
+     159
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "c7HzTX9CZic#r9",
+   "business": "Meta",
+   "ranges": [
+    [
+     160,
+     167
+    ],
+    [
+     181,
+     204
+    ],
+    [
+     218,
+     238
+    ],
+    [
+     241,
+     257
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "c7HzTX9CZic#r10",
+   "business": "Scale AI",
+   "ranges": [
+    [
+     177,
+     196
+    ],
+    [
+     218,
+     245
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "c7HzTX9CZic#r11",
+   "business": "Stripe",
+   "ranges": [
+    [
+     411,
+     411
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "c7HzTX9CZic#r12",
+   "business": "our first company, during the sushi era",
+   "ranges": [
+    [
+     473,
+     512
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "c7HzTX9CZic#r13",
+   "business": "Tesla",
+   "ranges": [
+    [
+     432,
+     443
+    ]
+   ],
+   "is_primary": false
+  },
+  {
+   "record_id": "c7HzTX9CZic#r14",
+   "business": "SpaceX",
+   "ranges": [
+    [
+     432,
+     443
+    ]
+   ],
+   "is_primary": false
+  }
+ ],
+ "multi_business": true,
+ "has_business_content": true,
+ "language_ok": true,
+ "notes": "Includes unnamed portfolio holdings and businesses mentioned in passing.",
+ "stale_age": false,
+ "ingest_runner": "codex:gpt-6-luna:xhigh",
+ "ingest_secs": 103
+}
