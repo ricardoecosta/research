@@ -1,215 +1,187 @@
-"""v11 loop iteration pipeline (LOOP.md §6). Stages: harvest, killcheck, shadow, evidence, score, validate.
-Resumable: each LLM answer cached in /tmp/loop/v9/out/<tag>.json. Calls logged to calls.jsonl."""
-import csv, json, os, random, sys, time, datetime as dt
+"""v11 (rebuilt) pipeline. LLM only labels/clusters (E) and tabulates checklists (B); counting and pass rules are code.
+Stages: label cluster count kc shadow checklist select validate. Cache: /tmp/loop/v11/out/<tag>.json"""
+import csv, json, os, random, re, sys, time, datetime as dt, collections
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "common"))
 from runner import call_llm, BoxPending
 from rapidfuzz import fuzz
-
-REPO = Path(__file__).resolve().parents[2]
-AN = REPO / "analysis"; V9 = AN / "v11"; W = Path("/tmp/loop/v11"); OUT = W / "out"; OUT.mkdir(parents=True, exist_ok=True)
-LOG = W / "run.log"; CALLS = W / "calls.jsonl"
-TODAY = "23 Oct 2026"
-RULES = (V9 / "RULES_LOCKED.md").read_text()
-CONSTRAINTS = """Owner: Ricardo, a UK-based (Bromley) technical founder. MARKET SCOPE: ANY COUNTRY (US, EU, UK, global customers all fine).
-Hard constraints: mostly run by AI agents (>=50% of all work automated, <=5 h/week of his time, also for a bought business);
-software/digital/data product; NOT selling to local businesses; NOT needing his face or personal brand;
-NO cold outreach (no cold email/SMS/DM/calls) - channels must be lawful in UK and recipient's country: SEO, app stores, marketplaces, integrations, paid ads, partnerships.
-BUILD track: TIME-TO-MOAT required - agents can build the defensible asset (compiled data, maintained rules engine, network, switching costs) within 3 months, a rival needs 3+ months to copy it, and nobody owns it yet.
-BUY track (preferred): a listed business at $20k-$150k with VERIFIED revenue (marketplace badge / Stripe connect / verified P&L), >= $1k/month revenue, <=5x annual profit, which a 90-day handover-to-agents plan can bring to <=5 h/week of owner time (more hours during the 90 days are fine)."""
-
+REPO = Path(__file__).resolve().parents[2]; AN = REPO / "analysis"; V = AN / "v11"
+W = Path("/tmp/loop/v11"); OUT = W / "out"; OUT.mkdir(parents=True, exist_ok=True); LOG = W / "run.log"; CALLS = W / "calls.jsonl"
+TODAY = "23 Oct 2026"; RULES = (V / "RULES_LOCKED.md").read_text()
+CONSTRAINTS = """Owner: Ricardo, UK-based (Bromley) technical founder. Market: ANY country. Hard constraints: >=50% of all work by AI agents and <=5 h/week of his time
+(for a bought business: after a 90-day handover); software/digital/data product; NOT selling to local businesses; NO face/personal brand; NO cold or unlawful outreach
+(UK PECR + recipient's law). Channels: SEO, app stores, marketplaces, integrations, paid ads, partnerships, existing customers."""
 def log(m):
-    line = f"{dt.datetime.now():%H:%M:%S} {m}"; print(line, flush=True)
-    with open(LOG, "a") as f: f.write(line + "\n")
-
-def ask(tag, prompt, effort, web=True, order=None):
+    line = f"{dt.datetime.now():%H:%M:%S} {m}"; print(line, flush=True); open(LOG, "a").write(line + "\n")
+def ask(tag, prompt, effort, web=False, order=None):
     f = OUT / f"{tag}.json"
     if f.exists(): return json.loads(f.read_text())
-    try:
-        data, runner, secs = call_llm(prompt, effort=effort, logf=str(LOG), tag=f"v11_{tag}", web=web, order=order)
-    except BoxPending:
-        log(f"{tag} BOX PENDING"); return None
-    f.write_text(json.dumps(data, indent=1))
-    with open(CALLS, "a") as c: c.write(json.dumps({"tag": tag, "runner": runner, "effort": effort, "secs": round(secs), "t": f"{dt.datetime.now():%H:%M}"}) + "\n")
+    try: data, runner, secs = call_llm(prompt, effort=effort, logf=str(LOG), tag=f"v11_{tag}", web=web, order=order)
+    except BoxPending: log(f"{tag} BOX PENDING"); return None
+    f.write_text(json.dumps(data, indent=1, ensure_ascii=False))
+    open(CALLS, "a").write(json.dumps({"tag": tag, "runner": runner, "effort": effort, "secs": round(secs), "t": f"{dt.datetime.now():%H:%M}"}) + "\n")
     log(f"{tag} done via {runner} in {secs:.0f}s"); return data
+def jl(p): return [json.loads(l) for l in open(p)]
+def wjl(p, rows):
+    with open(p, "w") as f:
+        for r in rows: f.write(json.dumps(r, ensure_ascii=False) + "\n")
+SEEN = list(csv.DictReader(open(AN / "loop/SEEN.csv")))
+def seen_match(name): return next((r["name"] for r in SEEN if fuzz.token_set_ratio(name.lower(), r["name"].lower()) >= 88), None)
 
-def seen_rows():
-    return list(csv.DictReader(open(AN / "loop/SEEN.csv")))
-
-def seen_names():
-    return "; ".join(r["name"] for r in seen_rows())
-
-LEAD_SCHEMA = """Return ONLY JSON: {"leads":[{"name":"short product/opportunity name","source":"A1|A2|A3|D1|G1","track":"build|buy|demand",
-"moat":"build: the asset agents would build in <=3 months and why a rival needs 3+ months; buy: the customer base / integrations / data switching costs",
-"listing":"buy/demand: listing_url, asking price, TTM or monthly revenue, profit, verification evidence, multiple, owner hours, owner work, listing date; else null","sub_source":"e.g. WordPress.org / Flippa / HMRC",
-"what":"one sentence: the product we would build/buy and who pays","trigger":"the regulation, decaying product, listing or complaint behind it",
-"urls":["1-3 source URLs you actually opened"],"evidence_of_payment":"price/revenue/installs/users as stated, with numbers only if seen on the page",
-"claim_event_date":"YYYY-MM or 'unverified'","notes":"anything unverified marked 'unverified'"}]}"""
-
-HARVEST = {
- "A1": ("Acquire.com verified listings $20k-$150k", 20, """Find CURRENT public Acquire.com listings (app.acquire.com/startup/... or /public/...; also Acquire 'verified' / 'Stripe-connected' / 'revenue verified' badges, and Acquire blog/newsletter roundups Jun-Oct 2026) for small SaaS, plugins, extensions, apps, APIs, data products with asking price $20k-$150k, revenue >= $1k/month, profitable, and VERIFIED revenue (badge or Stripe/ProfitWell connected). Any country. Record listing URL, asking price, TTM revenue, TTM profit, verification evidence, multiple, owner hours, listing date, churn, what work the owner does (support, sales, dev)."""),
- "A2": ("Flippa verified listings $20k-$150k", 20, """Find CURRENT flippa.com listings (flippa.com/<id>-... pages) for SaaS, apps, browser extensions, WordPress/Shopify plugins, APIs with asking price $20k-$150k, monthly revenue >= $1k, profitable, and Flippa 'P&L verified' / 'Revenue verified' / 'Google Analytics verified' or Stripe-connected badges. Open each listing page. Any country. Record listing URL, price, monthly revenue/profit, verification badges, multiple, owner hours, age, listing date, the work the owner does. Skip content/affiliate/ecommerce/agency/service businesses."""),
- "A3": ("Empire Flippers / FE International / Quiet Light / Microns / Tiny / IndieMaker / SideProjectors $20k-$150k", 15, """Find current listings on empireflippers.com/marketplace (SaaS/app; they vet P&L), feinternational.com, quietlight.com/listings, microns.io (Stripe-verified badges), tinyacquisitions, indiemaker.co, sideprojectors.com, with price $20k-$150k, revenue >= $1k/month, profitable, and VERIFIED/vetted revenue. Any country. Record listing URL, price, revenue, profit, verification, multiple, owner hours, listing date, owner's work."""),
- "D1": ("Demand-first: verified-revenue small products", 15, """Find small software/digital products with VERIFIED revenue >= $1k/month, dated within the last 18 months (since Apr 2025): TrustMRR (trustmrr.com, Stripe-verified MRR leaderboard), Indie Hackers products with Stripe-verified revenue, OpenStartup/'open metrics' pages, Baremetrics open startups. Prefer niche B2B/B2C tools in narrow verticals (not generic AI wrappers), any country. Record product URL, verified MRR and date, whether it's for sale, the niche, and what defensible asset it relies on. These seed either buy leads (if for sale) or an ADJACENT build idea in the same paying niche (state it in 'what')."""),
- "G1": ("Build ideas meeting time-to-moat", 15, """Find build opportunities (any country) where AI agents could build a defensible asset within 3 months that a rival would need 3+ months to replicate, and NOBODY already owns it: e.g. a compiled dataset from many messy sources in a niche nobody covers yet, a maintained rules engine for a newly mandated regulation (2026-2028 commencements, any jurisdiction) in a segment incumbents ignore, a data network that compounds with each customer. Must have evidence of willingness to pay dated within 18 months (adjacent products' pricing, verified revenue, tenders). Check that nobody already sells the asset."""),
-}
-
-def _future(ra, today):
-    try: return dt.date.fromisoformat(ra[:10]) > today
-    except Exception:
-        try: return dt.datetime.strptime(ra, "%d %b %Y").date() > today
-        except Exception: return True
-
-def harvest():
-    sn = seen_names()
-    def one(k):
-        title, n, brief = HARVEST[k]
-        p = f"""You are a research scout. Today is {TODAY}. Use live web search; open pages and cite them. Never invent numbers; mark anything you could not see as 'unverified'.
-Task: harvest about {n} distinct business-opportunity LEADS for source {k} ({title}).
-{brief}
-{CONSTRAINTS}
-Prefer leads that could fit these constraints (software/digital, self-serve online sales, a real moat). Leads are cheap: do NOT deeply validate, just record the facts you saw.
-Skip anything already in this seen list (by meaning): {sn}
-{LEAD_SCHEMA}"""
-        d = ask(f"harvest_{k}", p, "high")
-        return [dict(l, source=k, track=("buy" if k.startswith("A") else ("demand" if k == "D1" else "build"))) for l in (d or {}).get("leads", [])]
-    with ThreadPoolExecutor(7) as ex: res = list(ex.map(one, HARVEST))
-    leads = [l for r in res for l in r]
-    # dedup against ledger + within run
-    seen = seen_rows(); today = dt.date(2026, 10, 23); kept, dropped = [], []
-    for l in leads:
-        m = None
-        for r in seen:
-            if fuzz.token_set_ratio(l["name"].lower(), r["name"].lower()) >= 88:
-                ra = (r.get("recheck_after") or "").strip()
-                if not ra or _future(ra, today): m = r; break
-        if not m:
-            for k in kept:
-                if fuzz.token_set_ratio(l["name"].lower(), k["name"].lower()) >= 88: m = k; break
-        (dropped if m else kept).append(dict(l, dup_of=(m or {}).get("name")) if m else l)
-    kept = kept[:100]
-    for i, l in enumerate(kept): l["id"] = f"L{i+1:03d}"
-    with open(V9 / "leads.jsonl", "w") as f:
-        for l in kept: f.write(json.dumps(l, ensure_ascii=False) + "\n")
-    with open(V9 / "leads_dropped_dupes.jsonl", "w") as f:
-        for l in dropped: f.write(json.dumps(l, ensure_ascii=False) + "\n")
-    by = {}
-    for l in kept: by[l["source"]] = by.get(l["source"], 0) + 1
-    log(f"harvest: raw {len(leads)}, dupes dropped {len(dropped)}, kept {len(kept)} {by}")
-
-KC_SCHEMA = """Return ONLY JSON: {"results":[{"id":"L001","verdict":"survive|kill","kill_rule":"K0|K1|K2|K3|K4|K5|K6|B1|B2|B3|B4|B5|B6|none","defensible_asset":0,"moat_type":"data|rules|network|switching|none","time_to_moat":"build only: a) agents<=3mo yes/no why; b) rival>=3mo yes/no why; c) unowned yes/no who","handover_feasible":"buy only: can a 90-day plan reach <=5h/week? why",
-"reason":"one sentence, specific","launches_last_6m":"names + launch dates of competing products found by a dated search since 23 Apr 2026, or 'none found'","buy_checklist":"buy track: B1-B6 findings, else null",
-"platform_or_partner":"who, or 'none found'","incumbents":"main maintained incumbents with price, or 'none found'",
-"claim_event_date":"YYYY-MM or 'unverified'","urls":["URLs supporting the verdict; every kill needs >=1"]}]}"""
-
-def kc_prompt(batch, effort_note=""):
-    return f"""You are running a CHEAP KILL-CHECK on business leads. Today is {TODAY}. Use live web search, targeted (2-4 searches per lead). Never invent facts; say 'unverified'.
-{effort_note}
-Apply these locked rules exactly:
-{RULES}
-For each lead decide survive or kill. FIRST apply K0 (build: time-to-moat a/b/c, any "no" = kill; buy: switching-cost moat >=4). Buy and for-sale demand leads: apply B1 (verified revenue, strict) and B3 (price band $20k-$150k) next, open the listing. Then RUN A DATED SEARCH for competitor launches since 23 Apr 2026 (K2). Buy leads use the B checklist instead of K4. Other kills need URL evidence; if missing, survive.
-LEADS:
-{json.dumps(batch, ensure_ascii=False, indent=1)}
-{KC_SCHEMA}"""
-
-def leads(): return [json.loads(l) for l in open(V9 / "leads.jsonl")]
-
-def killcheck_x():
-    """Safeguard re-run (RULES_LOCKED shadow rule): whole kill-check at xhigh; replaces the medium result."""
-    killcheck(effort="xhigh", pre="kcx", fout="kc_x.json")
-
-def kc_file():
-    return W / ("kc_x.json" if (W / "kc_x.json").exists() else "kc.json")
-
-def survivors():
-    res = json.loads(kc_file().read_text())
-    s = [r["id"] for r in res if r["verdict"] == "survive"]
-    if kc_file().name == "kc.json":
-        try: s += [o["id"] for o in json.loads((W / "shadow.json").read_text()) if o["shadow"].get("verdict") == "survive"]
-        except Exception: pass
-    return s
-
-def killcheck(effort="xhigh", pre="kc", fout="kc.json"):
-    L = leads(); B = [L[i:i+3] for i in range(0, len(L), 3)]
+# ---------- Track E ----------
+def label():
+    ev = jl(V / "evidence_raw.jsonl"); B = [ev[i:i+60] for i in range(0, len(ev), 60)]
     def one(ib):
         i, b = ib
-        slim = [{k: l.get(k) for k in ("id","name","source","track","sub_source","what","trigger","moat","listing","urls","evidence_of_payment","claim_event_date")} for l in b]
-        d = ask(f"{pre}_{i:02d}", kc_prompt(slim, "Effort: thorough (up to 6 searches per lead)." if effort == "xhigh" else ""), effort)
-        return (d or {}).get("results", [])
+        items = [{"i": k, "src": r["src"], "tool": r.get("tool"), "text": r["text"][:500]} for k, r in enumerate(b)]
+        p = f"""Label each snippet. Do NOT invent ideas or judge business value. For each item return:
+is_pain (true if the author describes a real problem, unmet need, or complaint about a tool/workflow; false for jokes, promotion, off-topic, generic praise),
+pain (<=12 words, GENERIC and product-agnostic, e.g. "invoice data entry from PDFs into accounting software"; reuse wording consistently; null if not pain),
+pays (true if the author pays or says they'd pay, names a paid tool they use/left, hired someone, or it's a 1-2 star review of a paid tool/app).
+Items: {json.dumps(items, ensure_ascii=False)}
+Return ONLY JSON: {{"labels":[{{"i":0,"is_pain":true,"pain":"...","pays":false}}]}}"""
+        d = ask(f"label_{i:03d}", p, "low")
+        out = []
+        for l in (d or {}).get("labels", []):
+            try: r = dict(b[int(l["i"])]); r.update(is_pain=bool(l.get("is_pain")), pain=l.get("pain"), pays=bool(l.get("pays"))); out.append(r)
+            except Exception: pass
+        return out
     with ThreadPoolExecutor(6) as ex: res = [r for rr in ex.map(one, enumerate(B)) for r in rr]
-    (W / fout).write_text(json.dumps(res, indent=1)); log(f"killcheck {effort}: {len(res)} results, survive {sum(r['verdict']=='survive' for r in res)}")
+    wjl(W / "labelled.jsonl", res); log(f"label: {len(ev)} snippets, {len(B)} batches, {sum(r['is_pain'] for r in res)} pains")
 
-def shadow():
-    res = json.loads((W / "kc.json").read_text()); kills = [r for r in res if r["verdict"] == "kill"]
-    random.seed(11); samp = random.sample(kills, min(10, len(kills))); byid = {l["id"]: l for l in leads()}
-    def one(r):
-        l = byid[r["id"]]
-        p = kc_prompt([l], "SHADOW RE-JUDGE (independent model). Be thorough (up to 8 searches). Another pass killed this lead with: " + json.dumps(r) + "\nJudge independently; also set field \"agree_with_kill\": true/false in your result.")
-        d = ask(f"shadow_{r['id']}", p, "high", order=["claude", "codex", "pi"]); x = ((d or {}).get("results") or [{}])[0]
-        return {"id": r["id"], "name": l["name"], "cheap": r, "shadow": x}
-    with ThreadPoolExecutor(5) as ex: out = list(ex.map(one, samp))
-    wrong = [o for o in out if o["shadow"].get("verdict") == "survive"]
-    (W / "shadow.json").write_text(json.dumps(out, indent=1)); log(f"shadow: {len(out)} re-judged, wrong kills {len(wrong)}")
+def cluster():
+    res = jl(W / "labelled.jsonl"); pains = collections.Counter(r["pain"].strip().lower() for r in res if r["is_pain"] and r.get("pain"))
+    labels = sorted(pains); maps = {}
+    chunks = [labels[i:i+450] for i in range(0, len(labels), 450)]
+    canon = []
+    for ci, ch in enumerate(chunks):
+        p = f"""Group these pain labels into clusters of the SAME underlying problem (same job-to-be-done). Do not judge value. Reuse existing cluster names when they fit.
+Existing clusters: {json.dumps(canon)}
+Labels: {json.dumps(ch, ensure_ascii=False)}
+Return ONLY JSON: {{"map":{{"<label>":"<cluster name, <=10 words>"}}}}  (every label must appear once)"""
+        d = ask(f"cluster_{ci:02d}", p, "medium")
+        for k, v in (d or {}).get("map", {}).items(): maps[k.strip().lower()] = v
+        canon = sorted(set(maps.values()))
+    for r in res: r["cluster"] = maps.get((r.get("pain") or "").strip().lower()) if r["is_pain"] else None
+    wjl(W / "clustered.jsonl", res); log(f"cluster: {len(labels)} labels -> {len(set(maps.values()))} clusters")
 
-def evidence():
-    res = json.loads(kc_file().read_text()); byid = {l["id"]: l for l in leads()}
-    try: sh = json.loads((W / "shadow.json").read_text())
-    except Exception: sh = []
-    surv = survivors()
-    (V9 / "evidence").mkdir(exist_ok=True)
-    def one(i):
-        p = f"""DEEP EVIDENCE on one business lead that survived a cheap kill-check. Today is {TODAY}. Use live web search thoroughly; cite URLs for every fact. Never invent numbers; 'unverified' otherwise.
-{CONSTRAINTS}
-Lead: {json.dumps(byid[i], ensure_ascii=False)}
-Kill-check notes: {json.dumps([r for r in res if r['id']==i] or [o['shadow'] for o in sh if o['id']==i], ensure_ascii=False)}
-For buy-track leads, re-open the listing and assess it as an ACQUISITION (verified revenue, churn, price vs profit, transferability, seller dependence) and draft a 90-day handover-to-agents plan; owner hours <=5/week must hold AFTER the 90 days. For build leads assess time-to-moat a/b/c. Gather: demand size (searches, installs, users, regulated population with source), prices of current solutions, revenue proof WITH the date of the underlying event (claim_event_date; >18 months old = zero weight; self-described failures = zero weight),
-copy-speed (competitors launched since Apr 2026 with dates), platform/partner risk, defensible asset (compiled data, rules engine, network effect, switching costs), build effort for an AI-agent-run solo operator, lawful acquisition channel, the cheapest <=1-day desk test.
-Return ONLY JSON: {{"id":"{i}","name":"","demand":"","prices":"","revenue_proof":[{{"claim":"","claim_event_date":"","url":""}}],"copy_speed":"","platform_risk":"","defensible_asset":"","build_effort":"","channel":"","owner_hours_per_week":"","automation_share_pct":"INTEGER 0-100 you estimate (share of ALL work incl. sales/support/admin agents can do), or null if truly unknowable","automation_reason":"","track":"build|buy","listing_check":"buy: listing_url, price, verified revenue/profit and how verified, multiple, churn, current owner hours and tasks, transferability; else null","handover_plan":"buy: 90-day handover-to-agents plan in 3-6 steps and resulting steady-state owner h/week; else null","time_to_moat":"build: a/b/c assessment","moat_assessment":"","desk_test":"","red_flags":"","urls":[]}}"""
-        d = ask(f"ev_{i}", p, "xhigh")
-        if d: (V9 / "evidence" / f"{i}.json").write_text(json.dumps(d, indent=1, ensure_ascii=False))
-    with ThreadPoolExecutor(5) as ex: list(ex.map(one, surv))
-    log(f"evidence: {len(surv)} survivors processed")
+def count():
+    res = [r for r in jl(W / "clustered.jsonl") if r.get("cluster")]
+    by = collections.defaultdict(list)
+    for r in res: by[r["cluster"]].append(r)
+    rows = []
+    for c, rs in by.items():
+        auth = {r["author"] for r in rs}; pay = [r for r in rs if r["pays"]]
+        srcs = collections.Counter(r["src"].split(":")[0] for r in rs)
+        rows.append({"cluster": c, "complainers": len(auth), "snippets": len(rs), "paying_proof": len(pay), "sources": dict(srcs),
+                     "examples": [{"url": r["url"], "date": r["date"], "text": r["text"][:240]} for r in sorted(rs, key=lambda r: -r["pays"])[:6]],
+                     "seen_dup": seen_match(c)})
+    rows.sort(key=lambda r: (-r["complainers"], -r["paying_proof"]))
+    n30 = [r for r in rows if r["complainers"] >= 30 and r["paying_proof"] >= 1 and not r["seen_dup"]]
+    bar = 30 if len(n30) >= 5 else 10
+    passed = [r for r in rows if r["complainers"] >= bar and r["paying_proof"] >= 1 and not r["seen_dup"]][:40]
+    json.dump({"bar": bar, "n_at_30": len(n30), "clusters": rows, "passed": [r["cluster"] for r in passed]}, open(W / "counts.json", "w"), indent=1, ensure_ascii=False)
+    log(f"count: {len(rows)} clusters; >=30 with pay: {len(n30)}; bar used {bar}; passed {len(passed)}")
 
-def score():
-    sv = set(survivors())
-    ev = [json.loads(f.read_text()) for f in sorted((V9 / "evidence").glob("*.json")) if f.stem in sv]
-    p = f"""Score each business lead (METHOD step 8) using ONLY the evidence given. Today is {TODAY}. No web needed.
-{CONSTRAINTS}
-Rules: {RULES}
-Five separate scores per lead, each with a short reason: success_12m (0-10), agent_runnability (0-10), fit (0-10), automation_share_pct (an INTEGER you must estimate from the evidence and argue in automation_reason; never copy a placeholder; 0 only if argued), defensible_asset (0-10; build: time-to-moat; buy: switching-cost moat; <4 = hard_rule_fail "K0"). Automation and hours for buy are at STEADY STATE after the 90-day handover. Use hard_rule_fail null when nothing fails (never a string like "none"). Revenue claims whose event is >18 months old or self-described failures get ZERO weight.
-Also: claim_event_date (newest dated revenue event or 'none'), copy_speed (launches since Apr 2026), defensible_asset (short), hard_rule_fail (null or which rule).
-EVIDENCE: {json.dumps(ev, ensure_ascii=False)}
-Return ONLY JSON: {{"scores":[{{"id":"","name":"","success_12m":0,"success_reason":"","agent_runnability":0,"runnability_reason":"","fit":0,"fit_reason":"","automation_share_pct":"integer you estimate","automation_reason":"","defensible_asset":0,"defensible_reason":"","track":"","listing_url":"","price":"","verified_revenue_profit":"","multiple":"","handover_plan":"","claim_event_date":"","copy_speed":"","defensible_asset":"","hard_rule_fail":null}}]}}"""
-    d = ask("score", p, "xhigh", web=False)
-    nf = lambda s: not s.get("hard_rule_fail") or str(s.get("hard_rule_fail")).strip().lower() in ("none", "null", "")
-    S = sorted([s for s in d["scores"] if nf(s)], key=lambda s: (-s["success_12m"], -(s.get("defensible_asset") or 0), -s["fit"]))
-    bad = [s for s in d["scores"] if not nf(s)]
-    buy = [s for s in S if s.get("track") == "buy"][:4]; rest = [s for s in S if s not in buy]
-    S = buy + rest; S = sorted(S[:8], key=lambda s: (-s["success_12m"], -(s.get("defensible_asset") or 0), -s["fit"])) + S[8:]
-    (W / "scores.json").write_text(json.dumps({"ranked": S, "failed": bad}, indent=1))
-    log(f"score: {len(d['scores'])} scored, {len(bad)} hard-rule fails, top8 {[s['id'] for s in S[:8]]}")
-
-def validate():
-    d_ = json.loads((W / "scores.json").read_text()); sc = d_["ranked"][:8]
-    if not sc and os.environ.get("AUDIT_IDS"):  # scorer-audit: validate named hard-rule fails to check the scorer
-        ids = os.environ["AUDIT_IDS"].split(","); sc = [s for s in d_["failed"] if s["id"] in ids]
-    def one(s):
-        i = s["id"]; ev = json.loads((V9 / "evidence" / f"{i}.json").read_text())
-        p = f"""You are doing HIGH-EFFORT, WEB-CHECKED VALIDATION (METHOD step 10) of one business opportunity. Today is {TODAY}. Use WebSearch and WebFetch extensively; re-verify every decisive fact live. Cite a URL for every fact. Never invent numbers; mark unverifiable as 'unverified'.
+def kc():
+    C = json.load(open(W / "counts.json")); byc = {r["cluster"]: r for r in C["clusters"]}; P = [byc[c] for c in C["passed"]]
+    B = [P[i:i+3] for i in range(0, len(P), 3)]
+    def one(ib):
+        i, b = ib
+        p = f"""KILL-CHECK (single high-effort pass) for demand clusters harvested from real complaints. Today is {TODAY}. Use live web search; cite URLs. Never invent facts ('unverified').
 {CONSTRAINTS}
 Locked rules: {RULES}
-Lead evidence (from a cheaper pass — re-check, don't trust): {json.dumps(ev, ensure_ascii=False)}
-Scores: {json.dumps(s, ensure_ascii=False)}
-For buy-track candidates, validate as an ACQUISITION: re-open the listing, verified revenue/profit (how verified), churn, current owner hours and tasks, price multiple, transferability, seller dependence, platform risk; write the 90-day handover-to-agents plan and the steady-state hours. For build candidates re-check time-to-moat a/b/c. Check: current competitors and prices (esp. any launched since Apr 2026), platform/partner ownership, demand signals dated <=18 months, legal position (UK), lawful acquisition channel, owner hours, defensible asset.
-Verdict: pursue / maybe / kill, with confidence low/medium/high. 'pursue' at medium+ only if: live demand/revenue evidence dated <=18 months, reachable lawful channel, copy-speed passes on re-check, the moat is confirmed, and a <=1-day first test exists (buy track: VERIFIED revenue re-confirmed on the listing, price that makes sense vs verified profit, a credible 90-day handover-to-agents plan reaching <=5 h/week, and a defined due-diligence step).
-If your verdict would be 'maybe' and the deciding test is desk-only and doable now with web research (<=1 day), RUN IT NOW and report its result, then give the final verdict.
-Return ONLY JSON: {{"id":"{i}","name":"","verdict":"","confidence":"","one_line":"","why":["3-6 bullets each with URL"],"competitors":[{{"name":"","price":"","launched":"","url":""}}],"demand":"","legal":"","channel":"","owner_hours":"","listing_url":"","price":"","verified_revenue_profit":"","handover_plan":"","desk_test_run":"what you ran and result, or 'n/a'","first_test":"","unverified":[],"urls":[]}}"""
-        return ask(f"val_{i}", p, "high", web=True, order=["claude", "codex", "pi"])
-    with ThreadPoolExecutor(4) as ex: out = [o for o in ex.map(one, sc) if o]
-    (W / "validation.json").write_text(json.dumps(out, indent=1)); log(f"validate: {len(out)} done " + str([(o.get('id'), o.get('verdict'), o.get('confidence')) for o in out]))
+For each cluster: name the most plausible agent-runnable software/data product (or curated paid-listing directory/data site) that fixes it; then apply K0 time-to-moat (a) agents can build the asset in <=3 months (b) rival needs >=3 months to copy (c) nobody owns it - any 'no' = kill; K1; K2 dated search for competing launches since 23 Apr 2026 (>=2 = kill, list names+dates); K3; K4; K6.
+Clusters (with real complaint counts and examples): {json.dumps(b, ensure_ascii=False)}
+Return ONLY JSON: {{"results":[{{"cluster":"","product":"","verdict":"survive|kill","kill_rule":"K0|K1|K2|K3|K4|K6|none","time_to_moat":{{"a":"yes/no why","b":"yes/no why","c":"yes/no who owns"}},"launches_last_6m":"","incumbents":"","reason":"","urls":[]}}]}}"""
+        return (ask(f"kc_{i:02d}", p, "xhigh", web=True) or {}).get("results", [])
+    with ThreadPoolExecutor(5) as ex: res = [r for rr in ex.map(one, enumerate(B)) for r in rr]
+    for r in res: r.update({k: byc.get(r["cluster"], {}).get(k) for k in ("complainers", "paying_proof", "examples")})
+    json.dump(res, open(W / "kc.json", "w"), indent=1, ensure_ascii=False); log(f"kc: {len(res)} clusters, survive {sum(r['verdict']=='survive' for r in res)}")
+
+def shadow():
+    res = json.load(open(W / "kc.json")); kills = [r for r in res if r["verdict"] == "kill"]
+    random.seed(11); samp = random.sample(kills, min(10, len(kills)))
+    def one(r):
+        p = f"""SHADOW RE-JUDGE of a kill decision. Today is {TODAY}. Use live web; cite URLs. Rules: {RULES}
+{CONSTRAINTS}
+A previous pass killed this cluster/product: {json.dumps(r, ensure_ascii=False)}
+Judge independently. Return ONLY JSON: {{"verdict":"survive|kill","kill_rule":"","agree_with_kill":true,"reason":"","urls":[]}}"""
+        return {"cluster": r["cluster"], "cheap": r, "shadow": ask(f"shadow_{abs(hash(r['cluster']))%10**8}", p, "high", web=True, order=["claude", "codex", "pi"]) or {}}
+    with ThreadPoolExecutor(5) as ex: out = list(ex.map(one, samp))
+    json.dump(out, open(W / "shadow.json", "w"), indent=1, ensure_ascii=False); log(f"shadow: {len(out)}, wrong kills {sum(o['shadow'].get('verdict')=='survive' for o in out)}")
+
+# ---------- Track B ----------
+BAD = re.compile(r"affiliate|blog|content site|newsletter|ecommerce store|dropship|agency|amazon fba|youtube channel|casino|betting", re.I)
+def money(s):
+    m = re.search(r"(?:USD|US\$|\$)\s?([\d,.]+)\s?([kKmM])?", s or "")
+    if not m: return None
+    v = float(m.group(1).replace(",", "")); return v * (1000 if (m.group(2) or "").lower() == "k" else 1e6 if (m.group(2) or "").lower() == "m" else 1)
+def checklist():
+    L = jl(V / "listings_raw.jsonl"); keep = []
+    for l in L:
+        txt = (l.get("card") or "") + " " + (l.get("page") or "")[:600]
+        if BAD.search(l["url"]) or not l.get("page"): continue
+        m = re.search(r"Asking Price[^$]*?USD \$([\d,]+)", l["page"]) or re.search(r"USD \$([\d,]+)\s", l["page"][l["page"].find("Asking Price"):] if "Asking Price" in l["page"] else "")
+        price = float(m.group(1).replace(",", "")) if m else None
+        l["asking_usd_parsed"] = price
+        if price is not None and not (20000 <= price <= 150000): continue
+        keep.append(l)
+    keep = keep[:100]
+    def one(l):
+        p = f"""Turn this business-for-sale listing into a DUE-DILIGENCE CHECKLIST TABLE. Use ONLY the listing text. Do NOT judge whether it is a good buy, do not rank.
+For each row give status = stated | missing | looks off, plus the evidence (quote/number from the text) and a note.
+Rows: C1 verified revenue (Flippa verification badge / Stripe or P&L verified); C2 revenue >= $1k/month and profit > 0; C3 asking price $20k-$150k and <= 5x annual profit (compute multiple if possible);
+C4 traffic/acquisition mostly organic/app-store/marketplace (not owner outreach/sales); C5 owner's current hours and tasks; C6 no customer concentration (>20% of revenue from one customer);
+C7 transferable, no seller face/brand dependence; C8 durability (no >30% decline, no platform-ban risk); C9 plausible 90-day handover to AI agents ending <=5 h/week (state the plan in 3-5 steps; 'looks off' if the work is inherently human: enterprise sales, account management, bespoke dev, regulated advice).
+Also extract: name, category, asking_price_usd, monthly_revenue_usd, monthly_profit_usd, verification text, listing_date if any; and 5 follow-up questions for the seller.
+Context on owner constraints: {CONSTRAINTS}
+LISTING URL: {l['url']}
+CARD: {l.get('card','')[:1200]}
+PAGE: {l.get('page','')[:7000]}
+Return ONLY JSON: {{"url":"{l['url']}","name":"","category":"","asking_price_usd":null,"monthly_revenue_usd":null,"monthly_profit_usd":null,"verification":"","listing_date":"",
+"rows":[{{"id":"C1","status":"stated|missing|looks off","evidence":"","note":""}}],"handover_plan":["..."],"steady_state_hours":"","questions":["..."]}}"""
+        d = ask(f"cl_{l['id']}", p, "medium")
+        return d
+    with ThreadPoolExecutor(6) as ex: res = [r for r in ex.map(one, keep) if r]
+    for r in res:
+        st = {x["id"]: x["status"].lower() for x in r.get("rows", [])}
+        hard = [c for c in ("C1", "C2", "C3", "C7", "C9") if st.get(c) == "looks off"] + [c for c in ("C1", "C2") if st.get(c) == "missing"]
+        miss = sum(v == "missing" for v in st.values())
+        r["pass"] = not hard and miss <= 3; r["hard_fails"] = hard; r["missing"] = miss; r["seen_dup"] = seen_match(r.get("name") or "")
+        if r["seen_dup"]: r["pass"] = False
+    json.dump(res, open(W / "checklists.json", "w"), indent=1, ensure_ascii=False)
+    log(f"checklist: {len(L)} listings, {len(keep)} in scope, {len(res)} tabulated, pass {sum(r['pass'] for r in res)}")
+
+# ---------- Validation ----------
+def validate():
+    E = [r for r in json.load(open(W / "kc.json")) if r["verdict"] == "survive"] if (W / "kc.json").exists() else []
+    try: E += [o["cheap"] for o in json.load(open(W / "shadow.json")) if o["shadow"].get("verdict") == "survive"]
+    except Exception: pass
+    Bs = [r for r in json.load(open(W / "checklists.json")) if r["pass"]] if (W / "checklists.json").exists() else []
+    Bs.sort(key=lambda r: (r["missing"], -(r.get("monthly_profit_usd") or 0)))  # mechanical: fewest gaps, then profit
+    E.sort(key=lambda r: -(r.get("complainers") or 0))
+    nb = min(len(Bs), max(4, 8 - len(E))); sel = [("B", b) for b in Bs[:nb]] + [("E", e) for e in E[:8 - nb]]
+    json.dump(sel, open(W / "selected.json", "w"), indent=1, ensure_ascii=False)
+    def one(te):
+        t, x = te; key = x.get("url") or x.get("cluster"); tag = "val_" + re.sub(r"\W+", "_", key)[-60:]
+        what = ("BUY-TRACK acquisition. Re-open the listing URL; confirm verified revenue/profit and how verified; churn; owner hours; price multiple; transferability; platform risk; "
+                "write the 90-day handover-to-agents plan and steady-state hours; define the first due-diligence step.") if t == "B" else \
+               ("EVIDENCE-FIRST build. Re-check the complaint evidence (examples), paying proof, time-to-moat a/b/c, and copy-speed (dated launches since 23 Apr 2026). "
+                "Favour compounding assets (e.g. agent-run curated directory/data site where vendors pay to be listed).")
+        p = f"""HIGH-EFFORT WEB-CHECKED VALIDATION (METHOD step 10). Today is {TODAY}. Use WebSearch/WebFetch; cite a URL for every decisive fact; never invent numbers ('unverified').
+{CONSTRAINTS}
+Locked rules: {RULES}
+Candidate ({what}): {json.dumps(x, ensure_ascii=False)[:9000]}
+Verdict pursue/maybe/kill + confidence low/medium/high, per the locked pursue criteria.
+If verdict is pursue or maybe, write a concrete REAL-MONEY TEST PLAN costing <= GBP 50 (pre-sale page, small ad test, or paid-listing page; for buy: first due-diligence step + low-cost verification). Include channel, spend, duration, success threshold, kill threshold. Plan only: nothing is to be spent and nobody contacted now.
+Return ONLY JSON: {{"key":"{key}","track":"{t}","name":"","verdict":"","confidence":"","one_line":"","why":["bullets with URL"],"evidence_counts":"complainers / paying proof (E) or null","listing_url":"","price":"","verified_revenue_profit":"","handover_plan":"","competitors":[{{"name":"","price":"","launched":"","url":""}}],"test_plan":{{"what":"","channel":"","spend_gbp":0,"duration":"","success":"","kill":""}},"unverified":[],"urls":[]}}"""
+        return ask(tag, p, "high", web=True, order=["claude", "codex", "pi"])
+    with ThreadPoolExecutor(4) as ex: out = [o for o in ex.map(one, sel) if o]
+    json.dump(out, open(W / "validation.json", "w"), indent=1, ensure_ascii=False)
+    log("validate: " + str([(o.get("track"), o.get("name"), o.get("verdict"), o.get("confidence")) for o in out]))
 
 if __name__ == "__main__":
-    (W / "pid").write_text(str(os.getpid()))
-    t0 = time.time()
-    for st in sys.argv[1:]: log(f"== stage {st} start"); globals()[st](); log(f"== stage {st} end ({time.time()-t0:.0f}s total)")
+    (W / "pid").write_text(str(os.getpid())); t0 = time.time()
+    for st in sys.argv[1:]: log(f"== {st} start"); globals()[st](); log(f"== {st} end ({time.time()-t0:.0f}s)")
