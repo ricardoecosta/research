@@ -1,0 +1,9 @@
+# Opportunity constraint simulator
+
+Open `index.html` (double-click; works offline, no CDNs). Data: `opportunities.json` (also embedded in the HTML).
+
+**What it is.** Every opportunity from the research, deduped into one record each (552): the ledger `analysis/loop/SEEN.csv` (v8–v11, 510 rows), plus the v1–v6 shortlist (git history before 1e03f1b, snapshot in `build/v1_v6_opportunity_shortlist.md`), v7 `IDEAS_WORTH_PURSUING.md`, `proven_models/PROVEN_MODELS.md`, `BACKLOG.md`, `smb_ai_gap/*.md` and `~/hustling/playbooks/*.md`. Each record has, for every constraint, pass / soft / hard / unknown plus a value, a one-line reason and the source file.
+
+**How it was built.** `build/build_context.py` joins each ledger row to its structured source (v8 scores, v9/v10 leads + kill-check + scores, v11 checklists / Track E). Codex (medium, 21 batches) tagged the constraints from that context only (`build/schema.md`); the non-ledger sources were extracted by 2 Codex calls (`build/extras_prompt.md`, `build/patch_prompt.md`). `build/enforce.py` then overrides the LLM wherever the reports have a hard fact: kill codes (K0 moat, K1 hard rules, K2/K4 crowded, K3 platform, K5 claim age, K6 dead demand, C1/C2/C3/C7/C9, B3/B5/B6, "too many missing") and the v8 / v10 numeric scores. Revenue ranges come only from claims in the reports (USD×0.75, EUR×0.85, monthly); otherwise "unknown". Rebuild: `cd build && python3 merge.py`.
+
+**Caveats.** Hours, budget, months-to-first-£ and months-to-copy are often LLM estimates from the report text (reason says "est."), and many are unknown. "Unknown counts as pass" by default (the v9–v11 benefit-of-the-doubt rule), except unknown moat = fail (K0 strict) — both are toggles. The moat rule applies to builds only by default (v11 dropped it for acquisitions; v10 applied it).

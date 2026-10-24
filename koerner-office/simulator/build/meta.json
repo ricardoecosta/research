@@ -1,0 +1,255 @@
+{
+ "built": "24 Oct 2026",
+ "outreach_countries": {
+  "US": {
+   "status": "law",
+   "note": "CAN-SPAM opt-out; no B2B consent needed (COUNTRIES.md)"
+  },
+  "UK": {
+   "status": "law",
+   "note": "PECR: opt-out OK to limited companies only; sole traders need consent"
+  },
+  "IE": {
+   "status": "law",
+   "note": "Corporates opt-out (uncertain)"
+  },
+  "AR": {
+   "status": "law",
+   "note": "Ley 25.326 art. 27 opt-out"
+  },
+  "CL": {
+   "status": "law",
+   "note": "Opt-out until Ley 21.719 (1 Dec 2026)"
+  },
+  "SG": {
+   "status": "law",
+   "note": "Opt-out + <ADV>; harvesting software banned"
+  },
+  "IN": {
+   "status": "law",
+   "note": "No email anti-spam law; DPDP from May 2027"
+  },
+  "BR": {
+   "status": "cond",
+   "note": "LGPD legitimate interest + balancing test + instant unsubscribe"
+  },
+  "MX": {
+   "status": "cond",
+   "note": "Privacy notice at first contact"
+  },
+  "CA": {
+   "status": "cond",
+   "note": "CASL implied consent for published, role-relevant addresses"
+  },
+  "CO": {
+   "status": "cond",
+   "note": "Generic company inboxes only"
+  },
+  "AU": {
+   "status": "cond",
+   "note": "Inferred consent, but harvested lists banned"
+  },
+  "NZ": {
+   "status": "cond",
+   "note": "Deemed consent, harvesting banned"
+  },
+  "AE": {
+   "status": "cond",
+   "note": "Uncertain; free zones allow legitimate interest"
+  },
+  "PT": {
+   "status": "ban",
+   "note": "Opt-out list checks; CNPD: scraping emails unlawful"
+  },
+  "ES": {
+   "status": "ban",
+   "note": "LSSI art. 21: prior consent even B2B"
+  },
+  "ZA": {
+   "status": "ban",
+   "note": "POPIA prior consent, DMs covered"
+  },
+  "SA": {
+   "status": "ban",
+   "note": "PDPL prior consent"
+  }
+ },
+ "presets": {
+  "current": {
+   "label": "Ricardo's current rules",
+   "note": "v11 locked rules: agents ≥50%, ≤5 h/wk, no local, no face, no cold outreach, digital only, tests ≤£50 or buy ≤$150k, copy ≥3 months (unknown moat = fail), evidence-first, no crowded/platform/stale/dead/legal kills",
+   "s": {
+    "automation": 50,
+    "hours": 5,
+    "local": false,
+    "face": false,
+    "outreach": "none",
+    "digital": false,
+    "interest": 5,
+    "budget": 50,
+    "buybudget": 112000,
+    "first_revenue": 12,
+    "moat": 3,
+    "evidence": 2,
+    "crowded": false,
+    "platform": false,
+    "claim_age": false,
+    "dead_demand": false,
+    "legal": false,
+    "unknown": "pass",
+    "moatStrict": true,
+    "softfail": false,
+    "crowdproof": false,
+    "countries": {},
+    "economics": false,
+    "diligence": false,
+    "moatBuy": false
+   }
+  },
+  "outreach": {
+   "label": "Relax outreach only",
+   "note": "Current rules plus lawful B2B cold email in the top-5 countries from COUNTRIES.md",
+   "s": {
+    "automation": 50,
+    "hours": 5,
+    "local": false,
+    "face": false,
+    "outreach": "lawful",
+    "digital": false,
+    "interest": 5,
+    "budget": 50,
+    "buybudget": 112000,
+    "first_revenue": 12,
+    "moat": 3,
+    "evidence": 2,
+    "crowded": false,
+    "platform": false,
+    "claim_age": false,
+    "dead_demand": false,
+    "legal": false,
+    "unknown": "pass",
+    "moatStrict": true,
+    "softfail": false,
+    "crowdproof": false,
+    "countries": {
+     "US": true,
+     "BR": true,
+     "MX": true,
+     "CA": true,
+     "CO": true
+    },
+    "economics": false,
+    "diligence": false,
+    "moatBuy": false
+   }
+  },
+  "hours": {
+   "label": "Relax hours (15 h/wk)",
+   "note": "Current rules but up to 15 h/week of your time",
+   "s": {
+    "automation": 50,
+    "hours": 15,
+    "local": false,
+    "face": false,
+    "outreach": "none",
+    "digital": false,
+    "interest": 5,
+    "budget": 50,
+    "buybudget": 112000,
+    "first_revenue": 12,
+    "moat": 3,
+    "evidence": 2,
+    "crowded": false,
+    "platform": false,
+    "claim_age": false,
+    "dead_demand": false,
+    "legal": false,
+    "unknown": "pass",
+    "moatStrict": true,
+    "softfail": false,
+    "crowdproof": false,
+    "countries": {},
+    "economics": false,
+    "diligence": false,
+    "moatBuy": false
+   }
+  },
+  "crowdproof": {
+   "label": "Crowded = proof",
+   "note": "Current rules, but a crowded proven model counts as evidence and is allowed (your newer view)",
+   "s": {
+    "automation": 50,
+    "hours": 5,
+    "local": false,
+    "face": false,
+    "outreach": "none",
+    "digital": false,
+    "interest": 5,
+    "budget": 50,
+    "buybudget": 112000,
+    "first_revenue": 12,
+    "moat": 3,
+    "evidence": 2,
+    "crowded": true,
+    "platform": false,
+    "claim_age": false,
+    "dead_demand": false,
+    "legal": false,
+    "unknown": "pass",
+    "moatStrict": true,
+    "softfail": false,
+    "crowdproof": true,
+    "countries": {},
+    "economics": false,
+    "diligence": false,
+    "moatBuy": false
+   }
+  },
+  "anything": {
+   "label": "Anything goes",
+   "note": "Every constraint at its loosest",
+   "s": {
+    "automation": 0,
+    "hours": 40,
+    "local": true,
+    "face": true,
+    "outreach": "any",
+    "digital": true,
+    "interest": 0,
+    "budget": 150000,
+    "buybudget": 300000,
+    "first_revenue": 36,
+    "moat": 0,
+    "evidence": 0,
+    "crowded": true,
+    "platform": true,
+    "claim_age": true,
+    "dead_demand": true,
+    "legal": true,
+    "unknown": "pass",
+    "moatStrict": false,
+    "softfail": false,
+    "crowdproof": false,
+    "countries": {
+     "US": true,
+     "UK": true,
+     "IE": true,
+     "AR": true,
+     "CL": true,
+     "SG": true,
+     "IN": true,
+     "BR": true,
+     "MX": true,
+     "CA": true,
+     "CO": true,
+     "AU": true,
+     "NZ": true,
+     "AE": true
+    },
+    "economics": true,
+    "diligence": true,
+    "moatBuy": false
+   }
+  }
+ }
+}

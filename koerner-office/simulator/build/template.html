@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Opportunity constraint simulator</title>
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--ink:#1d2330;--mut:#667085;--line:#e4e7ec;--ok:#12805c;--okb:#e3f5ec;--bad:#c4320a;--badb:#fdece6;--soft:#b54708;--softb:#fef3e2;--unk:#7a7f8a;--unkb:#eef0f3;--acc:#3651d4}
+*{box-sizing:border-box}body{margin:0;font:14px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--ink)}
+header{padding:16px 22px;background:#151a28;color:#fff;display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between}
+header h1{font-size:18px;margin:0}header .sub{color:#aab3c5;font-size:12px}
+.presets button{background:#2b3350;color:#fff;border:1px solid #3d4870;border-radius:6px;padding:6px 10px;margin:2px;cursor:pointer;font-size:12.5px}
+.presets button.on{background:var(--acc);border-color:var(--acc)}
+main{display:grid;grid-template-columns:330px 1fr 360px;gap:14px;padding:14px;align-items:start}
+@media(max-width:1250px){main{grid-template-columns:320px 1fr}#givein{grid-column:1/-1}}
+@media(max-width:800px){main{grid-template-columns:1fr}}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.panel h2{font-size:13px;text-transform:uppercase;letter-spacing:.04em;color:var(--mut);margin:4px 0 10px}
+.ctl{padding:7px 0;border-bottom:1px dashed var(--line)}.ctl:last-child{border:0}
+.ctl label{display:flex;justify-content:space-between;gap:8px;font-weight:600;font-size:13px}
+.ctl .val{font-weight:700;color:var(--acc);white-space:nowrap}.ctl .hint{color:var(--mut);font-size:11.5px}
+.ctl input[type=range]{width:100%}.ctl select{width:100%;padding:4px}
+.ctl label.chk{justify-content:flex-start}.chk{display:flex;align-items:center;gap:8px;font-weight:600;font-size:13px;cursor:pointer}
+.countries{display:flex;flex-wrap:wrap;gap:4px;margin-top:5px}.countries label{font-weight:500;font-size:12px;background:var(--unkb);border-radius:5px;padding:2px 6px;display:inline-flex;gap:3px;align-items:center}
+.countries label.law{background:var(--okb)}.countries label.cond{background:var(--softb)}.countries label.ban{background:var(--badb)}
+.big{display:flex;gap:18px;align-items:baseline;flex-wrap:wrap}.big .n{font-size:40px;font-weight:800;color:var(--ok)}.big .of{color:var(--mut)}
+.bar{height:8px;background:var(--unkb);border-radius:4px;overflow:hidden;margin:6px 0 2px}.bar i{display:block;height:100%;background:var(--ok)}
+.tabs{display:flex;gap:6px;margin:10px 0;flex-wrap:wrap}.tabs button{border:1px solid var(--line);background:#fff;border-radius:16px;padding:4px 11px;cursor:pointer;font-size:12.5px}.tabs button.on{background:var(--ink);color:#fff}
+#search{flex:1;min-width:160px;padding:5px 9px;border:1px solid var(--line);border-radius:16px}
+.card{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--line);border-radius:9px;padding:10px 12px;margin-bottom:9px}
+.card.v{border-left-color:var(--ok)}.card.n1{border-left-color:var(--soft)}.card.nx{border-left-color:var(--bad)}
+.card h3{margin:0;font-size:14.5px;display:flex;justify-content:space-between;gap:8px}.card h3 .sc{color:var(--mut);font-weight:600;font-size:12px;white-space:nowrap}
+.meta{color:var(--mut);font-size:12px;margin:2px 0 5px}.desc{margin:3px 0 6px}
+.chips{display:flex;flex-wrap:wrap;gap:4px}.chip{font-size:11.5px;border-radius:5px;padding:1px 6px;cursor:help}
+.chip.p{background:var(--okb);color:var(--ok)}.chip.f{background:var(--badb);color:var(--bad);font-weight:700}.chip.s{background:var(--softb);color:var(--soft)}.chip.u{background:var(--unkb);color:var(--unk)}
+.unlock{margin-top:6px;font-size:12.5px;background:#f1f3ff;border-radius:6px;padding:5px 8px}
+.verd{font-size:12px;color:var(--mut);margin-top:5px}.verd b{color:var(--ink)}
+details summary{cursor:pointer;color:var(--acc);font-size:12px;margin-top:4px}
+table{border-collapse:collapse;width:100%;font-size:12.5px}td,th{padding:4px 5px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}th{color:var(--mut);font-weight:600}
+td.num{text-align:right;font-weight:700}.plus{color:var(--ok)}.zero{color:var(--mut)}
+.combo{padding:6px 8px;border:1px solid var(--line);border-radius:7px;margin:5px 0;cursor:pointer}.combo:hover{background:#f4f6ff}.combo b{color:var(--ok)}
+.note{color:var(--mut);font-size:11.5px;margin-top:6px}.more{width:100%;padding:7px;border:1px solid var(--line);background:#fff;border-radius:8px;cursor:pointer}
+.legend span{margin-right:8px}
+</style></head><body>
+<header><div><h1>Opportunity constraint simulator</h1><div class="sub" id="subtitle"></div></div>
+<div class="presets" id="presets"></div></header>
+<main>
+<section class="panel" id="controls"><h2>Constraints</h2><div id="ctls"></div>
+<div class="ctl"><label>Unknown values count as</label><select id="unknown"><option value="pass">pass (benefit of the doubt, as in v9–v11)</option><option value="fail">fail (strict)</option></select></div>
+<div class="ctl"><label class="chk"><input type="checkbox" id="moatbuy"> Apply the moat rule to acquisitions too (v10 did; v11 didn't)</label></div>
+<div class="ctl"><label class="chk"><input type="checkbox" id="moatstrict"> Unknown moat = fail (v10–v11 K0 strict)</label></div>
+<div class="ctl"><label class="chk"><input type="checkbox" id="softfail"> Soft-fails count as fails</label><div class="hint">Soft = flagged as weak but not killed in the reports (crowded, platform, legal etc.).</div></div>
+</section>
+<section>
+<div class="panel"><div class="big"><div><span class="n" id="nv">0</span> <span class="of" id="of"></span></div><div id="nbreak" class="hint"></div></div><div class="bar"><i id="barv"></i></div>
+<div class="tabs" id="tabs"></div><div style="display:flex;gap:8px"><input id="search" placeholder="Search name, type, market, source…"></div>
+<div class="note legend"><span class="chip p">pass</span><span class="chip s">soft</span><span class="chip f">fail</span><span class="chip u">unknown</span> Hover a chip for the report's reason and file. Score = <span id="formula"></span></div></div>
+<div id="list" style="margin-top:10px"></div></section>
+<section class="panel" id="givein"><h2>What to give in</h2>
+<div class="hint">Extra opportunities that become viable if you relax <b>one</b> constraint by one step (everything else as set).</div>
+<table id="marg"></table>
+<h2 style="margin-top:16px">Cheapest relaxations to reach ≥<input id="target" type="number" value="5" min="1" max="50" style="width:44px"> viable</h2>
+<div class="hint">“Cost” = number of steps relaxed. Click one to apply it.</div>
+<div id="combos"></div>
+<h2 style="margin-top:16px">Most common blockers</h2><table id="blockers"></table>
+</section>
+</main>
+<script>
+const DATA = /*DATA*/null;
+const OPPS = DATA.opportunities, META = DATA.meta;
+const $ = s => document.querySelector(s);
+const fmtGBP = v => v==null?'—':(v>=1000?'£'+(v/1000).toFixed(v>=10000?0:1)+'k':'£'+Math.round(v));
+const LAWFUL = META.outreach_countries; // {code:{label,status:'law'|'cond'|'ban',note}}
+// ---- constraint definitions: ladder ordered strict -> loose; test(opp, setting) -> 'p'|'f'|'s'|'u'
+const C = [
+ {k:'automation',label:'Min. share automated by agents',type:'range',ladder:[90,80,70,60,50,40,30,20,10,0],fmt:v=>v+'%',
+  test:(o,x)=>num(o,'automation',v=>v>=x)},
+ {k:'hours',label:'Max. your hours per week',type:'range',ladder:[2,3,5,8,10,15,20,30,40],fmt:v=>v+' h',test:(o,x)=>num(o,'hours',v=>v<=x)},
+ {k:'local',label:'Allow selling to local businesses',type:'bool',test:(o,x)=>boolc(o,'local',x)},
+ {k:'face',label:'Allow face / personal brand',type:'bool',test:(o,x)=>boolc(o,'face',x)},
+ {k:'outreach',label:'Cold outreach allowed',type:'select',ladder:['none','lawful','any'],fmt:v=>({none:'none (inbound only)',lawful:'lawful B2B only, in ticked countries',any:'any, incl. unlawful'})[v],
+  test:(o,x,st)=>{const c=o.c.outreach||{};const v=c.v; if(v==null) return c.s==='hard'?(x==='any'?'s':'f'):'u'; if(v==='none') return 'p';
+   if(v==='lawful_cold'){ if(x==='none') return 'f'; if(x==='any') return 's'; return marketsLawful(o,st)?'s':'f'}
+   return x==='any'?'s':'f'}},
+ {k:'digital',label:'Allow physical goods / services you deliver',type:'bool',test:(o,x)=>{const c=o.c.digital||{};if(c.v==null)return 'u';return c.v?'p':(x?'s':'f')}},
+ {k:'interest',label:'Min. interest / fit to you (0–10)',type:'range',ladder:[9,8,7,6,5,4,3,2,1,0],fmt:v=>v+'/10',test:(o,x)=>num(o,'interest',v=>v>=x)},
+ {k:'budget',label:'Max. upfront budget, build',type:'range',ladder:[0,50,100,250,500,1000,2500,5000,10000,25000,50000,150000],fmt:fmtGBP,
+  test:(o,x)=>o.track==='buy'?'p':num(o,'budget',v=>v<=x)},
+ {k:'buybudget',label:'Max. purchase price, buy track',type:'range',ladder:[0,15000,40000,75000,112000,150000,300000],fmt:v=>v?fmtGBP(v)+(v==112000?' (≈$150k)':''):'no buying',
+  test:(o,x)=>o.track!=='buy'?'p':num(o,'budget',v=>v<=x)},
+ {k:'first_revenue',label:'Max. months to first £',type:'range',ladder:[1,2,3,6,9,12,18,24,36],fmt:v=>v+' mo',test:(o,x)=>num(o,'first_revenue',v=>v<=x)},
+ {k:'moat',label:'Min. months a rival needs to copy',type:'range',ladder:[12,6,3,2,1,0.5,0],fmt:v=>v+' mo',test:(o,x,st)=>{if(o.track==='buy'&&!st.moatBuy)return 'p';const r=num(o,'moat',v=>v>=x);return r==='u'&&st.moatStrict&&x>0?'f':r}},
+ {k:'evidence',label:'Min. proof of paid demand',type:'range',ladder:[3,2,1,0],fmt:v=>['0 none','1 anecdotal / old','2 dated paid claim','3 verified revenue'][v],
+  test:(o,x,S)=>{const c=o.c.evidence||{};let v=c.v; if(v==null) return 'u'; if(S.crowdproof && isCrowded(o)) v=Math.max(v,2); return v>=x?'p':'f'}},
+ {k:'crowded',label:'Allow crowded markets',type:'bool',hint:'Reports killed on K2 (≥2 launches in 6 months) / K4 (≥5 incumbents).',test:(o,x,S)=>flag(o,'crowded',x||S.crowdproof)},
+ {k:'platform',label:'Allow platform-policy risk',type:'bool',hint:'K3 platform owner serves it, bans, API control, Google updates.',test:(o,x)=>flag(o,'platform',x)},
+ {k:'claim_age',label:'Allow old revenue claims (>18 months)',type:'bool',hint:'K5 claim age.',test:(o,x)=>flag(o,'claim_age',x)},
+ {k:'dead_demand',label:'Allow withdrawn / dead demand',type:'bool',hint:'K6.',test:(o,x)=>flag(o,'dead_demand',x)},
+ {k:'economics',label:'Allow weak listing economics',type:'bool',hint:'Buy track C2/C3/B3/B6: revenue under $1k/mo, price over 5× profit, or >30% decline.',test:(o,x)=>flag(o,'economics',x)},
+ {k:'diligence',label:'Allow listings with missing info',type:'bool',hint:'v11 checklist: >3 of 9 rows missing = kill. Relaxing means doing the NDA / due diligence to fill them in.',test:(o,x)=>flag(o,'diligence',x)},
+ {k:'legal',label:'Allow other legal / regulatory risk',type:'bool',test:(o,x)=>flag(o,'legal',x)},
+];
+const CK = Object.fromEntries(C.map(c=>[c.k,c]));
+function num(o,k,ok){const c=o.c[k]||{};if(c.v==null||c.v==='')return 'u';return ok(+c.v)?(c.s==='soft'?'s':'p'):'f'}
+function boolc(o,k,allow){const c=o.c[k]||{};if(c.v==null)return c.s==='hard'?(allow?'s':'f'):'u';return c.v?(allow?'s':'f'):'p'}
+function flag(o,k,allow){const c=o.c[k]||{};if(c.s==='hard')return allow?'s':'f';if(c.s==='soft')return 's';if(c.s==='pass')return 'p';return c.v?'s':'u'}
+function isCrowded(o){const c=o.c.crowded||{};return c.s==='hard'||c.s==='soft'}
+function marketsLawful(o,st){const m=o.markets||[];const sel=(st||S).countries||{};return m.some(x=>x==='GLOBAL'?Object.keys(sel).some(k=>sel[k]):sel[x])}
+// ---- state
+const PRESETS = META.presets;
+let S = {};
+function setPreset(name){const p=PRESETS[name];S=JSON.parse(JSON.stringify(p.s));S.preset=name;S.countries=S.countries||{};tab='viable';shown=40;buildControls();update()}
+function idx(c){return c.ladder.indexOf(S[c.k])}
+function buildControls(){
+ const box=$('#ctls');box.innerHTML='';
+ for(const c of C){const d=document.createElement('div');d.className='ctl';
+  if(c.type==='bool'){d.innerHTML=`<label class="chk"><input type="checkbox" ${S[c.k]?'checked':''}> ${c.label}</label>`+(c.hint?`<div class="hint">${c.hint}</div>`:'');
+   d.querySelector('input').onchange=e=>{S[c.k]=e.target.checked;S.preset=null;update()}}
+  else if(c.type==='select'){d.innerHTML=`<label>${c.label}</label><select>${c.ladder.map(v=>`<option value="${v}" ${S[c.k]===v?'selected':''}>${c.fmt(v)}</option>`).join('')}</select><div class="countries">${Object.entries(LAWFUL).map(([k,v])=>`<label class="${v.status}" title="${v.note}"><input type="checkbox" data-c="${k}" ${S.countries[k]?'checked':''}>${k}</label>`).join('')}</div><div class="hint">Green = opt-out regime, amber = conditions, red = prior consent (from COUNTRIES.md). Ticked countries count as lawful targets.</div>`;
+   d.querySelector('select').onchange=e=>{S[c.k]=e.target.value;S.preset=null;update()};
+   d.querySelectorAll('[data-c]').forEach(i=>i.onchange=e=>{S.countries[e.target.dataset.c]=e.target.checked;S.preset=null;update()})}
+  else{const L=c.ladder;const loose=[...L];d.innerHTML=`<label>${c.label}<span class="val">${c.fmt(S[c.k])}</span></label><input type="range" min="0" max="${L.length-1}" step="1" value="${L.indexOf(S[c.k])}">`;
+   const inp=d.querySelector('input');inp.oninput=()=>{S[c.k]=L[+inp.value];d.querySelector('.val').textContent=c.fmt(S[c.k]);S.preset=null;update()}}
+  box.appendChild(d)}
+ if(!$('#crowdproof')){const d=document.createElement('div');d.className='ctl';d.innerHTML=`<label class="chk"><input type="checkbox" id="crowdproof"> Crowded = proof it works</label><div class="hint">Treat a crowded, proven model as evidence (level ≥2) and as allowed.</div>`;$('#controls').insertBefore(d,$('#unknown').parentNode)}
+ $('#crowdproof').checked=!!S.crowdproof;$('#crowdproof').onchange=e=>{S.crowdproof=e.target.checked;S.preset=null;update()};
+ $('#unknown').value=S.unknown||'pass';$('#moatstrict').checked=!!S.moatStrict;$('#moatbuy').checked=!!S.moatBuy;$('#softfail').checked=!!S.softfail;
+}
+$('#unknown').onchange=e=>{S.unknown=e.target.value;update()};$('#softfail').onchange=e=>{S.softfail=e.target.checked;update()};$('#moatbuy').onchange=e=>{S.moatBuy=e.target.checked;S.preset=null;update()};$('#moatstrict').onchange=e=>{S.moatStrict=e.target.checked;S.preset=null;update()};
+// ---- evaluation
+function evalOpp(o,st){const res={};let fails=[];for(const c of C){let r=c.test(o,st[c.k],st);if(r==='u'&&st.unknown==='fail')r='f';if(r==='s'&&st.softfail)r='f';res[c.k]=r;if(r==='f')fails.push(c.k)}return {res,fails}}
+function viableCount(st){let n=0;for(const o of OPPS){if(!evalOpp(o,st).fails.length)n++}return n}
+function score(o){const c=o.c;const ev=+(c.evidence?.v??0),mo=Math.min(+(c.moat?.v??0),12),it=+(c.interest?.v??5),au=+(c.automation?.v??50);
+ const rev=o.revenue?.gbp_mo_high||o.revenue?.gbp_mo_low||0;return Math.round(ev*10+mo*2+it*2+au/10+(rev?Math.min(Math.log10(rev+1)*4,20):0))}
+$('#formula').textContent='10×evidence + 2×months-to-copy (max 12) + 2×interest + automation%/10 + 4×log10(£/mo revenue, max 20)';
+// minimal relaxation per blocker: what setting would unlock it
+function needed(o,k){const c=CK[k];if(c.type==='bool')return true;const L=c.ladder;for(let i=idx(c)+1;i<L.length;i++){const st={...S,[k]:L[i]};let r=c.test(o,L[i],st);if(r==='u'&&S.unknown==='fail')r='f';if(r==='s'&&S.softfail)r='f';if(r!=='f')return L[i]}return null}
+function describeNeed(k,v){const c=CK[k];if(c.type==='bool')return c.label.replace('Allow ','allow ');if(v==null)return c.label+': not unlockable';return c.label.replace(/^(Min\.|Max\.) /,'')+' → '+c.fmt(v)}
+// ---- render
+let tab='viable',shown=40;
+function update(){
+ document.querySelectorAll('#presets button').forEach(b=>b.classList.toggle('on',b.dataset.p===S.preset));
+ const q=$('#search').value.toLowerCase();
+ const rows=OPPS.map(o=>{const e=evalOpp(o,S);return {o,...e,sc:score(o)}});
+ const v=rows.filter(r=>!r.fails.length);
+ $('#nv').textContent=v.length;$('#of').textContent=`of ${OPPS.length} opportunities are viable`;
+ $('#barv').style.width=(100*v.length/OPPS.length)+'%';
+ const n1=rows.filter(r=>r.fails.length===1).length;$('#nbreak').textContent=`${n1} are one constraint away · ${v.filter(r=>r.o.track==='buy').length} viable are acquisitions`;
+ const tabs={viable:['Viable',v.length],near:['One away',n1],all:['All',rows.length]};
+ $('#tabs').innerHTML=Object.entries(tabs).map(([k,[l,n]])=>`<button data-t="${k}" class="${tab===k?'on':''}">${l} (${n})</button>`).join('');
+ $('#tabs').querySelectorAll('button').forEach(b=>b.onclick=()=>{tab=b.dataset.t;shown=40;update()});
+ let list=tab==='viable'?v:tab==='near'?rows.filter(r=>r.fails.length===1):rows;
+ if(q)list=list.filter(r=>JSON.stringify([r.o.name,r.o.description,r.o.model_type,r.o.markets,r.o.source_round,r.o.source_file]).toLowerCase().includes(q));
+ list.sort((a,b)=>a.fails.length-b.fails.length||b.sc-a.sc||(b.o.revenue?.gbp_mo_high||0)-(a.o.revenue?.gbp_mo_high||0));
+ $('#list').innerHTML=list.slice(0,shown).map(card).join('')+(list.length>shown?`<button class="more" id="more">Show more (${list.length-shown} left)</button>`:'')+(list.length?'':'<div class="panel">Nothing here with these settings. See “What to give in”.</div>');
+ if($('#more'))$('#more').onclick=()=>{shown+=60;update()};
+ giveIn(rows,v.length);
+}
+function esc(s){return String(s??'').replace(/[&<>"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'})[m])}
+function card(r){const o=r.o;const cls=!r.fails.length?'v':r.fails.length===1?'n1':'nx';
+ const chips=C.map(c=>{const x=r.res[c.k],cc=o.c[c.k==='buybudget'?'budget':c.k]||{};if((c.k==='budget'&&o.track==='buy')||(c.k==='buybudget'&&o.track!=='buy'))return '';
+  const val=cc.v==null?'?':(typeof cc.v==='boolean'?(cc.v?'yes':'no'):cc.v);
+  return `<span class="chip ${x}" title="${esc(c.label)}: ${esc(val)}${cc.r?' — '+esc(cc.r):''}${cc.f?' ['+esc(cc.f)+']':''}">${c.k.replace('_',' ')}${typeof cc.v==='number'||typeof cc.v==='string'?': '+esc(c.k==='budget'||c.k==='buybudget'?fmtGBP(cc.v):cc.v):''}</span>`}).join('');
+ const unlock=r.fails.length?`<div class="unlock">To unlock: ${r.fails.map(k=>describeNeed(k,needed(o,k))).map(esc).join(' + ')}</div>`:'';
+ const rev=o.revenue&&o.revenue.text&&o.revenue.text!=='unknown'?`${esc(o.revenue.text)}${o.revenue.gbp_mo_high?` (≈${fmtGBP(o.revenue.gbp_mo_low||o.revenue.gbp_mo_high)}–${fmtGBP(o.revenue.gbp_mo_high)}/mo)`:''}`:'unknown';
+ const ver=(o.verdicts||[]).map(x=>`<b>${esc(x.round)}</b> ${esc(x.verdict)}${x.confidence?' ('+esc(x.confidence)+')':''}${x.reasons&&x.reasons.length?': '+esc(x.reasons.join('; ')):''}`).join(' · ');
+ return `<div class="card ${cls}"><h3><span>${esc(o.name)}</span><span class="sc">score ${r.sc}</span></h3>
+ <div class="meta">${esc(o.model_type)} · ${esc(o.track)} · ${esc((o.markets||[]).join(', '))} · ${esc(o.source_round)} · <code>${esc(o.source_file)}</code>${o.dupes&&o.dupes.length?' · merged: '+esc(o.dupes.join(', ')):''}</div>
+ <div class="desc">${esc(o.description)}</div><div class="meta">Revenue (from reports): ${rev}</div><div class="chips">${chips}</div>${unlock}
+ <details><summary>Verdict history</summary><div class="verd">${ver||'none'}</div></details></div>`}
+function relaxed(k,steps){const c=CK[k];const st={...S,countries:S.countries};if(c.type==='bool'){if(S[k]||steps>1)return null;st[k]=true;return st}
+ const i=idx(c)+steps;if(i>=c.ladder.length)return null;st[k]=c.ladder[i];if(k==='outreach'&&st[k]==='lawful'&&!Object.values(S.countries).some(Boolean)){st.countries=Object.fromEntries(Object.entries(LAWFUL).filter(([a,b])=>b.status!=='ban').map(([a])=>[a,true]))}return st}
+function stepLabel(k,st){const c=CK[k];return c.type==='bool'?c.label.replace('Allow ','allow '):c.label.replace(/^(Min\.|Max\.) /,'')+' '+c.fmt(S[k])+' → '+c.fmt(st[k])}
+function giveIn(rows,base){
+ const marg=[];for(const c of C){const st=relaxed(c.k,1);if(!st){marg.push([c,null,0]);continue}marg.push([c,st,viableCount(st)-base])}
+ marg.sort((a,b)=>b[2]-a[2]);
+ $('#marg').innerHTML='<tr><th>Relax one step</th><th>+viable</th></tr>'+marg.map(([c,st,n])=>`<tr><td>${st?esc(stepLabel(c.k,st)):'<span class="zero">'+esc(c.label)+' (already loosest)</span>'}</td><td class="num ${n>0?'plus':'zero'}">${st?'+'+n:'—'}</td></tr>`).join('');
+ // combos: single constraint any steps, and pairs, minimise total steps, need >= target
+ const T=+$('#target').value||5;const found=[];
+ if(base>=T)found.push({cost:0,desc:['Already ≥'+T+' viable with current settings'],st:null,n:base});
+ else{
+  const opts={};for(const c of C){opts[c.k]=[];for(let s=1;s<=(c.type==='bool'?1:c.ladder.length);s++){const st=relaxed(c.k,s);if(!st)break;opts[c.k].push([s,st])}}
+  for(const k in opts)for(const [s,st] of opts[k]){const n=viableCount(st);if(n>=T){found.push({cost:s,desc:[stepLabel(k,st)],st,n});break}}
+  const keys=Object.keys(opts);
+  for(let a=0;a<keys.length;a++)for(let b=a+1;b<keys.length;b++){let best=null;
+   for(const [s1,st1] of opts[keys[a]].slice(0,6))for(const [s2,st2] of opts[keys[b]].slice(0,6)){if(best&&s1+s2>=best.cost)continue;const st={...st1,[keys[b]]:st2[keys[b]],countries:keys[b]==='outreach'?st2.countries:st1.countries};const n=viableCount(st);if(n>=T)best={cost:s1+s2,desc:[stepLabel(keys[a],st1),stepLabel(keys[b],st2)],st,n}}
+   if(best)found.push(best)}
+ }
+ found.sort((x,y)=>x.cost-y.cost||y.n-x.n);
+ const top=found.slice(0,8);
+ $('#combos').innerHTML=top.length?top.map((f,i)=>`<div class="combo" data-i="${i}">${f.desc.map(esc).join(' <i>+</i> ')}<br><b>${f.n} viable</b> <span class="hint">· cost ${f.cost} step${f.cost==1?'':'s'}</span></div>`).join(''):'<div class="hint">No single or double relaxation (up to 6 steps each) reaches the target.</div>';
+ $('#combos').querySelectorAll('.combo').forEach(d=>d.onclick=()=>{const f=top[+d.dataset.i];if(f.st){S={...f.st,preset:null};buildControls();update()}});
+ // blockers
+ const cnt={};for(const r of rows)for(const k of r.fails)cnt[k]=(cnt[k]||0)+1;
+ const only={};for(const r of rows)if(r.fails.length===1)only[r.fails[0]]=(only[r.fails[0]]||0)+1;
+ $('#blockers').innerHTML='<tr><th>Constraint</th><th>blocks</th><th>sole blocker</th></tr>'+Object.entries(cnt).sort((a,b)=>b[1]-a[1]).map(([k,n])=>`<tr><td>${esc(CK[k].label)}</td><td class="num">${n}</td><td class="num">${only[k]||0}</td></tr>`).join('');
+}
+$('#target').oninput=()=>update();
+let tmo;$('#search').oninput=()=>{clearTimeout(tmo);tmo=setTimeout(update,150)};
+$('#presets').innerHTML=Object.entries(PRESETS).map(([k,p])=>`<button data-p="${k}" title="${esc(p.note)}">${esc(p.label)}</button>`).join('');
+$('#presets').querySelectorAll('button').forEach(b=>b.onclick=()=>setPreset(b.dataset.p));
+$('#subtitle').textContent=META.subtitle;
+setPreset('current');
+</script></body></html>
