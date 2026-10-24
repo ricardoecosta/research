@@ -15,7 +15,7 @@ patch = json.load(open(here/"patch.json"))
 P = {p["id"]: p for p in patch["patch"]}
 P["X-amazon-author-review-saas-acquisition"]["same_as"] = ["V11-B-14387997"]  # manual fix (spot-check)
 for x in extras: x.update({k: v for k, v in P.get(x["id"], {}).items() if k != "id"})
-extras += [dict(n, same_as=n.get("same_as") or []) for n in patch["new"]]
+extras += [dict(n, same_as=n.get("same_as") or [], source_round=n.get("source_round") or "proven_models", source_file=n.get("source_file") or "research/koerner-office/analysis/proven_models/PROVEN_MODELS.md §Top 10") for n in patch["new"]]
 byid = {r["id"]: r for r in recs}
 for x in extras:
     x.setdefault("dupes", [])
@@ -51,5 +51,8 @@ meta["subtitle"] = f"{len(out)} opportunities consolidated from v1–v11 reports
 data = {"meta": meta, "opportunities": out}
 (here.parent/"opportunities.json").write_text(json.dumps(data, ensure_ascii=False, indent=1))
 tpl = (here/"template.html").read_text()
-(here.parent/"index.html").write_text(tpl.replace("/*DATA*/null", json.dumps(data, ensure_ascii=False).replace("</", "<\\/")))
+det = (here.parent/"details.json").read_text() if (here.parent/"details.json").exists() else "{}"
+html = tpl.replace("/*DATA*/null", json.dumps(data, ensure_ascii=False).replace("</", "<\\/")).replace("/*DETAILS*/{}", det.replace("</", "<\\/"))
+(here.parent/"index.html").write_text(html)
+print("index.html", len(html.encode()) // 1024, "KB")
 print(len(recs), "ledger after id-merge;", len(out), "total;", len(extras), "extras")

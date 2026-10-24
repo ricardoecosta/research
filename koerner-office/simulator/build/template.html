@@ -38,6 +38,22 @@ td.num{text-align:right;font-weight:700}.plus{color:var(--ok)}.zero{color:var(--
 .combo{padding:6px 8px;border:1px solid var(--line);border-radius:7px;margin:5px 0;cursor:pointer}.combo:hover{background:#f4f6ff}.combo b{color:var(--ok)}
 .note{color:var(--mut);font-size:11.5px;margin-top:6px}.more{width:100%;padding:7px;border:1px solid var(--line);background:#fff;border-radius:8px;cursor:pointer}
 .legend span{margin-right:8px}
+
+.card h3 .nm{cursor:pointer;color:var(--ink)}.card h3 .nm:hover{color:var(--acc);text-decoration:underline}
+.dbtn{border:1px solid var(--acc);color:var(--acc);background:#fff;border-radius:6px;padding:2px 9px;font-size:12px;cursor:pointer;margin-top:6px}
+#drawer{position:fixed;top:0;right:0;width:min(760px,96vw);height:100vh;background:#fff;box-shadow:-8px 0 30px rgba(0,0,0,.18);transform:translateX(105%);transition:transform .2s;z-index:50;display:flex;flex-direction:column}
+#drawer.open{transform:none}#drawer .dh{padding:14px 18px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
+#drawer .dh h2{margin:0;font-size:17px}#drawer .db{overflow:auto;padding:6px 18px 30px}#drawer .x{border:0;background:var(--unkb);border-radius:6px;padding:4px 10px;cursor:pointer;font-size:16px}
+#shade{position:fixed;inset:0;background:rgba(15,20,35,.25);display:none;z-index:40}#shade.open{display:block}
+.det h4{margin:16px 0 6px;font-size:12.5px;text-transform:uppercase;letter-spacing:.04em;color:var(--mut);border-top:1px solid var(--line);padding-top:10px}
+.det .kv{display:grid;grid-template-columns:150px 1fr;gap:3px 10px;font-size:13px}.det .kv>b{color:var(--mut);font-weight:600}
+.det td,.det th{font-size:12.3px}.det ul{margin:4px 0;padding-left:18px}.det a{color:var(--acc);word-break:break-all}
+.nis{color:#9aa1ad;font-style:italic}.est{font-size:10.5px;background:var(--softb);color:var(--soft);border-radius:4px;padding:0 4px;margin-left:4px}
+.st{font-weight:700;font-size:11.5px}.st.pass{color:var(--ok)}.st.hard{color:var(--bad)}.st.soft{color:var(--soft)}.st.unknown{color:var(--unk)}
+.tools{display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin-top:8px}.tools button{border:1px solid var(--line);background:#fff;border-radius:6px;padding:4px 10px;cursor:pointer;font-size:12.5px}
+.tools label{font-size:12.5px;display:flex;gap:4px;align-items:center}
+#printarea{display:none}
+@media print{body.printing>*:not(#printarea){display:none!important}body.printing #printarea{display:block}#printarea .pitem{page-break-inside:avoid;border-bottom:1px solid #ccc;padding:10px 0}}
 </style></head><body>
 <header><div><h1>Opportunity constraint simulator</h1><div class="sub" id="subtitle"></div></div>
 <div class="presets" id="presets"></div></header>
@@ -50,7 +66,8 @@ td.num{text-align:right;font-weight:700}.plus{color:var(--ok)}.zero{color:var(--
 </section>
 <section>
 <div class="panel"><div class="big"><div><span class="n" id="nv">0</span> <span class="of" id="of"></span></div><div id="nbreak" class="hint"></div></div><div class="bar"><i id="barv"></i></div>
-<div class="tabs" id="tabs"></div><div style="display:flex;gap:8px"><input id="search" placeholder="Search name, type, market, source…"></div>
+<div class="tabs" id="tabs"></div><div style="display:flex;gap:8px"><input id="search" placeholder="Search names, details, competitors, sources…"></div>
+<div class="tools"><label><input type="checkbox" id="deepsearch" checked> search inside details</label><button id="printbtn">Print current list with details</button><button id="exportbtn">Export current list (HTML)</button><span class="hint" id="exportinfo"></span></div>
 <div class="note legend"><span class="chip p">pass</span><span class="chip s">soft</span><span class="chip f">fail</span><span class="chip u">unknown</span> Hover a chip for the report's reason and file. Score = <span id="formula"></span></div></div>
 <div id="list" style="margin-top:10px"></div></section>
 <section class="panel" id="givein"><h2>What to give in</h2>
@@ -62,6 +79,8 @@ td.num{text-align:right;font-weight:700}.plus{color:var(--ok)}.zero{color:var(--
 <h2 style="margin-top:16px">Most common blockers</h2><table id="blockers"></table>
 </section>
 </main>
+<div id="shade"></div><aside id="drawer"><div class="dh"><div><h2 id="dtitle"></h2><div class="meta" id="dmeta"></div></div><button class="x" id="dclose" title="Close (Esc)">✕</button></div><div class="db det" id="dbody"></div></aside><div id="printarea"></div>
+<script type="application/json" id="details">/*DETAILS*/{}</script>
 <script>
 const DATA = /*DATA*/null;
 const OPPS = DATA.opportunities, META = DATA.meta;
@@ -134,7 +153,7 @@ $('#formula').textContent='10×evidence + 2×months-to-copy (max 12) + 2×intere
 function needed(o,k){const c=CK[k];if(c.type==='bool')return true;const L=c.ladder;for(let i=idx(c)+1;i<L.length;i++){const st={...S,[k]:L[i]};let r=c.test(o,L[i],st);if(r==='u'&&S.unknown==='fail')r='f';if(r==='s'&&S.softfail)r='f';if(r!=='f')return L[i]}return null}
 function describeNeed(k,v){const c=CK[k];if(c.type==='bool')return c.label.replace('Allow ','allow ');if(v==null)return c.label+': not unlockable';return c.label.replace(/^(Min\.|Max\.) /,'')+' → '+c.fmt(v)}
 // ---- render
-let tab='viable',shown=40;
+let tab='viable',shown=40,CUR=[];
 function update(){
  document.querySelectorAll('#presets button').forEach(b=>b.classList.toggle('on',b.dataset.p===S.preset));
  const q=$('#search').value.toLowerCase();
@@ -147,10 +166,12 @@ function update(){
  $('#tabs').innerHTML=Object.entries(tabs).map(([k,[l,n]])=>`<button data-t="${k}" class="${tab===k?'on':''}">${l} (${n})</button>`).join('');
  $('#tabs').querySelectorAll('button').forEach(b=>b.onclick=()=>{tab=b.dataset.t;shown=40;update()});
  let list=tab==='viable'?v:tab==='near'?rows.filter(r=>r.fails.length===1):rows;
- if(q)list=list.filter(r=>JSON.stringify([r.o.name,r.o.description,r.o.model_type,r.o.markets,r.o.source_round,r.o.source_file]).toLowerCase().includes(q));
+ if(q){const deep=$('#deepsearch').checked;list=list.filter(r=>JSON.stringify([r.o.name,r.o.description,r.o.model_type,r.o.markets,r.o.source_round,r.o.source_file,r.o.id]).toLowerCase().includes(q)||(deep&&searchText(r.o.id).includes(q)))}
+ CUR=list;$('#exportinfo').textContent=list.length+' in current list';
  list.sort((a,b)=>a.fails.length-b.fails.length||b.sc-a.sc||(b.o.revenue?.gbp_mo_high||0)-(a.o.revenue?.gbp_mo_high||0));
  $('#list').innerHTML=list.slice(0,shown).map(card).join('')+(list.length>shown?`<button class="more" id="more">Show more (${list.length-shown} left)</button>`:'')+(list.length?'':'<div class="panel">Nothing here with these settings. See “What to give in”.</div>');
  if($('#more'))$('#more').onclick=()=>{shown+=60;update()};
+ $('#list').querySelectorAll('[data-id]').forEach(e=>e.onclick=()=>openDetail(e.dataset.id));
  giveIn(rows,v.length);
 }
 function esc(s){return String(s??'').replace(/[&<>"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'})[m])}
@@ -161,10 +182,10 @@ function card(r){const o=r.o;const cls=!r.fails.length?'v':r.fails.length===1?'n
  const unlock=r.fails.length?`<div class="unlock">To unlock: ${r.fails.map(k=>describeNeed(k,needed(o,k))).map(esc).join(' + ')}</div>`:'';
  const rev=o.revenue&&o.revenue.text&&o.revenue.text!=='unknown'?`${esc(o.revenue.text)}${o.revenue.gbp_mo_high?` (≈${fmtGBP(o.revenue.gbp_mo_low||o.revenue.gbp_mo_high)}–${fmtGBP(o.revenue.gbp_mo_high)}/mo)`:''}`:'unknown';
  const ver=(o.verdicts||[]).map(x=>`<b>${esc(x.round)}</b> ${esc(x.verdict)}${x.confidence?' ('+esc(x.confidence)+')':''}${x.reasons&&x.reasons.length?': '+esc(x.reasons.join('; ')):''}`).join(' · ');
- return `<div class="card ${cls}"><h3><span>${esc(o.name)}</span><span class="sc">score ${r.sc}</span></h3>
+ return `<div class="card ${cls}"><h3><span class="nm" data-id="${esc(o.id)}">${esc(o.name)}</span><span class="sc">score ${r.sc}</span></h3>
  <div class="meta">${esc(o.model_type)} · ${esc(o.track)} · ${esc((o.markets||[]).join(', '))} · ${esc(o.source_round)} · <code>${esc(o.source_file)}</code>${o.dupes&&o.dupes.length?' · merged: '+esc(o.dupes.join(', ')):''}</div>
  <div class="desc">${esc(o.description)}</div><div class="meta">Revenue (from reports): ${rev}</div><div class="chips">${chips}</div>${unlock}
- <details><summary>Verdict history</summary><div class="verd">${ver||'none'}</div></details></div>`}
+ <details><summary>Verdict history</summary><div class="verd">${ver||'none'}</div></details><button class="dbtn" data-id="${esc(o.id)}">Full details &amp; sources</button></div>`}
 function relaxed(k,steps){const c=CK[k];const st={...S,countries:S.countries};if(c.type==='bool'){if(S[k]||steps>1)return null;st[k]=true;return st}
  const i=idx(c)+steps;if(i>=c.ladder.length)return null;st[k]=c.ladder[i];if(k==='outreach'&&st[k]==='lawful'&&!Object.values(S.countries).some(Boolean)){st.countries=Object.fromEntries(Object.entries(LAWFUL).filter(([a,b])=>b.status!=='ban').map(([a])=>[a,true]))}return st}
 function stepLabel(k,st){const c=CK[k];return c.type==='bool'?c.label.replace('Allow ','allow '):c.label.replace(/^(Min\.|Max\.) /,'')+' '+c.fmt(S[k])+' → '+c.fmt(st[k])}
@@ -192,6 +213,50 @@ function giveIn(rows,base){
  const only={};for(const r of rows)if(r.fails.length===1)only[r.fails[0]]=(only[r.fails[0]]||0)+1;
  $('#blockers').innerHTML='<tr><th>Constraint</th><th>blocks</th><th>sole blocker</th></tr>'+Object.entries(cnt).sort((a,b)=>b[1]-a[1]).map(([k,n])=>`<tr><td>${esc(CK[k].label)}</td><td class="num">${n}</td><td class="num">${only[k]||0}</td></tr>`).join('');
 }
+
+// ---- details (lazy: parsed on first use, rendered on open)
+let DET=null,STXT={};
+function det(){if(!DET)DET=JSON.parse(document.getElementById('details').textContent);return DET}
+function searchText(id){if(STXT[id]==null){const d=det()[id]||{};STXT[id]=JSON.stringify(d).toLowerCase()}return STXT[id]}
+const NIS='<span class="nis">not in sources</span>';
+const GH='https://github.com/ricardoecosta/research/blob/main/';
+const CODES={K0:'moat too weak (a rival could copy it in under 3 months)',K1:'breaks one of the hard rules',K2:'2+ competing launches in the last 6 months',K3:'platform owner or official partner already serves it',K4:'5+ maintained incumbents at the price floor, no wedge',K5:'only payment evidence is older than 18 months',K6:'demand withdrawn or gone',C1:'revenue not verified',C2:'revenue under $1k/month or no profit',C3:'price outside $20k–150k or over 5× profit',C4:'traffic not mostly organic',C7:'depends on the seller’s face or brand',C8:'durability: decline or platform-ban risk',C9:'no plausible handover to ≤5 h/week',B3:'price over ~4–6× profit',B5:'not transferable (seller-dependent)',B6:'churn, decline or platform-ban risk'};
+function t(v){return v==null||v===''||(Array.isArray(v)&&!v.length)?NIS:esc(v)}
+function estv(x){if(!x)return NIS;return esc(x.value)+(x.est?'<span class="est">est.</span>':'')+(x.note?` <span class="hint">${esc(x.note)}</span>`:'')}
+function fileLink(f){if(!f)return '';if(f.startsWith('../'))return `<code>~/hustling/${esc(f.slice(3))}</code> <span class="hint">(outside the repo)</span>`;return `<a href="${GH}${esc(f)}" target="_blank" rel="noopener">${esc(f)}</a>`}
+function relPath(f){f=String(f||'').replace(/\s*§.*$/,'').trim();if(f.startsWith('research/'))return f.slice(9);if(f.startsWith('playbooks/'))return '../'+f;return f}
+function detailHTML(o){const D=det()[o.id]||{},d=D.d||{},res=D.res||{};
+ let h='';
+ h+=`<h4>The idea</h4><div class="kv"><b>Summary</b><div>${t(d.summary||o.description)}</div><b>How it makes money</b><div>${t(d.how_money)}</div><b>Target customer</b><div>${t(d.customer)}</div><b>Market / country</b><div>${d.market?esc(d.market):NIS}${o.markets&&o.markets.length?` <span class="hint">(tagged: ${esc(o.markets.join(', '))})</span>`:''}</div><b>Model · track</b><div>${esc(o.model_type)} · ${esc(o.track)}</div></div>`;
+ const rc=d.revenue_claims||[];
+ h+=`<h4>Evidence</h4><div class="kv"><b>Revenue (simulator)</b><div>${o.revenue&&o.revenue.text&&o.revenue.text!=='unknown'?esc(o.revenue.text):NIS}</div><b>Proof of paid demand</b><div>${t(d.paid_demand)}</div></div>`;
+ h+=rc.length?`<table><tr><th>Revenue claim</th><th>Date</th><th>Who says</th></tr>${rc.map(x=>`<tr><td>${esc(x.claim)}</td><td>${t(x.date)}</td><td>${t(x.who)}</td></tr>`).join('')}</table>`:`<div class="kv"><b>Revenue claims</b><div>${NIS}</div></div>`;
+ const cp=d.competitors||[];
+ h+=`<div style="margin-top:8px"><b style="font-size:13px;color:var(--mut)">Competitors and comparables</b></div>`+(cp.length?`<table><tr><th>Name</th><th>Price</th><th>Note</th></tr>${cp.map(x=>`<tr><td>${esc(x.name)}</td><td>${t(x.price)}</td><td>${x.note?esc(x.note):'—'}</td></tr>`).join('')}</table>`:`<div>${NIS}</div>`);
+ const rd=d.rounds||[];
+ h+=`<h4>Scores and verdicts by round</h4>`+(rd.length?`<table><tr><th>Round</th><th>Stage</th><th>Verdict</th><th>Score</th><th>Why, in plain words</th></tr>${rd.map(x=>`<tr><td>${esc(x.round)}</td><td>${t(x.stage)}</td><td><b>${esc(x.verdict)}</b>${(x.codes||[]).map(c=>` <span class="chip f" title="${esc(CODES[c]||c)}">${esc(c)}</span>`).join('')}</td><td>${t(x.score)}</td><td>${esc(x.plain)}${(x.codes||[]).filter(c=>CODES[c]).length?`<div class="hint">${(x.codes||[]).filter(c=>CODES[c]).map(c=>esc(c+' = '+CODES[c])).join('; ')}</div>`:''}</td></tr>`).join('')}</table>`:NIS);
+ const L=o.ledger;if(L&&L.verdict)h+=`<div class="hint" style="margin-top:4px">Ledger (SEEN.csv): ${esc(L.verdict)}${L.confidence?' ('+esc(L.confidence)+')':''} — ${esc(L.reason||'')}</div>`;
+ h+=`<h4>Constraint tags (simulator)</h4><table><tr><th>Constraint</th><th>Status</th><th>Value</th><th>Reason</th><th>Source</th></tr>${Object.entries(o.c||{}).map(([k,c])=>`<tr><td>${esc(k.replace('_',' '))}</td><td><span class="st ${esc(c.s)}">${esc(c.s)}</span></td><td>${c.v==null?'<span class="nis">unknown</span>':esc(typeof c.v==='boolean'?(c.v?'yes':'no'):c.v)}</td><td>${esc(c.r||'')}</td><td>${c.f?fileLink(relPath(c.f)):''}</td></tr>`).join('')}</table>`;
+ h+=`<h4>Risks, moat and estimates</h4><div class="kv"><b>Risks</b><div>${(d.risks||[]).length?'<ul>'+d.risks.map(x=>`<li>${esc(x)}</li>`).join('')+'</ul>':NIS}</div><b>Moat assessment</b><div>${t(d.moat)}</div><b>Hours / week</b><div>${estv(d.hours)}</div><b>Budget / price</b><div>${estv(d.budget)}</div><b>Time to first revenue</b><div>${estv(d.first_revenue)}</div></div>`;
+ h+=`<h4>Test plan / next steps</h4><div>${t(d.next_steps)}</div>`;
+ const yt=res.youtube||[],ln=res.links||[],fl=res.files||[];
+ h+=`<h4>Resources</h4>`;
+ h+=`<div class="kv"><b>YouTube episodes</b><div>${yt.length?'<ul>'+yt.map(y=>`<li><a href="${esc(y.url)}${y.ts?'&t='+esc(y.ts):''}" target="_blank" rel="noopener">${esc(y.label)}</a> <span class="hint">timestamp: ${y.ts?esc(y.ts):'not in sources'}</span></li>`).join('')+'</ul>':NIS}</div>`;
+ const grp={flippa:'Flippa listings',acquire:'Acquire.com listings',web:'Sites, competitors and articles'};
+ for(const g of ['flippa','acquire','web']){const xs=ln.filter(x=>x.kind===g);if(xs.length||g==='web')h+=`<b>${grp[g]}</b><div>${xs.length?'<ul>'+xs.map(x=>`<li><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.label)}</a> <span class="hint">${esc(x.url.length>90?x.url.slice(0,90)+'…':x.url)}</span></li>`).join('')+'</ul>':NIS}</div>`}
+ h+=`<b>Source files</b><div>${fl.length?'<ul>'+fl.map(f=>`<li>${fileLink(f)}</li>`).join('')+'</ul>':NIS}</div></div>`;
+ return h}
+function openDetail(id){const o=OPPS.find(x=>x.id===id);if(!o)return;$('#dtitle').textContent=o.name;
+ $('#dmeta').innerHTML=`${esc(o.id)} · ${esc(o.source_round||'')}${o.dupes&&o.dupes.length?' · merged: '+esc(o.dupes.join(', ')):''}`;
+ $('#dbody').innerHTML=detailHTML(o);$('#dbody').scrollTop=0;$('#drawer').classList.add('open');$('#shade').classList.add('open')}
+function closeDetail(){$('#drawer').classList.remove('open');$('#shade').classList.remove('open')}
+$('#dclose').onclick=closeDetail;$('#shade').onclick=closeDetail;document.addEventListener('keydown',e=>{if(e.key==='Escape')closeDetail()});
+$('#deepsearch').onchange=()=>update();
+function printableHTML(){return CUR.map(r=>`<div class="pitem det"><h2 style="margin:6px 0">${esc(r.o.name)}</h2><div class="meta">${esc(r.o.id)} · ${!r.fails.length?'viable':'blocked by: '+esc(r.fails.join(', '))} · score ${r.sc}</div>${detailHTML(r.o)}</div>`).join('')}
+$('#printbtn').onclick=()=>{$('#printarea').innerHTML=`<h1>Opportunities (${CUR.length})</h1>`+printableHTML();document.body.classList.add('printing');setTimeout(()=>{window.print();document.body.classList.remove('printing');$('#printarea').innerHTML=''},50)};
+$('#exportbtn').onclick=()=>{const css=document.querySelector('style').textContent;const html=`<!doctype html><html><head><meta charset="utf-8"><title>Opportunities export</title><style>${css} body{padding:20px;max-width:1000px;margin:auto} #printarea{display:block}</style></head><body><h1>Opportunities export (${CUR.length})</h1><p class="hint">Settings: ${esc(JSON.stringify(Object.fromEntries(Object.entries(S).filter(([k])=>k!=='preset'))))}</p>${printableHTML()}</body></html>`;
+ const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([html],{type:'text/html'}));a.download='opportunities_export.html';a.click()};
+
 $('#target').oninput=()=>update();
 let tmo;$('#search').oninput=()=>{clearTimeout(tmo);tmo=setTimeout(update,150)};
 $('#presets').innerHTML=Object.entries(PRESETS).map(([k,p])=>`<button data-p="${k}" title="${esc(p.note)}">${esc(p.label)}</button>`).join('');
