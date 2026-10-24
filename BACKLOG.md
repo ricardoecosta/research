@@ -15,5 +15,7 @@ Added 24 Oct 2026 by Ricardo. Unordered; nothing here is validated yet.
 8. **Predict gaps created by AI adoption**: what new problems, jobs and needs appear once people and companies use AI heavily.
 9. **Wellness after AI**: a wellness app for life after/around heavy AI use (screen fatigue, focus, meaning, job anxiety, etc.).
 
+10. **SMB AI-gap scanner (PT, UK, ES)**: automatically scan small and medium businesses whose sites have lots of manuals, docs or FAQs but no chatbot or AI help, estimate how much AI could help them, and find the ones that don't know how to use it. Source: an earlier YouTube transcript and playbook (being located). Check against the no-local-business and outreach-law rules.
+
 ## Constraints that still apply
 Fully automatable by agents, interesting to Ricardo, no selling to local businesses, no face/personal brand, no unlawful cold outreach, ≤5 h/week, any country.
