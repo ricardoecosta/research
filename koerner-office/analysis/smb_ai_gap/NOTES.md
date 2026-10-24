@@ -145,3 +145,61 @@ This idea differs in that it's the discovery and audit layer, not owning a gener
 2. Add Portuguese and Spanish keywords plus a product-page datasheet count.
 3. Scan one exporter list per country, about 100 sites each: LIA/BEAMA for the UK, APCOR or APICER for Portugal, the ICEX directory for Spain.
 4. Then decide between route (a), the audit tool, and route (b), the data product for agencies. No outreach either way.
+
+---
+
+## Update 24 Oct 2026: discovery program, rendered chat detection, playbook scoring
+
+**Tools:** `tools/smb_discover.py` builds company lists (name, website, sector, country, source; no contact data) from public directories. `tools/smb_ai_gap_scan.py --render` crawls them. `tools/smb_playbook_score.py` scores every observable playbook variable and can rescore a CSV without re-crawling. Signal map: `SIGNALS.md`.
+
+**Discovery sources that worked (422 companies):** BEAMA member directory (rendered, with "load more" clicks) gave 122 UK electrical firms. The LIA list gave 30 UK lighting firms. APCOR directory: 86 PT cork. APICER: 44 PT ceramics. ASCER/Tile of Spain: 100 ES ceramics. ANFALUM member pages: 40 ES lighting.
+**Didn't work:** OSM Overpass (public servers timed out or were at capacity; the code is kept, run it off-peak or on a mirror). Wikidata is too thin and skewed to large firms. LIA directory paging is JS-only (we used the existing list). Instagram was not used (ToS).
+
+**Chat-detection validation (30 UK lighting sites):** checked by hand against network requests and the DOM. The old "17 have chat" labels were wrong: 10 "Crisp" hits were WordPress CSS (`--wp--preset--shadow--crisp`) and 5 "HubSpot" hits were the HubSpot *tracking* script, not chat. Only 2 of the 17 were real (precision 12%), and NVC's in-house chat was missed. **Real chat: 3 sites** (Illuma tawk.to, Ventilux LiveChat, NVC custom). The static scan found 1 of 3. After the fixes (headless render, cookie-consent click, connect.livechatinc signature, DOM chat detector) **the new scanner finds 3 of 3 with 0 false positives (precision 100%, recall 100%, n=3, small sample)**. On the full run the DOM detector flagged 17 "custom chat" sites. Checking them by hand: 4 were really AI chatbots (Sentinel, Viessmann, Laminam, Zehnder), 5 were WhatsApp buttons or a Snapchat pixel, and 1 was Salesforce messaging. The classifier is fixed in code and the CSV was patched (`chat_validation_uk_lighting30_2026-10-24.csv`).
+
+**Full scan (`scan_uk_pt_es_2026-10-24.csv`, 344 of 422 sites reachable, 23 blocked by robots.txt, 55 errors):**
+```
+UK: discovered=152 scanned_ok=126 doc_heavy=62 gap=52 with_any_chat_or_bot=22 ai_agent=3 pass_est=53 strong_est=14 enterprise=9
+  electrical: ok=96 doc_heavy=55 gap=46 pass_est=48
+  lighting: ok=30 doc_heavy=7 gap=6 pass_est=5
+    42/50 50/60 (unk 2/3) Mirashowers https://www.mirashowers.co.uk [electrical] chat=ticket_helpdesk_only pdf=1 datasheets=0 doc_urls=254 support_hiring=yes gap=yes
+    42/50 50/60 (unk 2/3) Siemens https://www.siemens.co.uk [electrical] chat=ticket_helpdesk_only pdf=0 datasheets=0 doc_urls=337 support_hiring=no gap=yes
+    41/50 49/60 (unk 2/3) Ambienteufh https://ambienteufh.co.uk [electrical] chat=none pdf=0 datasheets=43 doc_urls=100 support_hiring=yes gap=yes
+    41/50 49/60 (unk 2/3) Deta https://www.deta.co.uk [electrical] chat=none pdf=8 datasheets=3 doc_urls=38 support_hiring=yes gap=yes
+    41/50 49/60 (unk 2/3) Mkelectric https://www.mkelectric.co.uk [electrical] chat=none pdf=4 datasheets=1 doc_urls=675 support_hiring=no gap=yes
+    41/50 49/60 (unk 2/3) Cmp Products https://www.cmp-products.com [electrical] chat=none pdf=4 datasheets=0 doc_urls=172 support_hiring=no gap=yes
+    40/50 48/60 (unk 2/3) Timeguard https://www.timeguard.com [electrical] chat=none pdf=8 datasheets=3 doc_urls=38 support_hiring=yes gap=yes
+    40/50 48/60 (unk 2/3) Trendcontrols https://www.trendcontrols.com [electrical] chat=none pdf=1 datasheets=1 doc_urls=675 support_hiring=no gap=yes
+    40/50 48/60 (unk 2/3) Vent Axia https://www.vent-axia.com [electrical] chat=none pdf=0 datasheets=0 doc_urls=56 support_hiring=no gap=yes
+    39/50 47/60 (unk 2/3) Atkore https://www.atkore.com [electrical] chat=none pdf=0 datasheets=0 doc_urls=498 support_hiring=yes gap=yes
+PT: discovered=130 scanned_ok=108 doc_heavy=9 gap=9 with_any_chat_or_bot=3 ai_agent=0 pass_est=3 strong_est=0 enterprise=0
+  ceramics: ok=38 doc_heavy=7 gap=7 pass_est=3
+  cork: ok=70 doc_heavy=2 gap=2 pass_est=0
+    37/50 46/60 (unk 2/3) Margres https://www.margres.com [ceramics] chat=none pdf=1 datasheets=0 doc_urls=397 support_hiring=yes gap=yes
+    37/50 46/60 (unk 2/3) Lovetiles https://www.lovetiles.com [ceramics] chat=none pdf=0 datasheets=0 doc_urls=213 support_hiring=yes gap=yes
+    37/50 46/60 (unk 2/3) Cs Telhas https://www.cs-telhas.pt [ceramics] chat=none pdf=0 datasheets=3 doc_urls=102 support_hiring=no gap=yes
+    36/50 45/60 (unk 2/3) Fullscreen https://www.fullscreen.pt [cork] chat=live_chat_non_ai pdf=0 datasheets=0 doc_urls=1 support_hiring=yes gap=no
+    34/50 43/60 (unk 2/3) Porcel https://www.porcel.pt [ceramics] chat=none pdf=0 datasheets=0 doc_urls=47 support_hiring=no gap=yes
+    34/50 43/60 (unk 2/3) Jpscorkgroup https://www.jpscorkgroup.com [cork] chat=none pdf=3 datasheets=0 doc_urls=22 support_hiring=no gap=yes
+    33/50 42/60 (unk 2/3) Revigres https://www.revigres.pt [ceramics] chat=none pdf=0 datasheets=0 doc_urls=34 support_hiring=no gap=yes
+    31/50 40/60 (unk 2/3) Archvaladares https://www.archvaladares.com [ceramics] chat=none pdf=0 datasheets=0 doc_urls=17 support_hiring=no gap=no
+    31/50 40/60 (unk 2/3) Pro.Costa Verde https://pro.costa-verde.com [ceramics] chat=none pdf=0 datasheets=0 doc_urls=8 support_hiring=no gap=no
+    31/50 40/60 (unk 2/3) Crealisgroup https://www.crealisgroup.com [cork] chat=none pdf=0 datasheets=0 doc_urls=4 support_hiring=no gap=no
+ES: discovered=140 scanned_ok=110 doc_heavy=16 gap=14 with_any_chat_or_bot=4 ai_agent=1 pass_est=11 strong_est=0 enterprise=1
+  ceramics: ok=74 doc_heavy=10 gap=9 pass_est=7
+  lighting: ok=36 doc_heavy=6 gap=5 pass_est=4
+    39/50 46/60 (unk 2/3) Schluter https://www.schluter.es [ceramics] chat=none pdf=0 datasheets=4 doc_urls=193 support_hiring=no gap=yes
+    38/50 45/60 (unk 2/3) Zemper https://www.zemper.com [lighting] chat=none pdf=0 datasheets=3 doc_urls=232 support_hiring=no gap=yes
+    38/50 45/60 (unk 2/3) Emac https://www.emac.es [ceramics] chat=none pdf=286 datasheets=100 doc_urls=292 support_hiring=yes gap=yes
+    38/50 45/60 (unk 2/3) Exagres https://www.exagres.es [ceramics] chat=none pdf=0 datasheets=0 doc_urls=60 support_hiring=no gap=yes
+    38/50 45/60 (unk 2/3) Benito https://www.benito.com [lighting] chat=custom_chat (AI unknown) pdf=0 datasheets=0 doc_urls=103 support_hiring=no gap=no
+    37/50 44/60 (unk 2/3) Ledvance https://www.ledvance.es [lighting] chat=none pdf=0 datasheets=1 doc_urls=160 support_hiring=no gap=yes
+    37/50 44/60 (unk 2/3) Natucer https://www.natucer.es [ceramics] chat=none pdf=153 datasheets=0 doc_urls=163 support_hiring=no gap=yes
+    37/50 44/60 (unk 2/3) Insca https://www.insca.com [ceramics] chat=none pdf=0 datasheets=0 doc_urls=46 support_hiring=no gap=yes
+    37/50 44/60 (unk 2/3) Mainzu https://www.mainzu.com [ceramics] chat=none pdf=18 datasheets=0 doc_urls=33 support_hiring=no gap=yes
+    36/50 43/60 (unk 2/3) Prilux https://prilux.es [lighting] chat=none pdf=0 datasheets=0 doc_urls=38 support_hiring=no gap=yes
+```
+"gap" = doc-heavy and no AI agent (none, live chat that isn't AI, or helpdesk only). Score columns: `*_est` fill unknowns at a neutral 3; `*_known` shows only what we measured. Top-10 lists leave out flagged disqualifiers, likely enterprises and existing AI agents. Some multinationals are still in (Siemens, Ledvance, Atkore) because size isn't measured, so check by eye. Fullscreen.pt is a web agency picked up from the APCOR footer (noise).
+
+**Takeaways:** UK electrical (BEAMA) is the densest gap: 46 of 96 sites are doc-heavy with no AI. The PT and ES directories are mostly small producers with thin websites (PT 9 of 108 doc-heavy), so the PT angle is weaker on public docs. Only 4 of 344 sites run any AI agent; 315 have no chat at all.
+**Limits:** `support_hiring` comes from the company's own careers page by keyword (noisy, e.g. a "customer service" link in the navigation). Size, ticket volume and budget are unknown. Business-type flags are keyword heuristics.
